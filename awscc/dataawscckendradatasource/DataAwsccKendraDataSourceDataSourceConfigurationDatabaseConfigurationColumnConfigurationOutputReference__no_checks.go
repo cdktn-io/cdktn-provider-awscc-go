@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawscckendradatasource
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationOutputReference) validateSetInternalValueParameters(val *DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfiguration) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccKendraDataSourceDataSourceConfigurationDatabaseConfigurationColumnConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

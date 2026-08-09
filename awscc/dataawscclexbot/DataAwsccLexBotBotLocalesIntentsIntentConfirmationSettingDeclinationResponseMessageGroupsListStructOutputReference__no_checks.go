@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawscclexbot
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructOutputReference) validateSetInternalValueParameters(val *DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStruct) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccLexBotBotLocalesIntentsIntentConfirmationSettingDeclinationResponseMessageGroupsListStructOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

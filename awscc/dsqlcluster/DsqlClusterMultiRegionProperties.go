@@ -1,0 +1,15 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package dsqlcluster
+
+
+type DsqlClusterMultiRegionProperties struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/dsql_cluster#clusters DsqlCluster#clusters}.
+	Clusters *[]*string `field:"optional" json:"clusters" yaml:"clusters"`
+	// The witness region in a multi-region cluster.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/dsql_cluster#witness_region DsqlCluster#witness_region}
+	WitnessRegion *string `field:"optional" json:"witnessRegion" yaml:"witnessRegion"`
+}
+

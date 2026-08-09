@@ -1,0 +1,117 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package sagemakermodel
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (s *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validatePutImageConfigParameters(value *SagemakerModelPrimaryContainerImageConfig) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validatePutModelDataSourceParameters(value *SagemakerModelPrimaryContainerModelDataSource) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validatePutMultiModelConfigParameters(value *SagemakerModelPrimaryContainerMultiModelConfig) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validateSetContainerHostnameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validateSetEnvironmentParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validateSetImageParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validateSetInferenceSpecificationNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validateSetModeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validateSetModelDataUrlParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validateSetModelPackageNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SagemakerModelPrimaryContainerOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewSagemakerModelPrimaryContainerOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

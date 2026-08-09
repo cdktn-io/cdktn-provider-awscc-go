@@ -1,0 +1,157 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package connectroutingprofile
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (c *jsiiProxy_ConnectRoutingProfile) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectRoutingProfile) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectRoutingProfile) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectRoutingProfile) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectRoutingProfile) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectRoutingProfile) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectRoutingProfile) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectRoutingProfile) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectRoutingProfile) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectRoutingProfile) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectRoutingProfile) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectRoutingProfile) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectRoutingProfile) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectRoutingProfile) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectRoutingProfile) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectRoutingProfile) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectRoutingProfile) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectRoutingProfile) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectRoutingProfile) validatePutManualAssignmentQueueConfigsParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectRoutingProfile) validatePutMediaConcurrenciesParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectRoutingProfile) validatePutQueueConfigsParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectRoutingProfile) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectRoutingProfile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateConnectRoutingProfile_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateConnectRoutingProfile_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateConnectRoutingProfile_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateConnectRoutingProfile_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectRoutingProfile) validateSetAgentAvailabilityTimerParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectRoutingProfile) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectRoutingProfile) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectRoutingProfile) validateSetDefaultOutboundQueueArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectRoutingProfile) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectRoutingProfile) validateSetInstanceArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectRoutingProfile) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectRoutingProfile) validateSetNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectRoutingProfile) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func validateNewConnectRoutingProfileParameters(scope constructs.Construct, id *string, config *ConnectRoutingProfileConfig) error {
+	return nil
+}
+

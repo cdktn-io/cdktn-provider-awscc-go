@@ -1,0 +1,535 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package connectquickconnect
+
+import (
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectquickconnect/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+type ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference interface {
+	cdktn.ComplexObject
+	// the index of the complex object in a list.
+	// Experimental.
+	ComplexObjectIndex() interface{}
+	// Experimental.
+	SetComplexObjectIndex(val interface{})
+	// set to true if this item is from inside a set and needs tolist() for accessing it set to "0" for single list items.
+	// Experimental.
+	ComplexObjectIsFromSet() *bool
+	// Experimental.
+	SetComplexObjectIsFromSet(val *bool)
+	ContactFlowArn() *string
+	SetContactFlowArn(val *string)
+	ContactFlowArnInput() *string
+	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
+	//
+	// If this returns an empty array the stack will not be attached.
+	// Experimental.
+	CreationStack() *[]*string
+	// Experimental.
+	Fqn() *string
+	InternalValue() interface{}
+	SetInternalValue(val interface{})
+	QueueArn() *string
+	SetQueueArn(val *string)
+	QueueArnInput() *string
+	// Experimental.
+	TerraformAttribute() *string
+	// Experimental.
+	SetTerraformAttribute(val *string)
+	// Experimental.
+	TerraformResource() cdktn.IInterpolatingParent
+	// Experimental.
+	SetTerraformResource(val cdktn.IInterpolatingParent)
+	// Experimental.
+	ComputeFqn() *string
+	// Experimental.
+	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+	// Experimental.
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
+	// Experimental.
+	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+	// Experimental.
+	GetListAttribute(terraformAttribute *string) *[]*string
+	// Experimental.
+	GetNumberAttribute(terraformAttribute *string) *float64
+	// Experimental.
+	GetNumberListAttribute(terraformAttribute *string) *[]*float64
+	// Experimental.
+	GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64
+	// Experimental.
+	GetStringAttribute(terraformAttribute *string) *string
+	// Experimental.
+	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+	// Experimental.
+	InterpolationAsList() cdktn.IResolvable
+	// Experimental.
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetContactFlowArn()
+	ResetQueueArn()
+	// Produce the Token's value at resolution time.
+	// Experimental.
+	Resolve(context cdktn.IResolveContext) interface{}
+	// Return a string representation of this resolvable object.
+	//
+	// Returns a reversible string representation.
+	// Experimental.
+	ToString() *string
+}
+
+// The jsii proxy struct for ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference
+type jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference struct {
+	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) ComplexObjectIndex() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"complexObjectIndex",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) ComplexObjectIsFromSet() *bool {
+	var returns *bool
+	_jsii_.Get(
+		j,
+		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) ContactFlowArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"contactFlowArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) ContactFlowArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"contactFlowArnInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) CreationStack() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) Fqn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) InternalValue() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) QueueArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"queueArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) QueueArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"queueArnInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) TerraformAttribute() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"terraformAttribute",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
+	_jsii_.Get(
+		j,
+		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+
+func NewConnectQuickConnectQuickConnectConfigQueueConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference {
+	_init_.Initialize()
+
+	if err := validateNewConnectQuickConnectQuickConnectConfigQueueConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
+		panic(err)
+	}
+	j := jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference{}
+
+	_jsii_.Create(
+		"@cdktn/provider-awscc.connectQuickConnect.ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference",
+		[]interface{}{terraformResource, terraformAttribute},
+		&j,
+	)
+
+	return &j
+}
+
+func NewConnectQuickConnectQuickConnectConfigQueueConfigOutputReference_Override(c ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
+	_init_.Initialize()
+
+	_jsii_.Create(
+		"@cdktn/provider-awscc.connectQuickConnect.ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference",
+		[]interface{}{terraformResource, terraformAttribute},
+		c,
+	)
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference)SetComplexObjectIndex(val interface{}) {
+	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"complexObjectIndex",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference)SetComplexObjectIsFromSet(val *bool) {
+	if err := j.validateSetComplexObjectIsFromSetParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference)SetContactFlowArn(val *string) {
+	if err := j.validateSetContactFlowArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"contactFlowArn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference)SetInternalValue(val interface{}) {
+	if err := j.validateSetInternalValueParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference)SetQueueArn(val *string) {
+	if err := j.validateSetQueueArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"queueArn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference)SetTerraformAttribute(val *string) {
+	if err := j.validateSetTerraformAttributeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformAttribute",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
+	if err := j.validateSetTerraformResourceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformResource",
+		val,
+	)
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) ComputeFqn() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		c,
+		"computeFqn",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{} {
+	if err := c.validateGetAnyMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		c,
+		"getAnyMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		c,
+		"getBooleanAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool {
+	if err := c.validateGetBooleanMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*bool
+
+	_jsii_.Invoke(
+		c,
+		"getBooleanMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) GetListAttribute(terraformAttribute *string) *[]*string {
+	if err := c.validateGetListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*string
+
+	_jsii_.Invoke(
+		c,
+		"getListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) GetNumberAttribute(terraformAttribute *string) *float64 {
+	if err := c.validateGetNumberAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *float64
+
+	_jsii_.Invoke(
+		c,
+		"getNumberAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) GetNumberListAttribute(terraformAttribute *string) *[]*float64 {
+	if err := c.validateGetNumberListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*float64
+
+	_jsii_.Invoke(
+		c,
+		"getNumberListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64 {
+	if err := c.validateGetNumberMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*float64
+
+	_jsii_.Invoke(
+		c,
+		"getNumberMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) GetStringAttribute(terraformAttribute *string) *string {
+	if err := c.validateGetStringAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *string
+
+	_jsii_.Invoke(
+		c,
+		"getStringAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) GetStringMapAttribute(terraformAttribute *string) *map[string]*string {
+	if err := c.validateGetStringMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*string
+
+	_jsii_.Invoke(
+		c,
+		"getStringMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		c,
+		"interpolationAsList",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		c,
+		"interpolationForAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) ResetContactFlowArn() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetContactFlowArn",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) ResetQueueArn() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetQueueArn",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
+	if err := c.validateResolveParameters(context); err != nil {
+		panic(err)
+	}
+	var returns interface{}
+
+	_jsii_.Invoke(
+		c,
+		"resolve",
+		[]interface{}{context},
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigQueueConfigOutputReference) ToString() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		c,
+		"toString",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+

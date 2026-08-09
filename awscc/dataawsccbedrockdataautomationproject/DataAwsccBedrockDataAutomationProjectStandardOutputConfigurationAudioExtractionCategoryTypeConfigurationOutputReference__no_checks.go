@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccbedrockdataautomationproject
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateSetInternalValueParameters(val *DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfiguration) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

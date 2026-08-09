@@ -1,0 +1,169 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package comprehenddocumentclassifier
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validatePutInputDataConfigParameters(value *ComprehendDocumentClassifierInputDataConfig) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validatePutOutputDataConfigParameters(value *ComprehendDocumentClassifierOutputDataConfig) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validatePutVpcConfigParameters(value *ComprehendDocumentClassifierVpcConfig) error {
+	return nil
+}
+
+func (c *jsiiProxy_ComprehendDocumentClassifier) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateComprehendDocumentClassifier_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateComprehendDocumentClassifier_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateComprehendDocumentClassifier_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateComprehendDocumentClassifier_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComprehendDocumentClassifier) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComprehendDocumentClassifier) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComprehendDocumentClassifier) validateSetDataAccessRoleArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComprehendDocumentClassifier) validateSetDocumentClassifierNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComprehendDocumentClassifier) validateSetLanguageCodeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComprehendDocumentClassifier) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComprehendDocumentClassifier) validateSetModeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComprehendDocumentClassifier) validateSetModelKmsKeyIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComprehendDocumentClassifier) validateSetModelPolicyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComprehendDocumentClassifier) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComprehendDocumentClassifier) validateSetVersionNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComprehendDocumentClassifier) validateSetVolumeKmsKeyIdParameters(val *string) error {
+	return nil
+}
+
+func validateNewComprehendDocumentClassifierParameters(scope constructs.Construct, id *string, config *ComprehendDocumentClassifierConfig) error {
+	return nil
+}
+

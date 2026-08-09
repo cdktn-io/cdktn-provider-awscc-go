@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccworkspacesinstancesworkspaceinstance
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationOutputReference) validateSetInternalValueParameters(val *DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecification) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccWorkspacesinstancesWorkspaceInstanceManagedInstanceCapacityReservationSpecificationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

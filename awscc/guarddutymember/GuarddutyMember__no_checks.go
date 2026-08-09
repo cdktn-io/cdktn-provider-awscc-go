@@ -1,0 +1,145 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package guarddutymember
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (g *jsiiProxy_GuarddutyMember) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GuarddutyMember) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GuarddutyMember) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GuarddutyMember) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GuarddutyMember) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GuarddutyMember) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GuarddutyMember) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GuarddutyMember) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GuarddutyMember) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GuarddutyMember) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GuarddutyMember) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GuarddutyMember) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GuarddutyMember) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GuarddutyMember) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GuarddutyMember) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GuarddutyMember) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GuarddutyMember) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GuarddutyMember) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GuarddutyMember) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateGuarddutyMember_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateGuarddutyMember_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateGuarddutyMember_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateGuarddutyMember_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GuarddutyMember) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GuarddutyMember) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GuarddutyMember) validateSetDetectorIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GuarddutyMember) validateSetDisableEmailNotificationParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GuarddutyMember) validateSetEmailParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GuarddutyMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_GuarddutyMember) validateSetMemberIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GuarddutyMember) validateSetMessageParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GuarddutyMember) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GuarddutyMember) validateSetStatusParameters(val *string) error {
+	return nil
+}
+
+func validateNewGuarddutyMemberParameters(scope constructs.Construct, id *string, config *GuarddutyMemberConfig) error {
+	return nil
+}
+

@@ -1,0 +1,85 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package lightsaildistribution
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (l *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (l *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference) validateSetOptionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference) validateSetQueryStringsAllowListParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_LightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewLightsailDistributionCacheBehaviorSettingsForwardedQueryStringsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

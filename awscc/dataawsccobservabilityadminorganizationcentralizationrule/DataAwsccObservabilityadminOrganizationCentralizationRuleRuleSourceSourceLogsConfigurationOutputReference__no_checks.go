@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccobservabilityadminorganizationcentralizationrule
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLogsConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLogsConfigurationOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLogsConfigurationOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLogsConfigurationOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLogsConfigurationOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLogsConfigurationOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLogsConfigurationOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLogsConfigurationOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLogsConfigurationOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLogsConfigurationOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLogsConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLogsConfigurationOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLogsConfigurationOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLogsConfigurationOutputReference) validateSetInternalValueParameters(val *DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLogsConfiguration) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLogsConfigurationOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLogsConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccObservabilityadminOrganizationCentralizationRuleRuleSourceSourceLogsConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

@@ -1,0 +1,21 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package s3filesaccesspoint
+
+
+type S3FilesAccessPointRootDirectoryCreationPermissions struct {
+	// Specifies the POSIX group ID to apply to the RootDirectory. Accepts values from 0 to 2^32 (4294967295).
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3files_access_point#owner_gid S3FilesAccessPoint#owner_gid}
+	OwnerGid *string `field:"optional" json:"ownerGid" yaml:"ownerGid"`
+	// Specifies the POSIX user ID to apply to the RootDirectory. Accepts values from 0 to 2^32 (4294967295).
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3files_access_point#owner_uid S3FilesAccessPoint#owner_uid}
+	OwnerUid *string `field:"optional" json:"ownerUid" yaml:"ownerUid"`
+	// Specifies the POSIX permissions to apply to the RootDirectory, in the format of an octal number representing the file's mode bits.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3files_access_point#permissions S3FilesAccessPoint#permissions}
+	Permissions *string `field:"optional" json:"permissions" yaml:"permissions"`
+}
+

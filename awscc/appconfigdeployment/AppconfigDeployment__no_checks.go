@@ -1,0 +1,157 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package appconfigdeployment
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AppconfigDeployment) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppconfigDeployment) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppconfigDeployment) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppconfigDeployment) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppconfigDeployment) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppconfigDeployment) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppconfigDeployment) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppconfigDeployment) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppconfigDeployment) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppconfigDeployment) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppconfigDeployment) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppconfigDeployment) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppconfigDeployment) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppconfigDeployment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppconfigDeployment) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppconfigDeployment) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppconfigDeployment) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppconfigDeployment) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppconfigDeployment) validatePutDynamicExtensionParametersParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppconfigDeployment) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppconfigDeployment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateAppconfigDeployment_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateAppconfigDeployment_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateAppconfigDeployment_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateAppconfigDeployment_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AppconfigDeployment) validateSetApplicationIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AppconfigDeployment) validateSetConfigurationProfileIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AppconfigDeployment) validateSetConfigurationVersionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AppconfigDeployment) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AppconfigDeployment) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AppconfigDeployment) validateSetDeploymentStrategyIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AppconfigDeployment) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AppconfigDeployment) validateSetEnvironmentIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AppconfigDeployment) validateSetKmsKeyIdentifierParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AppconfigDeployment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_AppconfigDeployment) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func validateNewAppconfigDeploymentParameters(scope constructs.Construct, id *string, config *AppconfigDeploymentConfig) error {
+	return nil
+}
+

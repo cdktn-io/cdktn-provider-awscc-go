@@ -1,0 +1,161 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package networkmanagerdevice
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (n *jsiiProxy_NetworkmanagerDevice) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerDevice) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerDevice) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerDevice) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerDevice) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerDevice) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerDevice) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerDevice) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerDevice) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerDevice) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerDevice) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerDevice) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerDevice) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerDevice) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerDevice) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerDevice) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerDevice) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerDevice) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerDevice) validatePutAwsLocationParameters(value *NetworkmanagerDeviceAwsLocation) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerDevice) validatePutLocationParameters(value *NetworkmanagerDeviceLocation) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerDevice) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerDevice) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateNetworkmanagerDevice_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateNetworkmanagerDevice_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateNetworkmanagerDevice_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateNetworkmanagerDevice_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerDevice) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerDevice) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerDevice) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerDevice) validateSetGlobalNetworkIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerDevice) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerDevice) validateSetModelParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerDevice) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerDevice) validateSetSerialNumberParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerDevice) validateSetSiteIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerDevice) validateSetTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerDevice) validateSetVendorParameters(val *string) error {
+	return nil
+}
+
+func validateNewNetworkmanagerDeviceParameters(scope constructs.Construct, id *string, config *NetworkmanagerDeviceConfig) error {
+	return nil
+}
+

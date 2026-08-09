@@ -1,0 +1,161 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package kendraindex
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (k *jsiiProxy_KendraIndex) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validatePutCapacityUnitsParameters(value *KendraIndexCapacityUnits) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validatePutDocumentMetadataConfigurationsParameters(value interface{}) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validatePutServerSideEncryptionConfigurationParameters(value *KendraIndexServerSideEncryptionConfiguration) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validatePutUserTokenConfigurationsParameters(value interface{}) error {
+	return nil
+}
+
+func (k *jsiiProxy_KendraIndex) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateKendraIndex_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateKendraIndex_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateKendraIndex_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateKendraIndex_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_KendraIndex) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_KendraIndex) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_KendraIndex) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_KendraIndex) validateSetEditionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_KendraIndex) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_KendraIndex) validateSetNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_KendraIndex) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_KendraIndex) validateSetRoleArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_KendraIndex) validateSetUserContextPolicyParameters(val *string) error {
+	return nil
+}
+
+func validateNewKendraIndexParameters(scope constructs.Construct, id *string, config *KendraIndexConfig) error {
+	return nil
+}
+

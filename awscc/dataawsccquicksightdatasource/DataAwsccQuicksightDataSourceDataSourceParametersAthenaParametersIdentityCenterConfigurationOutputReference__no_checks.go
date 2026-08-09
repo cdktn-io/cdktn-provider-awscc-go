@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccquicksightdatasource
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference) validateSetInternalValueParameters(val *DataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterConfiguration) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccQuicksightDataSourceDataSourceParametersAthenaParametersIdentityCenterConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

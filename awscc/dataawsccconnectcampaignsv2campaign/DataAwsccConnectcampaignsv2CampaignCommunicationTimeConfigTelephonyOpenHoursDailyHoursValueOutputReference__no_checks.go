@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccconnectcampaignsv2campaign
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueOutputReference) validateSetInternalValueParameters(val *DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValue) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHoursDailyHoursValueOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

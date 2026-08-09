@@ -1,0 +1,145 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package eksfargateprofile
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (e *jsiiProxy_EksFargateProfile) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksFargateProfile) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksFargateProfile) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksFargateProfile) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksFargateProfile) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksFargateProfile) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksFargateProfile) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksFargateProfile) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksFargateProfile) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksFargateProfile) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksFargateProfile) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksFargateProfile) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksFargateProfile) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksFargateProfile) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksFargateProfile) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksFargateProfile) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksFargateProfile) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksFargateProfile) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksFargateProfile) validatePutSelectorsParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksFargateProfile) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksFargateProfile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateEksFargateProfile_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateEksFargateProfile_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateEksFargateProfile_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateEksFargateProfile_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_EksFargateProfile) validateSetClusterNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_EksFargateProfile) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_EksFargateProfile) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_EksFargateProfile) validateSetFargateProfileNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_EksFargateProfile) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_EksFargateProfile) validateSetPodExecutionRoleArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_EksFargateProfile) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_EksFargateProfile) validateSetSubnetsParameters(val *[]*string) error {
+	return nil
+}
+
+func validateNewEksFargateProfileParameters(scope constructs.Construct, id *string, config *EksFargateProfileConfig) error {
+	return nil
+}
+

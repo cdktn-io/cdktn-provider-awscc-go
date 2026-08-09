@@ -1,0 +1,161 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package ivschannel
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (i *jsiiProxy_IvsChannel) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvsChannel) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvsChannel) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvsChannel) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvsChannel) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvsChannel) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvsChannel) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvsChannel) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvsChannel) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvsChannel) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvsChannel) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvsChannel) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvsChannel) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvsChannel) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvsChannel) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvsChannel) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvsChannel) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvsChannel) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvsChannel) validatePutMultitrackInputConfigurationParameters(value *IvsChannelMultitrackInputConfiguration) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvsChannel) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (i *jsiiProxy_IvsChannel) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateIvsChannel_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateIvsChannel_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateIvsChannel_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateIvsChannel_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_IvsChannel) validateSetAuthorizedParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_IvsChannel) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_IvsChannel) validateSetContainerFormatParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_IvsChannel) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_IvsChannel) validateSetInsecureIngestParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_IvsChannel) validateSetLatencyModeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_IvsChannel) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_IvsChannel) validateSetNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_IvsChannel) validateSetPresetParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_IvsChannel) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_IvsChannel) validateSetRecordingConfigurationArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_IvsChannel) validateSetTypeParameters(val *string) error {
+	return nil
+}
+
+func validateNewIvsChannelParameters(scope constructs.Construct, id *string, config *IvsChannelConfig) error {
+	return nil
+}
+

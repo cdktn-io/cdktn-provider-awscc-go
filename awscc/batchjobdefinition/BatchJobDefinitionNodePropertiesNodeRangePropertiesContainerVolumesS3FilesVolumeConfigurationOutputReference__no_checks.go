@@ -1,0 +1,93 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package batchjobdefinition
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (b *jsiiProxy_BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReference) validateSetAccessPointArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReference) validateSetFileSystemArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReference) validateSetRootDirectoryParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_BatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReference) validateSetTransitEncryptionPortParameters(val *float64) error {
+	return nil
+}
+
+func validateNewBatchJobDefinitionNodePropertiesNodeRangePropertiesContainerVolumesS3FilesVolumeConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

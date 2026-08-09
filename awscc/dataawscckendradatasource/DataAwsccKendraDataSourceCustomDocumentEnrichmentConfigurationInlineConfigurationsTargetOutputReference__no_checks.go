@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawscckendradatasource
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetOutputReference) validateSetInternalValueParameters(val *DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTarget) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccKendraDataSourceCustomDocumentEnrichmentConfigurationInlineConfigurationsTargetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

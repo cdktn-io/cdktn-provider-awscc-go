@@ -1,0 +1,85 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package s3bucket
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (s *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationMetricsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationMetricsOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationMetricsOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationMetricsOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationMetricsOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationMetricsOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationMetricsOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationMetricsOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationMetricsOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationMetricsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationMetricsOutputReference) validatePutEventThresholdParameters(value *S3BucketReplicationConfigurationRulesDestinationMetricsEventThreshold) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationMetricsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationMetricsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationMetricsOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationMetricsOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationMetricsOutputReference) validateSetStatusParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationMetricsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3BucketReplicationConfigurationRulesDestinationMetricsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewS3BucketReplicationConfigurationRulesDestinationMetricsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

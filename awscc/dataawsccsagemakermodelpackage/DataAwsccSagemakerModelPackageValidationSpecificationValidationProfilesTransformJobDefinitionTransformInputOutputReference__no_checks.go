@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccsagemakermodelpackage
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputOutputReference) validateSetInternalValueParameters(val *DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInput) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccSagemakerModelPackageValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

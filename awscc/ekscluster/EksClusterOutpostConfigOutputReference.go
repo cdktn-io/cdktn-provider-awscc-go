@@ -1,0 +1,664 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package ekscluster
+
+import (
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ekscluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+type EksClusterOutpostConfigOutputReference interface {
+	cdktn.ComplexObject
+	// the index of the complex object in a list.
+	// Experimental.
+	ComplexObjectIndex() interface{}
+	// Experimental.
+	SetComplexObjectIndex(val interface{})
+	// set to true if this item is from inside a set and needs tolist() for accessing it set to "0" for single list items.
+	// Experimental.
+	ComplexObjectIsFromSet() *bool
+	// Experimental.
+	SetComplexObjectIsFromSet(val *bool)
+	ControlPlaneInstanceType() *string
+	SetControlPlaneInstanceType(val *string)
+	ControlPlaneInstanceTypeInput() *string
+	ControlPlanePlacement() EksClusterOutpostConfigControlPlanePlacementOutputReference
+	ControlPlanePlacementInput() interface{}
+	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
+	//
+	// If this returns an empty array the stack will not be attached.
+	// Experimental.
+	CreationStack() *[]*string
+	EtcdInstanceType() *string
+	SetEtcdInstanceType(val *string)
+	EtcdInstanceTypeInput() *string
+	EtcdPlacement() EksClusterOutpostConfigEtcdPlacementOutputReference
+	EtcdPlacementInput() interface{}
+	// Experimental.
+	Fqn() *string
+	InternalValue() interface{}
+	SetInternalValue(val interface{})
+	OutpostArns() *[]*string
+	SetOutpostArns(val *[]*string)
+	OutpostArnsInput() *[]*string
+	// Experimental.
+	TerraformAttribute() *string
+	// Experimental.
+	SetTerraformAttribute(val *string)
+	// Experimental.
+	TerraformResource() cdktn.IInterpolatingParent
+	// Experimental.
+	SetTerraformResource(val cdktn.IInterpolatingParent)
+	// Experimental.
+	ComputeFqn() *string
+	// Experimental.
+	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+	// Experimental.
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
+	// Experimental.
+	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+	// Experimental.
+	GetListAttribute(terraformAttribute *string) *[]*string
+	// Experimental.
+	GetNumberAttribute(terraformAttribute *string) *float64
+	// Experimental.
+	GetNumberListAttribute(terraformAttribute *string) *[]*float64
+	// Experimental.
+	GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64
+	// Experimental.
+	GetStringAttribute(terraformAttribute *string) *string
+	// Experimental.
+	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+	// Experimental.
+	InterpolationAsList() cdktn.IResolvable
+	// Experimental.
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutControlPlanePlacement(value *EksClusterOutpostConfigControlPlanePlacement)
+	PutEtcdPlacement(value *EksClusterOutpostConfigEtcdPlacement)
+	ResetControlPlaneInstanceType()
+	ResetControlPlanePlacement()
+	ResetEtcdInstanceType()
+	ResetEtcdPlacement()
+	ResetOutpostArns()
+	// Produce the Token's value at resolution time.
+	// Experimental.
+	Resolve(context cdktn.IResolveContext) interface{}
+	// Return a string representation of this resolvable object.
+	//
+	// Returns a reversible string representation.
+	// Experimental.
+	ToString() *string
+}
+
+// The jsii proxy struct for EksClusterOutpostConfigOutputReference
+type jsiiProxy_EksClusterOutpostConfigOutputReference struct {
+	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) ComplexObjectIndex() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"complexObjectIndex",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) ComplexObjectIsFromSet() *bool {
+	var returns *bool
+	_jsii_.Get(
+		j,
+		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) ControlPlaneInstanceType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"controlPlaneInstanceType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) ControlPlaneInstanceTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"controlPlaneInstanceTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) ControlPlanePlacement() EksClusterOutpostConfigControlPlanePlacementOutputReference {
+	var returns EksClusterOutpostConfigControlPlanePlacementOutputReference
+	_jsii_.Get(
+		j,
+		"controlPlanePlacement",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) ControlPlanePlacementInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"controlPlanePlacementInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) CreationStack() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) EtcdInstanceType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"etcdInstanceType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) EtcdInstanceTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"etcdInstanceTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) EtcdPlacement() EksClusterOutpostConfigEtcdPlacementOutputReference {
+	var returns EksClusterOutpostConfigEtcdPlacementOutputReference
+	_jsii_.Get(
+		j,
+		"etcdPlacement",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) EtcdPlacementInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"etcdPlacementInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) Fqn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) InternalValue() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) OutpostArns() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"outpostArns",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) OutpostArnsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"outpostArnsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) TerraformAttribute() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"terraformAttribute",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
+	_jsii_.Get(
+		j,
+		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+
+func NewEksClusterOutpostConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) EksClusterOutpostConfigOutputReference {
+	_init_.Initialize()
+
+	if err := validateNewEksClusterOutpostConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
+		panic(err)
+	}
+	j := jsiiProxy_EksClusterOutpostConfigOutputReference{}
+
+	_jsii_.Create(
+		"@cdktn/provider-awscc.eksCluster.EksClusterOutpostConfigOutputReference",
+		[]interface{}{terraformResource, terraformAttribute},
+		&j,
+	)
+
+	return &j
+}
+
+func NewEksClusterOutpostConfigOutputReference_Override(e EksClusterOutpostConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
+	_init_.Initialize()
+
+	_jsii_.Create(
+		"@cdktn/provider-awscc.eksCluster.EksClusterOutpostConfigOutputReference",
+		[]interface{}{terraformResource, terraformAttribute},
+		e,
+	)
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference)SetComplexObjectIndex(val interface{}) {
+	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"complexObjectIndex",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference)SetComplexObjectIsFromSet(val *bool) {
+	if err := j.validateSetComplexObjectIsFromSetParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference)SetControlPlaneInstanceType(val *string) {
+	if err := j.validateSetControlPlaneInstanceTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"controlPlaneInstanceType",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference)SetEtcdInstanceType(val *string) {
+	if err := j.validateSetEtcdInstanceTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"etcdInstanceType",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference)SetInternalValue(val interface{}) {
+	if err := j.validateSetInternalValueParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference)SetOutpostArns(val *[]*string) {
+	if err := j.validateSetOutpostArnsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"outpostArns",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference)SetTerraformAttribute(val *string) {
+	if err := j.validateSetTerraformAttributeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformAttribute",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EksClusterOutpostConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
+	if err := j.validateSetTerraformResourceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformResource",
+		val,
+	)
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) ComputeFqn() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		e,
+		"computeFqn",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{} {
+	if err := e.validateGetAnyMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		e,
+		"getAnyMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		e,
+		"getBooleanAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool {
+	if err := e.validateGetBooleanMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*bool
+
+	_jsii_.Invoke(
+		e,
+		"getBooleanMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) GetListAttribute(terraformAttribute *string) *[]*string {
+	if err := e.validateGetListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*string
+
+	_jsii_.Invoke(
+		e,
+		"getListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) GetNumberAttribute(terraformAttribute *string) *float64 {
+	if err := e.validateGetNumberAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *float64
+
+	_jsii_.Invoke(
+		e,
+		"getNumberAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) GetNumberListAttribute(terraformAttribute *string) *[]*float64 {
+	if err := e.validateGetNumberListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*float64
+
+	_jsii_.Invoke(
+		e,
+		"getNumberListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64 {
+	if err := e.validateGetNumberMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*float64
+
+	_jsii_.Invoke(
+		e,
+		"getNumberMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) GetStringAttribute(terraformAttribute *string) *string {
+	if err := e.validateGetStringAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *string
+
+	_jsii_.Invoke(
+		e,
+		"getStringAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) GetStringMapAttribute(terraformAttribute *string) *map[string]*string {
+	if err := e.validateGetStringMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*string
+
+	_jsii_.Invoke(
+		e,
+		"getStringMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		e,
+		"interpolationAsList",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		e,
+		"interpolationForAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) PutControlPlanePlacement(value *EksClusterOutpostConfigControlPlanePlacement) {
+	if err := e.validatePutControlPlanePlacementParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putControlPlanePlacement",
+		[]interface{}{value},
+	)
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) PutEtcdPlacement(value *EksClusterOutpostConfigEtcdPlacement) {
+	if err := e.validatePutEtcdPlacementParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putEtcdPlacement",
+		[]interface{}{value},
+	)
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) ResetControlPlaneInstanceType() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetControlPlaneInstanceType",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) ResetControlPlanePlacement() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetControlPlanePlacement",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) ResetEtcdInstanceType() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetEtcdInstanceType",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) ResetEtcdPlacement() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetEtcdPlacement",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) ResetOutpostArns() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetOutpostArns",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
+	if err := e.validateResolveParameters(context); err != nil {
+		panic(err)
+	}
+	var returns interface{}
+
+	_jsii_.Invoke(
+		e,
+		"resolve",
+		[]interface{}{context},
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EksClusterOutpostConfigOutputReference) ToString() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		e,
+		"toString",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+

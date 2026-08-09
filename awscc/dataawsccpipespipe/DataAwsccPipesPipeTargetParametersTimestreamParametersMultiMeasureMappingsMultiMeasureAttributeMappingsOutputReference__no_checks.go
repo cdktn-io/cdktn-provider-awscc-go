@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccpipespipe
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccPipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappingsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccPipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappingsOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccPipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappingsOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccPipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappingsOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccPipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappingsOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccPipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappingsOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccPipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappingsOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccPipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappingsOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccPipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappingsOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccPipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappingsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccPipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccPipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappingsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccPipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappingsOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccPipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappingsOutputReference) validateSetInternalValueParameters(val *DataAwsccPipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappings) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccPipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappingsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccPipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccPipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

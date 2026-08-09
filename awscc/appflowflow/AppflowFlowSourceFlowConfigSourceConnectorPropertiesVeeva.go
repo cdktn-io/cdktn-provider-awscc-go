@@ -1,0 +1,19 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package appflowflow
+
+
+type AppflowFlowSourceFlowConfigSourceConnectorPropertiesVeeva struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appflow_flow#document_type AppflowFlow#document_type}.
+	DocumentType *string `field:"optional" json:"documentType" yaml:"documentType"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appflow_flow#include_all_versions AppflowFlow#include_all_versions}.
+	IncludeAllVersions interface{} `field:"optional" json:"includeAllVersions" yaml:"includeAllVersions"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appflow_flow#include_renditions AppflowFlow#include_renditions}.
+	IncludeRenditions interface{} `field:"optional" json:"includeRenditions" yaml:"includeRenditions"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appflow_flow#include_source_files AppflowFlow#include_source_files}.
+	IncludeSourceFiles interface{} `field:"optional" json:"includeSourceFiles" yaml:"includeSourceFiles"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appflow_flow#object AppflowFlow#object}.
+	Object *string `field:"optional" json:"object" yaml:"object"`
+}
+

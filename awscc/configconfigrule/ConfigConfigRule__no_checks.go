@@ -1,0 +1,153 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package configconfigrule
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (c *jsiiProxy_ConfigConfigRule) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigRule) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigRule) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigRule) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigRule) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigRule) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigRule) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigRule) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigRule) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigRule) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigRule) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigRule) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigRule) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigRule) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigRule) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigRule) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigRule) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigRule) validatePutComplianceParameters(value *ConfigConfigRuleCompliance) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigRule) validatePutEvaluationModesParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigRule) validatePutScopeParameters(value *ConfigConfigRuleScope) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigRule) validatePutSourceParameters(value *ConfigConfigRuleSource) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfigConfigRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateConfigConfigRule_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateConfigConfigRule_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateConfigConfigRule_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateConfigConfigRule_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConfigConfigRule) validateSetConfigRuleNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConfigConfigRule) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConfigConfigRule) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConfigConfigRule) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConfigConfigRule) validateSetInputParametersParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConfigConfigRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConfigConfigRule) validateSetMaximumExecutionFrequencyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConfigConfigRule) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func validateNewConfigConfigRuleParameters(scope constructs.Construct, id *string, config *ConfigConfigRuleConfig) error {
+	return nil
+}
+

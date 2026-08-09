@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccimagebuilderdistributionconfiguration
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccImagebuilderDistributionConfigurationDistributionsAmiDistributionConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccImagebuilderDistributionConfigurationDistributionsAmiDistributionConfigurationOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccImagebuilderDistributionConfigurationDistributionsAmiDistributionConfigurationOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccImagebuilderDistributionConfigurationDistributionsAmiDistributionConfigurationOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccImagebuilderDistributionConfigurationDistributionsAmiDistributionConfigurationOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccImagebuilderDistributionConfigurationDistributionsAmiDistributionConfigurationOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccImagebuilderDistributionConfigurationDistributionsAmiDistributionConfigurationOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccImagebuilderDistributionConfigurationDistributionsAmiDistributionConfigurationOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccImagebuilderDistributionConfigurationDistributionsAmiDistributionConfigurationOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccImagebuilderDistributionConfigurationDistributionsAmiDistributionConfigurationOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccImagebuilderDistributionConfigurationDistributionsAmiDistributionConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccImagebuilderDistributionConfigurationDistributionsAmiDistributionConfigurationOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccImagebuilderDistributionConfigurationDistributionsAmiDistributionConfigurationOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccImagebuilderDistributionConfigurationDistributionsAmiDistributionConfigurationOutputReference) validateSetInternalValueParameters(val *DataAwsccImagebuilderDistributionConfigurationDistributionsAmiDistributionConfiguration) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccImagebuilderDistributionConfigurationDistributionsAmiDistributionConfigurationOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccImagebuilderDistributionConfigurationDistributionsAmiDistributionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccImagebuilderDistributionConfigurationDistributionsAmiDistributionConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

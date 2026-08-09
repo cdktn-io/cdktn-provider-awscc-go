@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccsagemakermodelpackage
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceOutputReference) validateSetInternalValueParameters(val *DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSource) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

@@ -1,0 +1,93 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccec2securitygroupingress
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccEc2SecurityGroupIngress) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccEc2SecurityGroupIngress) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccEc2SecurityGroupIngress) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccEc2SecurityGroupIngress) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccEc2SecurityGroupIngress) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccEc2SecurityGroupIngress) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccEc2SecurityGroupIngress) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccEc2SecurityGroupIngress) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccEc2SecurityGroupIngress) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccEc2SecurityGroupIngress) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccEc2SecurityGroupIngress) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccEc2SecurityGroupIngress) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccEc2SecurityGroupIngress) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateDataAwsccEc2SecurityGroupIngress_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateDataAwsccEc2SecurityGroupIngress_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataAwsccEc2SecurityGroupIngress_IsTerraformDataSourceParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataAwsccEc2SecurityGroupIngress_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccEc2SecurityGroupIngress) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccEc2SecurityGroupIngress) validateSetIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccEc2SecurityGroupIngress) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func validateNewDataAwsccEc2SecurityGroupIngressParameters(scope constructs.Construct, id *string, config *DataAwsccEc2SecurityGroupIngressConfig) error {
+	return nil
+}
+

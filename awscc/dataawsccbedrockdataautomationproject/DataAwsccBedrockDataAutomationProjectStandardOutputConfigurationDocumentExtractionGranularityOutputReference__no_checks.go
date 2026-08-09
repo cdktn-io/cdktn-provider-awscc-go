@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccbedrockdataautomationproject
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularityOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularityOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularityOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularityOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularityOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularityOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularityOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularityOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularityOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularityOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularityOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularityOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularityOutputReference) validateSetInternalValueParameters(val *DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularity) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularityOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccBedrockDataAutomationProjectStandardOutputConfigurationDocumentExtractionGranularityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

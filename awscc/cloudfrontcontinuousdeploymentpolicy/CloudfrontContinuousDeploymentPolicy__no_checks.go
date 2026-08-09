@@ -1,0 +1,125 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package cloudfrontcontinuousdeploymentpolicy
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validatePutContinuousDeploymentPolicyConfigParameters(value *CloudfrontContinuousDeploymentPolicyContinuousDeploymentPolicyConfig) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateCloudfrontContinuousDeploymentPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateCloudfrontContinuousDeploymentPolicy_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateCloudfrontContinuousDeploymentPolicy_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateCloudfrontContinuousDeploymentPolicy_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudfrontContinuousDeploymentPolicy) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func validateNewCloudfrontContinuousDeploymentPolicyParameters(scope constructs.Construct, id *string, config *CloudfrontContinuousDeploymentPolicyConfig) error {
+	return nil
+}
+

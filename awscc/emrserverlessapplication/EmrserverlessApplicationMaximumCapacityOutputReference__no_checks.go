@@ -1,0 +1,89 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package emrserverlessapplication
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (e *jsiiProxy_EmrserverlessApplicationMaximumCapacityOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EmrserverlessApplicationMaximumCapacityOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EmrserverlessApplicationMaximumCapacityOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EmrserverlessApplicationMaximumCapacityOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EmrserverlessApplicationMaximumCapacityOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EmrserverlessApplicationMaximumCapacityOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EmrserverlessApplicationMaximumCapacityOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EmrserverlessApplicationMaximumCapacityOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EmrserverlessApplicationMaximumCapacityOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EmrserverlessApplicationMaximumCapacityOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EmrserverlessApplicationMaximumCapacityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_EmrserverlessApplicationMaximumCapacityOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_EmrserverlessApplicationMaximumCapacityOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_EmrserverlessApplicationMaximumCapacityOutputReference) validateSetCpuParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_EmrserverlessApplicationMaximumCapacityOutputReference) validateSetDiskParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_EmrserverlessApplicationMaximumCapacityOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_EmrserverlessApplicationMaximumCapacityOutputReference) validateSetMemoryParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_EmrserverlessApplicationMaximumCapacityOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_EmrserverlessApplicationMaximumCapacityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewEmrserverlessApplicationMaximumCapacityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

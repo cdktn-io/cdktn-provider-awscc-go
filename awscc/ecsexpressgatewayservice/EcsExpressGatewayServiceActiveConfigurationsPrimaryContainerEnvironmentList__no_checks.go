@@ -1,0 +1,37 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package ecsexpressgatewayservice
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (e *jsiiProxy_EcsExpressGatewayServiceActiveConfigurationsPrimaryContainerEnvironmentList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EcsExpressGatewayServiceActiveConfigurationsPrimaryContainerEnvironmentList) validateGetParameters(index *float64) error {
+	return nil
+}
+
+func (e *jsiiProxy_EcsExpressGatewayServiceActiveConfigurationsPrimaryContainerEnvironmentList) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_EcsExpressGatewayServiceActiveConfigurationsPrimaryContainerEnvironmentList) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_EcsExpressGatewayServiceActiveConfigurationsPrimaryContainerEnvironmentList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_EcsExpressGatewayServiceActiveConfigurationsPrimaryContainerEnvironmentList) validateSetWrapsSetParameters(val *bool) error {
+	return nil
+}
+
+func validateNewEcsExpressGatewayServiceActiveConfigurationsPrimaryContainerEnvironmentListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+	return nil
+}
+

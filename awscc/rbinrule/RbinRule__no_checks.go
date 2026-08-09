@@ -1,0 +1,153 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package rbinrule
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (r *jsiiProxy_RbinRule) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validatePutExcludeResourceTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validatePutLockConfigurationParameters(value *RbinRuleLockConfiguration) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validatePutResourceTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validatePutRetentionPeriodParameters(value *RbinRuleRetentionPeriod) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (r *jsiiProxy_RbinRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateRbinRule_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateRbinRule_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateRbinRule_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateRbinRule_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_RbinRule) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_RbinRule) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_RbinRule) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_RbinRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_RbinRule) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_RbinRule) validateSetResourceTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_RbinRule) validateSetStatusParameters(val *string) error {
+	return nil
+}
+
+func validateNewRbinRuleParameters(scope constructs.Construct, id *string, config *RbinRuleConfig) error {
+	return nil
+}
+

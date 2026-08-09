@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccconnectcampaignsv2campaign
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateSetInternalValueParameters(val *DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStruct) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigWhatsAppRestrictedPeriodsRestrictedPeriodListStructOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

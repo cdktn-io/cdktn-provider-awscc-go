@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccbedrockknowledgebase
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMappingOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMappingOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMappingOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMappingOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMappingOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMappingOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMappingOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMappingOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMappingOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMappingOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMappingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMappingOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMappingOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMappingOutputReference) validateSetInternalValueParameters(val *DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMapping) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMappingOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMappingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccBedrockKnowledgeBaseStorageConfigurationNeptuneAnalyticsConfigurationFieldMappingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

@@ -1,0 +1,149 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package ec2transitgatewayvpcattachment
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (e *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayVpcAttachment) validatePutOptionsParameters(value *Ec2TransitGatewayVpcAttachmentOptions) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayVpcAttachment) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateEc2TransitGatewayVpcAttachment_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateEc2TransitGatewayVpcAttachment_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateEc2TransitGatewayVpcAttachment_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateEc2TransitGatewayVpcAttachment_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateSetAddSubnetIdsParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateSetRemoveSubnetIdsParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateSetSubnetIdsParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateSetTransitGatewayIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_Ec2TransitGatewayVpcAttachment) validateSetVpcIdParameters(val *string) error {
+	return nil
+}
+
+func validateNewEc2TransitGatewayVpcAttachmentParameters(scope constructs.Construct, id *string, config *Ec2TransitGatewayVpcAttachmentConfig) error {
+	return nil
+}
+

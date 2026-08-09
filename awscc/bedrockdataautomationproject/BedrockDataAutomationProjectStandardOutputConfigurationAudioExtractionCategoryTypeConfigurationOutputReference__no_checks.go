@@ -1,0 +1,81 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package bedrockdataautomationproject
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (b *jsiiProxy_BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validatePutTranscriptParameters(value *BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscript) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewBedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

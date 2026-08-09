@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawscckendradatasource
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappingsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappingsOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappingsOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappingsOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappingsOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappingsOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappingsOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappingsOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappingsOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappingsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappingsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappingsOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappingsOutputReference) validateSetInternalValueParameters(val *DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappings) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappingsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccKendraDataSourceDataSourceConfigurationConfluenceConfigurationPageConfigurationPageFieldMappingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

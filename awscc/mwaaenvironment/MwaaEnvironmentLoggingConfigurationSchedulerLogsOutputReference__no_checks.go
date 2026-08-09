@@ -1,0 +1,85 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package mwaaenvironment
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_MwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_MwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_MwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference) validateSetEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_MwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_MwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference) validateSetLogLevelParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_MwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_MwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewMwaaEnvironmentLoggingConfigurationSchedulerLogsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

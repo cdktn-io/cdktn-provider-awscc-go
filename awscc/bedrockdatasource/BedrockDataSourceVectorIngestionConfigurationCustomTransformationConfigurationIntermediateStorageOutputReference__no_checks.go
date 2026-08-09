@@ -1,0 +1,81 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package bedrockdatasource
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (b *jsiiProxy_BedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigurationIntermediateStorageOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigurationIntermediateStorageOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigurationIntermediateStorageOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigurationIntermediateStorageOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigurationIntermediateStorageOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigurationIntermediateStorageOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigurationIntermediateStorageOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigurationIntermediateStorageOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigurationIntermediateStorageOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigurationIntermediateStorageOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigurationIntermediateStorageOutputReference) validatePutS3LocationParameters(value *BedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigurationIntermediateStorageS3Location) error {
+	return nil
+}
+
+func (b *jsiiProxy_BedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigurationIntermediateStorageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigurationIntermediateStorageOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigurationIntermediateStorageOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigurationIntermediateStorageOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigurationIntermediateStorageOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigurationIntermediateStorageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewBedrockDataSourceVectorIngestionConfigurationCustomTransformationConfigurationIntermediateStorageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

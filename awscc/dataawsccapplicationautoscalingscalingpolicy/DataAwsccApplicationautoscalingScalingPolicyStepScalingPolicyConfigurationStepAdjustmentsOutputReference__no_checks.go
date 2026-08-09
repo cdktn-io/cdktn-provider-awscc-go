@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccapplicationautoscalingscalingpolicy
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustmentsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustmentsOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustmentsOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustmentsOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustmentsOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustmentsOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustmentsOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustmentsOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustmentsOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustmentsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustmentsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustmentsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustmentsOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustmentsOutputReference) validateSetInternalValueParameters(val *DataAwsccApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustments) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustmentsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustmentsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccApplicationautoscalingScalingPolicyStepScalingPolicyConfigurationStepAdjustmentsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

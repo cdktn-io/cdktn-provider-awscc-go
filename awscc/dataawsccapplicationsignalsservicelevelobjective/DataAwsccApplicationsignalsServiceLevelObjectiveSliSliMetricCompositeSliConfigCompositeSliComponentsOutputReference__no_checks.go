@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccapplicationsignalsservicelevelobjective
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponentsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponentsOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponentsOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponentsOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponentsOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponentsOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponentsOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponentsOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponentsOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponentsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponentsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponentsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponentsOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponentsOutputReference) validateSetInternalValueParameters(val *DataAwsccApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponents) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponentsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponentsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponentsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

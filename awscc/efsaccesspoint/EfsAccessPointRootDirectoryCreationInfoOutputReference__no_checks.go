@@ -1,0 +1,89 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package efsaccesspoint
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (e *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) validateSetOwnerGidParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) validateSetOwnerUidParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) validateSetPermissionsParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_EfsAccessPointRootDirectoryCreationInfoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewEfsAccessPointRootDirectoryCreationInfoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

@@ -1,0 +1,85 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package mwaaenvironment
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (m *jsiiProxy_MwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_MwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_MwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_MwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference) validateSetEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_MwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_MwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference) validateSetLogLevelParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_MwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_MwaaEnvironmentLoggingConfigurationWebserverLogsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewMwaaEnvironmentLoggingConfigurationWebserverLogsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

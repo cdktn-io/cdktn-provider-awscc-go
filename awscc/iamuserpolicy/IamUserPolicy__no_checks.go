@@ -1,0 +1,133 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package iamuserpolicy
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (i *jsiiProxy_IamUserPolicy) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamUserPolicy) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamUserPolicy) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamUserPolicy) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamUserPolicy) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamUserPolicy) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamUserPolicy) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamUserPolicy) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamUserPolicy) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamUserPolicy) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamUserPolicy) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamUserPolicy) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamUserPolicy) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamUserPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamUserPolicy) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamUserPolicy) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamUserPolicy) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamUserPolicy) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IamUserPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateIamUserPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateIamUserPolicy_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateIamUserPolicy_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateIamUserPolicy_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_IamUserPolicy) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_IamUserPolicy) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_IamUserPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_IamUserPolicy) validateSetPolicyDocumentParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_IamUserPolicy) validateSetPolicyNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_IamUserPolicy) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_IamUserPolicy) validateSetUserNameParameters(val *string) error {
+	return nil
+}
+
+func validateNewIamUserPolicyParameters(scope constructs.Construct, id *string, config *IamUserPolicyConfig) error {
+	return nil
+}
+

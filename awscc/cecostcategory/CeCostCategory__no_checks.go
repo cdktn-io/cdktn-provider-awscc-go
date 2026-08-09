@@ -1,0 +1,145 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package cecostcategory
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (c *jsiiProxy_CeCostCategory) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CeCostCategory) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CeCostCategory) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CeCostCategory) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CeCostCategory) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CeCostCategory) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CeCostCategory) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CeCostCategory) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CeCostCategory) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CeCostCategory) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CeCostCategory) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CeCostCategory) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CeCostCategory) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CeCostCategory) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CeCostCategory) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CeCostCategory) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CeCostCategory) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CeCostCategory) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CeCostCategory) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CeCostCategory) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateCeCostCategory_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateCeCostCategory_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateCeCostCategory_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateCeCostCategory_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CeCostCategory) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CeCostCategory) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CeCostCategory) validateSetDefaultValueParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CeCostCategory) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_CeCostCategory) validateSetNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CeCostCategory) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CeCostCategory) validateSetRulesParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CeCostCategory) validateSetRuleVersionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CeCostCategory) validateSetSplitChargeRulesParameters(val *string) error {
+	return nil
+}
+
+func validateNewCeCostCategoryParameters(scope constructs.Construct, id *string, config *CeCostCategoryConfig) error {
+	return nil
+}
+

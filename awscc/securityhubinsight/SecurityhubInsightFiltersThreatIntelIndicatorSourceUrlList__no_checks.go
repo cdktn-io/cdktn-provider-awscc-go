@@ -1,0 +1,41 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package securityhubinsight
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (s *jsiiProxy_SecurityhubInsightFiltersThreatIntelIndicatorSourceUrlList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersThreatIntelIndicatorSourceUrlList) validateGetParameters(index *float64) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersThreatIntelIndicatorSourceUrlList) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_SecurityhubInsightFiltersThreatIntelIndicatorSourceUrlList) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SecurityhubInsightFiltersThreatIntelIndicatorSourceUrlList) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SecurityhubInsightFiltersThreatIntelIndicatorSourceUrlList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_SecurityhubInsightFiltersThreatIntelIndicatorSourceUrlList) validateSetWrapsSetParameters(val *bool) error {
+	return nil
+}
+
+func validateNewSecurityhubInsightFiltersThreatIntelIndicatorSourceUrlListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+	return nil
+}
+

@@ -1,0 +1,169 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package connectsecurityprofile
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (c *jsiiProxy_ConnectSecurityProfile) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfile) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfile) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfile) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfile) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfile) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfile) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfile) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfile) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfile) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfile) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfile) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfile) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfile) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfile) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfile) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfile) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfile) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfile) validatePutAllowedAccessControlTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfile) validatePutAllowedFlowModulesParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfile) validatePutApplicationsParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfile) validatePutGranularAccessControlConfigurationParameters(value *ConnectSecurityProfileGranularAccessControlConfiguration) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfile) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateConnectSecurityProfile_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateConnectSecurityProfile_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateConnectSecurityProfile_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateConnectSecurityProfile_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectSecurityProfile) validateSetAllowedAccessControlHierarchyGroupIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectSecurityProfile) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectSecurityProfile) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectSecurityProfile) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectSecurityProfile) validateSetHierarchyRestrictedResourcesParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectSecurityProfile) validateSetInstanceArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectSecurityProfile) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectSecurityProfile) validateSetPermissionsParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectSecurityProfile) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectSecurityProfile) validateSetSecurityProfileNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectSecurityProfile) validateSetTagRestrictedResourcesParameters(val *[]*string) error {
+	return nil
+}
+
+func validateNewConnectSecurityProfileParameters(scope constructs.Construct, id *string, config *ConnectSecurityProfileConfig) error {
+	return nil
+}
+

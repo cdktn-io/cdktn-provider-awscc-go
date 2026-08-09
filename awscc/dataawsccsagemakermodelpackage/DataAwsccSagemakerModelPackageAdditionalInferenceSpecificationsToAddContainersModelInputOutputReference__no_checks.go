@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccsagemakermodelpackage
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInputOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInputOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInputOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInputOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInputOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInputOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInputOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInputOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInputOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInputOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInputOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInputOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInputOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInputOutputReference) validateSetInternalValueParameters(val *DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInput) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInputOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInputOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccSagemakerModelPackageAdditionalInferenceSpecificationsToAddContainersModelInputOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

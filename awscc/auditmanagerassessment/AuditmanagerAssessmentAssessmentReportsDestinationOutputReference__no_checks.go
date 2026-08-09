@@ -1,0 +1,85 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package auditmanagerassessment
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputReference) validateSetDestinationParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputReference) validateSetDestinationTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AuditmanagerAssessmentAssessmentReportsDestinationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAuditmanagerAssessmentAssessmentReportsDestinationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

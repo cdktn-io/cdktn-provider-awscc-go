@@ -1,0 +1,17 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package securityhubautomationrulev2
+
+
+type SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersBooleanFilters struct {
+	// The name of the field.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_automation_rule_v2#field_name SecurityhubAutomationRuleV2#field_name}
+	FieldName *string `field:"optional" json:"fieldName" yaml:"fieldName"`
+	// Boolean filter for querying findings.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_automation_rule_v2#filter SecurityhubAutomationRuleV2#filter}
+	Filter *SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteriaCompositeFiltersBooleanFiltersFilter `field:"optional" json:"filter" yaml:"filter"`
+}
+

@@ -1,0 +1,141 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package eksidentityproviderconfig
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (e *jsiiProxy_EksIdentityProviderConfig) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksIdentityProviderConfig) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksIdentityProviderConfig) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksIdentityProviderConfig) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksIdentityProviderConfig) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksIdentityProviderConfig) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksIdentityProviderConfig) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksIdentityProviderConfig) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksIdentityProviderConfig) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksIdentityProviderConfig) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksIdentityProviderConfig) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksIdentityProviderConfig) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksIdentityProviderConfig) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksIdentityProviderConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksIdentityProviderConfig) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksIdentityProviderConfig) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksIdentityProviderConfig) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksIdentityProviderConfig) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksIdentityProviderConfig) validatePutOidcParameters(value *EksIdentityProviderConfigOidc) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksIdentityProviderConfig) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksIdentityProviderConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateEksIdentityProviderConfig_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateEksIdentityProviderConfig_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateEksIdentityProviderConfig_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateEksIdentityProviderConfig_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_EksIdentityProviderConfig) validateSetClusterNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_EksIdentityProviderConfig) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_EksIdentityProviderConfig) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_EksIdentityProviderConfig) validateSetIdentityProviderConfigNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_EksIdentityProviderConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_EksIdentityProviderConfig) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_EksIdentityProviderConfig) validateSetTypeParameters(val *string) error {
+	return nil
+}
+
+func validateNewEksIdentityProviderConfigParameters(scope constructs.Construct, id *string, config *EksIdentityProviderConfigConfig) error {
+	return nil
+}
+

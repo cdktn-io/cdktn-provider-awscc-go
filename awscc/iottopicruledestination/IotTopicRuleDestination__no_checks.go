@@ -1,0 +1,133 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package iottopicruledestination
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (i *jsiiProxy_IotTopicRuleDestination) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotTopicRuleDestination) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotTopicRuleDestination) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotTopicRuleDestination) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotTopicRuleDestination) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotTopicRuleDestination) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotTopicRuleDestination) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotTopicRuleDestination) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotTopicRuleDestination) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotTopicRuleDestination) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotTopicRuleDestination) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotTopicRuleDestination) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotTopicRuleDestination) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotTopicRuleDestination) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotTopicRuleDestination) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotTopicRuleDestination) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotTopicRuleDestination) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotTopicRuleDestination) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotTopicRuleDestination) validatePutHttpUrlPropertiesParameters(value *IotTopicRuleDestinationHttpUrlProperties) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotTopicRuleDestination) validatePutVpcPropertiesParameters(value *IotTopicRuleDestinationVpcProperties) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotTopicRuleDestination) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateIotTopicRuleDestination_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateIotTopicRuleDestination_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateIotTopicRuleDestination_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateIotTopicRuleDestination_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_IotTopicRuleDestination) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_IotTopicRuleDestination) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_IotTopicRuleDestination) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_IotTopicRuleDestination) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_IotTopicRuleDestination) validateSetStatusParameters(val *string) error {
+	return nil
+}
+
+func validateNewIotTopicRuleDestinationParameters(scope constructs.Construct, id *string, config *IotTopicRuleDestinationConfig) error {
+	return nil
+}
+

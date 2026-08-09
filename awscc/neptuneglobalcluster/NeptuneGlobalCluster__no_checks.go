@@ -1,0 +1,149 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package neptuneglobalcluster
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (n *jsiiProxy_NeptuneGlobalCluster) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NeptuneGlobalCluster) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (n *jsiiProxy_NeptuneGlobalCluster) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NeptuneGlobalCluster) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NeptuneGlobalCluster) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NeptuneGlobalCluster) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NeptuneGlobalCluster) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NeptuneGlobalCluster) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NeptuneGlobalCluster) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NeptuneGlobalCluster) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NeptuneGlobalCluster) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NeptuneGlobalCluster) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NeptuneGlobalCluster) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NeptuneGlobalCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (n *jsiiProxy_NeptuneGlobalCluster) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NeptuneGlobalCluster) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (n *jsiiProxy_NeptuneGlobalCluster) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NeptuneGlobalCluster) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NeptuneGlobalCluster) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (n *jsiiProxy_NeptuneGlobalCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateNeptuneGlobalCluster_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateNeptuneGlobalCluster_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateNeptuneGlobalCluster_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateNeptuneGlobalCluster_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_NeptuneGlobalCluster) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_NeptuneGlobalCluster) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_NeptuneGlobalCluster) validateSetDeletionProtectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_NeptuneGlobalCluster) validateSetEngineParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_NeptuneGlobalCluster) validateSetEngineVersionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_NeptuneGlobalCluster) validateSetGlobalClusterIdentifierParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_NeptuneGlobalCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_NeptuneGlobalCluster) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_NeptuneGlobalCluster) validateSetSourceDbClusterIdentifierParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_NeptuneGlobalCluster) validateSetStorageEncryptedParameters(val interface{}) error {
+	return nil
+}
+
+func validateNewNeptuneGlobalClusterParameters(scope constructs.Construct, id *string, config *NeptuneGlobalClusterConfig) error {
+	return nil
+}
+

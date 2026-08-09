@@ -1,0 +1,89 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package securityhubinsight
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (s *jsiiProxy_SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference) validateSetEqParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference) validateSetGteParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference) validateSetLteParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewSecurityhubInsightFiltersFindingProviderFieldsConfidenceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

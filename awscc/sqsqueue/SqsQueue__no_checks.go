@@ -1,0 +1,185 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package sqsqueue
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (s *jsiiProxy_SqsQueue) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqsQueue) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqsQueue) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqsQueue) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqsQueue) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqsQueue) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqsQueue) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqsQueue) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqsQueue) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqsQueue) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqsQueue) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqsQueue) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqsQueue) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqsQueue) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqsQueue) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqsQueue) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqsQueue) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqsQueue) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqsQueue) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SqsQueue) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateSqsQueue_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateSqsQueue_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateSqsQueue_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateSqsQueue_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqsQueue) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqsQueue) validateSetContentBasedDeduplicationParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqsQueue) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqsQueue) validateSetDeduplicationScopeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqsQueue) validateSetDelaySecondsParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqsQueue) validateSetFifoQueueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqsQueue) validateSetFifoThroughputLimitParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqsQueue) validateSetKmsDataKeyReusePeriodSecondsParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqsQueue) validateSetKmsMasterKeyIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqsQueue) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqsQueue) validateSetMaximumMessageSizeParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqsQueue) validateSetMessageRetentionPeriodParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqsQueue) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqsQueue) validateSetQueueNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqsQueue) validateSetReceiveMessageWaitTimeSecondsParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqsQueue) validateSetRedriveAllowPolicyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqsQueue) validateSetRedrivePolicyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqsQueue) validateSetSqsManagedSseEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqsQueue) validateSetVisibilityTimeoutParameters(val *float64) error {
+	return nil
+}
+
+func validateNewSqsQueueParameters(scope constructs.Construct, id *string, config *SqsQueueConfig) error {
+	return nil
+}
+

@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccbatchjobdefinition
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsOutputReference) validateSetInternalValueParameters(val *DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptions) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesContainersLogConfigurationSecretOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

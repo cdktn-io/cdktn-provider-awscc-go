@@ -1,0 +1,19 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package workspaceswebsessionlogger
+
+
+type WorkspaceswebSessionLoggerLogConfigurationS3 struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/workspacesweb_session_logger#bucket WorkspaceswebSessionLogger#bucket}.
+	Bucket *string `field:"optional" json:"bucket" yaml:"bucket"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/workspacesweb_session_logger#bucket_owner WorkspaceswebSessionLogger#bucket_owner}.
+	BucketOwner *string `field:"optional" json:"bucketOwner" yaml:"bucketOwner"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/workspacesweb_session_logger#folder_structure WorkspaceswebSessionLogger#folder_structure}.
+	FolderStructure *string `field:"optional" json:"folderStructure" yaml:"folderStructure"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/workspacesweb_session_logger#key_prefix WorkspaceswebSessionLogger#key_prefix}.
+	KeyPrefix *string `field:"optional" json:"keyPrefix" yaml:"keyPrefix"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/workspacesweb_session_logger#log_file_format WorkspaceswebSessionLogger#log_file_format}.
+	LogFileFormat *string `field:"optional" json:"logFileFormat" yaml:"logFileFormat"`
+}
+

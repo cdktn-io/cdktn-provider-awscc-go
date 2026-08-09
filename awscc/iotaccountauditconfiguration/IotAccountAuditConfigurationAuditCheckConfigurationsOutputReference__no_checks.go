@@ -1,0 +1,145 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package iotaccountauditconfiguration
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validatePutAuthenticatedCognitoRoleOverlyPermissiveCheckParameters(value *IotAccountAuditConfigurationAuditCheckConfigurationsAuthenticatedCognitoRoleOverlyPermissiveCheck) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validatePutCaCertificateExpiringCheckParameters(value *IotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateExpiringCheck) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validatePutCaCertificateKeyQualityCheckParameters(value *IotAccountAuditConfigurationAuditCheckConfigurationsCaCertificateKeyQualityCheck) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validatePutConflictingClientIdsCheckParameters(value *IotAccountAuditConfigurationAuditCheckConfigurationsConflictingClientIdsCheck) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validatePutDeviceCertificateAgeCheckParameters(value *IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateAgeCheck) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validatePutDeviceCertificateExpiringCheckParameters(value *IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheck) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validatePutDeviceCertificateKeyQualityCheckParameters(value *IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateKeyQualityCheck) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validatePutDeviceCertificateSharedCheckParameters(value *IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateSharedCheck) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validatePutIntermediateCaRevokedForActiveDeviceCertificatesCheckParameters(value *IotAccountAuditConfigurationAuditCheckConfigurationsIntermediateCaRevokedForActiveDeviceCertificatesCheck) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validatePutIotPolicyOverlyPermissiveCheckParameters(value *IotAccountAuditConfigurationAuditCheckConfigurationsIotPolicyOverlyPermissiveCheck) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validatePutIoTPolicyPotentialMisConfigurationCheckParameters(value *IotAccountAuditConfigurationAuditCheckConfigurationsIoTPolicyPotentialMisConfigurationCheck) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validatePutIotRoleAliasAllowsAccessToUnusedServicesCheckParameters(value *IotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasAllowsAccessToUnusedServicesCheck) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validatePutIotRoleAliasOverlyPermissiveCheckParameters(value *IotAccountAuditConfigurationAuditCheckConfigurationsIotRoleAliasOverlyPermissiveCheck) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validatePutLoggingDisabledCheckParameters(value *IotAccountAuditConfigurationAuditCheckConfigurationsLoggingDisabledCheck) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validatePutRevokedCaCertificateStillActiveCheckParameters(value *IotAccountAuditConfigurationAuditCheckConfigurationsRevokedCaCertificateStillActiveCheck) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validatePutRevokedDeviceCertificateStillActiveCheckParameters(value *IotAccountAuditConfigurationAuditCheckConfigurationsRevokedDeviceCertificateStillActiveCheck) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validatePutUnauthenticatedCognitoRoleOverlyPermissiveCheckParameters(value *IotAccountAuditConfigurationAuditCheckConfigurationsUnauthenticatedCognitoRoleOverlyPermissiveCheck) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_IotAccountAuditConfigurationAuditCheckConfigurationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewIotAccountAuditConfigurationAuditCheckConfigurationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

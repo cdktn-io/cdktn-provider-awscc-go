@@ -1,0 +1,81 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package ekscluster
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (e *jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference) validateSetCidrsParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_EksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewEksClusterRemoteNetworkConfigRemoteNodeNetworksOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

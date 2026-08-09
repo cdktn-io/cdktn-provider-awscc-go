@@ -1,0 +1,85 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package codepipelinecustomactiontype
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (c *jsiiProxy_CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference) validateSetMaximumCountParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference) validateSetMinimumCountParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CodepipelineCustomActionTypeOutputArtifactDetailsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewCodepipelineCustomActionTypeOutputArtifactDetailsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

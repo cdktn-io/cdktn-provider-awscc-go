@@ -1,0 +1,41 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package quicksightdataset
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (q *jsiiProxy_QuicksightDataSetColumnLevelPermissionRulesList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightDataSetColumnLevelPermissionRulesList) validateGetParameters(index *float64) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightDataSetColumnLevelPermissionRulesList) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightDataSetColumnLevelPermissionRulesList) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightDataSetColumnLevelPermissionRulesList) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightDataSetColumnLevelPermissionRulesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightDataSetColumnLevelPermissionRulesList) validateSetWrapsSetParameters(val *bool) error {
+	return nil
+}
+
+func validateNewQuicksightDataSetColumnLevelPermissionRulesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+	return nil
+}
+

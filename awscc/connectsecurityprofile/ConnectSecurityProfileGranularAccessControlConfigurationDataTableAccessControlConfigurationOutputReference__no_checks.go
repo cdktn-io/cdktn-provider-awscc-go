@@ -1,0 +1,81 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package connectsecurityprofile
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (c *jsiiProxy_ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationOutputReference) validatePutPrimaryAttributeAccessControlConfigurationParameters(value *ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationPrimaryAttributeAccessControlConfiguration) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

@@ -1,0 +1,13 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package fmspolicy
+
+
+type FmsPolicyExcludeMap struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#account FmsPolicy#account}.
+	Account *[]*string `field:"optional" json:"account" yaml:"account"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/fms_policy#orgunit FmsPolicy#orgunit}.
+	Orgunit *[]*string `field:"optional" json:"orgunit" yaml:"orgunit"`
+}
+

@@ -1,0 +1,17 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package iotsitewiseassetmodel
+
+
+type IotsitewiseAssetModelEnforcedAssetModelInterfaceRelationships struct {
+	// The ID of the interface that is enforced to the asset model.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_asset_model#interface_asset_model_id IotsitewiseAssetModel#interface_asset_model_id}
+	InterfaceAssetModelId *string `field:"optional" json:"interfaceAssetModelId" yaml:"interfaceAssetModelId"`
+	// Contains information about enforced interface property and asset model property.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_asset_model#property_mappings IotsitewiseAssetModel#property_mappings}
+	PropertyMappings interface{} `field:"optional" json:"propertyMappings" yaml:"propertyMappings"`
+}
+

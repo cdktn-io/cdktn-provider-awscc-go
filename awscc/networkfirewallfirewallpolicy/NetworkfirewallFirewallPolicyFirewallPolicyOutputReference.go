@@ -1,0 +1,861 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package networkfirewallfirewallpolicy
+
+import (
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkfirewallfirewallpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+type NetworkfirewallFirewallPolicyFirewallPolicyOutputReference interface {
+	cdktn.ComplexObject
+	// the index of the complex object in a list.
+	// Experimental.
+	ComplexObjectIndex() interface{}
+	// Experimental.
+	SetComplexObjectIndex(val interface{})
+	// set to true if this item is from inside a set and needs tolist() for accessing it set to "0" for single list items.
+	// Experimental.
+	ComplexObjectIsFromSet() *bool
+	// Experimental.
+	SetComplexObjectIsFromSet(val *bool)
+	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
+	//
+	// If this returns an empty array the stack will not be attached.
+	// Experimental.
+	CreationStack() *[]*string
+	EnableTlsSessionHolding() interface{}
+	SetEnableTlsSessionHolding(val interface{})
+	EnableTlsSessionHoldingInput() interface{}
+	// Experimental.
+	Fqn() *string
+	InternalValue() interface{}
+	SetInternalValue(val interface{})
+	PolicyVariables() NetworkfirewallFirewallPolicyFirewallPolicyPolicyVariablesOutputReference
+	PolicyVariablesInput() interface{}
+	StatefulDefaultActions() *[]*string
+	SetStatefulDefaultActions(val *[]*string)
+	StatefulDefaultActionsInput() *[]*string
+	StatefulEngineOptions() NetworkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptionsOutputReference
+	StatefulEngineOptionsInput() interface{}
+	StatefulRuleGroupReferences() NetworkfirewallFirewallPolicyFirewallPolicyStatefulRuleGroupReferencesList
+	StatefulRuleGroupReferencesInput() interface{}
+	StatelessCustomActions() NetworkfirewallFirewallPolicyFirewallPolicyStatelessCustomActionsList
+	StatelessCustomActionsInput() interface{}
+	StatelessDefaultActions() *[]*string
+	SetStatelessDefaultActions(val *[]*string)
+	StatelessDefaultActionsInput() *[]*string
+	StatelessFragmentDefaultActions() *[]*string
+	SetStatelessFragmentDefaultActions(val *[]*string)
+	StatelessFragmentDefaultActionsInput() *[]*string
+	StatelessRuleGroupReferences() NetworkfirewallFirewallPolicyFirewallPolicyStatelessRuleGroupReferencesList
+	StatelessRuleGroupReferencesInput() interface{}
+	// Experimental.
+	TerraformAttribute() *string
+	// Experimental.
+	SetTerraformAttribute(val *string)
+	// Experimental.
+	TerraformResource() cdktn.IInterpolatingParent
+	// Experimental.
+	SetTerraformResource(val cdktn.IInterpolatingParent)
+	TlsInspectionConfigurationArn() *string
+	SetTlsInspectionConfigurationArn(val *string)
+	TlsInspectionConfigurationArnInput() *string
+	// Experimental.
+	ComputeFqn() *string
+	// Experimental.
+	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+	// Experimental.
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
+	// Experimental.
+	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+	// Experimental.
+	GetListAttribute(terraformAttribute *string) *[]*string
+	// Experimental.
+	GetNumberAttribute(terraformAttribute *string) *float64
+	// Experimental.
+	GetNumberListAttribute(terraformAttribute *string) *[]*float64
+	// Experimental.
+	GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64
+	// Experimental.
+	GetStringAttribute(terraformAttribute *string) *string
+	// Experimental.
+	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+	// Experimental.
+	InterpolationAsList() cdktn.IResolvable
+	// Experimental.
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutPolicyVariables(value *NetworkfirewallFirewallPolicyFirewallPolicyPolicyVariables)
+	PutStatefulEngineOptions(value *NetworkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptions)
+	PutStatefulRuleGroupReferences(value interface{})
+	PutStatelessCustomActions(value interface{})
+	PutStatelessRuleGroupReferences(value interface{})
+	ResetEnableTlsSessionHolding()
+	ResetPolicyVariables()
+	ResetStatefulDefaultActions()
+	ResetStatefulEngineOptions()
+	ResetStatefulRuleGroupReferences()
+	ResetStatelessCustomActions()
+	ResetStatelessRuleGroupReferences()
+	ResetTlsInspectionConfigurationArn()
+	// Produce the Token's value at resolution time.
+	// Experimental.
+	Resolve(context cdktn.IResolveContext) interface{}
+	// Return a string representation of this resolvable object.
+	//
+	// Returns a reversible string representation.
+	// Experimental.
+	ToString() *string
+}
+
+// The jsii proxy struct for NetworkfirewallFirewallPolicyFirewallPolicyOutputReference
+type jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference struct {
+	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) ComplexObjectIndex() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"complexObjectIndex",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) ComplexObjectIsFromSet() *bool {
+	var returns *bool
+	_jsii_.Get(
+		j,
+		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) CreationStack() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) EnableTlsSessionHolding() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableTlsSessionHolding",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) EnableTlsSessionHoldingInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableTlsSessionHoldingInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) Fqn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) InternalValue() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) PolicyVariables() NetworkfirewallFirewallPolicyFirewallPolicyPolicyVariablesOutputReference {
+	var returns NetworkfirewallFirewallPolicyFirewallPolicyPolicyVariablesOutputReference
+	_jsii_.Get(
+		j,
+		"policyVariables",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) PolicyVariablesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"policyVariablesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) StatefulDefaultActions() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"statefulDefaultActions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) StatefulDefaultActionsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"statefulDefaultActionsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) StatefulEngineOptions() NetworkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptionsOutputReference {
+	var returns NetworkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptionsOutputReference
+	_jsii_.Get(
+		j,
+		"statefulEngineOptions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) StatefulEngineOptionsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"statefulEngineOptionsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) StatefulRuleGroupReferences() NetworkfirewallFirewallPolicyFirewallPolicyStatefulRuleGroupReferencesList {
+	var returns NetworkfirewallFirewallPolicyFirewallPolicyStatefulRuleGroupReferencesList
+	_jsii_.Get(
+		j,
+		"statefulRuleGroupReferences",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) StatefulRuleGroupReferencesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"statefulRuleGroupReferencesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) StatelessCustomActions() NetworkfirewallFirewallPolicyFirewallPolicyStatelessCustomActionsList {
+	var returns NetworkfirewallFirewallPolicyFirewallPolicyStatelessCustomActionsList
+	_jsii_.Get(
+		j,
+		"statelessCustomActions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) StatelessCustomActionsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"statelessCustomActionsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) StatelessDefaultActions() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"statelessDefaultActions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) StatelessDefaultActionsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"statelessDefaultActionsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) StatelessFragmentDefaultActions() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"statelessFragmentDefaultActions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) StatelessFragmentDefaultActionsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"statelessFragmentDefaultActionsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) StatelessRuleGroupReferences() NetworkfirewallFirewallPolicyFirewallPolicyStatelessRuleGroupReferencesList {
+	var returns NetworkfirewallFirewallPolicyFirewallPolicyStatelessRuleGroupReferencesList
+	_jsii_.Get(
+		j,
+		"statelessRuleGroupReferences",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) StatelessRuleGroupReferencesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"statelessRuleGroupReferencesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) TerraformAttribute() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"terraformAttribute",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
+	_jsii_.Get(
+		j,
+		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) TlsInspectionConfigurationArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"tlsInspectionConfigurationArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) TlsInspectionConfigurationArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"tlsInspectionConfigurationArnInput",
+		&returns,
+	)
+	return returns
+}
+
+
+func NewNetworkfirewallFirewallPolicyFirewallPolicyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) NetworkfirewallFirewallPolicyFirewallPolicyOutputReference {
+	_init_.Initialize()
+
+	if err := validateNewNetworkfirewallFirewallPolicyFirewallPolicyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
+		panic(err)
+	}
+	j := jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference{}
+
+	_jsii_.Create(
+		"@cdktn/provider-awscc.networkfirewallFirewallPolicy.NetworkfirewallFirewallPolicyFirewallPolicyOutputReference",
+		[]interface{}{terraformResource, terraformAttribute},
+		&j,
+	)
+
+	return &j
+}
+
+func NewNetworkfirewallFirewallPolicyFirewallPolicyOutputReference_Override(n NetworkfirewallFirewallPolicyFirewallPolicyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
+	_init_.Initialize()
+
+	_jsii_.Create(
+		"@cdktn/provider-awscc.networkfirewallFirewallPolicy.NetworkfirewallFirewallPolicyFirewallPolicyOutputReference",
+		[]interface{}{terraformResource, terraformAttribute},
+		n,
+	)
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference)SetComplexObjectIndex(val interface{}) {
+	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"complexObjectIndex",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference)SetComplexObjectIsFromSet(val *bool) {
+	if err := j.validateSetComplexObjectIsFromSetParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference)SetEnableTlsSessionHolding(val interface{}) {
+	if err := j.validateSetEnableTlsSessionHoldingParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enableTlsSessionHolding",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference)SetInternalValue(val interface{}) {
+	if err := j.validateSetInternalValueParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference)SetStatefulDefaultActions(val *[]*string) {
+	if err := j.validateSetStatefulDefaultActionsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"statefulDefaultActions",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference)SetStatelessDefaultActions(val *[]*string) {
+	if err := j.validateSetStatelessDefaultActionsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"statelessDefaultActions",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference)SetStatelessFragmentDefaultActions(val *[]*string) {
+	if err := j.validateSetStatelessFragmentDefaultActionsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"statelessFragmentDefaultActions",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference)SetTerraformAttribute(val *string) {
+	if err := j.validateSetTerraformAttributeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformAttribute",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
+	if err := j.validateSetTerraformResourceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference)SetTlsInspectionConfigurationArn(val *string) {
+	if err := j.validateSetTlsInspectionConfigurationArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tlsInspectionConfigurationArn",
+		val,
+	)
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) ComputeFqn() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		n,
+		"computeFqn",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{} {
+	if err := n.validateGetAnyMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		n,
+		"getAnyMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		n,
+		"getBooleanAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool {
+	if err := n.validateGetBooleanMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*bool
+
+	_jsii_.Invoke(
+		n,
+		"getBooleanMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) GetListAttribute(terraformAttribute *string) *[]*string {
+	if err := n.validateGetListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*string
+
+	_jsii_.Invoke(
+		n,
+		"getListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) GetNumberAttribute(terraformAttribute *string) *float64 {
+	if err := n.validateGetNumberAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *float64
+
+	_jsii_.Invoke(
+		n,
+		"getNumberAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) GetNumberListAttribute(terraformAttribute *string) *[]*float64 {
+	if err := n.validateGetNumberListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*float64
+
+	_jsii_.Invoke(
+		n,
+		"getNumberListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64 {
+	if err := n.validateGetNumberMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*float64
+
+	_jsii_.Invoke(
+		n,
+		"getNumberMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) GetStringAttribute(terraformAttribute *string) *string {
+	if err := n.validateGetStringAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *string
+
+	_jsii_.Invoke(
+		n,
+		"getStringAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) GetStringMapAttribute(terraformAttribute *string) *map[string]*string {
+	if err := n.validateGetStringMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*string
+
+	_jsii_.Invoke(
+		n,
+		"getStringMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		n,
+		"interpolationAsList",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		n,
+		"interpolationForAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) PutPolicyVariables(value *NetworkfirewallFirewallPolicyFirewallPolicyPolicyVariables) {
+	if err := n.validatePutPolicyVariablesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putPolicyVariables",
+		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) PutStatefulEngineOptions(value *NetworkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptions) {
+	if err := n.validatePutStatefulEngineOptionsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putStatefulEngineOptions",
+		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) PutStatefulRuleGroupReferences(value interface{}) {
+	if err := n.validatePutStatefulRuleGroupReferencesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putStatefulRuleGroupReferences",
+		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) PutStatelessCustomActions(value interface{}) {
+	if err := n.validatePutStatelessCustomActionsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putStatelessCustomActions",
+		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) PutStatelessRuleGroupReferences(value interface{}) {
+	if err := n.validatePutStatelessRuleGroupReferencesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putStatelessRuleGroupReferences",
+		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) ResetEnableTlsSessionHolding() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetEnableTlsSessionHolding",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) ResetPolicyVariables() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetPolicyVariables",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) ResetStatefulDefaultActions() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetStatefulDefaultActions",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) ResetStatefulEngineOptions() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetStatefulEngineOptions",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) ResetStatefulRuleGroupReferences() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetStatefulRuleGroupReferences",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) ResetStatelessCustomActions() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetStatelessCustomActions",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) ResetStatelessRuleGroupReferences() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetStatelessRuleGroupReferences",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) ResetTlsInspectionConfigurationArn() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetTlsInspectionConfigurationArn",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
+	if err := n.validateResolveParameters(context); err != nil {
+		panic(err)
+	}
+	var returns interface{}
+
+	_jsii_.Invoke(
+		n,
+		"resolve",
+		[]interface{}{context},
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewallPolicyFirewallPolicyOutputReference) ToString() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		n,
+		"toString",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+

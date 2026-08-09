@@ -1,0 +1,89 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package connectcampaignsv2campaign
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (c *jsiiProxy_Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateSetEndDateParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateSetNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateSetStartDateParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_Connectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewConnectcampaignsv2CampaignCommunicationTimeConfigEmailRestrictedPeriodsRestrictedPeriodListStructOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

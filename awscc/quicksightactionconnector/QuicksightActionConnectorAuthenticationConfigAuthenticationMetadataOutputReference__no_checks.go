@@ -1,0 +1,101 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package quicksightactionconnector
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (q *jsiiProxy_QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference) validatePutApiKeyConnectionMetadataParameters(value *QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataApiKeyConnectionMetadata) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference) validatePutAuthorizationCodeGrantMetadataParameters(value *QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataAuthorizationCodeGrantMetadata) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference) validatePutBasicAuthConnectionMetadataParameters(value *QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataBasicAuthConnectionMetadata) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference) validatePutClientCredentialsGrantMetadataParameters(value *QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataClientCredentialsGrantMetadata) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference) validatePutIamConnectionMetadataParameters(value *QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataIamConnectionMetadata) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference) validatePutNoneConnectionMetadataParameters(value *QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataNoneConnectionMetadata) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewQuicksightActionConnectorAuthenticationConfigAuthenticationMetadataOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

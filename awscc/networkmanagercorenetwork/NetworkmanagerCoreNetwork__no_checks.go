@@ -1,0 +1,137 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package networkmanagercorenetwork
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (n *jsiiProxy_NetworkmanagerCoreNetwork) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerCoreNetwork) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerCoreNetwork) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerCoreNetwork) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerCoreNetwork) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerCoreNetwork) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerCoreNetwork) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerCoreNetwork) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerCoreNetwork) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerCoreNetwork) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerCoreNetwork) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerCoreNetwork) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerCoreNetwork) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerCoreNetwork) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerCoreNetwork) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerCoreNetwork) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerCoreNetwork) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerCoreNetwork) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerCoreNetwork) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkmanagerCoreNetwork) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateNetworkmanagerCoreNetwork_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateNetworkmanagerCoreNetwork_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateNetworkmanagerCoreNetwork_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateNetworkmanagerCoreNetwork_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerCoreNetwork) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerCoreNetwork) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerCoreNetwork) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerCoreNetwork) validateSetGlobalNetworkIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerCoreNetwork) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerCoreNetwork) validateSetPolicyDocumentParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkmanagerCoreNetwork) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func validateNewNetworkmanagerCoreNetworkParameters(scope constructs.Construct, id *string, config *NetworkmanagerCoreNetworkConfig) error {
+	return nil
+}
+

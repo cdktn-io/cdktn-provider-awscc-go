@@ -1,0 +1,15 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package appflowflow
+
+
+type AppflowFlowSourceFlowConfigSourceConnectorPropertiesS3 struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appflow_flow#bucket_name AppflowFlow#bucket_name}.
+	BucketName *string `field:"optional" json:"bucketName" yaml:"bucketName"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appflow_flow#bucket_prefix AppflowFlow#bucket_prefix}.
+	BucketPrefix *string `field:"optional" json:"bucketPrefix" yaml:"bucketPrefix"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appflow_flow#s3_input_format_config AppflowFlow#s3_input_format_config}.
+	S3InputFormatConfig *AppflowFlowSourceFlowConfigSourceConnectorPropertiesS3S3InputFormatConfig `field:"optional" json:"s3InputFormatConfig" yaml:"s3InputFormatConfig"`
+}
+

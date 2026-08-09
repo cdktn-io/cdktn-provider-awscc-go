@@ -1,0 +1,242 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package dataawsccconnectcampaignsv2campaign
+
+import (
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignsv2campaign/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+type DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList interface {
+	cdktn.ComplexList
+	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
+	//
+	// If this returns an empty array the stack will not be attached.
+	// Experimental.
+	CreationStack() *[]*string
+	// Experimental.
+	Fqn() *string
+	// Experimental.
+	TerraformAttribute() *string
+	// Experimental.
+	SetTerraformAttribute(val *string)
+	// Experimental.
+	TerraformResource() cdktn.IInterpolatingParent
+	// Experimental.
+	SetTerraformResource(val cdktn.IInterpolatingParent)
+	// Experimental.
+	WrapsSet() *bool
+	// Experimental.
+	SetWrapsSet(val *bool)
+	// Creating an iterator for this complex list.
+	//
+	// The list will be converted into a map with the mapKeyAttributeName as the key.
+	// Experimental.
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
+	// Experimental.
+	ComputeFqn() *string
+	Get(index *float64) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructOutputReference
+	// Produce the Token's value at resolution time.
+	// Experimental.
+	Resolve(context cdktn.IResolveContext) interface{}
+	// Return a string representation of this resolvable object.
+	//
+	// Returns a reversible string representation.
+	// Experimental.
+	ToString() *string
+}
+
+// The jsii proxy struct for DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList
+type jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList struct {
+	internal.Type__cdktnComplexList
+}
+
+func (j *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList) CreationStack() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList) Fqn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList) TerraformAttribute() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"terraformAttribute",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
+	_jsii_.Get(
+		j,
+		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList) WrapsSet() *bool {
+	var returns *bool
+	_jsii_.Get(
+		j,
+		"wrapsSet",
+		&returns,
+	)
+	return returns
+}
+
+
+func NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList {
+	_init_.Initialize()
+
+	if err := validateNewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
+		panic(err)
+	}
+	j := jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList{}
+
+	_jsii_.Create(
+		"@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList",
+		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
+		&j,
+	)
+
+	return &j
+}
+
+func NewDataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList_Override(d DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+	_init_.Initialize()
+
+	_jsii_.Create(
+		"@cdktn/provider-awscc.dataAwsccConnectcampaignsv2Campaign.DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList",
+		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
+		d,
+	)
+}
+
+func (j *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList)SetTerraformAttribute(val *string) {
+	if err := j.validateSetTerraformAttributeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformAttribute",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList)SetTerraformResource(val cdktn.IInterpolatingParent) {
+	if err := j.validateSetTerraformResourceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList)SetWrapsSet(val *bool) {
+	if err := j.validateSetWrapsSetParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"wrapsSet",
+		val,
+	)
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
+	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
+		panic(err)
+	}
+	var returns cdktn.DynamicListTerraformIterator
+
+	_jsii_.Invoke(
+		d,
+		"allWithMapKey",
+		[]interface{}{mapKeyAttributeName},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList) ComputeFqn() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		d,
+		"computeFqn",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList) Get(index *float64) DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructOutputReference {
+	if err := d.validateGetParameters(index); err != nil {
+		panic(err)
+	}
+	var returns DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructOutputReference
+
+	_jsii_.Invoke(
+		d,
+		"get",
+		[]interface{}{index},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList) Resolve(context cdktn.IResolveContext) interface{} {
+	if err := d.validateResolveParameters(context); err != nil {
+		panic(err)
+	}
+	var returns interface{}
+
+	_jsii_.Invoke(
+		d,
+		"resolve",
+		[]interface{}{context},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsccConnectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriodsRestrictedPeriodListStructList) ToString() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		d,
+		"toString",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+

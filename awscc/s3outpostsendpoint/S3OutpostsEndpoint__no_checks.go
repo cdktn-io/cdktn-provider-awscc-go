@@ -1,0 +1,145 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package s3outpostsendpoint
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (s *jsiiProxy_S3OutpostsEndpoint) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3OutpostsEndpoint) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3OutpostsEndpoint) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3OutpostsEndpoint) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3OutpostsEndpoint) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3OutpostsEndpoint) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3OutpostsEndpoint) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3OutpostsEndpoint) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3OutpostsEndpoint) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3OutpostsEndpoint) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3OutpostsEndpoint) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3OutpostsEndpoint) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3OutpostsEndpoint) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3OutpostsEndpoint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3OutpostsEndpoint) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3OutpostsEndpoint) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3OutpostsEndpoint) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3OutpostsEndpoint) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3OutpostsEndpoint) validatePutFailedReasonParameters(value *S3OutpostsEndpointFailedReason) error {
+	return nil
+}
+
+func (s *jsiiProxy_S3OutpostsEndpoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateS3OutpostsEndpoint_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateS3OutpostsEndpoint_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateS3OutpostsEndpoint_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateS3OutpostsEndpoint_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3OutpostsEndpoint) validateSetAccessTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3OutpostsEndpoint) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3OutpostsEndpoint) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3OutpostsEndpoint) validateSetCustomerOwnedIpv4PoolParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3OutpostsEndpoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3OutpostsEndpoint) validateSetOutpostIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3OutpostsEndpoint) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3OutpostsEndpoint) validateSetSecurityGroupIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3OutpostsEndpoint) validateSetSubnetIdParameters(val *string) error {
+	return nil
+}
+
+func validateNewS3OutpostsEndpointParameters(scope constructs.Construct, id *string, config *S3OutpostsEndpointConfig) error {
+	return nil
+}
+

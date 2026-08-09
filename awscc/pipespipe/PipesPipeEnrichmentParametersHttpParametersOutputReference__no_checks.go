@@ -1,0 +1,89 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package pipespipe
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (p *jsiiProxy_PipesPipeEnrichmentParametersHttpParametersOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PipesPipeEnrichmentParametersHttpParametersOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PipesPipeEnrichmentParametersHttpParametersOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PipesPipeEnrichmentParametersHttpParametersOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PipesPipeEnrichmentParametersHttpParametersOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PipesPipeEnrichmentParametersHttpParametersOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PipesPipeEnrichmentParametersHttpParametersOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PipesPipeEnrichmentParametersHttpParametersOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PipesPipeEnrichmentParametersHttpParametersOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PipesPipeEnrichmentParametersHttpParametersOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (p *jsiiProxy_PipesPipeEnrichmentParametersHttpParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_PipesPipeEnrichmentParametersHttpParametersOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_PipesPipeEnrichmentParametersHttpParametersOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_PipesPipeEnrichmentParametersHttpParametersOutputReference) validateSetHeaderParametersParameters(val *map[string]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_PipesPipeEnrichmentParametersHttpParametersOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_PipesPipeEnrichmentParametersHttpParametersOutputReference) validateSetPathParameterValuesParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_PipesPipeEnrichmentParametersHttpParametersOutputReference) validateSetQueryStringParametersParameters(val *map[string]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_PipesPipeEnrichmentParametersHttpParametersOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_PipesPipeEnrichmentParametersHttpParametersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewPipesPipeEnrichmentParametersHttpParametersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

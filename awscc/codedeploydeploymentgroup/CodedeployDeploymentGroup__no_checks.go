@@ -1,0 +1,201 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package codedeploydeploymentgroup
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validatePutAlarmConfigurationParameters(value *CodedeployDeploymentGroupAlarmConfiguration) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validatePutAutoRollbackConfigurationParameters(value *CodedeployDeploymentGroupAutoRollbackConfiguration) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validatePutBlueGreenDeploymentConfigurationParameters(value *CodedeployDeploymentGroupBlueGreenDeploymentConfiguration) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validatePutDeploymentParameters(value *CodedeployDeploymentGroupDeployment) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validatePutDeploymentStyleParameters(value *CodedeployDeploymentGroupDeploymentStyle) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validatePutEc2TagFiltersParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validatePutEc2TagSetParameters(value *CodedeployDeploymentGroupEc2TagSet) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validatePutEcsServicesParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validatePutLoadBalancerInfoParameters(value *CodedeployDeploymentGroupLoadBalancerInfo) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validatePutOnPremisesInstanceTagFiltersParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validatePutOnPremisesTagSetParameters(value *CodedeployDeploymentGroupOnPremisesTagSet) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validatePutTriggerConfigurationsParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateCodedeployDeploymentGroup_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateCodedeployDeploymentGroup_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateCodedeployDeploymentGroup_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateCodedeployDeploymentGroup_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CodedeployDeploymentGroup) validateSetApplicationNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CodedeployDeploymentGroup) validateSetAutoScalingGroupsParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CodedeployDeploymentGroup) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CodedeployDeploymentGroup) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CodedeployDeploymentGroup) validateSetDeploymentConfigNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CodedeployDeploymentGroup) validateSetDeploymentGroupNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CodedeployDeploymentGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_CodedeployDeploymentGroup) validateSetOutdatedInstancesStrategyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CodedeployDeploymentGroup) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CodedeployDeploymentGroup) validateSetServiceRoleArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CodedeployDeploymentGroup) validateSetTerminationHookEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func validateNewCodedeployDeploymentGroupParameters(scope constructs.Construct, id *string, config *CodedeployDeploymentGroupConfig) error {
+	return nil
+}
+

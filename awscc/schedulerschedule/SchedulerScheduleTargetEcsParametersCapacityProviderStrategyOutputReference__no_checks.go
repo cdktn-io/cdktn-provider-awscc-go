@@ -1,0 +1,89 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package schedulerschedule
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (s *jsiiProxy_SchedulerScheduleTargetEcsParametersCapacityProviderStrategyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SchedulerScheduleTargetEcsParametersCapacityProviderStrategyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SchedulerScheduleTargetEcsParametersCapacityProviderStrategyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SchedulerScheduleTargetEcsParametersCapacityProviderStrategyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SchedulerScheduleTargetEcsParametersCapacityProviderStrategyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SchedulerScheduleTargetEcsParametersCapacityProviderStrategyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SchedulerScheduleTargetEcsParametersCapacityProviderStrategyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SchedulerScheduleTargetEcsParametersCapacityProviderStrategyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SchedulerScheduleTargetEcsParametersCapacityProviderStrategyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SchedulerScheduleTargetEcsParametersCapacityProviderStrategyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SchedulerScheduleTargetEcsParametersCapacityProviderStrategyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_SchedulerScheduleTargetEcsParametersCapacityProviderStrategyOutputReference) validateSetBaseParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_SchedulerScheduleTargetEcsParametersCapacityProviderStrategyOutputReference) validateSetCapacityProviderParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SchedulerScheduleTargetEcsParametersCapacityProviderStrategyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SchedulerScheduleTargetEcsParametersCapacityProviderStrategyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_SchedulerScheduleTargetEcsParametersCapacityProviderStrategyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SchedulerScheduleTargetEcsParametersCapacityProviderStrategyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SchedulerScheduleTargetEcsParametersCapacityProviderStrategyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_SchedulerScheduleTargetEcsParametersCapacityProviderStrategyOutputReference) validateSetWeightParameters(val *float64) error {
+	return nil
+}
+
+func validateNewSchedulerScheduleTargetEcsParametersCapacityProviderStrategyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

@@ -1,0 +1,922 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package amplifyapp
+
+import (
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/amplifyapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+type AmplifyAppAutoBranchCreationConfigOutputReference interface {
+	cdktn.ComplexObject
+	AutoBranchCreationPatterns() *[]*string
+	SetAutoBranchCreationPatterns(val *[]*string)
+	AutoBranchCreationPatternsInput() *[]*string
+	BasicAuthConfig() AmplifyAppAutoBranchCreationConfigBasicAuthConfigOutputReference
+	BasicAuthConfigInput() interface{}
+	BuildSpec() *string
+	SetBuildSpec(val *string)
+	BuildSpecInput() *string
+	// the index of the complex object in a list.
+	// Experimental.
+	ComplexObjectIndex() interface{}
+	// Experimental.
+	SetComplexObjectIndex(val interface{})
+	// set to true if this item is from inside a set and needs tolist() for accessing it set to "0" for single list items.
+	// Experimental.
+	ComplexObjectIsFromSet() *bool
+	// Experimental.
+	SetComplexObjectIsFromSet(val *bool)
+	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
+	//
+	// If this returns an empty array the stack will not be attached.
+	// Experimental.
+	CreationStack() *[]*string
+	EnableAutoBranchCreation() interface{}
+	SetEnableAutoBranchCreation(val interface{})
+	EnableAutoBranchCreationInput() interface{}
+	EnableAutoBuild() interface{}
+	SetEnableAutoBuild(val interface{})
+	EnableAutoBuildInput() interface{}
+	EnablePerformanceMode() interface{}
+	SetEnablePerformanceMode(val interface{})
+	EnablePerformanceModeInput() interface{}
+	EnablePullRequestPreview() interface{}
+	SetEnablePullRequestPreview(val interface{})
+	EnablePullRequestPreviewInput() interface{}
+	EnvironmentVariables() AmplifyAppAutoBranchCreationConfigEnvironmentVariablesList
+	EnvironmentVariablesInput() interface{}
+	// Experimental.
+	Fqn() *string
+	Framework() *string
+	SetFramework(val *string)
+	FrameworkInput() *string
+	InternalValue() interface{}
+	SetInternalValue(val interface{})
+	PullRequestEnvironmentName() *string
+	SetPullRequestEnvironmentName(val *string)
+	PullRequestEnvironmentNameInput() *string
+	Stage() *string
+	SetStage(val *string)
+	StageInput() *string
+	// Experimental.
+	TerraformAttribute() *string
+	// Experimental.
+	SetTerraformAttribute(val *string)
+	// Experimental.
+	TerraformResource() cdktn.IInterpolatingParent
+	// Experimental.
+	SetTerraformResource(val cdktn.IInterpolatingParent)
+	// Experimental.
+	ComputeFqn() *string
+	// Experimental.
+	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+	// Experimental.
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
+	// Experimental.
+	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+	// Experimental.
+	GetListAttribute(terraformAttribute *string) *[]*string
+	// Experimental.
+	GetNumberAttribute(terraformAttribute *string) *float64
+	// Experimental.
+	GetNumberListAttribute(terraformAttribute *string) *[]*float64
+	// Experimental.
+	GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64
+	// Experimental.
+	GetStringAttribute(terraformAttribute *string) *string
+	// Experimental.
+	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+	// Experimental.
+	InterpolationAsList() cdktn.IResolvable
+	// Experimental.
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutBasicAuthConfig(value *AmplifyAppAutoBranchCreationConfigBasicAuthConfig)
+	PutEnvironmentVariables(value interface{})
+	ResetAutoBranchCreationPatterns()
+	ResetBasicAuthConfig()
+	ResetBuildSpec()
+	ResetEnableAutoBranchCreation()
+	ResetEnableAutoBuild()
+	ResetEnablePerformanceMode()
+	ResetEnablePullRequestPreview()
+	ResetEnvironmentVariables()
+	ResetFramework()
+	ResetPullRequestEnvironmentName()
+	ResetStage()
+	// Produce the Token's value at resolution time.
+	// Experimental.
+	Resolve(context cdktn.IResolveContext) interface{}
+	// Return a string representation of this resolvable object.
+	//
+	// Returns a reversible string representation.
+	// Experimental.
+	ToString() *string
+}
+
+// The jsii proxy struct for AmplifyAppAutoBranchCreationConfigOutputReference
+type jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference struct {
+	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) AutoBranchCreationPatterns() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"autoBranchCreationPatterns",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) AutoBranchCreationPatternsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"autoBranchCreationPatternsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) BasicAuthConfig() AmplifyAppAutoBranchCreationConfigBasicAuthConfigOutputReference {
+	var returns AmplifyAppAutoBranchCreationConfigBasicAuthConfigOutputReference
+	_jsii_.Get(
+		j,
+		"basicAuthConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) BasicAuthConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"basicAuthConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) BuildSpec() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"buildSpec",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) BuildSpecInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"buildSpecInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) ComplexObjectIndex() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"complexObjectIndex",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) ComplexObjectIsFromSet() *bool {
+	var returns *bool
+	_jsii_.Get(
+		j,
+		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) CreationStack() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) EnableAutoBranchCreation() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableAutoBranchCreation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) EnableAutoBranchCreationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableAutoBranchCreationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) EnableAutoBuild() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableAutoBuild",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) EnableAutoBuildInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableAutoBuildInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) EnablePerformanceMode() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enablePerformanceMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) EnablePerformanceModeInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enablePerformanceModeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) EnablePullRequestPreview() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enablePullRequestPreview",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) EnablePullRequestPreviewInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enablePullRequestPreviewInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) EnvironmentVariables() AmplifyAppAutoBranchCreationConfigEnvironmentVariablesList {
+	var returns AmplifyAppAutoBranchCreationConfigEnvironmentVariablesList
+	_jsii_.Get(
+		j,
+		"environmentVariables",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) EnvironmentVariablesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"environmentVariablesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) Fqn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) Framework() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"framework",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) FrameworkInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"frameworkInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) InternalValue() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) PullRequestEnvironmentName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"pullRequestEnvironmentName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) PullRequestEnvironmentNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"pullRequestEnvironmentNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) Stage() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"stage",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) StageInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"stageInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) TerraformAttribute() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"terraformAttribute",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
+	_jsii_.Get(
+		j,
+		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+
+func NewAmplifyAppAutoBranchCreationConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AmplifyAppAutoBranchCreationConfigOutputReference {
+	_init_.Initialize()
+
+	if err := validateNewAmplifyAppAutoBranchCreationConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
+		panic(err)
+	}
+	j := jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference{}
+
+	_jsii_.Create(
+		"@cdktn/provider-awscc.amplifyApp.AmplifyAppAutoBranchCreationConfigOutputReference",
+		[]interface{}{terraformResource, terraformAttribute},
+		&j,
+	)
+
+	return &j
+}
+
+func NewAmplifyAppAutoBranchCreationConfigOutputReference_Override(a AmplifyAppAutoBranchCreationConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
+	_init_.Initialize()
+
+	_jsii_.Create(
+		"@cdktn/provider-awscc.amplifyApp.AmplifyAppAutoBranchCreationConfigOutputReference",
+		[]interface{}{terraformResource, terraformAttribute},
+		a,
+	)
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference)SetAutoBranchCreationPatterns(val *[]*string) {
+	if err := j.validateSetAutoBranchCreationPatternsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"autoBranchCreationPatterns",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference)SetBuildSpec(val *string) {
+	if err := j.validateSetBuildSpecParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"buildSpec",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference)SetComplexObjectIndex(val interface{}) {
+	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"complexObjectIndex",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference)SetComplexObjectIsFromSet(val *bool) {
+	if err := j.validateSetComplexObjectIsFromSetParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference)SetEnableAutoBranchCreation(val interface{}) {
+	if err := j.validateSetEnableAutoBranchCreationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enableAutoBranchCreation",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference)SetEnableAutoBuild(val interface{}) {
+	if err := j.validateSetEnableAutoBuildParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enableAutoBuild",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference)SetEnablePerformanceMode(val interface{}) {
+	if err := j.validateSetEnablePerformanceModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enablePerformanceMode",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference)SetEnablePullRequestPreview(val interface{}) {
+	if err := j.validateSetEnablePullRequestPreviewParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enablePullRequestPreview",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference)SetFramework(val *string) {
+	if err := j.validateSetFrameworkParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"framework",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference)SetInternalValue(val interface{}) {
+	if err := j.validateSetInternalValueParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference)SetPullRequestEnvironmentName(val *string) {
+	if err := j.validateSetPullRequestEnvironmentNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"pullRequestEnvironmentName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference)SetStage(val *string) {
+	if err := j.validateSetStageParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"stage",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference)SetTerraformAttribute(val *string) {
+	if err := j.validateSetTerraformAttributeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformAttribute",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
+	if err := j.validateSetTerraformResourceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformResource",
+		val,
+	)
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) ComputeFqn() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		a,
+		"computeFqn",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{} {
+	if err := a.validateGetAnyMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		a,
+		"getAnyMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		a,
+		"getBooleanAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool {
+	if err := a.validateGetBooleanMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*bool
+
+	_jsii_.Invoke(
+		a,
+		"getBooleanMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) GetListAttribute(terraformAttribute *string) *[]*string {
+	if err := a.validateGetListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*string
+
+	_jsii_.Invoke(
+		a,
+		"getListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) GetNumberAttribute(terraformAttribute *string) *float64 {
+	if err := a.validateGetNumberAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *float64
+
+	_jsii_.Invoke(
+		a,
+		"getNumberAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) GetNumberListAttribute(terraformAttribute *string) *[]*float64 {
+	if err := a.validateGetNumberListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*float64
+
+	_jsii_.Invoke(
+		a,
+		"getNumberListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64 {
+	if err := a.validateGetNumberMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*float64
+
+	_jsii_.Invoke(
+		a,
+		"getNumberMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) GetStringAttribute(terraformAttribute *string) *string {
+	if err := a.validateGetStringAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *string
+
+	_jsii_.Invoke(
+		a,
+		"getStringAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) GetStringMapAttribute(terraformAttribute *string) *map[string]*string {
+	if err := a.validateGetStringMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*string
+
+	_jsii_.Invoke(
+		a,
+		"getStringMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		a,
+		"interpolationAsList",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		a,
+		"interpolationForAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) PutBasicAuthConfig(value *AmplifyAppAutoBranchCreationConfigBasicAuthConfig) {
+	if err := a.validatePutBasicAuthConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putBasicAuthConfig",
+		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) PutEnvironmentVariables(value interface{}) {
+	if err := a.validatePutEnvironmentVariablesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putEnvironmentVariables",
+		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) ResetAutoBranchCreationPatterns() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetAutoBranchCreationPatterns",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) ResetBasicAuthConfig() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetBasicAuthConfig",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) ResetBuildSpec() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetBuildSpec",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) ResetEnableAutoBranchCreation() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetEnableAutoBranchCreation",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) ResetEnableAutoBuild() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetEnableAutoBuild",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) ResetEnablePerformanceMode() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetEnablePerformanceMode",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) ResetEnablePullRequestPreview() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetEnablePullRequestPreview",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) ResetEnvironmentVariables() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetEnvironmentVariables",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) ResetFramework() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetFramework",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) ResetPullRequestEnvironmentName() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetPullRequestEnvironmentName",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) ResetStage() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetStage",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
+	if err := a.validateResolveParameters(context); err != nil {
+		panic(err)
+	}
+	var returns interface{}
+
+	_jsii_.Invoke(
+		a,
+		"resolve",
+		[]interface{}{context},
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AmplifyAppAutoBranchCreationConfigOutputReference) ToString() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		a,
+		"toString",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+

@@ -1,0 +1,141 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package evidentlyproject
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (e *jsiiProxy_EvidentlyProject) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EvidentlyProject) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_EvidentlyProject) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EvidentlyProject) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EvidentlyProject) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EvidentlyProject) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EvidentlyProject) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EvidentlyProject) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EvidentlyProject) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EvidentlyProject) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EvidentlyProject) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EvidentlyProject) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EvidentlyProject) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EvidentlyProject) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_EvidentlyProject) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EvidentlyProject) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_EvidentlyProject) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EvidentlyProject) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_EvidentlyProject) validatePutAppConfigResourceParameters(value *EvidentlyProjectAppConfigResource) error {
+	return nil
+}
+
+func (e *jsiiProxy_EvidentlyProject) validatePutDataDeliveryParameters(value *EvidentlyProjectDataDelivery) error {
+	return nil
+}
+
+func (e *jsiiProxy_EvidentlyProject) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_EvidentlyProject) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateEvidentlyProject_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateEvidentlyProject_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateEvidentlyProject_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateEvidentlyProject_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_EvidentlyProject) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_EvidentlyProject) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_EvidentlyProject) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_EvidentlyProject) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_EvidentlyProject) validateSetNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_EvidentlyProject) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func validateNewEvidentlyProjectParameters(scope constructs.Construct, id *string, config *EvidentlyProjectConfig) error {
+	return nil
+}
+

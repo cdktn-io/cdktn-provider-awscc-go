@@ -1,0 +1,85 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package connectquickconnect
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigUserConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigUserConfigOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigUserConfigOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigUserConfigOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigUserConfigOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigUserConfigOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigUserConfigOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigUserConfigOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigUserConfigOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigUserConfigOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConnectQuickConnectQuickConnectConfigUserConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigUserConfigOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigUserConfigOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigUserConfigOutputReference) validateSetContactFlowArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigUserConfigOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigUserConfigOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigUserConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectQuickConnectQuickConnectConfigUserConfigOutputReference) validateSetUserArnParameters(val *string) error {
+	return nil
+}
+
+func validateNewConnectQuickConnectQuickConnectConfigUserConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

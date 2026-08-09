@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawscclexbot
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference) validateSetInternalValueParameters(val *DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatch) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccLexBotTestBotAliasSettingsConversationLogSettingsTextLogSettingsDestinationCloudwatchOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

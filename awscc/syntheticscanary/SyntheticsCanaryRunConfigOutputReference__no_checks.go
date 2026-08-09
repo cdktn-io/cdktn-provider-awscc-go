@@ -1,0 +1,97 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package syntheticscanary
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (s *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateSetActiveTracingParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateSetEnvironmentVariablesParameters(val *map[string]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateSetEphemeralStorageParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateSetMemoryInMbParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_SyntheticsCanaryRunConfigOutputReference) validateSetTimeoutInSecondsParameters(val *float64) error {
+	return nil
+}
+
+func validateNewSyntheticsCanaryRunConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

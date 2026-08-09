@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccpipespipe
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverridesOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverridesOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverridesOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverridesOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverridesOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverridesOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverridesOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverridesOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverridesOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverridesOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverridesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverridesOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverridesOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverridesOutputReference) validateSetInternalValueParameters(val *DataAwsccPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverrides) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverridesOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverridesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverridesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccsagemakermodelqualityjobdefinition
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccSagemakerModelQualityJobDefinitionModelQualityBaselineConfigConstraintsResourceOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelQualityJobDefinitionModelQualityBaselineConfigConstraintsResourceOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelQualityJobDefinitionModelQualityBaselineConfigConstraintsResourceOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelQualityJobDefinitionModelQualityBaselineConfigConstraintsResourceOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelQualityJobDefinitionModelQualityBaselineConfigConstraintsResourceOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelQualityJobDefinitionModelQualityBaselineConfigConstraintsResourceOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelQualityJobDefinitionModelQualityBaselineConfigConstraintsResourceOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelQualityJobDefinitionModelQualityBaselineConfigConstraintsResourceOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelQualityJobDefinitionModelQualityBaselineConfigConstraintsResourceOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelQualityJobDefinitionModelQualityBaselineConfigConstraintsResourceOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerModelQualityJobDefinitionModelQualityBaselineConfigConstraintsResourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerModelQualityJobDefinitionModelQualityBaselineConfigConstraintsResourceOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerModelQualityJobDefinitionModelQualityBaselineConfigConstraintsResourceOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerModelQualityJobDefinitionModelQualityBaselineConfigConstraintsResourceOutputReference) validateSetInternalValueParameters(val *DataAwsccSagemakerModelQualityJobDefinitionModelQualityBaselineConfigConstraintsResource) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerModelQualityJobDefinitionModelQualityBaselineConfigConstraintsResourceOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerModelQualityJobDefinitionModelQualityBaselineConfigConstraintsResourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccSagemakerModelQualityJobDefinitionModelQualityBaselineConfigConstraintsResourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+
