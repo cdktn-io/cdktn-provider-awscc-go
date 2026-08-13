@@ -7,11 +7,11 @@ package ioteventsdetectormodel
 type IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambda struct {
 	// The ARN of the Lambda function that is executed.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotevents_detector_model#function_arn IoteventsDetectorModel#function_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotevents_detector_model#function_arn IoteventsDetectorModel#function_arn}
 	FunctionArn *string `field:"optional" json:"functionArn" yaml:"functionArn"`
 	// You can configure the action payload when you send a message to a Lambda function.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 	Payload *IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambdaPayload `field:"optional" json:"payload" yaml:"payload"`
 }
 

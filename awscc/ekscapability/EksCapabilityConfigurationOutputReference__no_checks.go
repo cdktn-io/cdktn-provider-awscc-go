@@ -55,6 +55,10 @@ func (e *jsiiProxy_EksCapabilityConfigurationOutputReference) validateResolvePar
 	return nil
 }
 
+func (j *jsiiProxy_EksCapabilityConfigurationOutputReference) validateSetAckParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_EksCapabilityConfigurationOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }

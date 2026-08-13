@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/sagemaker_device awscc_sagemaker_device}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_device awscc_sagemaker_device}.
 type DataAwsccSagemakerDevice interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccSagemakerDevice) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/sagemaker_device awscc_sagemaker_device} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_device awscc_sagemaker_device} Data Source.
 func NewDataAwsccSagemakerDevice(scope constructs.Construct, id *string, config *DataAwsccSagemakerDeviceConfig) DataAwsccSagemakerDevice {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccSagemakerDevice(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/sagemaker_device awscc_sagemaker_device} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_device awscc_sagemaker_device} Data Source.
 func NewDataAwsccSagemakerDevice_Override(d DataAwsccSagemakerDevice, scope constructs.Construct, id *string, config *DataAwsccSagemakerDeviceConfig) {
 	_init_.Initialize()
 

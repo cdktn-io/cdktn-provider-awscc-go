@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/servicecatalogappregistry_resource_association awscc_servicecatalogappregistry_resource_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalogappregistry_resource_association awscc_servicecatalogappregistry_resource_association}.
 type DataAwsccServicecatalogappregistryResourceAssociation interface {
 	cdktn.TerraformDataSource
 	Application() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccServicecatalogappregistryResourceAssociation) Terraf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/servicecatalogappregistry_resource_association awscc_servicecatalogappregistry_resource_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalogappregistry_resource_association awscc_servicecatalogappregistry_resource_association} Data Source.
 func NewDataAwsccServicecatalogappregistryResourceAssociation(scope constructs.Construct, id *string, config *DataAwsccServicecatalogappregistryResourceAssociationConfig) DataAwsccServicecatalogappregistryResourceAssociation {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccServicecatalogappregistryResourceAssociation(scope constructs.C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/servicecatalogappregistry_resource_association awscc_servicecatalogappregistry_resource_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalogappregistry_resource_association awscc_servicecatalogappregistry_resource_association} Data Source.
 func NewDataAwsccServicecatalogappregistryResourceAssociation_Override(d DataAwsccServicecatalogappregistryResourceAssociation, scope constructs.Construct, id *string, config *DataAwsccServicecatalogappregistryResourceAssociationConfig) {
 	_init_.Initialize()
 

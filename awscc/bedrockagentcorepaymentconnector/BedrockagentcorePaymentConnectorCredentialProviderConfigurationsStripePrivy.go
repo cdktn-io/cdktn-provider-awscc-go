@@ -7,7 +7,7 @@ package bedrockagentcorepaymentconnector
 type BedrockagentcorePaymentConnectorCredentialProviderConfigurationsStripePrivy struct {
 	// The ARN of the payment credential provider.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_payment_connector#credential_provider_arn BedrockagentcorePaymentConnector#credential_provider_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_payment_connector#credential_provider_arn BedrockagentcorePaymentConnector#credential_provider_arn}
 	CredentialProviderArn *string `field:"optional" json:"credentialProviderArn" yaml:"credentialProviderArn"`
 }
 

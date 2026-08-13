@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_launch_configuration awscc_autoscaling_launch_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_launch_configuration awscc_autoscaling_launch_configuration}.
 type AutoscalingLaunchConfiguration interface {
 	cdktn.TerraformResource
 	AssociatePublicIpAddress() interface{}
@@ -809,7 +809,7 @@ func (j *jsiiProxy_AutoscalingLaunchConfiguration) UserDataInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_launch_configuration awscc_autoscaling_launch_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_launch_configuration awscc_autoscaling_launch_configuration} Resource.
 func NewAutoscalingLaunchConfiguration(scope constructs.Construct, id *string, config *AutoscalingLaunchConfigurationConfig) AutoscalingLaunchConfiguration {
 	_init_.Initialize()
 
@@ -827,7 +827,7 @@ func NewAutoscalingLaunchConfiguration(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_launch_configuration awscc_autoscaling_launch_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_launch_configuration awscc_autoscaling_launch_configuration} Resource.
 func NewAutoscalingLaunchConfiguration_Override(a AutoscalingLaunchConfiguration, scope constructs.Construct, id *string, config *AutoscalingLaunchConfigurationConfig) {
 	_init_.Initialize()
 

@@ -24,15 +24,15 @@ type LogsIntegrationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// User provided identifier for integration, unique to the user account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/logs_integration#integration_name LogsIntegration#integration_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_integration#integration_name LogsIntegration#integration_name}
 	IntegrationName *string `field:"required" json:"integrationName" yaml:"integrationName"`
 	// The type of the Integration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/logs_integration#integration_type LogsIntegration#integration_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_integration#integration_type LogsIntegration#integration_type}
 	IntegrationType *string `field:"required" json:"integrationType" yaml:"integrationType"`
 	// OpenSearchResourceConfig for the given Integration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/logs_integration#resource_config LogsIntegration#resource_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_integration#resource_config LogsIntegration#resource_config}
 	ResourceConfig *LogsIntegrationResourceConfig `field:"required" json:"resourceConfig" yaml:"resourceConfig"`
 }
 

@@ -10,7 +10,7 @@ type Ec2LaunchTemplateLaunchTemplateDataInstanceRequirements struct {
 	// To exclude accelerator-enabled instance types, set ``Max`` to ``0``.
 	//  Default: No minimum or maximum limits
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#accelerator_count Ec2LaunchTemplate#accelerator_count}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#accelerator_count Ec2LaunchTemplate#accelerator_count}
 	AcceleratorCount *Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsAcceleratorCount `field:"optional" json:"acceleratorCount" yaml:"acceleratorCount"`
 	// Indicates whether instance types must have accelerators by specific manufacturers.
 	//
@@ -22,7 +22,7 @@ type Ec2LaunchTemplateLaunchTemplateDataInstanceRequirements struct {
 	//
 	//  Default: Any manufacturer
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#accelerator_manufacturers Ec2LaunchTemplate#accelerator_manufacturers}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#accelerator_manufacturers Ec2LaunchTemplate#accelerator_manufacturers}
 	AcceleratorManufacturers *[]*string `field:"optional" json:"acceleratorManufacturers" yaml:"acceleratorManufacturers"`
 	// The accelerators that must be on the instance type.
 	//
@@ -41,11 +41,11 @@ type Ec2LaunchTemplateLaunchTemplateDataInstanceRequirements struct {
 	//
 	//  Default: Any accelerator
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#accelerator_names Ec2LaunchTemplate#accelerator_names}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#accelerator_names Ec2LaunchTemplate#accelerator_names}
 	AcceleratorNames *[]*string `field:"optional" json:"acceleratorNames" yaml:"acceleratorNames"`
 	// The minimum and maximum amount of total accelerator memory, in MiB.  Default: No minimum or maximum limits.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#accelerator_total_memory_mi_b Ec2LaunchTemplate#accelerator_total_memory_mi_b}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#accelerator_total_memory_mi_b Ec2LaunchTemplate#accelerator_total_memory_mi_b}
 	AcceleratorTotalMemoryMiB *Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsAcceleratorTotalMemoryMiB `field:"optional" json:"acceleratorTotalMemoryMiB" yaml:"acceleratorTotalMemoryMiB"`
 	// The accelerator types that must be on the instance type.
 	//
@@ -55,7 +55,7 @@ type Ec2LaunchTemplateLaunchTemplateDataInstanceRequirements struct {
 	//
 	//  Default: Any accelerator type
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#accelerator_types Ec2LaunchTemplate#accelerator_types}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#accelerator_types Ec2LaunchTemplate#accelerator_types}
 	AcceleratorTypes *[]*string `field:"optional" json:"acceleratorTypes" yaml:"acceleratorTypes"`
 	// The instance types to apply your specified attributes against.
 	//
@@ -65,7 +65,7 @@ type Ec2LaunchTemplateLaunchTemplateDataInstanceRequirements struct {
 	//   If you specify ``AllowedInstanceTypes``, you can't specify ``ExcludedInstanceTypes``.
 	//   Default: All instance types
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#allowed_instance_types Ec2LaunchTemplate#allowed_instance_types}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#allowed_instance_types Ec2LaunchTemplate#allowed_instance_types}
 	AllowedInstanceTypes *[]*string `field:"optional" json:"allowedInstanceTypes" yaml:"allowedInstanceTypes"`
 	// Indicates whether bare metal instance types must be included, excluded, or required.
 	//
@@ -75,16 +75,16 @@ type Ec2LaunchTemplateLaunchTemplateDataInstanceRequirements struct {
 	//
 	//  Default: ``excluded``
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#bare_metal Ec2LaunchTemplate#bare_metal}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#bare_metal Ec2LaunchTemplate#bare_metal}
 	BareMetal *string `field:"optional" json:"bareMetal" yaml:"bareMetal"`
 	// The minimum and maximum baseline bandwidth to Amazon EBS, in Mbps.
 	//
 	// For more information, see [Amazon EBS–optimized instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-optimized.html) in the *Amazon EC2 User Guide*.
 	//  Default: No minimum or maximum limits
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#baseline_ebs_bandwidth_mbps Ec2LaunchTemplate#baseline_ebs_bandwidth_mbps}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#baseline_ebs_bandwidth_mbps Ec2LaunchTemplate#baseline_ebs_bandwidth_mbps}
 	BaselineEbsBandwidthMbps *Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsBaselineEbsBandwidthMbps `field:"optional" json:"baselineEbsBandwidthMbps" yaml:"baselineEbsBandwidthMbps"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#baseline_performance_factors Ec2LaunchTemplate#baseline_performance_factors}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#baseline_performance_factors Ec2LaunchTemplate#baseline_performance_factors}.
 	BaselinePerformanceFactors *Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsBaselinePerformanceFactors `field:"optional" json:"baselinePerformanceFactors" yaml:"baselinePerformanceFactors"`
 	// Indicates whether burstable performance T instance types are included, excluded, or required.
 	//
@@ -95,7 +95,7 @@ type Ec2LaunchTemplateLaunchTemplateDataInstanceRequirements struct {
 	//
 	//  Default: ``excluded``
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#burstable_performance Ec2LaunchTemplate#burstable_performance}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#burstable_performance Ec2LaunchTemplate#burstable_performance}
 	BurstablePerformance *string `field:"optional" json:"burstablePerformance" yaml:"burstablePerformance"`
 	// The CPU manufacturers to include.
 	//
@@ -106,7 +106,7 @@ type Ec2LaunchTemplateLaunchTemplateDataInstanceRequirements struct {
 	//   Don't confuse the CPU manufacturer with the CPU architecture. Instances will be launched with a compatible CPU architecture based on the Amazon Machine Image (AMI) that you specify in your launch template.
 	//   Default: Any manufacturer
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#cpu_manufacturers Ec2LaunchTemplate#cpu_manufacturers}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#cpu_manufacturers Ec2LaunchTemplate#cpu_manufacturers}
 	CpuManufacturers *[]*string `field:"optional" json:"cpuManufacturers" yaml:"cpuManufacturers"`
 	// The instance types to exclude.
 	//
@@ -115,7 +115,7 @@ type Ec2LaunchTemplateLaunchTemplateDataInstanceRequirements struct {
 	//   If you specify ``ExcludedInstanceTypes``, you can't specify ``AllowedInstanceTypes``.
 	//   Default: No excluded instance types
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#excluded_instance_types Ec2LaunchTemplate#excluded_instance_types}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#excluded_instance_types Ec2LaunchTemplate#excluded_instance_types}
 	ExcludedInstanceTypes *[]*string `field:"optional" json:"excludedInstanceTypes" yaml:"excludedInstanceTypes"`
 	// Indicates whether current or previous generation instance types are included.
 	//
@@ -124,7 +124,7 @@ type Ec2LaunchTemplateLaunchTemplateDataInstanceRequirements struct {
 	//  For previous generation instance types, specify ``previous``.
 	//  Default: Current and previous generation instance types
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#instance_generations Ec2LaunchTemplate#instance_generations}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#instance_generations Ec2LaunchTemplate#instance_generations}
 	InstanceGenerations *[]*string `field:"optional" json:"instanceGenerations" yaml:"instanceGenerations"`
 	// Indicates whether instance types with instance store volumes are included, excluded, or required.
 	//
@@ -135,7 +135,7 @@ type Ec2LaunchTemplateLaunchTemplateDataInstanceRequirements struct {
 	//
 	//  Default: ``included``
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#local_storage Ec2LaunchTemplate#local_storage}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#local_storage Ec2LaunchTemplate#local_storage}
 	LocalStorage *string `field:"optional" json:"localStorage" yaml:"localStorage"`
 	// The type of local storage that is required.
 	//
@@ -144,7 +144,7 @@ type Ec2LaunchTemplateLaunchTemplateDataInstanceRequirements struct {
 	//
 	//  Default: ``hdd`` and ``ssd``
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#local_storage_types Ec2LaunchTemplate#local_storage_types}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#local_storage_types Ec2LaunchTemplate#local_storage_types}
 	LocalStorageTypes *[]*string `field:"optional" json:"localStorageTypes" yaml:"localStorageTypes"`
 	// [Price protection] The price protection threshold for Spot Instances, as a percentage of an identified On-Demand price.
 	//
@@ -153,23 +153,23 @@ type Ec2LaunchTemplateLaunchTemplateDataInstanceRequirements struct {
 	//  If you set ``TargetCapacityUnitType`` to ``vcpu`` or ``memory-mib``, the price protection threshold is based on the per vCPU or per memory price instead of the per instance price.
 	//   Only one of ``SpotMaxPricePercentageOverLowestPrice`` or ``MaxSpotPriceAsPercentageOfOptimalOnDemandPrice`` can be specified. If you don't specify either, Amazon EC2 will automatically apply optimal price protection to consistently select from a wide range of instance types. To indicate no price protection threshold for Spot Instances, meaning you want to consider all instance types that match your attributes, include one of these parameters and specify a high value, such as ``999999``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2LaunchTemplate#max_spot_price_as_percentage_of_optimal_on_demand_price}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#max_spot_price_as_percentage_of_optimal_on_demand_price Ec2LaunchTemplate#max_spot_price_as_percentage_of_optimal_on_demand_price}
 	MaxSpotPriceAsPercentageOfOptimalOnDemandPrice *float64 `field:"optional" json:"maxSpotPriceAsPercentageOfOptimalOnDemandPrice" yaml:"maxSpotPriceAsPercentageOfOptimalOnDemandPrice"`
 	// The minimum and maximum amount of memory per vCPU, in GiB.  Default: No minimum or maximum limits.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#memory_gi_b_per_v_cpu Ec2LaunchTemplate#memory_gi_b_per_v_cpu}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#memory_gi_b_per_v_cpu Ec2LaunchTemplate#memory_gi_b_per_v_cpu}
 	MemoryGiBPerVCpu *Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsMemoryGiBPerVCpu `field:"optional" json:"memoryGiBPerVCpu" yaml:"memoryGiBPerVCpu"`
 	// The minimum and maximum amount of memory, in MiB.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#memory_mi_b Ec2LaunchTemplate#memory_mi_b}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#memory_mi_b Ec2LaunchTemplate#memory_mi_b}
 	MemoryMiB *Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsMemoryMiB `field:"optional" json:"memoryMiB" yaml:"memoryMiB"`
 	// The minimum and maximum amount of network bandwidth, in gigabits per second (Gbps).  Default: No minimum or maximum limits.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#network_bandwidth_gbps Ec2LaunchTemplate#network_bandwidth_gbps}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#network_bandwidth_gbps Ec2LaunchTemplate#network_bandwidth_gbps}
 	NetworkBandwidthGbps *Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsNetworkBandwidthGbps `field:"optional" json:"networkBandwidthGbps" yaml:"networkBandwidthGbps"`
 	// The minimum and maximum number of network interfaces.  Default: No minimum or maximum limits.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#network_interface_count Ec2LaunchTemplate#network_interface_count}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#network_interface_count Ec2LaunchTemplate#network_interface_count}
 	NetworkInterfaceCount *Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsNetworkInterfaceCount `field:"optional" json:"networkInterfaceCount" yaml:"networkInterfaceCount"`
 	// [Price protection] The price protection threshold for On-Demand Instances, as a percentage higher than an identified On-Demand price.
 	//
@@ -180,11 +180,11 @@ type Ec2LaunchTemplateLaunchTemplateDataInstanceRequirements struct {
 	//   If you set ``TargetCapacityUnitType`` to ``vcpu`` or ``memory-mib``, the price protection threshold is applied based on the per-vCPU or per-memory price instead of the per-instance price.
 	//   Default: ``20``
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#on_demand_max_price_percentage_over_lowest_price Ec2LaunchTemplate#on_demand_max_price_percentage_over_lowest_price}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#on_demand_max_price_percentage_over_lowest_price Ec2LaunchTemplate#on_demand_max_price_percentage_over_lowest_price}
 	OnDemandMaxPricePercentageOverLowestPrice *float64 `field:"optional" json:"onDemandMaxPricePercentageOverLowestPrice" yaml:"onDemandMaxPricePercentageOverLowestPrice"`
 	// Indicates whether instance types must support hibernation for On-Demand Instances.  This parameter is not supported for [GetSpotPlacementScores](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_GetSpotPlacementScores.html).  Default: ``false``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#require_hibernate_support Ec2LaunchTemplate#require_hibernate_support}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#require_hibernate_support Ec2LaunchTemplate#require_hibernate_support}
 	RequireHibernateSupport interface{} `field:"optional" json:"requireHibernateSupport" yaml:"requireHibernateSupport"`
 	// [Price protection] The price protection threshold for Spot Instances, as a percentage higher than an identified Spot price.
 	//
@@ -195,15 +195,15 @@ type Ec2LaunchTemplateLaunchTemplateDataInstanceRequirements struct {
 	//   Only one of ``SpotMaxPricePercentageOverLowestPrice`` or ``MaxSpotPriceAsPercentageOfOptimalOnDemandPrice`` can be specified. If you don't specify either, Amazon EC2 will automatically apply optimal price protection to consistently select from a wide range of instance types. To indicate no price protection threshold for Spot Instances, meaning you want to consider all instance types that match your attributes, include one of these parameters and specify a high value, such as ``999999``.
 	//   Default: ``100``
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#spot_max_price_percentage_over_lowest_price Ec2LaunchTemplate#spot_max_price_percentage_over_lowest_price}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#spot_max_price_percentage_over_lowest_price Ec2LaunchTemplate#spot_max_price_percentage_over_lowest_price}
 	SpotMaxPricePercentageOverLowestPrice *float64 `field:"optional" json:"spotMaxPricePercentageOverLowestPrice" yaml:"spotMaxPricePercentageOverLowestPrice"`
 	// The minimum and maximum amount of total local storage, in GB.  Default: No minimum or maximum limits.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#total_local_storage_gb Ec2LaunchTemplate#total_local_storage_gb}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#total_local_storage_gb Ec2LaunchTemplate#total_local_storage_gb}
 	TotalLocalStorageGb *Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsTotalLocalStorageGb `field:"optional" json:"totalLocalStorageGb" yaml:"totalLocalStorageGb"`
 	// The minimum and maximum number of vCPUs.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#v_cpu_count Ec2LaunchTemplate#v_cpu_count}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#v_cpu_count Ec2LaunchTemplate#v_cpu_count}
 	VCpuCount *Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsVCpuCount `field:"optional" json:"vCpuCount" yaml:"vCpuCount"`
 }
 

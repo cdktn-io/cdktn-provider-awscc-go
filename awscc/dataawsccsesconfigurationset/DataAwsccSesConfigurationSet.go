@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ses_configuration_set awscc_ses_configuration_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ses_configuration_set awscc_ses_configuration_set}.
 type DataAwsccSesConfigurationSet interface {
 	cdktn.TerraformDataSource
 	ArchivingOptions() DataAwsccSesConfigurationSetArchivingOptionsOutputReference
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccSesConfigurationSet) VdmOptions() DataAwsccSesConfig
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ses_configuration_set awscc_ses_configuration_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ses_configuration_set awscc_ses_configuration_set} Data Source.
 func NewDataAwsccSesConfigurationSet(scope constructs.Construct, id *string, config *DataAwsccSesConfigurationSetConfig) DataAwsccSesConfigurationSet {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccSesConfigurationSet(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ses_configuration_set awscc_ses_configuration_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ses_configuration_set awscc_ses_configuration_set} Data Source.
 func NewDataAwsccSesConfigurationSet_Override(d DataAwsccSesConfigurationSet, scope constructs.Construct, id *string, config *DataAwsccSesConfigurationSetConfig) {
 	_init_.Initialize()
 

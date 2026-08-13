@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_connector awscc_pcaconnectorad_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_connector awscc_pcaconnectorad_connector}.
 type PcaconnectoradConnector interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -459,7 +459,7 @@ func (j *jsiiProxy_PcaconnectoradConnector) VpcInformationInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_connector awscc_pcaconnectorad_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_connector awscc_pcaconnectorad_connector} Resource.
 func NewPcaconnectoradConnector(scope constructs.Construct, id *string, config *PcaconnectoradConnectorConfig) PcaconnectoradConnector {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewPcaconnectoradConnector(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcaconnectorad_connector awscc_pcaconnectorad_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_connector awscc_pcaconnectorad_connector} Resource.
 func NewPcaconnectoradConnector_Override(p PcaconnectoradConnector, scope constructs.Construct, id *string, config *PcaconnectoradConnectorConfig) {
 	_init_.Initialize()
 

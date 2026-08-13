@@ -7,11 +7,11 @@ package ecrsigningconfiguration
 type EcrSigningConfigurationRulesRepositoryFilters struct {
 	// Repository name pattern (supports '*' wildcard).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_signing_configuration#filter EcrSigningConfiguration#filter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_signing_configuration#filter EcrSigningConfiguration#filter}
 	Filter *string `field:"optional" json:"filter" yaml:"filter"`
 	// Type of repository filter.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_signing_configuration#filter_type EcrSigningConfiguration#filter_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_signing_configuration#filter_type EcrSigningConfiguration#filter_type}
 	FilterType *string `field:"optional" json:"filterType" yaml:"filterType"`
 }
 

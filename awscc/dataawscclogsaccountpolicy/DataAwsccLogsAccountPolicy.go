@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/logs_account_policy awscc_logs_account_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/logs_account_policy awscc_logs_account_policy}.
 type DataAwsccLogsAccountPolicy interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccLogsAccountPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/logs_account_policy awscc_logs_account_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/logs_account_policy awscc_logs_account_policy} Data Source.
 func NewDataAwsccLogsAccountPolicy(scope constructs.Construct, id *string, config *DataAwsccLogsAccountPolicyConfig) DataAwsccLogsAccountPolicy {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccLogsAccountPolicy(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/logs_account_policy awscc_logs_account_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/logs_account_policy awscc_logs_account_policy} Data Source.
 func NewDataAwsccLogsAccountPolicy_Override(d DataAwsccLogsAccountPolicy, scope constructs.Construct, id *string, config *DataAwsccLogsAccountPolicyConfig) {
 	_init_.Initialize()
 

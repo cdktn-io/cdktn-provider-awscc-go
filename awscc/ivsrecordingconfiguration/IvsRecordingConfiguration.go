@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_recording_configuration awscc_ivs_recording_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_recording_configuration awscc_ivs_recording_configuration}.
 type IvsRecordingConfiguration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -520,7 +520,7 @@ func (j *jsiiProxy_IvsRecordingConfiguration) ThumbnailConfigurationInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_recording_configuration awscc_ivs_recording_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_recording_configuration awscc_ivs_recording_configuration} Resource.
 func NewIvsRecordingConfiguration(scope constructs.Construct, id *string, config *IvsRecordingConfigurationConfig) IvsRecordingConfiguration {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewIvsRecordingConfiguration(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_recording_configuration awscc_ivs_recording_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_recording_configuration awscc_ivs_recording_configuration} Resource.
 func NewIvsRecordingConfiguration_Override(i IvsRecordingConfiguration, scope constructs.Construct, id *string, config *IvsRecordingConfigurationConfig) {
 	_init_.Initialize()
 

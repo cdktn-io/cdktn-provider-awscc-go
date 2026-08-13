@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/deadline_queue awscc_deadline_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/deadline_queue awscc_deadline_queue}.
 type DeadlineQueue interface {
 	cdktn.TerraformResource
 	AllowedStorageProfileIds() *[]*string
@@ -639,7 +639,7 @@ func (j *jsiiProxy_DeadlineQueue) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/deadline_queue awscc_deadline_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/deadline_queue awscc_deadline_queue} Resource.
 func NewDeadlineQueue(scope constructs.Construct, id *string, config *DeadlineQueueConfig) DeadlineQueue {
 	_init_.Initialize()
 
@@ -657,7 +657,7 @@ func NewDeadlineQueue(scope constructs.Construct, id *string, config *DeadlineQu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/deadline_queue awscc_deadline_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/deadline_queue awscc_deadline_queue} Resource.
 func NewDeadlineQueue_Override(d DeadlineQueue, scope constructs.Construct, id *string, config *DeadlineQueueConfig) {
 	_init_.Initialize()
 

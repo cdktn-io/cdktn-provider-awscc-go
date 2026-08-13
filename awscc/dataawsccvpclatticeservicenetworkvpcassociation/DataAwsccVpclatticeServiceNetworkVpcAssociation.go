@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/vpclattice_service_network_vpc_association awscc_vpclattice_service_network_vpc_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/vpclattice_service_network_vpc_association awscc_vpclattice_service_network_vpc_association}.
 type DataAwsccVpclatticeServiceNetworkVpcAssociation interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccVpclatticeServiceNetworkVpcAssociation) VpcIdentifie
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/vpclattice_service_network_vpc_association awscc_vpclattice_service_network_vpc_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/vpclattice_service_network_vpc_association awscc_vpclattice_service_network_vpc_association} Data Source.
 func NewDataAwsccVpclatticeServiceNetworkVpcAssociation(scope constructs.Construct, id *string, config *DataAwsccVpclatticeServiceNetworkVpcAssociationConfig) DataAwsccVpclatticeServiceNetworkVpcAssociation {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccVpclatticeServiceNetworkVpcAssociation(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/vpclattice_service_network_vpc_association awscc_vpclattice_service_network_vpc_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/vpclattice_service_network_vpc_association awscc_vpclattice_service_network_vpc_association} Data Source.
 func NewDataAwsccVpclatticeServiceNetworkVpcAssociation_Override(d DataAwsccVpclatticeServiceNetworkVpcAssociation, scope constructs.Construct, id *string, config *DataAwsccVpclatticeServiceNetworkVpcAssociationConfig) {
 	_init_.Initialize()
 

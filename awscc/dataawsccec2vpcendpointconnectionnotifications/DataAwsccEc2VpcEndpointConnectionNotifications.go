@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_vpc_endpoint_connection_notifications awscc_ec2_vpc_endpoint_connection_notifications}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_vpc_endpoint_connection_notifications awscc_ec2_vpc_endpoint_connection_notifications}.
 type DataAwsccEc2VpcEndpointConnectionNotifications interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2VpcEndpointConnectionNotifications) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_vpc_endpoint_connection_notifications awscc_ec2_vpc_endpoint_connection_notifications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_vpc_endpoint_connection_notifications awscc_ec2_vpc_endpoint_connection_notifications} Data Source.
 func NewDataAwsccEc2VpcEndpointConnectionNotifications(scope constructs.Construct, id *string, config *DataAwsccEc2VpcEndpointConnectionNotificationsConfig) DataAwsccEc2VpcEndpointConnectionNotifications {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2VpcEndpointConnectionNotifications(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_vpc_endpoint_connection_notifications awscc_ec2_vpc_endpoint_connection_notifications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_vpc_endpoint_connection_notifications awscc_ec2_vpc_endpoint_connection_notifications} Data Source.
 func NewDataAwsccEc2VpcEndpointConnectionNotifications_Override(d DataAwsccEc2VpcEndpointConnectionNotifications, scope constructs.Construct, id *string, config *DataAwsccEc2VpcEndpointConnectionNotificationsConfig) {
 	_init_.Initialize()
 

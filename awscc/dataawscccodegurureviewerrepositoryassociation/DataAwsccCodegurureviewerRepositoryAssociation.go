@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/codegurureviewer_repository_association awscc_codegurureviewer_repository_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/codegurureviewer_repository_association awscc_codegurureviewer_repository_association}.
 type DataAwsccCodegurureviewerRepositoryAssociation interface {
 	cdktn.TerraformDataSource
 	AssociationArn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccCodegurureviewerRepositoryAssociation) Type() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/codegurureviewer_repository_association awscc_codegurureviewer_repository_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/codegurureviewer_repository_association awscc_codegurureviewer_repository_association} Data Source.
 func NewDataAwsccCodegurureviewerRepositoryAssociation(scope constructs.Construct, id *string, config *DataAwsccCodegurureviewerRepositoryAssociationConfig) DataAwsccCodegurureviewerRepositoryAssociation {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccCodegurureviewerRepositoryAssociation(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/codegurureviewer_repository_association awscc_codegurureviewer_repository_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/codegurureviewer_repository_association awscc_codegurureviewer_repository_association} Data Source.
 func NewDataAwsccCodegurureviewerRepositoryAssociation_Override(d DataAwsccCodegurureviewerRepositoryAssociation, scope constructs.Construct, id *string, config *DataAwsccCodegurureviewerRepositoryAssociationConfig) {
 	_init_.Initialize()
 

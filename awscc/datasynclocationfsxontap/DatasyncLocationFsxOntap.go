@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datasync_location_fsx_ontap awscc_datasync_location_fsx_ontap}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datasync_location_fsx_ontap awscc_datasync_location_fsx_ontap}.
 type DatasyncLocationFsxOntap interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -506,7 +506,7 @@ func (j *jsiiProxy_DatasyncLocationFsxOntap) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datasync_location_fsx_ontap awscc_datasync_location_fsx_ontap} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datasync_location_fsx_ontap awscc_datasync_location_fsx_ontap} Resource.
 func NewDatasyncLocationFsxOntap(scope constructs.Construct, id *string, config *DatasyncLocationFsxOntapConfig) DatasyncLocationFsxOntap {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewDatasyncLocationFsxOntap(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datasync_location_fsx_ontap awscc_datasync_location_fsx_ontap} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datasync_location_fsx_ontap awscc_datasync_location_fsx_ontap} Resource.
 func NewDatasyncLocationFsxOntap_Override(d DatasyncLocationFsxOntap, scope constructs.Construct, id *string, config *DatasyncLocationFsxOntapConfig) {
 	_init_.Initialize()
 

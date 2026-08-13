@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/redshift_integration awscc_redshift_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_integration awscc_redshift_integration}.
 type RedshiftIntegration interface {
 	cdktn.TerraformResource
 	AdditionalEncryptionContext() *map[string]*string
@@ -519,7 +519,7 @@ func (j *jsiiProxy_RedshiftIntegration) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/redshift_integration awscc_redshift_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_integration awscc_redshift_integration} Resource.
 func NewRedshiftIntegration(scope constructs.Construct, id *string, config *RedshiftIntegrationConfig) RedshiftIntegration {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewRedshiftIntegration(scope constructs.Construct, id *string, config *Reds
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/redshift_integration awscc_redshift_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_integration awscc_redshift_integration} Resource.
 func NewRedshiftIntegration_Override(r RedshiftIntegration, scope constructs.Construct, id *string, config *RedshiftIntegrationConfig) {
 	_init_.Initialize()
 

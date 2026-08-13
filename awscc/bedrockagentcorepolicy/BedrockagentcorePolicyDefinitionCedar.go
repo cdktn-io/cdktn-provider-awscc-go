@@ -7,7 +7,7 @@ package bedrockagentcorepolicy
 type BedrockagentcorePolicyDefinitionCedar struct {
 	// The Cedar policy statement that defines the authorization logic.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_policy#statement BedrockagentcorePolicy#statement}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_policy#statement BedrockagentcorePolicy#statement}
 	Statement *string `field:"optional" json:"statement" yaml:"statement"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/apigateway_domain_name_access_association awscc_apigateway_domain_name_access_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigateway_domain_name_access_association awscc_apigateway_domain_name_access_association}.
 type DataAwsccApigatewayDomainNameAccessAssociation interface {
 	cdktn.TerraformDataSource
 	AccessAssociationSource() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccApigatewayDomainNameAccessAssociation) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/apigateway_domain_name_access_association awscc_apigateway_domain_name_access_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigateway_domain_name_access_association awscc_apigateway_domain_name_access_association} Data Source.
 func NewDataAwsccApigatewayDomainNameAccessAssociation(scope constructs.Construct, id *string, config *DataAwsccApigatewayDomainNameAccessAssociationConfig) DataAwsccApigatewayDomainNameAccessAssociation {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccApigatewayDomainNameAccessAssociation(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/apigateway_domain_name_access_association awscc_apigateway_domain_name_access_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigateway_domain_name_access_association awscc_apigateway_domain_name_access_association} Data Source.
 func NewDataAwsccApigatewayDomainNameAccessAssociation_Override(d DataAwsccApigatewayDomainNameAccessAssociation, scope constructs.Construct, id *string, config *DataAwsccApigatewayDomainNameAccessAssociationConfig) {
 	_init_.Initialize()
 

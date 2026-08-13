@@ -13,6 +13,7 @@ import (
 
 type DataAwsccMskClusterLoggingInfoOutputReference interface {
 	cdktn.ComplexObject
+	AuthorizerLogs() DataAwsccMskClusterLoggingInfoAuthorizerLogsOutputReference
 	BrokerLogs() DataAwsccMskClusterLoggingInfoBrokerLogsOutputReference
 	// the index of the complex object in a list.
 	// Experimental.
@@ -78,6 +79,16 @@ type DataAwsccMskClusterLoggingInfoOutputReference interface {
 // The jsii proxy struct for DataAwsccMskClusterLoggingInfoOutputReference
 type jsiiProxy_DataAwsccMskClusterLoggingInfoOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataAwsccMskClusterLoggingInfoOutputReference) AuthorizerLogs() DataAwsccMskClusterLoggingInfoAuthorizerLogsOutputReference {
+	var returns DataAwsccMskClusterLoggingInfoAuthorizerLogsOutputReference
+	_jsii_.Get(
+		j,
+		"authorizerLogs",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAwsccMskClusterLoggingInfoOutputReference) BrokerLogs() DataAwsccMskClusterLoggingInfoBrokerLogsOutputReference {

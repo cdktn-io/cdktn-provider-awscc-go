@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/memorydb_subnet_groups awscc_memorydb_subnet_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/memorydb_subnet_groups awscc_memorydb_subnet_groups}.
 type DataAwsccMemorydbSubnetGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMemorydbSubnetGroups) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/memorydb_subnet_groups awscc_memorydb_subnet_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/memorydb_subnet_groups awscc_memorydb_subnet_groups} Data Source.
 func NewDataAwsccMemorydbSubnetGroups(scope constructs.Construct, id *string, config *DataAwsccMemorydbSubnetGroupsConfig) DataAwsccMemorydbSubnetGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMemorydbSubnetGroups(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/memorydb_subnet_groups awscc_memorydb_subnet_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/memorydb_subnet_groups awscc_memorydb_subnet_groups} Data Source.
 func NewDataAwsccMemorydbSubnetGroups_Override(d DataAwsccMemorydbSubnetGroups, scope constructs.Construct, id *string, config *DataAwsccMemorydbSubnetGroupsConfig) {
 	_init_.Initialize()
 

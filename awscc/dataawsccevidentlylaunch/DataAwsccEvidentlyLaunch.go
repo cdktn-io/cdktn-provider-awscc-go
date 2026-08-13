@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/evidently_launch awscc_evidently_launch}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/evidently_launch awscc_evidently_launch}.
 type DataAwsccEvidentlyLaunch interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccEvidentlyLaunch) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/evidently_launch awscc_evidently_launch} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/evidently_launch awscc_evidently_launch} Data Source.
 func NewDataAwsccEvidentlyLaunch(scope constructs.Construct, id *string, config *DataAwsccEvidentlyLaunchConfig) DataAwsccEvidentlyLaunch {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccEvidentlyLaunch(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/evidently_launch awscc_evidently_launch} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/evidently_launch awscc_evidently_launch} Data Source.
 func NewDataAwsccEvidentlyLaunch_Override(d DataAwsccEvidentlyLaunch, scope constructs.Construct, id *string, config *DataAwsccEvidentlyLaunchConfig) {
 	_init_.Initialize()
 

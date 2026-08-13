@@ -7,7 +7,7 @@ package ec2vpnconnection
 type Ec2VpnConnectionVpnTunnelOptionsSpecificationsPhase1DhGroupNumbers struct {
 	// The Diffie-Hellmann group number.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_vpn_connection#value Ec2VpnConnection#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_connection#value Ec2VpnConnection#value}
 	Value *float64 `field:"optional" json:"value" yaml:"value"`
 }
 

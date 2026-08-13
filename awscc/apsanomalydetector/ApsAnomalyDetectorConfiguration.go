@@ -5,7 +5,7 @@ package apsanomalydetector
 
 
 type ApsAnomalyDetectorConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/aps_anomaly_detector#random_cut_forest ApsAnomalyDetector#random_cut_forest}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_anomaly_detector#random_cut_forest ApsAnomalyDetector#random_cut_forest}.
 	RandomCutForest *ApsAnomalyDetectorConfigurationRandomCutForest `field:"required" json:"randomCutForest" yaml:"randomCutForest"`
 }
 

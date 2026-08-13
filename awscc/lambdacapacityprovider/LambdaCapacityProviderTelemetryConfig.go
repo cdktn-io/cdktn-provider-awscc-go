@@ -7,7 +7,7 @@ package lambdacapacityprovider
 type LambdaCapacityProviderTelemetryConfig struct {
 	// The capacity provider's Amazon CloudWatch Logs configuration settings.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_capacity_provider#logging_config LambdaCapacityProvider#logging_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_capacity_provider#logging_config LambdaCapacityProvider#logging_config}
 	LoggingConfig *LambdaCapacityProviderTelemetryConfigLoggingConfig `field:"optional" json:"loggingConfig" yaml:"loggingConfig"`
 }
 

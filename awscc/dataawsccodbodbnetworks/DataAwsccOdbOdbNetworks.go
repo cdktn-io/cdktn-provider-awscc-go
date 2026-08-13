@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/odb_odb_networks awscc_odb_odb_networks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/odb_odb_networks awscc_odb_odb_networks}.
 type DataAwsccOdbOdbNetworks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccOdbOdbNetworks) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/odb_odb_networks awscc_odb_odb_networks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/odb_odb_networks awscc_odb_odb_networks} Data Source.
 func NewDataAwsccOdbOdbNetworks(scope constructs.Construct, id *string, config *DataAwsccOdbOdbNetworksConfig) DataAwsccOdbOdbNetworks {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccOdbOdbNetworks(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/odb_odb_networks awscc_odb_odb_networks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/odb_odb_networks awscc_odb_odb_networks} Data Source.
 func NewDataAwsccOdbOdbNetworks_Override(d DataAwsccOdbOdbNetworks, scope constructs.Construct, id *string, config *DataAwsccOdbOdbNetworksConfig) {
 	_init_.Initialize()
 

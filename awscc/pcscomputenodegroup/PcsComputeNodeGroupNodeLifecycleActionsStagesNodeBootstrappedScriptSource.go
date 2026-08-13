@@ -7,15 +7,15 @@ package pcscomputenodegroup
 type PcsComputeNodeGroupNodeLifecycleActionsStagesNodeBootstrappedScriptSource struct {
 	// A 64-character hexadecimal SHA-256 digest used to verify script integrity.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcs_compute_node_group#checksum PcsComputeNodeGroup#checksum}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcs_compute_node_group#checksum PcsComputeNodeGroup#checksum}
 	Checksum *string `field:"optional" json:"checksum" yaml:"checksum"`
 	// The S3 object version ID of the script, when stored in a versioned bucket.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcs_compute_node_group#s3_version_id PcsComputeNodeGroup#s3_version_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcs_compute_node_group#s3_version_id PcsComputeNodeGroup#s3_version_id}
 	S3VersionId *string `field:"optional" json:"s3VersionId" yaml:"s3VersionId"`
 	// The S3 URI or HTTPS URL where the script is stored.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/pcs_compute_node_group#script_location PcsComputeNodeGroup#script_location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcs_compute_node_group#script_location PcsComputeNodeGroup#script_location}
 	ScriptLocation *string `field:"optional" json:"scriptLocation" yaml:"scriptLocation"`
 }
 

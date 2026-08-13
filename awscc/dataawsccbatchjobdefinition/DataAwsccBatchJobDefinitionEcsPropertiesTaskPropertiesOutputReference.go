@@ -38,6 +38,7 @@ type DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference inter
 	SetInternalValue(val *DataAwsccBatchJobDefinitionEcsPropertiesTaskProperties)
 	IpcMode() *string
 	NetworkConfiguration() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesNetworkConfigurationOutputReference
+	NetworkMode() *string
 	PidMode() *string
 	PlatformVersion() *string
 	RuntimePlatform() DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesRuntimePlatformOutputReference
@@ -195,6 +196,16 @@ func (j *jsiiProxy_DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesOutputR
 	_jsii_.Get(
 		j,
 		"networkConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccBatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference) NetworkMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkMode",
 		&returns,
 	)
 	return returns

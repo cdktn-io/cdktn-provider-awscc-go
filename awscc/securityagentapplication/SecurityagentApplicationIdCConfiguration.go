@@ -5,7 +5,7 @@ package securityagentapplication
 
 
 type SecurityagentApplicationIdCConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityagent_application#id_c_instance_arn SecurityagentApplication#id_c_instance_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_application#id_c_instance_arn SecurityagentApplication#id_c_instance_arn}.
 	IdCInstanceArn *string `field:"optional" json:"idCInstanceArn" yaml:"idCInstanceArn"`
 }
 

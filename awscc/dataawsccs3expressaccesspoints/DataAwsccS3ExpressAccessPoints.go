@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/s3express_access_points awscc_s3express_access_points}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3express_access_points awscc_s3express_access_points}.
 type DataAwsccS3ExpressAccessPoints interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccS3ExpressAccessPoints) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/s3express_access_points awscc_s3express_access_points} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3express_access_points awscc_s3express_access_points} Data Source.
 func NewDataAwsccS3ExpressAccessPoints(scope constructs.Construct, id *string, config *DataAwsccS3ExpressAccessPointsConfig) DataAwsccS3ExpressAccessPoints {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccS3ExpressAccessPoints(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/s3express_access_points awscc_s3express_access_points} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3express_access_points awscc_s3express_access_points} Data Source.
 func NewDataAwsccS3ExpressAccessPoints_Override(d DataAwsccS3ExpressAccessPoints, scope constructs.Construct, id *string, config *DataAwsccS3ExpressAccessPointsConfig) {
 	_init_.Initialize()
 

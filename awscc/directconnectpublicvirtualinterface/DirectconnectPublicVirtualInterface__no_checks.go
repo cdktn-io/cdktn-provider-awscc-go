@@ -131,6 +131,10 @@ func (j *jsiiProxy_DirectconnectPublicVirtualInterface) validateSetProvisionersP
 	return nil
 }
 
+func (j *jsiiProxy_DirectconnectPublicVirtualInterface) validateSetRateLimitParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DirectconnectPublicVirtualInterface) validateSetRouteFilterPrefixesParameters(val *[]*string) error {
 	return nil
 }

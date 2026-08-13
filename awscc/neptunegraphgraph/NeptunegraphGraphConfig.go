@@ -24,7 +24,7 @@ type NeptunegraphGraphConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Memory for the Graph.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/neptunegraph_graph#provisioned_memory NeptunegraphGraph#provisioned_memory}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph#provisioned_memory NeptunegraphGraph#provisioned_memory}
 	ProvisionedMemory *float64 `field:"required" json:"provisionedMemory" yaml:"provisionedMemory"`
 	// Value that indicates whether the Graph has deletion protection enabled.
 	//
@@ -32,7 +32,7 @@ type NeptunegraphGraphConfig struct {
 	//
 	// _Default_: If not specified, the default value is true.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/neptunegraph_graph#deletion_protection NeptunegraphGraph#deletion_protection}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph#deletion_protection NeptunegraphGraph#deletion_protection}
 	DeletionProtection interface{} `field:"optional" json:"deletionProtection" yaml:"deletionProtection"`
 	// Contains a user-supplied name for the Graph.
 	//
@@ -40,13 +40,13 @@ type NeptunegraphGraphConfig struct {
 	//
 	// _Important_: If you specify a name, you cannot perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you must replace the resource, specify a new name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/neptunegraph_graph#graph_name NeptunegraphGraph#graph_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph#graph_name NeptunegraphGraph#graph_name}
 	GraphName *string `field:"optional" json:"graphName" yaml:"graphName"`
 	// The ARN of the KMS key used to encrypt data in the Neptune Analytics graph.
 	//
 	// If not specified, the graph is encrypted with an AWS managed key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/neptunegraph_graph#kms_key_identifier NeptunegraphGraph#kms_key_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph#kms_key_identifier NeptunegraphGraph#kms_key_identifier}
 	KmsKeyIdentifier *string `field:"optional" json:"kmsKeyIdentifier" yaml:"kmsKeyIdentifier"`
 	// Specifies whether the Graph can be reached over the internet. Access to all graphs requires IAM authentication.
 	//
@@ -56,7 +56,7 @@ type NeptunegraphGraphConfig struct {
 	//
 	// _Default_: If not specified, the default value is false.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/neptunegraph_graph#public_connectivity NeptunegraphGraph#public_connectivity}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph#public_connectivity NeptunegraphGraph#public_connectivity}
 	PublicConnectivity interface{} `field:"optional" json:"publicConnectivity" yaml:"publicConnectivity"`
 	// Specifies the number of replicas you want when finished. All replicas will be provisioned in different availability zones.
 	//
@@ -64,15 +64,15 @@ type NeptunegraphGraphConfig struct {
 	//
 	// _Default_: If not specified, the default value is 1.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/neptunegraph_graph#replica_count NeptunegraphGraph#replica_count}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph#replica_count NeptunegraphGraph#replica_count}
 	ReplicaCount *float64 `field:"optional" json:"replicaCount" yaml:"replicaCount"`
 	// The tags associated with this graph.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/neptunegraph_graph#tags NeptunegraphGraph#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph#tags NeptunegraphGraph#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// Vector Search Configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/neptunegraph_graph#vector_search_configuration NeptunegraphGraph#vector_search_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/neptunegraph_graph#vector_search_configuration NeptunegraphGraph#vector_search_configuration}
 	VectorSearchConfiguration *NeptunegraphGraphVectorSearchConfiguration `field:"optional" json:"vectorSearchConfiguration" yaml:"vectorSearchConfiguration"`
 }
 

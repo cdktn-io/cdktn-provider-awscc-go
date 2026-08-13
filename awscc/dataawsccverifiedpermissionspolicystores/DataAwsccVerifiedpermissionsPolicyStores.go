@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/verifiedpermissions_policy_stores awscc_verifiedpermissions_policy_stores}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/verifiedpermissions_policy_stores awscc_verifiedpermissions_policy_stores}.
 type DataAwsccVerifiedpermissionsPolicyStores interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccVerifiedpermissionsPolicyStores) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/verifiedpermissions_policy_stores awscc_verifiedpermissions_policy_stores} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/verifiedpermissions_policy_stores awscc_verifiedpermissions_policy_stores} Data Source.
 func NewDataAwsccVerifiedpermissionsPolicyStores(scope constructs.Construct, id *string, config *DataAwsccVerifiedpermissionsPolicyStoresConfig) DataAwsccVerifiedpermissionsPolicyStores {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccVerifiedpermissionsPolicyStores(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/verifiedpermissions_policy_stores awscc_verifiedpermissions_policy_stores} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/verifiedpermissions_policy_stores awscc_verifiedpermissions_policy_stores} Data Source.
 func NewDataAwsccVerifiedpermissionsPolicyStores_Override(d DataAwsccVerifiedpermissionsPolicyStores, scope constructs.Construct, id *string, config *DataAwsccVerifiedpermissionsPolicyStoresConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/amazonmq_configurations awscc_amazonmq_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/amazonmq_configurations awscc_amazonmq_configurations}.
 type DataAwsccAmazonmqConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccAmazonmqConfigurations) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/amazonmq_configurations awscc_amazonmq_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/amazonmq_configurations awscc_amazonmq_configurations} Data Source.
 func NewDataAwsccAmazonmqConfigurations(scope constructs.Construct, id *string, config *DataAwsccAmazonmqConfigurationsConfig) DataAwsccAmazonmqConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccAmazonmqConfigurations(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/amazonmq_configurations awscc_amazonmq_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/amazonmq_configurations awscc_amazonmq_configurations} Data Source.
 func NewDataAwsccAmazonmqConfigurations_Override(d DataAwsccAmazonmqConfigurations, scope constructs.Construct, id *string, config *DataAwsccAmazonmqConfigurationsConfig) {
 	_init_.Initialize()
 

@@ -7,11 +7,11 @@ package sagemakerproject
 type SagemakerProjectTemplateProviderDetailsCfnTemplateProviderDetailParameters struct {
 	// The key of the parameter.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_project#key SagemakerProject#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_project#key SagemakerProject#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value of the parameter.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_project#value SagemakerProject#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_project#value SagemakerProject#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

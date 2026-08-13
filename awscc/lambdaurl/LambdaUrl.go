@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url awscc_lambda_url}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url awscc_lambda_url}.
 type LambdaUrl interface {
 	cdktn.TerraformResource
 	AuthType() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_LambdaUrl) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url awscc_lambda_url} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url awscc_lambda_url} Resource.
 func NewLambdaUrl(scope constructs.Construct, id *string, config *LambdaUrlConfig) LambdaUrl {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewLambdaUrl(scope constructs.Construct, id *string, config *LambdaUrlConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_url awscc_lambda_url} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_url awscc_lambda_url} Resource.
 func NewLambdaUrl_Override(l LambdaUrl, scope constructs.Construct, id *string, config *LambdaUrlConfig) {
 	_init_.Initialize()
 

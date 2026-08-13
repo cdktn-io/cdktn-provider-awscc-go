@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/workspacesweb_data_protection_settings awscc_workspacesweb_data_protection_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/workspacesweb_data_protection_settings awscc_workspacesweb_data_protection_settings}.
 type DataAwsccWorkspaceswebDataProtectionSettings interface {
 	cdktn.TerraformDataSource
 	AdditionalEncryptionContext() cdktn.StringMap
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccWorkspaceswebDataProtectionSettings) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/workspacesweb_data_protection_settings awscc_workspacesweb_data_protection_settings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/workspacesweb_data_protection_settings awscc_workspacesweb_data_protection_settings} Data Source.
 func NewDataAwsccWorkspaceswebDataProtectionSettings(scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebDataProtectionSettingsConfig) DataAwsccWorkspaceswebDataProtectionSettings {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccWorkspaceswebDataProtectionSettings(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/workspacesweb_data_protection_settings awscc_workspacesweb_data_protection_settings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/workspacesweb_data_protection_settings awscc_workspacesweb_data_protection_settings} Data Source.
 func NewDataAwsccWorkspaceswebDataProtectionSettings_Override(d DataAwsccWorkspaceswebDataProtectionSettings, scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebDataProtectionSettingsConfig) {
 	_init_.Initialize()
 

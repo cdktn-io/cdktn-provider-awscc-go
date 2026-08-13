@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_vpc awscc_ec2_vpc}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpc awscc_ec2_vpc}.
 type Ec2Vpc interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -602,7 +602,7 @@ func (j *jsiiProxy_Ec2Vpc) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_vpc awscc_ec2_vpc} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpc awscc_ec2_vpc} Resource.
 func NewEc2Vpc(scope constructs.Construct, id *string, config *Ec2VpcConfig) Ec2Vpc {
 	_init_.Initialize()
 
@@ -620,7 +620,7 @@ func NewEc2Vpc(scope constructs.Construct, id *string, config *Ec2VpcConfig) Ec2
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_vpc awscc_ec2_vpc} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpc awscc_ec2_vpc} Resource.
 func NewEc2Vpc_Override(e Ec2Vpc, scope constructs.Construct, id *string, config *Ec2VpcConfig) {
 	_init_.Initialize()
 

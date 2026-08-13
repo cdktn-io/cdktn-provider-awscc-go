@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/codeartifact_package_group awscc_codeartifact_package_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/codeartifact_package_group awscc_codeartifact_package_group}.
 type DataAwsccCodeartifactPackageGroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccCodeartifactPackageGroup) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/codeartifact_package_group awscc_codeartifact_package_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/codeartifact_package_group awscc_codeartifact_package_group} Data Source.
 func NewDataAwsccCodeartifactPackageGroup(scope constructs.Construct, id *string, config *DataAwsccCodeartifactPackageGroupConfig) DataAwsccCodeartifactPackageGroup {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccCodeartifactPackageGroup(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/codeartifact_package_group awscc_codeartifact_package_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/codeartifact_package_group awscc_codeartifact_package_group} Data Source.
 func NewDataAwsccCodeartifactPackageGroup_Override(d DataAwsccCodeartifactPackageGroup, scope constructs.Construct, id *string, config *DataAwsccCodeartifactPackageGroupConfig) {
 	_init_.Initialize()
 

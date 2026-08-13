@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/datasync_location_hdfs_plural awscc_datasync_location_hdfs_plural}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/datasync_location_hdfs_plural awscc_datasync_location_hdfs_plural}.
 type DataAwsccDatasyncLocationHdfsPlural interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDatasyncLocationHdfsPlural) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/datasync_location_hdfs_plural awscc_datasync_location_hdfs_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/datasync_location_hdfs_plural awscc_datasync_location_hdfs_plural} Data Source.
 func NewDataAwsccDatasyncLocationHdfsPlural(scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationHdfsPluralConfig) DataAwsccDatasyncLocationHdfsPlural {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDatasyncLocationHdfsPlural(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/datasync_location_hdfs_plural awscc_datasync_location_hdfs_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/datasync_location_hdfs_plural awscc_datasync_location_hdfs_plural} Data Source.
 func NewDataAwsccDatasyncLocationHdfsPlural_Override(d DataAwsccDatasyncLocationHdfsPlural, scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationHdfsPluralConfig) {
 	_init_.Initialize()
 

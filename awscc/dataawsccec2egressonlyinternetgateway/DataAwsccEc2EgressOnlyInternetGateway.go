@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_egress_only_internet_gateway awscc_ec2_egress_only_internet_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_egress_only_internet_gateway awscc_ec2_egress_only_internet_gateway}.
 type DataAwsccEc2EgressOnlyInternetGateway interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccEc2EgressOnlyInternetGateway) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_egress_only_internet_gateway awscc_ec2_egress_only_internet_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_egress_only_internet_gateway awscc_ec2_egress_only_internet_gateway} Data Source.
 func NewDataAwsccEc2EgressOnlyInternetGateway(scope constructs.Construct, id *string, config *DataAwsccEc2EgressOnlyInternetGatewayConfig) DataAwsccEc2EgressOnlyInternetGateway {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccEc2EgressOnlyInternetGateway(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_egress_only_internet_gateway awscc_ec2_egress_only_internet_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_egress_only_internet_gateway awscc_ec2_egress_only_internet_gateway} Data Source.
 func NewDataAwsccEc2EgressOnlyInternetGateway_Override(d DataAwsccEc2EgressOnlyInternetGateway, scope constructs.Construct, id *string, config *DataAwsccEc2EgressOnlyInternetGatewayConfig) {
 	_init_.Initialize()
 

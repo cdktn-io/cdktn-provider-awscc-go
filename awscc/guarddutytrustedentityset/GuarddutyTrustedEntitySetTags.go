@@ -5,9 +5,9 @@ package guarddutytrustedentityset
 
 
 type GuarddutyTrustedEntitySetTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/guardduty_trusted_entity_set#key GuarddutyTrustedEntitySet#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#key GuarddutyTrustedEntitySet#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/guardduty_trusted_entity_set#value GuarddutyTrustedEntitySet#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_trusted_entity_set#value GuarddutyTrustedEntitySet#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

@@ -24,11 +24,11 @@ type BedrockagentcoreResourcePolicyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The resource policy to create or update.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_resource_policy#policy BedrockagentcoreResourcePolicy#policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_resource_policy#policy BedrockagentcoreResourcePolicy#policy}
 	Policy *string `field:"required" json:"policy" yaml:"policy"`
 	// The Amazon Resource Name (ARN) of the resource for which to create or update the resource policy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_resource_policy#resource_arn BedrockagentcoreResourcePolicy#resource_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_resource_policy#resource_arn BedrockagentcoreResourcePolicy#resource_arn}
 	ResourceArn *string `field:"required" json:"resourceArn" yaml:"resourceArn"`
 }
 

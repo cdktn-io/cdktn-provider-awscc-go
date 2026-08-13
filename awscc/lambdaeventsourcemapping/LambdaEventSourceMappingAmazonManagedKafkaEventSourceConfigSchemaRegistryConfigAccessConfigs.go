@@ -7,11 +7,11 @@ package lambdaeventsourcemapping
 type LambdaEventSourceMappingAmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigs struct {
 	// The type of authentication Lambda uses to access your schema registry.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_source_mapping#type LambdaEventSourceMapping#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_source_mapping#type LambdaEventSourceMapping#type}
 	Type *string `field:"optional" json:"type" yaml:"type"`
 	// The URI of the secret (Secrets Manager secret ARN) to authenticate with your schema registry.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_event_source_mapping#uri LambdaEventSourceMapping#uri}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_event_source_mapping#uri LambdaEventSourceMapping#uri}
 	Uri *string `field:"optional" json:"uri" yaml:"uri"`
 }
 

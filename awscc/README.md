@@ -1,6 +1,6 @@
-# CDKTN Go bindings for hashicorp/awscc provider version 1.96.0
+# CDKTN Go bindings for hashicorp/awscc provider version 1.97.0
 
-This repo builds and publishes the [Terraform awscc provider](https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs) bindings for [CDK Terrain](https://cdktn.io).
+This repo builds and publishes the [Terraform awscc provider](https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs) bindings for [CDK Terrain](https://cdktn.io).
 
 ## Go Package
 
@@ -23,7 +23,7 @@ This project is explicitly not tracking the Terraform awscc provider version 1:1
 These are the upstream dependencies:
 
 * [CDK Terrain](https://cdktn.io) - Last official release
-* [Terraform awscc provider](https://registry.terraform.io/providers/hashicorp/awscc/1.96.0)
+* [Terraform awscc provider](https://registry.terraform.io/providers/hashicorp/awscc/1.97.0)
 * [Terraform Engine](https://terraform.io)
 
 If there are breaking changes (backward incompatible) in any of the above, the major version of this project will be bumped.

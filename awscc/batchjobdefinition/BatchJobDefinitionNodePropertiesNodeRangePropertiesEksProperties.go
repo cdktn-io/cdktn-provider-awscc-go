@@ -5,7 +5,7 @@ package batchjobdefinition
 
 
 type BatchJobDefinitionNodePropertiesNodeRangePropertiesEksProperties struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/batch_job_definition#pod_properties BatchJobDefinition#pod_properties}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_definition#pod_properties BatchJobDefinition#pod_properties}.
 	PodProperties *BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodProperties `field:"optional" json:"podProperties" yaml:"podProperties"`
 }
 

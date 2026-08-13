@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_ai_prompt awscc_wisdom_ai_prompt}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_ai_prompt awscc_wisdom_ai_prompt}.
 type WisdomAiPrompt interface {
 	cdktn.TerraformResource
 	AiPromptArn() *string
@@ -610,7 +610,7 @@ func (j *jsiiProxy_WisdomAiPrompt) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_ai_prompt awscc_wisdom_ai_prompt} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_ai_prompt awscc_wisdom_ai_prompt} Resource.
 func NewWisdomAiPrompt(scope constructs.Construct, id *string, config *WisdomAiPromptConfig) WisdomAiPrompt {
 	_init_.Initialize()
 
@@ -628,7 +628,7 @@ func NewWisdomAiPrompt(scope constructs.Construct, id *string, config *WisdomAiP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_ai_prompt awscc_wisdom_ai_prompt} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_ai_prompt awscc_wisdom_ai_prompt} Resource.
 func NewWisdomAiPrompt_Override(w WisdomAiPrompt, scope constructs.Construct, id *string, config *WisdomAiPromptConfig) {
 	_init_.Initialize()
 

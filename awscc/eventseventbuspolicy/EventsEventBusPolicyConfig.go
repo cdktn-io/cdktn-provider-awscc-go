@@ -24,33 +24,33 @@ type EventsEventBusPolicyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// An identifier string for the external account that you are granting permissions to.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus_policy#statement_id EventsEventBusPolicy#statement_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus_policy#statement_id EventsEventBusPolicy#statement_id}
 	StatementId *string `field:"required" json:"statementId" yaml:"statementId"`
 	// The action that you are enabling the other account to perform.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus_policy#action EventsEventBusPolicy#action}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus_policy#action EventsEventBusPolicy#action}
 	Action *string `field:"optional" json:"action" yaml:"action"`
 	// This parameter enables you to limit the permission to accounts that fulfill a certain condition, such as being a member of a certain AWS organization.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus_policy#condition EventsEventBusPolicy#condition}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus_policy#condition EventsEventBusPolicy#condition}
 	Condition *EventsEventBusPolicyCondition `field:"optional" json:"condition" yaml:"condition"`
 	// The name of the event bus associated with the rule.
 	//
 	// If you omit this, the default event bus is used.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus_policy#event_bus_name EventsEventBusPolicy#event_bus_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus_policy#event_bus_name EventsEventBusPolicy#event_bus_name}
 	EventBusName *string `field:"optional" json:"eventBusName" yaml:"eventBusName"`
 	// The 12-digit AWS account ID that you are permitting to put events to your default event bus.
 	//
 	// Specify "*" to permit any account to put events to your default event bus.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus_policy#principal EventsEventBusPolicy#principal}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus_policy#principal EventsEventBusPolicy#principal}
 	Principal *string `field:"optional" json:"principal" yaml:"principal"`
 	// A JSON string that describes the permission policy statement.
 	//
 	// You can include a Policy parameter in the request instead of using the StatementId, Action, Principal, or Condition parameters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/events_event_bus_policy#statement EventsEventBusPolicy#statement}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_event_bus_policy#statement EventsEventBusPolicy#statement}
 	Statement *string `field:"optional" json:"statement" yaml:"statement"`
 }
 

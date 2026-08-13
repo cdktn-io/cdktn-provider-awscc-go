@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/config_conformance_packs awscc_config_conformance_packs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/config_conformance_packs awscc_config_conformance_packs}.
 type DataAwsccConfigConformancePacks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccConfigConformancePacks) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/config_conformance_packs awscc_config_conformance_packs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/config_conformance_packs awscc_config_conformance_packs} Data Source.
 func NewDataAwsccConfigConformancePacks(scope constructs.Construct, id *string, config *DataAwsccConfigConformancePacksConfig) DataAwsccConfigConformancePacks {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccConfigConformancePacks(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/config_conformance_packs awscc_config_conformance_packs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/config_conformance_packs awscc_config_conformance_packs} Data Source.
 func NewDataAwsccConfigConformancePacks_Override(d DataAwsccConfigConformancePacks, scope constructs.Construct, id *string, config *DataAwsccConfigConformancePacksConfig) {
 	_init_.Initialize()
 

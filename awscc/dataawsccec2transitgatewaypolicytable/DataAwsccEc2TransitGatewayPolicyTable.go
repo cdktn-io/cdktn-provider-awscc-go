@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_transit_gateway_policy_table awscc_ec2_transit_gateway_policy_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_transit_gateway_policy_table awscc_ec2_transit_gateway_policy_table}.
 type DataAwsccEc2TransitGatewayPolicyTable interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccEc2TransitGatewayPolicyTable) TransitGatewayPolicyTa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_transit_gateway_policy_table awscc_ec2_transit_gateway_policy_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_transit_gateway_policy_table awscc_ec2_transit_gateway_policy_table} Data Source.
 func NewDataAwsccEc2TransitGatewayPolicyTable(scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayPolicyTableConfig) DataAwsccEc2TransitGatewayPolicyTable {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccEc2TransitGatewayPolicyTable(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_transit_gateway_policy_table awscc_ec2_transit_gateway_policy_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_transit_gateway_policy_table awscc_ec2_transit_gateway_policy_table} Data Source.
 func NewDataAwsccEc2TransitGatewayPolicyTable_Override(d DataAwsccEc2TransitGatewayPolicyTable, scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayPolicyTableConfig) {
 	_init_.Initialize()
 

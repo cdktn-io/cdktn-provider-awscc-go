@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/neptune_db_clusters awscc_neptune_db_clusters}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/neptune_db_clusters awscc_neptune_db_clusters}.
 type DataAwsccNeptuneDbClusters interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNeptuneDbClusters) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/neptune_db_clusters awscc_neptune_db_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/neptune_db_clusters awscc_neptune_db_clusters} Data Source.
 func NewDataAwsccNeptuneDbClusters(scope constructs.Construct, id *string, config *DataAwsccNeptuneDbClustersConfig) DataAwsccNeptuneDbClusters {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNeptuneDbClusters(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/neptune_db_clusters awscc_neptune_db_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/neptune_db_clusters awscc_neptune_db_clusters} Data Source.
 func NewDataAwsccNeptuneDbClusters_Override(d DataAwsccNeptuneDbClusters, scope constructs.Construct, id *string, config *DataAwsccNeptuneDbClustersConfig) {
 	_init_.Initialize()
 

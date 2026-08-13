@@ -5,17 +5,17 @@ package iottopicrule
 
 
 type IotTopicRuleTopicRulePayloadActionsRepublishHeaders struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_topic_rule#content_type IotTopicRule#content_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_topic_rule#content_type IotTopicRule#content_type}.
 	ContentType *string `field:"optional" json:"contentType" yaml:"contentType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_topic_rule#correlation_data IotTopicRule#correlation_data}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_topic_rule#correlation_data IotTopicRule#correlation_data}.
 	CorrelationData *string `field:"optional" json:"correlationData" yaml:"correlationData"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_topic_rule#message_expiry IotTopicRule#message_expiry}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_topic_rule#message_expiry IotTopicRule#message_expiry}.
 	MessageExpiry *string `field:"optional" json:"messageExpiry" yaml:"messageExpiry"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_topic_rule#payload_format_indicator IotTopicRule#payload_format_indicator}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_topic_rule#payload_format_indicator IotTopicRule#payload_format_indicator}.
 	PayloadFormatIndicator *string `field:"optional" json:"payloadFormatIndicator" yaml:"payloadFormatIndicator"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_topic_rule#response_topic IotTopicRule#response_topic}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_topic_rule#response_topic IotTopicRule#response_topic}.
 	ResponseTopic *string `field:"optional" json:"responseTopic" yaml:"responseTopic"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_topic_rule#user_properties IotTopicRule#user_properties}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_topic_rule#user_properties IotTopicRule#user_properties}.
 	UserProperties interface{} `field:"optional" json:"userProperties" yaml:"userProperties"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/autoscaling_auto_scaling_groups awscc_autoscaling_auto_scaling_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/autoscaling_auto_scaling_groups awscc_autoscaling_auto_scaling_groups}.
 type DataAwsccAutoscalingAutoScalingGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccAutoscalingAutoScalingGroups) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/autoscaling_auto_scaling_groups awscc_autoscaling_auto_scaling_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/autoscaling_auto_scaling_groups awscc_autoscaling_auto_scaling_groups} Data Source.
 func NewDataAwsccAutoscalingAutoScalingGroups(scope constructs.Construct, id *string, config *DataAwsccAutoscalingAutoScalingGroupsConfig) DataAwsccAutoscalingAutoScalingGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccAutoscalingAutoScalingGroups(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/autoscaling_auto_scaling_groups awscc_autoscaling_auto_scaling_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/autoscaling_auto_scaling_groups awscc_autoscaling_auto_scaling_groups} Data Source.
 func NewDataAwsccAutoscalingAutoScalingGroups_Override(d DataAwsccAutoscalingAutoScalingGroups, scope constructs.Construct, id *string, config *DataAwsccAutoscalingAutoScalingGroupsConfig) {
 	_init_.Initialize()
 

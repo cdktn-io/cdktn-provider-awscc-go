@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/workspacesweb_trust_store awscc_workspacesweb_trust_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/workspacesweb_trust_store awscc_workspacesweb_trust_store}.
 type DataAwsccWorkspaceswebTrustStore interface {
 	cdktn.TerraformDataSource
 	AssociatedPortalArns() *[]*string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccWorkspaceswebTrustStore) TrustStoreArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/workspacesweb_trust_store awscc_workspacesweb_trust_store} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/workspacesweb_trust_store awscc_workspacesweb_trust_store} Data Source.
 func NewDataAwsccWorkspaceswebTrustStore(scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebTrustStoreConfig) DataAwsccWorkspaceswebTrustStore {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccWorkspaceswebTrustStore(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/workspacesweb_trust_store awscc_workspacesweb_trust_store} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/workspacesweb_trust_store awscc_workspacesweb_trust_store} Data Source.
 func NewDataAwsccWorkspaceswebTrustStore_Override(d DataAwsccWorkspaceswebTrustStore, scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebTrustStoreConfig) {
 	_init_.Initialize()
 

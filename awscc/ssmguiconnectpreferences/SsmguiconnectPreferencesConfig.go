@@ -26,7 +26,7 @@ type SsmguiconnectPreferencesConfig struct {
 	//
 	// This includes details such as which S3 bucket recordings are stored in.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ssmguiconnect_preferences#connection_recording_preferences SsmguiconnectPreferences#connection_recording_preferences}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssmguiconnect_preferences#connection_recording_preferences SsmguiconnectPreferences#connection_recording_preferences}
 	ConnectionRecordingPreferences *SsmguiconnectPreferencesConnectionRecordingPreferences `field:"optional" json:"connectionRecordingPreferences" yaml:"connectionRecordingPreferences"`
 }
 

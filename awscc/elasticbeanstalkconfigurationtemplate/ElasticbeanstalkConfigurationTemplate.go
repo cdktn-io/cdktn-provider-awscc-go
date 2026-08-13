@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticbeanstalk_configuration_template awscc_elasticbeanstalk_configuration_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticbeanstalk_configuration_template awscc_elasticbeanstalk_configuration_template}.
 type ElasticbeanstalkConfigurationTemplate interface {
 	cdktn.TerraformResource
 	ApplicationName() *string
@@ -533,7 +533,7 @@ func (j *jsiiProxy_ElasticbeanstalkConfigurationTemplate) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticbeanstalk_configuration_template awscc_elasticbeanstalk_configuration_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticbeanstalk_configuration_template awscc_elasticbeanstalk_configuration_template} Resource.
 func NewElasticbeanstalkConfigurationTemplate(scope constructs.Construct, id *string, config *ElasticbeanstalkConfigurationTemplateConfig) ElasticbeanstalkConfigurationTemplate {
 	_init_.Initialize()
 
@@ -551,7 +551,7 @@ func NewElasticbeanstalkConfigurationTemplate(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticbeanstalk_configuration_template awscc_elasticbeanstalk_configuration_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticbeanstalk_configuration_template awscc_elasticbeanstalk_configuration_template} Resource.
 func NewElasticbeanstalkConfigurationTemplate_Override(e ElasticbeanstalkConfigurationTemplate, scope constructs.Construct, id *string, config *ElasticbeanstalkConfigurationTemplateConfig) {
 	_init_.Initialize()
 

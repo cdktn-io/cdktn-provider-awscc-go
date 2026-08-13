@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/awsexternalanthropic_workspace awscc_awsexternalanthropic_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/awsexternalanthropic_workspace awscc_awsexternalanthropic_workspace}.
 type AwsexternalanthropicWorkspace interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -459,7 +459,7 @@ func (j *jsiiProxy_AwsexternalanthropicWorkspace) WorkspaceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/awsexternalanthropic_workspace awscc_awsexternalanthropic_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/awsexternalanthropic_workspace awscc_awsexternalanthropic_workspace} Resource.
 func NewAwsexternalanthropicWorkspace(scope constructs.Construct, id *string, config *AwsexternalanthropicWorkspaceConfig) AwsexternalanthropicWorkspace {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewAwsexternalanthropicWorkspace(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/awsexternalanthropic_workspace awscc_awsexternalanthropic_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/awsexternalanthropic_workspace awscc_awsexternalanthropic_workspace} Resource.
 func NewAwsexternalanthropicWorkspace_Override(a AwsexternalanthropicWorkspace, scope constructs.Construct, id *string, config *AwsexternalanthropicWorkspaceConfig) {
 	_init_.Initialize()
 

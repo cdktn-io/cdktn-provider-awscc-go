@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/odb_odb_peering_connection awscc_odb_odb_peering_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/odb_odb_peering_connection awscc_odb_odb_peering_connection}.
 type OdbOdbPeeringConnection interface {
 	cdktn.TerraformResource
 	AdditionalPeerNetworkCidrs() *[]*string
@@ -554,7 +554,7 @@ func (j *jsiiProxy_OdbOdbPeeringConnection) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/odb_odb_peering_connection awscc_odb_odb_peering_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/odb_odb_peering_connection awscc_odb_odb_peering_connection} Resource.
 func NewOdbOdbPeeringConnection(scope constructs.Construct, id *string, config *OdbOdbPeeringConnectionConfig) OdbOdbPeeringConnection {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewOdbOdbPeeringConnection(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/odb_odb_peering_connection awscc_odb_odb_peering_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/odb_odb_peering_connection awscc_odb_odb_peering_connection} Resource.
 func NewOdbOdbPeeringConnection_Override(o OdbOdbPeeringConnection, scope constructs.Construct, id *string, config *OdbOdbPeeringConnectionConfig) {
 	_init_.Initialize()
 

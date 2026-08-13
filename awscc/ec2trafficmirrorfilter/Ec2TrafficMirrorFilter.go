@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_traffic_mirror_filter awscc_ec2_traffic_mirror_filter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_traffic_mirror_filter awscc_ec2_traffic_mirror_filter}.
 type Ec2TrafficMirrorFilter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_Ec2TrafficMirrorFilter) TrafficMirrorFilterId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_traffic_mirror_filter awscc_ec2_traffic_mirror_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_traffic_mirror_filter awscc_ec2_traffic_mirror_filter} Resource.
 func NewEc2TrafficMirrorFilter(scope constructs.Construct, id *string, config *Ec2TrafficMirrorFilterConfig) Ec2TrafficMirrorFilter {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewEc2TrafficMirrorFilter(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_traffic_mirror_filter awscc_ec2_traffic_mirror_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_traffic_mirror_filter awscc_ec2_traffic_mirror_filter} Resource.
 func NewEc2TrafficMirrorFilter_Override(e Ec2TrafficMirrorFilter, scope constructs.Construct, id *string, config *Ec2TrafficMirrorFilterConfig) {
 	_init_.Initialize()
 

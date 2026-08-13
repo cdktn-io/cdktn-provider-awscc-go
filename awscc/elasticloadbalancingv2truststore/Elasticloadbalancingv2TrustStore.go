@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticloadbalancingv2_trust_store awscc_elasticloadbalancingv2_trust_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticloadbalancingv2_trust_store awscc_elasticloadbalancingv2_trust_store}.
 type Elasticloadbalancingv2TrustStore interface {
 	cdktn.TerraformResource
 	CaCertificatesBundleS3Bucket() *string
@@ -508,7 +508,7 @@ func (j *jsiiProxy_Elasticloadbalancingv2TrustStore) TrustStoreArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticloadbalancingv2_trust_store awscc_elasticloadbalancingv2_trust_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticloadbalancingv2_trust_store awscc_elasticloadbalancingv2_trust_store} Resource.
 func NewElasticloadbalancingv2TrustStore(scope constructs.Construct, id *string, config *Elasticloadbalancingv2TrustStoreConfig) Elasticloadbalancingv2TrustStore {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewElasticloadbalancingv2TrustStore(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticloadbalancingv2_trust_store awscc_elasticloadbalancingv2_trust_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticloadbalancingv2_trust_store awscc_elasticloadbalancingv2_trust_store} Resource.
 func NewElasticloadbalancingv2TrustStore_Override(e Elasticloadbalancingv2TrustStore, scope constructs.Construct, id *string, config *Elasticloadbalancingv2TrustStoreConfig) {
 	_init_.Initialize()
 

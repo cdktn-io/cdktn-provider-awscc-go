@@ -13,6 +13,7 @@ import (
 
 type DataAwsccBedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference interface {
 	cdktn.ComplexObject
+	AdvertisedScopeMapping() cdktn.StringMap
 	AllowedAudience() *[]*string
 	AllowedClients() *[]*string
 	AllowedScopes() *[]*string
@@ -37,6 +38,7 @@ type DataAwsccBedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerO
 	Fqn() *string
 	InternalValue() *DataAwsccBedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizer
 	SetInternalValue(val *DataAwsccBedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizer)
+	PrivateEndpoint() DataAwsccBedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOutputReference
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -82,6 +84,16 @@ type DataAwsccBedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerO
 // The jsii proxy struct for DataAwsccBedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference
 type jsiiProxy_DataAwsccBedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference) AdvertisedScopeMapping() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"advertisedScopeMapping",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAwsccBedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference) AllowedAudience() *[]*string {
@@ -179,6 +191,16 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreGatewayAuthorizerConfigurationCustom
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference) PrivateEndpoint() DataAwsccBedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOutputReference {
+	var returns DataAwsccBedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOutputReference
+	_jsii_.Get(
+		j,
+		"privateEndpoint",
 		&returns,
 	)
 	return returns

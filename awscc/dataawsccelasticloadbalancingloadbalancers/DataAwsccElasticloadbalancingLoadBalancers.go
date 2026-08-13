@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/elasticloadbalancing_load_balancers awscc_elasticloadbalancing_load_balancers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/elasticloadbalancing_load_balancers awscc_elasticloadbalancing_load_balancers}.
 type DataAwsccElasticloadbalancingLoadBalancers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccElasticloadbalancingLoadBalancers) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/elasticloadbalancing_load_balancers awscc_elasticloadbalancing_load_balancers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/elasticloadbalancing_load_balancers awscc_elasticloadbalancing_load_balancers} Data Source.
 func NewDataAwsccElasticloadbalancingLoadBalancers(scope constructs.Construct, id *string, config *DataAwsccElasticloadbalancingLoadBalancersConfig) DataAwsccElasticloadbalancingLoadBalancers {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccElasticloadbalancingLoadBalancers(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/elasticloadbalancing_load_balancers awscc_elasticloadbalancing_load_balancers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/elasticloadbalancing_load_balancers awscc_elasticloadbalancing_load_balancers} Data Source.
 func NewDataAwsccElasticloadbalancingLoadBalancers_Override(d DataAwsccElasticloadbalancingLoadBalancers, scope constructs.Construct, id *string, config *DataAwsccElasticloadbalancingLoadBalancersConfig) {
 	_init_.Initialize()
 

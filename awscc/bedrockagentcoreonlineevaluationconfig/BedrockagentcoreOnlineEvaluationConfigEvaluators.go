@@ -7,7 +7,7 @@ package bedrockagentcoreonlineevaluationconfig
 type BedrockagentcoreOnlineEvaluationConfigEvaluators struct {
 	// The unique identifier of the evaluator.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_online_evaluation_config#evaluator_id BedrockagentcoreOnlineEvaluationConfig#evaluator_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_online_evaluation_config#evaluator_id BedrockagentcoreOnlineEvaluationConfig#evaluator_id}
 	EvaluatorId *string `field:"optional" json:"evaluatorId" yaml:"evaluatorId"`
 }
 

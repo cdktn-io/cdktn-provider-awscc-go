@@ -22,13 +22,13 @@ type IotanalyticsChannelConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#channel_name IotanalyticsChannel#channel_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#channel_name IotanalyticsChannel#channel_name}.
 	ChannelName *string `field:"optional" json:"channelName" yaml:"channelName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#channel_storage IotanalyticsChannel#channel_storage}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#channel_storage IotanalyticsChannel#channel_storage}.
 	ChannelStorage *IotanalyticsChannelChannelStorage `field:"optional" json:"channelStorage" yaml:"channelStorage"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#retention_period IotanalyticsChannel#retention_period}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#retention_period IotanalyticsChannel#retention_period}.
 	RetentionPeriod *IotanalyticsChannelRetentionPeriod `field:"optional" json:"retentionPeriod" yaml:"retentionPeriod"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotanalytics_channel#tags IotanalyticsChannel#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#tags IotanalyticsChannel#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/config_configuration_aggregator awscc_config_configuration_aggregator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_configuration_aggregator awscc_config_configuration_aggregator}.
 type ConfigConfigurationAggregator interface {
 	cdktn.TerraformResource
 	AccountAggregationSources() ConfigConfigurationAggregatorAccountAggregationSourcesList
@@ -462,7 +462,7 @@ func (j *jsiiProxy_ConfigConfigurationAggregator) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/config_configuration_aggregator awscc_config_configuration_aggregator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_configuration_aggregator awscc_config_configuration_aggregator} Resource.
 func NewConfigConfigurationAggregator(scope constructs.Construct, id *string, config *ConfigConfigurationAggregatorConfig) ConfigConfigurationAggregator {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewConfigConfigurationAggregator(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/config_configuration_aggregator awscc_config_configuration_aggregator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_configuration_aggregator awscc_config_configuration_aggregator} Resource.
 func NewConfigConfigurationAggregator_Override(c ConfigConfigurationAggregator, scope constructs.Construct, id *string, config *ConfigConfigurationAggregatorConfig) {
 	_init_.Initialize()
 

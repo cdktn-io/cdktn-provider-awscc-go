@@ -5,13 +5,13 @@ package lambdamicrovmimage
 
 
 type LambdaMicrovmImageHooksMicrovmImageHooks struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_microvm_image#ready LambdaMicrovmImage#ready}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_microvm_image#ready LambdaMicrovmImage#ready}.
 	Ready *string `field:"optional" json:"ready" yaml:"ready"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_microvm_image#ready_timeout_in_seconds LambdaMicrovmImage#ready_timeout_in_seconds}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_microvm_image#ready_timeout_in_seconds LambdaMicrovmImage#ready_timeout_in_seconds}.
 	ReadyTimeoutInSeconds *float64 `field:"optional" json:"readyTimeoutInSeconds" yaml:"readyTimeoutInSeconds"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_microvm_image#validate LambdaMicrovmImage#validate}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_microvm_image#validate LambdaMicrovmImage#validate}.
 	Validate *string `field:"optional" json:"validate" yaml:"validate"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_microvm_image#validate_timeout_in_seconds LambdaMicrovmImage#validate_timeout_in_seconds}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_microvm_image#validate_timeout_in_seconds LambdaMicrovmImage#validate_timeout_in_seconds}.
 	ValidateTimeoutInSeconds *float64 `field:"optional" json:"validateTimeoutInSeconds" yaml:"validateTimeoutInSeconds"`
 }
 

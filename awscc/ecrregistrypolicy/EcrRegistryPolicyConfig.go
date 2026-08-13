@@ -24,7 +24,7 @@ type EcrRegistryPolicyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The JSON policy text for your registry.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecr_registry_policy#policy_text EcrRegistryPolicy#policy_text}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_registry_policy#policy_text EcrRegistryPolicy#policy_text}
 	PolicyText *string `field:"required" json:"policyText" yaml:"policyText"`
 }
 

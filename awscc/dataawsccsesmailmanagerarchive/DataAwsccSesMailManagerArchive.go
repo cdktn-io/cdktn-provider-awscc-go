@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ses_mail_manager_archive awscc_ses_mail_manager_archive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ses_mail_manager_archive awscc_ses_mail_manager_archive}.
 type DataAwsccSesMailManagerArchive interface {
 	cdktn.TerraformDataSource
 	ArchiveArn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccSesMailManagerArchive) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ses_mail_manager_archive awscc_ses_mail_manager_archive} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ses_mail_manager_archive awscc_ses_mail_manager_archive} Data Source.
 func NewDataAwsccSesMailManagerArchive(scope constructs.Construct, id *string, config *DataAwsccSesMailManagerArchiveConfig) DataAwsccSesMailManagerArchive {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccSesMailManagerArchive(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ses_mail_manager_archive awscc_ses_mail_manager_archive} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ses_mail_manager_archive awscc_ses_mail_manager_archive} Data Source.
 func NewDataAwsccSesMailManagerArchive_Override(d DataAwsccSesMailManagerArchive, scope constructs.Construct, id *string, config *DataAwsccSesMailManagerArchiveConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package apptesttestcase
 
 
 type ApptestTestCaseStepsActionResourceActionM2NonManagedApplicationAction struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apptest_test_case#action_type ApptestTestCase#action_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apptest_test_case#action_type ApptestTestCase#action_type}.
 	ActionType *string `field:"optional" json:"actionType" yaml:"actionType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apptest_test_case#resource ApptestTestCase#resource}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apptest_test_case#resource ApptestTestCase#resource}.
 	Resource *string `field:"optional" json:"resource" yaml:"resource"`
 }
 

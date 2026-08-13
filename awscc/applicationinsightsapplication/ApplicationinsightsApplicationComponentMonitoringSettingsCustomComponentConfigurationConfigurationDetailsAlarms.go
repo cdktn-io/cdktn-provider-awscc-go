@@ -7,11 +7,11 @@ package applicationinsightsapplication
 type ApplicationinsightsApplicationComponentMonitoringSettingsCustomComponentConfigurationConfigurationDetailsAlarms struct {
 	// The name of the CloudWatch alarm to be monitored for the component.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationinsights_application#alarm_name ApplicationinsightsApplication#alarm_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationinsights_application#alarm_name ApplicationinsightsApplication#alarm_name}
 	AlarmName *string `field:"optional" json:"alarmName" yaml:"alarmName"`
 	// Indicates the degree of outage when the alarm goes off.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationinsights_application#severity ApplicationinsightsApplication#severity}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationinsights_application#severity ApplicationinsightsApplication#severity}
 	Severity *string `field:"optional" json:"severity" yaml:"severity"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_local_gateway_route_tables awscc_ec2_local_gateway_route_tables}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_local_gateway_route_tables awscc_ec2_local_gateway_route_tables}.
 type DataAwsccEc2LocalGatewayRouteTables interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2LocalGatewayRouteTables) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_local_gateway_route_tables awscc_ec2_local_gateway_route_tables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_local_gateway_route_tables awscc_ec2_local_gateway_route_tables} Data Source.
 func NewDataAwsccEc2LocalGatewayRouteTables(scope constructs.Construct, id *string, config *DataAwsccEc2LocalGatewayRouteTablesConfig) DataAwsccEc2LocalGatewayRouteTables {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2LocalGatewayRouteTables(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_local_gateway_route_tables awscc_ec2_local_gateway_route_tables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_local_gateway_route_tables awscc_ec2_local_gateway_route_tables} Data Source.
 func NewDataAwsccEc2LocalGatewayRouteTables_Override(d DataAwsccEc2LocalGatewayRouteTables, scope constructs.Construct, id *string, config *DataAwsccEc2LocalGatewayRouteTablesConfig) {
 	_init_.Initialize()
 

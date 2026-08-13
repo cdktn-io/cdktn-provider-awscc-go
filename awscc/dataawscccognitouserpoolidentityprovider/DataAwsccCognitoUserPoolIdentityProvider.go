@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cognito_user_pool_identity_provider awscc_cognito_user_pool_identity_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cognito_user_pool_identity_provider awscc_cognito_user_pool_identity_provider}.
 type DataAwsccCognitoUserPoolIdentityProvider interface {
 	cdktn.TerraformDataSource
 	AttributeMapping() cdktn.StringMap
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccCognitoUserPoolIdentityProvider) UserPoolId() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cognito_user_pool_identity_provider awscc_cognito_user_pool_identity_provider} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cognito_user_pool_identity_provider awscc_cognito_user_pool_identity_provider} Data Source.
 func NewDataAwsccCognitoUserPoolIdentityProvider(scope constructs.Construct, id *string, config *DataAwsccCognitoUserPoolIdentityProviderConfig) DataAwsccCognitoUserPoolIdentityProvider {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccCognitoUserPoolIdentityProvider(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cognito_user_pool_identity_provider awscc_cognito_user_pool_identity_provider} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cognito_user_pool_identity_provider awscc_cognito_user_pool_identity_provider} Data Source.
 func NewDataAwsccCognitoUserPoolIdentityProvider_Override(d DataAwsccCognitoUserPoolIdentityProvider, scope constructs.Construct, id *string, config *DataAwsccCognitoUserPoolIdentityProviderConfig) {
 	_init_.Initialize()
 

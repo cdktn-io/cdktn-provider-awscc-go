@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/lookoutequipment_inference_scheduler awscc_lookoutequipment_inference_scheduler}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lookoutequipment_inference_scheduler awscc_lookoutequipment_inference_scheduler}.
 type DataAwsccLookoutequipmentInferenceScheduler interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccLookoutequipmentInferenceScheduler) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/lookoutequipment_inference_scheduler awscc_lookoutequipment_inference_scheduler} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lookoutequipment_inference_scheduler awscc_lookoutequipment_inference_scheduler} Data Source.
 func NewDataAwsccLookoutequipmentInferenceScheduler(scope constructs.Construct, id *string, config *DataAwsccLookoutequipmentInferenceSchedulerConfig) DataAwsccLookoutequipmentInferenceScheduler {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccLookoutequipmentInferenceScheduler(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/lookoutequipment_inference_scheduler awscc_lookoutequipment_inference_scheduler} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lookoutequipment_inference_scheduler awscc_lookoutequipment_inference_scheduler} Data Source.
 func NewDataAwsccLookoutequipmentInferenceScheduler_Override(d DataAwsccLookoutequipmentInferenceScheduler, scope constructs.Construct, id *string, config *DataAwsccLookoutequipmentInferenceSchedulerConfig) {
 	_init_.Initialize()
 

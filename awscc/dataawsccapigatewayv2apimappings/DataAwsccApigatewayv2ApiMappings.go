@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/apigatewayv2_api_mappings awscc_apigatewayv2_api_mappings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigatewayv2_api_mappings awscc_apigatewayv2_api_mappings}.
 type DataAwsccApigatewayv2ApiMappings interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccApigatewayv2ApiMappings) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/apigatewayv2_api_mappings awscc_apigatewayv2_api_mappings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigatewayv2_api_mappings awscc_apigatewayv2_api_mappings} Data Source.
 func NewDataAwsccApigatewayv2ApiMappings(scope constructs.Construct, id *string, config *DataAwsccApigatewayv2ApiMappingsConfig) DataAwsccApigatewayv2ApiMappings {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccApigatewayv2ApiMappings(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/apigatewayv2_api_mappings awscc_apigatewayv2_api_mappings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigatewayv2_api_mappings awscc_apigatewayv2_api_mappings} Data Source.
 func NewDataAwsccApigatewayv2ApiMappings_Override(d DataAwsccApigatewayv2ApiMappings, scope constructs.Construct, id *string, config *DataAwsccApigatewayv2ApiMappingsConfig) {
 	_init_.Initialize()
 

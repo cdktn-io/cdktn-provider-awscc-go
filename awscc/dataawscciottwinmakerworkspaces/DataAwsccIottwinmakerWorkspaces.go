@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iottwinmaker_workspaces awscc_iottwinmaker_workspaces}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iottwinmaker_workspaces awscc_iottwinmaker_workspaces}.
 type DataAwsccIottwinmakerWorkspaces interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIottwinmakerWorkspaces) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iottwinmaker_workspaces awscc_iottwinmaker_workspaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iottwinmaker_workspaces awscc_iottwinmaker_workspaces} Data Source.
 func NewDataAwsccIottwinmakerWorkspaces(scope constructs.Construct, id *string, config *DataAwsccIottwinmakerWorkspacesConfig) DataAwsccIottwinmakerWorkspaces {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIottwinmakerWorkspaces(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iottwinmaker_workspaces awscc_iottwinmaker_workspaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iottwinmaker_workspaces awscc_iottwinmaker_workspaces} Data Source.
 func NewDataAwsccIottwinmakerWorkspaces_Override(d DataAwsccIottwinmakerWorkspaces, scope constructs.Construct, id *string, config *DataAwsccIottwinmakerWorkspacesConfig) {
 	_init_.Initialize()
 

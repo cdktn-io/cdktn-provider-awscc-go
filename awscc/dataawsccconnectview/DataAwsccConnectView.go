@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/connect_view awscc_connect_view}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_view awscc_connect_view}.
 type DataAwsccConnectView interface {
 	cdktn.TerraformDataSource
 	Actions() *[]*string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccConnectView) ViewId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/connect_view awscc_connect_view} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_view awscc_connect_view} Data Source.
 func NewDataAwsccConnectView(scope constructs.Construct, id *string, config *DataAwsccConnectViewConfig) DataAwsccConnectView {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccConnectView(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/connect_view awscc_connect_view} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_view awscc_connect_view} Data Source.
 func NewDataAwsccConnectView_Override(d DataAwsccConnectView, scope constructs.Construct, id *string, config *DataAwsccConnectViewConfig) {
 	_init_.Initialize()
 

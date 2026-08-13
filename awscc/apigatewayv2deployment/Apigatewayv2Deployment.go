@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_deployment awscc_apigatewayv2_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_deployment awscc_apigatewayv2_deployment}.
 type Apigatewayv2Deployment interface {
 	cdktn.TerraformResource
 	ApiId() *string
@@ -437,7 +437,7 @@ func (j *jsiiProxy_Apigatewayv2Deployment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_deployment awscc_apigatewayv2_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_deployment awscc_apigatewayv2_deployment} Resource.
 func NewApigatewayv2Deployment(scope constructs.Construct, id *string, config *Apigatewayv2DeploymentConfig) Apigatewayv2Deployment {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewApigatewayv2Deployment(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigatewayv2_deployment awscc_apigatewayv2_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_deployment awscc_apigatewayv2_deployment} Resource.
 func NewApigatewayv2Deployment_Override(a Apigatewayv2Deployment, scope constructs.Construct, id *string, config *Apigatewayv2DeploymentConfig) {
 	_init_.Initialize()
 

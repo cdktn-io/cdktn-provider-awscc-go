@@ -51,6 +51,10 @@ func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfi
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigOutputReference) validatePutResponsesEvaluatorModelConfigParameters(value *BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigResponsesEvaluatorModelConfig) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

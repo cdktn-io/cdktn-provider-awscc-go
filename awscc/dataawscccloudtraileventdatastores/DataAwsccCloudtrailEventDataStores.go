@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cloudtrail_event_data_stores awscc_cloudtrail_event_data_stores}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudtrail_event_data_stores awscc_cloudtrail_event_data_stores}.
 type DataAwsccCloudtrailEventDataStores interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCloudtrailEventDataStores) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cloudtrail_event_data_stores awscc_cloudtrail_event_data_stores} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudtrail_event_data_stores awscc_cloudtrail_event_data_stores} Data Source.
 func NewDataAwsccCloudtrailEventDataStores(scope constructs.Construct, id *string, config *DataAwsccCloudtrailEventDataStoresConfig) DataAwsccCloudtrailEventDataStores {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCloudtrailEventDataStores(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cloudtrail_event_data_stores awscc_cloudtrail_event_data_stores} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudtrail_event_data_stores awscc_cloudtrail_event_data_stores} Data Source.
 func NewDataAwsccCloudtrailEventDataStores_Override(d DataAwsccCloudtrailEventDataStores, scope constructs.Construct, id *string, config *DataAwsccCloudtrailEventDataStoresConfig) {
 	_init_.Initialize()
 

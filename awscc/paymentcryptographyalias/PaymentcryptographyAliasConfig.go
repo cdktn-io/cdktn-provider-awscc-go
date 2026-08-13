@@ -22,9 +22,9 @@ type PaymentcryptographyAliasConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/paymentcryptography_alias#alias_name PaymentcryptographyAlias#alias_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/paymentcryptography_alias#alias_name PaymentcryptographyAlias#alias_name}.
 	AliasName *string `field:"required" json:"aliasName" yaml:"aliasName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/paymentcryptography_alias#key_arn PaymentcryptographyAlias#key_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/paymentcryptography_alias#key_arn PaymentcryptographyAlias#key_arn}.
 	KeyArn *string `field:"optional" json:"keyArn" yaml:"keyArn"`
 }
 

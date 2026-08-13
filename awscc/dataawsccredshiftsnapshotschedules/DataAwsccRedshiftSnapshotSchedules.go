@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/redshift_snapshot_schedules awscc_redshift_snapshot_schedules}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/redshift_snapshot_schedules awscc_redshift_snapshot_schedules}.
 type DataAwsccRedshiftSnapshotSchedules interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRedshiftSnapshotSchedules) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/redshift_snapshot_schedules awscc_redshift_snapshot_schedules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/redshift_snapshot_schedules awscc_redshift_snapshot_schedules} Data Source.
 func NewDataAwsccRedshiftSnapshotSchedules(scope constructs.Construct, id *string, config *DataAwsccRedshiftSnapshotSchedulesConfig) DataAwsccRedshiftSnapshotSchedules {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRedshiftSnapshotSchedules(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/redshift_snapshot_schedules awscc_redshift_snapshot_schedules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/redshift_snapshot_schedules awscc_redshift_snapshot_schedules} Data Source.
 func NewDataAwsccRedshiftSnapshotSchedules_Override(d DataAwsccRedshiftSnapshotSchedules, scope constructs.Construct, id *string, config *DataAwsccRedshiftSnapshotSchedulesConfig) {
 	_init_.Initialize()
 

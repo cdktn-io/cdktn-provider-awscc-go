@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_wireless_gateway awscc_iotwireless_wireless_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_wireless_gateway awscc_iotwireless_wireless_gateway}.
 type IotwirelessWirelessGateway interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -544,7 +544,7 @@ func (j *jsiiProxy_IotwirelessWirelessGateway) WirelessGatewayId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_wireless_gateway awscc_iotwireless_wireless_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_wireless_gateway awscc_iotwireless_wireless_gateway} Resource.
 func NewIotwirelessWirelessGateway(scope constructs.Construct, id *string, config *IotwirelessWirelessGatewayConfig) IotwirelessWirelessGateway {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewIotwirelessWirelessGateway(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotwireless_wireless_gateway awscc_iotwireless_wireless_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotwireless_wireless_gateway awscc_iotwireless_wireless_gateway} Resource.
 func NewIotwirelessWirelessGateway_Override(i IotwirelessWirelessGateway, scope constructs.Construct, id *string, config *IotwirelessWirelessGatewayConfig) {
 	_init_.Initialize()
 

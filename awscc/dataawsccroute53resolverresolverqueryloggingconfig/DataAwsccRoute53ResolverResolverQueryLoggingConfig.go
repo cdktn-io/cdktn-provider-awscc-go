@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53resolver_resolver_query_logging_config awscc_route53resolver_resolver_query_logging_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53resolver_resolver_query_logging_config awscc_route53resolver_resolver_query_logging_config}.
 type DataAwsccRoute53ResolverResolverQueryLoggingConfig interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccRoute53ResolverResolverQueryLoggingConfig) Terraform
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53resolver_resolver_query_logging_config awscc_route53resolver_resolver_query_logging_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53resolver_resolver_query_logging_config awscc_route53resolver_resolver_query_logging_config} Data Source.
 func NewDataAwsccRoute53ResolverResolverQueryLoggingConfig(scope constructs.Construct, id *string, config *DataAwsccRoute53ResolverResolverQueryLoggingConfigConfig) DataAwsccRoute53ResolverResolverQueryLoggingConfig {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccRoute53ResolverResolverQueryLoggingConfig(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53resolver_resolver_query_logging_config awscc_route53resolver_resolver_query_logging_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53resolver_resolver_query_logging_config awscc_route53resolver_resolver_query_logging_config} Data Source.
 func NewDataAwsccRoute53ResolverResolverQueryLoggingConfig_Override(d DataAwsccRoute53ResolverResolverQueryLoggingConfig, scope constructs.Construct, id *string, config *DataAwsccRoute53ResolverResolverQueryLoggingConfigConfig) {
 	_init_.Initialize()
 

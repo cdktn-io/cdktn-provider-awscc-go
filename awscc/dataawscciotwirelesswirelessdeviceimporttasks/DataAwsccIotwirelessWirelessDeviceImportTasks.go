@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iotwireless_wireless_device_import_tasks awscc_iotwireless_wireless_device_import_tasks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotwireless_wireless_device_import_tasks awscc_iotwireless_wireless_device_import_tasks}.
 type DataAwsccIotwirelessWirelessDeviceImportTasks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotwirelessWirelessDeviceImportTasks) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iotwireless_wireless_device_import_tasks awscc_iotwireless_wireless_device_import_tasks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotwireless_wireless_device_import_tasks awscc_iotwireless_wireless_device_import_tasks} Data Source.
 func NewDataAwsccIotwirelessWirelessDeviceImportTasks(scope constructs.Construct, id *string, config *DataAwsccIotwirelessWirelessDeviceImportTasksConfig) DataAwsccIotwirelessWirelessDeviceImportTasks {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotwirelessWirelessDeviceImportTasks(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iotwireless_wireless_device_import_tasks awscc_iotwireless_wireless_device_import_tasks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotwireless_wireless_device_import_tasks awscc_iotwireless_wireless_device_import_tasks} Data Source.
 func NewDataAwsccIotwirelessWirelessDeviceImportTasks_Override(d DataAwsccIotwirelessWirelessDeviceImportTasks, scope constructs.Construct, id *string, config *DataAwsccIotwirelessWirelessDeviceImportTasksConfig) {
 	_init_.Initialize()
 

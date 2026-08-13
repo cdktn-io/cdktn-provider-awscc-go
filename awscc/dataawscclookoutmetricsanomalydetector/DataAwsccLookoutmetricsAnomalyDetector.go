@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/lookoutmetrics_anomaly_detector awscc_lookoutmetrics_anomaly_detector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lookoutmetrics_anomaly_detector awscc_lookoutmetrics_anomaly_detector}.
 type DataAwsccLookoutmetricsAnomalyDetector interface {
 	cdktn.TerraformDataSource
 	AnomalyDetectorConfig() DataAwsccLookoutmetricsAnomalyDetectorAnomalyDetectorConfigOutputReference
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccLookoutmetricsAnomalyDetector) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/lookoutmetrics_anomaly_detector awscc_lookoutmetrics_anomaly_detector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lookoutmetrics_anomaly_detector awscc_lookoutmetrics_anomaly_detector} Data Source.
 func NewDataAwsccLookoutmetricsAnomalyDetector(scope constructs.Construct, id *string, config *DataAwsccLookoutmetricsAnomalyDetectorConfig) DataAwsccLookoutmetricsAnomalyDetector {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccLookoutmetricsAnomalyDetector(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/lookoutmetrics_anomaly_detector awscc_lookoutmetrics_anomaly_detector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lookoutmetrics_anomaly_detector awscc_lookoutmetrics_anomaly_detector} Data Source.
 func NewDataAwsccLookoutmetricsAnomalyDetector_Override(d DataAwsccLookoutmetricsAnomalyDetector, scope constructs.Construct, id *string, config *DataAwsccLookoutmetricsAnomalyDetectorConfig) {
 	_init_.Initialize()
 

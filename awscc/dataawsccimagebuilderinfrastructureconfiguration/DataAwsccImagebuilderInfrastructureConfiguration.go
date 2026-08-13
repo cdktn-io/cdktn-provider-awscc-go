@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration}.
 type DataAwsccImagebuilderInfrastructureConfiguration interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccImagebuilderInfrastructureConfiguration) TerraformRe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration} Data Source.
 func NewDataAwsccImagebuilderInfrastructureConfiguration(scope constructs.Construct, id *string, config *DataAwsccImagebuilderInfrastructureConfigurationConfig) DataAwsccImagebuilderInfrastructureConfiguration {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccImagebuilderInfrastructureConfiguration(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration} Data Source.
 func NewDataAwsccImagebuilderInfrastructureConfiguration_Override(d DataAwsccImagebuilderInfrastructureConfiguration, scope constructs.Construct, id *string, config *DataAwsccImagebuilderInfrastructureConfigurationConfig) {
 	_init_.Initialize()
 

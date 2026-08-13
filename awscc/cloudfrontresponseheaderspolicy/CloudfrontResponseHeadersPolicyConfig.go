@@ -24,7 +24,7 @@ type CloudfrontResponseHeadersPolicyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A response headers policy configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudfront_response_headers_policy#response_headers_policy_config CloudfrontResponseHeadersPolicy#response_headers_policy_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudfront_response_headers_policy#response_headers_policy_config CloudfrontResponseHeadersPolicy#response_headers_policy_config}
 	ResponseHeadersPolicyConfig *CloudfrontResponseHeadersPolicyResponseHeadersPolicyConfig `field:"required" json:"responseHeadersPolicyConfig" yaml:"responseHeadersPolicyConfig"`
 }
 

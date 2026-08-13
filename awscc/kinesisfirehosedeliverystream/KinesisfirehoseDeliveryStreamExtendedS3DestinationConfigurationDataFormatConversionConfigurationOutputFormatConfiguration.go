@@ -5,7 +5,7 @@ package kinesisfirehosedeliverystream
 
 
 type KinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputFormatConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/kinesisfirehose_delivery_stream#serializer KinesisfirehoseDeliveryStream#serializer}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kinesisfirehose_delivery_stream#serializer KinesisfirehoseDeliveryStream#serializer}.
 	Serializer *KinesisfirehoseDeliveryStreamExtendedS3DestinationConfigurationDataFormatConversionConfigurationOutputFormatConfigurationSerializer `field:"optional" json:"serializer" yaml:"serializer"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_sql_ha_standby_detected_instances awscc_ec2_sql_ha_standby_detected_instances}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_sql_ha_standby_detected_instances awscc_ec2_sql_ha_standby_detected_instances}.
 type DataAwsccEc2SqlHaStandbyDetectedInstances interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2SqlHaStandbyDetectedInstances) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_sql_ha_standby_detected_instances awscc_ec2_sql_ha_standby_detected_instances} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_sql_ha_standby_detected_instances awscc_ec2_sql_ha_standby_detected_instances} Data Source.
 func NewDataAwsccEc2SqlHaStandbyDetectedInstances(scope constructs.Construct, id *string, config *DataAwsccEc2SqlHaStandbyDetectedInstancesConfig) DataAwsccEc2SqlHaStandbyDetectedInstances {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2SqlHaStandbyDetectedInstances(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_sql_ha_standby_detected_instances awscc_ec2_sql_ha_standby_detected_instances} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_sql_ha_standby_detected_instances awscc_ec2_sql_ha_standby_detected_instances} Data Source.
 func NewDataAwsccEc2SqlHaStandbyDetectedInstances_Override(d DataAwsccEc2SqlHaStandbyDetectedInstances, scope constructs.Construct, id *string, config *DataAwsccEc2SqlHaStandbyDetectedInstancesConfig) {
 	_init_.Initialize()
 

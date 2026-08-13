@@ -5,7 +5,7 @@ package bedrockdataautomationproject
 
 
 type BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_data_automation_project#transcript BedrockDataAutomationProject#transcript}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_automation_project#transcript BedrockDataAutomationProject#transcript}.
 	Transcript *BedrockDataAutomationProjectStandardOutputConfigurationAudioExtractionCategoryTypeConfigurationTranscript `field:"optional" json:"transcript" yaml:"transcript"`
 }
 

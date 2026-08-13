@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/greengrassv2_deployments awscc_greengrassv2_deployments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/greengrassv2_deployments awscc_greengrassv2_deployments}.
 type DataAwsccGreengrassv2Deployments interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGreengrassv2Deployments) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/greengrassv2_deployments awscc_greengrassv2_deployments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/greengrassv2_deployments awscc_greengrassv2_deployments} Data Source.
 func NewDataAwsccGreengrassv2Deployments(scope constructs.Construct, id *string, config *DataAwsccGreengrassv2DeploymentsConfig) DataAwsccGreengrassv2Deployments {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGreengrassv2Deployments(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/greengrassv2_deployments awscc_greengrassv2_deployments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/greengrassv2_deployments awscc_greengrassv2_deployments} Data Source.
 func NewDataAwsccGreengrassv2Deployments_Override(d DataAwsccGreengrassv2Deployments, scope constructs.Construct, id *string, config *DataAwsccGreengrassv2DeploymentsConfig) {
 	_init_.Initialize()
 

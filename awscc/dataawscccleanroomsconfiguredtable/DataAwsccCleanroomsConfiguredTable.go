@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cleanrooms_configured_table awscc_cleanrooms_configured_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cleanrooms_configured_table awscc_cleanrooms_configured_table}.
 type DataAwsccCleanroomsConfiguredTable interface {
 	cdktn.TerraformDataSource
 	AllowedColumns() *[]*string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccCleanroomsConfiguredTable) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cleanrooms_configured_table awscc_cleanrooms_configured_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cleanrooms_configured_table awscc_cleanrooms_configured_table} Data Source.
 func NewDataAwsccCleanroomsConfiguredTable(scope constructs.Construct, id *string, config *DataAwsccCleanroomsConfiguredTableConfig) DataAwsccCleanroomsConfiguredTable {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccCleanroomsConfiguredTable(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cleanrooms_configured_table awscc_cleanrooms_configured_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cleanrooms_configured_table awscc_cleanrooms_configured_table} Data Source.
 func NewDataAwsccCleanroomsConfiguredTable_Override(d DataAwsccCleanroomsConfiguredTable, scope constructs.Construct, id *string, config *DataAwsccCleanroomsConfiguredTableConfig) {
 	_init_.Initialize()
 

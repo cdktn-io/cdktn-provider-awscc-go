@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target}.
 type ApplicationautoscalingScalableTarget interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -553,7 +553,7 @@ func (j *jsiiProxy_ApplicationautoscalingScalableTarget) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target} Resource.
 func NewApplicationautoscalingScalableTarget(scope constructs.Construct, id *string, config *ApplicationautoscalingScalableTargetConfig) ApplicationautoscalingScalableTarget {
 	_init_.Initialize()
 
@@ -571,7 +571,7 @@ func NewApplicationautoscalingScalableTarget(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target} Resource.
 func NewApplicationautoscalingScalableTarget_Override(a ApplicationautoscalingScalableTarget, scope constructs.Construct, id *string, config *ApplicationautoscalingScalableTargetConfig) {
 	_init_.Initialize()
 

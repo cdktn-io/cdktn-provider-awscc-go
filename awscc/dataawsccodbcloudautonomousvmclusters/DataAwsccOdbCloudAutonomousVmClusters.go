@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/odb_cloud_autonomous_vm_clusters awscc_odb_cloud_autonomous_vm_clusters}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/odb_cloud_autonomous_vm_clusters awscc_odb_cloud_autonomous_vm_clusters}.
 type DataAwsccOdbCloudAutonomousVmClusters interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccOdbCloudAutonomousVmClusters) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/odb_cloud_autonomous_vm_clusters awscc_odb_cloud_autonomous_vm_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/odb_cloud_autonomous_vm_clusters awscc_odb_cloud_autonomous_vm_clusters} Data Source.
 func NewDataAwsccOdbCloudAutonomousVmClusters(scope constructs.Construct, id *string, config *DataAwsccOdbCloudAutonomousVmClustersConfig) DataAwsccOdbCloudAutonomousVmClusters {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccOdbCloudAutonomousVmClusters(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/odb_cloud_autonomous_vm_clusters awscc_odb_cloud_autonomous_vm_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/odb_cloud_autonomous_vm_clusters awscc_odb_cloud_autonomous_vm_clusters} Data Source.
 func NewDataAwsccOdbCloudAutonomousVmClusters_Override(d DataAwsccOdbCloudAutonomousVmClusters, scope constructs.Construct, id *string, config *DataAwsccOdbCloudAutonomousVmClustersConfig) {
 	_init_.Initialize()
 

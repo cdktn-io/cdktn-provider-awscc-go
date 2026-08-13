@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/qbusiness_index awscc_qbusiness_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/qbusiness_index awscc_qbusiness_index}.
 type QbusinessIndex interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -587,7 +587,7 @@ func (j *jsiiProxy_QbusinessIndex) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/qbusiness_index awscc_qbusiness_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/qbusiness_index awscc_qbusiness_index} Resource.
 func NewQbusinessIndex(scope constructs.Construct, id *string, config *QbusinessIndexConfig) QbusinessIndex {
 	_init_.Initialize()
 
@@ -605,7 +605,7 @@ func NewQbusinessIndex(scope constructs.Construct, id *string, config *Qbusiness
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/qbusiness_index awscc_qbusiness_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/qbusiness_index awscc_qbusiness_index} Resource.
 func NewQbusinessIndex_Override(q QbusinessIndex, scope constructs.Construct, id *string, config *QbusinessIndexConfig) {
 	_init_.Initialize()
 

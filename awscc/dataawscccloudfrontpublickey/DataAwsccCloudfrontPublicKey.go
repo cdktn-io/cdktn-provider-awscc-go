@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cloudfront_public_key awscc_cloudfront_public_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudfront_public_key awscc_cloudfront_public_key}.
 type DataAwsccCloudfrontPublicKey interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccCloudfrontPublicKey) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cloudfront_public_key awscc_cloudfront_public_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudfront_public_key awscc_cloudfront_public_key} Data Source.
 func NewDataAwsccCloudfrontPublicKey(scope constructs.Construct, id *string, config *DataAwsccCloudfrontPublicKeyConfig) DataAwsccCloudfrontPublicKey {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccCloudfrontPublicKey(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cloudfront_public_key awscc_cloudfront_public_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudfront_public_key awscc_cloudfront_public_key} Data Source.
 func NewDataAwsccCloudfrontPublicKey_Override(d DataAwsccCloudfrontPublicKey, scope constructs.Construct, id *string, config *DataAwsccCloudfrontPublicKeyConfig) {
 	_init_.Initialize()
 

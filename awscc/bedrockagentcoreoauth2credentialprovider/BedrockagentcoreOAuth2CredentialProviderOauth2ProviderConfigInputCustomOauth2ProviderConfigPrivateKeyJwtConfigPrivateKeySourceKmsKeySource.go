@@ -7,7 +7,7 @@ package bedrockagentcoreoauth2credentialprovider
 type BedrockagentcoreOAuth2CredentialProviderOauth2ProviderConfigInputCustomOauth2ProviderConfigPrivateKeyJwtConfigPrivateKeySourceKmsKeySource struct {
 	// The Amazon Resource Name (ARN) of the KMS key used to sign the JWT client assertion.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_o_auth_2_credential_provider#kms_key_arn BedrockagentcoreOAuth2CredentialProvider#kms_key_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_o_auth_2_credential_provider#kms_key_arn BedrockagentcoreOAuth2CredentialProvider#kms_key_arn}
 	KmsKeyArn *string `field:"optional" json:"kmsKeyArn" yaml:"kmsKeyArn"`
 }
 

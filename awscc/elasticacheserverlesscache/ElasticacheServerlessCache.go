@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache}.
 type ElasticacheServerlessCache interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -781,7 +781,7 @@ func (j *jsiiProxy_ElasticacheServerlessCache) UserGroupIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache} Resource.
 func NewElasticacheServerlessCache(scope constructs.Construct, id *string, config *ElasticacheServerlessCacheConfig) ElasticacheServerlessCache {
 	_init_.Initialize()
 
@@ -799,7 +799,7 @@ func NewElasticacheServerlessCache(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache} Resource.
 func NewElasticacheServerlessCache_Override(e ElasticacheServerlessCache, scope constructs.Construct, id *string, config *ElasticacheServerlessCacheConfig) {
 	_init_.Initialize()
 

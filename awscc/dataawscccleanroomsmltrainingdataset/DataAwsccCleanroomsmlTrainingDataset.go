@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cleanroomsml_training_dataset awscc_cleanroomsml_training_dataset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cleanroomsml_training_dataset awscc_cleanroomsml_training_dataset}.
 type DataAwsccCleanroomsmlTrainingDataset interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccCleanroomsmlTrainingDataset) TrainingDatasetArn() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cleanroomsml_training_dataset awscc_cleanroomsml_training_dataset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cleanroomsml_training_dataset awscc_cleanroomsml_training_dataset} Data Source.
 func NewDataAwsccCleanroomsmlTrainingDataset(scope constructs.Construct, id *string, config *DataAwsccCleanroomsmlTrainingDatasetConfig) DataAwsccCleanroomsmlTrainingDataset {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccCleanroomsmlTrainingDataset(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cleanroomsml_training_dataset awscc_cleanroomsml_training_dataset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cleanroomsml_training_dataset awscc_cleanroomsml_training_dataset} Data Source.
 func NewDataAwsccCleanroomsmlTrainingDataset_Override(d DataAwsccCleanroomsmlTrainingDataset, scope constructs.Construct, id *string, config *DataAwsccCleanroomsmlTrainingDatasetConfig) {
 	_init_.Initialize()
 

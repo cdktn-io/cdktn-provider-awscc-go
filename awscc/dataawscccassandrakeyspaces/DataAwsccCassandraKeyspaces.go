@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cassandra_keyspaces awscc_cassandra_keyspaces}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cassandra_keyspaces awscc_cassandra_keyspaces}.
 type DataAwsccCassandraKeyspaces interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCassandraKeyspaces) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cassandra_keyspaces awscc_cassandra_keyspaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cassandra_keyspaces awscc_cassandra_keyspaces} Data Source.
 func NewDataAwsccCassandraKeyspaces(scope constructs.Construct, id *string, config *DataAwsccCassandraKeyspacesConfig) DataAwsccCassandraKeyspaces {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCassandraKeyspaces(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cassandra_keyspaces awscc_cassandra_keyspaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cassandra_keyspaces awscc_cassandra_keyspaces} Data Source.
 func NewDataAwsccCassandraKeyspaces_Override(d DataAwsccCassandraKeyspaces, scope constructs.Construct, id *string, config *DataAwsccCassandraKeyspacesConfig) {
 	_init_.Initialize()
 

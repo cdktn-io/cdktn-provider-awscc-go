@@ -5,7 +5,7 @@ package omicsannotationstore
 
 
 type OmicsAnnotationStoreStoreOptions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/omics_annotation_store#tsv_store_options OmicsAnnotationStore#tsv_store_options}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_annotation_store#tsv_store_options OmicsAnnotationStore#tsv_store_options}.
 	TsvStoreOptions *OmicsAnnotationStoreStoreOptionsTsvStoreOptions `field:"optional" json:"tsvStoreOptions" yaml:"tsvStoreOptions"`
 }
 

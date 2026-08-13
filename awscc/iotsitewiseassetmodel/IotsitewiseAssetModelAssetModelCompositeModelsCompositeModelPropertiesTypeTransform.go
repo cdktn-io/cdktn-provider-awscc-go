@@ -7,11 +7,11 @@ package iotsitewiseassetmodel
 type IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeTransform struct {
 	// The mathematical expression that defines the transformation function. You can specify up to 10 functions per expression.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_asset_model#expression IotsitewiseAssetModel#expression}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset_model#expression IotsitewiseAssetModel#expression}
 	Expression *string `field:"optional" json:"expression" yaml:"expression"`
 	// The list of variables used in the expression.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_asset_model#variables IotsitewiseAssetModel#variables}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset_model#variables IotsitewiseAssetModel#variables}
 	Variables interface{} `field:"optional" json:"variables" yaml:"variables"`
 }
 

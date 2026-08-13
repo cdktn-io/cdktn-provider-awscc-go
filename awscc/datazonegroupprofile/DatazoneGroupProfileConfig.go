@@ -24,23 +24,23 @@ type DatazoneGroupProfileConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The identifier of the Amazon DataZone domain in which the group profile would be created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_group_profile#domain_identifier DatazoneGroupProfile#domain_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_group_profile#domain_identifier DatazoneGroupProfile#domain_identifier}
 	DomainIdentifier *string `field:"required" json:"domainIdentifier" yaml:"domainIdentifier"`
 	// The ID of the group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_group_profile#group_identifier DatazoneGroupProfile#group_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_group_profile#group_identifier DatazoneGroupProfile#group_identifier}
 	GroupIdentifier *string `field:"optional" json:"groupIdentifier" yaml:"groupIdentifier"`
 	// The type of the group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_group_profile#group_type DatazoneGroupProfile#group_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_group_profile#group_type DatazoneGroupProfile#group_type}
 	GroupType *string `field:"optional" json:"groupType" yaml:"groupType"`
 	// The ARN of the role principal for the group profile.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_group_profile#role_principal_arn DatazoneGroupProfile#role_principal_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_group_profile#role_principal_arn DatazoneGroupProfile#role_principal_arn}
 	RolePrincipalArn *string `field:"optional" json:"rolePrincipalArn" yaml:"rolePrincipalArn"`
 	// The status of the group profile.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_group_profile#status DatazoneGroupProfile#status}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_group_profile#status DatazoneGroupProfile#status}
 	Status *string `field:"optional" json:"status" yaml:"status"`
 }
 

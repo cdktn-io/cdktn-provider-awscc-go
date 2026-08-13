@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_resolver_query_logging_config_association awscc_route53resolver_resolver_query_logging_config_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_resolver_query_logging_config_association awscc_route53resolver_resolver_query_logging_config_association}.
 type Route53ResolverResolverQueryLoggingConfigAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -458,7 +458,7 @@ func (j *jsiiProxy_Route53ResolverResolverQueryLoggingConfigAssociation) Terrafo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_resolver_query_logging_config_association awscc_route53resolver_resolver_query_logging_config_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_resolver_query_logging_config_association awscc_route53resolver_resolver_query_logging_config_association} Resource.
 func NewRoute53ResolverResolverQueryLoggingConfigAssociation(scope constructs.Construct, id *string, config *Route53ResolverResolverQueryLoggingConfigAssociationConfig) Route53ResolverResolverQueryLoggingConfigAssociation {
 	_init_.Initialize()
 
@@ -476,7 +476,7 @@ func NewRoute53ResolverResolverQueryLoggingConfigAssociation(scope constructs.Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53resolver_resolver_query_logging_config_association awscc_route53resolver_resolver_query_logging_config_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53resolver_resolver_query_logging_config_association awscc_route53resolver_resolver_query_logging_config_association} Resource.
 func NewRoute53ResolverResolverQueryLoggingConfigAssociation_Override(r Route53ResolverResolverQueryLoggingConfigAssociation, scope constructs.Construct, id *string, config *Route53ResolverResolverQueryLoggingConfigAssociationConfig) {
 	_init_.Initialize()
 

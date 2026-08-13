@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association}.
 type DataAwsccDirectconnectDirectConnectGatewayAssociation interface {
 	cdktn.TerraformDataSource
 	AcceptDirectConnectGatewayAssociationProposalRoleArn() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccDirectconnectDirectConnectGatewayAssociation) Terraf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association} Data Source.
 func NewDataAwsccDirectconnectDirectConnectGatewayAssociation(scope constructs.Construct, id *string, config *DataAwsccDirectconnectDirectConnectGatewayAssociationConfig) DataAwsccDirectconnectDirectConnectGatewayAssociation {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccDirectconnectDirectConnectGatewayAssociation(scope constructs.C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association} Data Source.
 func NewDataAwsccDirectconnectDirectConnectGatewayAssociation_Override(d DataAwsccDirectconnectDirectConnectGatewayAssociation, scope constructs.Construct, id *string, config *DataAwsccDirectconnectDirectConnectGatewayAssociationConfig) {
 	_init_.Initialize()
 

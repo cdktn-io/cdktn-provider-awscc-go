@@ -22,13 +22,13 @@ type IamOidcProviderConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_oidc_provider#client_id_list IamOidcProvider#client_id_list}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_oidc_provider#client_id_list IamOidcProvider#client_id_list}.
 	ClientIdList *[]*string `field:"optional" json:"clientIdList" yaml:"clientIdList"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_oidc_provider#tags IamOidcProvider#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_oidc_provider#tags IamOidcProvider#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_oidc_provider#thumbprint_list IamOidcProvider#thumbprint_list}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_oidc_provider#thumbprint_list IamOidcProvider#thumbprint_list}.
 	ThumbprintList *[]*string `field:"optional" json:"thumbprintList" yaml:"thumbprintList"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_oidc_provider#url IamOidcProvider#url}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_oidc_provider#url IamOidcProvider#url}.
 	Url *string `field:"optional" json:"url" yaml:"url"`
 }
 

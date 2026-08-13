@@ -7,11 +7,11 @@ package iotcommand
 type IotCommandTags struct {
 	// The tag's key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_command#key IotCommand#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_command#key IotCommand#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The tag's value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_command#value IotCommand#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_command#value IotCommand#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

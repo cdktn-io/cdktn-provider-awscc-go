@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/imagebuilder_distribution_configuration awscc_imagebuilder_distribution_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/imagebuilder_distribution_configuration awscc_imagebuilder_distribution_configuration}.
 type DataAwsccImagebuilderDistributionConfiguration interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccImagebuilderDistributionConfiguration) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/imagebuilder_distribution_configuration awscc_imagebuilder_distribution_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/imagebuilder_distribution_configuration awscc_imagebuilder_distribution_configuration} Data Source.
 func NewDataAwsccImagebuilderDistributionConfiguration(scope constructs.Construct, id *string, config *DataAwsccImagebuilderDistributionConfigurationConfig) DataAwsccImagebuilderDistributionConfiguration {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccImagebuilderDistributionConfiguration(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/imagebuilder_distribution_configuration awscc_imagebuilder_distribution_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/imagebuilder_distribution_configuration awscc_imagebuilder_distribution_configuration} Data Source.
 func NewDataAwsccImagebuilderDistributionConfiguration_Override(d DataAwsccImagebuilderDistributionConfiguration, scope constructs.Construct, id *string, config *DataAwsccImagebuilderDistributionConfigurationConfig) {
 	_init_.Initialize()
 

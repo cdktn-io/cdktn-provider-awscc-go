@@ -5,7 +5,7 @@ package groundstationconfig
 
 
 type GroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkData struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/groundstation_config#kinesis_data_stream_data GroundstationConfig#kinesis_data_stream_data}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/groundstation_config#kinesis_data_stream_data GroundstationConfig#kinesis_data_stream_data}.
 	KinesisDataStreamData *GroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkDataKinesisDataStreamData `field:"optional" json:"kinesisDataStreamData" yaml:"kinesisDataStreamData"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ce_anomaly_subscription awscc_ce_anomaly_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ce_anomaly_subscription awscc_ce_anomaly_subscription}.
 type DataAwsccCeAnomalySubscription interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccCeAnomalySubscription) ThresholdExpression() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ce_anomaly_subscription awscc_ce_anomaly_subscription} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ce_anomaly_subscription awscc_ce_anomaly_subscription} Data Source.
 func NewDataAwsccCeAnomalySubscription(scope constructs.Construct, id *string, config *DataAwsccCeAnomalySubscriptionConfig) DataAwsccCeAnomalySubscription {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccCeAnomalySubscription(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ce_anomaly_subscription awscc_ce_anomaly_subscription} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ce_anomaly_subscription awscc_ce_anomaly_subscription} Data Source.
 func NewDataAwsccCeAnomalySubscription_Override(d DataAwsccCeAnomalySubscription, scope constructs.Construct, id *string, config *DataAwsccCeAnomalySubscriptionConfig) {
 	_init_.Initialize()
 

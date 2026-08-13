@@ -1,0 +1,89 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package gluesecurityconfiguration
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (g *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReference) validatePutCloudwatchEncryptionParameters(value *GlueSecurityConfigurationEncryptionConfigurationCloudwatchEncryption) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReference) validatePutJobBookmarksEncryptionParameters(value *GlueSecurityConfigurationEncryptionConfigurationJobBookmarksEncryption) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReference) validatePutS3EncryptionsParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GlueSecurityConfigurationEncryptionConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewGlueSecurityConfigurationEncryptionConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

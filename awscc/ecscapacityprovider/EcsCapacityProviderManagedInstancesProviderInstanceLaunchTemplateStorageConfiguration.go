@@ -5,7 +5,7 @@ package ecscapacityprovider
 
 
 type EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateStorageConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_capacity_provider#storage_size_gi_b EcsCapacityProvider#storage_size_gi_b}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_capacity_provider#storage_size_gi_b EcsCapacityProvider#storage_size_gi_b}.
 	StorageSizeGiB *float64 `field:"optional" json:"storageSizeGiB" yaml:"storageSizeGiB"`
 }
 

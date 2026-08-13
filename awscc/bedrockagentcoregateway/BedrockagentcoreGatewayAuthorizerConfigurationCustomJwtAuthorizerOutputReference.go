@@ -13,6 +13,9 @@ import (
 
 type BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference interface {
 	cdktn.ComplexObject
+	AdvertisedScopeMapping() *map[string]*string
+	SetAdvertisedScopeMapping(val *map[string]*string)
+	AdvertisedScopeMappingInput() *map[string]*string
 	AllowedAudience() *[]*string
 	SetAllowedAudience(val *[]*string)
 	AllowedAudienceInput() *[]*string
@@ -46,6 +49,8 @@ type BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputRefe
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	PrivateEndpoint() BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOutputReference
+	PrivateEndpointInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -79,11 +84,14 @@ type BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputRefe
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCustomClaims(value interface{})
+	PutPrivateEndpoint(value *BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpoint)
+	ResetAdvertisedScopeMapping()
 	ResetAllowedAudience()
 	ResetAllowedClients()
 	ResetAllowedScopes()
 	ResetCustomClaims()
 	ResetDiscoveryUrl()
+	ResetPrivateEndpoint()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -97,6 +105,26 @@ type BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputRefe
 // The jsii proxy struct for BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference
 type jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference) AdvertisedScopeMapping() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"advertisedScopeMapping",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference) AdvertisedScopeMappingInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"advertisedScopeMappingInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference) AllowedAudience() *[]*string {
@@ -249,6 +277,26 @@ func (j *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthor
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference) PrivateEndpoint() BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOutputReference {
+	var returns BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOutputReference
+	_jsii_.Get(
+		j,
+		"privateEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference) PrivateEndpointInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"privateEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -294,6 +342,17 @@ func NewBedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputR
 		"@cdktn/provider-awscc.bedrockagentcoreGateway.BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		b,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference)SetAdvertisedScopeMapping(val *map[string]*string) {
+	if err := j.validateSetAdvertisedScopeMappingParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"advertisedScopeMapping",
+		val,
 	)
 }
 
@@ -593,6 +652,25 @@ func (b *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthor
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference) PutPrivateEndpoint(value *BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpoint) {
+	if err := b.validatePutPrivateEndpointParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putPrivateEndpoint",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference) ResetAdvertisedScopeMapping() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetAdvertisedScopeMapping",
+		nil, // no parameters
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference) ResetAllowedAudience() {
 	_jsii_.InvokeVoid(
 		b,
@@ -629,6 +707,14 @@ func (b *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthor
 	_jsii_.InvokeVoid(
 		b,
 		"resetDiscoveryUrl",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerOutputReference) ResetPrivateEndpoint() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetPrivateEndpoint",
 		nil, // no parameters
 	)
 }

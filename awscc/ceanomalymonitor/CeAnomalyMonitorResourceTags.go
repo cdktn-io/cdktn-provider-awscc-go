@@ -7,11 +7,11 @@ package ceanomalymonitor
 type CeAnomalyMonitorResourceTags struct {
 	// The key name for the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_anomaly_monitor#key CeAnomalyMonitor#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_monitor#key CeAnomalyMonitor#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value for the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ce_anomaly_monitor#value CeAnomalyMonitor#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_anomaly_monitor#value CeAnomalyMonitor#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

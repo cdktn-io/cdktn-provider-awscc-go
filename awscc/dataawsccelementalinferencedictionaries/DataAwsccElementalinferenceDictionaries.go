@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/elementalinference_dictionaries awscc_elementalinference_dictionaries}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/elementalinference_dictionaries awscc_elementalinference_dictionaries}.
 type DataAwsccElementalinferenceDictionaries interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccElementalinferenceDictionaries) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/elementalinference_dictionaries awscc_elementalinference_dictionaries} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/elementalinference_dictionaries awscc_elementalinference_dictionaries} Data Source.
 func NewDataAwsccElementalinferenceDictionaries(scope constructs.Construct, id *string, config *DataAwsccElementalinferenceDictionariesConfig) DataAwsccElementalinferenceDictionaries {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccElementalinferenceDictionaries(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/elementalinference_dictionaries awscc_elementalinference_dictionaries} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/elementalinference_dictionaries awscc_elementalinference_dictionaries} Data Source.
 func NewDataAwsccElementalinferenceDictionaries_Override(d DataAwsccElementalinferenceDictionaries, scope constructs.Construct, id *string, config *DataAwsccElementalinferenceDictionariesConfig) {
 	_init_.Initialize()
 

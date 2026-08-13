@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53recoveryreadiness_recovery_groups awscc_route53recoveryreadiness_recovery_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53recoveryreadiness_recovery_groups awscc_route53recoveryreadiness_recovery_groups}.
 type DataAwsccRoute53RecoveryreadinessRecoveryGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRoute53RecoveryreadinessRecoveryGroups) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53recoveryreadiness_recovery_groups awscc_route53recoveryreadiness_recovery_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53recoveryreadiness_recovery_groups awscc_route53recoveryreadiness_recovery_groups} Data Source.
 func NewDataAwsccRoute53RecoveryreadinessRecoveryGroups(scope constructs.Construct, id *string, config *DataAwsccRoute53RecoveryreadinessRecoveryGroupsConfig) DataAwsccRoute53RecoveryreadinessRecoveryGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRoute53RecoveryreadinessRecoveryGroups(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53recoveryreadiness_recovery_groups awscc_route53recoveryreadiness_recovery_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53recoveryreadiness_recovery_groups awscc_route53recoveryreadiness_recovery_groups} Data Source.
 func NewDataAwsccRoute53RecoveryreadinessRecoveryGroups_Override(d DataAwsccRoute53RecoveryreadinessRecoveryGroups, scope constructs.Construct, id *string, config *DataAwsccRoute53RecoveryreadinessRecoveryGroupsConfig) {
 	_init_.Initialize()
 

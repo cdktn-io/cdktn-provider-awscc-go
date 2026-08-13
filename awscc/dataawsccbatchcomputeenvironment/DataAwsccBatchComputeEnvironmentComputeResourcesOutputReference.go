@@ -15,6 +15,7 @@ type DataAwsccBatchComputeEnvironmentComputeResourcesOutputReference interface {
 	cdktn.ComplexObject
 	AllocationStrategy() *string
 	BidPercentage() *float64
+	CapacityTags() cdktn.StringMap
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,6 +42,7 @@ type DataAwsccBatchComputeEnvironmentComputeResourcesOutputReference interface {
 	InternalValue() *DataAwsccBatchComputeEnvironmentComputeResources
 	SetInternalValue(val *DataAwsccBatchComputeEnvironmentComputeResources)
 	LaunchTemplate() DataAwsccBatchComputeEnvironmentComputeResourcesLaunchTemplateOutputReference
+	ManagedInstancesProvider() DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderOutputReference
 	MaxvCpus() *float64
 	MinvCpus() *float64
 	PlacementGroup() *string
@@ -113,6 +115,16 @@ func (j *jsiiProxy_DataAwsccBatchComputeEnvironmentComputeResourcesOutputReferen
 	_jsii_.Get(
 		j,
 		"bidPercentage",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccBatchComputeEnvironmentComputeResourcesOutputReference) CapacityTags() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"capacityTags",
 		&returns,
 	)
 	return returns
@@ -233,6 +245,16 @@ func (j *jsiiProxy_DataAwsccBatchComputeEnvironmentComputeResourcesOutputReferen
 	_jsii_.Get(
 		j,
 		"launchTemplate",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccBatchComputeEnvironmentComputeResourcesOutputReference) ManagedInstancesProvider() DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderOutputReference {
+	var returns DataAwsccBatchComputeEnvironmentComputeResourcesManagedInstancesProviderOutputReference
+	_jsii_.Get(
+		j,
+		"managedInstancesProvider",
 		&returns,
 	)
 	return returns

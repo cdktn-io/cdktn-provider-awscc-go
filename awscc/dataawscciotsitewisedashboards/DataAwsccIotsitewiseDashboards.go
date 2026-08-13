@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iotsitewise_dashboards awscc_iotsitewise_dashboards}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotsitewise_dashboards awscc_iotsitewise_dashboards}.
 type DataAwsccIotsitewiseDashboards interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotsitewiseDashboards) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iotsitewise_dashboards awscc_iotsitewise_dashboards} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotsitewise_dashboards awscc_iotsitewise_dashboards} Data Source.
 func NewDataAwsccIotsitewiseDashboards(scope constructs.Construct, id *string, config *DataAwsccIotsitewiseDashboardsConfig) DataAwsccIotsitewiseDashboards {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotsitewiseDashboards(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iotsitewise_dashboards awscc_iotsitewise_dashboards} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotsitewise_dashboards awscc_iotsitewise_dashboards} Data Source.
 func NewDataAwsccIotsitewiseDashboards_Override(d DataAwsccIotsitewiseDashboards, scope constructs.Construct, id *string, config *DataAwsccIotsitewiseDashboardsConfig) {
 	_init_.Initialize()
 

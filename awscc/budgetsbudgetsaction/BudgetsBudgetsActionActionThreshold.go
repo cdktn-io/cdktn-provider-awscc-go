@@ -5,9 +5,9 @@ package budgetsbudgetsaction
 
 
 type BudgetsBudgetsActionActionThreshold struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/budgets_budgets_action#type BudgetsBudgetsAction#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/budgets_budgets_action#type BudgetsBudgetsAction#type}.
 	Type *string `field:"required" json:"type" yaml:"type"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/budgets_budgets_action#value BudgetsBudgetsAction#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/budgets_budgets_action#value BudgetsBudgetsAction#value}.
 	Value *float64 `field:"required" json:"value" yaml:"value"`
 }
 

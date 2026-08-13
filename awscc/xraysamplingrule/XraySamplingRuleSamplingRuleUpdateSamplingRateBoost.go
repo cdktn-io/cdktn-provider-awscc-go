@@ -9,13 +9,13 @@ type XraySamplingRuleSamplingRuleUpdateSamplingRateBoost struct {
 	//
 	// After a boost occurs, no further boosts are allowed until the next window.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/xray_sampling_rule#cooldown_window_minutes XraySamplingRule#cooldown_window_minutes}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/xray_sampling_rule#cooldown_window_minutes XraySamplingRule#cooldown_window_minutes}
 	CooldownWindowMinutes *float64 `field:"optional" json:"cooldownWindowMinutes" yaml:"cooldownWindowMinutes"`
 	// The maximum sampling rate X-Ray will apply when it detects anomalies.
 	//
 	// X-Ray determines the appropriate rate between your baseline and the maximum, depending on anomaly activity.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/xray_sampling_rule#max_rate XraySamplingRule#max_rate}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/xray_sampling_rule#max_rate XraySamplingRule#max_rate}
 	MaxRate *float64 `field:"optional" json:"maxRate" yaml:"maxRate"`
 }
 

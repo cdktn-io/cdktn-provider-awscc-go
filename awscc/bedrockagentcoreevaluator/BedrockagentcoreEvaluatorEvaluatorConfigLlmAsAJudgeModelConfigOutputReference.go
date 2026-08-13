@@ -34,6 +34,8 @@ type BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigOutputReferen
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	ResponsesEvaluatorModelConfig() BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigResponsesEvaluatorModelConfigOutputReference
+	ResponsesEvaluatorModelConfigInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,7 +69,9 @@ type BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigOutputReferen
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutBedrockEvaluatorModelConfig(value *BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigBedrockEvaluatorModelConfig)
+	PutResponsesEvaluatorModelConfig(value *BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigResponsesEvaluatorModelConfig)
 	ResetBedrockEvaluatorModelConfig()
+	ResetResponsesEvaluatorModelConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -148,6 +152,26 @@ func (j *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfi
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigOutputReference) ResponsesEvaluatorModelConfig() BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigResponsesEvaluatorModelConfigOutputReference {
+	var returns BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigResponsesEvaluatorModelConfigOutputReference
+	_jsii_.Get(
+		j,
+		"responsesEvaluatorModelConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigOutputReference) ResponsesEvaluatorModelConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"responsesEvaluatorModelConfigInput",
 		&returns,
 	)
 	return returns
@@ -453,10 +477,29 @@ func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfi
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigOutputReference) PutResponsesEvaluatorModelConfig(value *BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigResponsesEvaluatorModelConfig) {
+	if err := b.validatePutResponsesEvaluatorModelConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putResponsesEvaluatorModelConfig",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigOutputReference) ResetBedrockEvaluatorModelConfig() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetBedrockEvaluatorModelConfig",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigOutputReference) ResetResponsesEvaluatorModelConfig() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetResponsesEvaluatorModelConfig",
 		nil, // no parameters
 	)
 }

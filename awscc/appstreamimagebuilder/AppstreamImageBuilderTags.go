@@ -5,9 +5,9 @@ package appstreamimagebuilder
 
 
 type AppstreamImageBuilderTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_image_builder#key AppstreamImageBuilder#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_image_builder#key AppstreamImageBuilder#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appstream_image_builder#value AppstreamImageBuilder#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_image_builder#value AppstreamImageBuilder#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53_cidr_collection awscc_route53_cidr_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53_cidr_collection awscc_route53_cidr_collection}.
 type Route53CidrCollection interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -424,7 +424,7 @@ func (j *jsiiProxy_Route53CidrCollection) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53_cidr_collection awscc_route53_cidr_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53_cidr_collection awscc_route53_cidr_collection} Resource.
 func NewRoute53CidrCollection(scope constructs.Construct, id *string, config *Route53CidrCollectionConfig) Route53CidrCollection {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewRoute53CidrCollection(scope constructs.Construct, id *string, config *Ro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53_cidr_collection awscc_route53_cidr_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53_cidr_collection awscc_route53_cidr_collection} Resource.
 func NewRoute53CidrCollection_Override(r Route53CidrCollection, scope constructs.Construct, id *string, config *Route53CidrCollectionConfig) {
 	_init_.Initialize()
 

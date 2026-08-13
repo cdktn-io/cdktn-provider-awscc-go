@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_schema awscc_personalize_schema}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_schema awscc_personalize_schema}.
 type PersonalizeSchema interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -436,7 +436,7 @@ func (j *jsiiProxy_PersonalizeSchema) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_schema awscc_personalize_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_schema awscc_personalize_schema} Resource.
 func NewPersonalizeSchema(scope constructs.Construct, id *string, config *PersonalizeSchemaConfig) PersonalizeSchema {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewPersonalizeSchema(scope constructs.Construct, id *string, config *Person
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_schema awscc_personalize_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_schema awscc_personalize_schema} Resource.
 func NewPersonalizeSchema_Override(p PersonalizeSchema, scope constructs.Construct, id *string, config *PersonalizeSchemaConfig) {
 	_init_.Initialize()
 

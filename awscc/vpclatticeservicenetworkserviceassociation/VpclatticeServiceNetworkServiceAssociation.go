@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_service_network_service_association awscc_vpclattice_service_network_service_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_service_network_service_association awscc_vpclattice_service_network_service_association}.
 type VpclatticeServiceNetworkServiceAssociation interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -561,7 +561,7 @@ func (j *jsiiProxy_VpclatticeServiceNetworkServiceAssociation) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_service_network_service_association awscc_vpclattice_service_network_service_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_service_network_service_association awscc_vpclattice_service_network_service_association} Resource.
 func NewVpclatticeServiceNetworkServiceAssociation(scope constructs.Construct, id *string, config *VpclatticeServiceNetworkServiceAssociationConfig) VpclatticeServiceNetworkServiceAssociation {
 	_init_.Initialize()
 
@@ -579,7 +579,7 @@ func NewVpclatticeServiceNetworkServiceAssociation(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/vpclattice_service_network_service_association awscc_vpclattice_service_network_service_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_service_network_service_association awscc_vpclattice_service_network_service_association} Resource.
 func NewVpclatticeServiceNetworkServiceAssociation_Override(v VpclatticeServiceNetworkServiceAssociation, scope constructs.Construct, id *string, config *VpclatticeServiceNetworkServiceAssociationConfig) {
 	_init_.Initialize()
 

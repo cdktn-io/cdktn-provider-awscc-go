@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_capacity_manager_data_export awscc_ec2_capacity_manager_data_export}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_capacity_manager_data_export awscc_ec2_capacity_manager_data_export}.
 type Ec2CapacityManagerDataExport interface {
 	cdktn.TerraformResource
 	CapacityManagerDataExportId() *string
@@ -483,7 +483,7 @@ func (j *jsiiProxy_Ec2CapacityManagerDataExport) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_capacity_manager_data_export awscc_ec2_capacity_manager_data_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_capacity_manager_data_export awscc_ec2_capacity_manager_data_export} Resource.
 func NewEc2CapacityManagerDataExport(scope constructs.Construct, id *string, config *Ec2CapacityManagerDataExportConfig) Ec2CapacityManagerDataExport {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewEc2CapacityManagerDataExport(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_capacity_manager_data_export awscc_ec2_capacity_manager_data_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_capacity_manager_data_export awscc_ec2_capacity_manager_data_export} Resource.
 func NewEc2CapacityManagerDataExport_Override(e Ec2CapacityManagerDataExport, scope constructs.Construct, id *string, config *Ec2CapacityManagerDataExportConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_vpc_endpoint_connection_notification awscc_ec2_vpc_endpoint_connection_notification}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpc_endpoint_connection_notification awscc_ec2_vpc_endpoint_connection_notification}.
 type Ec2VpcEndpointConnectionNotification interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -460,7 +460,7 @@ func (j *jsiiProxy_Ec2VpcEndpointConnectionNotification) VpcEndpointIdInput() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_vpc_endpoint_connection_notification awscc_ec2_vpc_endpoint_connection_notification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpc_endpoint_connection_notification awscc_ec2_vpc_endpoint_connection_notification} Resource.
 func NewEc2VpcEndpointConnectionNotification(scope constructs.Construct, id *string, config *Ec2VpcEndpointConnectionNotificationConfig) Ec2VpcEndpointConnectionNotification {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewEc2VpcEndpointConnectionNotification(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_vpc_endpoint_connection_notification awscc_ec2_vpc_endpoint_connection_notification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpc_endpoint_connection_notification awscc_ec2_vpc_endpoint_connection_notification} Resource.
 func NewEc2VpcEndpointConnectionNotification_Override(e Ec2VpcEndpointConnectionNotification, scope constructs.Construct, id *string, config *Ec2VpcEndpointConnectionNotificationConfig) {
 	_init_.Initialize()
 

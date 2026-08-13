@@ -24,15 +24,15 @@ type LightsailDatabaseSnapshotConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the database on which to base your new snapshot.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database_snapshot#relational_database_name LightsailDatabaseSnapshot#relational_database_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database_snapshot#relational_database_name LightsailDatabaseSnapshot#relational_database_name}
 	RelationalDatabaseName *string `field:"required" json:"relationalDatabaseName" yaml:"relationalDatabaseName"`
 	// The name for your new database snapshot.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database_snapshot#relational_database_snapshot_name LightsailDatabaseSnapshot#relational_database_snapshot_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database_snapshot#relational_database_snapshot_name LightsailDatabaseSnapshot#relational_database_snapshot_name}
 	RelationalDatabaseSnapshotName *string `field:"required" json:"relationalDatabaseSnapshotName" yaml:"relationalDatabaseSnapshotName"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lightsail_database_snapshot#tags LightsailDatabaseSnapshot#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_database_snapshot#tags LightsailDatabaseSnapshot#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

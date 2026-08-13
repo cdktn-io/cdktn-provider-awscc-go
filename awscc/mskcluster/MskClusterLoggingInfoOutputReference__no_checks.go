@@ -47,6 +47,10 @@ func (m *jsiiProxy_MskClusterLoggingInfoOutputReference) validateInterpolationFo
 	return nil
 }
 
+func (m *jsiiProxy_MskClusterLoggingInfoOutputReference) validatePutAuthorizerLogsParameters(value *MskClusterLoggingInfoAuthorizerLogs) error {
+	return nil
+}
+
 func (m *jsiiProxy_MskClusterLoggingInfoOutputReference) validatePutBrokerLogsParameters(value *MskClusterLoggingInfoBrokerLogs) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_portfolio_principal_association awscc_servicecatalog_portfolio_principal_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_portfolio_principal_association awscc_servicecatalog_portfolio_principal_association}.
 type ServicecatalogPortfolioPrincipalAssociation interface {
 	cdktn.TerraformResource
 	AcceptLanguage() *string
@@ -450,7 +450,7 @@ func (j *jsiiProxy_ServicecatalogPortfolioPrincipalAssociation) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_portfolio_principal_association awscc_servicecatalog_portfolio_principal_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_portfolio_principal_association awscc_servicecatalog_portfolio_principal_association} Resource.
 func NewServicecatalogPortfolioPrincipalAssociation(scope constructs.Construct, id *string, config *ServicecatalogPortfolioPrincipalAssociationConfig) ServicecatalogPortfolioPrincipalAssociation {
 	_init_.Initialize()
 
@@ -468,7 +468,7 @@ func NewServicecatalogPortfolioPrincipalAssociation(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_portfolio_principal_association awscc_servicecatalog_portfolio_principal_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_portfolio_principal_association awscc_servicecatalog_portfolio_principal_association} Resource.
 func NewServicecatalogPortfolioPrincipalAssociation_Override(s ServicecatalogPortfolioPrincipalAssociation, scope constructs.Construct, id *string, config *ServicecatalogPortfolioPrincipalAssociationConfig) {
 	_init_.Initialize()
 

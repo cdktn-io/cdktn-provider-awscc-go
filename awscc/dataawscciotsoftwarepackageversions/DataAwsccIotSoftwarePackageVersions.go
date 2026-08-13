@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iot_software_package_versions awscc_iot_software_package_versions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iot_software_package_versions awscc_iot_software_package_versions}.
 type DataAwsccIotSoftwarePackageVersions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotSoftwarePackageVersions) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iot_software_package_versions awscc_iot_software_package_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iot_software_package_versions awscc_iot_software_package_versions} Data Source.
 func NewDataAwsccIotSoftwarePackageVersions(scope constructs.Construct, id *string, config *DataAwsccIotSoftwarePackageVersionsConfig) DataAwsccIotSoftwarePackageVersions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotSoftwarePackageVersions(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iot_software_package_versions awscc_iot_software_package_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iot_software_package_versions awscc_iot_software_package_versions} Data Source.
 func NewDataAwsccIotSoftwarePackageVersions_Override(d DataAwsccIotSoftwarePackageVersions, scope constructs.Construct, id *string, config *DataAwsccIotSoftwarePackageVersionsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/databrew_schedules awscc_databrew_schedules}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/databrew_schedules awscc_databrew_schedules}.
 type DataAwsccDatabrewSchedules interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDatabrewSchedules) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/databrew_schedules awscc_databrew_schedules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/databrew_schedules awscc_databrew_schedules} Data Source.
 func NewDataAwsccDatabrewSchedules(scope constructs.Construct, id *string, config *DataAwsccDatabrewSchedulesConfig) DataAwsccDatabrewSchedules {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDatabrewSchedules(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/databrew_schedules awscc_databrew_schedules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/databrew_schedules awscc_databrew_schedules} Data Source.
 func NewDataAwsccDatabrewSchedules_Override(d DataAwsccDatabrewSchedules, scope constructs.Construct, id *string, config *DataAwsccDatabrewSchedulesConfig) {
 	_init_.Initialize()
 

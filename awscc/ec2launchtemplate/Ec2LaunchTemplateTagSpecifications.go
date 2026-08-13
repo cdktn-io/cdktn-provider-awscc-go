@@ -7,11 +7,11 @@ package ec2launchtemplate
 type Ec2LaunchTemplateTagSpecifications struct {
 	// The type of resource. To tag a launch template, ``ResourceType`` must be ``launch-template``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#resource_type Ec2LaunchTemplate#resource_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#resource_type Ec2LaunchTemplate#resource_type}
 	ResourceType *string `field:"optional" json:"resourceType" yaml:"resourceType"`
 	// The tags for the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#tags Ec2LaunchTemplate#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#tags Ec2LaunchTemplate#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

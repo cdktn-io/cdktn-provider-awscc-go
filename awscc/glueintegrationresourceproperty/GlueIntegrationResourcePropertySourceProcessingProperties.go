@@ -7,7 +7,7 @@ package glueintegrationresourceproperty
 type GlueIntegrationResourcePropertySourceProcessingProperties struct {
 	// The IAM role to access the Glue connection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_integration_resource_property#role_arn GlueIntegrationResourceProperty#role_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_integration_resource_property#role_arn GlueIntegrationResourceProperty#role_arn}
 	RoleArn *string `field:"optional" json:"roleArn" yaml:"roleArn"`
 }
 

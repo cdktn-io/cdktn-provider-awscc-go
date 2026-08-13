@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cloudformation_guard_hook awscc_cloudformation_guard_hook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudformation_guard_hook awscc_cloudformation_guard_hook}.
 type DataAwsccCloudformationGuardHook interface {
 	cdktn.TerraformDataSource
 	Alias() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccCloudformationGuardHook) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cloudformation_guard_hook awscc_cloudformation_guard_hook} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudformation_guard_hook awscc_cloudformation_guard_hook} Data Source.
 func NewDataAwsccCloudformationGuardHook(scope constructs.Construct, id *string, config *DataAwsccCloudformationGuardHookConfig) DataAwsccCloudformationGuardHook {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccCloudformationGuardHook(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cloudformation_guard_hook awscc_cloudformation_guard_hook} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudformation_guard_hook awscc_cloudformation_guard_hook} Data Source.
 func NewDataAwsccCloudformationGuardHook_Override(d DataAwsccCloudformationGuardHook, scope constructs.Construct, id *string, config *DataAwsccCloudformationGuardHookConfig) {
 	_init_.Initialize()
 

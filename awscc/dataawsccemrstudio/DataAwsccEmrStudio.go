@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/emr_studio awscc_emr_studio}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/emr_studio awscc_emr_studio}.
 type DataAwsccEmrStudio interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -506,7 +506,7 @@ func (j *jsiiProxy_DataAwsccEmrStudio) WorkspaceSecurityGroupId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/emr_studio awscc_emr_studio} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/emr_studio awscc_emr_studio} Data Source.
 func NewDataAwsccEmrStudio(scope constructs.Construct, id *string, config *DataAwsccEmrStudioConfig) DataAwsccEmrStudio {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewDataAwsccEmrStudio(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/emr_studio awscc_emr_studio} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/emr_studio awscc_emr_studio} Data Source.
 func NewDataAwsccEmrStudio_Override(d DataAwsccEmrStudio, scope constructs.Construct, id *string, config *DataAwsccEmrStudioConfig) {
 	_init_.Initialize()
 

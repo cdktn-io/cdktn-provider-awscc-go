@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityagent_target_domain awscc_securityagent_target_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_target_domain awscc_securityagent_target_domain}.
 type SecurityagentTargetDomain interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -491,7 +491,7 @@ func (j *jsiiProxy_SecurityagentTargetDomain) VerifiedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityagent_target_domain awscc_securityagent_target_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_target_domain awscc_securityagent_target_domain} Resource.
 func NewSecurityagentTargetDomain(scope constructs.Construct, id *string, config *SecurityagentTargetDomainConfig) SecurityagentTargetDomain {
 	_init_.Initialize()
 
@@ -509,7 +509,7 @@ func NewSecurityagentTargetDomain(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityagent_target_domain awscc_securityagent_target_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_target_domain awscc_securityagent_target_domain} Resource.
 func NewSecurityagentTargetDomain_Override(s SecurityagentTargetDomain, scope constructs.Construct, id *string, config *SecurityagentTargetDomainConfig) {
 	_init_.Initialize()
 

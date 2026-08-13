@@ -7,7 +7,7 @@ package healthlakedatatransformationprofile
 type HealthlakeDataTransformationProfileSourceStarterProfile struct {
 	// The name of the starter profile to seed the profile from.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/healthlake_data_transformation_profile#starter_profile_name HealthlakeDataTransformationProfile#starter_profile_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/healthlake_data_transformation_profile#starter_profile_name HealthlakeDataTransformationProfile#starter_profile_name}
 	StarterProfileName *string `field:"optional" json:"starterProfileName" yaml:"starterProfileName"`
 }
 

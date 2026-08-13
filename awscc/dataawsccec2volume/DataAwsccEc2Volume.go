@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_volume awscc_ec2_volume}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_volume awscc_ec2_volume}.
 type DataAwsccEc2Volume interface {
 	cdktn.TerraformDataSource
 	AutoEnableIo() cdktn.IResolvable
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataAwsccEc2Volume) VolumeType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_volume awscc_ec2_volume} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_volume awscc_ec2_volume} Data Source.
 func NewDataAwsccEc2Volume(scope constructs.Construct, id *string, config *DataAwsccEc2VolumeConfig) DataAwsccEc2Volume {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataAwsccEc2Volume(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_volume awscc_ec2_volume} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_volume awscc_ec2_volume} Data Source.
 func NewDataAwsccEc2Volume_Override(d DataAwsccEc2Volume, scope constructs.Construct, id *string, config *DataAwsccEc2VolumeConfig) {
 	_init_.Initialize()
 

@@ -13,11 +13,11 @@ type EcsTaskDefinitionContainerDefinitionsDependsOn struct {
 	//   +  ``SUCCESS`` - This condition is the same as ``COMPLETE``, but it also requires that the container exits with a ``zero`` status. This condition can't be set on an essential container.
 	//   +  ``HEALTHY`` - This condition validates that the dependent container passes its Docker health check before permitting other containers to start. This requires that the dependent container has health checks configured. This condition is confirmed only at task startup.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#condition EcsTaskDefinition#condition}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#condition EcsTaskDefinition#condition}
 	Condition *string `field:"optional" json:"condition" yaml:"condition"`
 	// The name of a container.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_task_definition#container_name EcsTaskDefinition#container_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#container_name EcsTaskDefinition#container_name}
 	ContainerName *string `field:"optional" json:"containerName" yaml:"containerName"`
 }
 

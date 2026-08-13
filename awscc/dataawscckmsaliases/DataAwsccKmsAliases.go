@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/kms_aliases awscc_kms_aliases}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/kms_aliases awscc_kms_aliases}.
 type DataAwsccKmsAliases interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccKmsAliases) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/kms_aliases awscc_kms_aliases} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/kms_aliases awscc_kms_aliases} Data Source.
 func NewDataAwsccKmsAliases(scope constructs.Construct, id *string, config *DataAwsccKmsAliasesConfig) DataAwsccKmsAliases {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccKmsAliases(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/kms_aliases awscc_kms_aliases} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/kms_aliases awscc_kms_aliases} Data Source.
 func NewDataAwsccKmsAliases_Override(d DataAwsccKmsAliases, scope constructs.Construct, id *string, config *DataAwsccKmsAliasesConfig) {
 	_init_.Initialize()
 

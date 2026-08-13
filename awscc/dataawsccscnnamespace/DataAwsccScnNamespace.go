@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/scn_namespace awscc_scn_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/scn_namespace awscc_scn_namespace}.
 type DataAwsccScnNamespace interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccScnNamespace) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/scn_namespace awscc_scn_namespace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/scn_namespace awscc_scn_namespace} Data Source.
 func NewDataAwsccScnNamespace(scope constructs.Construct, id *string, config *DataAwsccScnNamespaceConfig) DataAwsccScnNamespace {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccScnNamespace(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/scn_namespace awscc_scn_namespace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/scn_namespace awscc_scn_namespace} Data Source.
 func NewDataAwsccScnNamespace_Override(d DataAwsccScnNamespace, scope constructs.Construct, id *string, config *DataAwsccScnNamespaceConfig) {
 	_init_.Initialize()
 

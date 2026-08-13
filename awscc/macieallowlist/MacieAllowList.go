@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/macie_allow_list awscc_macie_allow_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_allow_list awscc_macie_allow_list}.
 type MacieAllowList interface {
 	cdktn.TerraformResource
 	AllowListId() *string
@@ -482,7 +482,7 @@ func (j *jsiiProxy_MacieAllowList) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/macie_allow_list awscc_macie_allow_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_allow_list awscc_macie_allow_list} Resource.
 func NewMacieAllowList(scope constructs.Construct, id *string, config *MacieAllowListConfig) MacieAllowList {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewMacieAllowList(scope constructs.Construct, id *string, config *MacieAllo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/macie_allow_list awscc_macie_allow_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/macie_allow_list awscc_macie_allow_list} Resource.
 func NewMacieAllowList_Override(m MacieAllowList, scope constructs.Construct, id *string, config *MacieAllowListConfig) {
 	_init_.Initialize()
 

@@ -83,6 +83,10 @@ func (t *jsiiProxy_TimestreamInfluxDbCluster) validatePutLogDeliveryConfiguratio
 	return nil
 }
 
+func (t *jsiiProxy_TimestreamInfluxDbCluster) validatePutMaintenanceScheduleParameters(value *TimestreamInfluxDbClusterMaintenanceSchedule) error {
+	return nil
+}
+
 func (t *jsiiProxy_TimestreamInfluxDbCluster) validatePutTagsParameters(value interface{}) error {
 	return nil
 }

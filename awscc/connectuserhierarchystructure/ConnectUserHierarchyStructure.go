@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user_hierarchy_structure awscc_connect_user_hierarchy_structure}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user_hierarchy_structure awscc_connect_user_hierarchy_structure}.
 type ConnectUserHierarchyStructure interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_ConnectUserHierarchyStructure) UserHierarchyStructureInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user_hierarchy_structure awscc_connect_user_hierarchy_structure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user_hierarchy_structure awscc_connect_user_hierarchy_structure} Resource.
 func NewConnectUserHierarchyStructure(scope constructs.Construct, id *string, config *ConnectUserHierarchyStructureConfig) ConnectUserHierarchyStructure {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewConnectUserHierarchyStructure(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_user_hierarchy_structure awscc_connect_user_hierarchy_structure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_user_hierarchy_structure awscc_connect_user_hierarchy_structure} Resource.
 func NewConnectUserHierarchyStructure_Override(c ConnectUserHierarchyStructure, scope constructs.Construct, id *string, config *ConnectUserHierarchyStructureConfig) {
 	_init_.Initialize()
 

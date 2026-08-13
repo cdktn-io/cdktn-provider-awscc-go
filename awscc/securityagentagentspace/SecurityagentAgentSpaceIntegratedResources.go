@@ -7,11 +7,11 @@ package securityagentagentspace
 type SecurityagentAgentSpaceIntegratedResources struct {
 	// Unique identifier of the Provider Integration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityagent_agent_space#integration SecurityagentAgentSpace#integration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#integration SecurityagentAgentSpace#integration}
 	Integration *string `field:"optional" json:"integration" yaml:"integration"`
 	// List of selected Resources from the Integration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityagent_agent_space#provider_resources SecurityagentAgentSpace#provider_resources}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space#provider_resources SecurityagentAgentSpace#provider_resources}
 	ProviderResources interface{} `field:"optional" json:"providerResources" yaml:"providerResources"`
 }
 

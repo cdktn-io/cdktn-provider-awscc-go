@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/sagemaker_domain awscc_sagemaker_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_domain awscc_sagemaker_domain}.
 type DataAwsccSagemakerDomain interface {
 	cdktn.TerraformDataSource
 	AppNetworkAccessType() *string
@@ -506,7 +506,7 @@ func (j *jsiiProxy_DataAwsccSagemakerDomain) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/sagemaker_domain awscc_sagemaker_domain} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_domain awscc_sagemaker_domain} Data Source.
 func NewDataAwsccSagemakerDomain(scope constructs.Construct, id *string, config *DataAwsccSagemakerDomainConfig) DataAwsccSagemakerDomain {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewDataAwsccSagemakerDomain(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/sagemaker_domain awscc_sagemaker_domain} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_domain awscc_sagemaker_domain} Data Source.
 func NewDataAwsccSagemakerDomain_Override(d DataAwsccSagemakerDomain, scope constructs.Construct, id *string, config *DataAwsccSagemakerDomainConfig) {
 	_init_.Initialize()
 

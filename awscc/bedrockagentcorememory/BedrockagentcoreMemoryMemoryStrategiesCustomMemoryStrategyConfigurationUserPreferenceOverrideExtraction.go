@@ -7,9 +7,9 @@ package bedrockagentcorememory
 type BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationUserPreferenceOverrideExtraction struct {
 	// Text prompt for model instructions.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_memory#append_to_prompt BedrockagentcoreMemory#append_to_prompt}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_memory#append_to_prompt BedrockagentcoreMemory#append_to_prompt}
 	AppendToPrompt *string `field:"optional" json:"appendToPrompt" yaml:"appendToPrompt"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_memory#model_id BedrockagentcoreMemory#model_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_memory#model_id BedrockagentcoreMemory#model_id}.
 	ModelId *string `field:"optional" json:"modelId" yaml:"modelId"`
 }
 

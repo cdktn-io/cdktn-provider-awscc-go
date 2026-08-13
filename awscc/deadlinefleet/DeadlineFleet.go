@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/deadline_fleet awscc_deadline_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/deadline_fleet awscc_deadline_fleet}.
 type DeadlineFleet interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -632,7 +632,7 @@ func (j *jsiiProxy_DeadlineFleet) WorkerCount() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/deadline_fleet awscc_deadline_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/deadline_fleet awscc_deadline_fleet} Resource.
 func NewDeadlineFleet(scope constructs.Construct, id *string, config *DeadlineFleetConfig) DeadlineFleet {
 	_init_.Initialize()
 
@@ -650,7 +650,7 @@ func NewDeadlineFleet(scope constructs.Construct, id *string, config *DeadlineFl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/deadline_fleet awscc_deadline_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/deadline_fleet awscc_deadline_fleet} Resource.
 func NewDeadlineFleet_Override(d DeadlineFleet, scope constructs.Construct, id *string, config *DeadlineFleetConfig) {
 	_init_.Initialize()
 

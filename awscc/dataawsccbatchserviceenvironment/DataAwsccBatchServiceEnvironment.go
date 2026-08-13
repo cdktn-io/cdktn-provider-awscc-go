@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/batch_service_environment awscc_batch_service_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/batch_service_environment awscc_batch_service_environment}.
 type DataAwsccBatchServiceEnvironment interface {
 	cdktn.TerraformDataSource
 	CapacityLimits() DataAwsccBatchServiceEnvironmentCapacityLimitsList
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccBatchServiceEnvironment) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/batch_service_environment awscc_batch_service_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/batch_service_environment awscc_batch_service_environment} Data Source.
 func NewDataAwsccBatchServiceEnvironment(scope constructs.Construct, id *string, config *DataAwsccBatchServiceEnvironmentConfig) DataAwsccBatchServiceEnvironment {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccBatchServiceEnvironment(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/batch_service_environment awscc_batch_service_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/batch_service_environment awscc_batch_service_environment} Data Source.
 func NewDataAwsccBatchServiceEnvironment_Override(d DataAwsccBatchServiceEnvironment, scope constructs.Construct, id *string, config *DataAwsccBatchServiceEnvironmentConfig) {
 	_init_.Initialize()
 

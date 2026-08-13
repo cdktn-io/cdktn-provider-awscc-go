@@ -5,7 +5,7 @@ package appintegrationsapplication
 
 
 type AppintegrationsApplicationApplicationConfigContactHandling struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appintegrations_application#scope AppintegrationsApplication#scope}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appintegrations_application#scope AppintegrationsApplication#scope}.
 	Scope *string `field:"optional" json:"scope" yaml:"scope"`
 }
 

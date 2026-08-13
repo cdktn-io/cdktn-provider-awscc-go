@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iot_command awscc_iot_command}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iot_command awscc_iot_command}.
 type DataAwsccIotCommand interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccIotCommand) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iot_command awscc_iot_command} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iot_command awscc_iot_command} Data Source.
 func NewDataAwsccIotCommand(scope constructs.Construct, id *string, config *DataAwsccIotCommandConfig) DataAwsccIotCommand {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccIotCommand(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iot_command awscc_iot_command} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iot_command awscc_iot_command} Data Source.
 func NewDataAwsccIotCommand_Override(d DataAwsccIotCommand, scope constructs.Construct, id *string, config *DataAwsccIotCommandConfig) {
 	_init_.Initialize()
 

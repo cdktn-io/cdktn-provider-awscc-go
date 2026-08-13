@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_capacity_reservations awscc_ec2_capacity_reservations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_capacity_reservations awscc_ec2_capacity_reservations}.
 type DataAwsccEc2CapacityReservations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2CapacityReservations) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_capacity_reservations awscc_ec2_capacity_reservations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_capacity_reservations awscc_ec2_capacity_reservations} Data Source.
 func NewDataAwsccEc2CapacityReservations(scope constructs.Construct, id *string, config *DataAwsccEc2CapacityReservationsConfig) DataAwsccEc2CapacityReservations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2CapacityReservations(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_capacity_reservations awscc_ec2_capacity_reservations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_capacity_reservations awscc_ec2_capacity_reservations} Data Source.
 func NewDataAwsccEc2CapacityReservations_Override(d DataAwsccEc2CapacityReservations, scope constructs.Construct, id *string, config *DataAwsccEc2CapacityReservationsConfig) {
 	_init_.Initialize()
 

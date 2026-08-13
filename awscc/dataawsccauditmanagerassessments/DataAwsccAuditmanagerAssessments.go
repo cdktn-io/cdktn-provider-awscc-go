@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/auditmanager_assessments awscc_auditmanager_assessments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/auditmanager_assessments awscc_auditmanager_assessments}.
 type DataAwsccAuditmanagerAssessments interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccAuditmanagerAssessments) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/auditmanager_assessments awscc_auditmanager_assessments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/auditmanager_assessments awscc_auditmanager_assessments} Data Source.
 func NewDataAwsccAuditmanagerAssessments(scope constructs.Construct, id *string, config *DataAwsccAuditmanagerAssessmentsConfig) DataAwsccAuditmanagerAssessments {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccAuditmanagerAssessments(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/auditmanager_assessments awscc_auditmanager_assessments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/auditmanager_assessments awscc_auditmanager_assessments} Data Source.
 func NewDataAwsccAuditmanagerAssessments_Override(d DataAwsccAuditmanagerAssessments, scope constructs.Construct, id *string, config *DataAwsccAuditmanagerAssessmentsConfig) {
 	_init_.Initialize()
 

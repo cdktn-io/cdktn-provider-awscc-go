@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/quicksight_custom_permissions_plural awscc_quicksight_custom_permissions_plural}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/quicksight_custom_permissions_plural awscc_quicksight_custom_permissions_plural}.
 type DataAwsccQuicksightCustomPermissionsPlural interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsPlural) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/quicksight_custom_permissions_plural awscc_quicksight_custom_permissions_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/quicksight_custom_permissions_plural awscc_quicksight_custom_permissions_plural} Data Source.
 func NewDataAwsccQuicksightCustomPermissionsPlural(scope constructs.Construct, id *string, config *DataAwsccQuicksightCustomPermissionsPluralConfig) DataAwsccQuicksightCustomPermissionsPlural {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccQuicksightCustomPermissionsPlural(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/quicksight_custom_permissions_plural awscc_quicksight_custom_permissions_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/quicksight_custom_permissions_plural awscc_quicksight_custom_permissions_plural} Data Source.
 func NewDataAwsccQuicksightCustomPermissionsPlural_Override(d DataAwsccQuicksightCustomPermissionsPlural, scope constructs.Construct, id *string, config *DataAwsccQuicksightCustomPermissionsPluralConfig) {
 	_init_.Initialize()
 

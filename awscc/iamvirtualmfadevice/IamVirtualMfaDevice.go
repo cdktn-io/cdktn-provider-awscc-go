@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_virtual_mfa_device awscc_iam_virtual_mfa_device}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_virtual_mfa_device awscc_iam_virtual_mfa_device}.
 type IamVirtualMfaDevice interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_IamVirtualMfaDevice) VirtualMfaDeviceNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_virtual_mfa_device awscc_iam_virtual_mfa_device} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_virtual_mfa_device awscc_iam_virtual_mfa_device} Resource.
 func NewIamVirtualMfaDevice(scope constructs.Construct, id *string, config *IamVirtualMfaDeviceConfig) IamVirtualMfaDevice {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewIamVirtualMfaDevice(scope constructs.Construct, id *string, config *IamV
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_virtual_mfa_device awscc_iam_virtual_mfa_device} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_virtual_mfa_device awscc_iam_virtual_mfa_device} Resource.
 func NewIamVirtualMfaDevice_Override(i IamVirtualMfaDevice, scope constructs.Construct, id *string, config *IamVirtualMfaDeviceConfig) {
 	_init_.Initialize()
 

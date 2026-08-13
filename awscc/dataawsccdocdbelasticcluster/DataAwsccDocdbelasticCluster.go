@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/docdbelastic_cluster awscc_docdbelastic_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/docdbelastic_cluster awscc_docdbelastic_cluster}.
 type DataAwsccDocdbelasticCluster interface {
 	cdktn.TerraformDataSource
 	AdminUserName() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataAwsccDocdbelasticCluster) VpcSecurityGroupIds() *[]*strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/docdbelastic_cluster awscc_docdbelastic_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/docdbelastic_cluster awscc_docdbelastic_cluster} Data Source.
 func NewDataAwsccDocdbelasticCluster(scope constructs.Construct, id *string, config *DataAwsccDocdbelasticClusterConfig) DataAwsccDocdbelasticCluster {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataAwsccDocdbelasticCluster(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/docdbelastic_cluster awscc_docdbelastic_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/docdbelastic_cluster awscc_docdbelastic_cluster} Data Source.
 func NewDataAwsccDocdbelasticCluster_Override(d DataAwsccDocdbelasticCluster, scope constructs.Construct, id *string, config *DataAwsccDocdbelasticClusterConfig) {
 	_init_.Initialize()
 

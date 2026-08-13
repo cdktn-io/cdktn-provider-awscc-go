@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/customerprofiles_event_stream awscc_customerprofiles_event_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/customerprofiles_event_stream awscc_customerprofiles_event_stream}.
 type DataAwsccCustomerprofilesEventStream interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccCustomerprofilesEventStream) Uri() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/customerprofiles_event_stream awscc_customerprofiles_event_stream} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/customerprofiles_event_stream awscc_customerprofiles_event_stream} Data Source.
 func NewDataAwsccCustomerprofilesEventStream(scope constructs.Construct, id *string, config *DataAwsccCustomerprofilesEventStreamConfig) DataAwsccCustomerprofilesEventStream {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccCustomerprofilesEventStream(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/customerprofiles_event_stream awscc_customerprofiles_event_stream} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/customerprofiles_event_stream awscc_customerprofiles_event_stream} Data Source.
 func NewDataAwsccCustomerprofilesEventStream_Override(d DataAwsccCustomerprofilesEventStream, scope constructs.Construct, id *string, config *DataAwsccCustomerprofilesEventStreamConfig) {
 	_init_.Initialize()
 

@@ -1,3 +1,3 @@
 # `data_awscc_ssm_associations`
 
-Refer to the Terraform Registry for docs: [`data_awscc_ssm_associations`](https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ssm_associations).
+Refer to the Terraform Registry for docs: [`data_awscc_ssm_associations`](https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ssm_associations).

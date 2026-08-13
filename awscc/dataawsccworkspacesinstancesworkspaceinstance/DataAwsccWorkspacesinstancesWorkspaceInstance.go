@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/workspacesinstances_workspace_instance awscc_workspacesinstances_workspace_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/workspacesinstances_workspace_instance awscc_workspacesinstances_workspace_instance}.
 type DataAwsccWorkspacesinstancesWorkspaceInstance interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccWorkspacesinstancesWorkspaceInstance) WorkspaceInsta
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/workspacesinstances_workspace_instance awscc_workspacesinstances_workspace_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/workspacesinstances_workspace_instance awscc_workspacesinstances_workspace_instance} Data Source.
 func NewDataAwsccWorkspacesinstancesWorkspaceInstance(scope constructs.Construct, id *string, config *DataAwsccWorkspacesinstancesWorkspaceInstanceConfig) DataAwsccWorkspacesinstancesWorkspaceInstance {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccWorkspacesinstancesWorkspaceInstance(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/workspacesinstances_workspace_instance awscc_workspacesinstances_workspace_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/workspacesinstances_workspace_instance awscc_workspacesinstances_workspace_instance} Data Source.
 func NewDataAwsccWorkspacesinstancesWorkspaceInstance_Override(d DataAwsccWorkspacesinstancesWorkspaceInstance, scope constructs.Construct, id *string, config *DataAwsccWorkspacesinstancesWorkspaceInstanceConfig) {
 	_init_.Initialize()
 

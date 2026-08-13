@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/deadline_queue awscc_deadline_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/deadline_queue awscc_deadline_queue}.
 type DataAwsccDeadlineQueue interface {
 	cdktn.TerraformDataSource
 	AllowedStorageProfileIds() *[]*string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccDeadlineQueue) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/deadline_queue awscc_deadline_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/deadline_queue awscc_deadline_queue} Data Source.
 func NewDataAwsccDeadlineQueue(scope constructs.Construct, id *string, config *DataAwsccDeadlineQueueConfig) DataAwsccDeadlineQueue {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccDeadlineQueue(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/deadline_queue awscc_deadline_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/deadline_queue awscc_deadline_queue} Data Source.
 func NewDataAwsccDeadlineQueue_Override(d DataAwsccDeadlineQueue, scope constructs.Construct, id *string, config *DataAwsccDeadlineQueueConfig) {
 	_init_.Initialize()
 

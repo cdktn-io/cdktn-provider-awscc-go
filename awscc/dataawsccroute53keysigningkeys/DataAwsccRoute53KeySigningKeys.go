@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53_key_signing_keys awscc_route53_key_signing_keys}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53_key_signing_keys awscc_route53_key_signing_keys}.
 type DataAwsccRoute53KeySigningKeys interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRoute53KeySigningKeys) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53_key_signing_keys awscc_route53_key_signing_keys} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53_key_signing_keys awscc_route53_key_signing_keys} Data Source.
 func NewDataAwsccRoute53KeySigningKeys(scope constructs.Construct, id *string, config *DataAwsccRoute53KeySigningKeysConfig) DataAwsccRoute53KeySigningKeys {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRoute53KeySigningKeys(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53_key_signing_keys awscc_route53_key_signing_keys} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53_key_signing_keys awscc_route53_key_signing_keys} Data Source.
 func NewDataAwsccRoute53KeySigningKeys_Override(d DataAwsccRoute53KeySigningKeys, scope constructs.Construct, id *string, config *DataAwsccRoute53KeySigningKeysConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/invoicing_invoice_units awscc_invoicing_invoice_units}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/invoicing_invoice_units awscc_invoicing_invoice_units}.
 type DataAwsccInvoicingInvoiceUnits interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccInvoicingInvoiceUnits) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/invoicing_invoice_units awscc_invoicing_invoice_units} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/invoicing_invoice_units awscc_invoicing_invoice_units} Data Source.
 func NewDataAwsccInvoicingInvoiceUnits(scope constructs.Construct, id *string, config *DataAwsccInvoicingInvoiceUnitsConfig) DataAwsccInvoicingInvoiceUnits {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccInvoicingInvoiceUnits(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/invoicing_invoice_units awscc_invoicing_invoice_units} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/invoicing_invoice_units awscc_invoicing_invoice_units} Data Source.
 func NewDataAwsccInvoicingInvoiceUnits_Override(d DataAwsccInvoicingInvoiceUnits, scope constructs.Construct, id *string, config *DataAwsccInvoicingInvoiceUnitsConfig) {
 	_init_.Initialize()
 

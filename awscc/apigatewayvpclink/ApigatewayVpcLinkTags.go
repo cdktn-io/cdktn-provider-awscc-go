@@ -9,11 +9,11 @@ type ApigatewayVpcLinkTags struct {
 	//
 	// The combination of tag keys and values can help you organize and categorize your resources.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_vpc_link#key ApigatewayVpcLink#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_vpc_link#key ApigatewayVpcLink#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value for the specified tag key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/apigateway_vpc_link#value ApigatewayVpcLink#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_vpc_link#value ApigatewayVpcLink#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

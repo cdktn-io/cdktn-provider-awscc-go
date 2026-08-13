@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_data_table awscc_connect_data_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_data_table awscc_connect_data_table}.
 type ConnectDataTable interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -573,7 +573,7 @@ func (j *jsiiProxy_ConnectDataTable) ValueLockLevelInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_data_table awscc_connect_data_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_data_table awscc_connect_data_table} Resource.
 func NewConnectDataTable(scope constructs.Construct, id *string, config *ConnectDataTableConfig) ConnectDataTable {
 	_init_.Initialize()
 
@@ -591,7 +591,7 @@ func NewConnectDataTable(scope constructs.Construct, id *string, config *Connect
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_data_table awscc_connect_data_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_data_table awscc_connect_data_table} Resource.
 func NewConnectDataTable_Override(c ConnectDataTable, scope constructs.Construct, id *string, config *ConnectDataTableConfig) {
 	_init_.Initialize()
 

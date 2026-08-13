@@ -13,6 +13,7 @@ import (
 
 type DataAwsccEksCapabilityConfigurationOutputReference interface {
 	cdktn.ComplexObject
+	Ack() *string
 	ArgoCd() DataAwsccEksCapabilityConfigurationArgoCdOutputReference
 	// the index of the complex object in a list.
 	// Experimental.
@@ -78,6 +79,16 @@ type DataAwsccEksCapabilityConfigurationOutputReference interface {
 // The jsii proxy struct for DataAwsccEksCapabilityConfigurationOutputReference
 type jsiiProxy_DataAwsccEksCapabilityConfigurationOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataAwsccEksCapabilityConfigurationOutputReference) Ack() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ack",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAwsccEksCapabilityConfigurationOutputReference) ArgoCd() DataAwsccEksCapabilityConfigurationArgoCdOutputReference {

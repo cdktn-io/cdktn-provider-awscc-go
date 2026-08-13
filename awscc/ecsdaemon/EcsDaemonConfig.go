@@ -24,35 +24,35 @@ type EcsDaemonConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The Amazon Resource Names (ARNs) of the capacity providers associated with the daemon.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_daemon#capacity_provider_arns EcsDaemon#capacity_provider_arns}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_daemon#capacity_provider_arns EcsDaemon#capacity_provider_arns}
 	CapacityProviderArns *[]*string `field:"optional" json:"capacityProviderArns" yaml:"capacityProviderArns"`
 	// The Amazon Resource Name (ARN) of the cluster that the daemon is running in.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_daemon#cluster_arn EcsDaemon#cluster_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_daemon#cluster_arn EcsDaemon#cluster_arn}
 	ClusterArn *string `field:"optional" json:"clusterArn" yaml:"clusterArn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_daemon#daemon_name EcsDaemon#daemon_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_daemon#daemon_name EcsDaemon#daemon_name}.
 	DaemonName *string `field:"optional" json:"daemonName" yaml:"daemonName"`
 	// The Amazon Resource Name (ARN) of the daemon task definition used by this revision.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_daemon#daemon_task_definition_arn EcsDaemon#daemon_task_definition_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_daemon#daemon_task_definition_arn EcsDaemon#daemon_task_definition_arn}
 	DaemonTaskDefinitionArn *string `field:"optional" json:"daemonTaskDefinitionArn" yaml:"daemonTaskDefinitionArn"`
 	// The deployment configuration used for this daemon deployment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_daemon#deployment_configuration EcsDaemon#deployment_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_daemon#deployment_configuration EcsDaemon#deployment_configuration}
 	DeploymentConfiguration *EcsDaemonDeploymentConfiguration `field:"optional" json:"deploymentConfiguration" yaml:"deploymentConfiguration"`
 	// Specifies whether Amazon ECS managed tags are turned on for the daemon tasks.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_daemon#enable_ecs_managed_tags EcsDaemon#enable_ecs_managed_tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_daemon#enable_ecs_managed_tags EcsDaemon#enable_ecs_managed_tags}
 	EnableEcsManagedTags interface{} `field:"optional" json:"enableEcsManagedTags" yaml:"enableEcsManagedTags"`
 	// Specifies whether the execute command functionality is turned on for the daemon tasks.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_daemon#enable_execute_command EcsDaemon#enable_execute_command}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_daemon#enable_execute_command EcsDaemon#enable_execute_command}
 	EnableExecuteCommand interface{} `field:"optional" json:"enableExecuteCommand" yaml:"enableExecuteCommand"`
 	// Specifies whether tags are propagated from the daemon to the daemon tasks.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_daemon#propagate_tags EcsDaemon#propagate_tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_daemon#propagate_tags EcsDaemon#propagate_tags}
 	PropagateTags *string `field:"optional" json:"propagateTags" yaml:"propagateTags"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_daemon#tags EcsDaemon#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_daemon#tags EcsDaemon#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

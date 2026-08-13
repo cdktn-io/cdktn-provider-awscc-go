@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/sagemaker_app_image_config awscc_sagemaker_app_image_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_app_image_config awscc_sagemaker_app_image_config}.
 type DataAwsccSagemakerAppImageConfig interface {
 	cdktn.TerraformDataSource
 	AppImageConfigArn() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccSagemakerAppImageConfig) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/sagemaker_app_image_config awscc_sagemaker_app_image_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_app_image_config awscc_sagemaker_app_image_config} Data Source.
 func NewDataAwsccSagemakerAppImageConfig(scope constructs.Construct, id *string, config *DataAwsccSagemakerAppImageConfigConfig) DataAwsccSagemakerAppImageConfig {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccSagemakerAppImageConfig(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/sagemaker_app_image_config awscc_sagemaker_app_image_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_app_image_config awscc_sagemaker_app_image_config} Data Source.
 func NewDataAwsccSagemakerAppImageConfig_Override(d DataAwsccSagemakerAppImageConfig, scope constructs.Construct, id *string, config *DataAwsccSagemakerAppImageConfigConfig) {
 	_init_.Initialize()
 

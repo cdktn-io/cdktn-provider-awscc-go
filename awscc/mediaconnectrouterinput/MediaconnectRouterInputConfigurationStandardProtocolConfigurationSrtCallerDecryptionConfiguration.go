@@ -7,7 +7,7 @@ package mediaconnectrouterinput
 type MediaconnectRouterInputConfigurationStandardProtocolConfigurationSrtCallerDecryptionConfiguration struct {
 	// The configuration settings for transit encryption using Secrets Manager, including the secret ARN and role ARN.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#encryption_key MediaconnectRouterInput#encryption_key}
 	EncryptionKey *MediaconnectRouterInputConfigurationStandardProtocolConfigurationSrtCallerDecryptionConfigurationEncryptionKey `field:"optional" json:"encryptionKey" yaml:"encryptionKey"`
 }
 

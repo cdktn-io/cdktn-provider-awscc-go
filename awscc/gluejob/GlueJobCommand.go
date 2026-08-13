@@ -7,19 +7,19 @@ package gluejob
 type GlueJobCommand struct {
 	// The name of the job command.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_job#name GlueJob#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#name GlueJob#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// The Python version being used to execute a Python shell job.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_job#python_version GlueJob#python_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#python_version GlueJob#python_version}
 	PythonVersion *string `field:"optional" json:"pythonVersion" yaml:"pythonVersion"`
 	// Runtime is used to specify the versions of Ray, Python and additional libraries available in your environment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_job#runtime GlueJob#runtime}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#runtime GlueJob#runtime}
 	Runtime *string `field:"optional" json:"runtime" yaml:"runtime"`
 	// Specifies the Amazon Simple Storage Service (Amazon S3) path to a script that executes a job.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_job#script_location GlueJob#script_location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_job#script_location GlueJob#script_location}
 	ScriptLocation *string `field:"optional" json:"scriptLocation" yaml:"scriptLocation"`
 }
 

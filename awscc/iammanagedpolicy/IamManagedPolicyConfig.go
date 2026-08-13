@@ -32,20 +32,20 @@ type IamManagedPolicyConfig struct {
 	//   +  The printable characters in the Basic Latin and Latin-1 Supplement character set (through ``\u00FF``)
 	//   +  The special characters tab (``\u0009``), line feed (``\u000A``), and carriage return (``\u000D``)
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_managed_policy#policy_document IamManagedPolicy#policy_document}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_managed_policy#policy_document IamManagedPolicy#policy_document}
 	PolicyDocument *string `field:"required" json:"policyDocument" yaml:"policyDocument"`
 	// A friendly description of the policy.
 	//
 	// Typically used to store information about the permissions defined in the policy. For example, "Grants access to production DynamoDB tables."
 	//  The policy description is immutable. After a value is assigned, it cannot be changed.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_managed_policy#description IamManagedPolicy#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_managed_policy#description IamManagedPolicy#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The name (friendly name, not ARN) of the group to attach the policy to.
 	//
 	// This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_managed_policy#groups IamManagedPolicy#groups}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_managed_policy#groups IamManagedPolicy#groups}
 	Groups *[]*string `field:"optional" json:"groups" yaml:"groups"`
 	// The friendly name of the policy.
 	//
@@ -53,7 +53,7 @@ type IamManagedPolicyConfig struct {
 	//   If you specify a name, you must specify the ``CAPABILITY_NAMED_IAM`` value to acknowledge your template's capabilities. For more information, see [Acknowledging Resources in Templates](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-iam-template.html#using-iam-capabilities).
 	//   Naming an IAM resource can cause an unrecoverable error if you reuse the same template in multiple Regions. To prevent this, we recommend using ``Fn::Join`` and ``AWS::Region`` to create a Region-specific name, as in the following example: ``{"Fn::Join": ["", [{"Ref": "AWS::Region"}, {"Ref": "MyResourceName"}]]}``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_managed_policy#managed_policy_name IamManagedPolicy#managed_policy_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_managed_policy#managed_policy_name IamManagedPolicy#managed_policy_name}
 	ManagedPolicyName *string `field:"optional" json:"managedPolicyName" yaml:"managedPolicyName"`
 	// The path for the policy.
 	//
@@ -62,20 +62,20 @@ type IamManagedPolicyConfig struct {
 	//  This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of either a forward slash (/) by itself or a string that must begin and end with forward slashes. In addition, it can contain any ASCII character from the ! (``\u0021``) through the DEL character (``\u007F``), including most punctuation characters, digits, and upper and lowercased letters.
 	//   You cannot use an asterisk (*) in the path name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_managed_policy#path IamManagedPolicy#path}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_managed_policy#path IamManagedPolicy#path}
 	Path *string `field:"optional" json:"path" yaml:"path"`
 	// The name (friendly name, not ARN) of the role to attach the policy to.
 	//
 	// This parameter allows (per its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-
 	//   If an external policy (such as ``AWS::IAM::Policy`` or ``AWS::IAM::ManagedPolicy``) has a ``Ref`` to a role and if a resource (such as ``AWS::ECS::Service``) also has a ``Ref`` to the same role, add a ``DependsOn`` attribute to the resource to make the resource depend on the external policy. This dependency ensures that the role's policy is available throughout the resource's lifecycle. For example, when you delete a stack with an ``AWS::ECS::Service`` resource, the ``DependsOn`` attribute ensures that CFN deletes the ``AWS::ECS::Service`` resource before deleting its role's policy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_managed_policy#roles IamManagedPolicy#roles}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_managed_policy#roles IamManagedPolicy#roles}
 	Roles *[]*string `field:"optional" json:"roles" yaml:"roles"`
 	// The name (friendly name, not ARN) of the IAM user to attach the policy to.
 	//
 	// This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iam_managed_policy#users IamManagedPolicy#users}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_managed_policy#users IamManagedPolicy#users}
 	Users *[]*string `field:"optional" json:"users" yaml:"users"`
 }
 

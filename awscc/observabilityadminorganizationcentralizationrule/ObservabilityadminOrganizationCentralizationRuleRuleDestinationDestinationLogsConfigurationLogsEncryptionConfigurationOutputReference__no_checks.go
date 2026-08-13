@@ -63,6 +63,10 @@ func (j *jsiiProxy_ObservabilityadminOrganizationCentralizationRuleRuleDestinati
 	return nil
 }
 
+func (j *jsiiProxy_ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationLogsEncryptionConfigurationOutputReference) validateSetEncryptionScopeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationLogsEncryptionConfigurationOutputReference) validateSetEncryptionStrategyParameters(val *string) error {
 	return nil
 }

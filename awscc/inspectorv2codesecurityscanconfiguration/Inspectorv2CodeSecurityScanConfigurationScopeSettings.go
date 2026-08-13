@@ -5,7 +5,7 @@ package inspectorv2codesecurityscanconfiguration
 
 
 type Inspectorv2CodeSecurityScanConfigurationScopeSettings struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/inspectorv2_code_security_scan_configuration#project_selection_scope Inspectorv2CodeSecurityScanConfiguration#project_selection_scope}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/inspectorv2_code_security_scan_configuration#project_selection_scope Inspectorv2CodeSecurityScanConfiguration#project_selection_scope}.
 	ProjectSelectionScope *string `field:"optional" json:"projectSelectionScope" yaml:"projectSelectionScope"`
 }
 

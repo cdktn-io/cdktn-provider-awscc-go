@@ -7,7 +7,7 @@ package devopsagentservice
 type DevopsagentServiceServiceDetailsDynatraceAuthorizationConfig struct {
 	// OAuth client credentials.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
 	OAuthClientCredentials *DevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOAuthClientCredentials `field:"optional" json:"oAuthClientCredentials" yaml:"oAuthClientCredentials"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/supportapp_account_alias awscc_supportapp_account_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/supportapp_account_alias awscc_supportapp_account_alias}.
 type SupportappAccountAlias interface {
 	cdktn.TerraformResource
 	AccountAlias() *string
@@ -389,7 +389,7 @@ func (j *jsiiProxy_SupportappAccountAlias) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/supportapp_account_alias awscc_supportapp_account_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/supportapp_account_alias awscc_supportapp_account_alias} Resource.
 func NewSupportappAccountAlias(scope constructs.Construct, id *string, config *SupportappAccountAliasConfig) SupportappAccountAlias {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewSupportappAccountAlias(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/supportapp_account_alias awscc_supportapp_account_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/supportapp_account_alias awscc_supportapp_account_alias} Resource.
 func NewSupportappAccountAlias_Override(s SupportappAccountAlias, scope constructs.Construct, id *string, config *SupportappAccountAliasConfig) {
 	_init_.Initialize()
 

@@ -55,6 +55,10 @@ func (b *jsiiProxy_BatchComputeEnvironmentComputeResourcesOutputReference) valid
 	return nil
 }
 
+func (b *jsiiProxy_BatchComputeEnvironmentComputeResourcesOutputReference) validatePutManagedInstancesProviderParameters(value *BatchComputeEnvironmentComputeResourcesManagedInstancesProvider) error {
+	return nil
+}
+
 func (b *jsiiProxy_BatchComputeEnvironmentComputeResourcesOutputReference) validatePutScalingPolicyParameters(value *BatchComputeEnvironmentComputeResourcesScalingPolicy) error {
 	return nil
 }
@@ -68,6 +72,10 @@ func (j *jsiiProxy_BatchComputeEnvironmentComputeResourcesOutputReference) valid
 }
 
 func (j *jsiiProxy_BatchComputeEnvironmentComputeResourcesOutputReference) validateSetBidPercentageParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_BatchComputeEnvironmentComputeResourcesOutputReference) validateSetCapacityTagsParameters(val *map[string]*string) error {
 	return nil
 }
 

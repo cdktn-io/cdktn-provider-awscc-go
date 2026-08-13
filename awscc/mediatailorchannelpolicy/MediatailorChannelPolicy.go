@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediatailor_channel_policy awscc_mediatailor_channel_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_channel_policy awscc_mediatailor_channel_policy}.
 type MediatailorChannelPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_MediatailorChannelPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediatailor_channel_policy awscc_mediatailor_channel_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_channel_policy awscc_mediatailor_channel_policy} Resource.
 func NewMediatailorChannelPolicy(scope constructs.Construct, id *string, config *MediatailorChannelPolicyConfig) MediatailorChannelPolicy {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewMediatailorChannelPolicy(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediatailor_channel_policy awscc_mediatailor_channel_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_channel_policy awscc_mediatailor_channel_policy} Resource.
 func NewMediatailorChannelPolicy_Override(m MediatailorChannelPolicy, scope constructs.Construct, id *string, config *MediatailorChannelPolicyConfig) {
 	_init_.Initialize()
 

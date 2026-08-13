@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/logs_scheduled_queries awscc_logs_scheduled_queries}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/logs_scheduled_queries awscc_logs_scheduled_queries}.
 type DataAwsccLogsScheduledQueries interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLogsScheduledQueries) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/logs_scheduled_queries awscc_logs_scheduled_queries} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/logs_scheduled_queries awscc_logs_scheduled_queries} Data Source.
 func NewDataAwsccLogsScheduledQueries(scope constructs.Construct, id *string, config *DataAwsccLogsScheduledQueriesConfig) DataAwsccLogsScheduledQueries {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLogsScheduledQueries(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/logs_scheduled_queries awscc_logs_scheduled_queries} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/logs_scheduled_queries awscc_logs_scheduled_queries} Data Source.
 func NewDataAwsccLogsScheduledQueries_Override(d DataAwsccLogsScheduledQueries, scope constructs.Construct, id *string, config *DataAwsccLogsScheduledQueriesConfig) {
 	_init_.Initialize()
 

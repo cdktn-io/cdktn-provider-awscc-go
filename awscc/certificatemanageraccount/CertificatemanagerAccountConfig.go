@@ -22,7 +22,7 @@ type CertificatemanagerAccountConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/certificatemanager_account#expiry_events_configuration CertificatemanagerAccount#expiry_events_configuration}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/certificatemanager_account#expiry_events_configuration CertificatemanagerAccount#expiry_events_configuration}.
 	ExpiryEventsConfiguration *CertificatemanagerAccountExpiryEventsConfiguration `field:"required" json:"expiryEventsConfiguration" yaml:"expiryEventsConfiguration"`
 }
 

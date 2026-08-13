@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/rds_option_group awscc_rds_option_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rds_option_group awscc_rds_option_group}.
 type DataAwsccRdsOptionGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccRdsOptionGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/rds_option_group awscc_rds_option_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rds_option_group awscc_rds_option_group} Data Source.
 func NewDataAwsccRdsOptionGroup(scope constructs.Construct, id *string, config *DataAwsccRdsOptionGroupConfig) DataAwsccRdsOptionGroup {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccRdsOptionGroup(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/rds_option_group awscc_rds_option_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rds_option_group awscc_rds_option_group} Data Source.
 func NewDataAwsccRdsOptionGroup_Override(d DataAwsccRdsOptionGroup, scope constructs.Construct, id *string, config *DataAwsccRdsOptionGroupConfig) {
 	_init_.Initialize()
 

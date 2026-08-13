@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotevents_detector_model awscc_iotevents_detector_model}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotevents_detector_model awscc_iotevents_detector_model}.
 type IoteventsDetectorModel interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -521,7 +521,7 @@ func (j *jsiiProxy_IoteventsDetectorModel) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotevents_detector_model awscc_iotevents_detector_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotevents_detector_model awscc_iotevents_detector_model} Resource.
 func NewIoteventsDetectorModel(scope constructs.Construct, id *string, config *IoteventsDetectorModelConfig) IoteventsDetectorModel {
 	_init_.Initialize()
 
@@ -539,7 +539,7 @@ func NewIoteventsDetectorModel(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotevents_detector_model awscc_iotevents_detector_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotevents_detector_model awscc_iotevents_detector_model} Resource.
 func NewIoteventsDetectorModel_Override(i IoteventsDetectorModel, scope constructs.Construct, id *string, config *IoteventsDetectorModelConfig) {
 	_init_.Initialize()
 

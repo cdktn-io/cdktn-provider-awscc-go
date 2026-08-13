@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/neptune_db_instances awscc_neptune_db_instances}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/neptune_db_instances awscc_neptune_db_instances}.
 type DataAwsccNeptuneDbInstances interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNeptuneDbInstances) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/neptune_db_instances awscc_neptune_db_instances} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/neptune_db_instances awscc_neptune_db_instances} Data Source.
 func NewDataAwsccNeptuneDbInstances(scope constructs.Construct, id *string, config *DataAwsccNeptuneDbInstancesConfig) DataAwsccNeptuneDbInstances {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNeptuneDbInstances(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/neptune_db_instances awscc_neptune_db_instances} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/neptune_db_instances awscc_neptune_db_instances} Data Source.
 func NewDataAwsccNeptuneDbInstances_Override(d DataAwsccNeptuneDbInstances, scope constructs.Construct, id *string, config *DataAwsccNeptuneDbInstancesConfig) {
 	_init_.Initialize()
 

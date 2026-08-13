@@ -10,11 +10,11 @@ type Ec2LaunchTemplateLaunchTemplateDataMetadataOptions struct {
 	// If the parameter is not specified, the default state is ``enabled``.
 	//   If you specify a value of ``disabled``, you will not be able to access your instance metadata.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#http_endpoint Ec2LaunchTemplate#http_endpoint}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#http_endpoint Ec2LaunchTemplate#http_endpoint}
 	HttpEndpoint *string `field:"optional" json:"httpEndpoint" yaml:"httpEndpoint"`
 	// Enables or disables the IPv6 endpoint for the instance metadata service.  Default: ``disabled``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#http_protocol_ipv_6 Ec2LaunchTemplate#http_protocol_ipv_6}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#http_protocol_ipv_6 Ec2LaunchTemplate#http_protocol_ipv_6}
 	HttpProtocolIpv6 *string `field:"optional" json:"httpProtocolIpv6" yaml:"httpProtocolIpv6"`
 	// The desired HTTP PUT response hop limit for instance metadata requests.
 	//
@@ -22,7 +22,7 @@ type Ec2LaunchTemplateLaunchTemplateDataMetadataOptions struct {
 	//  Default: ``1``
 	//  Possible values: Integers from 1 to 64
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#http_put_response_hop_limit Ec2LaunchTemplate#http_put_response_hop_limit}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#http_put_response_hop_limit Ec2LaunchTemplate#http_put_response_hop_limit}
 	HttpPutResponseHopLimit *float64 `field:"optional" json:"httpPutResponseHopLimit" yaml:"httpPutResponseHopLimit"`
 	// Indicates whether IMDSv2 is required.
 	//
@@ -31,14 +31,14 @@ type Ec2LaunchTemplateLaunchTemplateDataMetadataOptions struct {
 	//
 	//  Default: If the value of ``ImdsSupport`` for the Amazon Machine Image (AMI) for your instance is ``v2.0``, the default is ``required``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#http_tokens Ec2LaunchTemplate#http_tokens}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#http_tokens Ec2LaunchTemplate#http_tokens}
 	HttpTokens *string `field:"optional" json:"httpTokens" yaml:"httpTokens"`
 	// Set to ``enabled`` to allow access to instance tags from the instance metadata.
 	//
 	// Set to ``disabled`` to turn off access to instance tags from the instance metadata. For more information, see [Work with instance tags using the instance metadata](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Using_Tags.html#work-with-tags-in-IMDS).
 	//  Default: ``disabled``
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_launch_template#instance_metadata_tags Ec2LaunchTemplate#instance_metadata_tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#instance_metadata_tags Ec2LaunchTemplate#instance_metadata_tags}
 	InstanceMetadataTags *string `field:"optional" json:"instanceMetadataTags" yaml:"instanceMetadataTags"`
 }
 

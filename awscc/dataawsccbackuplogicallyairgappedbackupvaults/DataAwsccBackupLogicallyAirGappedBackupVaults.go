@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/backup_logically_air_gapped_backup_vaults awscc_backup_logically_air_gapped_backup_vaults}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/backup_logically_air_gapped_backup_vaults awscc_backup_logically_air_gapped_backup_vaults}.
 type DataAwsccBackupLogicallyAirGappedBackupVaults interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBackupLogicallyAirGappedBackupVaults) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/backup_logically_air_gapped_backup_vaults awscc_backup_logically_air_gapped_backup_vaults} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/backup_logically_air_gapped_backup_vaults awscc_backup_logically_air_gapped_backup_vaults} Data Source.
 func NewDataAwsccBackupLogicallyAirGappedBackupVaults(scope constructs.Construct, id *string, config *DataAwsccBackupLogicallyAirGappedBackupVaultsConfig) DataAwsccBackupLogicallyAirGappedBackupVaults {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBackupLogicallyAirGappedBackupVaults(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/backup_logically_air_gapped_backup_vaults awscc_backup_logically_air_gapped_backup_vaults} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/backup_logically_air_gapped_backup_vaults awscc_backup_logically_air_gapped_backup_vaults} Data Source.
 func NewDataAwsccBackupLogicallyAirGappedBackupVaults_Override(d DataAwsccBackupLogicallyAirGappedBackupVaults, scope constructs.Construct, id *string, config *DataAwsccBackupLogicallyAirGappedBackupVaultsConfig) {
 	_init_.Initialize()
 

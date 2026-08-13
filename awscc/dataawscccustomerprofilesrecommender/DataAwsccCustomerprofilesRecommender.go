@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/customerprofiles_recommender awscc_customerprofiles_recommender}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/customerprofiles_recommender awscc_customerprofiles_recommender}.
 type DataAwsccCustomerprofilesRecommender interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccCustomerprofilesRecommender) TrainingMetrics() DataA
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/customerprofiles_recommender awscc_customerprofiles_recommender} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/customerprofiles_recommender awscc_customerprofiles_recommender} Data Source.
 func NewDataAwsccCustomerprofilesRecommender(scope constructs.Construct, id *string, config *DataAwsccCustomerprofilesRecommenderConfig) DataAwsccCustomerprofilesRecommender {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccCustomerprofilesRecommender(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/customerprofiles_recommender awscc_customerprofiles_recommender} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/customerprofiles_recommender awscc_customerprofiles_recommender} Data Source.
 func NewDataAwsccCustomerprofilesRecommender_Override(d DataAwsccCustomerprofilesRecommender, scope constructs.Construct, id *string, config *DataAwsccCustomerprofilesRecommenderConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/greengrassv2_component_version awscc_greengrassv2_component_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/greengrassv2_component_version awscc_greengrassv2_component_version}.
 type DataAwsccGreengrassv2ComponentVersion interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccGreengrassv2ComponentVersion) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/greengrassv2_component_version awscc_greengrassv2_component_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/greengrassv2_component_version awscc_greengrassv2_component_version} Data Source.
 func NewDataAwsccGreengrassv2ComponentVersion(scope constructs.Construct, id *string, config *DataAwsccGreengrassv2ComponentVersionConfig) DataAwsccGreengrassv2ComponentVersion {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccGreengrassv2ComponentVersion(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/greengrassv2_component_version awscc_greengrassv2_component_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/greengrassv2_component_version awscc_greengrassv2_component_version} Data Source.
 func NewDataAwsccGreengrassv2ComponentVersion_Override(d DataAwsccGreengrassv2ComponentVersion, scope constructs.Construct, id *string, config *DataAwsccGreengrassv2ComponentVersionConfig) {
 	_init_.Initialize()
 

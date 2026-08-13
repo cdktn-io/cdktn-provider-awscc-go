@@ -317,6 +317,7 @@ func init() {
 		"@cdktn/provider-awscc.dataAwsccEksCapability.DataAwsccEksCapabilityConfigurationOutputReference",
 		reflect.TypeOf((*DataAwsccEksCapabilityConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "ack", GoGetter: "Ack"},
 			_jsii_.MemberProperty{JsiiProperty: "argoCd", GoGetter: "ArgoCd"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},

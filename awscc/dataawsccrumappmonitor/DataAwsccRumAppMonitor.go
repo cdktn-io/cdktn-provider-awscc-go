@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/rum_app_monitor awscc_rum_app_monitor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rum_app_monitor awscc_rum_app_monitor}.
 type DataAwsccRumAppMonitor interface {
 	cdktn.TerraformDataSource
 	AppMonitorConfiguration() DataAwsccRumAppMonitorAppMonitorConfigurationOutputReference
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccRumAppMonitor) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/rum_app_monitor awscc_rum_app_monitor} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rum_app_monitor awscc_rum_app_monitor} Data Source.
 func NewDataAwsccRumAppMonitor(scope constructs.Construct, id *string, config *DataAwsccRumAppMonitorConfig) DataAwsccRumAppMonitor {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccRumAppMonitor(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/rum_app_monitor awscc_rum_app_monitor} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rum_app_monitor awscc_rum_app_monitor} Data Source.
 func NewDataAwsccRumAppMonitor_Override(d DataAwsccRumAppMonitor, scope constructs.Construct, id *string, config *DataAwsccRumAppMonitorConfig) {
 	_init_.Initialize()
 

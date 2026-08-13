@@ -24,23 +24,23 @@ type RobomakerRobotConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The target architecture of the robot.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/robomaker_robot#architecture RobomakerRobot#architecture}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot#architecture RobomakerRobot#architecture}
 	Architecture *string `field:"required" json:"architecture" yaml:"architecture"`
 	// The Greengrass group id.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/robomaker_robot#greengrass_group_id RobomakerRobot#greengrass_group_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot#greengrass_group_id RobomakerRobot#greengrass_group_id}
 	GreengrassGroupId *string `field:"required" json:"greengrassGroupId" yaml:"greengrassGroupId"`
 	// The Amazon Resource Name (ARN) of the fleet.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/robomaker_robot#fleet RobomakerRobot#fleet}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot#fleet RobomakerRobot#fleet}
 	Fleet *string `field:"optional" json:"fleet" yaml:"fleet"`
 	// The name for the robot.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/robomaker_robot#name RobomakerRobot#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot#name RobomakerRobot#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// A key-value pair to associate with a resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/robomaker_robot#tags RobomakerRobot#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/robomaker_robot#tags RobomakerRobot#tags}
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 }
 

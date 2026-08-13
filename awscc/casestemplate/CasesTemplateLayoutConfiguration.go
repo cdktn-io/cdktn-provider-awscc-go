@@ -7,7 +7,7 @@ package casestemplate
 type CasesTemplateLayoutConfiguration struct {
 	// The unique identifier of a layout.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_template#default_layout CasesTemplate#default_layout}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_template#default_layout CasesTemplate#default_layout}
 	DefaultLayout *string `field:"optional" json:"defaultLayout" yaml:"defaultLayout"`
 }
 

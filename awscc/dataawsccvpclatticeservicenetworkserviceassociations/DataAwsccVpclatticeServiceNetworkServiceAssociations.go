@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/vpclattice_service_network_service_associations awscc_vpclattice_service_network_service_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/vpclattice_service_network_service_associations awscc_vpclattice_service_network_service_associations}.
 type DataAwsccVpclatticeServiceNetworkServiceAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccVpclatticeServiceNetworkServiceAssociations) Terrafo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/vpclattice_service_network_service_associations awscc_vpclattice_service_network_service_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/vpclattice_service_network_service_associations awscc_vpclattice_service_network_service_associations} Data Source.
 func NewDataAwsccVpclatticeServiceNetworkServiceAssociations(scope constructs.Construct, id *string, config *DataAwsccVpclatticeServiceNetworkServiceAssociationsConfig) DataAwsccVpclatticeServiceNetworkServiceAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccVpclatticeServiceNetworkServiceAssociations(scope constructs.Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/vpclattice_service_network_service_associations awscc_vpclattice_service_network_service_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/vpclattice_service_network_service_associations awscc_vpclattice_service_network_service_associations} Data Source.
 func NewDataAwsccVpclatticeServiceNetworkServiceAssociations_Override(d DataAwsccVpclatticeServiceNetworkServiceAssociations, scope constructs.Construct, id *string, config *DataAwsccVpclatticeServiceNetworkServiceAssociationsConfig) {
 	_init_.Initialize()
 

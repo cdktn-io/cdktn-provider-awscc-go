@@ -7,9 +7,9 @@ package customerprofilessegmentdefinition
 type CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsProfileAttributesMailingAddressPostalCode struct {
 	// The type of segment dimension to use for a string dimension.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 	DimensionType *string `field:"optional" json:"dimensionType" yaml:"dimensionType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 	Values *[]*string `field:"optional" json:"values" yaml:"values"`
 }
 

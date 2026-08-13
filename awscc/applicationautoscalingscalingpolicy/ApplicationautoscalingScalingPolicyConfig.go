@@ -26,7 +26,7 @@ type ApplicationautoscalingScalingPolicyConfig struct {
 	//
 	// Updates to the name of a target tracking scaling policy are not supported, unless you also update the metric used for scaling. To change only a target tracking scaling policy's name, first delete the policy by removing the existing ``AWS::ApplicationAutoScaling::ScalingPolicy`` resource from the template and updating the stack. Then, recreate the resource with the same settings and a different name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationautoscaling_scaling_policy#policy_name ApplicationautoscalingScalingPolicy#policy_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#policy_name ApplicationautoscalingScalingPolicy#policy_name}
 	PolicyName *string `field:"required" json:"policyName" yaml:"policyName"`
 	// The scaling policy type.
 	//
@@ -35,11 +35,11 @@ type ApplicationautoscalingScalingPolicyConfig struct {
 	//  ``StepScaling``—Not supported for DynamoDB, Amazon Comprehend, Lambda, Amazon Keyspaces, Amazon MSK, Amazon ElastiCache, or Neptune.
 	//  ``PredictiveScaling``—Only supported for Amazon ECS
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationautoscaling_scaling_policy#policy_type ApplicationautoscalingScalingPolicy#policy_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#policy_type ApplicationautoscalingScalingPolicy#policy_type}
 	PolicyType *string `field:"required" json:"policyType" yaml:"policyType"`
 	// The predictive scaling policy configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationautoscaling_scaling_policy#predictive_scaling_policy_configuration ApplicationautoscalingScalingPolicy#predictive_scaling_policy_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#predictive_scaling_policy_configuration ApplicationautoscalingScalingPolicy#predictive_scaling_policy_configuration}
 	PredictiveScalingPolicyConfiguration *ApplicationautoscalingScalingPolicyPredictiveScalingPolicyConfiguration `field:"optional" json:"predictiveScalingPolicyConfiguration" yaml:"predictiveScalingPolicyConfiguration"`
 	// The identifier of the resource associated with the scaling policy.
 	//
@@ -65,7 +65,7 @@ type ApplicationautoscalingScalingPolicyConfig struct {
 	//   +  SageMaker inference component - The resource type is ``inference-component`` and the unique identifier is the resource ID. Example: ``inference-component/my-inference-component``.
 	//   +  Pool of WorkSpaces - The resource type is ``workspacespool`` and the unique identifier is the pool ID. Example: ``workspacespool/wspool-123456``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationautoscaling_scaling_policy#resource_id ApplicationautoscalingScalingPolicy#resource_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#resource_id ApplicationautoscalingScalingPolicy#resource_id}
 	ResourceId *string `field:"optional" json:"resourceId" yaml:"resourceId"`
 	// The scalable dimension.
 	//
@@ -95,26 +95,26 @@ type ApplicationautoscalingScalingPolicyConfig struct {
 	//   +  ``sagemaker:inference-component:DesiredCopyCount`` - The number of copies across an endpoint for a SageMaker inference component.
 	//   +  ``workspaces:workspacespool:DesiredUserSessions`` - The number of user sessions for the WorkSpaces in the pool.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationautoscaling_scaling_policy#scalable_dimension ApplicationautoscalingScalingPolicy#scalable_dimension}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#scalable_dimension ApplicationautoscalingScalingPolicy#scalable_dimension}
 	ScalableDimension *string `field:"optional" json:"scalableDimension" yaml:"scalableDimension"`
 	// The CloudFormation-generated ID of an Application Auto Scaling scalable target.
 	//
 	// For more information about the ID, see the Return Value section of the ``AWS::ApplicationAutoScaling::ScalableTarget`` resource.
 	//   You must specify either the ``ScalingTargetId`` property, or the ``ResourceId``, ``ScalableDimension``, and ``ServiceNamespace`` properties, but not both.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationautoscaling_scaling_policy#scaling_target_id ApplicationautoscalingScalingPolicy#scaling_target_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#scaling_target_id ApplicationautoscalingScalingPolicy#scaling_target_id}
 	ScalingTargetId *string `field:"optional" json:"scalingTargetId" yaml:"scalingTargetId"`
 	// The namespace of the AWS service that provides the resource, or a ``custom-resource``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationautoscaling_scaling_policy#service_namespace ApplicationautoscalingScalingPolicy#service_namespace}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#service_namespace ApplicationautoscalingScalingPolicy#service_namespace}
 	ServiceNamespace *string `field:"optional" json:"serviceNamespace" yaml:"serviceNamespace"`
 	// A step scaling policy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationautoscaling_scaling_policy#step_scaling_policy_configuration ApplicationautoscalingScalingPolicy#step_scaling_policy_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#step_scaling_policy_configuration ApplicationautoscalingScalingPolicy#step_scaling_policy_configuration}
 	StepScalingPolicyConfiguration *ApplicationautoscalingScalingPolicyStepScalingPolicyConfiguration `field:"optional" json:"stepScalingPolicyConfiguration" yaml:"stepScalingPolicyConfiguration"`
 	// A target tracking scaling policy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationautoscaling_scaling_policy#target_tracking_scaling_policy_configuration ApplicationautoscalingScalingPolicy#target_tracking_scaling_policy_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationautoscaling_scaling_policy#target_tracking_scaling_policy_configuration ApplicationautoscalingScalingPolicy#target_tracking_scaling_policy_configuration}
 	TargetTrackingScalingPolicyConfiguration *ApplicationautoscalingScalingPolicyTargetTrackingScalingPolicyConfiguration `field:"optional" json:"targetTrackingScalingPolicyConfiguration" yaml:"targetTrackingScalingPolicyConfiguration"`
 }
 

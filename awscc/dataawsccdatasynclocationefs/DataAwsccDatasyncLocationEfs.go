@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/datasync_location_efs awscc_datasync_location_efs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/datasync_location_efs awscc_datasync_location_efs}.
 type DataAwsccDatasyncLocationEfs interface {
 	cdktn.TerraformDataSource
 	AccessPointArn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccDatasyncLocationEfs) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/datasync_location_efs awscc_datasync_location_efs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/datasync_location_efs awscc_datasync_location_efs} Data Source.
 func NewDataAwsccDatasyncLocationEfs(scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationEfsConfig) DataAwsccDatasyncLocationEfs {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccDatasyncLocationEfs(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/datasync_location_efs awscc_datasync_location_efs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/datasync_location_efs awscc_datasync_location_efs} Data Source.
 func NewDataAwsccDatasyncLocationEfs_Override(d DataAwsccDatasyncLocationEfs, scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationEfsConfig) {
 	_init_.Initialize()
 

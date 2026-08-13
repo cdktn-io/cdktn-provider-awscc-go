@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_placement_groups awscc_ec2_placement_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_placement_groups awscc_ec2_placement_groups}.
 type DataAwsccEc2PlacementGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2PlacementGroups) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_placement_groups awscc_ec2_placement_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_placement_groups awscc_ec2_placement_groups} Data Source.
 func NewDataAwsccEc2PlacementGroups(scope constructs.Construct, id *string, config *DataAwsccEc2PlacementGroupsConfig) DataAwsccEc2PlacementGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2PlacementGroups(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_placement_groups awscc_ec2_placement_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_placement_groups awscc_ec2_placement_groups} Data Source.
 func NewDataAwsccEc2PlacementGroups_Override(d DataAwsccEc2PlacementGroups, scope constructs.Construct, id *string, config *DataAwsccEc2PlacementGroupsConfig) {
 	_init_.Initialize()
 

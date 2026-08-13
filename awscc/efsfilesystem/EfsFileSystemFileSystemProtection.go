@@ -13,7 +13,7 @@ type EfsFileSystemFileSystemProtection struct {
 	//
 	//  If the replication configuration is deleted, the file system's replication overwrite protection is re-enabled, the file system becomes writeable.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/efs_file_system#replication_overwrite_protection EfsFileSystem#replication_overwrite_protection}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/efs_file_system#replication_overwrite_protection EfsFileSystem#replication_overwrite_protection}
 	ReplicationOverwriteProtection *string `field:"optional" json:"replicationOverwriteProtection" yaml:"replicationOverwriteProtection"`
 }
 

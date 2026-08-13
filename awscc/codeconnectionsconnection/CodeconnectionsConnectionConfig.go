@@ -24,23 +24,23 @@ type CodeconnectionsConnectionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the connection. Connection names must be unique in an AWS user account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codeconnections_connection#connection_name CodeconnectionsConnection#connection_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codeconnections_connection#connection_name CodeconnectionsConnection#connection_name}
 	ConnectionName *string `field:"required" json:"connectionName" yaml:"connectionName"`
 	// The host arn configured to represent the infrastructure where your third-party provider is installed.
 	//
 	// You must specify either a ProviderType or a HostArn.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codeconnections_connection#host_arn CodeconnectionsConnection#host_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codeconnections_connection#host_arn CodeconnectionsConnection#host_arn}
 	HostArn *string `field:"optional" json:"hostArn" yaml:"hostArn"`
 	// The name of the external provider where your third-party code repository is configured.
 	//
 	// You must specify either a ProviderType or a HostArn.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codeconnections_connection#provider_type CodeconnectionsConnection#provider_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codeconnections_connection#provider_type CodeconnectionsConnection#provider_type}
 	ProviderType *string `field:"optional" json:"providerType" yaml:"providerType"`
 	// Specifies the tags applied to a connection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codeconnections_connection#tags CodeconnectionsConnection#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codeconnections_connection#tags CodeconnectionsConnection#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

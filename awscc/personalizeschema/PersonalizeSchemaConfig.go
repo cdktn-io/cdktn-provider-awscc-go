@@ -24,15 +24,15 @@ type PersonalizeSchemaConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Name for the schema.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_schema#name PersonalizeSchema#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_schema#name PersonalizeSchema#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// A schema in Avro JSON format.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_schema#schema PersonalizeSchema#schema}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_schema#schema PersonalizeSchema#schema}
 	Schema *string `field:"required" json:"schema" yaml:"schema"`
 	// The domain of a Domain dataset group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/personalize_schema#domain PersonalizeSchema#domain}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_schema#domain PersonalizeSchema#domain}
 	Domain *string `field:"optional" json:"domain" yaml:"domain"`
 }
 

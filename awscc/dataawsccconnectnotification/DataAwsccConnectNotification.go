@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/connect_notification awscc_connect_notification}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_notification awscc_connect_notification}.
 type DataAwsccConnectNotification interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccConnectNotification) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/connect_notification awscc_connect_notification} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_notification awscc_connect_notification} Data Source.
 func NewDataAwsccConnectNotification(scope constructs.Construct, id *string, config *DataAwsccConnectNotificationConfig) DataAwsccConnectNotification {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccConnectNotification(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/connect_notification awscc_connect_notification} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_notification awscc_connect_notification} Data Source.
 func NewDataAwsccConnectNotification_Override(d DataAwsccConnectNotification, scope constructs.Construct, id *string, config *DataAwsccConnectNotificationConfig) {
 	_init_.Initialize()
 

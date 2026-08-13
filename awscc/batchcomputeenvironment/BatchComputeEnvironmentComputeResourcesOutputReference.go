@@ -19,6 +19,9 @@ type BatchComputeEnvironmentComputeResourcesOutputReference interface {
 	BidPercentage() *float64
 	SetBidPercentage(val *float64)
 	BidPercentageInput() *float64
+	CapacityTags() *map[string]*string
+	SetCapacityTags(val *map[string]*string)
+	CapacityTagsInput() *map[string]*string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -57,6 +60,8 @@ type BatchComputeEnvironmentComputeResourcesOutputReference interface {
 	SetInternalValue(val interface{})
 	LaunchTemplate() BatchComputeEnvironmentComputeResourcesLaunchTemplateOutputReference
 	LaunchTemplateInput() interface{}
+	ManagedInstancesProvider() BatchComputeEnvironmentComputeResourcesManagedInstancesProviderOutputReference
+	ManagedInstancesProviderInput() interface{}
 	MaxvCpus() *float64
 	SetMaxvCpus(val *float64)
 	MaxvCpusInput() *float64
@@ -120,9 +125,11 @@ type BatchComputeEnvironmentComputeResourcesOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutEc2Configuration(value interface{})
 	PutLaunchTemplate(value *BatchComputeEnvironmentComputeResourcesLaunchTemplate)
+	PutManagedInstancesProvider(value *BatchComputeEnvironmentComputeResourcesManagedInstancesProvider)
 	PutScalingPolicy(value *BatchComputeEnvironmentComputeResourcesScalingPolicy)
 	ResetAllocationStrategy()
 	ResetBidPercentage()
+	ResetCapacityTags()
 	ResetDesiredvCpus()
 	ResetEc2Configuration()
 	ResetEc2KeyPair()
@@ -130,6 +137,7 @@ type BatchComputeEnvironmentComputeResourcesOutputReference interface {
 	ResetInstanceRole()
 	ResetInstanceTypes()
 	ResetLaunchTemplate()
+	ResetManagedInstancesProvider()
 	ResetMaxvCpus()
 	ResetMinvCpus()
 	ResetPlacementGroup()
@@ -190,6 +198,26 @@ func (j *jsiiProxy_BatchComputeEnvironmentComputeResourcesOutputReference) BidPe
 	_jsii_.Get(
 		j,
 		"bidPercentageInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BatchComputeEnvironmentComputeResourcesOutputReference) CapacityTags() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"capacityTags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BatchComputeEnvironmentComputeResourcesOutputReference) CapacityTagsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"capacityTagsInput",
 		&returns,
 	)
 	return returns
@@ -380,6 +408,26 @@ func (j *jsiiProxy_BatchComputeEnvironmentComputeResourcesOutputReference) Launc
 	_jsii_.Get(
 		j,
 		"launchTemplateInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BatchComputeEnvironmentComputeResourcesOutputReference) ManagedInstancesProvider() BatchComputeEnvironmentComputeResourcesManagedInstancesProviderOutputReference {
+	var returns BatchComputeEnvironmentComputeResourcesManagedInstancesProviderOutputReference
+	_jsii_.Get(
+		j,
+		"managedInstancesProvider",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BatchComputeEnvironmentComputeResourcesOutputReference) ManagedInstancesProviderInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"managedInstancesProviderInput",
 		&returns,
 	)
 	return returns
@@ -651,6 +699,17 @@ func (j *jsiiProxy_BatchComputeEnvironmentComputeResourcesOutputReference)SetBid
 	_jsii_.Set(
 		j,
 		"bidPercentage",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BatchComputeEnvironmentComputeResourcesOutputReference)SetCapacityTags(val *map[string]*string) {
+	if err := j.validateSetCapacityTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"capacityTags",
 		val,
 	)
 }
@@ -1072,6 +1131,17 @@ func (b *jsiiProxy_BatchComputeEnvironmentComputeResourcesOutputReference) PutLa
 	)
 }
 
+func (b *jsiiProxy_BatchComputeEnvironmentComputeResourcesOutputReference) PutManagedInstancesProvider(value *BatchComputeEnvironmentComputeResourcesManagedInstancesProvider) {
+	if err := b.validatePutManagedInstancesProviderParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putManagedInstancesProvider",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BatchComputeEnvironmentComputeResourcesOutputReference) PutScalingPolicy(value *BatchComputeEnvironmentComputeResourcesScalingPolicy) {
 	if err := b.validatePutScalingPolicyParameters(value); err != nil {
 		panic(err)
@@ -1095,6 +1165,14 @@ func (b *jsiiProxy_BatchComputeEnvironmentComputeResourcesOutputReference) Reset
 	_jsii_.InvokeVoid(
 		b,
 		"resetBidPercentage",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BatchComputeEnvironmentComputeResourcesOutputReference) ResetCapacityTags() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetCapacityTags",
 		nil, // no parameters
 	)
 }
@@ -1151,6 +1229,14 @@ func (b *jsiiProxy_BatchComputeEnvironmentComputeResourcesOutputReference) Reset
 	_jsii_.InvokeVoid(
 		b,
 		"resetLaunchTemplate",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BatchComputeEnvironmentComputeResourcesOutputReference) ResetManagedInstancesProvider() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetManagedInstancesProvider",
 		nil, // no parameters
 	)
 }

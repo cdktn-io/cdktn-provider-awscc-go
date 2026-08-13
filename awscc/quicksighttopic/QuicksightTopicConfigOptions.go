@@ -5,7 +5,7 @@ package quicksighttopic
 
 
 type QuicksightTopicConfigOptions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/quicksight_topic#q_business_insights_enabled QuicksightTopic#q_business_insights_enabled}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_topic#q_business_insights_enabled QuicksightTopic#q_business_insights_enabled}.
 	QBusinessInsightsEnabled interface{} `field:"optional" json:"qBusinessInsightsEnabled" yaml:"qBusinessInsightsEnabled"`
 }
 

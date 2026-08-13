@@ -1,3 +1,3 @@
 # `awscc_ivs_storage_configuration`
 
-Refer to the Terraform Registry for docs: [`awscc_ivs_storage_configuration`](https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ivs_storage_configuration).
+Refer to the Terraform Registry for docs: [`awscc_ivs_storage_configuration`](https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_storage_configuration).

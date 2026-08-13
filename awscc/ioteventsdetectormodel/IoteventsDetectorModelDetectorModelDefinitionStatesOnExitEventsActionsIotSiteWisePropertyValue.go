@@ -7,15 +7,15 @@ package ioteventsdetectormodel
 type IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValue struct {
 	// The quality of the asset property value. The value must be ``'GOOD'``, ``'BAD'``, or ``'UNCERTAIN'``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotevents_detector_model#quality IoteventsDetectorModel#quality}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotevents_detector_model#quality IoteventsDetectorModel#quality}
 	Quality *string `field:"optional" json:"quality" yaml:"quality"`
 	// The timestamp associated with the asset property value. The default is the current event time.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotevents_detector_model#timestamp IoteventsDetectorModel#timestamp}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotevents_detector_model#timestamp IoteventsDetectorModel#timestamp}
 	Timestamp *IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueTimestamp `field:"optional" json:"timestamp" yaml:"timestamp"`
 	// The value to send to an asset property.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotevents_detector_model#value IoteventsDetectorModel#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotevents_detector_model#value IoteventsDetectorModel#value}
 	Value *IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWisePropertyValueValue `field:"optional" json:"value" yaml:"value"`
 }
 

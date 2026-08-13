@@ -5,9 +5,9 @@ package connectworkspace
 
 
 type ConnectWorkspaceThemeDark struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#palette ConnectWorkspace#palette}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#palette ConnectWorkspace#palette}.
 	Palette *ConnectWorkspaceThemeDarkPalette `field:"optional" json:"palette" yaml:"palette"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#typography ConnectWorkspace#typography}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#typography ConnectWorkspace#typography}.
 	Typography *ConnectWorkspaceThemeDarkTypography `field:"optional" json:"typography" yaml:"typography"`
 }
 

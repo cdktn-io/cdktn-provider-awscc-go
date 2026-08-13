@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/redshift_cluster awscc_redshift_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/redshift_cluster awscc_redshift_cluster}.
 type DataAwsccRedshiftCluster interface {
 	cdktn.TerraformDataSource
 	AllowVersionUpgrade() cdktn.IResolvable
@@ -891,7 +891,7 @@ func (j *jsiiProxy_DataAwsccRedshiftCluster) VpcSecurityGroupIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/redshift_cluster awscc_redshift_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/redshift_cluster awscc_redshift_cluster} Data Source.
 func NewDataAwsccRedshiftCluster(scope constructs.Construct, id *string, config *DataAwsccRedshiftClusterConfig) DataAwsccRedshiftCluster {
 	_init_.Initialize()
 
@@ -909,7 +909,7 @@ func NewDataAwsccRedshiftCluster(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/redshift_cluster awscc_redshift_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/redshift_cluster awscc_redshift_cluster} Data Source.
 func NewDataAwsccRedshiftCluster_Override(d DataAwsccRedshiftCluster, scope constructs.Construct, id *string, config *DataAwsccRedshiftClusterConfig) {
 	_init_.Initialize()
 

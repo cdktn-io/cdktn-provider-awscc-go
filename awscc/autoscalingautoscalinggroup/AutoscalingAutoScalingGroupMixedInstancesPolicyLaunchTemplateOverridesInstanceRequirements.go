@@ -10,7 +10,7 @@ type AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInsta
 	// To exclude accelerator-enabled instance types, set ``Max`` to ``0``.
 	//  Default: No minimum or maximum limits
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#accelerator_count AutoscalingAutoScalingGroup#accelerator_count}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#accelerator_count AutoscalingAutoScalingGroup#accelerator_count}
 	AcceleratorCount *AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsAcceleratorCount `field:"optional" json:"acceleratorCount" yaml:"acceleratorCount"`
 	// Indicates whether instance types must have accelerators by specific manufacturers.
 	//
@@ -21,7 +21,7 @@ type AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInsta
 	//
 	//  Default: Any manufacturer
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#accelerator_manufacturers AutoscalingAutoScalingGroup#accelerator_manufacturers}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#accelerator_manufacturers AutoscalingAutoScalingGroup#accelerator_manufacturers}
 	AcceleratorManufacturers *[]*string `field:"optional" json:"acceleratorManufacturers" yaml:"acceleratorManufacturers"`
 	// Lists the accelerators that must be on an instance type.
 	//
@@ -35,13 +35,13 @@ type AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInsta
 	//
 	//  Default: Any accelerator
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#accelerator_names AutoscalingAutoScalingGroup#accelerator_names}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#accelerator_names AutoscalingAutoScalingGroup#accelerator_names}
 	AcceleratorNames *[]*string `field:"optional" json:"acceleratorNames" yaml:"acceleratorNames"`
 	// The minimum and maximum total memory size for the accelerators on an instance type, in MiB.
 	//
 	// Default: No minimum or maximum limits
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#accelerator_total_memory_mi_b AutoscalingAutoScalingGroup#accelerator_total_memory_mi_b}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#accelerator_total_memory_mi_b AutoscalingAutoScalingGroup#accelerator_total_memory_mi_b}
 	AcceleratorTotalMemoryMiB *AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsAcceleratorTotalMemoryMiB `field:"optional" json:"acceleratorTotalMemoryMiB" yaml:"acceleratorTotalMemoryMiB"`
 	// Lists the accelerator types that must be on an instance type.
 	//
@@ -51,7 +51,7 @@ type AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInsta
 	//
 	//  Default: Any accelerator type
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#accelerator_types AutoscalingAutoScalingGroup#accelerator_types}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#accelerator_types AutoscalingAutoScalingGroup#accelerator_types}
 	AcceleratorTypes *[]*string `field:"optional" json:"acceleratorTypes" yaml:"acceleratorTypes"`
 	// The instance types to apply your specified attributes against.
 	//
@@ -61,29 +61,29 @@ type AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInsta
 	//   If you specify ``AllowedInstanceTypes``, you can't specify ``ExcludedInstanceTypes``.
 	//   Default: All instance types
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#allowed_instance_types AutoscalingAutoScalingGroup#allowed_instance_types}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#allowed_instance_types AutoscalingAutoScalingGroup#allowed_instance_types}
 	AllowedInstanceTypes *[]*string `field:"optional" json:"allowedInstanceTypes" yaml:"allowedInstanceTypes"`
 	// Indicates whether bare metal instance types are included, excluded, or required.  Default: ``excluded``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#bare_metal AutoscalingAutoScalingGroup#bare_metal}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#bare_metal AutoscalingAutoScalingGroup#bare_metal}
 	BareMetal *string `field:"optional" json:"bareMetal" yaml:"bareMetal"`
 	// The minimum and maximum baseline bandwidth performance for an instance type, in Mbps.
 	//
 	// For more information, see [Amazon EBS–optimized instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-optimized.html) in the *Amazon EC2 User Guide*.
 	//  Default: No minimum or maximum limits
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#baseline_ebs_bandwidth_mbps AutoscalingAutoScalingGroup#baseline_ebs_bandwidth_mbps}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#baseline_ebs_bandwidth_mbps AutoscalingAutoScalingGroup#baseline_ebs_bandwidth_mbps}
 	BaselineEbsBandwidthMbps *AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsBaselineEbsBandwidthMbps `field:"optional" json:"baselineEbsBandwidthMbps" yaml:"baselineEbsBandwidthMbps"`
 	// The baseline performance factors for the instance requirements.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#baseline_performance_factors AutoscalingAutoScalingGroup#baseline_performance_factors}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#baseline_performance_factors AutoscalingAutoScalingGroup#baseline_performance_factors}
 	BaselinePerformanceFactors *AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsBaselinePerformanceFactors `field:"optional" json:"baselinePerformanceFactors" yaml:"baselinePerformanceFactors"`
 	// Indicates whether burstable performance instance types are included, excluded, or required.
 	//
 	// For more information, see [Burstable performance instances](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/burstable-performance-instances.html) in the *Amazon EC2 User Guide*.
 	//  Default: ``excluded``
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#burstable_performance AutoscalingAutoScalingGroup#burstable_performance}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#burstable_performance AutoscalingAutoScalingGroup#burstable_performance}
 	BurstablePerformance *string `field:"optional" json:"burstablePerformance" yaml:"burstablePerformance"`
 	// Lists which specific CPU manufacturers to include.
 	//
@@ -95,7 +95,7 @@ type AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInsta
 	//   Don't confuse the CPU hardware manufacturer with the CPU hardware architecture. Instances will be launched with a compatible CPU architecture based on the Amazon Machine Image (AMI) that you specify in your launch template.
 	//   Default: Any manufacturer
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#cpu_manufacturers AutoscalingAutoScalingGroup#cpu_manufacturers}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#cpu_manufacturers AutoscalingAutoScalingGroup#cpu_manufacturers}
 	CpuManufacturers *[]*string `field:"optional" json:"cpuManufacturers" yaml:"cpuManufacturers"`
 	// The instance types to exclude.
 	//
@@ -104,7 +104,7 @@ type AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInsta
 	//   If you specify ``ExcludedInstanceTypes``, you can't specify ``AllowedInstanceTypes``.
 	//   Default: No excluded instance types
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#excluded_instance_types AutoscalingAutoScalingGroup#excluded_instance_types}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#excluded_instance_types AutoscalingAutoScalingGroup#excluded_instance_types}
 	ExcludedInstanceTypes *[]*string `field:"optional" json:"excludedInstanceTypes" yaml:"excludedInstanceTypes"`
 	// Indicates whether current or previous generation instance types are included.
 	//
@@ -113,14 +113,14 @@ type AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInsta
 	//
 	//  Default: Any current or previous generation
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#instance_generations AutoscalingAutoScalingGroup#instance_generations}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#instance_generations AutoscalingAutoScalingGroup#instance_generations}
 	InstanceGenerations *[]*string `field:"optional" json:"instanceGenerations" yaml:"instanceGenerations"`
 	// Indicates whether instance types with instance store volumes are included, excluded, or required.
 	//
 	// For more information, see [Amazon EC2 instance store](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html) in the *Amazon EC2 User Guide*.
 	//  Default: ``included``
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#local_storage AutoscalingAutoScalingGroup#local_storage}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#local_storage AutoscalingAutoScalingGroup#local_storage}
 	LocalStorage *string `field:"optional" json:"localStorage" yaml:"localStorage"`
 	// Indicates the type of local storage that is required.
 	//
@@ -129,7 +129,7 @@ type AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInsta
 	//
 	//  Default: Any local storage type
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#local_storage_types AutoscalingAutoScalingGroup#local_storage_types}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#local_storage_types AutoscalingAutoScalingGroup#local_storage_types}
 	LocalStorageTypes *[]*string `field:"optional" json:"localStorageTypes" yaml:"localStorageTypes"`
 	// [Price protection] The price protection threshold for Spot Instances, as a percentage of an identified On-Demand price.
 	//
@@ -138,25 +138,25 @@ type AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInsta
 	//  If you set ``DesiredCapacityType`` to ``vcpu`` or ``memory-mib``, the price protection threshold is based on the per-vCPU or per-memory price instead of the per instance price.
 	//   Only one of ``SpotMaxPricePercentageOverLowestPrice`` or ``MaxSpotPriceAsPercentageOfOptimalOnDemandPrice`` can be specified. If you don't specify either, Amazon EC2 Auto Scaling will automatically apply optimal price protection to consistently select from a wide range of instance types. To indicate no price protection threshold for Spot Instances, meaning you want to consider all instance types that match your attributes, include one of these parameters and specify a high value, such as ``999999``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#max_spot_price_as_percentage_of_optimal_on_demand_price AutoscalingAutoScalingGroup#max_spot_price_as_percentage_of_optimal_on_demand_price}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#max_spot_price_as_percentage_of_optimal_on_demand_price AutoscalingAutoScalingGroup#max_spot_price_as_percentage_of_optimal_on_demand_price}
 	MaxSpotPriceAsPercentageOfOptimalOnDemandPrice *float64 `field:"optional" json:"maxSpotPriceAsPercentageOfOptimalOnDemandPrice" yaml:"maxSpotPriceAsPercentageOfOptimalOnDemandPrice"`
 	// The minimum and maximum amount of memory per vCPU for an instance type, in GiB.
 	//
 	// Default: No minimum or maximum limits
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#memory_gi_b_per_v_cpu AutoscalingAutoScalingGroup#memory_gi_b_per_v_cpu}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#memory_gi_b_per_v_cpu AutoscalingAutoScalingGroup#memory_gi_b_per_v_cpu}
 	MemoryGiBPerVCpu *AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsMemoryGiBPerVCpu `field:"optional" json:"memoryGiBPerVCpu" yaml:"memoryGiBPerVCpu"`
 	// The minimum and maximum instance memory size for an instance type, in MiB.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#memory_mi_b AutoscalingAutoScalingGroup#memory_mi_b}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#memory_mi_b AutoscalingAutoScalingGroup#memory_mi_b}
 	MemoryMiB *AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsMemoryMiB `field:"optional" json:"memoryMiB" yaml:"memoryMiB"`
 	// The minimum and maximum amount of network bandwidth, in gigabits per second (Gbps).  Default: No minimum or maximum limits.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#network_bandwidth_gbps AutoscalingAutoScalingGroup#network_bandwidth_gbps}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#network_bandwidth_gbps AutoscalingAutoScalingGroup#network_bandwidth_gbps}
 	NetworkBandwidthGbps *AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsNetworkBandwidthGbps `field:"optional" json:"networkBandwidthGbps" yaml:"networkBandwidthGbps"`
 	// The minimum and maximum number of network interfaces for an instance type.  Default: No minimum or maximum limits.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#network_interface_count AutoscalingAutoScalingGroup#network_interface_count}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#network_interface_count AutoscalingAutoScalingGroup#network_interface_count}
 	NetworkInterfaceCount *AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsNetworkInterfaceCount `field:"optional" json:"networkInterfaceCount" yaml:"networkInterfaceCount"`
 	// [Price protection] The price protection threshold for On-Demand Instances, as a percentage higher than an identified On-Demand price.
 	//
@@ -166,11 +166,11 @@ type AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInsta
 	//  If you set ``DesiredCapacityType`` to ``vcpu`` or ``memory-mib``, the price protection threshold is applied based on the per-vCPU or per-memory price instead of the per instance price.
 	//  Default: ``20``
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#on_demand_max_price_percentage_over_lowest_price AutoscalingAutoScalingGroup#on_demand_max_price_percentage_over_lowest_price}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#on_demand_max_price_percentage_over_lowest_price AutoscalingAutoScalingGroup#on_demand_max_price_percentage_over_lowest_price}
 	OnDemandMaxPricePercentageOverLowestPrice *float64 `field:"optional" json:"onDemandMaxPricePercentageOverLowestPrice" yaml:"onDemandMaxPricePercentageOverLowestPrice"`
 	// Indicates whether instance types must provide On-Demand Instance hibernation support.  Default: ``false``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#require_hibernate_support AutoscalingAutoScalingGroup#require_hibernate_support}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#require_hibernate_support AutoscalingAutoScalingGroup#require_hibernate_support}
 	RequireHibernateSupport interface{} `field:"optional" json:"requireHibernateSupport" yaml:"requireHibernateSupport"`
 	// [Price protection] The price protection threshold for Spot Instances, as a percentage higher than an identified Spot price.
 	//
@@ -179,17 +179,17 @@ type AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInsta
 	//  If you set ``DesiredCapacityType`` to ``vcpu`` or ``memory-mib``, the price protection threshold is based on the per-vCPU or per-memory price instead of the per instance price.
 	//   Only one of ``SpotMaxPricePercentageOverLowestPrice`` or ``MaxSpotPriceAsPercentageOfOptimalOnDemandPrice`` can be specified. If you don't specify either, Amazon EC2 Auto Scaling will automatically apply optimal price protection to consistently select from a wide range of instance types. To indicate no price protection threshold for Spot Instances, meaning you want to consider all instance types that match your attributes, include one of these parameters and specify a high value, such as ``999999``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#spot_max_price_percentage_over_lowest_price AutoscalingAutoScalingGroup#spot_max_price_percentage_over_lowest_price}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#spot_max_price_percentage_over_lowest_price AutoscalingAutoScalingGroup#spot_max_price_percentage_over_lowest_price}
 	SpotMaxPricePercentageOverLowestPrice *float64 `field:"optional" json:"spotMaxPricePercentageOverLowestPrice" yaml:"spotMaxPricePercentageOverLowestPrice"`
 	// The minimum and maximum total local storage size for an instance type, in GB.
 	//
 	// Default: No minimum or maximum limits
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#total_local_storage_gb AutoscalingAutoScalingGroup#total_local_storage_gb}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#total_local_storage_gb AutoscalingAutoScalingGroup#total_local_storage_gb}
 	TotalLocalStorageGb *AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsTotalLocalStorageGb `field:"optional" json:"totalLocalStorageGb" yaml:"totalLocalStorageGb"`
 	// The minimum and maximum number of vCPUs for an instance type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/autoscaling_auto_scaling_group#v_cpu_count AutoscalingAutoScalingGroup#v_cpu_count}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/autoscaling_auto_scaling_group#v_cpu_count AutoscalingAutoScalingGroup#v_cpu_count}
 	VCpuCount *AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInstanceRequirementsVCpuCount `field:"optional" json:"vCpuCount" yaml:"vCpuCount"`
 }
 

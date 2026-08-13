@@ -33,6 +33,7 @@ type DataAwsccBedrockagentcoreGatewayInterceptorConfigurationsInputConfiguration
 	InternalValue() *DataAwsccBedrockagentcoreGatewayInterceptorConfigurationsInputConfiguration
 	SetInternalValue(val *DataAwsccBedrockagentcoreGatewayInterceptorConfigurationsInputConfiguration)
 	PassRequestHeaders() cdktn.IResolvable
+	PayloadFilter() DataAwsccBedrockagentcoreGatewayInterceptorConfigurationsInputConfigurationPayloadFilterOutputReference
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -135,6 +136,16 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreGatewayInterceptorConfigurationsInpu
 	_jsii_.Get(
 		j,
 		"passRequestHeaders",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreGatewayInterceptorConfigurationsInputConfigurationOutputReference) PayloadFilter() DataAwsccBedrockagentcoreGatewayInterceptorConfigurationsInputConfigurationPayloadFilterOutputReference {
+	var returns DataAwsccBedrockagentcoreGatewayInterceptorConfigurationsInputConfigurationPayloadFilterOutputReference
+	_jsii_.Get(
+		j,
+		"payloadFilter",
 		&returns,
 	)
 	return returns

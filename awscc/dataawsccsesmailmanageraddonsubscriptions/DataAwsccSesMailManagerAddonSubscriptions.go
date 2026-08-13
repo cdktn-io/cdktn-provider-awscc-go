@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ses_mail_manager_addon_subscriptions awscc_ses_mail_manager_addon_subscriptions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ses_mail_manager_addon_subscriptions awscc_ses_mail_manager_addon_subscriptions}.
 type DataAwsccSesMailManagerAddonSubscriptions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSesMailManagerAddonSubscriptions) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ses_mail_manager_addon_subscriptions awscc_ses_mail_manager_addon_subscriptions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ses_mail_manager_addon_subscriptions awscc_ses_mail_manager_addon_subscriptions} Data Source.
 func NewDataAwsccSesMailManagerAddonSubscriptions(scope constructs.Construct, id *string, config *DataAwsccSesMailManagerAddonSubscriptionsConfig) DataAwsccSesMailManagerAddonSubscriptions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSesMailManagerAddonSubscriptions(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ses_mail_manager_addon_subscriptions awscc_ses_mail_manager_addon_subscriptions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ses_mail_manager_addon_subscriptions awscc_ses_mail_manager_addon_subscriptions} Data Source.
 func NewDataAwsccSesMailManagerAddonSubscriptions_Override(d DataAwsccSesMailManagerAddonSubscriptions, scope constructs.Construct, id *string, config *DataAwsccSesMailManagerAddonSubscriptionsConfig) {
 	_init_.Initialize()
 

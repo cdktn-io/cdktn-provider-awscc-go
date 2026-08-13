@@ -5,9 +5,9 @@ package mediaconnectflowentitlement
 
 
 type MediaconnectFlowEntitlementTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow_entitlement#key MediaconnectFlowEntitlement#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow_entitlement#key MediaconnectFlowEntitlement#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/mediaconnect_flow_entitlement#value MediaconnectFlowEntitlement#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow_entitlement#value MediaconnectFlowEntitlement#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

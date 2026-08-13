@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_cache_cluster awscc_elasticache_cache_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_cache_cluster awscc_elasticache_cache_cluster}.
 type ElasticacheCacheCluster interface {
 	cdktn.TerraformResource
 	AutoMinorVersionUpgrade() interface{}
@@ -974,7 +974,7 @@ func (j *jsiiProxy_ElasticacheCacheCluster) VpcSecurityGroupIdsInput() *[]*strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_cache_cluster awscc_elasticache_cache_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_cache_cluster awscc_elasticache_cache_cluster} Resource.
 func NewElasticacheCacheCluster(scope constructs.Construct, id *string, config *ElasticacheCacheClusterConfig) ElasticacheCacheCluster {
 	_init_.Initialize()
 
@@ -992,7 +992,7 @@ func NewElasticacheCacheCluster(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/elasticache_cache_cluster awscc_elasticache_cache_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_cache_cluster awscc_elasticache_cache_cluster} Resource.
 func NewElasticacheCacheCluster_Override(e ElasticacheCacheCluster, scope constructs.Construct, id *string, config *ElasticacheCacheClusterConfig) {
 	_init_.Initialize()
 

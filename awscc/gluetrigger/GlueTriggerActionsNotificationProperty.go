@@ -7,7 +7,7 @@ package gluetrigger
 type GlueTriggerActionsNotificationProperty struct {
 	// After a job run starts, the number of minutes to wait before sending a job run delay notification.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/glue_trigger#notify_delay_after GlueTrigger#notify_delay_after}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_trigger#notify_delay_after GlueTrigger#notify_delay_after}
 	NotifyDelayAfter *float64 `field:"optional" json:"notifyDelayAfter" yaml:"notifyDelayAfter"`
 }
 

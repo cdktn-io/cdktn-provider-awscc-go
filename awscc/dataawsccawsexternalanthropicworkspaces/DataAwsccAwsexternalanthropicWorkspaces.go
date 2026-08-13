@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/awsexternalanthropic_workspaces awscc_awsexternalanthropic_workspaces}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/awsexternalanthropic_workspaces awscc_awsexternalanthropic_workspaces}.
 type DataAwsccAwsexternalanthropicWorkspaces interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccAwsexternalanthropicWorkspaces) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/awsexternalanthropic_workspaces awscc_awsexternalanthropic_workspaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/awsexternalanthropic_workspaces awscc_awsexternalanthropic_workspaces} Data Source.
 func NewDataAwsccAwsexternalanthropicWorkspaces(scope constructs.Construct, id *string, config *DataAwsccAwsexternalanthropicWorkspacesConfig) DataAwsccAwsexternalanthropicWorkspaces {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccAwsexternalanthropicWorkspaces(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/awsexternalanthropic_workspaces awscc_awsexternalanthropic_workspaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/awsexternalanthropic_workspaces awscc_awsexternalanthropic_workspaces} Data Source.
 func NewDataAwsccAwsexternalanthropicWorkspaces_Override(d DataAwsccAwsexternalanthropicWorkspaces, scope constructs.Construct, id *string, config *DataAwsccAwsexternalanthropicWorkspacesConfig) {
 	_init_.Initialize()
 

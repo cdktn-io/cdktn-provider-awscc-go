@@ -5,9 +5,9 @@ package s3outpostsbucket
 
 
 type S3OutpostsBucketLifecycleConfigurationRulesFilterAndOperatorTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3outposts_bucket#key S3OutpostsBucket#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#key S3OutpostsBucket#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3outposts_bucket#value S3OutpostsBucket#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#value S3OutpostsBucket#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

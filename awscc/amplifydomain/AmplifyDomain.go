@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/amplify_domain awscc_amplify_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/amplify_domain awscc_amplify_domain}.
 type AmplifyDomain interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -586,7 +586,7 @@ func (j *jsiiProxy_AmplifyDomain) UpdateStatus() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/amplify_domain awscc_amplify_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/amplify_domain awscc_amplify_domain} Resource.
 func NewAmplifyDomain(scope constructs.Construct, id *string, config *AmplifyDomainConfig) AmplifyDomain {
 	_init_.Initialize()
 
@@ -604,7 +604,7 @@ func NewAmplifyDomain(scope constructs.Construct, id *string, config *AmplifyDom
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/amplify_domain awscc_amplify_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/amplify_domain awscc_amplify_domain} Resource.
 func NewAmplifyDomain_Override(a AmplifyDomain, scope constructs.Construct, id *string, config *AmplifyDomainConfig) {
 	_init_.Initialize()
 

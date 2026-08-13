@@ -7,11 +7,11 @@ package securityhubautomationrulev2
 type SecurityhubAutomationRuleV2CriteriaOcsfFindingCriteria struct {
 	// Enables the creation of complex filtering conditions by combining filter.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_automation_rule_v2#composite_filters SecurityhubAutomationRuleV2#composite_filters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_automation_rule_v2#composite_filters SecurityhubAutomationRuleV2#composite_filters}
 	CompositeFilters interface{} `field:"optional" json:"compositeFilters" yaml:"compositeFilters"`
 	// The logical operator used to combine multiple conditions.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_automation_rule_v2#composite_operator SecurityhubAutomationRuleV2#composite_operator}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_automation_rule_v2#composite_operator SecurityhubAutomationRuleV2#composite_operator}
 	CompositeOperator *string `field:"optional" json:"compositeOperator" yaml:"compositeOperator"`
 }
 

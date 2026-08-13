@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/lightsail_database_snapshot awscc_lightsail_database_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lightsail_database_snapshot awscc_lightsail_database_snapshot}.
 type DataAwsccLightsailDatabaseSnapshot interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccLightsailDatabaseSnapshot) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/lightsail_database_snapshot awscc_lightsail_database_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lightsail_database_snapshot awscc_lightsail_database_snapshot} Data Source.
 func NewDataAwsccLightsailDatabaseSnapshot(scope constructs.Construct, id *string, config *DataAwsccLightsailDatabaseSnapshotConfig) DataAwsccLightsailDatabaseSnapshot {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccLightsailDatabaseSnapshot(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/lightsail_database_snapshot awscc_lightsail_database_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lightsail_database_snapshot awscc_lightsail_database_snapshot} Data Source.
 func NewDataAwsccLightsailDatabaseSnapshot_Override(d DataAwsccLightsailDatabaseSnapshot, scope constructs.Construct, id *string, config *DataAwsccLightsailDatabaseSnapshotConfig) {
 	_init_.Initialize()
 

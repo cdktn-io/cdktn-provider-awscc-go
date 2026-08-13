@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/kendra_indices awscc_kendra_indices}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/kendra_indices awscc_kendra_indices}.
 type DataAwsccKendraIndices interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccKendraIndices) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/kendra_indices awscc_kendra_indices} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/kendra_indices awscc_kendra_indices} Data Source.
 func NewDataAwsccKendraIndices(scope constructs.Construct, id *string, config *DataAwsccKendraIndicesConfig) DataAwsccKendraIndices {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccKendraIndices(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/kendra_indices awscc_kendra_indices} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/kendra_indices awscc_kendra_indices} Data Source.
 func NewDataAwsccKendraIndices_Override(d DataAwsccKendraIndices, scope constructs.Construct, id *string, config *DataAwsccKendraIndicesConfig) {
 	_init_.Initialize()
 

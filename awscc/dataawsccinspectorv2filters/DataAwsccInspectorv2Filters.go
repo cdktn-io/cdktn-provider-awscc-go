@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/inspectorv2_filters awscc_inspectorv2_filters}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/inspectorv2_filters awscc_inspectorv2_filters}.
 type DataAwsccInspectorv2Filters interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccInspectorv2Filters) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/inspectorv2_filters awscc_inspectorv2_filters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/inspectorv2_filters awscc_inspectorv2_filters} Data Source.
 func NewDataAwsccInspectorv2Filters(scope constructs.Construct, id *string, config *DataAwsccInspectorv2FiltersConfig) DataAwsccInspectorv2Filters {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccInspectorv2Filters(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/inspectorv2_filters awscc_inspectorv2_filters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/inspectorv2_filters awscc_inspectorv2_filters} Data Source.
 func NewDataAwsccInspectorv2Filters_Override(d DataAwsccInspectorv2Filters, scope constructs.Construct, id *string, config *DataAwsccInspectorv2FiltersConfig) {
 	_init_.Initialize()
 

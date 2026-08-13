@@ -9,7 +9,7 @@ type DynamodbTableLocalSecondaryIndexesProjection struct {
 	//
 	// For global and local secondary indexes, the total count of ``NonKeyAttributes`` summed across all of the secondary indexes, must not exceed 100. If you project the same attribute into two different indexes, this counts as two distinct attributes when determining the total. This limit only applies when you specify the ProjectionType of ``INCLUDE``. You still can specify the ProjectionType of ``ALL`` to project all attributes from the source table, even if the table has more than 100 attributes.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dynamodb_table#non_key_attributes DynamodbTable#non_key_attributes}
 	NonKeyAttributes *[]*string `field:"optional" json:"nonKeyAttributes" yaml:"nonKeyAttributes"`
 	// The set of attributes that are projected into the index:   +  ``KEYS_ONLY`` - Only the index and primary keys are projected into the index.
 	//
@@ -18,7 +18,7 @@ type DynamodbTableLocalSecondaryIndexesProjection struct {
 	//
 	//  When using the DynamoDB console, ``ALL`` is selected by default.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dynamodb_table#projection_type DynamodbTable#projection_type}
 	ProjectionType *string `field:"optional" json:"projectionType" yaml:"projectionType"`
 }
 

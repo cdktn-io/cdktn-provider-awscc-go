@@ -95,6 +95,10 @@ func (j *jsiiProxy_BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference)
 	return nil
 }
 
+func (j *jsiiProxy_BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference) validateSetNetworkModeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference) validateSetPidModeParameters(val *string) error {
 	return nil
 }

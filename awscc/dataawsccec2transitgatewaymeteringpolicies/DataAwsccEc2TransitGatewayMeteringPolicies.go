@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_transit_gateway_metering_policies awscc_ec2_transit_gateway_metering_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_transit_gateway_metering_policies awscc_ec2_transit_gateway_metering_policies}.
 type DataAwsccEc2TransitGatewayMeteringPolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2TransitGatewayMeteringPolicies) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_transit_gateway_metering_policies awscc_ec2_transit_gateway_metering_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_transit_gateway_metering_policies awscc_ec2_transit_gateway_metering_policies} Data Source.
 func NewDataAwsccEc2TransitGatewayMeteringPolicies(scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayMeteringPoliciesConfig) DataAwsccEc2TransitGatewayMeteringPolicies {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2TransitGatewayMeteringPolicies(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_transit_gateway_metering_policies awscc_ec2_transit_gateway_metering_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_transit_gateway_metering_policies awscc_ec2_transit_gateway_metering_policies} Data Source.
 func NewDataAwsccEc2TransitGatewayMeteringPolicies_Override(d DataAwsccEc2TransitGatewayMeteringPolicies, scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayMeteringPoliciesConfig) {
 	_init_.Initialize()
 

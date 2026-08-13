@@ -5,9 +5,9 @@ package groundstationconfig
 
 
 type GroundstationConfigConfigDataTelemetrySinkConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/groundstation_config#telemetry_sink_data GroundstationConfig#telemetry_sink_data}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/groundstation_config#telemetry_sink_data GroundstationConfig#telemetry_sink_data}.
 	TelemetrySinkData *GroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkData `field:"optional" json:"telemetrySinkData" yaml:"telemetrySinkData"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/groundstation_config#telemetry_sink_type GroundstationConfig#telemetry_sink_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/groundstation_config#telemetry_sink_type GroundstationConfig#telemetry_sink_type}.
 	TelemetrySinkType *string `field:"optional" json:"telemetrySinkType" yaml:"telemetrySinkType"`
 }
 

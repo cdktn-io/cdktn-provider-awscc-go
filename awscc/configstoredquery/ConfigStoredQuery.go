@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/config_stored_query awscc_config_stored_query}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_stored_query awscc_config_stored_query}.
 type ConfigStoredQuery interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_ConfigStoredQuery) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/config_stored_query awscc_config_stored_query} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_stored_query awscc_config_stored_query} Resource.
 func NewConfigStoredQuery(scope constructs.Construct, id *string, config *ConfigStoredQueryConfig) ConfigStoredQuery {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewConfigStoredQuery(scope constructs.Construct, id *string, config *Config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/config_stored_query awscc_config_stored_query} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_stored_query awscc_config_stored_query} Resource.
 func NewConfigStoredQuery_Override(c ConfigStoredQuery, scope constructs.Construct, id *string, config *ConfigStoredQueryConfig) {
 	_init_.Initialize()
 

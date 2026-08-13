@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/secretsmanager_secret awscc_secretsmanager_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/secretsmanager_secret awscc_secretsmanager_secret}.
 type DataAwsccSecretsmanagerSecret interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccSecretsmanagerSecret) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/secretsmanager_secret awscc_secretsmanager_secret} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/secretsmanager_secret awscc_secretsmanager_secret} Data Source.
 func NewDataAwsccSecretsmanagerSecret(scope constructs.Construct, id *string, config *DataAwsccSecretsmanagerSecretConfig) DataAwsccSecretsmanagerSecret {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccSecretsmanagerSecret(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/secretsmanager_secret awscc_secretsmanager_secret} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/secretsmanager_secret awscc_secretsmanager_secret} Data Source.
 func NewDataAwsccSecretsmanagerSecret_Override(d DataAwsccSecretsmanagerSecret, scope constructs.Construct, id *string, config *DataAwsccSecretsmanagerSecretConfig) {
 	_init_.Initialize()
 

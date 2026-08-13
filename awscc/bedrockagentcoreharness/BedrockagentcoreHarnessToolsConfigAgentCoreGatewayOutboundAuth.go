@@ -5,11 +5,11 @@ package bedrockagentcoreharness
 
 
 type BedrockagentcoreHarnessToolsConfigAgentCoreGatewayOutboundAuth struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_harness#aws_iam BedrockagentcoreHarness#aws_iam}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_harness#aws_iam BedrockagentcoreHarness#aws_iam}.
 	AwsIam *string `field:"optional" json:"awsIam" yaml:"awsIam"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_harness#none BedrockagentcoreHarness#none}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_harness#none BedrockagentcoreHarness#none}.
 	None *string `field:"optional" json:"none" yaml:"none"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_harness#oauth BedrockagentcoreHarness#oauth}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_harness#oauth BedrockagentcoreHarness#oauth}.
 	Oauth *BedrockagentcoreHarnessToolsConfigAgentCoreGatewayOutboundAuthOauth `field:"optional" json:"oauth" yaml:"oauth"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codegurureviewer_repository_association awscc_codegurureviewer_repository_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codegurureviewer_repository_association awscc_codegurureviewer_repository_association}.
 type CodegurureviewerRepositoryAssociation interface {
 	cdktn.TerraformResource
 	AssociationArn() *string
@@ -508,7 +508,7 @@ func (j *jsiiProxy_CodegurureviewerRepositoryAssociation) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codegurureviewer_repository_association awscc_codegurureviewer_repository_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codegurureviewer_repository_association awscc_codegurureviewer_repository_association} Resource.
 func NewCodegurureviewerRepositoryAssociation(scope constructs.Construct, id *string, config *CodegurureviewerRepositoryAssociationConfig) CodegurureviewerRepositoryAssociation {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewCodegurureviewerRepositoryAssociation(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codegurureviewer_repository_association awscc_codegurureviewer_repository_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codegurureviewer_repository_association awscc_codegurureviewer_repository_association} Resource.
 func NewCodegurureviewerRepositoryAssociation_Override(c CodegurureviewerRepositoryAssociation, scope constructs.Construct, id *string, config *CodegurureviewerRepositoryAssociationConfig) {
 	_init_.Initialize()
 

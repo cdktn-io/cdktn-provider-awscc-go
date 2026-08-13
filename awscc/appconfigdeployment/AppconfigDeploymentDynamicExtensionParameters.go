@@ -5,11 +5,11 @@ package appconfigdeployment
 
 
 type AppconfigDeploymentDynamicExtensionParameters struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appconfig_deployment#extension_reference AppconfigDeployment#extension_reference}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_deployment#extension_reference AppconfigDeployment#extension_reference}.
 	ExtensionReference *string `field:"optional" json:"extensionReference" yaml:"extensionReference"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appconfig_deployment#parameter_name AppconfigDeployment#parameter_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_deployment#parameter_name AppconfigDeployment#parameter_name}.
 	ParameterName *string `field:"optional" json:"parameterName" yaml:"parameterName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/appconfig_deployment#parameter_value AppconfigDeployment#parameter_value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appconfig_deployment#parameter_value AppconfigDeployment#parameter_value}.
 	ParameterValue *string `field:"optional" json:"parameterValue" yaml:"parameterValue"`
 }
 

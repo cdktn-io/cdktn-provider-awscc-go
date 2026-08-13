@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/logs_query_definitions awscc_logs_query_definitions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/logs_query_definitions awscc_logs_query_definitions}.
 type DataAwsccLogsQueryDefinitions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLogsQueryDefinitions) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/logs_query_definitions awscc_logs_query_definitions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/logs_query_definitions awscc_logs_query_definitions} Data Source.
 func NewDataAwsccLogsQueryDefinitions(scope constructs.Construct, id *string, config *DataAwsccLogsQueryDefinitionsConfig) DataAwsccLogsQueryDefinitions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLogsQueryDefinitions(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/logs_query_definitions awscc_logs_query_definitions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/logs_query_definitions awscc_logs_query_definitions} Data Source.
 func NewDataAwsccLogsQueryDefinitions_Override(d DataAwsccLogsQueryDefinitions, scope constructs.Construct, id *string, config *DataAwsccLogsQueryDefinitionsConfig) {
 	_init_.Initialize()
 

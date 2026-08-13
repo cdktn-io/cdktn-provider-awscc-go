@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_portfolio_product_association awscc_servicecatalog_portfolio_product_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_portfolio_product_association awscc_servicecatalog_portfolio_product_association}.
 type ServicecatalogPortfolioProductAssociation interface {
 	cdktn.TerraformResource
 	AcceptLanguage() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_ServicecatalogPortfolioProductAssociation) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_portfolio_product_association awscc_servicecatalog_portfolio_product_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_portfolio_product_association awscc_servicecatalog_portfolio_product_association} Resource.
 func NewServicecatalogPortfolioProductAssociation(scope constructs.Construct, id *string, config *ServicecatalogPortfolioProductAssociationConfig) ServicecatalogPortfolioProductAssociation {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewServicecatalogPortfolioProductAssociation(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalog_portfolio_product_association awscc_servicecatalog_portfolio_product_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_portfolio_product_association awscc_servicecatalog_portfolio_product_association} Resource.
 func NewServicecatalogPortfolioProductAssociation_Override(s ServicecatalogPortfolioProductAssociation, scope constructs.Construct, id *string, config *ServicecatalogPortfolioProductAssociationConfig) {
 	_init_.Initialize()
 

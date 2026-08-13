@@ -5,7 +5,7 @@ package sesconfigurationseteventdestination
 
 
 type SesConfigurationSetEventDestinationEventDestinationEventBridgeDestination struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ses_configuration_set_event_destination#event_bus_arn SesConfigurationSetEventDestination#event_bus_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set_event_destination#event_bus_arn SesConfigurationSetEventDestination#event_bus_arn}.
 	EventBusArn *string `field:"optional" json:"eventBusArn" yaml:"eventBusArn"`
 }
 

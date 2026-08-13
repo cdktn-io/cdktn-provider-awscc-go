@@ -9,7 +9,7 @@ type CodedeployDeploymentGroupLoadBalancerInfoElbInfoListStruct struct {
 	//
 	// For in-place deployments, the name of the load balancer that instances are deregistered from so they are not serving traffic during a deployment, and then re-registered with after the deployment is complete.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/codedeploy_deployment_group#name CodedeployDeploymentGroup#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codedeploy_deployment_group#name CodedeployDeploymentGroup#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 }
 

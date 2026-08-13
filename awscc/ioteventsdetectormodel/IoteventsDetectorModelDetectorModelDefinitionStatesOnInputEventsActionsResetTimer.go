@@ -7,7 +7,7 @@ package ioteventsdetectormodel
 type IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsResetTimer struct {
 	// The name of the timer to reset.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotevents_detector_model#timer_name IoteventsDetectorModel#timer_name}
 	TimerName *string `field:"optional" json:"timerName" yaml:"timerName"`
 }
 

@@ -24,11 +24,11 @@ type ServicecatalogappregistryAttributeGroupAssociationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name or the Id of the Application.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalogappregistry_attribute_group_association#application ServicecatalogappregistryAttributeGroupAssociation#application}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalogappregistry_attribute_group_association#application ServicecatalogappregistryAttributeGroupAssociation#application}
 	Application *string `field:"required" json:"application" yaml:"application"`
 	// The name or the Id of the AttributeGroup.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/servicecatalogappregistry_attribute_group_association#attribute_group ServicecatalogappregistryAttributeGroupAssociation#attribute_group}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalogappregistry_attribute_group_association#attribute_group ServicecatalogappregistryAttributeGroupAssociation#attribute_group}
 	AttributeGroup *string `field:"required" json:"attributeGroup" yaml:"attributeGroup"`
 }
 

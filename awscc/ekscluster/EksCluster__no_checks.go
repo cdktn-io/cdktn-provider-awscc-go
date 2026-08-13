@@ -95,7 +95,19 @@ func (e *jsiiProxy_EksCluster) validatePutEncryptionConfigParameters(value inter
 	return nil
 }
 
+func (e *jsiiProxy_EksCluster) validatePutKubeApiServerConfigParameters(value *EksClusterKubeApiServerConfig) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksCluster) validatePutKubeControllerManagerConfigParameters(value *EksClusterKubeControllerManagerConfig) error {
+	return nil
+}
+
 func (e *jsiiProxy_EksCluster) validatePutKubernetesNetworkConfigParameters(value *EksClusterKubernetesNetworkConfig) error {
+	return nil
+}
+
+func (e *jsiiProxy_EksCluster) validatePutKubeSchedulerConfigParameters(value *EksClusterKubeSchedulerConfig) error {
 	return nil
 }
 

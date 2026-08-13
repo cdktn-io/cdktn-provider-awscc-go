@@ -5,9 +5,9 @@ package route53recoveryreadinessrecoverygroup
 
 
 type Route53RecoveryreadinessRecoveryGroupTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53recoveryreadiness_recovery_group#key Route53RecoveryreadinessRecoveryGroup#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoveryreadiness_recovery_group#key Route53RecoveryreadinessRecoveryGroup#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53recoveryreadiness_recovery_group#value Route53RecoveryreadinessRecoveryGroup#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoveryreadiness_recovery_group#value Route53RecoveryreadinessRecoveryGroup#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

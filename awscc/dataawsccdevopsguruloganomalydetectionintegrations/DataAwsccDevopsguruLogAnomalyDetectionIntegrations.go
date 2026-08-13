@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/devopsguru_log_anomaly_detection_integrations awscc_devopsguru_log_anomaly_detection_integrations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/devopsguru_log_anomaly_detection_integrations awscc_devopsguru_log_anomaly_detection_integrations}.
 type DataAwsccDevopsguruLogAnomalyDetectionIntegrations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDevopsguruLogAnomalyDetectionIntegrations) Terraform
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/devopsguru_log_anomaly_detection_integrations awscc_devopsguru_log_anomaly_detection_integrations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/devopsguru_log_anomaly_detection_integrations awscc_devopsguru_log_anomaly_detection_integrations} Data Source.
 func NewDataAwsccDevopsguruLogAnomalyDetectionIntegrations(scope constructs.Construct, id *string, config *DataAwsccDevopsguruLogAnomalyDetectionIntegrationsConfig) DataAwsccDevopsguruLogAnomalyDetectionIntegrations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDevopsguruLogAnomalyDetectionIntegrations(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/devopsguru_log_anomaly_detection_integrations awscc_devopsguru_log_anomaly_detection_integrations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/devopsguru_log_anomaly_detection_integrations awscc_devopsguru_log_anomaly_detection_integrations} Data Source.
 func NewDataAwsccDevopsguruLogAnomalyDetectionIntegrations_Override(d DataAwsccDevopsguruLogAnomalyDetectionIntegrations, scope constructs.Construct, id *string, config *DataAwsccDevopsguruLogAnomalyDetectionIntegrationsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment}.
 type NetworkmanagerVpcAttachment interface {
 	cdktn.TerraformResource
 	AttachmentId() *string
@@ -687,7 +687,7 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachment) VpcArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment} Resource.
 func NewNetworkmanagerVpcAttachment(scope constructs.Construct, id *string, config *NetworkmanagerVpcAttachmentConfig) NetworkmanagerVpcAttachment {
 	_init_.Initialize()
 
@@ -705,7 +705,7 @@ func NewNetworkmanagerVpcAttachment(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment} Resource.
 func NewNetworkmanagerVpcAttachment_Override(n NetworkmanagerVpcAttachment, scope constructs.Construct, id *string, config *NetworkmanagerVpcAttachmentConfig) {
 	_init_.Initialize()
 

@@ -24,23 +24,23 @@ type WellarchitectedReviewTemplateConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The review template description.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wellarchitected_review_template#description WellarchitectedReviewTemplate#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#description WellarchitectedReviewTemplate#description}
 	Description *string `field:"required" json:"description" yaml:"description"`
 	// The lenses applied to the review template.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wellarchitected_review_template#lenses WellarchitectedReviewTemplate#lenses}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#lenses WellarchitectedReviewTemplate#lenses}
 	Lenses *[]*string `field:"required" json:"lenses" yaml:"lenses"`
 	// The name of the review template.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wellarchitected_review_template#template_name WellarchitectedReviewTemplate#template_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#template_name WellarchitectedReviewTemplate#template_name}
 	TemplateName *string `field:"required" json:"templateName" yaml:"templateName"`
 	// The notes associated with the review template.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wellarchitected_review_template#notes WellarchitectedReviewTemplate#notes}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#notes WellarchitectedReviewTemplate#notes}
 	Notes *string `field:"optional" json:"notes" yaml:"notes"`
 	// The tags assigned to the review template.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wellarchitected_review_template#tags WellarchitectedReviewTemplate#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wellarchitected_review_template#tags WellarchitectedReviewTemplate#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

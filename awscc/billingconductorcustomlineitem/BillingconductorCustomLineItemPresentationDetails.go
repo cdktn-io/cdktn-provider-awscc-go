@@ -5,7 +5,7 @@ package billingconductorcustomlineitem
 
 
 type BillingconductorCustomLineItemPresentationDetails struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/billingconductor_custom_line_item#service BillingconductorCustomLineItem#service}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/billingconductor_custom_line_item#service BillingconductorCustomLineItem#service}.
 	Service *string `field:"optional" json:"service" yaml:"service"`
 }
 

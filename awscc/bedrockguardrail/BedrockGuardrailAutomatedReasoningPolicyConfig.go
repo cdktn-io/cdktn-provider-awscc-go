@@ -7,11 +7,11 @@ package bedrockguardrail
 type BedrockGuardrailAutomatedReasoningPolicyConfig struct {
 	// The confidence threshold for triggering guardrail actions based on Automated Reasoning policy violations.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_guardrail#confidence_threshold BedrockGuardrail#confidence_threshold}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_guardrail#confidence_threshold BedrockGuardrail#confidence_threshold}
 	ConfidenceThreshold *float64 `field:"optional" json:"confidenceThreshold" yaml:"confidenceThreshold"`
 	// The list of Automated Reasoning policy ARNs to include in the guardrail configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_guardrail#policies BedrockGuardrail#policies}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_guardrail#policies BedrockGuardrail#policies}
 	Policies *[]*string `field:"optional" json:"policies" yaml:"policies"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface}.
 type DirectconnectPrivateVirtualInterface interface {
 	cdktn.TerraformResource
 	AllocatePrivateVirtualInterfaceRoleArn() *string
@@ -71,6 +71,9 @@ type DirectconnectPrivateVirtualInterface interface {
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
+	RateLimit() *string
+	SetRateLimit(val *string)
+	RateLimitInput() *string
 	// Experimental.
 	RawOverrides() interface{}
 	Tags() DirectconnectPrivateVirtualInterfaceTagsList
@@ -193,6 +196,7 @@ type DirectconnectPrivateVirtualInterface interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetRateLimit()
 	ResetTags()
 	ResetVirtualGatewayId()
 	SynthesizeAttributes() *map[string]interface{}
@@ -472,6 +476,26 @@ func (j *jsiiProxy_DirectconnectPrivateVirtualInterface) Provisioners() *[]inter
 	return returns
 }
 
+func (j *jsiiProxy_DirectconnectPrivateVirtualInterface) RateLimit() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rateLimit",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DirectconnectPrivateVirtualInterface) RateLimitInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rateLimitInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DirectconnectPrivateVirtualInterface) RawOverrides() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -613,7 +637,7 @@ func (j *jsiiProxy_DirectconnectPrivateVirtualInterface) VlanInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface} Resource.
 func NewDirectconnectPrivateVirtualInterface(scope constructs.Construct, id *string, config *DirectconnectPrivateVirtualInterfaceConfig) DirectconnectPrivateVirtualInterface {
 	_init_.Initialize()
 
@@ -631,7 +655,7 @@ func NewDirectconnectPrivateVirtualInterface(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface} Resource.
 func NewDirectconnectPrivateVirtualInterface_Override(d DirectconnectPrivateVirtualInterface, scope constructs.Construct, id *string, config *DirectconnectPrivateVirtualInterfaceConfig) {
 	_init_.Initialize()
 
@@ -761,6 +785,17 @@ func (j *jsiiProxy_DirectconnectPrivateVirtualInterface)SetProvisioners(val *[]i
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DirectconnectPrivateVirtualInterface)SetRateLimit(val *string) {
+	if err := j.validateSetRateLimitParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"rateLimit",
 		val,
 	)
 }
@@ -1236,6 +1271,14 @@ func (d *jsiiProxy_DirectconnectPrivateVirtualInterface) ResetOverrideLogicalId(
 	_jsii_.InvokeVoid(
 		d,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DirectconnectPrivateVirtualInterface) ResetRateLimit() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetRateLimit",
 		nil, // no parameters
 	)
 }

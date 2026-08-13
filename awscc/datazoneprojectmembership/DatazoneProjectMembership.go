@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership awscc_datazone_project_membership}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership awscc_datazone_project_membership}.
 type DatazoneProjectMembership interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -469,7 +469,7 @@ func (j *jsiiProxy_DatazoneProjectMembership) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership awscc_datazone_project_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership awscc_datazone_project_membership} Resource.
 func NewDatazoneProjectMembership(scope constructs.Construct, id *string, config *DatazoneProjectMembershipConfig) DatazoneProjectMembership {
 	_init_.Initialize()
 
@@ -487,7 +487,7 @@ func NewDatazoneProjectMembership(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_membership awscc_datazone_project_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_membership awscc_datazone_project_membership} Resource.
 func NewDatazoneProjectMembership_Override(d DatazoneProjectMembership, scope constructs.Construct, id *string, config *DatazoneProjectMembershipConfig) {
 	_init_.Initialize()
 

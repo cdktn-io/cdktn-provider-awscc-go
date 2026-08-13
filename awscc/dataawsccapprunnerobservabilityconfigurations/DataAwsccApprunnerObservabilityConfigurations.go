@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/apprunner_observability_configurations awscc_apprunner_observability_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apprunner_observability_configurations awscc_apprunner_observability_configurations}.
 type DataAwsccApprunnerObservabilityConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccApprunnerObservabilityConfigurations) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/apprunner_observability_configurations awscc_apprunner_observability_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apprunner_observability_configurations awscc_apprunner_observability_configurations} Data Source.
 func NewDataAwsccApprunnerObservabilityConfigurations(scope constructs.Construct, id *string, config *DataAwsccApprunnerObservabilityConfigurationsConfig) DataAwsccApprunnerObservabilityConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccApprunnerObservabilityConfigurations(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/apprunner_observability_configurations awscc_apprunner_observability_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apprunner_observability_configurations awscc_apprunner_observability_configurations} Data Source.
 func NewDataAwsccApprunnerObservabilityConfigurations_Override(d DataAwsccApprunnerObservabilityConfigurations, scope constructs.Construct, id *string, config *DataAwsccApprunnerObservabilityConfigurationsConfig) {
 	_init_.Initialize()
 

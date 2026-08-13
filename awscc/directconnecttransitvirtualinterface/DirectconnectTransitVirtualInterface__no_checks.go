@@ -143,6 +143,10 @@ func (j *jsiiProxy_DirectconnectTransitVirtualInterface) validateSetProvisioners
 	return nil
 }
 
+func (j *jsiiProxy_DirectconnectTransitVirtualInterface) validateSetRateLimitParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DirectconnectTransitVirtualInterface) validateSetVirtualInterfaceNameParameters(val *string) error {
 	return nil
 }

@@ -1,3 +1,3 @@
 # `awscc_rtbfabric_requester_gateway`
 
-Refer to the Terraform Registry for docs: [`awscc_rtbfabric_requester_gateway`](https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rtbfabric_requester_gateway).
+Refer to the Terraform Registry for docs: [`awscc_rtbfabric_requester_gateway`](https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rtbfabric_requester_gateway).

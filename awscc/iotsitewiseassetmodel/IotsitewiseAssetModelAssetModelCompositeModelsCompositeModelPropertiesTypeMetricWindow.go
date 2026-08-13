@@ -9,7 +9,7 @@ type IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeM
 	//
 	// This window is used in metric and aggregation computations.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_asset_model#tumbling IotsitewiseAssetModel#tumbling}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_asset_model#tumbling IotsitewiseAssetModel#tumbling}
 	Tumbling *IotsitewiseAssetModelAssetModelCompositeModelsCompositeModelPropertiesTypeMetricWindowTumbling `field:"optional" json:"tumbling" yaml:"tumbling"`
 }
 

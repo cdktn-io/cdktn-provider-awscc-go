@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_dhcp_options_plural awscc_ec2_dhcp_options_plural}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_dhcp_options_plural awscc_ec2_dhcp_options_plural}.
 type DataAwsccEc2DhcpOptionsPlural interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2DhcpOptionsPlural) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_dhcp_options_plural awscc_ec2_dhcp_options_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_dhcp_options_plural awscc_ec2_dhcp_options_plural} Data Source.
 func NewDataAwsccEc2DhcpOptionsPlural(scope constructs.Construct, id *string, config *DataAwsccEc2DhcpOptionsPluralConfig) DataAwsccEc2DhcpOptionsPlural {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2DhcpOptionsPlural(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_dhcp_options_plural awscc_ec2_dhcp_options_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_dhcp_options_plural awscc_ec2_dhcp_options_plural} Data Source.
 func NewDataAwsccEc2DhcpOptionsPlural_Override(d DataAwsccEc2DhcpOptionsPlural, scope constructs.Construct, id *string, config *DataAwsccEc2DhcpOptionsPluralConfig) {
 	_init_.Initialize()
 

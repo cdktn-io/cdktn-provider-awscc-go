@@ -24,43 +24,43 @@ type ConnectWorkspaceConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The identifier of the Amazon Connect instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#instance_arn ConnectWorkspace#instance_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#instance_arn ConnectWorkspace#instance_arn}
 	InstanceArn *string `field:"required" json:"instanceArn" yaml:"instanceArn"`
 	// The name of the workspace.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#name ConnectWorkspace#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#name ConnectWorkspace#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The resource ARNs associated with the workspace.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#associations ConnectWorkspace#associations}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#associations ConnectWorkspace#associations}
 	Associations *[]*string `field:"optional" json:"associations" yaml:"associations"`
 	// The description of the workspace.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#description ConnectWorkspace#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#description ConnectWorkspace#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The media items for the workspace.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#media ConnectWorkspace#media}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#media ConnectWorkspace#media}
 	Media interface{} `field:"optional" json:"media" yaml:"media"`
 	// The pages associated with the workspace.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#pages ConnectWorkspace#pages}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#pages ConnectWorkspace#pages}
 	Pages interface{} `field:"optional" json:"pages" yaml:"pages"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#tags ConnectWorkspace#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#tags ConnectWorkspace#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// The theme configuration for the workspace.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#theme ConnectWorkspace#theme}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#theme ConnectWorkspace#theme}
 	Theme *ConnectWorkspaceTheme `field:"optional" json:"theme" yaml:"theme"`
 	// The title of the workspace.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#title ConnectWorkspace#title}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#title ConnectWorkspace#title}
 	Title *string `field:"optional" json:"title" yaml:"title"`
 	// The visibility of the workspace. Will always be set to ASSIGNED oninitial creation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/connect_workspace#visibility ConnectWorkspace#visibility}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#visibility ConnectWorkspace#visibility}
 	Visibility *string `field:"optional" json:"visibility" yaml:"visibility"`
 }
 

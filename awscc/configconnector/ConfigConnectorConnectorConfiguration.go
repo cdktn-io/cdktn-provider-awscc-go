@@ -7,7 +7,7 @@ package configconnector
 type ConfigConnectorConnectorConfiguration struct {
 	// The configuration for connecting to Microsoft Azure.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/config_connector#azure ConfigConnector#azure}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_connector#azure ConfigConnector#azure}
 	Azure *ConfigConnectorConnectorConfigurationAzure `field:"optional" json:"azure" yaml:"azure"`
 }
 

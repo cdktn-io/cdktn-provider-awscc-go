@@ -5,9 +5,9 @@ package ec2trafficmirrorsession
 
 
 type Ec2TrafficMirrorSessionTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_traffic_mirror_session#key Ec2TrafficMirrorSession#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_traffic_mirror_session#key Ec2TrafficMirrorSession#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_traffic_mirror_session#value Ec2TrafficMirrorSession#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_traffic_mirror_session#value Ec2TrafficMirrorSession#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

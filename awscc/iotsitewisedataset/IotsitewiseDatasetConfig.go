@@ -24,19 +24,19 @@ type IotsitewiseDatasetConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the dataset.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_dataset#dataset_name IotsitewiseDataset#dataset_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_dataset#dataset_name IotsitewiseDataset#dataset_name}
 	DatasetName *string `field:"required" json:"datasetName" yaml:"datasetName"`
 	// The data source for the dataset.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_dataset#dataset_source IotsitewiseDataset#dataset_source}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_dataset#dataset_source IotsitewiseDataset#dataset_source}
 	DatasetSource *IotsitewiseDatasetDatasetSource `field:"required" json:"datasetSource" yaml:"datasetSource"`
 	// A description about the dataset, and its functionality.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_dataset#dataset_description IotsitewiseDataset#dataset_description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_dataset#dataset_description IotsitewiseDataset#dataset_description}
 	DatasetDescription *string `field:"optional" json:"datasetDescription" yaml:"datasetDescription"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iotsitewise_dataset#tags IotsitewiseDataset#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_dataset#tags IotsitewiseDataset#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

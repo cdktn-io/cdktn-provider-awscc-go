@@ -1,3 +1,3 @@
 # `awscc_wisdom_assistant`
 
-Refer to the Terraform Registry for docs: [`awscc_wisdom_assistant`](https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_assistant).
+Refer to the Terraform Registry for docs: [`awscc_wisdom_assistant`](https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant).

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/apprunner_observability_configuration awscc_apprunner_observability_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apprunner_observability_configuration awscc_apprunner_observability_configuration}.
 type DataAwsccApprunnerObservabilityConfiguration interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccApprunnerObservabilityConfiguration) TraceConfigurat
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/apprunner_observability_configuration awscc_apprunner_observability_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apprunner_observability_configuration awscc_apprunner_observability_configuration} Data Source.
 func NewDataAwsccApprunnerObservabilityConfiguration(scope constructs.Construct, id *string, config *DataAwsccApprunnerObservabilityConfigurationConfig) DataAwsccApprunnerObservabilityConfiguration {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccApprunnerObservabilityConfiguration(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/apprunner_observability_configuration awscc_apprunner_observability_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apprunner_observability_configuration awscc_apprunner_observability_configuration} Data Source.
 func NewDataAwsccApprunnerObservabilityConfiguration_Override(d DataAwsccApprunnerObservabilityConfiguration, scope constructs.Construct, id *string, config *DataAwsccApprunnerObservabilityConfigurationConfig) {
 	_init_.Initialize()
 

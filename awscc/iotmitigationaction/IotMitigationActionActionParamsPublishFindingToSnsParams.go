@@ -7,7 +7,7 @@ package iotmitigationaction
 type IotMitigationActionActionParamsPublishFindingToSnsParams struct {
 	// The ARN of the topic to which you want to publish the findings.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_mitigation_action#topic_arn IotMitigationAction#topic_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_mitigation_action#topic_arn IotMitigationAction#topic_arn}
 	TopicArn *string `field:"optional" json:"topicArn" yaml:"topicArn"`
 }
 

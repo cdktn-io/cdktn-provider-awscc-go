@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image awscc_nimblestudio_streaming_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image awscc_nimblestudio_streaming_image}.
 type NimblestudioStreamingImage interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -575,7 +575,7 @@ func (j *jsiiProxy_NimblestudioStreamingImage) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image awscc_nimblestudio_streaming_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image awscc_nimblestudio_streaming_image} Resource.
 func NewNimblestudioStreamingImage(scope constructs.Construct, id *string, config *NimblestudioStreamingImageConfig) NimblestudioStreamingImage {
 	_init_.Initialize()
 
@@ -593,7 +593,7 @@ func NewNimblestudioStreamingImage(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_streaming_image awscc_nimblestudio_streaming_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_streaming_image awscc_nimblestudio_streaming_image} Resource.
 func NewNimblestudioStreamingImage_Override(n NimblestudioStreamingImage, scope constructs.Construct, id *string, config *NimblestudioStreamingImageConfig) {
 	_init_.Initialize()
 

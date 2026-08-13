@@ -24,15 +24,15 @@ type DatabrewScheduleConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Schedule cron.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/databrew_schedule#cron_expression DatabrewSchedule#cron_expression}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/databrew_schedule#cron_expression DatabrewSchedule#cron_expression}
 	CronExpression *string `field:"required" json:"cronExpression" yaml:"cronExpression"`
 	// Schedule Name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/databrew_schedule#name DatabrewSchedule#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/databrew_schedule#name DatabrewSchedule#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/databrew_schedule#job_names DatabrewSchedule#job_names}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/databrew_schedule#job_names DatabrewSchedule#job_names}.
 	JobNames *[]*string `field:"optional" json:"jobNames" yaml:"jobNames"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/databrew_schedule#tags DatabrewSchedule#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/databrew_schedule#tags DatabrewSchedule#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

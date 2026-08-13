@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/deadline_queue_limit_association awscc_deadline_queue_limit_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/deadline_queue_limit_association awscc_deadline_queue_limit_association}.
 type DataAwsccDeadlineQueueLimitAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccDeadlineQueueLimitAssociation) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/deadline_queue_limit_association awscc_deadline_queue_limit_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/deadline_queue_limit_association awscc_deadline_queue_limit_association} Data Source.
 func NewDataAwsccDeadlineQueueLimitAssociation(scope constructs.Construct, id *string, config *DataAwsccDeadlineQueueLimitAssociationConfig) DataAwsccDeadlineQueueLimitAssociation {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccDeadlineQueueLimitAssociation(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/deadline_queue_limit_association awscc_deadline_queue_limit_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/deadline_queue_limit_association awscc_deadline_queue_limit_association} Data Source.
 func NewDataAwsccDeadlineQueueLimitAssociation_Override(d DataAwsccDeadlineQueueLimitAssociation, scope constructs.Construct, id *string, config *DataAwsccDeadlineQueueLimitAssociationConfig) {
 	_init_.Initialize()
 

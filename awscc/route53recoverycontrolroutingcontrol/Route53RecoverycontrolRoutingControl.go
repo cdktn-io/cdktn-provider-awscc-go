@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53recoverycontrol_routing_control awscc_route53recoverycontrol_routing_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoverycontrol_routing_control awscc_route53recoverycontrol_routing_control}.
 type Route53RecoverycontrolRoutingControl interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -448,7 +448,7 @@ func (j *jsiiProxy_Route53RecoverycontrolRoutingControl) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53recoverycontrol_routing_control awscc_route53recoverycontrol_routing_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoverycontrol_routing_control awscc_route53recoverycontrol_routing_control} Resource.
 func NewRoute53RecoverycontrolRoutingControl(scope constructs.Construct, id *string, config *Route53RecoverycontrolRoutingControlConfig) Route53RecoverycontrolRoutingControl {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewRoute53RecoverycontrolRoutingControl(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/route53recoverycontrol_routing_control awscc_route53recoverycontrol_routing_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoverycontrol_routing_control awscc_route53recoverycontrol_routing_control} Resource.
 func NewRoute53RecoverycontrolRoutingControl_Override(r Route53RecoverycontrolRoutingControl, scope constructs.Construct, id *string, config *Route53RecoverycontrolRoutingControlConfig) {
 	_init_.Initialize()
 

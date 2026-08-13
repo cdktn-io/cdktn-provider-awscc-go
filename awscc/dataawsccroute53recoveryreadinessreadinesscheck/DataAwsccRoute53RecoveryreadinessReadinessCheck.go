@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53recoveryreadiness_readiness_check awscc_route53recoveryreadiness_readiness_check}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53recoveryreadiness_readiness_check awscc_route53recoveryreadiness_readiness_check}.
 type DataAwsccRoute53RecoveryreadinessReadinessCheck interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccRoute53RecoveryreadinessReadinessCheck) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53recoveryreadiness_readiness_check awscc_route53recoveryreadiness_readiness_check} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53recoveryreadiness_readiness_check awscc_route53recoveryreadiness_readiness_check} Data Source.
 func NewDataAwsccRoute53RecoveryreadinessReadinessCheck(scope constructs.Construct, id *string, config *DataAwsccRoute53RecoveryreadinessReadinessCheckConfig) DataAwsccRoute53RecoveryreadinessReadinessCheck {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccRoute53RecoveryreadinessReadinessCheck(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53recoveryreadiness_readiness_check awscc_route53recoveryreadiness_readiness_check} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53recoveryreadiness_readiness_check awscc_route53recoveryreadiness_readiness_check} Data Source.
 func NewDataAwsccRoute53RecoveryreadinessReadinessCheck_Override(d DataAwsccRoute53RecoveryreadinessReadinessCheck, scope constructs.Construct, id *string, config *DataAwsccRoute53RecoveryreadinessReadinessCheckConfig) {
 	_init_.Initialize()
 

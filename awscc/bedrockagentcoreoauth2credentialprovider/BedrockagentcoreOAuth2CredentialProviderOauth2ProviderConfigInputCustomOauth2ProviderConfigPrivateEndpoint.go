@@ -9,13 +9,13 @@ type BedrockagentcoreOAuth2CredentialProviderOauth2ProviderConfigInputCustomOaut
 	//
 	// AgentCore creates and manages the VPC Lattice resource gateway and resource configuration on your behalf.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_o_auth_2_credential_provider#managed_vpc_resource BedrockagentcoreOAuth2CredentialProvider#managed_vpc_resource}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_o_auth_2_credential_provider#managed_vpc_resource BedrockagentcoreOAuth2CredentialProvider#managed_vpc_resource}
 	ManagedVpcResource *BedrockagentcoreOAuth2CredentialProviderOauth2ProviderConfigInputCustomOauth2ProviderConfigPrivateEndpointManagedVpcResource `field:"optional" json:"managedVpcResource" yaml:"managedVpcResource"`
 	// Configuration for a self-managed VPC Lattice resource.
 	//
 	// You create and manage the VPC Lattice resource gateway and resource configuration, then provide the resource configuration identifier.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrockagentcore_o_auth_2_credential_provider#self_managed_lattice_resource BedrockagentcoreOAuth2CredentialProvider#self_managed_lattice_resource}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_o_auth_2_credential_provider#self_managed_lattice_resource BedrockagentcoreOAuth2CredentialProvider#self_managed_lattice_resource}
 	SelfManagedLatticeResource *BedrockagentcoreOAuth2CredentialProviderOauth2ProviderConfigInputCustomOauth2ProviderConfigPrivateEndpointSelfManagedLatticeResource `field:"optional" json:"selfManagedLatticeResource" yaml:"selfManagedLatticeResource"`
 }
 

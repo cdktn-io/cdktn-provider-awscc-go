@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_application_inference_profile awscc_bedrock_application_inference_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_application_inference_profile awscc_bedrock_application_inference_profile}.
 type BedrockApplicationInferenceProfile interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -538,7 +538,7 @@ func (j *jsiiProxy_BedrockApplicationInferenceProfile) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_application_inference_profile awscc_bedrock_application_inference_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_application_inference_profile awscc_bedrock_application_inference_profile} Resource.
 func NewBedrockApplicationInferenceProfile(scope constructs.Construct, id *string, config *BedrockApplicationInferenceProfileConfig) BedrockApplicationInferenceProfile {
 	_init_.Initialize()
 
@@ -556,7 +556,7 @@ func NewBedrockApplicationInferenceProfile(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/bedrock_application_inference_profile awscc_bedrock_application_inference_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_application_inference_profile awscc_bedrock_application_inference_profile} Resource.
 func NewBedrockApplicationInferenceProfile_Override(b BedrockApplicationInferenceProfile, scope constructs.Construct, id *string, config *BedrockApplicationInferenceProfileConfig) {
 	_init_.Initialize()
 

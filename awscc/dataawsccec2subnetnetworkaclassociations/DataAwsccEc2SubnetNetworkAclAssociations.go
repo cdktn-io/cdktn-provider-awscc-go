@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_subnet_network_acl_associations awscc_ec2_subnet_network_acl_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_subnet_network_acl_associations awscc_ec2_subnet_network_acl_associations}.
 type DataAwsccEc2SubnetNetworkAclAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2SubnetNetworkAclAssociations) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_subnet_network_acl_associations awscc_ec2_subnet_network_acl_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_subnet_network_acl_associations awscc_ec2_subnet_network_acl_associations} Data Source.
 func NewDataAwsccEc2SubnetNetworkAclAssociations(scope constructs.Construct, id *string, config *DataAwsccEc2SubnetNetworkAclAssociationsConfig) DataAwsccEc2SubnetNetworkAclAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2SubnetNetworkAclAssociations(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ec2_subnet_network_acl_associations awscc_ec2_subnet_network_acl_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_subnet_network_acl_associations awscc_ec2_subnet_network_acl_associations} Data Source.
 func NewDataAwsccEc2SubnetNetworkAclAssociations_Override(d DataAwsccEc2SubnetNetworkAclAssociations, scope constructs.Construct, id *string, config *DataAwsccEc2SubnetNetworkAclAssociationsConfig) {
 	_init_.Initialize()
 

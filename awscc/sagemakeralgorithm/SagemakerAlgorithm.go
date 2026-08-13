@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_algorithm awscc_sagemaker_algorithm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_algorithm awscc_sagemaker_algorithm}.
 type SagemakerAlgorithm interface {
 	cdktn.TerraformResource
 	AlgorithmArn() *string
@@ -519,7 +519,7 @@ func (j *jsiiProxy_SagemakerAlgorithm) TrainingSpecificationInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_algorithm awscc_sagemaker_algorithm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_algorithm awscc_sagemaker_algorithm} Resource.
 func NewSagemakerAlgorithm(scope constructs.Construct, id *string, config *SagemakerAlgorithmConfig) SagemakerAlgorithm {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewSagemakerAlgorithm(scope constructs.Construct, id *string, config *Sagem
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/sagemaker_algorithm awscc_sagemaker_algorithm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_algorithm awscc_sagemaker_algorithm} Resource.
 func NewSagemakerAlgorithm_Override(s SagemakerAlgorithm, scope constructs.Construct, id *string, config *SagemakerAlgorithmConfig) {
 	_init_.Initialize()
 

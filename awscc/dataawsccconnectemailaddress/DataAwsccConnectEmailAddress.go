@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/connect_email_address awscc_connect_email_address}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_email_address awscc_connect_email_address}.
 type DataAwsccConnectEmailAddress interface {
 	cdktn.TerraformDataSource
 	AliasConfigurations() DataAwsccConnectEmailAddressAliasConfigurationsList
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccConnectEmailAddress) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/connect_email_address awscc_connect_email_address} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_email_address awscc_connect_email_address} Data Source.
 func NewDataAwsccConnectEmailAddress(scope constructs.Construct, id *string, config *DataAwsccConnectEmailAddressConfig) DataAwsccConnectEmailAddress {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccConnectEmailAddress(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/connect_email_address awscc_connect_email_address} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_email_address awscc_connect_email_address} Data Source.
 func NewDataAwsccConnectEmailAddress_Override(d DataAwsccConnectEmailAddress, scope constructs.Construct, id *string, config *DataAwsccConnectEmailAddressConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iottwinmaker_scene awscc_iottwinmaker_scene}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iottwinmaker_scene awscc_iottwinmaker_scene}.
 type IottwinmakerScene interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -564,7 +564,7 @@ func (j *jsiiProxy_IottwinmakerScene) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iottwinmaker_scene awscc_iottwinmaker_scene} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iottwinmaker_scene awscc_iottwinmaker_scene} Resource.
 func NewIottwinmakerScene(scope constructs.Construct, id *string, config *IottwinmakerSceneConfig) IottwinmakerScene {
 	_init_.Initialize()
 
@@ -582,7 +582,7 @@ func NewIottwinmakerScene(scope constructs.Construct, id *string, config *Iottwi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iottwinmaker_scene awscc_iottwinmaker_scene} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iottwinmaker_scene awscc_iottwinmaker_scene} Resource.
 func NewIottwinmakerScene_Override(i IottwinmakerScene, scope constructs.Construct, id *string, config *IottwinmakerSceneConfig) {
 	_init_.Initialize()
 

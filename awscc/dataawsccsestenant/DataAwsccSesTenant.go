@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ses_tenant awscc_ses_tenant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ses_tenant awscc_ses_tenant}.
 type DataAwsccSesTenant interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccSesTenant) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ses_tenant awscc_ses_tenant} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ses_tenant awscc_ses_tenant} Data Source.
 func NewDataAwsccSesTenant(scope constructs.Construct, id *string, config *DataAwsccSesTenantConfig) DataAwsccSesTenant {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccSesTenant(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ses_tenant awscc_ses_tenant} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ses_tenant awscc_ses_tenant} Data Source.
 func NewDataAwsccSesTenant_Override(d DataAwsccSesTenant, scope constructs.Construct, id *string, config *DataAwsccSesTenantConfig) {
 	_init_.Initialize()
 

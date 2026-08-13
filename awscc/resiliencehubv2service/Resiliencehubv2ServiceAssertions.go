@@ -7,7 +7,7 @@ package resiliencehubv2service
 type Resiliencehubv2ServiceAssertions struct {
 	// The text of the assertion.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/resiliencehubv2_service#text Resiliencehubv2Service#text}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#text Resiliencehubv2Service#text}
 	Text *string `field:"optional" json:"text" yaml:"text"`
 }
 

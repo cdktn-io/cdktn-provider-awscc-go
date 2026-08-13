@@ -47,6 +47,9 @@ type BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference interface {
 	IpcModeInput() *string
 	NetworkConfiguration() BatchJobDefinitionEcsPropertiesTaskPropertiesNetworkConfigurationOutputReference
 	NetworkConfigurationInput() interface{}
+	NetworkMode() *string
+	SetNetworkMode(val *string)
+	NetworkModeInput() *string
 	PidMode() *string
 	SetPidMode(val *string)
 	PidModeInput() *string
@@ -103,6 +106,7 @@ type BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference interface {
 	ResetExecutionRoleArn()
 	ResetIpcMode()
 	ResetNetworkConfiguration()
+	ResetNetworkMode()
 	ResetPidMode()
 	ResetPlatformVersion()
 	ResetRuntimePlatform()
@@ -288,6 +292,26 @@ func (j *jsiiProxy_BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference)
 	_jsii_.Get(
 		j,
 		"networkConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference) NetworkMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference) NetworkModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkModeInput",
 		&returns,
 	)
 	return returns
@@ -503,6 +527,17 @@ func (j *jsiiProxy_BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference)
 	_jsii_.Set(
 		j,
 		"ipcMode",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference)SetNetworkMode(val *string) {
+	if err := j.validateSetNetworkModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"networkMode",
 		val,
 	)
 }
@@ -847,6 +882,14 @@ func (b *jsiiProxy_BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference)
 	_jsii_.InvokeVoid(
 		b,
 		"resetNetworkConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BatchJobDefinitionEcsPropertiesTaskPropertiesOutputReference) ResetNetworkMode() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetNetworkMode",
 		nil, // no parameters
 	)
 }

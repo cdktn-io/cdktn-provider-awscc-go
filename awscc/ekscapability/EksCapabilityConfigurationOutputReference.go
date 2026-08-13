@@ -13,6 +13,9 @@ import (
 
 type EksCapabilityConfigurationOutputReference interface {
 	cdktn.ComplexObject
+	Ack() *string
+	SetAck(val *string)
+	AckInput() *string
 	ArgoCd() EksCapabilityConfigurationArgoCdOutputReference
 	ArgoCdInput() interface{}
 	// the index of the complex object in a list.
@@ -67,6 +70,7 @@ type EksCapabilityConfigurationOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutArgoCd(value *EksCapabilityConfigurationArgoCd)
+	ResetAck()
 	ResetArgoCd()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -81,6 +85,26 @@ type EksCapabilityConfigurationOutputReference interface {
 // The jsii proxy struct for EksCapabilityConfigurationOutputReference
 type jsiiProxy_EksCapabilityConfigurationOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_EksCapabilityConfigurationOutputReference) Ack() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksCapabilityConfigurationOutputReference) AckInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ackInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_EksCapabilityConfigurationOutputReference) ArgoCd() EksCapabilityConfigurationArgoCdOutputReference {
@@ -198,6 +222,17 @@ func NewEksCapabilityConfigurationOutputReference_Override(e EksCapabilityConfig
 		"@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
+	)
+}
+
+func (j *jsiiProxy_EksCapabilityConfigurationOutputReference)SetAck(val *string) {
+	if err := j.validateSetAckParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ack",
+		val,
 	)
 }
 
@@ -450,6 +485,14 @@ func (e *jsiiProxy_EksCapabilityConfigurationOutputReference) PutArgoCd(value *E
 		e,
 		"putArgoCd",
 		[]interface{}{value},
+	)
+}
+
+func (e *jsiiProxy_EksCapabilityConfigurationOutputReference) ResetAck() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetAck",
+		nil, // no parameters
 	)
 }
 

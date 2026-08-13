@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iottwinmaker_sync_job awscc_iottwinmaker_sync_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iottwinmaker_sync_job awscc_iottwinmaker_sync_job}.
 type DataAwsccIottwinmakerSyncJob interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccIottwinmakerSyncJob) WorkspaceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iottwinmaker_sync_job awscc_iottwinmaker_sync_job} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iottwinmaker_sync_job awscc_iottwinmaker_sync_job} Data Source.
 func NewDataAwsccIottwinmakerSyncJob(scope constructs.Construct, id *string, config *DataAwsccIottwinmakerSyncJobConfig) DataAwsccIottwinmakerSyncJob {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccIottwinmakerSyncJob(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/iottwinmaker_sync_job awscc_iottwinmaker_sync_job} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iottwinmaker_sync_job awscc_iottwinmaker_sync_job} Data Source.
 func NewDataAwsccIottwinmakerSyncJob_Override(d DataAwsccIottwinmakerSyncJob, scope constructs.Construct, id *string, config *DataAwsccIottwinmakerSyncJobConfig) {
 	_init_.Initialize()
 

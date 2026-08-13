@@ -7,7 +7,7 @@ package s3expressdirectorybucket
 type S3ExpressDirectoryBucketLifecycleConfiguration struct {
 	// A lifecycle rule for individual objects in an Amazon S3 Express bucket.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/s3express_directory_bucket#rules S3ExpressDirectoryBucket#rules}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3express_directory_bucket#rules S3ExpressDirectoryBucket#rules}
 	Rules interface{} `field:"optional" json:"rules" yaml:"rules"`
 }
 

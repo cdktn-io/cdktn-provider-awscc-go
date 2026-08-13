@@ -7,11 +7,11 @@ package caseslayout
 type CasesLayoutContentBasic struct {
 	// Sections within a panel or tab of the page layout.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_layout#more_info CasesLayout#more_info}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_layout#more_info CasesLayout#more_info}
 	MoreInfo *CasesLayoutContentBasicMoreInfo `field:"optional" json:"moreInfo" yaml:"moreInfo"`
 	// Sections within a panel or tab of the page layout.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cases_layout#top_panel CasesLayout#top_panel}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_layout#top_panel CasesLayout#top_panel}
 	TopPanel *CasesLayoutContentBasicTopPanel `field:"optional" json:"topPanel" yaml:"topPanel"`
 }
 

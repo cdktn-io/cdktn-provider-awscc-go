@@ -2123,6 +2123,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "ipcMode", GoGetter: "IpcMode"},
 			_jsii_.MemberProperty{JsiiProperty: "networkConfiguration", GoGetter: "NetworkConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "networkMode", GoGetter: "NetworkMode"},
 			_jsii_.MemberProperty{JsiiProperty: "pidMode", GoGetter: "PidMode"},
 			_jsii_.MemberProperty{JsiiProperty: "platformVersion", GoGetter: "PlatformVersion"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},

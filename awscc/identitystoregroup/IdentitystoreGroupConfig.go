@@ -24,15 +24,15 @@ type IdentitystoreGroupConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A string containing the name of the group. This value is commonly displayed when the group is referenced.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/identitystore_group#display_name IdentitystoreGroup#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/identitystore_group#display_name IdentitystoreGroup#display_name}
 	DisplayName *string `field:"required" json:"displayName" yaml:"displayName"`
 	// The globally unique identifier for the identity store.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/identitystore_group#identity_store_id IdentitystoreGroup#identity_store_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/identitystore_group#identity_store_id IdentitystoreGroup#identity_store_id}
 	IdentityStoreId *string `field:"required" json:"identityStoreId" yaml:"identityStoreId"`
 	// A string containing the description of the group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/identitystore_group#description IdentitystoreGroup#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/identitystore_group#description IdentitystoreGroup#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 }
 

@@ -47,6 +47,10 @@ func (b *jsiiProxy_BedrockagentcoreGatewayInterceptorConfigurationsInputConfigur
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayInterceptorConfigurationsInputConfigurationOutputReference) validatePutPayloadFilterParameters(value *BedrockagentcoreGatewayInterceptorConfigurationsInputConfigurationPayloadFilter) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayInterceptorConfigurationsInputConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

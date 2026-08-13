@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/gamelift_game_server_group awscc_gamelift_game_server_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/gamelift_game_server_group awscc_gamelift_game_server_group}.
 type DataAwsccGameliftGameServerGroup interface {
 	cdktn.TerraformDataSource
 	AutoScalingGroupArn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccGameliftGameServerGroup) VpcSubnets() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/gamelift_game_server_group awscc_gamelift_game_server_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/gamelift_game_server_group awscc_gamelift_game_server_group} Data Source.
 func NewDataAwsccGameliftGameServerGroup(scope constructs.Construct, id *string, config *DataAwsccGameliftGameServerGroupConfig) DataAwsccGameliftGameServerGroup {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccGameliftGameServerGroup(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/gamelift_game_server_group awscc_gamelift_game_server_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/gamelift_game_server_group awscc_gamelift_game_server_group} Data Source.
 func NewDataAwsccGameliftGameServerGroup_Override(d DataAwsccGameliftGameServerGroup, scope constructs.Construct, id *string, config *DataAwsccGameliftGameServerGroupConfig) {
 	_init_.Initialize()
 

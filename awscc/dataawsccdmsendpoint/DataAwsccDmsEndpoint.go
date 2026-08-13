@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/dms_endpoint awscc_dms_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/dms_endpoint awscc_dms_endpoint}.
 type DataAwsccDmsEndpoint interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -649,7 +649,7 @@ func (j *jsiiProxy_DataAwsccDmsEndpoint) Username() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/dms_endpoint awscc_dms_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/dms_endpoint awscc_dms_endpoint} Data Source.
 func NewDataAwsccDmsEndpoint(scope constructs.Construct, id *string, config *DataAwsccDmsEndpointConfig) DataAwsccDmsEndpoint {
 	_init_.Initialize()
 
@@ -667,7 +667,7 @@ func NewDataAwsccDmsEndpoint(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/dms_endpoint awscc_dms_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/dms_endpoint awscc_dms_endpoint} Data Source.
 func NewDataAwsccDmsEndpoint_Override(d DataAwsccDmsEndpoint, scope constructs.Construct, id *string, config *DataAwsccDmsEndpointConfig) {
 	_init_.Initialize()
 

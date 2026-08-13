@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/connect_data_table_attribute awscc_connect_data_table_attribute}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_data_table_attribute awscc_connect_data_table_attribute}.
 type DataAwsccConnectDataTableAttribute interface {
 	cdktn.TerraformDataSource
 	AttributeId() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccConnectDataTableAttribute) ValueType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/connect_data_table_attribute awscc_connect_data_table_attribute} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_data_table_attribute awscc_connect_data_table_attribute} Data Source.
 func NewDataAwsccConnectDataTableAttribute(scope constructs.Construct, id *string, config *DataAwsccConnectDataTableAttributeConfig) DataAwsccConnectDataTableAttribute {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccConnectDataTableAttribute(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/connect_data_table_attribute awscc_connect_data_table_attribute} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_data_table_attribute awscc_connect_data_table_attribute} Data Source.
 func NewDataAwsccConnectDataTableAttribute_Override(d DataAwsccConnectDataTableAttribute, scope constructs.Construct, id *string, config *DataAwsccConnectDataTableAttributeConfig) {
 	_init_.Initialize()
 

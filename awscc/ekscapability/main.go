@@ -364,6 +364,8 @@ func init() {
 		"@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference",
 		reflect.TypeOf((*EksCapabilityConfigurationOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "ack", GoGetter: "Ack"},
+			_jsii_.MemberProperty{JsiiProperty: "ackInput", GoGetter: "AckInput"},
 			_jsii_.MemberProperty{JsiiProperty: "argoCd", GoGetter: "ArgoCd"},
 			_jsii_.MemberProperty{JsiiProperty: "argoCdInput", GoGetter: "ArgoCdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -384,6 +386,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "putArgoCd", GoMethod: "PutArgoCd"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAck", GoMethod: "ResetAck"},
 			_jsii_.MemberMethod{JsiiMethod: "resetArgoCd", GoMethod: "ResetArgoCd"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_studio_component awscc_nimblestudio_studio_component}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_studio_component awscc_nimblestudio_studio_component}.
 type NimblestudioStudioComponent interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -603,7 +603,7 @@ func (j *jsiiProxy_NimblestudioStudioComponent) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_studio_component awscc_nimblestudio_studio_component} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_studio_component awscc_nimblestudio_studio_component} Resource.
 func NewNimblestudioStudioComponent(scope constructs.Construct, id *string, config *NimblestudioStudioComponentConfig) NimblestudioStudioComponent {
 	_init_.Initialize()
 
@@ -621,7 +621,7 @@ func NewNimblestudioStudioComponent(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/nimblestudio_studio_component awscc_nimblestudio_studio_component} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/nimblestudio_studio_component awscc_nimblestudio_studio_component} Resource.
 func NewNimblestudioStudioComponent_Override(n NimblestudioStudioComponent, scope constructs.Construct, id *string, config *NimblestudioStudioComponentConfig) {
 	_init_.Initialize()
 

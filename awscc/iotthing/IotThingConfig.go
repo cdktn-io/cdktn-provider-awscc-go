@@ -22,9 +22,9 @@ type IotThingConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_thing#attribute_payload IotThing#attribute_payload}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_thing#attribute_payload IotThing#attribute_payload}.
 	AttributePayload *IotThingAttributePayload `field:"optional" json:"attributePayload" yaml:"attributePayload"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/iot_thing#thing_name IotThing#thing_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_thing#thing_name IotThing#thing_name}.
 	ThingName *string `field:"optional" json:"thingName" yaml:"thingName"`
 }
 

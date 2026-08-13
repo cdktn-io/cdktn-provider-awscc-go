@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/networkmanager_customer_gateway_association awscc_networkmanager_customer_gateway_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/networkmanager_customer_gateway_association awscc_networkmanager_customer_gateway_association}.
 type DataAwsccNetworkmanagerCustomerGatewayAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccNetworkmanagerCustomerGatewayAssociation) TerraformR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/networkmanager_customer_gateway_association awscc_networkmanager_customer_gateway_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/networkmanager_customer_gateway_association awscc_networkmanager_customer_gateway_association} Data Source.
 func NewDataAwsccNetworkmanagerCustomerGatewayAssociation(scope constructs.Construct, id *string, config *DataAwsccNetworkmanagerCustomerGatewayAssociationConfig) DataAwsccNetworkmanagerCustomerGatewayAssociation {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccNetworkmanagerCustomerGatewayAssociation(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/networkmanager_customer_gateway_association awscc_networkmanager_customer_gateway_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/networkmanager_customer_gateway_association awscc_networkmanager_customer_gateway_association} Data Source.
 func NewDataAwsccNetworkmanagerCustomerGatewayAssociation_Override(d DataAwsccNetworkmanagerCustomerGatewayAssociation, scope constructs.Construct, id *string, config *DataAwsccNetworkmanagerCustomerGatewayAssociationConfig) {
 	_init_.Initialize()
 

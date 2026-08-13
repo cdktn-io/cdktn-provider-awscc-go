@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/deadline_limit awscc_deadline_limit}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/deadline_limit awscc_deadline_limit}.
 type DataAwsccDeadlineLimit interface {
 	cdktn.TerraformDataSource
 	AmountRequirementName() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccDeadlineLimit) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/deadline_limit awscc_deadline_limit} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/deadline_limit awscc_deadline_limit} Data Source.
 func NewDataAwsccDeadlineLimit(scope constructs.Construct, id *string, config *DataAwsccDeadlineLimitConfig) DataAwsccDeadlineLimit {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccDeadlineLimit(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/deadline_limit awscc_deadline_limit} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/deadline_limit awscc_deadline_limit} Data Source.
 func NewDataAwsccDeadlineLimit_Override(d DataAwsccDeadlineLimit, scope constructs.Construct, id *string, config *DataAwsccDeadlineLimitConfig) {
 	_init_.Initialize()
 

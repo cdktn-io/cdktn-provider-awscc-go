@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/transfer_web_app awscc_transfer_web_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/transfer_web_app awscc_transfer_web_app}.
 type DataAwsccTransferWebApp interface {
 	cdktn.TerraformDataSource
 	AccessEndpoint() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccTransferWebApp) WebAppUnits() DataAwsccTransferWebAp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/transfer_web_app awscc_transfer_web_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/transfer_web_app awscc_transfer_web_app} Data Source.
 func NewDataAwsccTransferWebApp(scope constructs.Construct, id *string, config *DataAwsccTransferWebAppConfig) DataAwsccTransferWebApp {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccTransferWebApp(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/transfer_web_app awscc_transfer_web_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/transfer_web_app awscc_transfer_web_app} Data Source.
 func NewDataAwsccTransferWebApp_Override(d DataAwsccTransferWebApp, scope constructs.Construct, id *string, config *DataAwsccTransferWebAppConfig) {
 	_init_.Initialize()
 

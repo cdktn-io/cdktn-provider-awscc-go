@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/vpclattice_auth_policy awscc_vpclattice_auth_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/vpclattice_auth_policy awscc_vpclattice_auth_policy}.
 type DataAwsccVpclatticeAuthPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccVpclatticeAuthPolicy) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/vpclattice_auth_policy awscc_vpclattice_auth_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/vpclattice_auth_policy awscc_vpclattice_auth_policy} Data Source.
 func NewDataAwsccVpclatticeAuthPolicy(scope constructs.Construct, id *string, config *DataAwsccVpclatticeAuthPolicyConfig) DataAwsccVpclatticeAuthPolicy {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccVpclatticeAuthPolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/vpclattice_auth_policy awscc_vpclattice_auth_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/vpclattice_auth_policy awscc_vpclattice_auth_policy} Data Source.
 func NewDataAwsccVpclatticeAuthPolicy_Override(d DataAwsccVpclatticeAuthPolicy, scope constructs.Construct, id *string, config *DataAwsccVpclatticeAuthPolicyConfig) {
 	_init_.Initialize()
 

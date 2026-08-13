@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/directconnect_public_virtual_interface awscc_directconnect_public_virtual_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/directconnect_public_virtual_interface awscc_directconnect_public_virtual_interface}.
 type DataAwsccDirectconnectPublicVirtualInterface interface {
 	cdktn.TerraformDataSource
 	AllocatePublicVirtualInterfaceRoleArn() *string
@@ -51,6 +51,7 @@ type DataAwsccDirectconnectPublicVirtualInterface interface {
 	Provider() cdktn.TerraformProvider
 	// Experimental.
 	SetProvider(val cdktn.TerraformProvider)
+	RateLimit() *string
 	// Experimental.
 	RawOverrides() interface{}
 	RouteFilterPrefixes() *[]*string
@@ -284,6 +285,16 @@ func (j *jsiiProxy_DataAwsccDirectconnectPublicVirtualInterface) Provider() cdkt
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccDirectconnectPublicVirtualInterface) RateLimit() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rateLimit",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccDirectconnectPublicVirtualInterface) RawOverrides() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -385,7 +396,7 @@ func (j *jsiiProxy_DataAwsccDirectconnectPublicVirtualInterface) Vlan() *float64
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/directconnect_public_virtual_interface awscc_directconnect_public_virtual_interface} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/directconnect_public_virtual_interface awscc_directconnect_public_virtual_interface} Data Source.
 func NewDataAwsccDirectconnectPublicVirtualInterface(scope constructs.Construct, id *string, config *DataAwsccDirectconnectPublicVirtualInterfaceConfig) DataAwsccDirectconnectPublicVirtualInterface {
 	_init_.Initialize()
 
@@ -403,7 +414,7 @@ func NewDataAwsccDirectconnectPublicVirtualInterface(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/directconnect_public_virtual_interface awscc_directconnect_public_virtual_interface} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/directconnect_public_virtual_interface awscc_directconnect_public_virtual_interface} Data Source.
 func NewDataAwsccDirectconnectPublicVirtualInterface_Override(d DataAwsccDirectconnectPublicVirtualInterface, scope constructs.Construct, id *string, config *DataAwsccDirectconnectPublicVirtualInterfaceConfig) {
 	_init_.Initialize()
 

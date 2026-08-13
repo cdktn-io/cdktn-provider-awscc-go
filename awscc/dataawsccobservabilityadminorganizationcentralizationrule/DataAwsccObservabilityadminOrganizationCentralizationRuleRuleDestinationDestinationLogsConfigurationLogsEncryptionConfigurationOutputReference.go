@@ -29,6 +29,7 @@ type DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDes
 	// Experimental.
 	CreationStack() *[]*string
 	EncryptionConflictResolutionStrategy() *string
+	EncryptionScope() *string
 	EncryptionStrategy() *string
 	// Experimental.
 	Fqn() *string
@@ -117,6 +118,16 @@ func (j *jsiiProxy_DataAwsccObservabilityadminOrganizationCentralizationRuleRule
 	_jsii_.Get(
 		j,
 		"encryptionConflictResolutionStrategy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationLogsEncryptionConfigurationOutputReference) EncryptionScope() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"encryptionScope",
 		&returns,
 	)
 	return returns

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/elasticloadbalancingv2_listener_rules awscc_elasticloadbalancingv2_listener_rules}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/elasticloadbalancingv2_listener_rules awscc_elasticloadbalancingv2_listener_rules}.
 type DataAwsccElasticloadbalancingv2ListenerRules interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccElasticloadbalancingv2ListenerRules) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/elasticloadbalancingv2_listener_rules awscc_elasticloadbalancingv2_listener_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/elasticloadbalancingv2_listener_rules awscc_elasticloadbalancingv2_listener_rules} Data Source.
 func NewDataAwsccElasticloadbalancingv2ListenerRules(scope constructs.Construct, id *string, config *DataAwsccElasticloadbalancingv2ListenerRulesConfig) DataAwsccElasticloadbalancingv2ListenerRules {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccElasticloadbalancingv2ListenerRules(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/elasticloadbalancingv2_listener_rules awscc_elasticloadbalancingv2_listener_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/elasticloadbalancingv2_listener_rules awscc_elasticloadbalancingv2_listener_rules} Data Source.
 func NewDataAwsccElasticloadbalancingv2ListenerRules_Override(d DataAwsccElasticloadbalancingv2ListenerRules, scope constructs.Construct, id *string, config *DataAwsccElasticloadbalancingv2ListenerRulesConfig) {
 	_init_.Initialize()
 

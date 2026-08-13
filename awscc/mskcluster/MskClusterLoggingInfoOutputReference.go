@@ -13,6 +13,8 @@ import (
 
 type MskClusterLoggingInfoOutputReference interface {
 	cdktn.ComplexObject
+	AuthorizerLogs() MskClusterLoggingInfoAuthorizerLogsOutputReference
+	AuthorizerLogsInput() interface{}
 	BrokerLogs() MskClusterLoggingInfoBrokerLogsOutputReference
 	BrokerLogsInput() interface{}
 	// the index of the complex object in a list.
@@ -66,7 +68,9 @@ type MskClusterLoggingInfoOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAuthorizerLogs(value *MskClusterLoggingInfoAuthorizerLogs)
 	PutBrokerLogs(value *MskClusterLoggingInfoBrokerLogs)
+	ResetAuthorizerLogs()
 	ResetBrokerLogs()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -81,6 +85,26 @@ type MskClusterLoggingInfoOutputReference interface {
 // The jsii proxy struct for MskClusterLoggingInfoOutputReference
 type jsiiProxy_MskClusterLoggingInfoOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_MskClusterLoggingInfoOutputReference) AuthorizerLogs() MskClusterLoggingInfoAuthorizerLogsOutputReference {
+	var returns MskClusterLoggingInfoAuthorizerLogsOutputReference
+	_jsii_.Get(
+		j,
+		"authorizerLogs",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MskClusterLoggingInfoOutputReference) AuthorizerLogsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"authorizerLogsInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_MskClusterLoggingInfoOutputReference) BrokerLogs() MskClusterLoggingInfoBrokerLogsOutputReference {
@@ -442,6 +466,17 @@ func (m *jsiiProxy_MskClusterLoggingInfoOutputReference) InterpolationForAttribu
 	return returns
 }
 
+func (m *jsiiProxy_MskClusterLoggingInfoOutputReference) PutAuthorizerLogs(value *MskClusterLoggingInfoAuthorizerLogs) {
+	if err := m.validatePutAuthorizerLogsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putAuthorizerLogs",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_MskClusterLoggingInfoOutputReference) PutBrokerLogs(value *MskClusterLoggingInfoBrokerLogs) {
 	if err := m.validatePutBrokerLogsParameters(value); err != nil {
 		panic(err)
@@ -450,6 +485,14 @@ func (m *jsiiProxy_MskClusterLoggingInfoOutputReference) PutBrokerLogs(value *Ms
 		m,
 		"putBrokerLogs",
 		[]interface{}{value},
+	)
+}
+
+func (m *jsiiProxy_MskClusterLoggingInfoOutputReference) ResetAuthorizerLogs() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetAuthorizerLogs",
+		nil, // no parameters
 	)
 }
 

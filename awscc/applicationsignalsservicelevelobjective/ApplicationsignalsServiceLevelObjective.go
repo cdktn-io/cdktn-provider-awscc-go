@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationsignals_service_level_objective awscc_applicationsignals_service_level_objective}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective awscc_applicationsignals_service_level_objective}.
 type ApplicationsignalsServiceLevelObjective interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -590,7 +590,7 @@ func (j *jsiiProxy_ApplicationsignalsServiceLevelObjective) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationsignals_service_level_objective awscc_applicationsignals_service_level_objective} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective awscc_applicationsignals_service_level_objective} Resource.
 func NewApplicationsignalsServiceLevelObjective(scope constructs.Construct, id *string, config *ApplicationsignalsServiceLevelObjectiveConfig) ApplicationsignalsServiceLevelObjective {
 	_init_.Initialize()
 
@@ -608,7 +608,7 @@ func NewApplicationsignalsServiceLevelObjective(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/applicationsignals_service_level_objective awscc_applicationsignals_service_level_objective} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective awscc_applicationsignals_service_level_objective} Resource.
 func NewApplicationsignalsServiceLevelObjective_Override(a ApplicationsignalsServiceLevelObjective, scope constructs.Construct, id *string, config *ApplicationsignalsServiceLevelObjectiveConfig) {
 	_init_.Initialize()
 

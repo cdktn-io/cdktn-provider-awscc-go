@@ -35,6 +35,8 @@ type BedrockagentcoreGatewayInterceptorConfigurationsInputConfigurationOutputRef
 	PassRequestHeaders() interface{}
 	SetPassRequestHeaders(val interface{})
 	PassRequestHeadersInput() interface{}
+	PayloadFilter() BedrockagentcoreGatewayInterceptorConfigurationsInputConfigurationPayloadFilterOutputReference
+	PayloadFilterInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,7 +69,9 @@ type BedrockagentcoreGatewayInterceptorConfigurationsInputConfigurationOutputRef
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutPayloadFilter(value *BedrockagentcoreGatewayInterceptorConfigurationsInputConfigurationPayloadFilter)
 	ResetPassRequestHeaders()
+	ResetPayloadFilter()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -148,6 +152,26 @@ func (j *jsiiProxy_BedrockagentcoreGatewayInterceptorConfigurationsInputConfigur
 	_jsii_.Get(
 		j,
 		"passRequestHeadersInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayInterceptorConfigurationsInputConfigurationOutputReference) PayloadFilter() BedrockagentcoreGatewayInterceptorConfigurationsInputConfigurationPayloadFilterOutputReference {
+	var returns BedrockagentcoreGatewayInterceptorConfigurationsInputConfigurationPayloadFilterOutputReference
+	_jsii_.Get(
+		j,
+		"payloadFilter",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGatewayInterceptorConfigurationsInputConfigurationOutputReference) PayloadFilterInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"payloadFilterInput",
 		&returns,
 	)
 	return returns
@@ -453,10 +477,29 @@ func (b *jsiiProxy_BedrockagentcoreGatewayInterceptorConfigurationsInputConfigur
 	return returns
 }
 
+func (b *jsiiProxy_BedrockagentcoreGatewayInterceptorConfigurationsInputConfigurationOutputReference) PutPayloadFilter(value *BedrockagentcoreGatewayInterceptorConfigurationsInputConfigurationPayloadFilter) {
+	if err := b.validatePutPayloadFilterParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putPayloadFilter",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreGatewayInterceptorConfigurationsInputConfigurationOutputReference) ResetPassRequestHeaders() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetPassRequestHeaders",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGatewayInterceptorConfigurationsInputConfigurationOutputReference) ResetPayloadFilter() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetPayloadFilter",
 		nil, // no parameters
 	)
 }

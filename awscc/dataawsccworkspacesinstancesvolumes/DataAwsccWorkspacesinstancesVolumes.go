@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/workspacesinstances_volumes awscc_workspacesinstances_volumes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/workspacesinstances_volumes awscc_workspacesinstances_volumes}.
 type DataAwsccWorkspacesinstancesVolumes interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccWorkspacesinstancesVolumes) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/workspacesinstances_volumes awscc_workspacesinstances_volumes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/workspacesinstances_volumes awscc_workspacesinstances_volumes} Data Source.
 func NewDataAwsccWorkspacesinstancesVolumes(scope constructs.Construct, id *string, config *DataAwsccWorkspacesinstancesVolumesConfig) DataAwsccWorkspacesinstancesVolumes {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccWorkspacesinstancesVolumes(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/workspacesinstances_volumes awscc_workspacesinstances_volumes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/workspacesinstances_volumes awscc_workspacesinstances_volumes} Data Source.
 func NewDataAwsccWorkspacesinstancesVolumes_Override(d DataAwsccWorkspacesinstancesVolumes, scope constructs.Construct, id *string, config *DataAwsccWorkspacesinstancesVolumesConfig) {
 	_init_.Initialize()
 

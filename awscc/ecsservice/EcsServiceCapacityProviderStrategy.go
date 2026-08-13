@@ -14,13 +14,13 @@ type EcsServiceCapacityProviderStrategy struct {
 	//   +  The valid range is 0 to 100,000
 	//   +  Base requirements are satisfied first before weight distribution
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_service#base EcsService#base}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_service#base EcsService#base}
 	Base *float64 `field:"optional" json:"base" yaml:"base"`
 	// The short name of the capacity provider.
 	//
 	// This can be either an AWS managed capacity provider (``FARGATE`` or ``FARGATE_SPOT``) or the name of a custom capacity provider that you created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_service#capacity_provider EcsService#capacity_provider}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_service#capacity_provider EcsService#capacity_provider}
 	CapacityProvider *string `field:"optional" json:"capacityProvider" yaml:"capacityProvider"`
 	// The *weight* value designates the relative percentage of the total number of tasks launched that should use the specified capacity provider.
 	//
@@ -41,7 +41,7 @@ type EcsServiceCapacityProviderStrategy struct {
 	//  Equal Distribution: Two capacity providers both with weight ``1`` will split tasks evenly after base requirements are met.
 	//  Weighted Distribution: If capacityProviderA has weight ``1`` and capacityProviderB has weight ``4``, then for every 1 task on A, 4 tasks will run on B.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ecs_service#weight EcsService#weight}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_service#weight EcsService#weight}
 	Weight *float64 `field:"optional" json:"weight" yaml:"weight"`
 }
 

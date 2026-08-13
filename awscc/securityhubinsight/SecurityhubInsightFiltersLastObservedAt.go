@@ -7,15 +7,15 @@ package securityhubinsight
 type SecurityhubInsightFiltersLastObservedAt struct {
 	// A date range for the date filter.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_insight#date_range SecurityhubInsight#date_range}
 	DateRange *SecurityhubInsightFiltersLastObservedAtDateRange `field:"optional" json:"dateRange" yaml:"dateRange"`
 	// The date and time, in UTC and ISO 8601 format.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_insight#end SecurityhubInsight#end}
 	End *string `field:"optional" json:"end" yaml:"end"`
 	// The date and time, in UTC and ISO 8601 format.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityhub_insight#start SecurityhubInsight#start}
 	Start *string `field:"optional" json:"start" yaml:"start"`
 }
 

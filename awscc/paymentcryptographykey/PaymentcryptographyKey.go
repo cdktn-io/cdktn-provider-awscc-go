@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/paymentcryptography_key awscc_paymentcryptography_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/paymentcryptography_key awscc_paymentcryptography_key}.
 type PaymentcryptographyKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -589,7 +589,7 @@ func (j *jsiiProxy_PaymentcryptographyKey) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/paymentcryptography_key awscc_paymentcryptography_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/paymentcryptography_key awscc_paymentcryptography_key} Resource.
 func NewPaymentcryptographyKey(scope constructs.Construct, id *string, config *PaymentcryptographyKeyConfig) PaymentcryptographyKey {
 	_init_.Initialize()
 
@@ -607,7 +607,7 @@ func NewPaymentcryptographyKey(scope constructs.Construct, id *string, config *P
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/paymentcryptography_key awscc_paymentcryptography_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/paymentcryptography_key awscc_paymentcryptography_key} Resource.
 func NewPaymentcryptographyKey_Override(p PaymentcryptographyKey, scope constructs.Construct, id *string, config *PaymentcryptographyKeyConfig) {
 	_init_.Initialize()
 

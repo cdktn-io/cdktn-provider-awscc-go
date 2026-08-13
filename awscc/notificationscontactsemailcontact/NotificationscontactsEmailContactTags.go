@@ -5,9 +5,9 @@ package notificationscontactsemailcontact
 
 
 type NotificationscontactsEmailContactTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/notificationscontacts_email_contact#key NotificationscontactsEmailContact#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/notificationscontacts_email_contact#key NotificationscontactsEmailContact#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/notificationscontacts_email_contact#value NotificationscontactsEmailContact#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/notificationscontacts_email_contact#value NotificationscontactsEmailContact#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

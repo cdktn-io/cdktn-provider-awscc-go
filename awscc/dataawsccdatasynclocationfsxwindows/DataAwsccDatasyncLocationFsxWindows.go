@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/datasync_location_fsx_windows awscc_datasync_location_fsx_windows}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/datasync_location_fsx_windows awscc_datasync_location_fsx_windows}.
 type DataAwsccDatasyncLocationFsxWindows interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccDatasyncLocationFsxWindows) User() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/datasync_location_fsx_windows awscc_datasync_location_fsx_windows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/datasync_location_fsx_windows awscc_datasync_location_fsx_windows} Data Source.
 func NewDataAwsccDatasyncLocationFsxWindows(scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationFsxWindowsConfig) DataAwsccDatasyncLocationFsxWindows {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccDatasyncLocationFsxWindows(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/datasync_location_fsx_windows awscc_datasync_location_fsx_windows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/datasync_location_fsx_windows awscc_datasync_location_fsx_windows} Data Source.
 func NewDataAwsccDatasyncLocationFsxWindows_Override(d DataAwsccDatasyncLocationFsxWindows, scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationFsxWindowsConfig) {
 	_init_.Initialize()
 

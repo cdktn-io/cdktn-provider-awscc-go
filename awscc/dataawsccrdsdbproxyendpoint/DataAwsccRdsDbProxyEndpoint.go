@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/rds_db_proxy_endpoint awscc_rds_db_proxy_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rds_db_proxy_endpoint awscc_rds_db_proxy_endpoint}.
 type DataAwsccRdsDbProxyEndpoint interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccRdsDbProxyEndpoint) VpcSubnetIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/rds_db_proxy_endpoint awscc_rds_db_proxy_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rds_db_proxy_endpoint awscc_rds_db_proxy_endpoint} Data Source.
 func NewDataAwsccRdsDbProxyEndpoint(scope constructs.Construct, id *string, config *DataAwsccRdsDbProxyEndpointConfig) DataAwsccRdsDbProxyEndpoint {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccRdsDbProxyEndpoint(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/rds_db_proxy_endpoint awscc_rds_db_proxy_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rds_db_proxy_endpoint awscc_rds_db_proxy_endpoint} Data Source.
 func NewDataAwsccRdsDbProxyEndpoint_Override(d DataAwsccRdsDbProxyEndpoint, scope constructs.Construct, id *string, config *DataAwsccRdsDbProxyEndpointConfig) {
 	_init_.Initialize()
 

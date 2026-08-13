@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/servicecatalog_stack_set_constraint awscc_servicecatalog_stack_set_constraint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalog_stack_set_constraint awscc_servicecatalog_stack_set_constraint}.
 type DataAwsccServicecatalogStackSetConstraint interface {
 	cdktn.TerraformDataSource
 	AcceptLanguage() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccServicecatalogStackSetConstraint) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/servicecatalog_stack_set_constraint awscc_servicecatalog_stack_set_constraint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalog_stack_set_constraint awscc_servicecatalog_stack_set_constraint} Data Source.
 func NewDataAwsccServicecatalogStackSetConstraint(scope constructs.Construct, id *string, config *DataAwsccServicecatalogStackSetConstraintConfig) DataAwsccServicecatalogStackSetConstraint {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccServicecatalogStackSetConstraint(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/servicecatalog_stack_set_constraint awscc_servicecatalog_stack_set_constraint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalog_stack_set_constraint awscc_servicecatalog_stack_set_constraint} Data Source.
 func NewDataAwsccServicecatalogStackSetConstraint_Override(d DataAwsccServicecatalogStackSetConstraint, scope constructs.Construct, id *string, config *DataAwsccServicecatalogStackSetConstraintConfig) {
 	_init_.Initialize()
 

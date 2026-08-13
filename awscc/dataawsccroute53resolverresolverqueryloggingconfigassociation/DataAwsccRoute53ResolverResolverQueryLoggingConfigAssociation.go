@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53resolver_resolver_query_logging_config_association awscc_route53resolver_resolver_query_logging_config_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53resolver_resolver_query_logging_config_association awscc_route53resolver_resolver_query_logging_config_association}.
 type DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociation
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53resolver_resolver_query_logging_config_association awscc_route53resolver_resolver_query_logging_config_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53resolver_resolver_query_logging_config_association awscc_route53resolver_resolver_query_logging_config_association} Data Source.
 func NewDataAwsccRoute53ResolverResolverQueryLoggingConfigAssociation(scope constructs.Construct, id *string, config *DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociationConfig) DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociation {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccRoute53ResolverResolverQueryLoggingConfigAssociation(scope cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53resolver_resolver_query_logging_config_association awscc_route53resolver_resolver_query_logging_config_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53resolver_resolver_query_logging_config_association awscc_route53resolver_resolver_query_logging_config_association} Data Source.
 func NewDataAwsccRoute53ResolverResolverQueryLoggingConfigAssociation_Override(d DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociation, scope constructs.Construct, id *string, config *DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociationConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/s3_buckets awscc_s3_buckets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3_buckets awscc_s3_buckets}.
 type DataAwsccS3Buckets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccS3Buckets) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/s3_buckets awscc_s3_buckets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3_buckets awscc_s3_buckets} Data Source.
 func NewDataAwsccS3Buckets(scope constructs.Construct, id *string, config *DataAwsccS3BucketsConfig) DataAwsccS3Buckets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccS3Buckets(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/s3_buckets awscc_s3_buckets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3_buckets awscc_s3_buckets} Data Source.
 func NewDataAwsccS3Buckets_Override(d DataAwsccS3Buckets, scope constructs.Construct, id *string, config *DataAwsccS3BucketsConfig) {
 	_init_.Initialize()
 

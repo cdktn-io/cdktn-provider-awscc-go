@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm}.
 type DataAwsccCloudwatchLogAlarm interface {
 	cdktn.TerraformDataSource
 	ActionLogLineCount() *float64
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataAwsccCloudwatchLogAlarm) TreatMissingData() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm} Data Source.
 func NewDataAwsccCloudwatchLogAlarm(scope constructs.Construct, id *string, config *DataAwsccCloudwatchLogAlarmConfig) DataAwsccCloudwatchLogAlarm {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataAwsccCloudwatchLogAlarm(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm} Data Source.
 func NewDataAwsccCloudwatchLogAlarm_Override(d DataAwsccCloudwatchLogAlarm, scope constructs.Construct, id *string, config *DataAwsccCloudwatchLogAlarmConfig) {
 	_init_.Initialize()
 

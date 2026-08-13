@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_route_server_peer awscc_ec2_route_server_peer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_route_server_peer awscc_ec2_route_server_peer}.
 type Ec2RouteServerPeer interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -525,7 +525,7 @@ func (j *jsiiProxy_Ec2RouteServerPeer) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_route_server_peer awscc_ec2_route_server_peer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_route_server_peer awscc_ec2_route_server_peer} Resource.
 func NewEc2RouteServerPeer(scope constructs.Construct, id *string, config *Ec2RouteServerPeerConfig) Ec2RouteServerPeer {
 	_init_.Initialize()
 
@@ -543,7 +543,7 @@ func NewEc2RouteServerPeer(scope constructs.Construct, id *string, config *Ec2Ro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_route_server_peer awscc_ec2_route_server_peer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_route_server_peer awscc_ec2_route_server_peer} Resource.
 func NewEc2RouteServerPeer_Override(e Ec2RouteServerPeer, scope constructs.Construct, id *string, config *Ec2RouteServerPeerConfig) {
 	_init_.Initialize()
 

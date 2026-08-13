@@ -24,27 +24,27 @@ type LambdaAliasConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the Lambda function.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_alias#function_name LambdaAlias#function_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_alias#function_name LambdaAlias#function_name}
 	FunctionName *string `field:"required" json:"functionName" yaml:"functionName"`
 	// The function version that the alias invokes.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_alias#function_version LambdaAlias#function_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_alias#function_version LambdaAlias#function_version}
 	FunctionVersion *string `field:"required" json:"functionVersion" yaml:"functionVersion"`
 	// The name of the alias.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_alias#name LambdaAlias#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_alias#name LambdaAlias#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// A description of the alias.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_alias#description LambdaAlias#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_alias#description LambdaAlias#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Specifies a provisioned concurrency configuration for a function's alias.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_alias#provisioned_concurrency_config LambdaAlias#provisioned_concurrency_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_alias#provisioned_concurrency_config LambdaAlias#provisioned_concurrency_config}
 	ProvisionedConcurrencyConfig *LambdaAliasProvisionedConcurrencyConfig `field:"optional" json:"provisionedConcurrencyConfig" yaml:"provisionedConcurrencyConfig"`
 	// The routing configuration of the alias.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/lambda_alias#routing_config LambdaAlias#routing_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_alias#routing_config LambdaAlias#routing_config}
 	RoutingConfig *LambdaAliasRoutingConfig `field:"optional" json:"routingConfig" yaml:"routingConfig"`
 }
 

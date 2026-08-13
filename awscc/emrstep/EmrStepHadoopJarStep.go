@@ -5,13 +5,13 @@ package emrstep
 
 
 type EmrStepHadoopJarStep struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#jar EmrStep#jar}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#jar EmrStep#jar}.
 	Jar *string `field:"required" json:"jar" yaml:"jar"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#args EmrStep#args}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#args EmrStep#args}.
 	Args *[]*string `field:"optional" json:"args" yaml:"args"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#main_class EmrStep#main_class}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#main_class EmrStep#main_class}.
 	MainClass *string `field:"optional" json:"mainClass" yaml:"mainClass"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/emr_step#step_properties EmrStep#step_properties}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/emr_step#step_properties EmrStep#step_properties}.
 	StepProperties interface{} `field:"optional" json:"stepProperties" yaml:"stepProperties"`
 }
 

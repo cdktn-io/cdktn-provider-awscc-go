@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ce_cost_categories awscc_ce_cost_categories}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ce_cost_categories awscc_ce_cost_categories}.
 type DataAwsccCeCostCategories interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCeCostCategories) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ce_cost_categories awscc_ce_cost_categories} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ce_cost_categories awscc_ce_cost_categories} Data Source.
 func NewDataAwsccCeCostCategories(scope constructs.Construct, id *string, config *DataAwsccCeCostCategoriesConfig) DataAwsccCeCostCategories {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCeCostCategories(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/ce_cost_categories awscc_ce_cost_categories} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ce_cost_categories awscc_ce_cost_categories} Data Source.
 func NewDataAwsccCeCostCategories_Override(d DataAwsccCeCostCategories, scope constructs.Construct, id *string, config *DataAwsccCeCostCategoriesConfig) {
 	_init_.Initialize()
 

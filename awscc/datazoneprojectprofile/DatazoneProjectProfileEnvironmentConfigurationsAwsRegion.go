@@ -5,7 +5,7 @@ package datazoneprojectprofile
 
 
 type DatazoneProjectProfileEnvironmentConfigurationsAwsRegion struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/datazone_project_profile#region_name DatazoneProjectProfile#region_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_project_profile#region_name DatazoneProjectProfile#region_name}.
 	RegionName *string `field:"optional" json:"regionName" yaml:"regionName"`
 }
 

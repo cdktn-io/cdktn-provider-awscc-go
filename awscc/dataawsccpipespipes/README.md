@@ -1,3 +1,3 @@
 # `data_awscc_pipes_pipes`
 
-Refer to the Terraform Registry for docs: [`data_awscc_pipes_pipes`](https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/pipes_pipes).
+Refer to the Terraform Registry for docs: [`data_awscc_pipes_pipes`](https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/pipes_pipes).

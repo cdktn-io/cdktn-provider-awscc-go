@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/mediaconnect_router_network_interfaces awscc_mediaconnect_router_network_interfaces}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/mediaconnect_router_network_interfaces awscc_mediaconnect_router_network_interfaces}.
 type DataAwsccMediaconnectRouterNetworkInterfaces interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMediaconnectRouterNetworkInterfaces) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/mediaconnect_router_network_interfaces awscc_mediaconnect_router_network_interfaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/mediaconnect_router_network_interfaces awscc_mediaconnect_router_network_interfaces} Data Source.
 func NewDataAwsccMediaconnectRouterNetworkInterfaces(scope constructs.Construct, id *string, config *DataAwsccMediaconnectRouterNetworkInterfacesConfig) DataAwsccMediaconnectRouterNetworkInterfaces {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMediaconnectRouterNetworkInterfaces(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/mediaconnect_router_network_interfaces awscc_mediaconnect_router_network_interfaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/mediaconnect_router_network_interfaces awscc_mediaconnect_router_network_interfaces} Data Source.
 func NewDataAwsccMediaconnectRouterNetworkInterfaces_Override(d DataAwsccMediaconnectRouterNetworkInterfaces, scope constructs.Construct, id *string, config *DataAwsccMediaconnectRouterNetworkInterfacesConfig) {
 	_init_.Initialize()
 

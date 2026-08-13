@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudtrail_resource_policy awscc_cloudtrail_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudtrail_resource_policy awscc_cloudtrail_resource_policy}.
 type CloudtrailResourcePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_CloudtrailResourcePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudtrail_resource_policy awscc_cloudtrail_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudtrail_resource_policy awscc_cloudtrail_resource_policy} Resource.
 func NewCloudtrailResourcePolicy(scope constructs.Construct, id *string, config *CloudtrailResourcePolicyConfig) CloudtrailResourcePolicy {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewCloudtrailResourcePolicy(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cloudtrail_resource_policy awscc_cloudtrail_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudtrail_resource_policy awscc_cloudtrail_resource_policy} Resource.
 func NewCloudtrailResourcePolicy_Override(c CloudtrailResourcePolicy, scope constructs.Construct, id *string, config *CloudtrailResourcePolicyConfig) {
 	_init_.Initialize()
 

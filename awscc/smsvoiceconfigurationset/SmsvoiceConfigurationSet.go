@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/smsvoice_configuration_set awscc_smsvoice_configuration_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/smsvoice_configuration_set awscc_smsvoice_configuration_set}.
 type SmsvoiceConfigurationSet interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -510,7 +510,7 @@ func (j *jsiiProxy_SmsvoiceConfigurationSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/smsvoice_configuration_set awscc_smsvoice_configuration_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/smsvoice_configuration_set awscc_smsvoice_configuration_set} Resource.
 func NewSmsvoiceConfigurationSet(scope constructs.Construct, id *string, config *SmsvoiceConfigurationSetConfig) SmsvoiceConfigurationSet {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewSmsvoiceConfigurationSet(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/smsvoice_configuration_set awscc_smsvoice_configuration_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/smsvoice_configuration_set awscc_smsvoice_configuration_set} Resource.
 func NewSmsvoiceConfigurationSet_Override(s SmsvoiceConfigurationSet, scope constructs.Construct, id *string, config *SmsvoiceConfigurationSetConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/appstream_image_builder awscc_appstream_image_builder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appstream_image_builder awscc_appstream_image_builder}.
 type DataAwsccAppstreamImageBuilder interface {
 	cdktn.TerraformDataSource
 	AccessEndpoints() DataAwsccAppstreamImageBuilderAccessEndpointsList
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccAppstreamImageBuilder) VpcConfig() DataAwsccAppstrea
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/appstream_image_builder awscc_appstream_image_builder} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appstream_image_builder awscc_appstream_image_builder} Data Source.
 func NewDataAwsccAppstreamImageBuilder(scope constructs.Construct, id *string, config *DataAwsccAppstreamImageBuilderConfig) DataAwsccAppstreamImageBuilder {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccAppstreamImageBuilder(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/appstream_image_builder awscc_appstream_image_builder} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appstream_image_builder awscc_appstream_image_builder} Data Source.
 func NewDataAwsccAppstreamImageBuilder_Override(d DataAwsccAppstreamImageBuilder, scope constructs.Construct, id *string, config *DataAwsccAppstreamImageBuilderConfig) {
 	_init_.Initialize()
 

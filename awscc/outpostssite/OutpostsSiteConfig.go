@@ -22,19 +22,19 @@ type OutpostsSiteConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/outposts_site#name OutpostsSite#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/outposts_site#name OutpostsSite#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/outposts_site#description OutpostsSite#description}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/outposts_site#description OutpostsSite#description}.
 	Description *string `field:"optional" json:"description" yaml:"description"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/outposts_site#notes OutpostsSite#notes}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/outposts_site#notes OutpostsSite#notes}.
 	Notes *string `field:"optional" json:"notes" yaml:"notes"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/outposts_site#operating_address OutpostsSite#operating_address}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/outposts_site#operating_address OutpostsSite#operating_address}.
 	OperatingAddress *OutpostsSiteOperatingAddress `field:"optional" json:"operatingAddress" yaml:"operatingAddress"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/outposts_site#rack_physical_properties OutpostsSite#rack_physical_properties}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/outposts_site#rack_physical_properties OutpostsSite#rack_physical_properties}.
 	RackPhysicalProperties *OutpostsSiteRackPhysicalProperties `field:"optional" json:"rackPhysicalProperties" yaml:"rackPhysicalProperties"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/outposts_site#shipping_address OutpostsSite#shipping_address}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/outposts_site#shipping_address OutpostsSite#shipping_address}.
 	ShippingAddress *OutpostsSiteShippingAddress `field:"optional" json:"shippingAddress" yaml:"shippingAddress"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/outposts_site#tags OutpostsSite#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/outposts_site#tags OutpostsSite#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

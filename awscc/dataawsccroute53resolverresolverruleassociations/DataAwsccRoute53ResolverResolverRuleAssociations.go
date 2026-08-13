@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53resolver_resolver_rule_associations awscc_route53resolver_resolver_rule_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53resolver_resolver_rule_associations awscc_route53resolver_resolver_rule_associations}.
 type DataAwsccRoute53ResolverResolverRuleAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRoute53ResolverResolverRuleAssociations) TerraformRe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53resolver_resolver_rule_associations awscc_route53resolver_resolver_rule_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53resolver_resolver_rule_associations awscc_route53resolver_resolver_rule_associations} Data Source.
 func NewDataAwsccRoute53ResolverResolverRuleAssociations(scope constructs.Construct, id *string, config *DataAwsccRoute53ResolverResolverRuleAssociationsConfig) DataAwsccRoute53ResolverResolverRuleAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRoute53ResolverResolverRuleAssociations(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/route53resolver_resolver_rule_associations awscc_route53resolver_resolver_rule_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53resolver_resolver_rule_associations awscc_route53resolver_resolver_rule_associations} Data Source.
 func NewDataAwsccRoute53ResolverResolverRuleAssociations_Override(d DataAwsccRoute53ResolverResolverRuleAssociations, scope constructs.Construct, id *string, config *DataAwsccRoute53ResolverResolverRuleAssociationsConfig) {
 	_init_.Initialize()
 

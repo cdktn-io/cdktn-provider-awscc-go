@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/wisdom_ai_guardrail awscc_wisdom_ai_guardrail}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/wisdom_ai_guardrail awscc_wisdom_ai_guardrail}.
 type DataAwsccWisdomAiGuardrail interface {
 	cdktn.TerraformDataSource
 	AiGuardrailArn() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccWisdomAiGuardrail) WordPolicyConfig() DataAwsccWisdo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/wisdom_ai_guardrail awscc_wisdom_ai_guardrail} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/wisdom_ai_guardrail awscc_wisdom_ai_guardrail} Data Source.
 func NewDataAwsccWisdomAiGuardrail(scope constructs.Construct, id *string, config *DataAwsccWisdomAiGuardrailConfig) DataAwsccWisdomAiGuardrail {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccWisdomAiGuardrail(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/wisdom_ai_guardrail awscc_wisdom_ai_guardrail} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/wisdom_ai_guardrail awscc_wisdom_ai_guardrail} Data Source.
 func NewDataAwsccWisdomAiGuardrail_Override(d DataAwsccWisdomAiGuardrail, scope constructs.Construct, id *string, config *DataAwsccWisdomAiGuardrailConfig) {
 	_init_.Initialize()
 

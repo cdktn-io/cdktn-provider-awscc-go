@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cleanroomsml_configured_model_algorithm_association awscc_cleanroomsml_configured_model_algorithm_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanroomsml_configured_model_algorithm_association awscc_cleanroomsml_configured_model_algorithm_association}.
 type CleanroomsmlConfiguredModelAlgorithmAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -518,7 +518,7 @@ func (j *jsiiProxy_CleanroomsmlConfiguredModelAlgorithmAssociation) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cleanroomsml_configured_model_algorithm_association awscc_cleanroomsml_configured_model_algorithm_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanroomsml_configured_model_algorithm_association awscc_cleanroomsml_configured_model_algorithm_association} Resource.
 func NewCleanroomsmlConfiguredModelAlgorithmAssociation(scope constructs.Construct, id *string, config *CleanroomsmlConfiguredModelAlgorithmAssociationConfig) CleanroomsmlConfiguredModelAlgorithmAssociation {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewCleanroomsmlConfiguredModelAlgorithmAssociation(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/cleanroomsml_configured_model_algorithm_association awscc_cleanroomsml_configured_model_algorithm_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanroomsml_configured_model_algorithm_association awscc_cleanroomsml_configured_model_algorithm_association} Resource.
 func NewCleanroomsmlConfiguredModelAlgorithmAssociation_Override(c CleanroomsmlConfiguredModelAlgorithmAssociation, scope constructs.Construct, id *string, config *CleanroomsmlConfiguredModelAlgorithmAssociationConfig) {
 	_init_.Initialize()
 

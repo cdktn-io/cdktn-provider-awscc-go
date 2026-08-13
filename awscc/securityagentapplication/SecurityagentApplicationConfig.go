@@ -24,15 +24,15 @@ type SecurityagentApplicationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Identifier of a KMS key. Can be a key ID, key ARN, alias name, or alias ARN.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityagent_application#default_kms_key_id SecurityagentApplication#default_kms_key_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_application#default_kms_key_id SecurityagentApplication#default_kms_key_id}
 	DefaultKmsKeyId *string `field:"optional" json:"defaultKmsKeyId" yaml:"defaultKmsKeyId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityagent_application#id_c_configuration SecurityagentApplication#id_c_configuration}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_application#id_c_configuration SecurityagentApplication#id_c_configuration}.
 	IdCConfiguration *SecurityagentApplicationIdCConfiguration `field:"optional" json:"idCConfiguration" yaml:"idCConfiguration"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityagent_application#role_arn SecurityagentApplication#role_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_application#role_arn SecurityagentApplication#role_arn}.
 	RoleArn *string `field:"optional" json:"roleArn" yaml:"roleArn"`
 	// Tags for the application.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/securityagent_application#tags SecurityagentApplication#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_application#tags SecurityagentApplication#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

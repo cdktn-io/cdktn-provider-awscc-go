@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_ai_guardrail_version awscc_wisdom_ai_guardrail_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_ai_guardrail_version awscc_wisdom_ai_guardrail_version}.
 type WisdomAiGuardrailVersion interface {
 	cdktn.TerraformResource
 	AiGuardrailArn() *string
@@ -469,7 +469,7 @@ func (j *jsiiProxy_WisdomAiGuardrailVersion) VersionNumber() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_ai_guardrail_version awscc_wisdom_ai_guardrail_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_ai_guardrail_version awscc_wisdom_ai_guardrail_version} Resource.
 func NewWisdomAiGuardrailVersion(scope constructs.Construct, id *string, config *WisdomAiGuardrailVersionConfig) WisdomAiGuardrailVersion {
 	_init_.Initialize()
 
@@ -487,7 +487,7 @@ func NewWisdomAiGuardrailVersion(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/wisdom_ai_guardrail_version awscc_wisdom_ai_guardrail_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_ai_guardrail_version awscc_wisdom_ai_guardrail_version} Resource.
 func NewWisdomAiGuardrailVersion_Override(w WisdomAiGuardrailVersion, scope constructs.Construct, id *string, config *WisdomAiGuardrailVersionConfig) {
 	_init_.Initialize()
 

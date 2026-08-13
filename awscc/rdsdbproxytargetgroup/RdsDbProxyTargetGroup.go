@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_proxy_target_group awscc_rds_db_proxy_target_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_proxy_target_group awscc_rds_db_proxy_target_group}.
 type RdsDbProxyTargetGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_RdsDbProxyTargetGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_proxy_target_group awscc_rds_db_proxy_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_proxy_target_group awscc_rds_db_proxy_target_group} Resource.
 func NewRdsDbProxyTargetGroup(scope constructs.Construct, id *string, config *RdsDbProxyTargetGroupConfig) RdsDbProxyTargetGroup {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewRdsDbProxyTargetGroup(scope constructs.Construct, id *string, config *Rd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_proxy_target_group awscc_rds_db_proxy_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_proxy_target_group awscc_rds_db_proxy_target_group} Resource.
 func NewRdsDbProxyTargetGroup_Override(r RdsDbProxyTargetGroup, scope constructs.Construct, id *string, config *RdsDbProxyTargetGroupConfig) {
 	_init_.Initialize()
 

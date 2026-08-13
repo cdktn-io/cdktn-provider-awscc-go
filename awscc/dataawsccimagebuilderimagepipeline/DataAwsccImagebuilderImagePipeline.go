@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline}.
 type DataAwsccImagebuilderImagePipeline interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_DataAwsccImagebuilderImagePipeline) Workflows() DataAwsccImag
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline} Data Source.
 func NewDataAwsccImagebuilderImagePipeline(scope constructs.Construct, id *string, config *DataAwsccImagebuilderImagePipelineConfig) DataAwsccImagebuilderImagePipeline {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewDataAwsccImagebuilderImagePipeline(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline} Data Source.
 func NewDataAwsccImagebuilderImagePipeline_Override(d DataAwsccImagebuilderImagePipeline, scope constructs.Construct, id *string, config *DataAwsccImagebuilderImagePipelineConfig) {
 	_init_.Initialize()
 

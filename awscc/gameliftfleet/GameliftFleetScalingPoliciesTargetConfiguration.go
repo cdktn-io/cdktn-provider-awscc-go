@@ -9,7 +9,7 @@ type GameliftFleetScalingPoliciesTargetConfiguration struct {
 	//
 	// The value must be relevant for whatever metric the scaling policy is using. For example, in a policy using the metric PercentAvailableGameSessions, the target value should be the preferred size of the fleet's buffer (the percent of capacity that should be idle and ready for new game sessions).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/gamelift_fleet#target_value GameliftFleet#target_value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_fleet#target_value GameliftFleet#target_value}
 	TargetValue *float64 `field:"optional" json:"targetValue" yaml:"targetValue"`
 }
 

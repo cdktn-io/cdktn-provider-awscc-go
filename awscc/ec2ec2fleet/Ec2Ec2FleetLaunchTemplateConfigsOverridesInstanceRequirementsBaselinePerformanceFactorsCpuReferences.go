@@ -5,7 +5,7 @@ package ec2ec2fleet
 
 
 type Ec2Ec2FleetLaunchTemplateConfigsOverridesInstanceRequirementsBaselinePerformanceFactorsCpuReferences struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_ec2_fleet#instance_family Ec2Ec2Fleet#instance_family}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_ec2_fleet#instance_family Ec2Ec2Fleet#instance_family}.
 	InstanceFamily *string `field:"optional" json:"instanceFamily" yaml:"instanceFamily"`
 }
 

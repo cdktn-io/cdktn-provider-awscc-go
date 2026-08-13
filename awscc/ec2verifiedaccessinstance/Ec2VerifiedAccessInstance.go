@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_verified_access_instance awscc_ec2_verified_access_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_verified_access_instance awscc_ec2_verified_access_instance}.
 type Ec2VerifiedAccessInstance interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -567,7 +567,7 @@ func (j *jsiiProxy_Ec2VerifiedAccessInstance) VerifiedAccessTrustProvidersInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_verified_access_instance awscc_ec2_verified_access_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_verified_access_instance awscc_ec2_verified_access_instance} Resource.
 func NewEc2VerifiedAccessInstance(scope constructs.Construct, id *string, config *Ec2VerifiedAccessInstanceConfig) Ec2VerifiedAccessInstance {
 	_init_.Initialize()
 
@@ -585,7 +585,7 @@ func NewEc2VerifiedAccessInstance(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/ec2_verified_access_instance awscc_ec2_verified_access_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_verified_access_instance awscc_ec2_verified_access_instance} Resource.
 func NewEc2VerifiedAccessInstance_Override(e Ec2VerifiedAccessInstance, scope constructs.Construct, id *string, config *Ec2VerifiedAccessInstanceConfig) {
 	_init_.Initialize()
 

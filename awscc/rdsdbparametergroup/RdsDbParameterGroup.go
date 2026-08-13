@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_parameter_group awscc_rds_db_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_parameter_group awscc_rds_db_parameter_group}.
 type RdsDbParameterGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,7 @@ type RdsDbParameterGroup interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DbParameterGroupArn() *string
 	DbParameterGroupName() *string
 	SetDbParameterGroupName(val *string)
 	DbParameterGroupNameInput() *string
@@ -237,6 +238,16 @@ func (j *jsiiProxy_RdsDbParameterGroup) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RdsDbParameterGroup) DbParameterGroupArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dbParameterGroupArn",
 		&returns,
 	)
 	return returns
@@ -473,7 +484,7 @@ func (j *jsiiProxy_RdsDbParameterGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_parameter_group awscc_rds_db_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_parameter_group awscc_rds_db_parameter_group} Resource.
 func NewRdsDbParameterGroup(scope constructs.Construct, id *string, config *RdsDbParameterGroupConfig) RdsDbParameterGroup {
 	_init_.Initialize()
 
@@ -491,7 +502,7 @@ func NewRdsDbParameterGroup(scope constructs.Construct, id *string, config *RdsD
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/rds_db_parameter_group awscc_rds_db_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_parameter_group awscc_rds_db_parameter_group} Resource.
 func NewRdsDbParameterGroup_Override(r RdsDbParameterGroup, scope constructs.Construct, id *string, config *RdsDbParameterGroupConfig) {
 	_init_.Initialize()
 

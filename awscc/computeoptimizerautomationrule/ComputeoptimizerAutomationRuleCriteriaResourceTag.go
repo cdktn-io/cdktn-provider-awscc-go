@@ -5,11 +5,11 @@ package computeoptimizerautomationrule
 
 
 type ComputeoptimizerAutomationRuleCriteriaResourceTag struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/computeoptimizer_automation_rule#comparison ComputeoptimizerAutomationRule#comparison}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/computeoptimizer_automation_rule#comparison ComputeoptimizerAutomationRule#comparison}.
 	Comparison *string `field:"optional" json:"comparison" yaml:"comparison"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/computeoptimizer_automation_rule#key ComputeoptimizerAutomationRule#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/computeoptimizer_automation_rule#key ComputeoptimizerAutomationRule#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/computeoptimizer_automation_rule#values ComputeoptimizerAutomationRule#values}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/computeoptimizer_automation_rule#values ComputeoptimizerAutomationRule#values}.
 	Values *[]*string `field:"optional" json:"values" yaml:"values"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/securitylake_subscriber_notifications awscc_securitylake_subscriber_notifications}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securitylake_subscriber_notifications awscc_securitylake_subscriber_notifications}.
 type DataAwsccSecuritylakeSubscriberNotifications interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSecuritylakeSubscriberNotifications) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/securitylake_subscriber_notifications awscc_securitylake_subscriber_notifications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securitylake_subscriber_notifications awscc_securitylake_subscriber_notifications} Data Source.
 func NewDataAwsccSecuritylakeSubscriberNotifications(scope constructs.Construct, id *string, config *DataAwsccSecuritylakeSubscriberNotificationsConfig) DataAwsccSecuritylakeSubscriberNotifications {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSecuritylakeSubscriberNotifications(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/securitylake_subscriber_notifications awscc_securitylake_subscriber_notifications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securitylake_subscriber_notifications awscc_securitylake_subscriber_notifications} Data Source.
 func NewDataAwsccSecuritylakeSubscriberNotifications_Override(d DataAwsccSecuritylakeSubscriberNotifications, scope constructs.Construct, id *string, config *DataAwsccSecuritylakeSubscriberNotificationsConfig) {
 	_init_.Initialize()
 

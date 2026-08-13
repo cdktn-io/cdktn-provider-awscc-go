@@ -1,3 +1,3 @@
 # `data_awscc_workspacesweb_user_access_logging_settings_plural`
 
-Refer to the Terraform Registry for docs: [`data_awscc_workspacesweb_user_access_logging_settings_plural`](https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/workspacesweb_user_access_logging_settings_plural).
+Refer to the Terraform Registry for docs: [`data_awscc_workspacesweb_user_access_logging_settings_plural`](https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/workspacesweb_user_access_logging_settings_plural).

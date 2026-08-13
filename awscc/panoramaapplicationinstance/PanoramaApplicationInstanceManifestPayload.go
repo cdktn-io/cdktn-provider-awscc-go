@@ -7,7 +7,7 @@ package panoramaapplicationinstance
 type PanoramaApplicationInstanceManifestPayload struct {
 	// The application manifest.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/panorama_application_instance#payload_data PanoramaApplicationInstance#payload_data}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_application_instance#payload_data PanoramaApplicationInstance#payload_data}
 	PayloadData *string `field:"optional" json:"payloadData" yaml:"payloadData"`
 }
 

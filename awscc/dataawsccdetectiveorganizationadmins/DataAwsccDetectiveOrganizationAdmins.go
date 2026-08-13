@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/detective_organization_admins awscc_detective_organization_admins}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/detective_organization_admins awscc_detective_organization_admins}.
 type DataAwsccDetectiveOrganizationAdmins interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDetectiveOrganizationAdmins) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/detective_organization_admins awscc_detective_organization_admins} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/detective_organization_admins awscc_detective_organization_admins} Data Source.
 func NewDataAwsccDetectiveOrganizationAdmins(scope constructs.Construct, id *string, config *DataAwsccDetectiveOrganizationAdminsConfig) DataAwsccDetectiveOrganizationAdmins {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDetectiveOrganizationAdmins(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/data-sources/detective_organization_admins awscc_detective_organization_admins} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/detective_organization_admins awscc_detective_organization_admins} Data Source.
 func NewDataAwsccDetectiveOrganizationAdmins_Override(d DataAwsccDetectiveOrganizationAdmins, scope constructs.Construct, id *string, config *DataAwsccDetectiveOrganizationAdminsConfig) {
 	_init_.Initialize()
 

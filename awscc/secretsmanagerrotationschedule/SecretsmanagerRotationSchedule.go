@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/secretsmanager_rotation_schedule awscc_secretsmanager_rotation_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/secretsmanager_rotation_schedule awscc_secretsmanager_rotation_schedule}.
 type SecretsmanagerRotationSchedule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -533,7 +533,7 @@ func (j *jsiiProxy_SecretsmanagerRotationSchedule) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/secretsmanager_rotation_schedule awscc_secretsmanager_rotation_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/secretsmanager_rotation_schedule awscc_secretsmanager_rotation_schedule} Resource.
 func NewSecretsmanagerRotationSchedule(scope constructs.Construct, id *string, config *SecretsmanagerRotationScheduleConfig) SecretsmanagerRotationSchedule {
 	_init_.Initialize()
 
@@ -551,7 +551,7 @@ func NewSecretsmanagerRotationSchedule(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/secretsmanager_rotation_schedule awscc_secretsmanager_rotation_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/secretsmanager_rotation_schedule awscc_secretsmanager_rotation_schedule} Resource.
 func NewSecretsmanagerRotationSchedule_Override(s SecretsmanagerRotationSchedule, scope constructs.Construct, id *string, config *SecretsmanagerRotationScheduleConfig) {
 	_init_.Initialize()
 

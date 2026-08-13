@@ -7,11 +7,11 @@ package observabilityadmintelemetryrule
 type ObservabilityadminTelemetryRuleRuleDestinationConfigurationWafLoggingParametersLoggingFilter struct {
 	// The behavior required of the filter.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/observabilityadmin_telemetry_rule#default_behavior ObservabilityadminTelemetryRule#default_behavior}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/observabilityadmin_telemetry_rule#default_behavior ObservabilityadminTelemetryRule#default_behavior}
 	DefaultBehavior *string `field:"optional" json:"defaultBehavior" yaml:"defaultBehavior"`
 	// A list of filters to be applied.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.96.0/docs/resources/observabilityadmin_telemetry_rule#filters ObservabilityadminTelemetryRule#filters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/observabilityadmin_telemetry_rule#filters ObservabilityadminTelemetryRule#filters}
 	Filters interface{} `field:"optional" json:"filters" yaml:"filters"`
 }
 
