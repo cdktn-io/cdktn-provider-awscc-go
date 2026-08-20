@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_api_destination awscc_events_api_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_api_destination awscc_events_api_destination}.
 type EventsApiDestination interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -518,7 +518,7 @@ func (j *jsiiProxy_EventsApiDestination) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_api_destination awscc_events_api_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_api_destination awscc_events_api_destination} Resource.
 func NewEventsApiDestination(scope constructs.Construct, id *string, config *EventsApiDestinationConfig) EventsApiDestination {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewEventsApiDestination(scope constructs.Construct, id *string, config *Eve
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_api_destination awscc_events_api_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_api_destination awscc_events_api_destination} Resource.
 func NewEventsApiDestination_Override(e EventsApiDestination, scope constructs.Construct, id *string, config *EventsApiDestinationConfig) {
 	_init_.Initialize()
 

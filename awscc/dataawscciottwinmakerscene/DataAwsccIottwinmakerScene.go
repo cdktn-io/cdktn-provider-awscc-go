@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iottwinmaker_scene awscc_iottwinmaker_scene}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iottwinmaker_scene awscc_iottwinmaker_scene}.
 type DataAwsccIottwinmakerScene interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccIottwinmakerScene) WorkspaceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iottwinmaker_scene awscc_iottwinmaker_scene} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iottwinmaker_scene awscc_iottwinmaker_scene} Data Source.
 func NewDataAwsccIottwinmakerScene(scope constructs.Construct, id *string, config *DataAwsccIottwinmakerSceneConfig) DataAwsccIottwinmakerScene {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccIottwinmakerScene(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iottwinmaker_scene awscc_iottwinmaker_scene} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iottwinmaker_scene awscc_iottwinmaker_scene} Data Source.
 func NewDataAwsccIottwinmakerScene_Override(d DataAwsccIottwinmakerScene, scope constructs.Construct, id *string, config *DataAwsccIottwinmakerSceneConfig) {
 	_init_.Initialize()
 

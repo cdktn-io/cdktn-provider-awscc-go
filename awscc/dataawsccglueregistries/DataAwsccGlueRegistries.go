@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/glue_registries awscc_glue_registries}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_registries awscc_glue_registries}.
 type DataAwsccGlueRegistries interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGlueRegistries) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/glue_registries awscc_glue_registries} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_registries awscc_glue_registries} Data Source.
 func NewDataAwsccGlueRegistries(scope constructs.Construct, id *string, config *DataAwsccGlueRegistriesConfig) DataAwsccGlueRegistries {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGlueRegistries(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/glue_registries awscc_glue_registries} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_registries awscc_glue_registries} Data Source.
 func NewDataAwsccGlueRegistries_Override(d DataAwsccGlueRegistries, scope constructs.Construct, id *string, config *DataAwsccGlueRegistriesConfig) {
 	_init_.Initialize()
 

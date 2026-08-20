@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_vector_bucket awscc_s3vectors_vector_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3vectors_vector_bucket awscc_s3vectors_vector_bucket}.
 type S3VectorsVectorBucket interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_S3VectorsVectorBucket) VectorBucketNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_vector_bucket awscc_s3vectors_vector_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3vectors_vector_bucket awscc_s3vectors_vector_bucket} Resource.
 func NewS3VectorsVectorBucket(scope constructs.Construct, id *string, config *S3VectorsVectorBucketConfig) S3VectorsVectorBucket {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewS3VectorsVectorBucket(scope constructs.Construct, id *string, config *S3
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3vectors_vector_bucket awscc_s3vectors_vector_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3vectors_vector_bucket awscc_s3vectors_vector_bucket} Resource.
 func NewS3VectorsVectorBucket_Override(s S3VectorsVectorBucket, scope constructs.Construct, id *string, config *S3VectorsVectorBucketConfig) {
 	_init_.Initialize()
 

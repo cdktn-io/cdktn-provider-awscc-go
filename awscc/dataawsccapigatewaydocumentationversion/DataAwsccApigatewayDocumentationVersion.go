@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigateway_documentation_version awscc_apigateway_documentation_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigateway_documentation_version awscc_apigateway_documentation_version}.
 type DataAwsccApigatewayDocumentationVersion interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccApigatewayDocumentationVersion) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigateway_documentation_version awscc_apigateway_documentation_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigateway_documentation_version awscc_apigateway_documentation_version} Data Source.
 func NewDataAwsccApigatewayDocumentationVersion(scope constructs.Construct, id *string, config *DataAwsccApigatewayDocumentationVersionConfig) DataAwsccApigatewayDocumentationVersion {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccApigatewayDocumentationVersion(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigateway_documentation_version awscc_apigateway_documentation_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigateway_documentation_version awscc_apigateway_documentation_version} Data Source.
 func NewDataAwsccApigatewayDocumentationVersion_Override(d DataAwsccApigatewayDocumentationVersion, scope constructs.Construct, id *string, config *DataAwsccApigatewayDocumentationVersionConfig) {
 	_init_.Initialize()
 

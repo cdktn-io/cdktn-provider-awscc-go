@@ -37,19 +37,19 @@ type RdsOptionGroupConfig struct {
 	//   +   ``sqlserver-ex``
 	//   +   ``sqlserver-web``
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_option_group#engine_name RdsOptionGroup#engine_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_option_group#engine_name RdsOptionGroup#engine_name}
 	EngineName *string `field:"required" json:"engineName" yaml:"engineName"`
 	// Specifies the major version of the engine that this option group should be associated with.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_option_group#major_engine_version RdsOptionGroup#major_engine_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_option_group#major_engine_version RdsOptionGroup#major_engine_version}
 	MajorEngineVersion *string `field:"required" json:"majorEngineVersion" yaml:"majorEngineVersion"`
 	// The description of the option group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_option_group#option_group_description RdsOptionGroup#option_group_description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_option_group#option_group_description RdsOptionGroup#option_group_description}
 	OptionGroupDescription *string `field:"required" json:"optionGroupDescription" yaml:"optionGroupDescription"`
 	// A list of all available options for an option group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_option_group#option_configurations RdsOptionGroup#option_configurations}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_option_group#option_configurations RdsOptionGroup#option_configurations}
 	OptionConfigurations interface{} `field:"optional" json:"optionConfigurations" yaml:"optionConfigurations"`
 	// The name of the option group to be created.
 	//
@@ -62,11 +62,11 @@ type RdsOptionGroupConfig struct {
 	//  If you don't specify a value for ``OptionGroupName`` property, a name is automatically created for the option group.
 	//   This value is stored as a lowercase string.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_option_group#option_group_name RdsOptionGroup#option_group_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_option_group#option_group_name RdsOptionGroup#option_group_name}
 	OptionGroupName *string `field:"optional" json:"optionGroupName" yaml:"optionGroupName"`
 	// Tags to assign to the option group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_option_group#tags RdsOptionGroup#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_option_group#tags RdsOptionGroup#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

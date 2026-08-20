@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository awscc_ecr_public_repository}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_public_repository awscc_ecr_public_repository}.
 type EcrPublicRepository interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_EcrPublicRepository) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository awscc_ecr_public_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_public_repository awscc_ecr_public_repository} Resource.
 func NewEcrPublicRepository(scope constructs.Construct, id *string, config *EcrPublicRepositoryConfig) EcrPublicRepository {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewEcrPublicRepository(scope constructs.Construct, id *string, config *EcrP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecr_public_repository awscc_ecr_public_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecr_public_repository awscc_ecr_public_repository} Resource.
 func NewEcrPublicRepository_Override(e EcrPublicRepository, scope constructs.Construct, id *string, config *EcrPublicRepositoryConfig) {
 	_init_.Initialize()
 

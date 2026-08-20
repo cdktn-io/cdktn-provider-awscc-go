@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/acmpca_certificate awscc_acmpca_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/acmpca_certificate awscc_acmpca_certificate}.
 type DataAwsccAcmpcaCertificate interface {
 	cdktn.TerraformDataSource
 	ApiPassthrough() DataAwsccAcmpcaCertificateApiPassthroughOutputReference
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccAcmpcaCertificate) ValidityNotBefore() DataAwsccAcmp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/acmpca_certificate awscc_acmpca_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/acmpca_certificate awscc_acmpca_certificate} Data Source.
 func NewDataAwsccAcmpcaCertificate(scope constructs.Construct, id *string, config *DataAwsccAcmpcaCertificateConfig) DataAwsccAcmpcaCertificate {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccAcmpcaCertificate(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/acmpca_certificate awscc_acmpca_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/acmpca_certificate awscc_acmpca_certificate} Data Source.
 func NewDataAwsccAcmpcaCertificate_Override(d DataAwsccAcmpcaCertificate, scope constructs.Construct, id *string, config *DataAwsccAcmpcaCertificateConfig) {
 	_init_.Initialize()
 

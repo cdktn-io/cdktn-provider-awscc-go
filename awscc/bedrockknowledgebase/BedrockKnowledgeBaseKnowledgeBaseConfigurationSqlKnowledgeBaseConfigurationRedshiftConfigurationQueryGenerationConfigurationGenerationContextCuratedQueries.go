@@ -7,11 +7,11 @@ package bedrockknowledgebase
 type BedrockKnowledgeBaseKnowledgeBaseConfigurationSqlKnowledgeBaseConfigurationRedshiftConfigurationQueryGenerationConfigurationGenerationContextCuratedQueries struct {
 	// Question for the curated query.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#natural_language BedrockKnowledgeBase#natural_language}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_knowledge_base#natural_language BedrockKnowledgeBase#natural_language}
 	NaturalLanguage *string `field:"optional" json:"naturalLanguage" yaml:"naturalLanguage"`
 	// Answer for the curated query.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_knowledge_base#sql BedrockKnowledgeBase#sql}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_knowledge_base#sql BedrockKnowledgeBase#sql}
 	Sql *string `field:"optional" json:"sql" yaml:"sql"`
 }
 

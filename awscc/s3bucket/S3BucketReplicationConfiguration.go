@@ -9,13 +9,13 @@ type S3BucketReplicationConfiguration struct {
 	//
 	// For more information, see [How to Set Up Replication](https://docs.aws.amazon.com/AmazonS3/latest/dev/replication-how-setup.html) in the *Amazon S3 User Guide*.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3_bucket#role S3Bucket#role}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_bucket#role S3Bucket#role}
 	Role *string `field:"optional" json:"role" yaml:"role"`
 	// A container for one or more replication rules.
 	//
 	// A replication configuration must have at least one rule and can contain a maximum of 1,000 rules.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 	Rules interface{} `field:"optional" json:"rules" yaml:"rules"`
 }
 

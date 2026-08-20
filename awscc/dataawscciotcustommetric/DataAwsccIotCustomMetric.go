@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iot_custom_metric awscc_iot_custom_metric}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_custom_metric awscc_iot_custom_metric}.
 type DataAwsccIotCustomMetric interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccIotCustomMetric) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iot_custom_metric awscc_iot_custom_metric} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_custom_metric awscc_iot_custom_metric} Data Source.
 func NewDataAwsccIotCustomMetric(scope constructs.Construct, id *string, config *DataAwsccIotCustomMetricConfig) DataAwsccIotCustomMetric {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccIotCustomMetric(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iot_custom_metric awscc_iot_custom_metric} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_custom_metric awscc_iot_custom_metric} Data Source.
 func NewDataAwsccIotCustomMetric_Override(d DataAwsccIotCustomMetric, scope constructs.Construct, id *string, config *DataAwsccIotCustomMetricConfig) {
 	_init_.Initialize()
 

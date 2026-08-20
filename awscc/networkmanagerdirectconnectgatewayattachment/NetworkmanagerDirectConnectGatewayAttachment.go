@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment}.
 type NetworkmanagerDirectConnectGatewayAttachment interface {
 	cdktn.TerraformResource
 	AttachmentId() *string
@@ -652,7 +652,7 @@ func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) UpdatedAt() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment} Resource.
 func NewNetworkmanagerDirectConnectGatewayAttachment(scope constructs.Construct, id *string, config *NetworkmanagerDirectConnectGatewayAttachmentConfig) NetworkmanagerDirectConnectGatewayAttachment {
 	_init_.Initialize()
 
@@ -670,7 +670,7 @@ func NewNetworkmanagerDirectConnectGatewayAttachment(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment} Resource.
 func NewNetworkmanagerDirectConnectGatewayAttachment_Override(n NetworkmanagerDirectConnectGatewayAttachment, scope constructs.Construct, id *string, config *NetworkmanagerDirectConnectGatewayAttachmentConfig) {
 	_init_.Initialize()
 

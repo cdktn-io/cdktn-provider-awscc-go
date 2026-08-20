@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/neptune_global_cluster awscc_neptune_global_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/neptune_global_cluster awscc_neptune_global_cluster}.
 type DataAwsccNeptuneGlobalCluster interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccNeptuneGlobalCluster) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/neptune_global_cluster awscc_neptune_global_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/neptune_global_cluster awscc_neptune_global_cluster} Data Source.
 func NewDataAwsccNeptuneGlobalCluster(scope constructs.Construct, id *string, config *DataAwsccNeptuneGlobalClusterConfig) DataAwsccNeptuneGlobalCluster {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccNeptuneGlobalCluster(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/neptune_global_cluster awscc_neptune_global_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/neptune_global_cluster awscc_neptune_global_cluster} Data Source.
 func NewDataAwsccNeptuneGlobalCluster_Override(d DataAwsccNeptuneGlobalCluster, scope constructs.Construct, id *string, config *DataAwsccNeptuneGlobalClusterConfig) {
 	_init_.Initialize()
 

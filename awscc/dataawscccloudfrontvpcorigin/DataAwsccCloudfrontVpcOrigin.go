@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudfront_vpc_origin awscc_cloudfront_vpc_origin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudfront_vpc_origin awscc_cloudfront_vpc_origin}.
 type DataAwsccCloudfrontVpcOrigin interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccCloudfrontVpcOrigin) VpcOriginId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudfront_vpc_origin awscc_cloudfront_vpc_origin} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudfront_vpc_origin awscc_cloudfront_vpc_origin} Data Source.
 func NewDataAwsccCloudfrontVpcOrigin(scope constructs.Construct, id *string, config *DataAwsccCloudfrontVpcOriginConfig) DataAwsccCloudfrontVpcOrigin {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccCloudfrontVpcOrigin(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cloudfront_vpc_origin awscc_cloudfront_vpc_origin} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudfront_vpc_origin awscc_cloudfront_vpc_origin} Data Source.
 func NewDataAwsccCloudfrontVpcOrigin_Override(d DataAwsccCloudfrontVpcOrigin, scope constructs.Construct, id *string, config *DataAwsccCloudfrontVpcOriginConfig) {
 	_init_.Initialize()
 

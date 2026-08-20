@@ -22,13 +22,13 @@ type VpclatticeServiceNetworkConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_service_network#auth_type VpclatticeServiceNetwork#auth_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_service_network#auth_type VpclatticeServiceNetwork#auth_type}.
 	AuthType *string `field:"optional" json:"authType" yaml:"authType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_service_network#name VpclatticeServiceNetwork#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_service_network#name VpclatticeServiceNetwork#name}.
 	Name *string `field:"optional" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_service_network#sharing_config VpclatticeServiceNetwork#sharing_config}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_service_network#sharing_config VpclatticeServiceNetwork#sharing_config}.
 	SharingConfig *VpclatticeServiceNetworkSharingConfig `field:"optional" json:"sharingConfig" yaml:"sharingConfig"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/vpclattice_service_network#tags VpclatticeServiceNetwork#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_service_network#tags VpclatticeServiceNetwork#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

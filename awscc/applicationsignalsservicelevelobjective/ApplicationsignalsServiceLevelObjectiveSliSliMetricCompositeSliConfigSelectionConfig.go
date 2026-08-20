@@ -5,9 +5,9 @@ package applicationsignalsservicelevelobjective
 
 
 type ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigSelectionConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#pattern ApplicationsignalsServiceLevelObjective#pattern}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#pattern ApplicationsignalsServiceLevelObjective#pattern}.
 	Pattern *string `field:"optional" json:"pattern" yaml:"pattern"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#type ApplicationsignalsServiceLevelObjective#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#type ApplicationsignalsServiceLevelObjective#type}.
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

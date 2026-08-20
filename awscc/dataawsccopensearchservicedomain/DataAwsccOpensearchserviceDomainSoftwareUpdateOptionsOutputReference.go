@@ -41,6 +41,7 @@ type DataAwsccOpensearchserviceDomainSoftwareUpdateOptionsOutputReference interf
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	UseLatestServiceSoftwareForBlueGreen() cdktn.IResolvable
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -155,6 +156,16 @@ func (j *jsiiProxy_DataAwsccOpensearchserviceDomainSoftwareUpdateOptionsOutputRe
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccOpensearchserviceDomainSoftwareUpdateOptionsOutputReference) UseLatestServiceSoftwareForBlueGreen() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"useLatestServiceSoftwareForBlueGreen",
 		&returns,
 	)
 	return returns

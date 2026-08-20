@@ -1,3 +1,3 @@
 # `awscc_lambda_code_signing_config`
 
-Refer to the Terraform Registry for docs: [`awscc_lambda_code_signing_config`](https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_code_signing_config).
+Refer to the Terraform Registry for docs: [`awscc_lambda_code_signing_config`](https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_code_signing_config).

@@ -7,11 +7,11 @@ package connectcampaignsv2campaign
 type Connectcampaignsv2CampaignCommunicationTimeConfigWhatsAppOpenHoursDailyHoursValue struct {
 	// Time in ISO 8601 format, e.g. T23:11.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#end_time Connectcampaignsv2Campaign#end_time}
 	EndTime *string `field:"optional" json:"endTime" yaml:"endTime"`
 	// Time in ISO 8601 format, e.g. T23:11.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connectcampaignsv2_campaign#start_time Connectcampaignsv2Campaign#start_time}
 	StartTime *string `field:"optional" json:"startTime" yaml:"startTime"`
 }
 

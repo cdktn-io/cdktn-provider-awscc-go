@@ -7,11 +7,11 @@ package memorydbsubnetgroup
 type MemorydbSubnetGroupTags struct {
 	// The key for the tag. May not be null.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/memorydb_subnet_group#key MemorydbSubnetGroup#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_subnet_group#key MemorydbSubnetGroup#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The tag's value. May be null.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/memorydb_subnet_group#value MemorydbSubnetGroup#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_subnet_group#value MemorydbSubnetGroup#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

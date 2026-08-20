@@ -24,13 +24,13 @@ type S3ExpressBucketPolicyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the S3 directory bucket to which the policy applies.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3express_bucket_policy#bucket S3ExpressBucketPolicy#bucket}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3express_bucket_policy#bucket S3ExpressBucketPolicy#bucket}
 	Bucket *string `field:"required" json:"bucket" yaml:"bucket"`
 	// A policy document containing permissions to add to the specified bucket.
 	//
 	// In IAM, you must provide policy documents in JSON format. However, in CloudFormation you can provide the policy in JSON or YAML format because CloudFormation converts YAML to JSON before submitting it to IAM.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3express_bucket_policy#policy_document S3ExpressBucketPolicy#policy_document}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3express_bucket_policy#policy_document S3ExpressBucketPolicy#policy_document}
 	PolicyDocument *string `field:"required" json:"policyDocument" yaml:"policyDocument"`
 }
 

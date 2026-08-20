@@ -7,11 +7,11 @@ package medialivenode
 type MedialiveNodeTags struct {
 	// The key name of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_node#key MedialiveNode#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_node#key MedialiveNode#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value for the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_node#value MedialiveNode#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_node#value MedialiveNode#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

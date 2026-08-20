@@ -7,7 +7,7 @@ package resiliencehubv2policy
 type Resiliencehubv2PolicyAvailabilitySlo struct {
 	// Availability target percentage.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_policy#target Resiliencehubv2Policy#target}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_policy#target Resiliencehubv2Policy#target}
 	Target *float64 `field:"optional" json:"target" yaml:"target"`
 }
 

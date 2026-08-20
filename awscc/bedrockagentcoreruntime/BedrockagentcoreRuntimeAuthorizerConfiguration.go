@@ -7,7 +7,7 @@ package bedrockagentcoreruntime
 type BedrockagentcoreRuntimeAuthorizerConfiguration struct {
 	// Configuration for custom JWT authorizer.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_runtime#custom_jwt_authorizer BedrockagentcoreRuntime#custom_jwt_authorizer}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_runtime#custom_jwt_authorizer BedrockagentcoreRuntime#custom_jwt_authorizer}
 	CustomJwtAuthorizer *BedrockagentcoreRuntimeAuthorizerConfigurationCustomJwtAuthorizer `field:"optional" json:"customJwtAuthorizer" yaml:"customJwtAuthorizer"`
 }
 

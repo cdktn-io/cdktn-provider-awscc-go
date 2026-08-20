@@ -36,6 +36,7 @@ type DataAwsccObservabilityadminTelemetryRuleRuleDestinationConfigurationOutputR
 	Fqn() *string
 	InternalValue() *DataAwsccObservabilityadminTelemetryRuleRuleDestinationConfiguration
 	SetInternalValue(val *DataAwsccObservabilityadminTelemetryRuleRuleDestinationConfiguration)
+	KmsKeyArn() *string
 	LogDeliveryParameters() DataAwsccObservabilityadminTelemetryRuleRuleDestinationConfigurationLogDeliveryParametersOutputReference
 	RetentionInDays() *float64
 	// Experimental.
@@ -172,6 +173,16 @@ func (j *jsiiProxy_DataAwsccObservabilityadminTelemetryRuleRuleDestinationConfig
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccObservabilityadminTelemetryRuleRuleDestinationConfigurationOutputReference) KmsKeyArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyArn",
 		&returns,
 	)
 	return returns

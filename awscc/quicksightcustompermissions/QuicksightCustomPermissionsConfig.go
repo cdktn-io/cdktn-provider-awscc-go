@@ -22,13 +22,13 @@ type QuicksightCustomPermissionsConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_custom_permissions#aws_account_id QuicksightCustomPermissions#aws_account_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_custom_permissions#aws_account_id QuicksightCustomPermissions#aws_account_id}.
 	AwsAccountId *string `field:"required" json:"awsAccountId" yaml:"awsAccountId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_custom_permissions#custom_permissions_name QuicksightCustomPermissions#custom_permissions_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_custom_permissions#custom_permissions_name QuicksightCustomPermissions#custom_permissions_name}.
 	CustomPermissionsName *string `field:"required" json:"customPermissionsName" yaml:"customPermissionsName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_custom_permissions#capabilities QuicksightCustomPermissions#capabilities}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_custom_permissions#capabilities QuicksightCustomPermissions#capabilities}.
 	Capabilities *QuicksightCustomPermissionsCapabilities `field:"optional" json:"capabilities" yaml:"capabilities"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_custom_permissions#tags QuicksightCustomPermissions#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_custom_permissions#tags QuicksightCustomPermissions#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

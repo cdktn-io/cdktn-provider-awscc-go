@@ -9,7 +9,7 @@ type SagemakerProcessingJobProcessingOutputConfigOutputsFeatureStoreOutput struc
 	//
 	// Note that your processing script is responsible for putting records into your Feature Store.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_processing_job#feature_group_name SagemakerProcessingJob#feature_group_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_processing_job#feature_group_name SagemakerProcessingJob#feature_group_name}
 	FeatureGroupName *string `field:"optional" json:"featureGroupName" yaml:"featureGroupName"`
 }
 

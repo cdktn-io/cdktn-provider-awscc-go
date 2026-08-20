@@ -24,27 +24,27 @@ type CloudhsmClusterConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The type of HSM to use in the cluster.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudhsm_cluster#hsm_type CloudhsmCluster#hsm_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudhsm_cluster#hsm_type CloudhsmCluster#hsm_type}
 	HsmType *string `field:"required" json:"hsmType" yaml:"hsmType"`
 	// A policy that defines how the service retains backups.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudhsm_cluster#backup_retention_policy CloudhsmCluster#backup_retention_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudhsm_cluster#backup_retention_policy CloudhsmCluster#backup_retention_policy}
 	BackupRetentionPolicy *CloudhsmClusterBackupRetentionPolicy `field:"optional" json:"backupRetentionPolicy" yaml:"backupRetentionPolicy"`
 	// The mode to use in the cluster.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudhsm_cluster#mode CloudhsmCluster#mode}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudhsm_cluster#mode CloudhsmCluster#mode}
 	Mode *string `field:"optional" json:"mode" yaml:"mode"`
 	// The NetworkType to create a cluster with.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudhsm_cluster#network_type CloudhsmCluster#network_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudhsm_cluster#network_type CloudhsmCluster#network_type}
 	NetworkType *string `field:"optional" json:"networkType" yaml:"networkType"`
 	// The identifiers (IDs) of the subnets where the cluster is created. You must specify at least one subnet.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudhsm_cluster#subnet_ids CloudhsmCluster#subnet_ids}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudhsm_cluster#subnet_ids CloudhsmCluster#subnet_ids}
 	SubnetIds *[]*string `field:"optional" json:"subnetIds" yaml:"subnetIds"`
 	// Tags to apply to the CloudHSM cluster.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudhsm_cluster#tags CloudhsmCluster#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudhsm_cluster#tags CloudhsmCluster#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

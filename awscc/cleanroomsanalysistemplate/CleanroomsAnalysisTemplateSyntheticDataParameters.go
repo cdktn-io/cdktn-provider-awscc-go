@@ -5,7 +5,7 @@ package cleanroomsanalysistemplate
 
 
 type CleanroomsAnalysisTemplateSyntheticDataParameters struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanrooms_analysis_template#ml_synthetic_data_parameters CleanroomsAnalysisTemplate#ml_synthetic_data_parameters}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_analysis_template#ml_synthetic_data_parameters CleanroomsAnalysisTemplate#ml_synthetic_data_parameters}.
 	MlSyntheticDataParameters *CleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataParameters `field:"optional" json:"mlSyntheticDataParameters" yaml:"mlSyntheticDataParameters"`
 }
 

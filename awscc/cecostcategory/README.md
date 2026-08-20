@@ -1,3 +1,3 @@
 # `awscc_ce_cost_category`
 
-Refer to the Terraform Registry for docs: [`awscc_ce_cost_category`](https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ce_cost_category).
+Refer to the Terraform Registry for docs: [`awscc_ce_cost_category`](https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ce_cost_category).

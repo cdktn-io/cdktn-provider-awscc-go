@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalogappregistry_attribute_group awscc_servicecatalogappregistry_attribute_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalogappregistry_attribute_group awscc_servicecatalogappregistry_attribute_group}.
 type DataAwsccServicecatalogappregistryAttributeGroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccServicecatalogappregistryAttributeGroup) TerraformRe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalogappregistry_attribute_group awscc_servicecatalogappregistry_attribute_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalogappregistry_attribute_group awscc_servicecatalogappregistry_attribute_group} Data Source.
 func NewDataAwsccServicecatalogappregistryAttributeGroup(scope constructs.Construct, id *string, config *DataAwsccServicecatalogappregistryAttributeGroupConfig) DataAwsccServicecatalogappregistryAttributeGroup {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccServicecatalogappregistryAttributeGroup(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalogappregistry_attribute_group awscc_servicecatalogappregistry_attribute_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalogappregistry_attribute_group awscc_servicecatalogappregistry_attribute_group} Data Source.
 func NewDataAwsccServicecatalogappregistryAttributeGroup_Override(d DataAwsccServicecatalogappregistryAttributeGroup, scope constructs.Construct, id *string, config *DataAwsccServicecatalogappregistryAttributeGroupConfig) {
 	_init_.Initialize()
 

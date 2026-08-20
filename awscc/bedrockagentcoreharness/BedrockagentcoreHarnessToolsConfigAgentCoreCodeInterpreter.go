@@ -5,7 +5,7 @@ package bedrockagentcoreharness
 
 
 type BedrockagentcoreHarnessToolsConfigAgentCoreCodeInterpreter struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_harness#code_interpreter_arn BedrockagentcoreHarness#code_interpreter_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_harness#code_interpreter_arn BedrockagentcoreHarness#code_interpreter_arn}.
 	CodeInterpreterArn *string `field:"optional" json:"codeInterpreterArn" yaml:"codeInterpreterArn"`
 }
 

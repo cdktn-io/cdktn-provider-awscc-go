@@ -5,11 +5,11 @@ package mediaconnectrouterinput
 
 
 type MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelFrozenFrames struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_router_input#state MediaconnectRouterInput#state}.
 	State *string `field:"optional" json:"state" yaml:"state"`
 	// The number of consecutive seconds of a frozen frame that MediaConnect must detect before it reports an issue.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#threshold_seconds MediaconnectRouterInput#threshold_seconds}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_router_input#threshold_seconds MediaconnectRouterInput#threshold_seconds}
 	ThresholdSeconds *float64 `field:"optional" json:"thresholdSeconds" yaml:"thresholdSeconds"`
 }
 

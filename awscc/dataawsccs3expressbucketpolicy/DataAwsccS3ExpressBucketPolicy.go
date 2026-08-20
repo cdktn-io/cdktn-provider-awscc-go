@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3express_bucket_policy awscc_s3express_bucket_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3express_bucket_policy awscc_s3express_bucket_policy}.
 type DataAwsccS3ExpressBucketPolicy interface {
 	cdktn.TerraformDataSource
 	Bucket() *string
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccS3ExpressBucketPolicy) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3express_bucket_policy awscc_s3express_bucket_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3express_bucket_policy awscc_s3express_bucket_policy} Data Source.
 func NewDataAwsccS3ExpressBucketPolicy(scope constructs.Construct, id *string, config *DataAwsccS3ExpressBucketPolicyConfig) DataAwsccS3ExpressBucketPolicy {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccS3ExpressBucketPolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3express_bucket_policy awscc_s3express_bucket_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3express_bucket_policy awscc_s3express_bucket_policy} Data Source.
 func NewDataAwsccS3ExpressBucketPolicy_Override(d DataAwsccS3ExpressBucketPolicy, scope constructs.Construct, id *string, config *DataAwsccS3ExpressBucketPolicyConfig) {
 	_init_.Initialize()
 

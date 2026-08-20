@@ -24,7 +24,7 @@ type CloudfrontOriginRequestPolicyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The origin request policy configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudfront_origin_request_policy#origin_request_policy_config CloudfrontOriginRequestPolicy#origin_request_policy_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_origin_request_policy#origin_request_policy_config CloudfrontOriginRequestPolicy#origin_request_policy_config}
 	OriginRequestPolicyConfig *CloudfrontOriginRequestPolicyOriginRequestPolicyConfig `field:"required" json:"originRequestPolicyConfig" yaml:"originRequestPolicyConfig"`
 }
 

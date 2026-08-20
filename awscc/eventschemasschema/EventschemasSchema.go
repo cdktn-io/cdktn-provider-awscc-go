@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema awscc_eventschemas_schema}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eventschemas_schema awscc_eventschemas_schema}.
 type EventschemasSchema interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -540,7 +540,7 @@ func (j *jsiiProxy_EventschemasSchema) VersionCreatedDate() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema awscc_eventschemas_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eventschemas_schema awscc_eventschemas_schema} Resource.
 func NewEventschemasSchema(scope constructs.Construct, id *string, config *EventschemasSchemaConfig) EventschemasSchema {
 	_init_.Initialize()
 
@@ -558,7 +558,7 @@ func NewEventschemasSchema(scope constructs.Construct, id *string, config *Event
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eventschemas_schema awscc_eventschemas_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eventschemas_schema awscc_eventschemas_schema} Resource.
 func NewEventschemasSchema_Override(e EventschemasSchema, scope constructs.Construct, id *string, config *EventschemasSchemaConfig) {
 	_init_.Initialize()
 

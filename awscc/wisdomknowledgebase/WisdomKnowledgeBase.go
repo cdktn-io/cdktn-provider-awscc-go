@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_knowledge_base awscc_wisdom_knowledge_base}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wisdom_knowledge_base awscc_wisdom_knowledge_base}.
 type WisdomKnowledgeBase interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -567,7 +567,7 @@ func (j *jsiiProxy_WisdomKnowledgeBase) VectorIngestionConfigurationInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_knowledge_base awscc_wisdom_knowledge_base} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wisdom_knowledge_base awscc_wisdom_knowledge_base} Resource.
 func NewWisdomKnowledgeBase(scope constructs.Construct, id *string, config *WisdomKnowledgeBaseConfig) WisdomKnowledgeBase {
 	_init_.Initialize()
 
@@ -585,7 +585,7 @@ func NewWisdomKnowledgeBase(scope constructs.Construct, id *string, config *Wisd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_knowledge_base awscc_wisdom_knowledge_base} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wisdom_knowledge_base awscc_wisdom_knowledge_base} Resource.
 func NewWisdomKnowledgeBase_Override(w WisdomKnowledgeBase, scope constructs.Construct, id *string, config *WisdomKnowledgeBaseConfig) {
 	_init_.Initialize()
 

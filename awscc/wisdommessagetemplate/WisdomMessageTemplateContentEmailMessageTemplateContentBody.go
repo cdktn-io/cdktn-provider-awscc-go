@@ -9,13 +9,13 @@ type WisdomMessageTemplateContentEmailMessageTemplateContentBody struct {
 	//
 	// We recommend using HTML format for email clients that render HTML content. You can include links, formatted text, and more in an HTML message.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#html WisdomMessageTemplate#html}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wisdom_message_template#html WisdomMessageTemplate#html}
 	Html *WisdomMessageTemplateContentEmailMessageTemplateContentBodyHtml `field:"optional" json:"html" yaml:"html"`
 	// The message body, in plain text format, to use in email messages that are based on the message template.
 	//
 	// We recommend using plain text format for email clients that don't render HTML content and clients that are connected to high-latency networks, such as mobile devices.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_message_template#plain_text WisdomMessageTemplate#plain_text}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wisdom_message_template#plain_text WisdomMessageTemplate#plain_text}
 	PlainText *WisdomMessageTemplateContentEmailMessageTemplateContentBodyPlainText `field:"optional" json:"plainText" yaml:"plainText"`
 }
 

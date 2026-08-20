@@ -24,7 +24,7 @@ type SupportappAccountAliasConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// An account alias associated with a customer's account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/supportapp_account_alias#account_alias SupportappAccountAlias#account_alias}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/supportapp_account_alias#account_alias SupportappAccountAlias#account_alias}
 	AccountAlias *string `field:"required" json:"accountAlias" yaml:"accountAlias"`
 }
 

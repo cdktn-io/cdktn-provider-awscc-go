@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/m2_application awscc_m2_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/m2_application awscc_m2_application}.
 type DataAwsccM2Application interface {
 	cdktn.TerraformDataSource
 	ApplicationArn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccM2Application) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/m2_application awscc_m2_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/m2_application awscc_m2_application} Data Source.
 func NewDataAwsccM2Application(scope constructs.Construct, id *string, config *DataAwsccM2ApplicationConfig) DataAwsccM2Application {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccM2Application(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/m2_application awscc_m2_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/m2_application awscc_m2_application} Data Source.
 func NewDataAwsccM2Application_Override(d DataAwsccM2Application, scope constructs.Construct, id *string, config *DataAwsccM2ApplicationConfig) {
 	_init_.Initialize()
 

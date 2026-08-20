@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/mwaaserverless_workflow awscc_mwaaserverless_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mwaaserverless_workflow awscc_mwaaserverless_workflow}.
 type DataAwsccMwaaserverlessWorkflow interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccMwaaserverlessWorkflow) WorkflowVersion() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/mwaaserverless_workflow awscc_mwaaserverless_workflow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mwaaserverless_workflow awscc_mwaaserverless_workflow} Data Source.
 func NewDataAwsccMwaaserverlessWorkflow(scope constructs.Construct, id *string, config *DataAwsccMwaaserverlessWorkflowConfig) DataAwsccMwaaserverlessWorkflow {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccMwaaserverlessWorkflow(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/mwaaserverless_workflow awscc_mwaaserverless_workflow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mwaaserverless_workflow awscc_mwaaserverless_workflow} Data Source.
 func NewDataAwsccMwaaserverlessWorkflow_Override(d DataAwsccMwaaserverlessWorkflow, scope constructs.Construct, id *string, config *DataAwsccMwaaserverlessWorkflowConfig) {
 	_init_.Initialize()
 

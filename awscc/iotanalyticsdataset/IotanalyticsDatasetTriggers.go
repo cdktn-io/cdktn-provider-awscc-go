@@ -5,9 +5,9 @@ package iotanalyticsdataset
 
 
 type IotanalyticsDatasetTriggers struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_dataset#schedule IotanalyticsDataset#schedule}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotanalytics_dataset#schedule IotanalyticsDataset#schedule}.
 	Schedule *IotanalyticsDatasetTriggersSchedule `field:"optional" json:"schedule" yaml:"schedule"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_dataset#triggering_dataset IotanalyticsDataset#triggering_dataset}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotanalytics_dataset#triggering_dataset IotanalyticsDataset#triggering_dataset}.
 	TriggeringDataset *IotanalyticsDatasetTriggersTriggeringDataset `field:"optional" json:"triggeringDataset" yaml:"triggeringDataset"`
 }
 

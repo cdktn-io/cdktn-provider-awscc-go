@@ -7,11 +7,11 @@ package bedrockagentcorecodeinterpretercustom
 type BedrockagentcoreCodeInterpreterCustomNetworkConfiguration struct {
 	// Network modes supported by code interpreter.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_code_interpreter_custom#network_mode BedrockagentcoreCodeInterpreterCustom#network_mode}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_code_interpreter_custom#network_mode BedrockagentcoreCodeInterpreterCustom#network_mode}
 	NetworkMode *string `field:"optional" json:"networkMode" yaml:"networkMode"`
 	// Network mode configuration for VPC.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_code_interpreter_custom#vpc_config BedrockagentcoreCodeInterpreterCustom#vpc_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_code_interpreter_custom#vpc_config BedrockagentcoreCodeInterpreterCustom#vpc_config}
 	VpcConfig *BedrockagentcoreCodeInterpreterCustomNetworkConfigurationVpcConfig `field:"optional" json:"vpcConfig" yaml:"vpcConfig"`
 }
 

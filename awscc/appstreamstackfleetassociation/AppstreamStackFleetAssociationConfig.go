@@ -22,9 +22,9 @@ type AppstreamStackFleetAssociationConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_stack_fleet_association#fleet_name AppstreamStackFleetAssociation#fleet_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_stack_fleet_association#fleet_name AppstreamStackFleetAssociation#fleet_name}.
 	FleetName *string `field:"required" json:"fleetName" yaml:"fleetName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_stack_fleet_association#stack_name AppstreamStackFleetAssociation#stack_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_stack_fleet_association#stack_name AppstreamStackFleetAssociation#stack_name}.
 	StackName *string `field:"required" json:"stackName" yaml:"stackName"`
 }
 

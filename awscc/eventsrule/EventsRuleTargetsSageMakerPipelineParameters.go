@@ -5,7 +5,7 @@ package eventsrule
 
 
 type EventsRuleTargetsSageMakerPipelineParameters struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_rule#pipeline_parameter_list EventsRule#pipeline_parameter_list}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_rule#pipeline_parameter_list EventsRule#pipeline_parameter_list}.
 	PipelineParameterList interface{} `field:"optional" json:"pipelineParameterList" yaml:"pipelineParameterList"`
 }
 

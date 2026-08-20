@@ -261,6 +261,14 @@ func (j *jsiiProxy_ObservabilityadminOrganizationTelemetryRuleRuleDestinationCon
 	return nil
 }
 
+func (j *jsiiProxy_ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationOutputReference) validateSetKmsKeyArnParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationOutputReference) validateSetRetentionInDaysParameters(val *float64) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

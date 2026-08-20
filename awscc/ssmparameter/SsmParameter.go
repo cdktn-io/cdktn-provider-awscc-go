@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_parameter awscc_ssm_parameter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_parameter awscc_ssm_parameter}.
 type SsmParameter interface {
 	cdktn.TerraformResource
 	AllowedPattern() *string
@@ -580,7 +580,7 @@ func (j *jsiiProxy_SsmParameter) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_parameter awscc_ssm_parameter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_parameter awscc_ssm_parameter} Resource.
 func NewSsmParameter(scope constructs.Construct, id *string, config *SsmParameterConfig) SsmParameter {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewSsmParameter(scope constructs.Construct, id *string, config *SsmParamete
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_parameter awscc_ssm_parameter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_parameter awscc_ssm_parameter} Resource.
 func NewSsmParameter_Override(s SsmParameter, scope constructs.Construct, id *string, config *SsmParameterConfig) {
 	_init_.Initialize()
 

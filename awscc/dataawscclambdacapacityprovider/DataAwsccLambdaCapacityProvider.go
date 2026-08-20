@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lambda_capacity_provider awscc_lambda_capacity_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lambda_capacity_provider awscc_lambda_capacity_provider}.
 type DataAwsccLambdaCapacityProvider interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccLambdaCapacityProvider) VpcConfig() DataAwsccLambdaC
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lambda_capacity_provider awscc_lambda_capacity_provider} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lambda_capacity_provider awscc_lambda_capacity_provider} Data Source.
 func NewDataAwsccLambdaCapacityProvider(scope constructs.Construct, id *string, config *DataAwsccLambdaCapacityProviderConfig) DataAwsccLambdaCapacityProvider {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccLambdaCapacityProvider(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lambda_capacity_provider awscc_lambda_capacity_provider} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lambda_capacity_provider awscc_lambda_capacity_provider} Data Source.
 func NewDataAwsccLambdaCapacityProvider_Override(d DataAwsccLambdaCapacityProvider, scope constructs.Construct, id *string, config *DataAwsccLambdaCapacityProviderConfig) {
 	_init_.Initialize()
 

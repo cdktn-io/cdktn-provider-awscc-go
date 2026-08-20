@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_host awscc_ec2_host}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_host awscc_ec2_host}.
 type DataAwsccEc2Host interface {
 	cdktn.TerraformDataSource
 	AssetId() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccEc2Host) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_host awscc_ec2_host} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_host awscc_ec2_host} Data Source.
 func NewDataAwsccEc2Host(scope constructs.Construct, id *string, config *DataAwsccEc2HostConfig) DataAwsccEc2Host {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccEc2Host(scope constructs.Construct, id *string, config *DataAws
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_host awscc_ec2_host} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_host awscc_ec2_host} Data Source.
 func NewDataAwsccEc2Host_Override(d DataAwsccEc2Host, scope constructs.Construct, id *string, config *DataAwsccEc2HostConfig) {
 	_init_.Initialize()
 

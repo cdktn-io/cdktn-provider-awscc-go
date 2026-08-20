@@ -5,9 +5,9 @@ package groundstationconfig
 
 
 type GroundstationConfigConfigDataTelemetrySinkConfigTelemetrySinkDataKinesisDataStreamData struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/groundstation_config#kinesis_data_stream_arn GroundstationConfig#kinesis_data_stream_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/groundstation_config#kinesis_data_stream_arn GroundstationConfig#kinesis_data_stream_arn}.
 	KinesisDataStreamArn *string `field:"optional" json:"kinesisDataStreamArn" yaml:"kinesisDataStreamArn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/groundstation_config#kinesis_role_arn GroundstationConfig#kinesis_role_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/groundstation_config#kinesis_role_arn GroundstationConfig#kinesis_role_arn}.
 	KinesisRoleArn *string `field:"optional" json:"kinesisRoleArn" yaml:"kinesisRoleArn"`
 }
 

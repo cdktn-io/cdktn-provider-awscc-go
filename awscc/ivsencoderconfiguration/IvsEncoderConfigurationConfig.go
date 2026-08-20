@@ -24,15 +24,15 @@ type IvsEncoderConfigurationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Encoder configuration name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_encoder_configuration#name IvsEncoderConfiguration#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration#name IvsEncoderConfiguration#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_encoder_configuration#tags IvsEncoderConfiguration#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration#tags IvsEncoderConfiguration#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// Video configuration. Default: video resolution 1280x720, bitrate 2500 kbps, 30 fps.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_encoder_configuration#video IvsEncoderConfiguration#video}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration#video IvsEncoderConfiguration#video}
 	Video *IvsEncoderConfigurationVideo `field:"optional" json:"video" yaml:"video"`
 }
 

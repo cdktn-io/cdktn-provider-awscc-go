@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_route_server_associations awscc_ec2_route_server_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_route_server_associations awscc_ec2_route_server_associations}.
 type DataAwsccEc2RouteServerAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2RouteServerAssociations) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_route_server_associations awscc_ec2_route_server_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_route_server_associations awscc_ec2_route_server_associations} Data Source.
 func NewDataAwsccEc2RouteServerAssociations(scope constructs.Construct, id *string, config *DataAwsccEc2RouteServerAssociationsConfig) DataAwsccEc2RouteServerAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2RouteServerAssociations(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_route_server_associations awscc_ec2_route_server_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_route_server_associations awscc_ec2_route_server_associations} Data Source.
 func NewDataAwsccEc2RouteServerAssociations_Override(d DataAwsccEc2RouteServerAssociations, scope constructs.Construct, id *string, config *DataAwsccEc2RouteServerAssociationsConfig) {
 	_init_.Initialize()
 

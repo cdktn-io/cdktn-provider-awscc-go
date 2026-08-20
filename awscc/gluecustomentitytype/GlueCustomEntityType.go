@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_custom_entity_type awscc_glue_custom_entity_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_custom_entity_type awscc_glue_custom_entity_type}.
 type GlueCustomEntityType interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_GlueCustomEntityType) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_custom_entity_type awscc_glue_custom_entity_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_custom_entity_type awscc_glue_custom_entity_type} Resource.
 func NewGlueCustomEntityType(scope constructs.Construct, id *string, config *GlueCustomEntityTypeConfig) GlueCustomEntityType {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewGlueCustomEntityType(scope constructs.Construct, id *string, config *Glu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_custom_entity_type awscc_glue_custom_entity_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_custom_entity_type awscc_glue_custom_entity_type} Resource.
 func NewGlueCustomEntityType_Override(g GlueCustomEntityType, scope constructs.Construct, id *string, config *GlueCustomEntityTypeConfig) {
 	_init_.Initialize()
 

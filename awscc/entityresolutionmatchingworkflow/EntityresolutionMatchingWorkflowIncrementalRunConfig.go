@@ -5,7 +5,7 @@ package entityresolutionmatchingworkflow
 
 
 type EntityresolutionMatchingWorkflowIncrementalRunConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/entityresolution_matching_workflow#incremental_run_type EntityresolutionMatchingWorkflow#incremental_run_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/entityresolution_matching_workflow#incremental_run_type EntityresolutionMatchingWorkflow#incremental_run_type}.
 	IncrementalRunType *string `field:"optional" json:"incrementalRunType" yaml:"incrementalRunType"`
 }
 

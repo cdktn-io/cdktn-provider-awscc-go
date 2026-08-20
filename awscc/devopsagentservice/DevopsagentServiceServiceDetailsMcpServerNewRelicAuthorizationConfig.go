@@ -7,7 +7,7 @@ package devopsagentservice
 type DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfig struct {
 	// New Relic API key configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
 	ApiKey *DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfigApiKey `field:"optional" json:"apiKey" yaml:"apiKey"`
 }
 

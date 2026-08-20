@@ -5,9 +5,9 @@ package batchjobqueue
 
 
 type BatchJobQueueServiceEnvironmentOrder struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#order BatchJobQueue#order}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/batch_job_queue#order BatchJobQueue#order}.
 	Order *float64 `field:"optional" json:"order" yaml:"order"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_job_queue#service_environment BatchJobQueue#service_environment}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/batch_job_queue#service_environment BatchJobQueue#service_environment}.
 	ServiceEnvironment *string `field:"optional" json:"serviceEnvironment" yaml:"serviceEnvironment"`
 }
 

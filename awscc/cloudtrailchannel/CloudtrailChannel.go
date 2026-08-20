@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudtrail_channel awscc_cloudtrail_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_channel awscc_cloudtrail_channel}.
 type CloudtrailChannel interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_CloudtrailChannel) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudtrail_channel awscc_cloudtrail_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_channel awscc_cloudtrail_channel} Resource.
 func NewCloudtrailChannel(scope constructs.Construct, id *string, config *CloudtrailChannelConfig) CloudtrailChannel {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewCloudtrailChannel(scope constructs.Construct, id *string, config *Cloudt
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudtrail_channel awscc_cloudtrail_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudtrail_channel awscc_cloudtrail_channel} Resource.
 func NewCloudtrailChannel_Override(c CloudtrailChannel, scope constructs.Construct, id *string, config *CloudtrailChannelConfig) {
 	_init_.Initialize()
 

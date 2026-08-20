@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iam_server_certificates awscc_iam_server_certificates}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iam_server_certificates awscc_iam_server_certificates}.
 type DataAwsccIamServerCertificates interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIamServerCertificates) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iam_server_certificates awscc_iam_server_certificates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iam_server_certificates awscc_iam_server_certificates} Data Source.
 func NewDataAwsccIamServerCertificates(scope constructs.Construct, id *string, config *DataAwsccIamServerCertificatesConfig) DataAwsccIamServerCertificates {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIamServerCertificates(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iam_server_certificates awscc_iam_server_certificates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iam_server_certificates awscc_iam_server_certificates} Data Source.
 func NewDataAwsccIamServerCertificates_Override(d DataAwsccIamServerCertificates, scope constructs.Construct, id *string, config *DataAwsccIamServerCertificatesConfig) {
 	_init_.Initialize()
 

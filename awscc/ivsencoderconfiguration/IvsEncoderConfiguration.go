@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_encoder_configuration awscc_ivs_encoder_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration awscc_ivs_encoder_configuration}.
 type IvsEncoderConfiguration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -438,7 +438,7 @@ func (j *jsiiProxy_IvsEncoderConfiguration) VideoInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_encoder_configuration awscc_ivs_encoder_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration awscc_ivs_encoder_configuration} Resource.
 func NewIvsEncoderConfiguration(scope constructs.Construct, id *string, config *IvsEncoderConfigurationConfig) IvsEncoderConfiguration {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewIvsEncoderConfiguration(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ivs_encoder_configuration awscc_ivs_encoder_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_encoder_configuration awscc_ivs_encoder_configuration} Resource.
 func NewIvsEncoderConfiguration_Override(i IvsEncoderConfiguration, scope constructs.Construct, id *string, config *IvsEncoderConfigurationConfig) {
 	_init_.Initialize()
 

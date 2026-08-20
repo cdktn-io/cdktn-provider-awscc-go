@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_local_gateway_virtual_interface_groups awscc_ec2_local_gateway_virtual_interface_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_local_gateway_virtual_interface_groups awscc_ec2_local_gateway_virtual_interface_groups}.
 type DataAwsccEc2LocalGatewayVirtualInterfaceGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2LocalGatewayVirtualInterfaceGroups) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_local_gateway_virtual_interface_groups awscc_ec2_local_gateway_virtual_interface_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_local_gateway_virtual_interface_groups awscc_ec2_local_gateway_virtual_interface_groups} Data Source.
 func NewDataAwsccEc2LocalGatewayVirtualInterfaceGroups(scope constructs.Construct, id *string, config *DataAwsccEc2LocalGatewayVirtualInterfaceGroupsConfig) DataAwsccEc2LocalGatewayVirtualInterfaceGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2LocalGatewayVirtualInterfaceGroups(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_local_gateway_virtual_interface_groups awscc_ec2_local_gateway_virtual_interface_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_local_gateway_virtual_interface_groups awscc_ec2_local_gateway_virtual_interface_groups} Data Source.
 func NewDataAwsccEc2LocalGatewayVirtualInterfaceGroups_Override(d DataAwsccEc2LocalGatewayVirtualInterfaceGroups, scope constructs.Construct, id *string, config *DataAwsccEc2LocalGatewayVirtualInterfaceGroupsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package awscc_sagemaker_model_package}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_model_package awscc_sagemaker_model_package}.
 type SagemakerModelPackage interface {
 	cdktn.TerraformResource
 	AdditionalInferenceSpecifications() SagemakerModelPackageAdditionalInferenceSpecificationsList
@@ -1023,7 +1023,7 @@ func (j *jsiiProxy_SagemakerModelPackage) ValidationSpecificationInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package awscc_sagemaker_model_package} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_model_package awscc_sagemaker_model_package} Resource.
 func NewSagemakerModelPackage(scope constructs.Construct, id *string, config *SagemakerModelPackageConfig) SagemakerModelPackage {
 	_init_.Initialize()
 
@@ -1041,7 +1041,7 @@ func NewSagemakerModelPackage(scope constructs.Construct, id *string, config *Sa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package awscc_sagemaker_model_package} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_model_package awscc_sagemaker_model_package} Resource.
 func NewSagemakerModelPackage_Override(s SagemakerModelPackage, scope constructs.Construct, id *string, config *SagemakerModelPackageConfig) {
 	_init_.Initialize()
 

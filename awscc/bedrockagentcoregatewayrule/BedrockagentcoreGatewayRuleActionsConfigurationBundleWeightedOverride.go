@@ -5,7 +5,7 @@ package bedrockagentcoregatewayrule
 
 
 type BedrockagentcoreGatewayRuleActionsConfigurationBundleWeightedOverride struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_gateway_rule#traffic_split BedrockagentcoreGatewayRule#traffic_split}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_gateway_rule#traffic_split BedrockagentcoreGatewayRule#traffic_split}.
 	TrafficSplit interface{} `field:"optional" json:"trafficSplit" yaml:"trafficSplit"`
 }
 

@@ -24,23 +24,23 @@ type FsxS3AccessPointAttachmentConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the S3 access point attachment; also used for the name of the S3 access point.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#name FsxS3AccessPointAttachment#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fsx_s3_access_point_attachment#name FsxS3AccessPointAttachment#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The type of Amazon FSx volume that the S3 access point is attached to.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#type FsxS3AccessPointAttachment#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fsx_s3_access_point_attachment#type FsxS3AccessPointAttachment#type}
 	Type *string `field:"required" json:"type" yaml:"type"`
 	// The OntapConfiguration of the S3 access point attachment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#ontap_configuration FsxS3AccessPointAttachment#ontap_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fsx_s3_access_point_attachment#ontap_configuration FsxS3AccessPointAttachment#ontap_configuration}
 	OntapConfiguration *FsxS3AccessPointAttachmentOntapConfiguration `field:"optional" json:"ontapConfiguration" yaml:"ontapConfiguration"`
 	// The OpenZFSConfiguration of the S3 access point attachment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#open_zfs_configuration FsxS3AccessPointAttachment#open_zfs_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fsx_s3_access_point_attachment#open_zfs_configuration FsxS3AccessPointAttachment#open_zfs_configuration}
 	OpenZfsConfiguration *FsxS3AccessPointAttachmentOpenZfsConfiguration `field:"optional" json:"openZfsConfiguration" yaml:"openZfsConfiguration"`
 	// The S3 access point configuration of the S3 access point attachment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/fsx_s3_access_point_attachment#s3_access_point FsxS3AccessPointAttachment#s3_access_point}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fsx_s3_access_point_attachment#s3_access_point FsxS3AccessPointAttachment#s3_access_point}
 	S3AccessPoint *FsxS3AccessPointAttachmentS3AccessPoint `field:"optional" json:"s3AccessPoint" yaml:"s3AccessPoint"`
 }
 

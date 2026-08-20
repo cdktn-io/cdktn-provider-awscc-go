@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/networkflowmonitor_monitor awscc_networkflowmonitor_monitor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkflowmonitor_monitor awscc_networkflowmonitor_monitor}.
 type DataAwsccNetworkflowmonitorMonitor interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccNetworkflowmonitorMonitor) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/networkflowmonitor_monitor awscc_networkflowmonitor_monitor} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkflowmonitor_monitor awscc_networkflowmonitor_monitor} Data Source.
 func NewDataAwsccNetworkflowmonitorMonitor(scope constructs.Construct, id *string, config *DataAwsccNetworkflowmonitorMonitorConfig) DataAwsccNetworkflowmonitorMonitor {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccNetworkflowmonitorMonitor(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/networkflowmonitor_monitor awscc_networkflowmonitor_monitor} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkflowmonitor_monitor awscc_networkflowmonitor_monitor} Data Source.
 func NewDataAwsccNetworkflowmonitorMonitor_Override(d DataAwsccNetworkflowmonitorMonitor, scope constructs.Construct, id *string, config *DataAwsccNetworkflowmonitorMonitorConfig) {
 	_init_.Initialize()
 

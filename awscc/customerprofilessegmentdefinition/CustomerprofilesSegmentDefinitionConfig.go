@@ -24,35 +24,35 @@ type CustomerprofilesSegmentDefinitionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The display name of the segment definition.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_segment_definition#display_name CustomerprofilesSegmentDefinition#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_segment_definition#display_name CustomerprofilesSegmentDefinition#display_name}
 	DisplayName *string `field:"required" json:"displayName" yaml:"displayName"`
 	// The unique name of the domain.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_segment_definition#domain_name CustomerprofilesSegmentDefinition#domain_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_segment_definition#domain_name CustomerprofilesSegmentDefinition#domain_name}
 	DomainName *string `field:"required" json:"domainName" yaml:"domainName"`
 	// The unique name of the segment definition.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_segment_definition#segment_definition_name CustomerprofilesSegmentDefinition#segment_definition_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_segment_definition#segment_definition_name CustomerprofilesSegmentDefinition#segment_definition_name}
 	SegmentDefinitionName *string `field:"required" json:"segmentDefinitionName" yaml:"segmentDefinitionName"`
 	// The description of the segment definition.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_segment_definition#description CustomerprofilesSegmentDefinition#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_segment_definition#description CustomerprofilesSegmentDefinition#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// An array that defines the set of segment criteria to evaluate when handling segment groups for the segment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_segment_definition#segment_groups CustomerprofilesSegmentDefinition#segment_groups}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_segment_definition#segment_groups CustomerprofilesSegmentDefinition#segment_groups}
 	SegmentGroups *CustomerprofilesSegmentDefinitionSegmentGroups `field:"optional" json:"segmentGroups" yaml:"segmentGroups"`
 	// The segment sort configuration for ordering segment results.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_segment_definition#segment_sort CustomerprofilesSegmentDefinition#segment_sort}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_segment_definition#segment_sort CustomerprofilesSegmentDefinition#segment_sort}
 	SegmentSort *CustomerprofilesSegmentDefinitionSegmentSort `field:"optional" json:"segmentSort" yaml:"segmentSort"`
 	// The SQL query that defines the segment criteria.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_segment_definition#segment_sql_query CustomerprofilesSegmentDefinition#segment_sql_query}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_segment_definition#segment_sql_query CustomerprofilesSegmentDefinition#segment_sql_query}
 	SegmentSqlQuery *string `field:"optional" json:"segmentSqlQuery" yaml:"segmentSqlQuery"`
 	// The tags used to organize, track, or control access for this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_segment_definition#tags CustomerprofilesSegmentDefinition#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_segment_definition#tags CustomerprofilesSegmentDefinition#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

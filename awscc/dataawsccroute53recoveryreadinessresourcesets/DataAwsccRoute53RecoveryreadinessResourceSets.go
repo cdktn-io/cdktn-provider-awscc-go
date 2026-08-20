@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53recoveryreadiness_resource_sets awscc_route53recoveryreadiness_resource_sets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53recoveryreadiness_resource_sets awscc_route53recoveryreadiness_resource_sets}.
 type DataAwsccRoute53RecoveryreadinessResourceSets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRoute53RecoveryreadinessResourceSets) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53recoveryreadiness_resource_sets awscc_route53recoveryreadiness_resource_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53recoveryreadiness_resource_sets awscc_route53recoveryreadiness_resource_sets} Data Source.
 func NewDataAwsccRoute53RecoveryreadinessResourceSets(scope constructs.Construct, id *string, config *DataAwsccRoute53RecoveryreadinessResourceSetsConfig) DataAwsccRoute53RecoveryreadinessResourceSets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRoute53RecoveryreadinessResourceSets(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53recoveryreadiness_resource_sets awscc_route53recoveryreadiness_resource_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53recoveryreadiness_resource_sets awscc_route53recoveryreadiness_resource_sets} Data Source.
 func NewDataAwsccRoute53RecoveryreadinessResourceSets_Override(d DataAwsccRoute53RecoveryreadinessResourceSets, scope constructs.Construct, id *string, config *DataAwsccRoute53RecoveryreadinessResourceSetsConfig) {
 	_init_.Initialize()
 

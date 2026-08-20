@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalog_cloudformation_provisioned_product awscc_servicecatalog_cloudformation_provisioned_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalog_cloudformation_provisioned_product awscc_servicecatalog_cloudformation_provisioned_product}.
 type DataAwsccServicecatalogCloudformationProvisionedProduct interface {
 	cdktn.TerraformDataSource
 	AcceptLanguage() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataAwsccServicecatalogCloudformationProvisionedProduct) Terr
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalog_cloudformation_provisioned_product awscc_servicecatalog_cloudformation_provisioned_product} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalog_cloudformation_provisioned_product awscc_servicecatalog_cloudformation_provisioned_product} Data Source.
 func NewDataAwsccServicecatalogCloudformationProvisionedProduct(scope constructs.Construct, id *string, config *DataAwsccServicecatalogCloudformationProvisionedProductConfig) DataAwsccServicecatalogCloudformationProvisionedProduct {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataAwsccServicecatalogCloudformationProvisionedProduct(scope constructs
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalog_cloudformation_provisioned_product awscc_servicecatalog_cloudformation_provisioned_product} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalog_cloudformation_provisioned_product awscc_servicecatalog_cloudformation_provisioned_product} Data Source.
 func NewDataAwsccServicecatalogCloudformationProvisionedProduct_Override(d DataAwsccServicecatalogCloudformationProvisionedProduct, scope constructs.Construct, id *string, config *DataAwsccServicecatalogCloudformationProvisionedProductConfig) {
 	_init_.Initialize()
 

@@ -7,7 +7,7 @@ package ecstaskdefinition
 type EcsTaskDefinitionContainerDefinitionsResourceRequirements struct {
 	// The type of resource to assign to a container.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#type EcsTaskDefinition#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_task_definition#type EcsTaskDefinition#type}
 	Type *string `field:"optional" json:"type" yaml:"type"`
 	// The value for the specified resource type.
 	//
@@ -15,7 +15,7 @@ type EcsTaskDefinitionContainerDefinitionsResourceRequirements struct {
 	//  When the type is ``NeuronDevice``, the value must be ``ALL``. This allocates all available Neuron devices on the instance to the container. Only one container in a task can specify ``NeuronDevice`` resources. This resource type is only supported on Managed Instances.
 	//  When the type is ``InferenceAccelerator``, the ``value`` matches the ``deviceName`` for an [InferenceAccelerator](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_InferenceAccelerator.html) specified in a task definition.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_task_definition#value EcsTaskDefinition#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_task_definition#value EcsTaskDefinition#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

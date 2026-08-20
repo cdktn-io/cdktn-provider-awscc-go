@@ -24,19 +24,19 @@ type AppsyncSourceApiAssociationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Description of the SourceApiAssociation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_source_api_association#description AppsyncSourceApiAssociation#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appsync_source_api_association#description AppsyncSourceApiAssociation#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Identifier of the Merged GraphQLApi to associate. It could be either GraphQLApi ApiId or ARN.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_source_api_association#merged_api_identifier AppsyncSourceApiAssociation#merged_api_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appsync_source_api_association#merged_api_identifier AppsyncSourceApiAssociation#merged_api_identifier}
 	MergedApiIdentifier *string `field:"optional" json:"mergedApiIdentifier" yaml:"mergedApiIdentifier"`
 	// Customized configuration for SourceApiAssociation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_source_api_association#source_api_association_config AppsyncSourceApiAssociation#source_api_association_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appsync_source_api_association#source_api_association_config AppsyncSourceApiAssociation#source_api_association_config}
 	SourceApiAssociationConfig *AppsyncSourceApiAssociationSourceApiAssociationConfig `field:"optional" json:"sourceApiAssociationConfig" yaml:"sourceApiAssociationConfig"`
 	// Identifier of the Source GraphQLApi to associate. It could be either GraphQLApi ApiId or ARN.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_source_api_association#source_api_identifier AppsyncSourceApiAssociation#source_api_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appsync_source_api_association#source_api_identifier AppsyncSourceApiAssociation#source_api_identifier}
 	SourceApiIdentifier *string `field:"optional" json:"sourceApiIdentifier" yaml:"sourceApiIdentifier"`
 }
 

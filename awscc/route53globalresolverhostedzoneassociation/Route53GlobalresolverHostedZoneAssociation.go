@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53globalresolver_hosted_zone_association awscc_route53globalresolver_hosted_zone_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_hosted_zone_association awscc_route53globalresolver_hosted_zone_association}.
 type Route53GlobalresolverHostedZoneAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -479,7 +479,7 @@ func (j *jsiiProxy_Route53GlobalresolverHostedZoneAssociation) UpdatedAt() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53globalresolver_hosted_zone_association awscc_route53globalresolver_hosted_zone_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_hosted_zone_association awscc_route53globalresolver_hosted_zone_association} Resource.
 func NewRoute53GlobalresolverHostedZoneAssociation(scope constructs.Construct, id *string, config *Route53GlobalresolverHostedZoneAssociationConfig) Route53GlobalresolverHostedZoneAssociation {
 	_init_.Initialize()
 
@@ -497,7 +497,7 @@ func NewRoute53GlobalresolverHostedZoneAssociation(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53globalresolver_hosted_zone_association awscc_route53globalresolver_hosted_zone_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_hosted_zone_association awscc_route53globalresolver_hosted_zone_association} Resource.
 func NewRoute53GlobalresolverHostedZoneAssociation_Override(r Route53GlobalresolverHostedZoneAssociation, scope constructs.Construct, id *string, config *Route53GlobalresolverHostedZoneAssociationConfig) {
 	_init_.Initialize()
 

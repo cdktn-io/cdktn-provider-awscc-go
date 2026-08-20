@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_dataset_group awscc_personalize_dataset_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_dataset_group awscc_personalize_dataset_group}.
 type PersonalizeDatasetGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -69,6 +69,8 @@ type PersonalizeDatasetGroup interface {
 	RoleArn() *string
 	SetRoleArn(val *string)
 	RoleArnInput() *string
+	Tags() PersonalizeDatasetGroupTagsList
+	TagsInput() interface{}
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -154,6 +156,7 @@ type PersonalizeDatasetGroup interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -173,6 +176,7 @@ type PersonalizeDatasetGroup interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRoleArn()
+	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -430,6 +434,26 @@ func (j *jsiiProxy_PersonalizeDatasetGroup) RoleArnInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_PersonalizeDatasetGroup) Tags() PersonalizeDatasetGroupTagsList {
+	var returns PersonalizeDatasetGroupTagsList
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PersonalizeDatasetGroup) TagsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"tagsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_PersonalizeDatasetGroup) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -461,7 +485,7 @@ func (j *jsiiProxy_PersonalizeDatasetGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_dataset_group awscc_personalize_dataset_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_dataset_group awscc_personalize_dataset_group} Resource.
 func NewPersonalizeDatasetGroup(scope constructs.Construct, id *string, config *PersonalizeDatasetGroupConfig) PersonalizeDatasetGroup {
 	_init_.Initialize()
 
@@ -479,7 +503,7 @@ func NewPersonalizeDatasetGroup(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_dataset_group awscc_personalize_dataset_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_dataset_group awscc_personalize_dataset_group} Resource.
 func NewPersonalizeDatasetGroup_Override(p PersonalizeDatasetGroup, scope constructs.Construct, id *string, config *PersonalizeDatasetGroupConfig) {
 	_init_.Initialize()
 
@@ -971,6 +995,17 @@ func (p *jsiiProxy_PersonalizeDatasetGroup) OverrideLogicalId(newLogicalId *stri
 	)
 }
 
+func (p *jsiiProxy_PersonalizeDatasetGroup) PutTags(value interface{}) {
+	if err := p.validatePutTagsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		p,
+		"putTags",
+		[]interface{}{value},
+	)
+}
+
 func (p *jsiiProxy_PersonalizeDatasetGroup) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := p.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -1010,6 +1045,14 @@ func (p *jsiiProxy_PersonalizeDatasetGroup) ResetRoleArn() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetRoleArn",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PersonalizeDatasetGroup) ResetTags() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetTags",
 		nil, // no parameters
 	)
 }

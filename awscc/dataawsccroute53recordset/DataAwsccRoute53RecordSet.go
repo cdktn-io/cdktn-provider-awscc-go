@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53_record_set awscc_route53_record_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_record_set awscc_route53_record_set}.
 type DataAwsccRoute53RecordSet interface {
 	cdktn.TerraformDataSource
 	AliasTarget() DataAwsccRoute53RecordSetAliasTargetOutputReference
@@ -484,7 +484,7 @@ func (j *jsiiProxy_DataAwsccRoute53RecordSet) Weight() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53_record_set awscc_route53_record_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_record_set awscc_route53_record_set} Data Source.
 func NewDataAwsccRoute53RecordSet(scope constructs.Construct, id *string, config *DataAwsccRoute53RecordSetConfig) DataAwsccRoute53RecordSet {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewDataAwsccRoute53RecordSet(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53_record_set awscc_route53_record_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_record_set awscc_route53_record_set} Data Source.
 func NewDataAwsccRoute53RecordSet_Override(d DataAwsccRoute53RecordSet, scope constructs.Construct, id *string, config *DataAwsccRoute53RecordSetConfig) {
 	_init_.Initialize()
 

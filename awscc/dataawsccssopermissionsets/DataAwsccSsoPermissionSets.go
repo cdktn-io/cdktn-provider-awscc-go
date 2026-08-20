@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sso_permission_sets awscc_sso_permission_sets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sso_permission_sets awscc_sso_permission_sets}.
 type DataAwsccSsoPermissionSets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSsoPermissionSets) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sso_permission_sets awscc_sso_permission_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sso_permission_sets awscc_sso_permission_sets} Data Source.
 func NewDataAwsccSsoPermissionSets(scope constructs.Construct, id *string, config *DataAwsccSsoPermissionSetsConfig) DataAwsccSsoPermissionSets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSsoPermissionSets(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sso_permission_sets awscc_sso_permission_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sso_permission_sets awscc_sso_permission_sets} Data Source.
 func NewDataAwsccSsoPermissionSets_Override(d DataAwsccSsoPermissionSets, scope constructs.Construct, id *string, config *DataAwsccSsoPermissionSetsConfig) {
 	_init_.Initialize()
 

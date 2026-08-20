@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securityagent_artifact awscc_securityagent_artifact}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securityagent_artifact awscc_securityagent_artifact}.
 type DataAwsccSecurityagentArtifact interface {
 	cdktn.TerraformDataSource
 	AgentSpaceId() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccSecurityagentArtifact) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securityagent_artifact awscc_securityagent_artifact} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securityagent_artifact awscc_securityagent_artifact} Data Source.
 func NewDataAwsccSecurityagentArtifact(scope constructs.Construct, id *string, config *DataAwsccSecurityagentArtifactConfig) DataAwsccSecurityagentArtifact {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccSecurityagentArtifact(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securityagent_artifact awscc_securityagent_artifact} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securityagent_artifact awscc_securityagent_artifact} Data Source.
 func NewDataAwsccSecurityagentArtifact_Override(d DataAwsccSecurityagentArtifact, scope constructs.Construct, id *string, config *DataAwsccSecurityagentArtifactConfig) {
 	_init_.Initialize()
 

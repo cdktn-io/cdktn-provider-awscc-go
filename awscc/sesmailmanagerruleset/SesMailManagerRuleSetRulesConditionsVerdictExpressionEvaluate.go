@@ -5,9 +5,9 @@ package sesmailmanagerruleset
 
 
 type SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluate struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#analysis SesMailManagerRuleSet#analysis}.
 	Analysis *SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluateAnalysis `field:"optional" json:"analysis" yaml:"analysis"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
 	Attribute *string `field:"optional" json:"attribute" yaml:"attribute"`
 }
 

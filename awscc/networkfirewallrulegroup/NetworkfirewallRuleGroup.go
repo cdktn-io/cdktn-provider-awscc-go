@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkfirewall_rule_group awscc_networkfirewall_rule_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkfirewall_rule_group awscc_networkfirewall_rule_group}.
 type NetworkfirewallRuleGroup interface {
 	cdktn.TerraformResource
 	Capacity() *float64
@@ -542,7 +542,7 @@ func (j *jsiiProxy_NetworkfirewallRuleGroup) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkfirewall_rule_group awscc_networkfirewall_rule_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkfirewall_rule_group awscc_networkfirewall_rule_group} Resource.
 func NewNetworkfirewallRuleGroup(scope constructs.Construct, id *string, config *NetworkfirewallRuleGroupConfig) NetworkfirewallRuleGroup {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewNetworkfirewallRuleGroup(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkfirewall_rule_group awscc_networkfirewall_rule_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkfirewall_rule_group awscc_networkfirewall_rule_group} Resource.
 func NewNetworkfirewallRuleGroup_Override(n NetworkfirewallRuleGroup, scope constructs.Construct, id *string, config *NetworkfirewallRuleGroupConfig) {
 	_init_.Initialize()
 

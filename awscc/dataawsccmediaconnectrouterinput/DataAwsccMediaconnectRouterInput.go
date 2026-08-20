@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/mediaconnect_router_input awscc_mediaconnect_router_input}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mediaconnect_router_input awscc_mediaconnect_router_input}.
 type DataAwsccMediaconnectRouterInput interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -517,7 +517,7 @@ func (j *jsiiProxy_DataAwsccMediaconnectRouterInput) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/mediaconnect_router_input awscc_mediaconnect_router_input} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mediaconnect_router_input awscc_mediaconnect_router_input} Data Source.
 func NewDataAwsccMediaconnectRouterInput(scope constructs.Construct, id *string, config *DataAwsccMediaconnectRouterInputConfig) DataAwsccMediaconnectRouterInput {
 	_init_.Initialize()
 
@@ -535,7 +535,7 @@ func NewDataAwsccMediaconnectRouterInput(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/mediaconnect_router_input awscc_mediaconnect_router_input} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mediaconnect_router_input awscc_mediaconnect_router_input} Data Source.
 func NewDataAwsccMediaconnectRouterInput_Override(d DataAwsccMediaconnectRouterInput, scope constructs.Construct, id *string, config *DataAwsccMediaconnectRouterInputConfig) {
 	_init_.Initialize()
 

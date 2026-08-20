@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cleanroomsml_configured_model_algorithm awscc_cleanroomsml_configured_model_algorithm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cleanroomsml_configured_model_algorithm awscc_cleanroomsml_configured_model_algorithm}.
 type DataAwsccCleanroomsmlConfiguredModelAlgorithm interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccCleanroomsmlConfiguredModelAlgorithm) TrainingContai
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cleanroomsml_configured_model_algorithm awscc_cleanroomsml_configured_model_algorithm} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cleanroomsml_configured_model_algorithm awscc_cleanroomsml_configured_model_algorithm} Data Source.
 func NewDataAwsccCleanroomsmlConfiguredModelAlgorithm(scope constructs.Construct, id *string, config *DataAwsccCleanroomsmlConfiguredModelAlgorithmConfig) DataAwsccCleanroomsmlConfiguredModelAlgorithm {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccCleanroomsmlConfiguredModelAlgorithm(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cleanroomsml_configured_model_algorithm awscc_cleanroomsml_configured_model_algorithm} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cleanroomsml_configured_model_algorithm awscc_cleanroomsml_configured_model_algorithm} Data Source.
 func NewDataAwsccCleanroomsmlConfiguredModelAlgorithm_Override(d DataAwsccCleanroomsmlConfiguredModelAlgorithm, scope constructs.Construct, id *string, config *DataAwsccCleanroomsmlConfiguredModelAlgorithmConfig) {
 	_init_.Initialize()
 

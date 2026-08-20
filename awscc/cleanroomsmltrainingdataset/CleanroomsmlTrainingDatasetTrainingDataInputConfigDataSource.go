@@ -5,7 +5,7 @@ package cleanroomsmltrainingdataset
 
 
 type CleanroomsmlTrainingDatasetTrainingDataInputConfigDataSource struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cleanroomsml_training_dataset#glue_data_source CleanroomsmlTrainingDataset#glue_data_source}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanroomsml_training_dataset#glue_data_source CleanroomsmlTrainingDataset#glue_data_source}.
 	GlueDataSource *CleanroomsmlTrainingDatasetTrainingDataInputConfigDataSourceGlueDataSource `field:"required" json:"glueDataSource" yaml:"glueDataSource"`
 }
 

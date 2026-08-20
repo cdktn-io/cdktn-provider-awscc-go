@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securityagent_security_requirement_packs awscc_securityagent_security_requirement_packs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securityagent_security_requirement_packs awscc_securityagent_security_requirement_packs}.
 type DataAwsccSecurityagentSecurityRequirementPacks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSecurityagentSecurityRequirementPacks) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securityagent_security_requirement_packs awscc_securityagent_security_requirement_packs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securityagent_security_requirement_packs awscc_securityagent_security_requirement_packs} Data Source.
 func NewDataAwsccSecurityagentSecurityRequirementPacks(scope constructs.Construct, id *string, config *DataAwsccSecurityagentSecurityRequirementPacksConfig) DataAwsccSecurityagentSecurityRequirementPacks {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSecurityagentSecurityRequirementPacks(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securityagent_security_requirement_packs awscc_securityagent_security_requirement_packs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securityagent_security_requirement_packs awscc_securityagent_security_requirement_packs} Data Source.
 func NewDataAwsccSecurityagentSecurityRequirementPacks_Override(d DataAwsccSecurityagentSecurityRequirementPacks, scope constructs.Construct, id *string, config *DataAwsccSecurityagentSecurityRequirementPacksConfig) {
 	_init_.Initialize()
 

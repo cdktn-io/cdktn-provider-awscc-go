@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cassandra_tables awscc_cassandra_tables}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cassandra_tables awscc_cassandra_tables}.
 type DataAwsccCassandraTables interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCassandraTables) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cassandra_tables awscc_cassandra_tables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cassandra_tables awscc_cassandra_tables} Data Source.
 func NewDataAwsccCassandraTables(scope constructs.Construct, id *string, config *DataAwsccCassandraTablesConfig) DataAwsccCassandraTables {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCassandraTables(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cassandra_tables awscc_cassandra_tables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cassandra_tables awscc_cassandra_tables} Data Source.
 func NewDataAwsccCassandraTables_Override(d DataAwsccCassandraTables, scope constructs.Construct, id *string, config *DataAwsccCassandraTablesConfig) {
 	_init_.Initialize()
 

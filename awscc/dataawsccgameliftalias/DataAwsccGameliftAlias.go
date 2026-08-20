@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/gamelift_alias awscc_gamelift_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/gamelift_alias awscc_gamelift_alias}.
 type DataAwsccGameliftAlias interface {
 	cdktn.TerraformDataSource
 	AliasArn() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccGameliftAlias) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/gamelift_alias awscc_gamelift_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/gamelift_alias awscc_gamelift_alias} Data Source.
 func NewDataAwsccGameliftAlias(scope constructs.Construct, id *string, config *DataAwsccGameliftAliasConfig) DataAwsccGameliftAlias {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccGameliftAlias(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/gamelift_alias awscc_gamelift_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/gamelift_alias awscc_gamelift_alias} Data Source.
 func NewDataAwsccGameliftAlias_Override(d DataAwsccGameliftAlias, scope constructs.Construct, id *string, config *DataAwsccGameliftAliasConfig) {
 	_init_.Initialize()
 

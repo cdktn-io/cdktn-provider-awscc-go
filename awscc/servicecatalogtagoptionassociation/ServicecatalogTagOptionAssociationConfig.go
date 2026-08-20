@@ -24,11 +24,11 @@ type ServicecatalogTagOptionAssociationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The CloudformationProduct or Portfolio identifier.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_tag_option_association#resource_id ServicecatalogTagOptionAssociation#resource_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_tag_option_association#resource_id ServicecatalogTagOptionAssociation#resource_id}
 	ResourceId *string `field:"optional" json:"resourceId" yaml:"resourceId"`
 	// The TagOption identifier.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_tag_option_association#tag_option_id ServicecatalogTagOptionAssociation#tag_option_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_tag_option_association#tag_option_id ServicecatalogTagOptionAssociation#tag_option_id}
 	TagOptionId *string `field:"optional" json:"tagOptionId" yaml:"tagOptionId"`
 }
 

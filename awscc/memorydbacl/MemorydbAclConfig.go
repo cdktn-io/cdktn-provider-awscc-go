@@ -24,15 +24,15 @@ type MemorydbAclConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the acl.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/memorydb_acl#acl_name MemorydbAcl#acl_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_acl#acl_name MemorydbAcl#acl_name}
 	AclName *string `field:"required" json:"aclName" yaml:"aclName"`
 	// An array of key-value pairs to apply to this cluster.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/memorydb_acl#tags MemorydbAcl#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_acl#tags MemorydbAcl#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// List of users associated to this acl.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/memorydb_acl#user_names MemorydbAcl#user_names}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_acl#user_names MemorydbAcl#user_names}
 	UserNames *[]*string `field:"optional" json:"userNames" yaml:"userNames"`
 }
 

@@ -24,23 +24,23 @@ type MedialiveClusterConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The hardware type for the cluster.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#cluster_type MedialiveCluster#cluster_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#cluster_type MedialiveCluster#cluster_type}
 	ClusterType *string `field:"optional" json:"clusterType" yaml:"clusterType"`
 	// The IAM role your nodes will use.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#instance_role_arn MedialiveCluster#instance_role_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#instance_role_arn MedialiveCluster#instance_role_arn}
 	InstanceRoleArn *string `field:"optional" json:"instanceRoleArn" yaml:"instanceRoleArn"`
 	// The user-specified name of the Cluster to be created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#name MedialiveCluster#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#name MedialiveCluster#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// On premises settings which will have the interface network mappings and default Output logical interface.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#network_settings MedialiveCluster#network_settings}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#network_settings MedialiveCluster#network_settings}
 	NetworkSettings *MedialiveClusterNetworkSettings `field:"optional" json:"networkSettings" yaml:"networkSettings"`
 	// A collection of key-value pairs.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_cluster#tags MedialiveCluster#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_cluster#tags MedialiveCluster#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

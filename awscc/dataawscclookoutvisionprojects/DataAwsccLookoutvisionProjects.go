@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lookoutvision_projects awscc_lookoutvision_projects}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lookoutvision_projects awscc_lookoutvision_projects}.
 type DataAwsccLookoutvisionProjects interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLookoutvisionProjects) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lookoutvision_projects awscc_lookoutvision_projects} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lookoutvision_projects awscc_lookoutvision_projects} Data Source.
 func NewDataAwsccLookoutvisionProjects(scope constructs.Construct, id *string, config *DataAwsccLookoutvisionProjectsConfig) DataAwsccLookoutvisionProjects {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLookoutvisionProjects(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/lookoutvision_projects awscc_lookoutvision_projects} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lookoutvision_projects awscc_lookoutvision_projects} Data Source.
 func NewDataAwsccLookoutvisionProjects_Override(d DataAwsccLookoutvisionProjects, scope constructs.Construct, id *string, config *DataAwsccLookoutvisionProjectsConfig) {
 	_init_.Initialize()
 

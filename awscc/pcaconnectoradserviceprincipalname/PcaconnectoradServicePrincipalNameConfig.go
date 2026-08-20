@@ -22,9 +22,9 @@ type PcaconnectoradServicePrincipalNameConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_service_principal_name#connector_arn PcaconnectoradServicePrincipalName#connector_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorad_service_principal_name#connector_arn PcaconnectoradServicePrincipalName#connector_arn}.
 	ConnectorArn *string `field:"required" json:"connectorArn" yaml:"connectorArn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorad_service_principal_name#directory_registration_arn PcaconnectoradServicePrincipalName#directory_registration_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorad_service_principal_name#directory_registration_arn PcaconnectoradServicePrincipalName#directory_registration_arn}.
 	DirectoryRegistrationArn *string `field:"required" json:"directoryRegistrationArn" yaml:"directoryRegistrationArn"`
 }
 

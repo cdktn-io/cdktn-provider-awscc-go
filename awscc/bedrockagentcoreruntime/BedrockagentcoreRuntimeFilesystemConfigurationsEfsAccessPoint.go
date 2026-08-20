@@ -7,11 +7,11 @@ package bedrockagentcoreruntime
 type BedrockagentcoreRuntimeFilesystemConfigurationsEfsAccessPoint struct {
 	// ARN of the EFS access point.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_runtime#access_point_arn BedrockagentcoreRuntime#access_point_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_runtime#access_point_arn BedrockagentcoreRuntime#access_point_arn}
 	AccessPointArn *string `field:"optional" json:"accessPointArn" yaml:"accessPointArn"`
 	// Mount path for filesystem configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_runtime#mount_path BedrockagentcoreRuntime#mount_path}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_runtime#mount_path BedrockagentcoreRuntime#mount_path}
 	MountPath *string `field:"optional" json:"mountPath" yaml:"mountPath"`
 }
 

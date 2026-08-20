@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/entityresolution_policy_statement awscc_entityresolution_policy_statement}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/entityresolution_policy_statement awscc_entityresolution_policy_statement}.
 type DataAwsccEntityresolutionPolicyStatement interface {
 	cdktn.TerraformDataSource
 	Action() *[]*string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccEntityresolutionPolicyStatement) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/entityresolution_policy_statement awscc_entityresolution_policy_statement} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/entityresolution_policy_statement awscc_entityresolution_policy_statement} Data Source.
 func NewDataAwsccEntityresolutionPolicyStatement(scope constructs.Construct, id *string, config *DataAwsccEntityresolutionPolicyStatementConfig) DataAwsccEntityresolutionPolicyStatement {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccEntityresolutionPolicyStatement(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/entityresolution_policy_statement awscc_entityresolution_policy_statement} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/entityresolution_policy_statement awscc_entityresolution_policy_statement} Data Source.
 func NewDataAwsccEntityresolutionPolicyStatement_Override(d DataAwsccEntityresolutionPolicyStatement, scope constructs.Construct, id *string, config *DataAwsccEntityresolutionPolicyStatementConfig) {
 	_init_.Initialize()
 

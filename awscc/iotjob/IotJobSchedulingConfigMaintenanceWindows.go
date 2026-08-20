@@ -7,11 +7,11 @@ package iotjob
 type IotJobSchedulingConfigMaintenanceWindows struct {
 	// Displays the duration of the next maintenance window.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#duration_in_minutes IotJob#duration_in_minutes}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#duration_in_minutes IotJob#duration_in_minutes}
 	DurationInMinutes *float64 `field:"optional" json:"durationInMinutes" yaml:"durationInMinutes"`
 	// Displays the start time of the next maintenance window.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job#start_time IotJob#start_time}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job#start_time IotJob#start_time}
 	StartTime *string `field:"optional" json:"startTime" yaml:"startTime"`
 }
 

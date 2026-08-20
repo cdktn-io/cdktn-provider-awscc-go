@@ -5,9 +5,9 @@ package budgetsbudgetsaction
 
 
 type BudgetsBudgetsActionDefinitionScpActionDefinition struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/budgets_budgets_action#policy_id BudgetsBudgetsAction#policy_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/budgets_budgets_action#policy_id BudgetsBudgetsAction#policy_id}.
 	PolicyId *string `field:"optional" json:"policyId" yaml:"policyId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/budgets_budgets_action#target_ids BudgetsBudgetsAction#target_ids}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/budgets_budgets_action#target_ids BudgetsBudgetsAction#target_ids}.
 	TargetIds *[]*string `field:"optional" json:"targetIds" yaml:"targetIds"`
 }
 

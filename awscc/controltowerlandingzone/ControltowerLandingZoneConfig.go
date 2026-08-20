@@ -22,13 +22,13 @@ type ControltowerLandingZoneConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/controltower_landing_zone#manifest ControltowerLandingZone#manifest}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_landing_zone#manifest ControltowerLandingZone#manifest}.
 	Manifest *string `field:"required" json:"manifest" yaml:"manifest"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/controltower_landing_zone#version ControltowerLandingZone#version}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_landing_zone#version ControltowerLandingZone#version}.
 	Version *string `field:"required" json:"version" yaml:"version"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/controltower_landing_zone#remediation_types ControltowerLandingZone#remediation_types}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_landing_zone#remediation_types ControltowerLandingZone#remediation_types}.
 	RemediationTypes *[]*string `field:"optional" json:"remediationTypes" yaml:"remediationTypes"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/controltower_landing_zone#tags ControltowerLandingZone#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_landing_zone#tags ControltowerLandingZone#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

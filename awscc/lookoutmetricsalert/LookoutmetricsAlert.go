@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lookoutmetrics_alert awscc_lookoutmetrics_alert}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lookoutmetrics_alert awscc_lookoutmetrics_alert}.
 type LookoutmetricsAlert interface {
 	cdktn.TerraformResource
 	Action() LookoutmetricsAlertActionOutputReference
@@ -483,7 +483,7 @@ func (j *jsiiProxy_LookoutmetricsAlert) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lookoutmetrics_alert awscc_lookoutmetrics_alert} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lookoutmetrics_alert awscc_lookoutmetrics_alert} Resource.
 func NewLookoutmetricsAlert(scope constructs.Construct, id *string, config *LookoutmetricsAlertConfig) LookoutmetricsAlert {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewLookoutmetricsAlert(scope constructs.Construct, id *string, config *Look
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lookoutmetrics_alert awscc_lookoutmetrics_alert} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lookoutmetrics_alert awscc_lookoutmetrics_alert} Resource.
 func NewLookoutmetricsAlert_Override(l LookoutmetricsAlert, scope constructs.Construct, id *string, config *LookoutmetricsAlertConfig) {
 	_init_.Initialize()
 

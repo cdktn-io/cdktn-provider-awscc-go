@@ -5,11 +5,11 @@ package opensearchservicedomain
 
 
 type OpensearchserviceDomainAutomatedSnapshotPauseOptions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchservice_domain#enabled OpensearchserviceDomain#enabled}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchservice_domain#enabled OpensearchserviceDomain#enabled}.
 	Enabled interface{} `field:"optional" json:"enabled" yaml:"enabled"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchservice_domain#end_time OpensearchserviceDomain#end_time}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchservice_domain#end_time OpensearchserviceDomain#end_time}.
 	EndTime *string `field:"optional" json:"endTime" yaml:"endTime"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/opensearchservice_domain#start_time OpensearchserviceDomain#start_time}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchservice_domain#start_time OpensearchserviceDomain#start_time}.
 	StartTime *string `field:"optional" json:"startTime" yaml:"startTime"`
 }
 

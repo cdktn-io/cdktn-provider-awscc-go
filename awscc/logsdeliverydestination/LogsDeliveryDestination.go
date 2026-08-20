@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_delivery_destination awscc_logs_delivery_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_delivery_destination awscc_logs_delivery_destination}.
 type LogsDeliveryDestination interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -509,7 +509,7 @@ func (j *jsiiProxy_LogsDeliveryDestination) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_delivery_destination awscc_logs_delivery_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_delivery_destination awscc_logs_delivery_destination} Resource.
 func NewLogsDeliveryDestination(scope constructs.Construct, id *string, config *LogsDeliveryDestinationConfig) LogsDeliveryDestination {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewLogsDeliveryDestination(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_delivery_destination awscc_logs_delivery_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_delivery_destination awscc_logs_delivery_destination} Resource.
 func NewLogsDeliveryDestination_Override(l LogsDeliveryDestination, scope constructs.Construct, id *string, config *LogsDeliveryDestinationConfig) {
 	_init_.Initialize()
 

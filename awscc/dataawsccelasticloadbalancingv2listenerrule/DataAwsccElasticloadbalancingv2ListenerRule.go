@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/elasticloadbalancingv2_listener_rule awscc_elasticloadbalancingv2_listener_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elasticloadbalancingv2_listener_rule awscc_elasticloadbalancingv2_listener_rule}.
 type DataAwsccElasticloadbalancingv2ListenerRule interface {
 	cdktn.TerraformDataSource
 	Actions() DataAwsccElasticloadbalancingv2ListenerRuleActionsList
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccElasticloadbalancingv2ListenerRule) Transforms() Dat
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/elasticloadbalancingv2_listener_rule awscc_elasticloadbalancingv2_listener_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elasticloadbalancingv2_listener_rule awscc_elasticloadbalancingv2_listener_rule} Data Source.
 func NewDataAwsccElasticloadbalancingv2ListenerRule(scope constructs.Construct, id *string, config *DataAwsccElasticloadbalancingv2ListenerRuleConfig) DataAwsccElasticloadbalancingv2ListenerRule {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccElasticloadbalancingv2ListenerRule(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/elasticloadbalancingv2_listener_rule awscc_elasticloadbalancingv2_listener_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elasticloadbalancingv2_listener_rule awscc_elasticloadbalancingv2_listener_rule} Data Source.
 func NewDataAwsccElasticloadbalancingv2ListenerRule_Override(d DataAwsccElasticloadbalancingv2ListenerRule, scope constructs.Construct, id *string, config *DataAwsccElasticloadbalancingv2ListenerRuleConfig) {
 	_init_.Initialize()
 

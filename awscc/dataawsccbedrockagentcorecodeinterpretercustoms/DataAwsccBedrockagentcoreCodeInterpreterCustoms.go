@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_code_interpreter_customs awscc_bedrockagentcore_code_interpreter_customs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_code_interpreter_customs awscc_bedrockagentcore_code_interpreter_customs}.
 type DataAwsccBedrockagentcoreCodeInterpreterCustoms interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreCodeInterpreterCustoms) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_code_interpreter_customs awscc_bedrockagentcore_code_interpreter_customs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_code_interpreter_customs awscc_bedrockagentcore_code_interpreter_customs} Data Source.
 func NewDataAwsccBedrockagentcoreCodeInterpreterCustoms(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreCodeInterpreterCustomsConfig) DataAwsccBedrockagentcoreCodeInterpreterCustoms {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockagentcoreCodeInterpreterCustoms(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_code_interpreter_customs awscc_bedrockagentcore_code_interpreter_customs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_code_interpreter_customs awscc_bedrockagentcore_code_interpreter_customs} Data Source.
 func NewDataAwsccBedrockagentcoreCodeInterpreterCustoms_Override(d DataAwsccBedrockagentcoreCodeInterpreterCustoms, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreCodeInterpreterCustomsConfig) {
 	_init_.Initialize()
 

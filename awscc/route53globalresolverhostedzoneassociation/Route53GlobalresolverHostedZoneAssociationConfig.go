@@ -22,11 +22,11 @@ type Route53GlobalresolverHostedZoneAssociationConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53globalresolver_hosted_zone_association#hosted_zone_id Route53GlobalresolverHostedZoneAssociation#hosted_zone_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_hosted_zone_association#hosted_zone_id Route53GlobalresolverHostedZoneAssociation#hosted_zone_id}.
 	HostedZoneId *string `field:"required" json:"hostedZoneId" yaml:"hostedZoneId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53globalresolver_hosted_zone_association#name Route53GlobalresolverHostedZoneAssociation#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_hosted_zone_association#name Route53GlobalresolverHostedZoneAssociation#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53globalresolver_hosted_zone_association#resource_arn Route53GlobalresolverHostedZoneAssociation#resource_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53globalresolver_hosted_zone_association#resource_arn Route53GlobalresolverHostedZoneAssociation#resource_arn}.
 	ResourceArn *string `field:"required" json:"resourceArn" yaml:"resourceArn"`
 }
 

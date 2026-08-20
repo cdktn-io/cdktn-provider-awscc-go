@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/dynamodb_tables awscc_dynamodb_tables}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/dynamodb_tables awscc_dynamodb_tables}.
 type DataAwsccDynamodbTables interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDynamodbTables) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/dynamodb_tables awscc_dynamodb_tables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/dynamodb_tables awscc_dynamodb_tables} Data Source.
 func NewDataAwsccDynamodbTables(scope constructs.Construct, id *string, config *DataAwsccDynamodbTablesConfig) DataAwsccDynamodbTables {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDynamodbTables(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/dynamodb_tables awscc_dynamodb_tables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/dynamodb_tables awscc_dynamodb_tables} Data Source.
 func NewDataAwsccDynamodbTables_Override(d DataAwsccDynamodbTables, scope constructs.Construct, id *string, config *DataAwsccDynamodbTablesConfig) {
 	_init_.Initialize()
 

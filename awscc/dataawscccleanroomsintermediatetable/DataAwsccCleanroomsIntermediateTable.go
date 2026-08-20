@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cleanrooms_intermediate_table awscc_cleanrooms_intermediate_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cleanrooms_intermediate_table awscc_cleanrooms_intermediate_table}.
 type DataAwsccCleanroomsIntermediateTable interface {
 	cdktn.TerraformDataSource
 	AnalysisRules() DataAwsccCleanroomsIntermediateTableAnalysisRulesList
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccCleanroomsIntermediateTable) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cleanrooms_intermediate_table awscc_cleanrooms_intermediate_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cleanrooms_intermediate_table awscc_cleanrooms_intermediate_table} Data Source.
 func NewDataAwsccCleanroomsIntermediateTable(scope constructs.Construct, id *string, config *DataAwsccCleanroomsIntermediateTableConfig) DataAwsccCleanroomsIntermediateTable {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccCleanroomsIntermediateTable(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cleanrooms_intermediate_table awscc_cleanrooms_intermediate_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cleanrooms_intermediate_table awscc_cleanrooms_intermediate_table} Data Source.
 func NewDataAwsccCleanroomsIntermediateTable_Override(d DataAwsccCleanroomsIntermediateTable, scope constructs.Construct, id *string, config *DataAwsccCleanroomsIntermediateTableConfig) {
 	_init_.Initialize()
 

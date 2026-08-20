@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/stepfunctions_state_machine_version awscc_stepfunctions_state_machine_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_state_machine_version awscc_stepfunctions_state_machine_version}.
 type StepfunctionsStateMachineVersion interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -437,7 +437,7 @@ func (j *jsiiProxy_StepfunctionsStateMachineVersion) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/stepfunctions_state_machine_version awscc_stepfunctions_state_machine_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_state_machine_version awscc_stepfunctions_state_machine_version} Resource.
 func NewStepfunctionsStateMachineVersion(scope constructs.Construct, id *string, config *StepfunctionsStateMachineVersionConfig) StepfunctionsStateMachineVersion {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewStepfunctionsStateMachineVersion(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/stepfunctions_state_machine_version awscc_stepfunctions_state_machine_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_state_machine_version awscc_stepfunctions_state_machine_version} Resource.
 func NewStepfunctionsStateMachineVersion_Override(s StepfunctionsStateMachineVersion, scope constructs.Construct, id *string, config *StepfunctionsStateMachineVersionConfig) {
 	_init_.Initialize()
 

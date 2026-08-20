@@ -5,9 +5,9 @@ package bedrockagentcorememory
 
 
 type BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationEpisodicOverrideReflectionMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationNumberValidation struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_memory#max_value BedrockagentcoreMemory#max_value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_memory#max_value BedrockagentcoreMemory#max_value}.
 	MaxValue *float64 `field:"optional" json:"maxValue" yaml:"maxValue"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_memory#min_value BedrockagentcoreMemory#min_value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_memory#min_value BedrockagentcoreMemory#min_value}.
 	MinValue *float64 `field:"optional" json:"minValue" yaml:"minValue"`
 }
 

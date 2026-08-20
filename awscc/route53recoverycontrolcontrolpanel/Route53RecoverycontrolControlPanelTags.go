@@ -5,9 +5,9 @@ package route53recoverycontrolcontrolpanel
 
 
 type Route53RecoverycontrolControlPanelTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoverycontrol_control_panel#key Route53RecoverycontrolControlPanel#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53recoverycontrol_control_panel#key Route53RecoverycontrolControlPanel#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53recoverycontrol_control_panel#value Route53RecoverycontrolControlPanel#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53recoverycontrol_control_panel#value Route53RecoverycontrolControlPanel#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ivs_encoder_configuration awscc_ivs_encoder_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ivs_encoder_configuration awscc_ivs_encoder_configuration}.
 type DataAwsccIvsEncoderConfiguration interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccIvsEncoderConfiguration) Video() DataAwsccIvsEncoder
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ivs_encoder_configuration awscc_ivs_encoder_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ivs_encoder_configuration awscc_ivs_encoder_configuration} Data Source.
 func NewDataAwsccIvsEncoderConfiguration(scope constructs.Construct, id *string, config *DataAwsccIvsEncoderConfigurationConfig) DataAwsccIvsEncoderConfiguration {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccIvsEncoderConfiguration(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ivs_encoder_configuration awscc_ivs_encoder_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ivs_encoder_configuration awscc_ivs_encoder_configuration} Data Source.
 func NewDataAwsccIvsEncoderConfiguration_Override(d DataAwsccIvsEncoderConfiguration, scope constructs.Construct, id *string, config *DataAwsccIvsEncoderConfigurationConfig) {
 	_init_.Initialize()
 

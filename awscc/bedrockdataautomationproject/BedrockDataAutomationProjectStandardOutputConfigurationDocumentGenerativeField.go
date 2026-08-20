@@ -5,7 +5,7 @@ package bedrockdataautomationproject
 
 
 type BedrockDataAutomationProjectStandardOutputConfigurationDocumentGenerativeField struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_automation_project#state BedrockDataAutomationProject#state}.
 	State *string `field:"optional" json:"state" yaml:"state"`
 }
 

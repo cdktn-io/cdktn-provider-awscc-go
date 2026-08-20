@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service}.
 type Ec2VpcEndpointService interface {
 	cdktn.TerraformResource
 	AcceptanceRequired() interface{}
@@ -558,7 +558,7 @@ func (j *jsiiProxy_Ec2VpcEndpointService) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service} Resource.
 func NewEc2VpcEndpointService(scope constructs.Construct, id *string, config *Ec2VpcEndpointServiceConfig) Ec2VpcEndpointService {
 	_init_.Initialize()
 
@@ -576,7 +576,7 @@ func NewEc2VpcEndpointService(scope constructs.Construct, id *string, config *Ec
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service} Resource.
 func NewEc2VpcEndpointService_Override(e Ec2VpcEndpointService, scope constructs.Construct, id *string, config *Ec2VpcEndpointServiceConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ivs_channel awscc_ivs_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ivs_channel awscc_ivs_channel}.
 type DataAwsccIvsChannel interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccIvsChannel) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ivs_channel awscc_ivs_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ivs_channel awscc_ivs_channel} Data Source.
 func NewDataAwsccIvsChannel(scope constructs.Construct, id *string, config *DataAwsccIvsChannelConfig) DataAwsccIvsChannel {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccIvsChannel(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ivs_channel awscc_ivs_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ivs_channel awscc_ivs_channel} Data Source.
 func NewDataAwsccIvsChannel_Override(d DataAwsccIvsChannel, scope constructs.Construct, id *string, config *DataAwsccIvsChannelConfig) {
 	_init_.Initialize()
 

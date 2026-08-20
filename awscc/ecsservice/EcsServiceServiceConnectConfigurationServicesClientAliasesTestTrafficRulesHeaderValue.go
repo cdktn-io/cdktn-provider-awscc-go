@@ -5,7 +5,7 @@ package ecsservice
 
 
 type EcsServiceServiceConnectConfigurationServicesClientAliasesTestTrafficRulesHeaderValue struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_service#exact EcsService#exact}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_service#exact EcsService#exact}.
 	Exact *string `field:"optional" json:"exact" yaml:"exact"`
 }
 

@@ -5,9 +5,9 @@ package networkflowmonitormonitor
 
 
 type NetworkflowmonitorMonitorTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkflowmonitor_monitor#key NetworkflowmonitorMonitor#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkflowmonitor_monitor#key NetworkflowmonitorMonitor#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkflowmonitor_monitor#value NetworkflowmonitorMonitor#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkflowmonitor_monitor#value NetworkflowmonitorMonitor#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

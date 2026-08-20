@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apprunner_vpc_connector awscc_apprunner_vpc_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apprunner_vpc_connector awscc_apprunner_vpc_connector}.
 type DataAwsccApprunnerVpcConnector interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccApprunnerVpcConnector) VpcConnectorRevision() *float
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apprunner_vpc_connector awscc_apprunner_vpc_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apprunner_vpc_connector awscc_apprunner_vpc_connector} Data Source.
 func NewDataAwsccApprunnerVpcConnector(scope constructs.Construct, id *string, config *DataAwsccApprunnerVpcConnectorConfig) DataAwsccApprunnerVpcConnector {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccApprunnerVpcConnector(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apprunner_vpc_connector awscc_apprunner_vpc_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apprunner_vpc_connector awscc_apprunner_vpc_connector} Data Source.
 func NewDataAwsccApprunnerVpcConnector_Override(d DataAwsccApprunnerVpcConnector, scope constructs.Construct, id *string, config *DataAwsccApprunnerVpcConnectorConfig) {
 	_init_.Initialize()
 

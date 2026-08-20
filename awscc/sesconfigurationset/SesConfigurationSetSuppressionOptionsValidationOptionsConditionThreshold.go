@@ -7,11 +7,11 @@ package sesconfigurationset
 type SesConfigurationSetSuppressionOptionsValidationOptionsConditionThreshold struct {
 	// Whether the condition threshold is enabled or disabled.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#condition_threshold_enabled SesConfigurationSet#condition_threshold_enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_configuration_set#condition_threshold_enabled SesConfigurationSet#condition_threshold_enabled}
 	ConditionThresholdEnabled *string `field:"optional" json:"conditionThresholdEnabled" yaml:"conditionThresholdEnabled"`
 	// The overall confidence threshold settings.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#overall_confidence_threshold SesConfigurationSet#overall_confidence_threshold}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_configuration_set#overall_confidence_threshold SesConfigurationSet#overall_confidence_threshold}
 	OverallConfidenceThreshold *SesConfigurationSetSuppressionOptionsValidationOptionsConditionThresholdOverallConfidenceThreshold `field:"optional" json:"overallConfidenceThreshold" yaml:"overallConfidenceThreshold"`
 }
 

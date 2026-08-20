@@ -22,17 +22,17 @@ type EventsEndpointConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_endpoint#event_buses EventsEndpoint#event_buses}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_endpoint#event_buses EventsEndpoint#event_buses}.
 	EventBuses interface{} `field:"required" json:"eventBuses" yaml:"eventBuses"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_endpoint#routing_config EventsEndpoint#routing_config}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_endpoint#routing_config EventsEndpoint#routing_config}.
 	RoutingConfig *EventsEndpointRoutingConfig `field:"required" json:"routingConfig" yaml:"routingConfig"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_endpoint#description EventsEndpoint#description}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_endpoint#description EventsEndpoint#description}.
 	Description *string `field:"optional" json:"description" yaml:"description"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_endpoint#name EventsEndpoint#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_endpoint#name EventsEndpoint#name}.
 	Name *string `field:"optional" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_endpoint#replication_config EventsEndpoint#replication_config}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_endpoint#replication_config EventsEndpoint#replication_config}.
 	ReplicationConfig *EventsEndpointReplicationConfig `field:"optional" json:"replicationConfig" yaml:"replicationConfig"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_endpoint#role_arn EventsEndpoint#role_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_endpoint#role_arn EventsEndpoint#role_arn}.
 	RoleArn *string `field:"optional" json:"roleArn" yaml:"roleArn"`
 }
 

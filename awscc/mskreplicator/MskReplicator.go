@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_replicator awscc_msk_replicator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_replicator awscc_msk_replicator}.
 type MskReplicator interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -541,7 +541,7 @@ func (j *jsiiProxy_MskReplicator) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_replicator awscc_msk_replicator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_replicator awscc_msk_replicator} Resource.
 func NewMskReplicator(scope constructs.Construct, id *string, config *MskReplicatorConfig) MskReplicator {
 	_init_.Initialize()
 
@@ -559,7 +559,7 @@ func NewMskReplicator(scope constructs.Construct, id *string, config *MskReplica
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_replicator awscc_msk_replicator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_replicator awscc_msk_replicator} Resource.
 func NewMskReplicator_Override(m MskReplicator, scope constructs.Construct, id *string, config *MskReplicatorConfig) {
 	_init_.Initialize()
 

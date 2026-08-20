@@ -5,9 +5,9 @@ package datasyncstoragesystem
 
 
 type DatasyncStorageSystemServerCredentials struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datasync_storage_system#password DatasyncStorageSystem#password}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#password DatasyncStorageSystem#password}.
 	Password *string `field:"optional" json:"password" yaml:"password"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datasync_storage_system#username DatasyncStorageSystem#username}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_storage_system#username DatasyncStorageSystem#username}.
 	Username *string `field:"optional" json:"username" yaml:"username"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lex_resource_policy awscc_lex_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_resource_policy awscc_lex_resource_policy}.
 type LexResourcePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_LexResourcePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lex_resource_policy awscc_lex_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_resource_policy awscc_lex_resource_policy} Resource.
 func NewLexResourcePolicy(scope constructs.Construct, id *string, config *LexResourcePolicyConfig) LexResourcePolicy {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewLexResourcePolicy(scope constructs.Construct, id *string, config *LexRes
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lex_resource_policy awscc_lex_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lex_resource_policy awscc_lex_resource_policy} Resource.
 func NewLexResourcePolicy_Override(l LexResourcePolicy, scope constructs.Construct, id *string, config *LexResourcePolicyConfig) {
 	_init_.Initialize()
 

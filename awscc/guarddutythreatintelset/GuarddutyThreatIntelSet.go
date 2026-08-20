@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_threat_intel_set awscc_guardduty_threat_intel_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_intel_set awscc_guardduty_threat_intel_set}.
 type GuarddutyThreatIntelSet interface {
 	cdktn.TerraformResource
 	Activate() interface{}
@@ -532,7 +532,7 @@ func (j *jsiiProxy_GuarddutyThreatIntelSet) ThreatIntelSetId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_threat_intel_set awscc_guardduty_threat_intel_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_intel_set awscc_guardduty_threat_intel_set} Resource.
 func NewGuarddutyThreatIntelSet(scope constructs.Construct, id *string, config *GuarddutyThreatIntelSetConfig) GuarddutyThreatIntelSet {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewGuarddutyThreatIntelSet(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_threat_intel_set awscc_guardduty_threat_intel_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_intel_set awscc_guardduty_threat_intel_set} Resource.
 func NewGuarddutyThreatIntelSet_Override(g GuarddutyThreatIntelSet, scope constructs.Construct, id *string, config *GuarddutyThreatIntelSetConfig) {
 	_init_.Initialize()
 

@@ -7,11 +7,11 @@ package mskchannel
 type MskChannelLoggingInfoCloudwatchLogs struct {
 	// Whether CloudWatch Logs logging is enabled.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#enabled MskChannel#enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_channel#enabled MskChannel#enabled}
 	Enabled interface{} `field:"optional" json:"enabled" yaml:"enabled"`
 	// The CloudWatch log group for log delivery.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#log_group MskChannel#log_group}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_channel#log_group MskChannel#log_group}
 	LogGroup *string `field:"optional" json:"logGroup" yaml:"logGroup"`
 }
 

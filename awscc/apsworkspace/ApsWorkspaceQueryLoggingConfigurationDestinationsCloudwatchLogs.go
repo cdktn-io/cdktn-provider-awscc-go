@@ -7,7 +7,7 @@ package apsworkspace
 type ApsWorkspaceQueryLoggingConfigurationDestinationsCloudwatchLogs struct {
 	// The ARN of the CloudWatch Logs log group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_workspace#log_group_arn ApsWorkspace#log_group_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_workspace#log_group_arn ApsWorkspace#log_group_arn}
 	LogGroupArn *string `field:"optional" json:"logGroupArn" yaml:"logGroupArn"`
 }
 

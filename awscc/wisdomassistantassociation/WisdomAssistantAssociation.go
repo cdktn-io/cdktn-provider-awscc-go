@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association awscc_wisdom_assistant_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wisdom_assistant_association awscc_wisdom_assistant_association}.
 type WisdomAssistantAssociation interface {
 	cdktn.TerraformResource
 	AssistantArn() *string
@@ -481,7 +481,7 @@ func (j *jsiiProxy_WisdomAssistantAssociation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association awscc_wisdom_assistant_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wisdom_assistant_association awscc_wisdom_assistant_association} Resource.
 func NewWisdomAssistantAssociation(scope constructs.Construct, id *string, config *WisdomAssistantAssociationConfig) WisdomAssistantAssociation {
 	_init_.Initialize()
 
@@ -499,7 +499,7 @@ func NewWisdomAssistantAssociation(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_assistant_association awscc_wisdom_assistant_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wisdom_assistant_association awscc_wisdom_assistant_association} Resource.
 func NewWisdomAssistantAssociation_Override(w WisdomAssistantAssociation, scope constructs.Construct, id *string, config *WisdomAssistantAssociationConfig) {
 	_init_.Initialize()
 

@@ -5,19 +5,19 @@ package datazoneconnection
 
 
 type DatazoneConnectionPropsRedshiftProperties struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_connection#credentials DatazoneConnection#credentials}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_connection#credentials DatazoneConnection#credentials}.
 	Credentials *DatazoneConnectionPropsRedshiftPropertiesCredentials `field:"optional" json:"credentials" yaml:"credentials"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_connection#database_name DatazoneConnection#database_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_connection#database_name DatazoneConnection#database_name}.
 	DatabaseName *string `field:"optional" json:"databaseName" yaml:"databaseName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_connection#host DatazoneConnection#host}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_connection#host DatazoneConnection#host}.
 	Host *string `field:"optional" json:"host" yaml:"host"`
 	// Redshift Lineage Sync Configuration Input.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_connection#lineage_sync DatazoneConnection#lineage_sync}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_connection#lineage_sync DatazoneConnection#lineage_sync}
 	LineageSync *DatazoneConnectionPropsRedshiftPropertiesLineageSync `field:"optional" json:"lineageSync" yaml:"lineageSync"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_connection#port DatazoneConnection#port}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_connection#port DatazoneConnection#port}.
 	Port *float64 `field:"optional" json:"port" yaml:"port"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_connection#storage DatazoneConnection#storage}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_connection#storage DatazoneConnection#storage}.
 	Storage *DatazoneConnectionPropsRedshiftPropertiesStorage `field:"optional" json:"storage" yaml:"storage"`
 }
 

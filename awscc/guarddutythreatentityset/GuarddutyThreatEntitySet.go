@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_threat_entity_set awscc_guardduty_threat_entity_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_entity_set awscc_guardduty_threat_entity_set}.
 type GuarddutyThreatEntitySet interface {
 	cdktn.TerraformResource
 	Activate() interface{}
@@ -576,7 +576,7 @@ func (j *jsiiProxy_GuarddutyThreatEntitySet) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_threat_entity_set awscc_guardduty_threat_entity_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_entity_set awscc_guardduty_threat_entity_set} Resource.
 func NewGuarddutyThreatEntitySet(scope constructs.Construct, id *string, config *GuarddutyThreatEntitySetConfig) GuarddutyThreatEntitySet {
 	_init_.Initialize()
 
@@ -594,7 +594,7 @@ func NewGuarddutyThreatEntitySet(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/guardduty_threat_entity_set awscc_guardduty_threat_entity_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/guardduty_threat_entity_set awscc_guardduty_threat_entity_set} Resource.
 func NewGuarddutyThreatEntitySet_Override(g GuarddutyThreatEntitySet, scope constructs.Construct, id *string, config *GuarddutyThreatEntitySetConfig) {
 	_init_.Initialize()
 

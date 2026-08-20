@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/gamelift_game_session_queues awscc_gamelift_game_session_queues}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/gamelift_game_session_queues awscc_gamelift_game_session_queues}.
 type DataAwsccGameliftGameSessionQueues interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGameliftGameSessionQueues) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/gamelift_game_session_queues awscc_gamelift_game_session_queues} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/gamelift_game_session_queues awscc_gamelift_game_session_queues} Data Source.
 func NewDataAwsccGameliftGameSessionQueues(scope constructs.Construct, id *string, config *DataAwsccGameliftGameSessionQueuesConfig) DataAwsccGameliftGameSessionQueues {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGameliftGameSessionQueues(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/gamelift_game_session_queues awscc_gamelift_game_session_queues} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/gamelift_game_session_queues awscc_gamelift_game_session_queues} Data Source.
 func NewDataAwsccGameliftGameSessionQueues_Override(d DataAwsccGameliftGameSessionQueues, scope constructs.Construct, id *string, config *DataAwsccGameliftGameSessionQueuesConfig) {
 	_init_.Initialize()
 

@@ -24,19 +24,19 @@ type SesContactListConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the contact list.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_contact_list#contact_list_name SesContactList#contact_list_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_contact_list#contact_list_name SesContactList#contact_list_name}
 	ContactListName *string `field:"optional" json:"contactListName" yaml:"contactListName"`
 	// The description of the contact list.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_contact_list#description SesContactList#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_contact_list#description SesContactList#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The tags (keys and values) associated with the contact list.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_contact_list#tags SesContactList#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_contact_list#tags SesContactList#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// The topics associated with the contact list.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_contact_list#topics SesContactList#topics}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_contact_list#topics SesContactList#topics}
 	Topics interface{} `field:"optional" json:"topics" yaml:"topics"`
 }
 

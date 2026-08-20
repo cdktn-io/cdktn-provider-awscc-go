@@ -5,9 +5,9 @@ package logsscheduledquery
 
 
 type LogsScheduledQueryDestinationConfigurationS3Configuration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_scheduled_query#destination_identifier LogsScheduledQuery#destination_identifier}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_scheduled_query#destination_identifier LogsScheduledQuery#destination_identifier}.
 	DestinationIdentifier *string `field:"optional" json:"destinationIdentifier" yaml:"destinationIdentifier"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/logs_scheduled_query#role_arn LogsScheduledQuery#role_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_scheduled_query#role_arn LogsScheduledQuery#role_arn}.
 	RoleArn *string `field:"optional" json:"roleArn" yaml:"roleArn"`
 }
 

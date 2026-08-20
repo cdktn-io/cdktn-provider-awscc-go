@@ -5,7 +5,7 @@ package eventsrule
 
 
 type EventsRuleTargetsRunCommandParameters struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/events_rule#run_command_targets EventsRule#run_command_targets}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_rule#run_command_targets EventsRule#run_command_targets}.
 	RunCommandTargets interface{} `field:"optional" json:"runCommandTargets" yaml:"runCommandTargets"`
 }
 

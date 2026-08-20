@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_transit_gateway_multicast_group_members awscc_ec2_transit_gateway_multicast_group_members}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_transit_gateway_multicast_group_members awscc_ec2_transit_gateway_multicast_group_members}.
 type DataAwsccEc2TransitGatewayMulticastGroupMembers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2TransitGatewayMulticastGroupMembers) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_transit_gateway_multicast_group_members awscc_ec2_transit_gateway_multicast_group_members} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_transit_gateway_multicast_group_members awscc_ec2_transit_gateway_multicast_group_members} Data Source.
 func NewDataAwsccEc2TransitGatewayMulticastGroupMembers(scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayMulticastGroupMembersConfig) DataAwsccEc2TransitGatewayMulticastGroupMembers {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2TransitGatewayMulticastGroupMembers(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_transit_gateway_multicast_group_members awscc_ec2_transit_gateway_multicast_group_members} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_transit_gateway_multicast_group_members awscc_ec2_transit_gateway_multicast_group_members} Data Source.
 func NewDataAwsccEc2TransitGatewayMulticastGroupMembers_Override(d DataAwsccEc2TransitGatewayMulticastGroupMembers, scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayMulticastGroupMembersConfig) {
 	_init_.Initialize()
 

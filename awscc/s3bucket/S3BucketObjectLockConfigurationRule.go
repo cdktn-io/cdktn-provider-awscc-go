@@ -9,7 +9,7 @@ type S3BucketObjectLockConfigurationRule struct {
 	//
 	// If Object Lock is turned on, bucket settings require both ``Mode`` and a period of either ``Days`` or ``Years``. You cannot specify ``Days`` and ``Years`` at the same time. For more information about allowable values for mode and period, see [DefaultRetention](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-defaultretention.html).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3_bucket#default_retention S3Bucket#default_retention}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_bucket#default_retention S3Bucket#default_retention}
 	DefaultRetention *S3BucketObjectLockConfigurationRuleDefaultRetention `field:"optional" json:"defaultRetention" yaml:"defaultRetention"`
 }
 

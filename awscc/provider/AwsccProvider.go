@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs awscc}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs awscc}.
 type AwsccProvider interface {
 	cdktn.TerraformProvider
 	AccessKey() *string
@@ -664,7 +664,7 @@ func (j *jsiiProxy_AwsccProvider) UserAgentInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs awscc} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs awscc} Resource.
 func NewAwsccProvider(scope constructs.Construct, id *string, config *AwsccProviderConfig) AwsccProvider {
 	_init_.Initialize()
 
@@ -682,7 +682,7 @@ func NewAwsccProvider(scope constructs.Construct, id *string, config *AwsccProvi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs awscc} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs awscc} Resource.
 func NewAwsccProvider_Override(a AwsccProvider, scope constructs.Construct, id *string, config *AwsccProviderConfig) {
 	_init_.Initialize()
 

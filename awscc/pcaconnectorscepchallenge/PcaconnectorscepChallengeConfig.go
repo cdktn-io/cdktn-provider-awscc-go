@@ -22,9 +22,9 @@ type PcaconnectorscepChallengeConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#connector_arn PcaconnectorscepChallenge#connector_arn}.
 	ConnectorArn *string `field:"required" json:"connectorArn" yaml:"connectorArn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcaconnectorscep_challenge#tags PcaconnectorscepChallenge#tags}.
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 }
 

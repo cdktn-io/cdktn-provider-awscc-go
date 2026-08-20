@@ -7,23 +7,23 @@ package lightsailcontainer
 type LightsailContainerContainerServiceDeploymentContainers struct {
 	// The launch command for the container.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_container#command LightsailContainer#command}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_container#command LightsailContainer#command}
 	Command *[]*string `field:"optional" json:"command" yaml:"command"`
 	// The name of the container.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_container#container_name LightsailContainer#container_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_container#container_name LightsailContainer#container_name}
 	ContainerName *string `field:"optional" json:"containerName" yaml:"containerName"`
 	// The environment variables of the container.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_container#environment LightsailContainer#environment}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_container#environment LightsailContainer#environment}
 	Environment interface{} `field:"optional" json:"environment" yaml:"environment"`
 	// The name of the image used for the container.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_container#image LightsailContainer#image}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_container#image LightsailContainer#image}
 	Image *string `field:"optional" json:"image" yaml:"image"`
 	// The open firewall ports of the container.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_container#ports LightsailContainer#ports}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_container#ports LightsailContainer#ports}
 	Ports interface{} `field:"optional" json:"ports" yaml:"ports"`
 }
 

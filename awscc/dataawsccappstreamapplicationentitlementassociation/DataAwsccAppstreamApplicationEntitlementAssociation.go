@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appstream_application_entitlement_association awscc_appstream_application_entitlement_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appstream_application_entitlement_association awscc_appstream_application_entitlement_association}.
 type DataAwsccAppstreamApplicationEntitlementAssociation interface {
 	cdktn.TerraformDataSource
 	ApplicationIdentifier() *string
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccAppstreamApplicationEntitlementAssociation) Terrafor
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appstream_application_entitlement_association awscc_appstream_application_entitlement_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appstream_application_entitlement_association awscc_appstream_application_entitlement_association} Data Source.
 func NewDataAwsccAppstreamApplicationEntitlementAssociation(scope constructs.Construct, id *string, config *DataAwsccAppstreamApplicationEntitlementAssociationConfig) DataAwsccAppstreamApplicationEntitlementAssociation {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccAppstreamApplicationEntitlementAssociation(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appstream_application_entitlement_association awscc_appstream_application_entitlement_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appstream_application_entitlement_association awscc_appstream_application_entitlement_association} Data Source.
 func NewDataAwsccAppstreamApplicationEntitlementAssociation_Override(d DataAwsccAppstreamApplicationEntitlementAssociation, scope constructs.Construct, id *string, config *DataAwsccAppstreamApplicationEntitlementAssociationConfig) {
 	_init_.Initialize()
 

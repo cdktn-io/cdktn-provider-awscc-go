@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53recoverycontrol_control_panels awscc_route53recoverycontrol_control_panels}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53recoverycontrol_control_panels awscc_route53recoverycontrol_control_panels}.
 type DataAwsccRoute53RecoverycontrolControlPanels interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRoute53RecoverycontrolControlPanels) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53recoverycontrol_control_panels awscc_route53recoverycontrol_control_panels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53recoverycontrol_control_panels awscc_route53recoverycontrol_control_panels} Data Source.
 func NewDataAwsccRoute53RecoverycontrolControlPanels(scope constructs.Construct, id *string, config *DataAwsccRoute53RecoverycontrolControlPanelsConfig) DataAwsccRoute53RecoverycontrolControlPanels {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRoute53RecoverycontrolControlPanels(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53recoverycontrol_control_panels awscc_route53recoverycontrol_control_panels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53recoverycontrol_control_panels awscc_route53recoverycontrol_control_panels} Data Source.
 func NewDataAwsccRoute53RecoverycontrolControlPanels_Override(d DataAwsccRoute53RecoverycontrolControlPanels, scope constructs.Construct, id *string, config *DataAwsccRoute53RecoverycontrolControlPanelsConfig) {
 	_init_.Initialize()
 

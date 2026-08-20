@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/glue_crawler awscc_glue_crawler}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_crawler awscc_glue_crawler}.
 type DataAwsccGlueCrawler interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccGlueCrawler) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/glue_crawler awscc_glue_crawler} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_crawler awscc_glue_crawler} Data Source.
 func NewDataAwsccGlueCrawler(scope constructs.Construct, id *string, config *DataAwsccGlueCrawlerConfig) DataAwsccGlueCrawler {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccGlueCrawler(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/glue_crawler awscc_glue_crawler} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_crawler awscc_glue_crawler} Data Source.
 func NewDataAwsccGlueCrawler_Override(d DataAwsccGlueCrawler, scope constructs.Construct, id *string, config *DataAwsccGlueCrawlerConfig) {
 	_init_.Initialize()
 

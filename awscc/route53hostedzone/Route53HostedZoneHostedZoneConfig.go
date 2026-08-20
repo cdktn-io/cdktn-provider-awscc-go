@@ -7,7 +7,7 @@ package route53hostedzone
 type Route53HostedZoneHostedZoneConfig struct {
 	// Any comments that you want to include about the hosted zone.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53_hosted_zone#comment Route53HostedZone#comment}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_hosted_zone#comment Route53HostedZone#comment}
 	Comment *string `field:"optional" json:"comment" yaml:"comment"`
 }
 

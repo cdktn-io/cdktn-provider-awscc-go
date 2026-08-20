@@ -33,6 +33,7 @@ type DataAwsccDynamodbGlobalTableReplicasReplicaStreamSpecificationOutputReferen
 	InternalValue() *DataAwsccDynamodbGlobalTableReplicasReplicaStreamSpecification
 	SetInternalValue(val *DataAwsccDynamodbGlobalTableReplicasReplicaStreamSpecification)
 	ResourcePolicy() DataAwsccDynamodbGlobalTableReplicasReplicaStreamSpecificationResourcePolicyOutputReference
+	Tags() DataAwsccDynamodbGlobalTableReplicasReplicaStreamSpecificationTagsList
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -135,6 +136,16 @@ func (j *jsiiProxy_DataAwsccDynamodbGlobalTableReplicasReplicaStreamSpecificatio
 	_jsii_.Get(
 		j,
 		"resourcePolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccDynamodbGlobalTableReplicasReplicaStreamSpecificationOutputReference) Tags() DataAwsccDynamodbGlobalTableReplicasReplicaStreamSpecificationTagsList {
+	var returns DataAwsccDynamodbGlobalTableReplicasReplicaStreamSpecificationTagsList
+	_jsii_.Get(
+		j,
+		"tags",
 		&returns,
 	)
 	return returns

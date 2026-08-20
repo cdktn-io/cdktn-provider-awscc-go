@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_multi_region_endpoint awscc_ses_multi_region_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_multi_region_endpoint awscc_ses_multi_region_endpoint}.
 type SesMultiRegionEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_SesMultiRegionEndpoint) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_multi_region_endpoint awscc_ses_multi_region_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_multi_region_endpoint awscc_ses_multi_region_endpoint} Resource.
 func NewSesMultiRegionEndpoint(scope constructs.Construct, id *string, config *SesMultiRegionEndpointConfig) SesMultiRegionEndpoint {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewSesMultiRegionEndpoint(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_multi_region_endpoint awscc_ses_multi_region_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_multi_region_endpoint awscc_ses_multi_region_endpoint} Resource.
 func NewSesMultiRegionEndpoint_Override(s SesMultiRegionEndpoint, scope constructs.Construct, id *string, config *SesMultiRegionEndpointConfig) {
 	_init_.Initialize()
 

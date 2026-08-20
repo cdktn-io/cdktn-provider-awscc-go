@@ -22,11 +22,11 @@ type Ec2SpotFleetConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#spot_fleet_request_config_data Ec2SpotFleet#spot_fleet_request_config_data}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_spot_fleet#spot_fleet_request_config_data Ec2SpotFleet#spot_fleet_request_config_data}.
 	SpotFleetRequestConfigData *Ec2SpotFleetSpotFleetRequestConfigData `field:"required" json:"spotFleetRequestConfigData" yaml:"spotFleetRequestConfigData"`
 	// The tags to specify in SpotFleetRequestConfigData.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_spot_fleet#tags Ec2SpotFleet#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_spot_fleet#tags Ec2SpotFleet#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

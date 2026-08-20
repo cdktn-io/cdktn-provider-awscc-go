@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_source_location awscc_mediatailor_source_location}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_source_location awscc_mediatailor_source_location}.
 type MediatailorSourceLocation interface {
 	cdktn.TerraformResource
 	AccessConfiguration() MediatailorSourceLocationAccessConfigurationOutputReference
@@ -508,7 +508,7 @@ func (j *jsiiProxy_MediatailorSourceLocation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_source_location awscc_mediatailor_source_location} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_source_location awscc_mediatailor_source_location} Resource.
 func NewMediatailorSourceLocation(scope constructs.Construct, id *string, config *MediatailorSourceLocationConfig) MediatailorSourceLocation {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewMediatailorSourceLocation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediatailor_source_location awscc_mediatailor_source_location} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_source_location awscc_mediatailor_source_location} Resource.
 func NewMediatailorSourceLocation_Override(m MediatailorSourceLocation, scope constructs.Construct, id *string, config *MediatailorSourceLocationConfig) {
 	_init_.Initialize()
 

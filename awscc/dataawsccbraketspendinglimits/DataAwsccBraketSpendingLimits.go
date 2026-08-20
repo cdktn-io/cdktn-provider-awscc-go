@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/braket_spending_limits awscc_braket_spending_limits}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/braket_spending_limits awscc_braket_spending_limits}.
 type DataAwsccBraketSpendingLimits interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBraketSpendingLimits) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/braket_spending_limits awscc_braket_spending_limits} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/braket_spending_limits awscc_braket_spending_limits} Data Source.
 func NewDataAwsccBraketSpendingLimits(scope constructs.Construct, id *string, config *DataAwsccBraketSpendingLimitsConfig) DataAwsccBraketSpendingLimits {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBraketSpendingLimits(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/braket_spending_limits awscc_braket_spending_limits} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/braket_spending_limits awscc_braket_spending_limits} Data Source.
 func NewDataAwsccBraketSpendingLimits_Override(d DataAwsccBraketSpendingLimits, scope constructs.Construct, id *string, config *DataAwsccBraketSpendingLimitsConfig) {
 	_init_.Initialize()
 

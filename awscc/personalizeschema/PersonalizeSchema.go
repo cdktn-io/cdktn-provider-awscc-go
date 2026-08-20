@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_schema awscc_personalize_schema}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_schema awscc_personalize_schema}.
 type PersonalizeSchema interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -66,6 +66,8 @@ type PersonalizeSchema interface {
 	SetSchema(val *string)
 	SchemaArn() *string
 	SchemaInput() *string
+	Tags() PersonalizeSchemaTagsList
+	TagsInput() interface{}
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -151,6 +153,7 @@ type PersonalizeSchema interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -168,6 +171,7 @@ type PersonalizeSchema interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -405,6 +409,26 @@ func (j *jsiiProxy_PersonalizeSchema) SchemaInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_PersonalizeSchema) Tags() PersonalizeSchemaTagsList {
+	var returns PersonalizeSchemaTagsList
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PersonalizeSchema) TagsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"tagsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_PersonalizeSchema) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -436,7 +460,7 @@ func (j *jsiiProxy_PersonalizeSchema) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_schema awscc_personalize_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_schema awscc_personalize_schema} Resource.
 func NewPersonalizeSchema(scope constructs.Construct, id *string, config *PersonalizeSchemaConfig) PersonalizeSchema {
 	_init_.Initialize()
 
@@ -454,7 +478,7 @@ func NewPersonalizeSchema(scope constructs.Construct, id *string, config *Person
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_schema awscc_personalize_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_schema awscc_personalize_schema} Resource.
 func NewPersonalizeSchema_Override(p PersonalizeSchema, scope constructs.Construct, id *string, config *PersonalizeSchemaConfig) {
 	_init_.Initialize()
 
@@ -935,6 +959,17 @@ func (p *jsiiProxy_PersonalizeSchema) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (p *jsiiProxy_PersonalizeSchema) PutTags(value interface{}) {
+	if err := p.validatePutTagsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		p,
+		"putTags",
+		[]interface{}{value},
+	)
+}
+
 func (p *jsiiProxy_PersonalizeSchema) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := p.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -958,6 +993,14 @@ func (p *jsiiProxy_PersonalizeSchema) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PersonalizeSchema) ResetTags() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetTags",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_request_validator awscc_apigateway_request_validator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_request_validator awscc_apigateway_request_validator}.
 type ApigatewayRequestValidator interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_ApigatewayRequestValidator) ValidateRequestParametersInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_request_validator awscc_apigateway_request_validator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_request_validator awscc_apigateway_request_validator} Resource.
 func NewApigatewayRequestValidator(scope constructs.Construct, id *string, config *ApigatewayRequestValidatorConfig) ApigatewayRequestValidator {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewApigatewayRequestValidator(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_request_validator awscc_apigateway_request_validator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_request_validator awscc_apigateway_request_validator} Resource.
 func NewApigatewayRequestValidator_Override(a ApigatewayRequestValidator, scope constructs.Construct, id *string, config *ApigatewayRequestValidatorConfig) {
 	_init_.Initialize()
 

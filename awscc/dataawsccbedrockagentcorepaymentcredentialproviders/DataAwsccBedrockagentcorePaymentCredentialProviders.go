@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_payment_credential_providers awscc_bedrockagentcore_payment_credential_providers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_payment_credential_providers awscc_bedrockagentcore_payment_credential_providers}.
 type DataAwsccBedrockagentcorePaymentCredentialProviders interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcorePaymentCredentialProviders) Terrafor
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_payment_credential_providers awscc_bedrockagentcore_payment_credential_providers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_payment_credential_providers awscc_bedrockagentcore_payment_credential_providers} Data Source.
 func NewDataAwsccBedrockagentcorePaymentCredentialProviders(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcorePaymentCredentialProvidersConfig) DataAwsccBedrockagentcorePaymentCredentialProviders {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockagentcorePaymentCredentialProviders(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_payment_credential_providers awscc_bedrockagentcore_payment_credential_providers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_payment_credential_providers awscc_bedrockagentcore_payment_credential_providers} Data Source.
 func NewDataAwsccBedrockagentcorePaymentCredentialProviders_Override(d DataAwsccBedrockagentcorePaymentCredentialProviders, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcorePaymentCredentialProvidersConfig) {
 	_init_.Initialize()
 

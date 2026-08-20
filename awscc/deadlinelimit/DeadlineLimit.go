@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/deadline_limit awscc_deadline_limit}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_limit awscc_deadline_limit}.
 type DeadlineLimit interface {
 	cdktn.TerraformResource
 	AmountRequirementName() *string
@@ -493,7 +493,7 @@ func (j *jsiiProxy_DeadlineLimit) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/deadline_limit awscc_deadline_limit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_limit awscc_deadline_limit} Resource.
 func NewDeadlineLimit(scope constructs.Construct, id *string, config *DeadlineLimitConfig) DeadlineLimit {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewDeadlineLimit(scope constructs.Construct, id *string, config *DeadlineLi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/deadline_limit awscc_deadline_limit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_limit awscc_deadline_limit} Resource.
 func NewDeadlineLimit_Override(d DeadlineLimit, scope constructs.Construct, id *string, config *DeadlineLimitConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/kinesisanalyticsv2_application awscc_kinesisanalyticsv2_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/kinesisanalyticsv2_application awscc_kinesisanalyticsv2_application}.
 type DataAwsccKinesisanalyticsv2Application interface {
 	cdktn.TerraformDataSource
 	ApplicationConfiguration() DataAwsccKinesisanalyticsv2ApplicationApplicationConfigurationOutputReference
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccKinesisanalyticsv2Application) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/kinesisanalyticsv2_application awscc_kinesisanalyticsv2_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/kinesisanalyticsv2_application awscc_kinesisanalyticsv2_application} Data Source.
 func NewDataAwsccKinesisanalyticsv2Application(scope constructs.Construct, id *string, config *DataAwsccKinesisanalyticsv2ApplicationConfig) DataAwsccKinesisanalyticsv2Application {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccKinesisanalyticsv2Application(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/kinesisanalyticsv2_application awscc_kinesisanalyticsv2_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/kinesisanalyticsv2_application awscc_kinesisanalyticsv2_application} Data Source.
 func NewDataAwsccKinesisanalyticsv2Application_Override(d DataAwsccKinesisanalyticsv2Application, scope constructs.Construct, id *string, config *DataAwsccKinesisanalyticsv2ApplicationConfig) {
 	_init_.Initialize()
 

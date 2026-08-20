@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/finspace_environment awscc_finspace_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment awscc_finspace_environment}.
 type FinspaceEnvironment interface {
 	cdktn.TerraformResource
 	AwsAccountId() *string
@@ -623,7 +623,7 @@ func (j *jsiiProxy_FinspaceEnvironment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/finspace_environment awscc_finspace_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment awscc_finspace_environment} Resource.
 func NewFinspaceEnvironment(scope constructs.Construct, id *string, config *FinspaceEnvironmentConfig) FinspaceEnvironment {
 	_init_.Initialize()
 
@@ -641,7 +641,7 @@ func NewFinspaceEnvironment(scope constructs.Construct, id *string, config *Fins
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/finspace_environment awscc_finspace_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/finspace_environment awscc_finspace_environment} Resource.
 func NewFinspaceEnvironment_Override(f FinspaceEnvironment, scope constructs.Construct, id *string, config *FinspaceEnvironmentConfig) {
 	_init_.Initialize()
 

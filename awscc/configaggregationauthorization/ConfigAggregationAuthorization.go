@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_aggregation_authorization awscc_config_aggregation_authorization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_aggregation_authorization awscc_config_aggregation_authorization}.
 type ConfigAggregationAuthorization interface {
 	cdktn.TerraformResource
 	AggregationAuthorizationArn() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_ConfigAggregationAuthorization) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_aggregation_authorization awscc_config_aggregation_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_aggregation_authorization awscc_config_aggregation_authorization} Resource.
 func NewConfigAggregationAuthorization(scope constructs.Construct, id *string, config *ConfigAggregationAuthorizationConfig) ConfigAggregationAuthorization {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewConfigAggregationAuthorization(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/config_aggregation_authorization awscc_config_aggregation_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_aggregation_authorization awscc_config_aggregation_authorization} Resource.
 func NewConfigAggregationAuthorization_Override(c ConfigAggregationAuthorization, scope constructs.Construct, id *string, config *ConfigAggregationAuthorizationConfig) {
 	_init_.Initialize()
 

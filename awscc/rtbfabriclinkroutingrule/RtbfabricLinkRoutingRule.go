@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rtbfabric_link_routing_rule awscc_rtbfabric_link_routing_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rtbfabric_link_routing_rule awscc_rtbfabric_link_routing_rule}.
 type RtbfabricLinkRoutingRule interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -526,7 +526,7 @@ func (j *jsiiProxy_RtbfabricLinkRoutingRule) UpdatedTimestamp() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rtbfabric_link_routing_rule awscc_rtbfabric_link_routing_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rtbfabric_link_routing_rule awscc_rtbfabric_link_routing_rule} Resource.
 func NewRtbfabricLinkRoutingRule(scope constructs.Construct, id *string, config *RtbfabricLinkRoutingRuleConfig) RtbfabricLinkRoutingRule {
 	_init_.Initialize()
 
@@ -544,7 +544,7 @@ func NewRtbfabricLinkRoutingRule(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rtbfabric_link_routing_rule awscc_rtbfabric_link_routing_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rtbfabric_link_routing_rule awscc_rtbfabric_link_routing_rule} Resource.
 func NewRtbfabricLinkRoutingRule_Override(r RtbfabricLinkRoutingRule, scope constructs.Construct, id *string, config *RtbfabricLinkRoutingRuleConfig) {
 	_init_.Initialize()
 

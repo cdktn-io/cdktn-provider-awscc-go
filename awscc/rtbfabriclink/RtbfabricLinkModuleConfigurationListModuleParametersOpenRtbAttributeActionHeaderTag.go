@@ -5,9 +5,9 @@ package rtbfabriclink
 
 
 type RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeActionHeaderTag struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rtbfabric_link#name RtbfabricLink#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rtbfabric_link#name RtbfabricLink#name}.
 	Name *string `field:"optional" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rtbfabric_link#value RtbfabricLink#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rtbfabric_link#value RtbfabricLink#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

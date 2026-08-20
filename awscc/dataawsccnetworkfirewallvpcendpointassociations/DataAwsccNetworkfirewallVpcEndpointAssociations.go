@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/networkfirewall_vpc_endpoint_associations awscc_networkfirewall_vpc_endpoint_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkfirewall_vpc_endpoint_associations awscc_networkfirewall_vpc_endpoint_associations}.
 type DataAwsccNetworkfirewallVpcEndpointAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNetworkfirewallVpcEndpointAssociations) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/networkfirewall_vpc_endpoint_associations awscc_networkfirewall_vpc_endpoint_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkfirewall_vpc_endpoint_associations awscc_networkfirewall_vpc_endpoint_associations} Data Source.
 func NewDataAwsccNetworkfirewallVpcEndpointAssociations(scope constructs.Construct, id *string, config *DataAwsccNetworkfirewallVpcEndpointAssociationsConfig) DataAwsccNetworkfirewallVpcEndpointAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNetworkfirewallVpcEndpointAssociations(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/networkfirewall_vpc_endpoint_associations awscc_networkfirewall_vpc_endpoint_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkfirewall_vpc_endpoint_associations awscc_networkfirewall_vpc_endpoint_associations} Data Source.
 func NewDataAwsccNetworkfirewallVpcEndpointAssociations_Override(d DataAwsccNetworkfirewallVpcEndpointAssociations, scope constructs.Construct, id *string, config *DataAwsccNetworkfirewallVpcEndpointAssociationsConfig) {
 	_init_.Initialize()
 

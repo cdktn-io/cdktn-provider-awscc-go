@@ -7,7 +7,7 @@ package ekscluster
 type EksClusterRollbackConfig struct {
 	// The timeout in minutes for the version rollback operation. If not specified, defaults to 720 minutes (12 hours).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_cluster#timeout_minutes EksCluster#timeout_minutes}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_cluster#timeout_minutes EksCluster#timeout_minutes}
 	TimeoutMinutes *float64 `field:"optional" json:"timeoutMinutes" yaml:"timeoutMinutes"`
 }
 

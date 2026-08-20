@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/neptune_db_parameter_group awscc_neptune_db_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/neptune_db_parameter_group awscc_neptune_db_parameter_group}.
 type DataAwsccNeptuneDbParameterGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccNeptuneDbParameterGroup) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/neptune_db_parameter_group awscc_neptune_db_parameter_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/neptune_db_parameter_group awscc_neptune_db_parameter_group} Data Source.
 func NewDataAwsccNeptuneDbParameterGroup(scope constructs.Construct, id *string, config *DataAwsccNeptuneDbParameterGroupConfig) DataAwsccNeptuneDbParameterGroup {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccNeptuneDbParameterGroup(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/neptune_db_parameter_group awscc_neptune_db_parameter_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/neptune_db_parameter_group awscc_neptune_db_parameter_group} Data Source.
 func NewDataAwsccNeptuneDbParameterGroup_Override(d DataAwsccNeptuneDbParameterGroup, scope constructs.Construct, id *string, config *DataAwsccNeptuneDbParameterGroupConfig) {
 	_init_.Initialize()
 

@@ -22,11 +22,11 @@ type SesMailManagerRuleSetConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#rules SesMailManagerRuleSet#rules}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#rules SesMailManagerRuleSet#rules}.
 	Rules interface{} `field:"required" json:"rules" yaml:"rules"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#rule_set_name SesMailManagerRuleSet#rule_set_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#rule_set_name SesMailManagerRuleSet#rule_set_name}.
 	RuleSetName *string `field:"optional" json:"ruleSetName" yaml:"ruleSetName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_mail_manager_rule_set#tags SesMailManagerRuleSet#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#tags SesMailManagerRuleSet#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

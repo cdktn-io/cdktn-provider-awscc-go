@@ -5,9 +5,9 @@ package bedrockagentcoreoauth2credentialprovider
 
 
 type BedrockagentcoreOAuth2CredentialProviderTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_o_auth_2_credential_provider#key BedrockagentcoreOAuth2CredentialProvider#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_o_auth_2_credential_provider#key BedrockagentcoreOAuth2CredentialProvider#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_o_auth_2_credential_provider#value BedrockagentcoreOAuth2CredentialProvider#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_o_auth_2_credential_provider#value BedrockagentcoreOAuth2CredentialProvider#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

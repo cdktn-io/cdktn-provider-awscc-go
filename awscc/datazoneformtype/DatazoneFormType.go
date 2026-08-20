@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_form_type awscc_datazone_form_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_form_type awscc_datazone_form_type}.
 type DatazoneFormType interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -561,7 +561,7 @@ func (j *jsiiProxy_DatazoneFormType) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_form_type awscc_datazone_form_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_form_type awscc_datazone_form_type} Resource.
 func NewDatazoneFormType(scope constructs.Construct, id *string, config *DatazoneFormTypeConfig) DatazoneFormType {
 	_init_.Initialize()
 
@@ -579,7 +579,7 @@ func NewDatazoneFormType(scope constructs.Construct, id *string, config *Datazon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_form_type awscc_datazone_form_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_form_type awscc_datazone_form_type} Resource.
 func NewDatazoneFormType_Override(d DatazoneFormType, scope constructs.Construct, id *string, config *DatazoneFormTypeConfig) {
 	_init_.Initialize()
 

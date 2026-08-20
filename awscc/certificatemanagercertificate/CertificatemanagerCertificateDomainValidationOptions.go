@@ -5,11 +5,11 @@ package certificatemanagercertificate
 
 
 type CertificatemanagerCertificateDomainValidationOptions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/certificatemanager_certificate#domain_name CertificatemanagerCertificate#domain_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/certificatemanager_certificate#domain_name CertificatemanagerCertificate#domain_name}.
 	DomainName *string `field:"optional" json:"domainName" yaml:"domainName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/certificatemanager_certificate#hosted_zone_id CertificatemanagerCertificate#hosted_zone_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/certificatemanager_certificate#hosted_zone_id CertificatemanagerCertificate#hosted_zone_id}.
 	HostedZoneId *string `field:"optional" json:"hostedZoneId" yaml:"hostedZoneId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/certificatemanager_certificate#validation_domain CertificatemanagerCertificate#validation_domain}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/certificatemanager_certificate#validation_domain CertificatemanagerCertificate#validation_domain}.
 	ValidationDomain *string `field:"optional" json:"validationDomain" yaml:"validationDomain"`
 }
 

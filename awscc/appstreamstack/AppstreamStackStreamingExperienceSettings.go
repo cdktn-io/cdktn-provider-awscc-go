@@ -7,7 +7,7 @@ package appstreamstack
 type AppstreamStackStreamingExperienceSettings struct {
 	// The preferred protocol that you want to use while streaming your application.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appstream_stack#preferred_protocol AppstreamStack#preferred_protocol}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_stack#preferred_protocol AppstreamStack#preferred_protocol}
 	PreferredProtocol *string `field:"optional" json:"preferredProtocol" yaml:"preferredProtocol"`
 }
 

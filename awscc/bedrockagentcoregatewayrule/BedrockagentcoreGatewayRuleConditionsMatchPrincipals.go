@@ -5,7 +5,7 @@ package bedrockagentcoregatewayrule
 
 
 type BedrockagentcoreGatewayRuleConditionsMatchPrincipals struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_gateway_rule#any_of BedrockagentcoreGatewayRule#any_of}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_gateway_rule#any_of BedrockagentcoreGatewayRule#any_of}.
 	AnyOf interface{} `field:"optional" json:"anyOf" yaml:"anyOf"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution awscc_personalize_solution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution awscc_personalize_solution}.
 type PersonalizeSolution interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -77,6 +77,8 @@ type PersonalizeSolution interface {
 	SolutionArn() *string
 	SolutionConfig() PersonalizeSolutionSolutionConfigOutputReference
 	SolutionConfigInput() interface{}
+	Tags() PersonalizeSolutionTagsList
+	TagsInput() interface{}
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -163,6 +165,7 @@ type PersonalizeSolution interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutSolutionConfig(value *PersonalizeSolutionSolutionConfig)
+	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -184,6 +187,7 @@ type PersonalizeSolution interface {
 	ResetPerformHpo()
 	ResetRecipeArn()
 	ResetSolutionConfig()
+	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -501,6 +505,26 @@ func (j *jsiiProxy_PersonalizeSolution) SolutionConfigInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_PersonalizeSolution) Tags() PersonalizeSolutionTagsList {
+	var returns PersonalizeSolutionTagsList
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PersonalizeSolution) TagsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"tagsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_PersonalizeSolution) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -532,7 +556,7 @@ func (j *jsiiProxy_PersonalizeSolution) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution awscc_personalize_solution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution awscc_personalize_solution} Resource.
 func NewPersonalizeSolution(scope constructs.Construct, id *string, config *PersonalizeSolutionConfig) PersonalizeSolution {
 	_init_.Initialize()
 
@@ -550,7 +574,7 @@ func NewPersonalizeSolution(scope constructs.Construct, id *string, config *Pers
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/personalize_solution awscc_personalize_solution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_solution awscc_personalize_solution} Resource.
 func NewPersonalizeSolution_Override(p PersonalizeSolution, scope constructs.Construct, id *string, config *PersonalizeSolutionConfig) {
 	_init_.Initialize()
 
@@ -1075,6 +1099,17 @@ func (p *jsiiProxy_PersonalizeSolution) PutSolutionConfig(value *PersonalizeSolu
 	)
 }
 
+func (p *jsiiProxy_PersonalizeSolution) PutTags(value interface{}) {
+	if err := p.validatePutTagsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		p,
+		"putTags",
+		[]interface{}{value},
+	)
+}
+
 func (p *jsiiProxy_PersonalizeSolution) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := p.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -1130,6 +1165,14 @@ func (p *jsiiProxy_PersonalizeSolution) ResetSolutionConfig() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetSolutionConfig",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PersonalizeSolution) ResetTags() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetTags",
 		nil, // no parameters
 	)
 }

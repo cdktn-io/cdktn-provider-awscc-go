@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appconfig_configuration_profile awscc_appconfig_configuration_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appconfig_configuration_profile awscc_appconfig_configuration_profile}.
 type DataAwsccAppconfigConfigurationProfile interface {
 	cdktn.TerraformDataSource
 	ApplicationId() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccAppconfigConfigurationProfile) Validators() DataAwsc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appconfig_configuration_profile awscc_appconfig_configuration_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appconfig_configuration_profile awscc_appconfig_configuration_profile} Data Source.
 func NewDataAwsccAppconfigConfigurationProfile(scope constructs.Construct, id *string, config *DataAwsccAppconfigConfigurationProfileConfig) DataAwsccAppconfigConfigurationProfile {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccAppconfigConfigurationProfile(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appconfig_configuration_profile awscc_appconfig_configuration_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appconfig_configuration_profile awscc_appconfig_configuration_profile} Data Source.
 func NewDataAwsccAppconfigConfigurationProfile_Override(d DataAwsccAppconfigConfigurationProfile, scope constructs.Construct, id *string, config *DataAwsccAppconfigConfigurationProfileConfig) {
 	_init_.Initialize()
 

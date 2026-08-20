@@ -7,7 +7,7 @@ package bedrockagentcoreonlineevaluationconfig
 type BedrockagentcoreOnlineEvaluationConfigDataSourceConfig struct {
 	// The configuration for reading agent traces from CloudWatch logs.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_online_evaluation_config#cloudwatch_logs BedrockagentcoreOnlineEvaluationConfig#cloudwatch_logs}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_online_evaluation_config#cloudwatch_logs BedrockagentcoreOnlineEvaluationConfig#cloudwatch_logs}
 	CloudwatchLogs *BedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwatchLogs `field:"required" json:"cloudwatchLogs" yaml:"cloudwatchLogs"`
 }
 

@@ -79,6 +79,10 @@ func (p *jsiiProxy_PersonalizeDatasetGroup) validateOverrideLogicalIdParameters(
 	return nil
 }
 
+func (p *jsiiProxy_PersonalizeDatasetGroup) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PersonalizeDatasetGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }

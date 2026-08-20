@@ -7,11 +7,11 @@ package iotsitewisedataset
 type IotsitewiseDatasetDatasetSourceSourceDetailKendra struct {
 	// The knowledgeBaseArn details for the Kendra dataset source.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_dataset#knowledge_base_arn IotsitewiseDataset#knowledge_base_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dataset#knowledge_base_arn IotsitewiseDataset#knowledge_base_arn}
 	KnowledgeBaseArn *string `field:"optional" json:"knowledgeBaseArn" yaml:"knowledgeBaseArn"`
 	// The roleARN details for the Kendra dataset source.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_dataset#role_arn IotsitewiseDataset#role_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_dataset#role_arn IotsitewiseDataset#role_arn}
 	RoleArn *string `field:"optional" json:"roleArn" yaml:"roleArn"`
 }
 

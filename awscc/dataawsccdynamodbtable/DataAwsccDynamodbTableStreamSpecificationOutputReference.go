@@ -34,6 +34,7 @@ type DataAwsccDynamodbTableStreamSpecificationOutputReference interface {
 	SetInternalValue(val *DataAwsccDynamodbTableStreamSpecification)
 	ResourcePolicy() DataAwsccDynamodbTableStreamSpecificationResourcePolicyOutputReference
 	StreamViewType() *string
+	Tags() DataAwsccDynamodbTableStreamSpecificationTagsList
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -146,6 +147,16 @@ func (j *jsiiProxy_DataAwsccDynamodbTableStreamSpecificationOutputReference) Str
 	_jsii_.Get(
 		j,
 		"streamViewType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccDynamodbTableStreamSpecificationOutputReference) Tags() DataAwsccDynamodbTableStreamSpecificationTagsList {
+	var returns DataAwsccDynamodbTableStreamSpecificationTagsList
+	_jsii_.Get(
+		j,
+		"tags",
 		&returns,
 	)
 	return returns

@@ -24,15 +24,15 @@ type Apigatewayv2DeploymentConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The API identifier.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_deployment#api_id Apigatewayv2Deployment#api_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_deployment#api_id Apigatewayv2Deployment#api_id}
 	ApiId *string `field:"required" json:"apiId" yaml:"apiId"`
 	// The description for the deployment resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_deployment#description Apigatewayv2Deployment#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_deployment#description Apigatewayv2Deployment#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The name of an existing stage to associate with the deployment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_deployment#stage_name Apigatewayv2Deployment#stage_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_deployment#stage_name Apigatewayv2Deployment#stage_name}
 	StageName *string `field:"optional" json:"stageName" yaml:"stageName"`
 }
 

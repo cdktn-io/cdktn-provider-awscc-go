@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codedeploy_deployment_group awscc_codedeploy_deployment_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codedeploy_deployment_group awscc_codedeploy_deployment_group}.
 type CodedeployDeploymentGroup interface {
 	cdktn.TerraformResource
 	AlarmConfiguration() CodedeployDeploymentGroupAlarmConfigurationOutputReference
@@ -833,7 +833,7 @@ func (j *jsiiProxy_CodedeployDeploymentGroup) TriggerConfigurationsInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codedeploy_deployment_group awscc_codedeploy_deployment_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codedeploy_deployment_group awscc_codedeploy_deployment_group} Resource.
 func NewCodedeployDeploymentGroup(scope constructs.Construct, id *string, config *CodedeployDeploymentGroupConfig) CodedeployDeploymentGroup {
 	_init_.Initialize()
 
@@ -851,7 +851,7 @@ func NewCodedeployDeploymentGroup(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codedeploy_deployment_group awscc_codedeploy_deployment_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codedeploy_deployment_group awscc_codedeploy_deployment_group} Resource.
 func NewCodedeployDeploymentGroup_Override(c CodedeployDeploymentGroup, scope constructs.Construct, id *string, config *CodedeployDeploymentGroupConfig) {
 	_init_.Initialize()
 

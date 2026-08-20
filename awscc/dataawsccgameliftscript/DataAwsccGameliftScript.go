@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/gamelift_script awscc_gamelift_script}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/gamelift_script awscc_gamelift_script}.
 type DataAwsccGameliftScript interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccGameliftScript) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/gamelift_script awscc_gamelift_script} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/gamelift_script awscc_gamelift_script} Data Source.
 func NewDataAwsccGameliftScript(scope constructs.Construct, id *string, config *DataAwsccGameliftScriptConfig) DataAwsccGameliftScript {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccGameliftScript(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/gamelift_script awscc_gamelift_script} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/gamelift_script awscc_gamelift_script} Data Source.
 func NewDataAwsccGameliftScript_Override(d DataAwsccGameliftScript, scope constructs.Construct, id *string, config *DataAwsccGameliftScriptConfig) {
 	_init_.Initialize()
 

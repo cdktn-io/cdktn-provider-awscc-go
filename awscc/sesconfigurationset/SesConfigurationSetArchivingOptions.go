@@ -7,7 +7,7 @@ package sesconfigurationset
 type SesConfigurationSetArchivingOptions struct {
 	// The ARN of the MailManager archive to associate with the configuration set.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ses_configuration_set#archive_arn SesConfigurationSet#archive_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_configuration_set#archive_arn SesConfigurationSet#archive_arn}
 	ArchiveArn *string `field:"optional" json:"archiveArn" yaml:"archiveArn"`
 }
 

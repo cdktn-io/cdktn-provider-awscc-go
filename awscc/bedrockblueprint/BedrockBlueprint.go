@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_blueprint awscc_bedrock_blueprint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_blueprint awscc_bedrock_blueprint}.
 type BedrockBlueprint interface {
 	cdktn.TerraformResource
 	BlueprintArn() *string
@@ -540,7 +540,7 @@ func (j *jsiiProxy_BedrockBlueprint) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_blueprint awscc_bedrock_blueprint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_blueprint awscc_bedrock_blueprint} Resource.
 func NewBedrockBlueprint(scope constructs.Construct, id *string, config *BedrockBlueprintConfig) BedrockBlueprint {
 	_init_.Initialize()
 
@@ -558,7 +558,7 @@ func NewBedrockBlueprint(scope constructs.Construct, id *string, config *Bedrock
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_blueprint awscc_bedrock_blueprint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_blueprint awscc_bedrock_blueprint} Resource.
 func NewBedrockBlueprint_Override(b BedrockBlueprint, scope constructs.Construct, id *string, config *BedrockBlueprintConfig) {
 	_init_.Initialize()
 

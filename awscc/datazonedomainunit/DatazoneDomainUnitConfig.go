@@ -24,19 +24,19 @@ type DatazoneDomainUnitConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID of the domain where you want to create a domain unit.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_domain_unit#domain_identifier DatazoneDomainUnit#domain_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_domain_unit#domain_identifier DatazoneDomainUnit#domain_identifier}
 	DomainIdentifier *string `field:"required" json:"domainIdentifier" yaml:"domainIdentifier"`
 	// The name of the domain unit.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_domain_unit#name DatazoneDomainUnit#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_domain_unit#name DatazoneDomainUnit#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The ID of the parent domain unit.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_domain_unit#parent_domain_unit_identifier DatazoneDomainUnit#parent_domain_unit_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_domain_unit#parent_domain_unit_identifier DatazoneDomainUnit#parent_domain_unit_identifier}
 	ParentDomainUnitIdentifier *string `field:"required" json:"parentDomainUnitIdentifier" yaml:"parentDomainUnitIdentifier"`
 	// The description of the domain unit.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_domain_unit#description DatazoneDomainUnit#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_domain_unit#description DatazoneDomainUnit#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 }
 

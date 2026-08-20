@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticloadbalancingv2_trust_store_revocation awscc_elasticloadbalancingv2_trust_store_revocation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticloadbalancingv2_trust_store_revocation awscc_elasticloadbalancingv2_trust_store_revocation}.
 type Elasticloadbalancingv2TrustStoreRevocation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_Elasticloadbalancingv2TrustStoreRevocation) TrustStoreRevocat
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticloadbalancingv2_trust_store_revocation awscc_elasticloadbalancingv2_trust_store_revocation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticloadbalancingv2_trust_store_revocation awscc_elasticloadbalancingv2_trust_store_revocation} Resource.
 func NewElasticloadbalancingv2TrustStoreRevocation(scope constructs.Construct, id *string, config *Elasticloadbalancingv2TrustStoreRevocationConfig) Elasticloadbalancingv2TrustStoreRevocation {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewElasticloadbalancingv2TrustStoreRevocation(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticloadbalancingv2_trust_store_revocation awscc_elasticloadbalancingv2_trust_store_revocation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticloadbalancingv2_trust_store_revocation awscc_elasticloadbalancingv2_trust_store_revocation} Resource.
 func NewElasticloadbalancingv2TrustStoreRevocation_Override(e Elasticloadbalancingv2TrustStoreRevocation, scope constructs.Construct, id *string, config *Elasticloadbalancingv2TrustStoreRevocationConfig) {
 	_init_.Initialize()
 

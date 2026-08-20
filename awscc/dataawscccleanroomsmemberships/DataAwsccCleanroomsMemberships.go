@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cleanrooms_memberships awscc_cleanrooms_memberships}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cleanrooms_memberships awscc_cleanrooms_memberships}.
 type DataAwsccCleanroomsMemberships interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCleanroomsMemberships) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cleanrooms_memberships awscc_cleanrooms_memberships} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cleanrooms_memberships awscc_cleanrooms_memberships} Data Source.
 func NewDataAwsccCleanroomsMemberships(scope constructs.Construct, id *string, config *DataAwsccCleanroomsMembershipsConfig) DataAwsccCleanroomsMemberships {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCleanroomsMemberships(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/cleanrooms_memberships awscc_cleanrooms_memberships} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cleanrooms_memberships awscc_cleanrooms_memberships} Data Source.
 func NewDataAwsccCleanroomsMemberships_Override(d DataAwsccCleanroomsMemberships, scope constructs.Construct, id *string, config *DataAwsccCleanroomsMembershipsConfig) {
 	_init_.Initialize()
 

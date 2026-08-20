@@ -7,15 +7,15 @@ package sagemakeraction
 type SagemakerActionSource struct {
 	// The URI of the source.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_action#source_uri SagemakerAction#source_uri}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_action#source_uri SagemakerAction#source_uri}
 	SourceUri *string `field:"required" json:"sourceUri" yaml:"sourceUri"`
 	// The ID of the source.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_action#source_id SagemakerAction#source_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_action#source_id SagemakerAction#source_id}
 	SourceId *string `field:"optional" json:"sourceId" yaml:"sourceId"`
 	// The type of the source.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_action#source_type SagemakerAction#source_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_action#source_type SagemakerAction#source_type}
 	SourceType *string `field:"optional" json:"sourceType" yaml:"sourceType"`
 }
 

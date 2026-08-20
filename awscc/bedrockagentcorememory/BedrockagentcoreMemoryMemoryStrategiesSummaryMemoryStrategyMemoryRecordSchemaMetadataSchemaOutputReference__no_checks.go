@@ -63,6 +63,10 @@ func (j *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMe
 	return nil
 }
 
+func (j *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRecordSchemaMetadataSchemaOutputReference) validateSetExtractionTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyMemoryRecordSchemaMetadataSchemaOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	return nil
 }

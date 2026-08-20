@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/fis_target_account_configuration awscc_fis_target_account_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/fis_target_account_configuration awscc_fis_target_account_configuration}.
 type DataAwsccFisTargetAccountConfiguration interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccFisTargetAccountConfiguration) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/fis_target_account_configuration awscc_fis_target_account_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/fis_target_account_configuration awscc_fis_target_account_configuration} Data Source.
 func NewDataAwsccFisTargetAccountConfiguration(scope constructs.Construct, id *string, config *DataAwsccFisTargetAccountConfigurationConfig) DataAwsccFisTargetAccountConfiguration {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccFisTargetAccountConfiguration(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/fis_target_account_configuration awscc_fis_target_account_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/fis_target_account_configuration awscc_fis_target_account_configuration} Data Source.
 func NewDataAwsccFisTargetAccountConfiguration_Override(d DataAwsccFisTargetAccountConfiguration, scope constructs.Construct, id *string, config *DataAwsccFisTargetAccountConfigurationConfig) {
 	_init_.Initialize()
 

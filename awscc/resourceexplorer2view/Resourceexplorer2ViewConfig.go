@@ -22,15 +22,15 @@ type Resourceexplorer2ViewConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_view#view_name Resourceexplorer2View#view_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resourceexplorer2_view#view_name Resourceexplorer2View#view_name}.
 	ViewName *string `field:"required" json:"viewName" yaml:"viewName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_view#filters Resourceexplorer2View#filters}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resourceexplorer2_view#filters Resourceexplorer2View#filters}.
 	Filters *Resourceexplorer2ViewFilters `field:"optional" json:"filters" yaml:"filters"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_view#included_properties Resourceexplorer2View#included_properties}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resourceexplorer2_view#included_properties Resourceexplorer2View#included_properties}.
 	IncludedProperties interface{} `field:"optional" json:"includedProperties" yaml:"includedProperties"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_view#scope Resourceexplorer2View#scope}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resourceexplorer2_view#scope Resourceexplorer2View#scope}.
 	Scope *string `field:"optional" json:"scope" yaml:"scope"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resourceexplorer2_view#tags Resourceexplorer2View#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resourceexplorer2_view#tags Resourceexplorer2View#tags}.
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 }
 

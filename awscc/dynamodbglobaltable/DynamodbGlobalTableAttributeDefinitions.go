@@ -5,9 +5,9 @@ package dynamodbglobaltable
 
 
 type DynamodbGlobalTableAttributeDefinitions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}.
 	AttributeName *string `field:"optional" json:"attributeName" yaml:"attributeName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dynamodb_global_table#attribute_type DynamodbGlobalTable#attribute_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dynamodb_global_table#attribute_type DynamodbGlobalTable#attribute_type}.
 	AttributeType *string `field:"optional" json:"attributeType" yaml:"attributeType"`
 }
 

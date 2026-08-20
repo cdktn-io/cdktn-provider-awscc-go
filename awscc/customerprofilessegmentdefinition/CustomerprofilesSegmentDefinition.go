@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_segment_definition awscc_customerprofiles_segment_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_segment_definition awscc_customerprofiles_segment_definition}.
 type CustomerprofilesSegmentDefinition interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -577,7 +577,7 @@ func (j *jsiiProxy_CustomerprofilesSegmentDefinition) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_segment_definition awscc_customerprofiles_segment_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_segment_definition awscc_customerprofiles_segment_definition} Resource.
 func NewCustomerprofilesSegmentDefinition(scope constructs.Construct, id *string, config *CustomerprofilesSegmentDefinitionConfig) CustomerprofilesSegmentDefinition {
 	_init_.Initialize()
 
@@ -595,7 +595,7 @@ func NewCustomerprofilesSegmentDefinition(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/customerprofiles_segment_definition awscc_customerprofiles_segment_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_segment_definition awscc_customerprofiles_segment_definition} Resource.
 func NewCustomerprofilesSegmentDefinition_Override(c CustomerprofilesSegmentDefinition, scope constructs.Construct, id *string, config *CustomerprofilesSegmentDefinitionConfig) {
 	_init_.Initialize()
 

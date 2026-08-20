@@ -7,33 +7,33 @@ package elasticloadbalancingv2listener
 type Elasticloadbalancingv2ListenerDefaultActionsRedirectConfig struct {
 	// The hostname. This component is not percent-encoded. The hostname can contain #{host}.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticloadbalancingv2_listener#host Elasticloadbalancingv2Listener#host}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticloadbalancingv2_listener#host Elasticloadbalancingv2Listener#host}
 	Host *string `field:"optional" json:"host" yaml:"host"`
 	// The absolute path, starting with the leading "/".
 	//
 	// This component is not percent-encoded. The path can contain #{host}, #{path}, and #{port}.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticloadbalancingv2_listener#path Elasticloadbalancingv2Listener#path}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticloadbalancingv2_listener#path Elasticloadbalancingv2Listener#path}
 	Path *string `field:"optional" json:"path" yaml:"path"`
 	// The port. You can specify a value from 1 to 65535 or #{port}.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticloadbalancingv2_listener#port Elasticloadbalancingv2Listener#port}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticloadbalancingv2_listener#port Elasticloadbalancingv2Listener#port}
 	Port *string `field:"optional" json:"port" yaml:"port"`
 	// The protocol.
 	//
 	// You can specify HTTP, HTTPS, or #{protocol}. You can redirect HTTP to HTTP, HTTP to HTTPS, and HTTPS to HTTPS. You can't redirect HTTPS to HTTP.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticloadbalancingv2_listener#protocol Elasticloadbalancingv2Listener#protocol}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticloadbalancingv2_listener#protocol Elasticloadbalancingv2Listener#protocol}
 	Protocol *string `field:"optional" json:"protocol" yaml:"protocol"`
 	// The query parameters, URL-encoded when necessary, but not percent-encoded.
 	//
 	// Do not include the leading "?", as it is automatically added. You can specify any of the reserved keywords.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticloadbalancingv2_listener#query Elasticloadbalancingv2Listener#query}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticloadbalancingv2_listener#query Elasticloadbalancingv2Listener#query}
 	Query *string `field:"optional" json:"query" yaml:"query"`
 	// The HTTP redirect code. The redirect is either permanent (HTTP 301) or temporary (HTTP 302).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticloadbalancingv2_listener#status_code Elasticloadbalancingv2Listener#status_code}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticloadbalancingv2_listener#status_code Elasticloadbalancingv2Listener#status_code}
 	StatusCode *string `field:"optional" json:"statusCode" yaml:"statusCode"`
 }
 

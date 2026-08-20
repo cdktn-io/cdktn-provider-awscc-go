@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow awscc_mediaconnect_flow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow awscc_mediaconnect_flow}.
 type MediaconnectFlow interface {
 	cdktn.TerraformResource
 	AvailabilityZone() *string
@@ -578,7 +578,7 @@ func (j *jsiiProxy_MediaconnectFlow) VpcInterfacesInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow awscc_mediaconnect_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow awscc_mediaconnect_flow} Resource.
 func NewMediaconnectFlow(scope constructs.Construct, id *string, config *MediaconnectFlowConfig) MediaconnectFlow {
 	_init_.Initialize()
 
@@ -596,7 +596,7 @@ func NewMediaconnectFlow(scope constructs.Construct, id *string, config *Mediaco
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_flow awscc_mediaconnect_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_flow awscc_mediaconnect_flow} Resource.
 func NewMediaconnectFlow_Override(m MediaconnectFlow, scope constructs.Construct, id *string, config *MediaconnectFlowConfig) {
 	_init_.Initialize()
 

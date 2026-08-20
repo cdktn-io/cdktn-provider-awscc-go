@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_verified_access_group awscc_ec2_verified_access_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_verified_access_group awscc_ec2_verified_access_group}.
 type Ec2VerifiedAccessGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -553,7 +553,7 @@ func (j *jsiiProxy_Ec2VerifiedAccessGroup) VerifiedAccessInstanceIdInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_verified_access_group awscc_ec2_verified_access_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_verified_access_group awscc_ec2_verified_access_group} Resource.
 func NewEc2VerifiedAccessGroup(scope constructs.Construct, id *string, config *Ec2VerifiedAccessGroupConfig) Ec2VerifiedAccessGroup {
 	_init_.Initialize()
 
@@ -571,7 +571,7 @@ func NewEc2VerifiedAccessGroup(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_verified_access_group awscc_ec2_verified_access_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_verified_access_group awscc_ec2_verified_access_group} Resource.
 func NewEc2VerifiedAccessGroup_Override(e Ec2VerifiedAccessGroup, scope constructs.Construct, id *string, config *Ec2VerifiedAccessGroupConfig) {
 	_init_.Initialize()
 

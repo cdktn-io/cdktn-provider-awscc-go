@@ -7,11 +7,11 @@ package m2environment
 type M2EnvironmentStorageConfigurationsFsx struct {
 	// The file system identifier.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#file_system_id M2Environment#file_system_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/m2_environment#file_system_id M2Environment#file_system_id}
 	FileSystemId *string `field:"optional" json:"fileSystemId" yaml:"fileSystemId"`
 	// The mount point for the file system.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/m2_environment#mount_point M2Environment#mount_point}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/m2_environment#mount_point M2Environment#mount_point}
 	MountPoint *string `field:"optional" json:"mountPoint" yaml:"mountPoint"`
 }
 

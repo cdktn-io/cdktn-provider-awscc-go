@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53recoveryreadiness_cells awscc_route53recoveryreadiness_cells}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53recoveryreadiness_cells awscc_route53recoveryreadiness_cells}.
 type DataAwsccRoute53RecoveryreadinessCells interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRoute53RecoveryreadinessCells) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53recoveryreadiness_cells awscc_route53recoveryreadiness_cells} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53recoveryreadiness_cells awscc_route53recoveryreadiness_cells} Data Source.
 func NewDataAwsccRoute53RecoveryreadinessCells(scope constructs.Construct, id *string, config *DataAwsccRoute53RecoveryreadinessCellsConfig) DataAwsccRoute53RecoveryreadinessCells {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRoute53RecoveryreadinessCells(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53recoveryreadiness_cells awscc_route53recoveryreadiness_cells} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53recoveryreadiness_cells awscc_route53recoveryreadiness_cells} Data Source.
 func NewDataAwsccRoute53RecoveryreadinessCells_Override(d DataAwsccRoute53RecoveryreadinessCells, scope constructs.Construct, id *string, config *DataAwsccRoute53RecoveryreadinessCellsConfig) {
 	_init_.Initialize()
 

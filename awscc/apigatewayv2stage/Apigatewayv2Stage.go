@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_stage awscc_apigatewayv2_stage}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_stage awscc_apigatewayv2_stage}.
 type Apigatewayv2Stage interface {
 	cdktn.TerraformResource
 	AccessLogSettings() Apigatewayv2StageAccessLogSettingsOutputReference
@@ -617,7 +617,7 @@ func (j *jsiiProxy_Apigatewayv2Stage) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_stage awscc_apigatewayv2_stage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_stage awscc_apigatewayv2_stage} Resource.
 func NewApigatewayv2Stage(scope constructs.Construct, id *string, config *Apigatewayv2StageConfig) Apigatewayv2Stage {
 	_init_.Initialize()
 
@@ -635,7 +635,7 @@ func NewApigatewayv2Stage(scope constructs.Construct, id *string, config *Apigat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigatewayv2_stage awscc_apigatewayv2_stage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigatewayv2_stage awscc_apigatewayv2_stage} Resource.
 func NewApigatewayv2Stage_Override(a Apigatewayv2Stage, scope constructs.Construct, id *string, config *Apigatewayv2StageConfig) {
 	_init_.Initialize()
 

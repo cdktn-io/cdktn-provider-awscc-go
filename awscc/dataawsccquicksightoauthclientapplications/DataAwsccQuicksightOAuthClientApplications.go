@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/quicksight_o_auth_client_applications awscc_quicksight_o_auth_client_applications}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_o_auth_client_applications awscc_quicksight_o_auth_client_applications}.
 type DataAwsccQuicksightOAuthClientApplications interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccQuicksightOAuthClientApplications) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/quicksight_o_auth_client_applications awscc_quicksight_o_auth_client_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_o_auth_client_applications awscc_quicksight_o_auth_client_applications} Data Source.
 func NewDataAwsccQuicksightOAuthClientApplications(scope constructs.Construct, id *string, config *DataAwsccQuicksightOAuthClientApplicationsConfig) DataAwsccQuicksightOAuthClientApplications {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccQuicksightOAuthClientApplications(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/quicksight_o_auth_client_applications awscc_quicksight_o_auth_client_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_o_auth_client_applications awscc_quicksight_o_auth_client_applications} Data Source.
 func NewDataAwsccQuicksightOAuthClientApplications_Override(d DataAwsccQuicksightOAuthClientApplications, scope constructs.Construct, id *string, config *DataAwsccQuicksightOAuthClientApplicationsConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package mpaidentitysource
 
 
 type MpaIdentitySourceIdentitySourceParametersIamIdentityCenter struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mpa_identity_source#instance_arn MpaIdentitySource#instance_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mpa_identity_source#instance_arn MpaIdentitySource#instance_arn}.
 	InstanceArn *string `field:"required" json:"instanceArn" yaml:"instanceArn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mpa_identity_source#region MpaIdentitySource#region}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mpa_identity_source#region MpaIdentitySource#region}.
 	Region *string `field:"required" json:"region" yaml:"region"`
 }
 

@@ -7,11 +7,11 @@ package certificatemanagercertificate
 type CertificatemanagerCertificateTags struct {
 	// The tag's key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/certificatemanager_certificate#key CertificatemanagerCertificate#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/certificatemanager_certificate#key CertificatemanagerCertificate#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The tag's value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/certificatemanager_certificate#value CertificatemanagerCertificate#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/certificatemanager_certificate#value CertificatemanagerCertificate#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

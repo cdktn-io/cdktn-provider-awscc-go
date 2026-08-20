@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigateway_client_certificate awscc_apigateway_client_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigateway_client_certificate awscc_apigateway_client_certificate}.
 type DataAwsccApigatewayClientCertificate interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccApigatewayClientCertificate) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigateway_client_certificate awscc_apigateway_client_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigateway_client_certificate awscc_apigateway_client_certificate} Data Source.
 func NewDataAwsccApigatewayClientCertificate(scope constructs.Construct, id *string, config *DataAwsccApigatewayClientCertificateConfig) DataAwsccApigatewayClientCertificate {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccApigatewayClientCertificate(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigateway_client_certificate awscc_apigateway_client_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigateway_client_certificate awscc_apigateway_client_certificate} Data Source.
 func NewDataAwsccApigatewayClientCertificate_Override(d DataAwsccApigatewayClientCertificate, scope constructs.Construct, id *string, config *DataAwsccApigatewayClientCertificateConfig) {
 	_init_.Initialize()
 

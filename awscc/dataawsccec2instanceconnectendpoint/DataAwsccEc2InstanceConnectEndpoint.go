@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_instance_connect_endpoint awscc_ec2_instance_connect_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_instance_connect_endpoint awscc_ec2_instance_connect_endpoint}.
 type DataAwsccEc2InstanceConnectEndpoint interface {
 	cdktn.TerraformDataSource
 	AvailabilityZone() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataAwsccEc2InstanceConnectEndpoint) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_instance_connect_endpoint awscc_ec2_instance_connect_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_instance_connect_endpoint awscc_ec2_instance_connect_endpoint} Data Source.
 func NewDataAwsccEc2InstanceConnectEndpoint(scope constructs.Construct, id *string, config *DataAwsccEc2InstanceConnectEndpointConfig) DataAwsccEc2InstanceConnectEndpoint {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataAwsccEc2InstanceConnectEndpoint(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_instance_connect_endpoint awscc_ec2_instance_connect_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_instance_connect_endpoint awscc_ec2_instance_connect_endpoint} Data Source.
 func NewDataAwsccEc2InstanceConnectEndpoint_Override(d DataAwsccEc2InstanceConnectEndpoint, scope constructs.Construct, id *string, config *DataAwsccEc2InstanceConnectEndpointConfig) {
 	_init_.Initialize()
 

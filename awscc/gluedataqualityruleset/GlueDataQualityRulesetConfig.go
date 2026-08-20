@@ -24,27 +24,27 @@ type GlueDataQualityRulesetConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A unique name for the data quality ruleset.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_data_quality_ruleset#name GlueDataQualityRuleset#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_data_quality_ruleset#name GlueDataQualityRuleset#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// A unique token for idempotency.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_data_quality_ruleset#client_token GlueDataQualityRuleset#client_token}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_data_quality_ruleset#client_token GlueDataQualityRuleset#client_token}
 	ClientToken *string `field:"optional" json:"clientToken" yaml:"clientToken"`
 	// A description of the data quality ruleset.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_data_quality_ruleset#description GlueDataQualityRuleset#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_data_quality_ruleset#description GlueDataQualityRuleset#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// A Data Quality Definition Language (DQDL) ruleset.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_data_quality_ruleset#ruleset GlueDataQualityRuleset#ruleset}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_data_quality_ruleset#ruleset GlueDataQualityRuleset#ruleset}
 	Ruleset *string `field:"optional" json:"ruleset" yaml:"ruleset"`
 	// A map of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_data_quality_ruleset#tags GlueDataQualityRuleset#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_data_quality_ruleset#tags GlueDataQualityRuleset#tags}
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 	// An object representing an AWS Glue table.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_data_quality_ruleset#target_table GlueDataQualityRuleset#target_table}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_data_quality_ruleset#target_table GlueDataQualityRuleset#target_table}
 	TargetTable *GlueDataQualityRulesetTargetTable `field:"optional" json:"targetTable" yaml:"targetTable"`
 }
 

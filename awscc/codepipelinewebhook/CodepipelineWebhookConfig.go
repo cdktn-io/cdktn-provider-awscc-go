@@ -24,39 +24,39 @@ type CodepipelineWebhookConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Supported options are GITHUB_HMAC, IP, and UNAUTHENTICATED.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codepipeline_webhook#authentication CodepipelineWebhook#authentication}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codepipeline_webhook#authentication CodepipelineWebhook#authentication}
 	Authentication *string `field:"required" json:"authentication" yaml:"authentication"`
 	// Properties that configure the authentication applied to incoming webhook trigger requests.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codepipeline_webhook#authentication_configuration CodepipelineWebhook#authentication_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codepipeline_webhook#authentication_configuration CodepipelineWebhook#authentication_configuration}
 	AuthenticationConfiguration *CodepipelineWebhookAuthenticationConfiguration `field:"required" json:"authenticationConfiguration" yaml:"authenticationConfiguration"`
 	// A list of rules applied to the body/payload sent in the POST request to a webhook URL.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codepipeline_webhook#filters CodepipelineWebhook#filters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codepipeline_webhook#filters CodepipelineWebhook#filters}
 	Filters interface{} `field:"required" json:"filters" yaml:"filters"`
 	// The name of the action in a pipeline you want to connect to the webhook.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codepipeline_webhook#target_action CodepipelineWebhook#target_action}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codepipeline_webhook#target_action CodepipelineWebhook#target_action}
 	TargetAction *string `field:"required" json:"targetAction" yaml:"targetAction"`
 	// The name of the pipeline you want to connect to the webhook.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codepipeline_webhook#target_pipeline CodepipelineWebhook#target_pipeline}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codepipeline_webhook#target_pipeline CodepipelineWebhook#target_pipeline}
 	TargetPipeline *string `field:"required" json:"targetPipeline" yaml:"targetPipeline"`
 	// The name of the webhook.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codepipeline_webhook#name CodepipelineWebhook#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codepipeline_webhook#name CodepipelineWebhook#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// Configures a connection between the webhook that was created and the external tool with events to be detected.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codepipeline_webhook#register_with_third_party CodepipelineWebhook#register_with_third_party}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codepipeline_webhook#register_with_third_party CodepipelineWebhook#register_with_third_party}
 	RegisterWithThirdParty interface{} `field:"optional" json:"registerWithThirdParty" yaml:"registerWithThirdParty"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codepipeline_webhook#tags CodepipelineWebhook#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codepipeline_webhook#tags CodepipelineWebhook#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// The version number of the pipeline to be connected to the trigger request.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/codepipeline_webhook#target_pipeline_version CodepipelineWebhook#target_pipeline_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codepipeline_webhook#target_pipeline_version CodepipelineWebhook#target_pipeline_version}
 	TargetPipelineVersion *float64 `field:"optional" json:"targetPipelineVersion" yaml:"targetPipelineVersion"`
 }
 

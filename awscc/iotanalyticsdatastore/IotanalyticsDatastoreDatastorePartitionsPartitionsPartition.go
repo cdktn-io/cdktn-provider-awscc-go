@@ -5,7 +5,7 @@ package iotanalyticsdatastore
 
 
 type IotanalyticsDatastoreDatastorePartitionsPartitionsPartition struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_datastore#attribute_name IotanalyticsDatastore#attribute_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotanalytics_datastore#attribute_name IotanalyticsDatastore#attribute_name}.
 	AttributeName *string `field:"optional" json:"attributeName" yaml:"attributeName"`
 }
 

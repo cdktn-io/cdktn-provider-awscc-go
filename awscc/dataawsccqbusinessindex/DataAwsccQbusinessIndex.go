@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/qbusiness_index awscc_qbusiness_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/qbusiness_index awscc_qbusiness_index}.
 type DataAwsccQbusinessIndex interface {
 	cdktn.TerraformDataSource
 	ApplicationId() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccQbusinessIndex) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/qbusiness_index awscc_qbusiness_index} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/qbusiness_index awscc_qbusiness_index} Data Source.
 func NewDataAwsccQbusinessIndex(scope constructs.Construct, id *string, config *DataAwsccQbusinessIndexConfig) DataAwsccQbusinessIndex {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccQbusinessIndex(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/qbusiness_index awscc_qbusiness_index} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/qbusiness_index awscc_qbusiness_index} Data Source.
 func NewDataAwsccQbusinessIndex_Override(d DataAwsccQbusinessIndex, scope constructs.Construct, id *string, config *DataAwsccQbusinessIndexConfig) {
 	_init_.Initialize()
 

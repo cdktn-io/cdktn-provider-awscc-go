@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/observabilityadmin_organization_telemetry_rule awscc_observabilityadmin_organization_telemetry_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/observabilityadmin_organization_telemetry_rule awscc_observabilityadmin_organization_telemetry_rule}.
 type ObservabilityadminOrganizationTelemetryRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_ObservabilityadminOrganizationTelemetryRule) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/observabilityadmin_organization_telemetry_rule awscc_observabilityadmin_organization_telemetry_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/observabilityadmin_organization_telemetry_rule awscc_observabilityadmin_organization_telemetry_rule} Resource.
 func NewObservabilityadminOrganizationTelemetryRule(scope constructs.Construct, id *string, config *ObservabilityadminOrganizationTelemetryRuleConfig) ObservabilityadminOrganizationTelemetryRule {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewObservabilityadminOrganizationTelemetryRule(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/observabilityadmin_organization_telemetry_rule awscc_observabilityadmin_organization_telemetry_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/observabilityadmin_organization_telemetry_rule awscc_observabilityadmin_organization_telemetry_rule} Resource.
 func NewObservabilityadminOrganizationTelemetryRule_Override(o ObservabilityadminOrganizationTelemetryRule, scope constructs.Construct, id *string, config *ObservabilityadminOrganizationTelemetryRuleConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kendra_index awscc_kendra_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendra_index awscc_kendra_index}.
 type KendraIndex interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -614,7 +614,7 @@ func (j *jsiiProxy_KendraIndex) UserTokenConfigurationsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kendra_index awscc_kendra_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendra_index awscc_kendra_index} Resource.
 func NewKendraIndex(scope constructs.Construct, id *string, config *KendraIndexConfig) KendraIndex {
 	_init_.Initialize()
 
@@ -632,7 +632,7 @@ func NewKendraIndex(scope constructs.Construct, id *string, config *KendraIndexC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kendra_index awscc_kendra_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendra_index awscc_kendra_index} Resource.
 func NewKendraIndex_Override(k KendraIndex, scope constructs.Construct, id *string, config *KendraIndexConfig) {
 	_init_.Initialize()
 

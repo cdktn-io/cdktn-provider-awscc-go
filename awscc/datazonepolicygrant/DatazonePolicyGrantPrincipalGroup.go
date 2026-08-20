@@ -5,7 +5,7 @@ package datazonepolicygrant
 
 
 type DatazonePolicyGrantPrincipalGroup struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_policy_grant#group_identifier DatazonePolicyGrant#group_identifier}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_policy_grant#group_identifier DatazonePolicyGrant#group_identifier}.
 	GroupIdentifier *string `field:"optional" json:"groupIdentifier" yaml:"groupIdentifier"`
 }
 

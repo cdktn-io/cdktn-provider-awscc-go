@@ -24,15 +24,15 @@ type BedrockagentcoreWorkloadIdentityConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the workload identity. The name must be unique within your account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_workload_identity#name BedrockagentcoreWorkloadIdentity#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_workload_identity#name BedrockagentcoreWorkloadIdentity#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The list of allowed OAuth2 return URLs for resources associated with this workload identity.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_workload_identity#allowed_resource_oauth_2_return_urls BedrockagentcoreWorkloadIdentity#allowed_resource_oauth_2_return_urls}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_workload_identity#allowed_resource_oauth_2_return_urls BedrockagentcoreWorkloadIdentity#allowed_resource_oauth_2_return_urls}
 	AllowedResourceOauth2ReturnUrls *[]*string `field:"optional" json:"allowedResourceOauth2ReturnUrls" yaml:"allowedResourceOauth2ReturnUrls"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_workload_identity#tags BedrockagentcoreWorkloadIdentity#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_workload_identity#tags BedrockagentcoreWorkloadIdentity#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

@@ -5,13 +5,13 @@ package elementalinferencefeed
 
 
 type ElementalinferenceFeedOutputs struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_feed#name ElementalinferenceFeed#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elementalinference_feed#name ElementalinferenceFeed#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_feed#output_config ElementalinferenceFeed#output_config}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elementalinference_feed#output_config ElementalinferenceFeed#output_config}.
 	OutputConfig *ElementalinferenceFeedOutputsOutputConfig `field:"required" json:"outputConfig" yaml:"outputConfig"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_feed#status ElementalinferenceFeed#status}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elementalinference_feed#status ElementalinferenceFeed#status}.
 	Status *string `field:"required" json:"status" yaml:"status"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_feed#description ElementalinferenceFeed#description}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elementalinference_feed#description ElementalinferenceFeed#description}.
 	Description *string `field:"optional" json:"description" yaml:"description"`
 }
 

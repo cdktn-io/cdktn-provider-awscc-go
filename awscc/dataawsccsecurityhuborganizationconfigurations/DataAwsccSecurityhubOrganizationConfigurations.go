@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securityhub_organization_configurations awscc_securityhub_organization_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securityhub_organization_configurations awscc_securityhub_organization_configurations}.
 type DataAwsccSecurityhubOrganizationConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSecurityhubOrganizationConfigurations) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securityhub_organization_configurations awscc_securityhub_organization_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securityhub_organization_configurations awscc_securityhub_organization_configurations} Data Source.
 func NewDataAwsccSecurityhubOrganizationConfigurations(scope constructs.Construct, id *string, config *DataAwsccSecurityhubOrganizationConfigurationsConfig) DataAwsccSecurityhubOrganizationConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSecurityhubOrganizationConfigurations(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/securityhub_organization_configurations awscc_securityhub_organization_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securityhub_organization_configurations awscc_securityhub_organization_configurations} Data Source.
 func NewDataAwsccSecurityhubOrganizationConfigurations_Override(d DataAwsccSecurityhubOrganizationConfigurations, scope constructs.Construct, id *string, config *DataAwsccSecurityhubOrganizationConfigurationsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_dhcp_options awscc_ec2_dhcp_options}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_dhcp_options awscc_ec2_dhcp_options}.
 type Ec2DhcpOptions interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -534,7 +534,7 @@ func (j *jsiiProxy_Ec2DhcpOptions) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_dhcp_options awscc_ec2_dhcp_options} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_dhcp_options awscc_ec2_dhcp_options} Resource.
 func NewEc2DhcpOptions(scope constructs.Construct, id *string, config *Ec2DhcpOptionsConfig) Ec2DhcpOptions {
 	_init_.Initialize()
 
@@ -552,7 +552,7 @@ func NewEc2DhcpOptions(scope constructs.Construct, id *string, config *Ec2DhcpOp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_dhcp_options awscc_ec2_dhcp_options} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_dhcp_options awscc_ec2_dhcp_options} Resource.
 func NewEc2DhcpOptions_Override(e Ec2DhcpOptions, scope constructs.Construct, id *string, config *Ec2DhcpOptionsConfig) {
 	_init_.Initialize()
 

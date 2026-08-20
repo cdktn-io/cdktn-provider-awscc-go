@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appsync_graph_ql_api awscc_appsync_graph_ql_api}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appsync_graph_ql_api awscc_appsync_graph_ql_api}.
 type DataAwsccAppsyncGraphQlApi interface {
 	cdktn.TerraformDataSource
 	AdditionalAuthenticationProviders() DataAwsccAppsyncGraphQlApiAdditionalAuthenticationProvidersList
@@ -561,7 +561,7 @@ func (j *jsiiProxy_DataAwsccAppsyncGraphQlApi) XrayEnabled() cdktn.IResolvable {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appsync_graph_ql_api awscc_appsync_graph_ql_api} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appsync_graph_ql_api awscc_appsync_graph_ql_api} Data Source.
 func NewDataAwsccAppsyncGraphQlApi(scope constructs.Construct, id *string, config *DataAwsccAppsyncGraphQlApiConfig) DataAwsccAppsyncGraphQlApi {
 	_init_.Initialize()
 
@@ -579,7 +579,7 @@ func NewDataAwsccAppsyncGraphQlApi(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appsync_graph_ql_api awscc_appsync_graph_ql_api} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appsync_graph_ql_api awscc_appsync_graph_ql_api} Data Source.
 func NewDataAwsccAppsyncGraphQlApi_Override(d DataAwsccAppsyncGraphQlApi, scope constructs.Construct, id *string, config *DataAwsccAppsyncGraphQlApiConfig) {
 	_init_.Initialize()
 

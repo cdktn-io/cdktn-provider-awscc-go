@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/eks_fargate_profile awscc_eks_fargate_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/eks_fargate_profile awscc_eks_fargate_profile}.
 type DataAwsccEksFargateProfile interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccEksFargateProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/eks_fargate_profile awscc_eks_fargate_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/eks_fargate_profile awscc_eks_fargate_profile} Data Source.
 func NewDataAwsccEksFargateProfile(scope constructs.Construct, id *string, config *DataAwsccEksFargateProfileConfig) DataAwsccEksFargateProfile {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccEksFargateProfile(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/eks_fargate_profile awscc_eks_fargate_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/eks_fargate_profile awscc_eks_fargate_profile} Data Source.
 func NewDataAwsccEksFargateProfile_Override(d DataAwsccEksFargateProfile, scope constructs.Construct, id *string, config *DataAwsccEksFargateProfileConfig) {
 	_init_.Initialize()
 

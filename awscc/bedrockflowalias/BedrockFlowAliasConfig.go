@@ -24,25 +24,25 @@ type BedrockFlowAliasConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Arn representation of the Flow.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_flow_alias#flow_arn BedrockFlowAlias#flow_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_flow_alias#flow_arn BedrockFlowAlias#flow_arn}
 	FlowArn *string `field:"required" json:"flowArn" yaml:"flowArn"`
 	// Name for a resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_flow_alias#name BedrockFlowAlias#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_flow_alias#name BedrockFlowAlias#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Routing configuration for a Flow alias.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_flow_alias#routing_configuration BedrockFlowAlias#routing_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_flow_alias#routing_configuration BedrockFlowAlias#routing_configuration}
 	RoutingConfiguration interface{} `field:"required" json:"routingConfiguration" yaml:"routingConfiguration"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_flow_alias#concurrency_configuration BedrockFlowAlias#concurrency_configuration}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_flow_alias#concurrency_configuration BedrockFlowAlias#concurrency_configuration}.
 	ConcurrencyConfiguration *BedrockFlowAliasConcurrencyConfiguration `field:"optional" json:"concurrencyConfiguration" yaml:"concurrencyConfiguration"`
 	// Description of the Resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_flow_alias#description BedrockFlowAlias#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_flow_alias#description BedrockFlowAlias#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// A map of tag keys and values.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_flow_alias#tags BedrockFlowAlias#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_flow_alias#tags BedrockFlowAlias#tags}
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 }
 

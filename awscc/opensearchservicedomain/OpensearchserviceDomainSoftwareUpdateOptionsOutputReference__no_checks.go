@@ -75,6 +75,10 @@ func (j *jsiiProxy_OpensearchserviceDomainSoftwareUpdateOptionsOutputReference) 
 	return nil
 }
 
+func (j *jsiiProxy_OpensearchserviceDomainSoftwareUpdateOptionsOutputReference) validateSetUseLatestServiceSoftwareForBlueGreenParameters(val interface{}) error {
+	return nil
+}
+
 func validateNewOpensearchserviceDomainSoftwareUpdateOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

@@ -24,11 +24,11 @@ type WickrNetworkConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The access level of the network, which determines available features and capabilities.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wickr_network#access_level WickrNetwork#access_level}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wickr_network#access_level WickrNetwork#access_level}
 	AccessLevel *string `field:"required" json:"accessLevel" yaml:"accessLevel"`
 	// The name of the network. Must be between 1 and 20 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wickr_network#network_name WickrNetwork#network_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wickr_network#network_name WickrNetwork#network_name}
 	NetworkName *string `field:"required" json:"networkName" yaml:"networkName"`
 }
 

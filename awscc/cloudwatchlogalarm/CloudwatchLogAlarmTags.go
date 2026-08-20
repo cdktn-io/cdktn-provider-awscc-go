@@ -9,11 +9,11 @@ type CloudwatchLogAlarmTags struct {
 	//
 	// The combination of tag keys and values can help you organize and categorize your resources.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudwatch_log_alarm#key CloudwatchLogAlarm#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#key CloudwatchLogAlarm#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value for the specified tag key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudwatch_log_alarm#value CloudwatchLogAlarm#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_log_alarm#value CloudwatchLogAlarm#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

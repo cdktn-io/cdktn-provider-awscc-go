@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_nat_gateways awscc_ec2_nat_gateways}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_nat_gateways awscc_ec2_nat_gateways}.
 type DataAwsccEc2NatGateways interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2NatGateways) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_nat_gateways awscc_ec2_nat_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_nat_gateways awscc_ec2_nat_gateways} Data Source.
 func NewDataAwsccEc2NatGateways(scope constructs.Construct, id *string, config *DataAwsccEc2NatGatewaysConfig) DataAwsccEc2NatGateways {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2NatGateways(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_nat_gateways awscc_ec2_nat_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_nat_gateways awscc_ec2_nat_gateways} Data Source.
 func NewDataAwsccEc2NatGateways_Override(d DataAwsccEc2NatGateways, scope constructs.Construct, id *string, config *DataAwsccEc2NatGatewaysConfig) {
 	_init_.Initialize()
 

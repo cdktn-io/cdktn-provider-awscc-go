@@ -24,27 +24,27 @@ type DatazoneFormTypeConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID of the Amazon DataZone domain in which this metadata form type is created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_form_type#domain_identifier DatazoneFormType#domain_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_form_type#domain_identifier DatazoneFormType#domain_identifier}
 	DomainIdentifier *string `field:"required" json:"domainIdentifier" yaml:"domainIdentifier"`
 	// The model of this Amazon DataZone metadata form type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_form_type#model DatazoneFormType#model}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_form_type#model DatazoneFormType#model}
 	Model *DatazoneFormTypeModel `field:"required" json:"model" yaml:"model"`
 	// The name of this Amazon DataZone metadata form type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_form_type#name DatazoneFormType#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_form_type#name DatazoneFormType#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The ID of the Amazon DataZone project that owns this metadata form type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_form_type#owning_project_identifier DatazoneFormType#owning_project_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_form_type#owning_project_identifier DatazoneFormType#owning_project_identifier}
 	OwningProjectIdentifier *string `field:"required" json:"owningProjectIdentifier" yaml:"owningProjectIdentifier"`
 	// The description of this Amazon DataZone metadata form type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_form_type#description DatazoneFormType#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_form_type#description DatazoneFormType#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The status of this Amazon DataZone metadata form type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_form_type#status DatazoneFormType#status}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_form_type#status DatazoneFormType#status}
 	Status *string `field:"optional" json:"status" yaml:"status"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/datasync_agent awscc_datasync_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/datasync_agent awscc_datasync_agent}.
 type DataAwsccDatasyncAgent interface {
 	cdktn.TerraformDataSource
 	ActivationKey() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccDatasyncAgent) VpcEndpointId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/datasync_agent awscc_datasync_agent} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/datasync_agent awscc_datasync_agent} Data Source.
 func NewDataAwsccDatasyncAgent(scope constructs.Construct, id *string, config *DataAwsccDatasyncAgentConfig) DataAwsccDatasyncAgent {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccDatasyncAgent(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/datasync_agent awscc_datasync_agent} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/datasync_agent awscc_datasync_agent} Data Source.
 func NewDataAwsccDatasyncAgent_Override(d DataAwsccDatasyncAgent, scope constructs.Construct, id *string, config *DataAwsccDatasyncAgentConfig) {
 	_init_.Initialize()
 

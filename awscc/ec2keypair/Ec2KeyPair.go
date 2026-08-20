@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_key_pair awscc_ec2_key_pair}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_key_pair awscc_ec2_key_pair}.
 type Ec2KeyPair interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_Ec2KeyPair) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_key_pair awscc_ec2_key_pair} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_key_pair awscc_ec2_key_pair} Resource.
 func NewEc2KeyPair(scope constructs.Construct, id *string, config *Ec2KeyPairConfig) Ec2KeyPair {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewEc2KeyPair(scope constructs.Construct, id *string, config *Ec2KeyPairCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_key_pair awscc_ec2_key_pair} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_key_pair awscc_ec2_key_pair} Resource.
 func NewEc2KeyPair_Override(e Ec2KeyPair, scope constructs.Construct, id *string, config *Ec2KeyPairConfig) {
 	_init_.Initialize()
 

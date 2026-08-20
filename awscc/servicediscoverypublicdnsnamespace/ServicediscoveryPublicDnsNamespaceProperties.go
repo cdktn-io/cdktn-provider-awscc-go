@@ -1,0 +1,11 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package servicediscoverypublicdnsnamespace
+
+
+type ServicediscoveryPublicDnsNamespaceProperties struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_public_dns_namespace#dns_properties ServicediscoveryPublicDnsNamespace#dns_properties}.
+	DnsProperties *ServicediscoveryPublicDnsNamespacePropertiesDnsProperties `field:"optional" json:"dnsProperties" yaml:"dnsProperties"`
+}
+

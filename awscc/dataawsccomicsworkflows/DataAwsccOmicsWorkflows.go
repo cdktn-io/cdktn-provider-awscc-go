@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/omics_workflows awscc_omics_workflows}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/omics_workflows awscc_omics_workflows}.
 type DataAwsccOmicsWorkflows interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccOmicsWorkflows) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/omics_workflows awscc_omics_workflows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/omics_workflows awscc_omics_workflows} Data Source.
 func NewDataAwsccOmicsWorkflows(scope constructs.Construct, id *string, config *DataAwsccOmicsWorkflowsConfig) DataAwsccOmicsWorkflows {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccOmicsWorkflows(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/omics_workflows awscc_omics_workflows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/omics_workflows awscc_omics_workflows} Data Source.
 func NewDataAwsccOmicsWorkflows_Override(d DataAwsccOmicsWorkflows, scope constructs.Construct, id *string, config *DataAwsccOmicsWorkflowsConfig) {
 	_init_.Initialize()
 

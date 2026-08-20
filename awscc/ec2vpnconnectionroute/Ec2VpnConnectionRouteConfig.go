@@ -24,11 +24,11 @@ type Ec2VpnConnectionRouteConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The CIDR block associated with the local subnet of the customer network.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_connection_route#destination_cidr_block Ec2VpnConnectionRoute#destination_cidr_block}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_connection_route#destination_cidr_block Ec2VpnConnectionRoute#destination_cidr_block}
 	DestinationCidrBlock *string `field:"required" json:"destinationCidrBlock" yaml:"destinationCidrBlock"`
 	// The ID of the VPN connection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_vpn_connection_route#vpn_connection_id Ec2VpnConnectionRoute#vpn_connection_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpn_connection_route#vpn_connection_id Ec2VpnConnectionRoute#vpn_connection_id}
 	VpnConnectionId *string `field:"required" json:"vpnConnectionId" yaml:"vpnConnectionId"`
 }
 

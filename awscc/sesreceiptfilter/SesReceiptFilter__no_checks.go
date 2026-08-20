@@ -1,0 +1,125 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package sesreceiptfilter
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (s *jsiiProxy_SesReceiptFilter) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesReceiptFilter) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesReceiptFilter) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesReceiptFilter) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesReceiptFilter) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesReceiptFilter) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesReceiptFilter) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesReceiptFilter) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesReceiptFilter) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesReceiptFilter) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesReceiptFilter) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesReceiptFilter) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesReceiptFilter) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesReceiptFilter) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesReceiptFilter) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesReceiptFilter) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesReceiptFilter) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesReceiptFilter) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesReceiptFilter) validatePutFilterParameters(value *SesReceiptFilterFilter) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesReceiptFilter) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateSesReceiptFilter_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateSesReceiptFilter_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateSesReceiptFilter_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateSesReceiptFilter_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SesReceiptFilter) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SesReceiptFilter) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SesReceiptFilter) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_SesReceiptFilter) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func validateNewSesReceiptFilterParameters(scope constructs.Construct, id *string, config *SesReceiptFilterConfig) error {
+	return nil
+}
+

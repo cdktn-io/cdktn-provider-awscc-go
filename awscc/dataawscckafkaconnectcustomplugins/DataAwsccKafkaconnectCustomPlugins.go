@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/kafkaconnect_custom_plugins awscc_kafkaconnect_custom_plugins}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/kafkaconnect_custom_plugins awscc_kafkaconnect_custom_plugins}.
 type DataAwsccKafkaconnectCustomPlugins interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccKafkaconnectCustomPlugins) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/kafkaconnect_custom_plugins awscc_kafkaconnect_custom_plugins} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/kafkaconnect_custom_plugins awscc_kafkaconnect_custom_plugins} Data Source.
 func NewDataAwsccKafkaconnectCustomPlugins(scope constructs.Construct, id *string, config *DataAwsccKafkaconnectCustomPluginsConfig) DataAwsccKafkaconnectCustomPlugins {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccKafkaconnectCustomPlugins(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/kafkaconnect_custom_plugins awscc_kafkaconnect_custom_plugins} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/kafkaconnect_custom_plugins awscc_kafkaconnect_custom_plugins} Data Source.
 func NewDataAwsccKafkaconnectCustomPlugins_Override(d DataAwsccKafkaconnectCustomPlugins, scope constructs.Construct, id *string, config *DataAwsccKafkaconnectCustomPluginsConfig) {
 	_init_.Initialize()
 

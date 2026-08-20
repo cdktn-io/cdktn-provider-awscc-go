@@ -5,7 +5,7 @@ package mwaaserverlessworkflow
 
 
 type MwaaserverlessWorkflowLoggingConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mwaaserverless_workflow#log_group_name MwaaserverlessWorkflow#log_group_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaaserverless_workflow#log_group_name MwaaserverlessWorkflow#log_group_name}.
 	LogGroupName *string `field:"optional" json:"logGroupName" yaml:"logGroupName"`
 }
 

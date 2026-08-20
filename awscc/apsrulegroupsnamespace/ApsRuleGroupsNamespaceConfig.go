@@ -24,19 +24,19 @@ type ApsRuleGroupsNamespaceConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The RuleGroupsNamespace data.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_rule_groups_namespace#data ApsRuleGroupsNamespace#data}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_rule_groups_namespace#data ApsRuleGroupsNamespace#data}
 	Data *string `field:"required" json:"data" yaml:"data"`
 	// The RuleGroupsNamespace name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_rule_groups_namespace#name ApsRuleGroupsNamespace#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_rule_groups_namespace#name ApsRuleGroupsNamespace#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Required to identify a specific APS Workspace associated with this RuleGroupsNamespace.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_rule_groups_namespace#workspace ApsRuleGroupsNamespace#workspace}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_rule_groups_namespace#workspace ApsRuleGroupsNamespace#workspace}
 	Workspace *string `field:"required" json:"workspace" yaml:"workspace"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_rule_groups_namespace#tags ApsRuleGroupsNamespace#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_rule_groups_namespace#tags ApsRuleGroupsNamespace#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

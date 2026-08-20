@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_gateway_rule awscc_bedrockagentcore_gateway_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_gateway_rule awscc_bedrockagentcore_gateway_rule}.
 type DataAwsccBedrockagentcoreGatewayRule interface {
 	cdktn.TerraformDataSource
 	Actions() DataAwsccBedrockagentcoreGatewayRuleActionsList
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreGatewayRule) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_gateway_rule awscc_bedrockagentcore_gateway_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_gateway_rule awscc_bedrockagentcore_gateway_rule} Data Source.
 func NewDataAwsccBedrockagentcoreGatewayRule(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreGatewayRuleConfig) DataAwsccBedrockagentcoreGatewayRule {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccBedrockagentcoreGatewayRule(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_gateway_rule awscc_bedrockagentcore_gateway_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_gateway_rule awscc_bedrockagentcore_gateway_rule} Data Source.
 func NewDataAwsccBedrockagentcoreGatewayRule_Override(d DataAwsccBedrockagentcoreGatewayRule, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreGatewayRuleConfig) {
 	_init_.Initialize()
 

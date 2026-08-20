@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster}.
 type TimestreamInfluxDbCluster interface {
 	cdktn.TerraformResource
 	AllocatedStorage() *float64
@@ -899,7 +899,7 @@ func (j *jsiiProxy_TimestreamInfluxDbCluster) VpcSubnetIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster} Resource.
 func NewTimestreamInfluxDbCluster(scope constructs.Construct, id *string, config *TimestreamInfluxDbClusterConfig) TimestreamInfluxDbCluster {
 	_init_.Initialize()
 
@@ -917,7 +917,7 @@ func NewTimestreamInfluxDbCluster(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster} Resource.
 func NewTimestreamInfluxDbCluster_Override(t TimestreamInfluxDbCluster, scope constructs.Construct, id *string, config *TimestreamInfluxDbClusterConfig) {
 	_init_.Initialize()
 

@@ -24,7 +24,7 @@ type OrganizationsOrganizationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Specifies the feature set supported by the new organization. Each feature set supports different levels of functionality.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/organizations_organization#feature_set OrganizationsOrganization#feature_set}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/organizations_organization#feature_set OrganizationsOrganization#feature_set}
 	FeatureSet *string `field:"optional" json:"featureSet" yaml:"featureSet"`
 }
 

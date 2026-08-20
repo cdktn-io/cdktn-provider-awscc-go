@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/gamelift_container_group_definition awscc_gamelift_container_group_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/gamelift_container_group_definition awscc_gamelift_container_group_definition}.
 type DataAwsccGameliftContainerGroupDefinition interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccGameliftContainerGroupDefinition) VersionNumber() *f
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/gamelift_container_group_definition awscc_gamelift_container_group_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/gamelift_container_group_definition awscc_gamelift_container_group_definition} Data Source.
 func NewDataAwsccGameliftContainerGroupDefinition(scope constructs.Construct, id *string, config *DataAwsccGameliftContainerGroupDefinitionConfig) DataAwsccGameliftContainerGroupDefinition {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccGameliftContainerGroupDefinition(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/gamelift_container_group_definition awscc_gamelift_container_group_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/gamelift_container_group_definition awscc_gamelift_container_group_definition} Data Source.
 func NewDataAwsccGameliftContainerGroupDefinition_Override(d DataAwsccGameliftContainerGroupDefinition, scope constructs.Construct, id *string, config *DataAwsccGameliftContainerGroupDefinitionConfig) {
 	_init_.Initialize()
 

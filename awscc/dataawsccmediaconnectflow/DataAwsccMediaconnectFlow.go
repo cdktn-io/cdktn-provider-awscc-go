@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/mediaconnect_flow awscc_mediaconnect_flow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mediaconnect_flow awscc_mediaconnect_flow}.
 type DataAwsccMediaconnectFlow interface {
 	cdktn.TerraformDataSource
 	AvailabilityZone() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccMediaconnectFlow) VpcInterfaces() DataAwsccMediaconn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/mediaconnect_flow awscc_mediaconnect_flow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mediaconnect_flow awscc_mediaconnect_flow} Data Source.
 func NewDataAwsccMediaconnectFlow(scope constructs.Construct, id *string, config *DataAwsccMediaconnectFlowConfig) DataAwsccMediaconnectFlow {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccMediaconnectFlow(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/mediaconnect_flow awscc_mediaconnect_flow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mediaconnect_flow awscc_mediaconnect_flow} Data Source.
 func NewDataAwsccMediaconnectFlow_Override(d DataAwsccMediaconnectFlow, scope constructs.Construct, id *string, config *DataAwsccMediaconnectFlowConfig) {
 	_init_.Initialize()
 

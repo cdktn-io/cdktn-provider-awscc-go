@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_harnesses awscc_bedrockagentcore_harnesses}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_harnesses awscc_bedrockagentcore_harnesses}.
 type DataAwsccBedrockagentcoreHarnesses interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreHarnesses) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_harnesses awscc_bedrockagentcore_harnesses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_harnesses awscc_bedrockagentcore_harnesses} Data Source.
 func NewDataAwsccBedrockagentcoreHarnesses(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreHarnessesConfig) DataAwsccBedrockagentcoreHarnesses {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockagentcoreHarnesses(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/bedrockagentcore_harnesses awscc_bedrockagentcore_harnesses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_harnesses awscc_bedrockagentcore_harnesses} Data Source.
 func NewDataAwsccBedrockagentcoreHarnesses_Override(d DataAwsccBedrockagentcoreHarnesses, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreHarnessesConfig) {
 	_init_.Initialize()
 

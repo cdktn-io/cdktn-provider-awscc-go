@@ -24,11 +24,11 @@ type BedrockmantleProjectConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the project.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockmantle_project#name BedrockmantleProject#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockmantle_project#name BedrockmantleProject#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockmantle_project#tags BedrockmantleProject#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockmantle_project#tags BedrockmantleProject#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

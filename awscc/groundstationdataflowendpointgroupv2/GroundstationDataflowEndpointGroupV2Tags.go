@@ -5,9 +5,9 @@ package groundstationdataflowendpointgroupv2
 
 
 type GroundstationDataflowEndpointGroupV2Tags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/groundstation_dataflow_endpoint_group_v2#key GroundstationDataflowEndpointGroupV2#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/groundstation_dataflow_endpoint_group_v2#key GroundstationDataflowEndpointGroupV2#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/groundstation_dataflow_endpoint_group_v2#value GroundstationDataflowEndpointGroupV2#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/groundstation_dataflow_endpoint_group_v2#value GroundstationDataflowEndpointGroupV2#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

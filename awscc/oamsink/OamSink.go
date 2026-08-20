@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/oam_sink awscc_oam_sink}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/oam_sink awscc_oam_sink}.
 type OamSink interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -437,7 +437,7 @@ func (j *jsiiProxy_OamSink) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/oam_sink awscc_oam_sink} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/oam_sink awscc_oam_sink} Resource.
 func NewOamSink(scope constructs.Construct, id *string, config *OamSinkConfig) OamSink {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewOamSink(scope constructs.Construct, id *string, config *OamSinkConfig) O
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/oam_sink awscc_oam_sink} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/oam_sink awscc_oam_sink} Resource.
 func NewOamSink_Override(o OamSink, scope constructs.Construct, id *string, config *OamSinkConfig) {
 	_init_.Initialize()
 

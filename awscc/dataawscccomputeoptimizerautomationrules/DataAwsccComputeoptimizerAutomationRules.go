@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/computeoptimizer_automation_rules awscc_computeoptimizer_automation_rules}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/computeoptimizer_automation_rules awscc_computeoptimizer_automation_rules}.
 type DataAwsccComputeoptimizerAutomationRules interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccComputeoptimizerAutomationRules) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/computeoptimizer_automation_rules awscc_computeoptimizer_automation_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/computeoptimizer_automation_rules awscc_computeoptimizer_automation_rules} Data Source.
 func NewDataAwsccComputeoptimizerAutomationRules(scope constructs.Construct, id *string, config *DataAwsccComputeoptimizerAutomationRulesConfig) DataAwsccComputeoptimizerAutomationRules {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccComputeoptimizerAutomationRules(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/computeoptimizer_automation_rules awscc_computeoptimizer_automation_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/computeoptimizer_automation_rules awscc_computeoptimizer_automation_rules} Data Source.
 func NewDataAwsccComputeoptimizerAutomationRules_Override(d DataAwsccComputeoptimizerAutomationRules, scope constructs.Construct, id *string, config *DataAwsccComputeoptimizerAutomationRulesConfig) {
 	_init_.Initialize()
 

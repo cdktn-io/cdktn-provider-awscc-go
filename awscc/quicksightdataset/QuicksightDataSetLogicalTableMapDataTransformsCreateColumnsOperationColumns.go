@@ -11,15 +11,15 @@ type QuicksightDataSetLogicalTableMapDataTransformsCreateColumnsOperationColumns
 	//             of a calculated column matches that of an existing calculated column, Amazon QuickSight
 	//             preserves the existing calculated column.</p>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_data_set#column_id QuicksightDataSet#column_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_set#column_id QuicksightDataSet#column_id}
 	ColumnId *string `field:"optional" json:"columnId" yaml:"columnId"`
 	// <p>Column name.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}
 	ColumnName *string `field:"optional" json:"columnName" yaml:"columnName"`
 	// <p>An expression that defines the calculated column.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_data_set#expression QuicksightDataSet#expression}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_set#expression QuicksightDataSet#expression}
 	Expression *string `field:"optional" json:"expression" yaml:"expression"`
 }
 

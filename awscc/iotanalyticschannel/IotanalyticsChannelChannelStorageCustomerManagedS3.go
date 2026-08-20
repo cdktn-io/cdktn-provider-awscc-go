@@ -5,11 +5,11 @@ package iotanalyticschannel
 
 
 type IotanalyticsChannelChannelStorageCustomerManagedS3 struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#bucket IotanalyticsChannel#bucket}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotanalytics_channel#bucket IotanalyticsChannel#bucket}.
 	Bucket *string `field:"optional" json:"bucket" yaml:"bucket"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#key_prefix IotanalyticsChannel#key_prefix}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotanalytics_channel#key_prefix IotanalyticsChannel#key_prefix}.
 	KeyPrefix *string `field:"optional" json:"keyPrefix" yaml:"keyPrefix"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotanalytics_channel#role_arn IotanalyticsChannel#role_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotanalytics_channel#role_arn IotanalyticsChannel#role_arn}.
 	RoleArn *string `field:"optional" json:"roleArn" yaml:"roleArn"`
 }
 

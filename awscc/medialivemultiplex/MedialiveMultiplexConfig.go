@@ -24,23 +24,23 @@ type MedialiveMultiplexConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A list of availability zones for the multiplex.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_multiplex#availability_zones MedialiveMultiplex#availability_zones}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_multiplex#availability_zones MedialiveMultiplex#availability_zones}
 	AvailabilityZones *[]*string `field:"required" json:"availabilityZones" yaml:"availabilityZones"`
 	// Configuration for a multiplex event.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_multiplex#multiplex_settings MedialiveMultiplex#multiplex_settings}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_multiplex#multiplex_settings MedialiveMultiplex#multiplex_settings}
 	MultiplexSettings *MedialiveMultiplexMultiplexSettings `field:"required" json:"multiplexSettings" yaml:"multiplexSettings"`
 	// Name of multiplex.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_multiplex#name MedialiveMultiplex#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_multiplex#name MedialiveMultiplex#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// A list of the multiplex output destinations.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_multiplex#destinations MedialiveMultiplex#destinations}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_multiplex#destinations MedialiveMultiplex#destinations}
 	Destinations interface{} `field:"optional" json:"destinations" yaml:"destinations"`
 	// A collection of key-value pairs.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_multiplex#tags MedialiveMultiplex#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_multiplex#tags MedialiveMultiplex#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iot_scheduled_audits awscc_iot_scheduled_audits}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_scheduled_audits awscc_iot_scheduled_audits}.
 type DataAwsccIotScheduledAudits interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotScheduledAudits) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iot_scheduled_audits awscc_iot_scheduled_audits} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_scheduled_audits awscc_iot_scheduled_audits} Data Source.
 func NewDataAwsccIotScheduledAudits(scope constructs.Construct, id *string, config *DataAwsccIotScheduledAuditsConfig) DataAwsccIotScheduledAudits {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotScheduledAudits(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iot_scheduled_audits awscc_iot_scheduled_audits} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_scheduled_audits awscc_iot_scheduled_audits} Data Source.
 func NewDataAwsccIotScheduledAudits_Override(d DataAwsccIotScheduledAudits, scope constructs.Construct, id *string, config *DataAwsccIotScheduledAuditsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/frauddetector_variable awscc_frauddetector_variable}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_variable awscc_frauddetector_variable}.
 type FrauddetectorVariable interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -552,7 +552,7 @@ func (j *jsiiProxy_FrauddetectorVariable) VariableTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/frauddetector_variable awscc_frauddetector_variable} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_variable awscc_frauddetector_variable} Resource.
 func NewFrauddetectorVariable(scope constructs.Construct, id *string, config *FrauddetectorVariableConfig) FrauddetectorVariable {
 	_init_.Initialize()
 
@@ -570,7 +570,7 @@ func NewFrauddetectorVariable(scope constructs.Construct, id *string, config *Fr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/frauddetector_variable awscc_frauddetector_variable} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/frauddetector_variable awscc_frauddetector_variable} Resource.
 func NewFrauddetectorVariable_Override(f FrauddetectorVariable, scope constructs.Construct, id *string, config *FrauddetectorVariableConfig) {
 	_init_.Initialize()
 

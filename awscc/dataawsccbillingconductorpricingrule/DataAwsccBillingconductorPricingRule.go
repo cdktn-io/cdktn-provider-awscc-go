@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/billingconductor_pricing_rule awscc_billingconductor_pricing_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/billingconductor_pricing_rule awscc_billingconductor_pricing_rule}.
 type DataAwsccBillingconductorPricingRule interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccBillingconductorPricingRule) UsageType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/billingconductor_pricing_rule awscc_billingconductor_pricing_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/billingconductor_pricing_rule awscc_billingconductor_pricing_rule} Data Source.
 func NewDataAwsccBillingconductorPricingRule(scope constructs.Construct, id *string, config *DataAwsccBillingconductorPricingRuleConfig) DataAwsccBillingconductorPricingRule {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccBillingconductorPricingRule(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/billingconductor_pricing_rule awscc_billingconductor_pricing_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/billingconductor_pricing_rule awscc_billingconductor_pricing_rule} Data Source.
 func NewDataAwsccBillingconductorPricingRule_Override(d DataAwsccBillingconductorPricingRule, scope constructs.Construct, id *string, config *DataAwsccBillingconductorPricingRuleConfig) {
 	_init_.Initialize()
 

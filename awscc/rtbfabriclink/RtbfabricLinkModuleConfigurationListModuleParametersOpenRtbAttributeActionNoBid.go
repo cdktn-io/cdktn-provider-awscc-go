@@ -5,7 +5,7 @@ package rtbfabriclink
 
 
 type RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeActionNoBid struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rtbfabric_link#no_bid_reason_code RtbfabricLink#no_bid_reason_code}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rtbfabric_link#no_bid_reason_code RtbfabricLink#no_bid_reason_code}.
 	NoBidReasonCode *float64 `field:"optional" json:"noBidReasonCode" yaml:"noBidReasonCode"`
 }
 

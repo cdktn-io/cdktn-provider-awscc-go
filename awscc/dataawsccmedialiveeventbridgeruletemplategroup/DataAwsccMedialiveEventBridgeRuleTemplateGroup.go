@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/medialive_event_bridge_rule_template_group awscc_medialive_event_bridge_rule_template_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/medialive_event_bridge_rule_template_group awscc_medialive_event_bridge_rule_template_group}.
 type DataAwsccMedialiveEventBridgeRuleTemplateGroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccMedialiveEventBridgeRuleTemplateGroup) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/medialive_event_bridge_rule_template_group awscc_medialive_event_bridge_rule_template_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/medialive_event_bridge_rule_template_group awscc_medialive_event_bridge_rule_template_group} Data Source.
 func NewDataAwsccMedialiveEventBridgeRuleTemplateGroup(scope constructs.Construct, id *string, config *DataAwsccMedialiveEventBridgeRuleTemplateGroupConfig) DataAwsccMedialiveEventBridgeRuleTemplateGroup {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccMedialiveEventBridgeRuleTemplateGroup(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/medialive_event_bridge_rule_template_group awscc_medialive_event_bridge_rule_template_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/medialive_event_bridge_rule_template_group awscc_medialive_event_bridge_rule_template_group} Data Source.
 func NewDataAwsccMedialiveEventBridgeRuleTemplateGroup_Override(d DataAwsccMedialiveEventBridgeRuleTemplateGroup, scope constructs.Construct, id *string, config *DataAwsccMedialiveEventBridgeRuleTemplateGroupConfig) {
 	_init_.Initialize()
 

@@ -1521,10 +1521,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAutoSoftwareUpdateEnabled", GoMethod: "ResetAutoSoftwareUpdateEnabled"},
+			_jsii_.MemberMethod{JsiiMethod: "resetUseLatestServiceSoftwareForBlueGreen", GoMethod: "ResetUseLatestServiceSoftwareForBlueGreen"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "useLatestServiceSoftwareForBlueGreen", GoGetter: "UseLatestServiceSoftwareForBlueGreen"},
+			_jsii_.MemberProperty{JsiiProperty: "useLatestServiceSoftwareForBlueGreenInput", GoGetter: "UseLatestServiceSoftwareForBlueGreenInput"},
 		},
 		func() interface{} {
 			j := jsiiProxy_OpensearchserviceDomainSoftwareUpdateOptionsOutputReference{}

@@ -7,7 +7,7 @@ package iotsitewisegateway
 type IotsitewiseGatewayGatewayPlatformSiemensIe struct {
 	// The name of the IoT Core Thing.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iotsitewise_gateway#iot_core_thing_name IotsitewiseGateway#iot_core_thing_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotsitewise_gateway#iot_core_thing_name IotsitewiseGateway#iot_core_thing_name}
 	IotCoreThingName *string `field:"optional" json:"iotCoreThingName" yaml:"iotCoreThingName"`
 }
 

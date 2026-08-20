@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association}.
 type DirectconnectDirectConnectGatewayAssociation interface {
 	cdktn.TerraformResource
 	AcceptDirectConnectGatewayAssociationProposalRoleArn() *string
@@ -460,7 +460,7 @@ func (j *jsiiProxy_DirectconnectDirectConnectGatewayAssociation) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association} Resource.
 func NewDirectconnectDirectConnectGatewayAssociation(scope constructs.Construct, id *string, config *DirectconnectDirectConnectGatewayAssociationConfig) DirectconnectDirectConnectGatewayAssociation {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewDirectconnectDirectConnectGatewayAssociation(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association} Resource.
 func NewDirectconnectDirectConnectGatewayAssociation_Override(d DirectconnectDirectConnectGatewayAssociation, scope constructs.Construct, id *string, config *DirectconnectDirectConnectGatewayAssociationConfig) {
 	_init_.Initialize()
 

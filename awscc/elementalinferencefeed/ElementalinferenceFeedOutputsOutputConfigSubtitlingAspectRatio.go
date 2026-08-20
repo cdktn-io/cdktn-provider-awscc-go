@@ -5,9 +5,9 @@ package elementalinferencefeed
 
 
 type ElementalinferenceFeedOutputsOutputConfigSubtitlingAspectRatio struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_feed#height ElementalinferenceFeed#height}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elementalinference_feed#height ElementalinferenceFeed#height}.
 	Height *float64 `field:"optional" json:"height" yaml:"height"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elementalinference_feed#width ElementalinferenceFeed#width}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elementalinference_feed#width ElementalinferenceFeed#width}.
 	Width *float64 `field:"optional" json:"width" yaml:"width"`
 }
 

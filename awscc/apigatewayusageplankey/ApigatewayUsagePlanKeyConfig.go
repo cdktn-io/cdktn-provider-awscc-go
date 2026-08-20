@@ -24,13 +24,13 @@ type ApigatewayUsagePlanKeyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The Id of the UsagePlanKey resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_usage_plan_key#key_id ApigatewayUsagePlanKey#key_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_usage_plan_key#key_id ApigatewayUsagePlanKey#key_id}
 	KeyId *string `field:"required" json:"keyId" yaml:"keyId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_usage_plan_key#key_type ApigatewayUsagePlanKey#key_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_usage_plan_key#key_type ApigatewayUsagePlanKey#key_type}.
 	KeyType *string `field:"required" json:"keyType" yaml:"keyType"`
 	// The Id of the UsagePlan resource representing the usage plan containing the UsagePlanKey resource representing a plan customer.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_usage_plan_key#usage_plan_id ApigatewayUsagePlanKey#usage_plan_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_usage_plan_key#usage_plan_id ApigatewayUsagePlanKey#usage_plan_id}
 	UsagePlanId *string `field:"required" json:"usagePlanId" yaml:"usagePlanId"`
 }
 

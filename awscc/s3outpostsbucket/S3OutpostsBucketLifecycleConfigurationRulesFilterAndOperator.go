@@ -7,11 +7,11 @@ package s3outpostsbucket
 type S3OutpostsBucketLifecycleConfigurationRulesFilterAndOperator struct {
 	// Prefix identifies one or more objects to which the rule applies.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#prefix S3OutpostsBucket#prefix}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#prefix S3OutpostsBucket#prefix}
 	Prefix *string `field:"optional" json:"prefix" yaml:"prefix"`
 	// All of these tags must exist in the object's tag set in order for the rule to apply.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/s3outposts_bucket#tags S3OutpostsBucket#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3outposts_bucket#tags S3OutpostsBucket#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

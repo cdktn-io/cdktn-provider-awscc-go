@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/pipes_pipe awscc_pipes_pipe}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/pipes_pipe awscc_pipes_pipe}.
 type DataAwsccPipesPipe interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_DataAwsccPipesPipe) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/pipes_pipe awscc_pipes_pipe} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/pipes_pipe awscc_pipes_pipe} Data Source.
 func NewDataAwsccPipesPipe(scope constructs.Construct, id *string, config *DataAwsccPipesPipeConfig) DataAwsccPipesPipe {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewDataAwsccPipesPipe(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/pipes_pipe awscc_pipes_pipe} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/pipes_pipe awscc_pipes_pipe} Data Source.
 func NewDataAwsccPipesPipe_Override(d DataAwsccPipesPipe, scope constructs.Construct, id *string, config *DataAwsccPipesPipeConfig) {
 	_init_.Initialize()
 

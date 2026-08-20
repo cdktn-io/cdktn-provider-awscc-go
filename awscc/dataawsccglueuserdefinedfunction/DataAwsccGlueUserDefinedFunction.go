@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/glue_user_defined_function awscc_glue_user_defined_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_user_defined_function awscc_glue_user_defined_function}.
 type DataAwsccGlueUserDefinedFunction interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccGlueUserDefinedFunction) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/glue_user_defined_function awscc_glue_user_defined_function} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_user_defined_function awscc_glue_user_defined_function} Data Source.
 func NewDataAwsccGlueUserDefinedFunction(scope constructs.Construct, id *string, config *DataAwsccGlueUserDefinedFunctionConfig) DataAwsccGlueUserDefinedFunction {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccGlueUserDefinedFunction(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/glue_user_defined_function awscc_glue_user_defined_function} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_user_defined_function awscc_glue_user_defined_function} Data Source.
 func NewDataAwsccGlueUserDefinedFunction_Override(d DataAwsccGlueUserDefinedFunction, scope constructs.Construct, id *string, config *DataAwsccGlueUserDefinedFunctionConfig) {
 	_init_.Initialize()
 

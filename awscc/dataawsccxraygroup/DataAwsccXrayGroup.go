@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/xray_group awscc_xray_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/xray_group awscc_xray_group}.
 type DataAwsccXrayGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccXrayGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/xray_group awscc_xray_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/xray_group awscc_xray_group} Data Source.
 func NewDataAwsccXrayGroup(scope constructs.Construct, id *string, config *DataAwsccXrayGroupConfig) DataAwsccXrayGroup {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccXrayGroup(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/xray_group awscc_xray_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/xray_group awscc_xray_group} Data Source.
 func NewDataAwsccXrayGroup_Override(d DataAwsccXrayGroup, scope constructs.Construct, id *string, config *DataAwsccXrayGroupConfig) {
 	_init_.Initialize()
 

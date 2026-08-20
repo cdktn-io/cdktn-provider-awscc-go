@@ -24,11 +24,11 @@ type Route53CidrCollectionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A unique name for the CIDR collection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53_cidr_collection#name Route53CidrCollection#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_cidr_collection#name Route53CidrCollection#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// A complex type that contains information about the list of CIDR locations.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/route53_cidr_collection#locations Route53CidrCollection#locations}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_cidr_collection#locations Route53CidrCollection#locations}
 	Locations interface{} `field:"optional" json:"locations" yaml:"locations"`
 }
 

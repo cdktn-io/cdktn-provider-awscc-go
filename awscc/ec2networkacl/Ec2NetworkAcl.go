@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_acl awscc_ec2_network_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_acl awscc_ec2_network_acl}.
 type Ec2NetworkAcl interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_Ec2NetworkAcl) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_acl awscc_ec2_network_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_acl awscc_ec2_network_acl} Resource.
 func NewEc2NetworkAcl(scope constructs.Construct, id *string, config *Ec2NetworkAclConfig) Ec2NetworkAcl {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewEc2NetworkAcl(scope constructs.Construct, id *string, config *Ec2Network
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_network_acl awscc_ec2_network_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_network_acl awscc_ec2_network_acl} Resource.
 func NewEc2NetworkAcl_Override(e Ec2NetworkAcl, scope constructs.Construct, id *string, config *Ec2NetworkAclConfig) {
 	_init_.Initialize()
 

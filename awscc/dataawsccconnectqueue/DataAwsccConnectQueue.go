@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_queue awscc_connect_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/connect_queue awscc_connect_queue}.
 type DataAwsccConnectQueue interface {
 	cdktn.TerraformDataSource
 	AdditionalEmailAddresses() DataAwsccConnectQueueAdditionalEmailAddressesList
@@ -42,6 +42,8 @@ type DataAwsccConnectQueue interface {
 	SetId(val *string)
 	IdInput() *string
 	InstanceArn() *string
+	LastModifiedRegion() *string
+	LastModifiedTime() *float64
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -268,6 +270,26 @@ func (j *jsiiProxy_DataAwsccConnectQueue) InstanceArn() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccConnectQueue) LastModifiedRegion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"lastModifiedRegion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccConnectQueue) LastModifiedTime() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"lastModifiedTime",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccConnectQueue) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -429,7 +451,7 @@ func (j *jsiiProxy_DataAwsccConnectQueue) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_queue awscc_connect_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/connect_queue awscc_connect_queue} Data Source.
 func NewDataAwsccConnectQueue(scope constructs.Construct, id *string, config *DataAwsccConnectQueueConfig) DataAwsccConnectQueue {
 	_init_.Initialize()
 
@@ -447,7 +469,7 @@ func NewDataAwsccConnectQueue(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/connect_queue awscc_connect_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/connect_queue awscc_connect_queue} Data Source.
 func NewDataAwsccConnectQueue_Override(d DataAwsccConnectQueue, scope constructs.Construct, id *string, config *DataAwsccConnectQueueConfig) {
 	_init_.Initialize()
 

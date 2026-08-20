@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kinesis_stream_consumer awscc_kinesis_stream_consumer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kinesis_stream_consumer awscc_kinesis_stream_consumer}.
 type KinesisStreamConsumer interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -458,7 +458,7 @@ func (j *jsiiProxy_KinesisStreamConsumer) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kinesis_stream_consumer awscc_kinesis_stream_consumer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kinesis_stream_consumer awscc_kinesis_stream_consumer} Resource.
 func NewKinesisStreamConsumer(scope constructs.Construct, id *string, config *KinesisStreamConsumerConfig) KinesisStreamConsumer {
 	_init_.Initialize()
 
@@ -476,7 +476,7 @@ func NewKinesisStreamConsumer(scope constructs.Construct, id *string, config *Ki
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kinesis_stream_consumer awscc_kinesis_stream_consumer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kinesis_stream_consumer awscc_kinesis_stream_consumer} Resource.
 func NewKinesisStreamConsumer_Override(k KinesisStreamConsumer, scope constructs.Construct, id *string, config *KinesisStreamConsumerConfig) {
 	_init_.Initialize()
 

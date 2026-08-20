@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_security_group_egresses awscc_ec2_security_group_egresses}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_security_group_egresses awscc_ec2_security_group_egresses}.
 type DataAwsccEc2SecurityGroupEgresses interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2SecurityGroupEgresses) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_security_group_egresses awscc_ec2_security_group_egresses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_security_group_egresses awscc_ec2_security_group_egresses} Data Source.
 func NewDataAwsccEc2SecurityGroupEgresses(scope constructs.Construct, id *string, config *DataAwsccEc2SecurityGroupEgressesConfig) DataAwsccEc2SecurityGroupEgresses {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2SecurityGroupEgresses(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_security_group_egresses awscc_ec2_security_group_egresses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_security_group_egresses awscc_ec2_security_group_egresses} Data Source.
 func NewDataAwsccEc2SecurityGroupEgresses_Override(d DataAwsccEc2SecurityGroupEgresses, scope constructs.Construct, id *string, config *DataAwsccEc2SecurityGroupEgressesConfig) {
 	_init_.Initialize()
 

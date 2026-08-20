@@ -5,7 +5,7 @@ package datazonepolicygrant
 
 
 type DatazonePolicyGrantDetailCreateEnvironmentProfile struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datazone_policy_grant#domain_unit_id DatazonePolicyGrant#domain_unit_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_policy_grant#domain_unit_id DatazonePolicyGrant#domain_unit_id}.
 	DomainUnitId *string `field:"optional" json:"domainUnitId" yaml:"domainUnitId"`
 }
 

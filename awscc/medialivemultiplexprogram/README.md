@@ -1,3 +1,3 @@
 # `awscc_medialive_multiplexprogram`
 
-Refer to the Terraform Registry for docs: [`awscc_medialive_multiplexprogram`](https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/medialive_multiplexprogram).
+Refer to the Terraform Registry for docs: [`awscc_medialive_multiplexprogram`](https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_multiplexprogram).

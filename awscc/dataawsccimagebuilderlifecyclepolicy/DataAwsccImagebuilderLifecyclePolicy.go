@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/imagebuilder_lifecycle_policy awscc_imagebuilder_lifecycle_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/imagebuilder_lifecycle_policy awscc_imagebuilder_lifecycle_policy}.
 type DataAwsccImagebuilderLifecyclePolicy interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccImagebuilderLifecyclePolicy) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/imagebuilder_lifecycle_policy awscc_imagebuilder_lifecycle_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/imagebuilder_lifecycle_policy awscc_imagebuilder_lifecycle_policy} Data Source.
 func NewDataAwsccImagebuilderLifecyclePolicy(scope constructs.Construct, id *string, config *DataAwsccImagebuilderLifecyclePolicyConfig) DataAwsccImagebuilderLifecyclePolicy {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccImagebuilderLifecyclePolicy(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/imagebuilder_lifecycle_policy awscc_imagebuilder_lifecycle_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/imagebuilder_lifecycle_policy awscc_imagebuilder_lifecycle_policy} Data Source.
 func NewDataAwsccImagebuilderLifecyclePolicy_Override(d DataAwsccImagebuilderLifecyclePolicy, scope constructs.Construct, id *string, config *DataAwsccImagebuilderLifecyclePolicyConfig) {
 	_init_.Initialize()
 

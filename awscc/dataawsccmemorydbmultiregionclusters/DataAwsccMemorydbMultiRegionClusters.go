@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/memorydb_multi_region_clusters awscc_memorydb_multi_region_clusters}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/memorydb_multi_region_clusters awscc_memorydb_multi_region_clusters}.
 type DataAwsccMemorydbMultiRegionClusters interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMemorydbMultiRegionClusters) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/memorydb_multi_region_clusters awscc_memorydb_multi_region_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/memorydb_multi_region_clusters awscc_memorydb_multi_region_clusters} Data Source.
 func NewDataAwsccMemorydbMultiRegionClusters(scope constructs.Construct, id *string, config *DataAwsccMemorydbMultiRegionClustersConfig) DataAwsccMemorydbMultiRegionClusters {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMemorydbMultiRegionClusters(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/memorydb_multi_region_clusters awscc_memorydb_multi_region_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/memorydb_multi_region_clusters awscc_memorydb_multi_region_clusters} Data Source.
 func NewDataAwsccMemorydbMultiRegionClusters_Override(d DataAwsccMemorydbMultiRegionClusters, scope constructs.Construct, id *string, config *DataAwsccMemorydbMultiRegionClustersConfig) {
 	_init_.Initialize()
 

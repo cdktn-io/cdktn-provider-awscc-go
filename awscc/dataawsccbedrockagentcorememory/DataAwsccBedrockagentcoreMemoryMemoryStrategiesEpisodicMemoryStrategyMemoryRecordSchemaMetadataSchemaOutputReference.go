@@ -29,6 +29,7 @@ type DataAwsccBedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemory
 	// Experimental.
 	CreationStack() *[]*string
 	ExtractionConfig() DataAwsccBedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigOutputReference
+	ExtractionType() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAwsccBedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryRecordSchemaMetadataSchema
@@ -117,6 +118,16 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesEpisodicMemory
 	_jsii_.Get(
 		j,
 		"extractionConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyMemoryRecordSchemaMetadataSchemaOutputReference) ExtractionType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"extractionType",
 		&returns,
 	)
 	return returns

@@ -5,7 +5,7 @@ package comprehendflywheel
 
 
 type ComprehendFlywheelTaskConfigEntityRecognitionConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/comprehend_flywheel#entity_types ComprehendFlywheel#entity_types}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/comprehend_flywheel#entity_types ComprehendFlywheel#entity_types}.
 	EntityTypes interface{} `field:"optional" json:"entityTypes" yaml:"entityTypes"`
 }
 

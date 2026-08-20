@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/backup_framework awscc_backup_framework}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/backup_framework awscc_backup_framework}.
 type DataAwsccBackupFramework interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccBackupFramework) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/backup_framework awscc_backup_framework} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/backup_framework awscc_backup_framework} Data Source.
 func NewDataAwsccBackupFramework(scope constructs.Construct, id *string, config *DataAwsccBackupFrameworkConfig) DataAwsccBackupFramework {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccBackupFramework(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/backup_framework awscc_backup_framework} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/backup_framework awscc_backup_framework} Data Source.
 func NewDataAwsccBackupFramework_Override(d DataAwsccBackupFramework, scope constructs.Construct, id *string, config *DataAwsccBackupFrameworkConfig) {
 	_init_.Initialize()
 

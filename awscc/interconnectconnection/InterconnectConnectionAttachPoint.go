@@ -7,11 +7,11 @@ package interconnectconnection
 type InterconnectConnectionAttachPoint struct {
 	// The ARN of the resource to attach to.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/interconnect_connection#arn InterconnectConnection#arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/interconnect_connection#arn InterconnectConnection#arn}
 	Arn *string `field:"optional" json:"arn" yaml:"arn"`
 	// The ID of the Direct Connect Gateway to attach to.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/interconnect_connection#direct_connect_gateway InterconnectConnection#direct_connect_gateway}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/interconnect_connection#direct_connect_gateway InterconnectConnection#direct_connect_gateway}
 	DirectConnectGateway *string `field:"optional" json:"directConnectGateway" yaml:"directConnectGateway"`
 }
 

@@ -5,7 +5,7 @@ package bedrockagentcoregateway
 
 
 type BedrockagentcoreGatewayInterceptorConfigurationsInterceptorLambda struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_gateway#arn BedrockagentcoreGateway#arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_gateway#arn BedrockagentcoreGateway#arn}.
 	Arn *string `field:"optional" json:"arn" yaml:"arn"`
 }
 

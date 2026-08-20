@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_transit_gateway_connect_peer awscc_ec2_transit_gateway_connect_peer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_transit_gateway_connect_peer awscc_ec2_transit_gateway_connect_peer}.
 type DataAwsccEc2TransitGatewayConnectPeer interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccEc2TransitGatewayConnectPeer) TransitGatewayConnectP
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_transit_gateway_connect_peer awscc_ec2_transit_gateway_connect_peer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_transit_gateway_connect_peer awscc_ec2_transit_gateway_connect_peer} Data Source.
 func NewDataAwsccEc2TransitGatewayConnectPeer(scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayConnectPeerConfig) DataAwsccEc2TransitGatewayConnectPeer {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccEc2TransitGatewayConnectPeer(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ec2_transit_gateway_connect_peer awscc_ec2_transit_gateway_connect_peer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_transit_gateway_connect_peer awscc_ec2_transit_gateway_connect_peer} Data Source.
 func NewDataAwsccEc2TransitGatewayConnectPeer_Override(d DataAwsccEc2TransitGatewayConnectPeer, scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayConnectPeerConfig) {
 	_init_.Initialize()
 

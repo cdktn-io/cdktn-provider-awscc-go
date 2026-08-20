@@ -5,7 +5,7 @@ package networkfirewallfirewallpolicy
 
 
 type NetworkfirewallFirewallPolicyFirewallPolicyStatefulRuleGroupReferencesOverride struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkfirewall_firewall_policy#action NetworkfirewallFirewallPolicy#action}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkfirewall_firewall_policy#action NetworkfirewallFirewallPolicy#action}.
 	Action *string `field:"optional" json:"action" yaml:"action"`
 }
 

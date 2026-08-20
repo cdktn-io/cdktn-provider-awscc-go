@@ -9,15 +9,15 @@ type IotJobTemplateJobExecutionsRolloutConfigExponentialRolloutRate struct {
 	//
 	// This parameter allows you to define the initial rate of rollout.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job_template#base_rate_per_minute IotJobTemplate#base_rate_per_minute}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#base_rate_per_minute IotJobTemplate#base_rate_per_minute}
 	BaseRatePerMinute *float64 `field:"optional" json:"baseRatePerMinute" yaml:"baseRatePerMinute"`
 	// The exponential factor to increase the rate of rollout for a job.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job_template#increment_factor IotJobTemplate#increment_factor}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#increment_factor IotJobTemplate#increment_factor}
 	IncrementFactor *float64 `field:"optional" json:"incrementFactor" yaml:"incrementFactor"`
 	// The criteria to initiate the increase in rate of rollout for a job.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iot_job_template#rate_increase_criteria IotJobTemplate#rate_increase_criteria}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_job_template#rate_increase_criteria IotJobTemplate#rate_increase_criteria}
 	RateIncreaseCriteria *IotJobTemplateJobExecutionsRolloutConfigExponentialRolloutRateRateIncreaseCriteria `field:"optional" json:"rateIncreaseCriteria" yaml:"rateIncreaseCriteria"`
 }
 

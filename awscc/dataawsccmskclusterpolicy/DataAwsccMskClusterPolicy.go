@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/msk_cluster_policy awscc_msk_cluster_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/msk_cluster_policy awscc_msk_cluster_policy}.
 type DataAwsccMskClusterPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccMskClusterPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/msk_cluster_policy awscc_msk_cluster_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/msk_cluster_policy awscc_msk_cluster_policy} Data Source.
 func NewDataAwsccMskClusterPolicy(scope constructs.Construct, id *string, config *DataAwsccMskClusterPolicyConfig) DataAwsccMskClusterPolicy {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccMskClusterPolicy(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/msk_cluster_policy awscc_msk_cluster_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/msk_cluster_policy awscc_msk_cluster_policy} Data Source.
 func NewDataAwsccMskClusterPolicy_Override(d DataAwsccMskClusterPolicy, scope constructs.Construct, id *string, config *DataAwsccMskClusterPolicyConfig) {
 	_init_.Initialize()
 

@@ -5,7 +5,7 @@ package bedrockagentcorepaymentmanager
 
 
 type BedrockagentcorePaymentManagerAuthorizerConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_payment_manager#custom_jwt_authorizer BedrockagentcorePaymentManager#custom_jwt_authorizer}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_payment_manager#custom_jwt_authorizer BedrockagentcorePaymentManager#custom_jwt_authorizer}.
 	CustomJwtAuthorizer *BedrockagentcorePaymentManagerAuthorizerConfigurationCustomJwtAuthorizer `field:"optional" json:"customJwtAuthorizer" yaml:"customJwtAuthorizer"`
 }
 

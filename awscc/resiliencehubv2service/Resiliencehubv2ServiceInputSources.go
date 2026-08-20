@@ -7,7 +7,7 @@ package resiliencehubv2service
 type Resiliencehubv2ServiceInputSources struct {
 	// Resource configuration for an input source. Provide exactly one field.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#resource_configuration Resiliencehubv2Service#resource_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#resource_configuration Resiliencehubv2Service#resource_configuration}
 	ResourceConfiguration *Resiliencehubv2ServiceInputSourcesResourceConfiguration `field:"optional" json:"resourceConfiguration" yaml:"resourceConfiguration"`
 }
 

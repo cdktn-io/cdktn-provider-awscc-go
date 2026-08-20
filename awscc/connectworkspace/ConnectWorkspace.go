@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace awscc_connect_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_workspace awscc_connect_workspace}.
 type ConnectWorkspace interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -615,7 +615,7 @@ func (j *jsiiProxy_ConnectWorkspace) WorkspaceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace awscc_connect_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_workspace awscc_connect_workspace} Resource.
 func NewConnectWorkspace(scope constructs.Construct, id *string, config *ConnectWorkspaceConfig) ConnectWorkspace {
 	_init_.Initialize()
 
@@ -633,7 +633,7 @@ func NewConnectWorkspace(scope constructs.Construct, id *string, config *Connect
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace awscc_connect_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_workspace awscc_connect_workspace} Resource.
 func NewConnectWorkspace_Override(c ConnectWorkspace, scope constructs.Construct, id *string, config *ConnectWorkspaceConfig) {
 	_init_.Initialize()
 

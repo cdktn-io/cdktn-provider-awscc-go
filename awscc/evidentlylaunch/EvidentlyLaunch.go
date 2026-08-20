@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/evidently_launch awscc_evidently_launch}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_launch awscc_evidently_launch}.
 type EvidentlyLaunch interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -578,7 +578,7 @@ func (j *jsiiProxy_EvidentlyLaunch) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/evidently_launch awscc_evidently_launch} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_launch awscc_evidently_launch} Resource.
 func NewEvidentlyLaunch(scope constructs.Construct, id *string, config *EvidentlyLaunchConfig) EvidentlyLaunch {
 	_init_.Initialize()
 
@@ -596,7 +596,7 @@ func NewEvidentlyLaunch(scope constructs.Construct, id *string, config *Evidentl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/evidently_launch awscc_evidently_launch} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/evidently_launch awscc_evidently_launch} Resource.
 func NewEvidentlyLaunch_Override(e EvidentlyLaunch, scope constructs.Construct, id *string, config *EvidentlyLaunchConfig) {
 	_init_.Initialize()
 

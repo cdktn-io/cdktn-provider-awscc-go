@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalog_cloudformation_products awscc_servicecatalog_cloudformation_products}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalog_cloudformation_products awscc_servicecatalog_cloudformation_products}.
 type DataAwsccServicecatalogCloudformationProducts interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccServicecatalogCloudformationProducts) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalog_cloudformation_products awscc_servicecatalog_cloudformation_products} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalog_cloudformation_products awscc_servicecatalog_cloudformation_products} Data Source.
 func NewDataAwsccServicecatalogCloudformationProducts(scope constructs.Construct, id *string, config *DataAwsccServicecatalogCloudformationProductsConfig) DataAwsccServicecatalogCloudformationProducts {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccServicecatalogCloudformationProducts(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalog_cloudformation_products awscc_servicecatalog_cloudformation_products} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalog_cloudformation_products awscc_servicecatalog_cloudformation_products} Data Source.
 func NewDataAwsccServicecatalogCloudformationProducts_Override(d DataAwsccServicecatalogCloudformationProducts, scope constructs.Construct, id *string, config *DataAwsccServicecatalogCloudformationProductsConfig) {
 	_init_.Initialize()
 

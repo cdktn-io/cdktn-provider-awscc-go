@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_schema_version_metadata awscc_glue_schema_version_metadata}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema_version_metadata awscc_glue_schema_version_metadata}.
 type GlueSchemaVersionMetadata interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_GlueSchemaVersionMetadata) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_schema_version_metadata awscc_glue_schema_version_metadata} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema_version_metadata awscc_glue_schema_version_metadata} Resource.
 func NewGlueSchemaVersionMetadata(scope constructs.Construct, id *string, config *GlueSchemaVersionMetadataConfig) GlueSchemaVersionMetadata {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewGlueSchemaVersionMetadata(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_schema_version_metadata awscc_glue_schema_version_metadata} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema_version_metadata awscc_glue_schema_version_metadata} Resource.
 func NewGlueSchemaVersionMetadata_Override(g GlueSchemaVersionMetadata, scope constructs.Construct, id *string, config *GlueSchemaVersionMetadataConfig) {
 	_init_.Initialize()
 

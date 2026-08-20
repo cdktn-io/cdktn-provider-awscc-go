@@ -5,9 +5,9 @@ package databrewjob
 
 
 type DatabrewJobProfileConfigurationColumnStatisticsConfigurationsStatistics struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/databrew_job#included_statistics DatabrewJob#included_statistics}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_job#included_statistics DatabrewJob#included_statistics}.
 	IncludedStatistics *[]*string `field:"optional" json:"includedStatistics" yaml:"includedStatistics"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/databrew_job#overrides DatabrewJob#overrides}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_job#overrides DatabrewJob#overrides}.
 	Overrides interface{} `field:"optional" json:"overrides" yaml:"overrides"`
 }
 

@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccconnectmetric
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringConditionOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringConditionOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringConditionOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringConditionOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringConditionOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringConditionOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringConditionOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringConditionOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringConditionOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringConditionOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringConditionOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringConditionOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringConditionOutputReference) validateSetInternalValueParameters(val *DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringCondition) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringConditionOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

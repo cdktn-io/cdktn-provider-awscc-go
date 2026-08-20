@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rolesanywhere_crls awscc_rolesanywhere_crls}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rolesanywhere_crls awscc_rolesanywhere_crls}.
 type DataAwsccRolesanywhereCrls interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRolesanywhereCrls) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rolesanywhere_crls awscc_rolesanywhere_crls} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rolesanywhere_crls awscc_rolesanywhere_crls} Data Source.
 func NewDataAwsccRolesanywhereCrls(scope constructs.Construct, id *string, config *DataAwsccRolesanywhereCrlsConfig) DataAwsccRolesanywhereCrls {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRolesanywhereCrls(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rolesanywhere_crls awscc_rolesanywhere_crls} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rolesanywhere_crls awscc_rolesanywhere_crls} Data Source.
 func NewDataAwsccRolesanywhereCrls_Override(d DataAwsccRolesanywhereCrls, scope constructs.Construct, id *string, config *DataAwsccRolesanywhereCrlsConfig) {
 	_init_.Initialize()
 

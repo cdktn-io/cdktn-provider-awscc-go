@@ -7,7 +7,7 @@ package resiliencehubv2service
 type Resiliencehubv2ServiceReportConfiguration struct {
 	// Output destinations for generated reports.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/resiliencehubv2_service#report_output Resiliencehubv2Service#report_output}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_service#report_output Resiliencehubv2Service#report_output}
 	ReportOutput interface{} `field:"optional" json:"reportOutput" yaml:"reportOutput"`
 }
 

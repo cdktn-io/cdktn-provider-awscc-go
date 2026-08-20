@@ -34,6 +34,8 @@ type DynamodbGlobalTableReplicasReplicaStreamSpecificationOutputReference interf
 	SetInternalValue(val interface{})
 	ResourcePolicy() DynamodbGlobalTableReplicasReplicaStreamSpecificationResourcePolicyOutputReference
 	ResourcePolicyInput() interface{}
+	Tags() DynamodbGlobalTableReplicasReplicaStreamSpecificationTagsList
+	TagsInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,7 +69,9 @@ type DynamodbGlobalTableReplicasReplicaStreamSpecificationOutputReference interf
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutResourcePolicy(value *DynamodbGlobalTableReplicasReplicaStreamSpecificationResourcePolicy)
+	PutTags(value interface{})
 	ResetResourcePolicy()
+	ResetTags()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -148,6 +152,26 @@ func (j *jsiiProxy_DynamodbGlobalTableReplicasReplicaStreamSpecificationOutputRe
 	_jsii_.Get(
 		j,
 		"resourcePolicyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DynamodbGlobalTableReplicasReplicaStreamSpecificationOutputReference) Tags() DynamodbGlobalTableReplicasReplicaStreamSpecificationTagsList {
+	var returns DynamodbGlobalTableReplicasReplicaStreamSpecificationTagsList
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DynamodbGlobalTableReplicasReplicaStreamSpecificationOutputReference) TagsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"tagsInput",
 		&returns,
 	)
 	return returns
@@ -453,10 +477,29 @@ func (d *jsiiProxy_DynamodbGlobalTableReplicasReplicaStreamSpecificationOutputRe
 	)
 }
 
+func (d *jsiiProxy_DynamodbGlobalTableReplicasReplicaStreamSpecificationOutputReference) PutTags(value interface{}) {
+	if err := d.validatePutTagsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putTags",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DynamodbGlobalTableReplicasReplicaStreamSpecificationOutputReference) ResetResourcePolicy() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetResourcePolicy",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DynamodbGlobalTableReplicasReplicaStreamSpecificationOutputReference) ResetTags() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetTags",
 		nil, // no parameters
 	)
 }

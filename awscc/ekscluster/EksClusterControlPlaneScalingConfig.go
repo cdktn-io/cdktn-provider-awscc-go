@@ -7,7 +7,7 @@ package ekscluster
 type EksClusterControlPlaneScalingConfig struct {
 	// The scaling tier for the provisioned control plane.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/eks_cluster#tier EksCluster#tier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_cluster#tier EksCluster#tier}
 	Tier *string `field:"optional" json:"tier" yaml:"tier"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3files_file_system_policies awscc_s3files_file_system_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3files_file_system_policies awscc_s3files_file_system_policies}.
 type DataAwsccS3FilesFileSystemPolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccS3FilesFileSystemPolicies) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3files_file_system_policies awscc_s3files_file_system_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3files_file_system_policies awscc_s3files_file_system_policies} Data Source.
 func NewDataAwsccS3FilesFileSystemPolicies(scope constructs.Construct, id *string, config *DataAwsccS3FilesFileSystemPoliciesConfig) DataAwsccS3FilesFileSystemPolicies {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccS3FilesFileSystemPolicies(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3files_file_system_policies awscc_s3files_file_system_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3files_file_system_policies awscc_s3files_file_system_policies} Data Source.
 func NewDataAwsccS3FilesFileSystemPolicies_Override(d DataAwsccS3FilesFileSystemPolicies, scope constructs.Construct, id *string, config *DataAwsccS3FilesFileSystemPoliciesConfig) {
 	_init_.Initialize()
 

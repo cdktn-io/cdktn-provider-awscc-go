@@ -7,11 +7,11 @@ package wisdomaiguardrail
 type WisdomAiGuardrailContextualGroundingPolicyConfigFiltersConfig struct {
 	// The threshold for this filter.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_ai_guardrail#threshold WisdomAiGuardrail#threshold}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wisdom_ai_guardrail#threshold WisdomAiGuardrail#threshold}
 	Threshold *float64 `field:"optional" json:"threshold" yaml:"threshold"`
 	// Type of contextual grounding filter.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/wisdom_ai_guardrail#type WisdomAiGuardrail#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wisdom_ai_guardrail#type WisdomAiGuardrail#type}
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

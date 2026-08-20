@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ssmquicksetup_lifecycle_automation awscc_ssmquicksetup_lifecycle_automation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ssmquicksetup_lifecycle_automation awscc_ssmquicksetup_lifecycle_automation}.
 type DataAwsccSsmquicksetupLifecycleAutomation interface {
 	cdktn.TerraformDataSource
 	AssociationId() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccSsmquicksetupLifecycleAutomation) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ssmquicksetup_lifecycle_automation awscc_ssmquicksetup_lifecycle_automation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ssmquicksetup_lifecycle_automation awscc_ssmquicksetup_lifecycle_automation} Data Source.
 func NewDataAwsccSsmquicksetupLifecycleAutomation(scope constructs.Construct, id *string, config *DataAwsccSsmquicksetupLifecycleAutomationConfig) DataAwsccSsmquicksetupLifecycleAutomation {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccSsmquicksetupLifecycleAutomation(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/ssmquicksetup_lifecycle_automation awscc_ssmquicksetup_lifecycle_automation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ssmquicksetup_lifecycle_automation awscc_ssmquicksetup_lifecycle_automation} Data Source.
 func NewDataAwsccSsmquicksetupLifecycleAutomation_Override(d DataAwsccSsmquicksetupLifecycleAutomation, scope constructs.Construct, id *string, config *DataAwsccSsmquicksetupLifecycleAutomationConfig) {
 	_init_.Initialize()
 

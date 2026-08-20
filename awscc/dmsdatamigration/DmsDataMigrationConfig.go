@@ -24,35 +24,35 @@ type DmsDataMigrationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The property describes the type of migration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dms_data_migration#data_migration_type DmsDataMigration#data_migration_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dms_data_migration#data_migration_type DmsDataMigration#data_migration_type}
 	DataMigrationType *string `field:"required" json:"dataMigrationType" yaml:"dataMigrationType"`
 	// The property describes an identifier for the migration project. It is used for describing/deleting/modifying can be name/arn.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dms_data_migration#migration_project_identifier DmsDataMigration#migration_project_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dms_data_migration#migration_project_identifier DmsDataMigration#migration_project_identifier}
 	MigrationProjectIdentifier *string `field:"required" json:"migrationProjectIdentifier" yaml:"migrationProjectIdentifier"`
 	// The property describes Amazon Resource Name (ARN) of the service access role.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dms_data_migration#service_access_role_arn DmsDataMigration#service_access_role_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dms_data_migration#service_access_role_arn DmsDataMigration#service_access_role_arn}
 	ServiceAccessRoleArn *string `field:"required" json:"serviceAccessRoleArn" yaml:"serviceAccessRoleArn"`
 	// The property describes an ARN of the data migration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dms_data_migration#data_migration_identifier DmsDataMigration#data_migration_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dms_data_migration#data_migration_identifier DmsDataMigration#data_migration_identifier}
 	DataMigrationIdentifier *string `field:"optional" json:"dataMigrationIdentifier" yaml:"dataMigrationIdentifier"`
 	// The property describes a name to identify the data migration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dms_data_migration#data_migration_name DmsDataMigration#data_migration_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dms_data_migration#data_migration_name DmsDataMigration#data_migration_name}
 	DataMigrationName *string `field:"optional" json:"dataMigrationName" yaml:"dataMigrationName"`
 	// The property describes the settings for the data migration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dms_data_migration#data_migration_settings DmsDataMigration#data_migration_settings}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dms_data_migration#data_migration_settings DmsDataMigration#data_migration_settings}
 	DataMigrationSettings *DmsDataMigrationDataMigrationSettings `field:"optional" json:"dataMigrationSettings" yaml:"dataMigrationSettings"`
 	// The property describes the settings for the data migration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dms_data_migration#source_data_settings DmsDataMigration#source_data_settings}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dms_data_migration#source_data_settings DmsDataMigration#source_data_settings}
 	SourceDataSettings interface{} `field:"optional" json:"sourceDataSettings" yaml:"sourceDataSettings"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/dms_data_migration#tags DmsDataMigration#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dms_data_migration#tags DmsDataMigration#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

@@ -9,7 +9,7 @@ type AccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfigurationInter
 	//
 	// Only resources that meet the rule criteria will generate findings.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/accessanalyzer_analyzer#inclusions AccessanalyzerAnalyzer#inclusions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accessanalyzer_analyzer#inclusions AccessanalyzerAnalyzer#inclusions}
 	Inclusions interface{} `field:"optional" json:"inclusions" yaml:"inclusions"`
 }
 

@@ -7,7 +7,7 @@ package bedrockintelligentpromptrouter
 type BedrockIntelligentPromptRouterModels struct {
 	// Arn of underlying model which are added in the Prompt Router.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_intelligent_prompt_router#model_arn BedrockIntelligentPromptRouter#model_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_intelligent_prompt_router#model_arn BedrockIntelligentPromptRouter#model_arn}
 	ModelArn *string `field:"required" json:"modelArn" yaml:"modelArn"`
 }
 

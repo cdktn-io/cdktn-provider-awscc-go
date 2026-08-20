@@ -42,6 +42,9 @@ type ObservabilityadminTelemetryRuleRuleDestinationConfigurationOutputReference 
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	KmsKeyArn() *string
+	SetKmsKeyArn(val *string)
+	KmsKeyArnInput() *string
 	LogDeliveryParameters() ObservabilityadminTelemetryRuleRuleDestinationConfigurationLogDeliveryParametersOutputReference
 	LogDeliveryParametersInput() interface{}
 	RetentionInDays() *float64
@@ -92,6 +95,7 @@ type ObservabilityadminTelemetryRuleRuleDestinationConfigurationOutputReference 
 	ResetDestinationPattern()
 	ResetDestinationType()
 	ResetElbLoadBalancerLoggingParameters()
+	ResetKmsKeyArn()
 	ResetLogDeliveryParameters()
 	ResetRetentionInDays()
 	ResetVpcFlowLogParameters()
@@ -236,6 +240,26 @@ func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleDestinationConfigurationOu
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleDestinationConfigurationOutputReference) KmsKeyArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleDestinationConfigurationOutputReference) KmsKeyArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyArnInput",
 		&returns,
 	)
 	return returns
@@ -420,6 +444,17 @@ func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleDestinationConfigurationOu
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ObservabilityadminTelemetryRuleRuleDestinationConfigurationOutputReference)SetKmsKeyArn(val *string) {
+	if err := j.validateSetKmsKeyArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"kmsKeyArn",
 		val,
 	)
 }
@@ -726,6 +761,14 @@ func (o *jsiiProxy_ObservabilityadminTelemetryRuleRuleDestinationConfigurationOu
 	_jsii_.InvokeVoid(
 		o,
 		"resetElbLoadBalancerLoggingParameters",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_ObservabilityadminTelemetryRuleRuleDestinationConfigurationOutputReference) ResetKmsKeyArn() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetKmsKeyArn",
 		nil, // no parameters
 	)
 }

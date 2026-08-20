@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/panorama_application_instances awscc_panorama_application_instances}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/panorama_application_instances awscc_panorama_application_instances}.
 type DataAwsccPanoramaApplicationInstances interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccPanoramaApplicationInstances) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/panorama_application_instances awscc_panorama_application_instances} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/panorama_application_instances awscc_panorama_application_instances} Data Source.
 func NewDataAwsccPanoramaApplicationInstances(scope constructs.Construct, id *string, config *DataAwsccPanoramaApplicationInstancesConfig) DataAwsccPanoramaApplicationInstances {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccPanoramaApplicationInstances(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/panorama_application_instances awscc_panorama_application_instances} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/panorama_application_instances awscc_panorama_application_instances} Data Source.
 func NewDataAwsccPanoramaApplicationInstances_Override(d DataAwsccPanoramaApplicationInstances, scope constructs.Construct, id *string, config *DataAwsccPanoramaApplicationInstancesConfig) {
 	_init_.Initialize()
 

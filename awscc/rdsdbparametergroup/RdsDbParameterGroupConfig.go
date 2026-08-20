@@ -24,7 +24,7 @@ type RdsDbParameterGroupConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Provides the customer-specified description for this DB parameter group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_parameter_group#description RdsDbParameterGroup#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_parameter_group#description RdsDbParameterGroup#description}
 	Description *string `field:"required" json:"description" yaml:"description"`
 	// The DB parameter group family name.
 	//
@@ -51,7 +51,7 @@ type RdsDbParameterGroupConfig struct {
 	//   +   ``sqlserver-ex``
 	//   +   ``sqlserver-web``
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_parameter_group#family RdsDbParameterGroup#family}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_parameter_group#family RdsDbParameterGroup#family}
 	Family *string `field:"required" json:"family" yaml:"family"`
 	// The name of the DB parameter group.
 	//
@@ -63,7 +63,7 @@ type RdsDbParameterGroupConfig struct {
 	//  If you don't specify a value for ``DBParameterGroupName`` property, a name is automatically created for the DB parameter group.
 	//   This value is stored as a lowercase string.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_parameter_group#db_parameter_group_name RdsDbParameterGroup#db_parameter_group_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_parameter_group#db_parameter_group_name RdsDbParameterGroup#db_parameter_group_name}
 	DbParameterGroupName *string `field:"optional" json:"dbParameterGroupName" yaml:"dbParameterGroupName"`
 	// A mapping of parameter names and values for the parameter update.
 	//
@@ -71,11 +71,11 @@ type RdsDbParameterGroupConfig struct {
 	//  For more information about parameter groups, see [Working with parameter groups](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_WorkingWithParamGroups.html) in the *Amazon RDS User Guide*, or [Working with parameter groups](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_WorkingWithParamGroups.html) in the *Amazon Aurora User Guide*.
 	//   AWS CloudFormation doesn't support specifying an apply method for each individual parameter. The default apply method for each parameter is used.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_parameter_group#parameters RdsDbParameterGroup#parameters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_parameter_group#parameters RdsDbParameterGroup#parameters}
 	Parameters *string `field:"optional" json:"parameters" yaml:"parameters"`
 	// Tags to assign to the DB parameter group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/rds_db_parameter_group#tags RdsDbParameterGroup#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_parameter_group#tags RdsDbParameterGroup#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

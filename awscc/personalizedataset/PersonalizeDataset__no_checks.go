@@ -83,6 +83,10 @@ func (p *jsiiProxy_PersonalizeDataset) validatePutDatasetImportJobParameters(val
 	return nil
 }
 
+func (p *jsiiProxy_PersonalizeDataset) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PersonalizeDataset) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }

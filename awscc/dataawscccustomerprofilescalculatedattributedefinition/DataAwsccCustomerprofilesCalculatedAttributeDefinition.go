@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition}.
 type DataAwsccCustomerprofilesCalculatedAttributeDefinition interface {
 	cdktn.TerraformDataSource
 	AttributeDetails() DataAwsccCustomerprofilesCalculatedAttributeDefinitionAttributeDetailsOutputReference
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccCustomerprofilesCalculatedAttributeDefinition) UseHi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition} Data Source.
 func NewDataAwsccCustomerprofilesCalculatedAttributeDefinition(scope constructs.Construct, id *string, config *DataAwsccCustomerprofilesCalculatedAttributeDefinitionConfig) DataAwsccCustomerprofilesCalculatedAttributeDefinition {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccCustomerprofilesCalculatedAttributeDefinition(scope constructs.
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition} Data Source.
 func NewDataAwsccCustomerprofilesCalculatedAttributeDefinition_Override(d DataAwsccCustomerprofilesCalculatedAttributeDefinition, scope constructs.Construct, id *string, config *DataAwsccCustomerprofilesCalculatedAttributeDefinitionConfig) {
 	_init_.Initialize()
 

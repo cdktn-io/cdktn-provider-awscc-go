@@ -51,6 +51,10 @@ func (d *jsiiProxy_DynamodbTableStreamSpecificationOutputReference) validatePutR
 	return nil
 }
 
+func (d *jsiiProxy_DynamodbTableStreamSpecificationOutputReference) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DynamodbTableStreamSpecificationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

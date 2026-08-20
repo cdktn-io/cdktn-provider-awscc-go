@@ -22,11 +22,11 @@ type ServicecatalogServiceActionAssociationConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action_association#product_id ServicecatalogServiceActionAssociation#product_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_service_action_association#product_id ServicecatalogServiceActionAssociation#product_id}.
 	ProductId *string `field:"required" json:"productId" yaml:"productId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action_association#provisioning_artifact_id ServicecatalogServiceActionAssociation#provisioning_artifact_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_service_action_association#provisioning_artifact_id ServicecatalogServiceActionAssociation#provisioning_artifact_id}.
 	ProvisioningArtifactId *string `field:"required" json:"provisioningArtifactId" yaml:"provisioningArtifactId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalog_service_action_association#service_action_id ServicecatalogServiceActionAssociation#service_action_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_service_action_association#service_action_id ServicecatalogServiceActionAssociation#service_action_id}.
 	ServiceActionId *string `field:"required" json:"serviceActionId" yaml:"serviceActionId"`
 }
 

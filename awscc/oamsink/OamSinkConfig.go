@@ -24,15 +24,15 @@ type OamSinkConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the ObservabilityAccessManager Sink.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/oam_sink#name OamSink#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/oam_sink#name OamSink#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The policy of this ObservabilityAccessManager Sink.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/oam_sink#policy OamSink#policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/oam_sink#policy OamSink#policy}
 	Policy *string `field:"optional" json:"policy" yaml:"policy"`
 	// Tags to apply to the sink.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/oam_sink#tags OamSink#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/oam_sink#tags OamSink#tags}
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 }
 

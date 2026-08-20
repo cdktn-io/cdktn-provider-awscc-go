@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/memorydb_multi_region_cluster awscc_memorydb_multi_region_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_multi_region_cluster awscc_memorydb_multi_region_cluster}.
 type MemorydbMultiRegionCluster interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -627,7 +627,7 @@ func (j *jsiiProxy_MemorydbMultiRegionCluster) UpdateStrategyInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/memorydb_multi_region_cluster awscc_memorydb_multi_region_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_multi_region_cluster awscc_memorydb_multi_region_cluster} Resource.
 func NewMemorydbMultiRegionCluster(scope constructs.Construct, id *string, config *MemorydbMultiRegionClusterConfig) MemorydbMultiRegionCluster {
 	_init_.Initialize()
 
@@ -645,7 +645,7 @@ func NewMemorydbMultiRegionCluster(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/memorydb_multi_region_cluster awscc_memorydb_multi_region_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/memorydb_multi_region_cluster awscc_memorydb_multi_region_cluster} Resource.
 func NewMemorydbMultiRegionCluster_Override(m MemorydbMultiRegionCluster, scope constructs.Construct, id *string, config *MemorydbMultiRegionClusterConfig) {
 	_init_.Initialize()
 

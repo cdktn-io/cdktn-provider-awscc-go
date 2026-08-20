@@ -1,3 +1,3 @@
 # `awscc_apigateway_model`
 
-Refer to the Terraform Registry for docs: [`awscc_apigateway_model`](https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/apigateway_model).
+Refer to the Terraform Registry for docs: [`awscc_apigateway_model`](https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_model).

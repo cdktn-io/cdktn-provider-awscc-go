@@ -9,11 +9,11 @@ type ApplicationsignalsServiceLevelObjectiveTags struct {
 	//
 	// The combination of tag keys and values can help you organize and categorize your resources.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#key ApplicationsignalsServiceLevelObjective#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#key ApplicationsignalsServiceLevelObjective#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value for the specified tag key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/applicationsignals_service_level_objective#value ApplicationsignalsServiceLevelObjective#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/applicationsignals_service_level_objective#value ApplicationsignalsServiceLevelObjective#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

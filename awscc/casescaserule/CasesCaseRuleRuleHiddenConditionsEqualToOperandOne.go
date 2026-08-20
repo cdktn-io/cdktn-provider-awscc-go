@@ -7,7 +7,7 @@ package casescaserule
 type CasesCaseRuleRuleHiddenConditionsEqualToOperandOne struct {
 	// The field ID this operand should take the value of.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_case_rule#field_id CasesCaseRule#field_id}
 	FieldId *string `field:"optional" json:"fieldId" yaml:"fieldId"`
 }
 

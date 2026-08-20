@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/mediapackagev2_origin_endpoint_policy awscc_mediapackagev2_origin_endpoint_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mediapackagev2_origin_endpoint_policy awscc_mediapackagev2_origin_endpoint_policy}.
 type DataAwsccMediapackagev2OriginEndpointPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccMediapackagev2OriginEndpointPolicy) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/mediapackagev2_origin_endpoint_policy awscc_mediapackagev2_origin_endpoint_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mediapackagev2_origin_endpoint_policy awscc_mediapackagev2_origin_endpoint_policy} Data Source.
 func NewDataAwsccMediapackagev2OriginEndpointPolicy(scope constructs.Construct, id *string, config *DataAwsccMediapackagev2OriginEndpointPolicyConfig) DataAwsccMediapackagev2OriginEndpointPolicy {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccMediapackagev2OriginEndpointPolicy(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/mediapackagev2_origin_endpoint_policy awscc_mediapackagev2_origin_endpoint_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mediapackagev2_origin_endpoint_policy awscc_mediapackagev2_origin_endpoint_policy} Data Source.
 func NewDataAwsccMediapackagev2OriginEndpointPolicy_Override(d DataAwsccMediapackagev2OriginEndpointPolicy, scope constructs.Construct, id *string, config *DataAwsccMediapackagev2OriginEndpointPolicyConfig) {
 	_init_.Initialize()
 

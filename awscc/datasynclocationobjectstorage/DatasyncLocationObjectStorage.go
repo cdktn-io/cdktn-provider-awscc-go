@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage}.
 type DatasyncLocationObjectStorage interface {
 	cdktn.TerraformResource
 	AccessKey() *string
@@ -676,7 +676,7 @@ func (j *jsiiProxy_DatasyncLocationObjectStorage) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage} Resource.
 func NewDatasyncLocationObjectStorage(scope constructs.Construct, id *string, config *DatasyncLocationObjectStorageConfig) DatasyncLocationObjectStorage {
 	_init_.Initialize()
 
@@ -694,7 +694,7 @@ func NewDatasyncLocationObjectStorage(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage} Resource.
 func NewDatasyncLocationObjectStorage_Override(d DatasyncLocationObjectStorage, scope constructs.Construct, id *string, config *DatasyncLocationObjectStorageConfig) {
 	_init_.Initialize()
 

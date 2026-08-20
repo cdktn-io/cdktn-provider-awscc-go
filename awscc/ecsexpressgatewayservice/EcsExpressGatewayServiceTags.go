@@ -5,9 +5,9 @@ package ecsexpressgatewayservice
 
 
 type EcsExpressGatewayServiceTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_express_gateway_service#key EcsExpressGatewayService#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_express_gateway_service#key EcsExpressGatewayService#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_express_gateway_service#value EcsExpressGatewayService#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_express_gateway_service#value EcsExpressGatewayService#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_group awscc_iam_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_group awscc_iam_group}.
 type IamGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_IamGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_group awscc_iam_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_group awscc_iam_group} Resource.
 func NewIamGroup(scope constructs.Construct, id *string, config *IamGroupConfig) IamGroup {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewIamGroup(scope constructs.Construct, id *string, config *IamGroupConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/iam_group awscc_iam_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iam_group awscc_iam_group} Resource.
 func NewIamGroup_Override(i IamGroup, scope constructs.Construct, id *string, config *IamGroupConfig) {
 	_init_.Initialize()
 

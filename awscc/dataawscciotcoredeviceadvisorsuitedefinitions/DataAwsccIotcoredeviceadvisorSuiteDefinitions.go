@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotcoredeviceadvisor_suite_definitions awscc_iotcoredeviceadvisor_suite_definitions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotcoredeviceadvisor_suite_definitions awscc_iotcoredeviceadvisor_suite_definitions}.
 type DataAwsccIotcoredeviceadvisorSuiteDefinitions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotcoredeviceadvisorSuiteDefinitions) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotcoredeviceadvisor_suite_definitions awscc_iotcoredeviceadvisor_suite_definitions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotcoredeviceadvisor_suite_definitions awscc_iotcoredeviceadvisor_suite_definitions} Data Source.
 func NewDataAwsccIotcoredeviceadvisorSuiteDefinitions(scope constructs.Construct, id *string, config *DataAwsccIotcoredeviceadvisorSuiteDefinitionsConfig) DataAwsccIotcoredeviceadvisorSuiteDefinitions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotcoredeviceadvisorSuiteDefinitions(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iotcoredeviceadvisor_suite_definitions awscc_iotcoredeviceadvisor_suite_definitions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotcoredeviceadvisor_suite_definitions awscc_iotcoredeviceadvisor_suite_definitions} Data Source.
 func NewDataAwsccIotcoredeviceadvisorSuiteDefinitions_Override(d DataAwsccIotcoredeviceadvisorSuiteDefinitions, scope constructs.Construct, id *string, config *DataAwsccIotcoredeviceadvisorSuiteDefinitionsConfig) {
 	_init_.Initialize()
 

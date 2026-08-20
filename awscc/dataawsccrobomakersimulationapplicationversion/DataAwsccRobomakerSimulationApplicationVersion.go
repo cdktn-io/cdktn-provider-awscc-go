@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/robomaker_simulation_application_version awscc_robomaker_simulation_application_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/robomaker_simulation_application_version awscc_robomaker_simulation_application_version}.
 type DataAwsccRobomakerSimulationApplicationVersion interface {
 	cdktn.TerraformDataSource
 	Application() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccRobomakerSimulationApplicationVersion) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/robomaker_simulation_application_version awscc_robomaker_simulation_application_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/robomaker_simulation_application_version awscc_robomaker_simulation_application_version} Data Source.
 func NewDataAwsccRobomakerSimulationApplicationVersion(scope constructs.Construct, id *string, config *DataAwsccRobomakerSimulationApplicationVersionConfig) DataAwsccRobomakerSimulationApplicationVersion {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccRobomakerSimulationApplicationVersion(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/robomaker_simulation_application_version awscc_robomaker_simulation_application_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/robomaker_simulation_application_version awscc_robomaker_simulation_application_version} Data Source.
 func NewDataAwsccRobomakerSimulationApplicationVersion_Override(d DataAwsccRobomakerSimulationApplicationVersion, scope constructs.Construct, id *string, config *DataAwsccRobomakerSimulationApplicationVersionConfig) {
 	_init_.Initialize()
 

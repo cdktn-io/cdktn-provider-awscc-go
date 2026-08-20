@@ -7,11 +7,11 @@ package quicksightdashboard
 type QuicksightDashboardParametersIntegerParameters struct {
 	// <p>The name of the integer parameter.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// <p>The values for the integer parameter.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_dashboard#values QuicksightDashboard#values}
 	Values *[]*float64 `field:"optional" json:"values" yaml:"values"`
 }
 

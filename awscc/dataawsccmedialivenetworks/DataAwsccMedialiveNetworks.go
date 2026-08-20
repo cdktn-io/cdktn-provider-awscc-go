@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/medialive_networks awscc_medialive_networks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/medialive_networks awscc_medialive_networks}.
 type DataAwsccMedialiveNetworks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMedialiveNetworks) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/medialive_networks awscc_medialive_networks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/medialive_networks awscc_medialive_networks} Data Source.
 func NewDataAwsccMedialiveNetworks(scope constructs.Construct, id *string, config *DataAwsccMedialiveNetworksConfig) DataAwsccMedialiveNetworks {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMedialiveNetworks(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/medialive_networks awscc_medialive_networks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/medialive_networks awscc_medialive_networks} Data Source.
 func NewDataAwsccMedialiveNetworks_Override(d DataAwsccMedialiveNetworks, scope constructs.Construct, id *string, config *DataAwsccMedialiveNetworksConfig) {
 	_init_.Initialize()
 

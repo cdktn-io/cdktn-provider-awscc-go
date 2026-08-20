@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/inspectorv2_cis_scan_configuration awscc_inspectorv2_cis_scan_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/inspectorv2_cis_scan_configuration awscc_inspectorv2_cis_scan_configuration}.
 type DataAwsccInspectorv2CisScanConfiguration interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccInspectorv2CisScanConfiguration) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/inspectorv2_cis_scan_configuration awscc_inspectorv2_cis_scan_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/inspectorv2_cis_scan_configuration awscc_inspectorv2_cis_scan_configuration} Data Source.
 func NewDataAwsccInspectorv2CisScanConfiguration(scope constructs.Construct, id *string, config *DataAwsccInspectorv2CisScanConfigurationConfig) DataAwsccInspectorv2CisScanConfiguration {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccInspectorv2CisScanConfiguration(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/inspectorv2_cis_scan_configuration awscc_inspectorv2_cis_scan_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/inspectorv2_cis_scan_configuration awscc_inspectorv2_cis_scan_configuration} Data Source.
 func NewDataAwsccInspectorv2CisScanConfiguration_Override(d DataAwsccInspectorv2CisScanConfiguration, scope constructs.Construct, id *string, config *DataAwsccInspectorv2CisScanConfigurationConfig) {
 	_init_.Initialize()
 

@@ -7,15 +7,15 @@ package mskchannel
 type MskChannelLoggingInfoS3 struct {
 	// The name of the S3 bucket for log delivery.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#bucket MskChannel#bucket}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_channel#bucket MskChannel#bucket}
 	Bucket *string `field:"optional" json:"bucket" yaml:"bucket"`
 	// Whether S3 logging is enabled.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#enabled MskChannel#enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_channel#enabled MskChannel#enabled}
 	Enabled interface{} `field:"optional" json:"enabled" yaml:"enabled"`
 	// The S3 prefix for log delivery.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/msk_channel#prefix MskChannel#prefix}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_channel#prefix MskChannel#prefix}
 	Prefix *string `field:"optional" json:"prefix" yaml:"prefix"`
 }
 

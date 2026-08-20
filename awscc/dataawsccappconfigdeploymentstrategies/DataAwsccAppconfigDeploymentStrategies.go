@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appconfig_deployment_strategies awscc_appconfig_deployment_strategies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appconfig_deployment_strategies awscc_appconfig_deployment_strategies}.
 type DataAwsccAppconfigDeploymentStrategies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccAppconfigDeploymentStrategies) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appconfig_deployment_strategies awscc_appconfig_deployment_strategies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appconfig_deployment_strategies awscc_appconfig_deployment_strategies} Data Source.
 func NewDataAwsccAppconfigDeploymentStrategies(scope constructs.Construct, id *string, config *DataAwsccAppconfigDeploymentStrategiesConfig) DataAwsccAppconfigDeploymentStrategies {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccAppconfigDeploymentStrategies(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/appconfig_deployment_strategies awscc_appconfig_deployment_strategies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appconfig_deployment_strategies awscc_appconfig_deployment_strategies} Data Source.
 func NewDataAwsccAppconfigDeploymentStrategies_Override(d DataAwsccAppconfigDeploymentStrategies, scope constructs.Construct, id *string, config *DataAwsccAppconfigDeploymentStrategiesConfig) {
 	_init_.Initialize()
 

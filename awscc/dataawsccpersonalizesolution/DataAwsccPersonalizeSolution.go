@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/personalize_solution awscc_personalize_solution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/personalize_solution awscc_personalize_solution}.
 type DataAwsccPersonalizeSolution interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -58,6 +58,7 @@ type DataAwsccPersonalizeSolution interface {
 	RecipeArn() *string
 	SolutionArn() *string
 	SolutionConfig() DataAwsccPersonalizeSolutionSolutionConfigOutputReference
+	Tags() DataAwsccPersonalizeSolutionTagsList
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -343,6 +344,16 @@ func (j *jsiiProxy_DataAwsccPersonalizeSolution) SolutionConfig() DataAwsccPerso
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccPersonalizeSolution) Tags() DataAwsccPersonalizeSolutionTagsList {
+	var returns DataAwsccPersonalizeSolutionTagsList
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccPersonalizeSolution) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -374,7 +385,7 @@ func (j *jsiiProxy_DataAwsccPersonalizeSolution) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/personalize_solution awscc_personalize_solution} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/personalize_solution awscc_personalize_solution} Data Source.
 func NewDataAwsccPersonalizeSolution(scope constructs.Construct, id *string, config *DataAwsccPersonalizeSolutionConfig) DataAwsccPersonalizeSolution {
 	_init_.Initialize()
 
@@ -392,7 +403,7 @@ func NewDataAwsccPersonalizeSolution(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/personalize_solution awscc_personalize_solution} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/personalize_solution awscc_personalize_solution} Data Source.
 func NewDataAwsccPersonalizeSolution_Override(d DataAwsccPersonalizeSolution, scope constructs.Construct, id *string, config *DataAwsccPersonalizeSolutionConfig) {
 	_init_.Initialize()
 

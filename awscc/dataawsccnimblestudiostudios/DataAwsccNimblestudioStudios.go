@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/nimblestudio_studios awscc_nimblestudio_studios}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/nimblestudio_studios awscc_nimblestudio_studios}.
 type DataAwsccNimblestudioStudios interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNimblestudioStudios) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/nimblestudio_studios awscc_nimblestudio_studios} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/nimblestudio_studios awscc_nimblestudio_studios} Data Source.
 func NewDataAwsccNimblestudioStudios(scope constructs.Construct, id *string, config *DataAwsccNimblestudioStudiosConfig) DataAwsccNimblestudioStudios {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNimblestudioStudios(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/nimblestudio_studios awscc_nimblestudio_studios} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/nimblestudio_studios awscc_nimblestudio_studios} Data Source.
 func NewDataAwsccNimblestudioStudios_Override(d DataAwsccNimblestudioStudios, scope constructs.Construct, id *string, config *DataAwsccNimblestudioStudiosConfig) {
 	_init_.Initialize()
 

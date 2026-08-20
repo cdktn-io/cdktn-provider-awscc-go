@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/devopsguru_notification_channels awscc_devopsguru_notification_channels}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/devopsguru_notification_channels awscc_devopsguru_notification_channels}.
 type DataAwsccDevopsguruNotificationChannels interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDevopsguruNotificationChannels) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/devopsguru_notification_channels awscc_devopsguru_notification_channels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/devopsguru_notification_channels awscc_devopsguru_notification_channels} Data Source.
 func NewDataAwsccDevopsguruNotificationChannels(scope constructs.Construct, id *string, config *DataAwsccDevopsguruNotificationChannelsConfig) DataAwsccDevopsguruNotificationChannels {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDevopsguruNotificationChannels(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/devopsguru_notification_channels awscc_devopsguru_notification_channels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/devopsguru_notification_channels awscc_devopsguru_notification_channels} Data Source.
 func NewDataAwsccDevopsguruNotificationChannels_Override(d DataAwsccDevopsguruNotificationChannels, scope constructs.Construct, id *string, config *DataAwsccDevopsguruNotificationChannelsConfig) {
 	_init_.Initialize()
 

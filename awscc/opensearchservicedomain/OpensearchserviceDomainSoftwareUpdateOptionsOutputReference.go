@@ -43,6 +43,9 @@ type OpensearchserviceDomainSoftwareUpdateOptionsOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	UseLatestServiceSoftwareForBlueGreen() interface{}
+	SetUseLatestServiceSoftwareForBlueGreen(val interface{})
+	UseLatestServiceSoftwareForBlueGreenInput() interface{}
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -68,6 +71,7 @@ type OpensearchserviceDomainSoftwareUpdateOptionsOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAutoSoftwareUpdateEnabled()
+	ResetUseLatestServiceSoftwareForBlueGreen()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -173,6 +177,26 @@ func (j *jsiiProxy_OpensearchserviceDomainSoftwareUpdateOptionsOutputReference) 
 	return returns
 }
 
+func (j *jsiiProxy_OpensearchserviceDomainSoftwareUpdateOptionsOutputReference) UseLatestServiceSoftwareForBlueGreen() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"useLatestServiceSoftwareForBlueGreen",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OpensearchserviceDomainSoftwareUpdateOptionsOutputReference) UseLatestServiceSoftwareForBlueGreenInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"useLatestServiceSoftwareForBlueGreenInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewOpensearchserviceDomainSoftwareUpdateOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) OpensearchserviceDomainSoftwareUpdateOptionsOutputReference {
 	_init_.Initialize()
@@ -263,6 +287,17 @@ func (j *jsiiProxy_OpensearchserviceDomainSoftwareUpdateOptionsOutputReference)S
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OpensearchserviceDomainSoftwareUpdateOptionsOutputReference)SetUseLatestServiceSoftwareForBlueGreen(val interface{}) {
+	if err := j.validateSetUseLatestServiceSoftwareForBlueGreenParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"useLatestServiceSoftwareForBlueGreen",
 		val,
 	)
 }
@@ -457,6 +492,14 @@ func (o *jsiiProxy_OpensearchserviceDomainSoftwareUpdateOptionsOutputReference) 
 	_jsii_.InvokeVoid(
 		o,
 		"resetAutoSoftwareUpdateEnabled",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OpensearchserviceDomainSoftwareUpdateOptionsOutputReference) ResetUseLatestServiceSoftwareForBlueGreen() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetUseLatestServiceSoftwareForBlueGreen",
 		nil, // no parameters
 	)
 }

@@ -51,6 +51,10 @@ func (d *jsiiProxy_DynamodbGlobalTableReplicasReplicaStreamSpecificationOutputRe
 	return nil
 }
 
+func (d *jsiiProxy_DynamodbGlobalTableReplicasReplicaStreamSpecificationOutputReference) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DynamodbGlobalTableReplicasReplicaStreamSpecificationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

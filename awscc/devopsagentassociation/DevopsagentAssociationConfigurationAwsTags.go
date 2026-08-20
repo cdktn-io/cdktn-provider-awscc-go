@@ -5,9 +5,9 @@ package devopsagentassociation
 
 
 type DevopsagentAssociationConfigurationAwsTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

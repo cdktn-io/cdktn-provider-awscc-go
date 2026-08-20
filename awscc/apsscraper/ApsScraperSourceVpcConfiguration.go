@@ -7,11 +7,11 @@ package apsscraper
 type ApsScraperSourceVpcConfiguration struct {
 	// List of security group IDs.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#security_group_ids ApsScraper#security_group_ids}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_scraper#security_group_ids ApsScraper#security_group_ids}
 	SecurityGroupIds *[]*string `field:"optional" json:"securityGroupIds" yaml:"securityGroupIds"`
 	// List of subnet IDs.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/aps_scraper#subnet_ids ApsScraper#subnet_ids}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_scraper#subnet_ids ApsScraper#subnet_ids}
 	SubnetIds *[]*string `field:"optional" json:"subnetIds" yaml:"subnetIds"`
 }
 

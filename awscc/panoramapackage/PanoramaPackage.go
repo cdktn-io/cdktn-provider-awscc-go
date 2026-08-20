@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_package awscc_panorama_package}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/panorama_package awscc_panorama_package}.
 type PanoramaPackage interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -459,7 +459,7 @@ func (j *jsiiProxy_PanoramaPackage) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_package awscc_panorama_package} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/panorama_package awscc_panorama_package} Resource.
 func NewPanoramaPackage(scope constructs.Construct, id *string, config *PanoramaPackageConfig) PanoramaPackage {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewPanoramaPackage(scope constructs.Construct, id *string, config *Panorama
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/panorama_package awscc_panorama_package} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/panorama_package awscc_panorama_package} Resource.
 func NewPanoramaPackage_Override(p PanoramaPackage, scope constructs.Construct, id *string, config *PanoramaPackageConfig) {
 	_init_.Initialize()
 

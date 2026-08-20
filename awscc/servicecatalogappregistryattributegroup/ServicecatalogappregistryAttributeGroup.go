@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalogappregistry_attribute_group awscc_servicecatalogappregistry_attribute_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalogappregistry_attribute_group awscc_servicecatalogappregistry_attribute_group}.
 type ServicecatalogappregistryAttributeGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -471,7 +471,7 @@ func (j *jsiiProxy_ServicecatalogappregistryAttributeGroup) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalogappregistry_attribute_group awscc_servicecatalogappregistry_attribute_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalogappregistry_attribute_group awscc_servicecatalogappregistry_attribute_group} Resource.
 func NewServicecatalogappregistryAttributeGroup(scope constructs.Construct, id *string, config *ServicecatalogappregistryAttributeGroupConfig) ServicecatalogappregistryAttributeGroup {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewServicecatalogappregistryAttributeGroup(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/servicecatalogappregistry_attribute_group awscc_servicecatalogappregistry_attribute_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalogappregistry_attribute_group awscc_servicecatalogappregistry_attribute_group} Resource.
 func NewServicecatalogappregistryAttributeGroup_Override(s ServicecatalogappregistryAttributeGroup, scope constructs.Construct, id *string, config *ServicecatalogappregistryAttributeGroupConfig) {
 	_init_.Initialize()
 

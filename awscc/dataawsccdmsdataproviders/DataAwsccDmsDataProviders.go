@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/dms_data_providers awscc_dms_data_providers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/dms_data_providers awscc_dms_data_providers}.
 type DataAwsccDmsDataProviders interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDmsDataProviders) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/dms_data_providers awscc_dms_data_providers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/dms_data_providers awscc_dms_data_providers} Data Source.
 func NewDataAwsccDmsDataProviders(scope constructs.Construct, id *string, config *DataAwsccDmsDataProvidersConfig) DataAwsccDmsDataProviders {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDmsDataProviders(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/dms_data_providers awscc_dms_data_providers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/dms_data_providers awscc_dms_data_providers} Data Source.
 func NewDataAwsccDmsDataProviders_Override(d DataAwsccDmsDataProviders, scope constructs.Construct, id *string, config *DataAwsccDmsDataProvidersConfig) {
 	_init_.Initialize()
 

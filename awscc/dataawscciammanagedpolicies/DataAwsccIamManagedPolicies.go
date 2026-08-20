@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iam_managed_policies awscc_iam_managed_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iam_managed_policies awscc_iam_managed_policies}.
 type DataAwsccIamManagedPolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIamManagedPolicies) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iam_managed_policies awscc_iam_managed_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iam_managed_policies awscc_iam_managed_policies} Data Source.
 func NewDataAwsccIamManagedPolicies(scope constructs.Construct, id *string, config *DataAwsccIamManagedPoliciesConfig) DataAwsccIamManagedPolicies {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIamManagedPolicies(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iam_managed_policies awscc_iam_managed_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iam_managed_policies awscc_iam_managed_policies} Data Source.
 func NewDataAwsccIamManagedPolicies_Override(d DataAwsccIamManagedPolicies, scope constructs.Construct, id *string, config *DataAwsccIamManagedPoliciesConfig) {
 	_init_.Initialize()
 

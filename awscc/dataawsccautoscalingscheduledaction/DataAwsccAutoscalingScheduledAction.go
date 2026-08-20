@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/autoscaling_scheduled_action awscc_autoscaling_scheduled_action}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/autoscaling_scheduled_action awscc_autoscaling_scheduled_action}.
 type DataAwsccAutoscalingScheduledAction interface {
 	cdktn.TerraformDataSource
 	AutoScalingGroupName() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccAutoscalingScheduledAction) TimeZone() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/autoscaling_scheduled_action awscc_autoscaling_scheduled_action} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/autoscaling_scheduled_action awscc_autoscaling_scheduled_action} Data Source.
 func NewDataAwsccAutoscalingScheduledAction(scope constructs.Construct, id *string, config *DataAwsccAutoscalingScheduledActionConfig) DataAwsccAutoscalingScheduledAction {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccAutoscalingScheduledAction(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/autoscaling_scheduled_action awscc_autoscaling_scheduled_action} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/autoscaling_scheduled_action awscc_autoscaling_scheduled_action} Data Source.
 func NewDataAwsccAutoscalingScheduledAction_Override(d DataAwsccAutoscalingScheduledAction, scope constructs.Construct, id *string, config *DataAwsccAutoscalingScheduledActionConfig) {
 	_init_.Initialize()
 

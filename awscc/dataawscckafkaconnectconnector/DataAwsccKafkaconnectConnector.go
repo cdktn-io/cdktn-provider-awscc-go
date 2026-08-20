@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/kafkaconnect_connector awscc_kafkaconnect_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/kafkaconnect_connector awscc_kafkaconnect_connector}.
 type DataAwsccKafkaconnectConnector interface {
 	cdktn.TerraformDataSource
 	Capacity() DataAwsccKafkaconnectConnectorCapacityOutputReference
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccKafkaconnectConnector) WorkerConfiguration() DataAws
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/kafkaconnect_connector awscc_kafkaconnect_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/kafkaconnect_connector awscc_kafkaconnect_connector} Data Source.
 func NewDataAwsccKafkaconnectConnector(scope constructs.Construct, id *string, config *DataAwsccKafkaconnectConnectorConfig) DataAwsccKafkaconnectConnector {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccKafkaconnectConnector(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/kafkaconnect_connector awscc_kafkaconnect_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/kafkaconnect_connector awscc_kafkaconnect_connector} Data Source.
 func NewDataAwsccKafkaconnectConnector_Override(d DataAwsccKafkaconnectConnector, scope constructs.Construct, id *string, config *DataAwsccKafkaconnectConnectorConfig) {
 	_init_.Initialize()
 

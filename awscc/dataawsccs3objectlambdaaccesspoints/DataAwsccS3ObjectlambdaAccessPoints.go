@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3objectlambda_access_points awscc_s3objectlambda_access_points}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3objectlambda_access_points awscc_s3objectlambda_access_points}.
 type DataAwsccS3ObjectlambdaAccessPoints interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccS3ObjectlambdaAccessPoints) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3objectlambda_access_points awscc_s3objectlambda_access_points} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3objectlambda_access_points awscc_s3objectlambda_access_points} Data Source.
 func NewDataAwsccS3ObjectlambdaAccessPoints(scope constructs.Construct, id *string, config *DataAwsccS3ObjectlambdaAccessPointsConfig) DataAwsccS3ObjectlambdaAccessPoints {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccS3ObjectlambdaAccessPoints(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3objectlambda_access_points awscc_s3objectlambda_access_points} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3objectlambda_access_points awscc_s3objectlambda_access_points} Data Source.
 func NewDataAwsccS3ObjectlambdaAccessPoints_Override(d DataAwsccS3ObjectlambdaAccessPoints, scope constructs.Construct, id *string, config *DataAwsccS3ObjectlambdaAccessPointsConfig) {
 	_init_.Initialize()
 

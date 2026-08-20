@@ -91,6 +91,10 @@ func (j *jsiiProxy_ObservabilityadminOrganizationTelemetryRuleRuleDestinationCon
 	return nil
 }
 
+func (j *jsiiProxy_ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationOutputReference) validateSetKmsKeyArnParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationOutputReference) validateSetRetentionInDaysParameters(val *float64) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/batch_quota_share awscc_batch_quota_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/batch_quota_share awscc_batch_quota_share}.
 type DataAwsccBatchQuotaShare interface {
 	cdktn.TerraformDataSource
 	CapacityLimits() DataAwsccBatchQuotaShareCapacityLimitsList
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccBatchQuotaShare) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/batch_quota_share awscc_batch_quota_share} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/batch_quota_share awscc_batch_quota_share} Data Source.
 func NewDataAwsccBatchQuotaShare(scope constructs.Construct, id *string, config *DataAwsccBatchQuotaShareConfig) DataAwsccBatchQuotaShare {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccBatchQuotaShare(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/batch_quota_share awscc_batch_quota_share} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/batch_quota_share awscc_batch_quota_share} Data Source.
 func NewDataAwsccBatchQuotaShare_Override(d DataAwsccBatchQuotaShare, scope constructs.Construct, id *string, config *DataAwsccBatchQuotaShareConfig) {
 	_init_.Initialize()
 

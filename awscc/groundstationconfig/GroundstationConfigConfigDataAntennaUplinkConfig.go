@@ -5,11 +5,11 @@ package groundstationconfig
 
 
 type GroundstationConfigConfigDataAntennaUplinkConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/groundstation_config#spectrum_config GroundstationConfig#spectrum_config}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/groundstation_config#spectrum_config GroundstationConfig#spectrum_config}.
 	SpectrumConfig *GroundstationConfigConfigDataAntennaUplinkConfigSpectrumConfig `field:"optional" json:"spectrumConfig" yaml:"spectrumConfig"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/groundstation_config#target_eirp GroundstationConfig#target_eirp}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/groundstation_config#target_eirp GroundstationConfig#target_eirp}.
 	TargetEirp *GroundstationConfigConfigDataAntennaUplinkConfigTargetEirp `field:"optional" json:"targetEirp" yaml:"targetEirp"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/groundstation_config#transmit_disabled GroundstationConfig#transmit_disabled}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/groundstation_config#transmit_disabled GroundstationConfig#transmit_disabled}.
 	TransmitDisabled interface{} `field:"optional" json:"transmitDisabled" yaml:"transmitDisabled"`
 }
 

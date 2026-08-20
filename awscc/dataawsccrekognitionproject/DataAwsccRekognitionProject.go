@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rekognition_project awscc_rekognition_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rekognition_project awscc_rekognition_project}.
 type DataAwsccRekognitionProject interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccRekognitionProject) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rekognition_project awscc_rekognition_project} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rekognition_project awscc_rekognition_project} Data Source.
 func NewDataAwsccRekognitionProject(scope constructs.Construct, id *string, config *DataAwsccRekognitionProjectConfig) DataAwsccRekognitionProject {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccRekognitionProject(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/rekognition_project awscc_rekognition_project} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rekognition_project awscc_rekognition_project} Data Source.
 func NewDataAwsccRekognitionProject_Override(d DataAwsccRekognitionProject, scope constructs.Construct, id *string, config *DataAwsccRekognitionProjectConfig) {
 	_init_.Initialize()
 

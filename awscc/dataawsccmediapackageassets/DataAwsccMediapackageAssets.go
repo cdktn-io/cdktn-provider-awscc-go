@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/mediapackage_assets awscc_mediapackage_assets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mediapackage_assets awscc_mediapackage_assets}.
 type DataAwsccMediapackageAssets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMediapackageAssets) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/mediapackage_assets awscc_mediapackage_assets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mediapackage_assets awscc_mediapackage_assets} Data Source.
 func NewDataAwsccMediapackageAssets(scope constructs.Construct, id *string, config *DataAwsccMediapackageAssetsConfig) DataAwsccMediapackageAssets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMediapackageAssets(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/mediapackage_assets awscc_mediapackage_assets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mediapackage_assets awscc_mediapackage_assets} Data Source.
 func NewDataAwsccMediapackageAssets_Override(d DataAwsccMediapackageAssets, scope constructs.Construct, id *string, config *DataAwsccMediapackageAssetsConfig) {
 	_init_.Initialize()
 

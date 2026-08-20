@@ -24,11 +24,11 @@ type BedrockFlowVersionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Arn representation of the Flow.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_flow_version#flow_arn BedrockFlowVersion#flow_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_flow_version#flow_arn BedrockFlowVersion#flow_arn}
 	FlowArn *string `field:"required" json:"flowArn" yaml:"flowArn"`
 	// Description of the flow version.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_flow_version#description BedrockFlowVersion#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_flow_version#description BedrockFlowVersion#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 }
 

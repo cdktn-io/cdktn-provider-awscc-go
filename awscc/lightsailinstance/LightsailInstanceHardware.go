@@ -7,7 +7,7 @@ package lightsailinstance
 type LightsailInstanceHardware struct {
 	// Disks attached to the Instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_instance#disks LightsailInstance#disks}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_instance#disks LightsailInstance#disks}
 	Disks interface{} `field:"optional" json:"disks" yaml:"disks"`
 }
 

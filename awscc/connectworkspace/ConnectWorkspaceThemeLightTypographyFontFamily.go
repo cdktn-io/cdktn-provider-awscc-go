@@ -5,7 +5,7 @@ package connectworkspace
 
 
 type ConnectWorkspaceThemeLightTypographyFontFamily struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/connect_workspace#default ConnectWorkspace#default}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_workspace#default ConnectWorkspace#default}.
 	Default *string `field:"optional" json:"default" yaml:"default"`
 }
 

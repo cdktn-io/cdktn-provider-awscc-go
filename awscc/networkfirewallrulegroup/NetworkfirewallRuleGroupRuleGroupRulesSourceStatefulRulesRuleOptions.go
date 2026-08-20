@@ -5,9 +5,9 @@ package networkfirewallrulegroup
 
 
 type NetworkfirewallRuleGroupRuleGroupRulesSourceStatefulRulesRuleOptions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkfirewall_rule_group#keyword NetworkfirewallRuleGroup#keyword}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkfirewall_rule_group#keyword NetworkfirewallRuleGroup#keyword}.
 	Keyword *string `field:"optional" json:"keyword" yaml:"keyword"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkfirewall_rule_group#settings NetworkfirewallRuleGroup#settings}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkfirewall_rule_group#settings NetworkfirewallRuleGroup#settings}.
 	Settings *[]*string `field:"optional" json:"settings" yaml:"settings"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_instance_access_control_attribute_configuration awscc_sso_instance_access_control_attribute_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_instance_access_control_attribute_configuration awscc_sso_instance_access_control_attribute_configuration}.
 type SsoInstanceAccessControlAttributeConfiguration interface {
 	cdktn.TerraformResource
 	AccessControlAttributes() SsoInstanceAccessControlAttributeConfigurationAccessControlAttributesList
@@ -426,7 +426,7 @@ func (j *jsiiProxy_SsoInstanceAccessControlAttributeConfiguration) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_instance_access_control_attribute_configuration awscc_sso_instance_access_control_attribute_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_instance_access_control_attribute_configuration awscc_sso_instance_access_control_attribute_configuration} Resource.
 func NewSsoInstanceAccessControlAttributeConfiguration(scope constructs.Construct, id *string, config *SsoInstanceAccessControlAttributeConfigurationConfig) SsoInstanceAccessControlAttributeConfiguration {
 	_init_.Initialize()
 
@@ -444,7 +444,7 @@ func NewSsoInstanceAccessControlAttributeConfiguration(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_instance_access_control_attribute_configuration awscc_sso_instance_access_control_attribute_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_instance_access_control_attribute_configuration awscc_sso_instance_access_control_attribute_configuration} Resource.
 func NewSsoInstanceAccessControlAttributeConfiguration_Override(s SsoInstanceAccessControlAttributeConfiguration, scope constructs.Construct, id *string, config *SsoInstanceAccessControlAttributeConfigurationConfig) {
 	_init_.Initialize()
 

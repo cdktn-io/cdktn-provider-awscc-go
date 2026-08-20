@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/robomaker_simulation_application awscc_robomaker_simulation_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/robomaker_simulation_application awscc_robomaker_simulation_application}.
 type DataAwsccRobomakerSimulationApplication interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccRobomakerSimulationApplication) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/robomaker_simulation_application awscc_robomaker_simulation_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/robomaker_simulation_application awscc_robomaker_simulation_application} Data Source.
 func NewDataAwsccRobomakerSimulationApplication(scope constructs.Construct, id *string, config *DataAwsccRobomakerSimulationApplicationConfig) DataAwsccRobomakerSimulationApplication {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccRobomakerSimulationApplication(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/robomaker_simulation_application awscc_robomaker_simulation_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/robomaker_simulation_application awscc_robomaker_simulation_application} Data Source.
 func NewDataAwsccRobomakerSimulationApplication_Override(d DataAwsccRobomakerSimulationApplication, scope constructs.Construct, id *string, config *DataAwsccRobomakerSimulationApplicationConfig) {
 	_init_.Initialize()
 

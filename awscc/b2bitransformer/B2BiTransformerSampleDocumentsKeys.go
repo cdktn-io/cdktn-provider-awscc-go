@@ -5,9 +5,9 @@ package b2bitransformer
 
 
 type B2BiTransformerSampleDocumentsKeys struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_transformer#input B2BiTransformer#input}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#input B2BiTransformer#input}.
 	Input *string `field:"optional" json:"input" yaml:"input"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/b2bi_transformer#output B2BiTransformer#output}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/b2bi_transformer#output B2BiTransformer#output}.
 	Output *string `field:"optional" json:"output" yaml:"output"`
 }
 

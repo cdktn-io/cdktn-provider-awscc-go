@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_version awscc_cloudformation_hook_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_hook_version awscc_cloudformation_hook_version}.
 type CloudformationHookVersion interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -504,7 +504,7 @@ func (j *jsiiProxy_CloudformationHookVersion) Visibility() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_version awscc_cloudformation_hook_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_hook_version awscc_cloudformation_hook_version} Resource.
 func NewCloudformationHookVersion(scope constructs.Construct, id *string, config *CloudformationHookVersionConfig) CloudformationHookVersion {
 	_init_.Initialize()
 
@@ -522,7 +522,7 @@ func NewCloudformationHookVersion(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_version awscc_cloudformation_hook_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_hook_version awscc_cloudformation_hook_version} Resource.
 func NewCloudformationHookVersion_Override(c CloudformationHookVersion, scope constructs.Construct, id *string, config *CloudformationHookVersionConfig) {
 	_init_.Initialize()
 

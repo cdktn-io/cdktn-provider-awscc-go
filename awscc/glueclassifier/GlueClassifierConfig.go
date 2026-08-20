@@ -24,19 +24,19 @@ type GlueClassifierConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A classifier for comma-separated values (CSV).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#csv_classifier GlueClassifier#csv_classifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#csv_classifier GlueClassifier#csv_classifier}
 	CsvClassifier *GlueClassifierCsvClassifier `field:"optional" json:"csvClassifier" yaml:"csvClassifier"`
 	// A classifier that uses grok.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#grok_classifier GlueClassifier#grok_classifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#grok_classifier GlueClassifier#grok_classifier}
 	GrokClassifier *GlueClassifierGrokClassifier `field:"optional" json:"grokClassifier" yaml:"grokClassifier"`
 	// A classifier for JSON content.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#json_classifier GlueClassifier#json_classifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#json_classifier GlueClassifier#json_classifier}
 	JsonClassifier *GlueClassifierJsonClassifier `field:"optional" json:"jsonClassifier" yaml:"jsonClassifier"`
 	// A classifier for XML content.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/glue_classifier#xml_classifier GlueClassifier#xml_classifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_classifier#xml_classifier GlueClassifier#xml_classifier}
 	XmlClassifier *GlueClassifierXmlClassifier `field:"optional" json:"xmlClassifier" yaml:"xmlClassifier"`
 }
 

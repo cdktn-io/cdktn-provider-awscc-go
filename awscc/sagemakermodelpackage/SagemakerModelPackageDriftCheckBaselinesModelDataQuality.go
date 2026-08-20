@@ -7,11 +7,11 @@ package sagemakermodelpackage
 type SagemakerModelPackageDriftCheckBaselinesModelDataQuality struct {
 	// Represents a Metric Source Object.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#constraints SagemakerModelPackage#constraints}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_model_package#constraints SagemakerModelPackage#constraints}
 	Constraints *SagemakerModelPackageDriftCheckBaselinesModelDataQualityConstraints `field:"optional" json:"constraints" yaml:"constraints"`
 	// Represents a Metric Source Object.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_model_package#statistics SagemakerModelPackage#statistics}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_model_package#statistics SagemakerModelPackage#statistics}
 	Statistics *SagemakerModelPackageDriftCheckBaselinesModelDataQualityStatistics `field:"optional" json:"statistics" yaml:"statistics"`
 }
 

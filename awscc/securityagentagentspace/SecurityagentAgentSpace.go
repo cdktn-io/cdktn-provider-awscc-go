@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space awscc_securityagent_agent_space}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space awscc_securityagent_agent_space}.
 type SecurityagentAgentSpace interface {
 	cdktn.TerraformResource
 	AgentSpaceId() *string
@@ -579,7 +579,7 @@ func (j *jsiiProxy_SecurityagentAgentSpace) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space awscc_securityagent_agent_space} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space awscc_securityagent_agent_space} Resource.
 func NewSecurityagentAgentSpace(scope constructs.Construct, id *string, config *SecurityagentAgentSpaceConfig) SecurityagentAgentSpace {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewSecurityagentAgentSpace(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/securityagent_agent_space awscc_securityagent_agent_space} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityagent_agent_space awscc_securityagent_agent_space} Resource.
 func NewSecurityagentAgentSpace_Override(s SecurityagentAgentSpace, scope constructs.Construct, id *string, config *SecurityagentAgentSpaceConfig) {
 	_init_.Initialize()
 

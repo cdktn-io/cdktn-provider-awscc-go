@@ -1,3 +1,3 @@
 # `awscc_mediaconvert_preset`
 
-Refer to the Terraform Registry for docs: [`awscc_mediaconvert_preset`](https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconvert_preset).
+Refer to the Terraform Registry for docs: [`awscc_mediaconvert_preset`](https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconvert_preset).

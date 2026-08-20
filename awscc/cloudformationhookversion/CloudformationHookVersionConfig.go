@@ -26,23 +26,23 @@ type CloudformationHookVersionConfig struct {
 	//
 	// For information on generating a schema handler package for the type you want to register, see submit in the CloudFormation CLI User Guide.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_version#schema_handler_package CloudformationHookVersion#schema_handler_package}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_hook_version#schema_handler_package CloudformationHookVersion#schema_handler_package}
 	SchemaHandlerPackage *string `field:"required" json:"schemaHandlerPackage" yaml:"schemaHandlerPackage"`
 	// The name of the type being registered.
 	//
 	// We recommend that type names adhere to the following pattern: company_or_organization::service::type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_version#type_name CloudformationHookVersion#type_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_hook_version#type_name CloudformationHookVersion#type_name}
 	TypeName *string `field:"required" json:"typeName" yaml:"typeName"`
 	// The Amazon Resource Name (ARN) of the IAM execution role to use to register the type.
 	//
 	// If your resource type calls AWS APIs in any of its handlers, you must create an IAM execution role that includes the necessary permissions to call those AWS APIs, and provision that execution role in your account. CloudFormation then assumes that execution role to provide your resource type with the appropriate credentials.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_version#execution_role_arn CloudformationHookVersion#execution_role_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_hook_version#execution_role_arn CloudformationHookVersion#execution_role_arn}
 	ExecutionRoleArn *string `field:"optional" json:"executionRoleArn" yaml:"executionRoleArn"`
 	// Specifies logging configuration information for a type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_version#logging_config CloudformationHookVersion#logging_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_hook_version#logging_config CloudformationHookVersion#logging_config}
 	LoggingConfig *CloudformationHookVersionLoggingConfig `field:"optional" json:"loggingConfig" yaml:"loggingConfig"`
 }
 

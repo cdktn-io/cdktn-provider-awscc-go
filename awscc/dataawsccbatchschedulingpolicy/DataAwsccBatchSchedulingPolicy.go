@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/batch_scheduling_policy awscc_batch_scheduling_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/batch_scheduling_policy awscc_batch_scheduling_policy}.
 type DataAwsccBatchSchedulingPolicy interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccBatchSchedulingPolicy) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/batch_scheduling_policy awscc_batch_scheduling_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/batch_scheduling_policy awscc_batch_scheduling_policy} Data Source.
 func NewDataAwsccBatchSchedulingPolicy(scope constructs.Construct, id *string, config *DataAwsccBatchSchedulingPolicyConfig) DataAwsccBatchSchedulingPolicy {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccBatchSchedulingPolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/batch_scheduling_policy awscc_batch_scheduling_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/batch_scheduling_policy awscc_batch_scheduling_policy} Data Source.
 func NewDataAwsccBatchSchedulingPolicy_Override(d DataAwsccBatchSchedulingPolicy, scope constructs.Construct, id *string, config *DataAwsccBatchSchedulingPolicyConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_restore_testing_selection awscc_backup_restore_testing_selection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_restore_testing_selection awscc_backup_restore_testing_selection}.
 type BackupRestoreTestingSelection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -543,7 +543,7 @@ func (j *jsiiProxy_BackupRestoreTestingSelection) ValidationWindowHoursInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_restore_testing_selection awscc_backup_restore_testing_selection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_restore_testing_selection awscc_backup_restore_testing_selection} Resource.
 func NewBackupRestoreTestingSelection(scope constructs.Construct, id *string, config *BackupRestoreTestingSelectionConfig) BackupRestoreTestingSelection {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewBackupRestoreTestingSelection(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/backup_restore_testing_selection awscc_backup_restore_testing_selection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/backup_restore_testing_selection awscc_backup_restore_testing_selection} Resource.
 func NewBackupRestoreTestingSelection_Override(b BackupRestoreTestingSelection, scope constructs.Construct, id *string, config *BackupRestoreTestingSelectionConfig) {
 	_init_.Initialize()
 

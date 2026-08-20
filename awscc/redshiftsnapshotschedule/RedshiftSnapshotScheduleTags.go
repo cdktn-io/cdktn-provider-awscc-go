@@ -7,11 +7,11 @@ package redshiftsnapshotschedule
 type RedshiftSnapshotScheduleTags struct {
 	// The key, or name, for the resource tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_snapshot_schedule#key RedshiftSnapshotSchedule#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_snapshot_schedule#key RedshiftSnapshotSchedule#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value for the resource tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_snapshot_schedule#value RedshiftSnapshotSchedule#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_snapshot_schedule#value RedshiftSnapshotSchedule#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

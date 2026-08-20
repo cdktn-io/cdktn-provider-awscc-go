@@ -24,15 +24,15 @@ type BedrockagentcoreBrowserProfileConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the browser profile.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_browser_profile#name BedrockagentcoreBrowserProfile#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_browser_profile#name BedrockagentcoreBrowserProfile#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The description of the browser profile.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_browser_profile#description BedrockagentcoreBrowserProfile#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_browser_profile#description BedrockagentcoreBrowserProfile#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// A map of tag keys and values.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_browser_profile#tags BedrockagentcoreBrowserProfile#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_browser_profile#tags BedrockagentcoreBrowserProfile#tags}
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 }
 

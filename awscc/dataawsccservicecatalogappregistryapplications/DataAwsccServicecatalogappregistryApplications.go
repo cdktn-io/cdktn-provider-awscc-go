@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalogappregistry_applications awscc_servicecatalogappregistry_applications}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalogappregistry_applications awscc_servicecatalogappregistry_applications}.
 type DataAwsccServicecatalogappregistryApplications interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccServicecatalogappregistryApplications) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalogappregistry_applications awscc_servicecatalogappregistry_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalogappregistry_applications awscc_servicecatalogappregistry_applications} Data Source.
 func NewDataAwsccServicecatalogappregistryApplications(scope constructs.Construct, id *string, config *DataAwsccServicecatalogappregistryApplicationsConfig) DataAwsccServicecatalogappregistryApplications {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccServicecatalogappregistryApplications(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/servicecatalogappregistry_applications awscc_servicecatalogappregistry_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalogappregistry_applications awscc_servicecatalogappregistry_applications} Data Source.
 func NewDataAwsccServicecatalogappregistryApplications_Override(d DataAwsccServicecatalogappregistryApplications, scope constructs.Construct, id *string, config *DataAwsccServicecatalogappregistryApplicationsConfig) {
 	_init_.Initialize()
 

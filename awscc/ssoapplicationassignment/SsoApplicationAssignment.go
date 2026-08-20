@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application_assignment awscc_sso_application_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application_assignment awscc_sso_application_assignment}.
 type SsoApplicationAssignment interface {
 	cdktn.TerraformResource
 	ApplicationArn() *string
@@ -424,7 +424,7 @@ func (j *jsiiProxy_SsoApplicationAssignment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application_assignment awscc_sso_application_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application_assignment awscc_sso_application_assignment} Resource.
 func NewSsoApplicationAssignment(scope constructs.Construct, id *string, config *SsoApplicationAssignmentConfig) SsoApplicationAssignment {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewSsoApplicationAssignment(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sso_application_assignment awscc_sso_application_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_application_assignment awscc_sso_application_assignment} Resource.
 func NewSsoApplicationAssignment_Override(s SsoApplicationAssignment, scope constructs.Construct, id *string, config *SsoApplicationAssignmentConfig) {
 	_init_.Initialize()
 

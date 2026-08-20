@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_resource_policy awscc_ssm_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_resource_policy awscc_ssm_resource_policy}.
 type SsmResourcePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_SsmResourcePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_resource_policy awscc_ssm_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_resource_policy awscc_ssm_resource_policy} Resource.
 func NewSsmResourcePolicy(scope constructs.Construct, id *string, config *SsmResourcePolicyConfig) SsmResourcePolicy {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewSsmResourcePolicy(scope constructs.Construct, id *string, config *SsmRes
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_resource_policy awscc_ssm_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_resource_policy awscc_ssm_resource_policy} Resource.
 func NewSsmResourcePolicy_Override(s SsmResourcePolicy, scope constructs.Construct, id *string, config *SsmResourcePolicyConfig) {
 	_init_.Initialize()
 

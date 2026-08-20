@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/qbusiness_applications awscc_qbusiness_applications}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/qbusiness_applications awscc_qbusiness_applications}.
 type DataAwsccQbusinessApplications interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccQbusinessApplications) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/qbusiness_applications awscc_qbusiness_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/qbusiness_applications awscc_qbusiness_applications} Data Source.
 func NewDataAwsccQbusinessApplications(scope constructs.Construct, id *string, config *DataAwsccQbusinessApplicationsConfig) DataAwsccQbusinessApplications {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccQbusinessApplications(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/qbusiness_applications awscc_qbusiness_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/qbusiness_applications awscc_qbusiness_applications} Data Source.
 func NewDataAwsccQbusinessApplications_Override(d DataAwsccQbusinessApplications, scope constructs.Construct, id *string, config *DataAwsccQbusinessApplicationsConfig) {
 	_init_.Initialize()
 

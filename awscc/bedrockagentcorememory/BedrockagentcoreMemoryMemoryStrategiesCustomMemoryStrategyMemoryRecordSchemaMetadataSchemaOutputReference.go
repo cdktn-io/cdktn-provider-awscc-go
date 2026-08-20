@@ -30,6 +30,9 @@ type BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRecordSchem
 	CreationStack() *[]*string
 	ExtractionConfig() BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigOutputReference
 	ExtractionConfigInput() interface{}
+	ExtractionType() *string
+	SetExtractionType(val *string)
+	ExtractionTypeInput() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -74,6 +77,7 @@ type BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRecordSchem
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutExtractionConfig(value *BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfig)
 	ResetExtractionConfig()
+	ResetExtractionType()
 	ResetKey()
 	ResetType()
 	// Produce the Token's value at resolution time.
@@ -136,6 +140,26 @@ func (j *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMem
 	_jsii_.Get(
 		j,
 		"extractionConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRecordSchemaMetadataSchemaOutputReference) ExtractionType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"extractionType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRecordSchemaMetadataSchemaOutputReference) ExtractionTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"extractionTypeInput",
 		&returns,
 	)
 	return returns
@@ -267,6 +291,17 @@ func (j *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMem
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRecordSchemaMetadataSchemaOutputReference)SetExtractionType(val *string) {
+	if err := j.validateSetExtractionTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"extractionType",
 		val,
 	)
 }
@@ -527,6 +562,14 @@ func (b *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMem
 	_jsii_.InvokeVoid(
 		b,
 		"resetExtractionConfig",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyMemoryRecordSchemaMetadataSchemaOutputReference) ResetExtractionType() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetExtractionType",
 		nil, // no parameters
 	)
 }

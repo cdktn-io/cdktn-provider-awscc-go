@@ -9,7 +9,7 @@ type BedrockDataSourceDataSourceConfigurationSharePointConfigurationCrawlerConfi
 	//
 	// For example, the PATTERN type is regular expression patterns you can apply to filter your content.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_data_source#filter_configuration BedrockDataSource#filter_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#filter_configuration BedrockDataSource#filter_configuration}
 	FilterConfiguration *BedrockDataSourceDataSourceConfigurationSharePointConfigurationCrawlerConfigurationFilterConfiguration `field:"optional" json:"filterConfiguration" yaml:"filterConfiguration"`
 }
 

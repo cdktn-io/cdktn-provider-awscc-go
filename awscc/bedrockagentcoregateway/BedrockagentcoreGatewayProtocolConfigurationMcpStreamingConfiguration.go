@@ -5,7 +5,7 @@ package bedrockagentcoregateway
 
 
 type BedrockagentcoreGatewayProtocolConfigurationMcpStreamingConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrockagentcore_gateway#enable_response_streaming BedrockagentcoreGateway#enable_response_streaming}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_gateway#enable_response_streaming BedrockagentcoreGateway#enable_response_streaming}.
 	EnableResponseStreaming interface{} `field:"optional" json:"enableResponseStreaming" yaml:"enableResponseStreaming"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_load_balancer awscc_lightsail_load_balancer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_load_balancer awscc_lightsail_load_balancer}.
 type LightsailLoadBalancer interface {
 	cdktn.TerraformResource
 	AttachedInstances() *[]*string
@@ -580,7 +580,7 @@ func (j *jsiiProxy_LightsailLoadBalancer) TlsPolicyNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_load_balancer awscc_lightsail_load_balancer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_load_balancer awscc_lightsail_load_balancer} Resource.
 func NewLightsailLoadBalancer(scope constructs.Construct, id *string, config *LightsailLoadBalancerConfig) LightsailLoadBalancer {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewLightsailLoadBalancer(scope constructs.Construct, id *string, config *Li
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lightsail_load_balancer awscc_lightsail_load_balancer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_load_balancer awscc_lightsail_load_balancer} Resource.
 func NewLightsailLoadBalancer_Override(l LightsailLoadBalancer, scope constructs.Construct, id *string, config *LightsailLoadBalancerConfig) {
 	_init_.Initialize()
 

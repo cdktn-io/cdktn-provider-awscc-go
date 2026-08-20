@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/observabilityadmin_telemetry_rule awscc_observabilityadmin_telemetry_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/observabilityadmin_telemetry_rule awscc_observabilityadmin_telemetry_rule}.
 type DataAwsccObservabilityadminTelemetryRule interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccObservabilityadminTelemetryRule) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/observabilityadmin_telemetry_rule awscc_observabilityadmin_telemetry_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/observabilityadmin_telemetry_rule awscc_observabilityadmin_telemetry_rule} Data Source.
 func NewDataAwsccObservabilityadminTelemetryRule(scope constructs.Construct, id *string, config *DataAwsccObservabilityadminTelemetryRuleConfig) DataAwsccObservabilityadminTelemetryRule {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccObservabilityadminTelemetryRule(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/observabilityadmin_telemetry_rule awscc_observabilityadmin_telemetry_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/observabilityadmin_telemetry_rule awscc_observabilityadmin_telemetry_rule} Data Source.
 func NewDataAwsccObservabilityadminTelemetryRule_Override(d DataAwsccObservabilityadminTelemetryRule, scope constructs.Construct, id *string, config *DataAwsccObservabilityadminTelemetryRuleConfig) {
 	_init_.Initialize()
 

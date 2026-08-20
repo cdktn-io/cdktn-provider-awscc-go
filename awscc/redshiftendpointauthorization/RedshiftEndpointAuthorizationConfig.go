@@ -24,21 +24,21 @@ type RedshiftEndpointAuthorizationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The target AWS account ID to grant or revoke access for.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_endpoint_authorization#account RedshiftEndpointAuthorization#account}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_endpoint_authorization#account RedshiftEndpointAuthorization#account}
 	Account *string `field:"required" json:"account" yaml:"account"`
 	// The cluster identifier.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_endpoint_authorization#cluster_identifier RedshiftEndpointAuthorization#cluster_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_endpoint_authorization#cluster_identifier RedshiftEndpointAuthorization#cluster_identifier}
 	ClusterIdentifier *string `field:"required" json:"clusterIdentifier" yaml:"clusterIdentifier"`
 	// Indicates whether to force the revoke action.
 	//
 	// If true, the Redshift-managed VPC endpoints associated with the endpoint authorization are also deleted.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_endpoint_authorization#force RedshiftEndpointAuthorization#force}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_endpoint_authorization#force RedshiftEndpointAuthorization#force}
 	Force interface{} `field:"optional" json:"force" yaml:"force"`
 	// The virtual private cloud (VPC) identifiers to grant or revoke access to.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/redshift_endpoint_authorization#vpc_ids RedshiftEndpointAuthorization#vpc_ids}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/redshift_endpoint_authorization#vpc_ids RedshiftEndpointAuthorization#vpc_ids}
 	VpcIds *[]*string `field:"optional" json:"vpcIds" yaml:"vpcIds"`
 }
 

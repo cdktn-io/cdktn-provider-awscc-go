@@ -24,11 +24,11 @@ type Ec2SubnetRouteTableAssociationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID of the route table.  The physical ID changes when the route table ID is changed.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_subnet_route_table_association#route_table_id Ec2SubnetRouteTableAssociation#route_table_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_subnet_route_table_association#route_table_id Ec2SubnetRouteTableAssociation#route_table_id}
 	RouteTableId *string `field:"required" json:"routeTableId" yaml:"routeTableId"`
 	// The ID of the subnet.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_subnet_route_table_association#subnet_id Ec2SubnetRouteTableAssociation#subnet_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_subnet_route_table_association#subnet_id Ec2SubnetRouteTableAssociation#subnet_id}
 	SubnetId *string `field:"required" json:"subnetId" yaml:"subnetId"`
 }
 

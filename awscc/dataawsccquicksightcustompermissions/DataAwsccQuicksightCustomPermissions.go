@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/quicksight_custom_permissions awscc_quicksight_custom_permissions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_custom_permissions awscc_quicksight_custom_permissions}.
 type DataAwsccQuicksightCustomPermissions interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissions) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/quicksight_custom_permissions awscc_quicksight_custom_permissions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_custom_permissions awscc_quicksight_custom_permissions} Data Source.
 func NewDataAwsccQuicksightCustomPermissions(scope constructs.Construct, id *string, config *DataAwsccQuicksightCustomPermissionsConfig) DataAwsccQuicksightCustomPermissions {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccQuicksightCustomPermissions(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/quicksight_custom_permissions awscc_quicksight_custom_permissions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_custom_permissions awscc_quicksight_custom_permissions} Data Source.
 func NewDataAwsccQuicksightCustomPermissions_Override(d DataAwsccQuicksightCustomPermissions, scope constructs.Construct, id *string, config *DataAwsccQuicksightCustomPermissionsConfig) {
 	_init_.Initialize()
 

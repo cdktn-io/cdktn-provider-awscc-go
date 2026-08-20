@@ -5,9 +5,9 @@ package sagemakeralgorithm
 
 
 type SagemakerAlgorithmTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_algorithm#key SagemakerAlgorithm#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_algorithm#key SagemakerAlgorithm#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_algorithm#value SagemakerAlgorithm#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_algorithm#value SagemakerAlgorithm#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

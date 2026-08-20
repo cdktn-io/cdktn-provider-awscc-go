@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53_dnssecs awscc_route53_dnssecs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_dnssecs awscc_route53_dnssecs}.
 type DataAwsccRoute53Dnssecs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRoute53Dnssecs) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53_dnssecs awscc_route53_dnssecs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_dnssecs awscc_route53_dnssecs} Data Source.
 func NewDataAwsccRoute53Dnssecs(scope constructs.Construct, id *string, config *DataAwsccRoute53DnssecsConfig) DataAwsccRoute53Dnssecs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRoute53Dnssecs(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/route53_dnssecs awscc_route53_dnssecs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_dnssecs awscc_route53_dnssecs} Data Source.
 func NewDataAwsccRoute53Dnssecs_Override(d DataAwsccRoute53Dnssecs, scope constructs.Construct, id *string, config *DataAwsccRoute53DnssecsConfig) {
 	_init_.Initialize()
 

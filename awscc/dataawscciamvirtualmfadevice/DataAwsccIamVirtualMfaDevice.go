@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iam_virtual_mfa_device awscc_iam_virtual_mfa_device}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iam_virtual_mfa_device awscc_iam_virtual_mfa_device}.
 type DataAwsccIamVirtualMfaDevice interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccIamVirtualMfaDevice) VirtualMfaDeviceName() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iam_virtual_mfa_device awscc_iam_virtual_mfa_device} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iam_virtual_mfa_device awscc_iam_virtual_mfa_device} Data Source.
 func NewDataAwsccIamVirtualMfaDevice(scope constructs.Construct, id *string, config *DataAwsccIamVirtualMfaDeviceConfig) DataAwsccIamVirtualMfaDevice {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccIamVirtualMfaDevice(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/iam_virtual_mfa_device awscc_iam_virtual_mfa_device} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iam_virtual_mfa_device awscc_iam_virtual_mfa_device} Data Source.
 func NewDataAwsccIamVirtualMfaDevice_Override(d DataAwsccIamVirtualMfaDevice, scope constructs.Construct, id *string, config *DataAwsccIamVirtualMfaDeviceConfig) {
 	_init_.Initialize()
 

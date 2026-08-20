@@ -24,15 +24,15 @@ type GameliftMatchmakingRuleSetConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A unique identifier for the matchmaking rule set.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_rule_set#name GameliftMatchmakingRuleSet#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_matchmaking_rule_set#name GameliftMatchmakingRuleSet#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// A collection of matchmaking rules, formatted as a JSON string.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_rule_set#rule_set_body GameliftMatchmakingRuleSet#rule_set_body}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_matchmaking_rule_set#rule_set_body GameliftMatchmakingRuleSet#rule_set_body}
 	RuleSetBody *string `field:"required" json:"ruleSetBody" yaml:"ruleSetBody"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/gamelift_matchmaking_rule_set#tags GameliftMatchmakingRuleSet#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_matchmaking_rule_set#tags GameliftMatchmakingRuleSet#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

@@ -37,6 +37,8 @@ type DynamodbTableStreamSpecificationOutputReference interface {
 	StreamViewType() *string
 	SetStreamViewType(val *string)
 	StreamViewTypeInput() *string
+	Tags() DynamodbTableStreamSpecificationTagsList
+	TagsInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -70,8 +72,10 @@ type DynamodbTableStreamSpecificationOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutResourcePolicy(value *DynamodbTableStreamSpecificationResourcePolicy)
+	PutTags(value interface{})
 	ResetResourcePolicy()
 	ResetStreamViewType()
+	ResetTags()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -172,6 +176,26 @@ func (j *jsiiProxy_DynamodbTableStreamSpecificationOutputReference) StreamViewTy
 	_jsii_.Get(
 		j,
 		"streamViewTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DynamodbTableStreamSpecificationOutputReference) Tags() DynamodbTableStreamSpecificationTagsList {
+	var returns DynamodbTableStreamSpecificationTagsList
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DynamodbTableStreamSpecificationOutputReference) TagsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"tagsInput",
 		&returns,
 	)
 	return returns
@@ -488,6 +512,17 @@ func (d *jsiiProxy_DynamodbTableStreamSpecificationOutputReference) PutResourceP
 	)
 }
 
+func (d *jsiiProxy_DynamodbTableStreamSpecificationOutputReference) PutTags(value interface{}) {
+	if err := d.validatePutTagsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putTags",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DynamodbTableStreamSpecificationOutputReference) ResetResourcePolicy() {
 	_jsii_.InvokeVoid(
 		d,
@@ -500,6 +535,14 @@ func (d *jsiiProxy_DynamodbTableStreamSpecificationOutputReference) ResetStreamV
 	_jsii_.InvokeVoid(
 		d,
 		"resetStreamViewType",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DynamodbTableStreamSpecificationOutputReference) ResetTags() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetTags",
 		nil, // no parameters
 	)
 }

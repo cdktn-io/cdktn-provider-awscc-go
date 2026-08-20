@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/directconnect_connection awscc_directconnect_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/directconnect_connection awscc_directconnect_connection}.
 type DataAwsccDirectconnectConnection interface {
 	cdktn.TerraformDataSource
 	Bandwidth() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccDirectconnectConnection) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/directconnect_connection awscc_directconnect_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/directconnect_connection awscc_directconnect_connection} Data Source.
 func NewDataAwsccDirectconnectConnection(scope constructs.Construct, id *string, config *DataAwsccDirectconnectConnectionConfig) DataAwsccDirectconnectConnection {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccDirectconnectConnection(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/directconnect_connection awscc_directconnect_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/directconnect_connection awscc_directconnect_connection} Data Source.
 func NewDataAwsccDirectconnectConnection_Override(d DataAwsccDirectconnectConnection, scope constructs.Construct, id *string, config *DataAwsccDirectconnectConnectionConfig) {
 	_init_.Initialize()
 

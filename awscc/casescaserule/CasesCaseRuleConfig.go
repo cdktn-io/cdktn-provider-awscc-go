@@ -26,27 +26,27 @@ type CasesCaseRuleConfig struct {
 	//
 	// Must be unique within the domain and should clearly indicate the rule's purpose (e.g., 'Priority Field Required for Urgent Cases').
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#name CasesCaseRule#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_case_rule#name CasesCaseRule#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Defines the rule behavior and conditions.
 	//
 	// Specifies the rule type and the conditions under which it applies. In the Amazon Connect admin website, this corresponds to case field conditions.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#rule CasesCaseRule#rule}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_case_rule#rule CasesCaseRule#rule}
 	Rule *CasesCaseRuleRule `field:"required" json:"rule" yaml:"rule"`
 	// A description explaining the purpose and behavior of this case rule.
 	//
 	// Helps administrators understand when and why this rule applies to case fields.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#description CasesCaseRule#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_case_rule#description CasesCaseRule#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The unique identifier of the Cases domain.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#domain_id CasesCaseRule#domain_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_case_rule#domain_id CasesCaseRule#domain_id}
 	DomainId *string `field:"optional" json:"domainId" yaml:"domainId"`
 	// The tags that you attach to this case rule.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cases_case_rule#tags CasesCaseRule#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_case_rule#tags CasesCaseRule#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

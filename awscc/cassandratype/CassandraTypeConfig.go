@@ -24,15 +24,15 @@ type CassandraTypeConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Field definitions of the User-Defined Type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type#fields CassandraType#fields}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cassandra_type#fields CassandraType#fields}
 	Fields interface{} `field:"required" json:"fields" yaml:"fields"`
 	// Name of the Keyspace which contains the User-Defined Type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type#keyspace_name CassandraType#keyspace_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cassandra_type#keyspace_name CassandraType#keyspace_name}
 	KeyspaceName *string `field:"required" json:"keyspaceName" yaml:"keyspaceName"`
 	// Name of the User-Defined Type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cassandra_type#type_name CassandraType#type_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cassandra_type#type_name CassandraType#type_name}
 	TypeName *string `field:"required" json:"typeName" yaml:"typeName"`
 }
 

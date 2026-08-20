@@ -5,7 +5,7 @@ package ecsexpressgatewayservice
 
 
 type EcsExpressGatewayServicePrimaryContainerRepositoryCredentials struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ecs_express_gateway_service#credentials_parameter EcsExpressGatewayService#credentials_parameter}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_express_gateway_service#credentials_parameter EcsExpressGatewayService#credentials_parameter}.
 	CredentialsParameter *string `field:"optional" json:"credentialsParameter" yaml:"credentialsParameter"`
 }
 

@@ -38,6 +38,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "instanceArn", GoGetter: "InstanceArn"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lastModifiedRegion", GoGetter: "LastModifiedRegion"},
+			_jsii_.MemberProperty{JsiiProperty: "lastModifiedTime", GoGetter: "LastModifiedTime"},
 			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
 			_jsii_.MemberProperty{JsiiProperty: "maxContacts", GoGetter: "MaxContacts"},
 			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},

@@ -7,11 +7,11 @@ package kendrafaq
 type KendraFaqTags struct {
 	// A string used to identify this tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kendra_faq#key KendraFaq#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendra_faq#key KendraFaq#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// A string containing the value for the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kendra_faq#value KendraFaq#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kendra_faq#value KendraFaq#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

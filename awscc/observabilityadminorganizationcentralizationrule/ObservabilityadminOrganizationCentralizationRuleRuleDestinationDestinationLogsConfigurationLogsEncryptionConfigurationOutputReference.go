@@ -31,9 +31,6 @@ type ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationL
 	EncryptionConflictResolutionStrategy() *string
 	SetEncryptionConflictResolutionStrategy(val *string)
 	EncryptionConflictResolutionStrategyInput() *string
-	EncryptionScope() *string
-	SetEncryptionScope(val *string)
-	EncryptionScopeInput() *string
 	EncryptionStrategy() *string
 	SetEncryptionStrategy(val *string)
 	EncryptionStrategyInput() *string
@@ -77,7 +74,6 @@ type ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationL
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetEncryptionConflictResolutionStrategy()
-	ResetEncryptionScope()
 	ResetEncryptionStrategy()
 	ResetKmsKeyArn()
 	// Produce the Token's value at resolution time.
@@ -140,26 +136,6 @@ func (j *jsiiProxy_ObservabilityadminOrganizationCentralizationRuleRuleDestinati
 	_jsii_.Get(
 		j,
 		"encryptionConflictResolutionStrategyInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationLogsEncryptionConfigurationOutputReference) EncryptionScope() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"encryptionScope",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationLogsEncryptionConfigurationOutputReference) EncryptionScopeInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"encryptionScopeInput",
 		&returns,
 	)
 	return returns
@@ -302,17 +278,6 @@ func (j *jsiiProxy_ObservabilityadminOrganizationCentralizationRuleRuleDestinati
 	_jsii_.Set(
 		j,
 		"encryptionConflictResolutionStrategy",
-		val,
-	)
-}
-
-func (j *jsiiProxy_ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationLogsEncryptionConfigurationOutputReference)SetEncryptionScope(val *string) {
-	if err := j.validateSetEncryptionScopeParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"encryptionScope",
 		val,
 	)
 }
@@ -562,14 +527,6 @@ func (o *jsiiProxy_ObservabilityadminOrganizationCentralizationRuleRuleDestinati
 	_jsii_.InvokeVoid(
 		o,
 		"resetEncryptionConflictResolutionStrategy",
-		nil, // no parameters
-	)
-}
-
-func (o *jsiiProxy_ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationLogsEncryptionConfigurationOutputReference) ResetEncryptionScope() {
-	_jsii_.InvokeVoid(
-		o,
-		"resetEncryptionScope",
 		nil, // no parameters
 	)
 }

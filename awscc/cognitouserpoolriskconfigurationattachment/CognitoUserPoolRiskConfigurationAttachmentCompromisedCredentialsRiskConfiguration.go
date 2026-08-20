@@ -5,9 +5,9 @@ package cognitouserpoolriskconfigurationattachment
 
 
 type CognitoUserPoolRiskConfigurationAttachmentCompromisedCredentialsRiskConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_user_pool_risk_configuration_attachment#actions CognitoUserPoolRiskConfigurationAttachment#actions}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_risk_configuration_attachment#actions CognitoUserPoolRiskConfigurationAttachment#actions}.
 	Actions *CognitoUserPoolRiskConfigurationAttachmentCompromisedCredentialsRiskConfigurationActions `field:"optional" json:"actions" yaml:"actions"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cognito_user_pool_risk_configuration_attachment#event_filter CognitoUserPoolRiskConfigurationAttachment#event_filter}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_risk_configuration_attachment#event_filter CognitoUserPoolRiskConfigurationAttachment#event_filter}.
 	EventFilter *[]*string `field:"optional" json:"eventFilter" yaml:"eventFilter"`
 }
 

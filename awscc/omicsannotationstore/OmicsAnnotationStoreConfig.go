@@ -22,19 +22,19 @@ type OmicsAnnotationStoreConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_annotation_store#name OmicsAnnotationStore#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_annotation_store#name OmicsAnnotationStore#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_annotation_store#store_format OmicsAnnotationStore#store_format}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_annotation_store#store_format OmicsAnnotationStore#store_format}.
 	StoreFormat *string `field:"required" json:"storeFormat" yaml:"storeFormat"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_annotation_store#description OmicsAnnotationStore#description}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_annotation_store#description OmicsAnnotationStore#description}.
 	Description *string `field:"optional" json:"description" yaml:"description"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_annotation_store#reference OmicsAnnotationStore#reference}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_annotation_store#reference OmicsAnnotationStore#reference}.
 	Reference *OmicsAnnotationStoreReference `field:"optional" json:"reference" yaml:"reference"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_annotation_store#sse_config OmicsAnnotationStore#sse_config}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_annotation_store#sse_config OmicsAnnotationStore#sse_config}.
 	SseConfig *OmicsAnnotationStoreSseConfig `field:"optional" json:"sseConfig" yaml:"sseConfig"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_annotation_store#store_options OmicsAnnotationStore#store_options}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_annotation_store#store_options OmicsAnnotationStore#store_options}.
 	StoreOptions *OmicsAnnotationStoreStoreOptions `field:"optional" json:"storeOptions" yaml:"storeOptions"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_annotation_store#tags OmicsAnnotationStore#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_annotation_store#tags OmicsAnnotationStore#tags}.
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 }
 

@@ -5,7 +5,7 @@ package batchcomputeenvironment
 
 
 type BatchComputeEnvironmentComputeResourcesScalingPolicy struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/batch_compute_environment#min_scale_down_delay_minutes BatchComputeEnvironment#min_scale_down_delay_minutes}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/batch_compute_environment#min_scale_down_delay_minutes BatchComputeEnvironment#min_scale_down_delay_minutes}.
 	MinScaleDownDelayMinutes *float64 `field:"optional" json:"minScaleDownDelayMinutes" yaml:"minScaleDownDelayMinutes"`
 }
 

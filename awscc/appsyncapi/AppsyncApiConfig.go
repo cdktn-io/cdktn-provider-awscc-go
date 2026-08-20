@@ -24,19 +24,19 @@ type AppsyncApiConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the AppSync API.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_api#name AppsyncApi#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appsync_api#name AppsyncApi#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The configuration for an Event Api.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_api#event_config AppsyncApi#event_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appsync_api#event_config AppsyncApi#event_config}
 	EventConfig *AppsyncApiEventConfig `field:"optional" json:"eventConfig" yaml:"eventConfig"`
 	// The owner contact information for an API resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_api#owner_contact AppsyncApi#owner_contact}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appsync_api#owner_contact AppsyncApi#owner_contact}
 	OwnerContact *string `field:"optional" json:"ownerContact" yaml:"ownerContact"`
 	// An arbitrary set of tags (key-value pairs) for this AppSync API.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/appsync_api#tags AppsyncApi#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appsync_api#tags AppsyncApi#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

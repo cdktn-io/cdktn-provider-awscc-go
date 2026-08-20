@@ -9,7 +9,7 @@ type Ec2InstanceEnclaveOptions struct {
 	//
 	// otherwise, it is not enabled for AWS Nitro Enclaves.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_instance#enabled Ec2Instance#enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_instance#enabled Ec2Instance#enabled}
 	Enabled interface{} `field:"optional" json:"enabled" yaml:"enabled"`
 }
 

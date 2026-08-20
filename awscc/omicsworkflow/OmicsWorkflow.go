@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_workflow awscc_omics_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_workflow awscc_omics_workflow}.
 type OmicsWorkflow interface {
 	cdktn.TerraformResource
 	Accelerators() *string
@@ -661,7 +661,7 @@ func (j *jsiiProxy_OmicsWorkflow) WorkflowId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_workflow awscc_omics_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_workflow awscc_omics_workflow} Resource.
 func NewOmicsWorkflow(scope constructs.Construct, id *string, config *OmicsWorkflowConfig) OmicsWorkflow {
 	_init_.Initialize()
 
@@ -679,7 +679,7 @@ func NewOmicsWorkflow(scope constructs.Construct, id *string, config *OmicsWorkf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/omics_workflow awscc_omics_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_workflow awscc_omics_workflow} Resource.
 func NewOmicsWorkflow_Override(o OmicsWorkflow, scope constructs.Construct, id *string, config *OmicsWorkflowConfig) {
 	_init_.Initialize()
 

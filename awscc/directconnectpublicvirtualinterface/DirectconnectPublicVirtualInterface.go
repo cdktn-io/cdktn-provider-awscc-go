@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_public_virtual_interface awscc_directconnect_public_virtual_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_public_virtual_interface awscc_directconnect_public_virtual_interface}.
 type DirectconnectPublicVirtualInterface interface {
 	cdktn.TerraformResource
 	AllocatePublicVirtualInterfaceRoleArn() *string
@@ -565,7 +565,7 @@ func (j *jsiiProxy_DirectconnectPublicVirtualInterface) VlanInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_public_virtual_interface awscc_directconnect_public_virtual_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_public_virtual_interface awscc_directconnect_public_virtual_interface} Resource.
 func NewDirectconnectPublicVirtualInterface(scope constructs.Construct, id *string, config *DirectconnectPublicVirtualInterfaceConfig) DirectconnectPublicVirtualInterface {
 	_init_.Initialize()
 
@@ -583,7 +583,7 @@ func NewDirectconnectPublicVirtualInterface(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/directconnect_public_virtual_interface awscc_directconnect_public_virtual_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/directconnect_public_virtual_interface awscc_directconnect_public_virtual_interface} Resource.
 func NewDirectconnectPublicVirtualInterface_Override(d DirectconnectPublicVirtualInterface, scope constructs.Construct, id *string, config *DirectconnectPublicVirtualInterfaceConfig) {
 	_init_.Initialize()
 

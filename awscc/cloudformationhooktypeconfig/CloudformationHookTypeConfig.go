@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_type_config awscc_cloudformation_hook_type_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_hook_type_config awscc_cloudformation_hook_type_config}.
 type CloudformationHookTypeConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_CloudformationHookTypeConfig) TypeNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_type_config awscc_cloudformation_hook_type_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_hook_type_config awscc_cloudformation_hook_type_config} Resource.
 func NewCloudformationHookTypeConfig(scope constructs.Construct, id *string, config *CloudformationHookTypeConfigConfig) CloudformationHookTypeConfig {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewCloudformationHookTypeConfig(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/cloudformation_hook_type_config awscc_cloudformation_hook_type_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_hook_type_config awscc_cloudformation_hook_type_config} Resource.
 func NewCloudformationHookTypeConfig_Override(c CloudformationHookTypeConfig, scope constructs.Construct, id *string, config *CloudformationHookTypeConfigConfig) {
 	_init_.Initialize()
 

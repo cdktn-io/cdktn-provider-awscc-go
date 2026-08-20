@@ -7,11 +7,11 @@ package lambdanetworkconnector
 type LambdaNetworkConnectorTags struct {
 	// The key name of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_network_connector#key LambdaNetworkConnector#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_network_connector#key LambdaNetworkConnector#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value for the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/lambda_network_connector#value LambdaNetworkConnector#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_network_connector#value LambdaNetworkConnector#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

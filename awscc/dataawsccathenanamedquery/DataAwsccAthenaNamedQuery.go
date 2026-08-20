@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/athena_named_query awscc_athena_named_query}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/athena_named_query awscc_athena_named_query}.
 type DataAwsccAthenaNamedQuery interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccAthenaNamedQuery) WorkGroup() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/athena_named_query awscc_athena_named_query} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/athena_named_query awscc_athena_named_query} Data Source.
 func NewDataAwsccAthenaNamedQuery(scope constructs.Construct, id *string, config *DataAwsccAthenaNamedQueryConfig) DataAwsccAthenaNamedQuery {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccAthenaNamedQuery(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/athena_named_query awscc_athena_named_query} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/athena_named_query awscc_athena_named_query} Data Source.
 func NewDataAwsccAthenaNamedQuery_Override(d DataAwsccAthenaNamedQuery, scope constructs.Construct, id *string, config *DataAwsccAthenaNamedQueryConfig) {
 	_init_.Initialize()
 

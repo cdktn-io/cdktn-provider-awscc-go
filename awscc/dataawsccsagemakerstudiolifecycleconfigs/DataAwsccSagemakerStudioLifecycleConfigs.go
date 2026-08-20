@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_studio_lifecycle_configs awscc_sagemaker_studio_lifecycle_configs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_studio_lifecycle_configs awscc_sagemaker_studio_lifecycle_configs}.
 type DataAwsccSagemakerStudioLifecycleConfigs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSagemakerStudioLifecycleConfigs) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_studio_lifecycle_configs awscc_sagemaker_studio_lifecycle_configs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_studio_lifecycle_configs awscc_sagemaker_studio_lifecycle_configs} Data Source.
 func NewDataAwsccSagemakerStudioLifecycleConfigs(scope constructs.Construct, id *string, config *DataAwsccSagemakerStudioLifecycleConfigsConfig) DataAwsccSagemakerStudioLifecycleConfigs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSagemakerStudioLifecycleConfigs(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/sagemaker_studio_lifecycle_configs awscc_sagemaker_studio_lifecycle_configs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_studio_lifecycle_configs awscc_sagemaker_studio_lifecycle_configs} Data Source.
 func NewDataAwsccSagemakerStudioLifecycleConfigs_Override(d DataAwsccSagemakerStudioLifecycleConfigs, scope constructs.Construct, id *string, config *DataAwsccSagemakerStudioLifecycleConfigsConfig) {
 	_init_.Initialize()
 

@@ -1,3 +1,3 @@
 # `data_awscc_s3files_file_system_policies`
 
-Refer to the Terraform Registry for docs: [`data_awscc_s3files_file_system_policies`](https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/s3files_file_system_policies).
+Refer to the Terraform Registry for docs: [`data_awscc_s3files_file_system_policies`](https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3files_file_system_policies).

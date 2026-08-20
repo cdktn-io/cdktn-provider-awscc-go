@@ -5,9 +5,9 @@ package amplifyapp
 
 
 type AmplifyAppTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/amplify_app#key AmplifyApp#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_app#key AmplifyApp#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/amplify_app#value AmplifyApp#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/amplify_app#value AmplifyApp#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

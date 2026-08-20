@@ -7,11 +7,11 @@ package networkflowmonitormonitor
 type NetworkflowmonitorMonitorLocalResources struct {
 	// The identifier of the local resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkflowmonitor_monitor#identifier NetworkflowmonitorMonitor#identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkflowmonitor_monitor#identifier NetworkflowmonitorMonitor#identifier}
 	Identifier *string `field:"required" json:"identifier" yaml:"identifier"`
 	// The type of the local resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/networkflowmonitor_monitor#type NetworkflowmonitorMonitor#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkflowmonitor_monitor#type NetworkflowmonitorMonitor#type}
 	Type *string `field:"required" json:"type" yaml:"type"`
 }
 

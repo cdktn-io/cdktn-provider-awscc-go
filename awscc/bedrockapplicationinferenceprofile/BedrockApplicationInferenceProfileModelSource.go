@@ -10,7 +10,7 @@ type BedrockApplicationInferenceProfileModelSource struct {
 	// This
 	// can either be a foundation model or predefined inference profile ARN.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/bedrock_application_inference_profile#copy_from BedrockApplicationInferenceProfile#copy_from}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_application_inference_profile#copy_from BedrockApplicationInferenceProfile#copy_from}
 	CopyFrom *string `field:"optional" json:"copyFrom" yaml:"copyFrom"`
 }
 

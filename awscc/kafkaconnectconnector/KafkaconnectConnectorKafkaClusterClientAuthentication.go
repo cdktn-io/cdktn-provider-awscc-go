@@ -9,7 +9,7 @@ type KafkaconnectConnectorKafkaClusterClientAuthentication struct {
 	//
 	// Value NONE means that no client authentication is used.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/kafkaconnect_connector#authentication_type KafkaconnectConnector#authentication_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kafkaconnect_connector#authentication_type KafkaconnectConnector#authentication_type}
 	AuthenticationType *string `field:"required" json:"authenticationType" yaml:"authenticationType"`
 }
 

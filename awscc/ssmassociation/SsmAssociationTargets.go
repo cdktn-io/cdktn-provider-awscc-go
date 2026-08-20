@@ -5,9 +5,9 @@ package ssmassociation
 
 
 type SsmAssociationTargets struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_association#key SsmAssociation#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_association#key SsmAssociation#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ssm_association#values SsmAssociation#values}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_association#values SsmAssociation#values}.
 	Values *[]*string `field:"optional" json:"values" yaml:"values"`
 }
 

@@ -7,11 +7,11 @@ package devopsagentassociation
 type DevopsagentAssociationConfigurationMcpServerNewRelic struct {
 	// New Relic Account ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
 	AccountId *string `field:"optional" json:"accountId" yaml:"accountId"`
 	// MCP server endpoint URL (e.g., https://mcp.newrelic.com/mcp/).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 	Endpoint *string `field:"optional" json:"endpoint" yaml:"endpoint"`
 }
 

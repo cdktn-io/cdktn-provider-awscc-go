@@ -24,7 +24,7 @@ type Ec2SnapshotBlockPublicAccessConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The state of EBS Snapshot Block Public Access.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_snapshot_block_public_access#state Ec2SnapshotBlockPublicAccess#state}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_snapshot_block_public_access#state Ec2SnapshotBlockPublicAccess#state}
 	State *string `field:"required" json:"state" yaml:"state"`
 }
 

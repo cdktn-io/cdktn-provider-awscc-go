@@ -9,7 +9,7 @@ type Ec2LaunchTemplateLaunchTemplateDataInstanceRequirementsBaselinePerformanceF
 	//
 	// Currently, you can only specify a single reference across different instance type variations such as CPU manufacturers, architectures etc.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/ec2_launch_template#references Ec2LaunchTemplate#references}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_launch_template#references Ec2LaunchTemplate#references}
 	References interface{} `field:"optional" json:"references" yaml:"references"`
 }
 

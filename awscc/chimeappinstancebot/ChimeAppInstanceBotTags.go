@@ -7,11 +7,11 @@ package chimeappinstancebot
 type ChimeAppInstanceBotTags struct {
 	// The key in a tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chime_app_instance_bot#key ChimeAppInstanceBot#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_app_instance_bot#key ChimeAppInstanceBot#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value in a tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/chime_app_instance_bot#value ChimeAppInstanceBot#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_app_instance_bot#value ChimeAppInstanceBot#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

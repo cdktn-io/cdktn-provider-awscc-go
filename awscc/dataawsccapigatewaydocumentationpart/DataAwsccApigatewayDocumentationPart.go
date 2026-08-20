@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigateway_documentation_part awscc_apigateway_documentation_part}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigateway_documentation_part awscc_apigateway_documentation_part}.
 type DataAwsccApigatewayDocumentationPart interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccApigatewayDocumentationPart) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigateway_documentation_part awscc_apigateway_documentation_part} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigateway_documentation_part awscc_apigateway_documentation_part} Data Source.
 func NewDataAwsccApigatewayDocumentationPart(scope constructs.Construct, id *string, config *DataAwsccApigatewayDocumentationPartConfig) DataAwsccApigatewayDocumentationPart {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccApigatewayDocumentationPart(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/data-sources/apigateway_documentation_part awscc_apigateway_documentation_part} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigateway_documentation_part awscc_apigateway_documentation_part} Data Source.
 func NewDataAwsccApigatewayDocumentationPart_Override(d DataAwsccApigatewayDocumentationPart, scope constructs.Construct, id *string, config *DataAwsccApigatewayDocumentationPartConfig) {
 	_init_.Initialize()
 

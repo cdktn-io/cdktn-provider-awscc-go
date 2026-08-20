@@ -9,13 +9,13 @@ type ElasticacheServerlessCacheTags struct {
 	//
 	// You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with 'aws:'. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_serverless_cache#key ElasticacheServerlessCache#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticache_serverless_cache#key ElasticacheServerlessCache#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value for the tag.
 	//
 	// You can specify a value that is 0 to 256 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/elasticache_serverless_cache#value ElasticacheServerlessCache#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticache_serverless_cache#value ElasticacheServerlessCache#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

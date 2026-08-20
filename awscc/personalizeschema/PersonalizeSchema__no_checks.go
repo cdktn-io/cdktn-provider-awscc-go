@@ -79,6 +79,10 @@ func (p *jsiiProxy_PersonalizeSchema) validateOverrideLogicalIdParameters(newLog
 	return nil
 }
 
+func (p *jsiiProxy_PersonalizeSchema) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PersonalizeSchema) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }

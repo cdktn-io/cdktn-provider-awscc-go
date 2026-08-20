@@ -7,7 +7,7 @@ package sagemakerworkforce
 type SagemakerWorkforceSourceIpConfig struct {
 	// A list of one to ten Classless Inter-Domain Routing (CIDR) values.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/sagemaker_workforce#cidrs SagemakerWorkforce#cidrs}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_workforce#cidrs SagemakerWorkforce#cidrs}
 	Cidrs *[]*string `field:"optional" json:"cidrs" yaml:"cidrs"`
 }
 

@@ -5,9 +5,9 @@ package mediaconnectrouterinput
 
 
 type MediaconnectRouterInputTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#key MediaconnectRouterInput#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_router_input#key MediaconnectRouterInput#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/mediaconnect_router_input#value MediaconnectRouterInput#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_router_input#value MediaconnectRouterInput#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

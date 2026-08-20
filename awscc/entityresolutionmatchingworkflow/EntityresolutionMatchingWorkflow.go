@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/entityresolution_matching_workflow awscc_entityresolution_matching_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/entityresolution_matching_workflow awscc_entityresolution_matching_workflow}.
 type EntityresolutionMatchingWorkflow interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -575,7 +575,7 @@ func (j *jsiiProxy_EntityresolutionMatchingWorkflow) WorkflowNameInput() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/entityresolution_matching_workflow awscc_entityresolution_matching_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/entityresolution_matching_workflow awscc_entityresolution_matching_workflow} Resource.
 func NewEntityresolutionMatchingWorkflow(scope constructs.Construct, id *string, config *EntityresolutionMatchingWorkflowConfig) EntityresolutionMatchingWorkflow {
 	_init_.Initialize()
 
@@ -593,7 +593,7 @@ func NewEntityresolutionMatchingWorkflow(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.97.0/docs/resources/entityresolution_matching_workflow awscc_entityresolution_matching_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/entityresolution_matching_workflow awscc_entityresolution_matching_workflow} Resource.
 func NewEntityresolutionMatchingWorkflow_Override(e EntityresolutionMatchingWorkflow, scope constructs.Construct, id *string, config *EntityresolutionMatchingWorkflowConfig) {
 	_init_.Initialize()
 

@@ -83,6 +83,10 @@ func (p *jsiiProxy_PersonalizeSolution) validatePutSolutionConfigParameters(valu
 	return nil
 }
 
+func (p *jsiiProxy_PersonalizeSolution) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PersonalizeSolution) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
