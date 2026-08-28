@@ -9,7 +9,7 @@ type EksClusterOutpostConfigEtcdPlacement struct {
 	//
 	// If not provided, EKS will deploy etcd instances without a placement group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_cluster#spread_level EksCluster#spread_level}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#spread_level EksCluster#spread_level}
 	SpreadLevel *string `field:"optional" json:"spreadLevel" yaml:"spreadLevel"`
 }
 

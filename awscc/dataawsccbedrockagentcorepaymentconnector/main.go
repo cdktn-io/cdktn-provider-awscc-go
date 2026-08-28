@@ -15,6 +15,7 @@ func init() {
 		reflect.TypeOf((*DataAwsccBedrockagentcorePaymentConnector)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "authorizationUrl", GoGetter: "AuthorizationUrl"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
 			_jsii_.MemberProperty{JsiiProperty: "connectorCreatedAt", GoGetter: "ConnectorCreatedAt"},
 			_jsii_.MemberProperty{JsiiProperty: "connectorLastUpdatedAt", GoGetter: "ConnectorLastUpdatedAt"},
@@ -48,6 +49,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "paymentConnectorId", GoGetter: "PaymentConnectorId"},
 			_jsii_.MemberProperty{JsiiProperty: "paymentManagerId", GoGetter: "PaymentManagerId"},
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "provisionMode", GoGetter: "ProvisionMode"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},

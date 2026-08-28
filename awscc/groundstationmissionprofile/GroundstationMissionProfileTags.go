@@ -5,9 +5,9 @@ package groundstationmissionprofile
 
 
 type GroundstationMissionProfileTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/groundstation_mission_profile#key GroundstationMissionProfile#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/groundstation_mission_profile#key GroundstationMissionProfile#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/groundstation_mission_profile#value GroundstationMissionProfile#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/groundstation_mission_profile#value GroundstationMissionProfile#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

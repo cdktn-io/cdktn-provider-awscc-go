@@ -7,11 +7,11 @@ package sagemakerartifact
 type SagemakerArtifactTags struct {
 	// The tag key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#key SagemakerArtifact#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_artifact#key SagemakerArtifact#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The tag value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_artifact#value SagemakerArtifact#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_artifact#value SagemakerArtifact#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

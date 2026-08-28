@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_browser_custom awscc_bedrockagentcore_browser_custom}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_browser_custom awscc_bedrockagentcore_browser_custom}.
 type BedrockagentcoreBrowserCustom interface {
 	cdktn.TerraformResource
 	BrowserArn() *string
@@ -635,7 +635,7 @@ func (j *jsiiProxy_BedrockagentcoreBrowserCustom) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_browser_custom awscc_bedrockagentcore_browser_custom} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_browser_custom awscc_bedrockagentcore_browser_custom} Resource.
 func NewBedrockagentcoreBrowserCustom(scope constructs.Construct, id *string, config *BedrockagentcoreBrowserCustomConfig) BedrockagentcoreBrowserCustom {
 	_init_.Initialize()
 
@@ -653,7 +653,7 @@ func NewBedrockagentcoreBrowserCustom(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_browser_custom awscc_bedrockagentcore_browser_custom} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_browser_custom awscc_bedrockagentcore_browser_custom} Resource.
 func NewBedrockagentcoreBrowserCustom_Override(b BedrockagentcoreBrowserCustom, scope constructs.Construct, id *string, config *BedrockagentcoreBrowserCustomConfig) {
 	_init_.Initialize()
 

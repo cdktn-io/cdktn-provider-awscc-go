@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/xray_transaction_search_configs awscc_xray_transaction_search_configs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/xray_transaction_search_configs awscc_xray_transaction_search_configs}.
 type DataAwsccXrayTransactionSearchConfigs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccXrayTransactionSearchConfigs) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/xray_transaction_search_configs awscc_xray_transaction_search_configs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/xray_transaction_search_configs awscc_xray_transaction_search_configs} Data Source.
 func NewDataAwsccXrayTransactionSearchConfigs(scope constructs.Construct, id *string, config *DataAwsccXrayTransactionSearchConfigsConfig) DataAwsccXrayTransactionSearchConfigs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccXrayTransactionSearchConfigs(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/xray_transaction_search_configs awscc_xray_transaction_search_configs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/xray_transaction_search_configs awscc_xray_transaction_search_configs} Data Source.
 func NewDataAwsccXrayTransactionSearchConfigs_Override(d DataAwsccXrayTransactionSearchConfigs, scope constructs.Construct, id *string, config *DataAwsccXrayTransactionSearchConfigsConfig) {
 	_init_.Initialize()
 

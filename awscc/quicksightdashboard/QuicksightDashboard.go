@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_dashboard awscc_quicksight_dashboard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_dashboard awscc_quicksight_dashboard}.
 type QuicksightDashboard interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -647,7 +647,7 @@ func (j *jsiiProxy_QuicksightDashboard) VersionDescriptionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_dashboard awscc_quicksight_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_dashboard awscc_quicksight_dashboard} Resource.
 func NewQuicksightDashboard(scope constructs.Construct, id *string, config *QuicksightDashboardConfig) QuicksightDashboard {
 	_init_.Initialize()
 
@@ -665,7 +665,7 @@ func NewQuicksightDashboard(scope constructs.Construct, id *string, config *Quic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_dashboard awscc_quicksight_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_dashboard awscc_quicksight_dashboard} Resource.
 func NewQuicksightDashboard_Override(q QuicksightDashboard, scope constructs.Construct, id *string, config *QuicksightDashboardConfig) {
 	_init_.Initialize()
 

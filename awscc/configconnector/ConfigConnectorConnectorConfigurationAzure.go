@@ -7,11 +7,11 @@ package configconnector
 type ConfigConnectorConnectorConfigurationAzure struct {
 	// The Azure client (application) identifier.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector#client_identifier ConfigConnector#client_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/config_connector#client_identifier ConfigConnector#client_identifier}
 	ClientIdentifier *string `field:"optional" json:"clientIdentifier" yaml:"clientIdentifier"`
 	// The Azure tenant identifier.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/config_connector#tenant_identifier ConfigConnector#tenant_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/config_connector#tenant_identifier ConfigConnector#tenant_identifier}
 	TenantIdentifier *string `field:"optional" json:"tenantIdentifier" yaml:"tenantIdentifier"`
 }
 

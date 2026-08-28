@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkmanager_site_to_site_vpn_attachments awscc_networkmanager_site_to_site_vpn_attachments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkmanager_site_to_site_vpn_attachments awscc_networkmanager_site_to_site_vpn_attachments}.
 type DataAwsccNetworkmanagerSiteToSiteVpnAttachments interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNetworkmanagerSiteToSiteVpnAttachments) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkmanager_site_to_site_vpn_attachments awscc_networkmanager_site_to_site_vpn_attachments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkmanager_site_to_site_vpn_attachments awscc_networkmanager_site_to_site_vpn_attachments} Data Source.
 func NewDataAwsccNetworkmanagerSiteToSiteVpnAttachments(scope constructs.Construct, id *string, config *DataAwsccNetworkmanagerSiteToSiteVpnAttachmentsConfig) DataAwsccNetworkmanagerSiteToSiteVpnAttachments {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNetworkmanagerSiteToSiteVpnAttachments(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkmanager_site_to_site_vpn_attachments awscc_networkmanager_site_to_site_vpn_attachments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkmanager_site_to_site_vpn_attachments awscc_networkmanager_site_to_site_vpn_attachments} Data Source.
 func NewDataAwsccNetworkmanagerSiteToSiteVpnAttachments_Override(d DataAwsccNetworkmanagerSiteToSiteVpnAttachments, scope constructs.Construct, id *string, config *DataAwsccNetworkmanagerSiteToSiteVpnAttachmentsConfig) {
 	_init_.Initialize()
 

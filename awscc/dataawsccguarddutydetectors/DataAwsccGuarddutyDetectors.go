@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/guardduty_detectors awscc_guardduty_detectors}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/guardduty_detectors awscc_guardduty_detectors}.
 type DataAwsccGuarddutyDetectors interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGuarddutyDetectors) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/guardduty_detectors awscc_guardduty_detectors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/guardduty_detectors awscc_guardduty_detectors} Data Source.
 func NewDataAwsccGuarddutyDetectors(scope constructs.Construct, id *string, config *DataAwsccGuarddutyDetectorsConfig) DataAwsccGuarddutyDetectors {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGuarddutyDetectors(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/guardduty_detectors awscc_guardduty_detectors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/guardduty_detectors awscc_guardduty_detectors} Data Source.
 func NewDataAwsccGuarddutyDetectors_Override(d DataAwsccGuarddutyDetectors, scope constructs.Construct, id *string, config *DataAwsccGuarddutyDetectorsConfig) {
 	_init_.Initialize()
 

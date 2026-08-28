@@ -7,11 +7,11 @@ package neptunegraphgraphsnapshot
 type NeptunegraphGraphSnapshotTags struct {
 	// The key name of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/neptunegraph_graph_snapshot#key NeptunegraphGraphSnapshot#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/neptunegraph_graph_snapshot#key NeptunegraphGraphSnapshot#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value for the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/neptunegraph_graph_snapshot#value NeptunegraphGraphSnapshot#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/neptunegraph_graph_snapshot#value NeptunegraphGraphSnapshot#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

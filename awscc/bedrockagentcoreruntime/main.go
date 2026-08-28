@@ -25,6 +25,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "agentRuntimeVersion", GoGetter: "AgentRuntimeVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "authorizerConfiguration", GoGetter: "AuthorizerConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "authorizerConfigurationInput", GoGetter: "AuthorizerConfigurationInput"},
+			_jsii_.MemberProperty{JsiiProperty: "capacityProviderConfiguration", GoGetter: "CapacityProviderConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "capacityProviderConfigurationInput", GoGetter: "CapacityProviderConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
 			_jsii_.MemberProperty{JsiiProperty: "connection", GoGetter: "Connection"},
 			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
@@ -72,6 +74,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
 			_jsii_.MemberMethod{JsiiMethod: "putAgentRuntimeArtifact", GoMethod: "PutAgentRuntimeArtifact"},
 			_jsii_.MemberMethod{JsiiMethod: "putAuthorizerConfiguration", GoMethod: "PutAuthorizerConfiguration"},
+			_jsii_.MemberMethod{JsiiMethod: "putCapacityProviderConfiguration", GoMethod: "PutCapacityProviderConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putFilesystemConfigurations", GoMethod: "PutFilesystemConfigurations"},
 			_jsii_.MemberMethod{JsiiMethod: "putLifecycleConfiguration", GoMethod: "PutLifecycleConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putNetworkConfiguration", GoMethod: "PutNetworkConfiguration"},
@@ -81,10 +84,12 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "requestHeaderConfiguration", GoGetter: "RequestHeaderConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "requestHeaderConfigurationInput", GoGetter: "RequestHeaderConfigurationInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAuthorizerConfiguration", GoMethod: "ResetAuthorizerConfiguration"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCapacityProviderConfiguration", GoMethod: "ResetCapacityProviderConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEnvironmentVariables", GoMethod: "ResetEnvironmentVariables"},
 			_jsii_.MemberMethod{JsiiMethod: "resetFilesystemConfigurations", GoMethod: "ResetFilesystemConfigurations"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLifecycleConfiguration", GoMethod: "ResetLifecycleConfiguration"},
+			_jsii_.MemberMethod{JsiiMethod: "resetNetworkConfiguration", GoMethod: "ResetNetworkConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetProtocolConfiguration", GoMethod: "ResetProtocolConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRequestHeaderConfiguration", GoMethod: "ResetRequestHeaderConfiguration"},
@@ -1027,12 +1032,93 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.bedrockagentcoreRuntime.BedrockagentcoreRuntimeCapacityProviderConfiguration",
+		reflect.TypeOf((*BedrockagentcoreRuntimeCapacityProviderConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.bedrockagentcoreRuntime.BedrockagentcoreRuntimeCapacityProviderConfigurationOutputReference",
+		reflect.TypeOf((*BedrockagentcoreRuntimeCapacityProviderConfigurationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "capacityProviderArn", GoGetter: "CapacityProviderArn"},
+			_jsii_.MemberProperty{JsiiProperty: "capacityProviderArnInput", GoGetter: "CapacityProviderArnInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCapacityProviderArn", GoMethod: "ResetCapacityProviderArn"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_BedrockagentcoreRuntimeCapacityProviderConfigurationOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-awscc.bedrockagentcoreRuntime.BedrockagentcoreRuntimeConfig",
 		reflect.TypeOf((*BedrockagentcoreRuntimeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-awscc.bedrockagentcoreRuntime.BedrockagentcoreRuntimeFilesystemConfigurations",
 		reflect.TypeOf((*BedrockagentcoreRuntimeFilesystemConfigurations)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.bedrockagentcoreRuntime.BedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolume",
+		reflect.TypeOf((*BedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolume)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.bedrockagentcoreRuntime.BedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolumeOutputReference",
+		reflect.TypeOf((*BedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolumeOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "mountPath", GoGetter: "MountPath"},
+			_jsii_.MemberProperty{JsiiProperty: "mountPathInput", GoGetter: "MountPathInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMountPath", GoMethod: "ResetMountPath"},
+			_jsii_.MemberMethod{JsiiMethod: "resetVolumeName", GoMethod: "ResetVolumeName"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "volumeName", GoGetter: "VolumeName"},
+			_jsii_.MemberProperty{JsiiProperty: "volumeNameInput", GoGetter: "VolumeNameInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_BedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolumeOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
 	)
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-awscc.bedrockagentcoreRuntime.BedrockagentcoreRuntimeFilesystemConfigurationsEfsAccessPoint",
@@ -1102,6 +1188,8 @@ func init() {
 		"@cdktn/provider-awscc.bedrockagentcoreRuntime.BedrockagentcoreRuntimeFilesystemConfigurationsOutputReference",
 		reflect.TypeOf((*BedrockagentcoreRuntimeFilesystemConfigurationsOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "capacityProviderVolume", GoGetter: "CapacityProviderVolume"},
+			_jsii_.MemberProperty{JsiiProperty: "capacityProviderVolumeInput", GoGetter: "CapacityProviderVolumeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1121,9 +1209,11 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "putCapacityProviderVolume", GoMethod: "PutCapacityProviderVolume"},
 			_jsii_.MemberMethod{JsiiMethod: "putEfsAccessPoint", GoMethod: "PutEfsAccessPoint"},
 			_jsii_.MemberMethod{JsiiMethod: "putS3FilesAccessPoint", GoMethod: "PutS3FilesAccessPoint"},
 			_jsii_.MemberMethod{JsiiMethod: "putSessionStorage", GoMethod: "PutSessionStorage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCapacityProviderVolume", GoMethod: "ResetCapacityProviderVolume"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEfsAccessPoint", GoMethod: "ResetEfsAccessPoint"},
 			_jsii_.MemberMethod{JsiiMethod: "resetS3FilesAccessPoint", GoMethod: "ResetS3FilesAccessPoint"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSessionStorage", GoMethod: "ResetSessionStorage"},
@@ -1337,6 +1427,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "networkModeConfigInput", GoGetter: "NetworkModeConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "networkModeInput", GoGetter: "NetworkModeInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putNetworkModeConfig", GoMethod: "PutNetworkModeConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resetNetworkMode", GoMethod: "ResetNetworkMode"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNetworkModeConfig", GoMethod: "ResetNetworkModeConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},

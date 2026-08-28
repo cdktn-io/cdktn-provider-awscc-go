@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/directconnect_transit_virtual_interfaces awscc_directconnect_transit_virtual_interfaces}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/directconnect_transit_virtual_interfaces awscc_directconnect_transit_virtual_interfaces}.
 type DataAwsccDirectconnectTransitVirtualInterfaces interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDirectconnectTransitVirtualInterfaces) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/directconnect_transit_virtual_interfaces awscc_directconnect_transit_virtual_interfaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/directconnect_transit_virtual_interfaces awscc_directconnect_transit_virtual_interfaces} Data Source.
 func NewDataAwsccDirectconnectTransitVirtualInterfaces(scope constructs.Construct, id *string, config *DataAwsccDirectconnectTransitVirtualInterfacesConfig) DataAwsccDirectconnectTransitVirtualInterfaces {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDirectconnectTransitVirtualInterfaces(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/directconnect_transit_virtual_interfaces awscc_directconnect_transit_virtual_interfaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/directconnect_transit_virtual_interfaces awscc_directconnect_transit_virtual_interfaces} Data Source.
 func NewDataAwsccDirectconnectTransitVirtualInterfaces_Override(d DataAwsccDirectconnectTransitVirtualInterfaces, scope constructs.Construct, id *string, config *DataAwsccDirectconnectTransitVirtualInterfacesConfig) {
 	_init_.Initialize()
 

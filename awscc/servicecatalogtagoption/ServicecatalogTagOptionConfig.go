@@ -24,15 +24,15 @@ type ServicecatalogTagOptionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The TagOption key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_tag_option#key ServicecatalogTagOption#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_tag_option#key ServicecatalogTagOption#key}
 	Key *string `field:"required" json:"key" yaml:"key"`
 	// The TagOption value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_tag_option#value ServicecatalogTagOption#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_tag_option#value ServicecatalogTagOption#value}
 	Value *string `field:"required" json:"value" yaml:"value"`
 	// The TagOption active state.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_tag_option#active ServicecatalogTagOption#active}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_tag_option#active ServicecatalogTagOption#active}
 	Active interface{} `field:"optional" json:"active" yaml:"active"`
 }
 

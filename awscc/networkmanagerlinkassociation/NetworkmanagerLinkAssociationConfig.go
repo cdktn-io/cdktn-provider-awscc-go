@@ -24,15 +24,15 @@ type NetworkmanagerLinkAssociationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID of the device.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_link_association#device_id NetworkmanagerLinkAssociation#device_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_link_association#device_id NetworkmanagerLinkAssociation#device_id}
 	DeviceId *string `field:"required" json:"deviceId" yaml:"deviceId"`
 	// The ID of the global network.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_link_association#global_network_id NetworkmanagerLinkAssociation#global_network_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_link_association#global_network_id NetworkmanagerLinkAssociation#global_network_id}
 	GlobalNetworkId *string `field:"required" json:"globalNetworkId" yaml:"globalNetworkId"`
 	// The ID of the link.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/networkmanager_link_association#link_id NetworkmanagerLinkAssociation#link_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkmanager_link_association#link_id NetworkmanagerLinkAssociation#link_id}
 	LinkId *string `field:"required" json:"linkId" yaml:"linkId"`
 }
 

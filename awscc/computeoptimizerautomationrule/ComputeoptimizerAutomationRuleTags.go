@@ -5,9 +5,9 @@ package computeoptimizerautomationrule
 
 
 type ComputeoptimizerAutomationRuleTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/computeoptimizer_automation_rule#key ComputeoptimizerAutomationRule#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/computeoptimizer_automation_rule#key ComputeoptimizerAutomationRule#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/computeoptimizer_automation_rule#value ComputeoptimizerAutomationRule#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/computeoptimizer_automation_rule#value ComputeoptimizerAutomationRule#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

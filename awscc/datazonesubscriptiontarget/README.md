@@ -1,3 +1,3 @@
 # `awscc_datazone_subscription_target`
 
-Refer to the Terraform Registry for docs: [`awscc_datazone_subscription_target`](https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_subscription_target).
+Refer to the Terraform Registry for docs: [`awscc_datazone_subscription_target`](https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target).

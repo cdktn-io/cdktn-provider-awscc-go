@@ -5,7 +5,7 @@ package bedrockagentcorememory
 
 
 type BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationSelfManagedConfigurationTriggerConditionsTokenBasedTrigger struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_memory#token_count BedrockagentcoreMemory#token_count}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#token_count BedrockagentcoreMemory#token_count}.
 	TokenCount *float64 `field:"optional" json:"tokenCount" yaml:"tokenCount"`
 }
 

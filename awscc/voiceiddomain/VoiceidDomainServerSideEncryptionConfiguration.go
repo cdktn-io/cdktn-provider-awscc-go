@@ -5,7 +5,7 @@ package voiceiddomain
 
 
 type VoiceidDomainServerSideEncryptionConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/voiceid_domain#kms_key_id VoiceidDomain#kms_key_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/voiceid_domain#kms_key_id VoiceidDomain#kms_key_id}.
 	KmsKeyId *string `field:"required" json:"kmsKeyId" yaml:"kmsKeyId"`
 }
 

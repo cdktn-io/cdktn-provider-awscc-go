@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_gateways awscc_bedrockagentcore_gateways}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_gateways awscc_bedrockagentcore_gateways}.
 type DataAwsccBedrockagentcoreGateways interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreGateways) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_gateways awscc_bedrockagentcore_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_gateways awscc_bedrockagentcore_gateways} Data Source.
 func NewDataAwsccBedrockagentcoreGateways(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreGatewaysConfig) DataAwsccBedrockagentcoreGateways {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockagentcoreGateways(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_gateways awscc_bedrockagentcore_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_gateways awscc_bedrockagentcore_gateways} Data Source.
 func NewDataAwsccBedrockagentcoreGateways_Override(d DataAwsccBedrockagentcoreGateways, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreGatewaysConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appconfig_extension_association awscc_appconfig_extension_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appconfig_extension_association awscc_appconfig_extension_association}.
 type DataAwsccAppconfigExtensionAssociation interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccAppconfigExtensionAssociation) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appconfig_extension_association awscc_appconfig_extension_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appconfig_extension_association awscc_appconfig_extension_association} Data Source.
 func NewDataAwsccAppconfigExtensionAssociation(scope constructs.Construct, id *string, config *DataAwsccAppconfigExtensionAssociationConfig) DataAwsccAppconfigExtensionAssociation {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccAppconfigExtensionAssociation(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appconfig_extension_association awscc_appconfig_extension_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appconfig_extension_association awscc_appconfig_extension_association} Data Source.
 func NewDataAwsccAppconfigExtensionAssociation_Override(d DataAwsccAppconfigExtensionAssociation, scope constructs.Construct, id *string, config *DataAwsccAppconfigExtensionAssociationConfig) {
 	_init_.Initialize()
 

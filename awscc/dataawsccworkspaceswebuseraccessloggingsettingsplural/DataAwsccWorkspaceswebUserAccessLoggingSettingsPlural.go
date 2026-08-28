@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/workspacesweb_user_access_logging_settings_plural awscc_workspacesweb_user_access_logging_settings_plural}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/workspacesweb_user_access_logging_settings_plural awscc_workspacesweb_user_access_logging_settings_plural}.
 type DataAwsccWorkspaceswebUserAccessLoggingSettingsPlural interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccWorkspaceswebUserAccessLoggingSettingsPlural) Terraf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/workspacesweb_user_access_logging_settings_plural awscc_workspacesweb_user_access_logging_settings_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/workspacesweb_user_access_logging_settings_plural awscc_workspacesweb_user_access_logging_settings_plural} Data Source.
 func NewDataAwsccWorkspaceswebUserAccessLoggingSettingsPlural(scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebUserAccessLoggingSettingsPluralConfig) DataAwsccWorkspaceswebUserAccessLoggingSettingsPlural {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccWorkspaceswebUserAccessLoggingSettingsPlural(scope constructs.C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/workspacesweb_user_access_logging_settings_plural awscc_workspacesweb_user_access_logging_settings_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/workspacesweb_user_access_logging_settings_plural awscc_workspacesweb_user_access_logging_settings_plural} Data Source.
 func NewDataAwsccWorkspaceswebUserAccessLoggingSettingsPlural_Override(d DataAwsccWorkspaceswebUserAccessLoggingSettingsPlural, scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebUserAccessLoggingSettingsPluralConfig) {
 	_init_.Initialize()
 

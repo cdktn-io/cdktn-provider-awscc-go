@@ -7,7 +7,7 @@ package agentregistryregistryrecord
 type AgentregistryRegistryRecordDescriptorsCustom struct {
 	// Descriptor payload data.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/agentregistry_registry_record#data AgentregistryRegistryRecord#data}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/agentregistry_registry_record#data AgentregistryRegistryRecord#data}
 	Data *string `field:"optional" json:"data" yaml:"data"`
 }
 

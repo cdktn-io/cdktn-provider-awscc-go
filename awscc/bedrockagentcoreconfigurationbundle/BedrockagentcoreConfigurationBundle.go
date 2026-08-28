@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_configuration_bundle awscc_bedrockagentcore_configuration_bundle}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_configuration_bundle awscc_bedrockagentcore_configuration_bundle}.
 type BedrockagentcoreConfigurationBundle interface {
 	cdktn.TerraformResource
 	BranchName() *string
@@ -611,7 +611,7 @@ func (j *jsiiProxy_BedrockagentcoreConfigurationBundle) VersionId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_configuration_bundle awscc_bedrockagentcore_configuration_bundle} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_configuration_bundle awscc_bedrockagentcore_configuration_bundle} Resource.
 func NewBedrockagentcoreConfigurationBundle(scope constructs.Construct, id *string, config *BedrockagentcoreConfigurationBundleConfig) BedrockagentcoreConfigurationBundle {
 	_init_.Initialize()
 
@@ -629,7 +629,7 @@ func NewBedrockagentcoreConfigurationBundle(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_configuration_bundle awscc_bedrockagentcore_configuration_bundle} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_configuration_bundle awscc_bedrockagentcore_configuration_bundle} Resource.
 func NewBedrockagentcoreConfigurationBundle_Override(b BedrockagentcoreConfigurationBundle, scope constructs.Construct, id *string, config *BedrockagentcoreConfigurationBundleConfig) {
 	_init_.Initialize()
 

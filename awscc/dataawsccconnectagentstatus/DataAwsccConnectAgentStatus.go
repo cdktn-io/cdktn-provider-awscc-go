@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/connect_agent_status awscc_connect_agent_status}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/connect_agent_status awscc_connect_agent_status}.
 type DataAwsccConnectAgentStatus interface {
 	cdktn.TerraformDataSource
 	AgentStatusArn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccConnectAgentStatus) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/connect_agent_status awscc_connect_agent_status} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/connect_agent_status awscc_connect_agent_status} Data Source.
 func NewDataAwsccConnectAgentStatus(scope constructs.Construct, id *string, config *DataAwsccConnectAgentStatusConfig) DataAwsccConnectAgentStatus {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccConnectAgentStatus(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/connect_agent_status awscc_connect_agent_status} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/connect_agent_status awscc_connect_agent_status} Data Source.
 func NewDataAwsccConnectAgentStatus_Override(d DataAwsccConnectAgentStatus, scope constructs.Construct, id *string, config *DataAwsccConnectAgentStatusConfig) {
 	_init_.Initialize()
 

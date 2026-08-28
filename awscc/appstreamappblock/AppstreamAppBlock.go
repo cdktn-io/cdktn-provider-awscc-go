@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_app_block awscc_appstream_app_block}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_app_block awscc_appstream_app_block}.
 type AppstreamAppBlock interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -567,7 +567,7 @@ func (j *jsiiProxy_AppstreamAppBlock) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_app_block awscc_appstream_app_block} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_app_block awscc_appstream_app_block} Resource.
 func NewAppstreamAppBlock(scope constructs.Construct, id *string, config *AppstreamAppBlockConfig) AppstreamAppBlock {
 	_init_.Initialize()
 
@@ -585,7 +585,7 @@ func NewAppstreamAppBlock(scope constructs.Construct, id *string, config *Appstr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appstream_app_block awscc_appstream_app_block} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appstream_app_block awscc_appstream_app_block} Resource.
 func NewAppstreamAppBlock_Override(a AppstreamAppBlock, scope constructs.Construct, id *string, config *AppstreamAppBlockConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/guardduty_publishing_destinations awscc_guardduty_publishing_destinations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/guardduty_publishing_destinations awscc_guardduty_publishing_destinations}.
 type DataAwsccGuarddutyPublishingDestinations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGuarddutyPublishingDestinations) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/guardduty_publishing_destinations awscc_guardduty_publishing_destinations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/guardduty_publishing_destinations awscc_guardduty_publishing_destinations} Data Source.
 func NewDataAwsccGuarddutyPublishingDestinations(scope constructs.Construct, id *string, config *DataAwsccGuarddutyPublishingDestinationsConfig) DataAwsccGuarddutyPublishingDestinations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGuarddutyPublishingDestinations(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/guardduty_publishing_destinations awscc_guardduty_publishing_destinations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/guardduty_publishing_destinations awscc_guardduty_publishing_destinations} Data Source.
 func NewDataAwsccGuarddutyPublishingDestinations_Override(d DataAwsccGuarddutyPublishingDestinations, scope constructs.Construct, id *string, config *DataAwsccGuarddutyPublishingDestinationsConfig) {
 	_init_.Initialize()
 

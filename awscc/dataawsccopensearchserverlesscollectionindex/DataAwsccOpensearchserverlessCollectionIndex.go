@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/opensearchserverless_collection_index awscc_opensearchserverless_collection_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/opensearchserverless_collection_index awscc_opensearchserverless_collection_index}.
 type DataAwsccOpensearchserverlessCollectionIndex interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccOpensearchserverlessCollectionIndex) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/opensearchserverless_collection_index awscc_opensearchserverless_collection_index} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/opensearchserverless_collection_index awscc_opensearchserverless_collection_index} Data Source.
 func NewDataAwsccOpensearchserverlessCollectionIndex(scope constructs.Construct, id *string, config *DataAwsccOpensearchserverlessCollectionIndexConfig) DataAwsccOpensearchserverlessCollectionIndex {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccOpensearchserverlessCollectionIndex(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/opensearchserverless_collection_index awscc_opensearchserverless_collection_index} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/opensearchserverless_collection_index awscc_opensearchserverless_collection_index} Data Source.
 func NewDataAwsccOpensearchserverlessCollectionIndex_Override(d DataAwsccOpensearchserverlessCollectionIndex, scope constructs.Construct, id *string, config *DataAwsccOpensearchserverlessCollectionIndexConfig) {
 	_init_.Initialize()
 

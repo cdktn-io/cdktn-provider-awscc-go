@@ -22,23 +22,23 @@ type DeadlineMonitorConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#display_name DeadlineMonitor#display_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#display_name DeadlineMonitor#display_name}.
 	DisplayName *string `field:"required" json:"displayName" yaml:"displayName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#identity_center_instance_arn DeadlineMonitor#identity_center_instance_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#identity_center_instance_arn DeadlineMonitor#identity_center_instance_arn}.
 	IdentityCenterInstanceArn *string `field:"required" json:"identityCenterInstanceArn" yaml:"identityCenterInstanceArn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#role_arn DeadlineMonitor#role_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#role_arn DeadlineMonitor#role_arn}.
 	RoleArn *string `field:"required" json:"roleArn" yaml:"roleArn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#subdomain DeadlineMonitor#subdomain}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#subdomain DeadlineMonitor#subdomain}.
 	Subdomain *string `field:"required" json:"subdomain" yaml:"subdomain"`
 	// The AWS region where IAM Identity Center is enabled.
 	//
 	// Required when Identity Center is in a different region than the monitor.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#identity_center_region DeadlineMonitor#identity_center_region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#identity_center_region DeadlineMonitor#identity_center_region}
 	IdentityCenterRegion *string `field:"optional" json:"identityCenterRegion" yaml:"identityCenterRegion"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/deadline_monitor#tags DeadlineMonitor#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_monitor#tags DeadlineMonitor#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

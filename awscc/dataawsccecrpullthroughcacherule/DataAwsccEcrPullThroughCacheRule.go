@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ecr_pull_through_cache_rule awscc_ecr_pull_through_cache_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecr_pull_through_cache_rule awscc_ecr_pull_through_cache_rule}.
 type DataAwsccEcrPullThroughCacheRule interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccEcrPullThroughCacheRule) UpstreamRepositoryPrefix() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ecr_pull_through_cache_rule awscc_ecr_pull_through_cache_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecr_pull_through_cache_rule awscc_ecr_pull_through_cache_rule} Data Source.
 func NewDataAwsccEcrPullThroughCacheRule(scope constructs.Construct, id *string, config *DataAwsccEcrPullThroughCacheRuleConfig) DataAwsccEcrPullThroughCacheRule {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccEcrPullThroughCacheRule(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ecr_pull_through_cache_rule awscc_ecr_pull_through_cache_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecr_pull_through_cache_rule awscc_ecr_pull_through_cache_rule} Data Source.
 func NewDataAwsccEcrPullThroughCacheRule_Override(d DataAwsccEcrPullThroughCacheRule, scope constructs.Construct, id *string, config *DataAwsccEcrPullThroughCacheRuleConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_rule awscc_events_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_rule awscc_events_rule}.
 type EventsRule interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -72,6 +72,7 @@ type EventsRule interface {
 	RoleArn() *string
 	SetRoleArn(val *string)
 	RoleArnInput() *string
+	RuleName() *string
 	ScheduleExpression() *string
 	SetScheduleExpression(val *string)
 	ScheduleExpressionInput() *string
@@ -471,6 +472,16 @@ func (j *jsiiProxy_EventsRule) RoleArnInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_EventsRule) RuleName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ruleName",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_EventsRule) ScheduleExpression() *string {
 	var returns *string
 	_jsii_.Get(
@@ -582,7 +593,7 @@ func (j *jsiiProxy_EventsRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_rule awscc_events_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_rule awscc_events_rule} Resource.
 func NewEventsRule(scope constructs.Construct, id *string, config *EventsRuleConfig) EventsRule {
 	_init_.Initialize()
 
@@ -600,7 +611,7 @@ func NewEventsRule(scope constructs.Construct, id *string, config *EventsRuleCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_rule awscc_events_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_rule awscc_events_rule} Resource.
 func NewEventsRule_Override(e EventsRule, scope constructs.Construct, id *string, config *EventsRuleConfig) {
 	_init_.Initialize()
 

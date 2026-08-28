@@ -7,7 +7,7 @@ package bedrockagentcorebrowsercustom
 type BedrockagentcoreBrowserCustomCertificatesCertificateLocation struct {
 	// Secrets Manager secret ARN.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_browser_custom#secret_arn BedrockagentcoreBrowserCustom#secret_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_browser_custom#secret_arn BedrockagentcoreBrowserCustom#secret_arn}
 	SecretArn *string `field:"optional" json:"secretArn" yaml:"secretArn"`
 }
 

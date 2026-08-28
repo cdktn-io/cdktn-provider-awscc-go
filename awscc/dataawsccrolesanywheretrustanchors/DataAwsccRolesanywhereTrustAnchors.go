@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rolesanywhere_trust_anchors awscc_rolesanywhere_trust_anchors}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rolesanywhere_trust_anchors awscc_rolesanywhere_trust_anchors}.
 type DataAwsccRolesanywhereTrustAnchors interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRolesanywhereTrustAnchors) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rolesanywhere_trust_anchors awscc_rolesanywhere_trust_anchors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rolesanywhere_trust_anchors awscc_rolesanywhere_trust_anchors} Data Source.
 func NewDataAwsccRolesanywhereTrustAnchors(scope constructs.Construct, id *string, config *DataAwsccRolesanywhereTrustAnchorsConfig) DataAwsccRolesanywhereTrustAnchors {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRolesanywhereTrustAnchors(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rolesanywhere_trust_anchors awscc_rolesanywhere_trust_anchors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rolesanywhere_trust_anchors awscc_rolesanywhere_trust_anchors} Data Source.
 func NewDataAwsccRolesanywhereTrustAnchors_Override(d DataAwsccRolesanywhereTrustAnchors, scope constructs.Construct, id *string, config *DataAwsccRolesanywhereTrustAnchorsConfig) {
 	_init_.Initialize()
 

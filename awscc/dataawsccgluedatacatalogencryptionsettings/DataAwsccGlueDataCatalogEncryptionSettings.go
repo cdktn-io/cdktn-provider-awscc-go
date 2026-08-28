@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_data_catalog_encryption_settings awscc_glue_data_catalog_encryption_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/glue_data_catalog_encryption_settings awscc_glue_data_catalog_encryption_settings}.
 type DataAwsccGlueDataCatalogEncryptionSettings interface {
 	cdktn.TerraformDataSource
 	CatalogId() *string
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccGlueDataCatalogEncryptionSettings) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_data_catalog_encryption_settings awscc_glue_data_catalog_encryption_settings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/glue_data_catalog_encryption_settings awscc_glue_data_catalog_encryption_settings} Data Source.
 func NewDataAwsccGlueDataCatalogEncryptionSettings(scope constructs.Construct, id *string, config *DataAwsccGlueDataCatalogEncryptionSettingsConfig) DataAwsccGlueDataCatalogEncryptionSettings {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccGlueDataCatalogEncryptionSettings(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_data_catalog_encryption_settings awscc_glue_data_catalog_encryption_settings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/glue_data_catalog_encryption_settings awscc_glue_data_catalog_encryption_settings} Data Source.
 func NewDataAwsccGlueDataCatalogEncryptionSettings_Override(d DataAwsccGlueDataCatalogEncryptionSettings, scope constructs.Construct, id *string, config *DataAwsccGlueDataCatalogEncryptionSettingsConfig) {
 	_init_.Initialize()
 

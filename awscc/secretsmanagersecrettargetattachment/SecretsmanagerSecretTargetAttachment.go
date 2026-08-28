@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/secretsmanager_secret_target_attachment awscc_secretsmanager_secret_target_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret_target_attachment awscc_secretsmanager_secret_target_attachment}.
 type SecretsmanagerSecretTargetAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -435,7 +435,7 @@ func (j *jsiiProxy_SecretsmanagerSecretTargetAttachment) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/secretsmanager_secret_target_attachment awscc_secretsmanager_secret_target_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret_target_attachment awscc_secretsmanager_secret_target_attachment} Resource.
 func NewSecretsmanagerSecretTargetAttachment(scope constructs.Construct, id *string, config *SecretsmanagerSecretTargetAttachmentConfig) SecretsmanagerSecretTargetAttachment {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewSecretsmanagerSecretTargetAttachment(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/secretsmanager_secret_target_attachment awscc_secretsmanager_secret_target_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret_target_attachment awscc_secretsmanager_secret_target_attachment} Resource.
 func NewSecretsmanagerSecretTargetAttachment_Override(s SecretsmanagerSecretTargetAttachment, scope constructs.Construct, id *string, config *SecretsmanagerSecretTargetAttachmentConfig) {
 	_init_.Initialize()
 

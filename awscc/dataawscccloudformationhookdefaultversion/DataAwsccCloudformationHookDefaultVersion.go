@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudformation_hook_default_version awscc_cloudformation_hook_default_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_hook_default_version awscc_cloudformation_hook_default_version}.
 type DataAwsccCloudformationHookDefaultVersion interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccCloudformationHookDefaultVersion) VersionId() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudformation_hook_default_version awscc_cloudformation_hook_default_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_hook_default_version awscc_cloudformation_hook_default_version} Data Source.
 func NewDataAwsccCloudformationHookDefaultVersion(scope constructs.Construct, id *string, config *DataAwsccCloudformationHookDefaultVersionConfig) DataAwsccCloudformationHookDefaultVersion {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccCloudformationHookDefaultVersion(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudformation_hook_default_version awscc_cloudformation_hook_default_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_hook_default_version awscc_cloudformation_hook_default_version} Data Source.
 func NewDataAwsccCloudformationHookDefaultVersion_Override(d DataAwsccCloudformationHookDefaultVersion, scope constructs.Construct, id *string, config *DataAwsccCloudformationHookDefaultVersionConfig) {
 	_init_.Initialize()
 

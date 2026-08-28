@@ -28,6 +28,7 @@ type DataAwsccAutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributi
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DistributionSegments() DataAwsccAutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributionDistributionSegmentsList
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAwsccAutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistribution
@@ -110,6 +111,16 @@ func (j *jsiiProxy_DataAwsccAutoscalingAutoScalingGroupMixedInstancesPolicyInsta
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccAutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributionOutputReference) DistributionSegments() DataAwsccAutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributionDistributionSegmentsList {
+	var returns DataAwsccAutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributionDistributionSegmentsList
+	_jsii_.Get(
+		j,
+		"distributionSegments",
 		&returns,
 	)
 	return returns

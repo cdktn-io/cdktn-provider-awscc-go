@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/logs_resource_policy awscc_logs_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/logs_resource_policy awscc_logs_resource_policy}.
 type DataAwsccLogsResourcePolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccLogsResourcePolicy) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/logs_resource_policy awscc_logs_resource_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/logs_resource_policy awscc_logs_resource_policy} Data Source.
 func NewDataAwsccLogsResourcePolicy(scope constructs.Construct, id *string, config *DataAwsccLogsResourcePolicyConfig) DataAwsccLogsResourcePolicy {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccLogsResourcePolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/logs_resource_policy awscc_logs_resource_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/logs_resource_policy awscc_logs_resource_policy} Data Source.
 func NewDataAwsccLogsResourcePolicy_Override(d DataAwsccLogsResourcePolicy, scope constructs.Construct, id *string, config *DataAwsccLogsResourcePolicyConfig) {
 	_init_.Initialize()
 

@@ -24,19 +24,19 @@ type MedialiveChannelPlacementGroupConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID of the cluster the node is on.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_channel_placement_group#cluster_id MedialiveChannelPlacementGroup#cluster_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_channel_placement_group#cluster_id MedialiveChannelPlacementGroup#cluster_id}
 	ClusterId *string `field:"optional" json:"clusterId" yaml:"clusterId"`
 	// The name of the channel placement group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_channel_placement_group#name MedialiveChannelPlacementGroup#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_channel_placement_group#name MedialiveChannelPlacementGroup#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// List of nodes added to the channel placement group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_channel_placement_group#nodes MedialiveChannelPlacementGroup#nodes}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_channel_placement_group#nodes MedialiveChannelPlacementGroup#nodes}
 	Nodes *[]*string `field:"optional" json:"nodes" yaml:"nodes"`
 	// A collection of key-value pairs.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_channel_placement_group#tags MedialiveChannelPlacementGroup#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_channel_placement_group#tags MedialiveChannelPlacementGroup#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

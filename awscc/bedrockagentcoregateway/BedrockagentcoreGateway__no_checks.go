@@ -95,6 +95,10 @@ func (b *jsiiProxy_BedrockagentcoreGateway) validatePutProtocolConfigurationPara
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreGateway) validatePutWafConfigurationParameters(value *BedrockagentcoreGatewayWafConfiguration) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreGateway) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }

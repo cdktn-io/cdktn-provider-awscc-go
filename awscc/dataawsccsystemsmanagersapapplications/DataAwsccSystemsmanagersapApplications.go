@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/systemsmanagersap_applications awscc_systemsmanagersap_applications}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/systemsmanagersap_applications awscc_systemsmanagersap_applications}.
 type DataAwsccSystemsmanagersapApplications interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSystemsmanagersapApplications) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/systemsmanagersap_applications awscc_systemsmanagersap_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/systemsmanagersap_applications awscc_systemsmanagersap_applications} Data Source.
 func NewDataAwsccSystemsmanagersapApplications(scope constructs.Construct, id *string, config *DataAwsccSystemsmanagersapApplicationsConfig) DataAwsccSystemsmanagersapApplications {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSystemsmanagersapApplications(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/systemsmanagersap_applications awscc_systemsmanagersap_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/systemsmanagersap_applications awscc_systemsmanagersap_applications} Data Source.
 func NewDataAwsccSystemsmanagersapApplications_Override(d DataAwsccSystemsmanagersapApplications, scope constructs.Construct, id *string, config *DataAwsccSystemsmanagersapApplicationsConfig) {
 	_init_.Initialize()
 

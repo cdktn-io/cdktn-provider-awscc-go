@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sns_topic_inline_policy awscc_sns_topic_inline_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sns_topic_inline_policy awscc_sns_topic_inline_policy}.
 type DataAwsccSnsTopicInlinePolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccSnsTopicInlinePolicy) TopicArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sns_topic_inline_policy awscc_sns_topic_inline_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sns_topic_inline_policy awscc_sns_topic_inline_policy} Data Source.
 func NewDataAwsccSnsTopicInlinePolicy(scope constructs.Construct, id *string, config *DataAwsccSnsTopicInlinePolicyConfig) DataAwsccSnsTopicInlinePolicy {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccSnsTopicInlinePolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sns_topic_inline_policy awscc_sns_topic_inline_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sns_topic_inline_policy awscc_sns_topic_inline_policy} Data Source.
 func NewDataAwsccSnsTopicInlinePolicy_Override(d DataAwsccSnsTopicInlinePolicy, scope constructs.Construct, id *string, config *DataAwsccSnsTopicInlinePolicyConfig) {
 	_init_.Initialize()
 

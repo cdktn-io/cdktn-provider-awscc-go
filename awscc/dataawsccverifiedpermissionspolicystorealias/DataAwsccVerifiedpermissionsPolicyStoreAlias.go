@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/verifiedpermissions_policy_store_alias awscc_verifiedpermissions_policy_store_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/verifiedpermissions_policy_store_alias awscc_verifiedpermissions_policy_store_alias}.
 type DataAwsccVerifiedpermissionsPolicyStoreAlias interface {
 	cdktn.TerraformDataSource
 	AliasName() *string
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccVerifiedpermissionsPolicyStoreAlias) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/verifiedpermissions_policy_store_alias awscc_verifiedpermissions_policy_store_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/verifiedpermissions_policy_store_alias awscc_verifiedpermissions_policy_store_alias} Data Source.
 func NewDataAwsccVerifiedpermissionsPolicyStoreAlias(scope constructs.Construct, id *string, config *DataAwsccVerifiedpermissionsPolicyStoreAliasConfig) DataAwsccVerifiedpermissionsPolicyStoreAlias {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccVerifiedpermissionsPolicyStoreAlias(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/verifiedpermissions_policy_store_alias awscc_verifiedpermissions_policy_store_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/verifiedpermissions_policy_store_alias awscc_verifiedpermissions_policy_store_alias} Data Source.
 func NewDataAwsccVerifiedpermissionsPolicyStoreAlias_Override(d DataAwsccVerifiedpermissionsPolicyStoreAlias, scope constructs.Construct, id *string, config *DataAwsccVerifiedpermissionsPolicyStoreAliasConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chatbot_microsoft_teams_channel_configuration awscc_chatbot_microsoft_teams_channel_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chatbot_microsoft_teams_channel_configuration awscc_chatbot_microsoft_teams_channel_configuration}.
 type ChatbotMicrosoftTeamsChannelConfiguration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -649,7 +649,7 @@ func (j *jsiiProxy_ChatbotMicrosoftTeamsChannelConfiguration) UserRoleRequiredIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chatbot_microsoft_teams_channel_configuration awscc_chatbot_microsoft_teams_channel_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chatbot_microsoft_teams_channel_configuration awscc_chatbot_microsoft_teams_channel_configuration} Resource.
 func NewChatbotMicrosoftTeamsChannelConfiguration(scope constructs.Construct, id *string, config *ChatbotMicrosoftTeamsChannelConfigurationConfig) ChatbotMicrosoftTeamsChannelConfiguration {
 	_init_.Initialize()
 
@@ -667,7 +667,7 @@ func NewChatbotMicrosoftTeamsChannelConfiguration(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chatbot_microsoft_teams_channel_configuration awscc_chatbot_microsoft_teams_channel_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chatbot_microsoft_teams_channel_configuration awscc_chatbot_microsoft_teams_channel_configuration} Resource.
 func NewChatbotMicrosoftTeamsChannelConfiguration_Override(c ChatbotMicrosoftTeamsChannelConfiguration, scope constructs.Construct, id *string, config *ChatbotMicrosoftTeamsChannelConfigurationConfig) {
 	_init_.Initialize()
 

@@ -13,7 +13,7 @@ type EcsClusterServiceConnectDefaults struct {
 	//  If you update the cluster with an empty string ``""`` for the namespace name, the cluster configuration for Service Connect is removed. Note that the namespace will remain in CMAP and must be deleted separately.
 	//  For more information about CMAPlong, see [Working with Services](https://docs.aws.amazon.com/cloud-map/latest/dg/working-with-services.html) in the *Developer Guide*.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_cluster#namespace EcsCluster#namespace}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_cluster#namespace EcsCluster#namespace}
 	Namespace *string `field:"optional" json:"namespace" yaml:"namespace"`
 }
 

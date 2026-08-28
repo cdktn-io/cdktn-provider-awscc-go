@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/certificatemanager_account awscc_certificatemanager_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/certificatemanager_account awscc_certificatemanager_account}.
 type CertificatemanagerAccount interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -389,7 +389,7 @@ func (j *jsiiProxy_CertificatemanagerAccount) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/certificatemanager_account awscc_certificatemanager_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/certificatemanager_account awscc_certificatemanager_account} Resource.
 func NewCertificatemanagerAccount(scope constructs.Construct, id *string, config *CertificatemanagerAccountConfig) CertificatemanagerAccount {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewCertificatemanagerAccount(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/certificatemanager_account awscc_certificatemanager_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/certificatemanager_account awscc_certificatemanager_account} Resource.
 func NewCertificatemanagerAccount_Override(c CertificatemanagerAccount, scope constructs.Construct, id *string, config *CertificatemanagerAccountConfig) {
 	_init_.Initialize()
 

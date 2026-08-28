@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context awscc_sagemaker_context}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_context awscc_sagemaker_context}.
 type SagemakerContext interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -529,7 +529,7 @@ func (j *jsiiProxy_SagemakerContext) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context awscc_sagemaker_context} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_context awscc_sagemaker_context} Resource.
 func NewSagemakerContext(scope constructs.Construct, id *string, config *SagemakerContextConfig) SagemakerContext {
 	_init_.Initialize()
 
@@ -547,7 +547,7 @@ func NewSagemakerContext(scope constructs.Construct, id *string, config *Sagemak
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_context awscc_sagemaker_context} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_context awscc_sagemaker_context} Resource.
 func NewSagemakerContext_Override(s SagemakerContext, scope constructs.Construct, id *string, config *SagemakerContextConfig) {
 	_init_.Initialize()
 

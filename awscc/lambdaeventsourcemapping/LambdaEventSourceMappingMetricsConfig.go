@@ -13,7 +13,7 @@ type LambdaEventSourceMappingMetricsConfig struct {
 	//
 	//   For more information about these metrics, see [Event source mapping metrics](https://docs.aws.amazon.com/lambda/latest/dg/monitoring-metrics-types.html#event-source-mapping-metrics).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_event_source_mapping#metrics LambdaEventSourceMapping#metrics}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_event_source_mapping#metrics LambdaEventSourceMapping#metrics}
 	Metrics *[]*string `field:"optional" json:"metrics" yaml:"metrics"`
 }
 

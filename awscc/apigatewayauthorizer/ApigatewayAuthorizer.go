@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_authorizer awscc_apigateway_authorizer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_authorizer awscc_apigateway_authorizer}.
 type ApigatewayAuthorizer interface {
 	cdktn.TerraformResource
 	AuthorizerCredentials() *string
@@ -603,7 +603,7 @@ func (j *jsiiProxy_ApigatewayAuthorizer) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_authorizer awscc_apigateway_authorizer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_authorizer awscc_apigateway_authorizer} Resource.
 func NewApigatewayAuthorizer(scope constructs.Construct, id *string, config *ApigatewayAuthorizerConfig) ApigatewayAuthorizer {
 	_init_.Initialize()
 
@@ -621,7 +621,7 @@ func NewApigatewayAuthorizer(scope constructs.Construct, id *string, config *Api
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_authorizer awscc_apigateway_authorizer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_authorizer awscc_apigateway_authorizer} Resource.
 func NewApigatewayAuthorizer_Override(a ApigatewayAuthorizer, scope constructs.Construct, id *string, config *ApigatewayAuthorizerConfig) {
 	_init_.Initialize()
 

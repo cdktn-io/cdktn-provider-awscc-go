@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkmanager_link awscc_networkmanager_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkmanager_link awscc_networkmanager_link}.
 type DataAwsccNetworkmanagerLink interface {
 	cdktn.TerraformDataSource
 	Bandwidth() DataAwsccNetworkmanagerLinkBandwidthOutputReference
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccNetworkmanagerLink) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkmanager_link awscc_networkmanager_link} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkmanager_link awscc_networkmanager_link} Data Source.
 func NewDataAwsccNetworkmanagerLink(scope constructs.Construct, id *string, config *DataAwsccNetworkmanagerLinkConfig) DataAwsccNetworkmanagerLink {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccNetworkmanagerLink(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkmanager_link awscc_networkmanager_link} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkmanager_link awscc_networkmanager_link} Data Source.
 func NewDataAwsccNetworkmanagerLink_Override(d DataAwsccNetworkmanagerLink, scope constructs.Construct, id *string, config *DataAwsccNetworkmanagerLinkConfig) {
 	_init_.Initialize()
 

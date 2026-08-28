@@ -5,9 +5,9 @@ package computeoptimizerautomationrule
 
 
 type ComputeoptimizerAutomationRuleCriteriaEstimatedMonthlySavings struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/computeoptimizer_automation_rule#comparison ComputeoptimizerAutomationRule#comparison}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/computeoptimizer_automation_rule#comparison ComputeoptimizerAutomationRule#comparison}.
 	Comparison *string `field:"optional" json:"comparison" yaml:"comparison"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/computeoptimizer_automation_rule#values ComputeoptimizerAutomationRule#values}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/computeoptimizer_automation_rule#values ComputeoptimizerAutomationRule#values}.
 	Values *[]*float64 `field:"optional" json:"values" yaml:"values"`
 }
 

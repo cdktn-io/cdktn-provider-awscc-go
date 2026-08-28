@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_integration_resource_properties awscc_glue_integration_resource_properties}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/glue_integration_resource_properties awscc_glue_integration_resource_properties}.
 type DataAwsccGlueIntegrationResourceProperties interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGlueIntegrationResourceProperties) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_integration_resource_properties awscc_glue_integration_resource_properties} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/glue_integration_resource_properties awscc_glue_integration_resource_properties} Data Source.
 func NewDataAwsccGlueIntegrationResourceProperties(scope constructs.Construct, id *string, config *DataAwsccGlueIntegrationResourcePropertiesConfig) DataAwsccGlueIntegrationResourceProperties {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGlueIntegrationResourceProperties(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_integration_resource_properties awscc_glue_integration_resource_properties} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/glue_integration_resource_properties awscc_glue_integration_resource_properties} Data Source.
 func NewDataAwsccGlueIntegrationResourceProperties_Override(d DataAwsccGlueIntegrationResourceProperties, scope constructs.Construct, id *string, config *DataAwsccGlueIntegrationResourcePropertiesConfig) {
 	_init_.Initialize()
 

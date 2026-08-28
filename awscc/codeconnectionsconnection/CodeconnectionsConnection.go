@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeconnections_connection awscc_codeconnections_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_connection awscc_codeconnections_connection}.
 type CodeconnectionsConnection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -483,7 +483,7 @@ func (j *jsiiProxy_CodeconnectionsConnection) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeconnections_connection awscc_codeconnections_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_connection awscc_codeconnections_connection} Resource.
 func NewCodeconnectionsConnection(scope constructs.Construct, id *string, config *CodeconnectionsConnectionConfig) CodeconnectionsConnection {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewCodeconnectionsConnection(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codeconnections_connection awscc_codeconnections_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codeconnections_connection awscc_codeconnections_connection} Resource.
 func NewCodeconnectionsConnection_Override(c CodeconnectionsConnection, scope constructs.Construct, id *string, config *CodeconnectionsConnectionConfig) {
 	_init_.Initialize()
 

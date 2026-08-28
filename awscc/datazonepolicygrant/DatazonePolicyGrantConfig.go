@@ -22,17 +22,17 @@ type DatazonePolicyGrantConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_policy_grant#domain_identifier DatazonePolicyGrant#domain_identifier}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_policy_grant#domain_identifier DatazonePolicyGrant#domain_identifier}.
 	DomainIdentifier *string `field:"required" json:"domainIdentifier" yaml:"domainIdentifier"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_policy_grant#entity_identifier DatazonePolicyGrant#entity_identifier}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_policy_grant#entity_identifier DatazonePolicyGrant#entity_identifier}.
 	EntityIdentifier *string `field:"required" json:"entityIdentifier" yaml:"entityIdentifier"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_policy_grant#entity_type DatazonePolicyGrant#entity_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_policy_grant#entity_type DatazonePolicyGrant#entity_type}.
 	EntityType *string `field:"required" json:"entityType" yaml:"entityType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_policy_grant#policy_type DatazonePolicyGrant#policy_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_policy_grant#policy_type DatazonePolicyGrant#policy_type}.
 	PolicyType *string `field:"required" json:"policyType" yaml:"policyType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_policy_grant#detail DatazonePolicyGrant#detail}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_policy_grant#detail DatazonePolicyGrant#detail}.
 	Detail *DatazonePolicyGrantDetail `field:"optional" json:"detail" yaml:"detail"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_policy_grant#principal DatazonePolicyGrant#principal}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_policy_grant#principal DatazonePolicyGrant#principal}.
 	Principal *DatazonePolicyGrantPrincipal `field:"optional" json:"principal" yaml:"principal"`
 }
 

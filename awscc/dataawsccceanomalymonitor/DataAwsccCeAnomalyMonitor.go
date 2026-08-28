@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ce_anomaly_monitor awscc_ce_anomaly_monitor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ce_anomaly_monitor awscc_ce_anomaly_monitor}.
 type DataAwsccCeAnomalyMonitor interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccCeAnomalyMonitor) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ce_anomaly_monitor awscc_ce_anomaly_monitor} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ce_anomaly_monitor awscc_ce_anomaly_monitor} Data Source.
 func NewDataAwsccCeAnomalyMonitor(scope constructs.Construct, id *string, config *DataAwsccCeAnomalyMonitorConfig) DataAwsccCeAnomalyMonitor {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccCeAnomalyMonitor(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ce_anomaly_monitor awscc_ce_anomaly_monitor} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ce_anomaly_monitor awscc_ce_anomaly_monitor} Data Source.
 func NewDataAwsccCeAnomalyMonitor_Override(d DataAwsccCeAnomalyMonitor, scope constructs.Construct, id *string, config *DataAwsccCeAnomalyMonitorConfig) {
 	_init_.Initialize()
 

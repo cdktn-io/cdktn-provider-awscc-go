@@ -12,9 +12,10 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector}.
 type DataAwsccBedrockagentcorePaymentConnector interface {
 	cdktn.TerraformDataSource
+	AuthorizationUrl() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	ConnectorCreatedAt() *string
@@ -58,6 +59,7 @@ type DataAwsccBedrockagentcorePaymentConnector interface {
 	Provider() cdktn.TerraformProvider
 	// Experimental.
 	SetProvider(val cdktn.TerraformProvider)
+	ProvisionMode() *string
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
@@ -133,6 +135,16 @@ type DataAwsccBedrockagentcorePaymentConnector interface {
 // The jsii proxy struct for DataAwsccBedrockagentcorePaymentConnector
 type jsiiProxy_DataAwsccBedrockagentcorePaymentConnector struct {
 	internal.Type__cdktnTerraformDataSource
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcorePaymentConnector) AuthorizationUrl() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"authorizationUrl",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAwsccBedrockagentcorePaymentConnector) CdktfStack() cdktn.TerraformStack {
@@ -355,6 +367,16 @@ func (j *jsiiProxy_DataAwsccBedrockagentcorePaymentConnector) Provider() cdktn.T
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccBedrockagentcorePaymentConnector) ProvisionMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"provisionMode",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccBedrockagentcorePaymentConnector) RawOverrides() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -396,7 +418,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcorePaymentConnector) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector} Data Source.
 func NewDataAwsccBedrockagentcorePaymentConnector(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcorePaymentConnectorConfig) DataAwsccBedrockagentcorePaymentConnector {
 	_init_.Initialize()
 
@@ -414,7 +436,7 @@ func NewDataAwsccBedrockagentcorePaymentConnector(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector} Data Source.
 func NewDataAwsccBedrockagentcorePaymentConnector_Override(d DataAwsccBedrockagentcorePaymentConnector, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcorePaymentConnectorConfig) {
 	_init_.Initialize()
 

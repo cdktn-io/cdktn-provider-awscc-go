@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_monitoring_schedule awscc_sagemaker_monitoring_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_monitoring_schedule awscc_sagemaker_monitoring_schedule}.
 type DataAwsccSagemakerMonitoringSchedule interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccSagemakerMonitoringSchedule) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_monitoring_schedule awscc_sagemaker_monitoring_schedule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_monitoring_schedule awscc_sagemaker_monitoring_schedule} Data Source.
 func NewDataAwsccSagemakerMonitoringSchedule(scope constructs.Construct, id *string, config *DataAwsccSagemakerMonitoringScheduleConfig) DataAwsccSagemakerMonitoringSchedule {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccSagemakerMonitoringSchedule(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_monitoring_schedule awscc_sagemaker_monitoring_schedule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_monitoring_schedule awscc_sagemaker_monitoring_schedule} Data Source.
 func NewDataAwsccSagemakerMonitoringSchedule_Override(d DataAwsccSagemakerMonitoringSchedule, scope constructs.Construct, id *string, config *DataAwsccSagemakerMonitoringScheduleConfig) {
 	_init_.Initialize()
 

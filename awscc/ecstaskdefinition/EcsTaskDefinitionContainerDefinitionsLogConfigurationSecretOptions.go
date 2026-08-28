@@ -7,7 +7,7 @@ package ecstaskdefinition
 type EcsTaskDefinitionContainerDefinitionsLogConfigurationSecretOptions struct {
 	// The name of the secret.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_task_definition#name EcsTaskDefinition#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_task_definition#name EcsTaskDefinition#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// The secret to expose to the container.
 	//
@@ -15,7 +15,7 @@ type EcsTaskDefinitionContainerDefinitionsLogConfigurationSecretOptions struct {
 	//  For information about the require IAMlong permissions, see [Required IAM permissions for Amazon ECS secrets](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/specifying-sensitive-data-secrets.html#secrets-iam) (for Secrets Manager) or [Required IAM permissions for Amazon ECS secrets](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/specifying-sensitive-data-parameters.html) (for Systems Manager Parameter store) in the *Amazon Elastic Container Service Developer Guide*.
 	//   If the SSM Parameter Store parameter exists in the same Region as the task you're launching, then you can use either the full ARN or name of the parameter. If the parameter exists in a different Region, then the full ARN must be specified.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_task_definition#value_from EcsTaskDefinition#value_from}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_task_definition#value_from EcsTaskDefinition#value_from}
 	ValueFrom *string `field:"optional" json:"valueFrom" yaml:"valueFrom"`
 }
 

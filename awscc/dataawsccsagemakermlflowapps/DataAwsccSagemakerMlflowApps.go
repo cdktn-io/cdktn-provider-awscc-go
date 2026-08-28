@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_mlflow_apps awscc_sagemaker_mlflow_apps}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_mlflow_apps awscc_sagemaker_mlflow_apps}.
 type DataAwsccSagemakerMlflowApps interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSagemakerMlflowApps) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_mlflow_apps awscc_sagemaker_mlflow_apps} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_mlflow_apps awscc_sagemaker_mlflow_apps} Data Source.
 func NewDataAwsccSagemakerMlflowApps(scope constructs.Construct, id *string, config *DataAwsccSagemakerMlflowAppsConfig) DataAwsccSagemakerMlflowApps {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSagemakerMlflowApps(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_mlflow_apps awscc_sagemaker_mlflow_apps} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_mlflow_apps awscc_sagemaker_mlflow_apps} Data Source.
 func NewDataAwsccSagemakerMlflowApps_Override(d DataAwsccSagemakerMlflowApps, scope constructs.Construct, id *string, config *DataAwsccSagemakerMlflowAppsConfig) {
 	_init_.Initialize()
 

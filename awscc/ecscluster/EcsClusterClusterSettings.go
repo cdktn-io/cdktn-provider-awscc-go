@@ -7,7 +7,7 @@ package ecscluster
 type EcsClusterClusterSettings struct {
 	// The name of the cluster setting. The value is ``containerInsights``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_cluster#name EcsCluster#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_cluster#name EcsCluster#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// The value to set for the cluster setting.
 	//
@@ -16,7 +16,7 @@ type EcsClusterClusterSettings struct {
 	//  To use Container Insights, set the ``containerInsights`` account setting to ``enabled``.
 	//  If a cluster value is specified, it will override the ``containerInsights`` value set with [PutAccountSetting](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_PutAccountSetting.html) or [PutAccountSettingDefault](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_PutAccountSettingDefault.html).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_cluster#value EcsCluster#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_cluster#value EcsCluster#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_traffic_mirror_filters awscc_ec2_traffic_mirror_filters}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_traffic_mirror_filters awscc_ec2_traffic_mirror_filters}.
 type DataAwsccEc2TrafficMirrorFilters interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2TrafficMirrorFilters) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_traffic_mirror_filters awscc_ec2_traffic_mirror_filters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_traffic_mirror_filters awscc_ec2_traffic_mirror_filters} Data Source.
 func NewDataAwsccEc2TrafficMirrorFilters(scope constructs.Construct, id *string, config *DataAwsccEc2TrafficMirrorFiltersConfig) DataAwsccEc2TrafficMirrorFilters {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2TrafficMirrorFilters(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_traffic_mirror_filters awscc_ec2_traffic_mirror_filters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_traffic_mirror_filters awscc_ec2_traffic_mirror_filters} Data Source.
 func NewDataAwsccEc2TrafficMirrorFilters_Override(d DataAwsccEc2TrafficMirrorFilters, scope constructs.Construct, id *string, config *DataAwsccEc2TrafficMirrorFiltersConfig) {
 	_init_.Initialize()
 

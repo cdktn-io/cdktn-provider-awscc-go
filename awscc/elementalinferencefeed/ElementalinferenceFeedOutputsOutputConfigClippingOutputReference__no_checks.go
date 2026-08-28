@@ -47,6 +47,10 @@ func (e *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigClippingOutputRefere
 	return nil
 }
 
+func (e *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigClippingOutputReference) validatePutDataSourceConfigurationParameters(value *ElementalinferenceFeedOutputsOutputConfigClippingDataSourceConfiguration) error {
+	return nil
+}
+
 func (e *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigClippingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

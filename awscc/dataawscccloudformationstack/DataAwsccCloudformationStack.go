@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudformation_stack awscc_cloudformation_stack}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_stack awscc_cloudformation_stack}.
 type DataAwsccCloudformationStack interface {
 	cdktn.TerraformDataSource
 	Capabilities() *[]*string
@@ -539,7 +539,7 @@ func (j *jsiiProxy_DataAwsccCloudformationStack) TimeoutInMinutes() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudformation_stack awscc_cloudformation_stack} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_stack awscc_cloudformation_stack} Data Source.
 func NewDataAwsccCloudformationStack(scope constructs.Construct, id *string, config *DataAwsccCloudformationStackConfig) DataAwsccCloudformationStack {
 	_init_.Initialize()
 
@@ -557,7 +557,7 @@ func NewDataAwsccCloudformationStack(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudformation_stack awscc_cloudformation_stack} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_stack awscc_cloudformation_stack} Data Source.
 func NewDataAwsccCloudformationStack_Override(d DataAwsccCloudformationStack, scope constructs.Construct, id *string, config *DataAwsccCloudformationStackConfig) {
 	_init_.Initialize()
 

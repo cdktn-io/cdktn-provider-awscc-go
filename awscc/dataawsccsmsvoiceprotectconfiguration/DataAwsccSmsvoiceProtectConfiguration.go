@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/smsvoice_protect_configuration awscc_smsvoice_protect_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/smsvoice_protect_configuration awscc_smsvoice_protect_configuration}.
 type DataAwsccSmsvoiceProtectConfiguration interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccSmsvoiceProtectConfiguration) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/smsvoice_protect_configuration awscc_smsvoice_protect_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/smsvoice_protect_configuration awscc_smsvoice_protect_configuration} Data Source.
 func NewDataAwsccSmsvoiceProtectConfiguration(scope constructs.Construct, id *string, config *DataAwsccSmsvoiceProtectConfigurationConfig) DataAwsccSmsvoiceProtectConfiguration {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccSmsvoiceProtectConfiguration(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/smsvoice_protect_configuration awscc_smsvoice_protect_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/smsvoice_protect_configuration awscc_smsvoice_protect_configuration} Data Source.
 func NewDataAwsccSmsvoiceProtectConfiguration_Override(d DataAwsccSmsvoiceProtectConfiguration, scope constructs.Construct, id *string, config *DataAwsccSmsvoiceProtectConfigurationConfig) {
 	_init_.Initialize()
 

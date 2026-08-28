@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/docdbelastic_clusters awscc_docdbelastic_clusters}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/docdbelastic_clusters awscc_docdbelastic_clusters}.
 type DataAwsccDocdbelasticClusters interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDocdbelasticClusters) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/docdbelastic_clusters awscc_docdbelastic_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/docdbelastic_clusters awscc_docdbelastic_clusters} Data Source.
 func NewDataAwsccDocdbelasticClusters(scope constructs.Construct, id *string, config *DataAwsccDocdbelasticClustersConfig) DataAwsccDocdbelasticClusters {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDocdbelasticClusters(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/docdbelastic_clusters awscc_docdbelastic_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/docdbelastic_clusters awscc_docdbelastic_clusters} Data Source.
 func NewDataAwsccDocdbelasticClusters_Override(d DataAwsccDocdbelasticClusters, scope constructs.Construct, id *string, config *DataAwsccDocdbelasticClustersConfig) {
 	_init_.Initialize()
 

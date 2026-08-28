@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspacesinstances_volume awscc_workspacesinstances_volume}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesinstances_volume awscc_workspacesinstances_volume}.
 type WorkspacesinstancesVolume interface {
 	cdktn.TerraformResource
 	AvailabilityZone() *string
@@ -581,7 +581,7 @@ func (j *jsiiProxy_WorkspacesinstancesVolume) VolumeTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspacesinstances_volume awscc_workspacesinstances_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesinstances_volume awscc_workspacesinstances_volume} Resource.
 func NewWorkspacesinstancesVolume(scope constructs.Construct, id *string, config *WorkspacesinstancesVolumeConfig) WorkspacesinstancesVolume {
 	_init_.Initialize()
 
@@ -599,7 +599,7 @@ func NewWorkspacesinstancesVolume(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspacesinstances_volume awscc_workspacesinstances_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesinstances_volume awscc_workspacesinstances_volume} Resource.
 func NewWorkspacesinstancesVolume_Override(w WorkspacesinstancesVolume, scope constructs.Construct, id *string, config *WorkspacesinstancesVolumeConfig) {
 	_init_.Initialize()
 

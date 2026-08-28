@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rds_db_proxy_target_group awscc_rds_db_proxy_target_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rds_db_proxy_target_group awscc_rds_db_proxy_target_group}.
 type DataAwsccRdsDbProxyTargetGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccRdsDbProxyTargetGroup) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rds_db_proxy_target_group awscc_rds_db_proxy_target_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rds_db_proxy_target_group awscc_rds_db_proxy_target_group} Data Source.
 func NewDataAwsccRdsDbProxyTargetGroup(scope constructs.Construct, id *string, config *DataAwsccRdsDbProxyTargetGroupConfig) DataAwsccRdsDbProxyTargetGroup {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccRdsDbProxyTargetGroup(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rds_db_proxy_target_group awscc_rds_db_proxy_target_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rds_db_proxy_target_group awscc_rds_db_proxy_target_group} Data Source.
 func NewDataAwsccRdsDbProxyTargetGroup_Override(d DataAwsccRdsDbProxyTargetGroup, scope constructs.Construct, id *string, config *DataAwsccRdsDbProxyTargetGroupConfig) {
 	_init_.Initialize()
 

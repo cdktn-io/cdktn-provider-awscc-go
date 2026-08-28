@@ -24,7 +24,7 @@ type SecurityhubDelegatedAdminConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The AWS-account identifier of the account to designate as the Security Hub CSPM administrator account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_delegated_admin#admin_account_id SecurityhubDelegatedAdmin#admin_account_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_delegated_admin#admin_account_id SecurityhubDelegatedAdmin#admin_account_id}
 	AdminAccountId *string `field:"required" json:"adminAccountId" yaml:"adminAccountId"`
 }
 

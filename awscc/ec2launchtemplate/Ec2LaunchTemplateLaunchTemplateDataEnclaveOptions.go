@@ -9,7 +9,7 @@ type Ec2LaunchTemplateLaunchTemplateDataEnclaveOptions struct {
 	//
 	// otherwise, it is not enabled for AWS Nitro Enclaves.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_launch_template#enabled Ec2LaunchTemplate#enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_launch_template#enabled Ec2LaunchTemplate#enabled}
 	Enabled interface{} `field:"optional" json:"enabled" yaml:"enabled"`
 }
 

@@ -24,11 +24,11 @@ type GlueSchemaVersionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Identifier for the schema where the schema version will be created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema_version#schema GlueSchemaVersion#schema}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_schema_version#schema GlueSchemaVersion#schema}
 	Schema *GlueSchemaVersionSchema `field:"required" json:"schema" yaml:"schema"`
 	// Complete definition of the schema in plain-text.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_schema_version#schema_definition GlueSchemaVersion#schema_definition}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_schema_version#schema_definition GlueSchemaVersion#schema_definition}
 	SchemaDefinition *string `field:"required" json:"schemaDefinition" yaml:"schemaDefinition"`
 }
 

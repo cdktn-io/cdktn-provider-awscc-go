@@ -24,15 +24,15 @@ type M2DeploymentConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The application ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/m2_deployment#application_id M2Deployment#application_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/m2_deployment#application_id M2Deployment#application_id}
 	ApplicationId *string `field:"required" json:"applicationId" yaml:"applicationId"`
 	// The version number of the application to deploy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/m2_deployment#application_version M2Deployment#application_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/m2_deployment#application_version M2Deployment#application_version}
 	ApplicationVersion *float64 `field:"required" json:"applicationVersion" yaml:"applicationVersion"`
 	// The environment ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/m2_deployment#environment_id M2Deployment#environment_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/m2_deployment#environment_id M2Deployment#environment_id}
 	EnvironmentId *string `field:"required" json:"environmentId" yaml:"environmentId"`
 }
 

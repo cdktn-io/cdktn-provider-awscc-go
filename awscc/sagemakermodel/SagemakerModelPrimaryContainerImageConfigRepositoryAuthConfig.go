@@ -9,7 +9,7 @@ type SagemakerModelPrimaryContainerImageConfigRepositoryAuthConfig struct {
 	//
 	// For information about how to create an AWS Lambda function, see [Create a Lambda function with the console](https://docs.aws.amazon.com/lambda/latest/dg/getting-started-create-function.html) in the AWS Lambda Developer Guide
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_model#repository_credentials_provider_arn SagemakerModel#repository_credentials_provider_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_model#repository_credentials_provider_arn SagemakerModel#repository_credentials_provider_arn}
 	RepositoryCredentialsProviderArn *string `field:"optional" json:"repositoryCredentialsProviderArn" yaml:"repositoryCredentialsProviderArn"`
 }
 

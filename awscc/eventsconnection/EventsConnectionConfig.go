@@ -22,23 +22,23 @@ type EventsConnectionConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_connection#authorization_type EventsConnection#authorization_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_connection#authorization_type EventsConnection#authorization_type}.
 	AuthorizationType *string `field:"optional" json:"authorizationType" yaml:"authorizationType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_connection#auth_parameters EventsConnection#auth_parameters}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_connection#auth_parameters EventsConnection#auth_parameters}.
 	AuthParameters *EventsConnectionAuthParameters `field:"optional" json:"authParameters" yaml:"authParameters"`
 	// Description of the connection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_connection#description EventsConnection#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_connection#description EventsConnection#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The private resource the HTTP request will be sent to.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_connection#invocation_connectivity_parameters EventsConnection#invocation_connectivity_parameters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_connection#invocation_connectivity_parameters EventsConnection#invocation_connectivity_parameters}
 	InvocationConnectivityParameters *EventsConnectionInvocationConnectivityParameters `field:"optional" json:"invocationConnectivityParameters" yaml:"invocationConnectivityParameters"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_connection#kms_key_identifier EventsConnection#kms_key_identifier}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_connection#kms_key_identifier EventsConnection#kms_key_identifier}.
 	KmsKeyIdentifier *string `field:"optional" json:"kmsKeyIdentifier" yaml:"kmsKeyIdentifier"`
 	// Name of the connection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/events_connection#name EventsConnection#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/events_connection#name EventsConnection#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 }
 

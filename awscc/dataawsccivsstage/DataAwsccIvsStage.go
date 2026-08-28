@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ivs_stage awscc_ivs_stage}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ivs_stage awscc_ivs_stage}.
 type DataAwsccIvsStage interface {
 	cdktn.TerraformDataSource
 	ActiveSessionId() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccIvsStage) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ivs_stage awscc_ivs_stage} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ivs_stage awscc_ivs_stage} Data Source.
 func NewDataAwsccIvsStage(scope constructs.Construct, id *string, config *DataAwsccIvsStageConfig) DataAwsccIvsStage {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccIvsStage(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ivs_stage awscc_ivs_stage} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ivs_stage awscc_ivs_stage} Data Source.
 func NewDataAwsccIvsStage_Override(d DataAwsccIvsStage, scope constructs.Construct, id *string, config *DataAwsccIvsStageConfig) {
 	_init_.Initialize()
 

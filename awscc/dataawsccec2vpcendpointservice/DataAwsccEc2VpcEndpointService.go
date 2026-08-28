@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service}.
 type DataAwsccEc2VpcEndpointService interface {
 	cdktn.TerraformDataSource
 	AcceptanceRequired() cdktn.IResolvable
@@ -49,6 +49,8 @@ type DataAwsccEc2VpcEndpointService interface {
 	// The tree node.
 	Node() constructs.Node
 	PayerResponsibility() *string
+	PrivateDnsName() *string
+	PrivateDnsNameConfiguration() DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -294,6 +296,26 @@ func (j *jsiiProxy_DataAwsccEc2VpcEndpointService) PayerResponsibility() *string
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccEc2VpcEndpointService) PrivateDnsName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"privateDnsName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccEc2VpcEndpointService) PrivateDnsNameConfiguration() DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference {
+	var returns DataAwsccEc2VpcEndpointServicePrivateDnsNameConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"privateDnsNameConfiguration",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccEc2VpcEndpointService) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -385,7 +407,7 @@ func (j *jsiiProxy_DataAwsccEc2VpcEndpointService) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service} Data Source.
 func NewDataAwsccEc2VpcEndpointService(scope constructs.Construct, id *string, config *DataAwsccEc2VpcEndpointServiceConfig) DataAwsccEc2VpcEndpointService {
 	_init_.Initialize()
 
@@ -403,7 +425,7 @@ func NewDataAwsccEc2VpcEndpointService(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service} Data Source.
 func NewDataAwsccEc2VpcEndpointService_Override(d DataAwsccEc2VpcEndpointService, scope constructs.Construct, id *string, config *DataAwsccEc2VpcEndpointServiceConfig) {
 	_init_.Initialize()
 

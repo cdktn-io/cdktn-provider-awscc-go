@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_gateway awscc_bedrockagentcore_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_gateway awscc_bedrockagentcore_gateway}.
 type BedrockagentcoreGateway interface {
 	cdktn.TerraformResource
 	AuthorizerConfiguration() BedrockagentcoreGatewayAuthorizerConfigurationOutputReference
@@ -101,6 +101,9 @@ type BedrockagentcoreGateway interface {
 	// Experimental.
 	TerraformResourceType() *string
 	UpdatedAt() *string
+	WafConfiguration() BedrockagentcoreGatewayWafConfigurationOutputReference
+	WafConfigurationInput() interface{}
+	WebAclArn() *string
 	WorkloadIdentityDetails() BedrockagentcoreGatewayWorkloadIdentityDetailsOutputReference
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
@@ -185,6 +188,7 @@ type BedrockagentcoreGateway interface {
 	PutInterceptorConfigurations(value interface{})
 	PutPolicyEngineConfiguration(value *BedrockagentcoreGatewayPolicyEngineConfiguration)
 	PutProtocolConfiguration(value *BedrockagentcoreGatewayProtocolConfiguration)
+	PutWafConfiguration(value *BedrockagentcoreGatewayWafConfiguration)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -210,6 +214,7 @@ type BedrockagentcoreGateway interface {
 	ResetProtocolConfiguration()
 	ResetProtocolType()
 	ResetTags()
+	ResetWafConfiguration()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -717,6 +722,36 @@ func (j *jsiiProxy_BedrockagentcoreGateway) UpdatedAt() *string {
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreGateway) WafConfiguration() BedrockagentcoreGatewayWafConfigurationOutputReference {
+	var returns BedrockagentcoreGatewayWafConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"wafConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGateway) WafConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"wafConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreGateway) WebAclArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"webAclArn",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreGateway) WorkloadIdentityDetails() BedrockagentcoreGatewayWorkloadIdentityDetailsOutputReference {
 	var returns BedrockagentcoreGatewayWorkloadIdentityDetailsOutputReference
 	_jsii_.Get(
@@ -728,7 +763,7 @@ func (j *jsiiProxy_BedrockagentcoreGateway) WorkloadIdentityDetails() Bedrockage
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_gateway awscc_bedrockagentcore_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_gateway awscc_bedrockagentcore_gateway} Resource.
 func NewBedrockagentcoreGateway(scope constructs.Construct, id *string, config *BedrockagentcoreGatewayConfig) BedrockagentcoreGateway {
 	_init_.Initialize()
 
@@ -746,7 +781,7 @@ func NewBedrockagentcoreGateway(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_gateway awscc_bedrockagentcore_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_gateway awscc_bedrockagentcore_gateway} Resource.
 func NewBedrockagentcoreGateway_Override(b BedrockagentcoreGateway, scope constructs.Construct, id *string, config *BedrockagentcoreGatewayConfig) {
 	_init_.Initialize()
 
@@ -1326,6 +1361,17 @@ func (b *jsiiProxy_BedrockagentcoreGateway) PutProtocolConfiguration(value *Bedr
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreGateway) PutWafConfiguration(value *BedrockagentcoreGatewayWafConfiguration) {
+	if err := b.validatePutWafConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putWafConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreGateway) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := b.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -1413,6 +1459,14 @@ func (b *jsiiProxy_BedrockagentcoreGateway) ResetTags() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetTags",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreGateway) ResetWafConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetWafConfiguration",
 		nil, // no parameters
 	)
 }

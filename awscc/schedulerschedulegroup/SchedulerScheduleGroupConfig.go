@@ -22,11 +22,11 @@ type SchedulerScheduleGroupConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scheduler_schedule_group#name SchedulerScheduleGroup#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scheduler_schedule_group#name SchedulerScheduleGroup#name}.
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// The list of tags to associate with the schedule group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scheduler_schedule_group#tags SchedulerScheduleGroup#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scheduler_schedule_group#tags SchedulerScheduleGroup#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

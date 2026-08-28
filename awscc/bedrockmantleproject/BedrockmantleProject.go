@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockmantle_project awscc_bedrockmantle_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockmantle_project awscc_bedrockmantle_project}.
 type BedrockmantleProject interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -435,7 +435,7 @@ func (j *jsiiProxy_BedrockmantleProject) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockmantle_project awscc_bedrockmantle_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockmantle_project awscc_bedrockmantle_project} Resource.
 func NewBedrockmantleProject(scope constructs.Construct, id *string, config *BedrockmantleProjectConfig) BedrockmantleProject {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewBedrockmantleProject(scope constructs.Construct, id *string, config *Bed
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockmantle_project awscc_bedrockmantle_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockmantle_project awscc_bedrockmantle_project} Resource.
 func NewBedrockmantleProject_Override(b BedrockmantleProject, scope constructs.Construct, id *string, config *BedrockmantleProjectConfig) {
 	_init_.Initialize()
 

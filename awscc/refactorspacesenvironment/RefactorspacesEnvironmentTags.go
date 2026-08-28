@@ -7,11 +7,11 @@ package refactorspacesenvironment
 type RefactorspacesEnvironmentTags struct {
 	// A string used to identify this tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/refactorspaces_environment#key RefactorspacesEnvironment#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/refactorspaces_environment#key RefactorspacesEnvironment#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// A string containing the value for the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/refactorspaces_environment#value RefactorspacesEnvironment#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/refactorspaces_environment#value RefactorspacesEnvironment#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

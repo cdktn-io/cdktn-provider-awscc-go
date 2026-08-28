@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/medialive_event_bridge_rule_template_groups awscc_medialive_event_bridge_rule_template_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/medialive_event_bridge_rule_template_groups awscc_medialive_event_bridge_rule_template_groups}.
 type DataAwsccMedialiveEventBridgeRuleTemplateGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMedialiveEventBridgeRuleTemplateGroups) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/medialive_event_bridge_rule_template_groups awscc_medialive_event_bridge_rule_template_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/medialive_event_bridge_rule_template_groups awscc_medialive_event_bridge_rule_template_groups} Data Source.
 func NewDataAwsccMedialiveEventBridgeRuleTemplateGroups(scope constructs.Construct, id *string, config *DataAwsccMedialiveEventBridgeRuleTemplateGroupsConfig) DataAwsccMedialiveEventBridgeRuleTemplateGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMedialiveEventBridgeRuleTemplateGroups(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/medialive_event_bridge_rule_template_groups awscc_medialive_event_bridge_rule_template_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/medialive_event_bridge_rule_template_groups awscc_medialive_event_bridge_rule_template_groups} Data Source.
 func NewDataAwsccMedialiveEventBridgeRuleTemplateGroups_Override(d DataAwsccMedialiveEventBridgeRuleTemplateGroups, scope constructs.Construct, id *string, config *DataAwsccMedialiveEventBridgeRuleTemplateGroupsConfig) {
 	_init_.Initialize()
 

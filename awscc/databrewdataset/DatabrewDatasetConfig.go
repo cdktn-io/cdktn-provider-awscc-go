@@ -24,29 +24,29 @@ type DatabrewDatasetConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Input.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_dataset#input DatabrewDataset#input}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_dataset#input DatabrewDataset#input}
 	Input *DatabrewDatasetInput `field:"required" json:"input" yaml:"input"`
 	// Dataset name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_dataset#name DatabrewDataset#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_dataset#name DatabrewDataset#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Dataset format.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_dataset#format DatabrewDataset#format}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_dataset#format DatabrewDataset#format}
 	Format *string `field:"optional" json:"format" yaml:"format"`
 	// Format options for dataset.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_dataset#format_options DatabrewDataset#format_options}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_dataset#format_options DatabrewDataset#format_options}
 	FormatOptions *DatabrewDatasetFormatOptions `field:"optional" json:"formatOptions" yaml:"formatOptions"`
 	// PathOptions.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_dataset#path_options DatabrewDataset#path_options}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_dataset#path_options DatabrewDataset#path_options}
 	PathOptions *DatabrewDatasetPathOptions `field:"optional" json:"pathOptions" yaml:"pathOptions"`
 	// Source type of the dataset.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_dataset#source DatabrewDataset#source}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_dataset#source DatabrewDataset#source}
 	Source *string `field:"optional" json:"source" yaml:"source"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/databrew_dataset#tags DatabrewDataset#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/databrew_dataset#tags DatabrewDataset#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

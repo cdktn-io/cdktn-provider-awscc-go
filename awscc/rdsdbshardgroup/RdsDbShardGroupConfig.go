@@ -24,11 +24,11 @@ type RdsDbShardGroupConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the primary DB cluster for the DB shard group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_shard_group#db_cluster_identifier RdsDbShardGroup#db_cluster_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_shard_group#db_cluster_identifier RdsDbShardGroup#db_cluster_identifier}
 	DbClusterIdentifier *string `field:"required" json:"dbClusterIdentifier" yaml:"dbClusterIdentifier"`
 	// The maximum capacity of the DB shard group in Aurora capacity units (ACUs).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_shard_group#max_acu RdsDbShardGroup#max_acu}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_shard_group#max_acu RdsDbShardGroup#max_acu}
 	MaxAcu *float64 `field:"required" json:"maxAcu" yaml:"maxAcu"`
 	// Specifies whether to create standby standby DB data access shard for the DB shard group.
 	//
@@ -37,15 +37,15 @@ type RdsDbShardGroupConfig struct {
 	//   +  1 - Creates a DB shard group with a standby DB data access shard in a different Availability Zone (AZ).
 	//   +  2 - Creates a DB shard group with two standby DB data access shard in two different AZs.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_shard_group#compute_redundancy RdsDbShardGroup#compute_redundancy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_shard_group#compute_redundancy RdsDbShardGroup#compute_redundancy}
 	ComputeRedundancy *float64 `field:"optional" json:"computeRedundancy" yaml:"computeRedundancy"`
 	// The name of the DB shard group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_shard_group#db_shard_group_identifier RdsDbShardGroup#db_shard_group_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_shard_group#db_shard_group_identifier RdsDbShardGroup#db_shard_group_identifier}
 	DbShardGroupIdentifier *string `field:"optional" json:"dbShardGroupIdentifier" yaml:"dbShardGroupIdentifier"`
 	// The minimum capacity of the DB shard group in Aurora capacity units (ACUs).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_shard_group#min_acu RdsDbShardGroup#min_acu}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_shard_group#min_acu RdsDbShardGroup#min_acu}
 	MinAcu *float64 `field:"optional" json:"minAcu" yaml:"minAcu"`
 	// Specifies whether the DB shard group is publicly accessible.
 	//
@@ -60,11 +60,11 @@ type RdsDbShardGroupConfig struct {
 	//   +  If the subnets are part of a VPC that doesn?t have an internet gateway attached to it, the DB shard group is private.
 	//   +  If the subnets are part of a VPC that has an internet gateway attached to it, the DB shard group is public.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_shard_group#publicly_accessible RdsDbShardGroup#publicly_accessible}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_shard_group#publicly_accessible RdsDbShardGroup#publicly_accessible}
 	PubliclyAccessible interface{} `field:"optional" json:"publiclyAccessible" yaml:"publiclyAccessible"`
 	// An optional set of key-value pairs to associate arbitrary data of your choosing with the DB shard group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_shard_group#tags RdsDbShardGroup#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_shard_group#tags RdsDbShardGroup#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

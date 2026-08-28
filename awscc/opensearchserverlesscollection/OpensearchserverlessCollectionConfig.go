@@ -31,39 +31,39 @@ type OpensearchserverlessCollectionConfig struct {
 	// Contains between 3 and 64 characters
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_collection#name OpensearchserverlessCollection#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_collection#name OpensearchserverlessCollection#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The name of the collection group to associate with the collection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_collection#collection_group_name OpensearchserverlessCollection#collection_group_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_collection#collection_group_name OpensearchserverlessCollection#collection_group_name}
 	CollectionGroupName *string `field:"optional" json:"collectionGroupName" yaml:"collectionGroupName"`
 	// The deletion protection state of the collection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_collection#deletion_protection OpensearchserverlessCollection#deletion_protection}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_collection#deletion_protection OpensearchserverlessCollection#deletion_protection}
 	DeletionProtection *string `field:"optional" json:"deletionProtection" yaml:"deletionProtection"`
 	// The description of the collection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_collection#description OpensearchserverlessCollection#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_collection#description OpensearchserverlessCollection#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Encryption settings for the collection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_collection#encryption_config OpensearchserverlessCollection#encryption_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_collection#encryption_config OpensearchserverlessCollection#encryption_config}
 	EncryptionConfig *OpensearchserverlessCollectionEncryptionConfig `field:"optional" json:"encryptionConfig" yaml:"encryptionConfig"`
 	// The possible standby replicas for the collection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_collection#standby_replicas OpensearchserverlessCollection#standby_replicas}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_collection#standby_replicas OpensearchserverlessCollection#standby_replicas}
 	StandbyReplicas *string `field:"optional" json:"standbyReplicas" yaml:"standbyReplicas"`
 	// List of tags to be added to the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_collection#tags OpensearchserverlessCollection#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_collection#tags OpensearchserverlessCollection#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// The possible types for the collection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_collection#type OpensearchserverlessCollection#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_collection#type OpensearchserverlessCollection#type}
 	Type *string `field:"optional" json:"type" yaml:"type"`
 	// Vector search configuration options for the collection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_collection#vector_options OpensearchserverlessCollection#vector_options}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_collection#vector_options OpensearchserverlessCollection#vector_options}
 	VectorOptions *OpensearchserverlessCollectionVectorOptions `field:"optional" json:"vectorOptions" yaml:"vectorOptions"`
 }
 

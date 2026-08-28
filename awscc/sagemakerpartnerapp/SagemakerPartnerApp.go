@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_partner_app awscc_sagemaker_partner_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_partner_app awscc_sagemaker_partner_app}.
 type SagemakerPartnerApp interface {
 	cdktn.TerraformResource
 	ApplicationConfig() SagemakerPartnerAppApplicationConfigOutputReference
@@ -695,7 +695,7 @@ func (j *jsiiProxy_SagemakerPartnerApp) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_partner_app awscc_sagemaker_partner_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_partner_app awscc_sagemaker_partner_app} Resource.
 func NewSagemakerPartnerApp(scope constructs.Construct, id *string, config *SagemakerPartnerAppConfig) SagemakerPartnerApp {
 	_init_.Initialize()
 
@@ -713,7 +713,7 @@ func NewSagemakerPartnerApp(scope constructs.Construct, id *string, config *Sage
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_partner_app awscc_sagemaker_partner_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_partner_app awscc_sagemaker_partner_app} Resource.
 func NewSagemakerPartnerApp_Override(s SagemakerPartnerApp, scope constructs.Construct, id *string, config *SagemakerPartnerAppConfig) {
 	_init_.Initialize()
 

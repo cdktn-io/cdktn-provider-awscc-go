@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/healthlake_data_transformation_profile awscc_healthlake_data_transformation_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/healthlake_data_transformation_profile awscc_healthlake_data_transformation_profile}.
 type DataAwsccHealthlakeDataTransformationProfile interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccHealthlakeDataTransformationProfile) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/healthlake_data_transformation_profile awscc_healthlake_data_transformation_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/healthlake_data_transformation_profile awscc_healthlake_data_transformation_profile} Data Source.
 func NewDataAwsccHealthlakeDataTransformationProfile(scope constructs.Construct, id *string, config *DataAwsccHealthlakeDataTransformationProfileConfig) DataAwsccHealthlakeDataTransformationProfile {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccHealthlakeDataTransformationProfile(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/healthlake_data_transformation_profile awscc_healthlake_data_transformation_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/healthlake_data_transformation_profile awscc_healthlake_data_transformation_profile} Data Source.
 func NewDataAwsccHealthlakeDataTransformationProfile_Override(d DataAwsccHealthlakeDataTransformationProfile, scope constructs.Construct, id *string, config *DataAwsccHealthlakeDataTransformationProfileConfig) {
 	_init_.Initialize()
 

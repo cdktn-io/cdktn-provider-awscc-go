@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_cross_account_attachment awscc_globalaccelerator_cross_account_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_cross_account_attachment awscc_globalaccelerator_cross_account_attachment}.
 type GlobalacceleratorCrossAccountAttachment interface {
 	cdktn.TerraformResource
 	AttachmentArn() *string
@@ -461,7 +461,7 @@ func (j *jsiiProxy_GlobalacceleratorCrossAccountAttachment) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_cross_account_attachment awscc_globalaccelerator_cross_account_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_cross_account_attachment awscc_globalaccelerator_cross_account_attachment} Resource.
 func NewGlobalacceleratorCrossAccountAttachment(scope constructs.Construct, id *string, config *GlobalacceleratorCrossAccountAttachmentConfig) GlobalacceleratorCrossAccountAttachment {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewGlobalacceleratorCrossAccountAttachment(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_cross_account_attachment awscc_globalaccelerator_cross_account_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_cross_account_attachment awscc_globalaccelerator_cross_account_attachment} Resource.
 func NewGlobalacceleratorCrossAccountAttachment_Override(g GlobalacceleratorCrossAccountAttachment, scope constructs.Construct, id *string, config *GlobalacceleratorCrossAccountAttachmentConfig) {
 	_init_.Initialize()
 

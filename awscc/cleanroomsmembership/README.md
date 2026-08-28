@@ -1,3 +1,3 @@
 # `awscc_cleanrooms_membership`
 
-Refer to the Terraform Registry for docs: [`awscc_cleanrooms_membership`](https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_membership).
+Refer to the Terraform Registry for docs: [`awscc_cleanrooms_membership`](https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_membership).

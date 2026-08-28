@@ -7,7 +7,7 @@ package mediatailorsourcelocation
 type MediatailorSourceLocationHttpConfiguration struct {
 	// <p>The base URL for the source location host server. This string must include the protocol, such as <b>https://</b>.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_source_location#base_url MediatailorSourceLocation#base_url}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediatailor_source_location#base_url MediatailorSourceLocation#base_url}
 	BaseUrl *string `field:"required" json:"baseUrl" yaml:"baseUrl"`
 }
 

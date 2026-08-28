@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ecs_service awscc_ecs_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecs_service awscc_ecs_service}.
 type DataAwsccEcsService interface {
 	cdktn.TerraformDataSource
 	AvailabilityZoneRebalancing() *string
@@ -605,7 +605,7 @@ func (j *jsiiProxy_DataAwsccEcsService) VpcLatticeConfigurations() DataAwsccEcsS
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ecs_service awscc_ecs_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecs_service awscc_ecs_service} Data Source.
 func NewDataAwsccEcsService(scope constructs.Construct, id *string, config *DataAwsccEcsServiceConfig) DataAwsccEcsService {
 	_init_.Initialize()
 
@@ -623,7 +623,7 @@ func NewDataAwsccEcsService(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ecs_service awscc_ecs_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecs_service awscc_ecs_service} Data Source.
 func NewDataAwsccEcsService_Override(d DataAwsccEcsService, scope constructs.Construct, id *string, config *DataAwsccEcsServiceConfig) {
 	_init_.Initialize()
 

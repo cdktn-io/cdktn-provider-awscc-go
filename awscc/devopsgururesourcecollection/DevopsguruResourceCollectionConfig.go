@@ -24,7 +24,7 @@ type DevopsguruResourceCollectionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Information about a filter used to specify which AWS resources are analyzed for anomalous behavior by DevOps Guru.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsguru_resource_collection#resource_collection_filter DevopsguruResourceCollection#resource_collection_filter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsguru_resource_collection#resource_collection_filter DevopsguruResourceCollection#resource_collection_filter}
 	ResourceCollectionFilter *DevopsguruResourceCollectionResourceCollectionFilter `field:"required" json:"resourceCollectionFilter" yaml:"resourceCollectionFilter"`
 }
 

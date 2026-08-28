@@ -187,6 +187,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
 			_jsii_.MemberProperty{JsiiProperty: "encryptionConflictResolutionStrategy", GoGetter: "EncryptionConflictResolutionStrategy"},
 			_jsii_.MemberProperty{JsiiProperty: "encryptionConflictResolutionStrategyInput", GoGetter: "EncryptionConflictResolutionStrategyInput"},
+			_jsii_.MemberProperty{JsiiProperty: "encryptionScope", GoGetter: "EncryptionScope"},
+			_jsii_.MemberProperty{JsiiProperty: "encryptionScopeInput", GoGetter: "EncryptionScopeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "encryptionStrategy", GoGetter: "EncryptionStrategy"},
 			_jsii_.MemberProperty{JsiiProperty: "encryptionStrategyInput", GoGetter: "EncryptionStrategyInput"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
@@ -205,6 +207,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "kmsKeyArn", GoGetter: "KmsKeyArn"},
 			_jsii_.MemberProperty{JsiiProperty: "kmsKeyArnInput", GoGetter: "KmsKeyArnInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEncryptionConflictResolutionStrategy", GoMethod: "ResetEncryptionConflictResolutionStrategy"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEncryptionScope", GoMethod: "ResetEncryptionScope"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEncryptionStrategy", GoMethod: "ResetEncryptionStrategy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetKmsKeyArn", GoMethod: "ResetKmsKeyArn"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
@@ -248,16 +251,62 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putBackupConfiguration", GoMethod: "PutBackupConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putLogGroupNameConfiguration", GoMethod: "PutLogGroupNameConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putLogsEncryptionConfiguration", GoMethod: "PutLogsEncryptionConfiguration"},
+			_jsii_.MemberMethod{JsiiMethod: "putTagPropagationConfiguration", GoMethod: "PutTagPropagationConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBackupConfiguration", GoMethod: "ResetBackupConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLogGroupNameConfiguration", GoMethod: "ResetLogGroupNameConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLogsEncryptionConfiguration", GoMethod: "ResetLogsEncryptionConfiguration"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTagPropagationConfiguration", GoMethod: "ResetTagPropagationConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "tagPropagationConfiguration", GoGetter: "TagPropagationConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "tagPropagationConfigurationInput", GoGetter: "TagPropagationConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.observabilityadminOrganizationCentralizationRule.ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationTagPropagationConfiguration",
+		reflect.TypeOf((*ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationTagPropagationConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.observabilityadminOrganizationCentralizationRule.ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationTagPropagationConfigurationOutputReference",
+		reflect.TypeOf((*ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationTagPropagationConfigurationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "destinationRoleArn", GoGetter: "DestinationRoleArn"},
+			_jsii_.MemberProperty{JsiiProperty: "destinationRoleArnInput", GoGetter: "DestinationRoleArnInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDestinationRoleArn", GoMethod: "ResetDestinationRoleArn"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTagConflictResolutionStrategy", GoMethod: "ResetTagConflictResolutionStrategy"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "tagConflictResolutionStrategy", GoGetter: "TagConflictResolutionStrategy"},
+			_jsii_.MemberProperty{JsiiProperty: "tagConflictResolutionStrategyInput", GoGetter: "TagConflictResolutionStrategyInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationTagPropagationConfigurationOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

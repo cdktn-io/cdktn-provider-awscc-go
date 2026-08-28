@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_evaluators awscc_bedrockagentcore_evaluators}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_evaluators awscc_bedrockagentcore_evaluators}.
 type DataAwsccBedrockagentcoreEvaluators interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreEvaluators) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_evaluators awscc_bedrockagentcore_evaluators} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_evaluators awscc_bedrockagentcore_evaluators} Data Source.
 func NewDataAwsccBedrockagentcoreEvaluators(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreEvaluatorsConfig) DataAwsccBedrockagentcoreEvaluators {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockagentcoreEvaluators(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_evaluators awscc_bedrockagentcore_evaluators} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_evaluators awscc_bedrockagentcore_evaluators} Data Source.
 func NewDataAwsccBedrockagentcoreEvaluators_Override(d DataAwsccBedrockagentcoreEvaluators, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreEvaluatorsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ses_receipt_filter awscc_ses_receipt_filter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_receipt_filter awscc_ses_receipt_filter}.
 type DataAwsccSesReceiptFilter interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccSesReceiptFilter) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ses_receipt_filter awscc_ses_receipt_filter} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_receipt_filter awscc_ses_receipt_filter} Data Source.
 func NewDataAwsccSesReceiptFilter(scope constructs.Construct, id *string, config *DataAwsccSesReceiptFilterConfig) DataAwsccSesReceiptFilter {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccSesReceiptFilter(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ses_receipt_filter awscc_ses_receipt_filter} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_receipt_filter awscc_ses_receipt_filter} Data Source.
 func NewDataAwsccSesReceiptFilter_Override(d DataAwsccSesReceiptFilter, scope constructs.Construct, id *string, config *DataAwsccSesReceiptFilterConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/certificatemanager_acme_external_account_binding awscc_certificatemanager_acme_external_account_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/certificatemanager_acme_external_account_binding awscc_certificatemanager_acme_external_account_binding}.
 type CertificatemanagerAcmeExternalAccountBinding interface {
 	cdktn.TerraformResource
 	AcmeEndpointArn() *string
@@ -460,7 +460,7 @@ func (j *jsiiProxy_CertificatemanagerAcmeExternalAccountBinding) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/certificatemanager_acme_external_account_binding awscc_certificatemanager_acme_external_account_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/certificatemanager_acme_external_account_binding awscc_certificatemanager_acme_external_account_binding} Resource.
 func NewCertificatemanagerAcmeExternalAccountBinding(scope constructs.Construct, id *string, config *CertificatemanagerAcmeExternalAccountBindingConfig) CertificatemanagerAcmeExternalAccountBinding {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewCertificatemanagerAcmeExternalAccountBinding(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/certificatemanager_acme_external_account_binding awscc_certificatemanager_acme_external_account_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/certificatemanager_acme_external_account_binding awscc_certificatemanager_acme_external_account_binding} Resource.
 func NewCertificatemanagerAcmeExternalAccountBinding_Override(c CertificatemanagerAcmeExternalAccountBinding, scope constructs.Construct, id *string, config *CertificatemanagerAcmeExternalAccountBindingConfig) {
 	_init_.Initialize()
 

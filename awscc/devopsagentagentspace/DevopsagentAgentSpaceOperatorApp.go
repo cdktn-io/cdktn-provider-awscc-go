@@ -5,9 +5,9 @@ package devopsagentagentspace
 
 
 type DevopsagentAgentSpaceOperatorApp struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_agent_space#iam DevopsagentAgentSpace#iam}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_agent_space#iam DevopsagentAgentSpace#iam}.
 	Iam *DevopsagentAgentSpaceOperatorAppIam `field:"optional" json:"iam" yaml:"iam"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_agent_space#idc DevopsagentAgentSpace#idc}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_agent_space#idc DevopsagentAgentSpace#idc}.
 	Idc *DevopsagentAgentSpaceOperatorAppIdc `field:"optional" json:"idc" yaml:"idc"`
 }
 

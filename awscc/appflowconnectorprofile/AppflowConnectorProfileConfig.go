@@ -26,31 +26,31 @@ type AppflowConnectorProfileConfig struct {
 	//
 	// Private connection mode is currently enabled for Salesforce, Snowflake, Trendmicro and Singular
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appflow_connector_profile#connection_mode AppflowConnectorProfile#connection_mode}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appflow_connector_profile#connection_mode AppflowConnectorProfile#connection_mode}
 	ConnectionMode *string `field:"required" json:"connectionMode" yaml:"connectionMode"`
 	// The maximum number of items to retrieve in a single batch.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appflow_connector_profile#connector_profile_name AppflowConnectorProfile#connector_profile_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appflow_connector_profile#connector_profile_name AppflowConnectorProfile#connector_profile_name}
 	ConnectorProfileName *string `field:"required" json:"connectorProfileName" yaml:"connectorProfileName"`
 	// List of Saas providers that need connector profile to be created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appflow_connector_profile#connector_type AppflowConnectorProfile#connector_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appflow_connector_profile#connector_type AppflowConnectorProfile#connector_type}
 	ConnectorType *string `field:"required" json:"connectorType" yaml:"connectorType"`
 	// The label of the connector.
 	//
 	// The label is unique for each ConnectorRegistration in your AWS account. Only needed if calling for CUSTOMCONNECTOR connector type/.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appflow_connector_profile#connector_label AppflowConnectorProfile#connector_label}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appflow_connector_profile#connector_label AppflowConnectorProfile#connector_label}
 	ConnectorLabel *string `field:"optional" json:"connectorLabel" yaml:"connectorLabel"`
 	// Connector specific configurations needed to create connector profile.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appflow_connector_profile#connector_profile_config AppflowConnectorProfile#connector_profile_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appflow_connector_profile#connector_profile_config AppflowConnectorProfile#connector_profile_config}
 	ConnectorProfileConfig *AppflowConnectorProfileConnectorProfileConfig `field:"optional" json:"connectorProfileConfig" yaml:"connectorProfileConfig"`
 	// The ARN of the AWS Key Management Service (AWS KMS) key that's used to encrypt your function's environment variables.
 	//
 	// If it's not provided, AWS Lambda uses a default service key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appflow_connector_profile#kms_arn AppflowConnectorProfile#kms_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appflow_connector_profile#kms_arn AppflowConnectorProfile#kms_arn}
 	KmsArn *string `field:"optional" json:"kmsArn" yaml:"kmsArn"`
 }
 

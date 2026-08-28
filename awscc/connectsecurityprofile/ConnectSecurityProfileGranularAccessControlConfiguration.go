@@ -7,7 +7,7 @@ package connectsecurityprofile
 type ConnectSecurityProfileGranularAccessControlConfiguration struct {
 	// Defines the access control configuration for data tables.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_security_profile#data_table_access_control_configuration ConnectSecurityProfile#data_table_access_control_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_security_profile#data_table_access_control_configuration ConnectSecurityProfile#data_table_access_control_configuration}
 	DataTableAccessControlConfiguration *ConnectSecurityProfileGranularAccessControlConfigurationDataTableAccessControlConfiguration `field:"optional" json:"dataTableAccessControlConfiguration" yaml:"dataTableAccessControlConfiguration"`
 }
 

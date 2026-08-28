@@ -5,9 +5,9 @@ package iotwirelessserviceprofile
 
 
 type IotwirelessServiceProfileTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotwireless_service_profile#key IotwirelessServiceProfile#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotwireless_service_profile#key IotwirelessServiceProfile#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotwireless_service_profile#value IotwirelessServiceProfile#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotwireless_service_profile#value IotwirelessServiceProfile#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

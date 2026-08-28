@@ -24,27 +24,27 @@ type MediatailorSourceLocationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// <p>The HTTP configuration for the source location.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_source_location#http_configuration MediatailorSourceLocation#http_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediatailor_source_location#http_configuration MediatailorSourceLocation#http_configuration}
 	HttpConfiguration *MediatailorSourceLocationHttpConfiguration `field:"required" json:"httpConfiguration" yaml:"httpConfiguration"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_source_location#source_location_name MediatailorSourceLocation#source_location_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediatailor_source_location#source_location_name MediatailorSourceLocation#source_location_name}.
 	SourceLocationName *string `field:"required" json:"sourceLocationName" yaml:"sourceLocationName"`
 	// <p>Access configuration parameters.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_source_location#access_configuration MediatailorSourceLocation#access_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediatailor_source_location#access_configuration MediatailorSourceLocation#access_configuration}
 	AccessConfiguration *MediatailorSourceLocationAccessConfiguration `field:"optional" json:"accessConfiguration" yaml:"accessConfiguration"`
 	// <p>The optional configuration for a server that serves segments.
 	//
 	// Use this if you want the segment delivery server to be different from the source location server. For example, you can configure your source location server to be an origination server, such as MediaPackage, and the segment delivery server to be a content delivery network (CDN), such as CloudFront. If you don't specify a segment delivery server, then the source location server is used.</p>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_source_location#default_segment_delivery_configuration MediatailorSourceLocation#default_segment_delivery_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediatailor_source_location#default_segment_delivery_configuration MediatailorSourceLocation#default_segment_delivery_configuration}
 	DefaultSegmentDeliveryConfiguration *MediatailorSourceLocationDefaultSegmentDeliveryConfiguration `field:"optional" json:"defaultSegmentDeliveryConfiguration" yaml:"defaultSegmentDeliveryConfiguration"`
 	// <p>A list of the segment delivery configurations associated with this resource.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_source_location#segment_delivery_configurations MediatailorSourceLocation#segment_delivery_configurations}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediatailor_source_location#segment_delivery_configurations MediatailorSourceLocation#segment_delivery_configurations}
 	SegmentDeliveryConfigurations interface{} `field:"optional" json:"segmentDeliveryConfigurations" yaml:"segmentDeliveryConfigurations"`
 	// The tags to assign to the source location.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_source_location#tags MediatailorSourceLocation#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediatailor_source_location#tags MediatailorSourceLocation#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

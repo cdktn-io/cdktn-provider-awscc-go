@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3_bucket_policies awscc_s3_bucket_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3_bucket_policies awscc_s3_bucket_policies}.
 type DataAwsccS3BucketPolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccS3BucketPolicies) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3_bucket_policies awscc_s3_bucket_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3_bucket_policies awscc_s3_bucket_policies} Data Source.
 func NewDataAwsccS3BucketPolicies(scope constructs.Construct, id *string, config *DataAwsccS3BucketPoliciesConfig) DataAwsccS3BucketPolicies {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccS3BucketPolicies(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3_bucket_policies awscc_s3_bucket_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3_bucket_policies awscc_s3_bucket_policies} Data Source.
 func NewDataAwsccS3BucketPolicies_Override(d DataAwsccS3BucketPolicies, scope constructs.Construct, id *string, config *DataAwsccS3BucketPoliciesConfig) {
 	_init_.Initialize()
 

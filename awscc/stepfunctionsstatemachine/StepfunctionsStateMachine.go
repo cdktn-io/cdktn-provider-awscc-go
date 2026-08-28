@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_state_machine awscc_stepfunctions_state_machine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_state_machine awscc_stepfunctions_state_machine}.
 type StepfunctionsStateMachine interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -616,7 +616,7 @@ func (j *jsiiProxy_StepfunctionsStateMachine) TracingConfigurationInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_state_machine awscc_stepfunctions_state_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_state_machine awscc_stepfunctions_state_machine} Resource.
 func NewStepfunctionsStateMachine(scope constructs.Construct, id *string, config *StepfunctionsStateMachineConfig) StepfunctionsStateMachine {
 	_init_.Initialize()
 
@@ -634,7 +634,7 @@ func NewStepfunctionsStateMachine(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/stepfunctions_state_machine awscc_stepfunctions_state_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/stepfunctions_state_machine awscc_stepfunctions_state_machine} Resource.
 func NewStepfunctionsStateMachine_Override(s StepfunctionsStateMachine, scope constructs.Construct, id *string, config *StepfunctionsStateMachineConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package codedeploydeploymentconfig
 
 
 type CodedeployDeploymentConfigTrafficRoutingConfigTimeBasedCanary struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codedeploy_deployment_config#canary_interval CodedeployDeploymentConfig#canary_interval}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codedeploy_deployment_config#canary_interval CodedeployDeploymentConfig#canary_interval}.
 	CanaryInterval *float64 `field:"optional" json:"canaryInterval" yaml:"canaryInterval"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codedeploy_deployment_config#canary_percentage CodedeployDeploymentConfig#canary_percentage}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codedeploy_deployment_config#canary_percentage CodedeployDeploymentConfig#canary_percentage}.
 	CanaryPercentage *float64 `field:"optional" json:"canaryPercentage" yaml:"canaryPercentage"`
 }
 

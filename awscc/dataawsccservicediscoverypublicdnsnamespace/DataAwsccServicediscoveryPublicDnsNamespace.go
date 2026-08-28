@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicediscovery_public_dns_namespace awscc_servicediscovery_public_dns_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/servicediscovery_public_dns_namespace awscc_servicediscovery_public_dns_namespace}.
 type DataAwsccServicediscoveryPublicDnsNamespace interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccServicediscoveryPublicDnsNamespace) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicediscovery_public_dns_namespace awscc_servicediscovery_public_dns_namespace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/servicediscovery_public_dns_namespace awscc_servicediscovery_public_dns_namespace} Data Source.
 func NewDataAwsccServicediscoveryPublicDnsNamespace(scope constructs.Construct, id *string, config *DataAwsccServicediscoveryPublicDnsNamespaceConfig) DataAwsccServicediscoveryPublicDnsNamespace {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccServicediscoveryPublicDnsNamespace(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicediscovery_public_dns_namespace awscc_servicediscovery_public_dns_namespace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/servicediscovery_public_dns_namespace awscc_servicediscovery_public_dns_namespace} Data Source.
 func NewDataAwsccServicediscoveryPublicDnsNamespace_Override(d DataAwsccServicediscoveryPublicDnsNamespace, scope constructs.Construct, id *string, config *DataAwsccServicediscoveryPublicDnsNamespaceConfig) {
 	_init_.Initialize()
 

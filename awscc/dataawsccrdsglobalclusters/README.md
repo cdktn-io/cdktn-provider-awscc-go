@@ -1,3 +1,3 @@
 # `data_awscc_rds_global_clusters`
 
-Refer to the Terraform Registry for docs: [`data_awscc_rds_global_clusters`](https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rds_global_clusters).
+Refer to the Terraform Registry for docs: [`data_awscc_rds_global_clusters`](https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rds_global_clusters).

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_transit_gateway_route_table_propagation awscc_ec2_transit_gateway_route_table_propagation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_transit_gateway_route_table_propagation awscc_ec2_transit_gateway_route_table_propagation}.
 type Ec2TransitGatewayRouteTablePropagation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_Ec2TransitGatewayRouteTablePropagation) TransitGatewayRouteTa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_transit_gateway_route_table_propagation awscc_ec2_transit_gateway_route_table_propagation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_transit_gateway_route_table_propagation awscc_ec2_transit_gateway_route_table_propagation} Resource.
 func NewEc2TransitGatewayRouteTablePropagation(scope constructs.Construct, id *string, config *Ec2TransitGatewayRouteTablePropagationConfig) Ec2TransitGatewayRouteTablePropagation {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewEc2TransitGatewayRouteTablePropagation(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_transit_gateway_route_table_propagation awscc_ec2_transit_gateway_route_table_propagation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_transit_gateway_route_table_propagation awscc_ec2_transit_gateway_route_table_propagation} Resource.
 func NewEc2TransitGatewayRouteTablePropagation_Override(e Ec2TransitGatewayRouteTablePropagation, scope constructs.Construct, id *string, config *Ec2TransitGatewayRouteTablePropagationConfig) {
 	_init_.Initialize()
 

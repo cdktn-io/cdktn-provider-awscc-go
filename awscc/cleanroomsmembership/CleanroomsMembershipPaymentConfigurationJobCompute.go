@@ -5,7 +5,7 @@ package cleanroomsmembership
 
 
 type CleanroomsMembershipPaymentConfigurationJobCompute struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_membership#is_responsible CleanroomsMembership#is_responsible}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_membership#is_responsible CleanroomsMembership#is_responsible}.
 	IsResponsible interface{} `field:"optional" json:"isResponsible" yaml:"isResponsible"`
 }
 

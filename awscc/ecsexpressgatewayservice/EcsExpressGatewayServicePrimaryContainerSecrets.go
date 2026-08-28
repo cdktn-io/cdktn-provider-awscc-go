@@ -5,9 +5,9 @@ package ecsexpressgatewayservice
 
 
 type EcsExpressGatewayServicePrimaryContainerSecrets struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_express_gateway_service#name EcsExpressGatewayService#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_express_gateway_service#name EcsExpressGatewayService#name}.
 	Name *string `field:"optional" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_express_gateway_service#value_from EcsExpressGatewayService#value_from}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_express_gateway_service#value_from EcsExpressGatewayService#value_from}.
 	ValueFrom *string `field:"optional" json:"valueFrom" yaml:"valueFrom"`
 }
 

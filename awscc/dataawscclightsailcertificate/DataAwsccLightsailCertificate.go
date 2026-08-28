@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lightsail_certificate awscc_lightsail_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lightsail_certificate awscc_lightsail_certificate}.
 type DataAwsccLightsailCertificate interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccLightsailCertificate) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lightsail_certificate awscc_lightsail_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lightsail_certificate awscc_lightsail_certificate} Data Source.
 func NewDataAwsccLightsailCertificate(scope constructs.Construct, id *string, config *DataAwsccLightsailCertificateConfig) DataAwsccLightsailCertificate {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccLightsailCertificate(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lightsail_certificate awscc_lightsail_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lightsail_certificate awscc_lightsail_certificate} Data Source.
 func NewDataAwsccLightsailCertificate_Override(d DataAwsccLightsailCertificate, scope constructs.Construct, id *string, config *DataAwsccLightsailCertificateConfig) {
 	_init_.Initialize()
 

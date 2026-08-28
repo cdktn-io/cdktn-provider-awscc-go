@@ -26,17 +26,17 @@ type TimestreamDatabaseConfig struct {
 	//
 	// If you don't specify a name, AWS CloudFormation generates a unique physical ID and uses that ID for the database name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/timestream_database#database_name TimestreamDatabase#database_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_database#database_name TimestreamDatabase#database_name}
 	DatabaseName *string `field:"optional" json:"databaseName" yaml:"databaseName"`
 	// The KMS key for the database.
 	//
 	// If the KMS key is not specified, the database will be encrypted with a Timestream managed KMS key located in your account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/timestream_database#kms_key_id TimestreamDatabase#kms_key_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_database#kms_key_id TimestreamDatabase#kms_key_id}
 	KmsKeyId *string `field:"optional" json:"kmsKeyId" yaml:"kmsKeyId"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/timestream_database#tags TimestreamDatabase#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_database#tags TimestreamDatabase#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

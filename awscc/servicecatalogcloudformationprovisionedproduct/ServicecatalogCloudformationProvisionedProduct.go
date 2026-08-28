@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_cloudformation_provisioned_product awscc_servicecatalog_cloudformation_provisioned_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_cloudformation_provisioned_product awscc_servicecatalog_cloudformation_provisioned_product}.
 type ServicecatalogCloudformationProvisionedProduct interface {
 	cdktn.TerraformResource
 	AcceptLanguage() *string
@@ -687,7 +687,7 @@ func (j *jsiiProxy_ServicecatalogCloudformationProvisionedProduct) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_cloudformation_provisioned_product awscc_servicecatalog_cloudformation_provisioned_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_cloudformation_provisioned_product awscc_servicecatalog_cloudformation_provisioned_product} Resource.
 func NewServicecatalogCloudformationProvisionedProduct(scope constructs.Construct, id *string, config *ServicecatalogCloudformationProvisionedProductConfig) ServicecatalogCloudformationProvisionedProduct {
 	_init_.Initialize()
 
@@ -705,7 +705,7 @@ func NewServicecatalogCloudformationProvisionedProduct(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_cloudformation_provisioned_product awscc_servicecatalog_cloudformation_provisioned_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_cloudformation_provisioned_product awscc_servicecatalog_cloudformation_provisioned_product} Resource.
 func NewServicecatalogCloudformationProvisionedProduct_Override(s ServicecatalogCloudformationProvisionedProduct, scope constructs.Construct, id *string, config *ServicecatalogCloudformationProvisionedProductConfig) {
 	_init_.Initialize()
 

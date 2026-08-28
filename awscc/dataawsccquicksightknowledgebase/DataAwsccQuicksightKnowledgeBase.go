@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_knowledge_base awscc_quicksight_knowledge_base}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_knowledge_base awscc_quicksight_knowledge_base}.
 type DataAwsccQuicksightKnowledgeBase interface {
 	cdktn.TerraformDataSource
 	AccessControlConfiguration() DataAwsccQuicksightKnowledgeBaseAccessControlConfigurationOutputReference
@@ -506,7 +506,7 @@ func (j *jsiiProxy_DataAwsccQuicksightKnowledgeBase) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_knowledge_base awscc_quicksight_knowledge_base} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_knowledge_base awscc_quicksight_knowledge_base} Data Source.
 func NewDataAwsccQuicksightKnowledgeBase(scope constructs.Construct, id *string, config *DataAwsccQuicksightKnowledgeBaseConfig) DataAwsccQuicksightKnowledgeBase {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewDataAwsccQuicksightKnowledgeBase(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_knowledge_base awscc_quicksight_knowledge_base} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_knowledge_base awscc_quicksight_knowledge_base} Data Source.
 func NewDataAwsccQuicksightKnowledgeBase_Override(d DataAwsccQuicksightKnowledgeBase, scope constructs.Construct, id *string, config *DataAwsccQuicksightKnowledgeBaseConfig) {
 	_init_.Initialize()
 

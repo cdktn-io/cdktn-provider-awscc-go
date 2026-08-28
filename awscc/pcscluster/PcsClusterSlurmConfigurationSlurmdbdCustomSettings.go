@@ -7,11 +7,11 @@ package pcscluster
 type PcsClusterSlurmConfigurationSlurmdbdCustomSettings struct {
 	// The slurmdbd.conf parameter name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_cluster#parameter_name PcsCluster#parameter_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_cluster#parameter_name PcsCluster#parameter_name}
 	ParameterName *string `field:"optional" json:"parameterName" yaml:"parameterName"`
 	// The value for the slurmdbd.conf parameter.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_cluster#parameter_value PcsCluster#parameter_value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_cluster#parameter_value PcsCluster#parameter_value}
 	ParameterValue *string `field:"optional" json:"parameterValue" yaml:"parameterValue"`
 }
 

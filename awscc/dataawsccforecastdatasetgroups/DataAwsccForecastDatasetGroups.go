@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/forecast_dataset_groups awscc_forecast_dataset_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/forecast_dataset_groups awscc_forecast_dataset_groups}.
 type DataAwsccForecastDatasetGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccForecastDatasetGroups) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/forecast_dataset_groups awscc_forecast_dataset_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/forecast_dataset_groups awscc_forecast_dataset_groups} Data Source.
 func NewDataAwsccForecastDatasetGroups(scope constructs.Construct, id *string, config *DataAwsccForecastDatasetGroupsConfig) DataAwsccForecastDatasetGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccForecastDatasetGroups(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/forecast_dataset_groups awscc_forecast_dataset_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/forecast_dataset_groups awscc_forecast_dataset_groups} Data Source.
 func NewDataAwsccForecastDatasetGroups_Override(d DataAwsccForecastDatasetGroups, scope constructs.Construct, id *string, config *DataAwsccForecastDatasetGroupsConfig) {
 	_init_.Initialize()
 

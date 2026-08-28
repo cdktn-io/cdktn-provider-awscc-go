@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/medialive_cloudwatch_alarm_template awscc_medialive_cloudwatch_alarm_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/medialive_cloudwatch_alarm_template awscc_medialive_cloudwatch_alarm_template}.
 type DataAwsccMedialiveCloudwatchAlarmTemplate interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_DataAwsccMedialiveCloudwatchAlarmTemplate) TreatMissingData()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/medialive_cloudwatch_alarm_template awscc_medialive_cloudwatch_alarm_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/medialive_cloudwatch_alarm_template awscc_medialive_cloudwatch_alarm_template} Data Source.
 func NewDataAwsccMedialiveCloudwatchAlarmTemplate(scope constructs.Construct, id *string, config *DataAwsccMedialiveCloudwatchAlarmTemplateConfig) DataAwsccMedialiveCloudwatchAlarmTemplate {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewDataAwsccMedialiveCloudwatchAlarmTemplate(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/medialive_cloudwatch_alarm_template awscc_medialive_cloudwatch_alarm_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/medialive_cloudwatch_alarm_template awscc_medialive_cloudwatch_alarm_template} Data Source.
 func NewDataAwsccMedialiveCloudwatchAlarmTemplate_Override(d DataAwsccMedialiveCloudwatchAlarmTemplate, scope constructs.Construct, id *string, config *DataAwsccMedialiveCloudwatchAlarmTemplateConfig) {
 	_init_.Initialize()
 

@@ -24,25 +24,25 @@ type LambdaNetworkConnectorConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The network configuration for the connector. Specify a VpcEgressConfiguration to enable outbound traffic routing through your VPC.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_network_connector#configuration LambdaNetworkConnector#configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_network_connector#configuration LambdaNetworkConnector#configuration}
 	Configuration *LambdaNetworkConnectorConfiguration `field:"required" json:"configuration" yaml:"configuration"`
 	// A unique name for the network connector within your account and Region.
 	//
 	// Must be 1 to 64 alphanumeric characters, hyphens, or underscores.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_network_connector#name LambdaNetworkConnector#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_network_connector#name LambdaNetworkConnector#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// The ARN of the IAM role that Lambda assumes to manage elastic network interfaces in your VPC.
 	//
 	// This role must have permissions for ec2:CreateNetworkInterface and related describe operations.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_network_connector#operator_role LambdaNetworkConnector#operator_role}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_network_connector#operator_role LambdaNetworkConnector#operator_role}
 	OperatorRole *string `field:"optional" json:"operatorRole" yaml:"operatorRole"`
 	// A list of tags to apply to the network connector.
 	//
 	// Use tags to categorize network connectors for cost allocation, access control, or operational management.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lambda_network_connector#tags LambdaNetworkConnector#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_network_connector#tags LambdaNetworkConnector#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

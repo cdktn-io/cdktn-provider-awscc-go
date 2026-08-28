@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/resourcegroups_tag_sync_task awscc_resourcegroups_tag_sync_task}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/resourcegroups_tag_sync_task awscc_resourcegroups_tag_sync_task}.
 type DataAwsccResourcegroupsTagSyncTask interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccResourcegroupsTagSyncTask) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/resourcegroups_tag_sync_task awscc_resourcegroups_tag_sync_task} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/resourcegroups_tag_sync_task awscc_resourcegroups_tag_sync_task} Data Source.
 func NewDataAwsccResourcegroupsTagSyncTask(scope constructs.Construct, id *string, config *DataAwsccResourcegroupsTagSyncTaskConfig) DataAwsccResourcegroupsTagSyncTask {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccResourcegroupsTagSyncTask(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/resourcegroups_tag_sync_task awscc_resourcegroups_tag_sync_task} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/resourcegroups_tag_sync_task awscc_resourcegroups_tag_sync_task} Data Source.
 func NewDataAwsccResourcegroupsTagSyncTask_Override(d DataAwsccResourcegroupsTagSyncTask, scope constructs.Construct, id *string, config *DataAwsccResourcegroupsTagSyncTaskConfig) {
 	_init_.Initialize()
 

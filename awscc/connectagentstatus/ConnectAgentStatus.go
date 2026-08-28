@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_agent_status awscc_connect_agent_status}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_agent_status awscc_connect_agent_status}.
 type ConnectAgentStatus interface {
 	cdktn.TerraformResource
 	AgentStatusArn() *string
@@ -577,7 +577,7 @@ func (j *jsiiProxy_ConnectAgentStatus) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_agent_status awscc_connect_agent_status} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_agent_status awscc_connect_agent_status} Resource.
 func NewConnectAgentStatus(scope constructs.Construct, id *string, config *ConnectAgentStatusConfig) ConnectAgentStatus {
 	_init_.Initialize()
 
@@ -595,7 +595,7 @@ func NewConnectAgentStatus(scope constructs.Construct, id *string, config *Conne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_agent_status awscc_connect_agent_status} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_agent_status awscc_connect_agent_status} Resource.
 func NewConnectAgentStatus_Override(c ConnectAgentStatus, scope constructs.Construct, id *string, config *ConnectAgentStatusConfig) {
 	_init_.Initialize()
 

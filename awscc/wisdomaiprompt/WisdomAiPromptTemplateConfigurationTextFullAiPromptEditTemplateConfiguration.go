@@ -5,7 +5,7 @@ package wisdomaiprompt
 
 
 type WisdomAiPromptTemplateConfigurationTextFullAiPromptEditTemplateConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wisdom_ai_prompt#text WisdomAiPrompt#text}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wisdom_ai_prompt#text WisdomAiPrompt#text}.
 	Text *string `field:"optional" json:"text" yaml:"text"`
 }
 

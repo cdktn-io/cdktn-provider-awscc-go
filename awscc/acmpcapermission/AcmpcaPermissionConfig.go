@@ -24,19 +24,19 @@ type AcmpcaPermissionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The actions that the specified AWS service principal can use. Actions IssueCertificate, GetCertificate and ListPermissions must be provided.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_permission#actions AcmpcaPermission#actions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/acmpca_permission#actions AcmpcaPermission#actions}
 	Actions *[]*string `field:"required" json:"actions" yaml:"actions"`
 	// The Amazon Resource Name (ARN) of the Private Certificate Authority that grants the permission.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_permission#certificate_authority_arn AcmpcaPermission#certificate_authority_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/acmpca_permission#certificate_authority_arn AcmpcaPermission#certificate_authority_arn}
 	CertificateAuthorityArn *string `field:"required" json:"certificateAuthorityArn" yaml:"certificateAuthorityArn"`
 	// The AWS service or identity that receives the permission. At this time, the only valid principal is acm.amazonaws.com.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_permission#principal AcmpcaPermission#principal}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/acmpca_permission#principal AcmpcaPermission#principal}
 	Principal *string `field:"required" json:"principal" yaml:"principal"`
 	// The ID of the calling account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/acmpca_permission#source_account AcmpcaPermission#source_account}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/acmpca_permission#source_account AcmpcaPermission#source_account}
 	SourceAccount *string `field:"optional" json:"sourceAccount" yaml:"sourceAccount"`
 }
 

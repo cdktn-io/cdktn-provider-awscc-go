@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_encryption_configuration awscc_iot_encryption_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_encryption_configuration awscc_iot_encryption_configuration}.
 type IotEncryptionConfiguration interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -459,7 +459,7 @@ func (j *jsiiProxy_IotEncryptionConfiguration) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_encryption_configuration awscc_iot_encryption_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_encryption_configuration awscc_iot_encryption_configuration} Resource.
 func NewIotEncryptionConfiguration(scope constructs.Construct, id *string, config *IotEncryptionConfigurationConfig) IotEncryptionConfiguration {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewIotEncryptionConfiguration(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_encryption_configuration awscc_iot_encryption_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_encryption_configuration awscc_iot_encryption_configuration} Resource.
 func NewIotEncryptionConfiguration_Override(i IotEncryptionConfiguration, scope constructs.Construct, id *string, config *IotEncryptionConfigurationConfig) {
 	_init_.Initialize()
 

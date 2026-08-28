@@ -29,6 +29,7 @@ type DataAwsccElementalinferenceFeedOutputsOutputConfigClippingOutputReference i
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DataSourceConfiguration() DataAwsccElementalinferenceFeedOutputsOutputConfigClippingDataSourceConfigurationOutputReference
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAwsccElementalinferenceFeedOutputsOutputConfigClipping
@@ -115,6 +116,16 @@ func (j *jsiiProxy_DataAwsccElementalinferenceFeedOutputsOutputConfigClippingOut
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccElementalinferenceFeedOutputsOutputConfigClippingOutputReference) DataSourceConfiguration() DataAwsccElementalinferenceFeedOutputsOutputConfigClippingDataSourceConfigurationOutputReference {
+	var returns DataAwsccElementalinferenceFeedOutputsOutputConfigClippingDataSourceConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"dataSourceConfiguration",
 		&returns,
 	)
 	return returns

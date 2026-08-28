@@ -1,3 +1,3 @@
 # `awscc_sso_permission_set`
 
-Refer to the Terraform Registry for docs: [`awscc_sso_permission_set`](https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sso_permission_set).
+Refer to the Terraform Registry for docs: [`awscc_sso_permission_set`](https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sso_permission_set).

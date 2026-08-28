@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/workspacesweb_portal awscc_workspacesweb_portal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/workspacesweb_portal awscc_workspacesweb_portal}.
 type DataAwsccWorkspaceswebPortal interface {
 	cdktn.TerraformDataSource
 	AdditionalEncryptionContext() cdktn.StringMap
@@ -550,7 +550,7 @@ func (j *jsiiProxy_DataAwsccWorkspaceswebPortal) UserSettingsArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/workspacesweb_portal awscc_workspacesweb_portal} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/workspacesweb_portal awscc_workspacesweb_portal} Data Source.
 func NewDataAwsccWorkspaceswebPortal(scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebPortalConfig) DataAwsccWorkspaceswebPortal {
 	_init_.Initialize()
 
@@ -568,7 +568,7 @@ func NewDataAwsccWorkspaceswebPortal(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/workspacesweb_portal awscc_workspacesweb_portal} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/workspacesweb_portal awscc_workspacesweb_portal} Data Source.
 func NewDataAwsccWorkspaceswebPortal_Override(d DataAwsccWorkspaceswebPortal, scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebPortalConfig) {
 	_init_.Initialize()
 

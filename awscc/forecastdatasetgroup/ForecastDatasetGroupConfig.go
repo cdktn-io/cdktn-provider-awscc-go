@@ -24,21 +24,21 @@ type ForecastDatasetGroupConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A name for the dataset group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/forecast_dataset_group#dataset_group_name ForecastDatasetGroup#dataset_group_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/forecast_dataset_group#dataset_group_name ForecastDatasetGroup#dataset_group_name}
 	DatasetGroupName *string `field:"required" json:"datasetGroupName" yaml:"datasetGroupName"`
 	// The domain associated with the dataset group.
 	//
 	// When you add a dataset to a dataset group, this value and the value specified for the Domain parameter of the CreateDataset operation must match.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/forecast_dataset_group#domain ForecastDatasetGroup#domain}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/forecast_dataset_group#domain ForecastDatasetGroup#domain}
 	Domain *string `field:"required" json:"domain" yaml:"domain"`
 	// An array of Amazon Resource Names (ARNs) of the datasets that you want to include in the dataset group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/forecast_dataset_group#dataset_arns ForecastDatasetGroup#dataset_arns}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/forecast_dataset_group#dataset_arns ForecastDatasetGroup#dataset_arns}
 	DatasetArns *[]*string `field:"optional" json:"datasetArns" yaml:"datasetArns"`
 	// The tags of Application Insights application.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/forecast_dataset_group#tags ForecastDatasetGroup#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/forecast_dataset_group#tags ForecastDatasetGroup#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

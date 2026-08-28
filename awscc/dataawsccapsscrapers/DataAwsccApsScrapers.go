@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/aps_scrapers awscc_aps_scrapers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/aps_scrapers awscc_aps_scrapers}.
 type DataAwsccApsScrapers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccApsScrapers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/aps_scrapers awscc_aps_scrapers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/aps_scrapers awscc_aps_scrapers} Data Source.
 func NewDataAwsccApsScrapers(scope constructs.Construct, id *string, config *DataAwsccApsScrapersConfig) DataAwsccApsScrapers {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccApsScrapers(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/aps_scrapers awscc_aps_scrapers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/aps_scrapers awscc_aps_scrapers} Data Source.
 func NewDataAwsccApsScrapers_Override(d DataAwsccApsScrapers, scope constructs.Construct, id *string, config *DataAwsccApsScrapersConfig) {
 	_init_.Initialize()
 

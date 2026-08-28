@@ -34,6 +34,8 @@ type MskReplicatorKafkaClustersClientAuthenticationOutputReference interface {
 	SetInternalValue(val interface{})
 	Mtls() MskReplicatorKafkaClustersClientAuthenticationMtlsOutputReference
 	MtlsInput() interface{}
+	SaslOAuthBearer() MskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerOutputReference
+	SaslOAuthBearerInput() interface{}
 	SaslScram() MskReplicatorKafkaClustersClientAuthenticationSaslScramOutputReference
 	SaslScramInput() interface{}
 	// Experimental.
@@ -69,8 +71,10 @@ type MskReplicatorKafkaClustersClientAuthenticationOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutMtls(value *MskReplicatorKafkaClustersClientAuthenticationMtls)
+	PutSaslOAuthBearer(value *MskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearer)
 	PutSaslScram(value *MskReplicatorKafkaClustersClientAuthenticationSaslScram)
 	ResetMtls()
+	ResetSaslOAuthBearer()
 	ResetSaslScram()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -152,6 +156,26 @@ func (j *jsiiProxy_MskReplicatorKafkaClustersClientAuthenticationOutputReference
 	_jsii_.Get(
 		j,
 		"mtlsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MskReplicatorKafkaClustersClientAuthenticationOutputReference) SaslOAuthBearer() MskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerOutputReference {
+	var returns MskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerOutputReference
+	_jsii_.Get(
+		j,
+		"saslOAuthBearer",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MskReplicatorKafkaClustersClientAuthenticationOutputReference) SaslOAuthBearerInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"saslOAuthBearerInput",
 		&returns,
 	)
 	return returns
@@ -477,6 +501,17 @@ func (m *jsiiProxy_MskReplicatorKafkaClustersClientAuthenticationOutputReference
 	)
 }
 
+func (m *jsiiProxy_MskReplicatorKafkaClustersClientAuthenticationOutputReference) PutSaslOAuthBearer(value *MskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearer) {
+	if err := m.validatePutSaslOAuthBearerParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putSaslOAuthBearer",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_MskReplicatorKafkaClustersClientAuthenticationOutputReference) PutSaslScram(value *MskReplicatorKafkaClustersClientAuthenticationSaslScram) {
 	if err := m.validatePutSaslScramParameters(value); err != nil {
 		panic(err)
@@ -492,6 +527,14 @@ func (m *jsiiProxy_MskReplicatorKafkaClustersClientAuthenticationOutputReference
 	_jsii_.InvokeVoid(
 		m,
 		"resetMtls",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MskReplicatorKafkaClustersClientAuthenticationOutputReference) ResetSaslOAuthBearer() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetSaslOAuthBearer",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/events_rule awscc_events_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/events_rule awscc_events_rule}.
 type DataAwsccEventsRule interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -56,6 +56,7 @@ type DataAwsccEventsRule interface {
 	// Experimental.
 	RawOverrides() interface{}
 	RoleArn() *string
+	RuleName() *string
 	ScheduleExpression() *string
 	State() *string
 	Tags() DataAwsccEventsRuleTagsList
@@ -325,6 +326,16 @@ func (j *jsiiProxy_DataAwsccEventsRule) RoleArn() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccEventsRule) RuleName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ruleName",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccEventsRule) ScheduleExpression() *string {
 	var returns *string
 	_jsii_.Get(
@@ -396,7 +407,7 @@ func (j *jsiiProxy_DataAwsccEventsRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/events_rule awscc_events_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/events_rule awscc_events_rule} Data Source.
 func NewDataAwsccEventsRule(scope constructs.Construct, id *string, config *DataAwsccEventsRuleConfig) DataAwsccEventsRule {
 	_init_.Initialize()
 
@@ -414,7 +425,7 @@ func NewDataAwsccEventsRule(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/events_rule awscc_events_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/events_rule awscc_events_rule} Data Source.
 func NewDataAwsccEventsRule_Override(d DataAwsccEventsRule, scope constructs.Construct, id *string, config *DataAwsccEventsRuleConfig) {
 	_init_.Initialize()
 

@@ -7,7 +7,7 @@ package mskchannel
 type MskChannelTopicConfigurationListRecordSchema struct {
 	// ARN of Glue Schema Registry resource used for table schema.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_channel#gsr_arn MskChannel#gsr_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_channel#gsr_arn MskChannel#gsr_arn}
 	GsrArn *string `field:"optional" json:"gsrArn" yaml:"gsrArn"`
 }
 

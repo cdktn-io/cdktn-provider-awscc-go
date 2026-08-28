@@ -7,7 +7,7 @@ package datazoneconnection
 type DatazoneConnectionPropsWorkflowsMwaaProperties struct {
 	// The name of the MWAA environment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_connection#mwaa_environment_name DatazoneConnection#mwaa_environment_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_connection#mwaa_environment_name DatazoneConnection#mwaa_environment_name}
 	MwaaEnvironmentName *string `field:"optional" json:"mwaaEnvironmentName" yaml:"mwaaEnvironmentName"`
 }
 

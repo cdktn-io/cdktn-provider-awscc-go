@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotanalytics_datastore awscc_iotanalytics_datastore}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotanalytics_datastore awscc_iotanalytics_datastore}.
 type IotanalyticsDatastore interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -510,7 +510,7 @@ func (j *jsiiProxy_IotanalyticsDatastore) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotanalytics_datastore awscc_iotanalytics_datastore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotanalytics_datastore awscc_iotanalytics_datastore} Resource.
 func NewIotanalyticsDatastore(scope constructs.Construct, id *string, config *IotanalyticsDatastoreConfig) IotanalyticsDatastore {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewIotanalyticsDatastore(scope constructs.Construct, id *string, config *Io
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotanalytics_datastore awscc_iotanalytics_datastore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotanalytics_datastore awscc_iotanalytics_datastore} Resource.
 func NewIotanalyticsDatastore_Override(i IotanalyticsDatastore, scope constructs.Construct, id *string, config *IotanalyticsDatastoreConfig) {
 	_init_.Initialize()
 

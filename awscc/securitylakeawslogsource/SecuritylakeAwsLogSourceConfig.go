@@ -24,19 +24,19 @@ type SecuritylakeAwsLogSourceConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ARN for the data lake.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securitylake_aws_log_source#data_lake_arn SecuritylakeAwsLogSource#data_lake_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securitylake_aws_log_source#data_lake_arn SecuritylakeAwsLogSource#data_lake_arn}
 	DataLakeArn *string `field:"required" json:"dataLakeArn" yaml:"dataLakeArn"`
 	// The name for a AWS source. This must be a Regionally unique value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securitylake_aws_log_source#source_name SecuritylakeAwsLogSource#source_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securitylake_aws_log_source#source_name SecuritylakeAwsLogSource#source_name}
 	SourceName *string `field:"required" json:"sourceName" yaml:"sourceName"`
 	// The version for a AWS source. This must be a Regionally unique value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securitylake_aws_log_source#source_version SecuritylakeAwsLogSource#source_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securitylake_aws_log_source#source_version SecuritylakeAwsLogSource#source_version}
 	SourceVersion *string `field:"required" json:"sourceVersion" yaml:"sourceVersion"`
 	// AWS account where you want to collect logs from.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securitylake_aws_log_source#accounts SecuritylakeAwsLogSource#accounts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securitylake_aws_log_source#accounts SecuritylakeAwsLogSource#accounts}
 	Accounts *[]*string `field:"optional" json:"accounts" yaml:"accounts"`
 }
 

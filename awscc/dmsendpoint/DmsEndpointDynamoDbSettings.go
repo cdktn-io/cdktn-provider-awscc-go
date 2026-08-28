@@ -9,7 +9,7 @@ type DmsEndpointDynamoDbSettings struct {
 	//
 	// The role must allow the iam:PassRole action.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dms_endpoint#service_access_role_arn DmsEndpoint#service_access_role_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dms_endpoint#service_access_role_arn DmsEndpoint#service_access_role_arn}
 	ServiceAccessRoleArn *string `field:"optional" json:"serviceAccessRoleArn" yaml:"serviceAccessRoleArn"`
 }
 

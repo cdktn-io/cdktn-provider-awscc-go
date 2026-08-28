@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudformation_resource_default_versions awscc_cloudformation_resource_default_versions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_resource_default_versions awscc_cloudformation_resource_default_versions}.
 type DataAwsccCloudformationResourceDefaultVersions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCloudformationResourceDefaultVersions) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudformation_resource_default_versions awscc_cloudformation_resource_default_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_resource_default_versions awscc_cloudformation_resource_default_versions} Data Source.
 func NewDataAwsccCloudformationResourceDefaultVersions(scope constructs.Construct, id *string, config *DataAwsccCloudformationResourceDefaultVersionsConfig) DataAwsccCloudformationResourceDefaultVersions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCloudformationResourceDefaultVersions(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudformation_resource_default_versions awscc_cloudformation_resource_default_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_resource_default_versions awscc_cloudformation_resource_default_versions} Data Source.
 func NewDataAwsccCloudformationResourceDefaultVersions_Override(d DataAwsccCloudformationResourceDefaultVersions, scope constructs.Construct, id *string, config *DataAwsccCloudformationResourceDefaultVersionsConfig) {
 	_init_.Initialize()
 

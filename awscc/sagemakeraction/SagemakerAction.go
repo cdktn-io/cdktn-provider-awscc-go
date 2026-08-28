@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_action awscc_sagemaker_action}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_action awscc_sagemaker_action}.
 type SagemakerAction interface {
 	cdktn.TerraformResource
 	ActionName() *string
@@ -577,7 +577,7 @@ func (j *jsiiProxy_SagemakerAction) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_action awscc_sagemaker_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_action awscc_sagemaker_action} Resource.
 func NewSagemakerAction(scope constructs.Construct, id *string, config *SagemakerActionConfig) SagemakerAction {
 	_init_.Initialize()
 
@@ -595,7 +595,7 @@ func NewSagemakerAction(scope constructs.Construct, id *string, config *Sagemake
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_action awscc_sagemaker_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_action awscc_sagemaker_action} Resource.
 func NewSagemakerAction_Override(s SagemakerAction, scope constructs.Construct, id *string, config *SagemakerActionConfig) {
 	_init_.Initialize()
 

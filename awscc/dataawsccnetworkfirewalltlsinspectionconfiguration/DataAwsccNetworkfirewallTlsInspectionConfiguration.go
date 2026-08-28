@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkfirewall_tls_inspection_configuration awscc_networkfirewall_tls_inspection_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkfirewall_tls_inspection_configuration awscc_networkfirewall_tls_inspection_configuration}.
 type DataAwsccNetworkfirewallTlsInspectionConfiguration interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccNetworkfirewallTlsInspectionConfiguration) TlsInspec
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkfirewall_tls_inspection_configuration awscc_networkfirewall_tls_inspection_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkfirewall_tls_inspection_configuration awscc_networkfirewall_tls_inspection_configuration} Data Source.
 func NewDataAwsccNetworkfirewallTlsInspectionConfiguration(scope constructs.Construct, id *string, config *DataAwsccNetworkfirewallTlsInspectionConfigurationConfig) DataAwsccNetworkfirewallTlsInspectionConfiguration {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccNetworkfirewallTlsInspectionConfiguration(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/networkfirewall_tls_inspection_configuration awscc_networkfirewall_tls_inspection_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/networkfirewall_tls_inspection_configuration awscc_networkfirewall_tls_inspection_configuration} Data Source.
 func NewDataAwsccNetworkfirewallTlsInspectionConfiguration_Override(d DataAwsccNetworkfirewallTlsInspectionConfiguration, scope constructs.Construct, id *string, config *DataAwsccNetworkfirewallTlsInspectionConfigurationConfig) {
 	_init_.Initialize()
 

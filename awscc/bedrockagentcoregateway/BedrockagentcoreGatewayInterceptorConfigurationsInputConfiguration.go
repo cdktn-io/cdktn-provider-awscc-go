@@ -5,9 +5,9 @@ package bedrockagentcoregateway
 
 
 type BedrockagentcoreGatewayInterceptorConfigurationsInputConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_gateway#pass_request_headers BedrockagentcoreGateway#pass_request_headers}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_gateway#pass_request_headers BedrockagentcoreGateway#pass_request_headers}.
 	PassRequestHeaders interface{} `field:"optional" json:"passRequestHeaders" yaml:"passRequestHeaders"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_gateway#payload_filter BedrockagentcoreGateway#payload_filter}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_gateway#payload_filter BedrockagentcoreGateway#payload_filter}.
 	PayloadFilter *BedrockagentcoreGatewayInterceptorConfigurationsInputConfigurationPayloadFilter `field:"optional" json:"payloadFilter" yaml:"payloadFilter"`
 }
 

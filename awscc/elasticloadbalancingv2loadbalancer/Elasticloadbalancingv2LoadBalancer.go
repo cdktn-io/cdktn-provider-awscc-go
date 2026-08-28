@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticloadbalancingv2_load_balancer awscc_elasticloadbalancingv2_load_balancer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticloadbalancingv2_load_balancer awscc_elasticloadbalancingv2_load_balancer}.
 type Elasticloadbalancingv2LoadBalancer interface {
 	cdktn.TerraformResource
 	CanonicalHostedZoneId() *string
@@ -746,7 +746,7 @@ func (j *jsiiProxy_Elasticloadbalancingv2LoadBalancer) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticloadbalancingv2_load_balancer awscc_elasticloadbalancingv2_load_balancer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticloadbalancingv2_load_balancer awscc_elasticloadbalancingv2_load_balancer} Resource.
 func NewElasticloadbalancingv2LoadBalancer(scope constructs.Construct, id *string, config *Elasticloadbalancingv2LoadBalancerConfig) Elasticloadbalancingv2LoadBalancer {
 	_init_.Initialize()
 
@@ -764,7 +764,7 @@ func NewElasticloadbalancingv2LoadBalancer(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticloadbalancingv2_load_balancer awscc_elasticloadbalancingv2_load_balancer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticloadbalancingv2_load_balancer awscc_elasticloadbalancingv2_load_balancer} Resource.
 func NewElasticloadbalancingv2LoadBalancer_Override(e Elasticloadbalancingv2LoadBalancer, scope constructs.Construct, id *string, config *Elasticloadbalancingv2LoadBalancerConfig) {
 	_init_.Initialize()
 

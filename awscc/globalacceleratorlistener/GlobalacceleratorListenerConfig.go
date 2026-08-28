@@ -24,17 +24,17 @@ type GlobalacceleratorListenerConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The Amazon Resource Name (ARN) of the accelerator.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_listener#accelerator_arn GlobalacceleratorListener#accelerator_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_listener#accelerator_arn GlobalacceleratorListener#accelerator_arn}
 	AcceleratorArn *string `field:"required" json:"acceleratorArn" yaml:"acceleratorArn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_listener#port_ranges GlobalacceleratorListener#port_ranges}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_listener#port_ranges GlobalacceleratorListener#port_ranges}.
 	PortRanges interface{} `field:"required" json:"portRanges" yaml:"portRanges"`
 	// Client affinity lets you direct all requests from a user to the same endpoint.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_listener#client_affinity GlobalacceleratorListener#client_affinity}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_listener#client_affinity GlobalacceleratorListener#client_affinity}
 	ClientAffinity *string `field:"optional" json:"clientAffinity" yaml:"clientAffinity"`
 	// The protocol for the listener.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/globalaccelerator_listener#protocol GlobalacceleratorListener#protocol}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/globalaccelerator_listener#protocol GlobalacceleratorListener#protocol}
 	Protocol *string `field:"optional" json:"protocol" yaml:"protocol"`
 }
 

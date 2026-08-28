@@ -135,6 +135,10 @@ func (j *jsiiProxy_BedrockagentcorePaymentConnector) validateSetProvisionersPara
 	return nil
 }
 
+func (j *jsiiProxy_BedrockagentcorePaymentConnector) validateSetProvisionModeParameters(val *string) error {
+	return nil
+}
+
 func validateNewBedrockagentcorePaymentConnectorParameters(scope constructs.Construct, id *string, config *BedrockagentcorePaymentConnectorConfig) error {
 	return nil
 }

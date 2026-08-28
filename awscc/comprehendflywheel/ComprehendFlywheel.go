@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/comprehend_flywheel awscc_comprehend_flywheel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/comprehend_flywheel awscc_comprehend_flywheel}.
 type ComprehendFlywheel interface {
 	cdktn.TerraformResource
 	ActiveModelArn() *string
@@ -555,7 +555,7 @@ func (j *jsiiProxy_ComprehendFlywheel) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/comprehend_flywheel awscc_comprehend_flywheel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/comprehend_flywheel awscc_comprehend_flywheel} Resource.
 func NewComprehendFlywheel(scope constructs.Construct, id *string, config *ComprehendFlywheelConfig) ComprehendFlywheel {
 	_init_.Initialize()
 
@@ -573,7 +573,7 @@ func NewComprehendFlywheel(scope constructs.Construct, id *string, config *Compr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/comprehend_flywheel awscc_comprehend_flywheel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/comprehend_flywheel awscc_comprehend_flywheel} Resource.
 func NewComprehendFlywheel_Override(c ComprehendFlywheel, scope constructs.Construct, id *string, config *ComprehendFlywheelConfig) {
 	_init_.Initialize()
 

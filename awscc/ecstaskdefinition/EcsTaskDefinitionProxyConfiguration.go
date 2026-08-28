@@ -7,7 +7,7 @@ package ecstaskdefinition
 type EcsTaskDefinitionProxyConfiguration struct {
 	// The name of the container that will serve as the App Mesh proxy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_task_definition#container_name EcsTaskDefinition#container_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_task_definition#container_name EcsTaskDefinition#container_name}
 	ContainerName *string `field:"optional" json:"containerName" yaml:"containerName"`
 	// The set of network configuration parameters to provide the Container Network Interface (CNI) plugin, specified as key-value pairs.
 	//
@@ -19,11 +19,11 @@ type EcsTaskDefinitionProxyConfiguration struct {
 	//   +  ``EgressIgnoredPorts`` - (Required) The egress traffic going to the specified ports is ignored and not redirected to the ``ProxyEgressPort``. It can be an empty list.
 	//   +  ``EgressIgnoredIPs`` - (Required) The egress traffic going to the specified IP addresses is ignored and not redirected to the ``ProxyEgressPort``. It can be an empty list.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_task_definition#proxy_configuration_properties EcsTaskDefinition#proxy_configuration_properties}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_task_definition#proxy_configuration_properties EcsTaskDefinition#proxy_configuration_properties}
 	ProxyConfigurationProperties interface{} `field:"optional" json:"proxyConfigurationProperties" yaml:"proxyConfigurationProperties"`
 	// The proxy type. The only supported value is ``APPMESH``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_task_definition#type EcsTaskDefinition#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_task_definition#type EcsTaskDefinition#type}
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

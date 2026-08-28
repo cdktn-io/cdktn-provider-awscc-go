@@ -7,11 +7,11 @@ package pcsqueue
 type PcsQueueSlurmConfigurationSlurmCustomSettings struct {
 	// AWS PCS supports configuration of the Slurm parameters for queues:.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#parameter_name PcsQueue#parameter_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_queue#parameter_name PcsQueue#parameter_name}
 	ParameterName *string `field:"optional" json:"parameterName" yaml:"parameterName"`
 	// The value for the configured Slurm setting.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/pcs_queue#parameter_value PcsQueue#parameter_value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_queue#parameter_value PcsQueue#parameter_value}
 	ParameterValue *string `field:"optional" json:"parameterValue" yaml:"parameterValue"`
 }
 

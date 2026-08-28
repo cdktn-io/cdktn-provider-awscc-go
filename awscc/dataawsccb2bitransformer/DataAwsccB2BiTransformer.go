@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/b2bi_transformer awscc_b2bi_transformer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/b2bi_transformer awscc_b2bi_transformer}.
 type DataAwsccB2BiTransformer interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccB2BiTransformer) TransformerId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/b2bi_transformer awscc_b2bi_transformer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/b2bi_transformer awscc_b2bi_transformer} Data Source.
 func NewDataAwsccB2BiTransformer(scope constructs.Construct, id *string, config *DataAwsccB2BiTransformerConfig) DataAwsccB2BiTransformer {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccB2BiTransformer(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/b2bi_transformer awscc_b2bi_transformer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/b2bi_transformer awscc_b2bi_transformer} Data Source.
 func NewDataAwsccB2BiTransformer_Override(d DataAwsccB2BiTransformer, scope constructs.Construct, id *string, config *DataAwsccB2BiTransformerConfig) {
 	_init_.Initialize()
 

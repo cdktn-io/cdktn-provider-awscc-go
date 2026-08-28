@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_addon_instance awscc_ses_mail_manager_addon_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_addon_instance awscc_ses_mail_manager_addon_instance}.
 type SesMailManagerAddonInstance interface {
 	cdktn.TerraformResource
 	AddonInstanceArn() *string
@@ -435,7 +435,7 @@ func (j *jsiiProxy_SesMailManagerAddonInstance) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_addon_instance awscc_ses_mail_manager_addon_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_addon_instance awscc_ses_mail_manager_addon_instance} Resource.
 func NewSesMailManagerAddonInstance(scope constructs.Construct, id *string, config *SesMailManagerAddonInstanceConfig) SesMailManagerAddonInstance {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewSesMailManagerAddonInstance(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_addon_instance awscc_ses_mail_manager_addon_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_addon_instance awscc_ses_mail_manager_addon_instance} Resource.
 func NewSesMailManagerAddonInstance_Override(s SesMailManagerAddonInstance, scope constructs.Construct, id *string, config *SesMailManagerAddonInstanceConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution awscc_lightsail_distribution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_distribution awscc_lightsail_distribution}.
 type LightsailDistribution interface {
 	cdktn.TerraformResource
 	AbleToUpdateBundle() cdktn.IResolvable
@@ -624,7 +624,7 @@ func (j *jsiiProxy_LightsailDistribution) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution awscc_lightsail_distribution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_distribution awscc_lightsail_distribution} Resource.
 func NewLightsailDistribution(scope constructs.Construct, id *string, config *LightsailDistributionConfig) LightsailDistribution {
 	_init_.Initialize()
 
@@ -642,7 +642,7 @@ func NewLightsailDistribution(scope constructs.Construct, id *string, config *Li
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/lightsail_distribution awscc_lightsail_distribution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_distribution awscc_lightsail_distribution} Resource.
 func NewLightsailDistribution_Override(l LightsailDistribution, scope constructs.Construct, id *string, config *LightsailDistributionConfig) {
 	_init_.Initialize()
 

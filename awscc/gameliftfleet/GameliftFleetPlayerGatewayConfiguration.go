@@ -7,7 +7,7 @@ package gameliftfleet
 type GameliftFleetPlayerGatewayConfiguration struct {
 	// The IP protocol supported by the game server.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/gamelift_fleet#game_server_ip_protocol_supported GameliftFleet#game_server_ip_protocol_supported}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_fleet#game_server_ip_protocol_supported GameliftFleet#game_server_ip_protocol_supported}
 	GameServerIpProtocolSupported *string `field:"optional" json:"gameServerIpProtocolSupported" yaml:"gameServerIpProtocolSupported"`
 }
 

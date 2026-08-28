@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/grafana_workspace awscc_grafana_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/grafana_workspace awscc_grafana_workspace}.
 type DataAwsccGrafanaWorkspace interface {
 	cdktn.TerraformDataSource
 	AccountAccessType() *string
@@ -561,7 +561,7 @@ func (j *jsiiProxy_DataAwsccGrafanaWorkspace) WorkspaceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/grafana_workspace awscc_grafana_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/grafana_workspace awscc_grafana_workspace} Data Source.
 func NewDataAwsccGrafanaWorkspace(scope constructs.Construct, id *string, config *DataAwsccGrafanaWorkspaceConfig) DataAwsccGrafanaWorkspace {
 	_init_.Initialize()
 
@@ -579,7 +579,7 @@ func NewDataAwsccGrafanaWorkspace(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/grafana_workspace awscc_grafana_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/grafana_workspace awscc_grafana_workspace} Data Source.
 func NewDataAwsccGrafanaWorkspace_Override(d DataAwsccGrafanaWorkspace, scope constructs.Construct, id *string, config *DataAwsccGrafanaWorkspaceConfig) {
 	_init_.Initialize()
 

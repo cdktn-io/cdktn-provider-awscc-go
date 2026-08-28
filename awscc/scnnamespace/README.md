@@ -1,3 +1,3 @@
 # `awscc_scn_namespace`
 
-Refer to the Terraform Registry for docs: [`awscc_scn_namespace`](https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/scn_namespace).
+Refer to the Terraform Registry for docs: [`awscc_scn_namespace`](https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/scn_namespace).

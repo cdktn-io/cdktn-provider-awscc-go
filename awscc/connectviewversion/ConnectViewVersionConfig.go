@@ -24,15 +24,15 @@ type ConnectViewVersionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The Amazon Resource Name (ARN) of the view for which a version is being created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_view_version#view_arn ConnectViewVersion#view_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_view_version#view_arn ConnectViewVersion#view_arn}
 	ViewArn *string `field:"required" json:"viewArn" yaml:"viewArn"`
 	// The description for the view version.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_view_version#version_description ConnectViewVersion#version_description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_view_version#version_description ConnectViewVersion#version_description}
 	VersionDescription *string `field:"optional" json:"versionDescription" yaml:"versionDescription"`
 	// The view content hash to be checked.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_view_version#view_content_sha_256 ConnectViewVersion#view_content_sha_256}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_view_version#view_content_sha_256 ConnectViewVersion#view_content_sha_256}
 	ViewContentSha256 *string `field:"optional" json:"viewContentSha256" yaml:"viewContentSha256"`
 }
 

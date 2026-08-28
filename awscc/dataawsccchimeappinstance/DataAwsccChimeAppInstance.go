@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/chime_app_instance awscc_chime_app_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/chime_app_instance awscc_chime_app_instance}.
 type DataAwsccChimeAppInstance interface {
 	cdktn.TerraformDataSource
 	AppInstanceArn() *string
@@ -24,7 +24,7 @@ type DataAwsccChimeAppInstance interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
-	CreatedTimestamp() *float64
+	CreatedTimestamp() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -40,7 +40,7 @@ type DataAwsccChimeAppInstance interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
-	LastUpdatedTimestamp() *float64
+	LastUpdatedTimestamp() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -171,8 +171,8 @@ func (j *jsiiProxy_DataAwsccChimeAppInstance) Count() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsccChimeAppInstance) CreatedTimestamp() *float64 {
-	var returns *float64
+func (j *jsiiProxy_DataAwsccChimeAppInstance) CreatedTimestamp() *string {
+	var returns *string
 	_jsii_.Get(
 		j,
 		"createdTimestamp",
@@ -241,8 +241,8 @@ func (j *jsiiProxy_DataAwsccChimeAppInstance) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsccChimeAppInstance) LastUpdatedTimestamp() *float64 {
-	var returns *float64
+func (j *jsiiProxy_DataAwsccChimeAppInstance) LastUpdatedTimestamp() *string {
+	var returns *string
 	_jsii_.Get(
 		j,
 		"lastUpdatedTimestamp",
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccChimeAppInstance) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/chime_app_instance awscc_chime_app_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/chime_app_instance awscc_chime_app_instance} Data Source.
 func NewDataAwsccChimeAppInstance(scope constructs.Construct, id *string, config *DataAwsccChimeAppInstanceConfig) DataAwsccChimeAppInstance {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccChimeAppInstance(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/chime_app_instance awscc_chime_app_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/chime_app_instance awscc_chime_app_instance} Data Source.
 func NewDataAwsccChimeAppInstance_Override(d DataAwsccChimeAppInstance, scope constructs.Construct, id *string, config *DataAwsccChimeAppInstanceConfig) {
 	_init_.Initialize()
 

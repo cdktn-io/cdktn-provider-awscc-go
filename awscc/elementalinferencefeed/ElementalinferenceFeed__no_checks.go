@@ -103,6 +103,10 @@ func validateElementalinferenceFeed_IsTerraformResourceParameters(x interface{})
 	return nil
 }
 
+func (j *jsiiProxy_ElementalinferenceFeed) validateSetAccessRoleArnParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ElementalinferenceFeed) validateSetConnectionParameters(val interface{}) error {
 	return nil
 }

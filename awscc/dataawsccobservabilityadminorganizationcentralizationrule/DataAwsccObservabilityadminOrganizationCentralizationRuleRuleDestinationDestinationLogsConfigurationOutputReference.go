@@ -35,6 +35,7 @@ type DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDes
 	SetInternalValue(val *DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfiguration)
 	LogGroupNameConfiguration() DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationLogGroupNameConfigurationOutputReference
 	LogsEncryptionConfiguration() DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationLogsEncryptionConfigurationOutputReference
+	TagPropagationConfiguration() DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationTagPropagationConfigurationOutputReference
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -157,6 +158,16 @@ func (j *jsiiProxy_DataAwsccObservabilityadminOrganizationCentralizationRuleRule
 	_jsii_.Get(
 		j,
 		"logsEncryptionConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationOutputReference) TagPropagationConfiguration() DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationTagPropagationConfigurationOutputReference {
+	var returns DataAwsccObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationTagPropagationConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"tagPropagationConfiguration",
 		&returns,
 	)
 	return returns

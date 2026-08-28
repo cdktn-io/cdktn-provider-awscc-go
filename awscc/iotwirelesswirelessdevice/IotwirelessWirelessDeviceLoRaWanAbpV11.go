@@ -5,9 +5,9 @@ package iotwirelesswirelessdevice
 
 
 type IotwirelessWirelessDeviceLoRaWanAbpV11 struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotwireless_wireless_device#dev_addr IotwirelessWirelessDevice#dev_addr}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotwireless_wireless_device#dev_addr IotwirelessWirelessDevice#dev_addr}.
 	DevAddr *string `field:"optional" json:"devAddr" yaml:"devAddr"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotwireless_wireless_device#session_keys IotwirelessWirelessDevice#session_keys}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotwireless_wireless_device#session_keys IotwirelessWirelessDevice#session_keys}.
 	SessionKeys *IotwirelessWirelessDeviceLoRaWanAbpV11SessionKeys `field:"optional" json:"sessionKeys" yaml:"sessionKeys"`
 }
 

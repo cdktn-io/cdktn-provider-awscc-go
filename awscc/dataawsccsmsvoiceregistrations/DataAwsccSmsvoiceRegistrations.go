@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/smsvoice_registrations awscc_smsvoice_registrations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/smsvoice_registrations awscc_smsvoice_registrations}.
 type DataAwsccSmsvoiceRegistrations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSmsvoiceRegistrations) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/smsvoice_registrations awscc_smsvoice_registrations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/smsvoice_registrations awscc_smsvoice_registrations} Data Source.
 func NewDataAwsccSmsvoiceRegistrations(scope constructs.Construct, id *string, config *DataAwsccSmsvoiceRegistrationsConfig) DataAwsccSmsvoiceRegistrations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSmsvoiceRegistrations(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/smsvoice_registrations awscc_smsvoice_registrations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/smsvoice_registrations awscc_smsvoice_registrations} Data Source.
 func NewDataAwsccSmsvoiceRegistrations_Override(d DataAwsccSmsvoiceRegistrations, scope constructs.Construct, id *string, config *DataAwsccSmsvoiceRegistrationsConfig) {
 	_init_.Initialize()
 

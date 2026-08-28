@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/wellarchitected_profile awscc_wellarchitected_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/wellarchitected_profile awscc_wellarchitected_profile}.
 type DataAwsccWellarchitectedProfile interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccWellarchitectedProfile) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/wellarchitected_profile awscc_wellarchitected_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/wellarchitected_profile awscc_wellarchitected_profile} Data Source.
 func NewDataAwsccWellarchitectedProfile(scope constructs.Construct, id *string, config *DataAwsccWellarchitectedProfileConfig) DataAwsccWellarchitectedProfile {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccWellarchitectedProfile(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/wellarchitected_profile awscc_wellarchitected_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/wellarchitected_profile awscc_wellarchitected_profile} Data Source.
 func NewDataAwsccWellarchitectedProfile_Override(d DataAwsccWellarchitectedProfile, scope constructs.Construct, id *string, config *DataAwsccWellarchitectedProfileConfig) {
 	_init_.Initialize()
 

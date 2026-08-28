@@ -5,9 +5,9 @@ package imagebuilderimage
 
 
 type ImagebuilderImageWorkflowsParameters struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image#name ImagebuilderImage#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/imagebuilder_image#name ImagebuilderImage#name}.
 	Name *string `field:"optional" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image#value ImagebuilderImage#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/imagebuilder_image#value ImagebuilderImage#value}.
 	Value *[]*string `field:"optional" json:"value" yaml:"value"`
 }
 

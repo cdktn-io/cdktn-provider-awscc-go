@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigateway_request_validator awscc_apigateway_request_validator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigateway_request_validator awscc_apigateway_request_validator}.
 type DataAwsccApigatewayRequestValidator interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccApigatewayRequestValidator) ValidateRequestParameter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigateway_request_validator awscc_apigateway_request_validator} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigateway_request_validator awscc_apigateway_request_validator} Data Source.
 func NewDataAwsccApigatewayRequestValidator(scope constructs.Construct, id *string, config *DataAwsccApigatewayRequestValidatorConfig) DataAwsccApigatewayRequestValidator {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccApigatewayRequestValidator(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigateway_request_validator awscc_apigateway_request_validator} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigateway_request_validator awscc_apigateway_request_validator} Data Source.
 func NewDataAwsccApigatewayRequestValidator_Override(d DataAwsccApigatewayRequestValidator, scope constructs.Construct, id *string, config *DataAwsccApigatewayRequestValidatorConfig) {
 	_init_.Initialize()
 

@@ -7,11 +7,11 @@ package s3expressaccesspoint
 type S3ExpressAccessPointScope struct {
 	// You can include one or more API operations as permissions.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3express_access_point#permissions S3ExpressAccessPoint#permissions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3express_access_point#permissions S3ExpressAccessPoint#permissions}
 	Permissions *[]*string `field:"optional" json:"permissions" yaml:"permissions"`
 	// You can specify any amount of pre?xes, but the total length of characters of all pre?xes must be less than 256 bytes in size.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3express_access_point#prefixes S3ExpressAccessPoint#prefixes}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3express_access_point#prefixes S3ExpressAccessPoint#prefixes}
 	Prefixes *[]*string `field:"optional" json:"prefixes" yaml:"prefixes"`
 }
 

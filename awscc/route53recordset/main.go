@@ -34,8 +34,6 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
 			_jsii_.MemberProperty{JsiiProperty: "geoLocation", GoGetter: "GeoLocation"},
 			_jsii_.MemberProperty{JsiiProperty: "geoLocationInput", GoGetter: "GeoLocationInput"},
-			_jsii_.MemberProperty{JsiiProperty: "geoProximityLocation", GoGetter: "GeoProximityLocation"},
-			_jsii_.MemberProperty{JsiiProperty: "geoProximityLocationInput", GoGetter: "GeoProximityLocationInput"},
 			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
@@ -71,9 +69,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putAliasTarget", GoMethod: "PutAliasTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "putCidrRoutingConfig", GoMethod: "PutCidrRoutingConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putGeoLocation", GoMethod: "PutGeoLocation"},
-			_jsii_.MemberMethod{JsiiMethod: "putGeoProximityLocation", GoMethod: "PutGeoProximityLocation"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "recordSetId", GoGetter: "RecordSetId"},
 			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
 			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
 			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
@@ -82,7 +78,6 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetComment", GoMethod: "ResetComment"},
 			_jsii_.MemberMethod{JsiiMethod: "resetFailover", GoMethod: "ResetFailover"},
 			_jsii_.MemberMethod{JsiiMethod: "resetGeoLocation", GoMethod: "ResetGeoLocation"},
-			_jsii_.MemberMethod{JsiiMethod: "resetGeoProximityLocation", GoMethod: "ResetGeoProximityLocation"},
 			_jsii_.MemberMethod{JsiiMethod: "resetHealthCheckId", GoMethod: "ResetHealthCheckId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetHostedZoneId", GoMethod: "ResetHostedZoneId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetHostedZoneName", GoMethod: "ResetHostedZoneName"},
@@ -252,97 +247,6 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Route53RecordSetGeoLocationOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/provider-awscc.route53RecordSet.Route53RecordSetGeoProximityLocation",
-		reflect.TypeOf((*Route53RecordSetGeoProximityLocation)(nil)).Elem(),
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/provider-awscc.route53RecordSet.Route53RecordSetGeoProximityLocationCoordinates",
-		reflect.TypeOf((*Route53RecordSetGeoProximityLocationCoordinates)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-awscc.route53RecordSet.Route53RecordSetGeoProximityLocationCoordinatesOutputReference",
-		reflect.TypeOf((*Route53RecordSetGeoProximityLocationCoordinatesOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "latitude", GoGetter: "Latitude"},
-			_jsii_.MemberProperty{JsiiProperty: "latitudeInput", GoGetter: "LatitudeInput"},
-			_jsii_.MemberProperty{JsiiProperty: "longitude", GoGetter: "Longitude"},
-			_jsii_.MemberProperty{JsiiProperty: "longitudeInput", GoGetter: "LongitudeInput"},
-			_jsii_.MemberMethod{JsiiMethod: "resetLatitude", GoMethod: "ResetLatitude"},
-			_jsii_.MemberMethod{JsiiMethod: "resetLongitude", GoMethod: "ResetLongitude"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_Route53RecordSetGeoProximityLocationCoordinatesOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-awscc.route53RecordSet.Route53RecordSetGeoProximityLocationOutputReference",
-		reflect.TypeOf((*Route53RecordSetGeoProximityLocationOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "awsRegion", GoGetter: "AwsRegion"},
-			_jsii_.MemberProperty{JsiiProperty: "awsRegionInput", GoGetter: "AwsRegionInput"},
-			_jsii_.MemberProperty{JsiiProperty: "bias", GoGetter: "Bias"},
-			_jsii_.MemberProperty{JsiiProperty: "biasInput", GoGetter: "BiasInput"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "coordinates", GoGetter: "Coordinates"},
-			_jsii_.MemberProperty{JsiiProperty: "coordinatesInput", GoGetter: "CoordinatesInput"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "localZoneGroup", GoGetter: "LocalZoneGroup"},
-			_jsii_.MemberProperty{JsiiProperty: "localZoneGroupInput", GoGetter: "LocalZoneGroupInput"},
-			_jsii_.MemberMethod{JsiiMethod: "putCoordinates", GoMethod: "PutCoordinates"},
-			_jsii_.MemberMethod{JsiiMethod: "resetAwsRegion", GoMethod: "ResetAwsRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "resetBias", GoMethod: "ResetBias"},
-			_jsii_.MemberMethod{JsiiMethod: "resetCoordinates", GoMethod: "ResetCoordinates"},
-			_jsii_.MemberMethod{JsiiMethod: "resetLocalZoneGroup", GoMethod: "ResetLocalZoneGroup"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_Route53RecordSetGeoProximityLocationOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

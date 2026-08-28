@@ -30,25 +30,25 @@ type LogsAccountPolicyConfig struct {
 	//
 	// Length Constraints: Maximum length of 30720
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_account_policy#policy_document LogsAccountPolicy#policy_document}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_account_policy#policy_document LogsAccountPolicy#policy_document}
 	PolicyDocument *string `field:"required" json:"policyDocument" yaml:"policyDocument"`
 	// The name of the account policy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_account_policy#policy_name LogsAccountPolicy#policy_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_account_policy#policy_name LogsAccountPolicy#policy_name}
 	PolicyName *string `field:"required" json:"policyName" yaml:"policyName"`
 	// Type of the policy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_account_policy#policy_type LogsAccountPolicy#policy_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_account_policy#policy_type LogsAccountPolicy#policy_type}
 	PolicyType *string `field:"required" json:"policyType" yaml:"policyType"`
 	// Scope for policy application.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_account_policy#scope LogsAccountPolicy#scope}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_account_policy#scope LogsAccountPolicy#scope}
 	Scope *string `field:"optional" json:"scope" yaml:"scope"`
 	// Log group  selection criteria to apply policy only to a subset of log groups.
 	//
 	// SelectionCriteria string can be up to 25KB and cloudwatchlogs determines the length of selectionCriteria by using its UTF-8 bytes
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_account_policy#selection_criteria LogsAccountPolicy#selection_criteria}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_account_policy#selection_criteria LogsAccountPolicy#selection_criteria}
 	SelectionCriteria *string `field:"optional" json:"selectionCriteria" yaml:"selectionCriteria"`
 }
 

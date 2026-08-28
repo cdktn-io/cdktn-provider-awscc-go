@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elasticbeanstalk_application_versions awscc_elasticbeanstalk_application_versions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/elasticbeanstalk_application_versions awscc_elasticbeanstalk_application_versions}.
 type DataAwsccElasticbeanstalkApplicationVersions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccElasticbeanstalkApplicationVersions) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elasticbeanstalk_application_versions awscc_elasticbeanstalk_application_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/elasticbeanstalk_application_versions awscc_elasticbeanstalk_application_versions} Data Source.
 func NewDataAwsccElasticbeanstalkApplicationVersions(scope constructs.Construct, id *string, config *DataAwsccElasticbeanstalkApplicationVersionsConfig) DataAwsccElasticbeanstalkApplicationVersions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccElasticbeanstalkApplicationVersions(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elasticbeanstalk_application_versions awscc_elasticbeanstalk_application_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/elasticbeanstalk_application_versions awscc_elasticbeanstalk_application_versions} Data Source.
 func NewDataAwsccElasticbeanstalkApplicationVersions_Override(d DataAwsccElasticbeanstalkApplicationVersions, scope constructs.Construct, id *string, config *DataAwsccElasticbeanstalkApplicationVersionsConfig) {
 	_init_.Initialize()
 

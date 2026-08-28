@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53recoverycontrol_safety_rule awscc_route53recoverycontrol_safety_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53recoverycontrol_safety_rule awscc_route53recoverycontrol_safety_rule}.
 type DataAwsccRoute53RecoverycontrolSafetyRule interface {
 	cdktn.TerraformDataSource
 	AssertionRule() DataAwsccRoute53RecoverycontrolSafetyRuleAssertionRuleOutputReference
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccRoute53RecoverycontrolSafetyRule) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53recoverycontrol_safety_rule awscc_route53recoverycontrol_safety_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53recoverycontrol_safety_rule awscc_route53recoverycontrol_safety_rule} Data Source.
 func NewDataAwsccRoute53RecoverycontrolSafetyRule(scope constructs.Construct, id *string, config *DataAwsccRoute53RecoverycontrolSafetyRuleConfig) DataAwsccRoute53RecoverycontrolSafetyRule {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccRoute53RecoverycontrolSafetyRule(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53recoverycontrol_safety_rule awscc_route53recoverycontrol_safety_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53recoverycontrol_safety_rule awscc_route53recoverycontrol_safety_rule} Data Source.
 func NewDataAwsccRoute53RecoverycontrolSafetyRule_Override(d DataAwsccRoute53RecoverycontrolSafetyRule, scope constructs.Construct, id *string, config *DataAwsccRoute53RecoverycontrolSafetyRuleConfig) {
 	_init_.Initialize()
 

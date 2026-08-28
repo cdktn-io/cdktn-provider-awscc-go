@@ -7,11 +7,11 @@ package transferhostkey
 type TransferHostKeyTags struct {
 	// The name assigned to the tag that you create.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_host_key#key TransferHostKey#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_host_key#key TransferHostKey#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// Contains one or more values that you assigned to the key name you create.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/transfer_host_key#value TransferHostKey#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/transfer_host_key#value TransferHostKey#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

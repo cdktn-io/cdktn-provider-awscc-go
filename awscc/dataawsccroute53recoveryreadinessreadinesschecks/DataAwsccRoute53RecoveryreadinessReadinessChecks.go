@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53recoveryreadiness_readiness_checks awscc_route53recoveryreadiness_readiness_checks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53recoveryreadiness_readiness_checks awscc_route53recoveryreadiness_readiness_checks}.
 type DataAwsccRoute53RecoveryreadinessReadinessChecks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRoute53RecoveryreadinessReadinessChecks) TerraformRe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53recoveryreadiness_readiness_checks awscc_route53recoveryreadiness_readiness_checks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53recoveryreadiness_readiness_checks awscc_route53recoveryreadiness_readiness_checks} Data Source.
 func NewDataAwsccRoute53RecoveryreadinessReadinessChecks(scope constructs.Construct, id *string, config *DataAwsccRoute53RecoveryreadinessReadinessChecksConfig) DataAwsccRoute53RecoveryreadinessReadinessChecks {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRoute53RecoveryreadinessReadinessChecks(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53recoveryreadiness_readiness_checks awscc_route53recoveryreadiness_readiness_checks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53recoveryreadiness_readiness_checks awscc_route53recoveryreadiness_readiness_checks} Data Source.
 func NewDataAwsccRoute53RecoveryreadinessReadinessChecks_Override(d DataAwsccRoute53RecoveryreadinessReadinessChecks, scope constructs.Construct, id *string, config *DataAwsccRoute53RecoveryreadinessReadinessChecksConfig) {
 	_init_.Initialize()
 

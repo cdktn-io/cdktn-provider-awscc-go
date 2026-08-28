@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appsync_data_source awscc_appsync_data_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_data_source awscc_appsync_data_source}.
 type AppsyncDataSource interface {
 	cdktn.TerraformResource
 	ApiId() *string
@@ -675,7 +675,7 @@ func (j *jsiiProxy_AppsyncDataSource) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appsync_data_source awscc_appsync_data_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_data_source awscc_appsync_data_source} Resource.
 func NewAppsyncDataSource(scope constructs.Construct, id *string, config *AppsyncDataSourceConfig) AppsyncDataSource {
 	_init_.Initialize()
 
@@ -693,7 +693,7 @@ func NewAppsyncDataSource(scope constructs.Construct, id *string, config *Appsyn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appsync_data_source awscc_appsync_data_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appsync_data_source awscc_appsync_data_source} Resource.
 func NewAppsyncDataSource_Override(a AppsyncDataSource, scope constructs.Construct, id *string, config *AppsyncDataSourceConfig) {
 	_init_.Initialize()
 

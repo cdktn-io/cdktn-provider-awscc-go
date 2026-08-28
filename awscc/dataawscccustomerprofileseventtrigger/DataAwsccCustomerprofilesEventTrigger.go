@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger}.
 type DataAwsccCustomerprofilesEventTrigger interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccCustomerprofilesEventTrigger) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger} Data Source.
 func NewDataAwsccCustomerprofilesEventTrigger(scope constructs.Construct, id *string, config *DataAwsccCustomerprofilesEventTriggerConfig) DataAwsccCustomerprofilesEventTrigger {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccCustomerprofilesEventTrigger(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/customerprofiles_event_trigger awscc_customerprofiles_event_trigger} Data Source.
 func NewDataAwsccCustomerprofilesEventTrigger_Override(d DataAwsccCustomerprofilesEventTrigger, scope constructs.Construct, id *string, config *DataAwsccCustomerprofilesEventTriggerConfig) {
 	_init_.Initialize()
 

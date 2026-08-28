@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_local_gateway_route_table_virtual_interface_group_associations awscc_ec2_local_gateway_route_table_virtual_interface_group_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_local_gateway_route_table_virtual_interface_group_associations awscc_ec2_local_gateway_route_table_virtual_interface_group_associations}.
 type DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssoci
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_local_gateway_route_table_virtual_interface_group_associations awscc_ec2_local_gateway_route_table_virtual_interface_group_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_local_gateway_route_table_virtual_interface_group_associations awscc_ec2_local_gateway_route_table_virtual_interface_group_associations} Data Source.
 func NewDataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations(scope constructs.Construct, id *string, config *DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociationsConfig) DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations(scop
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_local_gateway_route_table_virtual_interface_group_associations awscc_ec2_local_gateway_route_table_virtual_interface_group_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_local_gateway_route_table_virtual_interface_group_associations awscc_ec2_local_gateway_route_table_virtual_interface_group_associations} Data Source.
 func NewDataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations_Override(d DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociations, scope constructs.Construct, id *string, config *DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociationsConfig) {
 	_init_.Initialize()
 

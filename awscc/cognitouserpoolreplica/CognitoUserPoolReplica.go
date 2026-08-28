@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_replica awscc_cognito_user_pool_replica}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cognito_user_pool_replica awscc_cognito_user_pool_replica}.
 type CognitoUserPoolReplica interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_CognitoUserPoolReplica) UserPoolTagsAtCreateInput() *map[stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_replica awscc_cognito_user_pool_replica} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cognito_user_pool_replica awscc_cognito_user_pool_replica} Resource.
 func NewCognitoUserPoolReplica(scope constructs.Construct, id *string, config *CognitoUserPoolReplicaConfig) CognitoUserPoolReplica {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewCognitoUserPoolReplica(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_replica awscc_cognito_user_pool_replica} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cognito_user_pool_replica awscc_cognito_user_pool_replica} Resource.
 func NewCognitoUserPoolReplica_Override(c CognitoUserPoolReplica, scope constructs.Construct, id *string, config *CognitoUserPoolReplicaConfig) {
 	_init_.Initialize()
 

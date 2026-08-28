@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrock_data_source awscc_bedrock_data_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrock_data_source awscc_bedrock_data_source}.
 type DataAwsccBedrockDataSource interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccBedrockDataSource) VectorIngestionConfiguration() Da
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrock_data_source awscc_bedrock_data_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrock_data_source awscc_bedrock_data_source} Data Source.
 func NewDataAwsccBedrockDataSource(scope constructs.Construct, id *string, config *DataAwsccBedrockDataSourceConfig) DataAwsccBedrockDataSource {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccBedrockDataSource(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrock_data_source awscc_bedrock_data_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrock_data_source awscc_bedrock_data_source} Data Source.
 func NewDataAwsccBedrockDataSource_Override(d DataAwsccBedrockDataSource, scope constructs.Construct, id *string, config *DataAwsccBedrockDataSourceConfig) {
 	_init_.Initialize()
 

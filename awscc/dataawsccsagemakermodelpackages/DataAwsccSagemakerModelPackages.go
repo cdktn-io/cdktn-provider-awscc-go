@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_model_packages awscc_sagemaker_model_packages}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_model_packages awscc_sagemaker_model_packages}.
 type DataAwsccSagemakerModelPackages interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSagemakerModelPackages) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_model_packages awscc_sagemaker_model_packages} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_model_packages awscc_sagemaker_model_packages} Data Source.
 func NewDataAwsccSagemakerModelPackages(scope constructs.Construct, id *string, config *DataAwsccSagemakerModelPackagesConfig) DataAwsccSagemakerModelPackages {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSagemakerModelPackages(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_model_packages awscc_sagemaker_model_packages} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_model_packages awscc_sagemaker_model_packages} Data Source.
 func NewDataAwsccSagemakerModelPackages_Override(d DataAwsccSagemakerModelPackages, scope constructs.Construct, id *string, config *DataAwsccSagemakerModelPackagesConfig) {
 	_init_.Initialize()
 

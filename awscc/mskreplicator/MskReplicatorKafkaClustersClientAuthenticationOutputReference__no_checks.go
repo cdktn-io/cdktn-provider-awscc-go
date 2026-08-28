@@ -51,6 +51,10 @@ func (m *jsiiProxy_MskReplicatorKafkaClustersClientAuthenticationOutputReference
 	return nil
 }
 
+func (m *jsiiProxy_MskReplicatorKafkaClustersClientAuthenticationOutputReference) validatePutSaslOAuthBearerParameters(value *MskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearer) error {
+	return nil
+}
+
 func (m *jsiiProxy_MskReplicatorKafkaClustersClientAuthenticationOutputReference) validatePutSaslScramParameters(value *MskReplicatorKafkaClustersClientAuthenticationSaslScram) error {
 	return nil
 }

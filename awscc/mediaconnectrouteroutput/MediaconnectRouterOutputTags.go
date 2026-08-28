@@ -5,9 +5,9 @@ package mediaconnectrouteroutput
 
 
 type MediaconnectRouterOutputTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_router_output#key MediaconnectRouterOutput#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_router_output#key MediaconnectRouterOutput#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_router_output#value MediaconnectRouterOutput#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_router_output#value MediaconnectRouterOutput#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

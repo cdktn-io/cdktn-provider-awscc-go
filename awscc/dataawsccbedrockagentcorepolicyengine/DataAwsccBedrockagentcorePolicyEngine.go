@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_policy_engine awscc_bedrockagentcore_policy_engine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_policy_engine awscc_bedrockagentcore_policy_engine}.
 type DataAwsccBedrockagentcorePolicyEngine interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcorePolicyEngine) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_policy_engine awscc_bedrockagentcore_policy_engine} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_policy_engine awscc_bedrockagentcore_policy_engine} Data Source.
 func NewDataAwsccBedrockagentcorePolicyEngine(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcorePolicyEngineConfig) DataAwsccBedrockagentcorePolicyEngine {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccBedrockagentcorePolicyEngine(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_policy_engine awscc_bedrockagentcore_policy_engine} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_policy_engine awscc_bedrockagentcore_policy_engine} Data Source.
 func NewDataAwsccBedrockagentcorePolicyEngine_Override(d DataAwsccBedrockagentcorePolicyEngine, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcorePolicyEngineConfig) {
 	_init_.Initialize()
 

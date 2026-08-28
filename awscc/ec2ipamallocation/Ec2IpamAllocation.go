@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_allocation awscc_ec2_ipam_allocation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_allocation awscc_ec2_ipam_allocation}.
 type Ec2IpamAllocation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_Ec2IpamAllocation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_allocation awscc_ec2_ipam_allocation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_allocation awscc_ec2_ipam_allocation} Resource.
 func NewEc2IpamAllocation(scope constructs.Construct, id *string, config *Ec2IpamAllocationConfig) Ec2IpamAllocation {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewEc2IpamAllocation(scope constructs.Construct, id *string, config *Ec2Ipa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam_allocation awscc_ec2_ipam_allocation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_allocation awscc_ec2_ipam_allocation} Resource.
 func NewEc2IpamAllocation_Override(e Ec2IpamAllocation, scope constructs.Construct, id *string, config *Ec2IpamAllocationConfig) {
 	_init_.Initialize()
 

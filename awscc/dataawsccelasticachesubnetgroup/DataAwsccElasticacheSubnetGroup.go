@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elasticache_subnet_group awscc_elasticache_subnet_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/elasticache_subnet_group awscc_elasticache_subnet_group}.
 type DataAwsccElasticacheSubnetGroup interface {
 	cdktn.TerraformDataSource
 	CacheSubnetGroupName() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccElasticacheSubnetGroup) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elasticache_subnet_group awscc_elasticache_subnet_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/elasticache_subnet_group awscc_elasticache_subnet_group} Data Source.
 func NewDataAwsccElasticacheSubnetGroup(scope constructs.Construct, id *string, config *DataAwsccElasticacheSubnetGroupConfig) DataAwsccElasticacheSubnetGroup {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccElasticacheSubnetGroup(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/elasticache_subnet_group awscc_elasticache_subnet_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/elasticache_subnet_group awscc_elasticache_subnet_group} Data Source.
 func NewDataAwsccElasticacheSubnetGroup_Override(d DataAwsccElasticacheSubnetGroup, scope constructs.Construct, id *string, config *DataAwsccElasticacheSubnetGroupConfig) {
 	_init_.Initialize()
 

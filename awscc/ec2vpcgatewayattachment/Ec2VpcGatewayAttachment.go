@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_gateway_attachment awscc_ec2_vpc_gateway_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_gateway_attachment awscc_ec2_vpc_gateway_attachment}.
 type Ec2VpcGatewayAttachment interface {
 	cdktn.TerraformResource
 	AttachmentType() *string
@@ -437,7 +437,7 @@ func (j *jsiiProxy_Ec2VpcGatewayAttachment) VpnGatewayIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_gateway_attachment awscc_ec2_vpc_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_gateway_attachment awscc_ec2_vpc_gateway_attachment} Resource.
 func NewEc2VpcGatewayAttachment(scope constructs.Construct, id *string, config *Ec2VpcGatewayAttachmentConfig) Ec2VpcGatewayAttachment {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewEc2VpcGatewayAttachment(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_gateway_attachment awscc_ec2_vpc_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_gateway_attachment awscc_ec2_vpc_gateway_attachment} Resource.
 func NewEc2VpcGatewayAttachment_Override(e Ec2VpcGatewayAttachment, scope constructs.Construct, id *string, config *Ec2VpcGatewayAttachmentConfig) {
 	_init_.Initialize()
 

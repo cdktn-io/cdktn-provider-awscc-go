@@ -7,7 +7,7 @@ package bedrockagent
 type BedrockAgentActionGroupsFunctionSchema struct {
 	// List of Function definitions.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_agent#functions BedrockAgent#functions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent#functions BedrockAgent#functions}
 	Functions interface{} `field:"optional" json:"functions" yaml:"functions"`
 }
 

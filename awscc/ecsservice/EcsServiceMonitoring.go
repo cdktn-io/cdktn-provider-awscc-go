@@ -7,7 +7,7 @@ package ecsservice
 type EcsServiceMonitoring struct {
 	// The list of metric configurations for the service monitoring.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_service#metric_configurations EcsService#metric_configurations}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_service#metric_configurations EcsService#metric_configurations}
 	MetricConfigurations interface{} `field:"optional" json:"metricConfigurations" yaml:"metricConfigurations"`
 }
 

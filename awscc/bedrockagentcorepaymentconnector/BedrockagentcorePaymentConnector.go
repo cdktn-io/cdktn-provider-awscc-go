@@ -12,9 +12,10 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector}.
 type BedrockagentcorePaymentConnector interface {
 	cdktn.TerraformResource
+	AuthorizationUrl() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -73,6 +74,9 @@ type BedrockagentcorePaymentConnector interface {
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
+	ProvisionMode() *string
+	SetProvisionMode(val *string)
+	ProvisionModeInput() *string
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
@@ -174,10 +178,12 @@ type BedrockagentcorePaymentConnector interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetCredentialProviderConfigurations()
 	ResetDescription()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetProvisionMode()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -203,6 +209,16 @@ type BedrockagentcorePaymentConnector interface {
 // The jsii proxy struct for BedrockagentcorePaymentConnector
 type jsiiProxy_BedrockagentcorePaymentConnector struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_BedrockagentcorePaymentConnector) AuthorizationUrl() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"authorizationUrl",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_BedrockagentcorePaymentConnector) CdktfStack() cdktn.TerraformStack {
@@ -485,6 +501,26 @@ func (j *jsiiProxy_BedrockagentcorePaymentConnector) Provisioners() *[]interface
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcorePaymentConnector) ProvisionMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"provisionMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcorePaymentConnector) ProvisionModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"provisionModeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcorePaymentConnector) RawOverrides() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -526,7 +562,7 @@ func (j *jsiiProxy_BedrockagentcorePaymentConnector) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector} Resource.
 func NewBedrockagentcorePaymentConnector(scope constructs.Construct, id *string, config *BedrockagentcorePaymentConnectorConfig) BedrockagentcorePaymentConnector {
 	_init_.Initialize()
 
@@ -544,7 +580,7 @@ func NewBedrockagentcorePaymentConnector(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector} Resource.
 func NewBedrockagentcorePaymentConnector_Override(b BedrockagentcorePaymentConnector, scope constructs.Construct, id *string, config *BedrockagentcorePaymentConnectorConfig) {
 	_init_.Initialize()
 
@@ -663,6 +699,17 @@ func (j *jsiiProxy_BedrockagentcorePaymentConnector)SetProvisioners(val *[]inter
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcorePaymentConnector)SetProvisionMode(val *string) {
+	if err := j.validateSetProvisionModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"provisionMode",
 		val,
 	)
 }
@@ -1058,6 +1105,14 @@ func (b *jsiiProxy_BedrockagentcorePaymentConnector) RegisterProviderFeatureUsag
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcorePaymentConnector) ResetCredentialProviderConfigurations() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetCredentialProviderConfigurations",
+		nil, // no parameters
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcorePaymentConnector) ResetDescription() {
 	_jsii_.InvokeVoid(
 		b,
@@ -1070,6 +1125,14 @@ func (b *jsiiProxy_BedrockagentcorePaymentConnector) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcorePaymentConnector) ResetProvisionMode() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetProvisionMode",
 		nil, // no parameters
 	)
 }

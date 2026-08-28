@@ -13,6 +13,7 @@ import (
 
 type DataAwsccBedrockagentcoreRuntimeFilesystemConfigurationsOutputReference interface {
 	cdktn.ComplexObject
+	CapacityProviderVolume() DataAwsccBedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolumeOutputReference
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -80,6 +81,16 @@ type DataAwsccBedrockagentcoreRuntimeFilesystemConfigurationsOutputReference int
 // The jsii proxy struct for DataAwsccBedrockagentcoreRuntimeFilesystemConfigurationsOutputReference
 type jsiiProxy_DataAwsccBedrockagentcoreRuntimeFilesystemConfigurationsOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreRuntimeFilesystemConfigurationsOutputReference) CapacityProviderVolume() DataAwsccBedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolumeOutputReference {
+	var returns DataAwsccBedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolumeOutputReference
+	_jsii_.Get(
+		j,
+		"capacityProviderVolume",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAwsccBedrockagentcoreRuntimeFilesystemConfigurationsOutputReference) ComplexObjectIndex() interface{} {

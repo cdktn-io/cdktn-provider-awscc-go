@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securityhub_connectors awscc_securityhub_connectors}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/securityhub_connectors awscc_securityhub_connectors}.
 type DataAwsccSecurityhubConnectors interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSecurityhubConnectors) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securityhub_connectors awscc_securityhub_connectors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/securityhub_connectors awscc_securityhub_connectors} Data Source.
 func NewDataAwsccSecurityhubConnectors(scope constructs.Construct, id *string, config *DataAwsccSecurityhubConnectorsConfig) DataAwsccSecurityhubConnectors {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSecurityhubConnectors(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/securityhub_connectors awscc_securityhub_connectors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/securityhub_connectors awscc_securityhub_connectors} Data Source.
 func NewDataAwsccSecurityhubConnectors_Override(d DataAwsccSecurityhubConnectors, scope constructs.Construct, id *string, config *DataAwsccSecurityhubConnectorsConfig) {
 	_init_.Initialize()
 

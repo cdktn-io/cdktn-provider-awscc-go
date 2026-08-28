@@ -215,6 +215,17 @@ func (m *jsiiProxy_MwaaserverlessWorkflow) validateOverrideLogicalIdParameters(n
 	return nil
 }
 
+func (m *jsiiProxy_MwaaserverlessWorkflow) validatePutCodeParameters(value *MwaaserverlessWorkflowCode) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (m *jsiiProxy_MwaaserverlessWorkflow) validatePutDefinitionS3LocationParameters(value *MwaaserverlessWorkflowDefinitionS3Location) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime}.
 type BedrockagentcoreRuntime interface {
 	cdktn.TerraformResource
 	AgentRuntimeArn() *string
@@ -25,6 +25,8 @@ type BedrockagentcoreRuntime interface {
 	AgentRuntimeVersion() *string
 	AuthorizerConfiguration() BedrockagentcoreRuntimeAuthorizerConfigurationOutputReference
 	AuthorizerConfigurationInput() interface{}
+	CapacityProviderConfiguration() BedrockagentcoreRuntimeCapacityProviderConfigurationOutputReference
+	CapacityProviderConfigurationInput() interface{}
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -181,6 +183,7 @@ type BedrockagentcoreRuntime interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutAgentRuntimeArtifact(value *BedrockagentcoreRuntimeAgentRuntimeArtifact)
 	PutAuthorizerConfiguration(value *BedrockagentcoreRuntimeAuthorizerConfiguration)
+	PutCapacityProviderConfiguration(value *BedrockagentcoreRuntimeCapacityProviderConfiguration)
 	PutFilesystemConfigurations(value interface{})
 	PutLifecycleConfiguration(value *BedrockagentcoreRuntimeLifecycleConfiguration)
 	PutNetworkConfiguration(value *BedrockagentcoreRuntimeNetworkConfiguration)
@@ -199,10 +202,12 @@ type BedrockagentcoreRuntime interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAuthorizerConfiguration()
+	ResetCapacityProviderConfiguration()
 	ResetDescription()
 	ResetEnvironmentVariables()
 	ResetFilesystemConfigurations()
 	ResetLifecycleConfiguration()
+	ResetNetworkConfiguration()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -321,6 +326,26 @@ func (j *jsiiProxy_BedrockagentcoreRuntime) AuthorizerConfigurationInput() inter
 	_jsii_.Get(
 		j,
 		"authorizerConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreRuntime) CapacityProviderConfiguration() BedrockagentcoreRuntimeCapacityProviderConfigurationOutputReference {
+	var returns BedrockagentcoreRuntimeCapacityProviderConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"capacityProviderConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreRuntime) CapacityProviderConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"capacityProviderConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -727,7 +752,7 @@ func (j *jsiiProxy_BedrockagentcoreRuntime) WorkloadIdentityDetails() Bedrockage
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime} Resource.
 func NewBedrockagentcoreRuntime(scope constructs.Construct, id *string, config *BedrockagentcoreRuntimeConfig) BedrockagentcoreRuntime {
 	_init_.Initialize()
 
@@ -745,7 +770,7 @@ func NewBedrockagentcoreRuntime(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime} Resource.
 func NewBedrockagentcoreRuntime_Override(b BedrockagentcoreRuntime, scope constructs.Construct, id *string, config *BedrockagentcoreRuntimeConfig) {
 	_init_.Initialize()
 
@@ -1281,6 +1306,17 @@ func (b *jsiiProxy_BedrockagentcoreRuntime) PutAuthorizerConfiguration(value *Be
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreRuntime) PutCapacityProviderConfiguration(value *BedrockagentcoreRuntimeCapacityProviderConfiguration) {
+	if err := b.validatePutCapacityProviderConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putCapacityProviderConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreRuntime) PutFilesystemConfigurations(value interface{}) {
 	if err := b.validatePutFilesystemConfigurationsParameters(value); err != nil {
 		panic(err)
@@ -1344,6 +1380,14 @@ func (b *jsiiProxy_BedrockagentcoreRuntime) ResetAuthorizerConfiguration() {
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreRuntime) ResetCapacityProviderConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetCapacityProviderConfiguration",
+		nil, // no parameters
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreRuntime) ResetDescription() {
 	_jsii_.InvokeVoid(
 		b,
@@ -1372,6 +1416,14 @@ func (b *jsiiProxy_BedrockagentcoreRuntime) ResetLifecycleConfiguration() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetLifecycleConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreRuntime) ResetNetworkConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetNetworkConfiguration",
 		nil, // no parameters
 	)
 }

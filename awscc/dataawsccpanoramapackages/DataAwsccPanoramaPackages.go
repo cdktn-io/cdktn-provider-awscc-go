@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/panorama_packages awscc_panorama_packages}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/panorama_packages awscc_panorama_packages}.
 type DataAwsccPanoramaPackages interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccPanoramaPackages) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/panorama_packages awscc_panorama_packages} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/panorama_packages awscc_panorama_packages} Data Source.
 func NewDataAwsccPanoramaPackages(scope constructs.Construct, id *string, config *DataAwsccPanoramaPackagesConfig) DataAwsccPanoramaPackages {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccPanoramaPackages(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/panorama_packages awscc_panorama_packages} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/panorama_packages awscc_panorama_packages} Data Source.
 func NewDataAwsccPanoramaPackages_Override(d DataAwsccPanoramaPackages, scope constructs.Construct, id *string, config *DataAwsccPanoramaPackagesConfig) {
 	_init_.Initialize()
 

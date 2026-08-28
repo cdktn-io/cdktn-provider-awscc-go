@@ -13,11 +13,11 @@ type CloudfrontOriginRequestPolicyOriginRequestPolicyConfigCookiesConfig struct 
 	//   +  ``all`` ? All cookies in viewer requests are included in requests that CloudFront sends to the origin.
 	//   +  ``allExcept`` ? All cookies in viewer requests are included in requests that CloudFront sends to the origin, *except* for those listed in the ``CookieNames`` type, which are not included.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_origin_request_policy#cookie_behavior CloudfrontOriginRequestPolicy#cookie_behavior}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_origin_request_policy#cookie_behavior CloudfrontOriginRequestPolicy#cookie_behavior}
 	CookieBehavior *string `field:"required" json:"cookieBehavior" yaml:"cookieBehavior"`
 	// Contains a list of cookie names.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudfront_origin_request_policy#cookies CloudfrontOriginRequestPolicy#cookies}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_origin_request_policy#cookies CloudfrontOriginRequestPolicy#cookies}
 	Cookies *[]*string `field:"optional" json:"cookies" yaml:"cookies"`
 }
 

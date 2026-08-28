@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_enabled_control awscc_controltower_enabled_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/controltower_enabled_control awscc_controltower_enabled_control}.
 type ControltowerEnabledControl interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_ControltowerEnabledControl) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_enabled_control awscc_controltower_enabled_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/controltower_enabled_control awscc_controltower_enabled_control} Resource.
 func NewControltowerEnabledControl(scope constructs.Construct, id *string, config *ControltowerEnabledControlConfig) ControltowerEnabledControl {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewControltowerEnabledControl(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/controltower_enabled_control awscc_controltower_enabled_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/controltower_enabled_control awscc_controltower_enabled_control} Resource.
 func NewControltowerEnabledControl_Override(c ControltowerEnabledControl, scope constructs.Construct, id *string, config *ControltowerEnabledControlConfig) {
 	_init_.Initialize()
 

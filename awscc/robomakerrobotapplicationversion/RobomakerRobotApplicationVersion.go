@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application_version awscc_robomaker_robot_application_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_robot_application_version awscc_robomaker_robot_application_version}.
 type RobomakerRobotApplicationVersion interface {
 	cdktn.TerraformResource
 	Application() *string
@@ -424,7 +424,7 @@ func (j *jsiiProxy_RobomakerRobotApplicationVersion) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application_version awscc_robomaker_robot_application_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_robot_application_version awscc_robomaker_robot_application_version} Resource.
 func NewRobomakerRobotApplicationVersion(scope constructs.Construct, id *string, config *RobomakerRobotApplicationVersionConfig) RobomakerRobotApplicationVersion {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewRobomakerRobotApplicationVersion(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/robomaker_robot_application_version awscc_robomaker_robot_application_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/robomaker_robot_application_version awscc_robomaker_robot_application_version} Resource.
 func NewRobomakerRobotApplicationVersion_Override(r RobomakerRobotApplicationVersion, scope constructs.Construct, id *string, config *RobomakerRobotApplicationVersionConfig) {
 	_init_.Initialize()
 

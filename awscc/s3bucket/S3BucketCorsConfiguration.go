@@ -9,7 +9,7 @@ type S3BucketCorsConfiguration struct {
 	//
 	// You can add up to 100 rules to the configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_bucket#cors_rules S3Bucket#cors_rules}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_bucket#cors_rules S3Bucket#cors_rules}
 	CorsRules interface{} `field:"optional" json:"corsRules" yaml:"corsRules"`
 }
 

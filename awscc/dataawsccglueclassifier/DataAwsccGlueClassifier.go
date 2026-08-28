@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_classifier awscc_glue_classifier}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/glue_classifier awscc_glue_classifier}.
 type DataAwsccGlueClassifier interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccGlueClassifier) XmlClassifier() DataAwsccGlueClassif
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_classifier awscc_glue_classifier} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/glue_classifier awscc_glue_classifier} Data Source.
 func NewDataAwsccGlueClassifier(scope constructs.Construct, id *string, config *DataAwsccGlueClassifierConfig) DataAwsccGlueClassifier {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccGlueClassifier(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_classifier awscc_glue_classifier} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/glue_classifier awscc_glue_classifier} Data Source.
 func NewDataAwsccGlueClassifier_Override(d DataAwsccGlueClassifier, scope constructs.Construct, id *string, config *DataAwsccGlueClassifierConfig) {
 	_init_.Initialize()
 

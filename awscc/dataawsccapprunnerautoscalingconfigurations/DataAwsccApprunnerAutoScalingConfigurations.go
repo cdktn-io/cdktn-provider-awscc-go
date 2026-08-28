@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apprunner_auto_scaling_configurations awscc_apprunner_auto_scaling_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apprunner_auto_scaling_configurations awscc_apprunner_auto_scaling_configurations}.
 type DataAwsccApprunnerAutoScalingConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccApprunnerAutoScalingConfigurations) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apprunner_auto_scaling_configurations awscc_apprunner_auto_scaling_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apprunner_auto_scaling_configurations awscc_apprunner_auto_scaling_configurations} Data Source.
 func NewDataAwsccApprunnerAutoScalingConfigurations(scope constructs.Construct, id *string, config *DataAwsccApprunnerAutoScalingConfigurationsConfig) DataAwsccApprunnerAutoScalingConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccApprunnerAutoScalingConfigurations(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apprunner_auto_scaling_configurations awscc_apprunner_auto_scaling_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apprunner_auto_scaling_configurations awscc_apprunner_auto_scaling_configurations} Data Source.
 func NewDataAwsccApprunnerAutoScalingConfigurations_Override(d DataAwsccApprunnerAutoScalingConfigurations, scope constructs.Construct, id *string, config *DataAwsccApprunnerAutoScalingConfigurationsConfig) {
 	_init_.Initialize()
 

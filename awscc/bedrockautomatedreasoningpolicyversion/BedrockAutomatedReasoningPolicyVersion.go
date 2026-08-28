@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_automated_reasoning_policy_version awscc_bedrock_automated_reasoning_policy_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version awscc_bedrock_automated_reasoning_policy_version}.
 type BedrockAutomatedReasoningPolicyVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -503,7 +503,7 @@ func (j *jsiiProxy_BedrockAutomatedReasoningPolicyVersion) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_automated_reasoning_policy_version awscc_bedrock_automated_reasoning_policy_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version awscc_bedrock_automated_reasoning_policy_version} Resource.
 func NewBedrockAutomatedReasoningPolicyVersion(scope constructs.Construct, id *string, config *BedrockAutomatedReasoningPolicyVersionConfig) BedrockAutomatedReasoningPolicyVersion {
 	_init_.Initialize()
 
@@ -521,7 +521,7 @@ func NewBedrockAutomatedReasoningPolicyVersion(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_automated_reasoning_policy_version awscc_bedrock_automated_reasoning_policy_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version awscc_bedrock_automated_reasoning_policy_version} Resource.
 func NewBedrockAutomatedReasoningPolicyVersion_Override(b BedrockAutomatedReasoningPolicyVersion, scope constructs.Construct, id *string, config *BedrockAutomatedReasoningPolicyVersionConfig) {
 	_init_.Initialize()
 

@@ -79,6 +79,10 @@ func (e *jsiiProxy_Ec2VpcEndpointService) validateOverrideLogicalIdParameters(ne
 	return nil
 }
 
+func (e *jsiiProxy_Ec2VpcEndpointService) validatePutPrivateDnsNameConfigurationParameters(value *Ec2VpcEndpointServicePrivateDnsNameConfiguration) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2VpcEndpointService) validatePutTagsParameters(value interface{}) error {
 	return nil
 }
@@ -132,6 +136,10 @@ func (j *jsiiProxy_Ec2VpcEndpointService) validateSetNetworkLoadBalancerArnsPara
 }
 
 func (j *jsiiProxy_Ec2VpcEndpointService) validateSetPayerResponsibilityParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_Ec2VpcEndpointService) validateSetPrivateDnsNameParameters(val *string) error {
 	return nil
 }
 

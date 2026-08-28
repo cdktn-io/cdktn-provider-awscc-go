@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/batch_compute_environment awscc_batch_compute_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/batch_compute_environment awscc_batch_compute_environment}.
 type BatchComputeEnvironment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -40,6 +40,8 @@ type BatchComputeEnvironment interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	EcsSettings() BatchComputeEnvironmentEcsSettingsOutputReference
+	EcsSettingsInput() interface{}
 	EksConfiguration() BatchComputeEnvironmentEksConfigurationOutputReference
 	EksConfigurationInput() interface{}
 	// Experimental.
@@ -173,6 +175,7 @@ type BatchComputeEnvironment interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutComputeResources(value *BatchComputeEnvironmentComputeResources)
+	PutEcsSettings(value *BatchComputeEnvironmentEcsSettings)
 	PutEksConfiguration(value *BatchComputeEnvironmentEksConfiguration)
 	PutUpdatePolicy(value *BatchComputeEnvironmentUpdatePolicy)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
@@ -191,6 +194,7 @@ type BatchComputeEnvironment interface {
 	ResetComputeEnvironmentName()
 	ResetComputeResources()
 	ResetContext()
+	ResetEcsSettings()
 	ResetEksConfiguration()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -343,6 +347,26 @@ func (j *jsiiProxy_BatchComputeEnvironment) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BatchComputeEnvironment) EcsSettings() BatchComputeEnvironmentEcsSettingsOutputReference {
+	var returns BatchComputeEnvironmentEcsSettingsOutputReference
+	_jsii_.Get(
+		j,
+		"ecsSettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BatchComputeEnvironment) EcsSettingsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ecsSettingsInput",
 		&returns,
 	)
 	return returns
@@ -629,7 +653,7 @@ func (j *jsiiProxy_BatchComputeEnvironment) UpdatePolicyInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/batch_compute_environment awscc_batch_compute_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/batch_compute_environment awscc_batch_compute_environment} Resource.
 func NewBatchComputeEnvironment(scope constructs.Construct, id *string, config *BatchComputeEnvironmentConfig) BatchComputeEnvironment {
 	_init_.Initialize()
 
@@ -647,7 +671,7 @@ func NewBatchComputeEnvironment(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/batch_compute_environment awscc_batch_compute_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/batch_compute_environment awscc_batch_compute_environment} Resource.
 func NewBatchComputeEnvironment_Override(b BatchComputeEnvironment, scope constructs.Construct, id *string, config *BatchComputeEnvironmentConfig) {
 	_init_.Initialize()
 
@@ -1194,6 +1218,17 @@ func (b *jsiiProxy_BatchComputeEnvironment) PutComputeResources(value *BatchComp
 	)
 }
 
+func (b *jsiiProxy_BatchComputeEnvironment) PutEcsSettings(value *BatchComputeEnvironmentEcsSettings) {
+	if err := b.validatePutEcsSettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putEcsSettings",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BatchComputeEnvironment) PutEksConfiguration(value *BatchComputeEnvironmentEksConfiguration) {
 	if err := b.validatePutEksConfigurationParameters(value); err != nil {
 		panic(err)
@@ -1247,6 +1282,14 @@ func (b *jsiiProxy_BatchComputeEnvironment) ResetContext() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetContext",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BatchComputeEnvironment) ResetEcsSettings() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetEcsSettings",
 		nil, // no parameters
 	)
 }

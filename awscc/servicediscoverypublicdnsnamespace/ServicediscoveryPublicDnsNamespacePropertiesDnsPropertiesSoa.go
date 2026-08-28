@@ -5,7 +5,7 @@ package servicediscoverypublicdnsnamespace
 
 
 type ServicediscoveryPublicDnsNamespacePropertiesDnsPropertiesSoa struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_public_dns_namespace#ttl ServicediscoveryPublicDnsNamespace#ttl}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_public_dns_namespace#ttl ServicediscoveryPublicDnsNamespace#ttl}.
 	Ttl *float64 `field:"optional" json:"ttl" yaml:"ttl"`
 }
 

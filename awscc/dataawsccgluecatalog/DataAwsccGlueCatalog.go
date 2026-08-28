@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_catalog awscc_glue_catalog}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/glue_catalog awscc_glue_catalog}.
 type DataAwsccGlueCatalog interface {
 	cdktn.TerraformDataSource
 	AllowFullTableExternalDataAccess() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccGlueCatalog) UpdateTime() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_catalog awscc_glue_catalog} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/glue_catalog awscc_glue_catalog} Data Source.
 func NewDataAwsccGlueCatalog(scope constructs.Construct, id *string, config *DataAwsccGlueCatalogConfig) DataAwsccGlueCatalog {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccGlueCatalog(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/glue_catalog awscc_glue_catalog} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/glue_catalog awscc_glue_catalog} Data Source.
 func NewDataAwsccGlueCatalog_Override(d DataAwsccGlueCatalog, scope constructs.Construct, id *string, config *DataAwsccGlueCatalogConfig) {
 	_init_.Initialize()
 

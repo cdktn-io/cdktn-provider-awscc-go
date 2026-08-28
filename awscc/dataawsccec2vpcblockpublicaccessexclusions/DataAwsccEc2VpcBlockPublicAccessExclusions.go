@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_vpc_block_public_access_exclusions awscc_ec2_vpc_block_public_access_exclusions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpc_block_public_access_exclusions awscc_ec2_vpc_block_public_access_exclusions}.
 type DataAwsccEc2VpcBlockPublicAccessExclusions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2VpcBlockPublicAccessExclusions) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_vpc_block_public_access_exclusions awscc_ec2_vpc_block_public_access_exclusions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpc_block_public_access_exclusions awscc_ec2_vpc_block_public_access_exclusions} Data Source.
 func NewDataAwsccEc2VpcBlockPublicAccessExclusions(scope constructs.Construct, id *string, config *DataAwsccEc2VpcBlockPublicAccessExclusionsConfig) DataAwsccEc2VpcBlockPublicAccessExclusions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2VpcBlockPublicAccessExclusions(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_vpc_block_public_access_exclusions awscc_ec2_vpc_block_public_access_exclusions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpc_block_public_access_exclusions awscc_ec2_vpc_block_public_access_exclusions} Data Source.
 func NewDataAwsccEc2VpcBlockPublicAccessExclusions_Override(d DataAwsccEc2VpcBlockPublicAccessExclusions, scope constructs.Construct, id *string, config *DataAwsccEc2VpcBlockPublicAccessExclusionsConfig) {
 	_init_.Initialize()
 

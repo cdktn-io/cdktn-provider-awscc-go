@@ -5,9 +5,9 @@ package entityresolutionidnamespace
 
 
 type EntityresolutionIdNamespaceIdMappingWorkflowPropertiesRuleBasedPropertiesRules struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/entityresolution_id_namespace#matching_keys EntityresolutionIdNamespace#matching_keys}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/entityresolution_id_namespace#matching_keys EntityresolutionIdNamespace#matching_keys}.
 	MatchingKeys *[]*string `field:"optional" json:"matchingKeys" yaml:"matchingKeys"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/entityresolution_id_namespace#rule_name EntityresolutionIdNamespace#rule_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/entityresolution_id_namespace#rule_name EntityresolutionIdNamespace#rule_name}.
 	RuleName *string `field:"optional" json:"ruleName" yaml:"ruleName"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_topic_v2s awscc_quicksight_topic_v2s}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_topic_v2s awscc_quicksight_topic_v2s}.
 type DataAwsccQuicksightTopicV2S interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccQuicksightTopicV2S) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_topic_v2s awscc_quicksight_topic_v2s} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_topic_v2s awscc_quicksight_topic_v2s} Data Source.
 func NewDataAwsccQuicksightTopicV2S(scope constructs.Construct, id *string, config *DataAwsccQuicksightTopicV2SConfig) DataAwsccQuicksightTopicV2S {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccQuicksightTopicV2S(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_topic_v2s awscc_quicksight_topic_v2s} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_topic_v2s awscc_quicksight_topic_v2s} Data Source.
 func NewDataAwsccQuicksightTopicV2S_Override(d DataAwsccQuicksightTopicV2S, scope constructs.Construct, id *string, config *DataAwsccQuicksightTopicV2SConfig) {
 	_init_.Initialize()
 

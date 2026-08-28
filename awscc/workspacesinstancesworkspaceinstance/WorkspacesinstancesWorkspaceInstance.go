@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspacesinstances_workspace_instance awscc_workspacesinstances_workspace_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesinstances_workspace_instance awscc_workspacesinstances_workspace_instance}.
 type WorkspacesinstancesWorkspaceInstance interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -436,7 +436,7 @@ func (j *jsiiProxy_WorkspacesinstancesWorkspaceInstance) WorkspaceInstanceId() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspacesinstances_workspace_instance awscc_workspacesinstances_workspace_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesinstances_workspace_instance awscc_workspacesinstances_workspace_instance} Resource.
 func NewWorkspacesinstancesWorkspaceInstance(scope constructs.Construct, id *string, config *WorkspacesinstancesWorkspaceInstanceConfig) WorkspacesinstancesWorkspaceInstance {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewWorkspacesinstancesWorkspaceInstance(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspacesinstances_workspace_instance awscc_workspacesinstances_workspace_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesinstances_workspace_instance awscc_workspacesinstances_workspace_instance} Resource.
 func NewWorkspacesinstancesWorkspaceInstance_Override(w WorkspacesinstancesWorkspaceInstance, scope constructs.Construct, id *string, config *WorkspacesinstancesWorkspaceInstanceConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalog_launch_role_constraint awscc_servicecatalog_launch_role_constraint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/servicecatalog_launch_role_constraint awscc_servicecatalog_launch_role_constraint}.
 type DataAwsccServicecatalogLaunchRoleConstraint interface {
 	cdktn.TerraformDataSource
 	AcceptLanguage() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccServicecatalogLaunchRoleConstraint) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalog_launch_role_constraint awscc_servicecatalog_launch_role_constraint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/servicecatalog_launch_role_constraint awscc_servicecatalog_launch_role_constraint} Data Source.
 func NewDataAwsccServicecatalogLaunchRoleConstraint(scope constructs.Construct, id *string, config *DataAwsccServicecatalogLaunchRoleConstraintConfig) DataAwsccServicecatalogLaunchRoleConstraint {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccServicecatalogLaunchRoleConstraint(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalog_launch_role_constraint awscc_servicecatalog_launch_role_constraint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/servicecatalog_launch_role_constraint awscc_servicecatalog_launch_role_constraint} Data Source.
 func NewDataAwsccServicecatalogLaunchRoleConstraint_Override(d DataAwsccServicecatalogLaunchRoleConstraint, scope constructs.Construct, id *string, config *DataAwsccServicecatalogLaunchRoleConstraintConfig) {
 	_init_.Initialize()
 

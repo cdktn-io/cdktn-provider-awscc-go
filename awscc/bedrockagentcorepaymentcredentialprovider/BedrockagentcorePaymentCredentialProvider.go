@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_payment_credential_provider awscc_bedrockagentcore_payment_credential_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_payment_credential_provider awscc_bedrockagentcore_payment_credential_provider}.
 type BedrockagentcorePaymentCredentialProvider interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -493,7 +493,7 @@ func (j *jsiiProxy_BedrockagentcorePaymentCredentialProvider) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_payment_credential_provider awscc_bedrockagentcore_payment_credential_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_payment_credential_provider awscc_bedrockagentcore_payment_credential_provider} Resource.
 func NewBedrockagentcorePaymentCredentialProvider(scope constructs.Construct, id *string, config *BedrockagentcorePaymentCredentialProviderConfig) BedrockagentcorePaymentCredentialProvider {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewBedrockagentcorePaymentCredentialProvider(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_payment_credential_provider awscc_bedrockagentcore_payment_credential_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_payment_credential_provider awscc_bedrockagentcore_payment_credential_provider} Resource.
 func NewBedrockagentcorePaymentCredentialProvider_Override(b BedrockagentcorePaymentCredentialProvider, scope constructs.Construct, id *string, config *BedrockagentcorePaymentCredentialProviderConfig) {
 	_init_.Initialize()
 

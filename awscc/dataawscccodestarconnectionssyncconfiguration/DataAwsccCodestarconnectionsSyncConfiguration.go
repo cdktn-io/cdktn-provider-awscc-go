@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/codestarconnections_sync_configuration awscc_codestarconnections_sync_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codestarconnections_sync_configuration awscc_codestarconnections_sync_configuration}.
 type DataAwsccCodestarconnectionsSyncConfiguration interface {
 	cdktn.TerraformDataSource
 	Branch() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccCodestarconnectionsSyncConfiguration) TriggerResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/codestarconnections_sync_configuration awscc_codestarconnections_sync_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codestarconnections_sync_configuration awscc_codestarconnections_sync_configuration} Data Source.
 func NewDataAwsccCodestarconnectionsSyncConfiguration(scope constructs.Construct, id *string, config *DataAwsccCodestarconnectionsSyncConfigurationConfig) DataAwsccCodestarconnectionsSyncConfiguration {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccCodestarconnectionsSyncConfiguration(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/codestarconnections_sync_configuration awscc_codestarconnections_sync_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codestarconnections_sync_configuration awscc_codestarconnections_sync_configuration} Data Source.
 func NewDataAwsccCodestarconnectionsSyncConfiguration_Override(d DataAwsccCodestarconnectionsSyncConfiguration, scope constructs.Construct, id *string, config *DataAwsccCodestarconnectionsSyncConfigurationConfig) {
 	_init_.Initialize()
 

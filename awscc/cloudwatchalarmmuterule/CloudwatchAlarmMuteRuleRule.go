@@ -7,7 +7,7 @@ package cloudwatchalarmmuterule
 type CloudwatchAlarmMuteRuleRule struct {
 	// Schedule for the mute to be active.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_alarm_mute_rule#schedule CloudwatchAlarmMuteRule#schedule}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_alarm_mute_rule#schedule CloudwatchAlarmMuteRule#schedule}
 	Schedule *CloudwatchAlarmMuteRuleRuleSchedule `field:"required" json:"schedule" yaml:"schedule"`
 }
 

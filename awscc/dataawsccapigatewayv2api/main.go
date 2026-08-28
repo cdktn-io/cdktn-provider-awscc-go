@@ -30,6 +30,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
 			_jsii_.MemberProperty{JsiiProperty: "disableExecuteApiEndpoint", GoGetter: "DisableExecuteApiEndpoint"},
 			_jsii_.MemberProperty{JsiiProperty: "disableSchemaValidation", GoGetter: "DisableSchemaValidation"},
+			_jsii_.MemberProperty{JsiiProperty: "executeApiArn", GoGetter: "ExecuteApiArn"},
 			_jsii_.MemberProperty{JsiiProperty: "failOnWarnings", GoGetter: "FailOnWarnings"},
 			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},

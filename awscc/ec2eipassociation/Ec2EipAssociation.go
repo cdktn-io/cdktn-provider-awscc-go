@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_eip_association awscc_ec2_eip_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_eip_association awscc_ec2_eip_association}.
 type Ec2EipAssociation interface {
 	cdktn.TerraformResource
 	AllocationId() *string
@@ -486,7 +486,7 @@ func (j *jsiiProxy_Ec2EipAssociation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_eip_association awscc_ec2_eip_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_eip_association awscc_ec2_eip_association} Resource.
 func NewEc2EipAssociation(scope constructs.Construct, id *string, config *Ec2EipAssociationConfig) Ec2EipAssociation {
 	_init_.Initialize()
 
@@ -504,7 +504,7 @@ func NewEc2EipAssociation(scope constructs.Construct, id *string, config *Ec2Eip
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_eip_association awscc_ec2_eip_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_eip_association awscc_ec2_eip_association} Resource.
 func NewEc2EipAssociation_Override(e Ec2EipAssociation, scope constructs.Construct, id *string, config *Ec2EipAssociationConfig) {
 	_init_.Initialize()
 

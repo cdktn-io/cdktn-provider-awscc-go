@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2 awscc_securityhub_automation_rule_v2}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2 awscc_securityhub_automation_rule_v2}.
 type SecurityhubAutomationRuleV2 interface {
 	cdktn.TerraformResource
 	Actions() SecurityhubAutomationRuleV2ActionsList
@@ -562,7 +562,7 @@ func (j *jsiiProxy_SecurityhubAutomationRuleV2) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2 awscc_securityhub_automation_rule_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2 awscc_securityhub_automation_rule_v2} Resource.
 func NewSecurityhubAutomationRuleV2(scope constructs.Construct, id *string, config *SecurityhubAutomationRuleV2Config) SecurityhubAutomationRuleV2 {
 	_init_.Initialize()
 
@@ -580,7 +580,7 @@ func NewSecurityhubAutomationRuleV2(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/securityhub_automation_rule_v2 awscc_securityhub_automation_rule_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_automation_rule_v2 awscc_securityhub_automation_rule_v2} Resource.
 func NewSecurityhubAutomationRuleV2_Override(s SecurityhubAutomationRuleV2, scope constructs.Construct, id *string, config *SecurityhubAutomationRuleV2Config) {
 	_init_.Initialize()
 

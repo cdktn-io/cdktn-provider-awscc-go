@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigatewayv2_api awscc_apigatewayv2_api}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigatewayv2_api awscc_apigatewayv2_api}.
 type DataAwsccApigatewayv2Api interface {
 	cdktn.TerraformDataSource
 	ApiEndpoint() *string
@@ -38,6 +38,7 @@ type DataAwsccApigatewayv2Api interface {
 	Description() *string
 	DisableExecuteApiEndpoint() cdktn.IResolvable
 	DisableSchemaValidation() cdktn.IResolvable
+	ExecuteApiArn() *string
 	FailOnWarnings() cdktn.IResolvable
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
@@ -295,6 +296,16 @@ func (j *jsiiProxy_DataAwsccApigatewayv2Api) DisableSchemaValidation() cdktn.IRe
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccApigatewayv2Api) ExecuteApiArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"executeApiArn",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccApigatewayv2Api) FailOnWarnings() cdktn.IResolvable {
 	var returns cdktn.IResolvable
 	_jsii_.Get(
@@ -506,7 +517,7 @@ func (j *jsiiProxy_DataAwsccApigatewayv2Api) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigatewayv2_api awscc_apigatewayv2_api} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigatewayv2_api awscc_apigatewayv2_api} Data Source.
 func NewDataAwsccApigatewayv2Api(scope constructs.Construct, id *string, config *DataAwsccApigatewayv2ApiConfig) DataAwsccApigatewayv2Api {
 	_init_.Initialize()
 
@@ -524,7 +535,7 @@ func NewDataAwsccApigatewayv2Api(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigatewayv2_api awscc_apigatewayv2_api} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigatewayv2_api awscc_apigatewayv2_api} Data Source.
 func NewDataAwsccApigatewayv2Api_Override(d DataAwsccApigatewayv2Api, scope constructs.Construct, id *string, config *DataAwsccApigatewayv2ApiConfig) {
 	_init_.Initialize()
 

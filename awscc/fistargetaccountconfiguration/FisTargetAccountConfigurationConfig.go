@@ -24,19 +24,19 @@ type FisTargetAccountConfigurationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The AWS account ID of the target account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_target_account_configuration#account_id FisTargetAccountConfiguration#account_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_target_account_configuration#account_id FisTargetAccountConfiguration#account_id}
 	AccountId *string `field:"required" json:"accountId" yaml:"accountId"`
 	// The ID of the experiment template.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_target_account_configuration#experiment_template_id FisTargetAccountConfiguration#experiment_template_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_target_account_configuration#experiment_template_id FisTargetAccountConfiguration#experiment_template_id}
 	ExperimentTemplateId *string `field:"required" json:"experimentTemplateId" yaml:"experimentTemplateId"`
 	// The Amazon Resource Name (ARN) of an IAM role for the target account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_target_account_configuration#role_arn FisTargetAccountConfiguration#role_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_target_account_configuration#role_arn FisTargetAccountConfiguration#role_arn}
 	RoleArn *string `field:"required" json:"roleArn" yaml:"roleArn"`
 	// The description of the target account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_target_account_configuration#description FisTargetAccountConfiguration#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_target_account_configuration#description FisTargetAccountConfiguration#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 }
 

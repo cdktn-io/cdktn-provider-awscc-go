@@ -7,11 +7,11 @@ package agentregistryregistry
 type AgentregistryRegistryTags struct {
 	// The key of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/agentregistry_registry#key AgentregistryRegistry#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/agentregistry_registry#key AgentregistryRegistry#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/agentregistry_registry#value AgentregistryRegistry#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/agentregistry_registry#value AgentregistryRegistry#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

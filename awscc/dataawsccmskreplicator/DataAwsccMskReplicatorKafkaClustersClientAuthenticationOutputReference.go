@@ -33,6 +33,7 @@ type DataAwsccMskReplicatorKafkaClustersClientAuthenticationOutputReference inte
 	InternalValue() *DataAwsccMskReplicatorKafkaClustersClientAuthentication
 	SetInternalValue(val *DataAwsccMskReplicatorKafkaClustersClientAuthentication)
 	Mtls() DataAwsccMskReplicatorKafkaClustersClientAuthenticationMtlsOutputReference
+	SaslOAuthBearer() DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerOutputReference
 	SaslScram() DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslScramOutputReference
 	// Experimental.
 	TerraformAttribute() *string
@@ -136,6 +137,16 @@ func (j *jsiiProxy_DataAwsccMskReplicatorKafkaClustersClientAuthenticationOutput
 	_jsii_.Get(
 		j,
 		"mtls",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccMskReplicatorKafkaClustersClientAuthenticationOutputReference) SaslOAuthBearer() DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerOutputReference {
+	var returns DataAwsccMskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerOutputReference
+	_jsii_.Get(
+		j,
+		"saslOAuthBearer",
 		&returns,
 	)
 	return returns

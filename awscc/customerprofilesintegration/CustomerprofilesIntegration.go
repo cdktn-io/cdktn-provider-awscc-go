@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_integration awscc_customerprofiles_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_integration awscc_customerprofiles_integration}.
 type CustomerprofilesIntegration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -568,7 +568,7 @@ func (j *jsiiProxy_CustomerprofilesIntegration) UriInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_integration awscc_customerprofiles_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_integration awscc_customerprofiles_integration} Resource.
 func NewCustomerprofilesIntegration(scope constructs.Construct, id *string, config *CustomerprofilesIntegrationConfig) CustomerprofilesIntegration {
 	_init_.Initialize()
 
@@ -586,7 +586,7 @@ func NewCustomerprofilesIntegration(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/customerprofiles_integration awscc_customerprofiles_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_integration awscc_customerprofiles_integration} Resource.
 func NewCustomerprofilesIntegration_Override(c CustomerprofilesIntegration, scope constructs.Construct, id *string, config *CustomerprofilesIntegrationConfig) {
 	_init_.Initialize()
 

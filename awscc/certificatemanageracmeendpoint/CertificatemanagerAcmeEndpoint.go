@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/certificatemanager_acme_endpoint awscc_certificatemanager_acme_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/certificatemanager_acme_endpoint awscc_certificatemanager_acme_endpoint}.
 type CertificatemanagerAcmeEndpoint interface {
 	cdktn.TerraformResource
 	AcmeEndpointArn() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_CertificatemanagerAcmeEndpoint) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/certificatemanager_acme_endpoint awscc_certificatemanager_acme_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/certificatemanager_acme_endpoint awscc_certificatemanager_acme_endpoint} Resource.
 func NewCertificatemanagerAcmeEndpoint(scope constructs.Construct, id *string, config *CertificatemanagerAcmeEndpointConfig) CertificatemanagerAcmeEndpoint {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewCertificatemanagerAcmeEndpoint(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/certificatemanager_acme_endpoint awscc_certificatemanager_acme_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/certificatemanager_acme_endpoint awscc_certificatemanager_acme_endpoint} Resource.
 func NewCertificatemanagerAcmeEndpoint_Override(c CertificatemanagerAcmeEndpoint, scope constructs.Construct, id *string, config *CertificatemanagerAcmeEndpointConfig) {
 	_init_.Initialize()
 

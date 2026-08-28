@@ -7,7 +7,7 @@ package route53resolverfirewallrulegroup
 type Route53ResolverFirewallRuleGroupFirewallRulesFirewallRuleTypePartnerThreatProtection struct {
 	// The partner identifier value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53resolver_firewall_rule_group#partner Route53ResolverFirewallRuleGroup#partner}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53resolver_firewall_rule_group#partner Route53ResolverFirewallRuleGroup#partner}
 	Partner *string `field:"optional" json:"partner" yaml:"partner"`
 }
 

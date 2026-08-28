@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3tables_table_bucket_policies awscc_s3tables_table_bucket_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3tables_table_bucket_policies awscc_s3tables_table_bucket_policies}.
 type DataAwsccS3TablesTableBucketPolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccS3TablesTableBucketPolicies) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3tables_table_bucket_policies awscc_s3tables_table_bucket_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3tables_table_bucket_policies awscc_s3tables_table_bucket_policies} Data Source.
 func NewDataAwsccS3TablesTableBucketPolicies(scope constructs.Construct, id *string, config *DataAwsccS3TablesTableBucketPoliciesConfig) DataAwsccS3TablesTableBucketPolicies {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccS3TablesTableBucketPolicies(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3tables_table_bucket_policies awscc_s3tables_table_bucket_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3tables_table_bucket_policies awscc_s3tables_table_bucket_policies} Data Source.
 func NewDataAwsccS3TablesTableBucketPolicies_Override(d DataAwsccS3TablesTableBucketPolicies, scope constructs.Construct, id *string, config *DataAwsccS3TablesTableBucketPoliciesConfig) {
 	_init_.Initialize()
 

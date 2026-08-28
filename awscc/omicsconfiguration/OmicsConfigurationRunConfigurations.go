@@ -5,7 +5,7 @@ package omicsconfiguration
 
 
 type OmicsConfigurationRunConfigurations struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_configuration#vpc_config OmicsConfiguration#vpc_config}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_configuration#vpc_config OmicsConfiguration#vpc_config}.
 	VpcConfig *OmicsConfigurationRunConfigurationsVpcConfig `field:"optional" json:"vpcConfig" yaml:"vpcConfig"`
 }
 

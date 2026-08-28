@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ecs_capacity_providers awscc_ecs_capacity_providers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecs_capacity_providers awscc_ecs_capacity_providers}.
 type DataAwsccEcsCapacityProviders interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEcsCapacityProviders) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ecs_capacity_providers awscc_ecs_capacity_providers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecs_capacity_providers awscc_ecs_capacity_providers} Data Source.
 func NewDataAwsccEcsCapacityProviders(scope constructs.Construct, id *string, config *DataAwsccEcsCapacityProvidersConfig) DataAwsccEcsCapacityProviders {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEcsCapacityProviders(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ecs_capacity_providers awscc_ecs_capacity_providers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecs_capacity_providers awscc_ecs_capacity_providers} Data Source.
 func NewDataAwsccEcsCapacityProviders_Override(d DataAwsccEcsCapacityProviders, scope constructs.Construct, id *string, config *DataAwsccEcsCapacityProvidersConfig) {
 	_init_.Initialize()
 

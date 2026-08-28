@@ -7,11 +7,11 @@ package braketspendinglimit
 type BraketSpendingLimitTimePeriod struct {
 	// The end date and time for the spending limit period, in ISO 8601 format.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/braket_spending_limit#end_at BraketSpendingLimit#end_at}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/braket_spending_limit#end_at BraketSpendingLimit#end_at}
 	EndAt *string `field:"optional" json:"endAt" yaml:"endAt"`
 	// The start date and time for the spending limit period, in ISO 8601 format.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/braket_spending_limit#start_at BraketSpendingLimit#start_at}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/braket_spending_limit#start_at BraketSpendingLimit#start_at}
 	StartAt *string `field:"optional" json:"startAt" yaml:"startAt"`
 }
 

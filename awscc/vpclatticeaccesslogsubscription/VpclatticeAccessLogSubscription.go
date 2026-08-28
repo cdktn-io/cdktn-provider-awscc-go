@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_access_log_subscription awscc_vpclattice_access_log_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_access_log_subscription awscc_vpclattice_access_log_subscription}.
 type VpclatticeAccessLogSubscription interface {
 	cdktn.TerraformResource
 	AccessLogSubscriptionId() *string
@@ -494,7 +494,7 @@ func (j *jsiiProxy_VpclatticeAccessLogSubscription) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_access_log_subscription awscc_vpclattice_access_log_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_access_log_subscription awscc_vpclattice_access_log_subscription} Resource.
 func NewVpclatticeAccessLogSubscription(scope constructs.Construct, id *string, config *VpclatticeAccessLogSubscriptionConfig) VpclatticeAccessLogSubscription {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewVpclatticeAccessLogSubscription(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/vpclattice_access_log_subscription awscc_vpclattice_access_log_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_access_log_subscription awscc_vpclattice_access_log_subscription} Resource.
 func NewVpclatticeAccessLogSubscription_Override(v VpclatticeAccessLogSubscription, scope constructs.Construct, id *string, config *VpclatticeAccessLogSubscriptionConfig) {
 	_init_.Initialize()
 

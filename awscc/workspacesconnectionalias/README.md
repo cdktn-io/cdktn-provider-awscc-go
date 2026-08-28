@@ -1,3 +1,3 @@
 # `awscc_workspaces_connection_alias`
 
-Refer to the Terraform Registry for docs: [`awscc_workspaces_connection_alias`](https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspaces_connection_alias).
+Refer to the Terraform Registry for docs: [`awscc_workspaces_connection_alias`](https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspaces_connection_alias).

@@ -7,11 +7,11 @@ package chimechannelflow
 type ChimeChannelFlowTags struct {
 	// The key in a tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_channel_flow#key ChimeChannelFlow#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_channel_flow#key ChimeChannelFlow#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value in a tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/chime_channel_flow#value ChimeChannelFlow#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_channel_flow#value ChimeChannelFlow#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

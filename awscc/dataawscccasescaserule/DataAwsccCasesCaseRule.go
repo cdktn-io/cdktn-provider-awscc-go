@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cases_case_rule awscc_cases_case_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cases_case_rule awscc_cases_case_rule}.
 type DataAwsccCasesCaseRule interface {
 	cdktn.TerraformDataSource
 	CaseRuleArn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccCasesCaseRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cases_case_rule awscc_cases_case_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cases_case_rule awscc_cases_case_rule} Data Source.
 func NewDataAwsccCasesCaseRule(scope constructs.Construct, id *string, config *DataAwsccCasesCaseRuleConfig) DataAwsccCasesCaseRule {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccCasesCaseRule(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cases_case_rule awscc_cases_case_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cases_case_rule awscc_cases_case_rule} Data Source.
 func NewDataAwsccCasesCaseRule_Override(d DataAwsccCasesCaseRule, scope constructs.Construct, id *string, config *DataAwsccCasesCaseRuleConfig) {
 	_init_.Initialize()
 

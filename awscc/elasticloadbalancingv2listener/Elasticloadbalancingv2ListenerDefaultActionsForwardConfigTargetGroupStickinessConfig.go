@@ -9,11 +9,11 @@ type Elasticloadbalancingv2ListenerDefaultActionsForwardConfigTargetGroupStickin
 	//
 	// The range is 1-604800 seconds (7 days). You must specify this value when enabling target group stickiness.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticloadbalancingv2_listener#duration_seconds Elasticloadbalancingv2Listener#duration_seconds}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticloadbalancingv2_listener#duration_seconds Elasticloadbalancingv2Listener#duration_seconds}
 	DurationSeconds *float64 `field:"optional" json:"durationSeconds" yaml:"durationSeconds"`
 	// Indicates whether target group stickiness is enabled.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticloadbalancingv2_listener#enabled Elasticloadbalancingv2Listener#enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticloadbalancingv2_listener#enabled Elasticloadbalancingv2Listener#enabled}
 	Enabled interface{} `field:"optional" json:"enabled" yaml:"enabled"`
 }
 

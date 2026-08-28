@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_ipam_resource_discovery awscc_ec2_ipam_resource_discovery}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ipam_resource_discovery awscc_ec2_ipam_resource_discovery}.
 type DataAwsccEc2IpamResourceDiscovery interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccEc2IpamResourceDiscovery) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_ipam_resource_discovery awscc_ec2_ipam_resource_discovery} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ipam_resource_discovery awscc_ec2_ipam_resource_discovery} Data Source.
 func NewDataAwsccEc2IpamResourceDiscovery(scope constructs.Construct, id *string, config *DataAwsccEc2IpamResourceDiscoveryConfig) DataAwsccEc2IpamResourceDiscovery {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccEc2IpamResourceDiscovery(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ec2_ipam_resource_discovery awscc_ec2_ipam_resource_discovery} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ipam_resource_discovery awscc_ec2_ipam_resource_discovery} Data Source.
 func NewDataAwsccEc2IpamResourceDiscovery_Override(d DataAwsccEc2IpamResourceDiscovery, scope constructs.Construct, id *string, config *DataAwsccEc2IpamResourceDiscoveryConfig) {
 	_init_.Initialize()
 

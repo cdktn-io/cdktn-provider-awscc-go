@@ -7,7 +7,7 @@ package medialivenetwork
 type MedialiveNetworkIpPools struct {
 	// IP address cidr pool.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/medialive_network#cidr MedialiveNetwork#cidr}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_network#cidr MedialiveNetwork#cidr}
 	Cidr *string `field:"optional" json:"cidr" yaml:"cidr"`
 }
 

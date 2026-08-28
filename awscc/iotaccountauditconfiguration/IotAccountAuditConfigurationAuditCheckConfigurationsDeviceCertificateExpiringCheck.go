@@ -7,11 +7,11 @@ package iotaccountauditconfiguration
 type IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheck struct {
 	// A structure containing the configName and corresponding configValue for configuring audit checks.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_account_audit_configuration#configuration IotAccountAuditConfiguration#configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_account_audit_configuration#configuration IotAccountAuditConfiguration#configuration}
 	Configuration *IotAccountAuditConfigurationAuditCheckConfigurationsDeviceCertificateExpiringCheckConfiguration `field:"optional" json:"configuration" yaml:"configuration"`
 	// True if the check is enabled.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_account_audit_configuration#enabled IotAccountAuditConfiguration#enabled}
 	Enabled interface{} `field:"optional" json:"enabled" yaml:"enabled"`
 }
 

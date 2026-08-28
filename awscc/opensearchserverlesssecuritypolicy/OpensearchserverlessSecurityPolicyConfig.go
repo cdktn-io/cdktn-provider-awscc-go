@@ -24,19 +24,19 @@ type OpensearchserverlessSecurityPolicyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the policy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_security_policy#name OpensearchserverlessSecurityPolicy#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_security_policy#name OpensearchserverlessSecurityPolicy#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The JSON policy document that is the content for the policy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_security_policy#policy OpensearchserverlessSecurityPolicy#policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_security_policy#policy OpensearchserverlessSecurityPolicy#policy}
 	Policy *string `field:"required" json:"policy" yaml:"policy"`
 	// The possible types for the network policy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_security_policy#type OpensearchserverlessSecurityPolicy#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_security_policy#type OpensearchserverlessSecurityPolicy#type}
 	Type *string `field:"required" json:"type" yaml:"type"`
 	// The description of the policy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_security_policy#description OpensearchserverlessSecurityPolicy#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_security_policy#description OpensearchserverlessSecurityPolicy#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 }
 

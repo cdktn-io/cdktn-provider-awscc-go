@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_user_profile awscc_datazone_user_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_user_profile awscc_datazone_user_profile}.
 type DatazoneUserProfile interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -517,7 +517,7 @@ func (j *jsiiProxy_DatazoneUserProfile) UserTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_user_profile awscc_datazone_user_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_user_profile awscc_datazone_user_profile} Resource.
 func NewDatazoneUserProfile(scope constructs.Construct, id *string, config *DatazoneUserProfileConfig) DatazoneUserProfile {
 	_init_.Initialize()
 
@@ -535,7 +535,7 @@ func NewDatazoneUserProfile(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_user_profile awscc_datazone_user_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_user_profile awscc_datazone_user_profile} Resource.
 func NewDatazoneUserProfile_Override(d DatazoneUserProfile, scope constructs.Construct, id *string, config *DatazoneUserProfileConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_log_stream awscc_logs_log_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_log_stream awscc_logs_log_stream}.
 type LogsLogStream interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -402,7 +402,7 @@ func (j *jsiiProxy_LogsLogStream) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_log_stream awscc_logs_log_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_log_stream awscc_logs_log_stream} Resource.
 func NewLogsLogStream(scope constructs.Construct, id *string, config *LogsLogStreamConfig) LogsLogStream {
 	_init_.Initialize()
 
@@ -420,7 +420,7 @@ func NewLogsLogStream(scope constructs.Construct, id *string, config *LogsLogStr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/logs_log_stream awscc_logs_log_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_log_stream awscc_logs_log_stream} Resource.
 func NewLogsLogStream_Override(l LogsLogStream, scope constructs.Construct, id *string, config *LogsLogStreamConfig) {
 	_init_.Initialize()
 

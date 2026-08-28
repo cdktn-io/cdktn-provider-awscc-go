@@ -5,7 +5,7 @@ package iottopicrule
 
 
 type IotTopicRuleTopicRulePayloadErrorActionHttpAuth struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_topic_rule#sigv_4 IotTopicRule#sigv_4}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_topic_rule#sigv_4 IotTopicRule#sigv_4}.
 	Sigv4 *IotTopicRuleTopicRulePayloadErrorActionHttpAuthSigv4 `field:"optional" json:"sigv4" yaml:"sigv4"`
 }
 

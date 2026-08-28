@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_resource_update_constraint awscc_servicecatalog_resource_update_constraint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_resource_update_constraint awscc_servicecatalog_resource_update_constraint}.
 type ServicecatalogResourceUpdateConstraint interface {
 	cdktn.TerraformResource
 	AcceptLanguage() *string
@@ -483,7 +483,7 @@ func (j *jsiiProxy_ServicecatalogResourceUpdateConstraint) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_resource_update_constraint awscc_servicecatalog_resource_update_constraint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_resource_update_constraint awscc_servicecatalog_resource_update_constraint} Resource.
 func NewServicecatalogResourceUpdateConstraint(scope constructs.Construct, id *string, config *ServicecatalogResourceUpdateConstraintConfig) ServicecatalogResourceUpdateConstraint {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewServicecatalogResourceUpdateConstraint(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicecatalog_resource_update_constraint awscc_servicecatalog_resource_update_constraint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_resource_update_constraint awscc_servicecatalog_resource_update_constraint} Resource.
 func NewServicecatalogResourceUpdateConstraint_Override(s ServicecatalogResourceUpdateConstraint, scope constructs.Construct, id *string, config *ServicecatalogResourceUpdateConstraintConfig) {
 	_init_.Initialize()
 

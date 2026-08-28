@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigateway_authorizer awscc_apigateway_authorizer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigateway_authorizer awscc_apigateway_authorizer}.
 type DataAwsccApigatewayAuthorizer interface {
 	cdktn.TerraformDataSource
 	AuthorizerCredentials() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccApigatewayAuthorizer) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigateway_authorizer awscc_apigateway_authorizer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigateway_authorizer awscc_apigateway_authorizer} Data Source.
 func NewDataAwsccApigatewayAuthorizer(scope constructs.Construct, id *string, config *DataAwsccApigatewayAuthorizerConfig) DataAwsccApigatewayAuthorizer {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccApigatewayAuthorizer(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigateway_authorizer awscc_apigateway_authorizer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigateway_authorizer awscc_apigateway_authorizer} Data Source.
 func NewDataAwsccApigatewayAuthorizer_Override(d DataAwsccApigatewayAuthorizer, scope constructs.Construct, id *string, config *DataAwsccApigatewayAuthorizerConfig) {
 	_init_.Initialize()
 

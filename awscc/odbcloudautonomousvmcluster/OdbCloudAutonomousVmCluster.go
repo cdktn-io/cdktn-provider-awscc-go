@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/odb_cloud_autonomous_vm_cluster awscc_odb_cloud_autonomous_vm_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/odb_cloud_autonomous_vm_cluster awscc_odb_cloud_autonomous_vm_cluster}.
 type OdbCloudAutonomousVmCluster interface {
 	cdktn.TerraformResource
 	AutonomousDataStoragePercentage() *float64
@@ -1071,7 +1071,7 @@ func (j *jsiiProxy_OdbCloudAutonomousVmCluster) TotalContainerDatabasesInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/odb_cloud_autonomous_vm_cluster awscc_odb_cloud_autonomous_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/odb_cloud_autonomous_vm_cluster awscc_odb_cloud_autonomous_vm_cluster} Resource.
 func NewOdbCloudAutonomousVmCluster(scope constructs.Construct, id *string, config *OdbCloudAutonomousVmClusterConfig) OdbCloudAutonomousVmCluster {
 	_init_.Initialize()
 
@@ -1089,7 +1089,7 @@ func NewOdbCloudAutonomousVmCluster(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/odb_cloud_autonomous_vm_cluster awscc_odb_cloud_autonomous_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/odb_cloud_autonomous_vm_cluster awscc_odb_cloud_autonomous_vm_cluster} Resource.
 func NewOdbCloudAutonomousVmCluster_Override(o OdbCloudAutonomousVmCluster, scope constructs.Construct, id *string, config *OdbCloudAutonomousVmClusterConfig) {
 	_init_.Initialize()
 

@@ -9,15 +9,15 @@ type EcsServiceVolumeConfigurationsManagedEbsVolumeTagSpecifications struct {
 	//
 	// Tags can only propagate to a ``SERVICE`` specified in ``ServiceVolumeConfiguration``. If no value is specified, the tags aren't propagated.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_service#propagate_tags EcsService#propagate_tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_service#propagate_tags EcsService#propagate_tags}
 	PropagateTags *string `field:"optional" json:"propagateTags" yaml:"propagateTags"`
 	// The type of volume resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_service#resource_type EcsService#resource_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_service#resource_type EcsService#resource_type}
 	ResourceType *string `field:"optional" json:"resourceType" yaml:"resourceType"`
 	// The tags applied to this Amazon EBS volume. ``AmazonECSCreated`` and ``AmazonECSManaged`` are reserved tags that can't be used.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_service#tags EcsService#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_service#tags EcsService#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

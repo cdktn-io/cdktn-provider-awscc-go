@@ -5,7 +5,7 @@ package rtbfabricrespondergateway
 
 
 type RtbfabricResponderGatewayTrustStoreConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rtbfabric_responder_gateway#certificate_authority_certificates RtbfabricResponderGateway#certificate_authority_certificates}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rtbfabric_responder_gateway#certificate_authority_certificates RtbfabricResponderGateway#certificate_authority_certificates}.
 	CertificateAuthorityCertificates *[]*string `field:"optional" json:"certificateAuthorityCertificates" yaml:"certificateAuthorityCertificates"`
 }
 

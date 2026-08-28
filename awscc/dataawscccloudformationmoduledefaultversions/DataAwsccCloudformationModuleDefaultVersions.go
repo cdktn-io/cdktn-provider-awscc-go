@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudformation_module_default_versions awscc_cloudformation_module_default_versions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_module_default_versions awscc_cloudformation_module_default_versions}.
 type DataAwsccCloudformationModuleDefaultVersions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCloudformationModuleDefaultVersions) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudformation_module_default_versions awscc_cloudformation_module_default_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_module_default_versions awscc_cloudformation_module_default_versions} Data Source.
 func NewDataAwsccCloudformationModuleDefaultVersions(scope constructs.Construct, id *string, config *DataAwsccCloudformationModuleDefaultVersionsConfig) DataAwsccCloudformationModuleDefaultVersions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCloudformationModuleDefaultVersions(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudformation_module_default_versions awscc_cloudformation_module_default_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_module_default_versions awscc_cloudformation_module_default_versions} Data Source.
 func NewDataAwsccCloudformationModuleDefaultVersions_Override(d DataAwsccCloudformationModuleDefaultVersions, scope constructs.Construct, id *string, config *DataAwsccCloudformationModuleDefaultVersionsConfig) {
 	_init_.Initialize()
 

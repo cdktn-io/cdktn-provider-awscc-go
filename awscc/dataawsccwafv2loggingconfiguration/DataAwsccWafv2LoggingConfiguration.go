@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/wafv2_logging_configuration awscc_wafv2_logging_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/wafv2_logging_configuration awscc_wafv2_logging_configuration}.
 type DataAwsccWafv2LoggingConfiguration interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccWafv2LoggingConfiguration) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/wafv2_logging_configuration awscc_wafv2_logging_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/wafv2_logging_configuration awscc_wafv2_logging_configuration} Data Source.
 func NewDataAwsccWafv2LoggingConfiguration(scope constructs.Construct, id *string, config *DataAwsccWafv2LoggingConfigurationConfig) DataAwsccWafv2LoggingConfiguration {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccWafv2LoggingConfiguration(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/wafv2_logging_configuration awscc_wafv2_logging_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/wafv2_logging_configuration awscc_wafv2_logging_configuration} Data Source.
 func NewDataAwsccWafv2LoggingConfiguration_Override(d DataAwsccWafv2LoggingConfiguration, scope constructs.Construct, id *string, config *DataAwsccWafv2LoggingConfigurationConfig) {
 	_init_.Initialize()
 

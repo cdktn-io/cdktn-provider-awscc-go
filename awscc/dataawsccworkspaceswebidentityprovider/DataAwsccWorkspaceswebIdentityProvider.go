@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/workspacesweb_identity_provider awscc_workspacesweb_identity_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/workspacesweb_identity_provider awscc_workspacesweb_identity_provider}.
 type DataAwsccWorkspaceswebIdentityProvider interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccWorkspaceswebIdentityProvider) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/workspacesweb_identity_provider awscc_workspacesweb_identity_provider} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/workspacesweb_identity_provider awscc_workspacesweb_identity_provider} Data Source.
 func NewDataAwsccWorkspaceswebIdentityProvider(scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebIdentityProviderConfig) DataAwsccWorkspaceswebIdentityProvider {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccWorkspaceswebIdentityProvider(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/workspacesweb_identity_provider awscc_workspacesweb_identity_provider} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/workspacesweb_identity_provider awscc_workspacesweb_identity_provider} Data Source.
 func NewDataAwsccWorkspaceswebIdentityProvider_Override(d DataAwsccWorkspaceswebIdentityProvider, scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebIdentityProviderConfig) {
 	_init_.Initialize()
 

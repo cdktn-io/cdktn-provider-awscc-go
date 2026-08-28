@@ -5,7 +5,7 @@ package sagemakeralgorithm
 
 
 type SagemakerAlgorithmTrainingSpecificationSupportedHyperParametersRangeCategoricalParameterRangeSpecification struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_algorithm#values SagemakerAlgorithm#values}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_algorithm#values SagemakerAlgorithm#values}.
 	Values *[]*string `field:"optional" json:"values" yaml:"values"`
 }
 

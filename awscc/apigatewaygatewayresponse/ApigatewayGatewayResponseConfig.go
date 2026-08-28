@@ -22,15 +22,15 @@ type ApigatewayGatewayResponseConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_gateway_response#response_type ApigatewayGatewayResponse#response_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_gateway_response#response_type ApigatewayGatewayResponse#response_type}.
 	ResponseType *string `field:"required" json:"responseType" yaml:"responseType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_gateway_response#rest_api_id ApigatewayGatewayResponse#rest_api_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_gateway_response#rest_api_id ApigatewayGatewayResponse#rest_api_id}.
 	RestApiId *string `field:"required" json:"restApiId" yaml:"restApiId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_gateway_response#response_parameters ApigatewayGatewayResponse#response_parameters}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_gateway_response#response_parameters ApigatewayGatewayResponse#response_parameters}.
 	ResponseParameters *map[string]*string `field:"optional" json:"responseParameters" yaml:"responseParameters"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_gateway_response#response_templates ApigatewayGatewayResponse#response_templates}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_gateway_response#response_templates ApigatewayGatewayResponse#response_templates}.
 	ResponseTemplates *map[string]*string `field:"optional" json:"responseTemplates" yaml:"responseTemplates"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_gateway_response#status_code ApigatewayGatewayResponse#status_code}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_gateway_response#status_code ApigatewayGatewayResponse#status_code}.
 	StatusCode *string `field:"optional" json:"statusCode" yaml:"statusCode"`
 }
 

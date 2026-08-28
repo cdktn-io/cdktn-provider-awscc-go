@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/databrew_job awscc_databrew_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/databrew_job awscc_databrew_job}.
 type DataAwsccDatabrewJob interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -506,7 +506,7 @@ func (j *jsiiProxy_DataAwsccDatabrewJob) ValidationConfigurations() DataAwsccDat
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/databrew_job awscc_databrew_job} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/databrew_job awscc_databrew_job} Data Source.
 func NewDataAwsccDatabrewJob(scope constructs.Construct, id *string, config *DataAwsccDatabrewJobConfig) DataAwsccDatabrewJob {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewDataAwsccDatabrewJob(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/databrew_job awscc_databrew_job} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/databrew_job awscc_databrew_job} Data Source.
 func NewDataAwsccDatabrewJob_Override(d DataAwsccDatabrewJob, scope constructs.Construct, id *string, config *DataAwsccDatabrewJobConfig) {
 	_init_.Initialize()
 

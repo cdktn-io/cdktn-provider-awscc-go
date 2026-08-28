@@ -5,11 +5,11 @@ package sesmailmanagerruleset
 
 
 type SesMailManagerRuleSetRulesConditionsVerdictExpression struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_rule_set#evaluate SesMailManagerRuleSet#evaluate}.
 	Evaluate *SesMailManagerRuleSetRulesConditionsVerdictExpressionEvaluate `field:"optional" json:"evaluate" yaml:"evaluate"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_rule_set#operator SesMailManagerRuleSet#operator}.
 	Operator *string `field:"optional" json:"operator" yaml:"operator"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_rule_set#values SesMailManagerRuleSet#values}.
 	Values *[]*string `field:"optional" json:"values" yaml:"values"`
 }
 

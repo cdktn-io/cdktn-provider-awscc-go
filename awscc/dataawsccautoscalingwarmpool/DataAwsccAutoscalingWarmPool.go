@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/autoscaling_warm_pool awscc_autoscaling_warm_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/autoscaling_warm_pool awscc_autoscaling_warm_pool}.
 type DataAwsccAutoscalingWarmPool interface {
 	cdktn.TerraformDataSource
 	AutoScalingGroupName() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccAutoscalingWarmPool) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/autoscaling_warm_pool awscc_autoscaling_warm_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/autoscaling_warm_pool awscc_autoscaling_warm_pool} Data Source.
 func NewDataAwsccAutoscalingWarmPool(scope constructs.Construct, id *string, config *DataAwsccAutoscalingWarmPoolConfig) DataAwsccAutoscalingWarmPool {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccAutoscalingWarmPool(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/autoscaling_warm_pool awscc_autoscaling_warm_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/autoscaling_warm_pool awscc_autoscaling_warm_pool} Data Source.
 func NewDataAwsccAutoscalingWarmPool_Override(d DataAwsccAutoscalingWarmPool, scope constructs.Construct, id *string, config *DataAwsccAutoscalingWarmPoolConfig) {
 	_init_.Initialize()
 

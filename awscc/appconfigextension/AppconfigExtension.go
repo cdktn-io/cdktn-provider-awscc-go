@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_extension awscc_appconfig_extension}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appconfig_extension awscc_appconfig_extension}.
 type AppconfigExtension interface {
 	cdktn.TerraformResource
 	Actions() AppconfigExtensionActionsMap
@@ -530,7 +530,7 @@ func (j *jsiiProxy_AppconfigExtension) VersionNumber() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_extension awscc_appconfig_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appconfig_extension awscc_appconfig_extension} Resource.
 func NewAppconfigExtension(scope constructs.Construct, id *string, config *AppconfigExtensionConfig) AppconfigExtension {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewAppconfigExtension(scope constructs.Construct, id *string, config *Appco
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/appconfig_extension awscc_appconfig_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appconfig_extension awscc_appconfig_extension} Resource.
 func NewAppconfigExtension_Override(a AppconfigExtension, scope constructs.Construct, id *string, config *AppconfigExtensionConfig) {
 	_init_.Initialize()
 

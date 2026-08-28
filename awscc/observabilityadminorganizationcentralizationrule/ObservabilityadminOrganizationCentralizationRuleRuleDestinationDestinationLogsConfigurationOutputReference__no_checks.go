@@ -59,6 +59,10 @@ func (o *jsiiProxy_ObservabilityadminOrganizationCentralizationRuleRuleDestinati
 	return nil
 }
 
+func (o *jsiiProxy_ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationOutputReference) validatePutTagPropagationConfigurationParameters(value *ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationTagPropagationConfiguration) error {
+	return nil
+}
+
 func (o *jsiiProxy_ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

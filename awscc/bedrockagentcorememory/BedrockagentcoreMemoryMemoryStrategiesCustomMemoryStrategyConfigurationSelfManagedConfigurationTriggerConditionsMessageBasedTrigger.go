@@ -5,7 +5,7 @@ package bedrockagentcorememory
 
 
 type BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationSelfManagedConfigurationTriggerConditionsMessageBasedTrigger struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_memory#message_count BedrockagentcoreMemory#message_count}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#message_count BedrockagentcoreMemory#message_count}.
 	MessageCount *float64 `field:"optional" json:"messageCount" yaml:"messageCount"`
 }
 

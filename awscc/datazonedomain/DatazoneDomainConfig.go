@@ -24,37 +24,37 @@ type DatazoneDomainConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the Amazon DataZone domain.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_domain#name DatazoneDomain#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_domain#name DatazoneDomain#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The description of the Amazon DataZone domain.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_domain#description DatazoneDomain#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_domain#description DatazoneDomain#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The domain execution role that is created when an Amazon DataZone domain is created.
 	//
 	// The domain execution role is created in the AWS account that houses the Amazon DataZone domain.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_domain#domain_execution_role DatazoneDomain#domain_execution_role}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_domain#domain_execution_role DatazoneDomain#domain_execution_role}
 	DomainExecutionRole *string `field:"optional" json:"domainExecutionRole" yaml:"domainExecutionRole"`
 	// The version of the domain.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_domain#domain_version DatazoneDomain#domain_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_domain#domain_version DatazoneDomain#domain_version}
 	DomainVersion *string `field:"optional" json:"domainVersion" yaml:"domainVersion"`
 	// The identifier of the AWS Key Management Service (KMS) key that is used to encrypt the Amazon DataZone domain, metadata, and reporting data.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_domain#kms_key_identifier DatazoneDomain#kms_key_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_domain#kms_key_identifier DatazoneDomain#kms_key_identifier}
 	KmsKeyIdentifier *string `field:"optional" json:"kmsKeyIdentifier" yaml:"kmsKeyIdentifier"`
 	// The service role of the domain that is created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_domain#service_role DatazoneDomain#service_role}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_domain#service_role DatazoneDomain#service_role}
 	ServiceRole *string `field:"optional" json:"serviceRole" yaml:"serviceRole"`
 	// The single-sign on configuration of the Amazon DataZone domain.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_domain#single_sign_on DatazoneDomain#single_sign_on}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_domain#single_sign_on DatazoneDomain#single_sign_on}
 	SingleSignOn *DatazoneDomainSingleSignOn `field:"optional" json:"singleSignOn" yaml:"singleSignOn"`
 	// The tags specified for the Amazon DataZone domain.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_domain#tags DatazoneDomain#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_domain#tags DatazoneDomain#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

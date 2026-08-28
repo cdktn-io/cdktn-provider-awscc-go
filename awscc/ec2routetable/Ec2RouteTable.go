@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_table awscc_ec2_route_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_route_table awscc_ec2_route_table}.
 type Ec2RouteTable interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_Ec2RouteTable) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_table awscc_ec2_route_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_route_table awscc_ec2_route_table} Resource.
 func NewEc2RouteTable(scope constructs.Construct, id *string, config *Ec2RouteTableConfig) Ec2RouteTable {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewEc2RouteTable(scope constructs.Construct, id *string, config *Ec2RouteTa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_route_table awscc_ec2_route_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_route_table awscc_ec2_route_table} Resource.
 func NewEc2RouteTable_Override(e Ec2RouteTable, scope constructs.Construct, id *string, config *Ec2RouteTableConfig) {
 	_init_.Initialize()
 

@@ -13,6 +13,8 @@ import (
 
 type BedrockagentcoreRuntimeFilesystemConfigurationsOutputReference interface {
 	cdktn.ComplexObject
+	CapacityProviderVolume() BedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolumeOutputReference
+	CapacityProviderVolumeInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -70,9 +72,11 @@ type BedrockagentcoreRuntimeFilesystemConfigurationsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutCapacityProviderVolume(value *BedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolume)
 	PutEfsAccessPoint(value *BedrockagentcoreRuntimeFilesystemConfigurationsEfsAccessPoint)
 	PutS3FilesAccessPoint(value *BedrockagentcoreRuntimeFilesystemConfigurationsS3FilesAccessPoint)
 	PutSessionStorage(value *BedrockagentcoreRuntimeFilesystemConfigurationsSessionStorage)
+	ResetCapacityProviderVolume()
 	ResetEfsAccessPoint()
 	ResetS3FilesAccessPoint()
 	ResetSessionStorage()
@@ -89,6 +93,26 @@ type BedrockagentcoreRuntimeFilesystemConfigurationsOutputReference interface {
 // The jsii proxy struct for BedrockagentcoreRuntimeFilesystemConfigurationsOutputReference
 type jsiiProxy_BedrockagentcoreRuntimeFilesystemConfigurationsOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_BedrockagentcoreRuntimeFilesystemConfigurationsOutputReference) CapacityProviderVolume() BedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolumeOutputReference {
+	var returns BedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolumeOutputReference
+	_jsii_.Get(
+		j,
+		"capacityProviderVolume",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreRuntimeFilesystemConfigurationsOutputReference) CapacityProviderVolumeInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"capacityProviderVolumeInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_BedrockagentcoreRuntimeFilesystemConfigurationsOutputReference) ComplexObjectIndex() interface{} {
@@ -490,6 +514,17 @@ func (b *jsiiProxy_BedrockagentcoreRuntimeFilesystemConfigurationsOutputReferenc
 	return returns
 }
 
+func (b *jsiiProxy_BedrockagentcoreRuntimeFilesystemConfigurationsOutputReference) PutCapacityProviderVolume(value *BedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolume) {
+	if err := b.validatePutCapacityProviderVolumeParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putCapacityProviderVolume",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreRuntimeFilesystemConfigurationsOutputReference) PutEfsAccessPoint(value *BedrockagentcoreRuntimeFilesystemConfigurationsEfsAccessPoint) {
 	if err := b.validatePutEfsAccessPointParameters(value); err != nil {
 		panic(err)
@@ -520,6 +555,14 @@ func (b *jsiiProxy_BedrockagentcoreRuntimeFilesystemConfigurationsOutputReferenc
 		b,
 		"putSessionStorage",
 		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreRuntimeFilesystemConfigurationsOutputReference) ResetCapacityProviderVolume() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetCapacityProviderVolume",
+		nil, // no parameters
 	)
 }
 

@@ -5,9 +5,9 @@ package mediaconnectrouternetworkinterface
 
 
 type MediaconnectRouterNetworkInterfaceTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_router_network_interface#key MediaconnectRouterNetworkInterface#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_router_network_interface#key MediaconnectRouterNetworkInterface#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediaconnect_router_network_interface#value MediaconnectRouterNetworkInterface#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_router_network_interface#value MediaconnectRouterNetworkInterface#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

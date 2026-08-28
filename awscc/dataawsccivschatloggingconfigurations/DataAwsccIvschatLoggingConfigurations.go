@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ivschat_logging_configurations awscc_ivschat_logging_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ivschat_logging_configurations awscc_ivschat_logging_configurations}.
 type DataAwsccIvschatLoggingConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIvschatLoggingConfigurations) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ivschat_logging_configurations awscc_ivschat_logging_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ivschat_logging_configurations awscc_ivschat_logging_configurations} Data Source.
 func NewDataAwsccIvschatLoggingConfigurations(scope constructs.Construct, id *string, config *DataAwsccIvschatLoggingConfigurationsConfig) DataAwsccIvschatLoggingConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIvschatLoggingConfigurations(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ivschat_logging_configurations awscc_ivschat_logging_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ivschat_logging_configurations awscc_ivschat_logging_configurations} Data Source.
 func NewDataAwsccIvschatLoggingConfigurations_Override(d DataAwsccIvschatLoggingConfigurations, scope constructs.Construct, id *string, config *DataAwsccIvschatLoggingConfigurationsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/transfer_host_key awscc_transfer_host_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/transfer_host_key awscc_transfer_host_key}.
 type DataAwsccTransferHostKey interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccTransferHostKey) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/transfer_host_key awscc_transfer_host_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/transfer_host_key awscc_transfer_host_key} Data Source.
 func NewDataAwsccTransferHostKey(scope constructs.Construct, id *string, config *DataAwsccTransferHostKeyConfig) DataAwsccTransferHostKey {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccTransferHostKey(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/transfer_host_key awscc_transfer_host_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/transfer_host_key awscc_transfer_host_key} Data Source.
 func NewDataAwsccTransferHostKey_Override(d DataAwsccTransferHostKey, scope constructs.Construct, id *string, config *DataAwsccTransferHostKeyConfig) {
 	_init_.Initialize()
 

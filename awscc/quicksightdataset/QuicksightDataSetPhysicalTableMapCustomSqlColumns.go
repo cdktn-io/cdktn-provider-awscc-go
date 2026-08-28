@@ -7,9 +7,9 @@ package quicksightdataset
 type QuicksightDataSetPhysicalTableMapCustomSqlColumns struct {
 	// <p>The name of this column in the underlying data source.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_set#name QuicksightDataSet#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_set#name QuicksightDataSet#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_data_set#type QuicksightDataSet#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_set#type QuicksightDataSet#type}.
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

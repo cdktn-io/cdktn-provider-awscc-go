@@ -1,0 +1,3 @@
+# `data_awscc_deadline_worker`
+
+Refer to the Terraform Registry for docs: [`data_awscc_deadline_worker`](https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/deadline_worker).

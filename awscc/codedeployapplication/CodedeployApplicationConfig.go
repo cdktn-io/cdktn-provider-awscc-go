@@ -26,17 +26,17 @@ type CodedeployApplicationConfig struct {
 	//
 	// If you don't specify a name, AWS CloudFormation generates a unique physical ID and uses that ID for the application name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codedeploy_application#application_name CodedeployApplication#application_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codedeploy_application#application_name CodedeployApplication#application_name}
 	ApplicationName *string `field:"optional" json:"applicationName" yaml:"applicationName"`
 	// The compute platform that CodeDeploy deploys the application to.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codedeploy_application#compute_platform CodedeployApplication#compute_platform}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codedeploy_application#compute_platform CodedeployApplication#compute_platform}
 	ComputePlatform *string `field:"optional" json:"computePlatform" yaml:"computePlatform"`
 	// The metadata that you apply to CodeDeploy applications to help you organize and categorize them.
 	//
 	// Each tag consists of a key and an optional value, both of which you define.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codedeploy_application#tags CodedeployApplication#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codedeploy_application#tags CodedeployApplication#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

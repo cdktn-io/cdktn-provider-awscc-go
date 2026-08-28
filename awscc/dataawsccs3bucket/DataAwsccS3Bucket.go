@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3_bucket awscc_s3_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3_bucket awscc_s3_bucket}.
 type DataAwsccS3Bucket interface {
 	cdktn.TerraformDataSource
 	AccelerateConfiguration() DataAwsccS3BucketAccelerateConfigurationOutputReference
@@ -572,7 +572,7 @@ func (j *jsiiProxy_DataAwsccS3Bucket) WebsiteUrl() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3_bucket awscc_s3_bucket} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3_bucket awscc_s3_bucket} Data Source.
 func NewDataAwsccS3Bucket(scope constructs.Construct, id *string, config *DataAwsccS3BucketConfig) DataAwsccS3Bucket {
 	_init_.Initialize()
 
@@ -590,7 +590,7 @@ func NewDataAwsccS3Bucket(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/s3_bucket awscc_s3_bucket} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3_bucket awscc_s3_bucket} Data Source.
 func NewDataAwsccS3Bucket_Override(d DataAwsccS3Bucket, scope constructs.Construct, id *string, config *DataAwsccS3BucketConfig) {
 	_init_.Initialize()
 

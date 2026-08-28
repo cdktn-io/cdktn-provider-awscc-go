@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_configuration_set_event_destination awscc_ses_configuration_set_event_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_configuration_set_event_destination awscc_ses_configuration_set_event_destination}.
 type SesConfigurationSetEventDestination interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -412,7 +412,7 @@ func (j *jsiiProxy_SesConfigurationSetEventDestination) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_configuration_set_event_destination awscc_ses_configuration_set_event_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_configuration_set_event_destination awscc_ses_configuration_set_event_destination} Resource.
 func NewSesConfigurationSetEventDestination(scope constructs.Construct, id *string, config *SesConfigurationSetEventDestinationConfig) SesConfigurationSetEventDestination {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewSesConfigurationSetEventDestination(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_configuration_set_event_destination awscc_ses_configuration_set_event_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_configuration_set_event_destination awscc_ses_configuration_set_event_destination} Resource.
 func NewSesConfigurationSetEventDestination_Override(s SesConfigurationSetEventDestination, scope constructs.Construct, id *string, config *SesConfigurationSetEventDestinationConfig) {
 	_init_.Initialize()
 

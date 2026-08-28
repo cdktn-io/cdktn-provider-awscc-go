@@ -5,9 +5,9 @@ package workspacesworkspacespool
 
 
 type WorkspacesWorkspacesPoolTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspaces_workspaces_pool#key WorkspacesWorkspacesPool#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspaces_workspaces_pool#key WorkspacesWorkspacesPool#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/workspaces_workspaces_pool#value WorkspacesWorkspacesPool#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspaces_workspaces_pool#value WorkspacesWorkspacesPool#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

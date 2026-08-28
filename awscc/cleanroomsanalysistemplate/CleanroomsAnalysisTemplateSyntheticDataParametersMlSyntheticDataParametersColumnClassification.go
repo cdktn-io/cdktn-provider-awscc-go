@@ -5,7 +5,7 @@ package cleanroomsanalysistemplate
 
 
 type CleanroomsAnalysisTemplateSyntheticDataParametersMlSyntheticDataParametersColumnClassification struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cleanrooms_analysis_template#column_mapping CleanroomsAnalysisTemplate#column_mapping}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_analysis_template#column_mapping CleanroomsAnalysisTemplate#column_mapping}.
 	ColumnMapping interface{} `field:"optional" json:"columnMapping" yaml:"columnMapping"`
 }
 

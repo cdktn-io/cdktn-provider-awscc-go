@@ -5,7 +5,7 @@ package servicediscoveryprivatednsnamespace
 
 
 type ServicediscoveryPrivateDnsNamespaceProperties struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/servicediscovery_private_dns_namespace#dns_properties ServicediscoveryPrivateDnsNamespace#dns_properties}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicediscovery_private_dns_namespace#dns_properties ServicediscoveryPrivateDnsNamespace#dns_properties}.
 	DnsProperties *ServicediscoveryPrivateDnsNamespacePropertiesDnsProperties `field:"optional" json:"dnsProperties" yaml:"dnsProperties"`
 }
 

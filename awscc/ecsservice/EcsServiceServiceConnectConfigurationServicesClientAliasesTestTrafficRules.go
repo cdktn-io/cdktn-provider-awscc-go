@@ -9,7 +9,7 @@ type EcsServiceServiceConnectConfigurationServicesClientAliasesTestTrafficRules 
 	//
 	// These rules provide fine-grained control over test traffic routing based on request headers.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ecs_service#header EcsService#header}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_service#header EcsService#header}
 	Header *EcsServiceServiceConnectConfigurationServicesClientAliasesTestTrafficRulesHeader `field:"optional" json:"header" yaml:"header"`
 }
 

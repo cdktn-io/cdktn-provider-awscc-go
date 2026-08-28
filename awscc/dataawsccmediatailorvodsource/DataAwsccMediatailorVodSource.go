@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mediatailor_vod_source awscc_mediatailor_vod_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediatailor_vod_source awscc_mediatailor_vod_source}.
 type DataAwsccMediatailorVodSource interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccMediatailorVodSource) VodSourceName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mediatailor_vod_source awscc_mediatailor_vod_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediatailor_vod_source awscc_mediatailor_vod_source} Data Source.
 func NewDataAwsccMediatailorVodSource(scope constructs.Construct, id *string, config *DataAwsccMediatailorVodSourceConfig) DataAwsccMediatailorVodSource {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccMediatailorVodSource(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mediatailor_vod_source awscc_mediatailor_vod_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediatailor_vod_source awscc_mediatailor_vod_source} Data Source.
 func NewDataAwsccMediatailorVodSource_Override(d DataAwsccMediatailorVodSource, scope constructs.Construct, id *string, config *DataAwsccMediatailorVodSourceConfig) {
 	_init_.Initialize()
 

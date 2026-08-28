@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appflow_connector awscc_appflow_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appflow_connector awscc_appflow_connector}.
 type DataAwsccAppflowConnector interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccAppflowConnector) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appflow_connector awscc_appflow_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appflow_connector awscc_appflow_connector} Data Source.
 func NewDataAwsccAppflowConnector(scope constructs.Construct, id *string, config *DataAwsccAppflowConnectorConfig) DataAwsccAppflowConnector {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccAppflowConnector(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appflow_connector awscc_appflow_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appflow_connector awscc_appflow_connector} Data Source.
 func NewDataAwsccAppflowConnector_Override(d DataAwsccAppflowConnector, scope constructs.Construct, id *string, config *DataAwsccAppflowConnectorConfig) {
 	_init_.Initialize()
 

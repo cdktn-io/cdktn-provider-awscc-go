@@ -7,7 +7,7 @@ package bedrockdatasource
 type BedrockDataSourceDataSourceConfigurationWebConfigurationSourceConfigurationUrlConfiguration struct {
 	// A list of web urls.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_data_source#seed_urls BedrockDataSource#seed_urls}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_source#seed_urls BedrockDataSource#seed_urls}
 	SeedUrls interface{} `field:"optional" json:"seedUrls" yaml:"seedUrls"`
 }
 

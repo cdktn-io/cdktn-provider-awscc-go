@@ -7,7 +7,7 @@ package mskchannel
 type MskChannelTopicConfigurationListRecordConverter struct {
 	// Value converter for topic data.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_channel#value_converter MskChannel#value_converter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_channel#value_converter MskChannel#value_converter}
 	ValueConverter *string `field:"required" json:"valueConverter" yaml:"valueConverter"`
 }
 

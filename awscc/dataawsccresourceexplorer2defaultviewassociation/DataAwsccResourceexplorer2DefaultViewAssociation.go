@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/resourceexplorer2_default_view_association awscc_resourceexplorer2_default_view_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/resourceexplorer2_default_view_association awscc_resourceexplorer2_default_view_association}.
 type DataAwsccResourceexplorer2DefaultViewAssociation interface {
 	cdktn.TerraformDataSource
 	AssociatedAwsPrincipal() *string
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccResourceexplorer2DefaultViewAssociation) ViewArn() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/resourceexplorer2_default_view_association awscc_resourceexplorer2_default_view_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/resourceexplorer2_default_view_association awscc_resourceexplorer2_default_view_association} Data Source.
 func NewDataAwsccResourceexplorer2DefaultViewAssociation(scope constructs.Construct, id *string, config *DataAwsccResourceexplorer2DefaultViewAssociationConfig) DataAwsccResourceexplorer2DefaultViewAssociation {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccResourceexplorer2DefaultViewAssociation(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/resourceexplorer2_default_view_association awscc_resourceexplorer2_default_view_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/resourceexplorer2_default_view_association awscc_resourceexplorer2_default_view_association} Data Source.
 func NewDataAwsccResourceexplorer2DefaultViewAssociation_Override(d DataAwsccResourceexplorer2DefaultViewAssociation, scope constructs.Construct, id *string, config *DataAwsccResourceexplorer2DefaultViewAssociationConfig) {
 	_init_.Initialize()
 

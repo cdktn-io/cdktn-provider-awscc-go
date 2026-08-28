@@ -24,31 +24,31 @@ type FisExperimentTemplateConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A description for the experiment template.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#description FisExperimentTemplate#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#description FisExperimentTemplate#description}
 	Description *string `field:"required" json:"description" yaml:"description"`
 	// The Amazon Resource Name (ARN) of an IAM role that grants the AWS FIS service permission to perform service actions on your behalf.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#role_arn FisExperimentTemplate#role_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#role_arn FisExperimentTemplate#role_arn}
 	RoleArn *string `field:"required" json:"roleArn" yaml:"roleArn"`
 	// One or more stop conditions.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#stop_conditions FisExperimentTemplate#stop_conditions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#stop_conditions FisExperimentTemplate#stop_conditions}
 	StopConditions interface{} `field:"required" json:"stopConditions" yaml:"stopConditions"`
 	// The targets for the experiment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#targets FisExperimentTemplate#targets}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#targets FisExperimentTemplate#targets}
 	Targets interface{} `field:"required" json:"targets" yaml:"targets"`
 	// The actions for the experiment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#actions FisExperimentTemplate#actions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#actions FisExperimentTemplate#actions}
 	Actions interface{} `field:"optional" json:"actions" yaml:"actions"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#experiment_options FisExperimentTemplate#experiment_options}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#experiment_options FisExperimentTemplate#experiment_options}.
 	ExperimentOptions *FisExperimentTemplateExperimentOptions `field:"optional" json:"experimentOptions" yaml:"experimentOptions"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#experiment_report_configuration FisExperimentTemplate#experiment_report_configuration}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#experiment_report_configuration FisExperimentTemplate#experiment_report_configuration}.
 	ExperimentReportConfiguration *FisExperimentTemplateExperimentReportConfiguration `field:"optional" json:"experimentReportConfiguration" yaml:"experimentReportConfiguration"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#log_configuration FisExperimentTemplate#log_configuration}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#log_configuration FisExperimentTemplate#log_configuration}.
 	LogConfiguration *FisExperimentTemplateLogConfiguration `field:"optional" json:"logConfiguration" yaml:"logConfiguration"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/fis_experiment_template#tags FisExperimentTemplate#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/fis_experiment_template#tags FisExperimentTemplate#tags}.
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 }
 

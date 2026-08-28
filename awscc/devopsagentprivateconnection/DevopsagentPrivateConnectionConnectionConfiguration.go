@@ -7,11 +7,11 @@ package devopsagentprivateconnection
 type DevopsagentPrivateConnectionConnectionConfiguration struct {
 	// Configuration for a self-managed Private Connection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_private_connection#self_managed DevopsagentPrivateConnection#self_managed}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_private_connection#self_managed DevopsagentPrivateConnection#self_managed}
 	SelfManaged *DevopsagentPrivateConnectionConnectionConfigurationSelfManaged `field:"optional" json:"selfManaged" yaml:"selfManaged"`
 	// Configuration for a service-managed Private Connection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_private_connection#service_managed DevopsagentPrivateConnection#service_managed}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_private_connection#service_managed DevopsagentPrivateConnection#service_managed}
 	ServiceManaged *DevopsagentPrivateConnectionConnectionConfigurationServiceManaged `field:"optional" json:"serviceManaged" yaml:"serviceManaged"`
 }
 

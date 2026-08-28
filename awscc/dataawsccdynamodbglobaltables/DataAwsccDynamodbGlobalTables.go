@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/dynamodb_global_tables awscc_dynamodb_global_tables}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/dynamodb_global_tables awscc_dynamodb_global_tables}.
 type DataAwsccDynamodbGlobalTables interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDynamodbGlobalTables) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/dynamodb_global_tables awscc_dynamodb_global_tables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/dynamodb_global_tables awscc_dynamodb_global_tables} Data Source.
 func NewDataAwsccDynamodbGlobalTables(scope constructs.Construct, id *string, config *DataAwsccDynamodbGlobalTablesConfig) DataAwsccDynamodbGlobalTables {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDynamodbGlobalTables(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/dynamodb_global_tables awscc_dynamodb_global_tables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/dynamodb_global_tables awscc_dynamodb_global_tables} Data Source.
 func NewDataAwsccDynamodbGlobalTables_Override(d DataAwsccDynamodbGlobalTables, scope constructs.Construct, id *string, config *DataAwsccDynamodbGlobalTablesConfig) {
 	_init_.Initialize()
 

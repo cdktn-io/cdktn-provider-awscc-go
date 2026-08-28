@@ -9,7 +9,7 @@ type IvsStageAutoParticipantRecordingConfigurationHlsConfigurationParticipantRec
 	//
 	// Segments may have durations longer than the specified value when needed to ensure each segment begins with a keyframe. Default: 6.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ivs_stage#target_segment_duration_seconds IvsStage#target_segment_duration_seconds}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_stage#target_segment_duration_seconds IvsStage#target_segment_duration_seconds}
 	TargetSegmentDurationSeconds *float64 `field:"optional" json:"targetSegmentDurationSeconds" yaml:"targetSegmentDurationSeconds"`
 }
 

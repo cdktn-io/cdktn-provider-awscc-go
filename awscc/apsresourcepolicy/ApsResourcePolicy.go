@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_resource_policy awscc_aps_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_resource_policy awscc_aps_resource_policy}.
 type ApsResourcePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_ApsResourcePolicy) WorkspaceArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_resource_policy awscc_aps_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_resource_policy awscc_aps_resource_policy} Resource.
 func NewApsResourcePolicy(scope constructs.Construct, id *string, config *ApsResourcePolicyConfig) ApsResourcePolicy {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewApsResourcePolicy(scope constructs.Construct, id *string, config *ApsRes
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/aps_resource_policy awscc_aps_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_resource_policy awscc_aps_resource_policy} Resource.
 func NewApsResourcePolicy_Override(a ApsResourcePolicy, scope constructs.Construct, id *string, config *ApsResourcePolicyConfig) {
 	_init_.Initialize()
 

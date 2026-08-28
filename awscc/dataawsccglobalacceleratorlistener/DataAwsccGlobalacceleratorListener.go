@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/globalaccelerator_listener awscc_globalaccelerator_listener}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/globalaccelerator_listener awscc_globalaccelerator_listener}.
 type DataAwsccGlobalacceleratorListener interface {
 	cdktn.TerraformDataSource
 	AcceleratorArn() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccGlobalacceleratorListener) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/globalaccelerator_listener awscc_globalaccelerator_listener} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/globalaccelerator_listener awscc_globalaccelerator_listener} Data Source.
 func NewDataAwsccGlobalacceleratorListener(scope constructs.Construct, id *string, config *DataAwsccGlobalacceleratorListenerConfig) DataAwsccGlobalacceleratorListener {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccGlobalacceleratorListener(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/globalaccelerator_listener awscc_globalaccelerator_listener} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/globalaccelerator_listener awscc_globalaccelerator_listener} Data Source.
 func NewDataAwsccGlobalacceleratorListener_Override(d DataAwsccGlobalacceleratorListener, scope constructs.Construct, id *string, config *DataAwsccGlobalacceleratorListenerConfig) {
 	_init_.Initialize()
 

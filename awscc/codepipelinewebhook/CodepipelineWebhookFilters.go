@@ -9,13 +9,13 @@ type CodepipelineWebhookFilters struct {
 	//
 	// The value selected by the JsonPath expression must match the value specified in the MatchEquals field. Otherwise, the request is ignored.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codepipeline_webhook#json_path CodepipelineWebhook#json_path}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_webhook#json_path CodepipelineWebhook#json_path}
 	JsonPath *string `field:"required" json:"jsonPath" yaml:"jsonPath"`
 	// The value selected by the JsonPath expression must match what is supplied in the MatchEquals field.
 	//
 	// Otherwise, the request is ignored.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/codepipeline_webhook#match_equals CodepipelineWebhook#match_equals}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codepipeline_webhook#match_equals CodepipelineWebhook#match_equals}
 	MatchEquals *string `field:"optional" json:"matchEquals" yaml:"matchEquals"`
 }
 

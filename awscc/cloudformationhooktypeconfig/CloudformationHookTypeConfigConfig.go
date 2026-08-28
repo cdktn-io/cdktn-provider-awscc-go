@@ -24,21 +24,21 @@ type CloudformationHookTypeConfigConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The configuration data for the extension, in this account and region.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_hook_type_config#configuration CloudformationHookTypeConfig#configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_hook_type_config#configuration CloudformationHookTypeConfig#configuration}
 	Configuration *string `field:"optional" json:"configuration" yaml:"configuration"`
 	// An alias by which to refer to this extension configuration data.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_hook_type_config#configuration_alias CloudformationHookTypeConfig#configuration_alias}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_hook_type_config#configuration_alias CloudformationHookTypeConfig#configuration_alias}
 	ConfigurationAlias *string `field:"optional" json:"configurationAlias" yaml:"configurationAlias"`
 	// The Amazon Resource Name (ARN) of the type without version number.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_hook_type_config#type_arn CloudformationHookTypeConfig#type_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_hook_type_config#type_arn CloudformationHookTypeConfig#type_arn}
 	TypeArn *string `field:"optional" json:"typeArn" yaml:"typeArn"`
 	// The name of the type being registered.
 	//
 	// We recommend that type names adhere to the following pattern: company_or_organization::service::type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_hook_type_config#type_name CloudformationHookTypeConfig#type_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_hook_type_config#type_name CloudformationHookTypeConfig#type_name}
 	TypeName *string `field:"optional" json:"typeName" yaml:"typeName"`
 }
 

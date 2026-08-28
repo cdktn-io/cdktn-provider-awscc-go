@@ -7,11 +7,11 @@ package bedrockagentcoreruntime
 type BedrockagentcoreRuntimeNetworkConfiguration struct {
 	// Network mode configuration type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_runtime#network_mode BedrockagentcoreRuntime#network_mode}
-	NetworkMode *string `field:"required" json:"networkMode" yaml:"networkMode"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_runtime#network_mode BedrockagentcoreRuntime#network_mode}
+	NetworkMode *string `field:"optional" json:"networkMode" yaml:"networkMode"`
 	// Network mode configuration for VPC.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_runtime#network_mode_config BedrockagentcoreRuntime#network_mode_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_runtime#network_mode_config BedrockagentcoreRuntime#network_mode_config}
 	NetworkModeConfig *BedrockagentcoreRuntimeNetworkConfigurationNetworkModeConfig `field:"optional" json:"networkModeConfig" yaml:"networkModeConfig"`
 }
 

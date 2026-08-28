@@ -1,3 +1,3 @@
 # `data_awscc_vpclattice_listener`
 
-Refer to the Terraform Registry for docs: [`data_awscc_vpclattice_listener`](https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/vpclattice_listener).
+Refer to the Terraform Registry for docs: [`data_awscc_vpclattice_listener`](https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/vpclattice_listener).

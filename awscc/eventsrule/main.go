@@ -71,6 +71,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetTargets", GoMethod: "ResetTargets"},
 			_jsii_.MemberProperty{JsiiProperty: "roleArn", GoGetter: "RoleArn"},
 			_jsii_.MemberProperty{JsiiProperty: "roleArnInput", GoGetter: "RoleArnInput"},
+			_jsii_.MemberProperty{JsiiProperty: "ruleName", GoGetter: "RuleName"},
 			_jsii_.MemberProperty{JsiiProperty: "scheduleExpression", GoGetter: "ScheduleExpression"},
 			_jsii_.MemberProperty{JsiiProperty: "scheduleExpressionInput", GoGetter: "ScheduleExpressionInput"},
 			_jsii_.MemberProperty{JsiiProperty: "state", GoGetter: "State"},

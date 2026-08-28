@@ -31,6 +31,8 @@ type ElementalinferenceFeedOutputsOutputConfigClippingOutputReference interface 
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DataSourceConfiguration() ElementalinferenceFeedOutputsOutputConfigClippingDataSourceConfigurationOutputReference
+	DataSourceConfigurationInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -67,7 +69,9 @@ type ElementalinferenceFeedOutputsOutputConfigClippingOutputReference interface 
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutDataSourceConfiguration(value *ElementalinferenceFeedOutputsOutputConfigClippingDataSourceConfiguration)
 	ResetCallbackMetadata()
+	ResetDataSourceConfiguration()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -128,6 +132,26 @@ func (j *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigClippingOutputRefere
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigClippingOutputReference) DataSourceConfiguration() ElementalinferenceFeedOutputsOutputConfigClippingDataSourceConfigurationOutputReference {
+	var returns ElementalinferenceFeedOutputsOutputConfigClippingDataSourceConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"dataSourceConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigClippingOutputReference) DataSourceConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"dataSourceConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -453,10 +477,29 @@ func (e *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigClippingOutputRefere
 	return returns
 }
 
+func (e *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigClippingOutputReference) PutDataSourceConfiguration(value *ElementalinferenceFeedOutputsOutputConfigClippingDataSourceConfiguration) {
+	if err := e.validatePutDataSourceConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putDataSourceConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (e *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigClippingOutputReference) ResetCallbackMetadata() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetCallbackMetadata",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigClippingOutputReference) ResetDataSourceConfiguration() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetDataSourceConfiguration",
 		nil, // no parameters
 	)
 }

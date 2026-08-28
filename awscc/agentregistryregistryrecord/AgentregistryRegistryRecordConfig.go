@@ -26,35 +26,35 @@ type AgentregistryRegistryRecordConfig struct {
 	//
 	// Exactly one descriptor field is populated based on the record type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/agentregistry_registry_record#descriptors AgentregistryRegistryRecord#descriptors}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/agentregistry_registry_record#descriptors AgentregistryRegistryRecord#descriptors}
 	Descriptors *AgentregistryRegistryRecordDescriptors `field:"required" json:"descriptors" yaml:"descriptors"`
 	// The name of the registry record.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/agentregistry_registry_record#name AgentregistryRegistryRecord#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/agentregistry_registry_record#name AgentregistryRegistryRecord#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The type of the registry record.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/agentregistry_registry_record#record_type AgentregistryRegistryRecord#record_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/agentregistry_registry_record#record_type AgentregistryRegistryRecord#record_type}
 	RecordType *string `field:"required" json:"recordType" yaml:"recordType"`
 	// The identifier of the registry containing the record.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/agentregistry_registry_record#registry_id AgentregistryRegistryRecord#registry_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/agentregistry_registry_record#registry_id AgentregistryRegistryRecord#registry_id}
 	RegistryId *string `field:"required" json:"registryId" yaml:"registryId"`
 	// The description of the registry record.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/agentregistry_registry_record#description AgentregistryRegistryRecord#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/agentregistry_registry_record#description AgentregistryRegistryRecord#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The human-readable display name of the registry record.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/agentregistry_registry_record#display_name AgentregistryRegistryRecord#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/agentregistry_registry_record#display_name AgentregistryRegistryRecord#display_name}
 	DisplayName *string `field:"optional" json:"displayName" yaml:"displayName"`
 	// The version of the registry record.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/agentregistry_registry_record#record_version AgentregistryRegistryRecord#record_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/agentregistry_registry_record#record_version AgentregistryRegistryRecord#record_version}
 	RecordVersion *string `field:"optional" json:"recordVersion" yaml:"recordVersion"`
 	// Tags to assign to the registry record.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/agentregistry_registry_record#tags AgentregistryRegistryRecord#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/agentregistry_registry_record#tags AgentregistryRegistryRecord#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

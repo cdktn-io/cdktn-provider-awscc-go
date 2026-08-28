@@ -12,9 +12,12 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elementalinference_feed awscc_elementalinference_feed}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed awscc_elementalinference_feed}.
 type ElementalinferenceFeed interface {
 	cdktn.TerraformResource
+	AccessRoleArn() *string
+	SetAccessRoleArn(val *string)
+	AccessRoleArnInput() *string
 	Arn() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
@@ -166,6 +169,7 @@ type ElementalinferenceFeed interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetAccessRoleArn()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -195,6 +199,26 @@ type ElementalinferenceFeed interface {
 // The jsii proxy struct for ElementalinferenceFeed
 type jsiiProxy_ElementalinferenceFeed struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_ElementalinferenceFeed) AccessRoleArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"accessRoleArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ElementalinferenceFeed) AccessRoleArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"accessRoleArnInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_ElementalinferenceFeed) Arn() *string {
@@ -458,7 +482,7 @@ func (j *jsiiProxy_ElementalinferenceFeed) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elementalinference_feed awscc_elementalinference_feed} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed awscc_elementalinference_feed} Resource.
 func NewElementalinferenceFeed(scope constructs.Construct, id *string, config *ElementalinferenceFeedConfig) ElementalinferenceFeed {
 	_init_.Initialize()
 
@@ -476,7 +500,7 @@ func NewElementalinferenceFeed(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elementalinference_feed awscc_elementalinference_feed} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed awscc_elementalinference_feed} Resource.
 func NewElementalinferenceFeed_Override(e ElementalinferenceFeed, scope constructs.Construct, id *string, config *ElementalinferenceFeedConfig) {
 	_init_.Initialize()
 
@@ -484,6 +508,17 @@ func NewElementalinferenceFeed_Override(e ElementalinferenceFeed, scope construc
 		"@cdktn/provider-awscc.elementalinferenceFeed.ElementalinferenceFeed",
 		[]interface{}{scope, id, config},
 		e,
+	)
+}
+
+func (j *jsiiProxy_ElementalinferenceFeed)SetAccessRoleArn(val *string) {
+	if err := j.validateSetAccessRoleArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"accessRoleArn",
+		val,
 	)
 }
 
@@ -965,6 +1000,14 @@ func (e *jsiiProxy_ElementalinferenceFeed) RegisterProviderFeatureUsage(feature 
 		e,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (e *jsiiProxy_ElementalinferenceFeed) ResetAccessRoleArn() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetAccessRoleArn",
+		nil, // no parameters
 	)
 }
 

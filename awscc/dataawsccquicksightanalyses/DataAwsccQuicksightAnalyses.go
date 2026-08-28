@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_analyses awscc_quicksight_analyses}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_analyses awscc_quicksight_analyses}.
 type DataAwsccQuicksightAnalyses interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccQuicksightAnalyses) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_analyses awscc_quicksight_analyses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_analyses awscc_quicksight_analyses} Data Source.
 func NewDataAwsccQuicksightAnalyses(scope constructs.Construct, id *string, config *DataAwsccQuicksightAnalysesConfig) DataAwsccQuicksightAnalyses {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccQuicksightAnalyses(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_analyses awscc_quicksight_analyses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_analyses awscc_quicksight_analyses} Data Source.
 func NewDataAwsccQuicksightAnalyses_Override(d DataAwsccQuicksightAnalyses, scope constructs.Construct, id *string, config *DataAwsccQuicksightAnalysesConfig) {
 	_init_.Initialize()
 

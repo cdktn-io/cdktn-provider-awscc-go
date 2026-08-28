@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/evidently_segments awscc_evidently_segments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/evidently_segments awscc_evidently_segments}.
 type DataAwsccEvidentlySegments interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEvidentlySegments) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/evidently_segments awscc_evidently_segments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/evidently_segments awscc_evidently_segments} Data Source.
 func NewDataAwsccEvidentlySegments(scope constructs.Construct, id *string, config *DataAwsccEvidentlySegmentsConfig) DataAwsccEvidentlySegments {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEvidentlySegments(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/evidently_segments awscc_evidently_segments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/evidently_segments awscc_evidently_segments} Data Source.
 func NewDataAwsccEvidentlySegments_Override(d DataAwsccEvidentlySegments, scope constructs.Construct, id *string, config *DataAwsccEvidentlySegmentsConfig) {
 	_init_.Initialize()
 

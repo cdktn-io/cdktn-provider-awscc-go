@@ -11,13 +11,13 @@ type QuicksightThemeConfiguration struct {
 	//             hexadecimal color code that consists of six alphanumerical characters, prefixed with
 	//                 <code>#</code>, for example #37BFF5. </p>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_theme#data_color_palette QuicksightTheme#data_color_palette}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_theme#data_color_palette QuicksightTheme#data_color_palette}
 	DataColorPalette *QuicksightThemeConfigurationDataColorPalette `field:"optional" json:"dataColorPalette" yaml:"dataColorPalette"`
 	// <p>The theme display options for sheets. </p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_theme#sheet QuicksightTheme#sheet}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_theme#sheet QuicksightTheme#sheet}
 	Sheet *QuicksightThemeConfigurationSheet `field:"optional" json:"sheet" yaml:"sheet"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_theme#typography QuicksightTheme#typography}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_theme#typography QuicksightTheme#typography}.
 	Typography *QuicksightThemeConfigurationTypography `field:"optional" json:"typography" yaml:"typography"`
 	// <p>The theme colors that apply to UI and to charts, excluding data colors.
 	//
@@ -27,7 +27,7 @@ type QuicksightThemeConfiguration struct {
 	//                 Guide.</i>
 	//          </p>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_theme#ui_color_palette QuicksightTheme#ui_color_palette}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_theme#ui_color_palette QuicksightTheme#ui_color_palette}
 	UiColorPalette *QuicksightThemeConfigurationUiColorPalette `field:"optional" json:"uiColorPalette" yaml:"uiColorPalette"`
 }
 

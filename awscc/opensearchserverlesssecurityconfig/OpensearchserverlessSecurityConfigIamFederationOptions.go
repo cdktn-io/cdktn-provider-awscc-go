@@ -7,11 +7,11 @@ package opensearchserverlesssecurityconfig
 type OpensearchserverlessSecurityConfigIamFederationOptions struct {
 	// Group attribute for this IAM federation integration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_security_config#group_attribute OpensearchserverlessSecurityConfig#group_attribute}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_security_config#group_attribute OpensearchserverlessSecurityConfig#group_attribute}
 	GroupAttribute *string `field:"optional" json:"groupAttribute" yaml:"groupAttribute"`
 	// User attribute for this IAM federation integration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_security_config#user_attribute OpensearchserverlessSecurityConfig#user_attribute}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_security_config#user_attribute OpensearchserverlessSecurityConfig#user_attribute}
 	UserAttribute *string `field:"optional" json:"userAttribute" yaml:"userAttribute"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/memorydb_cluster awscc_memorydb_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/memorydb_cluster awscc_memorydb_cluster}.
 type DataAwsccMemorydbCluster interface {
 	cdktn.TerraformDataSource
 	AclName() *string
@@ -638,7 +638,7 @@ func (j *jsiiProxy_DataAwsccMemorydbCluster) TlsEnabled() cdktn.IResolvable {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/memorydb_cluster awscc_memorydb_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/memorydb_cluster awscc_memorydb_cluster} Data Source.
 func NewDataAwsccMemorydbCluster(scope constructs.Construct, id *string, config *DataAwsccMemorydbClusterConfig) DataAwsccMemorydbCluster {
 	_init_.Initialize()
 
@@ -656,7 +656,7 @@ func NewDataAwsccMemorydbCluster(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/memorydb_cluster awscc_memorydb_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/memorydb_cluster awscc_memorydb_cluster} Data Source.
 func NewDataAwsccMemorydbCluster_Override(d DataAwsccMemorydbCluster, scope constructs.Construct, id *string, config *DataAwsccMemorydbClusterConfig) {
 	_init_.Initialize()
 

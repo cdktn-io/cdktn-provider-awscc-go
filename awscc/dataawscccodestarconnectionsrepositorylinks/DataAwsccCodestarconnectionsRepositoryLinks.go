@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/codestarconnections_repository_links awscc_codestarconnections_repository_links}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codestarconnections_repository_links awscc_codestarconnections_repository_links}.
 type DataAwsccCodestarconnectionsRepositoryLinks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCodestarconnectionsRepositoryLinks) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/codestarconnections_repository_links awscc_codestarconnections_repository_links} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codestarconnections_repository_links awscc_codestarconnections_repository_links} Data Source.
 func NewDataAwsccCodestarconnectionsRepositoryLinks(scope constructs.Construct, id *string, config *DataAwsccCodestarconnectionsRepositoryLinksConfig) DataAwsccCodestarconnectionsRepositoryLinks {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCodestarconnectionsRepositoryLinks(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/codestarconnections_repository_links awscc_codestarconnections_repository_links} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codestarconnections_repository_links awscc_codestarconnections_repository_links} Data Source.
 func NewDataAwsccCodestarconnectionsRepositoryLinks_Override(d DataAwsccCodestarconnectionsRepositoryLinks, scope constructs.Construct, id *string, config *DataAwsccCodestarconnectionsRepositoryLinksConfig) {
 	_init_.Initialize()
 

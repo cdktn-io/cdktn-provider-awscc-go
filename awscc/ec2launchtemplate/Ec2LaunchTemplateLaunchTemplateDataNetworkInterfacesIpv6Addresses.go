@@ -9,7 +9,7 @@ type Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesIpv6Addresses struct {
 	//
 	// You can't use this option if you're specifying a number of IPv6 addresses.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_launch_template#ipv_6_address Ec2LaunchTemplate#ipv_6_address}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_launch_template#ipv_6_address Ec2LaunchTemplate#ipv_6_address}
 	Ipv6Address *string `field:"optional" json:"ipv6Address" yaml:"ipv6Address"`
 }
 

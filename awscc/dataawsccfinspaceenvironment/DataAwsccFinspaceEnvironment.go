@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/finspace_environment awscc_finspace_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/finspace_environment awscc_finspace_environment}.
 type DataAwsccFinspaceEnvironment interface {
 	cdktn.TerraformDataSource
 	AwsAccountId() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccFinspaceEnvironment) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/finspace_environment awscc_finspace_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/finspace_environment awscc_finspace_environment} Data Source.
 func NewDataAwsccFinspaceEnvironment(scope constructs.Construct, id *string, config *DataAwsccFinspaceEnvironmentConfig) DataAwsccFinspaceEnvironment {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccFinspaceEnvironment(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/finspace_environment awscc_finspace_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/finspace_environment awscc_finspace_environment} Data Source.
 func NewDataAwsccFinspaceEnvironment_Override(d DataAwsccFinspaceEnvironment, scope constructs.Construct, id *string, config *DataAwsccFinspaceEnvironmentConfig) {
 	_init_.Initialize()
 

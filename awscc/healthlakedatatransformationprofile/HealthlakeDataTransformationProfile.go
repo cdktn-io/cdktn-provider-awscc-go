@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/healthlake_data_transformation_profile awscc_healthlake_data_transformation_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/healthlake_data_transformation_profile awscc_healthlake_data_transformation_profile}.
 type HealthlakeDataTransformationProfile interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -530,7 +530,7 @@ func (j *jsiiProxy_HealthlakeDataTransformationProfile) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/healthlake_data_transformation_profile awscc_healthlake_data_transformation_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/healthlake_data_transformation_profile awscc_healthlake_data_transformation_profile} Resource.
 func NewHealthlakeDataTransformationProfile(scope constructs.Construct, id *string, config *HealthlakeDataTransformationProfileConfig) HealthlakeDataTransformationProfile {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewHealthlakeDataTransformationProfile(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/healthlake_data_transformation_profile awscc_healthlake_data_transformation_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/healthlake_data_transformation_profile awscc_healthlake_data_transformation_profile} Resource.
 func NewHealthlakeDataTransformationProfile_Override(h HealthlakeDataTransformationProfile, scope constructs.Construct, id *string, config *HealthlakeDataTransformationProfileConfig) {
 	_init_.Initialize()
 

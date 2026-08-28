@@ -5,7 +5,7 @@ package ec2spotfleet
 
 
 type Ec2SpotFleetSpotFleetRequestConfigDataLaunchSpecificationsIamInstanceProfile struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_spot_fleet#arn Ec2SpotFleet#arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_spot_fleet#arn Ec2SpotFleet#arn}.
 	Arn *string `field:"optional" json:"arn" yaml:"arn"`
 }
 

@@ -24,35 +24,35 @@ type ConnectAgentStatusConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The identifier of the Amazon Connect instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_agent_status#instance_arn ConnectAgentStatus#instance_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_agent_status#instance_arn ConnectAgentStatus#instance_arn}
 	InstanceArn *string `field:"required" json:"instanceArn" yaml:"instanceArn"`
 	// The name of the status.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_agent_status#name ConnectAgentStatus#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_agent_status#name ConnectAgentStatus#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The state of the status.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_agent_status#state ConnectAgentStatus#state}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_agent_status#state ConnectAgentStatus#state}
 	State *string `field:"required" json:"state" yaml:"state"`
 	// The description of the status.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_agent_status#description ConnectAgentStatus#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_agent_status#description ConnectAgentStatus#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The display order of the status.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_agent_status#display_order ConnectAgentStatus#display_order}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_agent_status#display_order ConnectAgentStatus#display_order}
 	DisplayOrder *float64 `field:"optional" json:"displayOrder" yaml:"displayOrder"`
 	// A number indicating the reset order of the agent status.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_agent_status#reset_order_number ConnectAgentStatus#reset_order_number}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_agent_status#reset_order_number ConnectAgentStatus#reset_order_number}
 	ResetOrderNumber interface{} `field:"optional" json:"resetOrderNumber" yaml:"resetOrderNumber"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_agent_status#tags ConnectAgentStatus#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_agent_status#tags ConnectAgentStatus#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// The type of agent status.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_agent_status#type ConnectAgentStatus#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_agent_status#type ConnectAgentStatus#type}
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

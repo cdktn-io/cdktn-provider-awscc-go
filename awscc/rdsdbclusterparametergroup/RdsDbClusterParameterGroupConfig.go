@@ -24,7 +24,7 @@ type RdsDbClusterParameterGroupConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The description for the DB cluster parameter group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_cluster_parameter_group#description RdsDbClusterParameterGroup#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster_parameter_group#description RdsDbClusterParameterGroup#description}
 	Description *string `field:"required" json:"description" yaml:"description"`
 	// The DB cluster parameter group family name.
 	//
@@ -48,11 +48,11 @@ type RdsDbClusterParameterGroupConfig struct {
 	//   +   ``mysql``
 	//   +   ``postgres``
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_cluster_parameter_group#family RdsDbClusterParameterGroup#family}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster_parameter_group#family RdsDbClusterParameterGroup#family}
 	Family *string `field:"required" json:"family" yaml:"family"`
 	// Provides a list of parameters for the DB cluster parameter group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_cluster_parameter_group#parameters RdsDbClusterParameterGroup#parameters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster_parameter_group#parameters RdsDbClusterParameterGroup#parameters}
 	Parameters *string `field:"required" json:"parameters" yaml:"parameters"`
 	// The name of the DB cluster parameter group.
 	//
@@ -61,11 +61,11 @@ type RdsDbClusterParameterGroupConfig struct {
 	//
 	//   This value is stored as a lowercase string.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_cluster_parameter_group#db_cluster_parameter_group_name RdsDbClusterParameterGroup#db_cluster_parameter_group_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster_parameter_group#db_cluster_parameter_group_name RdsDbClusterParameterGroup#db_cluster_parameter_group_name}
 	DbClusterParameterGroupName *string `field:"optional" json:"dbClusterParameterGroupName" yaml:"dbClusterParameterGroupName"`
 	// Tags to assign to the DB cluster parameter group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rds_db_cluster_parameter_group#tags RdsDbClusterParameterGroup#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster_parameter_group#tags RdsDbClusterParameterGroup#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

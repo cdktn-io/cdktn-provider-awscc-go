@@ -7,11 +7,11 @@ package bedrockagentcorepolicy
 type BedrockagentcorePolicyDefinition struct {
 	// A Cedar policy statement within the AgentCore Policy system.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_policy#cedar BedrockagentcorePolicy#cedar}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_policy#cedar BedrockagentcorePolicy#cedar}
 	Cedar *BedrockagentcorePolicyDefinitionCedar `field:"optional" json:"cedar" yaml:"cedar"`
 	// A policy statement within the AgentCore Policy system.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_policy#policy BedrockagentcorePolicy#policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_policy#policy BedrockagentcorePolicy#policy}
 	Policy *BedrockagentcorePolicyDefinitionPolicy `field:"optional" json:"policy" yaml:"policy"`
 }
 

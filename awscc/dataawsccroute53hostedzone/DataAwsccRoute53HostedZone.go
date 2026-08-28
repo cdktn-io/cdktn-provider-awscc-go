@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_hosted_zone awscc_route53_hosted_zone}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53_hosted_zone awscc_route53_hosted_zone}.
 type DataAwsccRoute53HostedZone interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccRoute53HostedZone) VpCs() DataAwsccRoute53HostedZone
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_hosted_zone awscc_route53_hosted_zone} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53_hosted_zone awscc_route53_hosted_zone} Data Source.
 func NewDataAwsccRoute53HostedZone(scope constructs.Construct, id *string, config *DataAwsccRoute53HostedZoneConfig) DataAwsccRoute53HostedZone {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccRoute53HostedZone(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_hosted_zone awscc_route53_hosted_zone} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53_hosted_zone awscc_route53_hosted_zone} Data Source.
 func NewDataAwsccRoute53HostedZone_Override(d DataAwsccRoute53HostedZone, scope constructs.Construct, id *string, config *DataAwsccRoute53HostedZoneConfig) {
 	_init_.Initialize()
 

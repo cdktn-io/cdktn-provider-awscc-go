@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_security_group_egress awscc_ec2_security_group_egress}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_security_group_egress awscc_ec2_security_group_egress}.
 type Ec2SecurityGroupEgress interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -580,7 +580,7 @@ func (j *jsiiProxy_Ec2SecurityGroupEgress) ToPortInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_security_group_egress awscc_ec2_security_group_egress} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_security_group_egress awscc_ec2_security_group_egress} Resource.
 func NewEc2SecurityGroupEgress(scope constructs.Construct, id *string, config *Ec2SecurityGroupEgressConfig) Ec2SecurityGroupEgress {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewEc2SecurityGroupEgress(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_security_group_egress awscc_ec2_security_group_egress} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_security_group_egress awscc_ec2_security_group_egress} Resource.
 func NewEc2SecurityGroupEgress_Override(e Ec2SecurityGroupEgress, scope constructs.Construct, id *string, config *Ec2SecurityGroupEgressConfig) {
 	_init_.Initialize()
 

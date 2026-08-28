@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/nimblestudio_launch_profile awscc_nimblestudio_launch_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/nimblestudio_launch_profile awscc_nimblestudio_launch_profile}.
 type DataAwsccNimblestudioLaunchProfile interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccNimblestudioLaunchProfile) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/nimblestudio_launch_profile awscc_nimblestudio_launch_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/nimblestudio_launch_profile awscc_nimblestudio_launch_profile} Data Source.
 func NewDataAwsccNimblestudioLaunchProfile(scope constructs.Construct, id *string, config *DataAwsccNimblestudioLaunchProfileConfig) DataAwsccNimblestudioLaunchProfile {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccNimblestudioLaunchProfile(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/nimblestudio_launch_profile awscc_nimblestudio_launch_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/nimblestudio_launch_profile awscc_nimblestudio_launch_profile} Data Source.
 func NewDataAwsccNimblestudioLaunchProfile_Override(d DataAwsccNimblestudioLaunchProfile, scope constructs.Construct, id *string, config *DataAwsccNimblestudioLaunchProfileConfig) {
 	_init_.Initialize()
 

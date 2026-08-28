@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticache_parameter_group awscc_elasticache_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticache_parameter_group awscc_elasticache_parameter_group}.
 type ElasticacheParameterGroup interface {
 	cdktn.TerraformResource
 	CacheParameterGroupFamily() *string
@@ -460,7 +460,7 @@ func (j *jsiiProxy_ElasticacheParameterGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticache_parameter_group awscc_elasticache_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticache_parameter_group awscc_elasticache_parameter_group} Resource.
 func NewElasticacheParameterGroup(scope constructs.Construct, id *string, config *ElasticacheParameterGroupConfig) ElasticacheParameterGroup {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewElasticacheParameterGroup(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/elasticache_parameter_group awscc_elasticache_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elasticache_parameter_group awscc_elasticache_parameter_group} Resource.
 func NewElasticacheParameterGroup_Override(e ElasticacheParameterGroup, scope constructs.Construct, id *string, config *ElasticacheParameterGroupConfig) {
 	_init_.Initialize()
 

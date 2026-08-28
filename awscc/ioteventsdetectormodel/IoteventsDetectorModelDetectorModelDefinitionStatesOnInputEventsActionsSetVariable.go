@@ -7,11 +7,11 @@ package ioteventsdetectormodel
 type IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSetVariable struct {
 	// The new value of the variable.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotevents_detector_model#value IoteventsDetectorModel#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotevents_detector_model#value IoteventsDetectorModel#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 	// The name of the variable.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotevents_detector_model#variable_name IoteventsDetectorModel#variable_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotevents_detector_model#variable_name IoteventsDetectorModel#variable_name}
 	VariableName *string `field:"optional" json:"variableName" yaml:"variableName"`
 }
 

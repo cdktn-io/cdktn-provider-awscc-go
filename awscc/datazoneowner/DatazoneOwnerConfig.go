@@ -24,19 +24,19 @@ type DatazoneOwnerConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID of the domain in which you want to add the entity owner.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_owner#domain_identifier DatazoneOwner#domain_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_owner#domain_identifier DatazoneOwner#domain_identifier}
 	DomainIdentifier *string `field:"required" json:"domainIdentifier" yaml:"domainIdentifier"`
 	// The ID of the entity to which you want to add an owner.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_owner#entity_identifier DatazoneOwner#entity_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_owner#entity_identifier DatazoneOwner#entity_identifier}
 	EntityIdentifier *string `field:"required" json:"entityIdentifier" yaml:"entityIdentifier"`
 	// The type of an entity.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_owner#entity_type DatazoneOwner#entity_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_owner#entity_type DatazoneOwner#entity_type}
 	EntityType *string `field:"required" json:"entityType" yaml:"entityType"`
 	// The owner that you want to add to the entity.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/datazone_owner#owner DatazoneOwner#owner}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_owner#owner DatazoneOwner#owner}
 	Owner *DatazoneOwnerOwner `field:"required" json:"owner" yaml:"owner"`
 }
 

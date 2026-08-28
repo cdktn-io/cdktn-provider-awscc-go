@@ -7,15 +7,15 @@ package cloudformationstackset
 type CloudformationStackSetStackInstancesGroup struct {
 	// The AWS OrganizationalUnitIds or Accounts for which to create stack instances in the specified Regions.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_stack_set#deployment_targets CloudformationStackSet#deployment_targets}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_stack_set#deployment_targets CloudformationStackSet#deployment_targets}
 	DeploymentTargets *CloudformationStackSetStackInstancesGroupDeploymentTargets `field:"optional" json:"deploymentTargets" yaml:"deploymentTargets"`
 	// A list of stack set parameters whose values you want to override in the selected stack instances.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_stack_set#parameter_overrides CloudformationStackSet#parameter_overrides}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_stack_set#parameter_overrides CloudformationStackSet#parameter_overrides}
 	ParameterOverrides interface{} `field:"optional" json:"parameterOverrides" yaml:"parameterOverrides"`
 	// The names of one or more Regions where you want to create stack instances using the specified AWS account(s).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudformation_stack_set#regions CloudformationStackSet#regions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudformation_stack_set#regions CloudformationStackSet#regions}
 	Regions *[]*string `field:"optional" json:"regions" yaml:"regions"`
 }
 

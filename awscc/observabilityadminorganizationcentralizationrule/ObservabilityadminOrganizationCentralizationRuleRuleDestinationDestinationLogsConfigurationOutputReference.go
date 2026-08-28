@@ -38,6 +38,8 @@ type ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationL
 	LogGroupNameConfigurationInput() interface{}
 	LogsEncryptionConfiguration() ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationLogsEncryptionConfigurationOutputReference
 	LogsEncryptionConfigurationInput() interface{}
+	TagPropagationConfiguration() ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationTagPropagationConfigurationOutputReference
+	TagPropagationConfigurationInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -73,9 +75,11 @@ type ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationL
 	PutBackupConfiguration(value *ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationBackupConfiguration)
 	PutLogGroupNameConfiguration(value *ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationLogGroupNameConfiguration)
 	PutLogsEncryptionConfiguration(value *ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationLogsEncryptionConfiguration)
+	PutTagPropagationConfiguration(value *ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationTagPropagationConfiguration)
 	ResetBackupConfiguration()
 	ResetLogGroupNameConfiguration()
 	ResetLogsEncryptionConfiguration()
+	ResetTagPropagationConfiguration()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -196,6 +200,26 @@ func (j *jsiiProxy_ObservabilityadminOrganizationCentralizationRuleRuleDestinati
 	_jsii_.Get(
 		j,
 		"logsEncryptionConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationOutputReference) TagPropagationConfiguration() ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationTagPropagationConfigurationOutputReference {
+	var returns ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationTagPropagationConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"tagPropagationConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationOutputReference) TagPropagationConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"tagPropagationConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -523,6 +547,17 @@ func (o *jsiiProxy_ObservabilityadminOrganizationCentralizationRuleRuleDestinati
 	)
 }
 
+func (o *jsiiProxy_ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationOutputReference) PutTagPropagationConfiguration(value *ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationTagPropagationConfiguration) {
+	if err := o.validatePutTagPropagationConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		o,
+		"putTagPropagationConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (o *jsiiProxy_ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationOutputReference) ResetBackupConfiguration() {
 	_jsii_.InvokeVoid(
 		o,
@@ -543,6 +578,14 @@ func (o *jsiiProxy_ObservabilityadminOrganizationCentralizationRuleRuleDestinati
 	_jsii_.InvokeVoid(
 		o,
 		"resetLogsEncryptionConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationLogsConfigurationOutputReference) ResetTagPropagationConfiguration() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetTagPropagationConfiguration",
 		nil, // no parameters
 	)
 }

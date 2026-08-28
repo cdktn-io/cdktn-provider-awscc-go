@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_vod_source awscc_mediatailor_vod_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediatailor_vod_source awscc_mediatailor_vod_source}.
 type MediatailorVodSource interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -459,7 +459,7 @@ func (j *jsiiProxy_MediatailorVodSource) VodSourceNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_vod_source awscc_mediatailor_vod_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediatailor_vod_source awscc_mediatailor_vod_source} Resource.
 func NewMediatailorVodSource(scope constructs.Construct, id *string, config *MediatailorVodSourceConfig) MediatailorVodSource {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewMediatailorVodSource(scope constructs.Construct, id *string, config *Med
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mediatailor_vod_source awscc_mediatailor_vod_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediatailor_vod_source awscc_mediatailor_vod_source} Resource.
 func NewMediatailorVodSource_Override(m MediatailorVodSource, scope constructs.Construct, id *string, config *MediatailorVodSourceConfig) {
 	_init_.Initialize()
 

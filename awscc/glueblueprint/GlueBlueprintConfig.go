@@ -24,19 +24,19 @@ type GlueBlueprintConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Specifies a path in Amazon S3 where the blueprint is published.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_blueprint#blueprint_location GlueBlueprint#blueprint_location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_blueprint#blueprint_location GlueBlueprint#blueprint_location}
 	BlueprintLocation *string `field:"required" json:"blueprintLocation" yaml:"blueprintLocation"`
 	// The name of the blueprint.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_blueprint#name GlueBlueprint#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_blueprint#name GlueBlueprint#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// A description of the blueprint.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_blueprint#description GlueBlueprint#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_blueprint#description GlueBlueprint#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The tags to be applied to this blueprint.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_blueprint#tags GlueBlueprint#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_blueprint#tags GlueBlueprint#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

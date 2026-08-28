@@ -7,17 +7,17 @@ package bedrockknowledgebase
 type BedrockKnowledgeBaseStorageConfigurationMongoDbAtlasConfigurationFieldMapping struct {
 	// The name of the field in which Amazon Bedrock stores metadata about the vector store.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_knowledge_base#metadata_field BedrockKnowledgeBase#metadata_field}
 	MetadataField *string `field:"optional" json:"metadataField" yaml:"metadataField"`
 	// The name of the field in which Amazon Bedrock stores the raw text from your data.
 	//
 	// The text is split according to the chunking strategy you choose.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_knowledge_base#text_field BedrockKnowledgeBase#text_field}
 	TextField *string `field:"optional" json:"textField" yaml:"textField"`
 	// The name of the field in which Amazon Bedrock stores the vector embeddings for your data sources.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_knowledge_base#vector_field BedrockKnowledgeBase#vector_field}
 	VectorField *string `field:"optional" json:"vectorField" yaml:"vectorField"`
 }
 

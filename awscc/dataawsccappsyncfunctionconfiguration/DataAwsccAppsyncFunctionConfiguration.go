@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appsync_function_configuration awscc_appsync_function_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appsync_function_configuration awscc_appsync_function_configuration}.
 type DataAwsccAppsyncFunctionConfiguration interface {
 	cdktn.TerraformDataSource
 	ApiId() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataAwsccAppsyncFunctionConfiguration) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appsync_function_configuration awscc_appsync_function_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appsync_function_configuration awscc_appsync_function_configuration} Data Source.
 func NewDataAwsccAppsyncFunctionConfiguration(scope constructs.Construct, id *string, config *DataAwsccAppsyncFunctionConfigurationConfig) DataAwsccAppsyncFunctionConfiguration {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataAwsccAppsyncFunctionConfiguration(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/appsync_function_configuration awscc_appsync_function_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appsync_function_configuration awscc_appsync_function_configuration} Data Source.
 func NewDataAwsccAppsyncFunctionConfiguration_Override(d DataAwsccAppsyncFunctionConfiguration, scope constructs.Construct, id *string, config *DataAwsccAppsyncFunctionConfigurationConfig) {
 	_init_.Initialize()
 

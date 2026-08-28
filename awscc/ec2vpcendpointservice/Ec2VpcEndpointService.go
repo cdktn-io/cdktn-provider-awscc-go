@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service}.
 type Ec2VpcEndpointService interface {
 	cdktn.TerraformResource
 	AcceptanceRequired() interface{}
@@ -61,6 +61,11 @@ type Ec2VpcEndpointService interface {
 	PayerResponsibility() *string
 	SetPayerResponsibility(val *string)
 	PayerResponsibilityInput() *string
+	PrivateDnsName() *string
+	SetPrivateDnsName(val *string)
+	PrivateDnsNameConfiguration() Ec2VpcEndpointServicePrivateDnsNameConfigurationOutputReference
+	PrivateDnsNameConfigurationInput() interface{}
+	PrivateDnsNameInput() *string
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -165,6 +170,7 @@ type Ec2VpcEndpointService interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutPrivateDnsNameConfiguration(value *Ec2VpcEndpointServicePrivateDnsNameConfiguration)
 	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -187,6 +193,8 @@ type Ec2VpcEndpointService interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetPayerResponsibility()
+	ResetPrivateDnsName()
+	ResetPrivateDnsNameConfiguration()
 	ResetSupportedIpAddressTypes()
 	ResetSupportedRegions()
 	ResetTags()
@@ -427,6 +435,46 @@ func (j *jsiiProxy_Ec2VpcEndpointService) PayerResponsibilityInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_Ec2VpcEndpointService) PrivateDnsName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"privateDnsName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Ec2VpcEndpointService) PrivateDnsNameConfiguration() Ec2VpcEndpointServicePrivateDnsNameConfigurationOutputReference {
+	var returns Ec2VpcEndpointServicePrivateDnsNameConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"privateDnsNameConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Ec2VpcEndpointService) PrivateDnsNameConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"privateDnsNameConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Ec2VpcEndpointService) PrivateDnsNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"privateDnsNameInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_Ec2VpcEndpointService) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -558,7 +606,7 @@ func (j *jsiiProxy_Ec2VpcEndpointService) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service} Resource.
 func NewEc2VpcEndpointService(scope constructs.Construct, id *string, config *Ec2VpcEndpointServiceConfig) Ec2VpcEndpointService {
 	_init_.Initialize()
 
@@ -576,7 +624,7 @@ func NewEc2VpcEndpointService(scope constructs.Construct, id *string, config *Ec
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service} Resource.
 func NewEc2VpcEndpointService_Override(e Ec2VpcEndpointService, scope constructs.Construct, id *string, config *Ec2VpcEndpointServiceConfig) {
 	_init_.Initialize()
 
@@ -687,6 +735,17 @@ func (j *jsiiProxy_Ec2VpcEndpointService)SetPayerResponsibility(val *string) {
 	_jsii_.Set(
 		j,
 		"payerResponsibility",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Ec2VpcEndpointService)SetPrivateDnsName(val *string) {
+	if err := j.validateSetPrivateDnsNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"privateDnsName",
 		val,
 	)
 }
@@ -1101,6 +1160,17 @@ func (e *jsiiProxy_Ec2VpcEndpointService) OverrideLogicalId(newLogicalId *string
 	)
 }
 
+func (e *jsiiProxy_Ec2VpcEndpointService) PutPrivateDnsNameConfiguration(value *Ec2VpcEndpointServicePrivateDnsNameConfiguration) {
+	if err := e.validatePutPrivateDnsNameConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putPrivateDnsNameConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (e *jsiiProxy_Ec2VpcEndpointService) PutTags(value interface{}) {
 	if err := e.validatePutTagsParameters(value); err != nil {
 		panic(err)
@@ -1167,6 +1237,22 @@ func (e *jsiiProxy_Ec2VpcEndpointService) ResetPayerResponsibility() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetPayerResponsibility",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_Ec2VpcEndpointService) ResetPrivateDnsName() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetPrivateDnsName",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_Ec2VpcEndpointService) ResetPrivateDnsNameConfiguration() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetPrivateDnsNameConfiguration",
 		nil, // no parameters
 	)
 }

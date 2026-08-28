@@ -83,6 +83,10 @@ func (b *jsiiProxy_BatchComputeEnvironment) validatePutComputeResourcesParameter
 	return nil
 }
 
+func (b *jsiiProxy_BatchComputeEnvironment) validatePutEcsSettingsParameters(value *BatchComputeEnvironmentEcsSettings) error {
+	return nil
+}
+
 func (b *jsiiProxy_BatchComputeEnvironment) validatePutEksConfigurationParameters(value *BatchComputeEnvironmentEksConfiguration) error {
 	return nil
 }

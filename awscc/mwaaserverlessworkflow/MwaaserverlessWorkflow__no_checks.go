@@ -79,6 +79,10 @@ func (m *jsiiProxy_MwaaserverlessWorkflow) validateOverrideLogicalIdParameters(n
 	return nil
 }
 
+func (m *jsiiProxy_MwaaserverlessWorkflow) validatePutCodeParameters(value *MwaaserverlessWorkflowCode) error {
+	return nil
+}
+
 func (m *jsiiProxy_MwaaserverlessWorkflow) validatePutDefinitionS3LocationParameters(value *MwaaserverlessWorkflowDefinitionS3Location) error {
 	return nil
 }

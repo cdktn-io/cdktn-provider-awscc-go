@@ -12,11 +12,14 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaaserverless_workflow awscc_mwaaserverless_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mwaaserverless_workflow awscc_mwaaserverless_workflow}.
 type MwaaserverlessWorkflow interface {
 	cdktn.TerraformResource
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
+	Code() MwaaserverlessWorkflowCodeOutputReference
+	CodeInput() interface{}
+	CodeSnapshottedAt() *string
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -170,6 +173,7 @@ type MwaaserverlessWorkflow interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutCode(value *MwaaserverlessWorkflowCode)
 	PutDefinitionS3Location(value *MwaaserverlessWorkflowDefinitionS3Location)
 	PutEncryptionConfiguration(value *MwaaserverlessWorkflowEncryptionConfiguration)
 	PutLoggingConfiguration(value *MwaaserverlessWorkflowLoggingConfiguration)
@@ -187,6 +191,7 @@ type MwaaserverlessWorkflow interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetCode()
 	ResetDescription()
 	ResetEncryptionConfiguration()
 	ResetLoggingConfiguration()
@@ -229,6 +234,36 @@ func (j *jsiiProxy_MwaaserverlessWorkflow) CdktfStack() cdktn.TerraformStack {
 	_jsii_.Get(
 		j,
 		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MwaaserverlessWorkflow) Code() MwaaserverlessWorkflowCodeOutputReference {
+	var returns MwaaserverlessWorkflowCodeOutputReference
+	_jsii_.Get(
+		j,
+		"code",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MwaaserverlessWorkflow) CodeInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"codeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MwaaserverlessWorkflow) CodeSnapshottedAt() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"codeSnapshottedAt",
 		&returns,
 	)
 	return returns
@@ -635,7 +670,7 @@ func (j *jsiiProxy_MwaaserverlessWorkflow) WorkflowVersion() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaaserverless_workflow awscc_mwaaserverless_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mwaaserverless_workflow awscc_mwaaserverless_workflow} Resource.
 func NewMwaaserverlessWorkflow(scope constructs.Construct, id *string, config *MwaaserverlessWorkflowConfig) MwaaserverlessWorkflow {
 	_init_.Initialize()
 
@@ -653,7 +688,7 @@ func NewMwaaserverlessWorkflow(scope constructs.Construct, id *string, config *M
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mwaaserverless_workflow awscc_mwaaserverless_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mwaaserverless_workflow awscc_mwaaserverless_workflow} Resource.
 func NewMwaaserverlessWorkflow_Override(m MwaaserverlessWorkflow, scope constructs.Construct, id *string, config *MwaaserverlessWorkflowConfig) {
 	_init_.Initialize()
 
@@ -1156,6 +1191,17 @@ func (m *jsiiProxy_MwaaserverlessWorkflow) OverrideLogicalId(newLogicalId *strin
 	)
 }
 
+func (m *jsiiProxy_MwaaserverlessWorkflow) PutCode(value *MwaaserverlessWorkflowCode) {
+	if err := m.validatePutCodeParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putCode",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_MwaaserverlessWorkflow) PutDefinitionS3Location(value *MwaaserverlessWorkflowDefinitionS3Location) {
 	if err := m.validatePutDefinitionS3LocationParameters(value); err != nil {
 		panic(err)
@@ -1208,6 +1254,14 @@ func (m *jsiiProxy_MwaaserverlessWorkflow) RegisterProviderFeatureUsage(feature 
 		m,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (m *jsiiProxy_MwaaserverlessWorkflow) ResetCode() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetCode",
+		nil, // no parameters
 	)
 }
 

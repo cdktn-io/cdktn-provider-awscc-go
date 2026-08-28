@@ -22,11 +22,11 @@ type CognitoUserPoolUserToGroupAttachmentConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_user_to_group_attachment#group_name CognitoUserPoolUserToGroupAttachment#group_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cognito_user_pool_user_to_group_attachment#group_name CognitoUserPoolUserToGroupAttachment#group_name}.
 	GroupName *string `field:"required" json:"groupName" yaml:"groupName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_user_to_group_attachment#username CognitoUserPoolUserToGroupAttachment#username}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cognito_user_pool_user_to_group_attachment#username CognitoUserPoolUserToGroupAttachment#username}.
 	Username *string `field:"required" json:"username" yaml:"username"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_user_to_group_attachment#user_pool_id CognitoUserPoolUserToGroupAttachment#user_pool_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cognito_user_pool_user_to_group_attachment#user_pool_id CognitoUserPoolUserToGroupAttachment#user_pool_id}.
 	UserPoolId *string `field:"required" json:"userPoolId" yaml:"userPoolId"`
 }
 

@@ -7,7 +7,7 @@ package bedrockagentcoreevaluator
 type BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigResponsesEvaluatorModelConfigReasoning struct {
 	// The level of reasoning effort the model applies.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_evaluator#effort BedrockagentcoreEvaluator#effort}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_evaluator#effort BedrockagentcoreEvaluator#effort}
 	Effort *string `field:"optional" json:"effort" yaml:"effort"`
 }
 

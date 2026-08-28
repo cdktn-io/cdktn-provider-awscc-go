@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/pcs_cluster awscc_pcs_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/pcs_cluster awscc_pcs_cluster}.
 type DataAwsccPcsCluster interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccPcsCluster) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/pcs_cluster awscc_pcs_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/pcs_cluster awscc_pcs_cluster} Data Source.
 func NewDataAwsccPcsCluster(scope constructs.Construct, id *string, config *DataAwsccPcsClusterConfig) DataAwsccPcsCluster {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccPcsCluster(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/pcs_cluster awscc_pcs_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/pcs_cluster awscc_pcs_cluster} Data Source.
 func NewDataAwsccPcsCluster_Override(d DataAwsccPcsCluster, scope constructs.Construct, id *string, config *DataAwsccPcsClusterConfig) {
 	_init_.Initialize()
 

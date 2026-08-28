@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_model_quality_job_definition awscc_sagemaker_model_quality_job_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_model_quality_job_definition awscc_sagemaker_model_quality_job_definition}.
 type DataAwsccSagemakerModelQualityJobDefinition interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccSagemakerModelQualityJobDefinition) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_model_quality_job_definition awscc_sagemaker_model_quality_job_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_model_quality_job_definition awscc_sagemaker_model_quality_job_definition} Data Source.
 func NewDataAwsccSagemakerModelQualityJobDefinition(scope constructs.Construct, id *string, config *DataAwsccSagemakerModelQualityJobDefinitionConfig) DataAwsccSagemakerModelQualityJobDefinition {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccSagemakerModelQualityJobDefinition(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_model_quality_job_definition awscc_sagemaker_model_quality_job_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_model_quality_job_definition awscc_sagemaker_model_quality_job_definition} Data Source.
 func NewDataAwsccSagemakerModelQualityJobDefinition_Override(d DataAwsccSagemakerModelQualityJobDefinition, scope constructs.Construct, id *string, config *DataAwsccSagemakerModelQualityJobDefinitionConfig) {
 	_init_.Initialize()
 

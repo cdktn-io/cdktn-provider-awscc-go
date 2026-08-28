@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apptest_test_case awscc_apptest_test_case}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apptest_test_case awscc_apptest_test_case}.
 type ApptestTestCase interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -526,7 +526,7 @@ func (j *jsiiProxy_ApptestTestCase) TestCaseVersion() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apptest_test_case awscc_apptest_test_case} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apptest_test_case awscc_apptest_test_case} Resource.
 func NewApptestTestCase(scope constructs.Construct, id *string, config *ApptestTestCaseConfig) ApptestTestCase {
 	_init_.Initialize()
 
@@ -544,7 +544,7 @@ func NewApptestTestCase(scope constructs.Construct, id *string, config *ApptestT
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apptest_test_case awscc_apptest_test_case} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apptest_test_case awscc_apptest_test_case} Resource.
 func NewApptestTestCase_Override(a ApptestTestCase, scope constructs.Construct, id *string, config *ApptestTestCaseConfig) {
 	_init_.Initialize()
 

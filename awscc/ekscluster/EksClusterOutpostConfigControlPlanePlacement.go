@@ -9,13 +9,13 @@ type EksClusterOutpostConfigControlPlanePlacement struct {
 	//
 	// This setting can't be changed after cluster creation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_cluster#group_name EksCluster#group_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#group_name EksCluster#group_name}
 	GroupName *string `field:"optional" json:"groupName" yaml:"groupName"`
 	// Optional parameter to specify the placement group spread level for control plane instances.
 	//
 	// If not provided, EKS will deploy control plane instances without a placement group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/eks_cluster#spread_level EksCluster#spread_level}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#spread_level EksCluster#spread_level}
 	SpreadLevel *string `field:"optional" json:"spreadLevel" yaml:"spreadLevel"`
 }
 

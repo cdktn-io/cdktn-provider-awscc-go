@@ -7,7 +7,7 @@ package imagebuilderimage
 type ImagebuilderImageLoggingConfiguration struct {
 	// The name of the log group for image build logs.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_image#log_group_name ImagebuilderImage#log_group_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/imagebuilder_image#log_group_name ImagebuilderImage#log_group_name}
 	LogGroupName *string `field:"optional" json:"logGroupName" yaml:"logGroupName"`
 }
 

@@ -22,9 +22,9 @@ type MpaIdentitySourceConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mpa_identity_source#identity_source_parameters MpaIdentitySource#identity_source_parameters}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mpa_identity_source#identity_source_parameters MpaIdentitySource#identity_source_parameters}.
 	IdentitySourceParameters *MpaIdentitySourceIdentitySourceParameters `field:"required" json:"identitySourceParameters" yaml:"identitySourceParameters"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/mpa_identity_source#tags MpaIdentitySource#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mpa_identity_source#tags MpaIdentitySource#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

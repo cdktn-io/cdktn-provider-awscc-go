@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ivschat_room awscc_ivschat_room}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ivschat_room awscc_ivschat_room}.
 type DataAwsccIvschatRoom interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccIvschatRoom) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ivschat_room awscc_ivschat_room} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ivschat_room awscc_ivschat_room} Data Source.
 func NewDataAwsccIvschatRoom(scope constructs.Construct, id *string, config *DataAwsccIvschatRoomConfig) DataAwsccIvschatRoom {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccIvschatRoom(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ivschat_room awscc_ivschat_room} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ivschat_room awscc_ivschat_room} Data Source.
 func NewDataAwsccIvschatRoom_Override(d DataAwsccIvschatRoom, scope constructs.Construct, id *string, config *DataAwsccIvschatRoomConfig) {
 	_init_.Initialize()
 

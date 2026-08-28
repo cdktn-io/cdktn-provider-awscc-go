@@ -7,7 +7,7 @@ package bedrockagentcoreconfigurationbundle
 type BedrockagentcoreConfigurationBundleComponents struct {
 	// The configuration values as a flexible JSON document.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_configuration_bundle#configuration BedrockagentcoreConfigurationBundle#configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_configuration_bundle#configuration BedrockagentcoreConfigurationBundle#configuration}
 	Configuration *string `field:"optional" json:"configuration" yaml:"configuration"`
 }
 

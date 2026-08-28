@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/entityresolution_policy_statement awscc_entityresolution_policy_statement}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/entityresolution_policy_statement awscc_entityresolution_policy_statement}.
 type EntityresolutionPolicyStatement interface {
 	cdktn.TerraformResource
 	Action() *[]*string
@@ -497,7 +497,7 @@ func (j *jsiiProxy_EntityresolutionPolicyStatement) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/entityresolution_policy_statement awscc_entityresolution_policy_statement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/entityresolution_policy_statement awscc_entityresolution_policy_statement} Resource.
 func NewEntityresolutionPolicyStatement(scope constructs.Construct, id *string, config *EntityresolutionPolicyStatementConfig) EntityresolutionPolicyStatement {
 	_init_.Initialize()
 
@@ -515,7 +515,7 @@ func NewEntityresolutionPolicyStatement(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/entityresolution_policy_statement awscc_entityresolution_policy_statement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/entityresolution_policy_statement awscc_entityresolution_policy_statement} Resource.
 func NewEntityresolutionPolicyStatement_Override(e EntityresolutionPolicyStatement, scope constructs.Construct, id *string, config *EntityresolutionPolicyStatementConfig) {
 	_init_.Initialize()
 

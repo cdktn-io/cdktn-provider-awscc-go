@@ -215,6 +215,17 @@ func (e *jsiiProxy_Ec2VpcEndpointService) validateOverrideLogicalIdParameters(ne
 	return nil
 }
 
+func (e *jsiiProxy_Ec2VpcEndpointService) validatePutPrivateDnsNameConfigurationParameters(value *Ec2VpcEndpointServicePrivateDnsNameConfiguration) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (e *jsiiProxy_Ec2VpcEndpointService) validatePutTagsParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -449,6 +460,14 @@ func (j *jsiiProxy_Ec2VpcEndpointService) validateSetNetworkLoadBalancerArnsPara
 }
 
 func (j *jsiiProxy_Ec2VpcEndpointService) validateSetPayerResponsibilityParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_Ec2VpcEndpointService) validateSetPrivateDnsNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

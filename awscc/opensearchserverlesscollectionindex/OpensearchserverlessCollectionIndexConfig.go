@@ -24,15 +24,15 @@ type OpensearchserverlessCollectionIndexConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The identifier of the collection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_collection_index#collection_index_id OpensearchserverlessCollectionIndex#collection_index_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_collection_index#collection_index_id OpensearchserverlessCollectionIndex#collection_index_id}
 	CollectionIndexId *string `field:"required" json:"collectionIndexId" yaml:"collectionIndexId"`
 	// The name of the collection index.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_collection_index#index_name OpensearchserverlessCollectionIndex#index_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_collection_index#index_name OpensearchserverlessCollectionIndex#index_name}
 	IndexName *string `field:"required" json:"indexName" yaml:"indexName"`
 	// The Mappings for the collection index.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opensearchserverless_collection_index#index_schema OpensearchserverlessCollectionIndex#index_schema}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_collection_index#index_schema OpensearchserverlessCollectionIndex#index_schema}
 	IndexSchema *string `field:"optional" json:"indexSchema" yaml:"indexSchema"`
 }
 

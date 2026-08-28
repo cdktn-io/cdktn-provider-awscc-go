@@ -23,7 +23,7 @@ type RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinitions str
 	//
 	// All dimensions listed in this field must also be included in EventPattern.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rum_app_monitor#dimension_keys RumAppMonitor#dimension_keys}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rum_app_monitor#dimension_keys RumAppMonitor#dimension_keys}
 	DimensionKeys *map[string]*string `field:"optional" json:"dimensionKeys" yaml:"dimensionKeys"`
 	// The pattern that defines the metric, specified as a JSON object.
 	//
@@ -41,7 +41,7 @@ type RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinitions str
 	//
 	// If the metrics destination' is CloudWatch and the event also matches a value in DimensionKeys, then the metric is published with the specified dimensions.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rum_app_monitor#event_pattern RumAppMonitor#event_pattern}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rum_app_monitor#event_pattern RumAppMonitor#event_pattern}
 	EventPattern *string `field:"optional" json:"eventPattern" yaml:"eventPattern"`
 	// The name for the metric that is defined in this structure. For extended metrics, valid values are the following:.
 	//
@@ -113,17 +113,17 @@ type RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinitions str
 	//
 	// LogEventPayloadSize
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rum_app_monitor#name RumAppMonitor#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rum_app_monitor#name RumAppMonitor#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// The namespace used by CloudWatch Metrics for the metric that is defined in this structure.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rum_app_monitor#namespace RumAppMonitor#namespace}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rum_app_monitor#namespace RumAppMonitor#namespace}
 	Namespace *string `field:"optional" json:"namespace" yaml:"namespace"`
 	// The CloudWatch metric unit to use for this metric.
 	//
 	// If you omit this field, the metric is recorded with no unit.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rum_app_monitor#unit_label RumAppMonitor#unit_label}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rum_app_monitor#unit_label RumAppMonitor#unit_label}
 	UnitLabel *string `field:"optional" json:"unitLabel" yaml:"unitLabel"`
 	// The field within the event object that the metric value is sourced from.
 	//
@@ -131,7 +131,7 @@ type RumAppMonitorAppMonitorConfigurationMetricDestinationsMetricDefinitions str
 	//
 	// If this metric is sent to Evidently, this field will be passed to Evidently raw and Evidently will handle data extraction from the event. Note: Evidently has been discontinued.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rum_app_monitor#value_key RumAppMonitor#value_key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rum_app_monitor#value_key RumAppMonitor#value_key}
 	ValueKey *string `field:"optional" json:"valueKey" yaml:"valueKey"`
 }
 

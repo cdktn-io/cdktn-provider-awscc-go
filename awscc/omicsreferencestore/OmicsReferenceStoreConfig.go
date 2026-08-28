@@ -24,17 +24,17 @@ type OmicsReferenceStoreConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A name for the store.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_reference_store#name OmicsReferenceStore#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store#name OmicsReferenceStore#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// A description for the store.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_reference_store#description OmicsReferenceStore#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store#description OmicsReferenceStore#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Server-side encryption (SSE) settings for a store.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_reference_store#sse_config OmicsReferenceStore#sse_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store#sse_config OmicsReferenceStore#sse_config}
 	SseConfig *OmicsReferenceStoreSseConfig `field:"optional" json:"sseConfig" yaml:"sseConfig"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/omics_reference_store#tags OmicsReferenceStore#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/omics_reference_store#tags OmicsReferenceStore#tags}.
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 }
 

@@ -7,7 +7,7 @@ package connecttestcase
 type ConnectTestCaseEntryPointChatEntryPointParameters struct {
 	// The flow id used for the TestCase.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_test_case#flow_id ConnectTestCase#flow_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_test_case#flow_id ConnectTestCase#flow_id}
 	FlowId *string `field:"optional" json:"flowId" yaml:"flowId"`
 }
 

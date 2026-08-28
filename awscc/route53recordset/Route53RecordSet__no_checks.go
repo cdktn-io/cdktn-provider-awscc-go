@@ -91,10 +91,6 @@ func (r *jsiiProxy_Route53RecordSet) validatePutGeoLocationParameters(value *Rou
 	return nil
 }
 
-func (r *jsiiProxy_Route53RecordSet) validatePutGeoProximityLocationParameters(value *Route53RecordSetGeoProximityLocation) error {
-	return nil
-}
-
 func (r *jsiiProxy_Route53RecordSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }

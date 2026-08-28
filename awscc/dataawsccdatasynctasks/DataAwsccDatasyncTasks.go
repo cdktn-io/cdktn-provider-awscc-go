@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/datasync_tasks awscc_datasync_tasks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/datasync_tasks awscc_datasync_tasks}.
 type DataAwsccDatasyncTasks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDatasyncTasks) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/datasync_tasks awscc_datasync_tasks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/datasync_tasks awscc_datasync_tasks} Data Source.
 func NewDataAwsccDatasyncTasks(scope constructs.Construct, id *string, config *DataAwsccDatasyncTasksConfig) DataAwsccDatasyncTasks {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDatasyncTasks(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/datasync_tasks awscc_datasync_tasks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/datasync_tasks awscc_datasync_tasks} Data Source.
 func NewDataAwsccDatasyncTasks_Override(d DataAwsccDatasyncTasks, scope constructs.Construct, id *string, config *DataAwsccDatasyncTasksConfig) {
 	_init_.Initialize()
 

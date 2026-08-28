@@ -5,13 +5,13 @@ package ssmmaintenancewindowtask
 
 
 type SsmMaintenanceWindowTaskTaskInvocationParameters struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_maintenance_window_task#maintenance_window_automation_parameters SsmMaintenanceWindowTask#maintenance_window_automation_parameters}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_maintenance_window_task#maintenance_window_automation_parameters SsmMaintenanceWindowTask#maintenance_window_automation_parameters}.
 	MaintenanceWindowAutomationParameters *SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowAutomationParameters `field:"optional" json:"maintenanceWindowAutomationParameters" yaml:"maintenanceWindowAutomationParameters"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_maintenance_window_task#maintenance_window_lambda_parameters SsmMaintenanceWindowTask#maintenance_window_lambda_parameters}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_maintenance_window_task#maintenance_window_lambda_parameters SsmMaintenanceWindowTask#maintenance_window_lambda_parameters}.
 	MaintenanceWindowLambdaParameters *SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowLambdaParameters `field:"optional" json:"maintenanceWindowLambdaParameters" yaml:"maintenanceWindowLambdaParameters"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_maintenance_window_task#maintenance_window_run_command_parameters SsmMaintenanceWindowTask#maintenance_window_run_command_parameters}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_maintenance_window_task#maintenance_window_run_command_parameters SsmMaintenanceWindowTask#maintenance_window_run_command_parameters}.
 	MaintenanceWindowRunCommandParameters *SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowRunCommandParameters `field:"optional" json:"maintenanceWindowRunCommandParameters" yaml:"maintenanceWindowRunCommandParameters"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ssm_maintenance_window_task#maintenance_window_step_functions_parameters SsmMaintenanceWindowTask#maintenance_window_step_functions_parameters}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_maintenance_window_task#maintenance_window_step_functions_parameters SsmMaintenanceWindowTask#maintenance_window_step_functions_parameters}.
 	MaintenanceWindowStepFunctionsParameters *SsmMaintenanceWindowTaskTaskInvocationParametersMaintenanceWindowStepFunctionsParameters `field:"optional" json:"maintenanceWindowStepFunctionsParameters" yaml:"maintenanceWindowStepFunctionsParameters"`
 }
 

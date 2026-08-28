@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/backup_tiering_configurations awscc_backup_tiering_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/backup_tiering_configurations awscc_backup_tiering_configurations}.
 type DataAwsccBackupTieringConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBackupTieringConfigurations) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/backup_tiering_configurations awscc_backup_tiering_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/backup_tiering_configurations awscc_backup_tiering_configurations} Data Source.
 func NewDataAwsccBackupTieringConfigurations(scope constructs.Construct, id *string, config *DataAwsccBackupTieringConfigurationsConfig) DataAwsccBackupTieringConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBackupTieringConfigurations(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/backup_tiering_configurations awscc_backup_tiering_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/backup_tiering_configurations awscc_backup_tiering_configurations} Data Source.
 func NewDataAwsccBackupTieringConfigurations_Override(d DataAwsccBackupTieringConfigurations, scope constructs.Construct, id *string, config *DataAwsccBackupTieringConfigurationsConfig) {
 	_init_.Initialize()
 

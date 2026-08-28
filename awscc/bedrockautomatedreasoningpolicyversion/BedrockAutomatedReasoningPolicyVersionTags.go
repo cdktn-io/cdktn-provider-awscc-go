@@ -7,11 +7,11 @@ package bedrockautomatedreasoningpolicyversion
 type BedrockAutomatedReasoningPolicyVersionTags struct {
 	// Tag Key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_automated_reasoning_policy_version#key BedrockAutomatedReasoningPolicyVersion#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version#key BedrockAutomatedReasoningPolicyVersion#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// Tag Value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_automated_reasoning_policy_version#value BedrockAutomatedReasoningPolicyVersion#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_automated_reasoning_policy_version#value BedrockAutomatedReasoningPolicyVersion#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

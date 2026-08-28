@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspector_assessment_template awscc_inspector_assessment_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspector_assessment_template awscc_inspector_assessment_template}.
 type InspectorAssessmentTemplate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -483,7 +483,7 @@ func (j *jsiiProxy_InspectorAssessmentTemplate) UserAttributesForFindingsInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspector_assessment_template awscc_inspector_assessment_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspector_assessment_template awscc_inspector_assessment_template} Resource.
 func NewInspectorAssessmentTemplate(scope constructs.Construct, id *string, config *InspectorAssessmentTemplateConfig) InspectorAssessmentTemplate {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewInspectorAssessmentTemplate(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/inspector_assessment_template awscc_inspector_assessment_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspector_assessment_template awscc_inspector_assessment_template} Resource.
 func NewInspectorAssessmentTemplate_Override(i InspectorAssessmentTemplate, scope constructs.Construct, id *string, config *InspectorAssessmentTemplateConfig) {
 	_init_.Initialize()
 

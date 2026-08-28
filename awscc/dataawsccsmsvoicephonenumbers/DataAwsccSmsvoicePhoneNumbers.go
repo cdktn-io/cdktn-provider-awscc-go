@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/smsvoice_phone_numbers awscc_smsvoice_phone_numbers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/smsvoice_phone_numbers awscc_smsvoice_phone_numbers}.
 type DataAwsccSmsvoicePhoneNumbers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSmsvoicePhoneNumbers) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/smsvoice_phone_numbers awscc_smsvoice_phone_numbers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/smsvoice_phone_numbers awscc_smsvoice_phone_numbers} Data Source.
 func NewDataAwsccSmsvoicePhoneNumbers(scope constructs.Construct, id *string, config *DataAwsccSmsvoicePhoneNumbersConfig) DataAwsccSmsvoicePhoneNumbers {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSmsvoicePhoneNumbers(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/smsvoice_phone_numbers awscc_smsvoice_phone_numbers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/smsvoice_phone_numbers awscc_smsvoice_phone_numbers} Data Source.
 func NewDataAwsccSmsvoicePhoneNumbers_Override(d DataAwsccSmsvoicePhoneNumbers, scope constructs.Construct, id *string, config *DataAwsccSmsvoicePhoneNumbersConfig) {
 	_init_.Initialize()
 

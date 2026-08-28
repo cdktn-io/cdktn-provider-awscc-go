@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/athena_prepared_statement awscc_athena_prepared_statement}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/athena_prepared_statement awscc_athena_prepared_statement}.
 type DataAwsccAthenaPreparedStatement interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccAthenaPreparedStatement) WorkGroup() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/athena_prepared_statement awscc_athena_prepared_statement} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/athena_prepared_statement awscc_athena_prepared_statement} Data Source.
 func NewDataAwsccAthenaPreparedStatement(scope constructs.Construct, id *string, config *DataAwsccAthenaPreparedStatementConfig) DataAwsccAthenaPreparedStatement {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccAthenaPreparedStatement(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/athena_prepared_statement awscc_athena_prepared_statement} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/athena_prepared_statement awscc_athena_prepared_statement} Data Source.
 func NewDataAwsccAthenaPreparedStatement_Override(d DataAwsccAthenaPreparedStatement, scope constructs.Construct, id *string, config *DataAwsccAthenaPreparedStatementConfig) {
 	_init_.Initialize()
 

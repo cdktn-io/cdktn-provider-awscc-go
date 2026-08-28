@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ssmincidents_response_plan awscc_ssmincidents_response_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ssmincidents_response_plan awscc_ssmincidents_response_plan}.
 type DataAwsccSsmincidentsResponsePlan interface {
 	cdktn.TerraformDataSource
 	Actions() DataAwsccSsmincidentsResponsePlanActionsList
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccSsmincidentsResponsePlan) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ssmincidents_response_plan awscc_ssmincidents_response_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ssmincidents_response_plan awscc_ssmincidents_response_plan} Data Source.
 func NewDataAwsccSsmincidentsResponsePlan(scope constructs.Construct, id *string, config *DataAwsccSsmincidentsResponsePlanConfig) DataAwsccSsmincidentsResponsePlan {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccSsmincidentsResponsePlan(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ssmincidents_response_plan awscc_ssmincidents_response_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ssmincidents_response_plan awscc_ssmincidents_response_plan} Data Source.
 func NewDataAwsccSsmincidentsResponsePlan_Override(d DataAwsccSsmincidentsResponsePlan, scope constructs.Construct, id *string, config *DataAwsccSsmincidentsResponsePlanConfig) {
 	_init_.Initialize()
 

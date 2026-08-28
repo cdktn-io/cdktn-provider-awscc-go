@@ -24,11 +24,11 @@ type CasesDomainConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name for your Cases domain. It must be unique for your AWS account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_domain#name CasesDomain#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_domain#name CasesDomain#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The tags that you attach to this domain.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cases_domain#tags CasesDomain#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_domain#tags CasesDomain#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

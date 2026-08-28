@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/shield_drt_access awscc_shield_drt_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/shield_drt_access awscc_shield_drt_access}.
 type ShieldDrtAccess interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -413,7 +413,7 @@ func (j *jsiiProxy_ShieldDrtAccess) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/shield_drt_access awscc_shield_drt_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/shield_drt_access awscc_shield_drt_access} Resource.
 func NewShieldDrtAccess(scope constructs.Construct, id *string, config *ShieldDrtAccessConfig) ShieldDrtAccess {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewShieldDrtAccess(scope constructs.Construct, id *string, config *ShieldDr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/shield_drt_access awscc_shield_drt_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/shield_drt_access awscc_shield_drt_access} Resource.
 func NewShieldDrtAccess_Override(s ShieldDrtAccess, scope constructs.Construct, id *string, config *ShieldDrtAccessConfig) {
 	_init_.Initialize()
 

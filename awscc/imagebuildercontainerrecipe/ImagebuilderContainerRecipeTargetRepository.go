@@ -9,11 +9,11 @@ type ImagebuilderContainerRecipeTargetRepository struct {
 	//
 	// This name is prefixed by the repository location.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_container_recipe#repository_name ImagebuilderContainerRecipe#repository_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/imagebuilder_container_recipe#repository_name ImagebuilderContainerRecipe#repository_name}
 	RepositoryName *string `field:"optional" json:"repositoryName" yaml:"repositoryName"`
 	// Specifies the service in which this image was registered.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/imagebuilder_container_recipe#service ImagebuilderContainerRecipe#service}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/imagebuilder_container_recipe#service ImagebuilderContainerRecipe#service}
 	Service *string `field:"optional" json:"service" yaml:"service"`
 }
 

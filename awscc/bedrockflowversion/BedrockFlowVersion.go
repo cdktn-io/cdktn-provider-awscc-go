@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_flow_version awscc_bedrock_flow_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_flow_version awscc_bedrock_flow_version}.
 type BedrockFlowVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -490,7 +490,7 @@ func (j *jsiiProxy_BedrockFlowVersion) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_flow_version awscc_bedrock_flow_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_flow_version awscc_bedrock_flow_version} Resource.
 func NewBedrockFlowVersion(scope constructs.Construct, id *string, config *BedrockFlowVersionConfig) BedrockFlowVersion {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewBedrockFlowVersion(scope constructs.Construct, id *string, config *Bedro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrock_flow_version awscc_bedrock_flow_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_flow_version awscc_bedrock_flow_version} Resource.
 func NewBedrockFlowVersion_Override(b BedrockFlowVersion, scope constructs.Construct, id *string, config *BedrockFlowVersionConfig) {
 	_init_.Initialize()
 

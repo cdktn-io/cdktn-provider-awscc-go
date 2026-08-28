@@ -28,6 +28,8 @@ type AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributionOutputR
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DistributionSegments() AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributionDistributionSegmentsList
+	DistributionSegmentsInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -82,6 +84,8 @@ type AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributionOutputR
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutDistributionSegments(value interface{})
+	ResetDistributionSegments()
 	ResetOnDemandAllocationStrategy()
 	ResetOnDemandBaseCapacity()
 	ResetOnDemandPercentageAboveBaseCapacity()
@@ -128,6 +132,26 @@ func (j *jsiiProxy_AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistr
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributionOutputReference) DistributionSegments() AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributionDistributionSegmentsList {
+	var returns AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributionDistributionSegmentsList
+	_jsii_.Get(
+		j,
+		"distributionSegments",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributionOutputReference) DistributionSegmentsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"distributionSegmentsInput",
 		&returns,
 	)
 	return returns
@@ -626,6 +650,25 @@ func (a *jsiiProxy_AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistr
 	)
 
 	return returns
+}
+
+func (a *jsiiProxy_AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributionOutputReference) PutDistributionSegments(value interface{}) {
+	if err := a.validatePutDistributionSegmentsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putDistributionSegments",
+		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributionOutputReference) ResetDistributionSegments() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDistributionSegments",
+		nil, // no parameters
+	)
 }
 
 func (a *jsiiProxy_AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributionOutputReference) ResetOnDemandAllocationStrategy() {

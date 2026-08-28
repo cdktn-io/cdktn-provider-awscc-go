@@ -24,23 +24,23 @@ type ConnectPredefinedAttributeConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The identifier of the Amazon Connect instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_predefined_attribute#instance_arn ConnectPredefinedAttribute#instance_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_predefined_attribute#instance_arn ConnectPredefinedAttribute#instance_arn}
 	InstanceArn *string `field:"required" json:"instanceArn" yaml:"instanceArn"`
 	// The name of the predefined attribute.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_predefined_attribute#name ConnectPredefinedAttribute#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_predefined_attribute#name ConnectPredefinedAttribute#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Custom metadata associated to a Predefined attribute that controls how the attribute behaves when used by upstream services.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_predefined_attribute#attribute_configuration ConnectPredefinedAttribute#attribute_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_predefined_attribute#attribute_configuration ConnectPredefinedAttribute#attribute_configuration}
 	AttributeConfiguration *ConnectPredefinedAttributeAttributeConfiguration `field:"optional" json:"attributeConfiguration" yaml:"attributeConfiguration"`
 	// The assigned purposes of the predefined attribute.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_predefined_attribute#purposes ConnectPredefinedAttribute#purposes}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_predefined_attribute#purposes ConnectPredefinedAttribute#purposes}
 	Purposes *[]*string `field:"optional" json:"purposes" yaml:"purposes"`
 	// The values of a predefined attribute.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/connect_predefined_attribute#values ConnectPredefinedAttribute#values}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_predefined_attribute#values ConnectPredefinedAttribute#values}
 	Values *ConnectPredefinedAttributeValues `field:"optional" json:"values" yaml:"values"`
 }
 

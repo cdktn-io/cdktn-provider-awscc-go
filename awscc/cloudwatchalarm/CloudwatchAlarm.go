@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_alarm awscc_cloudwatch_alarm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_alarm awscc_cloudwatch_alarm}.
 type CloudwatchAlarm interface {
 	cdktn.TerraformResource
 	ActionsEnabled() interface{}
@@ -133,6 +133,8 @@ type CloudwatchAlarm interface {
 	Unit() *string
 	SetUnit(val *string)
 	UnitInput() *string
+	WarmUpConfiguration() CloudwatchAlarmWarmUpConfigurationOutputReference
+	WarmUpConfigurationInput() interface{}
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -217,6 +219,7 @@ type CloudwatchAlarm interface {
 	PutEvaluationWindow(value *CloudwatchAlarmEvaluationWindow)
 	PutMetrics(value interface{})
 	PutTags(value interface{})
+	PutWarmUpConfiguration(value *CloudwatchAlarmWarmUpConfiguration)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -258,6 +261,7 @@ type CloudwatchAlarm interface {
 	ResetThresholdMetricId()
 	ResetTreatMissingData()
 	ResetUnit()
+	ResetWarmUpConfiguration()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -965,8 +969,28 @@ func (j *jsiiProxy_CloudwatchAlarm) UnitInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_CloudwatchAlarm) WarmUpConfiguration() CloudwatchAlarmWarmUpConfigurationOutputReference {
+	var returns CloudwatchAlarmWarmUpConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"warmUpConfiguration",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_alarm awscc_cloudwatch_alarm} Resource.
+func (j *jsiiProxy_CloudwatchAlarm) WarmUpConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"warmUpConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_alarm awscc_cloudwatch_alarm} Resource.
 func NewCloudwatchAlarm(scope constructs.Construct, id *string, config *CloudwatchAlarmConfig) CloudwatchAlarm {
 	_init_.Initialize()
 
@@ -984,7 +1008,7 @@ func NewCloudwatchAlarm(scope constructs.Construct, id *string, config *Cloudwat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_alarm awscc_cloudwatch_alarm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_alarm awscc_cloudwatch_alarm} Resource.
 func NewCloudwatchAlarm_Override(c CloudwatchAlarm, scope constructs.Construct, id *string, config *CloudwatchAlarmConfig) {
 	_init_.Initialize()
 
@@ -1707,6 +1731,17 @@ func (c *jsiiProxy_CloudwatchAlarm) PutTags(value interface{}) {
 	)
 }
 
+func (c *jsiiProxy_CloudwatchAlarm) PutWarmUpConfiguration(value *CloudwatchAlarmWarmUpConfiguration) {
+	if err := c.validatePutWarmUpConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putWarmUpConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CloudwatchAlarm) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := c.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -1922,6 +1957,14 @@ func (c *jsiiProxy_CloudwatchAlarm) ResetUnit() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetUnit",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudwatchAlarm) ResetWarmUpConfiguration() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetWarmUpConfiguration",
 		nil, // no parameters
 	)
 }

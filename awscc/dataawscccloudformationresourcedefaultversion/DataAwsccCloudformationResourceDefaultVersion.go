@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudformation_resource_default_version awscc_cloudformation_resource_default_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_resource_default_version awscc_cloudformation_resource_default_version}.
 type DataAwsccCloudformationResourceDefaultVersion interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccCloudformationResourceDefaultVersion) VersionId() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudformation_resource_default_version awscc_cloudformation_resource_default_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_resource_default_version awscc_cloudformation_resource_default_version} Data Source.
 func NewDataAwsccCloudformationResourceDefaultVersion(scope constructs.Construct, id *string, config *DataAwsccCloudformationResourceDefaultVersionConfig) DataAwsccCloudformationResourceDefaultVersion {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccCloudformationResourceDefaultVersion(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudformation_resource_default_version awscc_cloudformation_resource_default_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_resource_default_version awscc_cloudformation_resource_default_version} Data Source.
 func NewDataAwsccCloudformationResourceDefaultVersion_Override(d DataAwsccCloudformationResourceDefaultVersion, scope constructs.Construct, id *string, config *DataAwsccCloudformationResourceDefaultVersionConfig) {
 	_init_.Initialize()
 

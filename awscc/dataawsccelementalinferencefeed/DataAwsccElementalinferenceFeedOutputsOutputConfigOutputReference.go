@@ -29,7 +29,7 @@ type DataAwsccElementalinferenceFeedOutputsOutputConfigOutputReference interface
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	Cropping() *string
+	Cropping() DataAwsccElementalinferenceFeedOutputsOutputConfigCroppingOutputReference
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAwsccElementalinferenceFeedOutputsOutputConfig
@@ -122,8 +122,8 @@ func (j *jsiiProxy_DataAwsccElementalinferenceFeedOutputsOutputConfigOutputRefer
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsccElementalinferenceFeedOutputsOutputConfigOutputReference) Cropping() *string {
-	var returns *string
+func (j *jsiiProxy_DataAwsccElementalinferenceFeedOutputsOutputConfigOutputReference) Cropping() DataAwsccElementalinferenceFeedOutputsOutputConfigCroppingOutputReference {
+	var returns DataAwsccElementalinferenceFeedOutputsOutputConfigCroppingOutputReference
 	_jsii_.Get(
 		j,
 		"cropping",

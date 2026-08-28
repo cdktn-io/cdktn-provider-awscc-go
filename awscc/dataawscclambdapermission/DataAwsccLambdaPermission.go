@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lambda_permission awscc_lambda_permission}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lambda_permission awscc_lambda_permission}.
 type DataAwsccLambdaPermission interface {
 	cdktn.TerraformDataSource
 	Action() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccLambdaPermission) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lambda_permission awscc_lambda_permission} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lambda_permission awscc_lambda_permission} Data Source.
 func NewDataAwsccLambdaPermission(scope constructs.Construct, id *string, config *DataAwsccLambdaPermissionConfig) DataAwsccLambdaPermission {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccLambdaPermission(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lambda_permission awscc_lambda_permission} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lambda_permission awscc_lambda_permission} Data Source.
 func NewDataAwsccLambdaPermission_Override(d DataAwsccLambdaPermission, scope constructs.Construct, id *string, config *DataAwsccLambdaPermissionConfig) {
 	_init_.Initialize()
 

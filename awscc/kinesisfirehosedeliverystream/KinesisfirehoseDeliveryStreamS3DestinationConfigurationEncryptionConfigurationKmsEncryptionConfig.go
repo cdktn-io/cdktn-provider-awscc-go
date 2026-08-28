@@ -5,7 +5,7 @@ package kinesisfirehosedeliverystream
 
 
 type KinesisfirehoseDeliveryStreamS3DestinationConfigurationEncryptionConfigurationKmsEncryptionConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/kinesisfirehose_delivery_stream#awskms_key_arn KinesisfirehoseDeliveryStream#awskms_key_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kinesisfirehose_delivery_stream#awskms_key_arn KinesisfirehoseDeliveryStream#awskms_key_arn}.
 	AwskmsKeyArn *string `field:"optional" json:"awskmsKeyArn" yaml:"awskmsKeyArn"`
 }
 

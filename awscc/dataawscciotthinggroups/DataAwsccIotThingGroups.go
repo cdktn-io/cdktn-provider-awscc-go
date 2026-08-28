@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_thing_groups awscc_iot_thing_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_thing_groups awscc_iot_thing_groups}.
 type DataAwsccIotThingGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotThingGroups) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_thing_groups awscc_iot_thing_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_thing_groups awscc_iot_thing_groups} Data Source.
 func NewDataAwsccIotThingGroups(scope constructs.Construct, id *string, config *DataAwsccIotThingGroupsConfig) DataAwsccIotThingGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotThingGroups(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_thing_groups awscc_iot_thing_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_thing_groups awscc_iot_thing_groups} Data Source.
 func NewDataAwsccIotThingGroups_Override(d DataAwsccIotThingGroups, scope constructs.Construct, id *string, config *DataAwsccIotThingGroupsConfig) {
 	_init_.Initialize()
 

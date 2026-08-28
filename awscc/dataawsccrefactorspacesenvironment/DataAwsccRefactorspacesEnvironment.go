@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/refactorspaces_environment awscc_refactorspaces_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/refactorspaces_environment awscc_refactorspaces_environment}.
 type DataAwsccRefactorspacesEnvironment interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccRefactorspacesEnvironment) TransitGatewayId() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/refactorspaces_environment awscc_refactorspaces_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/refactorspaces_environment awscc_refactorspaces_environment} Data Source.
 func NewDataAwsccRefactorspacesEnvironment(scope constructs.Construct, id *string, config *DataAwsccRefactorspacesEnvironmentConfig) DataAwsccRefactorspacesEnvironment {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccRefactorspacesEnvironment(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/refactorspaces_environment awscc_refactorspaces_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/refactorspaces_environment awscc_refactorspaces_environment} Data Source.
 func NewDataAwsccRefactorspacesEnvironment_Override(d DataAwsccRefactorspacesEnvironment, scope constructs.Construct, id *string, config *DataAwsccRefactorspacesEnvironmentConfig) {
 	_init_.Initialize()
 

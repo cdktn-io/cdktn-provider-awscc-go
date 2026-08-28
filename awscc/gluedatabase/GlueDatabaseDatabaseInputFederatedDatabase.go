@@ -7,11 +7,11 @@ package gluedatabase
 type GlueDatabaseDatabaseInputFederatedDatabase struct {
 	// The name of the connection to the external metastore.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_database#connection_name GlueDatabase#connection_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#connection_name GlueDatabase#connection_name}
 	ConnectionName *string `field:"optional" json:"connectionName" yaml:"connectionName"`
 	// A unique identifier for the federated database.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_database#identifier GlueDatabase#identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#identifier GlueDatabase#identifier}
 	Identifier *string `field:"optional" json:"identifier" yaml:"identifier"`
 }
 

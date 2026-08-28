@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/resourceexplorer2_indices awscc_resourceexplorer2_indices}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/resourceexplorer2_indices awscc_resourceexplorer2_indices}.
 type DataAwsccResourceexplorer2Indices interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccResourceexplorer2Indices) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/resourceexplorer2_indices awscc_resourceexplorer2_indices} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/resourceexplorer2_indices awscc_resourceexplorer2_indices} Data Source.
 func NewDataAwsccResourceexplorer2Indices(scope constructs.Construct, id *string, config *DataAwsccResourceexplorer2IndicesConfig) DataAwsccResourceexplorer2Indices {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccResourceexplorer2Indices(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/resourceexplorer2_indices awscc_resourceexplorer2_indices} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/resourceexplorer2_indices awscc_resourceexplorer2_indices} Data Source.
 func NewDataAwsccResourceexplorer2Indices_Override(d DataAwsccResourceexplorer2Indices, scope constructs.Construct, id *string, config *DataAwsccResourceexplorer2IndicesConfig) {
 	_init_.Initialize()
 

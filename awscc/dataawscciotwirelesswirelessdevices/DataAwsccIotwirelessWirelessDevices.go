@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotwireless_wireless_devices awscc_iotwireless_wireless_devices}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotwireless_wireless_devices awscc_iotwireless_wireless_devices}.
 type DataAwsccIotwirelessWirelessDevices interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotwirelessWirelessDevices) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotwireless_wireless_devices awscc_iotwireless_wireless_devices} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotwireless_wireless_devices awscc_iotwireless_wireless_devices} Data Source.
 func NewDataAwsccIotwirelessWirelessDevices(scope constructs.Construct, id *string, config *DataAwsccIotwirelessWirelessDevicesConfig) DataAwsccIotwirelessWirelessDevices {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotwirelessWirelessDevices(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotwireless_wireless_devices awscc_iotwireless_wireless_devices} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotwireless_wireless_devices awscc_iotwireless_wireless_devices} Data Source.
 func NewDataAwsccIotwirelessWirelessDevices_Override(d DataAwsccIotwirelessWirelessDevices, scope constructs.Construct, id *string, config *DataAwsccIotwirelessWirelessDevicesConfig) {
 	_init_.Initialize()
 

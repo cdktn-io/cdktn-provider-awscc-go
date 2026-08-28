@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/chime_channel_flow awscc_chime_channel_flow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/chime_channel_flow awscc_chime_channel_flow}.
 type DataAwsccChimeChannelFlow interface {
 	cdktn.TerraformDataSource
 	AppInstanceArn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccChimeChannelFlow) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/chime_channel_flow awscc_chime_channel_flow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/chime_channel_flow awscc_chime_channel_flow} Data Source.
 func NewDataAwsccChimeChannelFlow(scope constructs.Construct, id *string, config *DataAwsccChimeChannelFlowConfig) DataAwsccChimeChannelFlow {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccChimeChannelFlow(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/chime_channel_flow awscc_chime_channel_flow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/chime_channel_flow awscc_chime_channel_flow} Data Source.
 func NewDataAwsccChimeChannelFlow_Override(d DataAwsccChimeChannelFlow, scope constructs.Construct, id *string, config *DataAwsccChimeChannelFlowConfig) {
 	_init_.Initialize()
 

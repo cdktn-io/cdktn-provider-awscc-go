@@ -24,15 +24,15 @@ type Route53RecoverycontrolClusterConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Name of a Cluster. You can use any non-white space character in the name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53recoverycontrol_cluster#name Route53RecoverycontrolCluster#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53recoverycontrol_cluster#name Route53RecoverycontrolCluster#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Cluster supports IPv4 endpoints and Dual-stack IPv4 and IPv6 endpoints. NetworkType can be IPV4 or DUALSTACK.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53recoverycontrol_cluster#network_type Route53RecoverycontrolCluster#network_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53recoverycontrol_cluster#network_type Route53RecoverycontrolCluster#network_type}
 	NetworkType *string `field:"optional" json:"networkType" yaml:"networkType"`
 	// A collection of tags associated with a resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53recoverycontrol_cluster#tags Route53RecoverycontrolCluster#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53recoverycontrol_cluster#tags Route53RecoverycontrolCluster#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

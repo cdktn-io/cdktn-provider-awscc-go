@@ -5,9 +5,9 @@ package outpostssite
 
 
 type OutpostsSiteTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/outposts_site#key OutpostsSite#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/outposts_site#key OutpostsSite#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/outposts_site#value OutpostsSite#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/outposts_site#value OutpostsSite#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

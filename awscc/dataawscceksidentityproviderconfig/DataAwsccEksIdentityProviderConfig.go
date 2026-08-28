@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/eks_identity_provider_config awscc_eks_identity_provider_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/eks_identity_provider_config awscc_eks_identity_provider_config}.
 type DataAwsccEksIdentityProviderConfig interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccEksIdentityProviderConfig) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/eks_identity_provider_config awscc_eks_identity_provider_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/eks_identity_provider_config awscc_eks_identity_provider_config} Data Source.
 func NewDataAwsccEksIdentityProviderConfig(scope constructs.Construct, id *string, config *DataAwsccEksIdentityProviderConfigConfig) DataAwsccEksIdentityProviderConfig {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccEksIdentityProviderConfig(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/eks_identity_provider_config awscc_eks_identity_provider_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/eks_identity_provider_config awscc_eks_identity_provider_config} Data Source.
 func NewDataAwsccEksIdentityProviderConfig_Override(d DataAwsccEksIdentityProviderConfig, scope constructs.Construct, id *string, config *DataAwsccEksIdentityProviderConfigConfig) {
 	_init_.Initialize()
 

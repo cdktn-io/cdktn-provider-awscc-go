@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lex_resource_policies awscc_lex_resource_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lex_resource_policies awscc_lex_resource_policies}.
 type DataAwsccLexResourcePolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLexResourcePolicies) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lex_resource_policies awscc_lex_resource_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lex_resource_policies awscc_lex_resource_policies} Data Source.
 func NewDataAwsccLexResourcePolicies(scope constructs.Construct, id *string, config *DataAwsccLexResourcePoliciesConfig) DataAwsccLexResourcePolicies {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLexResourcePolicies(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/lex_resource_policies awscc_lex_resource_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lex_resource_policies awscc_lex_resource_policies} Data Source.
 func NewDataAwsccLexResourcePolicies_Override(d DataAwsccLexResourcePolicies, scope constructs.Construct, id *string, config *DataAwsccLexResourcePoliciesConfig) {
 	_init_.Initialize()
 

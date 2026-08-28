@@ -51,6 +51,10 @@ func (e *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigOutputReference) val
 	return nil
 }
 
+func (e *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigOutputReference) validatePutCroppingParameters(value *ElementalinferenceFeedOutputsOutputConfigCropping) error {
+	return nil
+}
+
 func (e *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigOutputReference) validatePutSubtitlingParameters(value *ElementalinferenceFeedOutputsOutputConfigSubtitling) error {
 	return nil
 }
@@ -64,10 +68,6 @@ func (j *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigOutputReference) val
 }
 
 func (j *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
-	return nil
-}
-
-func (j *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigOutputReference) validateSetCroppingParameters(val *string) error {
 	return nil
 }
 

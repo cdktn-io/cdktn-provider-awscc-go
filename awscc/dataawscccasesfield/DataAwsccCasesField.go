@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cases_field awscc_cases_field}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cases_field awscc_cases_field}.
 type DataAwsccCasesField interface {
 	cdktn.TerraformDataSource
 	Attributes() DataAwsccCasesFieldAttributesOutputReference
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccCasesField) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cases_field awscc_cases_field} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cases_field awscc_cases_field} Data Source.
 func NewDataAwsccCasesField(scope constructs.Construct, id *string, config *DataAwsccCasesFieldConfig) DataAwsccCasesField {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccCasesField(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cases_field awscc_cases_field} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cases_field awscc_cases_field} Data Source.
 func NewDataAwsccCasesField_Override(d DataAwsccCasesField, scope constructs.Construct, id *string, config *DataAwsccCasesFieldConfig) {
 	_init_.Initialize()
 

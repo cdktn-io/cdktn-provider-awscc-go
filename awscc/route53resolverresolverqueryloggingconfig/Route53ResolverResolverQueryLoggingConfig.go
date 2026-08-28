@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53resolver_resolver_query_logging_config awscc_route53resolver_resolver_query_logging_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53resolver_resolver_query_logging_config awscc_route53resolver_resolver_query_logging_config}.
 type Route53ResolverResolverQueryLoggingConfig interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -515,7 +515,7 @@ func (j *jsiiProxy_Route53ResolverResolverQueryLoggingConfig) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53resolver_resolver_query_logging_config awscc_route53resolver_resolver_query_logging_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53resolver_resolver_query_logging_config awscc_route53resolver_resolver_query_logging_config} Resource.
 func NewRoute53ResolverResolverQueryLoggingConfig(scope constructs.Construct, id *string, config *Route53ResolverResolverQueryLoggingConfigConfig) Route53ResolverResolverQueryLoggingConfig {
 	_init_.Initialize()
 
@@ -533,7 +533,7 @@ func NewRoute53ResolverResolverQueryLoggingConfig(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53resolver_resolver_query_logging_config awscc_route53resolver_resolver_query_logging_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53resolver_resolver_query_logging_config awscc_route53resolver_resolver_query_logging_config} Resource.
 func NewRoute53ResolverResolverQueryLoggingConfig_Override(r Route53ResolverResolverQueryLoggingConfig, scope constructs.Construct, id *string, config *Route53ResolverResolverQueryLoggingConfigConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/healthlake_fhir_datastore awscc_healthlake_fhir_datastore}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/healthlake_fhir_datastore awscc_healthlake_fhir_datastore}.
 type DataAwsccHealthlakeFhirDatastore interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccHealthlakeFhirDatastore) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/healthlake_fhir_datastore awscc_healthlake_fhir_datastore} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/healthlake_fhir_datastore awscc_healthlake_fhir_datastore} Data Source.
 func NewDataAwsccHealthlakeFhirDatastore(scope constructs.Construct, id *string, config *DataAwsccHealthlakeFhirDatastoreConfig) DataAwsccHealthlakeFhirDatastore {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccHealthlakeFhirDatastore(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/healthlake_fhir_datastore awscc_healthlake_fhir_datastore} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/healthlake_fhir_datastore awscc_healthlake_fhir_datastore} Data Source.
 func NewDataAwsccHealthlakeFhirDatastore_Override(d DataAwsccHealthlakeFhirDatastore, scope constructs.Construct, id *string, config *DataAwsccHealthlakeFhirDatastoreConfig) {
 	_init_.Initialize()
 

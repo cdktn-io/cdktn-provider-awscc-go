@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/qbusiness_web_experience awscc_qbusiness_web_experience}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/qbusiness_web_experience awscc_qbusiness_web_experience}.
 type DataAwsccQbusinessWebExperience interface {
 	cdktn.TerraformDataSource
 	ApplicationId() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccQbusinessWebExperience) WelcomeMessage() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/qbusiness_web_experience awscc_qbusiness_web_experience} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/qbusiness_web_experience awscc_qbusiness_web_experience} Data Source.
 func NewDataAwsccQbusinessWebExperience(scope constructs.Construct, id *string, config *DataAwsccQbusinessWebExperienceConfig) DataAwsccQbusinessWebExperience {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccQbusinessWebExperience(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/qbusiness_web_experience awscc_qbusiness_web_experience} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/qbusiness_web_experience awscc_qbusiness_web_experience} Data Source.
 func NewDataAwsccQbusinessWebExperience_Override(d DataAwsccQbusinessWebExperience, scope constructs.Construct, id *string, config *DataAwsccQbusinessWebExperienceConfig) {
 	_init_.Initialize()
 

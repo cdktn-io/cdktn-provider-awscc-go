@@ -30,9 +30,8 @@ type ElementalinferenceFeedOutputsOutputConfigOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	Cropping() *string
-	SetCropping(val *string)
-	CroppingInput() *string
+	Cropping() ElementalinferenceFeedOutputsOutputConfigCroppingOutputReference
+	CroppingInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -72,6 +71,7 @@ type ElementalinferenceFeedOutputsOutputConfigOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutClipping(value *ElementalinferenceFeedOutputsOutputConfigClipping)
+	PutCropping(value *ElementalinferenceFeedOutputsOutputConfigCropping)
 	PutSubtitling(value *ElementalinferenceFeedOutputsOutputConfigSubtitling)
 	ResetClipping()
 	ResetCropping()
@@ -141,8 +141,8 @@ func (j *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigOutputReference) Cre
 	return returns
 }
 
-func (j *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigOutputReference) Cropping() *string {
-	var returns *string
+func (j *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigOutputReference) Cropping() ElementalinferenceFeedOutputsOutputConfigCroppingOutputReference {
+	var returns ElementalinferenceFeedOutputsOutputConfigCroppingOutputReference
 	_jsii_.Get(
 		j,
 		"cropping",
@@ -151,8 +151,8 @@ func (j *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigOutputReference) Cro
 	return returns
 }
 
-func (j *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigOutputReference) CroppingInput() *string {
-	var returns *string
+func (j *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigOutputReference) CroppingInput() interface{} {
+	var returns interface{}
 	_jsii_.Get(
 		j,
 		"croppingInput",
@@ -267,17 +267,6 @@ func (j *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigOutputReference)SetC
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
-		val,
-	)
-}
-
-func (j *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigOutputReference)SetCropping(val *string) {
-	if err := j.validateSetCroppingParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"cropping",
 		val,
 	)
 }
@@ -508,6 +497,17 @@ func (e *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigOutputReference) Put
 	_jsii_.InvokeVoid(
 		e,
 		"putClipping",
+		[]interface{}{value},
+	)
+}
+
+func (e *jsiiProxy_ElementalinferenceFeedOutputsOutputConfigOutputReference) PutCropping(value *ElementalinferenceFeedOutputsOutputConfigCropping) {
+	if err := e.validatePutCroppingParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putCropping",
 		[]interface{}{value},
 	)
 }

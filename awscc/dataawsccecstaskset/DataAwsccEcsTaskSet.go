@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ecs_task_set awscc_ecs_task_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecs_task_set awscc_ecs_task_set}.
 type DataAwsccEcsTaskSet interface {
 	cdktn.TerraformDataSource
 	CapacityProviderStrategy() DataAwsccEcsTaskSetCapacityProviderStrategyList
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccEcsTaskSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ecs_task_set awscc_ecs_task_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecs_task_set awscc_ecs_task_set} Data Source.
 func NewDataAwsccEcsTaskSet(scope constructs.Construct, id *string, config *DataAwsccEcsTaskSetConfig) DataAwsccEcsTaskSet {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccEcsTaskSet(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ecs_task_set awscc_ecs_task_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecs_task_set awscc_ecs_task_set} Data Source.
 func NewDataAwsccEcsTaskSet_Override(d DataAwsccEcsTaskSet, scope constructs.Construct, id *string, config *DataAwsccEcsTaskSetConfig) {
 	_init_.Initialize()
 

@@ -5,7 +5,7 @@ package sagemakerspace
 
 
 type SagemakerSpaceSpaceSettingsJupyterLabAppSettingsAppLifecycleManagement struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/sagemaker_space#idle_settings SagemakerSpace#idle_settings}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_space#idle_settings SagemakerSpace#idle_settings}.
 	IdleSettings *SagemakerSpaceSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettings `field:"optional" json:"idleSettings" yaml:"idleSettings"`
 }
 

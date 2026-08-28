@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_dashboard awscc_cloudwatch_dashboard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_dashboard awscc_cloudwatch_dashboard}.
 type CloudwatchDashboard interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -426,7 +426,7 @@ func (j *jsiiProxy_CloudwatchDashboard) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_dashboard awscc_cloudwatch_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_dashboard awscc_cloudwatch_dashboard} Resource.
 func NewCloudwatchDashboard(scope constructs.Construct, id *string, config *CloudwatchDashboardConfig) CloudwatchDashboard {
 	_init_.Initialize()
 
@@ -444,7 +444,7 @@ func NewCloudwatchDashboard(scope constructs.Construct, id *string, config *Clou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cloudwatch_dashboard awscc_cloudwatch_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudwatch_dashboard awscc_cloudwatch_dashboard} Resource.
 func NewCloudwatchDashboard_Override(c CloudwatchDashboard, scope constructs.Construct, id *string, config *CloudwatchDashboardConfig) {
 	_init_.Initialize()
 

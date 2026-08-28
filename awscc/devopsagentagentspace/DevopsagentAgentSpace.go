@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_agent_space awscc_devopsagent_agent_space}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_agent_space awscc_devopsagent_agent_space}.
 type DevopsagentAgentSpace interface {
 	cdktn.TerraformResource
 	AgentSpaceId() *string
@@ -542,7 +542,7 @@ func (j *jsiiProxy_DevopsagentAgentSpace) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_agent_space awscc_devopsagent_agent_space} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_agent_space awscc_devopsagent_agent_space} Resource.
 func NewDevopsagentAgentSpace(scope constructs.Construct, id *string, config *DevopsagentAgentSpaceConfig) DevopsagentAgentSpace {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewDevopsagentAgentSpace(scope constructs.Construct, id *string, config *De
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/devopsagent_agent_space awscc_devopsagent_agent_space} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_agent_space awscc_devopsagent_agent_space} Resource.
 func NewDevopsagentAgentSpace_Override(d DevopsagentAgentSpace, scope constructs.Construct, id *string, config *DevopsagentAgentSpaceConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_agent awscc_quicksight_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_agent awscc_quicksight_agent}.
 type DataAwsccQuicksightAgent interface {
 	cdktn.TerraformDataSource
 	ActionConnectors() *[]*string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_DataAwsccQuicksightAgent) WelcomeMessage() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_agent awscc_quicksight_agent} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_agent awscc_quicksight_agent} Data Source.
 func NewDataAwsccQuicksightAgent(scope constructs.Construct, id *string, config *DataAwsccQuicksightAgentConfig) DataAwsccQuicksightAgent {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewDataAwsccQuicksightAgent(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/quicksight_agent awscc_quicksight_agent} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_agent awscc_quicksight_agent} Data Source.
 func NewDataAwsccQuicksightAgent_Override(d DataAwsccQuicksightAgent, scope constructs.Construct, id *string, config *DataAwsccQuicksightAgentConfig) {
 	_init_.Initialize()
 

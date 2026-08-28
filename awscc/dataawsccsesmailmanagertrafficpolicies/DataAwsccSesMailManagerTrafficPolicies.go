@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ses_mail_manager_traffic_policies awscc_ses_mail_manager_traffic_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_mail_manager_traffic_policies awscc_ses_mail_manager_traffic_policies}.
 type DataAwsccSesMailManagerTrafficPolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSesMailManagerTrafficPolicies) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ses_mail_manager_traffic_policies awscc_ses_mail_manager_traffic_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_mail_manager_traffic_policies awscc_ses_mail_manager_traffic_policies} Data Source.
 func NewDataAwsccSesMailManagerTrafficPolicies(scope constructs.Construct, id *string, config *DataAwsccSesMailManagerTrafficPoliciesConfig) DataAwsccSesMailManagerTrafficPolicies {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSesMailManagerTrafficPolicies(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ses_mail_manager_traffic_policies awscc_ses_mail_manager_traffic_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_mail_manager_traffic_policies awscc_ses_mail_manager_traffic_policies} Data Source.
 func NewDataAwsccSesMailManagerTrafficPolicies_Override(d DataAwsccSesMailManagerTrafficPolicies, scope constructs.Construct, id *string, config *DataAwsccSesMailManagerTrafficPoliciesConfig) {
 	_init_.Initialize()
 

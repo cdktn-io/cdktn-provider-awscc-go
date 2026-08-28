@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_model_explainability_job_definitions awscc_sagemaker_model_explainability_job_definitions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_model_explainability_job_definitions awscc_sagemaker_model_explainability_job_definitions}.
 type DataAwsccSagemakerModelExplainabilityJobDefinitions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSagemakerModelExplainabilityJobDefinitions) Terrafor
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_model_explainability_job_definitions awscc_sagemaker_model_explainability_job_definitions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_model_explainability_job_definitions awscc_sagemaker_model_explainability_job_definitions} Data Source.
 func NewDataAwsccSagemakerModelExplainabilityJobDefinitions(scope constructs.Construct, id *string, config *DataAwsccSagemakerModelExplainabilityJobDefinitionsConfig) DataAwsccSagemakerModelExplainabilityJobDefinitions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSagemakerModelExplainabilityJobDefinitions(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/sagemaker_model_explainability_job_definitions awscc_sagemaker_model_explainability_job_definitions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_model_explainability_job_definitions awscc_sagemaker_model_explainability_job_definitions} Data Source.
 func NewDataAwsccSagemakerModelExplainabilityJobDefinitions_Override(d DataAwsccSagemakerModelExplainabilityJobDefinitions, scope constructs.Construct, id *string, config *DataAwsccSagemakerModelExplainabilityJobDefinitionsConfig) {
 	_init_.Initialize()
 

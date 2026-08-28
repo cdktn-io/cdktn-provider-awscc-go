@@ -24,23 +24,23 @@ type AthenaNamedQueryConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The database to which the query belongs.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/athena_named_query#database AthenaNamedQuery#database}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/athena_named_query#database AthenaNamedQuery#database}
 	Database *string `field:"required" json:"database" yaml:"database"`
 	// The contents of the query with all query statements.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/athena_named_query#query_string AthenaNamedQuery#query_string}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/athena_named_query#query_string AthenaNamedQuery#query_string}
 	QueryString *string `field:"required" json:"queryString" yaml:"queryString"`
 	// The query description.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/athena_named_query#description AthenaNamedQuery#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/athena_named_query#description AthenaNamedQuery#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The query name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/athena_named_query#name AthenaNamedQuery#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/athena_named_query#name AthenaNamedQuery#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// The name of the workgroup that contains the named query.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/athena_named_query#work_group AthenaNamedQuery#work_group}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/athena_named_query#work_group AthenaNamedQuery#work_group}
 	WorkGroup *string `field:"optional" json:"workGroup" yaml:"workGroup"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ses_receipt_rule_sets awscc_ses_receipt_rule_sets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_receipt_rule_sets awscc_ses_receipt_rule_sets}.
 type DataAwsccSesReceiptRuleSets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSesReceiptRuleSets) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ses_receipt_rule_sets awscc_ses_receipt_rule_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_receipt_rule_sets awscc_ses_receipt_rule_sets} Data Source.
 func NewDataAwsccSesReceiptRuleSets(scope constructs.Construct, id *string, config *DataAwsccSesReceiptRuleSetsConfig) DataAwsccSesReceiptRuleSets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSesReceiptRuleSets(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/ses_receipt_rule_sets awscc_ses_receipt_rule_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ses_receipt_rule_sets awscc_ses_receipt_rule_sets} Data Source.
 func NewDataAwsccSesReceiptRuleSets_Override(d DataAwsccSesReceiptRuleSets, scope constructs.Construct, id *string, config *DataAwsccSesReceiptRuleSetsConfig) {
 	_init_.Initialize()
 

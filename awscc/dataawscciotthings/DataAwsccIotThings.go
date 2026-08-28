@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_things awscc_iot_things}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_things awscc_iot_things}.
 type DataAwsccIotThings interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotThings) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_things awscc_iot_things} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_things awscc_iot_things} Data Source.
 func NewDataAwsccIotThings(scope constructs.Construct, id *string, config *DataAwsccIotThingsConfig) DataAwsccIotThings {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotThings(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iot_things awscc_iot_things} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_things awscc_iot_things} Data Source.
 func NewDataAwsccIotThings_Override(d DataAwsccIotThings, scope constructs.Construct, id *string, config *DataAwsccIotThingsConfig) {
 	_init_.Initialize()
 

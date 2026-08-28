@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/kinesisvideo_signaling_channel awscc_kinesisvideo_signaling_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/kinesisvideo_signaling_channel awscc_kinesisvideo_signaling_channel}.
 type DataAwsccKinesisvideoSignalingChannel interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccKinesisvideoSignalingChannel) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/kinesisvideo_signaling_channel awscc_kinesisvideo_signaling_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/kinesisvideo_signaling_channel awscc_kinesisvideo_signaling_channel} Data Source.
 func NewDataAwsccKinesisvideoSignalingChannel(scope constructs.Construct, id *string, config *DataAwsccKinesisvideoSignalingChannelConfig) DataAwsccKinesisvideoSignalingChannel {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccKinesisvideoSignalingChannel(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/kinesisvideo_signaling_channel awscc_kinesisvideo_signaling_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/kinesisvideo_signaling_channel awscc_kinesisvideo_signaling_channel} Data Source.
 func NewDataAwsccKinesisvideoSignalingChannel_Override(d DataAwsccKinesisvideoSignalingChannel, scope constructs.Construct, id *string, config *DataAwsccKinesisvideoSignalingChannelConfig) {
 	_init_.Initialize()
 

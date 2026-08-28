@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_record_set awscc_route53_record_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53_record_set awscc_route53_record_set}.
 type DataAwsccRoute53RecordSet interface {
 	cdktn.TerraformDataSource
 	AliasTarget() DataAwsccRoute53RecordSetAliasTargetOutputReference
@@ -40,7 +40,6 @@ type DataAwsccRoute53RecordSet interface {
 	// Experimental.
 	FriendlyUniqueId() *string
 	GeoLocation() DataAwsccRoute53RecordSetGeoLocationOutputReference
-	GeoProximityLocation() DataAwsccRoute53RecordSetGeoProximityLocationOutputReference
 	HealthCheckId() *string
 	HostedZoneId() *string
 	HostedZoneName() *string
@@ -61,7 +60,6 @@ type DataAwsccRoute53RecordSet interface {
 	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
-	RecordSetId() *string
 	Region() *string
 	ResourceRecords() *[]*string
 	SetIdentifier() *string
@@ -263,16 +261,6 @@ func (j *jsiiProxy_DataAwsccRoute53RecordSet) GeoLocation() DataAwsccRoute53Reco
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsccRoute53RecordSet) GeoProximityLocation() DataAwsccRoute53RecordSetGeoProximityLocationOutputReference {
-	var returns DataAwsccRoute53RecordSetGeoProximityLocationOutputReference
-	_jsii_.Get(
-		j,
-		"geoProximityLocation",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_DataAwsccRoute53RecordSet) HealthCheckId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -383,16 +371,6 @@ func (j *jsiiProxy_DataAwsccRoute53RecordSet) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsccRoute53RecordSet) RecordSetId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"recordSetId",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_DataAwsccRoute53RecordSet) Region() *string {
 	var returns *string
 	_jsii_.Get(
@@ -484,7 +462,7 @@ func (j *jsiiProxy_DataAwsccRoute53RecordSet) Weight() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_record_set awscc_route53_record_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53_record_set awscc_route53_record_set} Data Source.
 func NewDataAwsccRoute53RecordSet(scope constructs.Construct, id *string, config *DataAwsccRoute53RecordSetConfig) DataAwsccRoute53RecordSet {
 	_init_.Initialize()
 
@@ -502,7 +480,7 @@ func NewDataAwsccRoute53RecordSet(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_record_set awscc_route53_record_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53_record_set awscc_route53_record_set} Data Source.
 func NewDataAwsccRoute53RecordSet_Override(d DataAwsccRoute53RecordSet, scope constructs.Construct, id *string, config *DataAwsccRoute53RecordSetConfig) {
 	_init_.Initialize()
 

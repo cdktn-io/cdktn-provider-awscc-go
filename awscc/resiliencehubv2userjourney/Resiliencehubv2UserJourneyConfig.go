@@ -24,19 +24,19 @@ type Resiliencehubv2UserJourneyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the user journey.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_user_journey#name Resiliencehubv2UserJourney#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resiliencehubv2_user_journey#name Resiliencehubv2UserJourney#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The system ARN or system ID that owns this user journey.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_user_journey#system_identifier Resiliencehubv2UserJourney#system_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resiliencehubv2_user_journey#system_identifier Resiliencehubv2UserJourney#system_identifier}
 	SystemIdentifier *string `field:"required" json:"systemIdentifier" yaml:"systemIdentifier"`
 	// The description of the user journey.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_user_journey#description Resiliencehubv2UserJourney#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resiliencehubv2_user_journey#description Resiliencehubv2UserJourney#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The ARN of the resilience policy to associate with this user journey.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/resiliencehubv2_user_journey#policy_arn Resiliencehubv2UserJourney#policy_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resiliencehubv2_user_journey#policy_arn Resiliencehubv2UserJourney#policy_arn}
 	PolicyArn *string `field:"optional" json:"policyArn" yaml:"policyArn"`
 }
 

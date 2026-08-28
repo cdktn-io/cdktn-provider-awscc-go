@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/detective_graph awscc_detective_graph}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/detective_graph awscc_detective_graph}.
 type DataAwsccDetectiveGraph interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccDetectiveGraph) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/detective_graph awscc_detective_graph} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/detective_graph awscc_detective_graph} Data Source.
 func NewDataAwsccDetectiveGraph(scope constructs.Construct, id *string, config *DataAwsccDetectiveGraphConfig) DataAwsccDetectiveGraph {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccDetectiveGraph(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/detective_graph awscc_detective_graph} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/detective_graph awscc_detective_graph} Data Source.
 func NewDataAwsccDetectiveGraph_Override(d DataAwsccDetectiveGraph, scope constructs.Construct, id *string, config *DataAwsccDetectiveGraphConfig) {
 	_init_.Initialize()
 

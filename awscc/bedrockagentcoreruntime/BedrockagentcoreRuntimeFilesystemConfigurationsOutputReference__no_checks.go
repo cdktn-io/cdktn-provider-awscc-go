@@ -47,6 +47,10 @@ func (b *jsiiProxy_BedrockagentcoreRuntimeFilesystemConfigurationsOutputReferenc
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreRuntimeFilesystemConfigurationsOutputReference) validatePutCapacityProviderVolumeParameters(value *BedrockagentcoreRuntimeFilesystemConfigurationsCapacityProviderVolume) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreRuntimeFilesystemConfigurationsOutputReference) validatePutEfsAccessPointParameters(value *BedrockagentcoreRuntimeFilesystemConfigurationsEfsAccessPoint) error {
 	return nil
 }

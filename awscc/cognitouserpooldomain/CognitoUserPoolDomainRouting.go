@@ -5,7 +5,7 @@ package cognitouserpooldomain
 
 
 type CognitoUserPoolDomainRouting struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/cognito_user_pool_domain#failover CognitoUserPoolDomain#failover}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cognito_user_pool_domain#failover CognitoUserPoolDomain#failover}.
 	Failover *CognitoUserPoolDomainRoutingFailover `field:"optional" json:"failover" yaml:"failover"`
 }
 

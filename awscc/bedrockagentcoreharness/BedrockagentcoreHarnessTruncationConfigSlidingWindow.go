@@ -5,7 +5,7 @@ package bedrockagentcoreharness
 
 
 type BedrockagentcoreHarnessTruncationConfigSlidingWindow struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_harness#messages_count BedrockagentcoreHarness#messages_count}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_harness#messages_count BedrockagentcoreHarness#messages_count}.
 	MessagesCount *float64 `field:"optional" json:"messagesCount" yaml:"messagesCount"`
 }
 

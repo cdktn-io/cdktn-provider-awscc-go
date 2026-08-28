@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/directconnect_direct_connect_gateways awscc_directconnect_direct_connect_gateways}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/directconnect_direct_connect_gateways awscc_directconnect_direct_connect_gateways}.
 type DataAwsccDirectconnectDirectConnectGateways interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDirectconnectDirectConnectGateways) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/directconnect_direct_connect_gateways awscc_directconnect_direct_connect_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/directconnect_direct_connect_gateways awscc_directconnect_direct_connect_gateways} Data Source.
 func NewDataAwsccDirectconnectDirectConnectGateways(scope constructs.Construct, id *string, config *DataAwsccDirectconnectDirectConnectGatewaysConfig) DataAwsccDirectconnectDirectConnectGateways {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDirectconnectDirectConnectGateways(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/directconnect_direct_connect_gateways awscc_directconnect_direct_connect_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/directconnect_direct_connect_gateways awscc_directconnect_direct_connect_gateways} Data Source.
 func NewDataAwsccDirectconnectDirectConnectGateways_Override(d DataAwsccDirectconnectDirectConnectGateways, scope constructs.Construct, id *string, config *DataAwsccDirectconnectDirectConnectGatewaysConfig) {
 	_init_.Initialize()
 

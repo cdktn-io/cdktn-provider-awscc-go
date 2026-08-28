@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigateway_base_path_mapping awscc_apigateway_base_path_mapping}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigateway_base_path_mapping awscc_apigateway_base_path_mapping}.
 type DataAwsccApigatewayBasePathMapping interface {
 	cdktn.TerraformDataSource
 	BasePath() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccApigatewayBasePathMapping) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigateway_base_path_mapping awscc_apigateway_base_path_mapping} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigateway_base_path_mapping awscc_apigateway_base_path_mapping} Data Source.
 func NewDataAwsccApigatewayBasePathMapping(scope constructs.Construct, id *string, config *DataAwsccApigatewayBasePathMappingConfig) DataAwsccApigatewayBasePathMapping {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccApigatewayBasePathMapping(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/apigateway_base_path_mapping awscc_apigateway_base_path_mapping} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigateway_base_path_mapping awscc_apigateway_base_path_mapping} Data Source.
 func NewDataAwsccApigatewayBasePathMapping_Override(d DataAwsccApigatewayBasePathMapping, scope constructs.Construct, id *string, config *DataAwsccApigatewayBasePathMappingConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/backup_restore_testing_plans awscc_backup_restore_testing_plans}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/backup_restore_testing_plans awscc_backup_restore_testing_plans}.
 type DataAwsccBackupRestoreTestingPlans interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBackupRestoreTestingPlans) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/backup_restore_testing_plans awscc_backup_restore_testing_plans} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/backup_restore_testing_plans awscc_backup_restore_testing_plans} Data Source.
 func NewDataAwsccBackupRestoreTestingPlans(scope constructs.Construct, id *string, config *DataAwsccBackupRestoreTestingPlansConfig) DataAwsccBackupRestoreTestingPlans {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBackupRestoreTestingPlans(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/backup_restore_testing_plans awscc_backup_restore_testing_plans} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/backup_restore_testing_plans awscc_backup_restore_testing_plans} Data Source.
 func NewDataAwsccBackupRestoreTestingPlans_Override(d DataAwsccBackupRestoreTestingPlans, scope constructs.Construct, id *string, config *DataAwsccBackupRestoreTestingPlansConfig) {
 	_init_.Initialize()
 

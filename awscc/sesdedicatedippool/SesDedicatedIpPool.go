@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_dedicated_ip_pool awscc_ses_dedicated_ip_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_dedicated_ip_pool awscc_ses_dedicated_ip_pool}.
 type SesDedicatedIpPool interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -427,7 +427,7 @@ func (j *jsiiProxy_SesDedicatedIpPool) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_dedicated_ip_pool awscc_ses_dedicated_ip_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_dedicated_ip_pool awscc_ses_dedicated_ip_pool} Resource.
 func NewSesDedicatedIpPool(scope constructs.Construct, id *string, config *SesDedicatedIpPoolConfig) SesDedicatedIpPool {
 	_init_.Initialize()
 
@@ -445,7 +445,7 @@ func NewSesDedicatedIpPool(scope constructs.Construct, id *string, config *SesDe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_dedicated_ip_pool awscc_ses_dedicated_ip_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_dedicated_ip_pool awscc_ses_dedicated_ip_pool} Resource.
 func NewSesDedicatedIpPool_Override(s SesDedicatedIpPool, scope constructs.Construct, id *string, config *SesDedicatedIpPoolConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_workload_identity awscc_bedrockagentcore_workload_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_workload_identity awscc_bedrockagentcore_workload_identity}.
 type DataAwsccBedrockagentcoreWorkloadIdentity interface {
 	cdktn.TerraformDataSource
 	AllowedResourceOauth2ReturnUrls() *[]*string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreWorkloadIdentity) WorkloadIdentityAr
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_workload_identity awscc_bedrockagentcore_workload_identity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_workload_identity awscc_bedrockagentcore_workload_identity} Data Source.
 func NewDataAwsccBedrockagentcoreWorkloadIdentity(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreWorkloadIdentityConfig) DataAwsccBedrockagentcoreWorkloadIdentity {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccBedrockagentcoreWorkloadIdentity(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_workload_identity awscc_bedrockagentcore_workload_identity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_workload_identity awscc_bedrockagentcore_workload_identity} Data Source.
 func NewDataAwsccBedrockagentcoreWorkloadIdentity_Override(d DataAwsccBedrockagentcoreWorkloadIdentity, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreWorkloadIdentityConfig) {
 	_init_.Initialize()
 

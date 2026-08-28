@@ -5,9 +5,9 @@ package s3expressdirectorybucket
 
 
 type S3ExpressDirectoryBucketTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3express_directory_bucket#key S3ExpressDirectoryBucket#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3express_directory_bucket#key S3ExpressDirectoryBucket#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3express_directory_bucket#value S3ExpressDirectoryBucket#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3express_directory_bucket#value S3ExpressDirectoryBucket#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

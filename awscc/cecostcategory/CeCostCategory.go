@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ce_cost_category awscc_ce_cost_category}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ce_cost_category awscc_ce_cost_category}.
 type CeCostCategory interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -518,7 +518,7 @@ func (j *jsiiProxy_CeCostCategory) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ce_cost_category awscc_ce_cost_category} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ce_cost_category awscc_ce_cost_category} Resource.
 func NewCeCostCategory(scope constructs.Construct, id *string, config *CeCostCategoryConfig) CeCostCategory {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewCeCostCategory(scope constructs.Construct, id *string, config *CeCostCat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ce_cost_category awscc_ce_cost_category} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ce_cost_category awscc_ce_cost_category} Resource.
 func NewCeCostCategory_Override(c CeCostCategory, scope constructs.Construct, id *string, config *CeCostCategoryConfig) {
 	_init_.Initialize()
 

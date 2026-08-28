@@ -22,11 +22,11 @@ type ApigatewayResourceConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_resource#parent_id ApigatewayResource#parent_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_resource#parent_id ApigatewayResource#parent_id}.
 	ParentId *string `field:"required" json:"parentId" yaml:"parentId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_resource#path_part ApigatewayResource#path_part}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_resource#path_part ApigatewayResource#path_part}.
 	PathPart *string `field:"required" json:"pathPart" yaml:"pathPart"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/apigateway_resource#rest_api_id ApigatewayResource#rest_api_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_resource#rest_api_id ApigatewayResource#rest_api_id}.
 	RestApiId *string `field:"required" json:"restApiId" yaml:"restApiId"`
 }
 

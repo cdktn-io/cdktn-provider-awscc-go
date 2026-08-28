@@ -47,6 +47,10 @@ func (a *jsiiProxy_AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistr
 	return nil
 }
 
+func (a *jsiiProxy_AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributionOutputReference) validatePutDistributionSegmentsParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

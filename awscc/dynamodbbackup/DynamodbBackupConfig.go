@@ -24,11 +24,11 @@ type DynamodbBackupConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name for the backup.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dynamodb_backup#backup_name DynamodbBackup#backup_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dynamodb_backup#backup_name DynamodbBackup#backup_name}
 	BackupName *string `field:"required" json:"backupName" yaml:"backupName"`
 	// The name of the table to back up.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dynamodb_backup#table_name DynamodbBackup#table_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dynamodb_backup#table_name DynamodbBackup#table_name}
 	TableName *string `field:"required" json:"tableName" yaml:"tableName"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_topic_v2 awscc_quicksight_topic_v2}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_topic_v2 awscc_quicksight_topic_v2}.
 type QuicksightTopicV2 interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -606,7 +606,7 @@ func (j *jsiiProxy_QuicksightTopicV2) TopicIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_topic_v2 awscc_quicksight_topic_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_topic_v2 awscc_quicksight_topic_v2} Resource.
 func NewQuicksightTopicV2(scope constructs.Construct, id *string, config *QuicksightTopicV2Config) QuicksightTopicV2 {
 	_init_.Initialize()
 
@@ -624,7 +624,7 @@ func NewQuicksightTopicV2(scope constructs.Construct, id *string, config *Quicks
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/quicksight_topic_v2 awscc_quicksight_topic_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_topic_v2 awscc_quicksight_topic_v2} Resource.
 func NewQuicksightTopicV2_Override(q QuicksightTopicV2, scope constructs.Construct, id *string, config *QuicksightTopicV2Config) {
 	_init_.Initialize()
 

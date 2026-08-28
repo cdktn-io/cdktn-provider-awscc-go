@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotwireless_task_definition awscc_iotwireless_task_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotwireless_task_definition awscc_iotwireless_task_definition}.
 type DataAwsccIotwirelessTaskDefinition interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccIotwirelessTaskDefinition) Update() DataAwsccIotwire
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotwireless_task_definition awscc_iotwireless_task_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotwireless_task_definition awscc_iotwireless_task_definition} Data Source.
 func NewDataAwsccIotwirelessTaskDefinition(scope constructs.Construct, id *string, config *DataAwsccIotwirelessTaskDefinitionConfig) DataAwsccIotwirelessTaskDefinition {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccIotwirelessTaskDefinition(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotwireless_task_definition awscc_iotwireless_task_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotwireless_task_definition awscc_iotwireless_task_definition} Data Source.
 func NewDataAwsccIotwirelessTaskDefinition_Override(d DataAwsccIotwirelessTaskDefinition, scope constructs.Construct, id *string, config *DataAwsccIotwirelessTaskDefinitionConfig) {
 	_init_.Initialize()
 

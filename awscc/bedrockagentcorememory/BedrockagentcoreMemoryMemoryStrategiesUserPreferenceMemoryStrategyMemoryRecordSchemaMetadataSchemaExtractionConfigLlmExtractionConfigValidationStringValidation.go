@@ -5,7 +5,7 @@ package bedrockagentcorememory
 
 
 type BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfigValidationStringValidation struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_memory#allowed_values BedrockagentcoreMemory#allowed_values}.
 	AllowedValues *[]*string `field:"optional" json:"allowedValues" yaml:"allowedValues"`
 }
 

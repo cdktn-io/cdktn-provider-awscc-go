@@ -5,9 +5,9 @@ package ec2transitgatewayattachment
 
 
 type Ec2TransitGatewayAttachmentTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_transit_gateway_attachment#key Ec2TransitGatewayAttachment#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_transit_gateway_attachment#key Ec2TransitGatewayAttachment#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_transit_gateway_attachment#value Ec2TransitGatewayAttachment#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_transit_gateway_attachment#value Ec2TransitGatewayAttachment#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

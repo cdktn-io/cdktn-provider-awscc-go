@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set awscc_route53_record_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set awscc_route53_record_set}.
 type Route53RecordSet interface {
 	cdktn.TerraformResource
 	AliasTarget() Route53RecordSetAliasTargetOutputReference
@@ -51,8 +51,6 @@ type Route53RecordSet interface {
 	FriendlyUniqueId() *string
 	GeoLocation() Route53RecordSetGeoLocationOutputReference
 	GeoLocationInput() interface{}
-	GeoProximityLocation() Route53RecordSetGeoProximityLocationOutputReference
-	GeoProximityLocationInput() interface{}
 	HealthCheckId() *string
 	SetHealthCheckId(val *string)
 	HealthCheckIdInput() *string
@@ -85,7 +83,6 @@ type Route53RecordSet interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
-	RecordSetId() *string
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
@@ -192,7 +189,6 @@ type Route53RecordSet interface {
 	PutAliasTarget(value *Route53RecordSetAliasTarget)
 	PutCidrRoutingConfig(value *Route53RecordSetCidrRoutingConfig)
 	PutGeoLocation(value *Route53RecordSetGeoLocation)
-	PutGeoProximityLocation(value *Route53RecordSetGeoProximityLocation)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -211,7 +207,6 @@ type Route53RecordSet interface {
 	ResetComment()
 	ResetFailover()
 	ResetGeoLocation()
-	ResetGeoProximityLocation()
 	ResetHealthCheckId()
 	ResetHostedZoneId()
 	ResetHostedZoneName()
@@ -431,26 +426,6 @@ func (j *jsiiProxy_Route53RecordSet) GeoLocationInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_Route53RecordSet) GeoProximityLocation() Route53RecordSetGeoProximityLocationOutputReference {
-	var returns Route53RecordSetGeoProximityLocationOutputReference
-	_jsii_.Get(
-		j,
-		"geoProximityLocation",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_Route53RecordSet) GeoProximityLocationInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"geoProximityLocationInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_Route53RecordSet) HealthCheckId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -611,16 +586,6 @@ func (j *jsiiProxy_Route53RecordSet) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_Route53RecordSet) RecordSetId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"recordSetId",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_Route53RecordSet) Region() *string {
 	var returns *string
 	_jsii_.Get(
@@ -772,7 +737,7 @@ func (j *jsiiProxy_Route53RecordSet) WeightInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set awscc_route53_record_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set awscc_route53_record_set} Resource.
 func NewRoute53RecordSet(scope constructs.Construct, id *string, config *Route53RecordSetConfig) Route53RecordSet {
 	_init_.Initialize()
 
@@ -790,7 +755,7 @@ func NewRoute53RecordSet(scope constructs.Construct, id *string, config *Route53
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/route53_record_set awscc_route53_record_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53_record_set awscc_route53_record_set} Resource.
 func NewRoute53RecordSet_Override(r Route53RecordSet, scope constructs.Construct, id *string, config *Route53RecordSetConfig) {
 	_init_.Initialize()
 
@@ -1414,17 +1379,6 @@ func (r *jsiiProxy_Route53RecordSet) PutGeoLocation(value *Route53RecordSetGeoLo
 	)
 }
 
-func (r *jsiiProxy_Route53RecordSet) PutGeoProximityLocation(value *Route53RecordSetGeoProximityLocation) {
-	if err := r.validatePutGeoProximityLocationParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		r,
-		"putGeoProximityLocation",
-		[]interface{}{value},
-	)
-}
-
 func (r *jsiiProxy_Route53RecordSet) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := r.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -1472,14 +1426,6 @@ func (r *jsiiProxy_Route53RecordSet) ResetGeoLocation() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetGeoLocation",
-		nil, // no parameters
-	)
-}
-
-func (r *jsiiProxy_Route53RecordSet) ResetGeoProximityLocation() {
-	_jsii_.InvokeVoid(
-		r,
-		"resetGeoProximityLocation",
 		nil, // no parameters
 	)
 }

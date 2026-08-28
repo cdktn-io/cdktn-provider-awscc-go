@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service_permissions awscc_ec2_vpc_endpoint_service_permissions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service_permissions awscc_ec2_vpc_endpoint_service_permissions}.
 type Ec2VpcEndpointServicePermissions interface {
 	cdktn.TerraformResource
 	AllowedPrincipals() *[]*string
@@ -402,7 +402,7 @@ func (j *jsiiProxy_Ec2VpcEndpointServicePermissions) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service_permissions awscc_ec2_vpc_endpoint_service_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service_permissions awscc_ec2_vpc_endpoint_service_permissions} Resource.
 func NewEc2VpcEndpointServicePermissions(scope constructs.Construct, id *string, config *Ec2VpcEndpointServicePermissionsConfig) Ec2VpcEndpointServicePermissions {
 	_init_.Initialize()
 
@@ -420,7 +420,7 @@ func NewEc2VpcEndpointServicePermissions(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_vpc_endpoint_service_permissions awscc_ec2_vpc_endpoint_service_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpc_endpoint_service_permissions awscc_ec2_vpc_endpoint_service_permissions} Resource.
 func NewEc2VpcEndpointServicePermissions_Override(e Ec2VpcEndpointServicePermissions, scope constructs.Construct, id *string, config *Ec2VpcEndpointServicePermissionsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/odb_cloud_vm_clusters awscc_odb_cloud_vm_clusters}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/odb_cloud_vm_clusters awscc_odb_cloud_vm_clusters}.
 type DataAwsccOdbCloudVmClusters interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccOdbCloudVmClusters) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/odb_cloud_vm_clusters awscc_odb_cloud_vm_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/odb_cloud_vm_clusters awscc_odb_cloud_vm_clusters} Data Source.
 func NewDataAwsccOdbCloudVmClusters(scope constructs.Construct, id *string, config *DataAwsccOdbCloudVmClustersConfig) DataAwsccOdbCloudVmClusters {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccOdbCloudVmClusters(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/odb_cloud_vm_clusters awscc_odb_cloud_vm_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/odb_cloud_vm_clusters awscc_odb_cloud_vm_clusters} Data Source.
 func NewDataAwsccOdbCloudVmClusters_Override(d DataAwsccOdbCloudVmClusters, scope constructs.Construct, id *string, config *DataAwsccOdbCloudVmClustersConfig) {
 	_init_.Initialize()
 

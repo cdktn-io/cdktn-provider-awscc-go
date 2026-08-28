@@ -22,11 +22,11 @@ type IotTopicRuleConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_topic_rule#topic_rule_payload IotTopicRule#topic_rule_payload}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_topic_rule#topic_rule_payload IotTopicRule#topic_rule_payload}.
 	TopicRulePayload *IotTopicRuleTopicRulePayload `field:"required" json:"topicRulePayload" yaml:"topicRulePayload"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_topic_rule#rule_name IotTopicRule#rule_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_topic_rule#rule_name IotTopicRule#rule_name}.
 	RuleName *string `field:"optional" json:"ruleName" yaml:"ruleName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_topic_rule#tags IotTopicRule#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_topic_rule#tags IotTopicRule#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

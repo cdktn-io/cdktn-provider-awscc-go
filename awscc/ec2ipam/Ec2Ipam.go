@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam awscc_ec2_ipam}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam awscc_ec2_ipam}.
 type Ec2Ipam interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -611,7 +611,7 @@ func (j *jsiiProxy_Ec2Ipam) TierInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam awscc_ec2_ipam} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam awscc_ec2_ipam} Resource.
 func NewEc2Ipam(scope constructs.Construct, id *string, config *Ec2IpamConfig) Ec2Ipam {
 	_init_.Initialize()
 
@@ -629,7 +629,7 @@ func NewEc2Ipam(scope constructs.Construct, id *string, config *Ec2IpamConfig) E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ec2_ipam awscc_ec2_ipam} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam awscc_ec2_ipam} Resource.
 func NewEc2Ipam_Override(e Ec2Ipam, scope constructs.Construct, id *string, config *Ec2IpamConfig) {
 	_init_.Initialize()
 

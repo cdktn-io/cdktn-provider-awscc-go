@@ -5,9 +5,9 @@ package iottopicrule
 
 
 type IotTopicRuleTopicRulePayloadErrorActionIotSiteWise struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_topic_rule#put_asset_property_value_entries IotTopicRule#put_asset_property_value_entries}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_topic_rule#put_asset_property_value_entries IotTopicRule#put_asset_property_value_entries}.
 	PutAssetPropertyValueEntries interface{} `field:"optional" json:"putAssetPropertyValueEntries" yaml:"putAssetPropertyValueEntries"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iot_topic_rule#role_arn IotTopicRule#role_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_topic_rule#role_arn IotTopicRule#role_arn}.
 	RoleArn *string `field:"optional" json:"roleArn" yaml:"roleArn"`
 }
 

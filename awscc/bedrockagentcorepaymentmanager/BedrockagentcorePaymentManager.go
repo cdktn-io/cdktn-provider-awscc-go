@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_payment_manager awscc_bedrockagentcore_payment_manager}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_payment_manager awscc_bedrockagentcore_payment_manager}.
 type BedrockagentcorePaymentManager interface {
 	cdktn.TerraformResource
 	AuthorizerConfiguration() BedrockagentcorePaymentManagerAuthorizerConfigurationOutputReference
@@ -562,7 +562,7 @@ func (j *jsiiProxy_BedrockagentcorePaymentManager) WorkloadIdentityDetails() Bed
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_payment_manager awscc_bedrockagentcore_payment_manager} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_payment_manager awscc_bedrockagentcore_payment_manager} Resource.
 func NewBedrockagentcorePaymentManager(scope constructs.Construct, id *string, config *BedrockagentcorePaymentManagerConfig) BedrockagentcorePaymentManager {
 	_init_.Initialize()
 
@@ -580,7 +580,7 @@ func NewBedrockagentcorePaymentManager(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/bedrockagentcore_payment_manager awscc_bedrockagentcore_payment_manager} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_payment_manager awscc_bedrockagentcore_payment_manager} Resource.
 func NewBedrockagentcorePaymentManager_Override(b BedrockagentcorePaymentManager, scope constructs.Construct, id *string, config *BedrockagentcorePaymentManagerConfig) {
 	_init_.Initialize()
 

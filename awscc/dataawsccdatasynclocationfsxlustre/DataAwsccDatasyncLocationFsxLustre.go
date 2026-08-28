@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/datasync_location_fsx_lustre awscc_datasync_location_fsx_lustre}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/datasync_location_fsx_lustre awscc_datasync_location_fsx_lustre}.
 type DataAwsccDatasyncLocationFsxLustre interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccDatasyncLocationFsxLustre) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/datasync_location_fsx_lustre awscc_datasync_location_fsx_lustre} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/datasync_location_fsx_lustre awscc_datasync_location_fsx_lustre} Data Source.
 func NewDataAwsccDatasyncLocationFsxLustre(scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationFsxLustreConfig) DataAwsccDatasyncLocationFsxLustre {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccDatasyncLocationFsxLustre(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/datasync_location_fsx_lustre awscc_datasync_location_fsx_lustre} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/datasync_location_fsx_lustre awscc_datasync_location_fsx_lustre} Data Source.
 func NewDataAwsccDatasyncLocationFsxLustre_Override(d DataAwsccDatasyncLocationFsxLustre, scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationFsxLustreConfig) {
 	_init_.Initialize()
 

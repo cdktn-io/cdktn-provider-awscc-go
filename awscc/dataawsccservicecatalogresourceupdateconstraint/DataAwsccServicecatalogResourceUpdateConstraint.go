@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalog_resource_update_constraint awscc_servicecatalog_resource_update_constraint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/servicecatalog_resource_update_constraint awscc_servicecatalog_resource_update_constraint}.
 type DataAwsccServicecatalogResourceUpdateConstraint interface {
 	cdktn.TerraformDataSource
 	AcceptLanguage() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccServicecatalogResourceUpdateConstraint) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalog_resource_update_constraint awscc_servicecatalog_resource_update_constraint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/servicecatalog_resource_update_constraint awscc_servicecatalog_resource_update_constraint} Data Source.
 func NewDataAwsccServicecatalogResourceUpdateConstraint(scope constructs.Construct, id *string, config *DataAwsccServicecatalogResourceUpdateConstraintConfig) DataAwsccServicecatalogResourceUpdateConstraint {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccServicecatalogResourceUpdateConstraint(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalog_resource_update_constraint awscc_servicecatalog_resource_update_constraint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/servicecatalog_resource_update_constraint awscc_servicecatalog_resource_update_constraint} Data Source.
 func NewDataAwsccServicecatalogResourceUpdateConstraint_Override(d DataAwsccServicecatalogResourceUpdateConstraint, scope constructs.Construct, id *string, config *DataAwsccServicecatalogResourceUpdateConstraintConfig) {
 	_init_.Initialize()
 

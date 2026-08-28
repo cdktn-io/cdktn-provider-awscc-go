@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment}.
 type DataAwsccCloudwatchOtelEnrichment interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccCloudwatchOtelEnrichment) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment} Data Source.
 func NewDataAwsccCloudwatchOtelEnrichment(scope constructs.Construct, id *string, config *DataAwsccCloudwatchOtelEnrichmentConfig) DataAwsccCloudwatchOtelEnrichment {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccCloudwatchOtelEnrichment(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment} Data Source.
 func NewDataAwsccCloudwatchOtelEnrichment_Override(d DataAwsccCloudwatchOtelEnrichment, scope constructs.Construct, id *string, config *DataAwsccCloudwatchOtelEnrichmentConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrock_knowledge_bases awscc_bedrock_knowledge_bases}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrock_knowledge_bases awscc_bedrock_knowledge_bases}.
 type DataAwsccBedrockKnowledgeBases interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockKnowledgeBases) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrock_knowledge_bases awscc_bedrock_knowledge_bases} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrock_knowledge_bases awscc_bedrock_knowledge_bases} Data Source.
 func NewDataAwsccBedrockKnowledgeBases(scope constructs.Construct, id *string, config *DataAwsccBedrockKnowledgeBasesConfig) DataAwsccBedrockKnowledgeBases {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockKnowledgeBases(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrock_knowledge_bases awscc_bedrock_knowledge_bases} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrock_knowledge_bases awscc_bedrock_knowledge_bases} Data Source.
 func NewDataAwsccBedrockKnowledgeBases_Override(d DataAwsccBedrockKnowledgeBases, scope constructs.Construct, id *string, config *DataAwsccBedrockKnowledgeBasesConfig) {
 	_init_.Initialize()
 

@@ -5,7 +5,7 @@ package rtbfabricrespondergateway
 
 
 type RtbfabricResponderGatewayListenerConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rtbfabric_responder_gateway#protocols RtbfabricResponderGateway#protocols}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rtbfabric_responder_gateway#protocols RtbfabricResponderGateway#protocols}.
 	Protocols *[]*string `field:"optional" json:"protocols" yaml:"protocols"`
 }
 

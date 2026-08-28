@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mpa_identity_source awscc_mpa_identity_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mpa_identity_source awscc_mpa_identity_source}.
 type DataAwsccMpaIdentitySource interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccMpaIdentitySource) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mpa_identity_source awscc_mpa_identity_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mpa_identity_source awscc_mpa_identity_source} Data Source.
 func NewDataAwsccMpaIdentitySource(scope constructs.Construct, id *string, config *DataAwsccMpaIdentitySourceConfig) DataAwsccMpaIdentitySource {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccMpaIdentitySource(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/mpa_identity_source awscc_mpa_identity_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mpa_identity_source awscc_mpa_identity_source} Data Source.
 func NewDataAwsccMpaIdentitySource_Override(d DataAwsccMpaIdentitySource, scope constructs.Construct, id *string, config *DataAwsccMpaIdentitySourceConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_contact_list awscc_ses_contact_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_contact_list awscc_ses_contact_list}.
 type SesContactList interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_SesContactList) TopicsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_contact_list awscc_ses_contact_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_contact_list awscc_ses_contact_list} Resource.
 func NewSesContactList(scope constructs.Construct, id *string, config *SesContactListConfig) SesContactList {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewSesContactList(scope constructs.Construct, id *string, config *SesContac
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/ses_contact_list awscc_ses_contact_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_contact_list awscc_ses_contact_list} Resource.
 func NewSesContactList_Override(s SesContactList, scope constructs.Construct, id *string, config *SesContactListConfig) {
 	_init_.Initialize()
 

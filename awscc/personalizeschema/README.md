@@ -1,3 +1,3 @@
 # `awscc_personalize_schema`
 
-Refer to the Terraform Registry for docs: [`awscc_personalize_schema`](https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/personalize_schema).
+Refer to the Terraform Registry for docs: [`awscc_personalize_schema`](https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_schema).

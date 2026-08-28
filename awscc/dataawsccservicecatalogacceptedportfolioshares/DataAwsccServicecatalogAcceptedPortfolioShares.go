@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalog_accepted_portfolio_shares awscc_servicecatalog_accepted_portfolio_shares}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/servicecatalog_accepted_portfolio_shares awscc_servicecatalog_accepted_portfolio_shares}.
 type DataAwsccServicecatalogAcceptedPortfolioShares interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccServicecatalogAcceptedPortfolioShares) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalog_accepted_portfolio_shares awscc_servicecatalog_accepted_portfolio_shares} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/servicecatalog_accepted_portfolio_shares awscc_servicecatalog_accepted_portfolio_shares} Data Source.
 func NewDataAwsccServicecatalogAcceptedPortfolioShares(scope constructs.Construct, id *string, config *DataAwsccServicecatalogAcceptedPortfolioSharesConfig) DataAwsccServicecatalogAcceptedPortfolioShares {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccServicecatalogAcceptedPortfolioShares(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/servicecatalog_accepted_portfolio_shares awscc_servicecatalog_accepted_portfolio_shares} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/servicecatalog_accepted_portfolio_shares awscc_servicecatalog_accepted_portfolio_shares} Data Source.
 func NewDataAwsccServicecatalogAcceptedPortfolioShares_Override(d DataAwsccServicecatalogAcceptedPortfolioShares, scope constructs.Construct, id *string, config *DataAwsccServicecatalogAcceptedPortfolioSharesConfig) {
 	_init_.Initialize()
 

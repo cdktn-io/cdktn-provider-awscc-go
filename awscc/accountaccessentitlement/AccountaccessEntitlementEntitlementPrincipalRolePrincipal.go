@@ -5,7 +5,7 @@ package accountaccessentitlement
 
 
 type AccountaccessEntitlementEntitlementPrincipalRolePrincipal struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/accountaccess_entitlement#identity_center AccountaccessEntitlement#identity_center}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_entitlement#identity_center AccountaccessEntitlement#identity_center}.
 	IdentityCenter *AccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentityCenter `field:"required" json:"identityCenter" yaml:"identityCenter"`
 }
 

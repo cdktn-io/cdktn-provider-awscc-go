@@ -5,9 +5,9 @@ package iotanalyticsdatastore
 
 
 type IotanalyticsDatastoreDatastoreStorageIotSiteWiseMultiLayerStorageCustomerManagedS3Storage struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotanalytics_datastore#bucket IotanalyticsDatastore#bucket}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotanalytics_datastore#bucket IotanalyticsDatastore#bucket}.
 	Bucket *string `field:"optional" json:"bucket" yaml:"bucket"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/iotanalytics_datastore#key_prefix IotanalyticsDatastore#key_prefix}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotanalytics_datastore#key_prefix IotanalyticsDatastore#key_prefix}.
 	KeyPrefix *string `field:"optional" json:"keyPrefix" yaml:"keyPrefix"`
 }
 

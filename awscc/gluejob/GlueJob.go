@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job awscc_glue_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_job awscc_glue_job}.
 type GlueJob interface {
 	cdktn.TerraformResource
 	AllocatedCapacity() *float64
@@ -905,7 +905,7 @@ func (j *jsiiProxy_GlueJob) WorkerTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job awscc_glue_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_job awscc_glue_job} Resource.
 func NewGlueJob(scope constructs.Construct, id *string, config *GlueJobConfig) GlueJob {
 	_init_.Initialize()
 
@@ -923,7 +923,7 @@ func NewGlueJob(scope constructs.Construct, id *string, config *GlueJobConfig) G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/glue_job awscc_glue_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_job awscc_glue_job} Resource.
 func NewGlueJob_Override(g GlueJob, scope constructs.Construct, id *string, config *GlueJobConfig) {
 	_init_.Initialize()
 

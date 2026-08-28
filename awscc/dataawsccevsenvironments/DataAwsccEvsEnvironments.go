@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/evs_environments awscc_evs_environments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/evs_environments awscc_evs_environments}.
 type DataAwsccEvsEnvironments interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEvsEnvironments) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/evs_environments awscc_evs_environments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/evs_environments awscc_evs_environments} Data Source.
 func NewDataAwsccEvsEnvironments(scope constructs.Construct, id *string, config *DataAwsccEvsEnvironmentsConfig) DataAwsccEvsEnvironments {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEvsEnvironments(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/evs_environments awscc_evs_environments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/evs_environments awscc_evs_environments} Data Source.
 func NewDataAwsccEvsEnvironments_Override(d DataAwsccEvsEnvironments, scope constructs.Construct, id *string, config *DataAwsccEvsEnvironmentsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_health_check awscc_route53_health_check}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53_health_check awscc_route53_health_check}.
 type DataAwsccRoute53HealthCheck interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccRoute53HealthCheck) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_health_check awscc_route53_health_check} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53_health_check awscc_route53_health_check} Data Source.
 func NewDataAwsccRoute53HealthCheck(scope constructs.Construct, id *string, config *DataAwsccRoute53HealthCheckConfig) DataAwsccRoute53HealthCheck {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccRoute53HealthCheck(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/route53_health_check awscc_route53_health_check} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53_health_check awscc_route53_health_check} Data Source.
 func NewDataAwsccRoute53HealthCheck_Override(d DataAwsccRoute53HealthCheck, scope constructs.Construct, id *string, config *DataAwsccRoute53HealthCheckConfig) {
 	_init_.Initialize()
 

@@ -1,3 +1,3 @@
 # `awscc_msk_topic`
 
-Refer to the Terraform Registry for docs: [`awscc_msk_topic`](https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/msk_topic).
+Refer to the Terraform Registry for docs: [`awscc_msk_topic`](https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_topic).

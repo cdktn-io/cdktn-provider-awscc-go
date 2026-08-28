@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotwireless_partner_account awscc_iotwireless_partner_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotwireless_partner_account awscc_iotwireless_partner_account}.
 type DataAwsccIotwirelessPartnerAccount interface {
 	cdktn.TerraformDataSource
 	AccountLinked() cdktn.IResolvable
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccIotwirelessPartnerAccount) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotwireless_partner_account awscc_iotwireless_partner_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotwireless_partner_account awscc_iotwireless_partner_account} Data Source.
 func NewDataAwsccIotwirelessPartnerAccount(scope constructs.Construct, id *string, config *DataAwsccIotwirelessPartnerAccountConfig) DataAwsccIotwirelessPartnerAccount {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccIotwirelessPartnerAccount(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/iotwireless_partner_account awscc_iotwireless_partner_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotwireless_partner_account awscc_iotwireless_partner_account} Data Source.
 func NewDataAwsccIotwirelessPartnerAccount_Override(d DataAwsccIotwirelessPartnerAccount, scope constructs.Construct, id *string, config *DataAwsccIotwirelessPartnerAccountConfig) {
 	_init_.Initialize()
 

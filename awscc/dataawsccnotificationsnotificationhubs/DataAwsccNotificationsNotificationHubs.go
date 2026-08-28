@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/notifications_notification_hubs awscc_notifications_notification_hubs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/notifications_notification_hubs awscc_notifications_notification_hubs}.
 type DataAwsccNotificationsNotificationHubs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNotificationsNotificationHubs) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/notifications_notification_hubs awscc_notifications_notification_hubs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/notifications_notification_hubs awscc_notifications_notification_hubs} Data Source.
 func NewDataAwsccNotificationsNotificationHubs(scope constructs.Construct, id *string, config *DataAwsccNotificationsNotificationHubsConfig) DataAwsccNotificationsNotificationHubs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNotificationsNotificationHubs(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/notifications_notification_hubs awscc_notifications_notification_hubs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/notifications_notification_hubs awscc_notifications_notification_hubs} Data Source.
 func NewDataAwsccNotificationsNotificationHubs_Override(d DataAwsccNotificationsNotificationHubs, scope constructs.Construct, id *string, config *DataAwsccNotificationsNotificationHubsConfig) {
 	_init_.Initialize()
 

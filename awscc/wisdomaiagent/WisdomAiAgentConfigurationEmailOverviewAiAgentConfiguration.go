@@ -5,9 +5,9 @@ package wisdomaiagent
 
 
 type WisdomAiAgentConfigurationEmailOverviewAiAgentConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wisdom_ai_agent#email_overview_ai_prompt_id WisdomAiAgent#email_overview_ai_prompt_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wisdom_ai_agent#email_overview_ai_prompt_id WisdomAiAgent#email_overview_ai_prompt_id}.
 	EmailOverviewAiPromptId *string `field:"optional" json:"emailOverviewAiPromptId" yaml:"emailOverviewAiPromptId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wisdom_ai_agent#locale WisdomAiAgent#locale}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wisdom_ai_agent#locale WisdomAiAgent#locale}.
 	Locale *string `field:"optional" json:"locale" yaml:"locale"`
 }
 

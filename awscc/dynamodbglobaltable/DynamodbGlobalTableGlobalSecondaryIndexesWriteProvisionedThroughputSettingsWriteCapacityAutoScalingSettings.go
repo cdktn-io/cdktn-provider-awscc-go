@@ -5,13 +5,13 @@ package dynamodbglobaltable
 
 
 type DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}.
 	MaxCapacity *float64 `field:"optional" json:"maxCapacity" yaml:"maxCapacity"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}.
 	MinCapacity *float64 `field:"optional" json:"minCapacity" yaml:"minCapacity"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}.
 	SeedCapacity *float64 `field:"optional" json:"seedCapacity" yaml:"seedCapacity"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}.
 	TargetTrackingScalingPolicyConfiguration *DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration `field:"optional" json:"targetTrackingScalingPolicyConfiguration" yaml:"targetTrackingScalingPolicyConfiguration"`
 }
 

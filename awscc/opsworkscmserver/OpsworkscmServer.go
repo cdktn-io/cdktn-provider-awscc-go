@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opsworkscm_server awscc_opsworkscm_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opsworkscm_server awscc_opsworkscm_server}.
 type OpsworkscmServer interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -889,7 +889,7 @@ func (j *jsiiProxy_OpsworkscmServer) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opsworkscm_server awscc_opsworkscm_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opsworkscm_server awscc_opsworkscm_server} Resource.
 func NewOpsworkscmServer(scope constructs.Construct, id *string, config *OpsworkscmServerConfig) OpsworkscmServer {
 	_init_.Initialize()
 
@@ -907,7 +907,7 @@ func NewOpsworkscmServer(scope constructs.Construct, id *string, config *Opswork
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/opsworkscm_server awscc_opsworkscm_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opsworkscm_server awscc_opsworkscm_server} Resource.
 func NewOpsworkscmServer_Override(o OpsworkscmServer, scope constructs.Construct, id *string, config *OpsworkscmServerConfig) {
 	_init_.Initialize()
 

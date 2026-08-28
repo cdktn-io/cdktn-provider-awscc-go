@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_gateway_rate_limit awscc_bedrockagentcore_gateway_rate_limit}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_gateway_rate_limit awscc_bedrockagentcore_gateway_rate_limit}.
 type DataAwsccBedrockagentcoreGatewayRateLimit interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreGatewayRateLimit) UpdatedAt() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_gateway_rate_limit awscc_bedrockagentcore_gateway_rate_limit} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_gateway_rate_limit awscc_bedrockagentcore_gateway_rate_limit} Data Source.
 func NewDataAwsccBedrockagentcoreGatewayRateLimit(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreGatewayRateLimitConfig) DataAwsccBedrockagentcoreGatewayRateLimit {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccBedrockagentcoreGatewayRateLimit(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/bedrockagentcore_gateway_rate_limit awscc_bedrockagentcore_gateway_rate_limit} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_gateway_rate_limit awscc_bedrockagentcore_gateway_rate_limit} Data Source.
 func NewDataAwsccBedrockagentcoreGatewayRateLimit_Override(d DataAwsccBedrockagentcoreGatewayRateLimit, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreGatewayRateLimitConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/amplify_domain awscc_amplify_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/amplify_domain awscc_amplify_domain}.
 type DataAwsccAmplifyDomain interface {
 	cdktn.TerraformDataSource
 	AppId() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccAmplifyDomain) UpdateStatus() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/amplify_domain awscc_amplify_domain} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/amplify_domain awscc_amplify_domain} Data Source.
 func NewDataAwsccAmplifyDomain(scope constructs.Construct, id *string, config *DataAwsccAmplifyDomainConfig) DataAwsccAmplifyDomain {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccAmplifyDomain(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/amplify_domain awscc_amplify_domain} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/amplify_domain awscc_amplify_domain} Data Source.
 func NewDataAwsccAmplifyDomain_Override(d DataAwsccAmplifyDomain, scope constructs.Construct, id *string, config *DataAwsccAmplifyDomainConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/wellarchitected_workload awscc_wellarchitected_workload}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/wellarchitected_workload awscc_wellarchitected_workload}.
 type DataAwsccWellarchitectedWorkload interface {
 	cdktn.TerraformDataSource
 	AccountIds() *[]*string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccWellarchitectedWorkload) WorkloadName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/wellarchitected_workload awscc_wellarchitected_workload} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/wellarchitected_workload awscc_wellarchitected_workload} Data Source.
 func NewDataAwsccWellarchitectedWorkload(scope constructs.Construct, id *string, config *DataAwsccWellarchitectedWorkloadConfig) DataAwsccWellarchitectedWorkload {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccWellarchitectedWorkload(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/wellarchitected_workload awscc_wellarchitected_workload} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/wellarchitected_workload awscc_wellarchitected_workload} Data Source.
 func NewDataAwsccWellarchitectedWorkload_Override(d DataAwsccWellarchitectedWorkload, scope constructs.Construct, id *string, config *DataAwsccWellarchitectedWorkloadConfig) {
 	_init_.Initialize()
 

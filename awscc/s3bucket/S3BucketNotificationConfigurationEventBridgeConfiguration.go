@@ -7,7 +7,7 @@ package s3bucket
 type S3BucketNotificationConfigurationEventBridgeConfiguration struct {
 	// Enables delivery of events to Amazon EventBridge.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/s3_bucket#event_bridge_enabled S3Bucket#event_bridge_enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_bucket#event_bridge_enabled S3Bucket#event_bridge_enabled}
 	EventBridgeEnabled interface{} `field:"optional" json:"eventBridgeEnabled" yaml:"eventBridgeEnabled"`
 }
 

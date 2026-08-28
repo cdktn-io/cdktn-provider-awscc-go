@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rds_db_shard_group awscc_rds_db_shard_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rds_db_shard_group awscc_rds_db_shard_group}.
 type DataAwsccRdsDbShardGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccRdsDbShardGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rds_db_shard_group awscc_rds_db_shard_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rds_db_shard_group awscc_rds_db_shard_group} Data Source.
 func NewDataAwsccRdsDbShardGroup(scope constructs.Construct, id *string, config *DataAwsccRdsDbShardGroupConfig) DataAwsccRdsDbShardGroup {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccRdsDbShardGroup(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/data-sources/rds_db_shard_group awscc_rds_db_shard_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rds_db_shard_group awscc_rds_db_shard_group} Data Source.
 func NewDataAwsccRdsDbShardGroup_Override(d DataAwsccRdsDbShardGroup, scope constructs.Construct, id *string, config *DataAwsccRdsDbShardGroupConfig) {
 	_init_.Initialize()
 

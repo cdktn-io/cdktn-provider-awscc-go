@@ -24,19 +24,19 @@ type WellarchitectedProfileConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The profile description.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_profile#profile_description WellarchitectedProfile#profile_description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_profile#profile_description WellarchitectedProfile#profile_description}
 	ProfileDescription *string `field:"required" json:"profileDescription" yaml:"profileDescription"`
 	// The name of the profile.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_profile#profile_name WellarchitectedProfile#profile_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_profile#profile_name WellarchitectedProfile#profile_name}
 	ProfileName *string `field:"required" json:"profileName" yaml:"profileName"`
 	// The profile questions.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_profile#profile_questions WellarchitectedProfile#profile_questions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_profile#profile_questions WellarchitectedProfile#profile_questions}
 	ProfileQuestions interface{} `field:"required" json:"profileQuestions" yaml:"profileQuestions"`
 	// The tags assigned to the profile.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/wellarchitected_profile#tags WellarchitectedProfile#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_profile#tags WellarchitectedProfile#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

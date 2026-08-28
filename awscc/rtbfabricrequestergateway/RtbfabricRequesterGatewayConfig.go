@@ -24,19 +24,19 @@ type RtbfabricRequesterGatewayConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID of one or more security groups in order to create a requester gateway.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rtbfabric_requester_gateway#security_group_ids RtbfabricRequesterGateway#security_group_ids}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rtbfabric_requester_gateway#security_group_ids RtbfabricRequesterGateway#security_group_ids}
 	SecurityGroupIds *[]*string `field:"required" json:"securityGroupIds" yaml:"securityGroupIds"`
 	// The ID of one or more subnets in order to create a requester gateway.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rtbfabric_requester_gateway#subnet_ids RtbfabricRequesterGateway#subnet_ids}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rtbfabric_requester_gateway#subnet_ids RtbfabricRequesterGateway#subnet_ids}
 	SubnetIds *[]*string `field:"required" json:"subnetIds" yaml:"subnetIds"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rtbfabric_requester_gateway#vpc_id RtbfabricRequesterGateway#vpc_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rtbfabric_requester_gateway#vpc_id RtbfabricRequesterGateway#vpc_id}.
 	VpcId *string `field:"required" json:"vpcId" yaml:"vpcId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rtbfabric_requester_gateway#description RtbfabricRequesterGateway#description}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rtbfabric_requester_gateway#description RtbfabricRequesterGateway#description}.
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Tags to assign to the Requester Gateway.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.98.0/docs/resources/rtbfabric_requester_gateway#tags RtbfabricRequesterGateway#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rtbfabric_requester_gateway#tags RtbfabricRequesterGateway#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 
