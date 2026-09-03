@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/devopsguru_resource_collections awscc_devopsguru_resource_collections}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/devopsguru_resource_collections awscc_devopsguru_resource_collections}.
 type DataAwsccDevopsguruResourceCollections interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDevopsguruResourceCollections) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/devopsguru_resource_collections awscc_devopsguru_resource_collections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/devopsguru_resource_collections awscc_devopsguru_resource_collections} Data Source.
 func NewDataAwsccDevopsguruResourceCollections(scope constructs.Construct, id *string, config *DataAwsccDevopsguruResourceCollectionsConfig) DataAwsccDevopsguruResourceCollections {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDevopsguruResourceCollections(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/devopsguru_resource_collections awscc_devopsguru_resource_collections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/devopsguru_resource_collections awscc_devopsguru_resource_collections} Data Source.
 func NewDataAwsccDevopsguruResourceCollections_Override(d DataAwsccDevopsguruResourceCollections, scope constructs.Construct, id *string, config *DataAwsccDevopsguruResourceCollectionsConfig) {
 	_init_.Initialize()
 

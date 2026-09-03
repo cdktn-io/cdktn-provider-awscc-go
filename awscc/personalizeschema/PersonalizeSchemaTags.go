@@ -5,9 +5,9 @@ package personalizeschema
 
 
 type PersonalizeSchemaTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_schema#key PersonalizeSchema#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_schema#key PersonalizeSchema#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/personalize_schema#value PersonalizeSchema#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/personalize_schema#value PersonalizeSchema#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

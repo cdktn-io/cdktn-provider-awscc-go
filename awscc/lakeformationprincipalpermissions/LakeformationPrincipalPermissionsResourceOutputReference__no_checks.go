@@ -47,6 +47,10 @@ func (l *jsiiProxy_LakeformationPrincipalPermissionsResourceOutputReference) val
 	return nil
 }
 
+func (l *jsiiProxy_LakeformationPrincipalPermissionsResourceOutputReference) validatePutCatalogParameters(value *LakeformationPrincipalPermissionsResourceCatalog) error {
+	return nil
+}
+
 func (l *jsiiProxy_LakeformationPrincipalPermissionsResourceOutputReference) validatePutDatabaseParameters(value *LakeformationPrincipalPermissionsResourceDatabase) error {
 	return nil
 }
@@ -76,10 +80,6 @@ func (l *jsiiProxy_LakeformationPrincipalPermissionsResourceOutputReference) val
 }
 
 func (l *jsiiProxy_LakeformationPrincipalPermissionsResourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
-	return nil
-}
-
-func (j *jsiiProxy_LakeformationPrincipalPermissionsResourceOutputReference) validateSetCatalogParameters(val *string) error {
 	return nil
 }
 

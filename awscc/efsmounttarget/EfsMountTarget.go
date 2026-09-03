@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_mount_target awscc_efs_mount_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/efs_mount_target awscc_efs_mount_target}.
 type EfsMountTarget interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -507,7 +507,7 @@ func (j *jsiiProxy_EfsMountTarget) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_mount_target awscc_efs_mount_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/efs_mount_target awscc_efs_mount_target} Resource.
 func NewEfsMountTarget(scope constructs.Construct, id *string, config *EfsMountTargetConfig) EfsMountTarget {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewEfsMountTarget(scope constructs.Construct, id *string, config *EfsMountT
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_mount_target awscc_efs_mount_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/efs_mount_target awscc_efs_mount_target} Resource.
 func NewEfsMountTarget_Override(e EfsMountTarget, scope constructs.Construct, id *string, config *EfsMountTargetConfig) {
 	_init_.Initialize()
 

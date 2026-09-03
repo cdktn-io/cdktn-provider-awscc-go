@@ -31,11 +31,14 @@ type DataAwsccSagemakerInferenceComponentSpecificationOutputReference interface 
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	CurrentDataCacheConfig() DataAwsccSagemakerInferenceComponentSpecificationCurrentDataCacheConfigOutputReference
+	DataCacheConfig() DataAwsccSagemakerInferenceComponentSpecificationDataCacheConfigOutputReference
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAwsccSagemakerInferenceComponentSpecification
 	SetInternalValue(val *DataAwsccSagemakerInferenceComponentSpecification)
 	ModelName() *string
+	SchedulingConfig() DataAwsccSagemakerInferenceComponentSpecificationSchedulingConfigOutputReference
 	StartupParameters() DataAwsccSagemakerInferenceComponentSpecificationStartupParametersOutputReference
 	// Experimental.
 	TerraformAttribute() *string
@@ -144,6 +147,26 @@ func (j *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationOutputRefere
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationOutputReference) CurrentDataCacheConfig() DataAwsccSagemakerInferenceComponentSpecificationCurrentDataCacheConfigOutputReference {
+	var returns DataAwsccSagemakerInferenceComponentSpecificationCurrentDataCacheConfigOutputReference
+	_jsii_.Get(
+		j,
+		"currentDataCacheConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationOutputReference) DataCacheConfig() DataAwsccSagemakerInferenceComponentSpecificationDataCacheConfigOutputReference {
+	var returns DataAwsccSagemakerInferenceComponentSpecificationDataCacheConfigOutputReference
+	_jsii_.Get(
+		j,
+		"dataCacheConfig",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -169,6 +192,16 @@ func (j *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationOutputRefere
 	_jsii_.Get(
 		j,
 		"modelName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationOutputReference) SchedulingConfig() DataAwsccSagemakerInferenceComponentSpecificationSchedulingConfigOutputReference {
+	var returns DataAwsccSagemakerInferenceComponentSpecificationSchedulingConfigOutputReference
+	_jsii_.Get(
+		j,
+		"schedulingConfig",
 		&returns,
 	)
 	return returns

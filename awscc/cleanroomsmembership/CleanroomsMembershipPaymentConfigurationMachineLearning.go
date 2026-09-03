@@ -5,11 +5,11 @@ package cleanroomsmembership
 
 
 type CleanroomsMembershipPaymentConfigurationMachineLearning struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_membership#model_inference CleanroomsMembership#model_inference}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_membership#model_inference CleanroomsMembership#model_inference}.
 	ModelInference *CleanroomsMembershipPaymentConfigurationMachineLearningModelInference `field:"optional" json:"modelInference" yaml:"modelInference"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_membership#model_training CleanroomsMembership#model_training}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_membership#model_training CleanroomsMembership#model_training}.
 	ModelTraining *CleanroomsMembershipPaymentConfigurationMachineLearningModelTraining `field:"optional" json:"modelTraining" yaml:"modelTraining"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_membership#synthetic_data_generation CleanroomsMembership#synthetic_data_generation}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_membership#synthetic_data_generation CleanroomsMembership#synthetic_data_generation}.
 	SyntheticDataGeneration *CleanroomsMembershipPaymentConfigurationMachineLearningSyntheticDataGeneration `field:"optional" json:"syntheticDataGeneration" yaml:"syntheticDataGeneration"`
 }
 

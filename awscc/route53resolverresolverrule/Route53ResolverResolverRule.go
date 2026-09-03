@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53resolver_resolver_rule awscc_route53resolver_resolver_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53resolver_resolver_rule awscc_route53resolver_resolver_rule}.
 type Route53ResolverResolverRule interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -544,7 +544,7 @@ func (j *jsiiProxy_Route53ResolverResolverRule) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53resolver_resolver_rule awscc_route53resolver_resolver_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53resolver_resolver_rule awscc_route53resolver_resolver_rule} Resource.
 func NewRoute53ResolverResolverRule(scope constructs.Construct, id *string, config *Route53ResolverResolverRuleConfig) Route53ResolverResolverRule {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewRoute53ResolverResolverRule(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53resolver_resolver_rule awscc_route53resolver_resolver_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53resolver_resolver_rule awscc_route53resolver_resolver_rule} Resource.
 func NewRoute53ResolverResolverRule_Override(r Route53ResolverResolverRule, scope constructs.Construct, id *string, config *Route53ResolverResolverRuleConfig) {
 	_init_.Initialize()
 

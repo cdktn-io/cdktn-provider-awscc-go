@@ -13,6 +13,8 @@ import (
 
 type DataAwsccEc2Ec2FleetReservedCapacityOptionsOutputReference interface {
 	cdktn.ComplexObject
+	AllocationStrategy() *string
+	CapacityReservationTarget() DataAwsccEc2Ec2FleetReservedCapacityOptionsCapacityReservationTargetOutputReference
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -33,6 +35,7 @@ type DataAwsccEc2Ec2FleetReservedCapacityOptionsOutputReference interface {
 	InternalValue() *DataAwsccEc2Ec2FleetReservedCapacityOptions
 	SetInternalValue(val *DataAwsccEc2Ec2FleetReservedCapacityOptions)
 	ReservationTypes() *[]*string
+	ReservedCapacityFallbackOptions() DataAwsccEc2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptionsOutputReference
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -78,6 +81,26 @@ type DataAwsccEc2Ec2FleetReservedCapacityOptionsOutputReference interface {
 // The jsii proxy struct for DataAwsccEc2Ec2FleetReservedCapacityOptionsOutputReference
 type jsiiProxy_DataAwsccEc2Ec2FleetReservedCapacityOptionsOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataAwsccEc2Ec2FleetReservedCapacityOptionsOutputReference) AllocationStrategy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"allocationStrategy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccEc2Ec2FleetReservedCapacityOptionsOutputReference) CapacityReservationTarget() DataAwsccEc2Ec2FleetReservedCapacityOptionsCapacityReservationTargetOutputReference {
+	var returns DataAwsccEc2Ec2FleetReservedCapacityOptionsCapacityReservationTargetOutputReference
+	_jsii_.Get(
+		j,
+		"capacityReservationTarget",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAwsccEc2Ec2FleetReservedCapacityOptionsOutputReference) ComplexObjectIndex() interface{} {
@@ -135,6 +158,16 @@ func (j *jsiiProxy_DataAwsccEc2Ec2FleetReservedCapacityOptionsOutputReference) R
 	_jsii_.Get(
 		j,
 		"reservationTypes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccEc2Ec2FleetReservedCapacityOptionsOutputReference) ReservedCapacityFallbackOptions() DataAwsccEc2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptionsOutputReference {
+	var returns DataAwsccEc2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptionsOutputReference
+	_jsii_.Get(
+		j,
+		"reservedCapacityFallbackOptions",
 		&returns,
 	)
 	return returns

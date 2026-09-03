@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotanalytics_dataset awscc_iotanalytics_dataset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotanalytics_dataset awscc_iotanalytics_dataset}.
 type DataAwsccIotanalyticsDataset interface {
 	cdktn.TerraformDataSource
 	Actions() DataAwsccIotanalyticsDatasetActionsList
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccIotanalyticsDataset) VersioningConfiguration() DataA
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotanalytics_dataset awscc_iotanalytics_dataset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotanalytics_dataset awscc_iotanalytics_dataset} Data Source.
 func NewDataAwsccIotanalyticsDataset(scope constructs.Construct, id *string, config *DataAwsccIotanalyticsDatasetConfig) DataAwsccIotanalyticsDataset {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccIotanalyticsDataset(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotanalytics_dataset awscc_iotanalytics_dataset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotanalytics_dataset awscc_iotanalytics_dataset} Data Source.
 func NewDataAwsccIotanalyticsDataset_Override(d DataAwsccIotanalyticsDataset, scope constructs.Construct, id *string, config *DataAwsccIotanalyticsDatasetConfig) {
 	_init_.Initialize()
 

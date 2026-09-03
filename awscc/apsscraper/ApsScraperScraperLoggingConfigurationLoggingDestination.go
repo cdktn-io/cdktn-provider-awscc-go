@@ -7,7 +7,7 @@ package apsscraper
 type ApsScraperScraperLoggingConfigurationLoggingDestination struct {
 	// Represents a cloudwatch logs destination for scraper logging.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/aps_scraper#cloudwatch_logs ApsScraper#cloudwatch_logs}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_scraper#cloudwatch_logs ApsScraper#cloudwatch_logs}
 	CloudwatchLogs *ApsScraperScraperLoggingConfigurationLoggingDestinationCloudwatchLogs `field:"optional" json:"cloudwatchLogs" yaml:"cloudwatchLogs"`
 }
 

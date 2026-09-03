@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_transit_gateway_attachment awscc_ec2_transit_gateway_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_transit_gateway_attachment awscc_ec2_transit_gateway_attachment}.
 type Ec2TransitGatewayAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -483,7 +483,7 @@ func (j *jsiiProxy_Ec2TransitGatewayAttachment) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_transit_gateway_attachment awscc_ec2_transit_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_transit_gateway_attachment awscc_ec2_transit_gateway_attachment} Resource.
 func NewEc2TransitGatewayAttachment(scope constructs.Construct, id *string, config *Ec2TransitGatewayAttachmentConfig) Ec2TransitGatewayAttachment {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewEc2TransitGatewayAttachment(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_transit_gateway_attachment awscc_ec2_transit_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_transit_gateway_attachment awscc_ec2_transit_gateway_attachment} Resource.
 func NewEc2TransitGatewayAttachment_Override(e Ec2TransitGatewayAttachment, scope constructs.Construct, id *string, config *Ec2TransitGatewayAttachmentConfig) {
 	_init_.Initialize()
 

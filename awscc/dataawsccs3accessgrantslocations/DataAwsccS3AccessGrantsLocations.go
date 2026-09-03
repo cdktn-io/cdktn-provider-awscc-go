@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3_access_grants_locations awscc_s3_access_grants_locations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/s3_access_grants_locations awscc_s3_access_grants_locations}.
 type DataAwsccS3AccessGrantsLocations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccS3AccessGrantsLocations) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3_access_grants_locations awscc_s3_access_grants_locations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/s3_access_grants_locations awscc_s3_access_grants_locations} Data Source.
 func NewDataAwsccS3AccessGrantsLocations(scope constructs.Construct, id *string, config *DataAwsccS3AccessGrantsLocationsConfig) DataAwsccS3AccessGrantsLocations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccS3AccessGrantsLocations(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/s3_access_grants_locations awscc_s3_access_grants_locations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/s3_access_grants_locations awscc_s3_access_grants_locations} Data Source.
 func NewDataAwsccS3AccessGrantsLocations_Override(d DataAwsccS3AccessGrantsLocations, scope constructs.Construct, id *string, config *DataAwsccS3AccessGrantsLocationsConfig) {
 	_init_.Initialize()
 

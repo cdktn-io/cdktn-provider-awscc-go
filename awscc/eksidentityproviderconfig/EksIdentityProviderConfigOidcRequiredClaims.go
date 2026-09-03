@@ -7,11 +7,11 @@ package eksidentityproviderconfig
 type EksIdentityProviderConfigOidcRequiredClaims struct {
 	// The key of the requiredClaims.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_identity_provider_config#key EksIdentityProviderConfig#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_identity_provider_config#key EksIdentityProviderConfig#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value for the requiredClaims.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_identity_provider_config#value EksIdentityProviderConfig#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_identity_provider_config#value EksIdentityProviderConfig#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

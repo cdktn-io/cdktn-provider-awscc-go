@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lightsail_load_balancer awscc_lightsail_load_balancer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lightsail_load_balancer awscc_lightsail_load_balancer}.
 type DataAwsccLightsailLoadBalancer interface {
 	cdktn.TerraformDataSource
 	AttachedInstances() *[]*string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccLightsailLoadBalancer) TlsPolicyName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lightsail_load_balancer awscc_lightsail_load_balancer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lightsail_load_balancer awscc_lightsail_load_balancer} Data Source.
 func NewDataAwsccLightsailLoadBalancer(scope constructs.Construct, id *string, config *DataAwsccLightsailLoadBalancerConfig) DataAwsccLightsailLoadBalancer {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccLightsailLoadBalancer(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lightsail_load_balancer awscc_lightsail_load_balancer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lightsail_load_balancer awscc_lightsail_load_balancer} Data Source.
 func NewDataAwsccLightsailLoadBalancer_Override(d DataAwsccLightsailLoadBalancer, scope constructs.Construct, id *string, config *DataAwsccLightsailLoadBalancerConfig) {
 	_init_.Initialize()
 

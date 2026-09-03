@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lookoutvision_project awscc_lookoutvision_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lookoutvision_project awscc_lookoutvision_project}.
 type LookoutvisionProject interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -389,7 +389,7 @@ func (j *jsiiProxy_LookoutvisionProject) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lookoutvision_project awscc_lookoutvision_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lookoutvision_project awscc_lookoutvision_project} Resource.
 func NewLookoutvisionProject(scope constructs.Construct, id *string, config *LookoutvisionProjectConfig) LookoutvisionProject {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewLookoutvisionProject(scope constructs.Construct, id *string, config *Loo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lookoutvision_project awscc_lookoutvision_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lookoutvision_project awscc_lookoutvision_project} Resource.
 func NewLookoutvisionProject_Override(l LookoutvisionProject, scope constructs.Construct, id *string, config *LookoutvisionProjectConfig) {
 	_init_.Initialize()
 

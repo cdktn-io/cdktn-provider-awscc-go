@@ -13,9 +13,8 @@ import (
 
 type LakeformationPrincipalPermissionsResourceOutputReference interface {
 	cdktn.ComplexObject
-	Catalog() *string
-	SetCatalog(val *string)
-	CatalogInput() *string
+	Catalog() LakeformationPrincipalPermissionsResourceCatalogOutputReference
+	CatalogInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -81,6 +80,7 @@ type LakeformationPrincipalPermissionsResourceOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutCatalog(value *LakeformationPrincipalPermissionsResourceCatalog)
 	PutDatabase(value *LakeformationPrincipalPermissionsResourceDatabase)
 	PutDataCellsFilter(value *LakeformationPrincipalPermissionsResourceDataCellsFilter)
 	PutDataLocation(value *LakeformationPrincipalPermissionsResourceDataLocation)
@@ -111,8 +111,8 @@ type jsiiProxy_LakeformationPrincipalPermissionsResourceOutputReference struct {
 	internal.Type__cdktnComplexObject
 }
 
-func (j *jsiiProxy_LakeformationPrincipalPermissionsResourceOutputReference) Catalog() *string {
-	var returns *string
+func (j *jsiiProxy_LakeformationPrincipalPermissionsResourceOutputReference) Catalog() LakeformationPrincipalPermissionsResourceCatalogOutputReference {
+	var returns LakeformationPrincipalPermissionsResourceCatalogOutputReference
 	_jsii_.Get(
 		j,
 		"catalog",
@@ -121,8 +121,8 @@ func (j *jsiiProxy_LakeformationPrincipalPermissionsResourceOutputReference) Cat
 	return returns
 }
 
-func (j *jsiiProxy_LakeformationPrincipalPermissionsResourceOutputReference) CatalogInput() *string {
-	var returns *string
+func (j *jsiiProxy_LakeformationPrincipalPermissionsResourceOutputReference) CatalogInput() interface{} {
+	var returns interface{}
 	_jsii_.Get(
 		j,
 		"catalogInput",
@@ -369,17 +369,6 @@ func NewLakeformationPrincipalPermissionsResourceOutputReference_Override(l Lake
 	)
 }
 
-func (j *jsiiProxy_LakeformationPrincipalPermissionsResourceOutputReference)SetCatalog(val *string) {
-	if err := j.validateSetCatalogParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"catalog",
-		val,
-	)
-}
-
 func (j *jsiiProxy_LakeformationPrincipalPermissionsResourceOutputReference)SetComplexObjectIndex(val interface{}) {
 	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
 		panic(err)
@@ -619,6 +608,17 @@ func (l *jsiiProxy_LakeformationPrincipalPermissionsResourceOutputReference) Int
 	)
 
 	return returns
+}
+
+func (l *jsiiProxy_LakeformationPrincipalPermissionsResourceOutputReference) PutCatalog(value *LakeformationPrincipalPermissionsResourceCatalog) {
+	if err := l.validatePutCatalogParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		l,
+		"putCatalog",
+		[]interface{}{value},
+	)
 }
 
 func (l *jsiiProxy_LakeformationPrincipalPermissionsResourceOutputReference) PutDatabase(value *LakeformationPrincipalPermissionsResourceDatabase) {

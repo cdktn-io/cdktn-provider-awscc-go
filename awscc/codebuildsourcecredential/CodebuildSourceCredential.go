@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codebuild_source_credential awscc_codebuild_source_credential}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codebuild_source_credential awscc_codebuild_source_credential}.
 type CodebuildSourceCredential interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -459,7 +459,7 @@ func (j *jsiiProxy_CodebuildSourceCredential) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codebuild_source_credential awscc_codebuild_source_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codebuild_source_credential awscc_codebuild_source_credential} Resource.
 func NewCodebuildSourceCredential(scope constructs.Construct, id *string, config *CodebuildSourceCredentialConfig) CodebuildSourceCredential {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewCodebuildSourceCredential(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codebuild_source_credential awscc_codebuild_source_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codebuild_source_credential awscc_codebuild_source_credential} Resource.
 func NewCodebuildSourceCredential_Override(c CodebuildSourceCredential, scope constructs.Construct, id *string, config *CodebuildSourceCredentialConfig) {
 	_init_.Initialize()
 

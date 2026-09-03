@@ -5,9 +5,9 @@ package budgetsbudgetsaction
 
 
 type BudgetsBudgetsActionResourceTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/budgets_budgets_action#key BudgetsBudgetsAction#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/budgets_budgets_action#key BudgetsBudgetsAction#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/budgets_budgets_action#value BudgetsBudgetsAction#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/budgets_budgets_action#value BudgetsBudgetsAction#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

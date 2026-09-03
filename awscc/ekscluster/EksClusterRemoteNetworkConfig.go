@@ -7,11 +7,11 @@ package ekscluster
 type EksClusterRemoteNetworkConfig struct {
 	// Network configuration of nodes run on-premises with EKS Hybrid Nodes.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#remote_node_networks EksCluster#remote_node_networks}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#remote_node_networks EksCluster#remote_node_networks}
 	RemoteNodeNetworks interface{} `field:"optional" json:"remoteNodeNetworks" yaml:"remoteNodeNetworks"`
 	// Network configuration of pods run on-premises with EKS Hybrid Nodes.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_cluster#remote_pod_networks EksCluster#remote_pod_networks}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#remote_pod_networks EksCluster#remote_pod_networks}
 	RemotePodNetworks interface{} `field:"optional" json:"remotePodNetworks" yaml:"remotePodNetworks"`
 }
 

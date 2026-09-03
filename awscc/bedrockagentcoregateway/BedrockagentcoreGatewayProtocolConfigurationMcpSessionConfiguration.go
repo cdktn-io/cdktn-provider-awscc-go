@@ -5,7 +5,7 @@ package bedrockagentcoregateway
 
 
 type BedrockagentcoreGatewayProtocolConfigurationMcpSessionConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_gateway#session_timeout_in_seconds BedrockagentcoreGateway#session_timeout_in_seconds}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_gateway#session_timeout_in_seconds BedrockagentcoreGateway#session_timeout_in_seconds}.
 	SessionTimeoutInSeconds *float64 `field:"optional" json:"sessionTimeoutInSeconds" yaml:"sessionTimeoutInSeconds"`
 }
 

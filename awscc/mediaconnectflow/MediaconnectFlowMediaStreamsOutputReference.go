@@ -52,6 +52,8 @@ type MediaconnectFlowMediaStreamsOutputReference interface {
 	MediaStreamType() *string
 	SetMediaStreamType(val *string)
 	MediaStreamTypeInput() *string
+	Tags() MediaconnectFlowMediaStreamsTagsList
+	TagsInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -88,6 +90,7 @@ type MediaconnectFlowMediaStreamsOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAttributes(value *MediaconnectFlowMediaStreamsAttributes)
+	PutTags(value interface{})
 	ResetAttributes()
 	ResetClockRate()
 	ResetDescription()
@@ -95,6 +98,7 @@ type MediaconnectFlowMediaStreamsOutputReference interface {
 	ResetMediaStreamId()
 	ResetMediaStreamName()
 	ResetMediaStreamType()
+	ResetTags()
 	ResetVideoFormat()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -296,6 +300,26 @@ func (j *jsiiProxy_MediaconnectFlowMediaStreamsOutputReference) MediaStreamTypeI
 	_jsii_.Get(
 		j,
 		"mediaStreamTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediaconnectFlowMediaStreamsOutputReference) Tags() MediaconnectFlowMediaStreamsTagsList {
+	var returns MediaconnectFlowMediaStreamsTagsList
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediaconnectFlowMediaStreamsOutputReference) TagsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"tagsInput",
 		&returns,
 	)
 	return returns
@@ -698,6 +722,17 @@ func (m *jsiiProxy_MediaconnectFlowMediaStreamsOutputReference) PutAttributes(va
 	)
 }
 
+func (m *jsiiProxy_MediaconnectFlowMediaStreamsOutputReference) PutTags(value interface{}) {
+	if err := m.validatePutTagsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putTags",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_MediaconnectFlowMediaStreamsOutputReference) ResetAttributes() {
 	_jsii_.InvokeVoid(
 		m,
@@ -750,6 +785,14 @@ func (m *jsiiProxy_MediaconnectFlowMediaStreamsOutputReference) ResetMediaStream
 	_jsii_.InvokeVoid(
 		m,
 		"resetMediaStreamType",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MediaconnectFlowMediaStreamsOutputReference) ResetTags() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetTags",
 		nil, // no parameters
 	)
 }

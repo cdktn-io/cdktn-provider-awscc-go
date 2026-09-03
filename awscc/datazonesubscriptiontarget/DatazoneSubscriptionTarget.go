@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target awscc_datazone_subscription_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target awscc_datazone_subscription_target}.
 type DatazoneSubscriptionTarget interface {
 	cdktn.TerraformResource
 	ApplicableAssetTypes() *[]*string
@@ -652,7 +652,7 @@ func (j *jsiiProxy_DatazoneSubscriptionTarget) UpdatedBy() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target awscc_datazone_subscription_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target awscc_datazone_subscription_target} Resource.
 func NewDatazoneSubscriptionTarget(scope constructs.Construct, id *string, config *DatazoneSubscriptionTargetConfig) DatazoneSubscriptionTarget {
 	_init_.Initialize()
 
@@ -670,7 +670,7 @@ func NewDatazoneSubscriptionTarget(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_subscription_target awscc_datazone_subscription_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_subscription_target awscc_datazone_subscription_target} Resource.
 func NewDatazoneSubscriptionTarget_Override(d DatazoneSubscriptionTarget, scope constructs.Construct, id *string, config *DatazoneSubscriptionTargetConfig) {
 	_init_.Initialize()
 

@@ -7,7 +7,7 @@ package mediaconnectflow
 type MediaconnectFlowSourceMonitoringConfigAudioMonitoringSettings struct {
 	// Configures settings for the SilentAudio metric.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow#silent_audio MediaconnectFlow#silent_audio}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#silent_audio MediaconnectFlow#silent_audio}
 	SilentAudio *MediaconnectFlowSourceMonitoringConfigAudioMonitoringSettingsSilentAudio `field:"optional" json:"silentAudio" yaml:"silentAudio"`
 }
 

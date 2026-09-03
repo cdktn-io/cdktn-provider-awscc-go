@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/servicecatalog_portfolio_product_association awscc_servicecatalog_portfolio_product_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/servicecatalog_portfolio_product_association awscc_servicecatalog_portfolio_product_association}.
 type DataAwsccServicecatalogPortfolioProductAssociation interface {
 	cdktn.TerraformDataSource
 	AcceptLanguage() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccServicecatalogPortfolioProductAssociation) Terraform
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/servicecatalog_portfolio_product_association awscc_servicecatalog_portfolio_product_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/servicecatalog_portfolio_product_association awscc_servicecatalog_portfolio_product_association} Data Source.
 func NewDataAwsccServicecatalogPortfolioProductAssociation(scope constructs.Construct, id *string, config *DataAwsccServicecatalogPortfolioProductAssociationConfig) DataAwsccServicecatalogPortfolioProductAssociation {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccServicecatalogPortfolioProductAssociation(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/servicecatalog_portfolio_product_association awscc_servicecatalog_portfolio_product_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/servicecatalog_portfolio_product_association awscc_servicecatalog_portfolio_product_association} Data Source.
 func NewDataAwsccServicecatalogPortfolioProductAssociation_Override(d DataAwsccServicecatalogPortfolioProductAssociation, scope constructs.Construct, id *string, config *DataAwsccServicecatalogPortfolioProductAssociationConfig) {
 	_init_.Initialize()
 

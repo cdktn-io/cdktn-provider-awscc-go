@@ -7,19 +7,19 @@ package devopsagentservice
 type DevopsagentServiceServiceDetailsGitLab struct {
 	// Optional GitLab group ID for group-level access tokens.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#group_id DevopsagentService#group_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#group_id DevopsagentService#group_id}
 	GroupId *string `field:"optional" json:"groupId" yaml:"groupId"`
 	// GitLab instance URL.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
 	TargetUrl *string `field:"optional" json:"targetUrl" yaml:"targetUrl"`
 	// Type of GitLab access token.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#token_type DevopsagentService#token_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#token_type DevopsagentService#token_type}
 	TokenType *string `field:"optional" json:"tokenType" yaml:"tokenType"`
 	// GitLab access token value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
 	TokenValue *string `field:"optional" json:"tokenValue" yaml:"tokenValue"`
 }
 

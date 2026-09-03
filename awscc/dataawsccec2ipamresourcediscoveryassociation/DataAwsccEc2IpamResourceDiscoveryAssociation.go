@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ipam_resource_discovery_association awscc_ec2_ipam_resource_discovery_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ipam_resource_discovery_association awscc_ec2_ipam_resource_discovery_association}.
 type DataAwsccEc2IpamResourceDiscoveryAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccEc2IpamResourceDiscoveryAssociation) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ipam_resource_discovery_association awscc_ec2_ipam_resource_discovery_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ipam_resource_discovery_association awscc_ec2_ipam_resource_discovery_association} Data Source.
 func NewDataAwsccEc2IpamResourceDiscoveryAssociation(scope constructs.Construct, id *string, config *DataAwsccEc2IpamResourceDiscoveryAssociationConfig) DataAwsccEc2IpamResourceDiscoveryAssociation {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccEc2IpamResourceDiscoveryAssociation(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ipam_resource_discovery_association awscc_ec2_ipam_resource_discovery_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ipam_resource_discovery_association awscc_ec2_ipam_resource_discovery_association} Data Source.
 func NewDataAwsccEc2IpamResourceDiscoveryAssociation_Override(d DataAwsccEc2IpamResourceDiscoveryAssociation, scope constructs.Construct, id *string, config *DataAwsccEc2IpamResourceDiscoveryAssociationConfig) {
 	_init_.Initialize()
 

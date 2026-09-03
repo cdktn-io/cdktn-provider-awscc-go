@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_snapshot awscc_rds_db_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_snapshot awscc_rds_db_snapshot}.
 type RdsDbSnapshot interface {
 	cdktn.TerraformResource
 	AllocatedStorage() *float64
@@ -667,7 +667,7 @@ func (j *jsiiProxy_RdsDbSnapshot) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_snapshot awscc_rds_db_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_snapshot awscc_rds_db_snapshot} Resource.
 func NewRdsDbSnapshot(scope constructs.Construct, id *string, config *RdsDbSnapshotConfig) RdsDbSnapshot {
 	_init_.Initialize()
 
@@ -685,7 +685,7 @@ func NewRdsDbSnapshot(scope constructs.Construct, id *string, config *RdsDbSnaps
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_snapshot awscc_rds_db_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_snapshot awscc_rds_db_snapshot} Resource.
 func NewRdsDbSnapshot_Override(r RdsDbSnapshot, scope constructs.Construct, id *string, config *RdsDbSnapshotConfig) {
 	_init_.Initialize()
 

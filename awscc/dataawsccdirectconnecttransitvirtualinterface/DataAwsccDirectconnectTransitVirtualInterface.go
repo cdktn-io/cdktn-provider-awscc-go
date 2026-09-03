@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/directconnect_transit_virtual_interface awscc_directconnect_transit_virtual_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/directconnect_transit_virtual_interface awscc_directconnect_transit_virtual_interface}.
 type DataAwsccDirectconnectTransitVirtualInterface interface {
 	cdktn.TerraformDataSource
 	AllocateTransitVirtualInterfaceRoleArn() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccDirectconnectTransitVirtualInterface) Vlan() *float6
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/directconnect_transit_virtual_interface awscc_directconnect_transit_virtual_interface} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/directconnect_transit_virtual_interface awscc_directconnect_transit_virtual_interface} Data Source.
 func NewDataAwsccDirectconnectTransitVirtualInterface(scope constructs.Construct, id *string, config *DataAwsccDirectconnectTransitVirtualInterfaceConfig) DataAwsccDirectconnectTransitVirtualInterface {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccDirectconnectTransitVirtualInterface(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/directconnect_transit_virtual_interface awscc_directconnect_transit_virtual_interface} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/directconnect_transit_virtual_interface awscc_directconnect_transit_virtual_interface} Data Source.
 func NewDataAwsccDirectconnectTransitVirtualInterface_Override(d DataAwsccDirectconnectTransitVirtualInterface, scope constructs.Construct, id *string, config *DataAwsccDirectconnectTransitVirtualInterfaceConfig) {
 	_init_.Initialize()
 

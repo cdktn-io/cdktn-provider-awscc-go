@@ -7,11 +7,11 @@ package bedrockagentcoreconfigurationbundle
 type BedrockagentcoreConfigurationBundleCreatedBy struct {
 	// The Amazon Resource Name (ARN) of the source, if applicable.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_configuration_bundle#arn BedrockagentcoreConfigurationBundle#arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_configuration_bundle#arn BedrockagentcoreConfigurationBundle#arn}
 	Arn *string `field:"optional" json:"arn" yaml:"arn"`
 	// The name of the source (for example, user, optimization-job, or system).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_configuration_bundle#name BedrockagentcoreConfigurationBundle#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_configuration_bundle#name BedrockagentcoreConfigurationBundle#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 }
 

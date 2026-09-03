@@ -27,14 +27,14 @@ type RdsDbClusterConfig struct {
 	// Valid for Cluster Type: Multi-AZ DB clusters only
 	//  This setting is required to create a Multi-AZ DB cluster.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#allocated_storage RdsDbCluster#allocated_storage}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#allocated_storage RdsDbCluster#allocated_storage}
 	AllocatedStorage *float64 `field:"optional" json:"allocatedStorage" yaml:"allocatedStorage"`
 	// Provides a list of the AWS Identity and Access Management (IAM) roles that are associated with the DB cluster.
 	//
 	// IAM roles that are associated with a DB cluster grant permission for the DB cluster to access other Amazon Web Services on your behalf.
 	//  Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#associated_roles RdsDbCluster#associated_roles}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#associated_roles RdsDbCluster#associated_roles}
 	AssociatedRoles interface{} `field:"optional" json:"associatedRoles" yaml:"associatedRoles"`
 	// Specifies whether minor engine upgrades are applied automatically to the DB cluster during the maintenance window.
 	//
@@ -42,14 +42,14 @@ type RdsDbClusterConfig struct {
 	//  Valid for Cluster Type: Aurora DB clusters and Multi-AZ DB cluster.
 	//  For more information about automatic minor version upgrades, see [Automatically upgrading the minor engine version](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.Upgrading.html#USER_UpgradeDBInstance.Upgrading.AutoMinorVersionUpgrades).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#auto_minor_version_upgrade RdsDbCluster#auto_minor_version_upgrade}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#auto_minor_version_upgrade RdsDbCluster#auto_minor_version_upgrade}
 	AutoMinorVersionUpgrade interface{} `field:"optional" json:"autoMinorVersionUpgrade" yaml:"autoMinorVersionUpgrade"`
 	// A list of Availability Zones (AZs) where instances in the DB cluster can be created.
 	//
 	// For information on AWS Regions and Availability Zones, see [Choosing the Regions and Availability Zones](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Concepts.RegionsAndAvailabilityZones.html) in the *Amazon Aurora User Guide*.
 	//  Valid for: Aurora DB clusters only
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#availability_zones RdsDbCluster#availability_zones}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#availability_zones RdsDbCluster#availability_zones}
 	AvailabilityZones *[]*string `field:"optional" json:"availabilityZones" yaml:"availabilityZones"`
 	// The target backtrack window, in seconds.
 	//
@@ -59,7 +59,7 @@ type RdsDbClusterConfig struct {
 	//  Constraints:
 	//   +  If specified, this value must be set to a number from 0 to 259,200 (72 hours).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#backtrack_window RdsDbCluster#backtrack_window}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#backtrack_window RdsDbCluster#backtrack_window}
 	BacktrackWindow *float64 `field:"optional" json:"backtrackWindow" yaml:"backtrackWindow"`
 	// The number of days for which automated backups are retained.
 	//
@@ -69,35 +69,35 @@ type RdsDbClusterConfig struct {
 	//
 	//  Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#backup_retention_period RdsDbCluster#backup_retention_period}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#backup_retention_period RdsDbCluster#backup_retention_period}
 	BackupRetentionPeriod *float64 `field:"optional" json:"backupRetentionPeriod" yaml:"backupRetentionPeriod"`
 	// Specifies the scalability mode of the Aurora DB cluster.
 	//
 	// When set to ``limitless``, the cluster operates as an Aurora Limitless Database, allowing you to create a DB shard group for horizontal scaling (sharding) capabilities. When set to ``standard`` (the default), the cluster uses normal DB instance creation.
 	//  *Important:* Automated backup retention isn't supported with Aurora Limitless Database clusters. If you set this property to ``limitless``, you cannot set ``DeleteAutomatedBackups`` to ``false``. To create a backup, use manual snapshots instead.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#cluster_scalability_type RdsDbCluster#cluster_scalability_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#cluster_scalability_type RdsDbCluster#cluster_scalability_type}
 	ClusterScalabilityType *string `field:"optional" json:"clusterScalabilityType" yaml:"clusterScalabilityType"`
 	// A value that indicates whether to copy all tags from the DB cluster to snapshots of the DB cluster.
 	//
 	// The default is not to copy them.
 	//  Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#copy_tags_to_snapshot RdsDbCluster#copy_tags_to_snapshot}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#copy_tags_to_snapshot RdsDbCluster#copy_tags_to_snapshot}
 	CopyTagsToSnapshot interface{} `field:"optional" json:"copyTagsToSnapshot" yaml:"copyTagsToSnapshot"`
 	// The mode of Database Insights to enable for the DB cluster.
 	//
 	// If you set this value to ``advanced``, you must also set the ``PerformanceInsightsEnabled`` parameter to ``true`` and the ``PerformanceInsightsRetentionPeriod`` parameter to 465.
 	//  Valid for Cluster Type: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#database_insights_mode RdsDbCluster#database_insights_mode}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#database_insights_mode RdsDbCluster#database_insights_mode}
 	DatabaseInsightsMode *string `field:"optional" json:"databaseInsightsMode" yaml:"databaseInsightsMode"`
 	// The name of your database.
 	//
 	// If you don't provide a name, then Amazon RDS won't create a database in this DB cluster. For naming constraints, see [Naming Constraints](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/CHAP_Limits.html#RDS_Limits.Constraints) in the *Amazon Aurora User Guide*.
 	//  Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#database_name RdsDbCluster#database_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#database_name RdsDbCluster#database_name}
 	DatabaseName *string `field:"optional" json:"databaseName" yaml:"databaseName"`
 	// The DB cluster identifier.
 	//
@@ -110,11 +110,11 @@ type RdsDbClusterConfig struct {
 	//  Example: ``my-cluster1``
 	//  Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#db_cluster_identifier RdsDbCluster#db_cluster_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#db_cluster_identifier RdsDbCluster#db_cluster_identifier}
 	DbClusterIdentifier *string `field:"optional" json:"dbClusterIdentifier" yaml:"dbClusterIdentifier"`
 	// The compute and memory capacity of each DB instance in the Multi-AZ DB cluster, for example ``db.m6gd.xlarge``. Not all DB instance classes are available in all AWS-Regions, or for all database engines.  For the full list of DB instance classes and availability for your engine, see [DB instance class](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.DBInstanceClass.html) in the *Amazon RDS User Guide*.  This setting is required to create a Multi-AZ DB cluster.  Valid for Cluster Type: Multi-AZ DB clusters only.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#db_cluster_instance_class RdsDbCluster#db_cluster_instance_class}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#db_cluster_instance_class RdsDbCluster#db_cluster_instance_class}
 	DbClusterInstanceClass *string `field:"optional" json:"dbClusterInstanceClass" yaml:"dbClusterInstanceClass"`
 	// The name of the DB cluster parameter group to associate with this DB cluster.
 	//
@@ -124,7 +124,7 @@ type RdsDbClusterConfig struct {
 	//   ``aws rds describe-db-cluster-parameter-groups --query "DBClusterParameterGroups[].DBClusterParameterGroupName" --output text``
 	//  Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#db_cluster_parameter_group_name RdsDbCluster#db_cluster_parameter_group_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#db_cluster_parameter_group_name RdsDbCluster#db_cluster_parameter_group_name}
 	DbClusterParameterGroupName *string `field:"optional" json:"dbClusterParameterGroupName" yaml:"dbClusterParameterGroupName"`
 	// The name of the DB parameter group to apply to all instances of the DB cluster.
 	//
@@ -135,31 +135,31 @@ type RdsDbClusterConfig struct {
 	//   +  The DB parameter group must be in the same DB parameter group family as this DB cluster.
 	//   +  The ``DBInstanceParameterGroupName`` parameter is valid in combination with the ``AllowMajorVersionUpgrade`` parameter for a major version upgrade only.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#db_instance_parameter_group_name RdsDbCluster#db_instance_parameter_group_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#db_instance_parameter_group_name RdsDbCluster#db_instance_parameter_group_name}
 	DbInstanceParameterGroupName *string `field:"optional" json:"dbInstanceParameterGroupName" yaml:"dbInstanceParameterGroupName"`
 	// A DB subnet group that you want to associate with this DB cluster.
 	//
 	// If you are restoring a DB cluster to a point in time with ``RestoreType`` set to ``copy-on-write``, and don't specify a DB subnet group name, then the DB cluster is restored with a default DB subnet group.
 	//  Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#db_subnet_group_name RdsDbCluster#db_subnet_group_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#db_subnet_group_name RdsDbCluster#db_subnet_group_name}
 	DbSubnetGroupName *string `field:"optional" json:"dbSubnetGroupName" yaml:"dbSubnetGroupName"`
 	// Reserved for future use.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#db_system_id RdsDbCluster#db_system_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#db_system_id RdsDbCluster#db_system_id}
 	DbSystemId *string `field:"optional" json:"dbSystemId" yaml:"dbSystemId"`
 	// Specifies whether to remove automated backups immediately after the DB cluster is deleted.
 	//
 	// This parameter isn't case-sensitive. The default is to remove automated backups immediately after the DB cluster is deleted, unless the AWS Backup policy specifies a point-in-time restore rule.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#delete_automated_backups RdsDbCluster#delete_automated_backups}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#delete_automated_backups RdsDbCluster#delete_automated_backups}
 	DeleteAutomatedBackups interface{} `field:"optional" json:"deleteAutomatedBackups" yaml:"deleteAutomatedBackups"`
 	// A value that indicates whether the DB cluster has deletion protection enabled.
 	//
 	// The database can't be deleted when deletion protection is enabled. By default, deletion protection is disabled.
 	//  Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#deletion_protection RdsDbCluster#deletion_protection}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#deletion_protection RdsDbCluster#deletion_protection}
 	DeletionProtection interface{} `field:"optional" json:"deletionProtection" yaml:"deletionProtection"`
 	// Indicates the directory ID of the Active Directory to create the DB cluster.
 	//
@@ -167,13 +167,13 @@ type RdsDbClusterConfig struct {
 	//  For more information, see [Kerberos authentication](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/kerberos-authentication.html) in the *Amazon Aurora User Guide*.
 	//  Valid for: Aurora DB clusters only
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#domain RdsDbCluster#domain}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#domain RdsDbCluster#domain}
 	Domain *string `field:"optional" json:"domain" yaml:"domain"`
 	// Specifies the name of the IAM role to use when making API calls to the Directory Service.
 	//
 	// Valid for: Aurora DB clusters only
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#domain_iam_role_name RdsDbCluster#domain_iam_role_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#domain_iam_role_name RdsDbCluster#domain_iam_role_name}
 	DomainIamRoleName *string `field:"optional" json:"domainIamRoleName" yaml:"domainIamRoleName"`
 	// The list of log types that need to be enabled for exporting to CloudWatch Logs.
 	//
@@ -184,7 +184,7 @@ type RdsDbClusterConfig struct {
 	//  Valid values: ``postgresql``
 	//  Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#enable_cloudwatch_logs_exports RdsDbCluster#enable_cloudwatch_logs_exports}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#enable_cloudwatch_logs_exports RdsDbCluster#enable_cloudwatch_logs_exports}
 	EnableCloudwatchLogsExports *[]*string `field:"optional" json:"enableCloudwatchLogsExports" yaml:"enableCloudwatchLogsExports"`
 	// Specifies whether to enable this DB cluster to forward write operations to the primary cluster of a global cluster (Aurora global database).
 	//
@@ -192,7 +192,7 @@ type RdsDbClusterConfig struct {
 	//  You can set this value only on Aurora DB clusters that are members of an Aurora global database. With this parameter enabled, a secondary cluster can forward writes to the current primary cluster, and the resulting changes are replicated back to this cluster. For the primary DB cluster of an Aurora global database, this value is used immediately if the primary is demoted by a global cluster API operation, but it does nothing until then.
 	//  Valid for Cluster Type: Aurora DB clusters only
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#enable_global_write_forwarding RdsDbCluster#enable_global_write_forwarding}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#enable_global_write_forwarding RdsDbCluster#enable_global_write_forwarding}
 	EnableGlobalWriteForwarding interface{} `field:"optional" json:"enableGlobalWriteForwarding" yaml:"enableGlobalWriteForwarding"`
 	// Specifies whether to enable the HTTP endpoint for the DB cluster.
 	//
@@ -201,7 +201,7 @@ type RdsDbClusterConfig struct {
 	//  For more information, see [Using RDS Data API](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/data-api.html) in the *Amazon Aurora User Guide*.
 	//  Valid for Cluster Type: Aurora DB clusters only
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#enable_http_endpoint RdsDbCluster#enable_http_endpoint}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#enable_http_endpoint RdsDbCluster#enable_http_endpoint}
 	EnableHttpEndpoint interface{} `field:"optional" json:"enableHttpEndpoint" yaml:"enableHttpEndpoint"`
 	// A value that indicates whether to enable mapping of AWS Identity and Access Management (IAM) accounts to database accounts.
 	//
@@ -209,14 +209,14 @@ type RdsDbClusterConfig struct {
 	//  For more information, see [IAM Database Authentication](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/UsingWithRDS.IAMDBAuth.html) in the *Amazon Aurora User Guide.*
 	//  Valid for: Aurora DB clusters only
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#enable_iam_database_authentication RdsDbCluster#enable_iam_database_authentication}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#enable_iam_database_authentication RdsDbCluster#enable_iam_database_authentication}
 	EnableIamDatabaseAuthentication interface{} `field:"optional" json:"enableIamDatabaseAuthentication" yaml:"enableIamDatabaseAuthentication"`
 	// Specifies whether read replicas can forward write operations to the writer DB instance in the DB cluster.
 	//
 	// By default, write operations aren't allowed on reader DB instances.
 	//  Valid for: Aurora DB clusters only
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#enable_local_write_forwarding RdsDbCluster#enable_local_write_forwarding}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#enable_local_write_forwarding RdsDbCluster#enable_local_write_forwarding}
 	EnableLocalWriteForwarding interface{} `field:"optional" json:"enableLocalWriteForwarding" yaml:"enableLocalWriteForwarding"`
 	// The name of the database engine to be used for this DB cluster.
 	//
@@ -228,7 +228,7 @@ type RdsDbClusterConfig struct {
 	//
 	//  Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#engine RdsDbCluster#engine}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#engine RdsDbCluster#engine}
 	Engine *string `field:"optional" json:"engine" yaml:"engine"`
 	// The lifecycle type for this DB cluster.
 	//
@@ -241,7 +241,7 @@ type RdsDbClusterConfig struct {
 	//  Valid Values: ``open-source-rds-extended-support | open-source-rds-extended-support-disabled``
 	//  Default: ``open-source-rds-extended-support``
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#engine_lifecycle_support RdsDbCluster#engine_lifecycle_support}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#engine_lifecycle_support RdsDbCluster#engine_lifecycle_support}
 	EngineLifecycleSupport *string `field:"optional" json:"engineLifecycleSupport" yaml:"engineLifecycleSupport"`
 	// The DB engine mode of the DB cluster, either ``provisioned`` or ``serverless``.
 	//
@@ -252,7 +252,7 @@ type RdsDbClusterConfig struct {
 	//
 	//  Valid for Cluster Type: Aurora DB clusters only
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#engine_mode RdsDbCluster#engine_mode}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#engine_mode RdsDbCluster#engine_mode}
 	EngineMode *string `field:"optional" json:"engineMode" yaml:"engineMode"`
 	// The version number of the database engine to use.
 	//
@@ -276,7 +276,7 @@ type RdsDbClusterConfig struct {
 	//  For information, see [Amazon RDS for PostgreSQL](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_PostgreSQL.html#PostgreSQL.Concepts) in the *Amazon RDS User Guide*.
 	//  Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#engine_version RdsDbCluster#engine_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#engine_version RdsDbCluster#engine_version}
 	EngineVersion *string `field:"optional" json:"engineVersion" yaml:"engineVersion"`
 	// If you are configuring an Aurora global database cluster and want your Aurora DB cluster to be a secondary member in the global database cluster, specify the global cluster ID of the global database cluster.
 	//
@@ -286,7 +286,7 @@ type RdsDbClusterConfig struct {
 	//   For information about Aurora global databases, see [Working with Amazon Aurora Global Databases](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-global-database.html) in the *Amazon Aurora User Guide*.
 	//  Valid for: Aurora DB clusters only
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#global_cluster_identifier RdsDbCluster#global_cluster_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#global_cluster_identifier RdsDbCluster#global_cluster_identifier}
 	GlobalClusterIdentifier *string `field:"optional" json:"globalClusterIdentifier" yaml:"globalClusterIdentifier"`
 	// The amount of Provisioned IOPS (input/output operations per second) to be initially allocated for each DB instance in the Multi-AZ DB cluster.
 	//
@@ -296,7 +296,7 @@ type RdsDbClusterConfig struct {
 	//  Constraints:
 	//   +  Must be a multiple between .5 and 50 of the storage amount for the DB cluster.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#iops RdsDbCluster#iops}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#iops RdsDbCluster#iops}
 	Iops *float64 `field:"optional" json:"iops" yaml:"iops"`
 	// The Amazon Resource Name (ARN) of the AWS KMS key that is used to encrypt the database instances in the DB cluster, such as ``arn:aws:kms:us-east-1:012345678910:key/abcd1234-a123-456a-a12b-a123b4cd56ef``.
 	//
@@ -305,7 +305,7 @@ type RdsDbClusterConfig struct {
 	//  If you create a read replica of an encrypted DB cluster in another AWS Region, make sure to set ``KmsKeyId`` to a KMS key identifier that is valid in the destination AWS Region. This KMS key is used to encrypt the read replica in that AWS Region.
 	//  Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#kms_key_id RdsDbCluster#kms_key_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#kms_key_id RdsDbCluster#kms_key_id}
 	KmsKeyId *string `field:"optional" json:"kmsKeyId" yaml:"kmsKeyId"`
 	// Specifies whether to manage the master user password with AWS Secrets Manager.
 	//
@@ -314,7 +314,7 @@ type RdsDbClusterConfig struct {
 	//  Constraints:
 	//   +  Can't manage the master user password with AWS Secrets Manager if ``MasterUserPassword`` is specified.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#manage_master_user_password RdsDbCluster#manage_master_user_password}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#manage_master_user_password RdsDbCluster#manage_master_user_password}
 	ManageMasterUserPassword interface{} `field:"optional" json:"manageMasterUserPassword" yaml:"manageMasterUserPassword"`
 	// Specifies the authentication type for the master user.
 	//
@@ -326,28 +326,28 @@ type RdsDbClusterConfig struct {
 	//  Valid for Cluster Type: Aurora DB clusters and Multi-AZ DB clusters
 	//  This option is only valid for RDS for MySQL, RDS for MariaDB, RDS for PostgreSQL, Aurora MySQL, and Aurora PostgreSQL engines.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#master_user_authentication_type RdsDbCluster#master_user_authentication_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#master_user_authentication_type RdsDbCluster#master_user_authentication_type}
 	MasterUserAuthenticationType *string `field:"optional" json:"masterUserAuthenticationType" yaml:"masterUserAuthenticationType"`
 	// The name of the master user for the DB cluster.
 	//
 	// If you specify the ``SourceDBClusterIdentifier``, ``SnapshotIdentifier``, or ``GlobalClusterIdentifier`` property, don't specify this property. The value is inherited from the source DB cluster, the snapshot, or the primary DB cluster for the global database cluster, respectively.
 	//   Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#master_username RdsDbCluster#master_username}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#master_username RdsDbCluster#master_username}
 	MasterUsername *string `field:"optional" json:"masterUsername" yaml:"masterUsername"`
 	// The master password for the DB instance.
 	//
 	// If you specify the ``SourceDBClusterIdentifier``, ``SnapshotIdentifier``, or ``GlobalClusterIdentifier`` property, don't specify this property. The value is inherited from the source DB cluster, the snapshot, or the primary DB cluster for the global database cluster, respectively.
 	//   Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#master_user_password RdsDbCluster#master_user_password}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#master_user_password RdsDbCluster#master_user_password}
 	MasterUserPassword *string `field:"optional" json:"masterUserPassword" yaml:"masterUserPassword"`
 	// The secret managed by RDS in AWS Secrets Manager for the master user password.
 	//
 	// When you restore a DB cluster from a snapshot, Amazon RDS generates a new secret instead of reusing the secret specified in the ``SecretArn`` property. This ensures that the restored DB cluster is securely managed with a dedicated secret. To maintain consistent integration with your application, you might need to update resource configurations to reference the newly created secret.
 	//   For more information, see [Password management with Secrets Manager](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/rds-secrets-manager.html) in the *Amazon RDS User Guide* and [Password management with Secrets Manager](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/rds-secrets-manager.html) in the *Amazon Aurora User Guide.*
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#master_user_secret RdsDbCluster#master_user_secret}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#master_user_secret RdsDbCluster#master_user_secret}
 	MasterUserSecret *RdsDbClusterMasterUserSecret `field:"optional" json:"masterUserSecret" yaml:"masterUserSecret"`
 	// The interval, in seconds, between points when Enhanced Monitoring metrics are collected for the DB cluster.
 	//
@@ -357,7 +357,7 @@ type RdsDbClusterConfig struct {
 	//  Valid Values: ``0 | 1 | 5 | 10 | 15 | 30 | 60``
 	//  Default: ``0``
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#monitoring_interval RdsDbCluster#monitoring_interval}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#monitoring_interval RdsDbCluster#monitoring_interval}
 	MonitoringInterval *float64 `field:"optional" json:"monitoringInterval" yaml:"monitoringInterval"`
 	// The Amazon Resource Name (ARN) for the IAM role that permits RDS to send Enhanced Monitoring metrics to Amazon CloudWatch Logs.
 	//
@@ -365,7 +365,7 @@ type RdsDbClusterConfig struct {
 	//  If ``MonitoringInterval`` is set to a value other than ``0``, supply a ``MonitoringRoleArn`` value.
 	//  Valid for Cluster Type: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#monitoring_role_arn RdsDbCluster#monitoring_role_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#monitoring_role_arn RdsDbCluster#monitoring_role_arn}
 	MonitoringRoleArn *string `field:"optional" json:"monitoringRoleArn" yaml:"monitoringRoleArn"`
 	// The network type of the DB cluster.
 	//
@@ -377,14 +377,14 @@ type RdsDbClusterConfig struct {
 	//  For more information, see [Working with a DB instance in a VPC](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/USER_VPC.WorkingWithRDSInstanceinaVPC.html) in the *Amazon Aurora User Guide.*
 	//  Valid for: Aurora DB clusters only
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#network_type RdsDbCluster#network_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#network_type RdsDbCluster#network_type}
 	NetworkType *string `field:"optional" json:"networkType" yaml:"networkType"`
 	// Specifies whether to turn on Performance Insights for the DB cluster.
 	//
 	// For more information, see [Using Amazon Performance Insights](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PerfInsights.html) in the *Amazon RDS User Guide*.
 	//  Valid for Cluster Type: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#performance_insights_enabled RdsDbCluster#performance_insights_enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#performance_insights_enabled RdsDbCluster#performance_insights_enabled}
 	PerformanceInsightsEnabled interface{} `field:"optional" json:"performanceInsightsEnabled" yaml:"performanceInsightsEnabled"`
 	// The AWS KMS key identifier for encryption of Performance Insights data.
 	//
@@ -392,7 +392,7 @@ type RdsDbClusterConfig struct {
 	//  If you don't specify a value for ``PerformanceInsightsKMSKeyId``, then Amazon RDS uses your default KMS key. There is a default KMS key for your AWS-account. Your AWS-account has a different default KMS key for each AWS-Region.
 	//  Valid for Cluster Type: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#performance_insights_kms_key_id RdsDbCluster#performance_insights_kms_key_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#performance_insights_kms_key_id RdsDbCluster#performance_insights_kms_key_id}
 	PerformanceInsightsKmsKeyId *string `field:"optional" json:"performanceInsightsKmsKeyId" yaml:"performanceInsightsKmsKeyId"`
 	// The number of days to retain Performance Insights data.
 	//
@@ -406,7 +406,7 @@ type RdsDbClusterConfig struct {
 	//  Default: ``7`` days
 	//  If you specify a retention period that isn't valid, such as ``94``, Amazon RDS issues an error.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#performance_insights_retention_period RdsDbCluster#performance_insights_retention_period}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#performance_insights_retention_period RdsDbCluster#performance_insights_retention_period}
 	PerformanceInsightsRetentionPeriod *float64 `field:"optional" json:"performanceInsightsRetentionPeriod" yaml:"performanceInsightsRetentionPeriod"`
 	// The port number on which the DB instances in the DB cluster accept connections.
 	//
@@ -417,7 +417,7 @@ type RdsDbClusterConfig struct {
 	//   The ``No interruption`` on update behavior only applies to DB clusters. If you are updating a DB instance, see [Port](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-database-instance.html#cfn-rds-dbinstance-port) for the AWS::RDS::DBInstance resource.
 	//   Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#port RdsDbCluster#port}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#port RdsDbCluster#port}
 	Port *float64 `field:"optional" json:"port" yaml:"port"`
 	// The daily time range during which automated backups are created.
 	//
@@ -430,7 +430,7 @@ type RdsDbClusterConfig struct {
 	//
 	//  Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#preferred_backup_window RdsDbCluster#preferred_backup_window}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#preferred_backup_window RdsDbCluster#preferred_backup_window}
 	PreferredBackupWindow *string `field:"optional" json:"preferredBackupWindow" yaml:"preferredBackupWindow"`
 	// The weekly time range during which system maintenance can occur, in Universal Coordinated Time (UTC).
 	//
@@ -440,7 +440,7 @@ type RdsDbClusterConfig struct {
 	//  Constraints: Minimum 30-minute window.
 	//  Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#preferred_maintenance_window RdsDbCluster#preferred_maintenance_window}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#preferred_maintenance_window RdsDbCluster#preferred_maintenance_window}
 	PreferredMaintenanceWindow *string `field:"optional" json:"preferredMaintenanceWindow" yaml:"preferredMaintenanceWindow"`
 	// Specifies whether the DB cluster is publicly accessible.
 	//
@@ -452,13 +452,13 @@ type RdsDbClusterConfig struct {
 	//  If ``DBSubnetGroup`` is specified, ``PubliclyAccessible`` defaults to ``false`` unless the value of ``DBSubnetGroup`` is ``default``, in which case ``PubliclyAccessible`` defaults to ``true``.
 	//  If ``PubliclyAccessible`` is true and the VPC that the ``DBSubnetGroup`` is in doesn't have an internet gateway attached to it, Amazon RDS returns an error.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#publicly_accessible RdsDbCluster#publicly_accessible}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#publicly_accessible RdsDbCluster#publicly_accessible}
 	PubliclyAccessible interface{} `field:"optional" json:"publiclyAccessible" yaml:"publiclyAccessible"`
 	// The Amazon Resource Name (ARN) of the source DB instance or DB cluster if this DB cluster is created as a read replica.
 	//
 	// Valid for: Aurora DB clusters only
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#replication_source_identifier RdsDbCluster#replication_source_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#replication_source_identifier RdsDbCluster#replication_source_identifier}
 	ReplicationSourceIdentifier *string `field:"optional" json:"replicationSourceIdentifier" yaml:"replicationSourceIdentifier"`
 	// The date and time to restore the DB cluster to.
 	//
@@ -473,7 +473,7 @@ type RdsDbClusterConfig struct {
 	//  Example: ``2015-03-07T23:45:00Z``
 	//  Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#restore_to_time RdsDbCluster#restore_to_time}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#restore_to_time RdsDbCluster#restore_to_time}
 	RestoreToTime *string `field:"optional" json:"restoreToTime" yaml:"restoreToTime"`
 	// The type of restore to be performed.
 	//
@@ -484,21 +484,21 @@ type RdsDbClusterConfig struct {
 	//  If you don't specify a ``RestoreType`` value, then the new DB cluster is restored as a full copy of the source DB cluster.
 	//  Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#restore_type RdsDbCluster#restore_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#restore_type RdsDbCluster#restore_type}
 	RestoreType *string `field:"optional" json:"restoreType" yaml:"restoreType"`
 	// The scaling configuration of an Aurora Serverless v1 DB cluster.
 	//
 	// This property is only supported for Aurora Serverless v1. For Aurora Serverless v2, Use the ``ServerlessV2ScalingConfiguration`` property.
 	//  Valid for: Aurora Serverless v1 DB clusters only
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#scaling_configuration RdsDbCluster#scaling_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#scaling_configuration RdsDbCluster#scaling_configuration}
 	ScalingConfiguration *RdsDbClusterScalingConfiguration `field:"optional" json:"scalingConfiguration" yaml:"scalingConfiguration"`
 	// The scaling configuration of an Aurora Serverless V2 DB cluster.
 	//
 	// This property is only supported for Aurora Serverless v2. For Aurora Serverless v1, Use the ``ScalingConfiguration`` property.
 	//  Valid for: Aurora Serverless v2 DB clusters only
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#serverless_v2_scaling_configuration RdsDbCluster#serverless_v2_scaling_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#serverless_v2_scaling_configuration RdsDbCluster#serverless_v2_scaling_configuration}
 	ServerlessV2ScalingConfiguration *RdsDbClusterServerlessV2ScalingConfiguration `field:"optional" json:"serverlessV2ScalingConfiguration" yaml:"serverlessV2ScalingConfiguration"`
 	// The identifier for the DB snapshot or DB cluster snapshot to restore from.
 	//
@@ -520,7 +520,7 @@ type RdsDbClusterConfig struct {
 	//
 	//  Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#snapshot_identifier RdsDbCluster#snapshot_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#snapshot_identifier RdsDbCluster#snapshot_identifier}
 	SnapshotIdentifier *string `field:"optional" json:"snapshotIdentifier" yaml:"snapshotIdentifier"`
 	// When restoring a DB cluster to a point in time, the identifier of the source DB cluster from which to restore.
 	//
@@ -530,18 +530,18 @@ type RdsDbClusterConfig struct {
 	//
 	//  Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#source_db_cluster_identifier RdsDbCluster#source_db_cluster_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#source_db_cluster_identifier RdsDbCluster#source_db_cluster_identifier}
 	SourceDbClusterIdentifier *string `field:"optional" json:"sourceDbClusterIdentifier" yaml:"sourceDbClusterIdentifier"`
 	// The resource ID of the source DB cluster from which to restore.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#source_db_cluster_resource_id RdsDbCluster#source_db_cluster_resource_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#source_db_cluster_resource_id RdsDbCluster#source_db_cluster_resource_id}
 	SourceDbClusterResourceId *string `field:"optional" json:"sourceDbClusterResourceId" yaml:"sourceDbClusterResourceId"`
 	// The AWS Region which contains the source DB cluster when replicating a DB cluster.
 	//
 	// For example, ``us-east-1``.
 	//  Valid for: Aurora DB clusters only
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#source_region RdsDbCluster#source_region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#source_region RdsDbCluster#source_region}
 	SourceRegion *string `field:"optional" json:"sourceRegion" yaml:"sourceRegion"`
 	// Indicates whether the DB cluster is encrypted.
 	//
@@ -552,7 +552,7 @@ type RdsDbClusterConfig struct {
 	//   If you specify both the ``StorageEncrypted`` and ``SnapshotIdentifier`` properties without specifying the ``KmsKeyId`` property, then the restored DB cluster inherits the encryption settings from the DB snapshot that provide.
 	//   Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#storage_encrypted RdsDbCluster#storage_encrypted}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#storage_encrypted RdsDbCluster#storage_encrypted}
 	StorageEncrypted interface{} `field:"optional" json:"storageEncrypted" yaml:"storageEncrypted"`
 	// The storage type to associate with the DB cluster.
 	//
@@ -570,25 +570,25 @@ type RdsDbClusterConfig struct {
 	//
 	//   When you create an Aurora DB cluster with the storage type set to ``aurora-iopt1``, the storage type is returned in the response. The storage type isn't returned when you set it to ``aurora``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#storage_type RdsDbCluster#storage_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#storage_type RdsDbCluster#storage_type}
 	StorageType *string `field:"optional" json:"storageType" yaml:"storageType"`
 	// Tags to assign to the DB cluster.  Valid for Cluster Type: Aurora DB clusters and Multi-AZ DB clusters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#tags RdsDbCluster#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#tags RdsDbCluster#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// A value that indicates whether to restore the DB cluster to the latest restorable backup time.
 	//
 	// By default, the DB cluster is not restored to the latest restorable backup time.
 	//  Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#use_latest_restorable_time RdsDbCluster#use_latest_restorable_time}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#use_latest_restorable_time RdsDbCluster#use_latest_restorable_time}
 	UseLatestRestorableTime interface{} `field:"optional" json:"useLatestRestorableTime" yaml:"useLatestRestorableTime"`
 	// A list of EC2 VPC security groups to associate with this DB cluster.
 	//
 	// If you plan to update the resource, don't specify VPC security groups in a shared VPC.
 	//  Valid for: Aurora DB clusters and Multi-AZ DB clusters
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_cluster#vpc_security_group_ids RdsDbCluster#vpc_security_group_ids}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_cluster#vpc_security_group_ids RdsDbCluster#vpc_security_group_ids}
 	VpcSecurityGroupIds *[]*string `field:"optional" json:"vpcSecurityGroupIds" yaml:"vpcSecurityGroupIds"`
 }
 

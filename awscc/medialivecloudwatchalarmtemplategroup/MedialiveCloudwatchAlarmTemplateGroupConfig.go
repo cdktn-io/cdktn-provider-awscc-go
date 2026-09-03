@@ -24,15 +24,15 @@ type MedialiveCloudwatchAlarmTemplateGroupConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A resource's name. Names must be unique within the scope of a resource type in a specific region.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_cloudwatch_alarm_template_group#name MedialiveCloudwatchAlarmTemplateGroup#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/medialive_cloudwatch_alarm_template_group#name MedialiveCloudwatchAlarmTemplateGroup#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// A resource's optional description.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_cloudwatch_alarm_template_group#description MedialiveCloudwatchAlarmTemplateGroup#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/medialive_cloudwatch_alarm_template_group#description MedialiveCloudwatchAlarmTemplateGroup#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Represents the tags associated with a resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_cloudwatch_alarm_template_group#tags MedialiveCloudwatchAlarmTemplateGroup#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/medialive_cloudwatch_alarm_template_group#tags MedialiveCloudwatchAlarmTemplateGroup#tags}
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 }
 

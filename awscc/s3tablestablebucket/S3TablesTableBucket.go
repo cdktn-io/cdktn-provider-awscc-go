@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_bucket awscc_s3tables_table_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3tables_table_bucket awscc_s3tables_table_bucket}.
 type S3TablesTableBucket interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -533,7 +533,7 @@ func (j *jsiiProxy_S3TablesTableBucket) UnreferencedFileRemovalInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_bucket awscc_s3tables_table_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3tables_table_bucket awscc_s3tables_table_bucket} Resource.
 func NewS3TablesTableBucket(scope constructs.Construct, id *string, config *S3TablesTableBucketConfig) S3TablesTableBucket {
 	_init_.Initialize()
 
@@ -551,7 +551,7 @@ func NewS3TablesTableBucket(scope constructs.Construct, id *string, config *S3Ta
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_bucket awscc_s3tables_table_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3tables_table_bucket awscc_s3tables_table_bucket} Resource.
 func NewS3TablesTableBucket_Override(s S3TablesTableBucket, scope constructs.Construct, id *string, config *S3TablesTableBucketConfig) {
 	_init_.Initialize()
 

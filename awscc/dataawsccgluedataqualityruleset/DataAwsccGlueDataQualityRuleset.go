@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/glue_data_quality_ruleset awscc_glue_data_quality_ruleset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/glue_data_quality_ruleset awscc_glue_data_quality_ruleset}.
 type DataAwsccGlueDataQualityRuleset interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccGlueDataQualityRuleset) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/glue_data_quality_ruleset awscc_glue_data_quality_ruleset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/glue_data_quality_ruleset awscc_glue_data_quality_ruleset} Data Source.
 func NewDataAwsccGlueDataQualityRuleset(scope constructs.Construct, id *string, config *DataAwsccGlueDataQualityRulesetConfig) DataAwsccGlueDataQualityRuleset {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccGlueDataQualityRuleset(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/glue_data_quality_ruleset awscc_glue_data_quality_ruleset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/glue_data_quality_ruleset awscc_glue_data_quality_ruleset} Data Source.
 func NewDataAwsccGlueDataQualityRuleset_Override(d DataAwsccGlueDataQualityRuleset, scope constructs.Construct, id *string, config *DataAwsccGlueDataQualityRulesetConfig) {
 	_init_.Initialize()
 

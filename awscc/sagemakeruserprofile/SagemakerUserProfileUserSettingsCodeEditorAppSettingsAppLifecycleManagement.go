@@ -5,7 +5,7 @@ package sagemakeruserprofile
 
 
 type SagemakerUserProfileUserSettingsCodeEditorAppSettingsAppLifecycleManagement struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_user_profile#idle_settings SagemakerUserProfile#idle_settings}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_user_profile#idle_settings SagemakerUserProfile#idle_settings}.
 	IdleSettings *SagemakerUserProfileUserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettings `field:"optional" json:"idleSettings" yaml:"idleSettings"`
 }
 

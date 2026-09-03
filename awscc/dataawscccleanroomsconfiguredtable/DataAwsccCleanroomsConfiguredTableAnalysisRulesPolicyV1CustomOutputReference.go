@@ -14,8 +14,10 @@ import (
 type DataAwsccCleanroomsConfiguredTableAnalysisRulesPolicyV1CustomOutputReference interface {
 	cdktn.ComplexObject
 	AdditionalAnalyses() *string
+	AggregationThresholds() DataAwsccCleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholdsList
 	AllowedAnalyses() *[]*string
 	AllowedAnalysisProviders() *[]*string
+	ComparisonControls() DataAwsccCleanroomsConfiguredTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -94,6 +96,16 @@ func (j *jsiiProxy_DataAwsccCleanroomsConfiguredTableAnalysisRulesPolicyV1Custom
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccCleanroomsConfiguredTableAnalysisRulesPolicyV1CustomOutputReference) AggregationThresholds() DataAwsccCleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholdsList {
+	var returns DataAwsccCleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholdsList
+	_jsii_.Get(
+		j,
+		"aggregationThresholds",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccCleanroomsConfiguredTableAnalysisRulesPolicyV1CustomOutputReference) AllowedAnalyses() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -109,6 +121,16 @@ func (j *jsiiProxy_DataAwsccCleanroomsConfiguredTableAnalysisRulesPolicyV1Custom
 	_jsii_.Get(
 		j,
 		"allowedAnalysisProviders",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccCleanroomsConfiguredTableAnalysisRulesPolicyV1CustomOutputReference) ComparisonControls() DataAwsccCleanroomsConfiguredTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference {
+	var returns DataAwsccCleanroomsConfiguredTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference
+	_jsii_.Get(
+		j,
+		"comparisonControls",
 		&returns,
 	)
 	return returns

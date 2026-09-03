@@ -26,15 +26,15 @@ type GlueRegistryConfig struct {
 	//
 	// No whitespace.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_registry#name GlueRegistry#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_registry#name GlueRegistry#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// A description of the registry. If description is not provided, there will not be any default value for this.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_registry#description GlueRegistry#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_registry#description GlueRegistry#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// List of tags to tag the Registry.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_registry#tags GlueRegistry#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_registry#tags GlueRegistry#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

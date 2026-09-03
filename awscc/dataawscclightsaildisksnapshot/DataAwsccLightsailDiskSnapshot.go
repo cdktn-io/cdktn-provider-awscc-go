@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lightsail_disk_snapshot awscc_lightsail_disk_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lightsail_disk_snapshot awscc_lightsail_disk_snapshot}.
 type DataAwsccLightsailDiskSnapshot interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccLightsailDiskSnapshot) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lightsail_disk_snapshot awscc_lightsail_disk_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lightsail_disk_snapshot awscc_lightsail_disk_snapshot} Data Source.
 func NewDataAwsccLightsailDiskSnapshot(scope constructs.Construct, id *string, config *DataAwsccLightsailDiskSnapshotConfig) DataAwsccLightsailDiskSnapshot {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccLightsailDiskSnapshot(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lightsail_disk_snapshot awscc_lightsail_disk_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lightsail_disk_snapshot awscc_lightsail_disk_snapshot} Data Source.
 func NewDataAwsccLightsailDiskSnapshot_Override(d DataAwsccLightsailDiskSnapshot, scope constructs.Construct, id *string, config *DataAwsccLightsailDiskSnapshotConfig) {
 	_init_.Initialize()
 

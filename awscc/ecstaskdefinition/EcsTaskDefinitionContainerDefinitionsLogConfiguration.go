@@ -13,7 +13,7 @@ type EcsTaskDefinitionContainerDefinitionsLogConfiguration struct {
 	//  For more information about using the ``awsfirelens`` log driver, see [Send Amazon ECS logs to an service or Partner](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/using_firelens.html).
 	//   If you have a custom driver that isn't listed, you can fork the Amazon ECS container agent project that's [available on GitHub](https://docs.aws.amazon.com/https://github.com/aws/amazon-ecs-agent) and customize it to work with that driver. We encourage you to submit pull requests for changes that you would like to have included. However, we don't currently provide support for running modified copies of this software.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_task_definition#log_driver EcsTaskDefinition#log_driver}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#log_driver EcsTaskDefinition#log_driver}
 	LogDriver *string `field:"optional" json:"logDriver" yaml:"logDriver"`
 	// The configuration options to send to the log driver.
 	//
@@ -29,13 +29,13 @@ type EcsTaskDefinitionContainerDefinitionsLogConfiguration struct {
 	//  When you export logs to Amazon S3, you can specify the bucket using the ``bucket`` option. You can also specify ``region``, ``total_file_size``, ``upload_timeout``, and ``use_put_object`` as options.
 	//  This parameter requires version 1.19 of the Docker Remote API or greater on your container instance. To check the Docker Remote API version on your container instance, log in to your container instance and run the following command: ``sudo docker version --format '{{.Server.APIVersion}}'``
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_task_definition#options EcsTaskDefinition#options}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#options EcsTaskDefinition#options}
 	Options *map[string]*string `field:"optional" json:"options" yaml:"options"`
 	// The secrets to pass to the log configuration.
 	//
 	// For more information, see [Specifying sensitive data](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/specifying-sensitive-data.html) in the *Amazon Elastic Container Service Developer Guide*.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_task_definition#secret_options EcsTaskDefinition#secret_options}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#secret_options EcsTaskDefinition#secret_options}
 	SecretOptions interface{} `field:"optional" json:"secretOptions" yaml:"secretOptions"`
 }
 

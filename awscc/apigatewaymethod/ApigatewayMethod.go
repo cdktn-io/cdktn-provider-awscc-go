@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_method awscc_apigateway_method}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_method awscc_apigateway_method}.
 type ApigatewayMethod interface {
 	cdktn.TerraformResource
 	ApiKeyRequired() interface{}
@@ -664,7 +664,7 @@ func (j *jsiiProxy_ApigatewayMethod) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_method awscc_apigateway_method} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_method awscc_apigateway_method} Resource.
 func NewApigatewayMethod(scope constructs.Construct, id *string, config *ApigatewayMethodConfig) ApigatewayMethod {
 	_init_.Initialize()
 
@@ -682,7 +682,7 @@ func NewApigatewayMethod(scope constructs.Construct, id *string, config *Apigate
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_method awscc_apigateway_method} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_method awscc_apigateway_method} Resource.
 func NewApigatewayMethod_Override(a ApigatewayMethod, scope constructs.Construct, id *string, config *ApigatewayMethodConfig) {
 	_init_.Initialize()
 

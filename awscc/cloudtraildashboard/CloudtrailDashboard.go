@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_dashboard awscc_cloudtrail_dashboard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudtrail_dashboard awscc_cloudtrail_dashboard}.
 type CloudtrailDashboard interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -530,7 +530,7 @@ func (j *jsiiProxy_CloudtrailDashboard) WidgetsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_dashboard awscc_cloudtrail_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudtrail_dashboard awscc_cloudtrail_dashboard} Resource.
 func NewCloudtrailDashboard(scope constructs.Construct, id *string, config *CloudtrailDashboardConfig) CloudtrailDashboard {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewCloudtrailDashboard(scope constructs.Construct, id *string, config *Clou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudtrail_dashboard awscc_cloudtrail_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudtrail_dashboard awscc_cloudtrail_dashboard} Resource.
 func NewCloudtrailDashboard_Override(c CloudtrailDashboard, scope constructs.Construct, id *string, config *CloudtrailDashboardConfig) {
 	_init_.Initialize()
 

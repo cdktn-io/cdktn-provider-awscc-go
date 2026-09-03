@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger awscc_devopsagent_trigger}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_trigger awscc_devopsagent_trigger}.
 type DevopsagentTrigger interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -515,7 +515,7 @@ func (j *jsiiProxy_DevopsagentTrigger) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger awscc_devopsagent_trigger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_trigger awscc_devopsagent_trigger} Resource.
 func NewDevopsagentTrigger(scope constructs.Construct, id *string, config *DevopsagentTriggerConfig) DevopsagentTrigger {
 	_init_.Initialize()
 
@@ -533,7 +533,7 @@ func NewDevopsagentTrigger(scope constructs.Construct, id *string, config *Devop
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger awscc_devopsagent_trigger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_trigger awscc_devopsagent_trigger} Resource.
 func NewDevopsagentTrigger_Override(d DevopsagentTrigger, scope constructs.Construct, id *string, config *DevopsagentTriggerConfig) {
 	_init_.Initialize()
 

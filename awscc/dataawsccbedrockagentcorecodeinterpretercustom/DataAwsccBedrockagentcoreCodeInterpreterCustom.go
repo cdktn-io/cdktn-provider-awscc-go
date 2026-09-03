@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_code_interpreter_custom awscc_bedrockagentcore_code_interpreter_custom}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrockagentcore_code_interpreter_custom awscc_bedrockagentcore_code_interpreter_custom}.
 type DataAwsccBedrockagentcoreCodeInterpreterCustom interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreCodeInterpreterCustom) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_code_interpreter_custom awscc_bedrockagentcore_code_interpreter_custom} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrockagentcore_code_interpreter_custom awscc_bedrockagentcore_code_interpreter_custom} Data Source.
 func NewDataAwsccBedrockagentcoreCodeInterpreterCustom(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreCodeInterpreterCustomConfig) DataAwsccBedrockagentcoreCodeInterpreterCustom {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccBedrockagentcoreCodeInterpreterCustom(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_code_interpreter_custom awscc_bedrockagentcore_code_interpreter_custom} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrockagentcore_code_interpreter_custom awscc_bedrockagentcore_code_interpreter_custom} Data Source.
 func NewDataAwsccBedrockagentcoreCodeInterpreterCustom_Override(d DataAwsccBedrockagentcoreCodeInterpreterCustom, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreCodeInterpreterCustomConfig) {
 	_init_.Initialize()
 

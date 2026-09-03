@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/chatbot_custom_actions awscc_chatbot_custom_actions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/chatbot_custom_actions awscc_chatbot_custom_actions}.
 type DataAwsccChatbotCustomActions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccChatbotCustomActions) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/chatbot_custom_actions awscc_chatbot_custom_actions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/chatbot_custom_actions awscc_chatbot_custom_actions} Data Source.
 func NewDataAwsccChatbotCustomActions(scope constructs.Construct, id *string, config *DataAwsccChatbotCustomActionsConfig) DataAwsccChatbotCustomActions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccChatbotCustomActions(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/chatbot_custom_actions awscc_chatbot_custom_actions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/chatbot_custom_actions awscc_chatbot_custom_actions} Data Source.
 func NewDataAwsccChatbotCustomActions_Override(d DataAwsccChatbotCustomActions, scope constructs.Construct, id *string, config *DataAwsccChatbotCustomActionsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_mitigation_action awscc_iot_mitigation_action}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_mitigation_action awscc_iot_mitigation_action}.
 type IotMitigationAction interface {
 	cdktn.TerraformResource
 	ActionName() *string
@@ -471,7 +471,7 @@ func (j *jsiiProxy_IotMitigationAction) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_mitigation_action awscc_iot_mitigation_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_mitigation_action awscc_iot_mitigation_action} Resource.
 func NewIotMitigationAction(scope constructs.Construct, id *string, config *IotMitigationActionConfig) IotMitigationAction {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewIotMitigationAction(scope constructs.Construct, id *string, config *IotM
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_mitigation_action awscc_iot_mitigation_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_mitigation_action awscc_iot_mitigation_action} Resource.
 func NewIotMitigationAction_Override(i IotMitigationAction, scope constructs.Construct, id *string, config *IotMitigationActionConfig) {
 	_init_.Initialize()
 

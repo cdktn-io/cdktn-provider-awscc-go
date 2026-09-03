@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/emrcontainers_security_configurations awscc_emrcontainers_security_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/emrcontainers_security_configurations awscc_emrcontainers_security_configurations}.
 type DataAwsccEmrcontainersSecurityConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEmrcontainersSecurityConfigurations) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/emrcontainers_security_configurations awscc_emrcontainers_security_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/emrcontainers_security_configurations awscc_emrcontainers_security_configurations} Data Source.
 func NewDataAwsccEmrcontainersSecurityConfigurations(scope constructs.Construct, id *string, config *DataAwsccEmrcontainersSecurityConfigurationsConfig) DataAwsccEmrcontainersSecurityConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEmrcontainersSecurityConfigurations(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/emrcontainers_security_configurations awscc_emrcontainers_security_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/emrcontainers_security_configurations awscc_emrcontainers_security_configurations} Data Source.
 func NewDataAwsccEmrcontainersSecurityConfigurations_Override(d DataAwsccEmrcontainersSecurityConfigurations, scope constructs.Construct, id *string, config *DataAwsccEmrcontainersSecurityConfigurationsConfig) {
 	_init_.Initialize()
 

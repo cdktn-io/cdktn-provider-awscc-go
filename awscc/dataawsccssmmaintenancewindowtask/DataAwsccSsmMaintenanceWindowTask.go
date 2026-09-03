@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ssm_maintenance_window_task awscc_ssm_maintenance_window_task}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ssm_maintenance_window_task awscc_ssm_maintenance_window_task}.
 type DataAwsccSsmMaintenanceWindowTask interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccSsmMaintenanceWindowTask) WindowTaskId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ssm_maintenance_window_task awscc_ssm_maintenance_window_task} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ssm_maintenance_window_task awscc_ssm_maintenance_window_task} Data Source.
 func NewDataAwsccSsmMaintenanceWindowTask(scope constructs.Construct, id *string, config *DataAwsccSsmMaintenanceWindowTaskConfig) DataAwsccSsmMaintenanceWindowTask {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccSsmMaintenanceWindowTask(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ssm_maintenance_window_task awscc_ssm_maintenance_window_task} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ssm_maintenance_window_task awscc_ssm_maintenance_window_task} Data Source.
 func NewDataAwsccSsmMaintenanceWindowTask_Override(d DataAwsccSsmMaintenanceWindowTask, scope constructs.Construct, id *string, config *DataAwsccSsmMaintenanceWindowTaskConfig) {
 	_init_.Initialize()
 

@@ -24,19 +24,19 @@ type DevopsagentAssociationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The unique identifier of the AgentSpace.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#agent_space_id DevopsagentAssociation#agent_space_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_association#agent_space_id DevopsagentAssociation#agent_space_id}
 	AgentSpaceId *string `field:"required" json:"agentSpaceId" yaml:"agentSpaceId"`
 	// The configuration that directs how AgentSpace interacts with the given service.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#configuration DevopsagentAssociation#configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_association#configuration DevopsagentAssociation#configuration}
 	Configuration *DevopsagentAssociationConfiguration `field:"required" json:"configuration" yaml:"configuration"`
 	// The identifier for the associated service.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#service_id DevopsagentAssociation#service_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_association#service_id DevopsagentAssociation#service_id}
 	ServiceId *string `field:"required" json:"serviceId" yaml:"serviceId"`
 	// Set of linked association IDs for parent-child relationships.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_association#linked_association_ids DevopsagentAssociation#linked_association_ids}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_association#linked_association_ids DevopsagentAssociation#linked_association_ids}
 	LinkedAssociationIds *[]*string `field:"optional" json:"linkedAssociationIds" yaml:"linkedAssociationIds"`
 }
 

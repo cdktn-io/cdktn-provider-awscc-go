@@ -9,7 +9,7 @@ type EcsTaskDefinitionEphemeralStorage struct {
 	//
 	// The minimum supported value is ``21`` GiB and the maximum supported value is ``200`` GiB.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_task_definition#size_in_gi_b EcsTaskDefinition#size_in_gi_b}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#size_in_gi_b EcsTaskDefinition#size_in_gi_b}
 	SizeInGiB *float64 `field:"optional" json:"sizeInGiB" yaml:"sizeInGiB"`
 }
 

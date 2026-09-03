@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/config_remediation_configurations awscc_config_remediation_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/config_remediation_configurations awscc_config_remediation_configurations}.
 type DataAwsccConfigRemediationConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccConfigRemediationConfigurations) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/config_remediation_configurations awscc_config_remediation_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/config_remediation_configurations awscc_config_remediation_configurations} Data Source.
 func NewDataAwsccConfigRemediationConfigurations(scope constructs.Construct, id *string, config *DataAwsccConfigRemediationConfigurationsConfig) DataAwsccConfigRemediationConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccConfigRemediationConfigurations(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/config_remediation_configurations awscc_config_remediation_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/config_remediation_configurations awscc_config_remediation_configurations} Data Source.
 func NewDataAwsccConfigRemediationConfigurations_Override(d DataAwsccConfigRemediationConfigurations, scope constructs.Construct, id *string, config *DataAwsccConfigRemediationConfigurationsConfig) {
 	_init_.Initialize()
 

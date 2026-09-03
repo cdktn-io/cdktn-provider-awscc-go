@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/osis_pipeline awscc_osis_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/osis_pipeline awscc_osis_pipeline}.
 type DataAwsccOsisPipeline interface {
 	cdktn.TerraformDataSource
 	BufferOptions() DataAwsccOsisPipelineBufferOptionsOutputReference
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccOsisPipeline) VpcOptions() DataAwsccOsisPipelineVpcO
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/osis_pipeline awscc_osis_pipeline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/osis_pipeline awscc_osis_pipeline} Data Source.
 func NewDataAwsccOsisPipeline(scope constructs.Construct, id *string, config *DataAwsccOsisPipelineConfig) DataAwsccOsisPipeline {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccOsisPipeline(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/osis_pipeline awscc_osis_pipeline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/osis_pipeline awscc_osis_pipeline} Data Source.
 func NewDataAwsccOsisPipeline_Override(d DataAwsccOsisPipeline, scope constructs.Construct, id *string, config *DataAwsccOsisPipelineConfig) {
 	_init_.Initialize()
 

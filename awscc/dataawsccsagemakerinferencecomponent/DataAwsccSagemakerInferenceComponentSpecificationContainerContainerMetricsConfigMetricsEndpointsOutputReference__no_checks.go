@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccsagemakerinferencecomponent
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationContainerContainerMetricsConfigMetricsEndpointsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationContainerContainerMetricsConfigMetricsEndpointsOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationContainerContainerMetricsConfigMetricsEndpointsOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationContainerContainerMetricsConfigMetricsEndpointsOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationContainerContainerMetricsConfigMetricsEndpointsOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationContainerContainerMetricsConfigMetricsEndpointsOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationContainerContainerMetricsConfigMetricsEndpointsOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationContainerContainerMetricsConfigMetricsEndpointsOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationContainerContainerMetricsConfigMetricsEndpointsOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationContainerContainerMetricsConfigMetricsEndpointsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationContainerContainerMetricsConfigMetricsEndpointsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationContainerContainerMetricsConfigMetricsEndpointsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationContainerContainerMetricsConfigMetricsEndpointsOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationContainerContainerMetricsConfigMetricsEndpointsOutputReference) validateSetInternalValueParameters(val *DataAwsccSagemakerInferenceComponentSpecificationContainerContainerMetricsConfigMetricsEndpoints) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationContainerContainerMetricsConfigMetricsEndpointsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationContainerContainerMetricsConfigMetricsEndpointsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccSagemakerInferenceComponentSpecificationContainerContainerMetricsConfigMetricsEndpointsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

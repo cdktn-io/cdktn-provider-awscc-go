@@ -7,7 +7,7 @@ package quicksightknowledgebase
 type QuicksightKnowledgeBasePermissions struct {
 	// <p>The IAM action to grant or revoke permissions on.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#actions QuicksightKnowledgeBase#actions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#actions QuicksightKnowledgeBase#actions}
 	Actions *[]*string `field:"optional" json:"actions" yaml:"actions"`
 	// <p>The Amazon Resource Name (ARN) of the principal.
 	//
@@ -27,9 +27,9 @@ type QuicksightKnowledgeBasePermissions struct {
 	//             </li>
 	//          </ul>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#principal QuicksightKnowledgeBase#principal}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#principal QuicksightKnowledgeBase#principal}
 	Principal *string `field:"optional" json:"principal" yaml:"principal"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_knowledge_base#resource QuicksightKnowledgeBase#resource}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_knowledge_base#resource QuicksightKnowledgeBase#resource}.
 	Resource *string `field:"optional" json:"resource" yaml:"resource"`
 }
 

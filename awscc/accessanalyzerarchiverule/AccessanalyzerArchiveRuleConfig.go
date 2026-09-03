@@ -24,15 +24,15 @@ type AccessanalyzerArchiveRuleConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the analyzer for the archive rule.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accessanalyzer_archive_rule#analyzer_name AccessanalyzerArchiveRule#analyzer_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/accessanalyzer_archive_rule#analyzer_name AccessanalyzerArchiveRule#analyzer_name}
 	AnalyzerName *string `field:"required" json:"analyzerName" yaml:"analyzerName"`
 	// The criteria for the archive rule. A map of filter criteria property names to their criterion values.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accessanalyzer_archive_rule#filter AccessanalyzerArchiveRule#filter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/accessanalyzer_archive_rule#filter AccessanalyzerArchiveRule#filter}
 	Filter interface{} `field:"required" json:"filter" yaml:"filter"`
 	// The name of the archive rule.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accessanalyzer_archive_rule#rule_name AccessanalyzerArchiveRule#rule_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/accessanalyzer_archive_rule#rule_name AccessanalyzerArchiveRule#rule_name}
 	RuleName *string `field:"required" json:"ruleName" yaml:"ruleName"`
 }
 

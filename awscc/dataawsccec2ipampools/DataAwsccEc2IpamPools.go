@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ipam_pools awscc_ec2_ipam_pools}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ipam_pools awscc_ec2_ipam_pools}.
 type DataAwsccEc2IpamPools interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2IpamPools) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ipam_pools awscc_ec2_ipam_pools} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ipam_pools awscc_ec2_ipam_pools} Data Source.
 func NewDataAwsccEc2IpamPools(scope constructs.Construct, id *string, config *DataAwsccEc2IpamPoolsConfig) DataAwsccEc2IpamPools {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2IpamPools(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ipam_pools awscc_ec2_ipam_pools} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ipam_pools awscc_ec2_ipam_pools} Data Source.
 func NewDataAwsccEc2IpamPools_Override(d DataAwsccEc2IpamPools, scope constructs.Construct, id *string, config *DataAwsccEc2IpamPoolsConfig) {
 	_init_.Initialize()
 

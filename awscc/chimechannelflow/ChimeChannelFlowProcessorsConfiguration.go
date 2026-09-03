@@ -7,7 +7,7 @@ package chimechannelflow
 type ChimeChannelFlowProcessorsConfiguration struct {
 	// Stores metadata about a Lambda processor.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_channel_flow#lambda ChimeChannelFlow#lambda}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/chime_channel_flow#lambda ChimeChannelFlow#lambda}
 	Lambda *ChimeChannelFlowProcessorsConfigurationLambda `field:"required" json:"lambda" yaml:"lambda"`
 }
 

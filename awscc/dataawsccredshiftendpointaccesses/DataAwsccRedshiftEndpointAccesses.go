@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/redshift_endpoint_accesses awscc_redshift_endpoint_accesses}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/redshift_endpoint_accesses awscc_redshift_endpoint_accesses}.
 type DataAwsccRedshiftEndpointAccesses interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRedshiftEndpointAccesses) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/redshift_endpoint_accesses awscc_redshift_endpoint_accesses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/redshift_endpoint_accesses awscc_redshift_endpoint_accesses} Data Source.
 func NewDataAwsccRedshiftEndpointAccesses(scope constructs.Construct, id *string, config *DataAwsccRedshiftEndpointAccessesConfig) DataAwsccRedshiftEndpointAccesses {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRedshiftEndpointAccesses(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/redshift_endpoint_accesses awscc_redshift_endpoint_accesses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/redshift_endpoint_accesses awscc_redshift_endpoint_accesses} Data Source.
 func NewDataAwsccRedshiftEndpointAccesses_Override(d DataAwsccRedshiftEndpointAccesses, scope constructs.Construct, id *string, config *DataAwsccRedshiftEndpointAccessesConfig) {
 	_init_.Initialize()
 

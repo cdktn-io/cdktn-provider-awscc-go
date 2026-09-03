@@ -35,6 +35,9 @@ type SagemakerClusterInstanceGroupsLifeCycleConfigOutputReference interface {
 	OnCreate() *string
 	SetOnCreate(val *string)
 	OnCreateInput() *string
+	OnInitComplete() *string
+	SetOnInitComplete(val *string)
+	OnInitCompleteInput() *string
 	SourceS3Uri() *string
 	SetSourceS3Uri(val *string)
 	SourceS3UriInput() *string
@@ -71,6 +74,7 @@ type SagemakerClusterInstanceGroupsLifeCycleConfigOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetOnCreate()
+	ResetOnInitComplete()
 	ResetSourceS3Uri()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -152,6 +156,26 @@ func (j *jsiiProxy_SagemakerClusterInstanceGroupsLifeCycleConfigOutputReference)
 	_jsii_.Get(
 		j,
 		"onCreateInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerClusterInstanceGroupsLifeCycleConfigOutputReference) OnInitComplete() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"onInitComplete",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerClusterInstanceGroupsLifeCycleConfigOutputReference) OnInitCompleteInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"onInitCompleteInput",
 		&returns,
 	)
 	return returns
@@ -265,6 +289,17 @@ func (j *jsiiProxy_SagemakerClusterInstanceGroupsLifeCycleConfigOutputReference)
 	_jsii_.Set(
 		j,
 		"onCreate",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SagemakerClusterInstanceGroupsLifeCycleConfigOutputReference)SetOnInitComplete(val *string) {
+	if err := j.validateSetOnInitCompleteParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"onInitComplete",
 		val,
 	)
 }
@@ -492,6 +527,14 @@ func (s *jsiiProxy_SagemakerClusterInstanceGroupsLifeCycleConfigOutputReference)
 	_jsii_.InvokeVoid(
 		s,
 		"resetOnCreate",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SagemakerClusterInstanceGroupsLifeCycleConfigOutputReference) ResetOnInitComplete() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetOnInitComplete",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/evidently_feature awscc_evidently_feature}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/evidently_feature awscc_evidently_feature}.
 type DataAwsccEvidentlyFeature interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccEvidentlyFeature) Variations() DataAwsccEvidentlyFea
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/evidently_feature awscc_evidently_feature} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/evidently_feature awscc_evidently_feature} Data Source.
 func NewDataAwsccEvidentlyFeature(scope constructs.Construct, id *string, config *DataAwsccEvidentlyFeatureConfig) DataAwsccEvidentlyFeature {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccEvidentlyFeature(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/evidently_feature awscc_evidently_feature} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/evidently_feature awscc_evidently_feature} Data Source.
 func NewDataAwsccEvidentlyFeature_Override(d DataAwsccEvidentlyFeature, scope constructs.Construct, id *string, config *DataAwsccEvidentlyFeatureConfig) {
 	_init_.Initialize()
 

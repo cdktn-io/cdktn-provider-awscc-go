@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudwatch_alarm awscc_cloudwatch_alarm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudwatch_alarm awscc_cloudwatch_alarm}.
 type DataAwsccCloudwatchAlarm interface {
 	cdktn.TerraformDataSource
 	ActionsEnabled() cdktn.IResolvable
@@ -583,7 +583,7 @@ func (j *jsiiProxy_DataAwsccCloudwatchAlarm) WarmUpConfiguration() DataAwsccClou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudwatch_alarm awscc_cloudwatch_alarm} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudwatch_alarm awscc_cloudwatch_alarm} Data Source.
 func NewDataAwsccCloudwatchAlarm(scope constructs.Construct, id *string, config *DataAwsccCloudwatchAlarmConfig) DataAwsccCloudwatchAlarm {
 	_init_.Initialize()
 
@@ -601,7 +601,7 @@ func NewDataAwsccCloudwatchAlarm(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudwatch_alarm awscc_cloudwatch_alarm} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudwatch_alarm awscc_cloudwatch_alarm} Data Source.
 func NewDataAwsccCloudwatchAlarm_Override(d DataAwsccCloudwatchAlarm, scope constructs.Construct, id *string, config *DataAwsccCloudwatchAlarmConfig) {
 	_init_.Initialize()
 

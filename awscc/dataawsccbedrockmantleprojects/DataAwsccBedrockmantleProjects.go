@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockmantle_projects awscc_bedrockmantle_projects}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrockmantle_projects awscc_bedrockmantle_projects}.
 type DataAwsccBedrockmantleProjects interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockmantleProjects) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockmantle_projects awscc_bedrockmantle_projects} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrockmantle_projects awscc_bedrockmantle_projects} Data Source.
 func NewDataAwsccBedrockmantleProjects(scope constructs.Construct, id *string, config *DataAwsccBedrockmantleProjectsConfig) DataAwsccBedrockmantleProjects {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockmantleProjects(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockmantle_projects awscc_bedrockmantle_projects} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrockmantle_projects awscc_bedrockmantle_projects} Data Source.
 func NewDataAwsccBedrockmantleProjects_Override(d DataAwsccBedrockmantleProjects, scope constructs.Construct, id *string, config *DataAwsccBedrockmantleProjectsConfig) {
 	_init_.Initialize()
 

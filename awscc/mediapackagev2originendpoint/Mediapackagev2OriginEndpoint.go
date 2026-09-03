@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint}.
 type Mediapackagev2OriginEndpoint interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -93,6 +93,9 @@ type Mediapackagev2OriginEndpoint interface {
 	StartoverWindowSeconds() *float64
 	SetStartoverWindowSeconds(val *float64)
 	StartoverWindowSecondsInput() *float64
+	StreamNameOutputMode() *string
+	SetStreamNameOutputMode(val *string)
+	StreamNameOutputModeInput() *string
 	Tags() Mediapackagev2OriginEndpointTagsList
 	TagsInput() interface{}
 	// Experimental.
@@ -214,6 +217,7 @@ type Mediapackagev2OriginEndpoint interface {
 	ResetOverrideLogicalId()
 	ResetSegment()
 	ResetStartoverWindowSeconds()
+	ResetStreamNameOutputMode()
 	ResetTags()
 	ResetUriSeparator()
 	SynthesizeAttributes() *map[string]interface{}
@@ -693,6 +697,26 @@ func (j *jsiiProxy_Mediapackagev2OriginEndpoint) StartoverWindowSecondsInput() *
 	return returns
 }
 
+func (j *jsiiProxy_Mediapackagev2OriginEndpoint) StreamNameOutputMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"streamNameOutputMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Mediapackagev2OriginEndpoint) StreamNameOutputModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"streamNameOutputModeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_Mediapackagev2OriginEndpoint) Tags() Mediapackagev2OriginEndpointTagsList {
 	var returns Mediapackagev2OriginEndpointTagsList
 	_jsii_.Get(
@@ -764,7 +788,7 @@ func (j *jsiiProxy_Mediapackagev2OriginEndpoint) UriSeparatorInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint} Resource.
 func NewMediapackagev2OriginEndpoint(scope constructs.Construct, id *string, config *Mediapackagev2OriginEndpointConfig) Mediapackagev2OriginEndpoint {
 	_init_.Initialize()
 
@@ -782,7 +806,7 @@ func NewMediapackagev2OriginEndpoint(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint} Resource.
 func NewMediapackagev2OriginEndpoint_Override(m Mediapackagev2OriginEndpoint, scope constructs.Construct, id *string, config *Mediapackagev2OriginEndpointConfig) {
 	_init_.Initialize()
 
@@ -923,6 +947,17 @@ func (j *jsiiProxy_Mediapackagev2OriginEndpoint)SetStartoverWindowSeconds(val *f
 	_jsii_.Set(
 		j,
 		"startoverWindowSeconds",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Mediapackagev2OriginEndpoint)SetStreamNameOutputMode(val *string) {
+	if err := j.validateSetStreamNameOutputModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"streamNameOutputMode",
 		val,
 	)
 }
@@ -1463,6 +1498,14 @@ func (m *jsiiProxy_Mediapackagev2OriginEndpoint) ResetStartoverWindowSeconds() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetStartoverWindowSeconds",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_Mediapackagev2OriginEndpoint) ResetStreamNameOutputMode() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetStreamNameOutputMode",
 		nil, // no parameters
 	)
 }

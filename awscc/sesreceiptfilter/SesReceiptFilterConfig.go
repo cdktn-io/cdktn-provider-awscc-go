@@ -24,7 +24,7 @@ type SesReceiptFilterConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A structure that describes the IP address filter to create, which consists of a name, an IP address range, and whether to allow or block mail from it.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_receipt_filter#filter SesReceiptFilter#filter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_receipt_filter#filter SesReceiptFilter#filter}
 	Filter *SesReceiptFilterFilter `field:"required" json:"filter" yaml:"filter"`
 }
 

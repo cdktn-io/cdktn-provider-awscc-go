@@ -5,9 +5,9 @@ package evsenvironment
 
 
 type EvsEnvironmentLicenseInfo struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evs_environment#solution_key EvsEnvironment#solution_key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/evs_environment#solution_key EvsEnvironment#solution_key}.
 	SolutionKey *string `field:"optional" json:"solutionKey" yaml:"solutionKey"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/evs_environment#vsan_key EvsEnvironment#vsan_key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/evs_environment#vsan_key EvsEnvironment#vsan_key}.
 	VsanKey *string `field:"optional" json:"vsanKey" yaml:"vsanKey"`
 }
 

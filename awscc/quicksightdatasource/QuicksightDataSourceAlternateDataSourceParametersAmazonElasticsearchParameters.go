@@ -7,7 +7,7 @@ package quicksightdatasource
 type QuicksightDataSourceAlternateDataSourceParametersAmazonElasticsearchParameters struct {
 	// <p>The OpenSearch domain.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#domain QuicksightDataSource#domain}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_data_source#domain QuicksightDataSource#domain}
 	Domain *string `field:"optional" json:"domain" yaml:"domain"`
 }
 

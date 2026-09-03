@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/directconnect_public_virtual_interface awscc_directconnect_public_virtual_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/directconnect_public_virtual_interface awscc_directconnect_public_virtual_interface}.
 type DataAwsccDirectconnectPublicVirtualInterface interface {
 	cdktn.TerraformDataSource
 	AllocatePublicVirtualInterfaceRoleArn() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccDirectconnectPublicVirtualInterface) Vlan() *float64
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/directconnect_public_virtual_interface awscc_directconnect_public_virtual_interface} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/directconnect_public_virtual_interface awscc_directconnect_public_virtual_interface} Data Source.
 func NewDataAwsccDirectconnectPublicVirtualInterface(scope constructs.Construct, id *string, config *DataAwsccDirectconnectPublicVirtualInterfaceConfig) DataAwsccDirectconnectPublicVirtualInterface {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccDirectconnectPublicVirtualInterface(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/directconnect_public_virtual_interface awscc_directconnect_public_virtual_interface} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/directconnect_public_virtual_interface awscc_directconnect_public_virtual_interface} Data Source.
 func NewDataAwsccDirectconnectPublicVirtualInterface_Override(d DataAwsccDirectconnectPublicVirtualInterface, scope constructs.Construct, id *string, config *DataAwsccDirectconnectPublicVirtualInterfaceConfig) {
 	_init_.Initialize()
 

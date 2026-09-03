@@ -5,9 +5,9 @@ package kinesisfirehosedeliverystream
 
 
 type KinesisfirehoseDeliveryStreamAmazonopensearchserviceDestinationConfigurationProcessingConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kinesisfirehose_delivery_stream#enabled KinesisfirehoseDeliveryStream#enabled}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kinesisfirehose_delivery_stream#enabled KinesisfirehoseDeliveryStream#enabled}.
 	Enabled interface{} `field:"optional" json:"enabled" yaml:"enabled"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kinesisfirehose_delivery_stream#processors KinesisfirehoseDeliveryStream#processors}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kinesisfirehose_delivery_stream#processors KinesisfirehoseDeliveryStream#processors}.
 	Processors interface{} `field:"optional" json:"processors" yaml:"processors"`
 }
 

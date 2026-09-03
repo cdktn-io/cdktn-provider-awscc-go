@@ -38,6 +38,7 @@ type DataAwsccMediaconnectFlowVpcInterfacesOutputReference interface {
 	RoleArn() *string
 	SecurityGroupIds() *[]*string
 	SubnetId() *string
+	Tags() DataAwsccMediaconnectFlowVpcInterfacesTagsList
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -190,6 +191,16 @@ func (j *jsiiProxy_DataAwsccMediaconnectFlowVpcInterfacesOutputReference) Subnet
 	_jsii_.Get(
 		j,
 		"subnetId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccMediaconnectFlowVpcInterfacesOutputReference) Tags() DataAwsccMediaconnectFlowVpcInterfacesTagsList {
+	var returns DataAwsccMediaconnectFlowVpcInterfacesTagsList
+	_jsii_.Get(
+		j,
+		"tags",
 		&returns,
 	)
 	return returns

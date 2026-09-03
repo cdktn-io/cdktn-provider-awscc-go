@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cognito_user_pool_ui_customization_attachment awscc_cognito_user_pool_ui_customization_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cognito_user_pool_ui_customization_attachment awscc_cognito_user_pool_ui_customization_attachment}.
 type CognitoUserPoolUiCustomizationAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_CognitoUserPoolUiCustomizationAttachment) UserPoolIdInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cognito_user_pool_ui_customization_attachment awscc_cognito_user_pool_ui_customization_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cognito_user_pool_ui_customization_attachment awscc_cognito_user_pool_ui_customization_attachment} Resource.
 func NewCognitoUserPoolUiCustomizationAttachment(scope constructs.Construct, id *string, config *CognitoUserPoolUiCustomizationAttachmentConfig) CognitoUserPoolUiCustomizationAttachment {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewCognitoUserPoolUiCustomizationAttachment(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cognito_user_pool_ui_customization_attachment awscc_cognito_user_pool_ui_customization_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cognito_user_pool_ui_customization_attachment awscc_cognito_user_pool_ui_customization_attachment} Resource.
 func NewCognitoUserPoolUiCustomizationAttachment_Override(c CognitoUserPoolUiCustomizationAttachment, scope constructs.Construct, id *string, config *CognitoUserPoolUiCustomizationAttachmentConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table awscc_timestream_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table awscc_timestream_table}.
 type TimestreamTable interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -520,7 +520,7 @@ func (j *jsiiProxy_TimestreamTable) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table awscc_timestream_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table awscc_timestream_table} Resource.
 func NewTimestreamTable(scope constructs.Construct, id *string, config *TimestreamTableConfig) TimestreamTable {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewTimestreamTable(scope constructs.Construct, id *string, config *Timestre
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/timestream_table awscc_timestream_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/timestream_table awscc_timestream_table} Resource.
 func NewTimestreamTable_Override(t TimestreamTable, scope constructs.Construct, id *string, config *TimestreamTableConfig) {
 	_init_.Initialize()
 

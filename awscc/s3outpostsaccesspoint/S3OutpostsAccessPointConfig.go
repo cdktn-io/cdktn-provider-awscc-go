@@ -24,19 +24,19 @@ type S3OutpostsAccessPointConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The Amazon Resource Name (ARN) of the bucket you want to associate this AccessPoint with.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3outposts_access_point#bucket S3OutpostsAccessPoint#bucket}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3outposts_access_point#bucket S3OutpostsAccessPoint#bucket}
 	Bucket *string `field:"required" json:"bucket" yaml:"bucket"`
 	// A name for the AccessPoint.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3outposts_access_point#name S3OutpostsAccessPoint#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3outposts_access_point#name S3OutpostsAccessPoint#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Virtual Private Cloud (VPC) from which requests can be made to the AccessPoint.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3outposts_access_point#vpc_configuration S3OutpostsAccessPoint#vpc_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3outposts_access_point#vpc_configuration S3OutpostsAccessPoint#vpc_configuration}
 	VpcConfiguration *S3OutpostsAccessPointVpcConfiguration `field:"required" json:"vpcConfiguration" yaml:"vpcConfiguration"`
 	// The access point policy associated with this access point.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3outposts_access_point#policy S3OutpostsAccessPoint#policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3outposts_access_point#policy S3OutpostsAccessPoint#policy}
 	Policy *string `field:"optional" json:"policy" yaml:"policy"`
 }
 

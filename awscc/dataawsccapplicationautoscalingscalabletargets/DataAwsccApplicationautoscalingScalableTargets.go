@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/applicationautoscaling_scalable_targets awscc_applicationautoscaling_scalable_targets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/applicationautoscaling_scalable_targets awscc_applicationautoscaling_scalable_targets}.
 type DataAwsccApplicationautoscalingScalableTargets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccApplicationautoscalingScalableTargets) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/applicationautoscaling_scalable_targets awscc_applicationautoscaling_scalable_targets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/applicationautoscaling_scalable_targets awscc_applicationautoscaling_scalable_targets} Data Source.
 func NewDataAwsccApplicationautoscalingScalableTargets(scope constructs.Construct, id *string, config *DataAwsccApplicationautoscalingScalableTargetsConfig) DataAwsccApplicationautoscalingScalableTargets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccApplicationautoscalingScalableTargets(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/applicationautoscaling_scalable_targets awscc_applicationautoscaling_scalable_targets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/applicationautoscaling_scalable_targets awscc_applicationautoscaling_scalable_targets} Data Source.
 func NewDataAwsccApplicationautoscalingScalableTargets_Override(d DataAwsccApplicationautoscalingScalableTargets, scope constructs.Construct, id *string, config *DataAwsccApplicationautoscalingScalableTargetsConfig) {
 	_init_.Initialize()
 

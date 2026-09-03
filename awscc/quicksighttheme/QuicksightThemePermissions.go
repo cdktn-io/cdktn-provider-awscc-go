@@ -7,7 +7,7 @@ package quicksighttheme
 type QuicksightThemePermissions struct {
 	// <p>The IAM action to grant or revoke permissions on.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_theme#actions QuicksightTheme#actions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_theme#actions QuicksightTheme#actions}
 	Actions *[]*string `field:"optional" json:"actions" yaml:"actions"`
 	// <p>The Amazon Resource Name (ARN) of the principal.
 	//
@@ -27,7 +27,7 @@ type QuicksightThemePermissions struct {
 	//             </li>
 	//          </ul>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_theme#principal QuicksightTheme#principal}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_theme#principal QuicksightTheme#principal}
 	Principal *string `field:"optional" json:"principal" yaml:"principal"`
 }
 

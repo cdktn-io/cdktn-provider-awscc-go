@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_instance_connect_endpoint awscc_ec2_instance_connect_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_instance_connect_endpoint awscc_ec2_instance_connect_endpoint}.
 type Ec2InstanceConnectEndpoint interface {
 	cdktn.TerraformResource
 	AvailabilityZone() *string
@@ -595,7 +595,7 @@ func (j *jsiiProxy_Ec2InstanceConnectEndpoint) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_instance_connect_endpoint awscc_ec2_instance_connect_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_instance_connect_endpoint awscc_ec2_instance_connect_endpoint} Resource.
 func NewEc2InstanceConnectEndpoint(scope constructs.Construct, id *string, config *Ec2InstanceConnectEndpointConfig) Ec2InstanceConnectEndpoint {
 	_init_.Initialize()
 
@@ -613,7 +613,7 @@ func NewEc2InstanceConnectEndpoint(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_instance_connect_endpoint awscc_ec2_instance_connect_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_instance_connect_endpoint awscc_ec2_instance_connect_endpoint} Resource.
 func NewEc2InstanceConnectEndpoint_Override(e Ec2InstanceConnectEndpoint, scope constructs.Construct, id *string, config *Ec2InstanceConnectEndpointConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/entityresolution_id_namespace awscc_entityresolution_id_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/entityresolution_id_namespace awscc_entityresolution_id_namespace}.
 type EntityresolutionIdNamespace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -554,7 +554,7 @@ func (j *jsiiProxy_EntityresolutionIdNamespace) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/entityresolution_id_namespace awscc_entityresolution_id_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/entityresolution_id_namespace awscc_entityresolution_id_namespace} Resource.
 func NewEntityresolutionIdNamespace(scope constructs.Construct, id *string, config *EntityresolutionIdNamespaceConfig) EntityresolutionIdNamespace {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewEntityresolutionIdNamespace(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/entityresolution_id_namespace awscc_entityresolution_id_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/entityresolution_id_namespace awscc_entityresolution_id_namespace} Resource.
 func NewEntityresolutionIdNamespace_Override(e EntityresolutionIdNamespace, scope constructs.Construct, id *string, config *EntityresolutionIdNamespaceConfig) {
 	_init_.Initialize()
 

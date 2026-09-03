@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/wisdom_ai_prompt awscc_wisdom_ai_prompt}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/wisdom_ai_prompt awscc_wisdom_ai_prompt}.
 type DataAwsccWisdomAiPrompt interface {
 	cdktn.TerraformDataSource
 	AiPromptArn() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccWisdomAiPrompt) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/wisdom_ai_prompt awscc_wisdom_ai_prompt} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/wisdom_ai_prompt awscc_wisdom_ai_prompt} Data Source.
 func NewDataAwsccWisdomAiPrompt(scope constructs.Construct, id *string, config *DataAwsccWisdomAiPromptConfig) DataAwsccWisdomAiPrompt {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccWisdomAiPrompt(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/wisdom_ai_prompt awscc_wisdom_ai_prompt} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/wisdom_ai_prompt awscc_wisdom_ai_prompt} Data Source.
 func NewDataAwsccWisdomAiPrompt_Override(d DataAwsccWisdomAiPrompt, scope constructs.Construct, id *string, config *DataAwsccWisdomAiPromptConfig) {
 	_init_.Initialize()
 

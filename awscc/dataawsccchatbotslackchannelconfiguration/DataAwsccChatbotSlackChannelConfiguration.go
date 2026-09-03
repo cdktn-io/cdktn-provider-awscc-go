@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/chatbot_slack_channel_configuration awscc_chatbot_slack_channel_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/chatbot_slack_channel_configuration awscc_chatbot_slack_channel_configuration}.
 type DataAwsccChatbotSlackChannelConfiguration interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccChatbotSlackChannelConfiguration) UserRoleRequired()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/chatbot_slack_channel_configuration awscc_chatbot_slack_channel_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/chatbot_slack_channel_configuration awscc_chatbot_slack_channel_configuration} Data Source.
 func NewDataAwsccChatbotSlackChannelConfiguration(scope constructs.Construct, id *string, config *DataAwsccChatbotSlackChannelConfigurationConfig) DataAwsccChatbotSlackChannelConfiguration {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccChatbotSlackChannelConfiguration(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/chatbot_slack_channel_configuration awscc_chatbot_slack_channel_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/chatbot_slack_channel_configuration awscc_chatbot_slack_channel_configuration} Data Source.
 func NewDataAwsccChatbotSlackChannelConfiguration_Override(d DataAwsccChatbotSlackChannelConfiguration, scope constructs.Construct, id *string, config *DataAwsccChatbotSlackChannelConfigurationConfig) {
 	_init_.Initialize()
 

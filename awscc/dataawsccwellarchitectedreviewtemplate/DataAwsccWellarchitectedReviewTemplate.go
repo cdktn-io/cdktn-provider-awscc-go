@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/wellarchitected_review_template awscc_wellarchitected_review_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/wellarchitected_review_template awscc_wellarchitected_review_template}.
 type DataAwsccWellarchitectedReviewTemplate interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccWellarchitectedReviewTemplate) UpdateStatus() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/wellarchitected_review_template awscc_wellarchitected_review_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/wellarchitected_review_template awscc_wellarchitected_review_template} Data Source.
 func NewDataAwsccWellarchitectedReviewTemplate(scope constructs.Construct, id *string, config *DataAwsccWellarchitectedReviewTemplateConfig) DataAwsccWellarchitectedReviewTemplate {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccWellarchitectedReviewTemplate(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/wellarchitected_review_template awscc_wellarchitected_review_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/wellarchitected_review_template awscc_wellarchitected_review_template} Data Source.
 func NewDataAwsccWellarchitectedReviewTemplate_Override(d DataAwsccWellarchitectedReviewTemplate, scope constructs.Construct, id *string, config *DataAwsccWellarchitectedReviewTemplateConfig) {
 	_init_.Initialize()
 

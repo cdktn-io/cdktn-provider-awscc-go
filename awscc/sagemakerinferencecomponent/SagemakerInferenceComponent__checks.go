@@ -248,6 +248,37 @@ func (s *jsiiProxy_SagemakerInferenceComponent) validatePutSpecificationParamete
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerInferenceComponent) validatePutSpecificationsParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*SagemakerInferenceComponentSpecifications:
+		value := value.(*[]*SagemakerInferenceComponentSpecifications)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*SagemakerInferenceComponentSpecifications:
+		value_ := value.([]*SagemakerInferenceComponentSpecifications)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SagemakerInferenceComponentSpecifications; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerInferenceComponent) validatePutTagsParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

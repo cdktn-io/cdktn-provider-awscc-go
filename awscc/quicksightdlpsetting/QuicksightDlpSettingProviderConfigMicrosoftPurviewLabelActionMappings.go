@@ -5,11 +5,11 @@ package quicksightdlpsetting
 
 
 type QuicksightDlpSettingProviderConfigMicrosoftPurviewLabelActionMappings struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_dlp_setting#action QuicksightDlpSetting#action}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_dlp_setting#action QuicksightDlpSetting#action}.
 	Action *string `field:"optional" json:"action" yaml:"action"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_dlp_setting#label_id QuicksightDlpSetting#label_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_dlp_setting#label_id QuicksightDlpSetting#label_id}.
 	LabelId *string `field:"optional" json:"labelId" yaml:"labelId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_dlp_setting#label_name QuicksightDlpSetting#label_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_dlp_setting#label_name QuicksightDlpSetting#label_name}.
 	LabelName *string `field:"optional" json:"labelName" yaml:"labelName"`
 }
 

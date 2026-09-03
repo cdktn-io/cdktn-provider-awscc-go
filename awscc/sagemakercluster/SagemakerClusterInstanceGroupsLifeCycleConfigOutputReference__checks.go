@@ -198,6 +198,14 @@ func (j *jsiiProxy_SagemakerClusterInstanceGroupsLifeCycleConfigOutputReference)
 	return nil
 }
 
+func (j *jsiiProxy_SagemakerClusterInstanceGroupsLifeCycleConfigOutputReference) validateSetOnInitCompleteParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_SagemakerClusterInstanceGroupsLifeCycleConfigOutputReference) validateSetSourceS3UriParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

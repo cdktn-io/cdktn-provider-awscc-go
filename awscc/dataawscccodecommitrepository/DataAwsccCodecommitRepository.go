@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codecommit_repository awscc_codecommit_repository}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/codecommit_repository awscc_codecommit_repository}.
 type DataAwsccCodecommitRepository interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccCodecommitRepository) Triggers() DataAwsccCodecommit
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codecommit_repository awscc_codecommit_repository} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/codecommit_repository awscc_codecommit_repository} Data Source.
 func NewDataAwsccCodecommitRepository(scope constructs.Construct, id *string, config *DataAwsccCodecommitRepositoryConfig) DataAwsccCodecommitRepository {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccCodecommitRepository(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codecommit_repository awscc_codecommit_repository} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/codecommit_repository awscc_codecommit_repository} Data Source.
 func NewDataAwsccCodecommitRepository_Override(d DataAwsccCodecommitRepository, scope constructs.Construct, id *string, config *DataAwsccCodecommitRepositoryConfig) {
 	_init_.Initialize()
 

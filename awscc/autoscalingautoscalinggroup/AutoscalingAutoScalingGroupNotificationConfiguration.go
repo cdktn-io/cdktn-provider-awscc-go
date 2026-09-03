@@ -15,11 +15,11 @@ type AutoscalingAutoScalingGroupNotificationConfiguration struct {
 	//   +   ``autoscaling:EC2_INSTANCE_TERMINATE_ERROR``
 	//   +   ``autoscaling:TEST_NOTIFICATION``
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/autoscaling_auto_scaling_group#notification_types AutoscalingAutoScalingGroup#notification_types}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/autoscaling_auto_scaling_group#notification_types AutoscalingAutoScalingGroup#notification_types}
 	NotificationTypes *[]*string `field:"optional" json:"notificationTypes" yaml:"notificationTypes"`
 	// The Amazon Resource Name (ARN) of the Amazon SNS topic.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/autoscaling_auto_scaling_group#topic_arn AutoscalingAutoScalingGroup#topic_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/autoscaling_auto_scaling_group#topic_arn AutoscalingAutoScalingGroup#topic_arn}
 	TopicArn *string `field:"optional" json:"topicArn" yaml:"topicArn"`
 }
 

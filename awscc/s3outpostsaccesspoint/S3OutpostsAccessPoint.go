@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3outposts_access_point awscc_s3outposts_access_point}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3outposts_access_point awscc_s3outposts_access_point}.
 type S3OutpostsAccessPoint interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -459,7 +459,7 @@ func (j *jsiiProxy_S3OutpostsAccessPoint) VpcConfigurationInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3outposts_access_point awscc_s3outposts_access_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3outposts_access_point awscc_s3outposts_access_point} Resource.
 func NewS3OutpostsAccessPoint(scope constructs.Construct, id *string, config *S3OutpostsAccessPointConfig) S3OutpostsAccessPoint {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewS3OutpostsAccessPoint(scope constructs.Construct, id *string, config *S3
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3outposts_access_point awscc_s3outposts_access_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3outposts_access_point awscc_s3outposts_access_point} Resource.
 func NewS3OutpostsAccessPoint_Override(s S3OutpostsAccessPoint, scope constructs.Construct, id *string, config *S3OutpostsAccessPointConfig) {
 	_init_.Initialize()
 

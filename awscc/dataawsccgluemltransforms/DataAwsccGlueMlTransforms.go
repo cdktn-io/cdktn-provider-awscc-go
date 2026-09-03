@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/glue_ml_transforms awscc_glue_ml_transforms}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/glue_ml_transforms awscc_glue_ml_transforms}.
 type DataAwsccGlueMlTransforms interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGlueMlTransforms) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/glue_ml_transforms awscc_glue_ml_transforms} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/glue_ml_transforms awscc_glue_ml_transforms} Data Source.
 func NewDataAwsccGlueMlTransforms(scope constructs.Construct, id *string, config *DataAwsccGlueMlTransformsConfig) DataAwsccGlueMlTransforms {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGlueMlTransforms(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/glue_ml_transforms awscc_glue_ml_transforms} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/glue_ml_transforms awscc_glue_ml_transforms} Data Source.
 func NewDataAwsccGlueMlTransforms_Override(d DataAwsccGlueMlTransforms, scope constructs.Construct, id *string, config *DataAwsccGlueMlTransformsConfig) {
 	_init_.Initialize()
 

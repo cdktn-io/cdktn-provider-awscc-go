@@ -62,12 +62,18 @@ type GuarddutyFilterFindingCriteriaCriterionOutputReference interface {
 	SetLte(val *float64)
 	LteInput() *float64
 	LtInput() *float64
+	Matches() *[]*string
+	SetMatches(val *[]*string)
+	MatchesInput() *[]*string
 	Neq() *[]*string
 	SetNeq(val *[]*string)
 	NeqInput() *[]*string
 	NotEquals() *[]*string
 	SetNotEquals(val *[]*string)
 	NotEqualsInput() *[]*string
+	NotMatches() *[]*string
+	SetNotMatches(val *[]*string)
+	NotMatchesInput() *[]*string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -110,8 +116,10 @@ type GuarddutyFilterFindingCriteriaCriterionOutputReference interface {
 	ResetLessThanOrEqual()
 	ResetLt()
 	ResetLte()
+	ResetMatches()
 	ResetNeq()
 	ResetNotEquals()
+	ResetNotMatches()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -377,6 +385,26 @@ func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) LtInp
 	return returns
 }
 
+func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) Matches() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"matches",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) MatchesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"matchesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) Neq() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -412,6 +440,26 @@ func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) NotEq
 	_jsii_.Get(
 		j,
 		"notEqualsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) NotMatches() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"notMatches",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) NotMatchesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"notMatchesInput",
 		&returns,
 	)
 	return returns
@@ -608,6 +656,17 @@ func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference)SetLte
 	)
 }
 
+func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference)SetMatches(val *[]*string) {
+	if err := j.validateSetMatchesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"matches",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference)SetNeq(val *[]*string) {
 	if err := j.validateSetNeqParameters(val); err != nil {
 		panic(err)
@@ -626,6 +685,17 @@ func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference)SetNot
 	_jsii_.Set(
 		j,
 		"notEquals",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference)SetNotMatches(val *[]*string) {
+	if err := j.validateSetNotMatchesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"notMatches",
 		val,
 	)
 }
@@ -918,6 +988,14 @@ func (g *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) Reset
 	)
 }
 
+func (g *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) ResetMatches() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetMatches",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) ResetNeq() {
 	_jsii_.InvokeVoid(
 		g,
@@ -930,6 +1008,14 @@ func (g *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) Reset
 	_jsii_.InvokeVoid(
 		g,
 		"resetNotEquals",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) ResetNotMatches() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetNotMatches",
 		nil, // no parameters
 	)
 }

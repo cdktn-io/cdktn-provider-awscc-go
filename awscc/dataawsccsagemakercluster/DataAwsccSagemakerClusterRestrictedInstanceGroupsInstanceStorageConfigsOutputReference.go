@@ -31,6 +31,8 @@ type DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsOutp
 	EbsVolumeConfig() DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsEbsVolumeConfigOutputReference
 	// Experimental.
 	Fqn() *string
+	FsxLustreConfig() DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfigOutputReference
+	FsxOpenZfsConfig() DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigOutputReference
 	InternalValue() *DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigs
 	SetInternalValue(val *DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigs)
 	// Experimental.
@@ -125,6 +127,26 @@ func (j *jsiiProxy_DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStor
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsOutputReference) FsxLustreConfig() DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfigOutputReference {
+	var returns DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfigOutputReference
+	_jsii_.Get(
+		j,
+		"fsxLustreConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsOutputReference) FsxOpenZfsConfig() DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigOutputReference {
+	var returns DataAwsccSagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigOutputReference
+	_jsii_.Get(
+		j,
+		"fsxOpenZfsConfig",
 		&returns,
 	)
 	return returns

@@ -33,6 +33,7 @@ type DataAwsccSagemakerClusterOrchestratorOutputReference interface {
 	Fqn() *string
 	InternalValue() *DataAwsccSagemakerClusterOrchestrator
 	SetInternalValue(val *DataAwsccSagemakerClusterOrchestrator)
+	Slurm() DataAwsccSagemakerClusterOrchestratorSlurmOutputReference
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -135,6 +136,16 @@ func (j *jsiiProxy_DataAwsccSagemakerClusterOrchestratorOutputReference) Interna
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerClusterOrchestratorOutputReference) Slurm() DataAwsccSagemakerClusterOrchestratorSlurmOutputReference {
+	var returns DataAwsccSagemakerClusterOrchestratorSlurmOutputReference
+	_jsii_.Get(
+		j,
+		"slurm",
 		&returns,
 	)
 	return returns

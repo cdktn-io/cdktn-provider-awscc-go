@@ -22,17 +22,17 @@ type BatchServiceEnvironmentConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/batch_service_environment#capacity_limits BatchServiceEnvironment#capacity_limits}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/batch_service_environment#capacity_limits BatchServiceEnvironment#capacity_limits}.
 	CapacityLimits interface{} `field:"required" json:"capacityLimits" yaml:"capacityLimits"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/batch_service_environment#service_environment_type BatchServiceEnvironment#service_environment_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/batch_service_environment#service_environment_type BatchServiceEnvironment#service_environment_type}.
 	ServiceEnvironmentType *string `field:"required" json:"serviceEnvironmentType" yaml:"serviceEnvironmentType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/batch_service_environment#service_environment_name BatchServiceEnvironment#service_environment_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/batch_service_environment#service_environment_name BatchServiceEnvironment#service_environment_name}.
 	ServiceEnvironmentName *string `field:"optional" json:"serviceEnvironmentName" yaml:"serviceEnvironmentName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/batch_service_environment#state BatchServiceEnvironment#state}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/batch_service_environment#state BatchServiceEnvironment#state}.
 	State *string `field:"optional" json:"state" yaml:"state"`
 	// A key-value pair to associate with a resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/batch_service_environment#tags BatchServiceEnvironment#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/batch_service_environment#tags BatchServiceEnvironment#tags}
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 }
 

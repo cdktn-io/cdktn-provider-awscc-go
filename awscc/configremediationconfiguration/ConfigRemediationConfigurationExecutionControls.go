@@ -5,7 +5,7 @@ package configremediationconfiguration
 
 
 type ConfigRemediationConfigurationExecutionControls struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/config_remediation_configuration#ssm_controls ConfigRemediationConfiguration#ssm_controls}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/config_remediation_configuration#ssm_controls ConfigRemediationConfiguration#ssm_controls}.
 	SsmControls *ConfigRemediationConfigurationExecutionControlsSsmControls `field:"optional" json:"ssmControls" yaml:"ssmControls"`
 }
 

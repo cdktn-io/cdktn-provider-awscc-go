@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codepipeline_custom_action_types awscc_codepipeline_custom_action_types}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/codepipeline_custom_action_types awscc_codepipeline_custom_action_types}.
 type DataAwsccCodepipelineCustomActionTypes interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCodepipelineCustomActionTypes) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codepipeline_custom_action_types awscc_codepipeline_custom_action_types} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/codepipeline_custom_action_types awscc_codepipeline_custom_action_types} Data Source.
 func NewDataAwsccCodepipelineCustomActionTypes(scope constructs.Construct, id *string, config *DataAwsccCodepipelineCustomActionTypesConfig) DataAwsccCodepipelineCustomActionTypes {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCodepipelineCustomActionTypes(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/codepipeline_custom_action_types awscc_codepipeline_custom_action_types} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/codepipeline_custom_action_types awscc_codepipeline_custom_action_types} Data Source.
 func NewDataAwsccCodepipelineCustomActionTypes_Override(d DataAwsccCodepipelineCustomActionTypes, scope constructs.Construct, id *string, config *DataAwsccCodepipelineCustomActionTypesConfig) {
 	_init_.Initialize()
 

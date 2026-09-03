@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_license_endpoint awscc_deadline_license_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/deadline_license_endpoint awscc_deadline_license_endpoint}.
 type DeadlineLicenseEndpoint interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -503,7 +503,7 @@ func (j *jsiiProxy_DeadlineLicenseEndpoint) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_license_endpoint awscc_deadline_license_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/deadline_license_endpoint awscc_deadline_license_endpoint} Resource.
 func NewDeadlineLicenseEndpoint(scope constructs.Construct, id *string, config *DeadlineLicenseEndpointConfig) DeadlineLicenseEndpoint {
 	_init_.Initialize()
 
@@ -521,7 +521,7 @@ func NewDeadlineLicenseEndpoint(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_license_endpoint awscc_deadline_license_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/deadline_license_endpoint awscc_deadline_license_endpoint} Resource.
 func NewDeadlineLicenseEndpoint_Override(d DeadlineLicenseEndpoint, scope constructs.Construct, id *string, config *DeadlineLicenseEndpointConfig) {
 	_init_.Initialize()
 

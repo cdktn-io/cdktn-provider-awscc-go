@@ -5,9 +5,9 @@ package grafanaworkspace
 
 
 type GrafanaWorkspaceTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#key GrafanaWorkspace#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/grafana_workspace#key GrafanaWorkspace#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/grafana_workspace#value GrafanaWorkspace#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/grafana_workspace#value GrafanaWorkspace#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

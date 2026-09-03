@@ -24,39 +24,39 @@ type BedrockDataAutomationProjectConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Name of the DataAutomationProject.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#project_name BedrockDataAutomationProject#project_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#project_name BedrockDataAutomationProject#project_name}
 	ProjectName *string `field:"required" json:"projectName" yaml:"projectName"`
 	// Custom output configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#custom_output_configuration BedrockDataAutomationProject#custom_output_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#custom_output_configuration BedrockDataAutomationProject#custom_output_configuration}
 	CustomOutputConfiguration *BedrockDataAutomationProjectCustomOutputConfiguration `field:"optional" json:"customOutputConfiguration" yaml:"customOutputConfiguration"`
 	// KMS encryption context.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#kms_encryption_context BedrockDataAutomationProject#kms_encryption_context}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#kms_encryption_context BedrockDataAutomationProject#kms_encryption_context}
 	KmsEncryptionContext *map[string]*string `field:"optional" json:"kmsEncryptionContext" yaml:"kmsEncryptionContext"`
 	// KMS key identifier.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#kms_key_id BedrockDataAutomationProject#kms_key_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#kms_key_id BedrockDataAutomationProject#kms_key_id}
 	KmsKeyId *string `field:"optional" json:"kmsKeyId" yaml:"kmsKeyId"`
 	// Override configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#override_configuration BedrockDataAutomationProject#override_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#override_configuration BedrockDataAutomationProject#override_configuration}
 	OverrideConfiguration *BedrockDataAutomationProjectOverrideConfiguration `field:"optional" json:"overrideConfiguration" yaml:"overrideConfiguration"`
 	// Description of the DataAutomationProject.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#project_description BedrockDataAutomationProject#project_description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#project_description BedrockDataAutomationProject#project_description}
 	ProjectDescription *string `field:"optional" json:"projectDescription" yaml:"projectDescription"`
 	// Type of the DataAutomationProject - Sync or Async.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#project_type BedrockDataAutomationProject#project_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#project_type BedrockDataAutomationProject#project_type}
 	ProjectType *string `field:"optional" json:"projectType" yaml:"projectType"`
 	// Standard output configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#standard_output_configuration BedrockDataAutomationProject#standard_output_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#standard_output_configuration BedrockDataAutomationProject#standard_output_configuration}
 	StandardOutputConfiguration *BedrockDataAutomationProjectStandardOutputConfiguration `field:"optional" json:"standardOutputConfiguration" yaml:"standardOutputConfiguration"`
 	// List of Tags.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_automation_project#tags BedrockDataAutomationProject#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_automation_project#tags BedrockDataAutomationProject#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

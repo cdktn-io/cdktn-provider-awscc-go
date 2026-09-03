@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cleanrooms_collaborations awscc_cleanrooms_collaborations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cleanrooms_collaborations awscc_cleanrooms_collaborations}.
 type DataAwsccCleanroomsCollaborations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCleanroomsCollaborations) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cleanrooms_collaborations awscc_cleanrooms_collaborations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cleanrooms_collaborations awscc_cleanrooms_collaborations} Data Source.
 func NewDataAwsccCleanroomsCollaborations(scope constructs.Construct, id *string, config *DataAwsccCleanroomsCollaborationsConfig) DataAwsccCleanroomsCollaborations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCleanroomsCollaborations(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cleanrooms_collaborations awscc_cleanrooms_collaborations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cleanrooms_collaborations awscc_cleanrooms_collaborations} Data Source.
 func NewDataAwsccCleanroomsCollaborations_Override(d DataAwsccCleanroomsCollaborations, scope constructs.Construct, id *string, config *DataAwsccCleanroomsCollaborationsConfig) {
 	_init_.Initialize()
 

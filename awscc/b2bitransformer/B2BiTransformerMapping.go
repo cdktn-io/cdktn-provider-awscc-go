@@ -5,9 +5,9 @@ package b2bitransformer
 
 
 type B2BiTransformerMapping struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#template B2BiTransformer#template}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/b2bi_transformer#template B2BiTransformer#template}.
 	Template *string `field:"optional" json:"template" yaml:"template"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_transformer#template_language B2BiTransformer#template_language}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/b2bi_transformer#template_language B2BiTransformer#template_language}.
 	TemplateLanguage *string `field:"optional" json:"templateLanguage" yaml:"templateLanguage"`
 }
 

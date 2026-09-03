@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/timestream_scheduled_query awscc_timestream_scheduled_query}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/timestream_scheduled_query awscc_timestream_scheduled_query}.
 type DataAwsccTimestreamScheduledQuery interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_DataAwsccTimestreamScheduledQuery) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/timestream_scheduled_query awscc_timestream_scheduled_query} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/timestream_scheduled_query awscc_timestream_scheduled_query} Data Source.
 func NewDataAwsccTimestreamScheduledQuery(scope constructs.Construct, id *string, config *DataAwsccTimestreamScheduledQueryConfig) DataAwsccTimestreamScheduledQuery {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewDataAwsccTimestreamScheduledQuery(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/timestream_scheduled_query awscc_timestream_scheduled_query} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/timestream_scheduled_query awscc_timestream_scheduled_query} Data Source.
 func NewDataAwsccTimestreamScheduledQuery_Override(d DataAwsccTimestreamScheduledQuery, scope constructs.Construct, id *string, config *DataAwsccTimestreamScheduledQueryConfig) {
 	_init_.Initialize()
 

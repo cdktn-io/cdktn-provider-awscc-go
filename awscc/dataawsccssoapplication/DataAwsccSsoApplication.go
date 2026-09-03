@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sso_application awscc_sso_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sso_application awscc_sso_application}.
 type DataAwsccSsoApplication interface {
 	cdktn.TerraformDataSource
 	ApplicationArn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccSsoApplication) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sso_application awscc_sso_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sso_application awscc_sso_application} Data Source.
 func NewDataAwsccSsoApplication(scope constructs.Construct, id *string, config *DataAwsccSsoApplicationConfig) DataAwsccSsoApplication {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccSsoApplication(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sso_application awscc_sso_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sso_application awscc_sso_application} Data Source.
 func NewDataAwsccSsoApplication_Override(d DataAwsccSsoApplication, scope constructs.Construct, id *string, config *DataAwsccSsoApplicationConfig) {
 	_init_.Initialize()
 

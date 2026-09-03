@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudfront_connection_function awscc_cloudfront_connection_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudfront_connection_function awscc_cloudfront_connection_function}.
 type DataAwsccCloudfrontConnectionFunction interface {
 	cdktn.TerraformDataSource
 	AutoPublish() cdktn.IResolvable
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccCloudfrontConnectionFunction) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudfront_connection_function awscc_cloudfront_connection_function} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudfront_connection_function awscc_cloudfront_connection_function} Data Source.
 func NewDataAwsccCloudfrontConnectionFunction(scope constructs.Construct, id *string, config *DataAwsccCloudfrontConnectionFunctionConfig) DataAwsccCloudfrontConnectionFunction {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccCloudfrontConnectionFunction(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudfront_connection_function awscc_cloudfront_connection_function} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudfront_connection_function awscc_cloudfront_connection_function} Data Source.
 func NewDataAwsccCloudfrontConnectionFunction_Override(d DataAwsccCloudfrontConnectionFunction, scope constructs.Construct, id *string, config *DataAwsccCloudfrontConnectionFunctionConfig) {
 	_init_.Initialize()
 

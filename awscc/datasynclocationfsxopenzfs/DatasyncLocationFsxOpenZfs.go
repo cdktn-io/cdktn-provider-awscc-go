@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_location_fsx_open_zfs awscc_datasync_location_fsx_open_zfs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_location_fsx_open_zfs awscc_datasync_location_fsx_open_zfs}.
 type DatasyncLocationFsxOpenZfs interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -495,7 +495,7 @@ func (j *jsiiProxy_DatasyncLocationFsxOpenZfs) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_location_fsx_open_zfs awscc_datasync_location_fsx_open_zfs} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_location_fsx_open_zfs awscc_datasync_location_fsx_open_zfs} Resource.
 func NewDatasyncLocationFsxOpenZfs(scope constructs.Construct, id *string, config *DatasyncLocationFsxOpenZfsConfig) DatasyncLocationFsxOpenZfs {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewDatasyncLocationFsxOpenZfs(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datasync_location_fsx_open_zfs awscc_datasync_location_fsx_open_zfs} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_location_fsx_open_zfs awscc_datasync_location_fsx_open_zfs} Resource.
 func NewDatasyncLocationFsxOpenZfs_Override(d DatasyncLocationFsxOpenZfs, scope constructs.Construct, id *string, config *DatasyncLocationFsxOpenZfsConfig) {
 	_init_.Initialize()
 

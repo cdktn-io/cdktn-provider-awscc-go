@@ -93,6 +93,48 @@ func (c *jsiiProxy_CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomOutputRef
 	return nil
 }
 
+func (c *jsiiProxy_CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomOutputReference) validatePutAggregationThresholdsParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholds:
+		value := value.(*[]*CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholds)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholds:
+		value_ := value.([]*CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholds)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholds; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
+func (c *jsiiProxy_CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomOutputReference) validatePutComparisonControlsParameters(value *CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomComparisonControls) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomOutputReference) validatePutDifferentialPrivacyParameters(value *CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomDifferentialPrivacy) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

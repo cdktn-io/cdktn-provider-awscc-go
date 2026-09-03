@@ -103,11 +103,19 @@ func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) valid
 	return nil
 }
 
+func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) validateSetMatchesParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) validateSetNeqParameters(val *[]*string) error {
 	return nil
 }
 
 func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) validateSetNotEqualsParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_GuarddutyFilterFindingCriteriaCriterionOutputReference) validateSetNotMatchesParameters(val *[]*string) error {
 	return nil
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_cluster awscc_pcs_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pcs_cluster awscc_pcs_cluster}.
 type PcsCluster interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -551,7 +551,7 @@ func (j *jsiiProxy_PcsCluster) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_cluster awscc_pcs_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pcs_cluster awscc_pcs_cluster} Resource.
 func NewPcsCluster(scope constructs.Construct, id *string, config *PcsClusterConfig) PcsCluster {
 	_init_.Initialize()
 
@@ -569,7 +569,7 @@ func NewPcsCluster(scope constructs.Construct, id *string, config *PcsClusterCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_cluster awscc_pcs_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pcs_cluster awscc_pcs_cluster} Resource.
 func NewPcsCluster_Override(p PcsCluster, scope constructs.Construct, id *string, config *PcsClusterConfig) {
 	_init_.Initialize()
 

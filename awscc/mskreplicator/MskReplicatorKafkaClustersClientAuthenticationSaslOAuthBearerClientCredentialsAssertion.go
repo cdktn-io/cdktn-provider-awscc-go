@@ -7,15 +7,15 @@ package mskreplicator
 type MskReplicatorKafkaClustersClientAuthenticationSaslOAuthBearerClientCredentialsAssertion struct {
 	// The audience (aud claim) set in the STS JWT client assertion.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_replicator#audience MskReplicator#audience}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/msk_replicator#audience MskReplicator#audience}
 	Audience *string `field:"optional" json:"audience" yaml:"audience"`
 	// The algorithm used to sign the JWT client assertion.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_replicator#signing_algorithm MskReplicator#signing_algorithm}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/msk_replicator#signing_algorithm MskReplicator#signing_algorithm}
 	SigningAlgorithm *string `field:"optional" json:"signingAlgorithm" yaml:"signingAlgorithm"`
 	// Optional Secrets Manager ARN for identity providers that require client_id as a form parameter alongside the JWT client assertion.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_replicator#token_request_secret_arn MskReplicator#token_request_secret_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/msk_replicator#token_request_secret_arn MskReplicator#token_request_secret_arn}
 	TokenRequestSecretArn *string `field:"optional" json:"tokenRequestSecretArn" yaml:"tokenRequestSecretArn"`
 }
 

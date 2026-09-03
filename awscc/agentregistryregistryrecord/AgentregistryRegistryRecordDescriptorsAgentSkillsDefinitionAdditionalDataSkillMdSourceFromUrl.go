@@ -7,7 +7,7 @@ package agentregistryregistryrecord
 type AgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionAdditionalDataSkillMdSourceFromUrl struct {
 	// URL source for the SkillMd document.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/agentregistry_registry_record#url AgentregistryRegistryRecord#url}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record#url AgentregistryRegistryRecord#url}
 	Url *string `field:"optional" json:"url" yaml:"url"`
 }
 

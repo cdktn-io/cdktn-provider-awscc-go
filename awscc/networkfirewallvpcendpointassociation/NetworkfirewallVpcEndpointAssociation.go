@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkfirewall_vpc_endpoint_association awscc_networkfirewall_vpc_endpoint_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/networkfirewall_vpc_endpoint_association awscc_networkfirewall_vpc_endpoint_association}.
 type NetworkfirewallVpcEndpointAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -505,7 +505,7 @@ func (j *jsiiProxy_NetworkfirewallVpcEndpointAssociation) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkfirewall_vpc_endpoint_association awscc_networkfirewall_vpc_endpoint_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/networkfirewall_vpc_endpoint_association awscc_networkfirewall_vpc_endpoint_association} Resource.
 func NewNetworkfirewallVpcEndpointAssociation(scope constructs.Construct, id *string, config *NetworkfirewallVpcEndpointAssociationConfig) NetworkfirewallVpcEndpointAssociation {
 	_init_.Initialize()
 
@@ -523,7 +523,7 @@ func NewNetworkfirewallVpcEndpointAssociation(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/networkfirewall_vpc_endpoint_association awscc_networkfirewall_vpc_endpoint_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/networkfirewall_vpc_endpoint_association awscc_networkfirewall_vpc_endpoint_association} Resource.
 func NewNetworkfirewallVpcEndpointAssociation_Override(n NetworkfirewallVpcEndpointAssociation, scope constructs.Construct, id *string, config *NetworkfirewallVpcEndpointAssociationConfig) {
 	_init_.Initialize()
 

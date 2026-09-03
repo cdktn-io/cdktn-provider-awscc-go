@@ -5,11 +5,11 @@ package quicksightactionconnector
 
 
 type QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataApiKeyConnectionMetadata struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_action_connector#api_key QuicksightActionConnector#api_key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_action_connector#api_key QuicksightActionConnector#api_key}.
 	ApiKey *string `field:"optional" json:"apiKey" yaml:"apiKey"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_action_connector#base_endpoint QuicksightActionConnector#base_endpoint}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_action_connector#base_endpoint QuicksightActionConnector#base_endpoint}.
 	BaseEndpoint *string `field:"optional" json:"baseEndpoint" yaml:"baseEndpoint"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_action_connector#email QuicksightActionConnector#email}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_action_connector#email QuicksightActionConnector#email}.
 	Email *string `field:"optional" json:"email" yaml:"email"`
 }
 

@@ -7,18 +7,18 @@ package quicksightdataset
 type QuicksightDataSetLogicalTableMap struct {
 	// <p>A display name for the logical table.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_set#alias QuicksightDataSet#alias}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_data_set#alias QuicksightDataSet#alias}
 	Alias *string `field:"optional" json:"alias" yaml:"alias"`
 	// <p>Transform operations that act on this logical table.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_set#data_transforms QuicksightDataSet#data_transforms}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_data_set#data_transforms QuicksightDataSet#data_transforms}
 	DataTransforms interface{} `field:"optional" json:"dataTransforms" yaml:"dataTransforms"`
 	// <p>Information about the source of a logical table.
 	//
 	// This is a variant type structure. For
 	//             this structure to be valid, only one of the attributes can be non-null.</p>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_set#source QuicksightDataSet#source}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_data_set#source QuicksightDataSet#source}
 	Source *QuicksightDataSetLogicalTableMapSource `field:"optional" json:"source" yaml:"source"`
 }
 

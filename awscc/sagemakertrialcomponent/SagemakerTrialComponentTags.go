@@ -7,11 +7,11 @@ package sagemakertrialcomponent
 type SagemakerTrialComponentTags struct {
 	// The tag key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#key SagemakerTrialComponent#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#key SagemakerTrialComponent#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The tag value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_trial_component#value SagemakerTrialComponent#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_trial_component#value SagemakerTrialComponent#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

@@ -35,6 +35,9 @@ type SagemakerInferenceComponentSpecificationOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	CurrentDataCacheConfig() SagemakerInferenceComponentSpecificationCurrentDataCacheConfigOutputReference
+	DataCacheConfig() SagemakerInferenceComponentSpecificationDataCacheConfigOutputReference
+	DataCacheConfigInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -42,6 +45,8 @@ type SagemakerInferenceComponentSpecificationOutputReference interface {
 	ModelName() *string
 	SetModelName(val *string)
 	ModelNameInput() *string
+	SchedulingConfig() SagemakerInferenceComponentSpecificationSchedulingConfigOutputReference
+	SchedulingConfigInput() interface{}
 	StartupParameters() SagemakerInferenceComponentSpecificationStartupParametersOutputReference
 	StartupParametersInput() interface{}
 	// Experimental.
@@ -78,11 +83,15 @@ type SagemakerInferenceComponentSpecificationOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutComputeResourceRequirements(value *SagemakerInferenceComponentSpecificationComputeResourceRequirements)
 	PutContainer(value *SagemakerInferenceComponentSpecificationContainer)
+	PutDataCacheConfig(value *SagemakerInferenceComponentSpecificationDataCacheConfig)
+	PutSchedulingConfig(value *SagemakerInferenceComponentSpecificationSchedulingConfig)
 	PutStartupParameters(value *SagemakerInferenceComponentSpecificationStartupParameters)
 	ResetBaseInferenceComponentName()
 	ResetComputeResourceRequirements()
 	ResetContainer()
+	ResetDataCacheConfig()
 	ResetModelName()
+	ResetSchedulingConfig()
 	ResetStartupParameters()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -189,6 +198,36 @@ func (j *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) Crea
 	return returns
 }
 
+func (j *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) CurrentDataCacheConfig() SagemakerInferenceComponentSpecificationCurrentDataCacheConfigOutputReference {
+	var returns SagemakerInferenceComponentSpecificationCurrentDataCacheConfigOutputReference
+	_jsii_.Get(
+		j,
+		"currentDataCacheConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) DataCacheConfig() SagemakerInferenceComponentSpecificationDataCacheConfigOutputReference {
+	var returns SagemakerInferenceComponentSpecificationDataCacheConfigOutputReference
+	_jsii_.Get(
+		j,
+		"dataCacheConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) DataCacheConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"dataCacheConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -224,6 +263,26 @@ func (j *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) Mode
 	_jsii_.Get(
 		j,
 		"modelNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) SchedulingConfig() SagemakerInferenceComponentSpecificationSchedulingConfigOutputReference {
+	var returns SagemakerInferenceComponentSpecificationSchedulingConfigOutputReference
+	_jsii_.Get(
+		j,
+		"schedulingConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) SchedulingConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"schedulingConfigInput",
 		&returns,
 	)
 	return returns
@@ -582,6 +641,28 @@ func (s *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) PutC
 	)
 }
 
+func (s *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) PutDataCacheConfig(value *SagemakerInferenceComponentSpecificationDataCacheConfig) {
+	if err := s.validatePutDataCacheConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putDataCacheConfig",
+		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) PutSchedulingConfig(value *SagemakerInferenceComponentSpecificationSchedulingConfig) {
+	if err := s.validatePutSchedulingConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putSchedulingConfig",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) PutStartupParameters(value *SagemakerInferenceComponentSpecificationStartupParameters) {
 	if err := s.validatePutStartupParametersParameters(value); err != nil {
 		panic(err)
@@ -617,10 +698,26 @@ func (s *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) Rese
 	)
 }
 
+func (s *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) ResetDataCacheConfig() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDataCacheConfig",
+		nil, // no parameters
+	)
+}
+
 func (s *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) ResetModelName() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetModelName",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) ResetSchedulingConfig() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetSchedulingConfig",
 		nil, // no parameters
 	)
 }

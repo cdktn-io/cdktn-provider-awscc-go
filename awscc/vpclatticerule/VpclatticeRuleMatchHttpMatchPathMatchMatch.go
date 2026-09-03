@@ -5,9 +5,9 @@ package vpclatticerule
 
 
 type VpclatticeRuleMatchHttpMatchPathMatchMatch struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_rule#exact VpclatticeRule#exact}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/vpclattice_rule#exact VpclatticeRule#exact}.
 	Exact *string `field:"optional" json:"exact" yaml:"exact"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_rule#prefix VpclatticeRule#prefix}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/vpclattice_rule#prefix VpclatticeRule#prefix}.
 	Prefix *string `field:"optional" json:"prefix" yaml:"prefix"`
 }
 

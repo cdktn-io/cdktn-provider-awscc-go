@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/resiliencehubv2_system awscc_resiliencehubv2_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/resiliencehubv2_system awscc_resiliencehubv2_system}.
 type DataAwsccResiliencehubv2System interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccResiliencehubv2System) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/resiliencehubv2_system awscc_resiliencehubv2_system} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/resiliencehubv2_system awscc_resiliencehubv2_system} Data Source.
 func NewDataAwsccResiliencehubv2System(scope constructs.Construct, id *string, config *DataAwsccResiliencehubv2SystemConfig) DataAwsccResiliencehubv2System {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccResiliencehubv2System(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/resiliencehubv2_system awscc_resiliencehubv2_system} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/resiliencehubv2_system awscc_resiliencehubv2_system} Data Source.
 func NewDataAwsccResiliencehubv2System_Override(d DataAwsccResiliencehubv2System, scope constructs.Construct, id *string, config *DataAwsccResiliencehubv2SystemConfig) {
 	_init_.Initialize()
 

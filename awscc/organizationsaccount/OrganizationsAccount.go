@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/organizations_account awscc_organizations_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/organizations_account awscc_organizations_account}.
 type OrganizationsAccount interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -550,7 +550,7 @@ func (j *jsiiProxy_OrganizationsAccount) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/organizations_account awscc_organizations_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/organizations_account awscc_organizations_account} Resource.
 func NewOrganizationsAccount(scope constructs.Construct, id *string, config *OrganizationsAccountConfig) OrganizationsAccount {
 	_init_.Initialize()
 
@@ -568,7 +568,7 @@ func NewOrganizationsAccount(scope constructs.Construct, id *string, config *Org
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/organizations_account awscc_organizations_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/organizations_account awscc_organizations_account} Resource.
 func NewOrganizationsAccount_Override(o OrganizationsAccount, scope constructs.Construct, id *string, config *OrganizationsAccountConfig) {
 	_init_.Initialize()
 

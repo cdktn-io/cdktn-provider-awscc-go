@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/pcs_compute_node_group awscc_pcs_compute_node_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/pcs_compute_node_group awscc_pcs_compute_node_group}.
 type DataAwsccPcsComputeNodeGroup interface {
 	cdktn.TerraformDataSource
 	AmiId() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccPcsComputeNodeGroup) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/pcs_compute_node_group awscc_pcs_compute_node_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/pcs_compute_node_group awscc_pcs_compute_node_group} Data Source.
 func NewDataAwsccPcsComputeNodeGroup(scope constructs.Construct, id *string, config *DataAwsccPcsComputeNodeGroupConfig) DataAwsccPcsComputeNodeGroup {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccPcsComputeNodeGroup(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/pcs_compute_node_group awscc_pcs_compute_node_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/pcs_compute_node_group awscc_pcs_compute_node_group} Data Source.
 func NewDataAwsccPcsComputeNodeGroup_Override(d DataAwsccPcsComputeNodeGroup, scope constructs.Construct, id *string, config *DataAwsccPcsComputeNodeGroupConfig) {
 	_init_.Initialize()
 

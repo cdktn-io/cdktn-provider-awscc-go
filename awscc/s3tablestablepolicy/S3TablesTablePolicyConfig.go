@@ -26,11 +26,11 @@ type S3TablesTablePolicyConfig struct {
 	//
 	// In IAM, you must provide policy documents in JSON format. However, in CloudFormation you can provide the policy in JSON or YAML format because CloudFormation converts YAML to JSON before submitting it to IAM.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_policy#resource_policy S3TablesTablePolicy#resource_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3tables_table_policy#resource_policy S3TablesTablePolicy#resource_policy}
 	ResourcePolicy *string `field:"required" json:"resourcePolicy" yaml:"resourcePolicy"`
 	// The Amazon Resource Name (ARN) of the specified table.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3tables_table_policy#table_arn S3TablesTablePolicy#table_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3tables_table_policy#table_arn S3TablesTablePolicy#table_arn}
 	TableArn *string `field:"required" json:"tableArn" yaml:"tableArn"`
 }
 

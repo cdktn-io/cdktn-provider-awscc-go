@@ -7,7 +7,7 @@ package connectqueue
 type ConnectQueueAdditionalEmailAddresses struct {
 	// The Amazon Resource Name (ARN) of the email address.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_queue#email_address_arn ConnectQueue#email_address_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_queue#email_address_arn ConnectQueue#email_address_arn}
 	EmailAddressArn *string `field:"optional" json:"emailAddressArn" yaml:"emailAddressArn"`
 }
 

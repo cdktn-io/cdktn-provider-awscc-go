@@ -214,6 +214,22 @@ func (j *jsiiProxy_RdsDbInstanceAdditionalStorageVolumesOutputReference) validat
 	return nil
 }
 
+func (j *jsiiProxy_RdsDbInstanceAdditionalStorageVolumesOutputReference) validateSetStorageOperationPercentProgressParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_RdsDbInstanceAdditionalStorageVolumesOutputReference) validateSetStorageOperationStatusParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_RdsDbInstanceAdditionalStorageVolumesOutputReference) validateSetStorageThroughputParameters(val *float64) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

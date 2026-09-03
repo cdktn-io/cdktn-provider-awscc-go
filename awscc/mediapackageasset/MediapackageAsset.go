@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediapackage_asset awscc_mediapackage_asset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediapackage_asset awscc_mediapackage_asset}.
 type MediapackageAsset interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -541,7 +541,7 @@ func (j *jsiiProxy_MediapackageAsset) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediapackage_asset awscc_mediapackage_asset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediapackage_asset awscc_mediapackage_asset} Resource.
 func NewMediapackageAsset(scope constructs.Construct, id *string, config *MediapackageAssetConfig) MediapackageAsset {
 	_init_.Initialize()
 
@@ -559,7 +559,7 @@ func NewMediapackageAsset(scope constructs.Construct, id *string, config *Mediap
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediapackage_asset awscc_mediapackage_asset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediapackage_asset awscc_mediapackage_asset} Resource.
 func NewMediapackageAsset_Override(m MediapackageAsset, scope constructs.Construct, id *string, config *MediapackageAssetConfig) {
 	_init_.Initialize()
 

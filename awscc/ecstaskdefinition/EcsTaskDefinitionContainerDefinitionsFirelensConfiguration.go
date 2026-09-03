@@ -13,11 +13,11 @@ type EcsTaskDefinitionContainerDefinitionsFirelensConfiguration struct {
 	//   +  ``config-file-type``, which can be ``s3`` or ``file``
 	//   +  ``config-file-value``, which is either an S3 ARN or a file path
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_task_definition#options EcsTaskDefinition#options}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#options EcsTaskDefinition#options}
 	Options *map[string]*string `field:"optional" json:"options" yaml:"options"`
 	// The log router to use. The valid values are ``fluentd`` or ``fluentbit``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_task_definition#type EcsTaskDefinition#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#type EcsTaskDefinition#type}
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

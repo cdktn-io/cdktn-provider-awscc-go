@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rds_integration awscc_rds_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/rds_integration awscc_rds_integration}.
 type DataAwsccRdsIntegration interface {
 	cdktn.TerraformDataSource
 	AdditionalEncryptionContext() cdktn.StringMap
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccRdsIntegration) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rds_integration awscc_rds_integration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/rds_integration awscc_rds_integration} Data Source.
 func NewDataAwsccRdsIntegration(scope constructs.Construct, id *string, config *DataAwsccRdsIntegrationConfig) DataAwsccRdsIntegration {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccRdsIntegration(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rds_integration awscc_rds_integration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/rds_integration awscc_rds_integration} Data Source.
 func NewDataAwsccRdsIntegration_Override(d DataAwsccRdsIntegration, scope constructs.Construct, id *string, config *DataAwsccRdsIntegrationConfig) {
 	_init_.Initialize()
 

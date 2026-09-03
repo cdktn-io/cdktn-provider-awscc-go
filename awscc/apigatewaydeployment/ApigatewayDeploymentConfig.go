@@ -22,21 +22,21 @@ type ApigatewayDeploymentConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#rest_api_id ApigatewayDeployment#rest_api_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#rest_api_id ApigatewayDeployment#rest_api_id}.
 	RestApiId *string `field:"required" json:"restApiId" yaml:"restApiId"`
 	// The ``DeploymentCanarySettings`` property type specifies settings for the canary deployment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#deployment_canary_settings ApigatewayDeployment#deployment_canary_settings}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#deployment_canary_settings ApigatewayDeployment#deployment_canary_settings}
 	DeploymentCanarySettings *ApigatewayDeploymentDeploymentCanarySettings `field:"optional" json:"deploymentCanarySettings" yaml:"deploymentCanarySettings"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#description ApigatewayDeployment#description}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#description ApigatewayDeployment#description}.
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The description of the Stage resource for the Deployment resource to create.
 	//
 	// To specify a stage description, you must also provide a stage name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#stage_description ApigatewayDeployment#stage_description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#stage_description ApigatewayDeployment#stage_description}
 	StageDescription *ApigatewayDeploymentStageDescription `field:"optional" json:"stageDescription" yaml:"stageDescription"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_deployment#stage_name ApigatewayDeployment#stage_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_deployment#stage_name ApigatewayDeployment#stage_name}.
 	StageName *string `field:"optional" json:"stageName" yaml:"stageName"`
 }
 

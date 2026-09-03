@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_queue awscc_connect_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_queue awscc_connect_queue}.
 type ConnectQueue interface {
 	cdktn.TerraformResource
 	AdditionalEmailAddresses() ConnectQueueAdditionalEmailAddressesList
@@ -660,7 +660,7 @@ func (j *jsiiProxy_ConnectQueue) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_queue awscc_connect_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_queue awscc_connect_queue} Resource.
 func NewConnectQueue(scope constructs.Construct, id *string, config *ConnectQueueConfig) ConnectQueue {
 	_init_.Initialize()
 
@@ -678,7 +678,7 @@ func NewConnectQueue(scope constructs.Construct, id *string, config *ConnectQueu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_queue awscc_connect_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_queue awscc_connect_queue} Resource.
 func NewConnectQueue_Override(c ConnectQueue, scope constructs.Construct, id *string, config *ConnectQueueConfig) {
 	_init_.Initialize()
 

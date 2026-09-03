@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediapackage_channels awscc_mediapackage_channels}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediapackage_channels awscc_mediapackage_channels}.
 type DataAwsccMediapackageChannels interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMediapackageChannels) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediapackage_channels awscc_mediapackage_channels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediapackage_channels awscc_mediapackage_channels} Data Source.
 func NewDataAwsccMediapackageChannels(scope constructs.Construct, id *string, config *DataAwsccMediapackageChannelsConfig) DataAwsccMediapackageChannels {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMediapackageChannels(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediapackage_channels awscc_mediapackage_channels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediapackage_channels awscc_mediapackage_channels} Data Source.
 func NewDataAwsccMediapackageChannels_Override(d DataAwsccMediapackageChannels, scope constructs.Construct, id *string, config *DataAwsccMediapackageChannelsConfig) {
 	_init_.Initialize()
 

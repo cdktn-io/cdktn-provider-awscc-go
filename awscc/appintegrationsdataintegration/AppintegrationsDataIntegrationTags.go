@@ -7,11 +7,11 @@ package appintegrationsdataintegration
 type AppintegrationsDataIntegrationTags struct {
 	// A key to identify the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_data_integration#key AppintegrationsDataIntegration#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appintegrations_data_integration#key AppintegrationsDataIntegration#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// Corresponding tag value for the key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appintegrations_data_integration#value AppintegrationsDataIntegration#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appintegrations_data_integration#value AppintegrationsDataIntegration#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

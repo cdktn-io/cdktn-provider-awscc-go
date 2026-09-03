@@ -7,11 +7,11 @@ package dataexchangeeventaction
 type DataexchangeEventActionTags struct {
 	// The key name of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_event_action#key DataexchangeEventAction#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_event_action#key DataexchangeEventAction#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value for the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_event_action#value DataexchangeEventAction#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_event_action#value DataexchangeEventAction#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

@@ -13,7 +13,7 @@ import (
 
 type DataAwsccLakeformationPrincipalPermissionsResourceOutputReference interface {
 	cdktn.ComplexObject
-	Catalog() *string
+	Catalog() DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -87,8 +87,8 @@ type jsiiProxy_DataAwsccLakeformationPrincipalPermissionsResourceOutputReference
 	internal.Type__cdktnComplexObject
 }
 
-func (j *jsiiProxy_DataAwsccLakeformationPrincipalPermissionsResourceOutputReference) Catalog() *string {
-	var returns *string
+func (j *jsiiProxy_DataAwsccLakeformationPrincipalPermissionsResourceOutputReference) Catalog() DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference {
+	var returns DataAwsccLakeformationPrincipalPermissionsResourceCatalogOutputReference
 	_jsii_.Get(
 		j,
 		"catalog",

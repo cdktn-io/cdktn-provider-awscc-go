@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rds_db_instance awscc_rds_db_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/rds_db_instance awscc_rds_db_instance}.
 type DataAwsccRdsDbInstance interface {
 	cdktn.TerraformDataSource
 	AdditionalStorageVolumes() DataAwsccRdsDbInstanceAdditionalStorageVolumesList
@@ -140,6 +140,8 @@ type DataAwsccRdsDbInstance interface {
 	SourceRegion() *string
 	StatusInfos() DataAwsccRdsDbInstanceStatusInfosList
 	StorageEncrypted() cdktn.IResolvable
+	StorageOperationPercentProgress() *float64
+	StorageOperationStatus() *string
 	StorageThroughput() *float64
 	StorageType() *string
 	Tags() DataAwsccRdsDbInstanceTagsList
@@ -1254,6 +1256,26 @@ func (j *jsiiProxy_DataAwsccRdsDbInstance) StorageEncrypted() cdktn.IResolvable 
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccRdsDbInstance) StorageOperationPercentProgress() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"storageOperationPercentProgress",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccRdsDbInstance) StorageOperationStatus() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageOperationStatus",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccRdsDbInstance) StorageThroughput() *float64 {
 	var returns *float64
 	_jsii_.Get(
@@ -1375,7 +1397,7 @@ func (j *jsiiProxy_DataAwsccRdsDbInstance) VpcSecurityGroups() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rds_db_instance awscc_rds_db_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/rds_db_instance awscc_rds_db_instance} Data Source.
 func NewDataAwsccRdsDbInstance(scope constructs.Construct, id *string, config *DataAwsccRdsDbInstanceConfig) DataAwsccRdsDbInstance {
 	_init_.Initialize()
 
@@ -1393,7 +1415,7 @@ func NewDataAwsccRdsDbInstance(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rds_db_instance awscc_rds_db_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/rds_db_instance awscc_rds_db_instance} Data Source.
 func NewDataAwsccRdsDbInstance_Override(d DataAwsccRdsDbInstance, scope constructs.Construct, id *string, config *DataAwsccRdsDbInstanceConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_prefix_list_resolver awscc_ec2_ipam_prefix_list_resolver}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ipam_prefix_list_resolver awscc_ec2_ipam_prefix_list_resolver}.
 type Ec2IpamPrefixListResolver interface {
 	cdktn.TerraformResource
 	AddressFamily() *string
@@ -507,7 +507,7 @@ func (j *jsiiProxy_Ec2IpamPrefixListResolver) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_prefix_list_resolver awscc_ec2_ipam_prefix_list_resolver} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ipam_prefix_list_resolver awscc_ec2_ipam_prefix_list_resolver} Resource.
 func NewEc2IpamPrefixListResolver(scope constructs.Construct, id *string, config *Ec2IpamPrefixListResolverConfig) Ec2IpamPrefixListResolver {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewEc2IpamPrefixListResolver(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_prefix_list_resolver awscc_ec2_ipam_prefix_list_resolver} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ipam_prefix_list_resolver awscc_ec2_ipam_prefix_list_resolver} Resource.
 func NewEc2IpamPrefixListResolver_Override(e Ec2IpamPrefixListResolver, scope constructs.Construct, id *string, config *Ec2IpamPrefixListResolverConfig) {
 	_init_.Initialize()
 

@@ -7,7 +7,7 @@ package s3bucket
 type S3BucketLifecycleConfiguration struct {
 	// A lifecycle rule for individual objects in an Amazon S3 bucket.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 	Rules interface{} `field:"optional" json:"rules" yaml:"rules"`
 	// Indicates which default minimum object size behavior is applied to the lifecycle configuration.
 	//
@@ -17,7 +17,7 @@ type S3BucketLifecycleConfiguration struct {
 	//
 	//  To customize the minimum object size for any transition you can add a filter that specifies a custom ``ObjectSizeGreaterThan`` or ``ObjectSizeLessThan`` in the body of your transition rule. Custom filters always take precedence over the default transition behavior.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3_bucket#transition_default_minimum_object_size S3Bucket#transition_default_minimum_object_size}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3_bucket#transition_default_minimum_object_size S3Bucket#transition_default_minimum_object_size}
 	TransitionDefaultMinimumObjectSize *string `field:"optional" json:"transitionDefaultMinimumObjectSize" yaml:"transitionDefaultMinimumObjectSize"`
 }
 

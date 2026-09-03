@@ -35,6 +35,8 @@ type DataAwsccRdsDbInstanceAdditionalStorageVolumesOutputReference interface {
 	SetInternalValue(val *DataAwsccRdsDbInstanceAdditionalStorageVolumes)
 	Iops() *float64
 	MaxAllocatedStorage() *float64
+	StorageOperationPercentProgress() *float64
+	StorageOperationStatus() *string
 	StorageThroughput() *float64
 	StorageType() *string
 	// Experimental.
@@ -160,6 +162,26 @@ func (j *jsiiProxy_DataAwsccRdsDbInstanceAdditionalStorageVolumesOutputReference
 	_jsii_.Get(
 		j,
 		"maxAllocatedStorage",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccRdsDbInstanceAdditionalStorageVolumesOutputReference) StorageOperationPercentProgress() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"storageOperationPercentProgress",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccRdsDbInstanceAdditionalStorageVolumesOutputReference) StorageOperationStatus() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageOperationStatus",
 		&returns,
 	)
 	return returns

@@ -7,59 +7,59 @@ package ioteventsdetectormodel
 type IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActions struct {
 	// Information needed to clear the timer.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotevents_detector_model#clear_timer IoteventsDetectorModel#clear_timer}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_detector_model#clear_timer IoteventsDetectorModel#clear_timer}
 	ClearTimer *IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsClearTimer `field:"optional" json:"clearTimer" yaml:"clearTimer"`
 	// Writes to the DynamoDB table that you created.
 	//
 	// The default action payload contains all attribute-value pairs that have the information about the detector model instance and the event that triggered the action. You can customize the [payload](https://docs.aws.amazon.com/iotevents/latest/apireference/API_Payload.html). One column of the DynamoDB table receives all attribute-value pairs in the payload that you specify. For more information, see [Actions](https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-event-actions.html) in *Developer Guide*.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotevents_detector_model#dynamo_db IoteventsDetectorModel#dynamo_db}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_detector_model#dynamo_db IoteventsDetectorModel#dynamo_db}
 	DynamoDb *IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDb `field:"optional" json:"dynamoDb" yaml:"dynamoDb"`
 	// Writes to the DynamoDB table that you created.
 	//
 	// The default action payload contains all attribute-value pairs that have the information about the detector model instance and the event that triggered the action. You can customize the [payload](https://docs.aws.amazon.com/iotevents/latest/apireference/API_Payload.html). A separate column of the DynamoDB table receives one attribute-value pair in the payload that you specify. For more information, see [Actions](https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-event-actions.html) in *Developer Guide*.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotevents_detector_model#dynamo_d_bv_2 IoteventsDetectorModel#dynamo_d_bv_2}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_detector_model#dynamo_d_bv_2 IoteventsDetectorModel#dynamo_d_bv_2}
 	DynamoDBv2 *IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsDynamoDBv2 `field:"optional" json:"dynamoDBv2" yaml:"dynamoDBv2"`
 	// Sends information about the detector model instance and the event that triggered the action to an Amazon Kinesis Data Firehose delivery stream.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotevents_detector_model#firehose IoteventsDetectorModel#firehose}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_detector_model#firehose IoteventsDetectorModel#firehose}
 	Firehose *IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsFirehose `field:"optional" json:"firehose" yaml:"firehose"`
 	// Sends ITE input, which passes information about the detector model instance and the event that triggered the action.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotevents_detector_model#iot_events IoteventsDetectorModel#iot_events}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_detector_model#iot_events IoteventsDetectorModel#iot_events}
 	IotEvents *IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotEvents `field:"optional" json:"iotEvents" yaml:"iotEvents"`
 	// Sends information about the detector model instance and the event that triggered the action to an asset property in ITSW .
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotevents_detector_model#iot_site_wise IoteventsDetectorModel#iot_site_wise}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_detector_model#iot_site_wise IoteventsDetectorModel#iot_site_wise}
 	IotSiteWise *IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotSiteWise `field:"optional" json:"iotSiteWise" yaml:"iotSiteWise"`
 	// Publishes an MQTT message with the given topic to the IoT message broker.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotevents_detector_model#iot_topic_publish IoteventsDetectorModel#iot_topic_publish}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_detector_model#iot_topic_publish IoteventsDetectorModel#iot_topic_publish}
 	IotTopicPublish *IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsIotTopicPublish `field:"optional" json:"iotTopicPublish" yaml:"iotTopicPublish"`
 	// Calls a Lambda function, passing in information about the detector model instance and the event that triggered the action.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotevents_detector_model#lambda IoteventsDetectorModel#lambda}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_detector_model#lambda IoteventsDetectorModel#lambda}
 	Lambda *IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsLambda `field:"optional" json:"lambda" yaml:"lambda"`
 	// Information needed to reset the timer.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotevents_detector_model#reset_timer IoteventsDetectorModel#reset_timer}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_detector_model#reset_timer IoteventsDetectorModel#reset_timer}
 	ResetTimer *IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsResetTimer `field:"optional" json:"resetTimer" yaml:"resetTimer"`
 	// Information needed to set the timer.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotevents_detector_model#set_timer IoteventsDetectorModel#set_timer}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_detector_model#set_timer IoteventsDetectorModel#set_timer}
 	SetTimer *IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetTimer `field:"optional" json:"setTimer" yaml:"setTimer"`
 	// Sets a variable to a specified value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotevents_detector_model#set_variable IoteventsDetectorModel#set_variable}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_detector_model#set_variable IoteventsDetectorModel#set_variable}
 	SetVariable *IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSetVariable `field:"optional" json:"setVariable" yaml:"setVariable"`
 	// Sends an Amazon SNS message.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotevents_detector_model#sns IoteventsDetectorModel#sns}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_detector_model#sns IoteventsDetectorModel#sns}
 	Sns *IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSns `field:"optional" json:"sns" yaml:"sns"`
 	// Sends an Amazon SNS message.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotevents_detector_model#sqs IoteventsDetectorModel#sqs}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_detector_model#sqs IoteventsDetectorModel#sqs}
 	Sqs *IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqs `field:"optional" json:"sqs" yaml:"sqs"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/personalize_dataset awscc_personalize_dataset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/personalize_dataset awscc_personalize_dataset}.
 type DataAwsccPersonalizeDataset interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccPersonalizeDataset) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/personalize_dataset awscc_personalize_dataset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/personalize_dataset awscc_personalize_dataset} Data Source.
 func NewDataAwsccPersonalizeDataset(scope constructs.Construct, id *string, config *DataAwsccPersonalizeDatasetConfig) DataAwsccPersonalizeDataset {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccPersonalizeDataset(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/personalize_dataset awscc_personalize_dataset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/personalize_dataset awscc_personalize_dataset} Data Source.
 func NewDataAwsccPersonalizeDataset_Override(d DataAwsccPersonalizeDataset, scope constructs.Construct, id *string, config *DataAwsccPersonalizeDatasetConfig) {
 	_init_.Initialize()
 

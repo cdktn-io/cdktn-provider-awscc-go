@@ -7,7 +7,7 @@ package codedeploydeploymentgroup
 type CodedeployDeploymentGroupBlueGreenDeploymentConfigurationGreenFleetProvisioningOption struct {
 	// The method used to add instances to a replacement environment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codedeploy_deployment_group#action CodedeployDeploymentGroup#action}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codedeploy_deployment_group#action CodedeployDeploymentGroup#action}
 	Action *string `field:"optional" json:"action" yaml:"action"`
 }
 

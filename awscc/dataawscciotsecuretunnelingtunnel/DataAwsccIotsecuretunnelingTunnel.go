@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotsecuretunneling_tunnel awscc_iotsecuretunneling_tunnel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotsecuretunneling_tunnel awscc_iotsecuretunneling_tunnel}.
 type DataAwsccIotsecuretunnelingTunnel interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccIotsecuretunnelingTunnel) TunnelId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotsecuretunneling_tunnel awscc_iotsecuretunneling_tunnel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotsecuretunneling_tunnel awscc_iotsecuretunneling_tunnel} Data Source.
 func NewDataAwsccIotsecuretunnelingTunnel(scope constructs.Construct, id *string, config *DataAwsccIotsecuretunnelingTunnelConfig) DataAwsccIotsecuretunnelingTunnel {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccIotsecuretunnelingTunnel(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotsecuretunneling_tunnel awscc_iotsecuretunneling_tunnel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotsecuretunneling_tunnel awscc_iotsecuretunneling_tunnel} Data Source.
 func NewDataAwsccIotsecuretunnelingTunnel_Override(d DataAwsccIotsecuretunnelingTunnel, scope constructs.Construct, id *string, config *DataAwsccIotsecuretunnelingTunnelConfig) {
 	_init_.Initialize()
 

@@ -24,19 +24,19 @@ type BackupLegalHoldConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The description of the legal hold.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#description BackupLegalHold#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_legal_hold#description BackupLegalHold#description}
 	Description *string `field:"required" json:"description" yaml:"description"`
 	// The criteria to assign a set of resources, such as resource types or backup vaults.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#recovery_point_selection BackupLegalHold#recovery_point_selection}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_legal_hold#recovery_point_selection BackupLegalHold#recovery_point_selection}
 	RecoveryPointSelection *BackupLegalHoldRecoveryPointSelection `field:"required" json:"recoveryPointSelection" yaml:"recoveryPointSelection"`
 	// The title of the legal hold.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#title BackupLegalHold#title}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_legal_hold#title BackupLegalHold#title}
 	Title *string `field:"required" json:"title" yaml:"title"`
 	// Optional tags to include.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_legal_hold#tags BackupLegalHold#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_legal_hold#tags BackupLegalHold#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

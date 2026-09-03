@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_cloudwatch_alarm_template_group awscc_medialive_cloudwatch_alarm_template_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/medialive_cloudwatch_alarm_template_group awscc_medialive_cloudwatch_alarm_template_group}.
 type MedialiveCloudwatchAlarmTemplateGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -481,7 +481,7 @@ func (j *jsiiProxy_MedialiveCloudwatchAlarmTemplateGroup) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_cloudwatch_alarm_template_group awscc_medialive_cloudwatch_alarm_template_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/medialive_cloudwatch_alarm_template_group awscc_medialive_cloudwatch_alarm_template_group} Resource.
 func NewMedialiveCloudwatchAlarmTemplateGroup(scope constructs.Construct, id *string, config *MedialiveCloudwatchAlarmTemplateGroupConfig) MedialiveCloudwatchAlarmTemplateGroup {
 	_init_.Initialize()
 
@@ -499,7 +499,7 @@ func NewMedialiveCloudwatchAlarmTemplateGroup(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_cloudwatch_alarm_template_group awscc_medialive_cloudwatch_alarm_template_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/medialive_cloudwatch_alarm_template_group awscc_medialive_cloudwatch_alarm_template_group} Resource.
 func NewMedialiveCloudwatchAlarmTemplateGroup_Override(m MedialiveCloudwatchAlarmTemplateGroup, scope constructs.Construct, id *string, config *MedialiveCloudwatchAlarmTemplateGroupConfig) {
 	_init_.Initialize()
 

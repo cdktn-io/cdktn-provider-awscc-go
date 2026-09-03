@@ -47,6 +47,10 @@ func (m *jsiiProxy_MediaconnectFlowVpcInterfacesOutputReference) validateInterpo
 	return nil
 }
 
+func (m *jsiiProxy_MediaconnectFlowVpcInterfacesOutputReference) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MediaconnectFlowVpcInterfacesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

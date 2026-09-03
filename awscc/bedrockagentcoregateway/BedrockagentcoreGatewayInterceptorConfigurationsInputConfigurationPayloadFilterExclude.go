@@ -5,7 +5,7 @@ package bedrockagentcoregateway
 
 
 type BedrockagentcoreGatewayInterceptorConfigurationsInputConfigurationPayloadFilterExclude struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_gateway#field BedrockagentcoreGateway#field}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_gateway#field BedrockagentcoreGateway#field}.
 	Field *string `field:"optional" json:"field" yaml:"field"`
 }
 

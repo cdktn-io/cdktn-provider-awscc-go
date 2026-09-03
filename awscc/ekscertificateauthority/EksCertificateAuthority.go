@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_certificate_authority awscc_eks_certificate_authority}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_certificate_authority awscc_eks_certificate_authority}.
 type EksCertificateAuthority interface {
 	cdktn.TerraformResource
 	ActivatedAt() *string
@@ -499,7 +499,7 @@ func (j *jsiiProxy_EksCertificateAuthority) Validity() EksCertificateAuthorityVa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_certificate_authority awscc_eks_certificate_authority} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_certificate_authority awscc_eks_certificate_authority} Resource.
 func NewEksCertificateAuthority(scope constructs.Construct, id *string, config *EksCertificateAuthorityConfig) EksCertificateAuthority {
 	_init_.Initialize()
 
@@ -517,7 +517,7 @@ func NewEksCertificateAuthority(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/eks_certificate_authority awscc_eks_certificate_authority} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_certificate_authority awscc_eks_certificate_authority} Resource.
 func NewEksCertificateAuthority_Override(e EksCertificateAuthority, scope constructs.Construct, id *string, config *EksCertificateAuthorityConfig) {
 	_init_.Initialize()
 

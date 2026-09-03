@@ -41,6 +41,12 @@ type RdsDbInstanceAdditionalStorageVolumesOutputReference interface {
 	MaxAllocatedStorage() *float64
 	SetMaxAllocatedStorage(val *float64)
 	MaxAllocatedStorageInput() *float64
+	StorageOperationPercentProgress() *float64
+	SetStorageOperationPercentProgress(val *float64)
+	StorageOperationPercentProgressInput() *float64
+	StorageOperationStatus() *string
+	SetStorageOperationStatus(val *string)
+	StorageOperationStatusInput() *string
 	StorageThroughput() *float64
 	SetStorageThroughput(val *float64)
 	StorageThroughputInput() *float64
@@ -85,6 +91,8 @@ type RdsDbInstanceAdditionalStorageVolumesOutputReference interface {
 	ResetAllocatedStorage()
 	ResetIops()
 	ResetMaxAllocatedStorage()
+	ResetStorageOperationPercentProgress()
+	ResetStorageOperationStatus()
 	ResetStorageThroughput()
 	ResetStorageType()
 	ResetVolumeName()
@@ -208,6 +216,46 @@ func (j *jsiiProxy_RdsDbInstanceAdditionalStorageVolumesOutputReference) MaxAllo
 	_jsii_.Get(
 		j,
 		"maxAllocatedStorageInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RdsDbInstanceAdditionalStorageVolumesOutputReference) StorageOperationPercentProgress() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"storageOperationPercentProgress",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RdsDbInstanceAdditionalStorageVolumesOutputReference) StorageOperationPercentProgressInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"storageOperationPercentProgressInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RdsDbInstanceAdditionalStorageVolumesOutputReference) StorageOperationStatus() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageOperationStatus",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RdsDbInstanceAdditionalStorageVolumesOutputReference) StorageOperationStatusInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageOperationStatusInput",
 		&returns,
 	)
 	return returns
@@ -383,6 +431,28 @@ func (j *jsiiProxy_RdsDbInstanceAdditionalStorageVolumesOutputReference)SetMaxAl
 	_jsii_.Set(
 		j,
 		"maxAllocatedStorage",
+		val,
+	)
+}
+
+func (j *jsiiProxy_RdsDbInstanceAdditionalStorageVolumesOutputReference)SetStorageOperationPercentProgress(val *float64) {
+	if err := j.validateSetStorageOperationPercentProgressParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"storageOperationPercentProgress",
+		val,
+	)
+}
+
+func (j *jsiiProxy_RdsDbInstanceAdditionalStorageVolumesOutputReference)SetStorageOperationStatus(val *string) {
+	if err := j.validateSetStorageOperationStatusParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"storageOperationStatus",
 		val,
 	)
 }
@@ -648,6 +718,22 @@ func (r *jsiiProxy_RdsDbInstanceAdditionalStorageVolumesOutputReference) ResetMa
 	_jsii_.InvokeVoid(
 		r,
 		"resetMaxAllocatedStorage",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_RdsDbInstanceAdditionalStorageVolumesOutputReference) ResetStorageOperationPercentProgress() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetStorageOperationPercentProgress",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_RdsDbInstanceAdditionalStorageVolumesOutputReference) ResetStorageOperationStatus() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetStorageOperationStatus",
 		nil, // no parameters
 	)
 }

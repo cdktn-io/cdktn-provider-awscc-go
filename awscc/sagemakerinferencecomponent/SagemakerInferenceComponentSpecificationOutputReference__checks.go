@@ -115,6 +115,28 @@ func (s *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) vali
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) validatePutDataCacheConfigParameters(value *SagemakerInferenceComponentSpecificationDataCacheConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) validatePutSchedulingConfigParameters(value *SagemakerInferenceComponentSpecificationSchedulingConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) validatePutStartupParametersParameters(value *SagemakerInferenceComponentSpecificationStartupParameters) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

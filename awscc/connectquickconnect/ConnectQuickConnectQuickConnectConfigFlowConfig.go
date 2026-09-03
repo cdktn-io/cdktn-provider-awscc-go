@@ -7,7 +7,7 @@ package connectquickconnect
 type ConnectQuickConnectQuickConnectConfigFlowConfig struct {
 	// The identifier of the contact flow.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_quick_connect#contact_flow_arn ConnectQuickConnect#contact_flow_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_quick_connect#contact_flow_arn ConnectQuickConnect#contact_flow_arn}
 	ContactFlowArn *string `field:"optional" json:"contactFlowArn" yaml:"contactFlowArn"`
 }
 

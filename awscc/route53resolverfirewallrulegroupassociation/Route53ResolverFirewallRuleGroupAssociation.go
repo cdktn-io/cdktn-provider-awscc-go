@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53resolver_firewall_rule_group_association awscc_route53resolver_firewall_rule_group_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53resolver_firewall_rule_group_association awscc_route53resolver_firewall_rule_group_association}.
 type Route53ResolverFirewallRuleGroupAssociation interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -584,7 +584,7 @@ func (j *jsiiProxy_Route53ResolverFirewallRuleGroupAssociation) VpcIdInput() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53resolver_firewall_rule_group_association awscc_route53resolver_firewall_rule_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53resolver_firewall_rule_group_association awscc_route53resolver_firewall_rule_group_association} Resource.
 func NewRoute53ResolverFirewallRuleGroupAssociation(scope constructs.Construct, id *string, config *Route53ResolverFirewallRuleGroupAssociationConfig) Route53ResolverFirewallRuleGroupAssociation {
 	_init_.Initialize()
 
@@ -602,7 +602,7 @@ func NewRoute53ResolverFirewallRuleGroupAssociation(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53resolver_firewall_rule_group_association awscc_route53resolver_firewall_rule_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53resolver_firewall_rule_group_association awscc_route53resolver_firewall_rule_group_association} Resource.
 func NewRoute53ResolverFirewallRuleGroupAssociation_Override(r Route53ResolverFirewallRuleGroupAssociation, scope constructs.Construct, id *string, config *Route53ResolverFirewallRuleGroupAssociationConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdbelastic_cluster awscc_docdbelastic_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdbelastic_cluster awscc_docdbelastic_cluster}.
 type DocdbelasticCluster interface {
 	cdktn.TerraformResource
 	AdminUserName() *string
@@ -708,7 +708,7 @@ func (j *jsiiProxy_DocdbelasticCluster) VpcSecurityGroupIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdbelastic_cluster awscc_docdbelastic_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdbelastic_cluster awscc_docdbelastic_cluster} Resource.
 func NewDocdbelasticCluster(scope constructs.Construct, id *string, config *DocdbelasticClusterConfig) DocdbelasticCluster {
 	_init_.Initialize()
 
@@ -726,7 +726,7 @@ func NewDocdbelasticCluster(scope constructs.Construct, id *string, config *Docd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdbelastic_cluster awscc_docdbelastic_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdbelastic_cluster awscc_docdbelastic_cluster} Resource.
 func NewDocdbelasticCluster_Override(d DocdbelasticCluster, scope constructs.Construct, id *string, config *DocdbelasticClusterConfig) {
 	_init_.Initialize()
 

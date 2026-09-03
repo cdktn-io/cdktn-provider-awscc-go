@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_domain_object_type awscc_customerprofiles_domain_object_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_domain_object_type awscc_customerprofiles_domain_object_type}.
 type CustomerprofilesDomainObjectType interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -518,7 +518,7 @@ func (j *jsiiProxy_CustomerprofilesDomainObjectType) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_domain_object_type awscc_customerprofiles_domain_object_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_domain_object_type awscc_customerprofiles_domain_object_type} Resource.
 func NewCustomerprofilesDomainObjectType(scope constructs.Construct, id *string, config *CustomerprofilesDomainObjectTypeConfig) CustomerprofilesDomainObjectType {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewCustomerprofilesDomainObjectType(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_domain_object_type awscc_customerprofiles_domain_object_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_domain_object_type awscc_customerprofiles_domain_object_type} Resource.
 func NewCustomerprofilesDomainObjectType_Override(c CustomerprofilesDomainObjectType, scope constructs.Construct, id *string, config *CustomerprofilesDomainObjectTypeConfig) {
 	_init_.Initialize()
 

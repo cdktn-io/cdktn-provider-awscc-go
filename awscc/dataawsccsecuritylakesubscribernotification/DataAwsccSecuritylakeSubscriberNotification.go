@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/securitylake_subscriber_notification awscc_securitylake_subscriber_notification}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/securitylake_subscriber_notification awscc_securitylake_subscriber_notification}.
 type DataAwsccSecuritylakeSubscriberNotification interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccSecuritylakeSubscriberNotification) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/securitylake_subscriber_notification awscc_securitylake_subscriber_notification} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/securitylake_subscriber_notification awscc_securitylake_subscriber_notification} Data Source.
 func NewDataAwsccSecuritylakeSubscriberNotification(scope constructs.Construct, id *string, config *DataAwsccSecuritylakeSubscriberNotificationConfig) DataAwsccSecuritylakeSubscriberNotification {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccSecuritylakeSubscriberNotification(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/securitylake_subscriber_notification awscc_securitylake_subscriber_notification} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/securitylake_subscriber_notification awscc_securitylake_subscriber_notification} Data Source.
 func NewDataAwsccSecuritylakeSubscriberNotification_Override(d DataAwsccSecuritylakeSubscriberNotification, scope constructs.Construct, id *string, config *DataAwsccSecuritylakeSubscriberNotificationConfig) {
 	_init_.Initialize()
 

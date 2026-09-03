@@ -1,3 +1,3 @@
 # `awscc_inspectorv2_connector`
 
-Refer to the Terraform Registry for docs: [`awscc_inspectorv2_connector`](https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/inspectorv2_connector).
+Refer to the Terraform Registry for docs: [`awscc_inspectorv2_connector`](https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/inspectorv2_connector).

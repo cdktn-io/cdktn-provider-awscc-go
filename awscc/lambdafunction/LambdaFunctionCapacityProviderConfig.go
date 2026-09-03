@@ -7,7 +7,7 @@ package lambdafunction
 type LambdaFunctionCapacityProviderConfig struct {
 	// Configuration for Lambda-managed instances used by the capacity provider.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lambda_function#lambda_managed_instances_capacity_provider_config LambdaFunction#lambda_managed_instances_capacity_provider_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lambda_function#lambda_managed_instances_capacity_provider_config LambdaFunction#lambda_managed_instances_capacity_provider_config}
 	LambdaManagedInstancesCapacityProviderConfig *LambdaFunctionCapacityProviderConfigLambdaManagedInstancesCapacityProviderConfig `field:"optional" json:"lambdaManagedInstancesCapacityProviderConfig" yaml:"lambdaManagedInstancesCapacityProviderConfig"`
 }
 

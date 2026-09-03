@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/agentregistry_registry awscc_agentregistry_registry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry awscc_agentregistry_registry}.
 type AgentregistryRegistry interface {
 	cdktn.TerraformResource
 	ApprovalConfiguration() AgentregistryRegistryApprovalConfigurationOutputReference
@@ -553,7 +553,7 @@ func (j *jsiiProxy_AgentregistryRegistry) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/agentregistry_registry awscc_agentregistry_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry awscc_agentregistry_registry} Resource.
 func NewAgentregistryRegistry(scope constructs.Construct, id *string, config *AgentregistryRegistryConfig) AgentregistryRegistry {
 	_init_.Initialize()
 
@@ -571,7 +571,7 @@ func NewAgentregistryRegistry(scope constructs.Construct, id *string, config *Ag
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/agentregistry_registry awscc_agentregistry_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry awscc_agentregistry_registry} Resource.
 func NewAgentregistryRegistry_Override(a AgentregistryRegistry, scope constructs.Construct, id *string, config *AgentregistryRegistryConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_subnet_network_acl_association awscc_ec2_subnet_network_acl_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_subnet_network_acl_association awscc_ec2_subnet_network_acl_association}.
 type Ec2SubnetNetworkAclAssociation interface {
 	cdktn.TerraformResource
 	AssociationId() *string
@@ -412,7 +412,7 @@ func (j *jsiiProxy_Ec2SubnetNetworkAclAssociation) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_subnet_network_acl_association awscc_ec2_subnet_network_acl_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_subnet_network_acl_association awscc_ec2_subnet_network_acl_association} Resource.
 func NewEc2SubnetNetworkAclAssociation(scope constructs.Construct, id *string, config *Ec2SubnetNetworkAclAssociationConfig) Ec2SubnetNetworkAclAssociation {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewEc2SubnetNetworkAclAssociation(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_subnet_network_acl_association awscc_ec2_subnet_network_acl_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_subnet_network_acl_association awscc_ec2_subnet_network_acl_association} Resource.
 func NewEc2SubnetNetworkAclAssociation_Override(e Ec2SubnetNetworkAclAssociation, scope constructs.Construct, id *string, config *Ec2SubnetNetworkAclAssociationConfig) {
 	_init_.Initialize()
 

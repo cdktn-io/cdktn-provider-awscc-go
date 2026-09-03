@@ -7,11 +7,11 @@ package quicksightagent
 type QuicksightAgentCustomPromptInput struct {
 	// Reference to an existing custom prompt profile.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_agent#existing_prompt QuicksightAgent#existing_prompt}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_agent#existing_prompt QuicksightAgent#existing_prompt}
 	ExistingPrompt *QuicksightAgentCustomPromptInputExistingPrompt `field:"optional" json:"existingPrompt" yaml:"existingPrompt"`
 	// Parameters for creating a new custom prompt configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_agent#new_prompt QuicksightAgent#new_prompt}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_agent#new_prompt QuicksightAgent#new_prompt}
 	NewPrompt *QuicksightAgentCustomPromptInputNewPrompt `field:"optional" json:"newPrompt" yaml:"newPrompt"`
 }
 

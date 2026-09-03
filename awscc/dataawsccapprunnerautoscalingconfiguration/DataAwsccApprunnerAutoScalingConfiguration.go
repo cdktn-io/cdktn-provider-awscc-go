@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apprunner_auto_scaling_configuration awscc_apprunner_auto_scaling_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apprunner_auto_scaling_configuration awscc_apprunner_auto_scaling_configuration}.
 type DataAwsccApprunnerAutoScalingConfiguration interface {
 	cdktn.TerraformDataSource
 	AutoScalingConfigurationArn() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccApprunnerAutoScalingConfiguration) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apprunner_auto_scaling_configuration awscc_apprunner_auto_scaling_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apprunner_auto_scaling_configuration awscc_apprunner_auto_scaling_configuration} Data Source.
 func NewDataAwsccApprunnerAutoScalingConfiguration(scope constructs.Construct, id *string, config *DataAwsccApprunnerAutoScalingConfigurationConfig) DataAwsccApprunnerAutoScalingConfiguration {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccApprunnerAutoScalingConfiguration(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apprunner_auto_scaling_configuration awscc_apprunner_auto_scaling_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apprunner_auto_scaling_configuration awscc_apprunner_auto_scaling_configuration} Data Source.
 func NewDataAwsccApprunnerAutoScalingConfiguration_Override(d DataAwsccApprunnerAutoScalingConfiguration, scope constructs.Construct, id *string, config *DataAwsccApprunnerAutoScalingConfigurationConfig) {
 	_init_.Initialize()
 

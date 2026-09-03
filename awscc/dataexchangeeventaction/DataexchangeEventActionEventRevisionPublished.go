@@ -7,7 +7,7 @@ package dataexchangeeventaction
 type DataexchangeEventActionEventRevisionPublished struct {
 	// The data set ID of the published revision.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dataexchange_event_action#data_set_id DataexchangeEventAction#data_set_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dataexchange_event_action#data_set_id DataexchangeEventAction#data_set_id}
 	DataSetId *string `field:"optional" json:"dataSetId" yaml:"dataSetId"`
 }
 

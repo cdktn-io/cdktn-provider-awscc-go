@@ -7,7 +7,7 @@ package interconnectconnection
 type InterconnectConnectionRemoteAccount struct {
 	// The identifier of the remote account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/interconnect_connection#identifier InterconnectConnection#identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/interconnect_connection#identifier InterconnectConnection#identifier}
 	Identifier *string `field:"optional" json:"identifier" yaml:"identifier"`
 }
 

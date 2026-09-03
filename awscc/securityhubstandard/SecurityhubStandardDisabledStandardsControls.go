@@ -9,11 +9,11 @@ type SecurityhubStandardDisabledStandardsControls struct {
 	//
 	// If you are disabling a control, then this property is required.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_standard#reason SecurityhubStandard#reason}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_standard#reason SecurityhubStandard#reason}
 	Reason *string `field:"optional" json:"reason" yaml:"reason"`
 	// The Amazon Resource Name (ARN) of the control.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_standard#standards_control_arn SecurityhubStandard#standards_control_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_standard#standards_control_arn SecurityhubStandard#standards_control_arn}
 	StandardsControlArn *string `field:"optional" json:"standardsControlArn" yaml:"standardsControlArn"`
 }
 

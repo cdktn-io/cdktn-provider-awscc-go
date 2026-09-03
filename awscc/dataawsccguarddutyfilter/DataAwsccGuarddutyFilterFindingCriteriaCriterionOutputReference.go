@@ -42,8 +42,10 @@ type DataAwsccGuarddutyFilterFindingCriteriaCriterionOutputReference interface {
 	LessThanOrEqual() *float64
 	Lt() *float64
 	Lte() *float64
+	Matches() *[]*string
 	Neq() *[]*string
 	NotEquals() *[]*string
+	NotMatches() *[]*string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -241,6 +243,16 @@ func (j *jsiiProxy_DataAwsccGuarddutyFilterFindingCriteriaCriterionOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccGuarddutyFilterFindingCriteriaCriterionOutputReference) Matches() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"matches",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccGuarddutyFilterFindingCriteriaCriterionOutputReference) Neq() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -256,6 +268,16 @@ func (j *jsiiProxy_DataAwsccGuarddutyFilterFindingCriteriaCriterionOutputReferen
 	_jsii_.Get(
 		j,
 		"notEquals",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccGuarddutyFilterFindingCriteriaCriterionOutputReference) NotMatches() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"notMatches",
 		&returns,
 	)
 	return returns

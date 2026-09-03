@@ -7,11 +7,11 @@ package opensearchservicedomain
 type OpensearchserviceDomainTags struct {
 	// The value of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchservice_domain#key OpensearchserviceDomain#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearchservice_domain#key OpensearchserviceDomain#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The key of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchservice_domain#value OpensearchserviceDomain#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearchservice_domain#value OpensearchserviceDomain#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service}.
 type DataAwsccEc2VpcEndpointService interface {
 	cdktn.TerraformDataSource
 	AcceptanceRequired() cdktn.IResolvable
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccEc2VpcEndpointService) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service} Data Source.
 func NewDataAwsccEc2VpcEndpointService(scope constructs.Construct, id *string, config *DataAwsccEc2VpcEndpointServiceConfig) DataAwsccEc2VpcEndpointService {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccEc2VpcEndpointService(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_vpc_endpoint_service awscc_ec2_vpc_endpoint_service} Data Source.
 func NewDataAwsccEc2VpcEndpointService_Override(d DataAwsccEc2VpcEndpointService, scope constructs.Construct, id *string, config *DataAwsccEc2VpcEndpointServiceConfig) {
 	_init_.Initialize()
 

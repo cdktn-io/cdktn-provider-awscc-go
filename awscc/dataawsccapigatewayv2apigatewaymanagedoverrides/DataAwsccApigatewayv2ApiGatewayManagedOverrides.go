@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigatewayv2_api_gateway_managed_overrides awscc_apigatewayv2_api_gateway_managed_overrides}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apigatewayv2_api_gateway_managed_overrides awscc_apigatewayv2_api_gateway_managed_overrides}.
 type DataAwsccApigatewayv2ApiGatewayManagedOverrides interface {
 	cdktn.TerraformDataSource
 	ApiGatewayManagedOverridesId() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccApigatewayv2ApiGatewayManagedOverrides) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigatewayv2_api_gateway_managed_overrides awscc_apigatewayv2_api_gateway_managed_overrides} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apigatewayv2_api_gateway_managed_overrides awscc_apigatewayv2_api_gateway_managed_overrides} Data Source.
 func NewDataAwsccApigatewayv2ApiGatewayManagedOverrides(scope constructs.Construct, id *string, config *DataAwsccApigatewayv2ApiGatewayManagedOverridesConfig) DataAwsccApigatewayv2ApiGatewayManagedOverrides {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccApigatewayv2ApiGatewayManagedOverrides(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigatewayv2_api_gateway_managed_overrides awscc_apigatewayv2_api_gateway_managed_overrides} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apigatewayv2_api_gateway_managed_overrides awscc_apigatewayv2_api_gateway_managed_overrides} Data Source.
 func NewDataAwsccApigatewayv2ApiGatewayManagedOverrides_Override(d DataAwsccApigatewayv2ApiGatewayManagedOverrides, scope constructs.Construct, id *string, config *DataAwsccApigatewayv2ApiGatewayManagedOverridesConfig) {
 	_init_.Initialize()
 

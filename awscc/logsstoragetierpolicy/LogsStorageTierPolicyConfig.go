@@ -24,7 +24,7 @@ type LogsStorageTierPolicyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The storage tier to apply. Only INTELLIGENT_TIERING is accepted for creation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_storage_tier_policy#storage_tier LogsStorageTierPolicy#storage_tier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_storage_tier_policy#storage_tier LogsStorageTierPolicy#storage_tier}
 	StorageTier *string `field:"required" json:"storageTier" yaml:"storageTier"`
 }
 

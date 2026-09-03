@@ -5,11 +5,11 @@ package datazoneproject
 
 
 type DatazoneProjectUserParameters struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project#environment_configuration_name DatazoneProject#environment_configuration_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_project#environment_configuration_name DatazoneProject#environment_configuration_name}.
 	EnvironmentConfigurationName *string `field:"optional" json:"environmentConfigurationName" yaml:"environmentConfigurationName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project#environment_id DatazoneProject#environment_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_project#environment_id DatazoneProject#environment_id}.
 	EnvironmentId *string `field:"optional" json:"environmentId" yaml:"environmentId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_project#environment_parameters DatazoneProject#environment_parameters}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_project#environment_parameters DatazoneProject#environment_parameters}.
 	EnvironmentParameters interface{} `field:"optional" json:"environmentParameters" yaml:"environmentParameters"`
 }
 

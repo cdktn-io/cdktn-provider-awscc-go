@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_app_instance_bot awscc_chime_app_instance_bot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/chime_app_instance_bot awscc_chime_app_instance_bot}.
 type ChimeAppInstanceBot interface {
 	cdktn.TerraformResource
 	AppInstanceArn() *string
@@ -506,7 +506,7 @@ func (j *jsiiProxy_ChimeAppInstanceBot) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_app_instance_bot awscc_chime_app_instance_bot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/chime_app_instance_bot awscc_chime_app_instance_bot} Resource.
 func NewChimeAppInstanceBot(scope constructs.Construct, id *string, config *ChimeAppInstanceBotConfig) ChimeAppInstanceBot {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewChimeAppInstanceBot(scope constructs.Construct, id *string, config *Chim
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/chime_app_instance_bot awscc_chime_app_instance_bot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/chime_app_instance_bot awscc_chime_app_instance_bot} Resource.
 func NewChimeAppInstanceBot_Override(c ChimeAppInstanceBot, scope constructs.Construct, id *string, config *ChimeAppInstanceBotConfig) {
 	_init_.Initialize()
 

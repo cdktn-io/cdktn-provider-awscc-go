@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/athena_data_catalog awscc_athena_data_catalog}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/athena_data_catalog awscc_athena_data_catalog}.
 type DataAwsccAthenaDataCatalog interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccAthenaDataCatalog) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/athena_data_catalog awscc_athena_data_catalog} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/athena_data_catalog awscc_athena_data_catalog} Data Source.
 func NewDataAwsccAthenaDataCatalog(scope constructs.Construct, id *string, config *DataAwsccAthenaDataCatalogConfig) DataAwsccAthenaDataCatalog {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccAthenaDataCatalog(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/athena_data_catalog awscc_athena_data_catalog} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/athena_data_catalog awscc_athena_data_catalog} Data Source.
 func NewDataAwsccAthenaDataCatalog_Override(d DataAwsccAthenaDataCatalog, scope constructs.Construct, id *string, config *DataAwsccAthenaDataCatalogConfig) {
 	_init_.Initialize()
 

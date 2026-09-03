@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_mlflow_tracking_server awscc_sagemaker_mlflow_tracking_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sagemaker_mlflow_tracking_server awscc_sagemaker_mlflow_tracking_server}.
 type DataAwsccSagemakerMlflowTrackingServer interface {
 	cdktn.TerraformDataSource
 	ArtifactStoreUri() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccSagemakerMlflowTrackingServer) WeeklyMaintenanceWind
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_mlflow_tracking_server awscc_sagemaker_mlflow_tracking_server} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sagemaker_mlflow_tracking_server awscc_sagemaker_mlflow_tracking_server} Data Source.
 func NewDataAwsccSagemakerMlflowTrackingServer(scope constructs.Construct, id *string, config *DataAwsccSagemakerMlflowTrackingServerConfig) DataAwsccSagemakerMlflowTrackingServer {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccSagemakerMlflowTrackingServer(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_mlflow_tracking_server awscc_sagemaker_mlflow_tracking_server} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sagemaker_mlflow_tracking_server awscc_sagemaker_mlflow_tracking_server} Data Source.
 func NewDataAwsccSagemakerMlflowTrackingServer_Override(d DataAwsccSagemakerMlflowTrackingServer, scope constructs.Construct, id *string, config *DataAwsccSagemakerMlflowTrackingServerConfig) {
 	_init_.Initialize()
 

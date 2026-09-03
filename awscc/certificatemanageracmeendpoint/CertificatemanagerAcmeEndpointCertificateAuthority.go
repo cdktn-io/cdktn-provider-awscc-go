@@ -7,7 +7,7 @@ package certificatemanageracmeendpoint
 type CertificatemanagerAcmeEndpointCertificateAuthority struct {
 	// Configuration for the public certificate authority.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/certificatemanager_acme_endpoint#public_certificate_authority CertificatemanagerAcmeEndpoint#public_certificate_authority}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/certificatemanager_acme_endpoint#public_certificate_authority CertificatemanagerAcmeEndpoint#public_certificate_authority}
 	PublicCertificateAuthority *CertificatemanagerAcmeEndpointCertificateAuthorityPublicCertificateAuthority `field:"required" json:"publicCertificateAuthority" yaml:"publicCertificateAuthority"`
 }
 

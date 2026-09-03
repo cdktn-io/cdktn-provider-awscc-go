@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_spot_fleet awscc_ec2_spot_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_spot_fleet awscc_ec2_spot_fleet}.
 type DataAwsccEc2SpotFleet interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccEc2SpotFleet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_spot_fleet awscc_ec2_spot_fleet} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_spot_fleet awscc_ec2_spot_fleet} Data Source.
 func NewDataAwsccEc2SpotFleet(scope constructs.Construct, id *string, config *DataAwsccEc2SpotFleetConfig) DataAwsccEc2SpotFleet {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccEc2SpotFleet(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_spot_fleet awscc_ec2_spot_fleet} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_spot_fleet awscc_ec2_spot_fleet} Data Source.
 func NewDataAwsccEc2SpotFleet_Override(d DataAwsccEc2SpotFleet, scope constructs.Construct, id *string, config *DataAwsccEc2SpotFleetConfig) {
 	_init_.Initialize()
 

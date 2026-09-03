@@ -5,9 +5,9 @@ package frauddetectorentitytype
 
 
 type FrauddetectorEntityTypeTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_entity_type#key FrauddetectorEntityType#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/frauddetector_entity_type#key FrauddetectorEntityType#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_entity_type#value FrauddetectorEntityType#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/frauddetector_entity_type#value FrauddetectorEntityType#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

@@ -93,7 +93,29 @@ func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) validateInterp
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) validatePutAutoPatchConfigParameters(value *SagemakerClusterInstanceGroupsAutoPatchConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) validatePutCapacityRequirementsParameters(value *SagemakerClusterInstanceGroupsCapacityRequirements) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) validatePutInstanceRequirementsParameters(value *SagemakerClusterInstanceGroupsInstanceRequirements) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
@@ -157,6 +179,17 @@ func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) validatePutLif
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) validatePutNetworkInterfaceParameters(value *SagemakerClusterInstanceGroupsNetworkInterface) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) validatePutOverrideVpcConfigParameters(value *SagemakerClusterInstanceGroupsOverrideVpcConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -169,6 +202,17 @@ func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) validatePutOve
 }
 
 func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) validatePutScheduledUpdateConfigParameters(value *SagemakerClusterInstanceGroupsScheduledUpdateConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) validatePutSlurmConfigParameters(value *SagemakerClusterInstanceGroupsSlurmConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}

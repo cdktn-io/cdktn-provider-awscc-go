@@ -24,11 +24,11 @@ type SesTemplateConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The tags (keys and values) associated with the email template.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_template#tags SesTemplate#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_template#tags SesTemplate#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// The content of the email, composed of a subject line, an HTML part, and a text-only part.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_template#template SesTemplate#template}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_template#template SesTemplate#template}
 	Template *SesTemplateTemplate `field:"optional" json:"template" yaml:"template"`
 }
 

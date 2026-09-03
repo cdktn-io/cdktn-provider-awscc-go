@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_pool_cidr awscc_ec2_ipam_pool_cidr}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ipam_pool_cidr awscc_ec2_ipam_pool_cidr}.
 type Ec2IpamPoolCidr interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -448,7 +448,7 @@ func (j *jsiiProxy_Ec2IpamPoolCidr) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_pool_cidr awscc_ec2_ipam_pool_cidr} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ipam_pool_cidr awscc_ec2_ipam_pool_cidr} Resource.
 func NewEc2IpamPoolCidr(scope constructs.Construct, id *string, config *Ec2IpamPoolCidrConfig) Ec2IpamPoolCidr {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewEc2IpamPoolCidr(scope constructs.Construct, id *string, config *Ec2IpamP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ipam_pool_cidr awscc_ec2_ipam_pool_cidr} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ipam_pool_cidr awscc_ec2_ipam_pool_cidr} Resource.
 func NewEc2IpamPoolCidr_Override(e Ec2IpamPoolCidr, scope constructs.Construct, id *string, config *Ec2IpamPoolCidrConfig) {
 	_init_.Initialize()
 

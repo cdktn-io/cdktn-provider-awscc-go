@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface}.
 type DataAwsccDirectconnectPrivateVirtualInterface interface {
 	cdktn.TerraformDataSource
 	AllocatePrivateVirtualInterfaceRoleArn() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccDirectconnectPrivateVirtualInterface) Vlan() *float6
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface} Data Source.
 func NewDataAwsccDirectconnectPrivateVirtualInterface(scope constructs.Construct, id *string, config *DataAwsccDirectconnectPrivateVirtualInterfaceConfig) DataAwsccDirectconnectPrivateVirtualInterface {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccDirectconnectPrivateVirtualInterface(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface} Data Source.
 func NewDataAwsccDirectconnectPrivateVirtualInterface_Override(d DataAwsccDirectconnectPrivateVirtualInterface, scope constructs.Construct, id *string, config *DataAwsccDirectconnectPrivateVirtualInterfaceConfig) {
 	_init_.Initialize()
 

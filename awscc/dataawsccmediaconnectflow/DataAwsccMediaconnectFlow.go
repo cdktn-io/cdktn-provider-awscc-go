@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediaconnect_flow awscc_mediaconnect_flow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediaconnect_flow awscc_mediaconnect_flow}.
 type DataAwsccMediaconnectFlow interface {
 	cdktn.TerraformDataSource
 	AvailabilityZone() *string
@@ -29,8 +29,11 @@ type DataAwsccMediaconnectFlow interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	EgressIp() *string
+	EncodingConfig() DataAwsccMediaconnectFlowEncodingConfigOutputReference
 	FlowArn() *string
 	FlowAvailabilityZone() *string
+	FlowNdiMachineName() *string
+	FlowSize() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -49,6 +52,7 @@ type DataAwsccMediaconnectFlow interface {
 	Maintenance() DataAwsccMediaconnectFlowMaintenanceOutputReference
 	MediaStreams() DataAwsccMediaconnectFlowMediaStreamsList
 	Name() *string
+	NdiConfig() DataAwsccMediaconnectFlowNdiConfigOutputReference
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
@@ -60,6 +64,7 @@ type DataAwsccMediaconnectFlow interface {
 	Source() DataAwsccMediaconnectFlowSourceOutputReference
 	SourceFailoverConfig() DataAwsccMediaconnectFlowSourceFailoverConfigOutputReference
 	SourceMonitoringConfig() DataAwsccMediaconnectFlowSourceMonitoringConfigOutputReference
+	Tags() DataAwsccMediaconnectFlowTagsList
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -196,6 +201,16 @@ func (j *jsiiProxy_DataAwsccMediaconnectFlow) EgressIp() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccMediaconnectFlow) EncodingConfig() DataAwsccMediaconnectFlowEncodingConfigOutputReference {
+	var returns DataAwsccMediaconnectFlowEncodingConfigOutputReference
+	_jsii_.Get(
+		j,
+		"encodingConfig",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccMediaconnectFlow) FlowArn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -211,6 +226,26 @@ func (j *jsiiProxy_DataAwsccMediaconnectFlow) FlowAvailabilityZone() *string {
 	_jsii_.Get(
 		j,
 		"flowAvailabilityZone",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccMediaconnectFlow) FlowNdiMachineName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"flowNdiMachineName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccMediaconnectFlow) FlowSize() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"flowSize",
 		&returns,
 	)
 	return returns
@@ -306,6 +341,16 @@ func (j *jsiiProxy_DataAwsccMediaconnectFlow) Name() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccMediaconnectFlow) NdiConfig() DataAwsccMediaconnectFlowNdiConfigOutputReference {
+	var returns DataAwsccMediaconnectFlowNdiConfigOutputReference
+	_jsii_.Get(
+		j,
+		"ndiConfig",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccMediaconnectFlow) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -366,6 +411,16 @@ func (j *jsiiProxy_DataAwsccMediaconnectFlow) SourceMonitoringConfig() DataAwscc
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccMediaconnectFlow) Tags() DataAwsccMediaconnectFlowTagsList {
+	var returns DataAwsccMediaconnectFlowTagsList
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccMediaconnectFlow) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -407,7 +462,7 @@ func (j *jsiiProxy_DataAwsccMediaconnectFlow) VpcInterfaces() DataAwsccMediaconn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediaconnect_flow awscc_mediaconnect_flow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediaconnect_flow awscc_mediaconnect_flow} Data Source.
 func NewDataAwsccMediaconnectFlow(scope constructs.Construct, id *string, config *DataAwsccMediaconnectFlowConfig) DataAwsccMediaconnectFlow {
 	_init_.Initialize()
 
@@ -425,7 +480,7 @@ func NewDataAwsccMediaconnectFlow(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediaconnect_flow awscc_mediaconnect_flow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediaconnect_flow awscc_mediaconnect_flow} Data Source.
 func NewDataAwsccMediaconnectFlow_Override(d DataAwsccMediaconnectFlow, scope constructs.Construct, id *string, config *DataAwsccMediaconnectFlowConfig) {
 	_init_.Initialize()
 

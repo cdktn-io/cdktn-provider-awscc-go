@@ -22,9 +22,9 @@ type SesMailManagerAddonInstanceConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_addon_instance#addon_subscription_id SesMailManagerAddonInstance#addon_subscription_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_mail_manager_addon_instance#addon_subscription_id SesMailManagerAddonInstance#addon_subscription_id}.
 	AddonSubscriptionId *string `field:"required" json:"addonSubscriptionId" yaml:"addonSubscriptionId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_addon_instance#tags SesMailManagerAddonInstance#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_mail_manager_addon_instance#tags SesMailManagerAddonInstance#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

@@ -24,23 +24,23 @@ type IotStreamConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The files to stream.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_stream#files IotStream#files}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_stream#files IotStream#files}
 	Files interface{} `field:"required" json:"files" yaml:"files"`
 	// An IAM role that allows the IoT service principal to access your S3 files.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_stream#role_arn IotStream#role_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_stream#role_arn IotStream#role_arn}
 	RoleArn *string `field:"required" json:"roleArn" yaml:"roleArn"`
 	// The stream ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_stream#stream_id IotStream#stream_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_stream#stream_id IotStream#stream_id}
 	StreamId *string `field:"required" json:"streamId" yaml:"streamId"`
 	// The description of the stream.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_stream#description IotStream#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_stream#description IotStream#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Metadata which can be used to manage streams.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_stream#tags IotStream#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_stream#tags IotStream#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ivs_stream_key awscc_ivs_stream_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ivs_stream_key awscc_ivs_stream_key}.
 type DataAwsccIvsStreamKey interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccIvsStreamKey) Value() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ivs_stream_key awscc_ivs_stream_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ivs_stream_key awscc_ivs_stream_key} Data Source.
 func NewDataAwsccIvsStreamKey(scope constructs.Construct, id *string, config *DataAwsccIvsStreamKeyConfig) DataAwsccIvsStreamKey {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccIvsStreamKey(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ivs_stream_key awscc_ivs_stream_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ivs_stream_key awscc_ivs_stream_key} Data Source.
 func NewDataAwsccIvsStreamKey_Override(d DataAwsccIvsStreamKey, scope constructs.Construct, id *string, config *DataAwsccIvsStreamKeyConfig) {
 	_init_.Initialize()
 

@@ -24,15 +24,15 @@ type MediaconnectBridgeOutputConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The Amazon Resource Number (ARN) of the bridge.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_bridge_output#bridge_arn MediaconnectBridgeOutput#bridge_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_bridge_output#bridge_arn MediaconnectBridgeOutput#bridge_arn}
 	BridgeArn *string `field:"required" json:"bridgeArn" yaml:"bridgeArn"`
 	// The network output name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_bridge_output#name MediaconnectBridgeOutput#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_bridge_output#name MediaconnectBridgeOutput#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The output of the bridge.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_bridge_output#network_output MediaconnectBridgeOutput#network_output}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_bridge_output#network_output MediaconnectBridgeOutput#network_output}
 	NetworkOutput *MediaconnectBridgeOutputNetworkOutput `field:"required" json:"networkOutput" yaml:"networkOutput"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/certificatemanager_acme_domain_validation awscc_certificatemanager_acme_domain_validation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/certificatemanager_acme_domain_validation awscc_certificatemanager_acme_domain_validation}.
 type DataAwsccCertificatemanagerAcmeDomainValidation interface {
 	cdktn.TerraformDataSource
 	AcmeEndpointArn() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccCertificatemanagerAcmeDomainValidation) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/certificatemanager_acme_domain_validation awscc_certificatemanager_acme_domain_validation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/certificatemanager_acme_domain_validation awscc_certificatemanager_acme_domain_validation} Data Source.
 func NewDataAwsccCertificatemanagerAcmeDomainValidation(scope constructs.Construct, id *string, config *DataAwsccCertificatemanagerAcmeDomainValidationConfig) DataAwsccCertificatemanagerAcmeDomainValidation {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccCertificatemanagerAcmeDomainValidation(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/certificatemanager_acme_domain_validation awscc_certificatemanager_acme_domain_validation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/certificatemanager_acme_domain_validation awscc_certificatemanager_acme_domain_validation} Data Source.
 func NewDataAwsccCertificatemanagerAcmeDomainValidation_Override(d DataAwsccCertificatemanagerAcmeDomainValidation, scope constructs.Construct, id *string, config *DataAwsccCertificatemanagerAcmeDomainValidationConfig) {
 	_init_.Initialize()
 

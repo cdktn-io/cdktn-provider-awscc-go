@@ -7,7 +7,7 @@ package bedrockagentcoreruntime
 type BedrockagentcoreRuntimeAgentRuntimeArtifactContainerConfiguration struct {
 	// The ECR URI of the container.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_runtime#container_uri BedrockagentcoreRuntime#container_uri}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_runtime#container_uri BedrockagentcoreRuntime#container_uri}
 	ContainerUri *string `field:"optional" json:"containerUri" yaml:"containerUri"`
 }
 

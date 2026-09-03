@@ -16,7 +16,7 @@ type AutoscalingAutoScalingGroupTrafficSources struct {
 	//  To get the ARN of a target group for a Application Load Balancer, Gateway Load Balancer, or Network Load Balancer, or the name of a Classic Load Balancer, use the Elastic Load Balancing [DescribeTargetGroups](https://docs.aws.amazon.com/elasticloadbalancing/latest/APIReference/API_DescribeTargetGroups.html) and [DescribeLoadBalancers](https://docs.aws.amazon.com/elasticloadbalancing/latest/APIReference/API_DescribeLoadBalancers.html) API operations.
 	//  To get the ARN of a target group for VPC Lattice, use the VPC Lattice [GetTargetGroup](https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/API_GetTargetGroup.html) API operation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/autoscaling_auto_scaling_group#identifier AutoscalingAutoScalingGroup#identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/autoscaling_auto_scaling_group#identifier AutoscalingAutoScalingGroup#identifier}
 	Identifier *string `field:"optional" json:"identifier" yaml:"identifier"`
 	// Provides additional context for the value of ``Identifier``.
 	//
@@ -27,7 +27,7 @@ type AutoscalingAutoScalingGroupTrafficSources struct {
 	//
 	//  Required if the identifier is the name of a Classic Load Balancer.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/autoscaling_auto_scaling_group#type AutoscalingAutoScalingGroup#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/autoscaling_auto_scaling_group#type AutoscalingAutoScalingGroup#type}
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

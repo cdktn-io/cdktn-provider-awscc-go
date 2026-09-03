@@ -37,6 +37,7 @@ type SagemakerInferenceComponentRuntimeConfigOutputReference interface {
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	PlacementStatus() SagemakerInferenceComponentRuntimeConfigPlacementStatusList
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -170,6 +171,16 @@ func (j *jsiiProxy_SagemakerInferenceComponentRuntimeConfigOutputReference) Inte
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerInferenceComponentRuntimeConfigOutputReference) PlacementStatus() SagemakerInferenceComponentRuntimeConfigPlacementStatusList {
+	var returns SagemakerInferenceComponentRuntimeConfigPlacementStatusList
+	_jsii_.Get(
+		j,
+		"placementStatus",
 		&returns,
 	)
 	return returns

@@ -5,7 +5,7 @@ package autoscalingautoscalinggroup
 
 
 type AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributionDistributionSegments struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/autoscaling_auto_scaling_group#target_capacity_types AutoscalingAutoScalingGroup#target_capacity_types}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/autoscaling_auto_scaling_group#target_capacity_types AutoscalingAutoScalingGroup#target_capacity_types}.
 	TargetCapacityTypes *[]*string `field:"optional" json:"targetCapacityTypes" yaml:"targetCapacityTypes"`
 }
 

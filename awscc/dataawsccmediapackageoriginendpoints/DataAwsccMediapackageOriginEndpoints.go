@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediapackage_origin_endpoints awscc_mediapackage_origin_endpoints}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediapackage_origin_endpoints awscc_mediapackage_origin_endpoints}.
 type DataAwsccMediapackageOriginEndpoints interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMediapackageOriginEndpoints) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediapackage_origin_endpoints awscc_mediapackage_origin_endpoints} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediapackage_origin_endpoints awscc_mediapackage_origin_endpoints} Data Source.
 func NewDataAwsccMediapackageOriginEndpoints(scope constructs.Construct, id *string, config *DataAwsccMediapackageOriginEndpointsConfig) DataAwsccMediapackageOriginEndpoints {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMediapackageOriginEndpoints(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediapackage_origin_endpoints awscc_mediapackage_origin_endpoints} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediapackage_origin_endpoints awscc_mediapackage_origin_endpoints} Data Source.
 func NewDataAwsccMediapackageOriginEndpoints_Override(d DataAwsccMediapackageOriginEndpoints, scope constructs.Construct, id *string, config *DataAwsccMediapackageOriginEndpointsConfig) {
 	_init_.Initialize()
 

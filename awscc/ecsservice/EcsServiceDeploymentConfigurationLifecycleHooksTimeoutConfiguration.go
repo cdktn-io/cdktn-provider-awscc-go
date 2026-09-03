@@ -5,9 +5,9 @@ package ecsservice
 
 
 type EcsServiceDeploymentConfigurationLifecycleHooksTimeoutConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_service#action EcsService#action}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_service#action EcsService#action}.
 	Action *string `field:"optional" json:"action" yaml:"action"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_service#timeout_in_minutes EcsService#timeout_in_minutes}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_service#timeout_in_minutes EcsService#timeout_in_minutes}.
 	TimeoutInMinutes *float64 `field:"optional" json:"timeoutInMinutes" yaml:"timeoutInMinutes"`
 }
 

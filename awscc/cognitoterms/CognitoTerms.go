@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cognito_terms awscc_cognito_terms}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cognito_terms awscc_cognito_terms}.
 type CognitoTerms interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -505,7 +505,7 @@ func (j *jsiiProxy_CognitoTerms) UserPoolIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cognito_terms awscc_cognito_terms} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cognito_terms awscc_cognito_terms} Resource.
 func NewCognitoTerms(scope constructs.Construct, id *string, config *CognitoTermsConfig) CognitoTerms {
 	_init_.Initialize()
 
@@ -523,7 +523,7 @@ func NewCognitoTerms(scope constructs.Construct, id *string, config *CognitoTerm
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cognito_terms awscc_cognito_terms} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cognito_terms awscc_cognito_terms} Resource.
 func NewCognitoTerms_Override(c CognitoTerms, scope constructs.Construct, id *string, config *CognitoTermsConfig) {
 	_init_.Initialize()
 

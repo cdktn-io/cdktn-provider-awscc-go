@@ -7,17 +7,17 @@ package ioteventsdetectormodel
 type IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqs struct {
 	// You can configure the action payload when you send a message to an Amazon SQS queue.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 	Payload *IoteventsDetectorModelDetectorModelDefinitionStatesOnExitEventsActionsSqsPayload `field:"optional" json:"payload" yaml:"payload"`
 	// The URL of the SQS queue where the data is written.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotevents_detector_model#queue_url IoteventsDetectorModel#queue_url}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_detector_model#queue_url IoteventsDetectorModel#queue_url}
 	QueueUrl *string `field:"optional" json:"queueUrl" yaml:"queueUrl"`
 	// Set this to TRUE if you want the data to be base-64 encoded before it is written to the queue.
 	//
 	// Otherwise, set this to FALSE.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotevents_detector_model#use_base_64 IoteventsDetectorModel#use_base_64}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_detector_model#use_base_64 IoteventsDetectorModel#use_base_64}
 	UseBase64 interface{} `field:"optional" json:"useBase64" yaml:"useBase64"`
 }
 

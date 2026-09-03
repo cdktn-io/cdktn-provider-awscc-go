@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/accessanalyzer_analyzer awscc_accessanalyzer_analyzer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/accessanalyzer_analyzer awscc_accessanalyzer_analyzer}.
 type DataAwsccAccessanalyzerAnalyzer interface {
 	cdktn.TerraformDataSource
 	AnalyzerConfiguration() DataAwsccAccessanalyzerAnalyzerAnalyzerConfigurationOutputReference
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccAccessanalyzerAnalyzer) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/accessanalyzer_analyzer awscc_accessanalyzer_analyzer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/accessanalyzer_analyzer awscc_accessanalyzer_analyzer} Data Source.
 func NewDataAwsccAccessanalyzerAnalyzer(scope constructs.Construct, id *string, config *DataAwsccAccessanalyzerAnalyzerConfig) DataAwsccAccessanalyzerAnalyzer {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccAccessanalyzerAnalyzer(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/accessanalyzer_analyzer awscc_accessanalyzer_analyzer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/accessanalyzer_analyzer awscc_accessanalyzer_analyzer} Data Source.
 func NewDataAwsccAccessanalyzerAnalyzer_Override(d DataAwsccAccessanalyzerAnalyzer, scope constructs.Construct, id *string, config *DataAwsccAccessanalyzerAnalyzerConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/databrew_project awscc_databrew_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/databrew_project awscc_databrew_project}.
 type DataAwsccDatabrewProject interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccDatabrewProject) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/databrew_project awscc_databrew_project} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/databrew_project awscc_databrew_project} Data Source.
 func NewDataAwsccDatabrewProject(scope constructs.Construct, id *string, config *DataAwsccDatabrewProjectConfig) DataAwsccDatabrewProject {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccDatabrewProject(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/databrew_project awscc_databrew_project} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/databrew_project awscc_databrew_project} Data Source.
 func NewDataAwsccDatabrewProject_Override(d DataAwsccDatabrewProject, scope constructs.Construct, id *string, config *DataAwsccDatabrewProjectConfig) {
 	_init_.Initialize()
 

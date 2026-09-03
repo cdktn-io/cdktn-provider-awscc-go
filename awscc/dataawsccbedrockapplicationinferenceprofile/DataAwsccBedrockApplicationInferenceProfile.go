@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrock_application_inference_profile awscc_bedrock_application_inference_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrock_application_inference_profile awscc_bedrock_application_inference_profile}.
 type DataAwsccBedrockApplicationInferenceProfile interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccBedrockApplicationInferenceProfile) UpdatedAt() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrock_application_inference_profile awscc_bedrock_application_inference_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrock_application_inference_profile awscc_bedrock_application_inference_profile} Data Source.
 func NewDataAwsccBedrockApplicationInferenceProfile(scope constructs.Construct, id *string, config *DataAwsccBedrockApplicationInferenceProfileConfig) DataAwsccBedrockApplicationInferenceProfile {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccBedrockApplicationInferenceProfile(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrock_application_inference_profile awscc_bedrock_application_inference_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrock_application_inference_profile awscc_bedrock_application_inference_profile} Data Source.
 func NewDataAwsccBedrockApplicationInferenceProfile_Override(d DataAwsccBedrockApplicationInferenceProfile, scope constructs.Construct, id *string, config *DataAwsccBedrockApplicationInferenceProfileConfig) {
 	_init_.Initialize()
 

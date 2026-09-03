@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/opensearch_data_source awscc_opensearch_data_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/opensearch_data_source awscc_opensearch_data_source}.
 type DataAwsccOpensearchDataSource interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccOpensearchDataSource) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/opensearch_data_source awscc_opensearch_data_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/opensearch_data_source awscc_opensearch_data_source} Data Source.
 func NewDataAwsccOpensearchDataSource(scope constructs.Construct, id *string, config *DataAwsccOpensearchDataSourceConfig) DataAwsccOpensearchDataSource {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccOpensearchDataSource(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/opensearch_data_source awscc_opensearch_data_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/opensearch_data_source awscc_opensearch_data_source} Data Source.
 func NewDataAwsccOpensearchDataSource_Override(d DataAwsccOpensearchDataSource, scope constructs.Construct, id *string, config *DataAwsccOpensearchDataSourceConfig) {
 	_init_.Initialize()
 

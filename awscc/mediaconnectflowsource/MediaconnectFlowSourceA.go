@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source awscc_mediaconnect_flow_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow_source awscc_mediaconnect_flow_source}.
 type MediaconnectFlowSourceA interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -105,7 +105,7 @@ type MediaconnectFlowSourceA interface {
 	StreamId() *string
 	SetStreamId(val *string)
 	StreamIdInput() *string
-	Tags() MediaconnectFlowSourceTagsList
+	Tags() MediaconnectFlowSourceTagsAList
 	TagsInput() interface{}
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -750,8 +750,8 @@ func (j *jsiiProxy_MediaconnectFlowSourceA) StreamIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_MediaconnectFlowSourceA) Tags() MediaconnectFlowSourceTagsList {
-	var returns MediaconnectFlowSourceTagsList
+func (j *jsiiProxy_MediaconnectFlowSourceA) Tags() MediaconnectFlowSourceTagsAList {
+	var returns MediaconnectFlowSourceTagsAList
 	_jsii_.Get(
 		j,
 		"tags",
@@ -841,7 +841,7 @@ func (j *jsiiProxy_MediaconnectFlowSourceA) WhitelistCidrInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source awscc_mediaconnect_flow_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow_source awscc_mediaconnect_flow_source} Resource.
 func NewMediaconnectFlowSourceA(scope constructs.Construct, id *string, config *MediaconnectFlowSourceAConfig) MediaconnectFlowSourceA {
 	_init_.Initialize()
 
@@ -859,7 +859,7 @@ func NewMediaconnectFlowSourceA(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediaconnect_flow_source awscc_mediaconnect_flow_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow_source awscc_mediaconnect_flow_source} Resource.
 func NewMediaconnectFlowSourceA_Override(m MediaconnectFlowSourceA, scope constructs.Construct, id *string, config *MediaconnectFlowSourceAConfig) {
 	_init_.Initialize()
 

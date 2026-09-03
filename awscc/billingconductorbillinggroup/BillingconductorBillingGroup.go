@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/billingconductor_billing_group awscc_billingconductor_billing_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/billingconductor_billing_group awscc_billingconductor_billing_group}.
 type BillingconductorBillingGroup interface {
 	cdktn.TerraformResource
 	AccountGrouping() BillingconductorBillingGroupAccountGroupingOutputReference
@@ -562,7 +562,7 @@ func (j *jsiiProxy_BillingconductorBillingGroup) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/billingconductor_billing_group awscc_billingconductor_billing_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/billingconductor_billing_group awscc_billingconductor_billing_group} Resource.
 func NewBillingconductorBillingGroup(scope constructs.Construct, id *string, config *BillingconductorBillingGroupConfig) BillingconductorBillingGroup {
 	_init_.Initialize()
 
@@ -580,7 +580,7 @@ func NewBillingconductorBillingGroup(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/billingconductor_billing_group awscc_billingconductor_billing_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/billingconductor_billing_group awscc_billingconductor_billing_group} Resource.
 func NewBillingconductorBillingGroup_Override(b BillingconductorBillingGroup, scope constructs.Construct, id *string, config *BillingconductorBillingGroupConfig) {
 	_init_.Initialize()
 

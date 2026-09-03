@@ -24,23 +24,23 @@ type DevopsagentTriggerConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The action to perform when the trigger fires. A JSON object containing actionType and task.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger#action DevopsagentTrigger#action}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_trigger#action DevopsagentTrigger#action}
 	Action *string `field:"required" json:"action" yaml:"action"`
 	// The unique identifier of the parent Agent Space.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger#agent_space_id DevopsagentTrigger#agent_space_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_trigger#agent_space_id DevopsagentTrigger#agent_space_id}
 	AgentSpaceId *string `field:"required" json:"agentSpaceId" yaml:"agentSpaceId"`
 	// The condition that causes the trigger to fire.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger#condition DevopsagentTrigger#condition}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_trigger#condition DevopsagentTrigger#condition}
 	Condition *DevopsagentTriggerCondition `field:"required" json:"condition" yaml:"condition"`
 	// The type of trigger.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger#type DevopsagentTrigger#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_trigger#type DevopsagentTrigger#type}
 	Type *string `field:"required" json:"type" yaml:"type"`
 	// The status of the trigger. Active triggers fire on schedule; Inactive triggers are paused.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_trigger#status DevopsagentTrigger#status}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_trigger#status DevopsagentTrigger#status}
 	Status *string `field:"optional" json:"status" yaml:"status"`
 }
 

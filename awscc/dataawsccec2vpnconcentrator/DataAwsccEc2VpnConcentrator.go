@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpn_concentrator awscc_ec2_vpn_concentrator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_vpn_concentrator awscc_ec2_vpn_concentrator}.
 type DataAwsccEc2VpnConcentrator interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccEc2VpnConcentrator) VpnConcentratorId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpn_concentrator awscc_ec2_vpn_concentrator} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_vpn_concentrator awscc_ec2_vpn_concentrator} Data Source.
 func NewDataAwsccEc2VpnConcentrator(scope constructs.Construct, id *string, config *DataAwsccEc2VpnConcentratorConfig) DataAwsccEc2VpnConcentrator {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccEc2VpnConcentrator(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_vpn_concentrator awscc_ec2_vpn_concentrator} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_vpn_concentrator awscc_ec2_vpn_concentrator} Data Source.
 func NewDataAwsccEc2VpnConcentrator_Override(d DataAwsccEc2VpnConcentrator, scope constructs.Construct, id *string, config *DataAwsccEc2VpnConcentratorConfig) {
 	_init_.Initialize()
 

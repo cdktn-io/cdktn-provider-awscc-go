@@ -51,6 +51,10 @@ func (s *jsiiProxy_SagemakerClusterOrchestratorOutputReference) validatePutEksPa
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerClusterOrchestratorOutputReference) validatePutSlurmParameters(value *SagemakerClusterOrchestratorSlurm) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerClusterOrchestratorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

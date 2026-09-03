@@ -24,15 +24,15 @@ type FrauddetectorOutcomeConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the outcome.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_outcome#name FrauddetectorOutcome#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/frauddetector_outcome#name FrauddetectorOutcome#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The outcome description.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_outcome#description FrauddetectorOutcome#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/frauddetector_outcome#description FrauddetectorOutcome#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Tags associated with this outcome.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_outcome#tags FrauddetectorOutcome#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/frauddetector_outcome#tags FrauddetectorOutcome#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

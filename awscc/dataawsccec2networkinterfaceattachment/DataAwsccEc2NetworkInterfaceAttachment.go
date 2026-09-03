@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_network_interface_attachment awscc_ec2_network_interface_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_network_interface_attachment awscc_ec2_network_interface_attachment}.
 type DataAwsccEc2NetworkInterfaceAttachment interface {
 	cdktn.TerraformDataSource
 	AttachmentId() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccEc2NetworkInterfaceAttachment) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_network_interface_attachment awscc_ec2_network_interface_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_network_interface_attachment awscc_ec2_network_interface_attachment} Data Source.
 func NewDataAwsccEc2NetworkInterfaceAttachment(scope constructs.Construct, id *string, config *DataAwsccEc2NetworkInterfaceAttachmentConfig) DataAwsccEc2NetworkInterfaceAttachment {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccEc2NetworkInterfaceAttachment(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_network_interface_attachment awscc_ec2_network_interface_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_network_interface_attachment awscc_ec2_network_interface_attachment} Data Source.
 func NewDataAwsccEc2NetworkInterfaceAttachment_Override(d DataAwsccEc2NetworkInterfaceAttachment, scope constructs.Construct, id *string, config *DataAwsccEc2NetworkInterfaceAttachmentConfig) {
 	_init_.Initialize()
 

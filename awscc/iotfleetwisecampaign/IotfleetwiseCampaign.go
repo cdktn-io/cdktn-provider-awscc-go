@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_campaign awscc_iotfleetwise_campaign}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotfleetwise_campaign awscc_iotfleetwise_campaign}.
 type IotfleetwiseCampaign interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -851,7 +851,7 @@ func (j *jsiiProxy_IotfleetwiseCampaign) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_campaign awscc_iotfleetwise_campaign} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotfleetwise_campaign awscc_iotfleetwise_campaign} Resource.
 func NewIotfleetwiseCampaign(scope constructs.Construct, id *string, config *IotfleetwiseCampaignConfig) IotfleetwiseCampaign {
 	_init_.Initialize()
 
@@ -869,7 +869,7 @@ func NewIotfleetwiseCampaign(scope constructs.Construct, id *string, config *Iot
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotfleetwise_campaign awscc_iotfleetwise_campaign} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotfleetwise_campaign awscc_iotfleetwise_campaign} Resource.
 func NewIotfleetwiseCampaign_Override(i IotfleetwiseCampaign, scope constructs.Construct, id *string, config *IotfleetwiseCampaignConfig) {
 	_init_.Initialize()
 

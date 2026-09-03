@@ -95,6 +95,10 @@ func (s *jsiiProxy_SagemakerCluster) validatePutRestrictedInstanceGroupsParamete
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerCluster) validatePutRestrictedInstanceGroupsConfigParameters(value *SagemakerClusterRestrictedInstanceGroupsConfig) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerCluster) validatePutTagsParameters(value interface{}) error {
 	return nil
 }

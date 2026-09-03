@@ -7,7 +7,7 @@ package opensearchserverlesscollection
 type OpensearchserverlessCollectionVectorOptions struct {
 	// Indicates whether GPU acceleration is enabled for vector indexing.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchserverless_collection#serverless_vector_acceleration OpensearchserverlessCollection#serverless_vector_acceleration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearchserverless_collection#serverless_vector_acceleration OpensearchserverlessCollection#serverless_vector_acceleration}
 	ServerlessVectorAcceleration *string `field:"optional" json:"serverlessVectorAcceleration" yaml:"serverlessVectorAcceleration"`
 }
 

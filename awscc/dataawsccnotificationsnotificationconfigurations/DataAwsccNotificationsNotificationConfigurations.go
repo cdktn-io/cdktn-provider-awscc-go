@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/notifications_notification_configurations awscc_notifications_notification_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/notifications_notification_configurations awscc_notifications_notification_configurations}.
 type DataAwsccNotificationsNotificationConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNotificationsNotificationConfigurations) TerraformRe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/notifications_notification_configurations awscc_notifications_notification_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/notifications_notification_configurations awscc_notifications_notification_configurations} Data Source.
 func NewDataAwsccNotificationsNotificationConfigurations(scope constructs.Construct, id *string, config *DataAwsccNotificationsNotificationConfigurationsConfig) DataAwsccNotificationsNotificationConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNotificationsNotificationConfigurations(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/notifications_notification_configurations awscc_notifications_notification_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/notifications_notification_configurations awscc_notifications_notification_configurations} Data Source.
 func NewDataAwsccNotificationsNotificationConfigurations_Override(d DataAwsccNotificationsNotificationConfigurations, scope constructs.Construct, id *string, config *DataAwsccNotificationsNotificationConfigurationsConfig) {
 	_init_.Initialize()
 

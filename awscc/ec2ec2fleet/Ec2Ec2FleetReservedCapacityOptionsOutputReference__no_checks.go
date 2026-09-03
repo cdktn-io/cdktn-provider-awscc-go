@@ -47,7 +47,19 @@ func (e *jsiiProxy_Ec2Ec2FleetReservedCapacityOptionsOutputReference) validateIn
 	return nil
 }
 
+func (e *jsiiProxy_Ec2Ec2FleetReservedCapacityOptionsOutputReference) validatePutCapacityReservationTargetParameters(value *Ec2Ec2FleetReservedCapacityOptionsCapacityReservationTarget) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2Ec2FleetReservedCapacityOptionsOutputReference) validatePutReservedCapacityFallbackOptionsParameters(value *Ec2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptions) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2Ec2FleetReservedCapacityOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_Ec2Ec2FleetReservedCapacityOptionsOutputReference) validateSetAllocationStrategyParameters(val *string) error {
 	return nil
 }
 

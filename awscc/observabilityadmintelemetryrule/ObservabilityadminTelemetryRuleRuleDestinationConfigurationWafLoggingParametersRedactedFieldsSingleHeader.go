@@ -7,7 +7,7 @@ package observabilityadmintelemetryrule
 type ObservabilityadminTelemetryRuleRuleDestinationConfigurationWafLoggingParametersRedactedFieldsSingleHeader struct {
 	// The name of the header.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/observabilityadmin_telemetry_rule#name ObservabilityadminTelemetryRule#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/observabilityadmin_telemetry_rule#name ObservabilityadminTelemetryRule#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 }
 

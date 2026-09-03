@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_network_interface awscc_ec2_network_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_network_interface awscc_ec2_network_interface}.
 type DataAwsccEc2NetworkInterface interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -550,7 +550,7 @@ func (j *jsiiProxy_DataAwsccEc2NetworkInterface) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_network_interface awscc_ec2_network_interface} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_network_interface awscc_ec2_network_interface} Data Source.
 func NewDataAwsccEc2NetworkInterface(scope constructs.Construct, id *string, config *DataAwsccEc2NetworkInterfaceConfig) DataAwsccEc2NetworkInterface {
 	_init_.Initialize()
 
@@ -568,7 +568,7 @@ func NewDataAwsccEc2NetworkInterface(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_network_interface awscc_ec2_network_interface} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_network_interface awscc_ec2_network_interface} Data Source.
 func NewDataAwsccEc2NetworkInterface_Override(d DataAwsccEc2NetworkInterface, scope constructs.Construct, id *string, config *DataAwsccEc2NetworkInterfaceConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_folder awscc_quicksight_folder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/quicksight_folder awscc_quicksight_folder}.
 type DataAwsccQuicksightFolder interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccQuicksightFolder) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_folder awscc_quicksight_folder} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/quicksight_folder awscc_quicksight_folder} Data Source.
 func NewDataAwsccQuicksightFolder(scope constructs.Construct, id *string, config *DataAwsccQuicksightFolderConfig) DataAwsccQuicksightFolder {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccQuicksightFolder(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/quicksight_folder awscc_quicksight_folder} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/quicksight_folder awscc_quicksight_folder} Data Source.
 func NewDataAwsccQuicksightFolder_Override(d DataAwsccQuicksightFolder, scope constructs.Construct, id *string, config *DataAwsccQuicksightFolderConfig) {
 	_init_.Initialize()
 

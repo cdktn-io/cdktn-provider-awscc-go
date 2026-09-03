@@ -5,9 +5,9 @@ package cleanroomsintermediatetable
 
 
 type CleanroomsIntermediateTableAnalysisRules struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#policy CleanroomsIntermediateTable#policy}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#policy CleanroomsIntermediateTable#policy}.
 	Policy *CleanroomsIntermediateTableAnalysisRulesPolicy `field:"optional" json:"policy" yaml:"policy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cleanrooms_intermediate_table#type CleanroomsIntermediateTable#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_intermediate_table#type CleanroomsIntermediateTable#type}.
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

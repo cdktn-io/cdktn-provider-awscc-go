@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ipam_resource_discovery_associations awscc_ec2_ipam_resource_discovery_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ipam_resource_discovery_associations awscc_ec2_ipam_resource_discovery_associations}.
 type DataAwsccEc2IpamResourceDiscoveryAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2IpamResourceDiscoveryAssociations) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ipam_resource_discovery_associations awscc_ec2_ipam_resource_discovery_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ipam_resource_discovery_associations awscc_ec2_ipam_resource_discovery_associations} Data Source.
 func NewDataAwsccEc2IpamResourceDiscoveryAssociations(scope constructs.Construct, id *string, config *DataAwsccEc2IpamResourceDiscoveryAssociationsConfig) DataAwsccEc2IpamResourceDiscoveryAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2IpamResourceDiscoveryAssociations(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ipam_resource_discovery_associations awscc_ec2_ipam_resource_discovery_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ipam_resource_discovery_associations awscc_ec2_ipam_resource_discovery_associations} Data Source.
 func NewDataAwsccEc2IpamResourceDiscoveryAssociations_Override(d DataAwsccEc2IpamResourceDiscoveryAssociations, scope constructs.Construct, id *string, config *DataAwsccEc2IpamResourceDiscoveryAssociationsConfig) {
 	_init_.Initialize()
 

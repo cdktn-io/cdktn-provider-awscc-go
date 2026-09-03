@@ -5,7 +5,7 @@ package rtbfabricinboundexternallink
 
 
 type RtbfabricInboundExternalLinkLinkLogSettingsApplicationLogs struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rtbfabric_inbound_external_link#link_application_log_sampling RtbfabricInboundExternalLink#link_application_log_sampling}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rtbfabric_inbound_external_link#link_application_log_sampling RtbfabricInboundExternalLink#link_application_log_sampling}.
 	LinkApplicationLogSampling *RtbfabricInboundExternalLinkLinkLogSettingsApplicationLogsLinkApplicationLogSampling `field:"required" json:"linkApplicationLogSampling" yaml:"linkApplicationLogSampling"`
 }
 

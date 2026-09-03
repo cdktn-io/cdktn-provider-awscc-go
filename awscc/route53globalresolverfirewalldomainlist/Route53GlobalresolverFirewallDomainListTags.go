@@ -5,9 +5,9 @@ package route53globalresolverfirewalldomainlist
 
 
 type Route53GlobalresolverFirewallDomainListTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_firewall_domain_list#key Route53GlobalresolverFirewallDomainList#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53globalresolver_firewall_domain_list#key Route53GlobalresolverFirewallDomainList#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53globalresolver_firewall_domain_list#value Route53GlobalresolverFirewallDomainList#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53globalresolver_firewall_domain_list#value Route53GlobalresolverFirewallDomainList#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

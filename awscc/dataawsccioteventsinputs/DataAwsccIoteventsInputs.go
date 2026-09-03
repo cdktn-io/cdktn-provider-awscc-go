@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotevents_inputs awscc_iotevents_inputs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotevents_inputs awscc_iotevents_inputs}.
 type DataAwsccIoteventsInputs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIoteventsInputs) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotevents_inputs awscc_iotevents_inputs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotevents_inputs awscc_iotevents_inputs} Data Source.
 func NewDataAwsccIoteventsInputs(scope constructs.Construct, id *string, config *DataAwsccIoteventsInputsConfig) DataAwsccIoteventsInputs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIoteventsInputs(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iotevents_inputs awscc_iotevents_inputs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotevents_inputs awscc_iotevents_inputs} Data Source.
 func NewDataAwsccIoteventsInputs_Override(d DataAwsccIoteventsInputs, scope constructs.Construct, id *string, config *DataAwsccIoteventsInputsConfig) {
 	_init_.Initialize()
 

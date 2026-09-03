@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lightsail_load_balancer_tls_certificate awscc_lightsail_load_balancer_tls_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lightsail_load_balancer_tls_certificate awscc_lightsail_load_balancer_tls_certificate}.
 type DataAwsccLightsailLoadBalancerTlsCertificate interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccLightsailLoadBalancerTlsCertificate) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lightsail_load_balancer_tls_certificate awscc_lightsail_load_balancer_tls_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lightsail_load_balancer_tls_certificate awscc_lightsail_load_balancer_tls_certificate} Data Source.
 func NewDataAwsccLightsailLoadBalancerTlsCertificate(scope constructs.Construct, id *string, config *DataAwsccLightsailLoadBalancerTlsCertificateConfig) DataAwsccLightsailLoadBalancerTlsCertificate {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccLightsailLoadBalancerTlsCertificate(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lightsail_load_balancer_tls_certificate awscc_lightsail_load_balancer_tls_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lightsail_load_balancer_tls_certificate awscc_lightsail_load_balancer_tls_certificate} Data Source.
 func NewDataAwsccLightsailLoadBalancerTlsCertificate_Override(d DataAwsccLightsailLoadBalancerTlsCertificate, scope constructs.Construct, id *string, config *DataAwsccLightsailLoadBalancerTlsCertificateConfig) {
 	_init_.Initialize()
 

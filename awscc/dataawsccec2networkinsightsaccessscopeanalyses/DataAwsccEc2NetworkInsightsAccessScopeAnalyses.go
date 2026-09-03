@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_network_insights_access_scope_analyses awscc_ec2_network_insights_access_scope_analyses}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_network_insights_access_scope_analyses awscc_ec2_network_insights_access_scope_analyses}.
 type DataAwsccEc2NetworkInsightsAccessScopeAnalyses interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2NetworkInsightsAccessScopeAnalyses) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_network_insights_access_scope_analyses awscc_ec2_network_insights_access_scope_analyses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_network_insights_access_scope_analyses awscc_ec2_network_insights_access_scope_analyses} Data Source.
 func NewDataAwsccEc2NetworkInsightsAccessScopeAnalyses(scope constructs.Construct, id *string, config *DataAwsccEc2NetworkInsightsAccessScopeAnalysesConfig) DataAwsccEc2NetworkInsightsAccessScopeAnalyses {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2NetworkInsightsAccessScopeAnalyses(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_network_insights_access_scope_analyses awscc_ec2_network_insights_access_scope_analyses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_network_insights_access_scope_analyses awscc_ec2_network_insights_access_scope_analyses} Data Source.
 func NewDataAwsccEc2NetworkInsightsAccessScopeAnalyses_Override(d DataAwsccEc2NetworkInsightsAccessScopeAnalyses, scope constructs.Construct, id *string, config *DataAwsccEc2NetworkInsightsAccessScopeAnalysesConfig) {
 	_init_.Initialize()
 

@@ -24,11 +24,11 @@ type LogsLogStreamConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the log group where the log stream is created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_log_stream#log_group_name LogsLogStream#log_group_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_log_stream#log_group_name LogsLogStream#log_group_name}
 	LogGroupName *string `field:"required" json:"logGroupName" yaml:"logGroupName"`
 	// The name of the log stream. The name must be unique wihtin the log group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/logs_log_stream#log_stream_name LogsLogStream#log_stream_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_log_stream#log_stream_name LogsLogStream#log_stream_name}
 	LogStreamName *string `field:"optional" json:"logStreamName" yaml:"logStreamName"`
 }
 

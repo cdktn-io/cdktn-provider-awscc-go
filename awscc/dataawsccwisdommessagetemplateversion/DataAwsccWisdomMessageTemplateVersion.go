@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/wisdom_message_template_version awscc_wisdom_message_template_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/wisdom_message_template_version awscc_wisdom_message_template_version}.
 type DataAwsccWisdomMessageTemplateVersion interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccWisdomMessageTemplateVersion) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/wisdom_message_template_version awscc_wisdom_message_template_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/wisdom_message_template_version awscc_wisdom_message_template_version} Data Source.
 func NewDataAwsccWisdomMessageTemplateVersion(scope constructs.Construct, id *string, config *DataAwsccWisdomMessageTemplateVersionConfig) DataAwsccWisdomMessageTemplateVersion {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccWisdomMessageTemplateVersion(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/wisdom_message_template_version awscc_wisdom_message_template_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/wisdom_message_template_version awscc_wisdom_message_template_version} Data Source.
 func NewDataAwsccWisdomMessageTemplateVersion_Override(d DataAwsccWisdomMessageTemplateVersion, scope constructs.Construct, id *string, config *DataAwsccWisdomMessageTemplateVersionConfig) {
 	_init_.Initialize()
 

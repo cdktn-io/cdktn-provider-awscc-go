@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/observabilityadmin_organization_centralization_rule awscc_observabilityadmin_organization_centralization_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/observabilityadmin_organization_centralization_rule awscc_observabilityadmin_organization_centralization_rule}.
 type ObservabilityadminOrganizationCentralizationRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -436,7 +436,7 @@ func (j *jsiiProxy_ObservabilityadminOrganizationCentralizationRule) TerraformRe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/observabilityadmin_organization_centralization_rule awscc_observabilityadmin_organization_centralization_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/observabilityadmin_organization_centralization_rule awscc_observabilityadmin_organization_centralization_rule} Resource.
 func NewObservabilityadminOrganizationCentralizationRule(scope constructs.Construct, id *string, config *ObservabilityadminOrganizationCentralizationRuleConfig) ObservabilityadminOrganizationCentralizationRule {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewObservabilityadminOrganizationCentralizationRule(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/observabilityadmin_organization_centralization_rule awscc_observabilityadmin_organization_centralization_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/observabilityadmin_organization_centralization_rule awscc_observabilityadmin_organization_centralization_rule} Resource.
 func NewObservabilityadminOrganizationCentralizationRule_Override(o ObservabilityadminOrganizationCentralizationRule, scope constructs.Construct, id *string, config *ObservabilityadminOrganizationCentralizationRuleConfig) {
 	_init_.Initialize()
 

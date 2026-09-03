@@ -9,7 +9,7 @@ type AthenaWorkGroupWorkGroupConfigurationUpdatesEngineVersion struct {
 	//
 	// Possible values are determined by the output of ListEngineVersions, including Auto. The default is Auto.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/athena_work_group#selected_engine_version AthenaWorkGroup#selected_engine_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/athena_work_group#selected_engine_version AthenaWorkGroup#selected_engine_version}
 	SelectedEngineVersion *string `field:"optional" json:"selectedEngineVersion" yaml:"selectedEngineVersion"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpn_connection_route awscc_ec2_vpn_connection_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_vpn_connection_route awscc_ec2_vpn_connection_route}.
 type Ec2VpnConnectionRoute interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_Ec2VpnConnectionRoute) VpnConnectionIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpn_connection_route awscc_ec2_vpn_connection_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_vpn_connection_route awscc_ec2_vpn_connection_route} Resource.
 func NewEc2VpnConnectionRoute(scope constructs.Construct, id *string, config *Ec2VpnConnectionRouteConfig) Ec2VpnConnectionRoute {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewEc2VpnConnectionRoute(scope constructs.Construct, id *string, config *Ec
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpn_connection_route awscc_ec2_vpn_connection_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_vpn_connection_route awscc_ec2_vpn_connection_route} Resource.
 func NewEc2VpnConnectionRoute_Override(e Ec2VpnConnectionRoute, scope constructs.Construct, id *string, config *Ec2VpnConnectionRouteConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/organizations_policy awscc_organizations_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/organizations_policy awscc_organizations_policy}.
 type DataAwsccOrganizationsPolicy interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccOrganizationsPolicy) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/organizations_policy awscc_organizations_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/organizations_policy awscc_organizations_policy} Data Source.
 func NewDataAwsccOrganizationsPolicy(scope constructs.Construct, id *string, config *DataAwsccOrganizationsPolicyConfig) DataAwsccOrganizationsPolicy {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccOrganizationsPolicy(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/organizations_policy awscc_organizations_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/organizations_policy awscc_organizations_policy} Data Source.
 func NewDataAwsccOrganizationsPolicy_Override(d DataAwsccOrganizationsPolicy, scope constructs.Construct, id *string, config *DataAwsccOrganizationsPolicyConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/config_connectors awscc_config_connectors}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/config_connectors awscc_config_connectors}.
 type DataAwsccConfigConnectors interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccConfigConnectors) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/config_connectors awscc_config_connectors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/config_connectors awscc_config_connectors} Data Source.
 func NewDataAwsccConfigConnectors(scope constructs.Construct, id *string, config *DataAwsccConfigConnectorsConfig) DataAwsccConfigConnectors {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccConfigConnectors(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/config_connectors awscc_config_connectors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/config_connectors awscc_config_connectors} Data Source.
 func NewDataAwsccConfigConnectors_Override(d DataAwsccConfigConnectors, scope constructs.Construct, id *string, config *DataAwsccConfigConnectorsConfig) {
 	_init_.Initialize()
 

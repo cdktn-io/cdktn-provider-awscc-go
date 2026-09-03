@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/certificatemanager_acme_external_account_binding awscc_certificatemanager_acme_external_account_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/certificatemanager_acme_external_account_binding awscc_certificatemanager_acme_external_account_binding}.
 type DataAwsccCertificatemanagerAcmeExternalAccountBinding interface {
 	cdktn.TerraformDataSource
 	AcmeEndpointArn() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccCertificatemanagerAcmeExternalAccountBinding) Terraf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/certificatemanager_acme_external_account_binding awscc_certificatemanager_acme_external_account_binding} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/certificatemanager_acme_external_account_binding awscc_certificatemanager_acme_external_account_binding} Data Source.
 func NewDataAwsccCertificatemanagerAcmeExternalAccountBinding(scope constructs.Construct, id *string, config *DataAwsccCertificatemanagerAcmeExternalAccountBindingConfig) DataAwsccCertificatemanagerAcmeExternalAccountBinding {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccCertificatemanagerAcmeExternalAccountBinding(scope constructs.C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/certificatemanager_acme_external_account_binding awscc_certificatemanager_acme_external_account_binding} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/certificatemanager_acme_external_account_binding awscc_certificatemanager_acme_external_account_binding} Data Source.
 func NewDataAwsccCertificatemanagerAcmeExternalAccountBinding_Override(d DataAwsccCertificatemanagerAcmeExternalAccountBinding, scope constructs.Construct, id *string, config *DataAwsccCertificatemanagerAcmeExternalAccountBindingConfig) {
 	_init_.Initialize()
 

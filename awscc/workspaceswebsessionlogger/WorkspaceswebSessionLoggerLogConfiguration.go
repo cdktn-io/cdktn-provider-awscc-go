@@ -5,7 +5,7 @@ package workspaceswebsessionlogger
 
 
 type WorkspaceswebSessionLoggerLogConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesweb_session_logger#s3 WorkspaceswebSessionLogger#s3}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspacesweb_session_logger#s3 WorkspaceswebSessionLogger#s3}.
 	S3 *WorkspaceswebSessionLoggerLogConfigurationS3 `field:"optional" json:"s3" yaml:"s3"`
 }
 

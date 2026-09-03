@@ -91,6 +91,10 @@ func (s *jsiiProxy_SagemakerInferenceComponent) validatePutSpecificationParamete
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerInferenceComponent) validatePutSpecificationsParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerInferenceComponent) validatePutTagsParameters(value interface{}) error {
 	return nil
 }

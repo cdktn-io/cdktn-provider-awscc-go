@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dynamodb_backup awscc_dynamodb_backup}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dynamodb_backup awscc_dynamodb_backup}.
 type DynamodbBackup interface {
 	cdktn.TerraformResource
 	BackupArn() *string
@@ -467,7 +467,7 @@ func (j *jsiiProxy_DynamodbBackup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dynamodb_backup awscc_dynamodb_backup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dynamodb_backup awscc_dynamodb_backup} Resource.
 func NewDynamodbBackup(scope constructs.Construct, id *string, config *DynamodbBackupConfig) DynamodbBackup {
 	_init_.Initialize()
 
@@ -485,7 +485,7 @@ func NewDynamodbBackup(scope constructs.Construct, id *string, config *DynamodbB
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/dynamodb_backup awscc_dynamodb_backup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dynamodb_backup awscc_dynamodb_backup} Resource.
 func NewDynamodbBackup_Override(d DynamodbBackup, scope constructs.Construct, id *string, config *DynamodbBackupConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/transfer_workflow awscc_transfer_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/transfer_workflow awscc_transfer_workflow}.
 type DataAwsccTransferWorkflow interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccTransferWorkflow) WorkflowId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/transfer_workflow awscc_transfer_workflow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/transfer_workflow awscc_transfer_workflow} Data Source.
 func NewDataAwsccTransferWorkflow(scope constructs.Construct, id *string, config *DataAwsccTransferWorkflowConfig) DataAwsccTransferWorkflow {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccTransferWorkflow(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/transfer_workflow awscc_transfer_workflow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/transfer_workflow awscc_transfer_workflow} Data Source.
 func NewDataAwsccTransferWorkflow_Override(d DataAwsccTransferWorkflow, scope constructs.Construct, id *string, config *DataAwsccTransferWorkflowConfig) {
 	_init_.Initialize()
 

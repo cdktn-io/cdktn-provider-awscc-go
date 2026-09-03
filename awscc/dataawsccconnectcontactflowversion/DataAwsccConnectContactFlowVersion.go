@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/connect_contact_flow_version awscc_connect_contact_flow_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/connect_contact_flow_version awscc_connect_contact_flow_version}.
 type DataAwsccConnectContactFlowVersion interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccConnectContactFlowVersion) Version() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/connect_contact_flow_version awscc_connect_contact_flow_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/connect_contact_flow_version awscc_connect_contact_flow_version} Data Source.
 func NewDataAwsccConnectContactFlowVersion(scope constructs.Construct, id *string, config *DataAwsccConnectContactFlowVersionConfig) DataAwsccConnectContactFlowVersion {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccConnectContactFlowVersion(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/connect_contact_flow_version awscc_connect_contact_flow_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/connect_contact_flow_version awscc_connect_contact_flow_version} Data Source.
 func NewDataAwsccConnectContactFlowVersion_Override(d DataAwsccConnectContactFlowVersion, scope constructs.Construct, id *string, config *DataAwsccConnectContactFlowVersionConfig) {
 	_init_.Initialize()
 

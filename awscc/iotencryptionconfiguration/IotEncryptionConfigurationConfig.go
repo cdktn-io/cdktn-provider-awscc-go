@@ -22,11 +22,11 @@ type IotEncryptionConfigurationConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_encryption_configuration#encryption_type IotEncryptionConfiguration#encryption_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_encryption_configuration#encryption_type IotEncryptionConfiguration#encryption_type}.
 	EncryptionType *string `field:"required" json:"encryptionType" yaml:"encryptionType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_encryption_configuration#kms_access_role_arn IotEncryptionConfiguration#kms_access_role_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_encryption_configuration#kms_access_role_arn IotEncryptionConfiguration#kms_access_role_arn}.
 	KmsAccessRoleArn *string `field:"optional" json:"kmsAccessRoleArn" yaml:"kmsAccessRoleArn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_encryption_configuration#kms_key_arn IotEncryptionConfiguration#kms_key_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_encryption_configuration#kms_key_arn IotEncryptionConfiguration#kms_key_arn}.
 	KmsKeyArn *string `field:"optional" json:"kmsKeyArn" yaml:"kmsKeyArn"`
 }
 

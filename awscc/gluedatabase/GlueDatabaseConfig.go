@@ -24,15 +24,15 @@ type GlueDatabaseConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The AWS account ID for the account in which to create the catalog object.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#catalog_id GlueDatabase#catalog_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_database#catalog_id GlueDatabase#catalog_id}
 	CatalogId *string `field:"required" json:"catalogId" yaml:"catalogId"`
 	// The metadata for the database.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#database_input GlueDatabase#database_input}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_database#database_input GlueDatabase#database_input}
 	DatabaseInput *GlueDatabaseDatabaseInput `field:"required" json:"databaseInput" yaml:"databaseInput"`
 	// The name of the database. For hive compatibility, this is folded to lowercase when it is store.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_database#database_name GlueDatabase#database_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_database#database_name GlueDatabase#database_name}
 	DatabaseName *string `field:"optional" json:"databaseName" yaml:"databaseName"`
 }
 

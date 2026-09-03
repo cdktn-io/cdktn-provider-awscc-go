@@ -13,6 +13,7 @@ import (
 
 type DataAwsccSagemakerClusterInstanceGroupsOutputReference interface {
 	cdktn.ComplexObject
+	AutoPatchConfig() DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigOutputReference
 	CapacityRequirements() DataAwsccSagemakerClusterInstanceGroupsCapacityRequirementsOutputReference
 	// the index of the complex object in a list.
 	// Experimental.
@@ -36,6 +37,7 @@ type DataAwsccSagemakerClusterInstanceGroupsOutputReference interface {
 	ImageId() *string
 	InstanceCount() *float64
 	InstanceGroupName() *string
+	InstanceRequirements() DataAwsccSagemakerClusterInstanceGroupsInstanceRequirementsOutputReference
 	InstanceStorageConfigs() DataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsList
 	InstanceType() *string
 	InternalValue() *DataAwsccSagemakerClusterInstanceGroups
@@ -43,9 +45,11 @@ type DataAwsccSagemakerClusterInstanceGroupsOutputReference interface {
 	KubernetesConfig() DataAwsccSagemakerClusterInstanceGroupsKubernetesConfigOutputReference
 	LifeCycleConfig() DataAwsccSagemakerClusterInstanceGroupsLifeCycleConfigOutputReference
 	MinInstanceCount() *float64
+	NetworkInterface() DataAwsccSagemakerClusterInstanceGroupsNetworkInterfaceOutputReference
 	OnStartDeepHealthChecks() *[]*string
 	OverrideVpcConfig() DataAwsccSagemakerClusterInstanceGroupsOverrideVpcConfigOutputReference
 	ScheduledUpdateConfig() DataAwsccSagemakerClusterInstanceGroupsScheduledUpdateConfigOutputReference
+	SlurmConfig() DataAwsccSagemakerClusterInstanceGroupsSlurmConfigOutputReference
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -93,6 +97,16 @@ type DataAwsccSagemakerClusterInstanceGroupsOutputReference interface {
 // The jsii proxy struct for DataAwsccSagemakerClusterInstanceGroupsOutputReference
 type jsiiProxy_DataAwsccSagemakerClusterInstanceGroupsOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerClusterInstanceGroupsOutputReference) AutoPatchConfig() DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigOutputReference {
+	var returns DataAwsccSagemakerClusterInstanceGroupsAutoPatchConfigOutputReference
+	_jsii_.Get(
+		j,
+		"autoPatchConfig",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAwsccSagemakerClusterInstanceGroupsOutputReference) CapacityRequirements() DataAwsccSagemakerClusterInstanceGroupsCapacityRequirementsOutputReference {
@@ -195,6 +209,16 @@ func (j *jsiiProxy_DataAwsccSagemakerClusterInstanceGroupsOutputReference) Insta
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccSagemakerClusterInstanceGroupsOutputReference) InstanceRequirements() DataAwsccSagemakerClusterInstanceGroupsInstanceRequirementsOutputReference {
+	var returns DataAwsccSagemakerClusterInstanceGroupsInstanceRequirementsOutputReference
+	_jsii_.Get(
+		j,
+		"instanceRequirements",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccSagemakerClusterInstanceGroupsOutputReference) InstanceStorageConfigs() DataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsList {
 	var returns DataAwsccSagemakerClusterInstanceGroupsInstanceStorageConfigsList
 	_jsii_.Get(
@@ -255,6 +279,16 @@ func (j *jsiiProxy_DataAwsccSagemakerClusterInstanceGroupsOutputReference) MinIn
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccSagemakerClusterInstanceGroupsOutputReference) NetworkInterface() DataAwsccSagemakerClusterInstanceGroupsNetworkInterfaceOutputReference {
+	var returns DataAwsccSagemakerClusterInstanceGroupsNetworkInterfaceOutputReference
+	_jsii_.Get(
+		j,
+		"networkInterface",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccSagemakerClusterInstanceGroupsOutputReference) OnStartDeepHealthChecks() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -280,6 +314,16 @@ func (j *jsiiProxy_DataAwsccSagemakerClusterInstanceGroupsOutputReference) Sched
 	_jsii_.Get(
 		j,
 		"scheduledUpdateConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerClusterInstanceGroupsOutputReference) SlurmConfig() DataAwsccSagemakerClusterInstanceGroupsSlurmConfigOutputReference {
+	var returns DataAwsccSagemakerClusterInstanceGroupsSlurmConfigOutputReference
+	_jsii_.Get(
+		j,
+		"slurmConfig",
 		&returns,
 	)
 	return returns

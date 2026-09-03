@@ -5,9 +5,9 @@ package iotsitewisegateway
 
 
 type IotsitewiseGatewayTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_gateway#key IotsitewiseGateway#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsitewise_gateway#key IotsitewiseGateway#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotsitewise_gateway#value IotsitewiseGateway#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsitewise_gateway#value IotsitewiseGateway#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

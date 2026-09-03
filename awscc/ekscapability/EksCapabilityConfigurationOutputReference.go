@@ -13,9 +13,8 @@ import (
 
 type EksCapabilityConfigurationOutputReference interface {
 	cdktn.ComplexObject
-	Ack() *string
-	SetAck(val *string)
-	AckInput() *string
+	Ack() EksCapabilityConfigurationAckOutputReference
+	AckInput() interface{}
 	ArgoCd() EksCapabilityConfigurationArgoCdOutputReference
 	ArgoCdInput() interface{}
 	// the index of the complex object in a list.
@@ -69,6 +68,7 @@ type EksCapabilityConfigurationOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAck(value *EksCapabilityConfigurationAck)
 	PutArgoCd(value *EksCapabilityConfigurationArgoCd)
 	ResetAck()
 	ResetArgoCd()
@@ -87,8 +87,8 @@ type jsiiProxy_EksCapabilityConfigurationOutputReference struct {
 	internal.Type__cdktnComplexObject
 }
 
-func (j *jsiiProxy_EksCapabilityConfigurationOutputReference) Ack() *string {
-	var returns *string
+func (j *jsiiProxy_EksCapabilityConfigurationOutputReference) Ack() EksCapabilityConfigurationAckOutputReference {
+	var returns EksCapabilityConfigurationAckOutputReference
 	_jsii_.Get(
 		j,
 		"ack",
@@ -97,8 +97,8 @@ func (j *jsiiProxy_EksCapabilityConfigurationOutputReference) Ack() *string {
 	return returns
 }
 
-func (j *jsiiProxy_EksCapabilityConfigurationOutputReference) AckInput() *string {
-	var returns *string
+func (j *jsiiProxy_EksCapabilityConfigurationOutputReference) AckInput() interface{} {
+	var returns interface{}
 	_jsii_.Get(
 		j,
 		"ackInput",
@@ -222,17 +222,6 @@ func NewEksCapabilityConfigurationOutputReference_Override(e EksCapabilityConfig
 		"@cdktn/provider-awscc.eksCapability.EksCapabilityConfigurationOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
-	)
-}
-
-func (j *jsiiProxy_EksCapabilityConfigurationOutputReference)SetAck(val *string) {
-	if err := j.validateSetAckParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"ack",
-		val,
 	)
 }
 
@@ -475,6 +464,17 @@ func (e *jsiiProxy_EksCapabilityConfigurationOutputReference) InterpolationForAt
 	)
 
 	return returns
+}
+
+func (e *jsiiProxy_EksCapabilityConfigurationOutputReference) PutAck(value *EksCapabilityConfigurationAck) {
+	if err := e.validatePutAckParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putAck",
+		[]interface{}{value},
+	)
 }
 
 func (e *jsiiProxy_EksCapabilityConfigurationOutputReference) PutArgoCd(value *EksCapabilityConfigurationArgoCd) {

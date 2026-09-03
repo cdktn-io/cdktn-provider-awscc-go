@@ -22,13 +22,13 @@ type NotificationscontactsEmailContactConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/notificationscontacts_email_contact#email_address NotificationscontactsEmailContact#email_address}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/notificationscontacts_email_contact#email_address NotificationscontactsEmailContact#email_address}.
 	EmailAddress *string `field:"required" json:"emailAddress" yaml:"emailAddress"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/notificationscontacts_email_contact#name NotificationscontactsEmailContact#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/notificationscontacts_email_contact#name NotificationscontactsEmailContact#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// A list of tags that are attached to the role.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/notificationscontacts_email_contact#tags NotificationscontactsEmailContact#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/notificationscontacts_email_contact#tags NotificationscontactsEmailContact#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

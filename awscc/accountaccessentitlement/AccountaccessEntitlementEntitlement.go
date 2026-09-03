@@ -5,7 +5,7 @@ package accountaccessentitlement
 
 
 type AccountaccessEntitlementEntitlement struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/accountaccess_entitlement#principal_role AccountaccessEntitlement#principal_role}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/accountaccess_entitlement#principal_role AccountaccessEntitlement#principal_role}.
 	PrincipalRole *AccountaccessEntitlementEntitlementPrincipalRole `field:"required" json:"principalRole" yaml:"principalRole"`
 }
 

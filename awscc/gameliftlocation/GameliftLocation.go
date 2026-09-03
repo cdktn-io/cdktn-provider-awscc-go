@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_location awscc_gamelift_location}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_location awscc_gamelift_location}.
 type GameliftLocation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_GameliftLocation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_location awscc_gamelift_location} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_location awscc_gamelift_location} Resource.
 func NewGameliftLocation(scope constructs.Construct, id *string, config *GameliftLocationConfig) GameliftLocation {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewGameliftLocation(scope constructs.Construct, id *string, config *Gamelif
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/gamelift_location awscc_gamelift_location} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/gamelift_location awscc_gamelift_location} Resource.
 func NewGameliftLocation_Override(g GameliftLocation, scope constructs.Construct, id *string, config *GameliftLocationConfig) {
 	_init_.Initialize()
 

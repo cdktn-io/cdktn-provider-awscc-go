@@ -9,7 +9,7 @@ type MediatailorSourceLocationDefaultSegmentDeliveryConfiguration struct {
 	//
 	// This string must include the protocol, such as <b>https://</b>.</p>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediatailor_source_location#base_url MediatailorSourceLocation#base_url}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediatailor_source_location#base_url MediatailorSourceLocation#base_url}
 	BaseUrl *string `field:"optional" json:"baseUrl" yaml:"baseUrl"`
 }
 

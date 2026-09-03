@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_faq awscc_kendra_faq}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_faq awscc_kendra_faq}.
 type KendraFaq interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -565,7 +565,7 @@ func (j *jsiiProxy_KendraFaq) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_faq awscc_kendra_faq} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_faq awscc_kendra_faq} Resource.
 func NewKendraFaq(scope constructs.Construct, id *string, config *KendraFaqConfig) KendraFaq {
 	_init_.Initialize()
 
@@ -583,7 +583,7 @@ func NewKendraFaq(scope constructs.Construct, id *string, config *KendraFaqConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_faq awscc_kendra_faq} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_faq awscc_kendra_faq} Resource.
 func NewKendraFaq_Override(k KendraFaq, scope constructs.Construct, id *string, config *KendraFaqConfig) {
 	_init_.Initialize()
 

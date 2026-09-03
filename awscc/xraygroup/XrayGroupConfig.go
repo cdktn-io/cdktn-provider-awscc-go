@@ -24,17 +24,17 @@ type XrayGroupConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The case-sensitive name of the new group. Names must be unique.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_group#group_name XrayGroup#group_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/xray_group#group_name XrayGroup#group_name}
 	GroupName *string `field:"required" json:"groupName" yaml:"groupName"`
 	// The filter expression defining criteria by which to group traces.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_group#filter_expression XrayGroup#filter_expression}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/xray_group#filter_expression XrayGroup#filter_expression}
 	FilterExpression *string `field:"optional" json:"filterExpression" yaml:"filterExpression"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_group#insights_configuration XrayGroup#insights_configuration}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/xray_group#insights_configuration XrayGroup#insights_configuration}.
 	InsightsConfiguration *XrayGroupInsightsConfiguration `field:"optional" json:"insightsConfiguration" yaml:"insightsConfiguration"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/xray_group#tags XrayGroup#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/xray_group#tags XrayGroup#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

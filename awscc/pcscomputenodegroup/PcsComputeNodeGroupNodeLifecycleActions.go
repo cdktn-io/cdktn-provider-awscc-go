@@ -9,11 +9,11 @@ type PcsComputeNodeGroupNodeLifecycleActions struct {
 	//
 	// Defaults to CACHE_ONCE.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_compute_node_group#script_caching_policy PcsComputeNodeGroup#script_caching_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pcs_compute_node_group#script_caching_policy PcsComputeNodeGroup#script_caching_policy}
 	ScriptCachingPolicy *string `field:"optional" json:"scriptCachingPolicy" yaml:"scriptCachingPolicy"`
 	// The ordered scripts to run at each compute node lifecycle stage.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_compute_node_group#stages PcsComputeNodeGroup#stages}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pcs_compute_node_group#stages PcsComputeNodeGroup#stages}
 	Stages *PcsComputeNodeGroupNodeLifecycleActionsStages `field:"optional" json:"stages" yaml:"stages"`
 }
 

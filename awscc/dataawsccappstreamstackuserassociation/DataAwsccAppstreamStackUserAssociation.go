@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appstream_stack_user_association awscc_appstream_stack_user_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appstream_stack_user_association awscc_appstream_stack_user_association}.
 type DataAwsccAppstreamStackUserAssociation interface {
 	cdktn.TerraformDataSource
 	AuthenticationType() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccAppstreamStackUserAssociation) UserName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appstream_stack_user_association awscc_appstream_stack_user_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appstream_stack_user_association awscc_appstream_stack_user_association} Data Source.
 func NewDataAwsccAppstreamStackUserAssociation(scope constructs.Construct, id *string, config *DataAwsccAppstreamStackUserAssociationConfig) DataAwsccAppstreamStackUserAssociation {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccAppstreamStackUserAssociation(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appstream_stack_user_association awscc_appstream_stack_user_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appstream_stack_user_association awscc_appstream_stack_user_association} Data Source.
 func NewDataAwsccAppstreamStackUserAssociation_Override(d DataAwsccAppstreamStackUserAssociation, scope constructs.Construct, id *string, config *DataAwsccAppstreamStackUserAssociationConfig) {
 	_init_.Initialize()
 

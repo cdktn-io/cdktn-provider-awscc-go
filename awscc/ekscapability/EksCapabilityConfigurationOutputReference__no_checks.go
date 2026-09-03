@@ -47,15 +47,15 @@ func (e *jsiiProxy_EksCapabilityConfigurationOutputReference) validateInterpolat
 	return nil
 }
 
+func (e *jsiiProxy_EksCapabilityConfigurationOutputReference) validatePutAckParameters(value *EksCapabilityConfigurationAck) error {
+	return nil
+}
+
 func (e *jsiiProxy_EksCapabilityConfigurationOutputReference) validatePutArgoCdParameters(value *EksCapabilityConfigurationArgoCd) error {
 	return nil
 }
 
 func (e *jsiiProxy_EksCapabilityConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
-	return nil
-}
-
-func (j *jsiiProxy_EksCapabilityConfigurationOutputReference) validateSetAckParameters(val *string) error {
 	return nil
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/agentregistry_registry_record awscc_agentregistry_registry_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record awscc_agentregistry_registry_record}.
 type AgentregistryRegistryRecord interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -190,6 +190,7 @@ type AgentregistryRegistryRecord interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRecordVersion()
+	ResetRegistryId()
 	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -609,7 +610,7 @@ func (j *jsiiProxy_AgentregistryRegistryRecord) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/agentregistry_registry_record awscc_agentregistry_registry_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record awscc_agentregistry_registry_record} Resource.
 func NewAgentregistryRegistryRecord(scope constructs.Construct, id *string, config *AgentregistryRegistryRecordConfig) AgentregistryRegistryRecord {
 	_init_.Initialize()
 
@@ -627,7 +628,7 @@ func NewAgentregistryRegistryRecord(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/agentregistry_registry_record awscc_agentregistry_registry_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry_record awscc_agentregistry_registry_record} Resource.
 func NewAgentregistryRegistryRecord_Override(a AgentregistryRegistryRecord, scope constructs.Construct, id *string, config *AgentregistryRegistryRecordConfig) {
 	_init_.Initialize()
 
@@ -1202,6 +1203,14 @@ func (a *jsiiProxy_AgentregistryRegistryRecord) ResetRecordVersion() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetRecordVersion",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AgentregistryRegistryRecord) ResetRegistryId() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetRegistryId",
 		nil, // no parameters
 	)
 }

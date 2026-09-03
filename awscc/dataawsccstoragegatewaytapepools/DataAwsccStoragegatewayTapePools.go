@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/storagegateway_tape_pools awscc_storagegateway_tape_pools}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/storagegateway_tape_pools awscc_storagegateway_tape_pools}.
 type DataAwsccStoragegatewayTapePools interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccStoragegatewayTapePools) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/storagegateway_tape_pools awscc_storagegateway_tape_pools} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/storagegateway_tape_pools awscc_storagegateway_tape_pools} Data Source.
 func NewDataAwsccStoragegatewayTapePools(scope constructs.Construct, id *string, config *DataAwsccStoragegatewayTapePoolsConfig) DataAwsccStoragegatewayTapePools {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccStoragegatewayTapePools(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/storagegateway_tape_pools awscc_storagegateway_tape_pools} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/storagegateway_tape_pools awscc_storagegateway_tape_pools} Data Source.
 func NewDataAwsccStoragegatewayTapePools_Override(d DataAwsccStoragegatewayTapePools, scope constructs.Construct, id *string, config *DataAwsccStoragegatewayTapePoolsConfig) {
 	_init_.Initialize()
 

@@ -13,6 +13,11 @@ import (
 
 type Ec2Ec2FleetReservedCapacityOptionsOutputReference interface {
 	cdktn.ComplexObject
+	AllocationStrategy() *string
+	SetAllocationStrategy(val *string)
+	AllocationStrategyInput() *string
+	CapacityReservationTarget() Ec2Ec2FleetReservedCapacityOptionsCapacityReservationTargetOutputReference
+	CapacityReservationTargetInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -35,6 +40,8 @@ type Ec2Ec2FleetReservedCapacityOptionsOutputReference interface {
 	ReservationTypes() *[]*string
 	SetReservationTypes(val *[]*string)
 	ReservationTypesInput() *[]*string
+	ReservedCapacityFallbackOptions() Ec2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptionsOutputReference
+	ReservedCapacityFallbackOptionsInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,7 +74,12 @@ type Ec2Ec2FleetReservedCapacityOptionsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutCapacityReservationTarget(value *Ec2Ec2FleetReservedCapacityOptionsCapacityReservationTarget)
+	PutReservedCapacityFallbackOptions(value *Ec2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptions)
+	ResetAllocationStrategy()
+	ResetCapacityReservationTarget()
 	ResetReservationTypes()
+	ResetReservedCapacityFallbackOptions()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -81,6 +93,46 @@ type Ec2Ec2FleetReservedCapacityOptionsOutputReference interface {
 // The jsii proxy struct for Ec2Ec2FleetReservedCapacityOptionsOutputReference
 type jsiiProxy_Ec2Ec2FleetReservedCapacityOptionsOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_Ec2Ec2FleetReservedCapacityOptionsOutputReference) AllocationStrategy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"allocationStrategy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Ec2Ec2FleetReservedCapacityOptionsOutputReference) AllocationStrategyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"allocationStrategyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Ec2Ec2FleetReservedCapacityOptionsOutputReference) CapacityReservationTarget() Ec2Ec2FleetReservedCapacityOptionsCapacityReservationTargetOutputReference {
+	var returns Ec2Ec2FleetReservedCapacityOptionsCapacityReservationTargetOutputReference
+	_jsii_.Get(
+		j,
+		"capacityReservationTarget",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Ec2Ec2FleetReservedCapacityOptionsOutputReference) CapacityReservationTargetInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"capacityReservationTargetInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_Ec2Ec2FleetReservedCapacityOptionsOutputReference) ComplexObjectIndex() interface{} {
@@ -153,6 +205,26 @@ func (j *jsiiProxy_Ec2Ec2FleetReservedCapacityOptionsOutputReference) Reservatio
 	return returns
 }
 
+func (j *jsiiProxy_Ec2Ec2FleetReservedCapacityOptionsOutputReference) ReservedCapacityFallbackOptions() Ec2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptionsOutputReference {
+	var returns Ec2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptionsOutputReference
+	_jsii_.Get(
+		j,
+		"reservedCapacityFallbackOptions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Ec2Ec2FleetReservedCapacityOptionsOutputReference) ReservedCapacityFallbackOptionsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"reservedCapacityFallbackOptionsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_Ec2Ec2FleetReservedCapacityOptionsOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -198,6 +270,17 @@ func NewEc2Ec2FleetReservedCapacityOptionsOutputReference_Override(e Ec2Ec2Fleet
 		"@cdktn/provider-awscc.ec2Ec2Fleet.Ec2Ec2FleetReservedCapacityOptionsOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		e,
+	)
+}
+
+func (j *jsiiProxy_Ec2Ec2FleetReservedCapacityOptionsOutputReference)SetAllocationStrategy(val *string) {
+	if err := j.validateSetAllocationStrategyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"allocationStrategy",
+		val,
 	)
 }
 
@@ -453,10 +536,56 @@ func (e *jsiiProxy_Ec2Ec2FleetReservedCapacityOptionsOutputReference) Interpolat
 	return returns
 }
 
+func (e *jsiiProxy_Ec2Ec2FleetReservedCapacityOptionsOutputReference) PutCapacityReservationTarget(value *Ec2Ec2FleetReservedCapacityOptionsCapacityReservationTarget) {
+	if err := e.validatePutCapacityReservationTargetParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putCapacityReservationTarget",
+		[]interface{}{value},
+	)
+}
+
+func (e *jsiiProxy_Ec2Ec2FleetReservedCapacityOptionsOutputReference) PutReservedCapacityFallbackOptions(value *Ec2Ec2FleetReservedCapacityOptionsReservedCapacityFallbackOptions) {
+	if err := e.validatePutReservedCapacityFallbackOptionsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putReservedCapacityFallbackOptions",
+		[]interface{}{value},
+	)
+}
+
+func (e *jsiiProxy_Ec2Ec2FleetReservedCapacityOptionsOutputReference) ResetAllocationStrategy() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetAllocationStrategy",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_Ec2Ec2FleetReservedCapacityOptionsOutputReference) ResetCapacityReservationTarget() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetCapacityReservationTarget",
+		nil, // no parameters
+	)
+}
+
 func (e *jsiiProxy_Ec2Ec2FleetReservedCapacityOptionsOutputReference) ResetReservationTypes() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetReservationTypes",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_Ec2Ec2FleetReservedCapacityOptionsOutputReference) ResetReservedCapacityFallbackOptions() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetReservedCapacityFallbackOptions",
 		nil, // no parameters
 	)
 }

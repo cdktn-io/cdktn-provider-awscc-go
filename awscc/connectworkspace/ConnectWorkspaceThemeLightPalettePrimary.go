@@ -5,11 +5,11 @@ package connectworkspace
 
 
 type ConnectWorkspaceThemeLightPalettePrimary struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_workspace#active ConnectWorkspace#active}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_workspace#active ConnectWorkspace#active}.
 	Active *string `field:"optional" json:"active" yaml:"active"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_workspace#contrast_text ConnectWorkspace#contrast_text}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_workspace#contrast_text ConnectWorkspace#contrast_text}.
 	ContrastText *string `field:"optional" json:"contrastText" yaml:"contrastText"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/connect_workspace#default ConnectWorkspace#default}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_workspace#default ConnectWorkspace#default}.
 	Default *string `field:"optional" json:"default" yaml:"default"`
 }
 

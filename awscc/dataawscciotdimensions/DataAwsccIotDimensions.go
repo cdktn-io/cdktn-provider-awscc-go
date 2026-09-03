@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_dimensions awscc_iot_dimensions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_dimensions awscc_iot_dimensions}.
 type DataAwsccIotDimensions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotDimensions) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_dimensions awscc_iot_dimensions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_dimensions awscc_iot_dimensions} Data Source.
 func NewDataAwsccIotDimensions(scope constructs.Construct, id *string, config *DataAwsccIotDimensionsConfig) DataAwsccIotDimensions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotDimensions(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iot_dimensions awscc_iot_dimensions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_dimensions awscc_iot_dimensions} Data Source.
 func NewDataAwsccIotDimensions_Override(d DataAwsccIotDimensions, scope constructs.Construct, id *string, config *DataAwsccIotDimensionsConfig) {
 	_init_.Initialize()
 

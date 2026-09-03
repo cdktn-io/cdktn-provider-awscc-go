@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/datazone_environment_actions awscc_datazone_environment_actions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/datazone_environment_actions awscc_datazone_environment_actions}.
 type DataAwsccDatazoneEnvironmentActions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccDatazoneEnvironmentActions) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/datazone_environment_actions awscc_datazone_environment_actions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/datazone_environment_actions awscc_datazone_environment_actions} Data Source.
 func NewDataAwsccDatazoneEnvironmentActions(scope constructs.Construct, id *string, config *DataAwsccDatazoneEnvironmentActionsConfig) DataAwsccDatazoneEnvironmentActions {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccDatazoneEnvironmentActions(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/datazone_environment_actions awscc_datazone_environment_actions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/datazone_environment_actions awscc_datazone_environment_actions} Data Source.
 func NewDataAwsccDatazoneEnvironmentActions_Override(d DataAwsccDatazoneEnvironmentActions, scope constructs.Construct, id *string, config *DataAwsccDatazoneEnvironmentActionsConfig) {
 	_init_.Initialize()
 

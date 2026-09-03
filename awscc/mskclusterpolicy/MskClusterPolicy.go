@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_cluster_policy awscc_msk_cluster_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/msk_cluster_policy awscc_msk_cluster_policy}.
 type MskClusterPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -412,7 +412,7 @@ func (j *jsiiProxy_MskClusterPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_cluster_policy awscc_msk_cluster_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/msk_cluster_policy awscc_msk_cluster_policy} Resource.
 func NewMskClusterPolicy(scope constructs.Construct, id *string, config *MskClusterPolicyConfig) MskClusterPolicy {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewMskClusterPolicy(scope constructs.Construct, id *string, config *MskClus
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_cluster_policy awscc_msk_cluster_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/msk_cluster_policy awscc_msk_cluster_policy} Resource.
 func NewMskClusterPolicy_Override(m MskClusterPolicy, scope constructs.Construct, id *string, config *MskClusterPolicyConfig) {
 	_init_.Initialize()
 

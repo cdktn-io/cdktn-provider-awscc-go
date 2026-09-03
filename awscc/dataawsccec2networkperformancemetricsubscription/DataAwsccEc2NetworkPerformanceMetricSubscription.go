@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_network_performance_metric_subscription awscc_ec2_network_performance_metric_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_network_performance_metric_subscription awscc_ec2_network_performance_metric_subscription}.
 type DataAwsccEc2NetworkPerformanceMetricSubscription interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccEc2NetworkPerformanceMetricSubscription) TerraformRe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_network_performance_metric_subscription awscc_ec2_network_performance_metric_subscription} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_network_performance_metric_subscription awscc_ec2_network_performance_metric_subscription} Data Source.
 func NewDataAwsccEc2NetworkPerformanceMetricSubscription(scope constructs.Construct, id *string, config *DataAwsccEc2NetworkPerformanceMetricSubscriptionConfig) DataAwsccEc2NetworkPerformanceMetricSubscription {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccEc2NetworkPerformanceMetricSubscription(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_network_performance_metric_subscription awscc_ec2_network_performance_metric_subscription} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_network_performance_metric_subscription awscc_ec2_network_performance_metric_subscription} Data Source.
 func NewDataAwsccEc2NetworkPerformanceMetricSubscription_Override(d DataAwsccEc2NetworkPerformanceMetricSubscription, scope constructs.Construct, id *string, config *DataAwsccEc2NetworkPerformanceMetricSubscriptionConfig) {
 	_init_.Initialize()
 

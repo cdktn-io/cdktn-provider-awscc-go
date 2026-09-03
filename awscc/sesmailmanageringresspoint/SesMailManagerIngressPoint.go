@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point}.
 type SesMailManagerIngressPoint interface {
 	cdktn.TerraformResource
 	ARecord() *string
@@ -612,7 +612,7 @@ func (j *jsiiProxy_SesMailManagerIngressPoint) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point} Resource.
 func NewSesMailManagerIngressPoint(scope constructs.Construct, id *string, config *SesMailManagerIngressPointConfig) SesMailManagerIngressPoint {
 	_init_.Initialize()
 
@@ -630,7 +630,7 @@ func NewSesMailManagerIngressPoint(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point} Resource.
 func NewSesMailManagerIngressPoint_Override(s SesMailManagerIngressPoint, scope constructs.Construct, id *string, config *SesMailManagerIngressPointConfig) {
 	_init_.Initialize()
 

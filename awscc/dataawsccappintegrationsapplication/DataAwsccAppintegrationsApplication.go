@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appintegrations_application awscc_appintegrations_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appintegrations_application awscc_appintegrations_application}.
 type DataAwsccAppintegrationsApplication interface {
 	cdktn.TerraformDataSource
 	ApplicationArn() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccAppintegrationsApplication) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appintegrations_application awscc_appintegrations_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appintegrations_application awscc_appintegrations_application} Data Source.
 func NewDataAwsccAppintegrationsApplication(scope constructs.Construct, id *string, config *DataAwsccAppintegrationsApplicationConfig) DataAwsccAppintegrationsApplication {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccAppintegrationsApplication(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appintegrations_application awscc_appintegrations_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appintegrations_application awscc_appintegrations_application} Data Source.
 func NewDataAwsccAppintegrationsApplication_Override(d DataAwsccAppintegrationsApplication, scope constructs.Construct, id *string, config *DataAwsccAppintegrationsApplicationConfig) {
 	_init_.Initialize()
 

@@ -5,7 +5,7 @@ package servicecatalogcloudformationproduct
 
 
 type ServicecatalogCloudformationProductSourceConnectionConnectionParameters struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_cloudformation_product#code_star ServicecatalogCloudformationProduct#code_star}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_cloudformation_product#code_star ServicecatalogCloudformationProduct#code_star}.
 	CodeStar *ServicecatalogCloudformationProductSourceConnectionConnectionParametersCodeStar `field:"optional" json:"codeStar" yaml:"codeStar"`
 }
 

@@ -7,11 +7,11 @@ package servicecatalogcloudformationproduct
 type ServicecatalogCloudformationProductTags struct {
 	// The tag key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_cloudformation_product#key ServicecatalogCloudformationProduct#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_cloudformation_product#key ServicecatalogCloudformationProduct#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The tag value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalog_cloudformation_product#value ServicecatalogCloudformationProduct#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_cloudformation_product#value ServicecatalogCloudformationProduct#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

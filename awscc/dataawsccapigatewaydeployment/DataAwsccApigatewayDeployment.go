@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigateway_deployment awscc_apigateway_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apigateway_deployment awscc_apigateway_deployment}.
 type DataAwsccApigatewayDeployment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccApigatewayDeployment) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigateway_deployment awscc_apigateway_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apigateway_deployment awscc_apigateway_deployment} Data Source.
 func NewDataAwsccApigatewayDeployment(scope constructs.Construct, id *string, config *DataAwsccApigatewayDeploymentConfig) DataAwsccApigatewayDeployment {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccApigatewayDeployment(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apigateway_deployment awscc_apigateway_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apigateway_deployment awscc_apigateway_deployment} Data Source.
 func NewDataAwsccApigatewayDeployment_Override(d DataAwsccApigatewayDeployment, scope constructs.Construct, id *string, config *DataAwsccApigatewayDeploymentConfig) {
 	_init_.Initialize()
 

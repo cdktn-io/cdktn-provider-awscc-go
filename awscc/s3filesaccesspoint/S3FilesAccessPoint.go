@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3files_access_point awscc_s3files_access_point}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3files_access_point awscc_s3files_access_point}.
 type S3FilesAccessPoint interface {
 	cdktn.TerraformResource
 	AccessPointArn() *string
@@ -518,7 +518,7 @@ func (j *jsiiProxy_S3FilesAccessPoint) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3files_access_point awscc_s3files_access_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3files_access_point awscc_s3files_access_point} Resource.
 func NewS3FilesAccessPoint(scope constructs.Construct, id *string, config *S3FilesAccessPointConfig) S3FilesAccessPoint {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewS3FilesAccessPoint(scope constructs.Construct, id *string, config *S3Fil
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3files_access_point awscc_s3files_access_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3files_access_point awscc_s3files_access_point} Resource.
 func NewS3FilesAccessPoint_Override(s S3FilesAccessPoint, scope constructs.Construct, id *string, config *S3FilesAccessPointConfig) {
 	_init_.Initialize()
 

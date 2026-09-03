@@ -24,7 +24,7 @@ type LookoutvisionProjectConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the Amazon Lookout for Vision project.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lookoutvision_project#project_name LookoutvisionProject#project_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lookoutvision_project#project_name LookoutvisionProject#project_name}
 	ProjectName *string `field:"required" json:"projectName" yaml:"projectName"`
 }
 

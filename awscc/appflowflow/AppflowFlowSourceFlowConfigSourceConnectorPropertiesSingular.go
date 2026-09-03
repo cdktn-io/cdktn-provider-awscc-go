@@ -5,7 +5,7 @@ package appflowflow
 
 
 type AppflowFlowSourceFlowConfigSourceConnectorPropertiesSingular struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/appflow_flow#object AppflowFlow#object}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appflow_flow#object AppflowFlow#object}.
 	Object *string `field:"optional" json:"object" yaml:"object"`
 }
 

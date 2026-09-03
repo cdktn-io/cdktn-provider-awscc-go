@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_rest_api awscc_apigateway_rest_api}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_rest_api awscc_apigateway_rest_api}.
 type ApigatewayRestApi interface {
 	cdktn.TerraformResource
 	ApiKeySourceType() *string
@@ -112,6 +112,9 @@ type ApigatewayRestApi interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	Version() *string
+	SetVersion(val *string)
+	VersionInput() *string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -227,6 +230,7 @@ type ApigatewayRestApi interface {
 	ResetPolicy()
 	ResetSecurityPolicy()
 	ResetTags()
+	ResetVersion()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -784,8 +788,28 @@ func (j *jsiiProxy_ApigatewayRestApi) TerraformResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ApigatewayRestApi) Version() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"version",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_rest_api awscc_apigateway_rest_api} Resource.
+func (j *jsiiProxy_ApigatewayRestApi) VersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"versionInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_rest_api awscc_apigateway_rest_api} Resource.
 func NewApigatewayRestApi(scope constructs.Construct, id *string, config *ApigatewayRestApiConfig) ApigatewayRestApi {
 	_init_.Initialize()
 
@@ -803,7 +827,7 @@ func NewApigatewayRestApi(scope constructs.Construct, id *string, config *Apigat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigateway_rest_api awscc_apigateway_rest_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_rest_api awscc_apigateway_rest_api} Resource.
 func NewApigatewayRestApi_Override(a ApigatewayRestApi, scope constructs.Construct, id *string, config *ApigatewayRestApiConfig) {
 	_init_.Initialize()
 
@@ -1032,6 +1056,17 @@ func (j *jsiiProxy_ApigatewayRestApi)SetSecurityPolicy(val *string) {
 	_jsii_.Set(
 		j,
 		"securityPolicy",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApigatewayRestApi)SetVersion(val *string) {
+	if err := j.validateSetVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"version",
 		val,
 	)
 }
@@ -1589,6 +1624,14 @@ func (a *jsiiProxy_ApigatewayRestApi) ResetTags() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetTags",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApigatewayRestApi) ResetVersion() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetVersion",
 		nil, // no parameters
 	)
 }

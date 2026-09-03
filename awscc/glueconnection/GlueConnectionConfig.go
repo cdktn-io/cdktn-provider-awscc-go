@@ -26,15 +26,15 @@ type GlueConnectionConfig struct {
 	//
 	// Currently, this should be the AWS account ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#catalog_id GlueConnection#catalog_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#catalog_id GlueConnection#catalog_id}
 	CatalogId *string `field:"required" json:"catalogId" yaml:"catalogId"`
 	// The connection properties used for this connection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#connection_input GlueConnection#connection_input}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#connection_input GlueConnection#connection_input}
 	ConnectionInput *GlueConnectionConnectionInput `field:"required" json:"connectionInput" yaml:"connectionInput"`
 	// The collection of tags. Each tag element is associated with a given resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_connection#tags GlueConnection#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_connection#tags GlueConnection#tags}
 	Tags *string `field:"optional" json:"tags" yaml:"tags"`
 }
 

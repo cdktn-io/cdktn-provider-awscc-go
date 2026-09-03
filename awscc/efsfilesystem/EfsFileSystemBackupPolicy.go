@@ -10,7 +10,7 @@ type EfsFileSystemBackupPolicy struct {
 	// +  *ENABLED* - Turns automatic backups on for the file system.
 	//   +  *DISABLED* - Turns automatic backups off for the file system.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/efs_file_system#status EfsFileSystem#status}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/efs_file_system#status EfsFileSystem#status}
 	Status *string `field:"optional" json:"status" yaml:"status"`
 }
 

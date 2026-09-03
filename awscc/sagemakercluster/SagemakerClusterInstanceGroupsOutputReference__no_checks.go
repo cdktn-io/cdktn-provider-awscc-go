@@ -47,7 +47,15 @@ func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) validateInterp
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) validatePutAutoPatchConfigParameters(value *SagemakerClusterInstanceGroupsAutoPatchConfig) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) validatePutCapacityRequirementsParameters(value *SagemakerClusterInstanceGroupsCapacityRequirements) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) validatePutInstanceRequirementsParameters(value *SagemakerClusterInstanceGroupsInstanceRequirements) error {
 	return nil
 }
 
@@ -63,11 +71,19 @@ func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) validatePutLif
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) validatePutNetworkInterfaceParameters(value *SagemakerClusterInstanceGroupsNetworkInterface) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) validatePutOverrideVpcConfigParameters(value *SagemakerClusterInstanceGroupsOverrideVpcConfig) error {
 	return nil
 }
 
 func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) validatePutScheduledUpdateConfigParameters(value *SagemakerClusterInstanceGroupsScheduledUpdateConfig) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) validatePutSlurmConfigParameters(value *SagemakerClusterInstanceGroupsSlurmConfig) error {
 	return nil
 }
 

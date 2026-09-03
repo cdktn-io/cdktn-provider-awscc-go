@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pinpoint_in_app_template awscc_pinpoint_in_app_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pinpoint_in_app_template awscc_pinpoint_in_app_template}.
 type PinpointInAppTemplate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -509,7 +509,7 @@ func (j *jsiiProxy_PinpointInAppTemplate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pinpoint_in_app_template awscc_pinpoint_in_app_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pinpoint_in_app_template awscc_pinpoint_in_app_template} Resource.
 func NewPinpointInAppTemplate(scope constructs.Construct, id *string, config *PinpointInAppTemplateConfig) PinpointInAppTemplate {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewPinpointInAppTemplate(scope constructs.Construct, id *string, config *Pi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pinpoint_in_app_template awscc_pinpoint_in_app_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pinpoint_in_app_template awscc_pinpoint_in_app_template} Resource.
 func NewPinpointInAppTemplate_Override(p PinpointInAppTemplate, scope constructs.Construct, id *string, config *PinpointInAppTemplateConfig) {
 	_init_.Initialize()
 

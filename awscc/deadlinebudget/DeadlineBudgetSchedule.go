@@ -7,7 +7,7 @@ package deadlinebudget
 type DeadlineBudgetSchedule struct {
 	// The details of a fixed budget schedule.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/deadline_budget#fixed DeadlineBudget#fixed}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/deadline_budget#fixed DeadlineBudget#fixed}
 	Fixed *DeadlineBudgetScheduleFixed `field:"required" json:"fixed" yaml:"fixed"`
 }
 

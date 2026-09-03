@@ -47,6 +47,10 @@ func (s *jsiiProxy_SagemakerInferenceComponentSpecificationContainerOutputRefere
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerInferenceComponentSpecificationContainerOutputReference) validatePutContainerMetricsConfigParameters(value *SagemakerInferenceComponentSpecificationContainerContainerMetricsConfig) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerInferenceComponentSpecificationContainerOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

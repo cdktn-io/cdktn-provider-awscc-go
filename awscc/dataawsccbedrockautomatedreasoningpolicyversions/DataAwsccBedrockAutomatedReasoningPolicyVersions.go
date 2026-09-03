@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrock_automated_reasoning_policy_versions awscc_bedrock_automated_reasoning_policy_versions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrock_automated_reasoning_policy_versions awscc_bedrock_automated_reasoning_policy_versions}.
 type DataAwsccBedrockAutomatedReasoningPolicyVersions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockAutomatedReasoningPolicyVersions) TerraformRe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrock_automated_reasoning_policy_versions awscc_bedrock_automated_reasoning_policy_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrock_automated_reasoning_policy_versions awscc_bedrock_automated_reasoning_policy_versions} Data Source.
 func NewDataAwsccBedrockAutomatedReasoningPolicyVersions(scope constructs.Construct, id *string, config *DataAwsccBedrockAutomatedReasoningPolicyVersionsConfig) DataAwsccBedrockAutomatedReasoningPolicyVersions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockAutomatedReasoningPolicyVersions(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrock_automated_reasoning_policy_versions awscc_bedrock_automated_reasoning_policy_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrock_automated_reasoning_policy_versions awscc_bedrock_automated_reasoning_policy_versions} Data Source.
 func NewDataAwsccBedrockAutomatedReasoningPolicyVersions_Override(d DataAwsccBedrockAutomatedReasoningPolicyVersions, scope constructs.Construct, id *string, config *DataAwsccBedrockAutomatedReasoningPolicyVersionsConfig) {
 	_init_.Initialize()
 

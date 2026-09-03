@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/healthimaging_datastore awscc_healthimaging_datastore}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/healthimaging_datastore awscc_healthimaging_datastore}.
 type HealthimagingDatastore interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -482,7 +482,7 @@ func (j *jsiiProxy_HealthimagingDatastore) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/healthimaging_datastore awscc_healthimaging_datastore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/healthimaging_datastore awscc_healthimaging_datastore} Resource.
 func NewHealthimagingDatastore(scope constructs.Construct, id *string, config *HealthimagingDatastoreConfig) HealthimagingDatastore {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewHealthimagingDatastore(scope constructs.Construct, id *string, config *H
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/healthimaging_datastore awscc_healthimaging_datastore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/healthimaging_datastore awscc_healthimaging_datastore} Resource.
 func NewHealthimagingDatastore_Override(h HealthimagingDatastore, scope constructs.Construct, id *string, config *HealthimagingDatastoreConfig) {
 	_init_.Initialize()
 

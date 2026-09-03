@@ -22,17 +22,17 @@ type OamLinkConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/oam_link#resource_types OamLink#resource_types}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/oam_link#resource_types OamLink#resource_types}.
 	ResourceTypes *[]*string `field:"required" json:"resourceTypes" yaml:"resourceTypes"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/oam_link#sink_identifier OamLink#sink_identifier}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/oam_link#sink_identifier OamLink#sink_identifier}.
 	SinkIdentifier *string `field:"required" json:"sinkIdentifier" yaml:"sinkIdentifier"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/oam_link#label_template OamLink#label_template}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/oam_link#label_template OamLink#label_template}.
 	LabelTemplate *string `field:"optional" json:"labelTemplate" yaml:"labelTemplate"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/oam_link#link_configuration OamLink#link_configuration}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/oam_link#link_configuration OamLink#link_configuration}.
 	LinkConfiguration *OamLinkLinkConfiguration `field:"optional" json:"linkConfiguration" yaml:"linkConfiguration"`
 	// Tags to apply to the link.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/oam_link#tags OamLink#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/oam_link#tags OamLink#tags}
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 }
 

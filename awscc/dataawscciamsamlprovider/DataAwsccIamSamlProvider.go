@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iam_saml_provider awscc_iam_saml_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iam_saml_provider awscc_iam_saml_provider}.
 type DataAwsccIamSamlProvider interface {
 	cdktn.TerraformDataSource
 	AddPrivateKey() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccIamSamlProvider) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iam_saml_provider awscc_iam_saml_provider} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iam_saml_provider awscc_iam_saml_provider} Data Source.
 func NewDataAwsccIamSamlProvider(scope constructs.Construct, id *string, config *DataAwsccIamSamlProviderConfig) DataAwsccIamSamlProvider {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccIamSamlProvider(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iam_saml_provider awscc_iam_saml_provider} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iam_saml_provider awscc_iam_saml_provider} Data Source.
 func NewDataAwsccIamSamlProvider_Override(d DataAwsccIamSamlProvider, scope constructs.Construct, id *string, config *DataAwsccIamSamlProviderConfig) {
 	_init_.Initialize()
 

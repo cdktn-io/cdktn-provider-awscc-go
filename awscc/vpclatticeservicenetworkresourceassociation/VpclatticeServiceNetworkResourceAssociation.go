@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_service_network_resource_association awscc_vpclattice_service_network_resource_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/vpclattice_service_network_resource_association awscc_vpclattice_service_network_resource_association}.
 type VpclatticeServiceNetworkResourceAssociation interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_VpclatticeServiceNetworkResourceAssociation) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_service_network_resource_association awscc_vpclattice_service_network_resource_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/vpclattice_service_network_resource_association awscc_vpclattice_service_network_resource_association} Resource.
 func NewVpclatticeServiceNetworkResourceAssociation(scope constructs.Construct, id *string, config *VpclatticeServiceNetworkResourceAssociationConfig) VpclatticeServiceNetworkResourceAssociation {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewVpclatticeServiceNetworkResourceAssociation(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/vpclattice_service_network_resource_association awscc_vpclattice_service_network_resource_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/vpclattice_service_network_resource_association awscc_vpclattice_service_network_resource_association} Resource.
 func NewVpclatticeServiceNetworkResourceAssociation_Override(v VpclatticeServiceNetworkResourceAssociation, scope constructs.Construct, id *string, config *VpclatticeServiceNetworkResourceAssociationConfig) {
 	_init_.Initialize()
 

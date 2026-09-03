@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codedeploy_application awscc_codedeploy_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codedeploy_application awscc_codedeploy_application}.
 type CodedeployApplication interface {
 	cdktn.TerraformResource
 	ApplicationName() *string
@@ -427,7 +427,7 @@ func (j *jsiiProxy_CodedeployApplication) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codedeploy_application awscc_codedeploy_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codedeploy_application awscc_codedeploy_application} Resource.
 func NewCodedeployApplication(scope constructs.Construct, id *string, config *CodedeployApplicationConfig) CodedeployApplication {
 	_init_.Initialize()
 
@@ -445,7 +445,7 @@ func NewCodedeployApplication(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/codedeploy_application awscc_codedeploy_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codedeploy_application awscc_codedeploy_application} Resource.
 func NewCodedeployApplication_Override(c CodedeployApplication, scope constructs.Construct, id *string, config *CodedeployApplicationConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorad_directory_registration awscc_pcaconnectorad_directory_registration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pcaconnectorad_directory_registration awscc_pcaconnectorad_directory_registration}.
 type PcaconnectoradDirectoryRegistration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_PcaconnectoradDirectoryRegistration) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorad_directory_registration awscc_pcaconnectorad_directory_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pcaconnectorad_directory_registration awscc_pcaconnectorad_directory_registration} Resource.
 func NewPcaconnectoradDirectoryRegistration(scope constructs.Construct, id *string, config *PcaconnectoradDirectoryRegistrationConfig) PcaconnectoradDirectoryRegistration {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewPcaconnectoradDirectoryRegistration(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcaconnectorad_directory_registration awscc_pcaconnectorad_directory_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pcaconnectorad_directory_registration awscc_pcaconnectorad_directory_registration} Resource.
 func NewPcaconnectoradDirectoryRegistration_Override(p PcaconnectoradDirectoryRegistration, scope constructs.Construct, id *string, config *PcaconnectoradDirectoryRegistrationConfig) {
 	_init_.Initialize()
 

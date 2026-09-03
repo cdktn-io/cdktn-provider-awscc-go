@@ -7,7 +7,7 @@ package bedrockagentcorecodeinterpretercustom
 type BedrockagentcoreCodeInterpreterCustomCertificates struct {
 	// Certificate location in Secrets Manager.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_code_interpreter_custom#certificate_location BedrockagentcoreCodeInterpreterCustom#certificate_location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_code_interpreter_custom#certificate_location BedrockagentcoreCodeInterpreterCustom#certificate_location}
 	CertificateLocation *BedrockagentcoreCodeInterpreterCustomCertificatesCertificateLocation `field:"optional" json:"certificateLocation" yaml:"certificateLocation"`
 }
 

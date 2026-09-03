@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/config_aggregation_authorizations awscc_config_aggregation_authorizations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/config_aggregation_authorizations awscc_config_aggregation_authorizations}.
 type DataAwsccConfigAggregationAuthorizations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccConfigAggregationAuthorizations) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/config_aggregation_authorizations awscc_config_aggregation_authorizations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/config_aggregation_authorizations awscc_config_aggregation_authorizations} Data Source.
 func NewDataAwsccConfigAggregationAuthorizations(scope constructs.Construct, id *string, config *DataAwsccConfigAggregationAuthorizationsConfig) DataAwsccConfigAggregationAuthorizations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccConfigAggregationAuthorizations(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/config_aggregation_authorizations awscc_config_aggregation_authorizations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/config_aggregation_authorizations awscc_config_aggregation_authorizations} Data Source.
 func NewDataAwsccConfigAggregationAuthorizations_Override(d DataAwsccConfigAggregationAuthorizations, scope constructs.Construct, id *string, config *DataAwsccConfigAggregationAuthorizationsConfig) {
 	_init_.Initialize()
 

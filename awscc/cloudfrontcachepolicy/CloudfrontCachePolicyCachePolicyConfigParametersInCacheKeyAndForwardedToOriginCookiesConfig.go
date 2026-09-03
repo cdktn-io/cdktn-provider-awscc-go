@@ -13,11 +13,11 @@ type CloudfrontCachePolicyCachePolicyConfigParametersInCacheKeyAndForwardedToOri
 	//   +  ``allExcept`` ? All cookies in viewer requests are included in the cache key and in requests that CloudFront sends to the origin, *except* for those that are listed in the ``CookieNames`` type, which are not included.
 	//   +  ``all`` ? All cookies in viewer requests are included in the cache key and in requests that CloudFront sends to the origin.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_cache_policy#cookie_behavior CloudfrontCachePolicy#cookie_behavior}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_cache_policy#cookie_behavior CloudfrontCachePolicy#cookie_behavior}
 	CookieBehavior *string `field:"required" json:"cookieBehavior" yaml:"cookieBehavior"`
 	// Contains a list of cookie names.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cloudfront_cache_policy#cookies CloudfrontCachePolicy#cookies}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_cache_policy#cookies CloudfrontCachePolicy#cookies}
 	Cookies *[]*string `field:"optional" json:"cookies" yaml:"cookies"`
 }
 

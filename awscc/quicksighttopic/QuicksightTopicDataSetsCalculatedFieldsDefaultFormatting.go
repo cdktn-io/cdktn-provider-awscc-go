@@ -5,9 +5,9 @@ package quicksighttopic
 
 
 type QuicksightTopicDataSetsCalculatedFieldsDefaultFormatting struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_topic#display_format QuicksightTopic#display_format}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_topic#display_format QuicksightTopic#display_format}.
 	DisplayFormat *string `field:"optional" json:"displayFormat" yaml:"displayFormat"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_topic#display_format_options QuicksightTopic#display_format_options}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_topic#display_format_options QuicksightTopic#display_format_options}.
 	DisplayFormatOptions *QuicksightTopicDataSetsCalculatedFieldsDefaultFormattingDisplayFormatOptions `field:"optional" json:"displayFormatOptions" yaml:"displayFormatOptions"`
 }
 

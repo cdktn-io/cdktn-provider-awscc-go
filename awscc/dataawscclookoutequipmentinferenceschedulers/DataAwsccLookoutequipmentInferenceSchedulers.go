@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lookoutequipment_inference_schedulers awscc_lookoutequipment_inference_schedulers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lookoutequipment_inference_schedulers awscc_lookoutequipment_inference_schedulers}.
 type DataAwsccLookoutequipmentInferenceSchedulers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLookoutequipmentInferenceSchedulers) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lookoutequipment_inference_schedulers awscc_lookoutequipment_inference_schedulers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lookoutequipment_inference_schedulers awscc_lookoutequipment_inference_schedulers} Data Source.
 func NewDataAwsccLookoutequipmentInferenceSchedulers(scope constructs.Construct, id *string, config *DataAwsccLookoutequipmentInferenceSchedulersConfig) DataAwsccLookoutequipmentInferenceSchedulers {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLookoutequipmentInferenceSchedulers(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lookoutequipment_inference_schedulers awscc_lookoutequipment_inference_schedulers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lookoutequipment_inference_schedulers awscc_lookoutequipment_inference_schedulers} Data Source.
 func NewDataAwsccLookoutequipmentInferenceSchedulers_Override(d DataAwsccLookoutequipmentInferenceSchedulers, scope constructs.Construct, id *string, config *DataAwsccLookoutequipmentInferenceSchedulersConfig) {
 	_init_.Initialize()
 

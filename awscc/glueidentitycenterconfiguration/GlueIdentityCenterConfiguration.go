@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_identity_center_configuration awscc_glue_identity_center_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_identity_center_configuration awscc_glue_identity_center_configuration}.
 type GlueIdentityCenterConfiguration interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -448,7 +448,7 @@ func (j *jsiiProxy_GlueIdentityCenterConfiguration) UserBackgroundSessionsEnable
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_identity_center_configuration awscc_glue_identity_center_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_identity_center_configuration awscc_glue_identity_center_configuration} Resource.
 func NewGlueIdentityCenterConfiguration(scope constructs.Construct, id *string, config *GlueIdentityCenterConfigurationConfig) GlueIdentityCenterConfiguration {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewGlueIdentityCenterConfiguration(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_identity_center_configuration awscc_glue_identity_center_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_identity_center_configuration awscc_glue_identity_center_configuration} Resource.
 func NewGlueIdentityCenterConfiguration_Override(g GlueIdentityCenterConfiguration, scope constructs.Construct, id *string, config *GlueIdentityCenterConfigurationConfig) {
 	_init_.Initialize()
 

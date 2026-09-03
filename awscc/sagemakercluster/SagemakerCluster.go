@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster awscc_sagemaker_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster awscc_sagemaker_cluster}.
 type SagemakerCluster interface {
 	cdktn.TerraformResource
 	AutoScaling() SagemakerClusterAutoScalingOutputReference
@@ -79,6 +79,8 @@ type SagemakerCluster interface {
 	// Experimental.
 	RawOverrides() interface{}
 	RestrictedInstanceGroups() SagemakerClusterRestrictedInstanceGroupsList
+	RestrictedInstanceGroupsConfig() SagemakerClusterRestrictedInstanceGroupsConfigOutputReference
+	RestrictedInstanceGroupsConfigInput() interface{}
 	RestrictedInstanceGroupsInput() interface{}
 	Tags() SagemakerClusterTagsList
 	TagsInput() interface{}
@@ -175,6 +177,7 @@ type SagemakerCluster interface {
 	PutInstanceGroups(value interface{})
 	PutOrchestrator(value *SagemakerClusterOrchestrator)
 	PutRestrictedInstanceGroups(value interface{})
+	PutRestrictedInstanceGroupsConfig(value *SagemakerClusterRestrictedInstanceGroupsConfig)
 	PutTags(value interface{})
 	PutTieredStorageConfig(value *SagemakerClusterTieredStorageConfig)
 	PutVpcConfig(value *SagemakerClusterVpcConfig)
@@ -202,6 +205,7 @@ type SagemakerCluster interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRestrictedInstanceGroups()
+	ResetRestrictedInstanceGroupsConfig()
 	ResetTags()
 	ResetTieredStorageConfig()
 	ResetVpcConfig()
@@ -562,6 +566,26 @@ func (j *jsiiProxy_SagemakerCluster) RestrictedInstanceGroups() SagemakerCluster
 	return returns
 }
 
+func (j *jsiiProxy_SagemakerCluster) RestrictedInstanceGroupsConfig() SagemakerClusterRestrictedInstanceGroupsConfigOutputReference {
+	var returns SagemakerClusterRestrictedInstanceGroupsConfigOutputReference
+	_jsii_.Get(
+		j,
+		"restrictedInstanceGroupsConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerCluster) RestrictedInstanceGroupsConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"restrictedInstanceGroupsConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_SagemakerCluster) RestrictedInstanceGroupsInput() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -663,7 +687,7 @@ func (j *jsiiProxy_SagemakerCluster) VpcConfigInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster awscc_sagemaker_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster awscc_sagemaker_cluster} Resource.
 func NewSagemakerCluster(scope constructs.Construct, id *string, config *SagemakerClusterConfig) SagemakerCluster {
 	_init_.Initialize()
 
@@ -681,7 +705,7 @@ func NewSagemakerCluster(scope constructs.Construct, id *string, config *Sagemak
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_cluster awscc_sagemaker_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster awscc_sagemaker_cluster} Resource.
 func NewSagemakerCluster_Override(s SagemakerCluster, scope constructs.Construct, id *string, config *SagemakerClusterConfig) {
 	_init_.Initialize()
 
@@ -1217,6 +1241,17 @@ func (s *jsiiProxy_SagemakerCluster) PutRestrictedInstanceGroups(value interface
 	)
 }
 
+func (s *jsiiProxy_SagemakerCluster) PutRestrictedInstanceGroupsConfig(value *SagemakerClusterRestrictedInstanceGroupsConfig) {
+	if err := s.validatePutRestrictedInstanceGroupsConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putRestrictedInstanceGroupsConfig",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_SagemakerCluster) PutTags(value interface{}) {
 	if err := s.validatePutTagsParameters(value); err != nil {
 		panic(err)
@@ -1329,6 +1364,14 @@ func (s *jsiiProxy_SagemakerCluster) ResetRestrictedInstanceGroups() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetRestrictedInstanceGroups",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SagemakerCluster) ResetRestrictedInstanceGroupsConfig() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetRestrictedInstanceGroupsConfig",
 		nil, // no parameters
 	)
 }

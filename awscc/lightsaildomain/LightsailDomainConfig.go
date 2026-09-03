@@ -24,15 +24,15 @@ type LightsailDomainConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the domain to manage in Lightsail.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_domain#domain_name LightsailDomain#domain_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_domain#domain_name LightsailDomain#domain_name}
 	DomainName *string `field:"required" json:"domainName" yaml:"domainName"`
 	// An array of key-value pairs containing information about the domain entries.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_domain#domain_entries LightsailDomain#domain_entries}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_domain#domain_entries LightsailDomain#domain_entries}
 	DomainEntries interface{} `field:"optional" json:"domainEntries" yaml:"domainEntries"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/lightsail_domain#tags LightsailDomain#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_domain#tags LightsailDomain#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

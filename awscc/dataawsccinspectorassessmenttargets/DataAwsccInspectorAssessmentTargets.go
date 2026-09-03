@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/inspector_assessment_targets awscc_inspector_assessment_targets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/inspector_assessment_targets awscc_inspector_assessment_targets}.
 type DataAwsccInspectorAssessmentTargets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccInspectorAssessmentTargets) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/inspector_assessment_targets awscc_inspector_assessment_targets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/inspector_assessment_targets awscc_inspector_assessment_targets} Data Source.
 func NewDataAwsccInspectorAssessmentTargets(scope constructs.Construct, id *string, config *DataAwsccInspectorAssessmentTargetsConfig) DataAwsccInspectorAssessmentTargets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccInspectorAssessmentTargets(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/inspector_assessment_targets awscc_inspector_assessment_targets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/inspector_assessment_targets awscc_inspector_assessment_targets} Data Source.
 func NewDataAwsccInspectorAssessmentTargets_Override(d DataAwsccInspectorAssessmentTargets, scope constructs.Construct, id *string, config *DataAwsccInspectorAssessmentTargetsConfig) {
 	_init_.Initialize()
 

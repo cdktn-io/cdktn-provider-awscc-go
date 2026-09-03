@@ -183,6 +183,10 @@ func (j *jsiiProxy_ApigatewayRestApi) validateSetSecurityPolicyParameters(val *s
 	return nil
 }
 
+func (j *jsiiProxy_ApigatewayRestApi) validateSetVersionParameters(val *string) error {
+	return nil
+}
+
 func validateNewApigatewayRestApiParameters(scope constructs.Construct, id *string, config *ApigatewayRestApiConfig) error {
 	return nil
 }

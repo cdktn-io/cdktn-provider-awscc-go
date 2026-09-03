@@ -7,11 +7,11 @@ package iotstream
 type IotStreamFiles struct {
 	// The file ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_stream#file_id IotStream#file_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_stream#file_id IotStream#file_id}
 	FileId *float64 `field:"optional" json:"fileId" yaml:"fileId"`
 	// The location of the file in S3.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_stream#s3_location IotStream#s3_location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_stream#s3_location IotStream#s3_location}
 	S3Location *IotStreamFilesS3Location `field:"optional" json:"s3Location" yaml:"s3Location"`
 }
 

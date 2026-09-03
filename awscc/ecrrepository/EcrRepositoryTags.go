@@ -9,11 +9,11 @@ type EcrRepositoryTags struct {
 	//
 	// A ``key`` is a general label that acts like a category for more specific tag values.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#key EcrRepository#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecr_repository#key EcrRepository#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// A ``value`` acts as a descriptor within a tag category (key).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecr_repository#value EcrRepository#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecr_repository#value EcrRepository#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

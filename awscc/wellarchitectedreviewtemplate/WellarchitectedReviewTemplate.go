@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_review_template awscc_wellarchitected_review_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_review_template awscc_wellarchitected_review_template}.
 type WellarchitectedReviewTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -516,7 +516,7 @@ func (j *jsiiProxy_WellarchitectedReviewTemplate) UpdateStatus() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_review_template awscc_wellarchitected_review_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_review_template awscc_wellarchitected_review_template} Resource.
 func NewWellarchitectedReviewTemplate(scope constructs.Construct, id *string, config *WellarchitectedReviewTemplateConfig) WellarchitectedReviewTemplate {
 	_init_.Initialize()
 
@@ -534,7 +534,7 @@ func NewWellarchitectedReviewTemplate(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_review_template awscc_wellarchitected_review_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_review_template awscc_wellarchitected_review_template} Resource.
 func NewWellarchitectedReviewTemplate_Override(w WellarchitectedReviewTemplate, scope constructs.Construct, id *string, config *WellarchitectedReviewTemplateConfig) {
 	_init_.Initialize()
 

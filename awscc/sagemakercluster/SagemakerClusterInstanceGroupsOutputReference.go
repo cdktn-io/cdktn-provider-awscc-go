@@ -13,6 +13,8 @@ import (
 
 type SagemakerClusterInstanceGroupsOutputReference interface {
 	cdktn.ComplexObject
+	AutoPatchConfig() SagemakerClusterInstanceGroupsAutoPatchConfigOutputReference
+	AutoPatchConfigInput() interface{}
 	CapacityRequirements() SagemakerClusterInstanceGroupsCapacityRequirementsOutputReference
 	CapacityRequirementsInput() interface{}
 	// the index of the complex object in a list.
@@ -47,6 +49,8 @@ type SagemakerClusterInstanceGroupsOutputReference interface {
 	InstanceGroupName() *string
 	SetInstanceGroupName(val *string)
 	InstanceGroupNameInput() *string
+	InstanceRequirements() SagemakerClusterInstanceGroupsInstanceRequirementsOutputReference
+	InstanceRequirementsInput() interface{}
 	InstanceStorageConfigs() SagemakerClusterInstanceGroupsInstanceStorageConfigsList
 	InstanceStorageConfigsInput() interface{}
 	InstanceType() *string
@@ -61,6 +65,8 @@ type SagemakerClusterInstanceGroupsOutputReference interface {
 	MinInstanceCount() *float64
 	SetMinInstanceCount(val *float64)
 	MinInstanceCountInput() *float64
+	NetworkInterface() SagemakerClusterInstanceGroupsNetworkInterfaceOutputReference
+	NetworkInterfaceInput() interface{}
 	OnStartDeepHealthChecks() *[]*string
 	SetOnStartDeepHealthChecks(val *[]*string)
 	OnStartDeepHealthChecksInput() *[]*string
@@ -68,6 +74,8 @@ type SagemakerClusterInstanceGroupsOutputReference interface {
 	OverrideVpcConfigInput() interface{}
 	ScheduledUpdateConfig() SagemakerClusterInstanceGroupsScheduledUpdateConfigOutputReference
 	ScheduledUpdateConfigInput() interface{}
+	SlurmConfig() SagemakerClusterInstanceGroupsSlurmConfigOutputReference
+	SlurmConfigInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -106,26 +114,34 @@ type SagemakerClusterInstanceGroupsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAutoPatchConfig(value *SagemakerClusterInstanceGroupsAutoPatchConfig)
 	PutCapacityRequirements(value *SagemakerClusterInstanceGroupsCapacityRequirements)
+	PutInstanceRequirements(value *SagemakerClusterInstanceGroupsInstanceRequirements)
 	PutInstanceStorageConfigs(value interface{})
 	PutKubernetesConfig(value *SagemakerClusterInstanceGroupsKubernetesConfig)
 	PutLifeCycleConfig(value *SagemakerClusterInstanceGroupsLifeCycleConfig)
+	PutNetworkInterface(value *SagemakerClusterInstanceGroupsNetworkInterface)
 	PutOverrideVpcConfig(value *SagemakerClusterInstanceGroupsOverrideVpcConfig)
 	PutScheduledUpdateConfig(value *SagemakerClusterInstanceGroupsScheduledUpdateConfig)
+	PutSlurmConfig(value *SagemakerClusterInstanceGroupsSlurmConfig)
+	ResetAutoPatchConfig()
 	ResetCapacityRequirements()
 	ResetCurrentCount()
 	ResetExecutionRole()
 	ResetImageId()
 	ResetInstanceCount()
 	ResetInstanceGroupName()
+	ResetInstanceRequirements()
 	ResetInstanceStorageConfigs()
 	ResetInstanceType()
 	ResetKubernetesConfig()
 	ResetLifeCycleConfig()
 	ResetMinInstanceCount()
+	ResetNetworkInterface()
 	ResetOnStartDeepHealthChecks()
 	ResetOverrideVpcConfig()
 	ResetScheduledUpdateConfig()
+	ResetSlurmConfig()
 	ResetThreadsPerCore()
 	ResetTrainingPlanArn()
 	// Produce the Token's value at resolution time.
@@ -141,6 +157,26 @@ type SagemakerClusterInstanceGroupsOutputReference interface {
 // The jsii proxy struct for SagemakerClusterInstanceGroupsOutputReference
 type jsiiProxy_SagemakerClusterInstanceGroupsOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) AutoPatchConfig() SagemakerClusterInstanceGroupsAutoPatchConfigOutputReference {
+	var returns SagemakerClusterInstanceGroupsAutoPatchConfigOutputReference
+	_jsii_.Get(
+		j,
+		"autoPatchConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) AutoPatchConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"autoPatchConfigInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) CapacityRequirements() SagemakerClusterInstanceGroupsCapacityRequirementsOutputReference {
@@ -303,6 +339,26 @@ func (j *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) InstanceGroupN
 	return returns
 }
 
+func (j *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) InstanceRequirements() SagemakerClusterInstanceGroupsInstanceRequirementsOutputReference {
+	var returns SagemakerClusterInstanceGroupsInstanceRequirementsOutputReference
+	_jsii_.Get(
+		j,
+		"instanceRequirements",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) InstanceRequirementsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"instanceRequirementsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) InstanceStorageConfigs() SagemakerClusterInstanceGroupsInstanceStorageConfigsList {
 	var returns SagemakerClusterInstanceGroupsInstanceStorageConfigsList
 	_jsii_.Get(
@@ -413,6 +469,26 @@ func (j *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) MinInstanceCou
 	return returns
 }
 
+func (j *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) NetworkInterface() SagemakerClusterInstanceGroupsNetworkInterfaceOutputReference {
+	var returns SagemakerClusterInstanceGroupsNetworkInterfaceOutputReference
+	_jsii_.Get(
+		j,
+		"networkInterface",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) NetworkInterfaceInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"networkInterfaceInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) OnStartDeepHealthChecks() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -468,6 +544,26 @@ func (j *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) ScheduledUpdat
 	_jsii_.Get(
 		j,
 		"scheduledUpdateConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) SlurmConfig() SagemakerClusterInstanceGroupsSlurmConfigOutputReference {
+	var returns SagemakerClusterInstanceGroupsSlurmConfigOutputReference
+	_jsii_.Get(
+		j,
+		"slurmConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) SlurmConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"slurmConfigInput",
 		&returns,
 	)
 	return returns
@@ -912,6 +1008,17 @@ func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) InterpolationF
 	return returns
 }
 
+func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) PutAutoPatchConfig(value *SagemakerClusterInstanceGroupsAutoPatchConfig) {
+	if err := s.validatePutAutoPatchConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putAutoPatchConfig",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) PutCapacityRequirements(value *SagemakerClusterInstanceGroupsCapacityRequirements) {
 	if err := s.validatePutCapacityRequirementsParameters(value); err != nil {
 		panic(err)
@@ -919,6 +1026,17 @@ func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) PutCapacityReq
 	_jsii_.InvokeVoid(
 		s,
 		"putCapacityRequirements",
+		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) PutInstanceRequirements(value *SagemakerClusterInstanceGroupsInstanceRequirements) {
+	if err := s.validatePutInstanceRequirementsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putInstanceRequirements",
 		[]interface{}{value},
 	)
 }
@@ -956,6 +1074,17 @@ func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) PutLifeCycleCo
 	)
 }
 
+func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) PutNetworkInterface(value *SagemakerClusterInstanceGroupsNetworkInterface) {
+	if err := s.validatePutNetworkInterfaceParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putNetworkInterface",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) PutOverrideVpcConfig(value *SagemakerClusterInstanceGroupsOverrideVpcConfig) {
 	if err := s.validatePutOverrideVpcConfigParameters(value); err != nil {
 		panic(err)
@@ -975,6 +1104,25 @@ func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) PutScheduledUp
 		s,
 		"putScheduledUpdateConfig",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) PutSlurmConfig(value *SagemakerClusterInstanceGroupsSlurmConfig) {
+	if err := s.validatePutSlurmConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putSlurmConfig",
+		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) ResetAutoPatchConfig() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetAutoPatchConfig",
+		nil, // no parameters
 	)
 }
 
@@ -1026,6 +1174,14 @@ func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) ResetInstanceG
 	)
 }
 
+func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) ResetInstanceRequirements() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetInstanceRequirements",
+		nil, // no parameters
+	)
+}
+
 func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) ResetInstanceStorageConfigs() {
 	_jsii_.InvokeVoid(
 		s,
@@ -1066,6 +1222,14 @@ func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) ResetMinInstan
 	)
 }
 
+func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) ResetNetworkInterface() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetNetworkInterface",
+		nil, // no parameters
+	)
+}
+
 func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) ResetOnStartDeepHealthChecks() {
 	_jsii_.InvokeVoid(
 		s,
@@ -1086,6 +1250,14 @@ func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) ResetScheduled
 	_jsii_.InvokeVoid(
 		s,
 		"resetScheduledUpdateConfig",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) ResetSlurmConfig() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetSlurmConfig",
 		nil, // no parameters
 	)
 }

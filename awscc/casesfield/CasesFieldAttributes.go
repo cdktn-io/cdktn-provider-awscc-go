@@ -7,7 +7,7 @@ package casesfield
 type CasesFieldAttributes struct {
 	// Field attributes for Text field type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/cases_field#text CasesField#text}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_field#text CasesField#text}
 	Text *CasesFieldAttributesText `field:"optional" json:"text" yaml:"text"`
 }
 

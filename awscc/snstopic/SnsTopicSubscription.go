@@ -9,11 +9,11 @@ type SnsTopicSubscription struct {
 	//
 	// The endpoint value depends on the protocol that you specify. For more information, see the ``Endpoint`` parameter of the ``Subscribe`` action in the *API Reference*.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#endpoint SnsTopic#endpoint}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#endpoint SnsTopic#endpoint}
 	Endpoint *string `field:"optional" json:"endpoint" yaml:"endpoint"`
 	// The subscription's protocol. For more information, see the ``Protocol`` parameter of the ``Subscribe`` action in the *API Reference*.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic#protocol SnsTopic#protocol}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic#protocol SnsTopic#protocol}
 	Protocol *string `field:"optional" json:"protocol" yaml:"protocol"`
 }
 

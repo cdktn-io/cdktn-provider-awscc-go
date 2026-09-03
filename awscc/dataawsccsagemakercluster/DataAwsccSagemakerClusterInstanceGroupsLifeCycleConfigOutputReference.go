@@ -33,6 +33,7 @@ type DataAwsccSagemakerClusterInstanceGroupsLifeCycleConfigOutputReference inter
 	InternalValue() *DataAwsccSagemakerClusterInstanceGroupsLifeCycleConfig
 	SetInternalValue(val *DataAwsccSagemakerClusterInstanceGroupsLifeCycleConfig)
 	OnCreate() *string
+	OnInitComplete() *string
 	SourceS3Uri() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -136,6 +137,16 @@ func (j *jsiiProxy_DataAwsccSagemakerClusterInstanceGroupsLifeCycleConfigOutputR
 	_jsii_.Get(
 		j,
 		"onCreate",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerClusterInstanceGroupsLifeCycleConfigOutputReference) OnInitComplete() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"onInitComplete",
 		&returns,
 	)
 	return returns

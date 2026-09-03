@@ -5,9 +5,9 @@ package bedrockagentcoreharness
 
 
 type BedrockagentcoreHarnessTruncation struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_harness#config BedrockagentcoreHarness#config}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_harness#config BedrockagentcoreHarness#config}.
 	Config *BedrockagentcoreHarnessTruncationConfig `field:"optional" json:"config" yaml:"config"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_harness#strategy BedrockagentcoreHarness#strategy}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_harness#strategy BedrockagentcoreHarness#strategy}.
 	Strategy *string `field:"optional" json:"strategy" yaml:"strategy"`
 }
 

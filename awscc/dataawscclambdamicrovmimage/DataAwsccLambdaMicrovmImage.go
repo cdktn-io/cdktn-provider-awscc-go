@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lambda_microvm_image awscc_lambda_microvm_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lambda_microvm_image awscc_lambda_microvm_image}.
 type DataAwsccLambdaMicrovmImage interface {
 	cdktn.TerraformDataSource
 	AdditionalOsCapabilities() *[]*string
@@ -506,7 +506,7 @@ func (j *jsiiProxy_DataAwsccLambdaMicrovmImage) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lambda_microvm_image awscc_lambda_microvm_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lambda_microvm_image awscc_lambda_microvm_image} Data Source.
 func NewDataAwsccLambdaMicrovmImage(scope constructs.Construct, id *string, config *DataAwsccLambdaMicrovmImageConfig) DataAwsccLambdaMicrovmImage {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewDataAwsccLambdaMicrovmImage(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/lambda_microvm_image awscc_lambda_microvm_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lambda_microvm_image awscc_lambda_microvm_image} Data Source.
 func NewDataAwsccLambdaMicrovmImage_Override(d DataAwsccLambdaMicrovmImage, scope constructs.Construct, id *string, config *DataAwsccLambdaMicrovmImageConfig) {
 	_init_.Initialize()
 

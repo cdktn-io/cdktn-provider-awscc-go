@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_transit_gateway_route awscc_ec2_transit_gateway_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_transit_gateway_route awscc_ec2_transit_gateway_route}.
 type DataAwsccEc2TransitGatewayRoute interface {
 	cdktn.TerraformDataSource
 	Blackhole() cdktn.IResolvable
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccEc2TransitGatewayRoute) TransitGatewayRouteTableId()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_transit_gateway_route awscc_ec2_transit_gateway_route} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_transit_gateway_route awscc_ec2_transit_gateway_route} Data Source.
 func NewDataAwsccEc2TransitGatewayRoute(scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayRouteConfig) DataAwsccEc2TransitGatewayRoute {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccEc2TransitGatewayRoute(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_transit_gateway_route awscc_ec2_transit_gateway_route} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_transit_gateway_route awscc_ec2_transit_gateway_route} Data Source.
 func NewDataAwsccEc2TransitGatewayRoute_Override(d DataAwsccEc2TransitGatewayRoute, scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayRouteConfig) {
 	_init_.Initialize()
 

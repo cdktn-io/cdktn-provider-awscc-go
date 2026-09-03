@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccsagemakerinferencecomponent
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationSchedulingConfigAvailabilityZoneBalanceOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationSchedulingConfigAvailabilityZoneBalanceOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationSchedulingConfigAvailabilityZoneBalanceOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationSchedulingConfigAvailabilityZoneBalanceOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationSchedulingConfigAvailabilityZoneBalanceOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationSchedulingConfigAvailabilityZoneBalanceOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationSchedulingConfigAvailabilityZoneBalanceOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationSchedulingConfigAvailabilityZoneBalanceOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationSchedulingConfigAvailabilityZoneBalanceOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationSchedulingConfigAvailabilityZoneBalanceOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationSchedulingConfigAvailabilityZoneBalanceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationSchedulingConfigAvailabilityZoneBalanceOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationSchedulingConfigAvailabilityZoneBalanceOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationSchedulingConfigAvailabilityZoneBalanceOutputReference) validateSetInternalValueParameters(val *DataAwsccSagemakerInferenceComponentSpecificationSchedulingConfigAvailabilityZoneBalance) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationSchedulingConfigAvailabilityZoneBalanceOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationSchedulingConfigAvailabilityZoneBalanceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccSagemakerInferenceComponentSpecificationSchedulingConfigAvailabilityZoneBalanceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

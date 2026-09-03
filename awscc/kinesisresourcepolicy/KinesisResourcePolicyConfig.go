@@ -24,13 +24,13 @@ type KinesisResourcePolicyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ARN of the AWS Kinesis resource to which the policy applies.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kinesis_resource_policy#resource_arn KinesisResourcePolicy#resource_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kinesis_resource_policy#resource_arn KinesisResourcePolicy#resource_arn}
 	ResourceArn *string `field:"required" json:"resourceArn" yaml:"resourceArn"`
 	// A policy document containing permissions to add to the specified resource.
 	//
 	// In IAM, you must provide policy documents in JSON format. However, in CloudFormation you can provide the policy in JSON or YAML format because CloudFormation converts YAML to JSON before submitting it to IAM.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kinesis_resource_policy#resource_policy KinesisResourcePolicy#resource_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kinesis_resource_policy#resource_policy KinesisResourcePolicy#resource_policy}
 	ResourcePolicy *string `field:"required" json:"resourcePolicy" yaml:"resourcePolicy"`
 }
 

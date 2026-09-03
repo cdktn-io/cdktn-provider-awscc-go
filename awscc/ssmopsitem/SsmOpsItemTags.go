@@ -5,9 +5,9 @@ package ssmopsitem
 
 
 type SsmOpsItemTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#key SsmOpsItem#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssm_ops_item#key SsmOpsItem#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_ops_item#value SsmOpsItem#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssm_ops_item#value SsmOpsItem#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

@@ -7,11 +7,11 @@ package memorydbcluster
 type MemorydbClusterTags struct {
 	// The key for the tag. May not be null.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#key MemorydbCluster#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/memorydb_cluster#key MemorydbCluster#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The tag's value. May be null.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/memorydb_cluster#value MemorydbCluster#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/memorydb_cluster#value MemorydbCluster#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

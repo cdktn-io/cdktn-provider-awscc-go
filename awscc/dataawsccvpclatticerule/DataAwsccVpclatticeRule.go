@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/vpclattice_rule awscc_vpclattice_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/vpclattice_rule awscc_vpclattice_rule}.
 type DataAwsccVpclatticeRule interface {
 	cdktn.TerraformDataSource
 	Action() DataAwsccVpclatticeRuleActionOutputReference
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccVpclatticeRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/vpclattice_rule awscc_vpclattice_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/vpclattice_rule awscc_vpclattice_rule} Data Source.
 func NewDataAwsccVpclatticeRule(scope constructs.Construct, id *string, config *DataAwsccVpclatticeRuleConfig) DataAwsccVpclatticeRule {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccVpclatticeRule(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/vpclattice_rule awscc_vpclattice_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/vpclattice_rule awscc_vpclattice_rule} Data Source.
 func NewDataAwsccVpclatticeRule_Override(d DataAwsccVpclatticeRule, scope constructs.Construct, id *string, config *DataAwsccVpclatticeRuleConfig) {
 	_init_.Initialize()
 

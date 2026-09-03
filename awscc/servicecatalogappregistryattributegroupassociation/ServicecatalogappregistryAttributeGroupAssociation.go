@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalogappregistry_attribute_group_association awscc_servicecatalogappregistry_attribute_group_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalogappregistry_attribute_group_association awscc_servicecatalogappregistry_attribute_group_association}.
 type ServicecatalogappregistryAttributeGroupAssociation interface {
 	cdktn.TerraformResource
 	Application() *string
@@ -423,7 +423,7 @@ func (j *jsiiProxy_ServicecatalogappregistryAttributeGroupAssociation) Terraform
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalogappregistry_attribute_group_association awscc_servicecatalogappregistry_attribute_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalogappregistry_attribute_group_association awscc_servicecatalogappregistry_attribute_group_association} Resource.
 func NewServicecatalogappregistryAttributeGroupAssociation(scope constructs.Construct, id *string, config *ServicecatalogappregistryAttributeGroupAssociationConfig) ServicecatalogappregistryAttributeGroupAssociation {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewServicecatalogappregistryAttributeGroupAssociation(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/servicecatalogappregistry_attribute_group_association awscc_servicecatalogappregistry_attribute_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalogappregistry_attribute_group_association awscc_servicecatalogappregistry_attribute_group_association} Resource.
 func NewServicecatalogappregistryAttributeGroupAssociation_Override(s ServicecatalogappregistryAttributeGroupAssociation, scope constructs.Construct, id *string, config *ServicecatalogappregistryAttributeGroupAssociationConfig) {
 	_init_.Initialize()
 

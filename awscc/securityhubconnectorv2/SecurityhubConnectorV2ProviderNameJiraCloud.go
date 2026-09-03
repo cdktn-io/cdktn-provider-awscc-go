@@ -7,7 +7,7 @@ package securityhubconnectorv2
 type SecurityhubConnectorV2ProviderNameJiraCloud struct {
 	// The project key for a Jira Cloud instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/securityhub_connector_v2#project_key SecurityhubConnectorV2#project_key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_connector_v2#project_key SecurityhubConnectorV2#project_key}
 	ProjectKey *string `field:"optional" json:"projectKey" yaml:"projectKey"`
 }
 

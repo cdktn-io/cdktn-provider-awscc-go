@@ -22,9 +22,9 @@ type WorkspacesConnectionAliasConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspaces_connection_alias#connection_string WorkspacesConnectionAlias#connection_string}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspaces_connection_alias#connection_string WorkspacesConnectionAlias#connection_string}.
 	ConnectionString *string `field:"required" json:"connectionString" yaml:"connectionString"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspaces_connection_alias#tags WorkspacesConnectionAlias#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspaces_connection_alias#tags WorkspacesConnectionAlias#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

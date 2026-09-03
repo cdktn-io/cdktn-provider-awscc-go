@@ -5,7 +5,7 @@ package mskcluster
 
 
 type MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivity struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_cluster#client_authentication MskCluster#client_authentication}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/msk_cluster#client_authentication MskCluster#client_authentication}.
 	ClientAuthentication *MskClusterBrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthentication `field:"optional" json:"clientAuthentication" yaml:"clientAuthentication"`
 }
 

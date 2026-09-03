@@ -7,7 +7,7 @@ package bedrockdatasource
 type BedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationMediaExtractionConfigurationVideoExtractionConfiguration struct {
 	// Indicates whether a feature is enabled or disabled.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_source#video_extraction_status BedrockDataSource#video_extraction_status}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_source#video_extraction_status BedrockDataSource#video_extraction_status}
 	VideoExtractionStatus *string `field:"optional" json:"videoExtractionStatus" yaml:"videoExtractionStatus"`
 }
 

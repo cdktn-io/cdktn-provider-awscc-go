@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_cloud_connector awscc_ssm_cloud_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssm_cloud_connector awscc_ssm_cloud_connector}.
 type SsmCloudConnector interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -539,7 +539,7 @@ func (j *jsiiProxy_SsmCloudConnector) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_cloud_connector awscc_ssm_cloud_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssm_cloud_connector awscc_ssm_cloud_connector} Resource.
 func NewSsmCloudConnector(scope constructs.Construct, id *string, config *SsmCloudConnectorConfig) SsmCloudConnector {
 	_init_.Initialize()
 
@@ -557,7 +557,7 @@ func NewSsmCloudConnector(scope constructs.Construct, id *string, config *SsmClo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_cloud_connector awscc_ssm_cloud_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssm_cloud_connector awscc_ssm_cloud_connector} Resource.
 func NewSsmCloudConnector_Override(s SsmCloudConnector, scope constructs.Construct, id *string, config *SsmCloudConnectorConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ipam_allocation awscc_ec2_ipam_allocation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ipam_allocation awscc_ec2_ipam_allocation}.
 type DataAwsccEc2IpamAllocation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccEc2IpamAllocation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ipam_allocation awscc_ec2_ipam_allocation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ipam_allocation awscc_ec2_ipam_allocation} Data Source.
 func NewDataAwsccEc2IpamAllocation(scope constructs.Construct, id *string, config *DataAwsccEc2IpamAllocationConfig) DataAwsccEc2IpamAllocation {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccEc2IpamAllocation(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ipam_allocation awscc_ec2_ipam_allocation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ipam_allocation awscc_ec2_ipam_allocation} Data Source.
 func NewDataAwsccEc2IpamAllocation_Override(d DataAwsccEc2IpamAllocation, scope constructs.Construct, id *string, config *DataAwsccEc2IpamAllocationConfig) {
 	_init_.Initialize()
 

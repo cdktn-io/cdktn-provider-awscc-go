@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_lambda_hook awscc_cloudformation_lambda_hook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudformation_lambda_hook awscc_cloudformation_lambda_hook}.
 type DataAwsccCloudformationLambdaHook interface {
 	cdktn.TerraformDataSource
 	Alias() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccCloudformationLambdaHook) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_lambda_hook awscc_cloudformation_lambda_hook} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudformation_lambda_hook awscc_cloudformation_lambda_hook} Data Source.
 func NewDataAwsccCloudformationLambdaHook(scope constructs.Construct, id *string, config *DataAwsccCloudformationLambdaHookConfig) DataAwsccCloudformationLambdaHook {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccCloudformationLambdaHook(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cloudformation_lambda_hook awscc_cloudformation_lambda_hook} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudformation_lambda_hook awscc_cloudformation_lambda_hook} Data Source.
 func NewDataAwsccCloudformationLambdaHook_Override(d DataAwsccCloudformationLambdaHook, scope constructs.Construct, id *string, config *DataAwsccCloudformationLambdaHookConfig) {
 	_init_.Initialize()
 

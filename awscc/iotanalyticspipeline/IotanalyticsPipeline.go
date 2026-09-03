@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotanalytics_pipeline awscc_iotanalytics_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotanalytics_pipeline awscc_iotanalytics_pipeline}.
 type IotanalyticsPipeline interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -437,7 +437,7 @@ func (j *jsiiProxy_IotanalyticsPipeline) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotanalytics_pipeline awscc_iotanalytics_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotanalytics_pipeline awscc_iotanalytics_pipeline} Resource.
 func NewIotanalyticsPipeline(scope constructs.Construct, id *string, config *IotanalyticsPipelineConfig) IotanalyticsPipeline {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewIotanalyticsPipeline(scope constructs.Construct, id *string, config *Iot
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotanalytics_pipeline awscc_iotanalytics_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotanalytics_pipeline awscc_iotanalytics_pipeline} Resource.
 func NewIotanalyticsPipeline_Override(i IotanalyticsPipeline, scope constructs.Construct, id *string, config *IotanalyticsPipelineConfig) {
 	_init_.Initialize()
 

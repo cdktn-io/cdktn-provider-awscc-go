@@ -75,6 +75,14 @@ func (j *jsiiProxy_RdsDbInstanceAdditionalStorageVolumesOutputReference) validat
 	return nil
 }
 
+func (j *jsiiProxy_RdsDbInstanceAdditionalStorageVolumesOutputReference) validateSetStorageOperationPercentProgressParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_RdsDbInstanceAdditionalStorageVolumesOutputReference) validateSetStorageOperationStatusParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_RdsDbInstanceAdditionalStorageVolumesOutputReference) validateSetStorageThroughputParameters(val *float64) error {
 	return nil
 }

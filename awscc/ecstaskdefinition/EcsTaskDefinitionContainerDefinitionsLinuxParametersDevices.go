@@ -7,17 +7,17 @@ package ecstaskdefinition
 type EcsTaskDefinitionContainerDefinitionsLinuxParametersDevices struct {
 	// The path inside the container at which to expose the host device.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_task_definition#container_path EcsTaskDefinition#container_path}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#container_path EcsTaskDefinition#container_path}
 	ContainerPath *string `field:"optional" json:"containerPath" yaml:"containerPath"`
 	// The path for the device on the host container instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_task_definition#host_path EcsTaskDefinition#host_path}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#host_path EcsTaskDefinition#host_path}
 	HostPath *string `field:"optional" json:"hostPath" yaml:"hostPath"`
 	// The explicit permissions to provide to the container for the device.
 	//
 	// By default, the container has permissions for ``read``, ``write``, and ``mknod`` for the device.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_task_definition#permissions EcsTaskDefinition#permissions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#permissions EcsTaskDefinition#permissions}
 	Permissions *[]*string `field:"optional" json:"permissions" yaml:"permissions"`
 }
 

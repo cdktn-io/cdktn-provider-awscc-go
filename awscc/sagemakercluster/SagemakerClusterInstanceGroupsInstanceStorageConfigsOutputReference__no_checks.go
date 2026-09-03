@@ -51,6 +51,14 @@ func (s *jsiiProxy_SagemakerClusterInstanceGroupsInstanceStorageConfigsOutputRef
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerClusterInstanceGroupsInstanceStorageConfigsOutputReference) validatePutFsxLustreConfigParameters(value *SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxLustreConfig) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerClusterInstanceGroupsInstanceStorageConfigsOutputReference) validatePutFsxOpenZfsConfigParameters(value *SagemakerClusterInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerClusterInstanceGroupsInstanceStorageConfigsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

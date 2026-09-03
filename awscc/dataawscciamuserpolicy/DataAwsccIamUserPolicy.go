@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iam_user_policy awscc_iam_user_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iam_user_policy awscc_iam_user_policy}.
 type DataAwsccIamUserPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccIamUserPolicy) UserName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iam_user_policy awscc_iam_user_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iam_user_policy awscc_iam_user_policy} Data Source.
 func NewDataAwsccIamUserPolicy(scope constructs.Construct, id *string, config *DataAwsccIamUserPolicyConfig) DataAwsccIamUserPolicy {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccIamUserPolicy(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/iam_user_policy awscc_iam_user_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iam_user_policy awscc_iam_user_policy} Data Source.
 func NewDataAwsccIamUserPolicy_Override(d DataAwsccIamUserPolicy, scope constructs.Construct, id *string, config *DataAwsccIamUserPolicyConfig) {
 	_init_.Initialize()
 

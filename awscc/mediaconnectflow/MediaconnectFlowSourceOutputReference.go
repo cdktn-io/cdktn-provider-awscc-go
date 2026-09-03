@@ -63,9 +63,16 @@ type MediaconnectFlowSourceOutputReference interface {
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
+	NdiSourceSettings() MediaconnectFlowSourceNdiSourceSettingsOutputReference
+	NdiSourceSettingsInput() interface{}
 	Protocol() *string
 	SetProtocol(val *string)
 	ProtocolInput() *string
+	RouterIntegrationState() *string
+	SetRouterIntegrationState(val *string)
+	RouterIntegrationStateInput() *string
+	RouterIntegrationTransitDecryption() MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference
+	RouterIntegrationTransitDecryptionInput() interface{}
 	SenderControlPort() *float64
 	SetSenderControlPort(val *float64)
 	SenderControlPortInput() *float64
@@ -83,6 +90,8 @@ type MediaconnectFlowSourceOutputReference interface {
 	StreamId() *string
 	SetStreamId(val *string)
 	StreamIdInput() *string
+	Tags() MediaconnectFlowSourceTagsList
+	TagsInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -124,6 +133,9 @@ type MediaconnectFlowSourceOutputReference interface {
 	PutDecryption(value *MediaconnectFlowSourceDecryption)
 	PutGatewayBridgeSource(value *MediaconnectFlowSourceGatewayBridgeSource)
 	PutMediaStreamSourceConfigurations(value interface{})
+	PutNdiSourceSettings(value *MediaconnectFlowSourceNdiSourceSettings)
+	PutRouterIntegrationTransitDecryption(value *MediaconnectFlowSourceRouterIntegrationTransitDecryption)
+	PutTags(value interface{})
 	ResetDecryption()
 	ResetDescription()
 	ResetEntitlementArn()
@@ -135,12 +147,16 @@ type MediaconnectFlowSourceOutputReference interface {
 	ResetMediaStreamSourceConfigurations()
 	ResetMinLatency()
 	ResetName()
+	ResetNdiSourceSettings()
 	ResetProtocol()
+	ResetRouterIntegrationState()
+	ResetRouterIntegrationTransitDecryption()
 	ResetSenderControlPort()
 	ResetSenderIpAddress()
 	ResetSourceListenerAddress()
 	ResetSourceListenerPort()
 	ResetStreamId()
+	ResetTags()
 	ResetVpcInterfaceName()
 	ResetWhitelistCidr()
 	// Produce the Token's value at resolution time.
@@ -438,6 +454,26 @@ func (j *jsiiProxy_MediaconnectFlowSourceOutputReference) NameInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_MediaconnectFlowSourceOutputReference) NdiSourceSettings() MediaconnectFlowSourceNdiSourceSettingsOutputReference {
+	var returns MediaconnectFlowSourceNdiSourceSettingsOutputReference
+	_jsii_.Get(
+		j,
+		"ndiSourceSettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediaconnectFlowSourceOutputReference) NdiSourceSettingsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ndiSourceSettingsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_MediaconnectFlowSourceOutputReference) Protocol() *string {
 	var returns *string
 	_jsii_.Get(
@@ -453,6 +489,46 @@ func (j *jsiiProxy_MediaconnectFlowSourceOutputReference) ProtocolInput() *strin
 	_jsii_.Get(
 		j,
 		"protocolInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediaconnectFlowSourceOutputReference) RouterIntegrationState() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routerIntegrationState",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediaconnectFlowSourceOutputReference) RouterIntegrationStateInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routerIntegrationStateInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediaconnectFlowSourceOutputReference) RouterIntegrationTransitDecryption() MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference {
+	var returns MediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference
+	_jsii_.Get(
+		j,
+		"routerIntegrationTransitDecryption",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediaconnectFlowSourceOutputReference) RouterIntegrationTransitDecryptionInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"routerIntegrationTransitDecryptionInput",
 		&returns,
 	)
 	return returns
@@ -573,6 +649,26 @@ func (j *jsiiProxy_MediaconnectFlowSourceOutputReference) StreamIdInput() *strin
 	_jsii_.Get(
 		j,
 		"streamIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediaconnectFlowSourceOutputReference) Tags() MediaconnectFlowSourceTagsList {
+	var returns MediaconnectFlowSourceTagsList
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediaconnectFlowSourceOutputReference) TagsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"tagsInput",
 		&returns,
 	)
 	return returns
@@ -794,6 +890,17 @@ func (j *jsiiProxy_MediaconnectFlowSourceOutputReference)SetProtocol(val *string
 	_jsii_.Set(
 		j,
 		"protocol",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MediaconnectFlowSourceOutputReference)SetRouterIntegrationState(val *string) {
+	if err := j.validateSetRouterIntegrationStateParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"routerIntegrationState",
 		val,
 	)
 }
@@ -1116,6 +1223,39 @@ func (m *jsiiProxy_MediaconnectFlowSourceOutputReference) PutMediaStreamSourceCo
 	)
 }
 
+func (m *jsiiProxy_MediaconnectFlowSourceOutputReference) PutNdiSourceSettings(value *MediaconnectFlowSourceNdiSourceSettings) {
+	if err := m.validatePutNdiSourceSettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putNdiSourceSettings",
+		[]interface{}{value},
+	)
+}
+
+func (m *jsiiProxy_MediaconnectFlowSourceOutputReference) PutRouterIntegrationTransitDecryption(value *MediaconnectFlowSourceRouterIntegrationTransitDecryption) {
+	if err := m.validatePutRouterIntegrationTransitDecryptionParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putRouterIntegrationTransitDecryption",
+		[]interface{}{value},
+	)
+}
+
+func (m *jsiiProxy_MediaconnectFlowSourceOutputReference) PutTags(value interface{}) {
+	if err := m.validatePutTagsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putTags",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_MediaconnectFlowSourceOutputReference) ResetDecryption() {
 	_jsii_.InvokeVoid(
 		m,
@@ -1204,10 +1344,34 @@ func (m *jsiiProxy_MediaconnectFlowSourceOutputReference) ResetName() {
 	)
 }
 
+func (m *jsiiProxy_MediaconnectFlowSourceOutputReference) ResetNdiSourceSettings() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetNdiSourceSettings",
+		nil, // no parameters
+	)
+}
+
 func (m *jsiiProxy_MediaconnectFlowSourceOutputReference) ResetProtocol() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetProtocol",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MediaconnectFlowSourceOutputReference) ResetRouterIntegrationState() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetRouterIntegrationState",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MediaconnectFlowSourceOutputReference) ResetRouterIntegrationTransitDecryption() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetRouterIntegrationTransitDecryption",
 		nil, // no parameters
 	)
 }
@@ -1248,6 +1412,14 @@ func (m *jsiiProxy_MediaconnectFlowSourceOutputReference) ResetStreamId() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetStreamId",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MediaconnectFlowSourceOutputReference) ResetTags() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetTags",
 		nil, // no parameters
 	)
 }

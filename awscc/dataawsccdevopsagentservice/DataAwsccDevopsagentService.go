@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/devopsagent_service awscc_devopsagent_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/devopsagent_service awscc_devopsagent_service}.
 type DataAwsccDevopsagentService interface {
 	cdktn.TerraformDataSource
 	AccessibleResources() cdktn.StringMapList
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccDevopsagentService) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/devopsagent_service awscc_devopsagent_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/devopsagent_service awscc_devopsagent_service} Data Source.
 func NewDataAwsccDevopsagentService(scope constructs.Construct, id *string, config *DataAwsccDevopsagentServiceConfig) DataAwsccDevopsagentService {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccDevopsagentService(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/devopsagent_service awscc_devopsagent_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/devopsagent_service awscc_devopsagent_service} Data Source.
 func NewDataAwsccDevopsagentService_Override(d DataAwsccDevopsagentService, scope constructs.Construct, id *string, config *DataAwsccDevopsagentServiceConfig) {
 	_init_.Initialize()
 

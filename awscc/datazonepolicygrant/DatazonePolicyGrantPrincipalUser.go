@@ -5,9 +5,9 @@ package datazonepolicygrant
 
 
 type DatazonePolicyGrantPrincipalUser struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_policy_grant#all_users_grant_filter DatazonePolicyGrant#all_users_grant_filter}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_policy_grant#all_users_grant_filter DatazonePolicyGrant#all_users_grant_filter}.
 	AllUsersGrantFilter *string `field:"optional" json:"allUsersGrantFilter" yaml:"allUsersGrantFilter"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/datazone_policy_grant#user_identifier DatazonePolicyGrant#user_identifier}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_policy_grant#user_identifier DatazonePolicyGrant#user_identifier}.
 	UserIdentifier *string `field:"optional" json:"userIdentifier" yaml:"userIdentifier"`
 }
 

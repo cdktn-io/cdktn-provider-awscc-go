@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sns_subscriptions awscc_sns_subscriptions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sns_subscriptions awscc_sns_subscriptions}.
 type DataAwsccSnsSubscriptions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSnsSubscriptions) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sns_subscriptions awscc_sns_subscriptions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sns_subscriptions awscc_sns_subscriptions} Data Source.
 func NewDataAwsccSnsSubscriptions(scope constructs.Construct, id *string, config *DataAwsccSnsSubscriptionsConfig) DataAwsccSnsSubscriptions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSnsSubscriptions(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sns_subscriptions awscc_sns_subscriptions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sns_subscriptions awscc_sns_subscriptions} Data Source.
 func NewDataAwsccSnsSubscriptions_Override(d DataAwsccSnsSubscriptions, scope constructs.Construct, id *string, config *DataAwsccSnsSubscriptionsConfig) {
 	_init_.Initialize()
 

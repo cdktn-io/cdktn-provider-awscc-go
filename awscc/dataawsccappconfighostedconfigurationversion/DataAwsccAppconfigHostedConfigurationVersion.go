@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appconfig_hosted_configuration_version awscc_appconfig_hosted_configuration_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appconfig_hosted_configuration_version awscc_appconfig_hosted_configuration_version}.
 type DataAwsccAppconfigHostedConfigurationVersion interface {
 	cdktn.TerraformDataSource
 	ApplicationId() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccAppconfigHostedConfigurationVersion) VersionNumber()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appconfig_hosted_configuration_version awscc_appconfig_hosted_configuration_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appconfig_hosted_configuration_version awscc_appconfig_hosted_configuration_version} Data Source.
 func NewDataAwsccAppconfigHostedConfigurationVersion(scope constructs.Construct, id *string, config *DataAwsccAppconfigHostedConfigurationVersionConfig) DataAwsccAppconfigHostedConfigurationVersion {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccAppconfigHostedConfigurationVersion(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appconfig_hosted_configuration_version awscc_appconfig_hosted_configuration_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appconfig_hosted_configuration_version awscc_appconfig_hosted_configuration_version} Data Source.
 func NewDataAwsccAppconfigHostedConfigurationVersion_Override(d DataAwsccAppconfigHostedConfigurationVersion, scope constructs.Construct, id *string, config *DataAwsccAppconfigHostedConfigurationVersionConfig) {
 	_init_.Initialize()
 

@@ -5,7 +5,7 @@ package opensearchservicedomain
 
 
 type OpensearchserviceDomainDeploymentStrategyOptions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/opensearchservice_domain#deployment_strategy OpensearchserviceDomain#deployment_strategy}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearchservice_domain#deployment_strategy OpensearchserviceDomain#deployment_strategy}.
 	DeploymentStrategy *string `field:"optional" json:"deploymentStrategy" yaml:"deploymentStrategy"`
 }
 

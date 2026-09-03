@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/globalaccelerator_cross_account_attachment awscc_globalaccelerator_cross_account_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/globalaccelerator_cross_account_attachment awscc_globalaccelerator_cross_account_attachment}.
 type DataAwsccGlobalacceleratorCrossAccountAttachment interface {
 	cdktn.TerraformDataSource
 	AttachmentArn() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccGlobalacceleratorCrossAccountAttachment) TerraformRe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/globalaccelerator_cross_account_attachment awscc_globalaccelerator_cross_account_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/globalaccelerator_cross_account_attachment awscc_globalaccelerator_cross_account_attachment} Data Source.
 func NewDataAwsccGlobalacceleratorCrossAccountAttachment(scope constructs.Construct, id *string, config *DataAwsccGlobalacceleratorCrossAccountAttachmentConfig) DataAwsccGlobalacceleratorCrossAccountAttachment {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccGlobalacceleratorCrossAccountAttachment(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/globalaccelerator_cross_account_attachment awscc_globalaccelerator_cross_account_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/globalaccelerator_cross_account_attachment awscc_globalaccelerator_cross_account_attachment} Data Source.
 func NewDataAwsccGlobalacceleratorCrossAccountAttachment_Override(d DataAwsccGlobalacceleratorCrossAccountAttachment, scope constructs.Construct, id *string, config *DataAwsccGlobalacceleratorCrossAccountAttachmentConfig) {
 	_init_.Initialize()
 

@@ -7,11 +7,11 @@ package resiliencehubv2service
 type Resiliencehubv2ServiceInputSourcesResourceConfigurationEks struct {
 	// ARN of the EKS cluster.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resiliencehubv2_service#cluster_arn Resiliencehubv2Service#cluster_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/resiliencehubv2_service#cluster_arn Resiliencehubv2Service#cluster_arn}
 	ClusterArn *string `field:"optional" json:"clusterArn" yaml:"clusterArn"`
 	// EKS namespaces.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resiliencehubv2_service#namespaces Resiliencehubv2Service#namespaces}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/resiliencehubv2_service#namespaces Resiliencehubv2Service#namespaces}
 	Namespaces *[]*string `field:"optional" json:"namespaces" yaml:"namespaces"`
 }
 

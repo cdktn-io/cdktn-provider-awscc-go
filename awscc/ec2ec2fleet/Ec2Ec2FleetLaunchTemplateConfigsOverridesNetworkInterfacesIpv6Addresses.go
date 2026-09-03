@@ -5,7 +5,7 @@ package ec2ec2fleet
 
 
 type Ec2Ec2FleetLaunchTemplateConfigsOverridesNetworkInterfacesIpv6Addresses struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_ec2_fleet#ipv_6_address Ec2Ec2Fleet#ipv_6_address}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ec2_fleet#ipv_6_address Ec2Ec2Fleet#ipv_6_address}.
 	Ipv6Address *string `field:"optional" json:"ipv6Address" yaml:"ipv6Address"`
 }
 

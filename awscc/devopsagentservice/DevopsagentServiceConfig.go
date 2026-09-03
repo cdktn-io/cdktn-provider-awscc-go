@@ -24,35 +24,35 @@ type DevopsagentServiceConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The type of service being registered.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#service_type DevopsagentService#service_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#service_type DevopsagentService#service_type}
 	ServiceType *string `field:"required" json:"serviceType" yaml:"serviceType"`
 	// The name of the private connection to use for OAuth token exchange requests only.
 	//
 	// Cannot be specified when PrivateConnectionName is provided.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#exchange_url_private_connection_name DevopsagentService#exchange_url_private_connection_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#exchange_url_private_connection_name DevopsagentService#exchange_url_private_connection_name}
 	ExchangeUrlPrivateConnectionName *string `field:"optional" json:"exchangeUrlPrivateConnectionName" yaml:"exchangeUrlPrivateConnectionName"`
 	// The ARN of the KMS key to use for encryption.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#kms_key_arn DevopsagentService#kms_key_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#kms_key_arn DevopsagentService#kms_key_arn}
 	KmsKeyArn *string `field:"optional" json:"kmsKeyArn" yaml:"kmsKeyArn"`
 	// The name of the private connection to use for VPC connectivity.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#private_connection_name DevopsagentService#private_connection_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#private_connection_name DevopsagentService#private_connection_name}
 	PrivateConnectionName *string `field:"optional" json:"privateConnectionName" yaml:"privateConnectionName"`
 	// Service-specific configuration details for create operation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#service_details DevopsagentService#service_details}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#service_details DevopsagentService#service_details}
 	ServiceDetails *DevopsagentServiceServiceDetails `field:"optional" json:"serviceDetails" yaml:"serviceDetails"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#tags DevopsagentService#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#tags DevopsagentService#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// The name of the private connection to use for API calls (target URL) only.
 	//
 	// Cannot be specified when PrivateConnectionName is provided.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/devopsagent_service#target_url_private_connection_name DevopsagentService#target_url_private_connection_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_service#target_url_private_connection_name DevopsagentService#target_url_private_connection_name}
 	TargetUrlPrivateConnectionName *string `field:"optional" json:"targetUrlPrivateConnectionName" yaml:"targetUrlPrivateConnectionName"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rekognition_collection awscc_rekognition_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rekognition_collection awscc_rekognition_collection}.
 type RekognitionCollection interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -413,7 +413,7 @@ func (j *jsiiProxy_RekognitionCollection) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rekognition_collection awscc_rekognition_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rekognition_collection awscc_rekognition_collection} Resource.
 func NewRekognitionCollection(scope constructs.Construct, id *string, config *RekognitionCollectionConfig) RekognitionCollection {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewRekognitionCollection(scope constructs.Construct, id *string, config *Re
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rekognition_collection awscc_rekognition_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rekognition_collection awscc_rekognition_collection} Resource.
 func NewRekognitionCollection_Override(r RekognitionCollection, scope constructs.Construct, id *string, config *RekognitionCollectionConfig) {
 	_init_.Initialize()
 

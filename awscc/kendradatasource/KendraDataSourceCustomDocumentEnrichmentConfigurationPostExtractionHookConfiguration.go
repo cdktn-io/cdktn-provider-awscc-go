@@ -5,11 +5,11 @@ package kendradatasource
 
 
 type KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#invocation_condition KendraDataSource#invocation_condition}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#invocation_condition KendraDataSource#invocation_condition}.
 	InvocationCondition *KendraDataSourceCustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationCondition `field:"optional" json:"invocationCondition" yaml:"invocationCondition"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#lambda_arn KendraDataSource#lambda_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#lambda_arn KendraDataSource#lambda_arn}.
 	LambdaArn *string `field:"optional" json:"lambdaArn" yaml:"lambdaArn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/kendra_data_source#s3_bucket KendraDataSource#s3_bucket}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_data_source#s3_bucket KendraDataSource#s3_bucket}.
 	S3Bucket *string `field:"optional" json:"s3Bucket" yaml:"s3Bucket"`
 }
 

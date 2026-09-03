@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apprunner_vpc_ingress_connection awscc_apprunner_vpc_ingress_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apprunner_vpc_ingress_connection awscc_apprunner_vpc_ingress_connection}.
 type DataAwsccApprunnerVpcIngressConnection interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccApprunnerVpcIngressConnection) VpcIngressConnectionN
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apprunner_vpc_ingress_connection awscc_apprunner_vpc_ingress_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apprunner_vpc_ingress_connection awscc_apprunner_vpc_ingress_connection} Data Source.
 func NewDataAwsccApprunnerVpcIngressConnection(scope constructs.Construct, id *string, config *DataAwsccApprunnerVpcIngressConnectionConfig) DataAwsccApprunnerVpcIngressConnection {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccApprunnerVpcIngressConnection(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/apprunner_vpc_ingress_connection awscc_apprunner_vpc_ingress_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apprunner_vpc_ingress_connection awscc_apprunner_vpc_ingress_connection} Data Source.
 func NewDataAwsccApprunnerVpcIngressConnection_Override(d DataAwsccApprunnerVpcIngressConnection, scope constructs.Construct, id *string, config *DataAwsccApprunnerVpcIngressConnectionConfig) {
 	_init_.Initialize()
 

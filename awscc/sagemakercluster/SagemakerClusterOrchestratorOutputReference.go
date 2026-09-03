@@ -34,6 +34,8 @@ type SagemakerClusterOrchestratorOutputReference interface {
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	Slurm() SagemakerClusterOrchestratorSlurmOutputReference
+	SlurmInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,7 +69,9 @@ type SagemakerClusterOrchestratorOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutEks(value *SagemakerClusterOrchestratorEks)
+	PutSlurm(value *SagemakerClusterOrchestratorSlurm)
 	ResetEks()
+	ResetSlurm()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -148,6 +152,26 @@ func (j *jsiiProxy_SagemakerClusterOrchestratorOutputReference) InternalValue() 
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerClusterOrchestratorOutputReference) Slurm() SagemakerClusterOrchestratorSlurmOutputReference {
+	var returns SagemakerClusterOrchestratorSlurmOutputReference
+	_jsii_.Get(
+		j,
+		"slurm",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerClusterOrchestratorOutputReference) SlurmInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"slurmInput",
 		&returns,
 	)
 	return returns
@@ -453,10 +477,29 @@ func (s *jsiiProxy_SagemakerClusterOrchestratorOutputReference) PutEks(value *Sa
 	)
 }
 
+func (s *jsiiProxy_SagemakerClusterOrchestratorOutputReference) PutSlurm(value *SagemakerClusterOrchestratorSlurm) {
+	if err := s.validatePutSlurmParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putSlurm",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_SagemakerClusterOrchestratorOutputReference) ResetEks() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetEks",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SagemakerClusterOrchestratorOutputReference) ResetSlurm() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetSlurm",
 		nil, // no parameters
 	)
 }

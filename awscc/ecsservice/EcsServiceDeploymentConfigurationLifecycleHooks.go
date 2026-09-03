@@ -9,14 +9,14 @@ type EcsServiceDeploymentConfigurationLifecycleHooks struct {
 	//
 	// This field must be a JSON object as a string.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_service#hook_details EcsService#hook_details}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_service#hook_details EcsService#hook_details}
 	HookDetails *string `field:"optional" json:"hookDetails" yaml:"hookDetails"`
 	// The Amazon Resource Name (ARN) of the hook target.
 	//
 	// For ``AWS_LAMBDA`` hooks, this is the Lambda function ARN. This field is not applicable for ``PAUSE`` hooks.
 	//  You must provide this parameter when configuring an ``AWS_LAMBDA`` lifecycle hook.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_service#hook_target_arn EcsService#hook_target_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_service#hook_target_arn EcsService#hook_target_arn}
 	HookTargetArn *string `field:"optional" json:"hookTargetArn" yaml:"hookTargetArn"`
 	// The lifecycle stages at which to run the hook.
 	//
@@ -49,13 +49,13 @@ type EcsServiceDeploymentConfigurationLifecycleHooks struct {
 	//   ``PAUSE`` hooks cannot be configured at ``TEST_TRAFFIC_SHIFT`` or ``PRODUCTION_TRAFFIC_SHIFT`` stages. These stages are only valid for ``AWS_LAMBDA`` hooks.
 	//   You must provide this parameter when configuring a deployment lifecycle hook.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_service#lifecycle_stages EcsService#lifecycle_stages}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_service#lifecycle_stages EcsService#lifecycle_stages}
 	LifecycleStages *[]*string `field:"optional" json:"lifecycleStages" yaml:"lifecycleStages"`
 	// The Amazon Resource Name (ARN) of the IAM role that grants Amazon ECS permission to call Lambda functions on your behalf.
 	//
 	// For more information, see [Permissions required for Lambda functions in Amazon ECS blue/green deployments](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/blue-green-permissions.html) in the *Amazon Elastic Container Service Developer Guide*.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_service#role_arn EcsService#role_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_service#role_arn EcsService#role_arn}
 	RoleArn *string `field:"optional" json:"roleArn" yaml:"roleArn"`
 	// The type of action the lifecycle hook performs.
 	//
@@ -65,13 +65,13 @@ type EcsServiceDeploymentConfigurationLifecycleHooks struct {
 	//
 	//  This field is optional. If not specified, the default value is ``AWS_LAMBDA``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_service#target_type EcsService#target_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_service#target_type EcsService#target_type}
 	TargetType *string `field:"optional" json:"targetType" yaml:"targetType"`
 	// The timeout configuration for the lifecycle hook.
 	//
 	// This specifies how long Amazon ECS waits before taking the timeout action if the hook is not resolved.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_service#timeout_configuration EcsService#timeout_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_service#timeout_configuration EcsService#timeout_configuration}
 	TimeoutConfiguration *EcsServiceDeploymentConfigurationLifecycleHooksTimeoutConfiguration `field:"optional" json:"timeoutConfiguration" yaml:"timeoutConfiguration"`
 }
 

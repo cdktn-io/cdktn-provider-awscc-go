@@ -44,7 +44,10 @@ type DataAwsccMediaconnectFlowSourceOutputReference interface {
 	MediaStreamSourceConfigurations() DataAwsccMediaconnectFlowSourceMediaStreamSourceConfigurationsList
 	MinLatency() *float64
 	Name() *string
+	NdiSourceSettings() DataAwsccMediaconnectFlowSourceNdiSourceSettingsOutputReference
 	Protocol() *string
+	RouterIntegrationState() *string
+	RouterIntegrationTransitDecryption() DataAwsccMediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference
 	SenderControlPort() *float64
 	SenderIpAddress() *string
 	SourceArn() *string
@@ -52,6 +55,7 @@ type DataAwsccMediaconnectFlowSourceOutputReference interface {
 	SourceListenerAddress() *string
 	SourceListenerPort() *float64
 	StreamId() *string
+	Tags() DataAwsccMediaconnectFlowSourceTagsList
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -271,11 +275,41 @@ func (j *jsiiProxy_DataAwsccMediaconnectFlowSourceOutputReference) Name() *strin
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccMediaconnectFlowSourceOutputReference) NdiSourceSettings() DataAwsccMediaconnectFlowSourceNdiSourceSettingsOutputReference {
+	var returns DataAwsccMediaconnectFlowSourceNdiSourceSettingsOutputReference
+	_jsii_.Get(
+		j,
+		"ndiSourceSettings",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccMediaconnectFlowSourceOutputReference) Protocol() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"protocol",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccMediaconnectFlowSourceOutputReference) RouterIntegrationState() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routerIntegrationState",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccMediaconnectFlowSourceOutputReference) RouterIntegrationTransitDecryption() DataAwsccMediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference {
+	var returns DataAwsccMediaconnectFlowSourceRouterIntegrationTransitDecryptionOutputReference
+	_jsii_.Get(
+		j,
+		"routerIntegrationTransitDecryption",
 		&returns,
 	)
 	return returns
@@ -346,6 +380,16 @@ func (j *jsiiProxy_DataAwsccMediaconnectFlowSourceOutputReference) StreamId() *s
 	_jsii_.Get(
 		j,
 		"streamId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccMediaconnectFlowSourceOutputReference) Tags() DataAwsccMediaconnectFlowSourceTagsList {
+	var returns DataAwsccMediaconnectFlowSourceTagsList
+	_jsii_.Get(
+		j,
+		"tags",
 		&returns,
 	)
 	return returns

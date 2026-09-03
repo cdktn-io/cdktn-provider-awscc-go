@@ -24,29 +24,29 @@ type PcsClusterConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The networking configuration for the cluster's control plane.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_cluster#networking PcsCluster#networking}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pcs_cluster#networking PcsCluster#networking}
 	Networking *PcsClusterNetworking `field:"required" json:"networking" yaml:"networking"`
 	// The cluster management and job scheduling software associated with the cluster.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_cluster#scheduler PcsCluster#scheduler}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pcs_cluster#scheduler PcsCluster#scheduler}
 	Scheduler *PcsClusterScheduler `field:"required" json:"scheduler" yaml:"scheduler"`
 	// The size of the cluster.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_cluster#size PcsCluster#size}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pcs_cluster#size PcsCluster#size}
 	Size *string `field:"required" json:"size" yaml:"size"`
 	// The name that identifies the cluster.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_cluster#name PcsCluster#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pcs_cluster#name PcsCluster#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// Additional options related to the Slurm scheduler.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_cluster#slurm_configuration PcsCluster#slurm_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pcs_cluster#slurm_configuration PcsCluster#slurm_configuration}
 	SlurmConfiguration *PcsClusterSlurmConfiguration `field:"optional" json:"slurmConfiguration" yaml:"slurmConfiguration"`
 	// 1 or more tags added to the resource.
 	//
 	// Each tag consists of a tag key and tag value. The tag value is optional and can be an empty string.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/pcs_cluster#tags PcsCluster#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pcs_cluster#tags PcsCluster#tags}
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 }
 

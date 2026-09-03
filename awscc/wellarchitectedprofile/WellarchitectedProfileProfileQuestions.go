@@ -7,11 +7,11 @@ package wellarchitectedprofile
 type WellarchitectedProfileProfileQuestions struct {
 	// The ID of the question.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_profile#question_id WellarchitectedProfile#question_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_profile#question_id WellarchitectedProfile#question_id}
 	QuestionId *string `field:"optional" json:"questionId" yaml:"questionId"`
 	// The selected choices.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wellarchitected_profile#selected_choice_ids WellarchitectedProfile#selected_choice_ids}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wellarchitected_profile#selected_choice_ids WellarchitectedProfile#selected_choice_ids}
 	SelectedChoiceIds *[]*string `field:"optional" json:"selectedChoiceIds" yaml:"selectedChoiceIds"`
 }
 

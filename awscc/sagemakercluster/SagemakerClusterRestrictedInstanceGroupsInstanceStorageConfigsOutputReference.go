@@ -32,6 +32,10 @@ type SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsOutputReferen
 	EbsVolumeConfigInput() interface{}
 	// Experimental.
 	Fqn() *string
+	FsxLustreConfig() SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfigOutputReference
+	FsxLustreConfigInput() interface{}
+	FsxOpenZfsConfig() SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigOutputReference
+	FsxOpenZfsConfigInput() interface{}
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
 	// Experimental.
@@ -67,7 +71,11 @@ type SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsOutputReferen
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutEbsVolumeConfig(value *SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsEbsVolumeConfig)
+	PutFsxLustreConfig(value *SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfig)
+	PutFsxOpenZfsConfig(value *SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig)
 	ResetEbsVolumeConfig()
+	ResetFsxLustreConfig()
+	ResetFsxOpenZfsConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -138,6 +146,46 @@ func (j *jsiiProxy_SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfig
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsOutputReference) FsxLustreConfig() SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfigOutputReference {
+	var returns SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfigOutputReference
+	_jsii_.Get(
+		j,
+		"fsxLustreConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsOutputReference) FsxLustreConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"fsxLustreConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsOutputReference) FsxOpenZfsConfig() SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigOutputReference {
+	var returns SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfigOutputReference
+	_jsii_.Get(
+		j,
+		"fsxOpenZfsConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsOutputReference) FsxOpenZfsConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"fsxOpenZfsConfigInput",
 		&returns,
 	)
 	return returns
@@ -453,10 +501,48 @@ func (s *jsiiProxy_SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfig
 	)
 }
 
+func (s *jsiiProxy_SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsOutputReference) PutFsxLustreConfig(value *SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxLustreConfig) {
+	if err := s.validatePutFsxLustreConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putFsxLustreConfig",
+		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsOutputReference) PutFsxOpenZfsConfig(value *SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsFsxOpenZfsConfig) {
+	if err := s.validatePutFsxOpenZfsConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putFsxOpenZfsConfig",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsOutputReference) ResetEbsVolumeConfig() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetEbsVolumeConfig",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsOutputReference) ResetFsxLustreConfig() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetFsxLustreConfig",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SagemakerClusterRestrictedInstanceGroupsInstanceStorageConfigsOutputReference) ResetFsxOpenZfsConfig() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetFsxOpenZfsConfig",
 		nil, // no parameters
 	)
 }

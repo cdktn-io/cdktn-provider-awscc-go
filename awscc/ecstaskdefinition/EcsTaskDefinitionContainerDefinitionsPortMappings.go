@@ -12,14 +12,14 @@ type EcsTaskDefinitionContainerDefinitionsPortMappings struct {
 	//  ``appProtocol`` is immutable in a Service Connect service. Updating this field requires a service deletion and redeployment.
 	//  Tasks that run in a namespace can use short names to connect to services in the namespace. Tasks can connect to services across all of the clusters in the namespace. Tasks connect through a managed proxy container that collects logs and metrics for increased visibility. Only the tasks that Amazon ECS services create are supported with Service Connect. For more information, see [Service Connect](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/service-connect.html) in the *Amazon Elastic Container Service Developer Guide*.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_task_definition#app_protocol EcsTaskDefinition#app_protocol}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#app_protocol EcsTaskDefinition#app_protocol}
 	AppProtocol *string `field:"optional" json:"appProtocol" yaml:"appProtocol"`
 	// The port number on the container that's bound to the user-specified or automatically assigned host port.
 	//
 	// If you use containers in a task with the ``awsvpc`` or ``host`` network mode, specify the exposed ports using ``containerPort``.
 	//  If you use containers in a task with the ``bridge`` network mode and you specify a container port and not a host port, your container automatically receives a host port in the ephemeral port range. For more information, see ``hostPort``. Port mappings that are automatically assigned in this way do not count toward the 100 reserved ports limit of a container instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_task_definition#container_port EcsTaskDefinition#container_port}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#container_port EcsTaskDefinition#container_port}
 	ContainerPort *float64 `field:"optional" json:"containerPort" yaml:"containerPort"`
 	// The port number range on the container that's bound to the dynamically mapped host port range.
 	//
@@ -43,7 +43,7 @@ type EcsTaskDefinitionContainerDefinitionsPortMappings struct {
 	//
 	//  You can call [DescribeTasks](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_DescribeTasks.html) to view the ``hostPortRange`` which are the host ports that are bound to the container ports.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_task_definition#container_port_range EcsTaskDefinition#container_port_range}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#container_port_range EcsTaskDefinition#container_port_range}
 	ContainerPortRange *string `field:"optional" json:"containerPortRange" yaml:"containerPortRange"`
 	// The port number on the container instance to reserve for your container.
 	//
@@ -56,19 +56,19 @@ type EcsTaskDefinitionContainerDefinitionsPortMappings struct {
 	//  The default ephemeral port range for Docker version 1.6.0 and later is listed on the instance under ``/proc/sys/net/ipv4/ip_local_port_range``. If this kernel parameter is unavailable, the default ephemeral port range from 49153 through 65535 (Linux) or 49152 through 65535 (Windows) is used. Do not attempt to specify a host port in the ephemeral port range as these are reserved for automatic assignment. In general, ports below 32768 are outside of the ephemeral port range.
 	//  The default reserved ports are 22 for SSH, the Docker ports 2375 and 2376, and the Amazon ECS container agent ports 51678-51680. Any host port that was previously specified in a running task is also reserved while the task is running. That is, after a task stops, the host port is released. The current reserved ports are displayed in the ``remainingResources`` of [DescribeContainerInstances](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_DescribeContainerInstances.html) output. A container instance can have up to 100 reserved ports at a time. This number includes the default reserved ports. Automatically assigned ports aren't included in the 100 reserved ports quota.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_task_definition#host_port EcsTaskDefinition#host_port}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#host_port EcsTaskDefinition#host_port}
 	HostPort *float64 `field:"optional" json:"hostPort" yaml:"hostPort"`
 	// The name that's used for the port mapping.
 	//
 	// This parameter is the name that you use in the ``serviceConnectConfiguration`` and the ``vpcLatticeConfigurations`` of a service. The name can include up to 64 characters. The characters can include lowercase letters, numbers, underscores (_), and hyphens (-). The name can't start with a hyphen.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_task_definition#name EcsTaskDefinition#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#name EcsTaskDefinition#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// The protocol used for the port mapping.
 	//
 	// Valid values are ``tcp`` and ``udp``. The default is ``tcp``. ``protocol`` is immutable in a Service Connect service. Updating this field requires a service deletion and redeployment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_task_definition#protocol EcsTaskDefinition#protocol}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#protocol EcsTaskDefinition#protocol}
 	Protocol *string `field:"optional" json:"protocol" yaml:"protocol"`
 }
 

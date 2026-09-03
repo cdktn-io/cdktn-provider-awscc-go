@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53profiles_profile_resource_association awscc_route53profiles_profile_resource_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53profiles_profile_resource_association awscc_route53profiles_profile_resource_association}.
 type DataAwsccRoute53ProfilesProfileResourceAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccRoute53ProfilesProfileResourceAssociation) Terraform
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53profiles_profile_resource_association awscc_route53profiles_profile_resource_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53profiles_profile_resource_association awscc_route53profiles_profile_resource_association} Data Source.
 func NewDataAwsccRoute53ProfilesProfileResourceAssociation(scope constructs.Construct, id *string, config *DataAwsccRoute53ProfilesProfileResourceAssociationConfig) DataAwsccRoute53ProfilesProfileResourceAssociation {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccRoute53ProfilesProfileResourceAssociation(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53profiles_profile_resource_association awscc_route53profiles_profile_resource_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53profiles_profile_resource_association awscc_route53profiles_profile_resource_association} Data Source.
 func NewDataAwsccRoute53ProfilesProfileResourceAssociation_Override(d DataAwsccRoute53ProfilesProfileResourceAssociation, scope constructs.Construct, id *string, config *DataAwsccRoute53ProfilesProfileResourceAssociationConfig) {
 	_init_.Initialize()
 

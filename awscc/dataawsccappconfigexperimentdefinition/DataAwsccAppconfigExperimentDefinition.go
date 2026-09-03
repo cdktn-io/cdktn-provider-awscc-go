@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appconfig_experiment_definition awscc_appconfig_experiment_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appconfig_experiment_definition awscc_appconfig_experiment_definition}.
 type DataAwsccAppconfigExperimentDefinition interface {
 	cdktn.TerraformDataSource
 	ApplicationId() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccAppconfigExperimentDefinition) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appconfig_experiment_definition awscc_appconfig_experiment_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appconfig_experiment_definition awscc_appconfig_experiment_definition} Data Source.
 func NewDataAwsccAppconfigExperimentDefinition(scope constructs.Construct, id *string, config *DataAwsccAppconfigExperimentDefinitionConfig) DataAwsccAppconfigExperimentDefinition {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccAppconfigExperimentDefinition(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appconfig_experiment_definition awscc_appconfig_experiment_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appconfig_experiment_definition awscc_appconfig_experiment_definition} Data Source.
 func NewDataAwsccAppconfigExperimentDefinition_Override(d DataAwsccAppconfigExperimentDefinition, scope constructs.Construct, id *string, config *DataAwsccAppconfigExperimentDefinitionConfig) {
 	_init_.Initialize()
 

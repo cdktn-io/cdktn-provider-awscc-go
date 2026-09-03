@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_inference_component awscc_sagemaker_inference_component}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_inference_component awscc_sagemaker_inference_component}.
 type SagemakerInferenceComponent interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -76,6 +76,8 @@ type SagemakerInferenceComponent interface {
 	RuntimeConfigInput() interface{}
 	Specification() SagemakerInferenceComponentSpecificationOutputReference
 	SpecificationInput() interface{}
+	Specifications() SagemakerInferenceComponentSpecificationsList
+	SpecificationsInput() interface{}
 	Tags() SagemakerInferenceComponentTagsList
 	TagsInput() interface{}
 	// Experimental.
@@ -169,6 +171,7 @@ type SagemakerInferenceComponent interface {
 	PutDeploymentConfig(value *SagemakerInferenceComponentDeploymentConfig)
 	PutRuntimeConfig(value *SagemakerInferenceComponentRuntimeConfig)
 	PutSpecification(value *SagemakerInferenceComponentSpecification)
+	PutSpecifications(value interface{})
 	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -190,6 +193,8 @@ type SagemakerInferenceComponent interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRuntimeConfig()
+	ResetSpecification()
+	ResetSpecifications()
 	ResetTags()
 	ResetVariantName()
 	SynthesizeAttributes() *map[string]interface{}
@@ -529,6 +534,26 @@ func (j *jsiiProxy_SagemakerInferenceComponent) SpecificationInput() interface{}
 	return returns
 }
 
+func (j *jsiiProxy_SagemakerInferenceComponent) Specifications() SagemakerInferenceComponentSpecificationsList {
+	var returns SagemakerInferenceComponentSpecificationsList
+	_jsii_.Get(
+		j,
+		"specifications",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerInferenceComponent) SpecificationsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"specificationsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_SagemakerInferenceComponent) Tags() SagemakerInferenceComponentTagsList {
 	var returns SagemakerInferenceComponentTagsList
 	_jsii_.Get(
@@ -600,7 +625,7 @@ func (j *jsiiProxy_SagemakerInferenceComponent) VariantNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_inference_component awscc_sagemaker_inference_component} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_inference_component awscc_sagemaker_inference_component} Resource.
 func NewSagemakerInferenceComponent(scope constructs.Construct, id *string, config *SagemakerInferenceComponentConfig) SagemakerInferenceComponent {
 	_init_.Initialize()
 
@@ -618,7 +643,7 @@ func NewSagemakerInferenceComponent(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_inference_component awscc_sagemaker_inference_component} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_inference_component awscc_sagemaker_inference_component} Resource.
 func NewSagemakerInferenceComponent_Override(s SagemakerInferenceComponent, scope constructs.Construct, id *string, config *SagemakerInferenceComponentConfig) {
 	_init_.Initialize()
 
@@ -1143,6 +1168,17 @@ func (s *jsiiProxy_SagemakerInferenceComponent) PutSpecification(value *Sagemake
 	)
 }
 
+func (s *jsiiProxy_SagemakerInferenceComponent) PutSpecifications(value interface{}) {
+	if err := s.validatePutSpecificationsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putSpecifications",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_SagemakerInferenceComponent) PutTags(value interface{}) {
 	if err := s.validatePutTagsParameters(value); err != nil {
 		panic(err)
@@ -1201,6 +1237,22 @@ func (s *jsiiProxy_SagemakerInferenceComponent) ResetRuntimeConfig() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetRuntimeConfig",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SagemakerInferenceComponent) ResetSpecification() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetSpecification",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SagemakerInferenceComponent) ResetSpecifications() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetSpecifications",
 		nil, // no parameters
 	)
 }

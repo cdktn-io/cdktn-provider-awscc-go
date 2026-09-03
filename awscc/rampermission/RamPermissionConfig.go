@@ -24,17 +24,17 @@ type RamPermissionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the permission.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_permission#name RamPermission#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ram_permission#name RamPermission#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Policy template for the permission.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_permission#policy_template RamPermission#policy_template}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ram_permission#policy_template RamPermission#policy_template}
 	PolicyTemplate *string `field:"required" json:"policyTemplate" yaml:"policyTemplate"`
 	// The resource type this permission can be used with.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_permission#resource_type RamPermission#resource_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ram_permission#resource_type RamPermission#resource_type}
 	ResourceType *string `field:"required" json:"resourceType" yaml:"resourceType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ram_permission#tags RamPermission#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ram_permission#tags RamPermission#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

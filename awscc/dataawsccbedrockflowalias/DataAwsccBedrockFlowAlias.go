@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrock_flow_alias awscc_bedrock_flow_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrock_flow_alias awscc_bedrock_flow_alias}.
 type DataAwsccBedrockFlowAlias interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccBedrockFlowAlias) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrock_flow_alias awscc_bedrock_flow_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrock_flow_alias awscc_bedrock_flow_alias} Data Source.
 func NewDataAwsccBedrockFlowAlias(scope constructs.Construct, id *string, config *DataAwsccBedrockFlowAliasConfig) DataAwsccBedrockFlowAlias {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccBedrockFlowAlias(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrock_flow_alias awscc_bedrock_flow_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrock_flow_alias awscc_bedrock_flow_alias} Data Source.
 func NewDataAwsccBedrockFlowAlias_Override(d DataAwsccBedrockFlowAlias, scope constructs.Construct, id *string, config *DataAwsccBedrockFlowAliasConfig) {
 	_init_.Initialize()
 

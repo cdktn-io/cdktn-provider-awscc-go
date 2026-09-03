@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rtbfabric_link awscc_rtbfabric_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/rtbfabric_link awscc_rtbfabric_link}.
 type DataAwsccRtbfabricLink interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccRtbfabricLink) UpdatedTimestamp() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rtbfabric_link awscc_rtbfabric_link} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/rtbfabric_link awscc_rtbfabric_link} Data Source.
 func NewDataAwsccRtbfabricLink(scope constructs.Construct, id *string, config *DataAwsccRtbfabricLinkConfig) DataAwsccRtbfabricLink {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccRtbfabricLink(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/rtbfabric_link awscc_rtbfabric_link} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/rtbfabric_link awscc_rtbfabric_link} Data Source.
 func NewDataAwsccRtbfabricLink_Override(d DataAwsccRtbfabricLink, scope constructs.Construct, id *string, config *DataAwsccRtbfabricLinkConfig) {
 	_init_.Initialize()
 

@@ -67,6 +67,10 @@ func (j *jsiiProxy_SagemakerClusterInstanceGroupsLifeCycleConfigOutputReference)
 	return nil
 }
 
+func (j *jsiiProxy_SagemakerClusterInstanceGroupsLifeCycleConfigOutputReference) validateSetOnInitCompleteParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SagemakerClusterInstanceGroupsLifeCycleConfigOutputReference) validateSetSourceS3UriParameters(val *string) error {
 	return nil
 }

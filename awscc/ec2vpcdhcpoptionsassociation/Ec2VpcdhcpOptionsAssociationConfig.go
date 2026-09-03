@@ -24,11 +24,11 @@ type Ec2VpcdhcpOptionsAssociationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID of the DHCP options set, or default to associate no DHCP options with the VPC.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpcdhcp_options_association#dhcp_options_id Ec2VpcdhcpOptionsAssociation#dhcp_options_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_vpcdhcp_options_association#dhcp_options_id Ec2VpcdhcpOptionsAssociation#dhcp_options_id}
 	DhcpOptionsId *string `field:"required" json:"dhcpOptionsId" yaml:"dhcpOptionsId"`
 	// The ID of the VPC.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_vpcdhcp_options_association#vpc_id Ec2VpcdhcpOptionsAssociation#vpc_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_vpcdhcp_options_association#vpc_id Ec2VpcdhcpOptionsAssociation#vpc_id}
 	VpcId *string `field:"required" json:"vpcId" yaml:"vpcId"`
 }
 

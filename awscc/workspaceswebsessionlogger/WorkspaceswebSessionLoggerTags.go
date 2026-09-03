@@ -5,9 +5,9 @@ package workspaceswebsessionlogger
 
 
 type WorkspaceswebSessionLoggerTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesweb_session_logger#key WorkspaceswebSessionLogger#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspacesweb_session_logger#key WorkspaceswebSessionLogger#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/workspacesweb_session_logger#value WorkspaceswebSessionLogger#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspacesweb_session_logger#value WorkspaceswebSessionLogger#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

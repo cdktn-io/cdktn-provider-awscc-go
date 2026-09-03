@@ -55,6 +55,14 @@ func (s *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) vali
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) validatePutDataCacheConfigParameters(value *SagemakerInferenceComponentSpecificationDataCacheConfig) error {
+	return nil
+}
+
+func (s *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) validatePutSchedulingConfigParameters(value *SagemakerInferenceComponentSpecificationSchedulingConfig) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerInferenceComponentSpecificationOutputReference) validatePutStartupParametersParameters(value *SagemakerInferenceComponentSpecificationStartupParameters) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/fis_experiment_templates awscc_fis_experiment_templates}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/fis_experiment_templates awscc_fis_experiment_templates}.
 type DataAwsccFisExperimentTemplates interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccFisExperimentTemplates) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/fis_experiment_templates awscc_fis_experiment_templates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/fis_experiment_templates awscc_fis_experiment_templates} Data Source.
 func NewDataAwsccFisExperimentTemplates(scope constructs.Construct, id *string, config *DataAwsccFisExperimentTemplatesConfig) DataAwsccFisExperimentTemplates {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccFisExperimentTemplates(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/fis_experiment_templates awscc_fis_experiment_templates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/fis_experiment_templates awscc_fis_experiment_templates} Data Source.
 func NewDataAwsccFisExperimentTemplates_Override(d DataAwsccFisExperimentTemplates, scope constructs.Construct, id *string, config *DataAwsccFisExperimentTemplatesConfig) {
 	_init_.Initialize()
 

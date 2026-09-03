@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53recoverycontrol_control_panel awscc_route53recoverycontrol_control_panel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53recoverycontrol_control_panel awscc_route53recoverycontrol_control_panel}.
 type DataAwsccRoute53RecoverycontrolControlPanel interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccRoute53RecoverycontrolControlPanel) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53recoverycontrol_control_panel awscc_route53recoverycontrol_control_panel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53recoverycontrol_control_panel awscc_route53recoverycontrol_control_panel} Data Source.
 func NewDataAwsccRoute53RecoverycontrolControlPanel(scope constructs.Construct, id *string, config *DataAwsccRoute53RecoverycontrolControlPanelConfig) DataAwsccRoute53RecoverycontrolControlPanel {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccRoute53RecoverycontrolControlPanel(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53recoverycontrol_control_panel awscc_route53recoverycontrol_control_panel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53recoverycontrol_control_panel awscc_route53recoverycontrol_control_panel} Data Source.
 func NewDataAwsccRoute53RecoverycontrolControlPanel_Override(d DataAwsccRoute53RecoverycontrolControlPanel, scope constructs.Construct, id *string, config *DataAwsccRoute53RecoverycontrolControlPanelConfig) {
 	_init_.Initialize()
 

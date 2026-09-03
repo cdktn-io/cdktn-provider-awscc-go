@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_enclave_certificate_iam_role_association awscc_ec2_enclave_certificate_iam_role_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_enclave_certificate_iam_role_association awscc_ec2_enclave_certificate_iam_role_association}.
 type DataAwsccEc2EnclaveCertificateIamRoleAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccEc2EnclaveCertificateIamRoleAssociation) TerraformRe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_enclave_certificate_iam_role_association awscc_ec2_enclave_certificate_iam_role_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_enclave_certificate_iam_role_association awscc_ec2_enclave_certificate_iam_role_association} Data Source.
 func NewDataAwsccEc2EnclaveCertificateIamRoleAssociation(scope constructs.Construct, id *string, config *DataAwsccEc2EnclaveCertificateIamRoleAssociationConfig) DataAwsccEc2EnclaveCertificateIamRoleAssociation {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccEc2EnclaveCertificateIamRoleAssociation(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_enclave_certificate_iam_role_association awscc_ec2_enclave_certificate_iam_role_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_enclave_certificate_iam_role_association awscc_ec2_enclave_certificate_iam_role_association} Data Source.
 func NewDataAwsccEc2EnclaveCertificateIamRoleAssociation_Override(d DataAwsccEc2EnclaveCertificateIamRoleAssociation, scope constructs.Construct, id *string, config *DataAwsccEc2EnclaveCertificateIamRoleAssociationConfig) {
 	_init_.Initialize()
 

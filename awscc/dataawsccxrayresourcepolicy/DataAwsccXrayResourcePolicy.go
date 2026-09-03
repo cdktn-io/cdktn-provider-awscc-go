@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/xray_resource_policy awscc_xray_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/xray_resource_policy awscc_xray_resource_policy}.
 type DataAwsccXrayResourcePolicy interface {
 	cdktn.TerraformDataSource
 	BypassPolicyLockoutCheck() cdktn.IResolvable
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccXrayResourcePolicy) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/xray_resource_policy awscc_xray_resource_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/xray_resource_policy awscc_xray_resource_policy} Data Source.
 func NewDataAwsccXrayResourcePolicy(scope constructs.Construct, id *string, config *DataAwsccXrayResourcePolicyConfig) DataAwsccXrayResourcePolicy {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccXrayResourcePolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/xray_resource_policy awscc_xray_resource_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/xray_resource_policy awscc_xray_resource_policy} Data Source.
 func NewDataAwsccXrayResourcePolicy_Override(d DataAwsccXrayResourcePolicy, scope constructs.Construct, id *string, config *DataAwsccXrayResourcePolicyConfig) {
 	_init_.Initialize()
 

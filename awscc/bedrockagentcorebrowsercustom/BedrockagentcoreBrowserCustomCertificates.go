@@ -7,7 +7,7 @@ package bedrockagentcorebrowsercustom
 type BedrockagentcoreBrowserCustomCertificates struct {
 	// Certificate location in Secrets Manager.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_browser_custom#certificate_location BedrockagentcoreBrowserCustom#certificate_location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_browser_custom#certificate_location BedrockagentcoreBrowserCustom#certificate_location}
 	CertificateLocation *BedrockagentcoreBrowserCustomCertificatesCertificateLocation `field:"optional" json:"certificateLocation" yaml:"certificateLocation"`
 }
 

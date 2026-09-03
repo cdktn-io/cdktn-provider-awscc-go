@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53recoverycontrol_routing_control awscc_route53recoverycontrol_routing_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53recoverycontrol_routing_control awscc_route53recoverycontrol_routing_control}.
 type DataAwsccRoute53RecoverycontrolRoutingControl interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccRoute53RecoverycontrolRoutingControl) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53recoverycontrol_routing_control awscc_route53recoverycontrol_routing_control} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53recoverycontrol_routing_control awscc_route53recoverycontrol_routing_control} Data Source.
 func NewDataAwsccRoute53RecoverycontrolRoutingControl(scope constructs.Construct, id *string, config *DataAwsccRoute53RecoverycontrolRoutingControlConfig) DataAwsccRoute53RecoverycontrolRoutingControl {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccRoute53RecoverycontrolRoutingControl(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/route53recoverycontrol_routing_control awscc_route53recoverycontrol_routing_control} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53recoverycontrol_routing_control awscc_route53recoverycontrol_routing_control} Data Source.
 func NewDataAwsccRoute53RecoverycontrolRoutingControl_Override(d DataAwsccRoute53RecoverycontrolRoutingControl, scope constructs.Construct, id *string, config *DataAwsccRoute53RecoverycontrolRoutingControlConfig) {
 	_init_.Initialize()
 

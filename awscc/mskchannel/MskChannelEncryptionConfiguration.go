@@ -7,7 +7,7 @@ package mskchannel
 type MskChannelEncryptionConfiguration struct {
 	// The ARN of the KMS key for encryption.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_channel#kms_key_arn MskChannel#kms_key_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/msk_channel#kms_key_arn MskChannel#kms_key_arn}
 	KmsKeyArn *string `field:"optional" json:"kmsKeyArn" yaml:"kmsKeyArn"`
 }
 

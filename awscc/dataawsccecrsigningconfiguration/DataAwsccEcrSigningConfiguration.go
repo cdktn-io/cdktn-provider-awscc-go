@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecr_signing_configuration awscc_ecr_signing_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ecr_signing_configuration awscc_ecr_signing_configuration}.
 type DataAwsccEcrSigningConfiguration interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccEcrSigningConfiguration) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecr_signing_configuration awscc_ecr_signing_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ecr_signing_configuration awscc_ecr_signing_configuration} Data Source.
 func NewDataAwsccEcrSigningConfiguration(scope constructs.Construct, id *string, config *DataAwsccEcrSigningConfigurationConfig) DataAwsccEcrSigningConfiguration {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccEcrSigningConfiguration(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecr_signing_configuration awscc_ecr_signing_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ecr_signing_configuration awscc_ecr_signing_configuration} Data Source.
 func NewDataAwsccEcrSigningConfiguration_Override(d DataAwsccEcrSigningConfiguration, scope constructs.Construct, id *string, config *DataAwsccEcrSigningConfigurationConfig) {
 	_init_.Initialize()
 

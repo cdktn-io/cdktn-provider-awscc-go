@@ -24,23 +24,23 @@ type Ec2PrefixListConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Ip Version of Prefix List.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_prefix_list#address_family Ec2PrefixList#address_family}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_prefix_list#address_family Ec2PrefixList#address_family}
 	AddressFamily *string `field:"required" json:"addressFamily" yaml:"addressFamily"`
 	// Name of Prefix List.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_prefix_list#prefix_list_name Ec2PrefixList#prefix_list_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_prefix_list#prefix_list_name Ec2PrefixList#prefix_list_name}
 	PrefixListName *string `field:"required" json:"prefixListName" yaml:"prefixListName"`
 	// Entries of Prefix List.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_prefix_list#entries Ec2PrefixList#entries}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_prefix_list#entries Ec2PrefixList#entries}
 	Entries interface{} `field:"optional" json:"entries" yaml:"entries"`
 	// Max Entries of Prefix List.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_prefix_list#max_entries Ec2PrefixList#max_entries}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_prefix_list#max_entries Ec2PrefixList#max_entries}
 	MaxEntries *float64 `field:"optional" json:"maxEntries" yaml:"maxEntries"`
 	// Tags for Prefix List.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_prefix_list#tags Ec2PrefixList#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_prefix_list#tags Ec2PrefixList#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

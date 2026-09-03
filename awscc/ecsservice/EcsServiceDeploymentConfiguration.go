@@ -7,7 +7,7 @@ package ecsservice
 type EcsServiceDeploymentConfiguration struct {
 	// Information about the CloudWatch alarms.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_service#alarms EcsService#alarms}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_service#alarms EcsService#alarms}
 	Alarms *EcsServiceDeploymentConfigurationAlarms `field:"optional" json:"alarms" yaml:"alarms"`
 	// The duration waiting before terminating the previous service revision and marking a deployment complete.
 	//
@@ -18,29 +18,29 @@ type EcsServiceDeploymentConfiguration struct {
 	//
 	//   If you provide a bake time for a rolling deployment, the CloudFormation handler timeout is increased to the maximum of 36 hours, matching the timeout for blue/green, linear, and canary deployments.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_service#bake_time_in_minutes EcsService#bake_time_in_minutes}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_service#bake_time_in_minutes EcsService#bake_time_in_minutes}
 	BakeTimeInMinutes *float64 `field:"optional" json:"bakeTimeInMinutes" yaml:"bakeTimeInMinutes"`
 	// Configuration for canary deployment strategy.
 	//
 	// Only valid when the deployment strategy is ``CANARY``. This configuration enables shifting a fixed percentage of traffic for testing, followed by shifting the remaining traffic after a bake period.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_service#canary_configuration EcsService#canary_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_service#canary_configuration EcsService#canary_configuration}
 	CanaryConfiguration *EcsServiceDeploymentConfigurationCanaryConfiguration `field:"optional" json:"canaryConfiguration" yaml:"canaryConfiguration"`
 	// The deployment circuit breaker can only be used for services using the rolling update (``ECS``) deployment type.
 	//
 	// The *deployment circuit breaker* determines whether a service deployment will fail if the service can't reach a steady state. If you use the deployment circuit breaker, a service deployment will transition to a failed state and stop launching new tasks. If you use the rollback option, when a service deployment fails, the service is rolled back to the last deployment that completed successfully. For more information, see [Rolling update](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/deployment-type-ecs.html) in the *Amazon Elastic Container Service Developer Guide*
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_service#deployment_circuit_breaker EcsService#deployment_circuit_breaker}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_service#deployment_circuit_breaker EcsService#deployment_circuit_breaker}
 	DeploymentCircuitBreaker *EcsServiceDeploymentConfigurationDeploymentCircuitBreaker `field:"optional" json:"deploymentCircuitBreaker" yaml:"deploymentCircuitBreaker"`
 	// An array of deployment lifecycle hook objects to run custom logic or pause the deployment at specific stages of the deployment lifecycle.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_service#lifecycle_hooks EcsService#lifecycle_hooks}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_service#lifecycle_hooks EcsService#lifecycle_hooks}
 	LifecycleHooks interface{} `field:"optional" json:"lifecycleHooks" yaml:"lifecycleHooks"`
 	// Configuration for linear deployment strategy.
 	//
 	// Only valid when the deployment strategy is ``LINEAR``. This configuration enables progressive traffic shifting in equal percentage increments with configurable bake times between each step.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_service#linear_configuration EcsService#linear_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_service#linear_configuration EcsService#linear_configuration}
 	LinearConfiguration *EcsServiceDeploymentConfigurationLinearConfiguration `field:"optional" json:"linearConfiguration" yaml:"linearConfiguration"`
 	// If a service is using the rolling update (``ECS``) deployment type, the ``maximumPercent`` parameter represents an upper limit on the number of your service's tasks that are allowed in the ``RUNNING`` or ``PENDING`` state during a deployment, as a percentage of the ``desiredCount`` (rounded down to the nearest integer).
 	//
@@ -50,7 +50,7 @@ type EcsServiceDeploymentConfiguration struct {
 	//   You can't specify a custom ``maximumPercent`` value for a service that uses either the blue/green (``CODE_DEPLOY``) or ``EXTERNAL`` deployment types and has tasks that use the EC2 launch type.
 	//   If the service uses either the blue/green (``CODE_DEPLOY``) or ``EXTERNAL`` deployment types, and the tasks in the service use the Fargate launch type, the maximum percent value is not used. The value is still returned when describing your service.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_service#maximum_percent EcsService#maximum_percent}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_service#maximum_percent EcsService#maximum_percent}
 	MaximumPercent *float64 `field:"optional" json:"maximumPercent" yaml:"maximumPercent"`
 	// If a service is using the rolling update (``ECS``) deployment type, the ``minimumHealthyPercent`` represents a lower limit on the number of your service's tasks that must remain in the ``RUNNING`` state during a deployment, as a percentage of the ``desiredCount`` (rounded up to the nearest integer).
 	//
@@ -71,7 +71,7 @@ type EcsServiceDeploymentConfiguration struct {
 	//   You can't specify a custom ``minimumHealthyPercent`` value for a service that uses either the blue/green (``CODE_DEPLOY``) or ``EXTERNAL`` deployment types and has tasks that use the EC2 launch type.
 	//   If a service is using either the blue/green (``CODE_DEPLOY``) or ``EXTERNAL`` deployment types and is running tasks that use the Fargate launch type, the minimum healthy percent value is not used, although it is returned when describing your service.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_service#minimum_healthy_percent EcsService#minimum_healthy_percent}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_service#minimum_healthy_percent EcsService#minimum_healthy_percent}
 	MinimumHealthyPercent *float64 `field:"optional" json:"minimumHealthyPercent" yaml:"minimumHealthyPercent"`
 	// The deployment strategy for the service.
 	//
@@ -81,7 +81,7 @@ type EcsServiceDeploymentConfiguration struct {
 	//   +  ``LINEAR`` - A *linear* deployment strategy (``LINEAR``) gradually shifts traffic from the current production environment to a new environment in equal percentages over time. With Amazon ECS linear deployments, you can control the pace of traffic shifting and validate new service revisions with increasing amounts of production traffic.
 	//   +  ``CANARY`` - A *canary* deployment strategy (``CANARY``) shifts a small percentage of traffic to the new service revision first, then shifts the remaining traffic all at once after a specified time period. This allows you to test the new version with a subset of users before full deployment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ecs_service#strategy EcsService#strategy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_service#strategy EcsService#strategy}
 	Strategy *string `field:"optional" json:"strategy" yaml:"strategy"`
 }
 

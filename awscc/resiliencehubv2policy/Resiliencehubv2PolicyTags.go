@@ -7,11 +7,11 @@ package resiliencehubv2policy
 type Resiliencehubv2PolicyTags struct {
 	// The tag key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resiliencehubv2_policy#key Resiliencehubv2Policy#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/resiliencehubv2_policy#key Resiliencehubv2Policy#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The tag value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/resiliencehubv2_policy#value Resiliencehubv2Policy#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/resiliencehubv2_policy#value Resiliencehubv2Policy#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

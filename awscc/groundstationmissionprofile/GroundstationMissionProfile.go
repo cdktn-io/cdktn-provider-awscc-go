@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/groundstation_mission_profile awscc_groundstation_mission_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/groundstation_mission_profile awscc_groundstation_mission_profile}.
 type GroundstationMissionProfile interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -624,7 +624,7 @@ func (j *jsiiProxy_GroundstationMissionProfile) TrackingConfigArnInput() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/groundstation_mission_profile awscc_groundstation_mission_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/groundstation_mission_profile awscc_groundstation_mission_profile} Resource.
 func NewGroundstationMissionProfile(scope constructs.Construct, id *string, config *GroundstationMissionProfileConfig) GroundstationMissionProfile {
 	_init_.Initialize()
 
@@ -642,7 +642,7 @@ func NewGroundstationMissionProfile(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/groundstation_mission_profile awscc_groundstation_mission_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/groundstation_mission_profile awscc_groundstation_mission_profile} Resource.
 func NewGroundstationMissionProfile_Override(g GroundstationMissionProfile, scope constructs.Construct, id *string, config *GroundstationMissionProfileConfig) {
 	_init_.Initialize()
 

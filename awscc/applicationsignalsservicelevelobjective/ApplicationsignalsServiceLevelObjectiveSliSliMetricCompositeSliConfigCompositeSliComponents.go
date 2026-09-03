@@ -5,7 +5,7 @@ package applicationsignalsservicelevelobjective
 
 
 type ApplicationsignalsServiceLevelObjectiveSliSliMetricCompositeSliConfigCompositeSliComponents struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationsignals_service_level_objective#operation_name ApplicationsignalsServiceLevelObjective#operation_name}.
 	OperationName *string `field:"optional" json:"operationName" yaml:"operationName"`
 }
 

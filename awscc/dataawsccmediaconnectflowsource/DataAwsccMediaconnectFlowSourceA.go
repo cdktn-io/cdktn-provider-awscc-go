@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediaconnect_flow_source awscc_mediaconnect_flow_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediaconnect_flow_source awscc_mediaconnect_flow_source}.
 type DataAwsccMediaconnectFlowSourceA interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -69,7 +69,7 @@ type DataAwsccMediaconnectFlowSourceA interface {
 	SourceListenerAddress() *string
 	SourceListenerPort() *float64
 	StreamId() *string
-	Tags() DataAwsccMediaconnectFlowSourceTagsList
+	Tags() DataAwsccMediaconnectFlowSourceTagsAList
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -467,8 +467,8 @@ func (j *jsiiProxy_DataAwsccMediaconnectFlowSourceA) StreamId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsccMediaconnectFlowSourceA) Tags() DataAwsccMediaconnectFlowSourceTagsList {
-	var returns DataAwsccMediaconnectFlowSourceTagsList
+func (j *jsiiProxy_DataAwsccMediaconnectFlowSourceA) Tags() DataAwsccMediaconnectFlowSourceTagsAList {
+	var returns DataAwsccMediaconnectFlowSourceTagsAList
 	_jsii_.Get(
 		j,
 		"tags",
@@ -528,7 +528,7 @@ func (j *jsiiProxy_DataAwsccMediaconnectFlowSourceA) WhitelistCidr() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediaconnect_flow_source awscc_mediaconnect_flow_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediaconnect_flow_source awscc_mediaconnect_flow_source} Data Source.
 func NewDataAwsccMediaconnectFlowSourceA(scope constructs.Construct, id *string, config *DataAwsccMediaconnectFlowSourceAConfig) DataAwsccMediaconnectFlowSourceA {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewDataAwsccMediaconnectFlowSourceA(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediaconnect_flow_source awscc_mediaconnect_flow_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediaconnect_flow_source awscc_mediaconnect_flow_source} Data Source.
 func NewDataAwsccMediaconnectFlowSourceA_Override(d DataAwsccMediaconnectFlowSourceA, scope constructs.Construct, id *string, config *DataAwsccMediaconnectFlowSourceAConfig) {
 	_init_.Initialize()
 

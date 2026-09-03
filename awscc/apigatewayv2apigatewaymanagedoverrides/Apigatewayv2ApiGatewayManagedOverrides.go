@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_api_gateway_managed_overrides awscc_apigatewayv2_api_gateway_managed_overrides}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigatewayv2_api_gateway_managed_overrides awscc_apigatewayv2_api_gateway_managed_overrides}.
 type Apigatewayv2ApiGatewayManagedOverrides interface {
 	cdktn.TerraformResource
 	ApiGatewayManagedOverridesId() *string
@@ -461,7 +461,7 @@ func (j *jsiiProxy_Apigatewayv2ApiGatewayManagedOverrides) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_api_gateway_managed_overrides awscc_apigatewayv2_api_gateway_managed_overrides} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigatewayv2_api_gateway_managed_overrides awscc_apigatewayv2_api_gateway_managed_overrides} Resource.
 func NewApigatewayv2ApiGatewayManagedOverrides(scope constructs.Construct, id *string, config *Apigatewayv2ApiGatewayManagedOverridesConfig) Apigatewayv2ApiGatewayManagedOverrides {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewApigatewayv2ApiGatewayManagedOverrides(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/apigatewayv2_api_gateway_managed_overrides awscc_apigatewayv2_api_gateway_managed_overrides} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigatewayv2_api_gateway_managed_overrides awscc_apigatewayv2_api_gateway_managed_overrides} Resource.
 func NewApigatewayv2ApiGatewayManagedOverrides_Override(a Apigatewayv2ApiGatewayManagedOverrides, scope constructs.Construct, id *string, config *Apigatewayv2ApiGatewayManagedOverridesConfig) {
 	_init_.Initialize()
 

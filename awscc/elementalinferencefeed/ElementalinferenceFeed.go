@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed awscc_elementalinference_feed}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed awscc_elementalinference_feed}.
 type ElementalinferenceFeed interface {
 	cdktn.TerraformResource
 	AccessRoleArn() *string
@@ -482,7 +482,7 @@ func (j *jsiiProxy_ElementalinferenceFeed) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed awscc_elementalinference_feed} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed awscc_elementalinference_feed} Resource.
 func NewElementalinferenceFeed(scope constructs.Construct, id *string, config *ElementalinferenceFeedConfig) ElementalinferenceFeed {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewElementalinferenceFeed(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/elementalinference_feed awscc_elementalinference_feed} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed awscc_elementalinference_feed} Resource.
 func NewElementalinferenceFeed_Override(e ElementalinferenceFeed, scope constructs.Construct, id *string, config *ElementalinferenceFeedConfig) {
 	_init_.Initialize()
 

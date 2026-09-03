@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_pipeline awscc_sagemaker_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_pipeline awscc_sagemaker_pipeline}.
 type SagemakerPipeline interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_SagemakerPipeline) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_pipeline awscc_sagemaker_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_pipeline awscc_sagemaker_pipeline} Resource.
 func NewSagemakerPipeline(scope constructs.Construct, id *string, config *SagemakerPipelineConfig) SagemakerPipeline {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewSagemakerPipeline(scope constructs.Construct, id *string, config *Sagema
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_pipeline awscc_sagemaker_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_pipeline awscc_sagemaker_pipeline} Resource.
 func NewSagemakerPipeline_Override(s SagemakerPipeline, scope constructs.Construct, id *string, config *SagemakerPipelineConfig) {
 	_init_.Initialize()
 

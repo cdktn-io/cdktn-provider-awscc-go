@@ -24,11 +24,11 @@ type MskClusterPolicyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The arn of the cluster for the resource policy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_cluster_policy#cluster_arn MskClusterPolicy#cluster_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/msk_cluster_policy#cluster_arn MskClusterPolicy#cluster_arn}
 	ClusterArn *string `field:"required" json:"clusterArn" yaml:"clusterArn"`
 	// A policy document containing permissions to add to the specified cluster.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/msk_cluster_policy#policy MskClusterPolicy#policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/msk_cluster_policy#policy MskClusterPolicy#policy}
 	Policy *string `field:"required" json:"policy" yaml:"policy"`
 }
 

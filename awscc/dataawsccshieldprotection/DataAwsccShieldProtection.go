@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/shield_protection awscc_shield_protection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/shield_protection awscc_shield_protection}.
 type DataAwsccShieldProtection interface {
 	cdktn.TerraformDataSource
 	ApplicationLayerAutomaticResponseConfiguration() DataAwsccShieldProtectionApplicationLayerAutomaticResponseConfigurationOutputReference
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccShieldProtection) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/shield_protection awscc_shield_protection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/shield_protection awscc_shield_protection} Data Source.
 func NewDataAwsccShieldProtection(scope constructs.Construct, id *string, config *DataAwsccShieldProtectionConfig) DataAwsccShieldProtection {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccShieldProtection(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/shield_protection awscc_shield_protection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/shield_protection awscc_shield_protection} Data Source.
 func NewDataAwsccShieldProtection_Override(d DataAwsccShieldProtection, scope constructs.Construct, id *string, config *DataAwsccShieldProtectionConfig) {
 	_init_.Initialize()
 

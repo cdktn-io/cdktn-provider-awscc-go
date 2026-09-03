@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_nat_gateway awscc_ec2_nat_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_nat_gateway awscc_ec2_nat_gateway}.
 type Ec2NatGateway interface {
 	cdktn.TerraformResource
 	AllocationId() *string
@@ -698,7 +698,7 @@ func (j *jsiiProxy_Ec2NatGateway) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_nat_gateway awscc_ec2_nat_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_nat_gateway awscc_ec2_nat_gateway} Resource.
 func NewEc2NatGateway(scope constructs.Construct, id *string, config *Ec2NatGatewayConfig) Ec2NatGateway {
 	_init_.Initialize()
 
@@ -716,7 +716,7 @@ func NewEc2NatGateway(scope constructs.Construct, id *string, config *Ec2NatGate
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_nat_gateway awscc_ec2_nat_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_nat_gateway awscc_ec2_nat_gateway} Resource.
 func NewEc2NatGateway_Override(e Ec2NatGateway, scope constructs.Construct, id *string, config *Ec2NatGatewayConfig) {
 	_init_.Initialize()
 

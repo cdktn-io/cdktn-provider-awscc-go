@@ -5,11 +5,11 @@ package quicksightdatasource
 
 
 type QuicksightDataSourceCredentialsKeyPairCredentials struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#key_pair_username QuicksightDataSource#key_pair_username}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_data_source#key_pair_username QuicksightDataSource#key_pair_username}.
 	KeyPairUsername *string `field:"optional" json:"keyPairUsername" yaml:"keyPairUsername"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#private_key QuicksightDataSource#private_key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_data_source#private_key QuicksightDataSource#private_key}.
 	PrivateKey *string `field:"optional" json:"privateKey" yaml:"privateKey"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#private_key_passphrase QuicksightDataSource#private_key_passphrase}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_data_source#private_key_passphrase QuicksightDataSource#private_key_passphrase}.
 	PrivateKeyPassphrase *string `field:"optional" json:"privateKeyPassphrase" yaml:"privateKeyPassphrase"`
 }
 

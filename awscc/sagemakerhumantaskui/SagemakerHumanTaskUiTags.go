@@ -7,11 +7,11 @@ package sagemakerhumantaskui
 type SagemakerHumanTaskUiTags struct {
 	// The tag key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_human_task_ui#key SagemakerHumanTaskUi#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_human_task_ui#key SagemakerHumanTaskUi#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The tag value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_human_task_ui#value SagemakerHumanTaskUi#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_human_task_ui#value SagemakerHumanTaskUi#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

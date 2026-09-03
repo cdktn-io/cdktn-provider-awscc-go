@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_backup_vault awscc_backup_backup_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_backup_vault awscc_backup_backup_vault}.
 type BackupBackupVault interface {
 	cdktn.TerraformResource
 	AccessPolicy() *string
@@ -509,7 +509,7 @@ func (j *jsiiProxy_BackupBackupVault) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_backup_vault awscc_backup_backup_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_backup_vault awscc_backup_backup_vault} Resource.
 func NewBackupBackupVault(scope constructs.Construct, id *string, config *BackupBackupVaultConfig) BackupBackupVault {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewBackupBackupVault(scope constructs.Construct, id *string, config *Backup
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/backup_backup_vault awscc_backup_backup_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_backup_vault awscc_backup_backup_vault} Resource.
 func NewBackupBackupVault_Override(b BackupBackupVault, scope constructs.Construct, id *string, config *BackupBackupVaultConfig) {
 	_init_.Initialize()
 

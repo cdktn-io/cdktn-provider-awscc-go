@@ -51,6 +51,10 @@ func (m *jsiiProxy_MediaconnectFlowMediaStreamsOutputReference) validatePutAttri
 	return nil
 }
 
+func (m *jsiiProxy_MediaconnectFlowMediaStreamsOutputReference) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MediaconnectFlowMediaStreamsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

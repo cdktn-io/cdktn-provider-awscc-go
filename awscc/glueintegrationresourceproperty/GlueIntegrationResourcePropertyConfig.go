@@ -24,19 +24,19 @@ type GlueIntegrationResourcePropertyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The connection ARN of the source, or the database ARN of the target.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_integration_resource_property#resource_arn GlueIntegrationResourceProperty#resource_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_integration_resource_property#resource_arn GlueIntegrationResourceProperty#resource_arn}
 	ResourceArn *string `field:"required" json:"resourceArn" yaml:"resourceArn"`
 	// The resource properties associated with the integration source.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_integration_resource_property#source_processing_properties GlueIntegrationResourceProperty#source_processing_properties}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_integration_resource_property#source_processing_properties GlueIntegrationResourceProperty#source_processing_properties}
 	SourceProcessingProperties *GlueIntegrationResourcePropertySourceProcessingProperties `field:"optional" json:"sourceProcessingProperties" yaml:"sourceProcessingProperties"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_integration_resource_property#tags GlueIntegrationResourceProperty#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_integration_resource_property#tags GlueIntegrationResourceProperty#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// The resource properties associated with the integration target.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_integration_resource_property#target_processing_properties GlueIntegrationResourceProperty#target_processing_properties}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_integration_resource_property#target_processing_properties GlueIntegrationResourceProperty#target_processing_properties}
 	TargetProcessingProperties *GlueIntegrationResourcePropertyTargetProcessingProperties `field:"optional" json:"targetProcessingProperties" yaml:"targetProcessingProperties"`
 }
 

@@ -5,23 +5,23 @@ package quicksightdatasource
 
 
 type QuicksightDataSourceDataSourceParametersSnowflakeParameters struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}.
 	AuthenticationType *string `field:"optional" json:"authenticationType" yaml:"authenticationType"`
 	// <p>Database.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 	Database *string `field:"optional" json:"database" yaml:"database"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_data_source#database_access_control_role QuicksightDataSource#database_access_control_role}.
 	DatabaseAccessControlRole *string `field:"optional" json:"databaseAccessControlRole" yaml:"databaseAccessControlRole"`
 	// <p>Host.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 	Host *string `field:"optional" json:"host" yaml:"host"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}.
 	OAuthParameters *QuicksightDataSourceDataSourceParametersSnowflakeParametersOAuthParameters `field:"optional" json:"oAuthParameters" yaml:"oAuthParameters"`
 	// <p>Warehouse.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_data_source#warehouse QuicksightDataSource#warehouse}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_data_source#warehouse QuicksightDataSource#warehouse}
 	Warehouse *string `field:"optional" json:"warehouse" yaml:"warehouse"`
 }
 

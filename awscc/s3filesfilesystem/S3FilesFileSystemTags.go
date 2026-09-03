@@ -5,9 +5,9 @@ package s3filesfilesystem
 
 
 type S3FilesFileSystemTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3files_file_system#key S3FilesFileSystem#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3files_file_system#key S3FilesFileSystem#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3files_file_system#value S3FilesFileSystem#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3files_file_system#value S3FilesFileSystem#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_instance awscc_rds_db_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_instance awscc_rds_db_instance}.
 type RdsDbInstance interface {
 	cdktn.TerraformResource
 	AdditionalStorageVolumes() RdsDbInstanceAdditionalStorageVolumesList
@@ -290,6 +290,8 @@ type RdsDbInstance interface {
 	StorageEncrypted() interface{}
 	SetStorageEncrypted(val interface{})
 	StorageEncryptedInput() interface{}
+	StorageOperationPercentProgress() *float64
+	StorageOperationStatus() *string
 	StorageThroughput() *float64
 	SetStorageThroughput(val *float64)
 	StorageThroughputInput() *float64
@@ -2312,6 +2314,26 @@ func (j *jsiiProxy_RdsDbInstance) StorageEncryptedInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_RdsDbInstance) StorageOperationPercentProgress() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"storageOperationPercentProgress",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RdsDbInstance) StorageOperationStatus() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageOperationStatus",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_RdsDbInstance) StorageThroughput() *float64 {
 	var returns *float64
 	_jsii_.Get(
@@ -2523,7 +2545,7 @@ func (j *jsiiProxy_RdsDbInstance) VpcSecurityGroupsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_instance awscc_rds_db_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_instance awscc_rds_db_instance} Resource.
 func NewRdsDbInstance(scope constructs.Construct, id *string, config *RdsDbInstanceConfig) RdsDbInstance {
 	_init_.Initialize()
 
@@ -2541,7 +2563,7 @@ func NewRdsDbInstance(scope constructs.Construct, id *string, config *RdsDbInsta
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/rds_db_instance awscc_rds_db_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rds_db_instance awscc_rds_db_instance} Resource.
 func NewRdsDbInstance_Override(r RdsDbInstance, scope constructs.Construct, id *string, config *RdsDbInstanceConfig) {
 	_init_.Initialize()
 

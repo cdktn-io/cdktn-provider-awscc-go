@@ -7,7 +7,7 @@ package bedrockagentcoreoauth2credentialprovider
 type BedrockagentcoreOAuth2CredentialProviderOauth2ProviderConfigInputCustomOauth2ProviderConfigPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResource struct {
 	// The ARN or ID of the VPC Lattice resource configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_o_auth_2_credential_provider#resource_configuration_identifier BedrockagentcoreOAuth2CredentialProvider#resource_configuration_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_o_auth_2_credential_provider#resource_configuration_identifier BedrockagentcoreOAuth2CredentialProvider#resource_configuration_identifier}
 	ResourceConfigurationIdentifier *string `field:"optional" json:"resourceConfigurationIdentifier" yaml:"resourceConfigurationIdentifier"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/medialive_multiplexes awscc_medialive_multiplexes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/medialive_multiplexes awscc_medialive_multiplexes}.
 type DataAwsccMedialiveMultiplexes interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMedialiveMultiplexes) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/medialive_multiplexes awscc_medialive_multiplexes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/medialive_multiplexes awscc_medialive_multiplexes} Data Source.
 func NewDataAwsccMedialiveMultiplexes(scope constructs.Construct, id *string, config *DataAwsccMedialiveMultiplexesConfig) DataAwsccMedialiveMultiplexes {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMedialiveMultiplexes(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/medialive_multiplexes awscc_medialive_multiplexes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/medialive_multiplexes awscc_medialive_multiplexes} Data Source.
 func NewDataAwsccMedialiveMultiplexes_Override(d DataAwsccMedialiveMultiplexes, scope constructs.Construct, id *string, config *DataAwsccMedialiveMultiplexesConfig) {
 	_init_.Initialize()
 

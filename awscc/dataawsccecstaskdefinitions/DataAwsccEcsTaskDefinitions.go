@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecs_task_definitions awscc_ecs_task_definitions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ecs_task_definitions awscc_ecs_task_definitions}.
 type DataAwsccEcsTaskDefinitions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEcsTaskDefinitions) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecs_task_definitions awscc_ecs_task_definitions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ecs_task_definitions awscc_ecs_task_definitions} Data Source.
 func NewDataAwsccEcsTaskDefinitions(scope constructs.Construct, id *string, config *DataAwsccEcsTaskDefinitionsConfig) DataAwsccEcsTaskDefinitions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEcsTaskDefinitions(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ecs_task_definitions awscc_ecs_task_definitions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ecs_task_definitions awscc_ecs_task_definitions} Data Source.
 func NewDataAwsccEcsTaskDefinitions_Override(d DataAwsccEcsTaskDefinitions, scope constructs.Construct, id *string, config *DataAwsccEcsTaskDefinitionsConfig) {
 	_init_.Initialize()
 

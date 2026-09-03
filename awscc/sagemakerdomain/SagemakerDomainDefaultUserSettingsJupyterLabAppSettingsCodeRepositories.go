@@ -7,7 +7,7 @@ package sagemakerdomain
 type SagemakerDomainDefaultUserSettingsJupyterLabAppSettingsCodeRepositories struct {
 	// A CodeRepository (valid URL) to be used within Jupyter's Git extension.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sagemaker_domain#repository_url SagemakerDomain#repository_url}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_domain#repository_url SagemakerDomain#repository_url}
 	RepositoryUrl *string `field:"optional" json:"repositoryUrl" yaml:"repositoryUrl"`
 }
 

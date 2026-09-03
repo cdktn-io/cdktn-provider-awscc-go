@@ -7,7 +7,7 @@ package certificatemanageracmeendpoint
 type CertificatemanagerAcmeEndpointCertificateAuthorityPublicCertificateAuthority struct {
 	// The allowed key algorithms for certificates issued via this endpoint.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/certificatemanager_acme_endpoint#allowed_key_algorithms CertificatemanagerAcmeEndpoint#allowed_key_algorithms}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/certificatemanager_acme_endpoint#allowed_key_algorithms CertificatemanagerAcmeEndpoint#allowed_key_algorithms}
 	AllowedKeyAlgorithms *[]*string `field:"optional" json:"allowedKeyAlgorithms" yaml:"allowedKeyAlgorithms"`
 }
 

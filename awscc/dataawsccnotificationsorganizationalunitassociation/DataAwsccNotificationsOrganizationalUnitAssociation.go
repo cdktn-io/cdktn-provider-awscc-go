@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/notifications_organizational_unit_association awscc_notifications_organizational_unit_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/notifications_organizational_unit_association awscc_notifications_organizational_unit_association}.
 type DataAwsccNotificationsOrganizationalUnitAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccNotificationsOrganizationalUnitAssociation) Terrafor
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/notifications_organizational_unit_association awscc_notifications_organizational_unit_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/notifications_organizational_unit_association awscc_notifications_organizational_unit_association} Data Source.
 func NewDataAwsccNotificationsOrganizationalUnitAssociation(scope constructs.Construct, id *string, config *DataAwsccNotificationsOrganizationalUnitAssociationConfig) DataAwsccNotificationsOrganizationalUnitAssociation {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccNotificationsOrganizationalUnitAssociation(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/notifications_organizational_unit_association awscc_notifications_organizational_unit_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/notifications_organizational_unit_association awscc_notifications_organizational_unit_association} Data Source.
 func NewDataAwsccNotificationsOrganizationalUnitAssociation_Override(d DataAwsccNotificationsOrganizationalUnitAssociation, scope constructs.Construct, id *string, config *DataAwsccNotificationsOrganizationalUnitAssociationConfig) {
 	_init_.Initialize()
 

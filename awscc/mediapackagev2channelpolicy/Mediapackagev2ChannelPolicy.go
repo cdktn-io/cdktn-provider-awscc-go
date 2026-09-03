@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediapackagev2_channel_policy awscc_mediapackagev2_channel_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediapackagev2_channel_policy awscc_mediapackagev2_channel_policy}.
 type Mediapackagev2ChannelPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_Mediapackagev2ChannelPolicy) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediapackagev2_channel_policy awscc_mediapackagev2_channel_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediapackagev2_channel_policy awscc_mediapackagev2_channel_policy} Resource.
 func NewMediapackagev2ChannelPolicy(scope constructs.Construct, id *string, config *Mediapackagev2ChannelPolicyConfig) Mediapackagev2ChannelPolicy {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewMediapackagev2ChannelPolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/mediapackagev2_channel_policy awscc_mediapackagev2_channel_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediapackagev2_channel_policy awscc_mediapackagev2_channel_policy} Resource.
 func NewMediapackagev2ChannelPolicy_Override(m Mediapackagev2ChannelPolicy, scope constructs.Construct, id *string, config *Mediapackagev2ChannelPolicyConfig) {
 	_init_.Initialize()
 

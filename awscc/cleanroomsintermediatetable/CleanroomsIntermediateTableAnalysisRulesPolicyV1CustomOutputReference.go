@@ -16,6 +16,8 @@ type CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference inter
 	AdditionalAnalyses() *string
 	SetAdditionalAnalyses(val *string)
 	AdditionalAnalysesInput() *string
+	AggregationThresholds() CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList
+	AggregationThresholdsInput() interface{}
 	AllowedAnalyses() *[]*string
 	SetAllowedAnalyses(val *[]*string)
 	AllowedAnalysesInput() *[]*string
@@ -25,6 +27,8 @@ type CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference inter
 	AllowedResultReceivers() *[]*string
 	SetAllowedResultReceivers(val *[]*string)
 	AllowedResultReceiversInput() *[]*string
+	ComparisonControls() CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference
+	ComparisonControlsInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -81,11 +85,15 @@ type CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference inter
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAggregationThresholds(value interface{})
+	PutComparisonControls(value *CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControls)
 	PutDifferentialPrivacy(value *CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomDifferentialPrivacy)
 	ResetAdditionalAnalyses()
+	ResetAggregationThresholds()
 	ResetAllowedAnalyses()
 	ResetAllowedAnalysisProviders()
 	ResetAllowedResultReceivers()
+	ResetComparisonControls()
 	ResetDifferentialPrivacy()
 	ResetDisallowedOutputColumns()
 	// Produce the Token's value at resolution time.
@@ -118,6 +126,26 @@ func (j *jsiiProxy_CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputR
 	_jsii_.Get(
 		j,
 		"additionalAnalysesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference) AggregationThresholds() CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList {
+	var returns CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomAggregationThresholdsList
+	_jsii_.Get(
+		j,
+		"aggregationThresholds",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference) AggregationThresholdsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"aggregationThresholdsInput",
 		&returns,
 	)
 	return returns
@@ -178,6 +206,26 @@ func (j *jsiiProxy_CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputR
 	_jsii_.Get(
 		j,
 		"allowedResultReceiversInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference) ComparisonControls() CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference {
+	var returns CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference
+	_jsii_.Get(
+		j,
+		"comparisonControls",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference) ComparisonControlsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"comparisonControlsInput",
 		&returns,
 	)
 	return returns
@@ -617,6 +665,28 @@ func (c *jsiiProxy_CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputR
 	return returns
 }
 
+func (c *jsiiProxy_CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference) PutAggregationThresholds(value interface{}) {
+	if err := c.validatePutAggregationThresholdsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putAggregationThresholds",
+		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference) PutComparisonControls(value *CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomComparisonControls) {
+	if err := c.validatePutComparisonControlsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putComparisonControls",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference) PutDifferentialPrivacy(value *CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomDifferentialPrivacy) {
 	if err := c.validatePutDifferentialPrivacyParameters(value); err != nil {
 		panic(err)
@@ -632,6 +702,14 @@ func (c *jsiiProxy_CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputR
 	_jsii_.InvokeVoid(
 		c,
 		"resetAdditionalAnalyses",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference) ResetAggregationThresholds() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetAggregationThresholds",
 		nil, // no parameters
 	)
 }
@@ -656,6 +734,14 @@ func (c *jsiiProxy_CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputR
 	_jsii_.InvokeVoid(
 		c,
 		"resetAllowedResultReceivers",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomOutputReference) ResetComparisonControls() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetComparisonControls",
 		nil, // no parameters
 	)
 }

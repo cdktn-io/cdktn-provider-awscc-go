@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_pipeline awscc_sagemaker_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sagemaker_pipeline awscc_sagemaker_pipeline}.
 type DataAwsccSagemakerPipeline interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccSagemakerPipeline) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_pipeline awscc_sagemaker_pipeline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sagemaker_pipeline awscc_sagemaker_pipeline} Data Source.
 func NewDataAwsccSagemakerPipeline(scope constructs.Construct, id *string, config *DataAwsccSagemakerPipelineConfig) DataAwsccSagemakerPipeline {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccSagemakerPipeline(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/sagemaker_pipeline awscc_sagemaker_pipeline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sagemaker_pipeline awscc_sagemaker_pipeline} Data Source.
 func NewDataAwsccSagemakerPipeline_Override(d DataAwsccSagemakerPipeline, scope constructs.Construct, id *string, config *DataAwsccSagemakerPipelineConfig) {
 	_init_.Initialize()
 

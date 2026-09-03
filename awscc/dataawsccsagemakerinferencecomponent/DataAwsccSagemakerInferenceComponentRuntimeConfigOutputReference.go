@@ -35,6 +35,7 @@ type DataAwsccSagemakerInferenceComponentRuntimeConfigOutputReference interface 
 	Fqn() *string
 	InternalValue() *DataAwsccSagemakerInferenceComponentRuntimeConfig
 	SetInternalValue(val *DataAwsccSagemakerInferenceComponentRuntimeConfig)
+	PlacementStatus() DataAwsccSagemakerInferenceComponentRuntimeConfigPlacementStatusList
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -157,6 +158,16 @@ func (j *jsiiProxy_DataAwsccSagemakerInferenceComponentRuntimeConfigOutputRefere
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerInferenceComponentRuntimeConfigOutputReference) PlacementStatus() DataAwsccSagemakerInferenceComponentRuntimeConfigPlacementStatusList {
+	var returns DataAwsccSagemakerInferenceComponentRuntimeConfigPlacementStatusList
+	_jsii_.Get(
+		j,
+		"placementStatus",
 		&returns,
 	)
 	return returns

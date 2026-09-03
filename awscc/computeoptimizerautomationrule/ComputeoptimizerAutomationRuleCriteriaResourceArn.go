@@ -5,9 +5,9 @@ package computeoptimizerautomationrule
 
 
 type ComputeoptimizerAutomationRuleCriteriaResourceArn struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/computeoptimizer_automation_rule#comparison ComputeoptimizerAutomationRule#comparison}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/computeoptimizer_automation_rule#comparison ComputeoptimizerAutomationRule#comparison}.
 	Comparison *string `field:"optional" json:"comparison" yaml:"comparison"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/computeoptimizer_automation_rule#values ComputeoptimizerAutomationRule#values}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/computeoptimizer_automation_rule#values ComputeoptimizerAutomationRule#values}.
 	Values *[]*string `field:"optional" json:"values" yaml:"values"`
 }
 

@@ -5,7 +5,7 @@ package ssmpatchbaseline
 
 
 type SsmPatchBaselineApprovalRules struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssm_patch_baseline#patch_rules SsmPatchBaseline#patch_rules}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssm_patch_baseline#patch_rules SsmPatchBaseline#patch_rules}.
 	PatchRules interface{} `field:"optional" json:"patchRules" yaml:"patchRules"`
 }
 

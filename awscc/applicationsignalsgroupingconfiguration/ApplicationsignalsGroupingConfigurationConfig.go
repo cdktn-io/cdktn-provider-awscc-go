@@ -22,7 +22,7 @@ type ApplicationsignalsGroupingConfigurationConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/applicationsignals_grouping_configuration#grouping_attribute_definitions ApplicationsignalsGroupingConfiguration#grouping_attribute_definitions}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/applicationsignals_grouping_configuration#grouping_attribute_definitions ApplicationsignalsGroupingConfiguration#grouping_attribute_definitions}.
 	GroupingAttributeDefinitions interface{} `field:"required" json:"groupingAttributeDefinitions" yaml:"groupingAttributeDefinitions"`
 }
 

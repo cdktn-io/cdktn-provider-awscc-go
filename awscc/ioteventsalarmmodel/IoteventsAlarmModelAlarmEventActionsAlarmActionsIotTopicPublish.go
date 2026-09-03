@@ -9,11 +9,11 @@ type IoteventsAlarmModelAlarmEventActionsAlarmActionsIotTopicPublish struct {
 	//
 	// You can use a string expression that includes variables (``$variable.<variable-name>``) and input values (``$input.<input-name>.<path-to-datum>``) as the topic string.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotevents_alarm_model#mqtt_topic IoteventsAlarmModel#mqtt_topic}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_alarm_model#mqtt_topic IoteventsAlarmModel#mqtt_topic}
 	MqttTopic *string `field:"optional" json:"mqttTopic" yaml:"mqttTopic"`
 	// You can configure the action payload when you publish a message to an IoTCore topic.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotevents_alarm_model#payload IoteventsAlarmModel#payload}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_alarm_model#payload IoteventsAlarmModel#payload}
 	Payload *IoteventsAlarmModelAlarmEventActionsAlarmActionsIotTopicPublishPayload `field:"optional" json:"payload" yaml:"payload"`
 }
 

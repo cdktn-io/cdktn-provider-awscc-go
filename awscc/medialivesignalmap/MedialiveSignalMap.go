@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_signal_map awscc_medialive_signal_map}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/medialive_signal_map awscc_medialive_signal_map}.
 type MedialiveSignalMap interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -686,7 +686,7 @@ func (j *jsiiProxy_MedialiveSignalMap) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_signal_map awscc_medialive_signal_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/medialive_signal_map awscc_medialive_signal_map} Resource.
 func NewMedialiveSignalMap(scope constructs.Construct, id *string, config *MedialiveSignalMapConfig) MedialiveSignalMap {
 	_init_.Initialize()
 
@@ -704,7 +704,7 @@ func NewMedialiveSignalMap(scope constructs.Construct, id *string, config *Media
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/medialive_signal_map awscc_medialive_signal_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/medialive_signal_map awscc_medialive_signal_map} Resource.
 func NewMedialiveSignalMap_Override(m MedialiveSignalMap, scope constructs.Construct, id *string, config *MedialiveSignalMapConfig) {
 	_init_.Initialize()
 

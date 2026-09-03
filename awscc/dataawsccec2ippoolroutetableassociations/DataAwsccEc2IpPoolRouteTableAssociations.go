@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ip_pool_route_table_associations awscc_ec2_ip_pool_route_table_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ip_pool_route_table_associations awscc_ec2_ip_pool_route_table_associations}.
 type DataAwsccEc2IpPoolRouteTableAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2IpPoolRouteTableAssociations) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ip_pool_route_table_associations awscc_ec2_ip_pool_route_table_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ip_pool_route_table_associations awscc_ec2_ip_pool_route_table_associations} Data Source.
 func NewDataAwsccEc2IpPoolRouteTableAssociations(scope constructs.Construct, id *string, config *DataAwsccEc2IpPoolRouteTableAssociationsConfig) DataAwsccEc2IpPoolRouteTableAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2IpPoolRouteTableAssociations(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/ec2_ip_pool_route_table_associations awscc_ec2_ip_pool_route_table_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ip_pool_route_table_associations awscc_ec2_ip_pool_route_table_associations} Data Source.
 func NewDataAwsccEc2IpPoolRouteTableAssociations_Override(d DataAwsccEc2IpPoolRouteTableAssociations, scope constructs.Construct, id *string, config *DataAwsccEc2IpPoolRouteTableAssociationsConfig) {
 	_init_.Initialize()
 

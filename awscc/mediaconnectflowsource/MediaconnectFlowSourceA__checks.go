@@ -244,15 +244,15 @@ func (m *jsiiProxy_MediaconnectFlowSourceA) validatePutTagsParameters(value inte
 	switch value.(type) {
 	case cdktn.IResolvable:
 		// ok
-	case *[]*MediaconnectFlowSourceTags:
-		value := value.(*[]*MediaconnectFlowSourceTags)
+	case *[]*MediaconnectFlowSourceTagsA:
+		value := value.(*[]*MediaconnectFlowSourceTagsA)
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
 				return err
 			}
 		}
-	case []*MediaconnectFlowSourceTags:
-		value_ := value.([]*MediaconnectFlowSourceTags)
+	case []*MediaconnectFlowSourceTagsA:
+		value_ := value.([]*MediaconnectFlowSourceTagsA)
 		value := &value_
 		for idx_cd4240, v := range *value {
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
@@ -261,7 +261,7 @@ func (m *jsiiProxy_MediaconnectFlowSourceA) validatePutTagsParameters(value inte
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*MediaconnectFlowSourceTags; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*MediaconnectFlowSourceTagsA; received %#v (a %T)", value, value)
 		}
 	}
 

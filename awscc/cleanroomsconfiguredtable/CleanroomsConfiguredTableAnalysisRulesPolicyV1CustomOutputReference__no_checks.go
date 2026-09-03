@@ -47,6 +47,14 @@ func (c *jsiiProxy_CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomOutputRef
 	return nil
 }
 
+func (c *jsiiProxy_CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomOutputReference) validatePutAggregationThresholdsParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomOutputReference) validatePutComparisonControlsParameters(value *CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomComparisonControls) error {
+	return nil
+}
+
 func (c *jsiiProxy_CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomOutputReference) validatePutDifferentialPrivacyParameters(value *CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomDifferentialPrivacy) error {
 	return nil
 }

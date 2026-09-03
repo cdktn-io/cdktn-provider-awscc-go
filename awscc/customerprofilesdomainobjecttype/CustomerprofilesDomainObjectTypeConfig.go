@@ -24,27 +24,27 @@ type CustomerprofilesDomainObjectTypeConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The unique name of the domain.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_domain_object_type#domain_name CustomerprofilesDomainObjectType#domain_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_domain_object_type#domain_name CustomerprofilesDomainObjectType#domain_name}
 	DomainName *string `field:"required" json:"domainName" yaml:"domainName"`
 	// A map of the name and ObjectType field.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_domain_object_type#fields CustomerprofilesDomainObjectType#fields}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_domain_object_type#fields CustomerprofilesDomainObjectType#fields}
 	Fields interface{} `field:"required" json:"fields" yaml:"fields"`
 	// The name of the domain object type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_domain_object_type#object_type_name CustomerprofilesDomainObjectType#object_type_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_domain_object_type#object_type_name CustomerprofilesDomainObjectType#object_type_name}
 	ObjectTypeName *string `field:"required" json:"objectTypeName" yaml:"objectTypeName"`
 	// Description of the domain object type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_domain_object_type#description CustomerprofilesDomainObjectType#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_domain_object_type#description CustomerprofilesDomainObjectType#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The default encryption key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_domain_object_type#encryption_key CustomerprofilesDomainObjectType#encryption_key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_domain_object_type#encryption_key CustomerprofilesDomainObjectType#encryption_key}
 	EncryptionKey *string `field:"optional" json:"encryptionKey" yaml:"encryptionKey"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/customerprofiles_domain_object_type#tags CustomerprofilesDomainObjectType#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_domain_object_type#tags CustomerprofilesDomainObjectType#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

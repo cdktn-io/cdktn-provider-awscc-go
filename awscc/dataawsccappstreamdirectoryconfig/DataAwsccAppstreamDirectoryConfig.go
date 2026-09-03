@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appstream_directory_config awscc_appstream_directory_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appstream_directory_config awscc_appstream_directory_config}.
 type DataAwsccAppstreamDirectoryConfig interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccAppstreamDirectoryConfig) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appstream_directory_config awscc_appstream_directory_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appstream_directory_config awscc_appstream_directory_config} Data Source.
 func NewDataAwsccAppstreamDirectoryConfig(scope constructs.Construct, id *string, config *DataAwsccAppstreamDirectoryConfigConfig) DataAwsccAppstreamDirectoryConfig {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccAppstreamDirectoryConfig(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/appstream_directory_config awscc_appstream_directory_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appstream_directory_config awscc_appstream_directory_config} Data Source.
 func NewDataAwsccAppstreamDirectoryConfig_Override(d DataAwsccAppstreamDirectoryConfig, scope constructs.Construct, id *string, config *DataAwsccAppstreamDirectoryConfigConfig) {
 	_init_.Initialize()
 

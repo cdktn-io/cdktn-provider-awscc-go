@@ -24,6 +24,7 @@ type DataAwsccSagemakerInferenceComponentSpecificationContainerOutputReference i
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ContainerMetricsConfig() DataAwsccSagemakerInferenceComponentSpecificationContainerContainerMetricsConfigOutputReference
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -108,6 +109,16 @@ func (j *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationContainerOut
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerInferenceComponentSpecificationContainerOutputReference) ContainerMetricsConfig() DataAwsccSagemakerInferenceComponentSpecificationContainerContainerMetricsConfigOutputReference {
+	var returns DataAwsccSagemakerInferenceComponentSpecificationContainerContainerMetricsConfigOutputReference
+	_jsii_.Get(
+		j,
+		"containerMetricsConfig",
 		&returns,
 	)
 	return returns

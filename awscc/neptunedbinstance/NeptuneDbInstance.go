@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/neptune_db_instance awscc_neptune_db_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/neptune_db_instance awscc_neptune_db_instance}.
 type NeptuneDbInstance interface {
 	cdktn.TerraformResource
 	AllowMajorVersionUpgrade() interface{}
@@ -664,7 +664,7 @@ func (j *jsiiProxy_NeptuneDbInstance) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/neptune_db_instance awscc_neptune_db_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/neptune_db_instance awscc_neptune_db_instance} Resource.
 func NewNeptuneDbInstance(scope constructs.Construct, id *string, config *NeptuneDbInstanceConfig) NeptuneDbInstance {
 	_init_.Initialize()
 
@@ -682,7 +682,7 @@ func NewNeptuneDbInstance(scope constructs.Construct, id *string, config *Neptun
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/neptune_db_instance awscc_neptune_db_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/neptune_db_instance awscc_neptune_db_instance} Resource.
 func NewNeptuneDbInstance_Override(n NeptuneDbInstance, scope constructs.Construct, id *string, config *NeptuneDbInstanceConfig) {
 	_init_.Initialize()
 

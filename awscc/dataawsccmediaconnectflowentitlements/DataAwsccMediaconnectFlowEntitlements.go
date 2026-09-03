@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediaconnect_flow_entitlements awscc_mediaconnect_flow_entitlements}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediaconnect_flow_entitlements awscc_mediaconnect_flow_entitlements}.
 type DataAwsccMediaconnectFlowEntitlements interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMediaconnectFlowEntitlements) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediaconnect_flow_entitlements awscc_mediaconnect_flow_entitlements} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediaconnect_flow_entitlements awscc_mediaconnect_flow_entitlements} Data Source.
 func NewDataAwsccMediaconnectFlowEntitlements(scope constructs.Construct, id *string, config *DataAwsccMediaconnectFlowEntitlementsConfig) DataAwsccMediaconnectFlowEntitlements {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMediaconnectFlowEntitlements(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/mediaconnect_flow_entitlements awscc_mediaconnect_flow_entitlements} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediaconnect_flow_entitlements awscc_mediaconnect_flow_entitlements} Data Source.
 func NewDataAwsccMediaconnectFlowEntitlements_Override(d DataAwsccMediaconnectFlowEntitlements, scope constructs.Construct, id *string, config *DataAwsccMediaconnectFlowEntitlementsConfig) {
 	_init_.Initialize()
 

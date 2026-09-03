@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/medialive_sdi_sources awscc_medialive_sdi_sources}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/medialive_sdi_sources awscc_medialive_sdi_sources}.
 type DataAwsccMedialiveSdiSources interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMedialiveSdiSources) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/medialive_sdi_sources awscc_medialive_sdi_sources} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/medialive_sdi_sources awscc_medialive_sdi_sources} Data Source.
 func NewDataAwsccMedialiveSdiSources(scope constructs.Construct, id *string, config *DataAwsccMedialiveSdiSourcesConfig) DataAwsccMedialiveSdiSources {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMedialiveSdiSources(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/medialive_sdi_sources awscc_medialive_sdi_sources} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/medialive_sdi_sources awscc_medialive_sdi_sources} Data Source.
 func NewDataAwsccMedialiveSdiSources_Override(d DataAwsccMedialiveSdiSources, scope constructs.Construct, id *string, config *DataAwsccMedialiveSdiSourcesConfig) {
 	_init_.Initialize()
 

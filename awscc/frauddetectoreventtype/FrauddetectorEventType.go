@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type awscc_frauddetector_event_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/frauddetector_event_type awscc_frauddetector_event_type}.
 type FrauddetectorEventType interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -528,7 +528,7 @@ func (j *jsiiProxy_FrauddetectorEventType) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type awscc_frauddetector_event_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/frauddetector_event_type awscc_frauddetector_event_type} Resource.
 func NewFrauddetectorEventType(scope constructs.Construct, id *string, config *FrauddetectorEventTypeConfig) FrauddetectorEventType {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewFrauddetectorEventType(scope constructs.Construct, id *string, config *F
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/frauddetector_event_type awscc_frauddetector_event_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/frauddetector_event_type awscc_frauddetector_event_type} Resource.
 func NewFrauddetectorEventType_Override(f FrauddetectorEventType, scope constructs.Construct, id *string, config *FrauddetectorEventTypeConfig) {
 	_init_.Initialize()
 

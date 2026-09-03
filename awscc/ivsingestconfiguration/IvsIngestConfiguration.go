@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_ingest_configuration awscc_ivs_ingest_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_ingest_configuration awscc_ivs_ingest_configuration}.
 type IvsIngestConfiguration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -543,7 +543,7 @@ func (j *jsiiProxy_IvsIngestConfiguration) UserIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_ingest_configuration awscc_ivs_ingest_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_ingest_configuration awscc_ivs_ingest_configuration} Resource.
 func NewIvsIngestConfiguration(scope constructs.Construct, id *string, config *IvsIngestConfigurationConfig) IvsIngestConfiguration {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewIvsIngestConfiguration(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivs_ingest_configuration awscc_ivs_ingest_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivs_ingest_configuration awscc_ivs_ingest_configuration} Resource.
 func NewIvsIngestConfiguration_Override(i IvsIngestConfiguration, scope constructs.Construct, id *string, config *IvsIngestConfigurationConfig) {
 	_init_.Initialize()
 

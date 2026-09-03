@@ -24,15 +24,15 @@ type SsmincidentsReplicationSetConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ReplicationSet configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_replication_set#regions SsmincidentsReplicationSet#regions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssmincidents_replication_set#regions SsmincidentsReplicationSet#regions}
 	Regions interface{} `field:"required" json:"regions" yaml:"regions"`
 	// Configures the ReplicationSet deletion protection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_replication_set#deletion_protected SsmincidentsReplicationSet#deletion_protected}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssmincidents_replication_set#deletion_protected SsmincidentsReplicationSet#deletion_protected}
 	DeletionProtected interface{} `field:"optional" json:"deletionProtected" yaml:"deletionProtected"`
 	// The tags to apply to the replication set.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ssmincidents_replication_set#tags SsmincidentsReplicationSet#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssmincidents_replication_set#tags SsmincidentsReplicationSet#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

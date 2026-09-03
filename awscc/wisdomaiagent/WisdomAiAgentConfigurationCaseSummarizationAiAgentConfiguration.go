@@ -5,11 +5,11 @@ package wisdomaiagent
 
 
 type WisdomAiAgentConfigurationCaseSummarizationAiAgentConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wisdom_ai_agent#case_summarization_ai_guardrail_id WisdomAiAgent#case_summarization_ai_guardrail_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wisdom_ai_agent#case_summarization_ai_guardrail_id WisdomAiAgent#case_summarization_ai_guardrail_id}.
 	CaseSummarizationAiGuardrailId *string `field:"optional" json:"caseSummarizationAiGuardrailId" yaml:"caseSummarizationAiGuardrailId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wisdom_ai_agent#case_summarization_ai_prompt_id WisdomAiAgent#case_summarization_ai_prompt_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wisdom_ai_agent#case_summarization_ai_prompt_id WisdomAiAgent#case_summarization_ai_prompt_id}.
 	CaseSummarizationAiPromptId *string `field:"optional" json:"caseSummarizationAiPromptId" yaml:"caseSummarizationAiPromptId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/wisdom_ai_agent#locale WisdomAiAgent#locale}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wisdom_ai_agent#locale WisdomAiAgent#locale}.
 	Locale *string `field:"optional" json:"locale" yaml:"locale"`
 }
 

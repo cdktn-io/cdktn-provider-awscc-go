@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/organizations_organizational_unit awscc_organizations_organizational_unit}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/organizations_organizational_unit awscc_organizations_organizational_unit}.
 type OrganizationsOrganizationalUnit interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -458,7 +458,7 @@ func (j *jsiiProxy_OrganizationsOrganizationalUnit) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/organizations_organizational_unit awscc_organizations_organizational_unit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/organizations_organizational_unit awscc_organizations_organizational_unit} Resource.
 func NewOrganizationsOrganizationalUnit(scope constructs.Construct, id *string, config *OrganizationsOrganizationalUnitConfig) OrganizationsOrganizationalUnit {
 	_init_.Initialize()
 
@@ -476,7 +476,7 @@ func NewOrganizationsOrganizationalUnit(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/organizations_organizational_unit awscc_organizations_organizational_unit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/organizations_organizational_unit awscc_organizations_organizational_unit} Resource.
 func NewOrganizationsOrganizationalUnit_Override(o OrganizationsOrganizationalUnit, scope constructs.Construct, id *string, config *OrganizationsOrganizationalUnitConfig) {
 	_init_.Initialize()
 

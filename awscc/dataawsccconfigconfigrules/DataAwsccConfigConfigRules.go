@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/config_config_rules awscc_config_config_rules}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/config_config_rules awscc_config_config_rules}.
 type DataAwsccConfigConfigRules interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccConfigConfigRules) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/config_config_rules awscc_config_config_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/config_config_rules awscc_config_config_rules} Data Source.
 func NewDataAwsccConfigConfigRules(scope constructs.Construct, id *string, config *DataAwsccConfigConfigRulesConfig) DataAwsccConfigConfigRules {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccConfigConfigRules(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/config_config_rules awscc_config_config_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/config_config_rules awscc_config_config_rules} Data Source.
 func NewDataAwsccConfigConfigRules_Override(d DataAwsccConfigConfigRules, scope constructs.Construct, id *string, config *DataAwsccConfigConfigRulesConfig) {
 	_init_.Initialize()
 

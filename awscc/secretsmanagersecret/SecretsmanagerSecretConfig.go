@@ -24,14 +24,14 @@ type SecretsmanagerSecretConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The description of the secret.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#description SecretsmanagerSecret#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#description SecretsmanagerSecret#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// A structure that specifies how to generate a password to encrypt and store in the secret.
 	//
 	// To include a specific string in the secret, use ``SecretString`` instead. If you omit both ``GenerateSecretString`` and ``SecretString``, you create an empty secret. When you make a change to this property, a new secret version is created.
 	//  We recommend that you specify the maximum length and include every character type that the system you are generating a password for can support.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#generate_secret_string SecretsmanagerSecret#generate_secret_string}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#generate_secret_string SecretsmanagerSecret#generate_secret_string}
 	GenerateSecretString *SecretsmanagerSecretGenerateSecretString `field:"optional" json:"generateSecretString" yaml:"generateSecretString"`
 	// The ARN, key ID, or alias of the KMS key that Secrets Manager uses to encrypt the secret value in the secret.
 	//
@@ -40,24 +40,24 @@ type SecretsmanagerSecretConfig struct {
 	//  If you don't specify this value, then Secrets Manager uses the key ``aws/secretsmanager``. If that key doesn't yet exist, then Secrets Manager creates it for you automatically the first time it encrypts the secret value.
 	//  If the secret is in a different AWS account from the credentials calling the API, then you can't use ``aws/secretsmanager`` to encrypt the secret, and you must create and use a customer managed KMS key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#kms_key_id SecretsmanagerSecret#kms_key_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#kms_key_id SecretsmanagerSecret#kms_key_id}
 	KmsKeyId *string `field:"optional" json:"kmsKeyId" yaml:"kmsKeyId"`
 	// The name of the new secret.
 	//
 	// The secret name can contain ASCII letters, numbers, and the following characters: /_+=.@-
 	//  Do not end your secret name with a hyphen followed by six characters. If you do so, you risk confusion and unexpected results when searching for a secret by partial ARN. Secrets Manager automatically adds a hyphen and six random characters after the secret name at the end of the ARN.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#name SecretsmanagerSecret#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#name SecretsmanagerSecret#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// A custom type that specifies a ``Region`` and the ``KmsKeyId`` for a replica secret.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#replica_regions SecretsmanagerSecret#replica_regions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#replica_regions SecretsmanagerSecret#replica_regions}
 	ReplicaRegions interface{} `field:"optional" json:"replicaRegions" yaml:"replicaRegions"`
 	// The text to encrypt and store in the secret.
 	//
 	// We recommend you use a JSON structure of key/value pairs for your secret value. To generate a random password, use ``GenerateSecretString`` instead. If you omit both ``GenerateSecretString`` and ``SecretString``, you create an empty secret. When you make a change to this property, a new secret version is created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#secret_string SecretsmanagerSecret#secret_string}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#secret_string SecretsmanagerSecret#secret_string}
 	SecretString *string `field:"optional" json:"secretString" yaml:"secretString"`
 	// A list of tags to attach to the secret.
 	//
@@ -79,7 +79,7 @@ type SecretsmanagerSecretConfig struct {
 	//
 	// For more information, see [Managed external secret partners](https://docs.aws.amazon.com/secretsmanager/latest/userguide/mes-partners.html).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/secretsmanager_secret#type SecretsmanagerSecret#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/secretsmanager_secret#type SecretsmanagerSecret#type}
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

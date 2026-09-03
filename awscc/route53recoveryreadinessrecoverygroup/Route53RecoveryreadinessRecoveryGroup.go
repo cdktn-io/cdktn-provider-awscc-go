@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53recoveryreadiness_recovery_group awscc_route53recoveryreadiness_recovery_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53recoveryreadiness_recovery_group awscc_route53recoveryreadiness_recovery_group}.
 type Route53RecoveryreadinessRecoveryGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_Route53RecoveryreadinessRecoveryGroup) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53recoveryreadiness_recovery_group awscc_route53recoveryreadiness_recovery_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53recoveryreadiness_recovery_group awscc_route53recoveryreadiness_recovery_group} Resource.
 func NewRoute53RecoveryreadinessRecoveryGroup(scope constructs.Construct, id *string, config *Route53RecoveryreadinessRecoveryGroupConfig) Route53RecoveryreadinessRecoveryGroup {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewRoute53RecoveryreadinessRecoveryGroup(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/route53recoveryreadiness_recovery_group awscc_route53recoveryreadiness_recovery_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53recoveryreadiness_recovery_group awscc_route53recoveryreadiness_recovery_group} Resource.
 func NewRoute53RecoveryreadinessRecoveryGroup_Override(r Route53RecoveryreadinessRecoveryGroup, scope constructs.Construct, id *string, config *Route53RecoveryreadinessRecoveryGroupConfig) {
 	_init_.Initialize()
 

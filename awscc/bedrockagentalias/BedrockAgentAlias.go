@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent_alias awscc_bedrock_agent_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent_alias awscc_bedrock_agent_alias}.
 type BedrockAgentAlias interface {
 	cdktn.TerraformResource
 	AgentAliasArn() *string
@@ -539,7 +539,7 @@ func (j *jsiiProxy_BedrockAgentAlias) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent_alias awscc_bedrock_agent_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent_alias awscc_bedrock_agent_alias} Resource.
 func NewBedrockAgentAlias(scope constructs.Construct, id *string, config *BedrockAgentAliasConfig) BedrockAgentAlias {
 	_init_.Initialize()
 
@@ -557,7 +557,7 @@ func NewBedrockAgentAlias(scope constructs.Construct, id *string, config *Bedroc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_agent_alias awscc_bedrock_agent_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_agent_alias awscc_bedrock_agent_alias} Resource.
 func NewBedrockAgentAlias_Override(b BedrockAgentAlias, scope constructs.Construct, id *string, config *BedrockAgentAliasConfig) {
 	_init_.Initialize()
 

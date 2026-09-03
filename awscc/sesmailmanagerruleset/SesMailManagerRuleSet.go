@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_rule_set awscc_ses_mail_manager_rule_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_mail_manager_rule_set awscc_ses_mail_manager_rule_set}.
 type SesMailManagerRuleSet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -448,7 +448,7 @@ func (j *jsiiProxy_SesMailManagerRuleSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_rule_set awscc_ses_mail_manager_rule_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_mail_manager_rule_set awscc_ses_mail_manager_rule_set} Resource.
 func NewSesMailManagerRuleSet(scope constructs.Construct, id *string, config *SesMailManagerRuleSetConfig) SesMailManagerRuleSet {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewSesMailManagerRuleSet(scope constructs.Construct, id *string, config *Se
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ses_mail_manager_rule_set awscc_ses_mail_manager_rule_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_mail_manager_rule_set awscc_ses_mail_manager_rule_set} Resource.
 func NewSesMailManagerRuleSet_Override(s SesMailManagerRuleSet, scope constructs.Construct, id *string, config *SesMailManagerRuleSetConfig) {
 	_init_.Initialize()
 

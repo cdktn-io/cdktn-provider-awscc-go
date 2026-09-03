@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_subnet awscc_ec2_subnet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_subnet awscc_ec2_subnet}.
 type Ec2Subnet interface {
 	cdktn.TerraformResource
 	AssignIpv6AddressOnCreation() interface{}
@@ -806,7 +806,7 @@ func (j *jsiiProxy_Ec2Subnet) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_subnet awscc_ec2_subnet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_subnet awscc_ec2_subnet} Resource.
 func NewEc2Subnet(scope constructs.Construct, id *string, config *Ec2SubnetConfig) Ec2Subnet {
 	_init_.Initialize()
 
@@ -824,7 +824,7 @@ func NewEc2Subnet(scope constructs.Construct, id *string, config *Ec2SubnetConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_subnet awscc_ec2_subnet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_subnet awscc_ec2_subnet} Resource.
 func NewEc2Subnet_Override(e Ec2Subnet, scope constructs.Construct, id *string, config *Ec2SubnetConfig) {
 	_init_.Initialize()
 

@@ -79,11 +79,19 @@ func (m *jsiiProxy_MediaconnectFlow) validateOverrideLogicalIdParameters(newLogi
 	return nil
 }
 
+func (m *jsiiProxy_MediaconnectFlow) validatePutEncodingConfigParameters(value *MediaconnectFlowEncodingConfig) error {
+	return nil
+}
+
 func (m *jsiiProxy_MediaconnectFlow) validatePutMaintenanceParameters(value *MediaconnectFlowMaintenance) error {
 	return nil
 }
 
 func (m *jsiiProxy_MediaconnectFlow) validatePutMediaStreamsParameters(value interface{}) error {
+	return nil
+}
+
+func (m *jsiiProxy_MediaconnectFlow) validatePutNdiConfigParameters(value *MediaconnectFlowNdiConfig) error {
 	return nil
 }
 
@@ -96,6 +104,10 @@ func (m *jsiiProxy_MediaconnectFlow) validatePutSourceFailoverConfigParameters(v
 }
 
 func (m *jsiiProxy_MediaconnectFlow) validatePutSourceMonitoringConfigParameters(value *MediaconnectFlowSourceMonitoringConfig) error {
+	return nil
+}
+
+func (m *jsiiProxy_MediaconnectFlow) validatePutTagsParameters(value interface{}) error {
 	return nil
 }
 
@@ -132,6 +144,10 @@ func (j *jsiiProxy_MediaconnectFlow) validateSetConnectionParameters(val interfa
 }
 
 func (j *jsiiProxy_MediaconnectFlow) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_MediaconnectFlow) validateSetFlowSizeParameters(val *string) error {
 	return nil
 }
 

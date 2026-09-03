@@ -5,7 +5,7 @@ package bedrockagentcoreharness
 
 
 type BedrockagentcoreHarnessToolsConfigAgentCoreBrowser struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrockagentcore_harness#browser_arn BedrockagentcoreHarness#browser_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_harness#browser_arn BedrockagentcoreHarness#browser_arn}.
 	BrowserArn *string `field:"optional" json:"browserArn" yaml:"browserArn"`
 }
 

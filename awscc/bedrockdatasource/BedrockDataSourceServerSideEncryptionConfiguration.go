@@ -7,7 +7,7 @@ package bedrockdatasource
 type BedrockDataSourceServerSideEncryptionConfiguration struct {
 	// The ARN of the AWS KMS key used to encrypt the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_source#kms_key_arn BedrockDataSource#kms_key_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_source#kms_key_arn BedrockDataSource#kms_key_arn}
 	KmsKeyArn *string `field:"optional" json:"kmsKeyArn" yaml:"kmsKeyArn"`
 }
 

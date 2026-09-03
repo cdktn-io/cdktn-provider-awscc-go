@@ -7,7 +7,7 @@ package healthlakedatatransformationprofile
 type HealthlakeDataTransformationProfileSourceProfileMapping struct {
 	// Map of template file paths to their Velocity template content.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/healthlake_data_transformation_profile#profile_mapping HealthlakeDataTransformationProfile#profile_mapping}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/healthlake_data_transformation_profile#profile_mapping HealthlakeDataTransformationProfile#profile_mapping}
 	ProfileMapping *map[string]*string `field:"optional" json:"profileMapping" yaml:"profileMapping"`
 }
 

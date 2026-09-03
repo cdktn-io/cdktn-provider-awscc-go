@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/glue_session awscc_glue_session}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/glue_session awscc_glue_session}.
 type DataAwsccGlueSession interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_DataAwsccGlueSession) WorkerType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/glue_session awscc_glue_session} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/glue_session awscc_glue_session} Data Source.
 func NewDataAwsccGlueSession(scope constructs.Construct, id *string, config *DataAwsccGlueSessionConfig) DataAwsccGlueSession {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewDataAwsccGlueSession(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/glue_session awscc_glue_session} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/glue_session awscc_glue_session} Data Source.
 func NewDataAwsccGlueSession_Override(d DataAwsccGlueSession, scope constructs.Construct, id *string, config *DataAwsccGlueSessionConfig) {
 	_init_.Initialize()
 

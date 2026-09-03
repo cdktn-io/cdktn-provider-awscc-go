@@ -7,7 +7,7 @@ package gluesession
 type GlueSessionConnections struct {
 	// A list of connection names used by the session.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_session#connections GlueSession#connections}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_session#connections GlueSession#connections}
 	Connections *[]*string `field:"optional" json:"connections" yaml:"connections"`
 }
 

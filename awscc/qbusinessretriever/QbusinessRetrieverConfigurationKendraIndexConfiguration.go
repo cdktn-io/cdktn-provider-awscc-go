@@ -5,7 +5,7 @@ package qbusinessretriever
 
 
 type QbusinessRetrieverConfigurationKendraIndexConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/qbusiness_retriever#index_id QbusinessRetriever#index_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/qbusiness_retriever#index_id QbusinessRetriever#index_id}.
 	IndexId *string `field:"optional" json:"indexId" yaml:"indexId"`
 }
 

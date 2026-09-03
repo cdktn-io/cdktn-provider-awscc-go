@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_stream awscc_iot_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_stream awscc_iot_stream}.
 type IotStream interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -516,7 +516,7 @@ func (j *jsiiProxy_IotStream) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_stream awscc_iot_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_stream awscc_iot_stream} Resource.
 func NewIotStream(scope constructs.Construct, id *string, config *IotStreamConfig) IotStream {
 	_init_.Initialize()
 
@@ -534,7 +534,7 @@ func NewIotStream(scope constructs.Construct, id *string, config *IotStreamConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iot_stream awscc_iot_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_stream awscc_iot_stream} Resource.
 func NewIotStream_Override(i IotStream, scope constructs.Construct, id *string, config *IotStreamConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_trusted_entity_set awscc_guardduty_trusted_entity_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_trusted_entity_set awscc_guardduty_trusted_entity_set}.
 type GuarddutyTrustedEntitySet interface {
 	cdktn.TerraformResource
 	Activate() interface{}
@@ -576,7 +576,7 @@ func (j *jsiiProxy_GuarddutyTrustedEntitySet) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_trusted_entity_set awscc_guardduty_trusted_entity_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_trusted_entity_set awscc_guardduty_trusted_entity_set} Resource.
 func NewGuarddutyTrustedEntitySet(scope constructs.Construct, id *string, config *GuarddutyTrustedEntitySetConfig) GuarddutyTrustedEntitySet {
 	_init_.Initialize()
 
@@ -594,7 +594,7 @@ func NewGuarddutyTrustedEntitySet(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/guardduty_trusted_entity_set awscc_guardduty_trusted_entity_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_trusted_entity_set awscc_guardduty_trusted_entity_set} Resource.
 func NewGuarddutyTrustedEntitySet_Override(g GuarddutyTrustedEntitySet, scope constructs.Construct, id *string, config *GuarddutyTrustedEntitySetConfig) {
 	_init_.Initialize()
 

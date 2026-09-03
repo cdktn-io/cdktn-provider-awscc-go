@@ -5,7 +5,7 @@ package iotanalyticsdataset
 
 
 type IotanalyticsDatasetTriggersTriggeringDataset struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/iotanalytics_dataset#dataset_name IotanalyticsDataset#dataset_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotanalytics_dataset#dataset_name IotanalyticsDataset#dataset_name}.
 	DatasetName *string `field:"optional" json:"datasetName" yaml:"datasetName"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_capacity_reservation_fleet awscc_ec2_capacity_reservation_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_capacity_reservation_fleet awscc_ec2_capacity_reservation_fleet}.
 type Ec2CapacityReservationFleet interface {
 	cdktn.TerraformResource
 	AllocationStrategy() *string
@@ -582,7 +582,7 @@ func (j *jsiiProxy_Ec2CapacityReservationFleet) TotalTargetCapacityInput() *floa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_capacity_reservation_fleet awscc_ec2_capacity_reservation_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_capacity_reservation_fleet awscc_ec2_capacity_reservation_fleet} Resource.
 func NewEc2CapacityReservationFleet(scope constructs.Construct, id *string, config *Ec2CapacityReservationFleetConfig) Ec2CapacityReservationFleet {
 	_init_.Initialize()
 
@@ -600,7 +600,7 @@ func NewEc2CapacityReservationFleet(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ec2_capacity_reservation_fleet awscc_ec2_capacity_reservation_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_capacity_reservation_fleet awscc_ec2_capacity_reservation_fleet} Resource.
 func NewEc2CapacityReservationFleet_Override(e Ec2CapacityReservationFleet, scope constructs.Construct, id *string, config *Ec2CapacityReservationFleetConfig) {
 	_init_.Initialize()
 

@@ -24,11 +24,11 @@ type S3OutpostsBucketPolicyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The Amazon Resource Name (ARN) of the specified bucket.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3outposts_bucket_policy#bucket S3OutpostsBucketPolicy#bucket}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3outposts_bucket_policy#bucket S3OutpostsBucketPolicy#bucket}
 	Bucket *string `field:"required" json:"bucket" yaml:"bucket"`
 	// A policy document containing permissions to add to the specified bucket.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/s3outposts_bucket_policy#policy_document S3OutpostsBucketPolicy#policy_document}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3outposts_bucket_policy#policy_document S3OutpostsBucketPolicy#policy_document}
 	PolicyDocument *string `field:"required" json:"policyDocument" yaml:"policyDocument"`
 }
 

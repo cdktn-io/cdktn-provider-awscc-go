@@ -7,11 +7,11 @@ package ivschatroom
 type IvschatRoomMessageReviewHandler struct {
 	// Specifies the fallback behavior if the handler does not return a valid response, encounters an error, or times out.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivschat_room#fallback_result IvschatRoom#fallback_result}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivschat_room#fallback_result IvschatRoom#fallback_result}
 	FallbackResult *string `field:"optional" json:"fallbackResult" yaml:"fallbackResult"`
 	// Identifier of the message review handler.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/ivschat_room#uri IvschatRoom#uri}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ivschat_room#uri IvschatRoom#uri}
 	Uri *string `field:"optional" json:"uri" yaml:"uri"`
 }
 

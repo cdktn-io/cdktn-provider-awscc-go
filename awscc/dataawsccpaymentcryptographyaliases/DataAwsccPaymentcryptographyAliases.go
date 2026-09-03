@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/paymentcryptography_aliases awscc_paymentcryptography_aliases}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/paymentcryptography_aliases awscc_paymentcryptography_aliases}.
 type DataAwsccPaymentcryptographyAliases interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccPaymentcryptographyAliases) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/paymentcryptography_aliases awscc_paymentcryptography_aliases} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/paymentcryptography_aliases awscc_paymentcryptography_aliases} Data Source.
 func NewDataAwsccPaymentcryptographyAliases(scope constructs.Construct, id *string, config *DataAwsccPaymentcryptographyAliasesConfig) DataAwsccPaymentcryptographyAliases {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccPaymentcryptographyAliases(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/paymentcryptography_aliases awscc_paymentcryptography_aliases} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/paymentcryptography_aliases awscc_paymentcryptography_aliases} Data Source.
 func NewDataAwsccPaymentcryptographyAliases_Override(d DataAwsccPaymentcryptographyAliases, scope constructs.Construct, id *string, config *DataAwsccPaymentcryptographyAliasesConfig) {
 	_init_.Initialize()
 

@@ -398,6 +398,186 @@ func init() {
 		reflect.TypeOf((*CleanroomsConfiguredTableAnalysisRulesPolicyV1Custom)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.cleanroomsConfiguredTable.CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholds",
+		reflect.TypeOf((*CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholds)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.cleanroomsConfiguredTable.CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholdsList",
+		reflect.TypeOf((*CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholdsList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholdsList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.cleanroomsConfiguredTable.CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholds",
+		reflect.TypeOf((*CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholds)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.cleanroomsConfiguredTable.CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList",
+		reflect.TypeOf((*CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.cleanroomsConfiguredTable.CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference",
+		reflect.TypeOf((*CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "minimumIdentityCount", GoGetter: "MinimumIdentityCount"},
+			_jsii_.MemberProperty{JsiiProperty: "minimumIdentityCountInput", GoGetter: "MinimumIdentityCountInput"},
+			_jsii_.MemberProperty{JsiiProperty: "outputColumnName", GoGetter: "OutputColumnName"},
+			_jsii_.MemberProperty{JsiiProperty: "outputColumnNameInput", GoGetter: "OutputColumnNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMinimumIdentityCount", GoMethod: "ResetMinimumIdentityCount"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOutputColumnName", GoMethod: "ResetOutputColumnName"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputColumnThresholdsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.cleanroomsConfiguredTable.CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference",
+		reflect.TypeOf((*CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "allowedAggregateExpressionType", GoGetter: "AllowedAggregateExpressionType"},
+			_jsii_.MemberProperty{JsiiProperty: "allowedAggregateExpressionTypeInput", GoGetter: "AllowedAggregateExpressionTypeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "identityColumns", GoGetter: "IdentityColumns"},
+			_jsii_.MemberProperty{JsiiProperty: "identityColumnsInput", GoGetter: "IdentityColumnsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "minimumIdentityCount", GoGetter: "MinimumIdentityCount"},
+			_jsii_.MemberProperty{JsiiProperty: "minimumIdentityCountInput", GoGetter: "MinimumIdentityCountInput"},
+			_jsii_.MemberProperty{JsiiProperty: "outputColumnThresholds", GoGetter: "OutputColumnThresholds"},
+			_jsii_.MemberProperty{JsiiProperty: "outputColumnThresholdsInput", GoGetter: "OutputColumnThresholdsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putOutputColumnThresholds", GoMethod: "PutOutputColumnThresholds"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAllowedAggregateExpressionType", GoMethod: "ResetAllowedAggregateExpressionType"},
+			_jsii_.MemberMethod{JsiiMethod: "resetIdentityColumns", GoMethod: "ResetIdentityColumns"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMinimumIdentityCount", GoMethod: "ResetMinimumIdentityCount"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOutputColumnThresholds", GoMethod: "ResetOutputColumnThresholds"},
+			_jsii_.MemberMethod{JsiiMethod: "resetType", GoMethod: "ResetType"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
+			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomAggregationThresholdsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.cleanroomsConfiguredTable.CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomComparisonControls",
+		reflect.TypeOf((*CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomComparisonControls)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.cleanroomsConfiguredTable.CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference",
+		reflect.TypeOf((*CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "allowedColumnComparisonColumns", GoGetter: "AllowedColumnComparisonColumns"},
+			_jsii_.MemberProperty{JsiiProperty: "allowedColumnComparisonColumnsInput", GoGetter: "AllowedColumnComparisonColumnsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "allowedLiteralComparisonColumns", GoGetter: "AllowedLiteralComparisonColumns"},
+			_jsii_.MemberProperty{JsiiProperty: "allowedLiteralComparisonColumnsInput", GoGetter: "AllowedLiteralComparisonColumnsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAllowedColumnComparisonColumns", GoMethod: "ResetAllowedColumnComparisonColumns"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAllowedLiteralComparisonColumns", GoMethod: "ResetAllowedLiteralComparisonColumns"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomComparisonControlsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-awscc.cleanroomsConfiguredTable.CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomDifferentialPrivacy",
 		reflect.TypeOf((*CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomDifferentialPrivacy)(nil)).Elem(),
 	)
@@ -504,10 +684,14 @@ func init() {
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalAnalyses", GoGetter: "AdditionalAnalyses"},
 			_jsii_.MemberProperty{JsiiProperty: "additionalAnalysesInput", GoGetter: "AdditionalAnalysesInput"},
+			_jsii_.MemberProperty{JsiiProperty: "aggregationThresholds", GoGetter: "AggregationThresholds"},
+			_jsii_.MemberProperty{JsiiProperty: "aggregationThresholdsInput", GoGetter: "AggregationThresholdsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "allowedAnalyses", GoGetter: "AllowedAnalyses"},
 			_jsii_.MemberProperty{JsiiProperty: "allowedAnalysesInput", GoGetter: "AllowedAnalysesInput"},
 			_jsii_.MemberProperty{JsiiProperty: "allowedAnalysisProviders", GoGetter: "AllowedAnalysisProviders"},
 			_jsii_.MemberProperty{JsiiProperty: "allowedAnalysisProvidersInput", GoGetter: "AllowedAnalysisProvidersInput"},
+			_jsii_.MemberProperty{JsiiProperty: "comparisonControls", GoGetter: "ComparisonControls"},
+			_jsii_.MemberProperty{JsiiProperty: "comparisonControlsInput", GoGetter: "ComparisonControlsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -529,10 +713,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "putAggregationThresholds", GoMethod: "PutAggregationThresholds"},
+			_jsii_.MemberMethod{JsiiMethod: "putComparisonControls", GoMethod: "PutComparisonControls"},
 			_jsii_.MemberMethod{JsiiMethod: "putDifferentialPrivacy", GoMethod: "PutDifferentialPrivacy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAdditionalAnalyses", GoMethod: "ResetAdditionalAnalyses"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAggregationThresholds", GoMethod: "ResetAggregationThresholds"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAllowedAnalyses", GoMethod: "ResetAllowedAnalyses"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAllowedAnalysisProviders", GoMethod: "ResetAllowedAnalysisProviders"},
+			_jsii_.MemberMethod{JsiiMethod: "resetComparisonControls", GoMethod: "ResetComparisonControls"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDifferentialPrivacy", GoMethod: "ResetDifferentialPrivacy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDisallowedOutputColumns", GoMethod: "ResetDisallowedOutputColumns"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},

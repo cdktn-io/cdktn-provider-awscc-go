@@ -5,9 +5,9 @@ package b2bicapability
 
 
 type B2BiCapabilityTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_capability#key B2BiCapability#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/b2bi_capability#key B2BiCapability#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/b2bi_capability#value B2BiCapability#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/b2bi_capability#value B2BiCapability#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

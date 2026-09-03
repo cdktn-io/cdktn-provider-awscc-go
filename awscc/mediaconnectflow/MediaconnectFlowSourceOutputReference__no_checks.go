@@ -59,6 +59,18 @@ func (m *jsiiProxy_MediaconnectFlowSourceOutputReference) validatePutMediaStream
 	return nil
 }
 
+func (m *jsiiProxy_MediaconnectFlowSourceOutputReference) validatePutNdiSourceSettingsParameters(value *MediaconnectFlowSourceNdiSourceSettings) error {
+	return nil
+}
+
+func (m *jsiiProxy_MediaconnectFlowSourceOutputReference) validatePutRouterIntegrationTransitDecryptionParameters(value *MediaconnectFlowSourceRouterIntegrationTransitDecryption) error {
+	return nil
+}
+
+func (m *jsiiProxy_MediaconnectFlowSourceOutputReference) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MediaconnectFlowSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
@@ -108,6 +120,10 @@ func (j *jsiiProxy_MediaconnectFlowSourceOutputReference) validateSetNameParamet
 }
 
 func (j *jsiiProxy_MediaconnectFlowSourceOutputReference) validateSetProtocolParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_MediaconnectFlowSourceOutputReference) validateSetRouterIntegrationStateParameters(val *string) error {
 	return nil
 }
 

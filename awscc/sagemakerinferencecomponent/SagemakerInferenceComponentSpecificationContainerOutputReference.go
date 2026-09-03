@@ -26,6 +26,8 @@ type SagemakerInferenceComponentSpecificationContainerOutputReference interface 
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ContainerMetricsConfig() SagemakerInferenceComponentSpecificationContainerContainerMetricsConfigOutputReference
+	ContainerMetricsConfigInput() interface{}
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -74,7 +76,9 @@ type SagemakerInferenceComponentSpecificationContainerOutputReference interface 
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutContainerMetricsConfig(value *SagemakerInferenceComponentSpecificationContainerContainerMetricsConfig)
 	ResetArtifactUrl()
+	ResetContainerMetricsConfig()
 	ResetEnvironment()
 	ResetImage()
 	// Produce the Token's value at resolution time.
@@ -127,6 +131,26 @@ func (j *jsiiProxy_SagemakerInferenceComponentSpecificationContainerOutputRefere
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerInferenceComponentSpecificationContainerOutputReference) ContainerMetricsConfig() SagemakerInferenceComponentSpecificationContainerContainerMetricsConfigOutputReference {
+	var returns SagemakerInferenceComponentSpecificationContainerContainerMetricsConfigOutputReference
+	_jsii_.Get(
+		j,
+		"containerMetricsConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerInferenceComponentSpecificationContainerOutputReference) ContainerMetricsConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"containerMetricsConfigInput",
 		&returns,
 	)
 	return returns
@@ -534,10 +558,29 @@ func (s *jsiiProxy_SagemakerInferenceComponentSpecificationContainerOutputRefere
 	return returns
 }
 
+func (s *jsiiProxy_SagemakerInferenceComponentSpecificationContainerOutputReference) PutContainerMetricsConfig(value *SagemakerInferenceComponentSpecificationContainerContainerMetricsConfig) {
+	if err := s.validatePutContainerMetricsConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putContainerMetricsConfig",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_SagemakerInferenceComponentSpecificationContainerOutputReference) ResetArtifactUrl() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetArtifactUrl",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SagemakerInferenceComponentSpecificationContainerOutputReference) ResetContainerMetricsConfig() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetContainerMetricsConfig",
 		nil, // no parameters
 	)
 }

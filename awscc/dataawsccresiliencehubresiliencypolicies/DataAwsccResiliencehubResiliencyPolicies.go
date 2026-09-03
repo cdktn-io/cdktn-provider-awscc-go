@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/resiliencehub_resiliency_policies awscc_resiliencehub_resiliency_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/resiliencehub_resiliency_policies awscc_resiliencehub_resiliency_policies}.
 type DataAwsccResiliencehubResiliencyPolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccResiliencehubResiliencyPolicies) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/resiliencehub_resiliency_policies awscc_resiliencehub_resiliency_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/resiliencehub_resiliency_policies awscc_resiliencehub_resiliency_policies} Data Source.
 func NewDataAwsccResiliencehubResiliencyPolicies(scope constructs.Construct, id *string, config *DataAwsccResiliencehubResiliencyPoliciesConfig) DataAwsccResiliencehubResiliencyPolicies {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccResiliencehubResiliencyPolicies(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/resiliencehub_resiliency_policies awscc_resiliencehub_resiliency_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/resiliencehub_resiliency_policies awscc_resiliencehub_resiliency_policies} Data Source.
 func NewDataAwsccResiliencehubResiliencyPolicies_Override(d DataAwsccResiliencehubResiliencyPolicies, scope constructs.Construct, id *string, config *DataAwsccResiliencehubResiliencyPoliciesConfig) {
 	_init_.Initialize()
 

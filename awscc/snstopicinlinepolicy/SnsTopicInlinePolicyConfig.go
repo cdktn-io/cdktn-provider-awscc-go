@@ -24,11 +24,11 @@ type SnsTopicInlinePolicyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A policy document that contains permissions to add to the specified SNS topics.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic_inline_policy#policy_document SnsTopicInlinePolicy#policy_document}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic_inline_policy#policy_document SnsTopicInlinePolicy#policy_document}
 	PolicyDocument *string `field:"required" json:"policyDocument" yaml:"policyDocument"`
 	// The Amazon Resource Name (ARN) of the topic to which you want to add the policy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/sns_topic_inline_policy#topic_arn SnsTopicInlinePolicy#topic_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sns_topic_inline_policy#topic_arn SnsTopicInlinePolicy#topic_arn}
 	TopicArn *string `field:"required" json:"topicArn" yaml:"topicArn"`
 }
 

@@ -205,12 +205,12 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/provider-awscc.dataAwsccMediaconnectFlowSource.DataAwsccMediaconnectFlowSourceTags",
-		reflect.TypeOf((*DataAwsccMediaconnectFlowSourceTags)(nil)).Elem(),
+		"@cdktn/provider-awscc.dataAwsccMediaconnectFlowSource.DataAwsccMediaconnectFlowSourceTagsA",
+		reflect.TypeOf((*DataAwsccMediaconnectFlowSourceTagsA)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/provider-awscc.dataAwsccMediaconnectFlowSource.DataAwsccMediaconnectFlowSourceTagsList",
-		reflect.TypeOf((*DataAwsccMediaconnectFlowSourceTagsList)(nil)).Elem(),
+		"@cdktn/provider-awscc.dataAwsccMediaconnectFlowSource.DataAwsccMediaconnectFlowSourceTagsAList",
+		reflect.TypeOf((*DataAwsccMediaconnectFlowSourceTagsAList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -224,14 +224,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_DataAwsccMediaconnectFlowSourceTagsList{}
+			j := jsiiProxy_DataAwsccMediaconnectFlowSourceTagsAList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/provider-awscc.dataAwsccMediaconnectFlowSource.DataAwsccMediaconnectFlowSourceTagsOutputReference",
-		reflect.TypeOf((*DataAwsccMediaconnectFlowSourceTagsOutputReference)(nil)).Elem(),
+		"@cdktn/provider-awscc.dataAwsccMediaconnectFlowSource.DataAwsccMediaconnectFlowSourceTagsAOutputReference",
+		reflect.TypeOf((*DataAwsccMediaconnectFlowSourceTagsAOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -258,7 +258,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "value", GoGetter: "Value"},
 		},
 		func() interface{} {
-			j := jsiiProxy_DataAwsccMediaconnectFlowSourceTagsOutputReference{}
+			j := jsiiProxy_DataAwsccMediaconnectFlowSourceTagsAOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

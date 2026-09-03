@@ -7,7 +7,7 @@ package bedrockdatasource
 type BedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationMediaExtractionConfigurationImageExtractionConfiguration struct {
 	// Indicates whether a feature is enabled or disabled.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/bedrock_data_source#image_extraction_status BedrockDataSource#image_extraction_status}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_source#image_extraction_status BedrockDataSource#image_extraction_status}
 	ImageExtractionStatus *string `field:"optional" json:"imageExtractionStatus" yaml:"imageExtractionStatus"`
 }
 

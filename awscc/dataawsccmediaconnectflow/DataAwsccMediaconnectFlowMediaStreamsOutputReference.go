@@ -39,6 +39,7 @@ type DataAwsccMediaconnectFlowMediaStreamsOutputReference interface {
 	MediaStreamId() *float64
 	MediaStreamName() *string
 	MediaStreamType() *string
+	Tags() DataAwsccMediaconnectFlowMediaStreamsTagsList
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -202,6 +203,16 @@ func (j *jsiiProxy_DataAwsccMediaconnectFlowMediaStreamsOutputReference) MediaSt
 	_jsii_.Get(
 		j,
 		"mediaStreamType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccMediaconnectFlowMediaStreamsOutputReference) Tags() DataAwsccMediaconnectFlowMediaStreamsTagsList {
+	var returns DataAwsccMediaconnectFlowMediaStreamsTagsList
+	_jsii_.Get(
+		j,
+		"tags",
 		&returns,
 	)
 	return returns

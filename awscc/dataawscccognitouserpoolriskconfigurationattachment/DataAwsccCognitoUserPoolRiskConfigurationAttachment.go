@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cognito_user_pool_risk_configuration_attachment awscc_cognito_user_pool_risk_configuration_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cognito_user_pool_risk_configuration_attachment awscc_cognito_user_pool_risk_configuration_attachment}.
 type DataAwsccCognitoUserPoolRiskConfigurationAttachment interface {
 	cdktn.TerraformDataSource
 	AccountTakeoverRiskConfiguration() DataAwsccCognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationOutputReference
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccCognitoUserPoolRiskConfigurationAttachment) UserPool
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cognito_user_pool_risk_configuration_attachment awscc_cognito_user_pool_risk_configuration_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cognito_user_pool_risk_configuration_attachment awscc_cognito_user_pool_risk_configuration_attachment} Data Source.
 func NewDataAwsccCognitoUserPoolRiskConfigurationAttachment(scope constructs.Construct, id *string, config *DataAwsccCognitoUserPoolRiskConfigurationAttachmentConfig) DataAwsccCognitoUserPoolRiskConfigurationAttachment {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccCognitoUserPoolRiskConfigurationAttachment(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/cognito_user_pool_risk_configuration_attachment awscc_cognito_user_pool_risk_configuration_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cognito_user_pool_risk_configuration_attachment awscc_cognito_user_pool_risk_configuration_attachment} Data Source.
 func NewDataAwsccCognitoUserPoolRiskConfigurationAttachment_Override(d DataAwsccCognitoUserPoolRiskConfigurationAttachment, scope constructs.Construct, id *string, config *DataAwsccCognitoUserPoolRiskConfigurationAttachmentConfig) {
 	_init_.Initialize()
 

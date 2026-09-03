@@ -24,23 +24,23 @@ type GlueTableOptimizerConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The catalog ID of the table.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_table_optimizer#catalog_id GlueTableOptimizer#catalog_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_table_optimizer#catalog_id GlueTableOptimizer#catalog_id}
 	CatalogId *string `field:"required" json:"catalogId" yaml:"catalogId"`
 	// The name of the database. For Hive compatibility, this is folded to lowercase when it is stored.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_table_optimizer#database_name GlueTableOptimizer#database_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_table_optimizer#database_name GlueTableOptimizer#database_name}
 	DatabaseName *string `field:"required" json:"databaseName" yaml:"databaseName"`
 	// The table name. For Hive compatibility, this must be entirely lowercase.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_table_optimizer#table_name GlueTableOptimizer#table_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_table_optimizer#table_name GlueTableOptimizer#table_name}
 	TableName *string `field:"required" json:"tableName" yaml:"tableName"`
 	// Specifies configuration details of a table optimizer.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_table_optimizer#table_optimizer_configuration GlueTableOptimizer#table_optimizer_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_table_optimizer#table_optimizer_configuration GlueTableOptimizer#table_optimizer_configuration}
 	TableOptimizerConfiguration *GlueTableOptimizerTableOptimizerConfiguration `field:"required" json:"tableOptimizerConfiguration" yaml:"tableOptimizerConfiguration"`
 	// The type of table optimizer.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/glue_table_optimizer#type GlueTableOptimizer#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/glue_table_optimizer#type GlueTableOptimizer#type}
 	Type *string `field:"required" json:"type" yaml:"type"`
 }
 

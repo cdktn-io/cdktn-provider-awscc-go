@@ -276,12 +276,12 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/provider-awscc.mediaconnectFlowSource.MediaconnectFlowSourceTags",
-		reflect.TypeOf((*MediaconnectFlowSourceTags)(nil)).Elem(),
+		"@cdktn/provider-awscc.mediaconnectFlowSource.MediaconnectFlowSourceTagsA",
+		reflect.TypeOf((*MediaconnectFlowSourceTagsA)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/provider-awscc.mediaconnectFlowSource.MediaconnectFlowSourceTagsList",
-		reflect.TypeOf((*MediaconnectFlowSourceTagsList)(nil)).Elem(),
+		"@cdktn/provider-awscc.mediaconnectFlowSource.MediaconnectFlowSourceTagsAList",
+		reflect.TypeOf((*MediaconnectFlowSourceTagsAList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -296,14 +296,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_MediaconnectFlowSourceTagsList{}
+			j := jsiiProxy_MediaconnectFlowSourceTagsAList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/provider-awscc.mediaconnectFlowSource.MediaconnectFlowSourceTagsOutputReference",
-		reflect.TypeOf((*MediaconnectFlowSourceTagsOutputReference)(nil)).Elem(),
+		"@cdktn/provider-awscc.mediaconnectFlowSource.MediaconnectFlowSourceTagsAOutputReference",
+		reflect.TypeOf((*MediaconnectFlowSourceTagsAOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -334,7 +334,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_MediaconnectFlowSourceTagsOutputReference{}
+			j := jsiiProxy_MediaconnectFlowSourceTagsAOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

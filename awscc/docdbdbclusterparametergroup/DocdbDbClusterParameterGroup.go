@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_cluster_parameter_group awscc_docdb_db_cluster_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_cluster_parameter_group awscc_docdb_db_cluster_parameter_group}.
 type DocdbDbClusterParameterGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_DocdbDbClusterParameterGroup) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_cluster_parameter_group awscc_docdb_db_cluster_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_cluster_parameter_group awscc_docdb_db_cluster_parameter_group} Resource.
 func NewDocdbDbClusterParameterGroup(scope constructs.Construct, id *string, config *DocdbDbClusterParameterGroupConfig) DocdbDbClusterParameterGroup {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewDocdbDbClusterParameterGroup(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/docdb_db_cluster_parameter_group awscc_docdb_db_cluster_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/docdb_db_cluster_parameter_group awscc_docdb_db_cluster_parameter_group} Resource.
 func NewDocdbDbClusterParameterGroup_Override(d DocdbDbClusterParameterGroup, scope constructs.Construct, id *string, config *DocdbDbClusterParameterGroupConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package quicksightlimitsprofile
 
 
 type QuicksightLimitsProfileResourceLimits struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_limits_profile#max_value QuicksightLimitsProfile#max_value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_limits_profile#max_value QuicksightLimitsProfile#max_value}.
 	MaxValue *float64 `field:"optional" json:"maxValue" yaml:"maxValue"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/resources/quicksight_limits_profile#unit QuicksightLimitsProfile#unit}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_limits_profile#unit QuicksightLimitsProfile#unit}.
 	Unit *string `field:"optional" json:"unit" yaml:"unit"`
 }
 

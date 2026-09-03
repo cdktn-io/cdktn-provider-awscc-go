@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_online_evaluation_configs awscc_bedrockagentcore_online_evaluation_configs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrockagentcore_online_evaluation_configs awscc_bedrockagentcore_online_evaluation_configs}.
 type DataAwsccBedrockagentcoreOnlineEvaluationConfigs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreOnlineEvaluationConfigs) TerraformRe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_online_evaluation_configs awscc_bedrockagentcore_online_evaluation_configs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrockagentcore_online_evaluation_configs awscc_bedrockagentcore_online_evaluation_configs} Data Source.
 func NewDataAwsccBedrockagentcoreOnlineEvaluationConfigs(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreOnlineEvaluationConfigsConfig) DataAwsccBedrockagentcoreOnlineEvaluationConfigs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockagentcoreOnlineEvaluationConfigs(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.99.0/docs/data-sources/bedrockagentcore_online_evaluation_configs awscc_bedrockagentcore_online_evaluation_configs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrockagentcore_online_evaluation_configs awscc_bedrockagentcore_online_evaluation_configs} Data Source.
 func NewDataAwsccBedrockagentcoreOnlineEvaluationConfigs_Override(d DataAwsccBedrockagentcoreOnlineEvaluationConfigs, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreOnlineEvaluationConfigsConfig) {
 	_init_.Initialize()
 

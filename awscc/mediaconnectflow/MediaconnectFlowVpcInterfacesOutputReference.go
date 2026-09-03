@@ -50,6 +50,8 @@ type MediaconnectFlowVpcInterfacesOutputReference interface {
 	SubnetId() *string
 	SetSubnetId(val *string)
 	SubnetIdInput() *string
+	Tags() MediaconnectFlowVpcInterfacesTagsList
+	TagsInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -82,12 +84,14 @@ type MediaconnectFlowVpcInterfacesOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutTags(value interface{})
 	ResetName()
 	ResetNetworkInterfaceIds()
 	ResetNetworkInterfaceType()
 	ResetRoleArn()
 	ResetSecurityGroupIds()
 	ResetSubnetId()
+	ResetTags()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -268,6 +272,26 @@ func (j *jsiiProxy_MediaconnectFlowVpcInterfacesOutputReference) SubnetIdInput()
 	_jsii_.Get(
 		j,
 		"subnetIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediaconnectFlowVpcInterfacesOutputReference) Tags() MediaconnectFlowVpcInterfacesTagsList {
+	var returns MediaconnectFlowVpcInterfacesTagsList
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediaconnectFlowVpcInterfacesOutputReference) TagsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"tagsInput",
 		&returns,
 	)
 	return returns
@@ -628,6 +652,17 @@ func (m *jsiiProxy_MediaconnectFlowVpcInterfacesOutputReference) InterpolationFo
 	return returns
 }
 
+func (m *jsiiProxy_MediaconnectFlowVpcInterfacesOutputReference) PutTags(value interface{}) {
+	if err := m.validatePutTagsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putTags",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_MediaconnectFlowVpcInterfacesOutputReference) ResetName() {
 	_jsii_.InvokeVoid(
 		m,
@@ -672,6 +707,14 @@ func (m *jsiiProxy_MediaconnectFlowVpcInterfacesOutputReference) ResetSubnetId()
 	_jsii_.InvokeVoid(
 		m,
 		"resetSubnetId",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MediaconnectFlowVpcInterfacesOutputReference) ResetTags() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetTags",
 		nil, // no parameters
 	)
 }
