@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_environment_account_connection awscc_proton_environment_account_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/proton_environment_account_connection awscc_proton_environment_account_connection}.
 type ProtonEnvironmentAccountConnection interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -556,7 +556,7 @@ func (j *jsiiProxy_ProtonEnvironmentAccountConnection) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_environment_account_connection awscc_proton_environment_account_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/proton_environment_account_connection awscc_proton_environment_account_connection} Resource.
 func NewProtonEnvironmentAccountConnection(scope constructs.Construct, id *string, config *ProtonEnvironmentAccountConnectionConfig) ProtonEnvironmentAccountConnection {
 	_init_.Initialize()
 
@@ -574,7 +574,7 @@ func NewProtonEnvironmentAccountConnection(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_environment_account_connection awscc_proton_environment_account_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/proton_environment_account_connection awscc_proton_environment_account_connection} Resource.
 func NewProtonEnvironmentAccountConnection_Override(p ProtonEnvironmentAccountConnection, scope constructs.Construct, id *string, config *ProtonEnvironmentAccountConnectionConfig) {
 	_init_.Initialize()
 

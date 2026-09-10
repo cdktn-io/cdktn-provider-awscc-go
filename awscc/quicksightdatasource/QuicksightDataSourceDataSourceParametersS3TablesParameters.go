@@ -5,7 +5,7 @@ package quicksightdatasource
 
 
 type QuicksightDataSourceDataSourceParametersS3TablesParameters struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_data_source#table_bucket_arn QuicksightDataSource#table_bucket_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_data_source#table_bucket_arn QuicksightDataSource#table_bucket_arn}.
 	TableBucketArn *string `field:"optional" json:"tableBucketArn" yaml:"tableBucketArn"`
 }
 

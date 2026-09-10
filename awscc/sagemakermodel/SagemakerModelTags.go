@@ -7,11 +7,11 @@ package sagemakermodel
 type SagemakerModelTags struct {
 	// The tag value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#key SagemakerModel#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_model#key SagemakerModel#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The tag key. Tag keys must be unique per resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#value SagemakerModel#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_model#value SagemakerModel#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

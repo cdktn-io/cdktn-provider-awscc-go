@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspacesthinclient_environment awscc_workspacesthinclient_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/workspacesthinclient_environment awscc_workspacesthinclient_environment}.
 type WorkspacesthinclientEnvironment interface {
 	cdktn.TerraformResource
 	ActivationCode() *string
@@ -704,7 +704,7 @@ func (j *jsiiProxy_WorkspacesthinclientEnvironment) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspacesthinclient_environment awscc_workspacesthinclient_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/workspacesthinclient_environment awscc_workspacesthinclient_environment} Resource.
 func NewWorkspacesthinclientEnvironment(scope constructs.Construct, id *string, config *WorkspacesthinclientEnvironmentConfig) WorkspacesthinclientEnvironment {
 	_init_.Initialize()
 
@@ -722,7 +722,7 @@ func NewWorkspacesthinclientEnvironment(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspacesthinclient_environment awscc_workspacesthinclient_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/workspacesthinclient_environment awscc_workspacesthinclient_environment} Resource.
 func NewWorkspacesthinclientEnvironment_Override(w WorkspacesthinclientEnvironment, scope constructs.Construct, id *string, config *WorkspacesthinclientEnvironmentConfig) {
 	_init_.Initialize()
 

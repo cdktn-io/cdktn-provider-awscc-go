@@ -24,7 +24,7 @@ type Ec2InternetGatewayConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Any tags to assign to the internet gateway.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_internet_gateway#tags Ec2InternetGateway#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_internet_gateway#tags Ec2InternetGateway#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

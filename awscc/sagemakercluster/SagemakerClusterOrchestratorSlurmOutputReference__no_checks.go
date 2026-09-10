@@ -47,6 +47,10 @@ func (s *jsiiProxy_SagemakerClusterOrchestratorSlurmOutputReference) validateInt
 	return nil
 }
 
+func (s *jsiiProxy_SagemakerClusterOrchestratorSlurmOutputReference) validatePutAccountingDatabaseParameters(value *SagemakerClusterOrchestratorSlurmAccountingDatabase) error {
+	return nil
+}
+
 func (s *jsiiProxy_SagemakerClusterOrchestratorSlurmOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

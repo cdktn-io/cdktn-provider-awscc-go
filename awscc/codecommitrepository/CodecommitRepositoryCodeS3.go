@@ -9,19 +9,19 @@ type CodecommitRepositoryCodeS3 struct {
 	//
 	// This can be specified using the name of the bucket in the AWS account. Changes to this property are ignored after initial resource creation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#bucket CodecommitRepository#bucket}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/codecommit_repository#bucket CodecommitRepository#bucket}
 	Bucket *string `field:"optional" json:"bucket" yaml:"bucket"`
 	// The key to use for accessing the Amazon S3 bucket.
 	//
 	// Changes to this property are ignored after initial resource creation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#key CodecommitRepository#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/codecommit_repository#key CodecommitRepository#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The object version of the ZIP file, if versioning is enabled for the Amazon S3 bucket.
 	//
 	// Changes to this property are ignored after initial resource creation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codecommit_repository#object_version CodecommitRepository#object_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/codecommit_repository#object_version CodecommitRepository#object_version}
 	ObjectVersion *string `field:"optional" json:"objectVersion" yaml:"objectVersion"`
 }
 

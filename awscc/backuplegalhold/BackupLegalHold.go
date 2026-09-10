@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_legal_hold awscc_backup_legal_hold}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/backup_legal_hold awscc_backup_legal_hold}.
 type BackupLegalHold interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -492,7 +492,7 @@ func (j *jsiiProxy_BackupLegalHold) TitleInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_legal_hold awscc_backup_legal_hold} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/backup_legal_hold awscc_backup_legal_hold} Resource.
 func NewBackupLegalHold(scope constructs.Construct, id *string, config *BackupLegalHoldConfig) BackupLegalHold {
 	_init_.Initialize()
 
@@ -510,7 +510,7 @@ func NewBackupLegalHold(scope constructs.Construct, id *string, config *BackupLe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_legal_hold awscc_backup_legal_hold} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/backup_legal_hold awscc_backup_legal_hold} Resource.
 func NewBackupLegalHold_Override(b BackupLegalHold, scope constructs.Construct, id *string, config *BackupLegalHoldConfig) {
 	_init_.Initialize()
 

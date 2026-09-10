@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudfront_continuous_deployment_policies awscc_cloudfront_continuous_deployment_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudfront_continuous_deployment_policies awscc_cloudfront_continuous_deployment_policies}.
 type DataAwsccCloudfrontContinuousDeploymentPolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCloudfrontContinuousDeploymentPolicies) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudfront_continuous_deployment_policies awscc_cloudfront_continuous_deployment_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudfront_continuous_deployment_policies awscc_cloudfront_continuous_deployment_policies} Data Source.
 func NewDataAwsccCloudfrontContinuousDeploymentPolicies(scope constructs.Construct, id *string, config *DataAwsccCloudfrontContinuousDeploymentPoliciesConfig) DataAwsccCloudfrontContinuousDeploymentPolicies {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCloudfrontContinuousDeploymentPolicies(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudfront_continuous_deployment_policies awscc_cloudfront_continuous_deployment_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudfront_continuous_deployment_policies awscc_cloudfront_continuous_deployment_policies} Data Source.
 func NewDataAwsccCloudfrontContinuousDeploymentPolicies_Override(d DataAwsccCloudfrontContinuousDeploymentPolicies, scope constructs.Construct, id *string, config *DataAwsccCloudfrontContinuousDeploymentPoliciesConfig) {
 	_init_.Initialize()
 

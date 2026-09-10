@@ -5,7 +5,7 @@ package kinesisfirehosedeliverystream
 
 
 type KinesisfirehoseDeliveryStreamIcebergDestinationConfigurationDestinationTableConfigurationListPartitionSpec struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kinesisfirehose_delivery_stream#identity KinesisfirehoseDeliveryStream#identity}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kinesisfirehose_delivery_stream#identity KinesisfirehoseDeliveryStream#identity}.
 	Identity interface{} `field:"optional" json:"identity" yaml:"identity"`
 }
 

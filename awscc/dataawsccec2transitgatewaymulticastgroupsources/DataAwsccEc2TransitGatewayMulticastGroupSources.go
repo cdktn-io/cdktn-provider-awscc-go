@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_transit_gateway_multicast_group_sources awscc_ec2_transit_gateway_multicast_group_sources}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_transit_gateway_multicast_group_sources awscc_ec2_transit_gateway_multicast_group_sources}.
 type DataAwsccEc2TransitGatewayMulticastGroupSources interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2TransitGatewayMulticastGroupSources) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_transit_gateway_multicast_group_sources awscc_ec2_transit_gateway_multicast_group_sources} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_transit_gateway_multicast_group_sources awscc_ec2_transit_gateway_multicast_group_sources} Data Source.
 func NewDataAwsccEc2TransitGatewayMulticastGroupSources(scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayMulticastGroupSourcesConfig) DataAwsccEc2TransitGatewayMulticastGroupSources {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2TransitGatewayMulticastGroupSources(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_transit_gateway_multicast_group_sources awscc_ec2_transit_gateway_multicast_group_sources} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_transit_gateway_multicast_group_sources awscc_ec2_transit_gateway_multicast_group_sources} Data Source.
 func NewDataAwsccEc2TransitGatewayMulticastGroupSources_Override(d DataAwsccEc2TransitGatewayMulticastGroupSources, scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayMulticastGroupSourcesConfig) {
 	_init_.Initialize()
 

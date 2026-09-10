@@ -24,15 +24,15 @@ type LightsailInstanceSnapshotConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The instance from which the snapshot was created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_instance_snapshot#instance_name LightsailInstanceSnapshot#instance_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lightsail_instance_snapshot#instance_name LightsailInstanceSnapshot#instance_name}
 	InstanceName *string `field:"required" json:"instanceName" yaml:"instanceName"`
 	// The name of the snapshot.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_instance_snapshot#instance_snapshot_name LightsailInstanceSnapshot#instance_snapshot_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lightsail_instance_snapshot#instance_snapshot_name LightsailInstanceSnapshot#instance_snapshot_name}
 	InstanceSnapshotName *string `field:"required" json:"instanceSnapshotName" yaml:"instanceSnapshotName"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_instance_snapshot#tags LightsailInstanceSnapshot#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lightsail_instance_snapshot#tags LightsailInstanceSnapshot#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

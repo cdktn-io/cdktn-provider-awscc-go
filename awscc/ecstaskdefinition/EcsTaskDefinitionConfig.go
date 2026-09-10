@@ -26,7 +26,7 @@ type EcsTaskDefinitionConfig struct {
 	//
 	// For more information about container definition parameters and defaults, see [Amazon ECS Task Definitions](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_defintions.html) in the *Amazon Elastic Container Service Developer Guide*.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#container_definitions EcsTaskDefinition#container_definitions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#container_definitions EcsTaskDefinition#container_definitions}
 	ContainerDefinitions interface{} `field:"optional" json:"containerDefinitions" yaml:"containerDefinitions"`
 	// The number of ``cpu`` units used by the task.
 	//
@@ -34,23 +34,23 @@ type EcsTaskDefinitionConfig struct {
 	//  If you're using the EC2 launch type or the external launch type, this field is optional. Supported values are between ``128`` CPU units (``0.125`` vCPUs) and ``196608`` CPU units (``192`` vCPUs).
 	//  This field is required for Fargate. For information about the valid values, see [Task size](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definition_parameters.html#task_size) in the *Amazon Elastic Container Service Developer Guide*.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#cpu EcsTaskDefinition#cpu}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#cpu EcsTaskDefinition#cpu}
 	Cpu *string `field:"optional" json:"cpu" yaml:"cpu"`
 	// Enables fault injection and allows for fault injection requests to be accepted from the task's containers.
 	//
 	// The default value is ``false``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#enable_fault_injection EcsTaskDefinition#enable_fault_injection}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#enable_fault_injection EcsTaskDefinition#enable_fault_injection}
 	EnableFaultInjection interface{} `field:"optional" json:"enableFaultInjection" yaml:"enableFaultInjection"`
 	// The ephemeral storage settings to use for tasks run with the task definition.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#ephemeral_storage EcsTaskDefinition#ephemeral_storage}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#ephemeral_storage EcsTaskDefinition#ephemeral_storage}
 	EphemeralStorage *EcsTaskDefinitionEphemeralStorage `field:"optional" json:"ephemeralStorage" yaml:"ephemeralStorage"`
 	// The Amazon Resource Name (ARN) of the task execution role that grants the Amazon ECS container agent permission to make AWS API calls on your behalf.
 	//
 	// For informationabout the required IAM roles for Amazon ECS, see [IAM roles for Amazon ECS](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/security-ecs-iam-role-overview.html) in the *Amazon Elastic Container Service Developer Guide*.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#execution_role_arn EcsTaskDefinition#execution_role_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#execution_role_arn EcsTaskDefinition#execution_role_arn}
 	ExecutionRoleArn *string `field:"optional" json:"executionRoleArn" yaml:"executionRoleArn"`
 	// The name of a family that this task definition is registered to.
 	//
@@ -58,9 +58,9 @@ type EcsTaskDefinitionConfig struct {
 	//  A family groups multiple versions of a task definition. Amazon ECS gives the first task definition that you registered to a family a revision number of 1. Amazon ECS gives sequential revision numbers to each task definition that you add.
 	//   To use revision numbers when you update a task definition, specify this property. If you don't specify a value, CFNlong generates a new task definition each time that you update it.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#family EcsTaskDefinition#family}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#family EcsTaskDefinition#family}
 	Family *string `field:"optional" json:"family" yaml:"family"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#inference_accelerators EcsTaskDefinition#inference_accelerators}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#inference_accelerators EcsTaskDefinition#inference_accelerators}.
 	InferenceAccelerators interface{} `field:"optional" json:"inferenceAccelerators" yaml:"inferenceAccelerators"`
 	// The IPC resource namespace to use for the containers in the task.
 	//
@@ -72,7 +72,7 @@ type EcsTaskDefinitionConfig struct {
 	//
 	//   This parameter is not supported for Windows containers or tasks run on FARGATElong.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#ipc_mode EcsTaskDefinition#ipc_mode}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#ipc_mode EcsTaskDefinition#ipc_mode}
 	IpcMode *string `field:"optional" json:"ipcMode" yaml:"ipcMode"`
 	// The amount (in MiB) of memory used by the task.
 	//
@@ -88,7 +88,7 @@ type EcsTaskDefinitionConfig struct {
 	//   +  Between 32GB and 120 GB in 8 GB increments - Available ``cpu`` values: 16384 (16 vCPU)
 	//  This option requires Linux platform ``1.4.0`` or later.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#memory EcsTaskDefinition#memory}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#memory EcsTaskDefinition#memory}
 	Memory *string `field:"optional" json:"memory" yaml:"memory"`
 	// The Docker networking mode to use for the containers in the task.
 	//
@@ -99,7 +99,7 @@ type EcsTaskDefinitionConfig struct {
 	//   If the network mode is ``awsvpc``, the task is allocated an elastic network interface, and you must specify a [NetworkConfiguration](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_NetworkConfiguration.html) value when you create a service or run a task with the task definition. For more information, see [Task Networking](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task-networking.html) in the *Amazon Elastic Container Service Developer Guide*.
 	//  If the network mode is ``host``, you cannot run multiple instantiations of the same task on a single container instance when port mappings are used.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#network_mode EcsTaskDefinition#network_mode}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#network_mode EcsTaskDefinition#network_mode}
 	NetworkMode *string `field:"optional" json:"networkMode" yaml:"networkMode"`
 	// The process namespace to use for the containers in the task.
 	//
@@ -111,29 +111,29 @@ type EcsTaskDefinitionConfig struct {
 	//   This parameter is not supported for Windows containers.
 	//    This parameter is only supported for tasks that are hosted on FARGATElong if the tasks are using platform version ``1.4.0`` or later (Linux). This isn't supported for Windows containers on Fargate.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#pid_mode EcsTaskDefinition#pid_mode}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#pid_mode EcsTaskDefinition#pid_mode}
 	PidMode *string `field:"optional" json:"pidMode" yaml:"pidMode"`
 	// An array of placement constraint objects to use for tasks.
 	//
 	// This parameter isn't supported for tasks run on FARGATElong.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#placement_constraints EcsTaskDefinition#placement_constraints}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#placement_constraints EcsTaskDefinition#placement_constraints}
 	PlacementConstraints interface{} `field:"optional" json:"placementConstraints" yaml:"placementConstraints"`
 	// The configuration details for the App Mesh proxy.
 	//
 	// Your Amazon ECS container instances require at least version 1.26.0 of the container agent and at least version 1.26.0-1 of the ``ecs-init`` package to use a proxy configuration. If your container instances are launched from the Amazon ECS optimized AMI version ``20190301`` or later, they contain the required versions of the container agent and ``ecs-init``. For more information, see [Amazon ECS-optimized Linux AMI](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-optimized_AMI.html) in the *Amazon Elastic Container Service Developer Guide*.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#proxy_configuration EcsTaskDefinition#proxy_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#proxy_configuration EcsTaskDefinition#proxy_configuration}
 	ProxyConfiguration *EcsTaskDefinitionProxyConfiguration `field:"optional" json:"proxyConfiguration" yaml:"proxyConfiguration"`
 	// The task launch types the task definition was validated against.
 	//
 	// The valid values are ``MANAGED_INSTANCES``, ``EC2``, ``FARGATE``, and ``EXTERNAL``. For more information, see [Amazon ECS launch types](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/launch_types.html) in the *Amazon Elastic Container Service Developer Guide*.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#requires_compatibilities EcsTaskDefinition#requires_compatibilities}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#requires_compatibilities EcsTaskDefinition#requires_compatibilities}
 	RequiresCompatibilities *[]*string `field:"optional" json:"requiresCompatibilities" yaml:"requiresCompatibilities"`
 	// The operating system that your tasks definitions run on.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#runtime_platform EcsTaskDefinition#runtime_platform}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#runtime_platform EcsTaskDefinition#runtime_platform}
 	RuntimePlatform *EcsTaskDefinitionRuntimePlatform `field:"optional" json:"runtimePlatform" yaml:"runtimePlatform"`
 	// The metadata that you apply to the task definition to help you categorize and organize them.
 	//
@@ -151,14 +151,14 @@ type EcsTaskDefinitionConfig struct {
 	//  IAM roles for tasks on Windows require that the ``-EnableTaskIAMRole`` option is set when you launch the Amazon ECS-optimized Windows AMI. Your containers must also run some configuration code to use the feature. For more information, see [Windows IAM roles for tasks](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/windows_task_IAM_roles.html) in the *Amazon Elastic Container Service Developer Guide*.
 	//   String validation is done on the ECS side. If an invalid string value is given for ``TaskRoleArn``, it may cause the Cloudformation job to hang.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#task_role_arn EcsTaskDefinition#task_role_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#task_role_arn EcsTaskDefinition#task_role_arn}
 	TaskRoleArn *string `field:"optional" json:"taskRoleArn" yaml:"taskRoleArn"`
 	// The list of data volume definitions for the task.
 	//
 	// For more information, see [Using data volumes in tasks](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/using_data_volumes.html) in the *Amazon Elastic Container Service Developer Guide*.
 	//   The ``host`` and ``sourcePath`` parameters aren't supported for tasks run on FARGATElong.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#volumes EcsTaskDefinition#volumes}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#volumes EcsTaskDefinition#volumes}
 	Volumes interface{} `field:"optional" json:"volumes" yaml:"volumes"`
 }
 

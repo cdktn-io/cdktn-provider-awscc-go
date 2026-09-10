@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/emr_security_configurations awscc_emr_security_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/emr_security_configurations awscc_emr_security_configurations}.
 type DataAwsccEmrSecurityConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEmrSecurityConfigurations) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/emr_security_configurations awscc_emr_security_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/emr_security_configurations awscc_emr_security_configurations} Data Source.
 func NewDataAwsccEmrSecurityConfigurations(scope constructs.Construct, id *string, config *DataAwsccEmrSecurityConfigurationsConfig) DataAwsccEmrSecurityConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEmrSecurityConfigurations(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/emr_security_configurations awscc_emr_security_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/emr_security_configurations awscc_emr_security_configurations} Data Source.
 func NewDataAwsccEmrSecurityConfigurations_Override(d DataAwsccEmrSecurityConfigurations, scope constructs.Construct, id *string, config *DataAwsccEmrSecurityConfigurationsConfig) {
 	_init_.Initialize()
 

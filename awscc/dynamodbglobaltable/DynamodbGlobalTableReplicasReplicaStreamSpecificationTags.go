@@ -5,9 +5,9 @@ package dynamodbglobaltable
 
 
 type DynamodbGlobalTableReplicasReplicaStreamSpecificationTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dynamodb_global_table#key DynamodbGlobalTable#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_global_table#key DynamodbGlobalTable#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dynamodb_global_table#value DynamodbGlobalTable#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_global_table#value DynamodbGlobalTable#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

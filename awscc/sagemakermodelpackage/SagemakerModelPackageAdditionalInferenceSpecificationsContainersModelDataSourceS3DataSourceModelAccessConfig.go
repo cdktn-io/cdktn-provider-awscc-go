@@ -7,7 +7,7 @@ package sagemakermodelpackage
 type SagemakerModelPackageAdditionalInferenceSpecificationsContainersModelDataSourceS3DataSourceModelAccessConfig struct {
 	// Specifies agreement to the model end-user license agreement (EULA).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model_package#accept_eula SagemakerModelPackage#accept_eula}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_model_package#accept_eula SagemakerModelPackage#accept_eula}
 	AcceptEula interface{} `field:"optional" json:"acceptEula" yaml:"acceptEula"`
 }
 

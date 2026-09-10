@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/neptune_db_parameter_group awscc_neptune_db_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/neptune_db_parameter_group awscc_neptune_db_parameter_group}.
 type NeptuneDbParameterGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_NeptuneDbParameterGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/neptune_db_parameter_group awscc_neptune_db_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/neptune_db_parameter_group awscc_neptune_db_parameter_group} Resource.
 func NewNeptuneDbParameterGroup(scope constructs.Construct, id *string, config *NeptuneDbParameterGroupConfig) NeptuneDbParameterGroup {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewNeptuneDbParameterGroup(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/neptune_db_parameter_group awscc_neptune_db_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/neptune_db_parameter_group awscc_neptune_db_parameter_group} Resource.
 func NewNeptuneDbParameterGroup_Override(n NeptuneDbParameterGroup, scope constructs.Construct, id *string, config *NeptuneDbParameterGroupConfig) {
 	_init_.Initialize()
 

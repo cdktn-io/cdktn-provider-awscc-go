@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eventschemas_registry awscc_eventschemas_registry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/eventschemas_registry awscc_eventschemas_registry}.
 type EventschemasRegistry interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_EventschemasRegistry) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eventschemas_registry awscc_eventschemas_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/eventschemas_registry awscc_eventschemas_registry} Resource.
 func NewEventschemasRegistry(scope constructs.Construct, id *string, config *EventschemasRegistryConfig) EventschemasRegistry {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewEventschemasRegistry(scope constructs.Construct, id *string, config *Eve
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eventschemas_registry awscc_eventschemas_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/eventschemas_registry awscc_eventschemas_registry} Resource.
 func NewEventschemasRegistry_Override(e EventschemasRegistry, scope constructs.Construct, id *string, config *EventschemasRegistryConfig) {
 	_init_.Initialize()
 

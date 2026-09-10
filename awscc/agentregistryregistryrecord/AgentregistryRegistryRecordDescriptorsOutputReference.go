@@ -17,6 +17,8 @@ type AgentregistryRegistryRecordDescriptorsOutputReference interface {
 	A2AAgentCardInput() interface{}
 	AgentSkillsDefinition() AgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionOutputReference
 	AgentSkillsDefinitionInput() interface{}
+	Agui() AgentregistryRegistryRecordDescriptorsAguiOutputReference
+	AguiInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -36,6 +38,8 @@ type AgentregistryRegistryRecordDescriptorsOutputReference interface {
 	CustomInput() interface{}
 	// Experimental.
 	Fqn() *string
+	Http() AgentregistryRegistryRecordDescriptorsHttpOutputReference
+	HttpInput() interface{}
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
 	McpServer() AgentregistryRegistryRecordDescriptorsMcpServerOutputReference
@@ -74,11 +78,15 @@ type AgentregistryRegistryRecordDescriptorsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutA2AAgentCard(value *AgentregistryRegistryRecordDescriptorsA2AAgentCard)
 	PutAgentSkillsDefinition(value *AgentregistryRegistryRecordDescriptorsAgentSkillsDefinition)
+	PutAgui(value *AgentregistryRegistryRecordDescriptorsAgui)
 	PutCustom(value *AgentregistryRegistryRecordDescriptorsCustom)
+	PutHttp(value *AgentregistryRegistryRecordDescriptorsHttp)
 	PutMcpServer(value *AgentregistryRegistryRecordDescriptorsMcpServer)
 	ResetA2AAgentCard()
 	ResetAgentSkillsDefinition()
+	ResetAgui()
 	ResetCustom()
+	ResetHttp()
 	ResetMcpServer()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -130,6 +138,26 @@ func (j *jsiiProxy_AgentregistryRegistryRecordDescriptorsOutputReference) AgentS
 	_jsii_.Get(
 		j,
 		"agentSkillsDefinitionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgentregistryRegistryRecordDescriptorsOutputReference) Agui() AgentregistryRegistryRecordDescriptorsAguiOutputReference {
+	var returns AgentregistryRegistryRecordDescriptorsAguiOutputReference
+	_jsii_.Get(
+		j,
+		"agui",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgentregistryRegistryRecordDescriptorsOutputReference) AguiInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"aguiInput",
 		&returns,
 	)
 	return returns
@@ -190,6 +218,26 @@ func (j *jsiiProxy_AgentregistryRegistryRecordDescriptorsOutputReference) Fqn() 
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgentregistryRegistryRecordDescriptorsOutputReference) Http() AgentregistryRegistryRecordDescriptorsHttpOutputReference {
+	var returns AgentregistryRegistryRecordDescriptorsHttpOutputReference
+	_jsii_.Get(
+		j,
+		"http",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgentregistryRegistryRecordDescriptorsOutputReference) HttpInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"httpInput",
 		&returns,
 	)
 	return returns
@@ -536,6 +584,17 @@ func (a *jsiiProxy_AgentregistryRegistryRecordDescriptorsOutputReference) PutAge
 	)
 }
 
+func (a *jsiiProxy_AgentregistryRegistryRecordDescriptorsOutputReference) PutAgui(value *AgentregistryRegistryRecordDescriptorsAgui) {
+	if err := a.validatePutAguiParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putAgui",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_AgentregistryRegistryRecordDescriptorsOutputReference) PutCustom(value *AgentregistryRegistryRecordDescriptorsCustom) {
 	if err := a.validatePutCustomParameters(value); err != nil {
 		panic(err)
@@ -543,6 +602,17 @@ func (a *jsiiProxy_AgentregistryRegistryRecordDescriptorsOutputReference) PutCus
 	_jsii_.InvokeVoid(
 		a,
 		"putCustom",
+		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_AgentregistryRegistryRecordDescriptorsOutputReference) PutHttp(value *AgentregistryRegistryRecordDescriptorsHttp) {
+	if err := a.validatePutHttpParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putHttp",
 		[]interface{}{value},
 	)
 }
@@ -574,10 +644,26 @@ func (a *jsiiProxy_AgentregistryRegistryRecordDescriptorsOutputReference) ResetA
 	)
 }
 
+func (a *jsiiProxy_AgentregistryRegistryRecordDescriptorsOutputReference) ResetAgui() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetAgui",
+		nil, // no parameters
+	)
+}
+
 func (a *jsiiProxy_AgentregistryRegistryRecordDescriptorsOutputReference) ResetCustom() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetCustom",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AgentregistryRegistryRecordDescriptorsOutputReference) ResetHttp() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetHttp",
 		nil, // no parameters
 	)
 }

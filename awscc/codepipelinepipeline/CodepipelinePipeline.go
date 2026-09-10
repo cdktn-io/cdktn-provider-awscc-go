@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline awscc_codepipeline_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/codepipeline_pipeline awscc_codepipeline_pipeline}.
 type CodepipelinePipeline interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -663,7 +663,7 @@ func (j *jsiiProxy_CodepipelinePipeline) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline awscc_codepipeline_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/codepipeline_pipeline awscc_codepipeline_pipeline} Resource.
 func NewCodepipelinePipeline(scope constructs.Construct, id *string, config *CodepipelinePipelineConfig) CodepipelinePipeline {
 	_init_.Initialize()
 
@@ -681,7 +681,7 @@ func NewCodepipelinePipeline(scope constructs.Construct, id *string, config *Cod
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline awscc_codepipeline_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/codepipeline_pipeline awscc_codepipeline_pipeline} Resource.
 func NewCodepipelinePipeline_Override(c CodepipelinePipeline, scope constructs.Construct, id *string, config *CodepipelinePipelineConfig) {
 	_init_.Initialize()
 

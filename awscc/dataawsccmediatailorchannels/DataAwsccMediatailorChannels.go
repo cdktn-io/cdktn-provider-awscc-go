@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediatailor_channels awscc_mediatailor_channels}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/mediatailor_channels awscc_mediatailor_channels}.
 type DataAwsccMediatailorChannels interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMediatailorChannels) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediatailor_channels awscc_mediatailor_channels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/mediatailor_channels awscc_mediatailor_channels} Data Source.
 func NewDataAwsccMediatailorChannels(scope constructs.Construct, id *string, config *DataAwsccMediatailorChannelsConfig) DataAwsccMediatailorChannels {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMediatailorChannels(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediatailor_channels awscc_mediatailor_channels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/mediatailor_channels awscc_mediatailor_channels} Data Source.
 func NewDataAwsccMediatailorChannels_Override(d DataAwsccMediatailorChannels, scope constructs.Construct, id *string, config *DataAwsccMediatailorChannelsConfig) {
 	_init_.Initialize()
 

@@ -24,11 +24,11 @@ type WisdomMessageTemplateVersionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The unqualified Amazon Resource Name (ARN) of the message template.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wisdom_message_template_version#message_template_arn WisdomMessageTemplateVersion#message_template_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/wisdom_message_template_version#message_template_arn WisdomMessageTemplateVersion#message_template_arn}
 	MessageTemplateArn *string `field:"required" json:"messageTemplateArn" yaml:"messageTemplateArn"`
 	// The content SHA256 of the message template.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wisdom_message_template_version#message_template_content_sha_256 WisdomMessageTemplateVersion#message_template_content_sha_256}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/wisdom_message_template_version#message_template_content_sha_256 WisdomMessageTemplateVersion#message_template_content_sha_256}
 	MessageTemplateContentSha256 *string `field:"optional" json:"messageTemplateContentSha256" yaml:"messageTemplateContentSha256"`
 }
 

@@ -5,9 +5,9 @@ package kafkaconnectconnector
 
 
 type KafkaconnectConnectorTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kafkaconnect_connector#key KafkaconnectConnector#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kafkaconnect_connector#key KafkaconnectConnector#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kafkaconnect_connector#value KafkaconnectConnector#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kafkaconnect_connector#value KafkaconnectConnector#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

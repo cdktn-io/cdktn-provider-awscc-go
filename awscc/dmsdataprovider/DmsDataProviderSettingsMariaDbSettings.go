@@ -5,13 +5,13 @@ package dmsdataprovider
 
 
 type DmsDataProviderSettingsMariaDbSettings struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}.
 	CertificateArn *string `field:"optional" json:"certificateArn" yaml:"certificateArn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dms_data_provider#port DmsDataProvider#port}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dms_data_provider#port DmsDataProvider#port}.
 	Port *float64 `field:"optional" json:"port" yaml:"port"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}.
 	ServerName *string `field:"optional" json:"serverName" yaml:"serverName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}.
 	SslMode *string `field:"optional" json:"sslMode" yaml:"sslMode"`
 }
 

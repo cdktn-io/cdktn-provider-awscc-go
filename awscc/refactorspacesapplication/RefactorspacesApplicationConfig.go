@@ -22,19 +22,19 @@ type RefactorspacesApplicationConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/refactorspaces_application#environment_identifier RefactorspacesApplication#environment_identifier}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/refactorspaces_application#environment_identifier RefactorspacesApplication#environment_identifier}.
 	EnvironmentIdentifier *string `field:"required" json:"environmentIdentifier" yaml:"environmentIdentifier"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/refactorspaces_application#name RefactorspacesApplication#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/refactorspaces_application#name RefactorspacesApplication#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/refactorspaces_application#proxy_type RefactorspacesApplication#proxy_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/refactorspaces_application#proxy_type RefactorspacesApplication#proxy_type}.
 	ProxyType *string `field:"required" json:"proxyType" yaml:"proxyType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/refactorspaces_application#vpc_id RefactorspacesApplication#vpc_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/refactorspaces_application#vpc_id RefactorspacesApplication#vpc_id}.
 	VpcId *string `field:"required" json:"vpcId" yaml:"vpcId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/refactorspaces_application#api_gateway_proxy RefactorspacesApplication#api_gateway_proxy}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/refactorspaces_application#api_gateway_proxy RefactorspacesApplication#api_gateway_proxy}.
 	ApiGatewayProxy *RefactorspacesApplicationApiGatewayProxy `field:"optional" json:"apiGatewayProxy" yaml:"apiGatewayProxy"`
 	// Metadata that you can assign to help organize the frameworks that you create. Each tag is a key-value pair.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/refactorspaces_application#tags RefactorspacesApplication#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/refactorspaces_application#tags RefactorspacesApplication#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

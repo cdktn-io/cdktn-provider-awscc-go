@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination awscc_iot_topic_rule_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination awscc_iot_topic_rule_destination}.
 type IotTopicRuleDestination interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -43,6 +43,8 @@ type IotTopicRuleDestination interface {
 	HttpUrlProperties() IotTopicRuleDestinationHttpUrlPropertiesOutputReference
 	HttpUrlPropertiesInput() interface{}
 	Id() *string
+	InfluxDbProperties() IotTopicRuleDestinationInfluxDbPropertiesOutputReference
+	InfluxDbPropertiesInput() interface{}
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -151,6 +153,7 @@ type IotTopicRuleDestination interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutHttpUrlProperties(value *IotTopicRuleDestinationHttpUrlProperties)
+	PutInfluxDbProperties(value *IotTopicRuleDestinationInfluxDbProperties)
 	PutVpcProperties(value *IotTopicRuleDestinationVpcProperties)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -166,6 +169,7 @@ type IotTopicRuleDestination interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetHttpUrlProperties()
+	ResetInfluxDbProperties()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -318,6 +322,26 @@ func (j *jsiiProxy_IotTopicRuleDestination) Id() *string {
 	return returns
 }
 
+func (j *jsiiProxy_IotTopicRuleDestination) InfluxDbProperties() IotTopicRuleDestinationInfluxDbPropertiesOutputReference {
+	var returns IotTopicRuleDestinationInfluxDbPropertiesOutputReference
+	_jsii_.Get(
+		j,
+		"influxDbProperties",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IotTopicRuleDestination) InfluxDbPropertiesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"influxDbPropertiesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_IotTopicRuleDestination) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -449,7 +473,7 @@ func (j *jsiiProxy_IotTopicRuleDestination) VpcPropertiesInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination awscc_iot_topic_rule_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination awscc_iot_topic_rule_destination} Resource.
 func NewIotTopicRuleDestination(scope constructs.Construct, id *string, config *IotTopicRuleDestinationConfig) IotTopicRuleDestination {
 	_init_.Initialize()
 
@@ -467,7 +491,7 @@ func NewIotTopicRuleDestination(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule_destination awscc_iot_topic_rule_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule_destination awscc_iot_topic_rule_destination} Resource.
 func NewIotTopicRuleDestination_Override(i IotTopicRuleDestination, scope constructs.Construct, id *string, config *IotTopicRuleDestinationConfig) {
 	_init_.Initialize()
 
@@ -937,6 +961,17 @@ func (i *jsiiProxy_IotTopicRuleDestination) PutHttpUrlProperties(value *IotTopic
 	)
 }
 
+func (i *jsiiProxy_IotTopicRuleDestination) PutInfluxDbProperties(value *IotTopicRuleDestinationInfluxDbProperties) {
+	if err := i.validatePutInfluxDbPropertiesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		i,
+		"putInfluxDbProperties",
+		[]interface{}{value},
+	)
+}
+
 func (i *jsiiProxy_IotTopicRuleDestination) PutVpcProperties(value *IotTopicRuleDestinationVpcProperties) {
 	if err := i.validatePutVpcPropertiesParameters(value); err != nil {
 		panic(err)
@@ -963,6 +998,14 @@ func (i *jsiiProxy_IotTopicRuleDestination) ResetHttpUrlProperties() {
 	_jsii_.InvokeVoid(
 		i,
 		"resetHttpUrlProperties",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IotTopicRuleDestination) ResetInfluxDbProperties() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetInfluxDbProperties",
 		nil, // no parameters
 	)
 }

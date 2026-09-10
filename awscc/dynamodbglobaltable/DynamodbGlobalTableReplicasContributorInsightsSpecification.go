@@ -5,9 +5,9 @@ package dynamodbglobaltable
 
 
 type DynamodbGlobalTableReplicasContributorInsightsSpecification struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dynamodb_global_table#enabled DynamodbGlobalTable#enabled}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_global_table#enabled DynamodbGlobalTable#enabled}.
 	Enabled interface{} `field:"optional" json:"enabled" yaml:"enabled"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dynamodb_global_table#mode DynamodbGlobalTable#mode}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_global_table#mode DynamodbGlobalTable#mode}.
 	Mode *string `field:"optional" json:"mode" yaml:"mode"`
 }
 

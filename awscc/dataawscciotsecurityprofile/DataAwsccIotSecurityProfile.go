@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_security_profile awscc_iot_security_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iot_security_profile awscc_iot_security_profile}.
 type DataAwsccIotSecurityProfile interface {
 	cdktn.TerraformDataSource
 	AdditionalMetricsToRetainV2() DataAwsccIotSecurityProfileAdditionalMetricsToRetainV2List
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccIotSecurityProfile) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_security_profile awscc_iot_security_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iot_security_profile awscc_iot_security_profile} Data Source.
 func NewDataAwsccIotSecurityProfile(scope constructs.Construct, id *string, config *DataAwsccIotSecurityProfileConfig) DataAwsccIotSecurityProfile {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccIotSecurityProfile(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_security_profile awscc_iot_security_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iot_security_profile awscc_iot_security_profile} Data Source.
 func NewDataAwsccIotSecurityProfile_Override(d DataAwsccIotSecurityProfile, scope constructs.Construct, id *string, config *DataAwsccIotSecurityProfileConfig) {
 	_init_.Initialize()
 

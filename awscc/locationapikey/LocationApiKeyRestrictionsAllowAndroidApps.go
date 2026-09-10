@@ -5,9 +5,9 @@ package locationapikey
 
 
 type LocationApiKeyRestrictionsAllowAndroidApps struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/location_api_key#certificate_fingerprint LocationApiKey#certificate_fingerprint}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/location_api_key#certificate_fingerprint LocationApiKey#certificate_fingerprint}.
 	CertificateFingerprint *string `field:"optional" json:"certificateFingerprint" yaml:"certificateFingerprint"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/location_api_key#package LocationApiKey#package}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/location_api_key#package LocationApiKey#package}.
 	Package *string `field:"optional" json:"package" yaml:"package"`
 }
 

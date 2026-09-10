@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/signer_profile_permission awscc_signer_profile_permission}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/signer_profile_permission awscc_signer_profile_permission}.
 type DataAwsccSignerProfilePermission interface {
 	cdktn.TerraformDataSource
 	Action() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccSignerProfilePermission) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/signer_profile_permission awscc_signer_profile_permission} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/signer_profile_permission awscc_signer_profile_permission} Data Source.
 func NewDataAwsccSignerProfilePermission(scope constructs.Construct, id *string, config *DataAwsccSignerProfilePermissionConfig) DataAwsccSignerProfilePermission {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccSignerProfilePermission(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/signer_profile_permission awscc_signer_profile_permission} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/signer_profile_permission awscc_signer_profile_permission} Data Source.
 func NewDataAwsccSignerProfilePermission_Override(d DataAwsccSignerProfilePermission, scope constructs.Construct, id *string, config *DataAwsccSignerProfilePermissionConfig) {
 	_init_.Initialize()
 

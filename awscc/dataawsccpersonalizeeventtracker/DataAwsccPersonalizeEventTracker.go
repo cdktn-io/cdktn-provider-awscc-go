@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/personalize_event_tracker awscc_personalize_event_tracker}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/personalize_event_tracker awscc_personalize_event_tracker}.
 type DataAwsccPersonalizeEventTracker interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccPersonalizeEventTracker) TrackingId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/personalize_event_tracker awscc_personalize_event_tracker} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/personalize_event_tracker awscc_personalize_event_tracker} Data Source.
 func NewDataAwsccPersonalizeEventTracker(scope constructs.Construct, id *string, config *DataAwsccPersonalizeEventTrackerConfig) DataAwsccPersonalizeEventTracker {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccPersonalizeEventTracker(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/personalize_event_tracker awscc_personalize_event_tracker} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/personalize_event_tracker awscc_personalize_event_tracker} Data Source.
 func NewDataAwsccPersonalizeEventTracker_Override(d DataAwsccPersonalizeEventTracker, scope constructs.Construct, id *string, config *DataAwsccPersonalizeEventTrackerConfig) {
 	_init_.Initialize()
 

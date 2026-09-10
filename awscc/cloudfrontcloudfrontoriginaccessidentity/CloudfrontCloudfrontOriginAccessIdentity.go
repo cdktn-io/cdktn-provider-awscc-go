@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_cloudfront_origin_access_identity awscc_cloudfront_cloudfront_origin_access_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudfront_cloudfront_origin_access_identity awscc_cloudfront_cloudfront_origin_access_identity}.
 type CloudfrontCloudfrontOriginAccessIdentity interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -400,7 +400,7 @@ func (j *jsiiProxy_CloudfrontCloudfrontOriginAccessIdentity) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_cloudfront_origin_access_identity awscc_cloudfront_cloudfront_origin_access_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudfront_cloudfront_origin_access_identity awscc_cloudfront_cloudfront_origin_access_identity} Resource.
 func NewCloudfrontCloudfrontOriginAccessIdentity(scope constructs.Construct, id *string, config *CloudfrontCloudfrontOriginAccessIdentityConfig) CloudfrontCloudfrontOriginAccessIdentity {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewCloudfrontCloudfrontOriginAccessIdentity(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudfront_cloudfront_origin_access_identity awscc_cloudfront_cloudfront_origin_access_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudfront_cloudfront_origin_access_identity awscc_cloudfront_cloudfront_origin_access_identity} Resource.
 func NewCloudfrontCloudfrontOriginAccessIdentity_Override(c CloudfrontCloudfrontOriginAccessIdentity, scope constructs.Construct, id *string, config *CloudfrontCloudfrontOriginAccessIdentityConfig) {
 	_init_.Initialize()
 

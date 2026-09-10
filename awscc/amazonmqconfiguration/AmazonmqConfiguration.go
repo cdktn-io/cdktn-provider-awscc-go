@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/amazonmq_configuration awscc_amazonmq_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/amazonmq_configuration awscc_amazonmq_configuration}.
 type AmazonmqConfiguration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -554,7 +554,7 @@ func (j *jsiiProxy_AmazonmqConfiguration) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/amazonmq_configuration awscc_amazonmq_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/amazonmq_configuration awscc_amazonmq_configuration} Resource.
 func NewAmazonmqConfiguration(scope constructs.Construct, id *string, config *AmazonmqConfigurationConfig) AmazonmqConfiguration {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewAmazonmqConfiguration(scope constructs.Construct, id *string, config *Am
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/amazonmq_configuration awscc_amazonmq_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/amazonmq_configuration awscc_amazonmq_configuration} Resource.
 func NewAmazonmqConfiguration_Override(a AmazonmqConfiguration, scope constructs.Construct, id *string, config *AmazonmqConfigurationConfig) {
 	_init_.Initialize()
 

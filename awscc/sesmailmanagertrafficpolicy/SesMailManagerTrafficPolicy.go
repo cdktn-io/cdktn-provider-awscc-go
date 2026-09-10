@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_mail_manager_traffic_policy awscc_ses_mail_manager_traffic_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ses_mail_manager_traffic_policy awscc_ses_mail_manager_traffic_policy}.
 type SesMailManagerTrafficPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -495,7 +495,7 @@ func (j *jsiiProxy_SesMailManagerTrafficPolicy) TrafficPolicyNameInput() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_mail_manager_traffic_policy awscc_ses_mail_manager_traffic_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ses_mail_manager_traffic_policy awscc_ses_mail_manager_traffic_policy} Resource.
 func NewSesMailManagerTrafficPolicy(scope constructs.Construct, id *string, config *SesMailManagerTrafficPolicyConfig) SesMailManagerTrafficPolicy {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewSesMailManagerTrafficPolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_mail_manager_traffic_policy awscc_ses_mail_manager_traffic_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ses_mail_manager_traffic_policy awscc_ses_mail_manager_traffic_policy} Resource.
 func NewSesMailManagerTrafficPolicy_Override(s SesMailManagerTrafficPolicy, scope constructs.Construct, id *string, config *SesMailManagerTrafficPolicyConfig) {
 	_init_.Initialize()
 

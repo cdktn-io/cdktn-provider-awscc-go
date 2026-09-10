@@ -7,19 +7,19 @@ package mediatailorfunction
 type MediatailorFunctionSequentialExecutorConfiguration struct {
 	// The list of functions to execute sequentially.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediatailor_function#function_list MediatailorFunction#function_list}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediatailor_function#function_list MediatailorFunction#function_list}
 	FunctionList interface{} `field:"optional" json:"functionList" yaml:"functionList"`
 	// A map of output key-value pairs that define the final output from sequential execution.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
 	Output *map[string]*string `field:"optional" json:"output" yaml:"output"`
 	// The runtime environment for the function expression language.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
 	Runtime *string `field:"optional" json:"runtime" yaml:"runtime"`
 	// The timeout in milliseconds for the entire sequential execution chain.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediatailor_function#timeout_milliseconds MediatailorFunction#timeout_milliseconds}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediatailor_function#timeout_milliseconds MediatailorFunction#timeout_milliseconds}
 	TimeoutMilliseconds *float64 `field:"optional" json:"timeoutMilliseconds" yaml:"timeoutMilliseconds"`
 }
 

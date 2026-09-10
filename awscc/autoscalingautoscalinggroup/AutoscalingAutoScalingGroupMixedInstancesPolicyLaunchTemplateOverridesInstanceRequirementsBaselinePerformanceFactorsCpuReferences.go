@@ -21,7 +21,7 @@ type AutoscalingAutoScalingGroupMixedInstancesPolicyLaunchTemplateOverridesInsta
 	//  If you performance protection by specifying a supported instance family, the returned instance types will exclude the preceding unsupported instance families.
 	//  If you specify an unsupported instance family as a value for baseline performance, the API returns an empty response.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/autoscaling_auto_scaling_group#instance_family AutoscalingAutoScalingGroup#instance_family}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/autoscaling_auto_scaling_group#instance_family AutoscalingAutoScalingGroup#instance_family}
 	InstanceFamily *string `field:"optional" json:"instanceFamily" yaml:"instanceFamily"`
 }
 

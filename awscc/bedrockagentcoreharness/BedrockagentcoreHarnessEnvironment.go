@@ -5,7 +5,7 @@ package bedrockagentcoreharness
 
 
 type BedrockagentcoreHarnessEnvironment struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_harness#agent_core_runtime_environment BedrockagentcoreHarness#agent_core_runtime_environment}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrockagentcore_harness#agent_core_runtime_environment BedrockagentcoreHarness#agent_core_runtime_environment}.
 	AgentCoreRuntimeEnvironment *BedrockagentcoreHarnessEnvironmentAgentCoreRuntimeEnvironment `field:"optional" json:"agentCoreRuntimeEnvironment" yaml:"agentCoreRuntimeEnvironment"`
 }
 

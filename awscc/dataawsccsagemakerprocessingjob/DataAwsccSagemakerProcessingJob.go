@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sagemaker_processing_job awscc_sagemaker_processing_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/sagemaker_processing_job awscc_sagemaker_processing_job}.
 type DataAwsccSagemakerProcessingJob interface {
 	cdktn.TerraformDataSource
 	AppSpecification() DataAwsccSagemakerProcessingJobAppSpecificationOutputReference
@@ -528,7 +528,7 @@ func (j *jsiiProxy_DataAwsccSagemakerProcessingJob) TrainingJobArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sagemaker_processing_job awscc_sagemaker_processing_job} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/sagemaker_processing_job awscc_sagemaker_processing_job} Data Source.
 func NewDataAwsccSagemakerProcessingJob(scope constructs.Construct, id *string, config *DataAwsccSagemakerProcessingJobConfig) DataAwsccSagemakerProcessingJob {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewDataAwsccSagemakerProcessingJob(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sagemaker_processing_job awscc_sagemaker_processing_job} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/sagemaker_processing_job awscc_sagemaker_processing_job} Data Source.
 func NewDataAwsccSagemakerProcessingJob_Override(d DataAwsccSagemakerProcessingJob, scope constructs.Construct, id *string, config *DataAwsccSagemakerProcessingJobConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/rtbfabric_requester_gateways awscc_rtbfabric_requester_gateways}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/rtbfabric_requester_gateways awscc_rtbfabric_requester_gateways}.
 type DataAwsccRtbfabricRequesterGateways interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRtbfabricRequesterGateways) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/rtbfabric_requester_gateways awscc_rtbfabric_requester_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/rtbfabric_requester_gateways awscc_rtbfabric_requester_gateways} Data Source.
 func NewDataAwsccRtbfabricRequesterGateways(scope constructs.Construct, id *string, config *DataAwsccRtbfabricRequesterGatewaysConfig) DataAwsccRtbfabricRequesterGateways {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRtbfabricRequesterGateways(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/rtbfabric_requester_gateways awscc_rtbfabric_requester_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/rtbfabric_requester_gateways awscc_rtbfabric_requester_gateways} Data Source.
 func NewDataAwsccRtbfabricRequesterGateways_Override(d DataAwsccRtbfabricRequesterGateways, scope constructs.Construct, id *string, config *DataAwsccRtbfabricRequesterGatewaysConfig) {
 	_init_.Initialize()
 

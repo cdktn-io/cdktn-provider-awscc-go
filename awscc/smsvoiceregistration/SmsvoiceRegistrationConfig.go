@@ -24,11 +24,11 @@ type SmsvoiceRegistrationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The type of registration form to create.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/smsvoice_registration#registration_type SmsvoiceRegistration#registration_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/smsvoice_registration#registration_type SmsvoiceRegistration#registration_type}
 	RegistrationType *string `field:"required" json:"registrationType" yaml:"registrationType"`
 	// An array of tags (key and value pairs) to associate with the registration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/smsvoice_registration#tags SmsvoiceRegistration#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/smsvoice_registration#tags SmsvoiceRegistration#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

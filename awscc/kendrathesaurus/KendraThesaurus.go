@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_thesaurus awscc_kendra_thesaurus}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kendra_thesaurus awscc_kendra_thesaurus}.
 type KendraThesaurus interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -517,7 +517,7 @@ func (j *jsiiProxy_KendraThesaurus) ThesaurusId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_thesaurus awscc_kendra_thesaurus} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kendra_thesaurus awscc_kendra_thesaurus} Resource.
 func NewKendraThesaurus(scope constructs.Construct, id *string, config *KendraThesaurusConfig) KendraThesaurus {
 	_init_.Initialize()
 
@@ -535,7 +535,7 @@ func NewKendraThesaurus(scope constructs.Construct, id *string, config *KendraTh
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_thesaurus awscc_kendra_thesaurus} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kendra_thesaurus awscc_kendra_thesaurus} Resource.
 func NewKendraThesaurus_Override(k KendraThesaurus, scope constructs.Construct, id *string, config *KendraThesaurusConfig) {
 	_init_.Initialize()
 

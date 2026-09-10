@@ -24,23 +24,23 @@ type KafkaconnectCustomPluginConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The type of the plugin file.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kafkaconnect_custom_plugin#content_type KafkaconnectCustomPlugin#content_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kafkaconnect_custom_plugin#content_type KafkaconnectCustomPlugin#content_type}
 	ContentType *string `field:"required" json:"contentType" yaml:"contentType"`
 	// Information about the location of a custom plugin.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kafkaconnect_custom_plugin#location KafkaconnectCustomPlugin#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kafkaconnect_custom_plugin#location KafkaconnectCustomPlugin#location}
 	Location *KafkaconnectCustomPluginLocation `field:"required" json:"location" yaml:"location"`
 	// The name of the custom plugin.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kafkaconnect_custom_plugin#name KafkaconnectCustomPlugin#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kafkaconnect_custom_plugin#name KafkaconnectCustomPlugin#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// A summary description of the custom plugin.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kafkaconnect_custom_plugin#description KafkaconnectCustomPlugin#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kafkaconnect_custom_plugin#description KafkaconnectCustomPlugin#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kafkaconnect_custom_plugin#tags KafkaconnectCustomPlugin#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kafkaconnect_custom_plugin#tags KafkaconnectCustomPlugin#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

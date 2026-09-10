@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apigateway_usage_plan awscc_apigateway_usage_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/apigateway_usage_plan awscc_apigateway_usage_plan}.
 type DataAwsccApigatewayUsagePlan interface {
 	cdktn.TerraformDataSource
 	ApiStages() DataAwsccApigatewayUsagePlanApiStagesList
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccApigatewayUsagePlan) UsagePlanName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apigateway_usage_plan awscc_apigateway_usage_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/apigateway_usage_plan awscc_apigateway_usage_plan} Data Source.
 func NewDataAwsccApigatewayUsagePlan(scope constructs.Construct, id *string, config *DataAwsccApigatewayUsagePlanConfig) DataAwsccApigatewayUsagePlan {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccApigatewayUsagePlan(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apigateway_usage_plan awscc_apigateway_usage_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/apigateway_usage_plan awscc_apigateway_usage_plan} Data Source.
 func NewDataAwsccApigatewayUsagePlan_Override(d DataAwsccApigatewayUsagePlan, scope constructs.Construct, id *string, config *DataAwsccApigatewayUsagePlanConfig) {
 	_init_.Initialize()
 

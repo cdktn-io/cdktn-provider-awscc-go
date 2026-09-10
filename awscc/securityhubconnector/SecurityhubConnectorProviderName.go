@@ -7,7 +7,7 @@ package securityhubconnector
 type SecurityhubConnectorProviderName struct {
 	// The configuration for connecting to an Azure environment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_connector#azure SecurityhubConnector#azure}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_connector#azure SecurityhubConnector#azure}
 	Azure *SecurityhubConnectorProviderNameAzure `field:"required" json:"azure" yaml:"azure"`
 }
 

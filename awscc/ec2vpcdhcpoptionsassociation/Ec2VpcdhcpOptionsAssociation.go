@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_vpcdhcp_options_association awscc_ec2_vpcdhcp_options_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_vpcdhcp_options_association awscc_ec2_vpcdhcp_options_association}.
 type Ec2VpcdhcpOptionsAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_Ec2VpcdhcpOptionsAssociation) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_vpcdhcp_options_association awscc_ec2_vpcdhcp_options_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_vpcdhcp_options_association awscc_ec2_vpcdhcp_options_association} Resource.
 func NewEc2VpcdhcpOptionsAssociation(scope constructs.Construct, id *string, config *Ec2VpcdhcpOptionsAssociationConfig) Ec2VpcdhcpOptionsAssociation {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewEc2VpcdhcpOptionsAssociation(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_vpcdhcp_options_association awscc_ec2_vpcdhcp_options_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_vpcdhcp_options_association awscc_ec2_vpcdhcp_options_association} Resource.
 func NewEc2VpcdhcpOptionsAssociation_Override(e Ec2VpcdhcpOptionsAssociation, scope constructs.Construct, id *string, config *Ec2VpcdhcpOptionsAssociationConfig) {
 	_init_.Initialize()
 

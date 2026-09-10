@@ -5,9 +5,9 @@ package bedrockagentcoreharness
 
 
 type BedrockagentcoreHarnessToolsConfigAgentCoreGateway struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_harness#gateway_arn BedrockagentcoreHarness#gateway_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrockagentcore_harness#gateway_arn BedrockagentcoreHarness#gateway_arn}.
 	GatewayArn *string `field:"optional" json:"gatewayArn" yaml:"gatewayArn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_harness#outbound_auth BedrockagentcoreHarness#outbound_auth}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrockagentcore_harness#outbound_auth BedrockagentcoreHarness#outbound_auth}.
 	OutboundAuth *BedrockagentcoreHarnessToolsConfigAgentCoreGatewayOutboundAuth `field:"optional" json:"outboundAuth" yaml:"outboundAuth"`
 }
 

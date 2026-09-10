@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/macie_allow_lists awscc_macie_allow_lists}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/macie_allow_lists awscc_macie_allow_lists}.
 type DataAwsccMacieAllowLists interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMacieAllowLists) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/macie_allow_lists awscc_macie_allow_lists} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/macie_allow_lists awscc_macie_allow_lists} Data Source.
 func NewDataAwsccMacieAllowLists(scope constructs.Construct, id *string, config *DataAwsccMacieAllowListsConfig) DataAwsccMacieAllowLists {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMacieAllowLists(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/macie_allow_lists awscc_macie_allow_lists} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/macie_allow_lists awscc_macie_allow_lists} Data Source.
 func NewDataAwsccMacieAllowLists_Override(d DataAwsccMacieAllowLists, scope constructs.Construct, id *string, config *DataAwsccMacieAllowListsConfig) {
 	_init_.Initialize()
 

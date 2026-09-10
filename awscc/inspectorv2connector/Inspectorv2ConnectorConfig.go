@@ -24,23 +24,23 @@ type Inspectorv2ConnectorConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Display name for the connector.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/inspectorv2_connector#name Inspectorv2Connector#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/inspectorv2_connector#name Inspectorv2Connector#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Provider-specific configuration including regions and scope.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/inspectorv2_connector#provider_configuration Inspectorv2Connector#provider_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/inspectorv2_connector#provider_configuration Inspectorv2Connector#provider_configuration}
 	ProviderConfiguration *Inspectorv2ConnectorProviderConfiguration `field:"required" json:"providerConfiguration" yaml:"providerConfiguration"`
 	// The cloud provider for this connector.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/inspectorv2_connector#provider_name Inspectorv2Connector#provider_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/inspectorv2_connector#provider_name Inspectorv2Connector#provider_name}
 	ProviderName *string `field:"required" json:"providerName" yaml:"providerName"`
 	// Optional description of the connector.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/inspectorv2_connector#description Inspectorv2Connector#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/inspectorv2_connector#description Inspectorv2Connector#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Tags to apply to the connector.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/inspectorv2_connector#tags Inspectorv2Connector#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/inspectorv2_connector#tags Inspectorv2Connector#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

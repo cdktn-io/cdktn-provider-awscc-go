@@ -7,11 +7,11 @@ package connectintegrationassociation
 type ConnectIntegrationAssociationTags struct {
 	// The key name of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_integration_association#key ConnectIntegrationAssociation#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_integration_association#key ConnectIntegrationAssociation#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value for the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_integration_association#value ConnectIntegrationAssociation#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_integration_association#value ConnectIntegrationAssociation#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

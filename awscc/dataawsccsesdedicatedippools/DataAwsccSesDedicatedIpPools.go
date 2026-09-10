@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ses_dedicated_ip_pools awscc_ses_dedicated_ip_pools}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ses_dedicated_ip_pools awscc_ses_dedicated_ip_pools}.
 type DataAwsccSesDedicatedIpPools interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSesDedicatedIpPools) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ses_dedicated_ip_pools awscc_ses_dedicated_ip_pools} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ses_dedicated_ip_pools awscc_ses_dedicated_ip_pools} Data Source.
 func NewDataAwsccSesDedicatedIpPools(scope constructs.Construct, id *string, config *DataAwsccSesDedicatedIpPoolsConfig) DataAwsccSesDedicatedIpPools {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSesDedicatedIpPools(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ses_dedicated_ip_pools awscc_ses_dedicated_ip_pools} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ses_dedicated_ip_pools awscc_ses_dedicated_ip_pools} Data Source.
 func NewDataAwsccSesDedicatedIpPools_Override(d DataAwsccSesDedicatedIpPools, scope constructs.Construct, id *string, config *DataAwsccSesDedicatedIpPoolsConfig) {
 	_init_.Initialize()
 

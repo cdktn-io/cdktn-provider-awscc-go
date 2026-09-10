@@ -7,11 +7,11 @@ package databrewruleset
 type DatabrewRulesetRulesSubstitutionMap struct {
 	// Value or column name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/databrew_ruleset#value DatabrewRuleset#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/databrew_ruleset#value DatabrewRuleset#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 	// Variable name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/databrew_ruleset#value_reference DatabrewRuleset#value_reference}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/databrew_ruleset#value_reference DatabrewRuleset#value_reference}
 	ValueReference *string `field:"optional" json:"valueReference" yaml:"valueReference"`
 }
 

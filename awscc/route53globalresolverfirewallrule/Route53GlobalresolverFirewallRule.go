@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53globalresolver_firewall_rule awscc_route53globalresolver_firewall_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53globalresolver_firewall_rule awscc_route53globalresolver_firewall_rule}.
 type Route53GlobalresolverFirewallRule interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -743,7 +743,7 @@ func (j *jsiiProxy_Route53GlobalresolverFirewallRule) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53globalresolver_firewall_rule awscc_route53globalresolver_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53globalresolver_firewall_rule awscc_route53globalresolver_firewall_rule} Resource.
 func NewRoute53GlobalresolverFirewallRule(scope constructs.Construct, id *string, config *Route53GlobalresolverFirewallRuleConfig) Route53GlobalresolverFirewallRule {
 	_init_.Initialize()
 
@@ -761,7 +761,7 @@ func NewRoute53GlobalresolverFirewallRule(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53globalresolver_firewall_rule awscc_route53globalresolver_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53globalresolver_firewall_rule awscc_route53globalresolver_firewall_rule} Resource.
 func NewRoute53GlobalresolverFirewallRule_Override(r Route53GlobalresolverFirewallRule, scope constructs.Construct, id *string, config *Route53GlobalresolverFirewallRuleConfig) {
 	_init_.Initialize()
 

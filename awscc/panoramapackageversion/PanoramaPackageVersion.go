@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/panorama_package_version awscc_panorama_package_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/panorama_package_version awscc_panorama_package_version}.
 type PanoramaPackageVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -562,7 +562,7 @@ func (j *jsiiProxy_PanoramaPackageVersion) UpdatedLatestPatchVersionInput() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/panorama_package_version awscc_panorama_package_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/panorama_package_version awscc_panorama_package_version} Resource.
 func NewPanoramaPackageVersion(scope constructs.Construct, id *string, config *PanoramaPackageVersionConfig) PanoramaPackageVersion {
 	_init_.Initialize()
 
@@ -580,7 +580,7 @@ func NewPanoramaPackageVersion(scope constructs.Construct, id *string, config *P
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/panorama_package_version awscc_panorama_package_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/panorama_package_version awscc_panorama_package_version} Resource.
 func NewPanoramaPackageVersion_Override(p PanoramaPackageVersion, scope constructs.Construct, id *string, config *PanoramaPackageVersionConfig) {
 	_init_.Initialize()
 

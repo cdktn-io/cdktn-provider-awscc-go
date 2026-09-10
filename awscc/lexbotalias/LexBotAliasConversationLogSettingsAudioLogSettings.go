@@ -7,9 +7,9 @@ package lexbotalias
 type LexBotAliasConversationLogSettingsAudioLogSettings struct {
 	// The location of audio log files collected when conversation logging is enabled for a bot.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot_alias#destination LexBotAlias#destination}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lex_bot_alias#destination LexBotAlias#destination}
 	Destination *LexBotAliasConversationLogSettingsAudioLogSettingsDestination `field:"optional" json:"destination" yaml:"destination"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot_alias#enabled LexBotAlias#enabled}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lex_bot_alias#enabled LexBotAlias#enabled}.
 	Enabled interface{} `field:"optional" json:"enabled" yaml:"enabled"`
 }
 

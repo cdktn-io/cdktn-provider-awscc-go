@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalogappregistry_resource_association awscc_servicecatalogappregistry_resource_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/servicecatalogappregistry_resource_association awscc_servicecatalogappregistry_resource_association}.
 type ServicecatalogappregistryResourceAssociation interface {
 	cdktn.TerraformResource
 	Application() *string
@@ -446,7 +446,7 @@ func (j *jsiiProxy_ServicecatalogappregistryResourceAssociation) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalogappregistry_resource_association awscc_servicecatalogappregistry_resource_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/servicecatalogappregistry_resource_association awscc_servicecatalogappregistry_resource_association} Resource.
 func NewServicecatalogappregistryResourceAssociation(scope constructs.Construct, id *string, config *ServicecatalogappregistryResourceAssociationConfig) ServicecatalogappregistryResourceAssociation {
 	_init_.Initialize()
 
@@ -464,7 +464,7 @@ func NewServicecatalogappregistryResourceAssociation(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalogappregistry_resource_association awscc_servicecatalogappregistry_resource_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/servicecatalogappregistry_resource_association awscc_servicecatalogappregistry_resource_association} Resource.
 func NewServicecatalogappregistryResourceAssociation_Override(s ServicecatalogappregistryResourceAssociation, scope constructs.Construct, id *string, config *ServicecatalogappregistryResourceAssociationConfig) {
 	_init_.Initialize()
 

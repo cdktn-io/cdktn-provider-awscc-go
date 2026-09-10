@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_environment_template awscc_proton_environment_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/proton_environment_template awscc_proton_environment_template}.
 type ProtonEnvironmentTemplate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -510,7 +510,7 @@ func (j *jsiiProxy_ProtonEnvironmentTemplate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_environment_template awscc_proton_environment_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/proton_environment_template awscc_proton_environment_template} Resource.
 func NewProtonEnvironmentTemplate(scope constructs.Construct, id *string, config *ProtonEnvironmentTemplateConfig) ProtonEnvironmentTemplate {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewProtonEnvironmentTemplate(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_environment_template awscc_proton_environment_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/proton_environment_template awscc_proton_environment_template} Resource.
 func NewProtonEnvironmentTemplate_Override(p ProtonEnvironmentTemplate, scope constructs.Construct, id *string, config *ProtonEnvironmentTemplateConfig) {
 	_init_.Initialize()
 

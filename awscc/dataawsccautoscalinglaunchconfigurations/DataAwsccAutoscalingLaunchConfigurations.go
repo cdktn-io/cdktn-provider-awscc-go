@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/autoscaling_launch_configurations awscc_autoscaling_launch_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/autoscaling_launch_configurations awscc_autoscaling_launch_configurations}.
 type DataAwsccAutoscalingLaunchConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccAutoscalingLaunchConfigurations) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/autoscaling_launch_configurations awscc_autoscaling_launch_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/autoscaling_launch_configurations awscc_autoscaling_launch_configurations} Data Source.
 func NewDataAwsccAutoscalingLaunchConfigurations(scope constructs.Construct, id *string, config *DataAwsccAutoscalingLaunchConfigurationsConfig) DataAwsccAutoscalingLaunchConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccAutoscalingLaunchConfigurations(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/autoscaling_launch_configurations awscc_autoscaling_launch_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/autoscaling_launch_configurations awscc_autoscaling_launch_configurations} Data Source.
 func NewDataAwsccAutoscalingLaunchConfigurations_Override(d DataAwsccAutoscalingLaunchConfigurations, scope constructs.Construct, id *string, config *DataAwsccAutoscalingLaunchConfigurationsConfig) {
 	_init_.Initialize()
 

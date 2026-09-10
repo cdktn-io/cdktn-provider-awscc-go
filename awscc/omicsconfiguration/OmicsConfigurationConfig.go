@@ -24,19 +24,19 @@ type OmicsConfigurationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// User-friendly name for the configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_configuration#name OmicsConfiguration#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/omics_configuration#name OmicsConfiguration#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Required run-specific configurations.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_configuration#run_configurations OmicsConfiguration#run_configurations}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/omics_configuration#run_configurations OmicsConfiguration#run_configurations}
 	RunConfigurations *OmicsConfigurationRunConfigurations `field:"required" json:"runConfigurations" yaml:"runConfigurations"`
 	// Optional description for the configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_configuration#description OmicsConfiguration#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/omics_configuration#description OmicsConfiguration#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Tags for the configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_configuration#tags OmicsConfiguration#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/omics_configuration#tags OmicsConfiguration#tags}
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 }
 

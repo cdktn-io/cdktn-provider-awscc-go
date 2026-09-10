@@ -24,15 +24,15 @@ type FrauddetectorEntityTypeConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the entity type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/frauddetector_entity_type#name FrauddetectorEntityType#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/frauddetector_entity_type#name FrauddetectorEntityType#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The entity type description.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/frauddetector_entity_type#description FrauddetectorEntityType#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/frauddetector_entity_type#description FrauddetectorEntityType#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Tags associated with this entity type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/frauddetector_entity_type#tags FrauddetectorEntityType#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/frauddetector_entity_type#tags FrauddetectorEntityType#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

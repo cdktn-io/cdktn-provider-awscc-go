@@ -123,6 +123,10 @@ func (j *jsiiProxy_SagemakerEndpoint) validateSetEndpointConfigNameParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_SagemakerEndpoint) validateSetEndpointNameParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SagemakerEndpoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

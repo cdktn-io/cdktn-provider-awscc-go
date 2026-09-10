@@ -12,7 +12,7 @@ type AutoscalingAutoScalingGroupAvailabilityZoneDistribution struct {
 	//   +  ``balanced-best-effort`` - If launches fail in an Availability Zone, Auto Scaling will attempt to launch in another healthy Availability Zone instead.
 	//   +  ``reservations-then-balanced`` - Auto Scaling will first attempt to launch into your Capacity Reservations, and then balance any remaining capacity across healthy Availability Zones.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/autoscaling_auto_scaling_group#capacity_distribution_strategy AutoscalingAutoScalingGroup#capacity_distribution_strategy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/autoscaling_auto_scaling_group#capacity_distribution_strategy AutoscalingAutoScalingGroup#capacity_distribution_strategy}
 	CapacityDistributionStrategy *string `field:"optional" json:"capacityDistributionStrategy" yaml:"capacityDistributionStrategy"`
 }
 

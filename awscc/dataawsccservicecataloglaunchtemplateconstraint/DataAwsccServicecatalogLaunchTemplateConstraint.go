@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/servicecatalog_launch_template_constraint awscc_servicecatalog_launch_template_constraint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/servicecatalog_launch_template_constraint awscc_servicecatalog_launch_template_constraint}.
 type DataAwsccServicecatalogLaunchTemplateConstraint interface {
 	cdktn.TerraformDataSource
 	AcceptLanguage() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccServicecatalogLaunchTemplateConstraint) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/servicecatalog_launch_template_constraint awscc_servicecatalog_launch_template_constraint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/servicecatalog_launch_template_constraint awscc_servicecatalog_launch_template_constraint} Data Source.
 func NewDataAwsccServicecatalogLaunchTemplateConstraint(scope constructs.Construct, id *string, config *DataAwsccServicecatalogLaunchTemplateConstraintConfig) DataAwsccServicecatalogLaunchTemplateConstraint {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccServicecatalogLaunchTemplateConstraint(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/servicecatalog_launch_template_constraint awscc_servicecatalog_launch_template_constraint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/servicecatalog_launch_template_constraint awscc_servicecatalog_launch_template_constraint} Data Source.
 func NewDataAwsccServicecatalogLaunchTemplateConstraint_Override(d DataAwsccServicecatalogLaunchTemplateConstraint, scope constructs.Construct, id *string, config *DataAwsccServicecatalogLaunchTemplateConstraintConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset}.
 type IotsitewiseDataset interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_IotsitewiseDataset) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset} Resource.
 func NewIotsitewiseDataset(scope constructs.Construct, id *string, config *IotsitewiseDatasetConfig) IotsitewiseDataset {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewIotsitewiseDataset(scope constructs.Construct, id *string, config *Iotsi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset} Resource.
 func NewIotsitewiseDataset_Override(i IotsitewiseDataset, scope constructs.Construct, id *string, config *IotsitewiseDatasetConfig) {
 	_init_.Initialize()
 

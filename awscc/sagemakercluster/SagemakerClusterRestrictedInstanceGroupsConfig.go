@@ -7,7 +7,7 @@ package sagemakercluster
 type SagemakerClusterRestrictedInstanceGroupsConfig struct {
 	// The shared environment configuration for restricted instance groups that use cluster-level shared FSx Lustre storage.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#shared_environment_config SagemakerCluster#shared_environment_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#shared_environment_config SagemakerCluster#shared_environment_config}
 	SharedEnvironmentConfig *SagemakerClusterRestrictedInstanceGroupsConfigSharedEnvironmentConfig `field:"optional" json:"sharedEnvironmentConfig" yaml:"sharedEnvironmentConfig"`
 }
 

@@ -5,9 +5,9 @@ package nimblestudiostudiocomponent
 
 
 type NimblestudioStudioComponentConfigurationComputeFarmConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/nimblestudio_studio_component#active_directory_user NimblestudioStudioComponent#active_directory_user}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/nimblestudio_studio_component#active_directory_user NimblestudioStudioComponent#active_directory_user}.
 	ActiveDirectoryUser *string `field:"optional" json:"activeDirectoryUser" yaml:"activeDirectoryUser"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/nimblestudio_studio_component#endpoint NimblestudioStudioComponent#endpoint}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/nimblestudio_studio_component#endpoint NimblestudioStudioComponent#endpoint}.
 	Endpoint *string `field:"optional" json:"endpoint" yaml:"endpoint"`
 }
 

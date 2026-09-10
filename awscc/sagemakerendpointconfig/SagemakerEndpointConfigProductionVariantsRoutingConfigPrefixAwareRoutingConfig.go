@@ -9,13 +9,13 @@ type SagemakerEndpointConfigProductionVariantsRoutingConfigPrefixAwareRoutingCon
 	//
 	// Required when RoutingStrategy is PREFIX_AWARE. Valid values are 1 to 1024.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint_config#concurrency_threshold SagemakerEndpointConfigA#concurrency_threshold}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint_config#concurrency_threshold SagemakerEndpointConfigA#concurrency_threshold}
 	ConcurrencyThreshold *float64 `field:"optional" json:"concurrencyThreshold" yaml:"concurrencyThreshold"`
 	// The maximum length of the prefix used for routing decisions.
 	//
 	// Required when RoutingStrategy is PREFIX_AWARE. Valid values are 1024 to 65536.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint_config#prefix_length SagemakerEndpointConfigA#prefix_length}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint_config#prefix_length SagemakerEndpointConfigA#prefix_length}
 	PrefixLength *float64 `field:"optional" json:"prefixLength" yaml:"prefixLength"`
 }
 

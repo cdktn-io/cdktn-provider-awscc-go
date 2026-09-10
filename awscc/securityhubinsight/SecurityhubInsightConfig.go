@@ -24,15 +24,15 @@ type SecurityhubInsightConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// One or more attributes used to filter the findings included in the insight.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_insight#filters SecurityhubInsight#filters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_insight#filters SecurityhubInsight#filters}
 	Filters *SecurityhubInsightFilters `field:"required" json:"filters" yaml:"filters"`
 	// The grouping attribute for the insight's findings.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_insight#group_by_attribute SecurityhubInsight#group_by_attribute}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_insight#group_by_attribute SecurityhubInsight#group_by_attribute}
 	GroupByAttribute *string `field:"required" json:"groupByAttribute" yaml:"groupByAttribute"`
 	// The name of a Security Hub insight.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_insight#name SecurityhubInsight#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_insight#name SecurityhubInsight#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 }
 

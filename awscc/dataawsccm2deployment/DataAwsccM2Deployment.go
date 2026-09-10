@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/m2_deployment awscc_m2_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/m2_deployment awscc_m2_deployment}.
 type DataAwsccM2Deployment interface {
 	cdktn.TerraformDataSource
 	ApplicationId() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccM2Deployment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/m2_deployment awscc_m2_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/m2_deployment awscc_m2_deployment} Data Source.
 func NewDataAwsccM2Deployment(scope constructs.Construct, id *string, config *DataAwsccM2DeploymentConfig) DataAwsccM2Deployment {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccM2Deployment(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/m2_deployment awscc_m2_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/m2_deployment awscc_m2_deployment} Data Source.
 func NewDataAwsccM2Deployment_Override(d DataAwsccM2Deployment, scope constructs.Construct, id *string, config *DataAwsccM2DeploymentConfig) {
 	_init_.Initialize()
 

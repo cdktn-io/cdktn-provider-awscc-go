@@ -24,39 +24,39 @@ type LicensemanagerLicenseConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Beneficiary of the license.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/licensemanager_license#beneficiary LicensemanagerLicense#beneficiary}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/licensemanager_license#beneficiary LicensemanagerLicense#beneficiary}
 	Beneficiary *string `field:"required" json:"beneficiary" yaml:"beneficiary"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/licensemanager_license#consumption_configuration LicensemanagerLicense#consumption_configuration}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/licensemanager_license#consumption_configuration LicensemanagerLicense#consumption_configuration}.
 	ConsumptionConfiguration *LicensemanagerLicenseConsumptionConfiguration `field:"required" json:"consumptionConfiguration" yaml:"consumptionConfiguration"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/licensemanager_license#entitlements LicensemanagerLicense#entitlements}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/licensemanager_license#entitlements LicensemanagerLicense#entitlements}.
 	Entitlements interface{} `field:"required" json:"entitlements" yaml:"entitlements"`
 	// Home region for the created license.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/licensemanager_license#home_region LicensemanagerLicense#home_region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/licensemanager_license#home_region LicensemanagerLicense#home_region}
 	HomeRegion *string `field:"required" json:"homeRegion" yaml:"homeRegion"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/licensemanager_license#issuer LicensemanagerLicense#issuer}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/licensemanager_license#issuer LicensemanagerLicense#issuer}.
 	Issuer *LicensemanagerLicenseIssuer `field:"required" json:"issuer" yaml:"issuer"`
 	// Name for the created license.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/licensemanager_license#license_name LicensemanagerLicense#license_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/licensemanager_license#license_name LicensemanagerLicense#license_name}
 	LicenseName *string `field:"required" json:"licenseName" yaml:"licenseName"`
 	// Product name for the created license.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/licensemanager_license#product_name LicensemanagerLicense#product_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/licensemanager_license#product_name LicensemanagerLicense#product_name}
 	ProductName *string `field:"required" json:"productName" yaml:"productName"`
 	// ProductSKU of the license.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/licensemanager_license#product_sku LicensemanagerLicense#product_sku}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/licensemanager_license#product_sku LicensemanagerLicense#product_sku}
 	ProductSku *string `field:"required" json:"productSku" yaml:"productSku"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/licensemanager_license#validity LicensemanagerLicense#validity}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/licensemanager_license#validity LicensemanagerLicense#validity}.
 	Validity *LicensemanagerLicenseValidity `field:"required" json:"validity" yaml:"validity"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/licensemanager_license#license_metadata LicensemanagerLicense#license_metadata}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/licensemanager_license#license_metadata LicensemanagerLicense#license_metadata}.
 	LicenseMetadata interface{} `field:"optional" json:"licenseMetadata" yaml:"licenseMetadata"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/licensemanager_license#status LicensemanagerLicense#status}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/licensemanager_license#status LicensemanagerLicense#status}.
 	Status *string `field:"optional" json:"status" yaml:"status"`
 	// A list of tags to attach.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/licensemanager_license#tags LicensemanagerLicense#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/licensemanager_license#tags LicensemanagerLicense#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

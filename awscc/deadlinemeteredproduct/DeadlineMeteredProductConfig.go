@@ -22,9 +22,9 @@ type DeadlineMeteredProductConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/deadline_metered_product#license_endpoint_id DeadlineMeteredProduct#license_endpoint_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/deadline_metered_product#license_endpoint_id DeadlineMeteredProduct#license_endpoint_id}.
 	LicenseEndpointId *string `field:"optional" json:"licenseEndpointId" yaml:"licenseEndpointId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/deadline_metered_product#product_id DeadlineMeteredProduct#product_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/deadline_metered_product#product_id DeadlineMeteredProduct#product_id}.
 	ProductId *string `field:"optional" json:"productId" yaml:"productId"`
 }
 

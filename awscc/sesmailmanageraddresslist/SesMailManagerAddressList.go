@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_mail_manager_address_list awscc_ses_mail_manager_address_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ses_mail_manager_address_list awscc_ses_mail_manager_address_list}.
 type SesMailManagerAddressList interface {
 	cdktn.TerraformResource
 	AddressListArn() *string
@@ -425,7 +425,7 @@ func (j *jsiiProxy_SesMailManagerAddressList) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_mail_manager_address_list awscc_ses_mail_manager_address_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ses_mail_manager_address_list awscc_ses_mail_manager_address_list} Resource.
 func NewSesMailManagerAddressList(scope constructs.Construct, id *string, config *SesMailManagerAddressListConfig) SesMailManagerAddressList {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewSesMailManagerAddressList(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_mail_manager_address_list awscc_ses_mail_manager_address_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ses_mail_manager_address_list awscc_ses_mail_manager_address_list} Resource.
 func NewSesMailManagerAddressList_Override(s SesMailManagerAddressList, scope constructs.Construct, id *string, config *SesMailManagerAddressListConfig) {
 	_init_.Initialize()
 

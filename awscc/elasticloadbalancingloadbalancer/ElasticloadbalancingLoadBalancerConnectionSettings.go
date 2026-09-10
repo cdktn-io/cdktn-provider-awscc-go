@@ -7,7 +7,7 @@ package elasticloadbalancingloadbalancer
 type ElasticloadbalancingLoadBalancerConnectionSettings struct {
 	// The time, in seconds, that the connection is allowed to be idle (no data has been sent over the connection) before it is closed by the load balancer.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elasticloadbalancing_load_balancer#idle_timeout ElasticloadbalancingLoadBalancer#idle_timeout}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/elasticloadbalancing_load_balancer#idle_timeout ElasticloadbalancingLoadBalancer#idle_timeout}
 	IdleTimeout *float64 `field:"optional" json:"idleTimeout" yaml:"idleTimeout"`
 }
 

@@ -5,11 +5,11 @@ package bedrockagentcorememory
 
 
 type BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationSelfManagedConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#historical_context_window_size BedrockagentcoreMemory#historical_context_window_size}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrockagentcore_memory#historical_context_window_size BedrockagentcoreMemory#historical_context_window_size}.
 	HistoricalContextWindowSize *float64 `field:"optional" json:"historicalContextWindowSize" yaml:"historicalContextWindowSize"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#invocation_configuration BedrockagentcoreMemory#invocation_configuration}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrockagentcore_memory#invocation_configuration BedrockagentcoreMemory#invocation_configuration}.
 	InvocationConfiguration *BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyConfigurationSelfManagedConfigurationInvocationConfiguration `field:"optional" json:"invocationConfiguration" yaml:"invocationConfiguration"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#trigger_conditions BedrockagentcoreMemory#trigger_conditions}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrockagentcore_memory#trigger_conditions BedrockagentcoreMemory#trigger_conditions}.
 	TriggerConditions interface{} `field:"optional" json:"triggerConditions" yaml:"triggerConditions"`
 }
 

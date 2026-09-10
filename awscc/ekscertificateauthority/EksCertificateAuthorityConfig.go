@@ -24,7 +24,7 @@ type EksCertificateAuthorityConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the EKS cluster that the certificate authority belongs to.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_certificate_authority#cluster_name EksCertificateAuthority#cluster_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/eks_certificate_authority#cluster_name EksCertificateAuthority#cluster_name}
 	ClusterName *string `field:"required" json:"clusterName" yaml:"clusterName"`
 }
 

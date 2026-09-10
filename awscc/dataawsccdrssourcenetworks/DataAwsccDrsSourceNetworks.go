@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/drs_source_networks awscc_drs_source_networks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/drs_source_networks awscc_drs_source_networks}.
 type DataAwsccDrsSourceNetworks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDrsSourceNetworks) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/drs_source_networks awscc_drs_source_networks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/drs_source_networks awscc_drs_source_networks} Data Source.
 func NewDataAwsccDrsSourceNetworks(scope constructs.Construct, id *string, config *DataAwsccDrsSourceNetworksConfig) DataAwsccDrsSourceNetworks {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDrsSourceNetworks(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/drs_source_networks awscc_drs_source_networks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/drs_source_networks awscc_drs_source_networks} Data Source.
 func NewDataAwsccDrsSourceNetworks_Override(d DataAwsccDrsSourceNetworks, scope constructs.Construct, id *string, config *DataAwsccDrsSourceNetworksConfig) {
 	_init_.Initialize()
 

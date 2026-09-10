@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/evidently_segment awscc_evidently_segment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/evidently_segment awscc_evidently_segment}.
 type EvidentlySegment interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -461,7 +461,7 @@ func (j *jsiiProxy_EvidentlySegment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/evidently_segment awscc_evidently_segment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/evidently_segment awscc_evidently_segment} Resource.
 func NewEvidentlySegment(scope constructs.Construct, id *string, config *EvidentlySegmentConfig) EvidentlySegment {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewEvidentlySegment(scope constructs.Construct, id *string, config *Evident
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/evidently_segment awscc_evidently_segment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/evidently_segment awscc_evidently_segment} Resource.
 func NewEvidentlySegment_Override(e EvidentlySegment, scope constructs.Construct, id *string, config *EvidentlySegmentConfig) {
 	_init_.Initialize()
 

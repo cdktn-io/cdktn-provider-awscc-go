@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_ip_set awscc_guardduty_ip_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/guardduty_ip_set awscc_guardduty_ip_set}.
 type GuarddutyIpSet interface {
 	cdktn.TerraformResource
 	Activate() interface{}
@@ -532,7 +532,7 @@ func (j *jsiiProxy_GuarddutyIpSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_ip_set awscc_guardduty_ip_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/guardduty_ip_set awscc_guardduty_ip_set} Resource.
 func NewGuarddutyIpSet(scope constructs.Construct, id *string, config *GuarddutyIpSetConfig) GuarddutyIpSet {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewGuarddutyIpSet(scope constructs.Construct, id *string, config *Guardduty
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/guardduty_ip_set awscc_guardduty_ip_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/guardduty_ip_set awscc_guardduty_ip_set} Resource.
 func NewGuarddutyIpSet_Override(g GuarddutyIpSet, scope constructs.Construct, id *string, config *GuarddutyIpSetConfig) {
 	_init_.Initialize()
 

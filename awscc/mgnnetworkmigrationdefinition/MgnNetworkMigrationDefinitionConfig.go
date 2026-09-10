@@ -24,35 +24,35 @@ type MgnNetworkMigrationDefinitionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the network migration definition.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mgn_network_migration_definition#name MgnNetworkMigrationDefinition#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mgn_network_migration_definition#name MgnNetworkMigrationDefinition#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// A list of source configurations for the network migration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mgn_network_migration_definition#source_configurations MgnNetworkMigrationDefinition#source_configurations}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mgn_network_migration_definition#source_configurations MgnNetworkMigrationDefinition#source_configurations}
 	SourceConfigurations interface{} `field:"required" json:"sourceConfigurations" yaml:"sourceConfigurations"`
 	// The target network configuration including topology and CIDR ranges.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mgn_network_migration_definition#target_network MgnNetworkMigrationDefinition#target_network}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mgn_network_migration_definition#target_network MgnNetworkMigrationDefinition#target_network}
 	TargetNetwork *MgnNetworkMigrationDefinitionTargetNetwork `field:"required" json:"targetNetwork" yaml:"targetNetwork"`
 	// The S3 configuration for storing the target network artifacts.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mgn_network_migration_definition#target_s3_configuration MgnNetworkMigrationDefinition#target_s3_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mgn_network_migration_definition#target_s3_configuration MgnNetworkMigrationDefinition#target_s3_configuration}
 	TargetS3Configuration *MgnNetworkMigrationDefinitionTargetS3Configuration `field:"required" json:"targetS3Configuration" yaml:"targetS3Configuration"`
 	// A description of the network migration definition.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mgn_network_migration_definition#description MgnNetworkMigrationDefinition#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mgn_network_migration_definition#description MgnNetworkMigrationDefinition#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Scope tags for the network migration definition.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mgn_network_migration_definition#scope_tags MgnNetworkMigrationDefinition#scope_tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mgn_network_migration_definition#scope_tags MgnNetworkMigrationDefinition#scope_tags}
 	ScopeTags *map[string]*string `field:"optional" json:"scopeTags" yaml:"scopeTags"`
 	// Tags to assign to the network migration definition.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mgn_network_migration_definition#tags MgnNetworkMigrationDefinition#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mgn_network_migration_definition#tags MgnNetworkMigrationDefinition#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// The target deployment configuration for the migrated network.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mgn_network_migration_definition#target_deployment MgnNetworkMigrationDefinition#target_deployment}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mgn_network_migration_definition#target_deployment MgnNetworkMigrationDefinition#target_deployment}
 	TargetDeployment *string `field:"optional" json:"targetDeployment" yaml:"targetDeployment"`
 }
 

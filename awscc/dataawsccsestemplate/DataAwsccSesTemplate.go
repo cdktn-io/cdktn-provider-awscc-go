@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ses_template awscc_ses_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ses_template awscc_ses_template}.
 type DataAwsccSesTemplate interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccSesTemplate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ses_template awscc_ses_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ses_template awscc_ses_template} Data Source.
 func NewDataAwsccSesTemplate(scope constructs.Construct, id *string, config *DataAwsccSesTemplateConfig) DataAwsccSesTemplate {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccSesTemplate(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ses_template awscc_ses_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ses_template awscc_ses_template} Data Source.
 func NewDataAwsccSesTemplate_Override(d DataAwsccSesTemplate, scope constructs.Construct, id *string, config *DataAwsccSesTemplateConfig) {
 	_init_.Initialize()
 

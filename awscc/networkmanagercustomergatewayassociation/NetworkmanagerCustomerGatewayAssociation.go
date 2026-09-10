@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/networkmanager_customer_gateway_association awscc_networkmanager_customer_gateway_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkmanager_customer_gateway_association awscc_networkmanager_customer_gateway_association}.
 type NetworkmanagerCustomerGatewayAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -448,7 +448,7 @@ func (j *jsiiProxy_NetworkmanagerCustomerGatewayAssociation) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/networkmanager_customer_gateway_association awscc_networkmanager_customer_gateway_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkmanager_customer_gateway_association awscc_networkmanager_customer_gateway_association} Resource.
 func NewNetworkmanagerCustomerGatewayAssociation(scope constructs.Construct, id *string, config *NetworkmanagerCustomerGatewayAssociationConfig) NetworkmanagerCustomerGatewayAssociation {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewNetworkmanagerCustomerGatewayAssociation(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/networkmanager_customer_gateway_association awscc_networkmanager_customer_gateway_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkmanager_customer_gateway_association awscc_networkmanager_customer_gateway_association} Resource.
 func NewNetworkmanagerCustomerGatewayAssociation_Override(n NetworkmanagerCustomerGatewayAssociation, scope constructs.Construct, id *string, config *NetworkmanagerCustomerGatewayAssociationConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_o_auth_2_credential_provider awscc_bedrockagentcore_o_auth_2_credential_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrockagentcore_o_auth_2_credential_provider awscc_bedrockagentcore_o_auth_2_credential_provider}.
 type BedrockagentcoreOAuth2CredentialProvider interface {
 	cdktn.TerraformResource
 	CallbackUrl() *string
@@ -548,7 +548,7 @@ func (j *jsiiProxy_BedrockagentcoreOAuth2CredentialProvider) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_o_auth_2_credential_provider awscc_bedrockagentcore_o_auth_2_credential_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrockagentcore_o_auth_2_credential_provider awscc_bedrockagentcore_o_auth_2_credential_provider} Resource.
 func NewBedrockagentcoreOAuth2CredentialProvider(scope constructs.Construct, id *string, config *BedrockagentcoreOAuth2CredentialProviderConfig) BedrockagentcoreOAuth2CredentialProvider {
 	_init_.Initialize()
 
@@ -566,7 +566,7 @@ func NewBedrockagentcoreOAuth2CredentialProvider(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_o_auth_2_credential_provider awscc_bedrockagentcore_o_auth_2_credential_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrockagentcore_o_auth_2_credential_provider awscc_bedrockagentcore_o_auth_2_credential_provider} Resource.
 func NewBedrockagentcoreOAuth2CredentialProvider_Override(b BedrockagentcoreOAuth2CredentialProvider, scope constructs.Construct, id *string, config *BedrockagentcoreOAuth2CredentialProviderConfig) {
 	_init_.Initialize()
 

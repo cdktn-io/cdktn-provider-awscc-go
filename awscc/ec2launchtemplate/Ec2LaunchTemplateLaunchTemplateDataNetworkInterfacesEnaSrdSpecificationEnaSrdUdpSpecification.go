@@ -9,7 +9,7 @@ type Ec2LaunchTemplateLaunchTemplateDataNetworkInterfacesEnaSrdSpecificationEnaS
 	//
 	// To specify this setting, you must first enable ENA Express.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_launch_template#ena_srd_udp_enabled Ec2LaunchTemplate#ena_srd_udp_enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_launch_template#ena_srd_udp_enabled Ec2LaunchTemplate#ena_srd_udp_enabled}
 	EnaSrdUdpEnabled interface{} `field:"optional" json:"enaSrdUdpEnabled" yaml:"enaSrdUdpEnabled"`
 }
 

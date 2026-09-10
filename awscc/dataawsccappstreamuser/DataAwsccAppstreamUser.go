@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appstream_user awscc_appstream_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/appstream_user awscc_appstream_user}.
 type DataAwsccAppstreamUser interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccAppstreamUser) UserName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appstream_user awscc_appstream_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/appstream_user awscc_appstream_user} Data Source.
 func NewDataAwsccAppstreamUser(scope constructs.Construct, id *string, config *DataAwsccAppstreamUserConfig) DataAwsccAppstreamUser {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccAppstreamUser(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appstream_user awscc_appstream_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/appstream_user awscc_appstream_user} Data Source.
 func NewDataAwsccAppstreamUser_Override(d DataAwsccAppstreamUser, scope constructs.Construct, id *string, config *DataAwsccAppstreamUserConfig) {
 	_init_.Initialize()
 

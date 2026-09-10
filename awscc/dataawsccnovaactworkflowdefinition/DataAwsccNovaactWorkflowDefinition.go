@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/novaact_workflow_definition awscc_novaact_workflow_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/novaact_workflow_definition awscc_novaact_workflow_definition}.
 type DataAwsccNovaactWorkflowDefinition interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccNovaactWorkflowDefinition) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/novaact_workflow_definition awscc_novaact_workflow_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/novaact_workflow_definition awscc_novaact_workflow_definition} Data Source.
 func NewDataAwsccNovaactWorkflowDefinition(scope constructs.Construct, id *string, config *DataAwsccNovaactWorkflowDefinitionConfig) DataAwsccNovaactWorkflowDefinition {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccNovaactWorkflowDefinition(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/novaact_workflow_definition awscc_novaact_workflow_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/novaact_workflow_definition awscc_novaact_workflow_definition} Data Source.
 func NewDataAwsccNovaactWorkflowDefinition_Override(d DataAwsccNovaactWorkflowDefinition, scope constructs.Construct, id *string, config *DataAwsccNovaactWorkflowDefinitionConfig) {
 	_init_.Initialize()
 

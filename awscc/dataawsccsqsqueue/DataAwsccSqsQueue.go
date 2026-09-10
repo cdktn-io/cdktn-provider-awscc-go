@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sqs_queue awscc_sqs_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/sqs_queue awscc_sqs_queue}.
 type DataAwsccSqsQueue interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_DataAwsccSqsQueue) VisibilityTimeout() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sqs_queue awscc_sqs_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/sqs_queue awscc_sqs_queue} Data Source.
 func NewDataAwsccSqsQueue(scope constructs.Construct, id *string, config *DataAwsccSqsQueueConfig) DataAwsccSqsQueue {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewDataAwsccSqsQueue(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sqs_queue awscc_sqs_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/sqs_queue awscc_sqs_queue} Data Source.
 func NewDataAwsccSqsQueue_Override(d DataAwsccSqsQueue, scope constructs.Construct, id *string, config *DataAwsccSqsQueueConfig) {
 	_init_.Initialize()
 

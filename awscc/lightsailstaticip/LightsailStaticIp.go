@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_static_ip awscc_lightsail_static_ip}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lightsail_static_ip awscc_lightsail_static_ip}.
 type LightsailStaticIp interface {
 	cdktn.TerraformResource
 	AttachedTo() *string
@@ -435,7 +435,7 @@ func (j *jsiiProxy_LightsailStaticIp) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_static_ip awscc_lightsail_static_ip} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lightsail_static_ip awscc_lightsail_static_ip} Resource.
 func NewLightsailStaticIp(scope constructs.Construct, id *string, config *LightsailStaticIpConfig) LightsailStaticIp {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewLightsailStaticIp(scope constructs.Construct, id *string, config *Lights
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lightsail_static_ip awscc_lightsail_static_ip} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lightsail_static_ip awscc_lightsail_static_ip} Resource.
 func NewLightsailStaticIp_Override(l LightsailStaticIp, scope constructs.Construct, id *string, config *LightsailStaticIpConfig) {
 	_init_.Initialize()
 

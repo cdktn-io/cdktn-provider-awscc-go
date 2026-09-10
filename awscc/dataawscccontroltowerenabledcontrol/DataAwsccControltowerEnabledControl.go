@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/controltower_enabled_control awscc_controltower_enabled_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/controltower_enabled_control awscc_controltower_enabled_control}.
 type DataAwsccControltowerEnabledControl interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccControltowerEnabledControl) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/controltower_enabled_control awscc_controltower_enabled_control} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/controltower_enabled_control awscc_controltower_enabled_control} Data Source.
 func NewDataAwsccControltowerEnabledControl(scope constructs.Construct, id *string, config *DataAwsccControltowerEnabledControlConfig) DataAwsccControltowerEnabledControl {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccControltowerEnabledControl(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/controltower_enabled_control awscc_controltower_enabled_control} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/controltower_enabled_control awscc_controltower_enabled_control} Data Source.
 func NewDataAwsccControltowerEnabledControl_Override(d DataAwsccControltowerEnabledControl, scope constructs.Construct, id *string, config *DataAwsccControltowerEnabledControlConfig) {
 	_init_.Initialize()
 

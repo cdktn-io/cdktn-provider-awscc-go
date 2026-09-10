@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_aggregator_v2 awscc_securityhub_aggregator_v2}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_aggregator_v2 awscc_securityhub_aggregator_v2}.
 type SecurityhubAggregatorV2 interface {
 	cdktn.TerraformResource
 	AggregationRegion() *string
@@ -447,7 +447,7 @@ func (j *jsiiProxy_SecurityhubAggregatorV2) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_aggregator_v2 awscc_securityhub_aggregator_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_aggregator_v2 awscc_securityhub_aggregator_v2} Resource.
 func NewSecurityhubAggregatorV2(scope constructs.Construct, id *string, config *SecurityhubAggregatorV2Config) SecurityhubAggregatorV2 {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewSecurityhubAggregatorV2(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_aggregator_v2 awscc_securityhub_aggregator_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_aggregator_v2 awscc_securityhub_aggregator_v2} Resource.
 func NewSecurityhubAggregatorV2_Override(s SecurityhubAggregatorV2, scope constructs.Construct, id *string, config *SecurityhubAggregatorV2Config) {
 	_init_.Initialize()
 

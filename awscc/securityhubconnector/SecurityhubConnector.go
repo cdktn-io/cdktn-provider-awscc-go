@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_connector awscc_securityhub_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_connector awscc_securityhub_connector}.
 type SecurityhubConnector interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -559,7 +559,7 @@ func (j *jsiiProxy_SecurityhubConnector) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_connector awscc_securityhub_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_connector awscc_securityhub_connector} Resource.
 func NewSecurityhubConnector(scope constructs.Construct, id *string, config *SecurityhubConnectorConfig) SecurityhubConnector {
 	_init_.Initialize()
 
@@ -577,7 +577,7 @@ func NewSecurityhubConnector(scope constructs.Construct, id *string, config *Sec
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_connector awscc_securityhub_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_connector awscc_securityhub_connector} Resource.
 func NewSecurityhubConnector_Override(s SecurityhubConnector, scope constructs.Construct, id *string, config *SecurityhubConnectorConfig) {
 	_init_.Initialize()
 

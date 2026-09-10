@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_type awscc_cassandra_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cassandra_type awscc_cassandra_type}.
 type CassandraType interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -479,7 +479,7 @@ func (j *jsiiProxy_CassandraType) TypeNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_type awscc_cassandra_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cassandra_type awscc_cassandra_type} Resource.
 func NewCassandraType(scope constructs.Construct, id *string, config *CassandraTypeConfig) CassandraType {
 	_init_.Initialize()
 
@@ -497,7 +497,7 @@ func NewCassandraType(scope constructs.Construct, id *string, config *CassandraT
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_type awscc_cassandra_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cassandra_type awscc_cassandra_type} Resource.
 func NewCassandraType_Override(c CassandraType, scope constructs.Construct, id *string, config *CassandraTypeConfig) {
 	_init_.Initialize()
 

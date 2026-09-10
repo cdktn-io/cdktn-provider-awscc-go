@@ -7,7 +7,7 @@ package caseslayout
 type CasesLayoutContentBasicTopPanel struct {
 	// Defines the sections within a panel or tab. Contains field groups that organize related fields together.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_layout#sections CasesLayout#sections}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cases_layout#sections CasesLayout#sections}
 	Sections interface{} `field:"optional" json:"sections" yaml:"sections"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_launch_template awscc_ec2_launch_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_launch_template awscc_ec2_launch_template}.
 type DataAwsccEc2LaunchTemplate interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccEc2LaunchTemplate) VersionDescription() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_launch_template awscc_ec2_launch_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_launch_template awscc_ec2_launch_template} Data Source.
 func NewDataAwsccEc2LaunchTemplate(scope constructs.Construct, id *string, config *DataAwsccEc2LaunchTemplateConfig) DataAwsccEc2LaunchTemplate {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccEc2LaunchTemplate(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_launch_template awscc_ec2_launch_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_launch_template awscc_ec2_launch_template} Data Source.
 func NewDataAwsccEc2LaunchTemplate_Override(d DataAwsccEc2LaunchTemplate, scope constructs.Construct, id *string, config *DataAwsccEc2LaunchTemplateConfig) {
 	_init_.Initialize()
 

@@ -5,7 +5,7 @@ package quicksighttopicv2
 
 
 type QuicksightTopicV2CustomInstructions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_topic_v2#custom_instructions_string QuicksightTopicV2#custom_instructions_string}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_topic_v2#custom_instructions_string QuicksightTopicV2#custom_instructions_string}.
 	CustomInstructionsString *string `field:"optional" json:"customInstructionsString" yaml:"customInstructionsString"`
 }
 

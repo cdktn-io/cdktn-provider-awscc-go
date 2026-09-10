@@ -9,11 +9,11 @@ type MediatailorSourceLocationSegmentDeliveryConfigurations struct {
 	//
 	// This is typically a content delivery network (CDN). The URL can be absolute or relative. To use an absolute URL include the protocol, such as <code>https://example.com/some/path</code>. To use a relative URL specify the relative path, such as <code>/some/path*</code>.</p>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediatailor_source_location#base_url MediatailorSourceLocation#base_url}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediatailor_source_location#base_url MediatailorSourceLocation#base_url}
 	BaseUrl *string `field:"optional" json:"baseUrl" yaml:"baseUrl"`
 	// <p>A unique identifier used to distinguish between multiple segment delivery configurations in a source location.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediatailor_source_location#name MediatailorSourceLocation#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediatailor_source_location#name MediatailorSourceLocation#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 }
 

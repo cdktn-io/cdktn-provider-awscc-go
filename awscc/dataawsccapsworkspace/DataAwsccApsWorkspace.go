@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/aps_workspace awscc_aps_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/aps_workspace awscc_aps_workspace}.
 type DataAwsccApsWorkspace interface {
 	cdktn.TerraformDataSource
 	AlertManagerDefinition() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccApsWorkspace) WorkspaceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/aps_workspace awscc_aps_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/aps_workspace awscc_aps_workspace} Data Source.
 func NewDataAwsccApsWorkspace(scope constructs.Construct, id *string, config *DataAwsccApsWorkspaceConfig) DataAwsccApsWorkspace {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccApsWorkspace(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/aps_workspace awscc_aps_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/aps_workspace awscc_aps_workspace} Data Source.
 func NewDataAwsccApsWorkspace_Override(d DataAwsccApsWorkspace, scope constructs.Construct, id *string, config *DataAwsccApsWorkspaceConfig) {
 	_init_.Initialize()
 

@@ -24,35 +24,35 @@ type ConnectContactFlowModuleConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The content of the contact flow module in JSON format.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_contact_flow_module#content ConnectContactFlowModule#content}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_contact_flow_module#content ConnectContactFlowModule#content}
 	Content *string `field:"required" json:"content" yaml:"content"`
 	// The identifier of the Amazon Connect instance (ARN).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_contact_flow_module#instance_arn ConnectContactFlowModule#instance_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_contact_flow_module#instance_arn ConnectContactFlowModule#instance_arn}
 	InstanceArn *string `field:"required" json:"instanceArn" yaml:"instanceArn"`
 	// The name of the contact flow module.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_contact_flow_module#name ConnectContactFlowModule#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_contact_flow_module#name ConnectContactFlowModule#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The description of the contact flow module.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_contact_flow_module#description ConnectContactFlowModule#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_contact_flow_module#description ConnectContactFlowModule#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Defines the external invocation configuration of the flow module resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_contact_flow_module#external_invocation_configuration ConnectContactFlowModule#external_invocation_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_contact_flow_module#external_invocation_configuration ConnectContactFlowModule#external_invocation_configuration}
 	ExternalInvocationConfiguration *ConnectContactFlowModuleExternalInvocationConfiguration `field:"optional" json:"externalInvocationConfiguration" yaml:"externalInvocationConfiguration"`
 	// The schema of the settings for contact flow module in JSON Schema V4 format.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_contact_flow_module#settings ConnectContactFlowModule#settings}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_contact_flow_module#settings ConnectContactFlowModule#settings}
 	Settings *string `field:"optional" json:"settings" yaml:"settings"`
 	// The state of the contact flow module.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_contact_flow_module#state ConnectContactFlowModule#state}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_contact_flow_module#state ConnectContactFlowModule#state}
 	State *string `field:"optional" json:"state" yaml:"state"`
 	// One or more tags.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_contact_flow_module#tags ConnectContactFlowModule#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_contact_flow_module#tags ConnectContactFlowModule#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

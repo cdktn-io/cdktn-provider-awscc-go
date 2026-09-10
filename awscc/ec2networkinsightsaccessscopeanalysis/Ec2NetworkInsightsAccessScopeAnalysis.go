@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_network_insights_access_scope_analysis awscc_ec2_network_insights_access_scope_analysis}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_network_insights_access_scope_analysis awscc_ec2_network_insights_access_scope_analysis}.
 type Ec2NetworkInsightsAccessScopeAnalysis interface {
 	cdktn.TerraformResource
 	AnalyzedEniCount() *float64
@@ -490,7 +490,7 @@ func (j *jsiiProxy_Ec2NetworkInsightsAccessScopeAnalysis) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_network_insights_access_scope_analysis awscc_ec2_network_insights_access_scope_analysis} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_network_insights_access_scope_analysis awscc_ec2_network_insights_access_scope_analysis} Resource.
 func NewEc2NetworkInsightsAccessScopeAnalysis(scope constructs.Construct, id *string, config *Ec2NetworkInsightsAccessScopeAnalysisConfig) Ec2NetworkInsightsAccessScopeAnalysis {
 	_init_.Initialize()
 
@@ -508,7 +508,7 @@ func NewEc2NetworkInsightsAccessScopeAnalysis(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_network_insights_access_scope_analysis awscc_ec2_network_insights_access_scope_analysis} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_network_insights_access_scope_analysis awscc_ec2_network_insights_access_scope_analysis} Resource.
 func NewEc2NetworkInsightsAccessScopeAnalysis_Override(e Ec2NetworkInsightsAccessScopeAnalysis, scope constructs.Construct, id *string, config *Ec2NetworkInsightsAccessScopeAnalysisConfig) {
 	_init_.Initialize()
 

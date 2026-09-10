@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/datazone_owner awscc_datazone_owner}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/datazone_owner awscc_datazone_owner}.
 type DataAwsccDatazoneOwner interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccDatazoneOwner) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/datazone_owner awscc_datazone_owner} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/datazone_owner awscc_datazone_owner} Data Source.
 func NewDataAwsccDatazoneOwner(scope constructs.Construct, id *string, config *DataAwsccDatazoneOwnerConfig) DataAwsccDatazoneOwner {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccDatazoneOwner(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/datazone_owner awscc_datazone_owner} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/datazone_owner awscc_datazone_owner} Data Source.
 func NewDataAwsccDatazoneOwner_Override(d DataAwsccDatazoneOwner, scope constructs.Construct, id *string, config *DataAwsccDatazoneOwnerConfig) {
 	_init_.Initialize()
 

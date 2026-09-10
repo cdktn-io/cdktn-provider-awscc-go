@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/quicksight_limits_profile awscc_quicksight_limits_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/quicksight_limits_profile awscc_quicksight_limits_profile}.
 type DataAwsccQuicksightLimitsProfile interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccQuicksightLimitsProfile) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/quicksight_limits_profile awscc_quicksight_limits_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/quicksight_limits_profile awscc_quicksight_limits_profile} Data Source.
 func NewDataAwsccQuicksightLimitsProfile(scope constructs.Construct, id *string, config *DataAwsccQuicksightLimitsProfileConfig) DataAwsccQuicksightLimitsProfile {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccQuicksightLimitsProfile(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/quicksight_limits_profile awscc_quicksight_limits_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/quicksight_limits_profile awscc_quicksight_limits_profile} Data Source.
 func NewDataAwsccQuicksightLimitsProfile_Override(d DataAwsccQuicksightLimitsProfile, scope constructs.Construct, id *string, config *DataAwsccQuicksightLimitsProfileConfig) {
 	_init_.Initialize()
 

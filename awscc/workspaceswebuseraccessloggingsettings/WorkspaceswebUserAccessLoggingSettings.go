@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspacesweb_user_access_logging_settings awscc_workspacesweb_user_access_logging_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/workspacesweb_user_access_logging_settings awscc_workspacesweb_user_access_logging_settings}.
 type WorkspaceswebUserAccessLoggingSettings interface {
 	cdktn.TerraformResource
 	AssociatedPortalArns() *[]*string
@@ -424,7 +424,7 @@ func (j *jsiiProxy_WorkspaceswebUserAccessLoggingSettings) UserAccessLoggingSett
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspacesweb_user_access_logging_settings awscc_workspacesweb_user_access_logging_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/workspacesweb_user_access_logging_settings awscc_workspacesweb_user_access_logging_settings} Resource.
 func NewWorkspaceswebUserAccessLoggingSettings(scope constructs.Construct, id *string, config *WorkspaceswebUserAccessLoggingSettingsConfig) WorkspaceswebUserAccessLoggingSettings {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewWorkspaceswebUserAccessLoggingSettings(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/workspacesweb_user_access_logging_settings awscc_workspacesweb_user_access_logging_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/workspacesweb_user_access_logging_settings awscc_workspacesweb_user_access_logging_settings} Resource.
 func NewWorkspaceswebUserAccessLoggingSettings_Override(w WorkspaceswebUserAccessLoggingSettings, scope constructs.Construct, id *string, config *WorkspaceswebUserAccessLoggingSettingsConfig) {
 	_init_.Initialize()
 

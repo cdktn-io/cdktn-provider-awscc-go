@@ -7,11 +7,11 @@ package memorydbmultiregioncluster
 type MemorydbMultiRegionClusterTags struct {
 	// The key for the tag. May not be null.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/memorydb_multi_region_cluster#key MemorydbMultiRegionCluster#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/memorydb_multi_region_cluster#key MemorydbMultiRegionCluster#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The tag's value. May be null.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/memorydb_multi_region_cluster#value MemorydbMultiRegionCluster#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/memorydb_multi_region_cluster#value MemorydbMultiRegionCluster#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/dataexchange_event_actions awscc_dataexchange_event_actions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/dataexchange_event_actions awscc_dataexchange_event_actions}.
 type DataAwsccDataexchangeEventActions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDataexchangeEventActions) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/dataexchange_event_actions awscc_dataexchange_event_actions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/dataexchange_event_actions awscc_dataexchange_event_actions} Data Source.
 func NewDataAwsccDataexchangeEventActions(scope constructs.Construct, id *string, config *DataAwsccDataexchangeEventActionsConfig) DataAwsccDataexchangeEventActions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDataexchangeEventActions(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/dataexchange_event_actions awscc_dataexchange_event_actions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/dataexchange_event_actions awscc_dataexchange_event_actions} Data Source.
 func NewDataAwsccDataexchangeEventActions_Override(d DataAwsccDataexchangeEventActions, scope constructs.Construct, id *string, config *DataAwsccDataexchangeEventActionsConfig) {
 	_init_.Initialize()
 

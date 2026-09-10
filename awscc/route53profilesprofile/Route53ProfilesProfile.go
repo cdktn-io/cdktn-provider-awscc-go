@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53profiles_profile awscc_route53profiles_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53profiles_profile awscc_route53profiles_profile}.
 type Route53ProfilesProfile interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -446,7 +446,7 @@ func (j *jsiiProxy_Route53ProfilesProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53profiles_profile awscc_route53profiles_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53profiles_profile awscc_route53profiles_profile} Resource.
 func NewRoute53ProfilesProfile(scope constructs.Construct, id *string, config *Route53ProfilesProfileConfig) Route53ProfilesProfile {
 	_init_.Initialize()
 
@@ -464,7 +464,7 @@ func NewRoute53ProfilesProfile(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53profiles_profile awscc_route53profiles_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53profiles_profile awscc_route53profiles_profile} Resource.
 func NewRoute53ProfilesProfile_Override(r Route53ProfilesProfile, scope constructs.Construct, id *string, config *Route53ProfilesProfileConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_certificate_provider awscc_iot_certificate_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iot_certificate_provider awscc_iot_certificate_provider}.
 type DataAwsccIotCertificateProvider interface {
 	cdktn.TerraformDataSource
 	AccountDefaultForOperations() *[]*string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccIotCertificateProvider) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_certificate_provider awscc_iot_certificate_provider} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iot_certificate_provider awscc_iot_certificate_provider} Data Source.
 func NewDataAwsccIotCertificateProvider(scope constructs.Construct, id *string, config *DataAwsccIotCertificateProviderConfig) DataAwsccIotCertificateProvider {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccIotCertificateProvider(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_certificate_provider awscc_iot_certificate_provider} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iot_certificate_provider awscc_iot_certificate_provider} Data Source.
 func NewDataAwsccIotCertificateProvider_Override(d DataAwsccIotCertificateProvider, scope constructs.Construct, id *string, config *DataAwsccIotCertificateProviderConfig) {
 	_init_.Initialize()
 

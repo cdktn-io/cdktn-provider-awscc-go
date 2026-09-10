@@ -7,7 +7,7 @@ package sesconfigurationset
 type SesConfigurationSetSuppressionOptionsValidationOptionsConditionThresholdOverallConfidenceThreshold struct {
 	// The confidence verdict threshold level.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_configuration_set#confidence_verdict_threshold SesConfigurationSet#confidence_verdict_threshold}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ses_configuration_set#confidence_verdict_threshold SesConfigurationSet#confidence_verdict_threshold}
 	ConfidenceVerdictThreshold *string `field:"optional" json:"confidenceVerdictThreshold" yaml:"confidenceVerdictThreshold"`
 }
 

@@ -5,9 +5,9 @@ package omicsannotationstore
 
 
 type OmicsAnnotationStoreSseConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_annotation_store#key_arn OmicsAnnotationStore#key_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/omics_annotation_store#key_arn OmicsAnnotationStore#key_arn}.
 	KeyArn *string `field:"optional" json:"keyArn" yaml:"keyArn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_annotation_store#type OmicsAnnotationStore#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/omics_annotation_store#type OmicsAnnotationStore#type}.
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

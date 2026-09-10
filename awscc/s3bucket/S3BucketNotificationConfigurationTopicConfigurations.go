@@ -9,17 +9,17 @@ type S3BucketNotificationConfigurationTopicConfigurations struct {
 	//
 	// For more information, see [Supported Event Types](https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html) in the *Amazon S3 User Guide*.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3_bucket#event S3Bucket#event}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3_bucket#event S3Bucket#event}
 	Event *string `field:"optional" json:"event" yaml:"event"`
 	// The filtering rules that determine for which objects to send notifications.
 	//
 	// For example, you can create a filter so that Amazon S3 sends notifications only when image files with a ``.jpg`` extension are added to the bucket.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3_bucket#filter S3Bucket#filter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3_bucket#filter S3Bucket#filter}
 	Filter *S3BucketNotificationConfigurationTopicConfigurationsFilter `field:"optional" json:"filter" yaml:"filter"`
 	// The Amazon Resource Name (ARN) of the Amazon SNS topic to which Amazon S3 publishes a message when it detects events of the specified type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3_bucket#topic S3Bucket#topic}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3_bucket#topic S3Bucket#topic}
 	Topic *string `field:"optional" json:"topic" yaml:"topic"`
 }
 

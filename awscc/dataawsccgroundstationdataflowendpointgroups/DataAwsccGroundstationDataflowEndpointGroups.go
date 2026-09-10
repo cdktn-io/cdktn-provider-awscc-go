@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/groundstation_dataflow_endpoint_groups awscc_groundstation_dataflow_endpoint_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/groundstation_dataflow_endpoint_groups awscc_groundstation_dataflow_endpoint_groups}.
 type DataAwsccGroundstationDataflowEndpointGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGroundstationDataflowEndpointGroups) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/groundstation_dataflow_endpoint_groups awscc_groundstation_dataflow_endpoint_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/groundstation_dataflow_endpoint_groups awscc_groundstation_dataflow_endpoint_groups} Data Source.
 func NewDataAwsccGroundstationDataflowEndpointGroups(scope constructs.Construct, id *string, config *DataAwsccGroundstationDataflowEndpointGroupsConfig) DataAwsccGroundstationDataflowEndpointGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGroundstationDataflowEndpointGroups(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/groundstation_dataflow_endpoint_groups awscc_groundstation_dataflow_endpoint_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/groundstation_dataflow_endpoint_groups awscc_groundstation_dataflow_endpoint_groups} Data Source.
 func NewDataAwsccGroundstationDataflowEndpointGroups_Override(d DataAwsccGroundstationDataflowEndpointGroups, scope constructs.Construct, id *string, config *DataAwsccGroundstationDataflowEndpointGroupsConfig) {
 	_init_.Initialize()
 

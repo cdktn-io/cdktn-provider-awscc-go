@@ -46,6 +46,8 @@ type IotTopicRuleTopicRulePayloadErrorActionOutputReference interface {
 	Fqn() *string
 	Http() IotTopicRuleTopicRulePayloadErrorActionHttpOutputReference
 	HttpInput() interface{}
+	InfluxDb() IotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference
+	InfluxDbInput() interface{}
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
 	IotAnalytics() IotTopicRuleTopicRulePayloadErrorActionIotAnalyticsOutputReference
@@ -116,6 +118,7 @@ type IotTopicRuleTopicRulePayloadErrorActionOutputReference interface {
 	PutElasticsearch(value *IotTopicRuleTopicRulePayloadErrorActionElasticsearch)
 	PutFirehose(value *IotTopicRuleTopicRulePayloadErrorActionFirehose)
 	PutHttp(value *IotTopicRuleTopicRulePayloadErrorActionHttp)
+	PutInfluxDb(value *IotTopicRuleTopicRulePayloadErrorActionInfluxDb)
 	PutIotAnalytics(value *IotTopicRuleTopicRulePayloadErrorActionIotAnalytics)
 	PutIotEvents(value *IotTopicRuleTopicRulePayloadErrorActionIotEvents)
 	PutIotSiteWise(value *IotTopicRuleTopicRulePayloadErrorActionIotSiteWise)
@@ -138,6 +141,7 @@ type IotTopicRuleTopicRulePayloadErrorActionOutputReference interface {
 	ResetElasticsearch()
 	ResetFirehose()
 	ResetHttp()
+	ResetInfluxDb()
 	ResetIotAnalytics()
 	ResetIotEvents()
 	ResetIotSiteWise()
@@ -362,6 +366,26 @@ func (j *jsiiProxy_IotTopicRuleTopicRulePayloadErrorActionOutputReference) HttpI
 	_jsii_.Get(
 		j,
 		"httpInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IotTopicRuleTopicRulePayloadErrorActionOutputReference) InfluxDb() IotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference {
+	var returns IotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference
+	_jsii_.Get(
+		j,
+		"influxDb",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IotTopicRuleTopicRulePayloadErrorActionOutputReference) InfluxDbInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"influxDbInput",
 		&returns,
 	)
 	return returns
@@ -1034,6 +1058,17 @@ func (i *jsiiProxy_IotTopicRuleTopicRulePayloadErrorActionOutputReference) PutHt
 	)
 }
 
+func (i *jsiiProxy_IotTopicRuleTopicRulePayloadErrorActionOutputReference) PutInfluxDb(value *IotTopicRuleTopicRulePayloadErrorActionInfluxDb) {
+	if err := i.validatePutInfluxDbParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		i,
+		"putInfluxDb",
+		[]interface{}{value},
+	)
+}
+
 func (i *jsiiProxy_IotTopicRuleTopicRulePayloadErrorActionOutputReference) PutIotAnalytics(value *IotTopicRuleTopicRulePayloadErrorActionIotAnalytics) {
 	if err := i.validatePutIotAnalyticsParameters(value); err != nil {
 		panic(err)
@@ -1248,6 +1283,14 @@ func (i *jsiiProxy_IotTopicRuleTopicRulePayloadErrorActionOutputReference) Reset
 	_jsii_.InvokeVoid(
 		i,
 		"resetHttp",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IotTopicRuleTopicRulePayloadErrorActionOutputReference) ResetInfluxDb() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetInfluxDb",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appconfig_experiment_run awscc_appconfig_experiment_run}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_experiment_run awscc_appconfig_experiment_run}.
 type AppconfigExperimentRun interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -562,7 +562,7 @@ func (j *jsiiProxy_AppconfigExperimentRun) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appconfig_experiment_run awscc_appconfig_experiment_run} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_experiment_run awscc_appconfig_experiment_run} Resource.
 func NewAppconfigExperimentRun(scope constructs.Construct, id *string, config *AppconfigExperimentRunConfig) AppconfigExperimentRun {
 	_init_.Initialize()
 
@@ -580,7 +580,7 @@ func NewAppconfigExperimentRun(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appconfig_experiment_run awscc_appconfig_experiment_run} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_experiment_run awscc_appconfig_experiment_run} Resource.
 func NewAppconfigExperimentRun_Override(a AppconfigExperimentRun, scope constructs.Construct, id *string, config *AppconfigExperimentRunConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotwireless_network_analyzer_configuration awscc_iotwireless_network_analyzer_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotwireless_network_analyzer_configuration awscc_iotwireless_network_analyzer_configuration}.
 type DataAwsccIotwirelessNetworkAnalyzerConfiguration interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccIotwirelessNetworkAnalyzerConfiguration) WirelessGat
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotwireless_network_analyzer_configuration awscc_iotwireless_network_analyzer_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotwireless_network_analyzer_configuration awscc_iotwireless_network_analyzer_configuration} Data Source.
 func NewDataAwsccIotwirelessNetworkAnalyzerConfiguration(scope constructs.Construct, id *string, config *DataAwsccIotwirelessNetworkAnalyzerConfigurationConfig) DataAwsccIotwirelessNetworkAnalyzerConfiguration {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccIotwirelessNetworkAnalyzerConfiguration(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotwireless_network_analyzer_configuration awscc_iotwireless_network_analyzer_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotwireless_network_analyzer_configuration awscc_iotwireless_network_analyzer_configuration} Data Source.
 func NewDataAwsccIotwirelessNetworkAnalyzerConfiguration_Override(d DataAwsccIotwirelessNetworkAnalyzerConfiguration, scope constructs.Construct, id *string, config *DataAwsccIotwirelessNetworkAnalyzerConfigurationConfig) {
 	_init_.Initialize()
 

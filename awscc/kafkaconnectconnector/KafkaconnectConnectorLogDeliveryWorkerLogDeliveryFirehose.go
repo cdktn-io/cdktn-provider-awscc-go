@@ -7,11 +7,11 @@ package kafkaconnectconnector
 type KafkaconnectConnectorLogDeliveryWorkerLogDeliveryFirehose struct {
 	// The Kinesis Data Firehose delivery stream that is the destination for log delivery.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kafkaconnect_connector#delivery_stream KafkaconnectConnector#delivery_stream}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kafkaconnect_connector#delivery_stream KafkaconnectConnector#delivery_stream}
 	DeliveryStream *string `field:"optional" json:"deliveryStream" yaml:"deliveryStream"`
 	// Specifies whether the logs get sent to the specified Kinesis Data Firehose delivery stream.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kafkaconnect_connector#enabled KafkaconnectConnector#enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kafkaconnect_connector#enabled KafkaconnectConnector#enabled}
 	Enabled interface{} `field:"optional" json:"enabled" yaml:"enabled"`
 }
 

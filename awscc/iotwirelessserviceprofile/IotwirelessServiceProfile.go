@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotwireless_service_profile awscc_iotwireless_service_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotwireless_service_profile awscc_iotwireless_service_profile}.
 type IotwirelessServiceProfile interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -449,7 +449,7 @@ func (j *jsiiProxy_IotwirelessServiceProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotwireless_service_profile awscc_iotwireless_service_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotwireless_service_profile awscc_iotwireless_service_profile} Resource.
 func NewIotwirelessServiceProfile(scope constructs.Construct, id *string, config *IotwirelessServiceProfileConfig) IotwirelessServiceProfile {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewIotwirelessServiceProfile(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotwireless_service_profile awscc_iotwireless_service_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotwireless_service_profile awscc_iotwireless_service_profile} Resource.
 func NewIotwirelessServiceProfile_Override(i IotwirelessServiceProfile, scope constructs.Construct, id *string, config *IotwirelessServiceProfileConfig) {
 	_init_.Initialize()
 

@@ -9,13 +9,13 @@ type Route53HostedZoneVpCs struct {
 	//
 	// For public hosted zones, omit ``VPCs``, ``VPCId``, and ``VPCRegion``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_hosted_zone#vpc_id Route53HostedZone#vpc_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53_hosted_zone#vpc_id Route53HostedZone#vpc_id}
 	VpcId *string `field:"optional" json:"vpcId" yaml:"vpcId"`
 	// *Private hosted zones only:* The region that an Amazon VPC was created in.
 	//
 	// For public hosted zones, omit ``VPCs``, ``VPCId``, and ``VPCRegion``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_hosted_zone#vpc_region Route53HostedZone#vpc_region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53_hosted_zone#vpc_region Route53HostedZone#vpc_region}
 	VpcRegion *string `field:"optional" json:"vpcRegion" yaml:"vpcRegion"`
 }
 

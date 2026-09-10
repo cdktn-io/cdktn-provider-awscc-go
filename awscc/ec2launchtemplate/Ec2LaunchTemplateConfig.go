@@ -24,22 +24,22 @@ type Ec2LaunchTemplateConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The information for the launch template.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_launch_template#launch_template_data Ec2LaunchTemplate#launch_template_data}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_launch_template#launch_template_data Ec2LaunchTemplate#launch_template_data}
 	LaunchTemplateData *Ec2LaunchTemplateLaunchTemplateData `field:"required" json:"launchTemplateData" yaml:"launchTemplateData"`
 	// A name for the launch template.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_launch_template#launch_template_name Ec2LaunchTemplate#launch_template_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_launch_template#launch_template_name Ec2LaunchTemplate#launch_template_name}
 	LaunchTemplateName *string `field:"optional" json:"launchTemplateName" yaml:"launchTemplateName"`
 	// The tags to apply to the launch template on creation.
 	//
 	// To tag the launch template, the resource type must be ``launch-template``.
 	//  To specify the tags for the resources that are created when an instance is launched, you must use [TagSpecifications](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-launchtemplate-launchtemplatedata.html#cfn-ec2-launchtemplate-launchtemplatedata-tagspecifications).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_launch_template#tag_specifications Ec2LaunchTemplate#tag_specifications}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_launch_template#tag_specifications Ec2LaunchTemplate#tag_specifications}
 	TagSpecifications interface{} `field:"optional" json:"tagSpecifications" yaml:"tagSpecifications"`
 	// A description for the first version of the launch template.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_launch_template#version_description Ec2LaunchTemplate#version_description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_launch_template#version_description Ec2LaunchTemplate#version_description}
 	VersionDescription *string `field:"optional" json:"versionDescription" yaml:"versionDescription"`
 }
 

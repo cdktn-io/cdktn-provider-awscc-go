@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lakeformation_data_cells_filter awscc_lakeformation_data_cells_filter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/lakeformation_data_cells_filter awscc_lakeformation_data_cells_filter}.
 type DataAwsccLakeformationDataCellsFilter interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccLakeformationDataCellsFilter) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lakeformation_data_cells_filter awscc_lakeformation_data_cells_filter} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/lakeformation_data_cells_filter awscc_lakeformation_data_cells_filter} Data Source.
 func NewDataAwsccLakeformationDataCellsFilter(scope constructs.Construct, id *string, config *DataAwsccLakeformationDataCellsFilterConfig) DataAwsccLakeformationDataCellsFilter {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccLakeformationDataCellsFilter(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lakeformation_data_cells_filter awscc_lakeformation_data_cells_filter} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/lakeformation_data_cells_filter awscc_lakeformation_data_cells_filter} Data Source.
 func NewDataAwsccLakeformationDataCellsFilter_Override(d DataAwsccLakeformationDataCellsFilter, scope constructs.Construct, id *string, config *DataAwsccLakeformationDataCellsFilterConfig) {
 	_init_.Initialize()
 

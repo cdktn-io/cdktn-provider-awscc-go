@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/connect_phone_number awscc_connect_phone_number}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/connect_phone_number awscc_connect_phone_number}.
 type DataAwsccConnectPhoneNumber interface {
 	cdktn.TerraformDataSource
 	Address() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccConnectPhoneNumber) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/connect_phone_number awscc_connect_phone_number} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/connect_phone_number awscc_connect_phone_number} Data Source.
 func NewDataAwsccConnectPhoneNumber(scope constructs.Construct, id *string, config *DataAwsccConnectPhoneNumberConfig) DataAwsccConnectPhoneNumber {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccConnectPhoneNumber(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/connect_phone_number awscc_connect_phone_number} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/connect_phone_number awscc_connect_phone_number} Data Source.
 func NewDataAwsccConnectPhoneNumber_Override(d DataAwsccConnectPhoneNumber, scope constructs.Construct, id *string, config *DataAwsccConnectPhoneNumberConfig) {
 	_init_.Initialize()
 

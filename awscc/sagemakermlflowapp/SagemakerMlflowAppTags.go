@@ -5,9 +5,9 @@ package sagemakermlflowapp
 
 
 type SagemakerMlflowAppTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_mlflow_app#key SagemakerMlflowApp#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_mlflow_app#key SagemakerMlflowApp#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_mlflow_app#value SagemakerMlflowApp#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_mlflow_app#value SagemakerMlflowApp#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

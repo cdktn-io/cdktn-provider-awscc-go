@@ -9,13 +9,13 @@ type EcsDaemonTaskDefinitionTags struct {
 	//
 	// A ``key`` is a general label that acts like a category for more specific tag values.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_daemon_task_definition#key EcsDaemonTaskDefinition#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_daemon_task_definition#key EcsDaemonTaskDefinition#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The optional part of a key-value pair that make up a tag.
 	//
 	// A ``value`` acts as a descriptor within a tag category (key).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_daemon_task_definition#value EcsDaemonTaskDefinition#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_daemon_task_definition#value EcsDaemonTaskDefinition#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

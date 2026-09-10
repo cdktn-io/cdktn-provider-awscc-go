@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/logs_log_anomaly_detectors awscc_logs_log_anomaly_detectors}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/logs_log_anomaly_detectors awscc_logs_log_anomaly_detectors}.
 type DataAwsccLogsLogAnomalyDetectors interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLogsLogAnomalyDetectors) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/logs_log_anomaly_detectors awscc_logs_log_anomaly_detectors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/logs_log_anomaly_detectors awscc_logs_log_anomaly_detectors} Data Source.
 func NewDataAwsccLogsLogAnomalyDetectors(scope constructs.Construct, id *string, config *DataAwsccLogsLogAnomalyDetectorsConfig) DataAwsccLogsLogAnomalyDetectors {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLogsLogAnomalyDetectors(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/logs_log_anomaly_detectors awscc_logs_log_anomaly_detectors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/logs_log_anomaly_detectors awscc_logs_log_anomaly_detectors} Data Source.
 func NewDataAwsccLogsLogAnomalyDetectors_Override(d DataAwsccLogsLogAnomalyDetectors, scope constructs.Construct, id *string, config *DataAwsccLogsLogAnomalyDetectorsConfig) {
 	_init_.Initialize()
 

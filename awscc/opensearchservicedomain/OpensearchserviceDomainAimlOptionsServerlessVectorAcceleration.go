@@ -7,7 +7,7 @@ package opensearchservicedomain
 type OpensearchserviceDomainAimlOptionsServerlessVectorAcceleration struct {
 	// Whether to enable serverless vector acceleration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearchservice_domain#enabled OpensearchserviceDomain#enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/opensearchservice_domain#enabled OpensearchserviceDomain#enabled}
 	Enabled interface{} `field:"optional" json:"enabled" yaml:"enabled"`
 }
 

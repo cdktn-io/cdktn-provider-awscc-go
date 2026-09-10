@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/neptune_event_subscription awscc_neptune_event_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/neptune_event_subscription awscc_neptune_event_subscription}.
 type DataAwsccNeptuneEventSubscription interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccNeptuneEventSubscription) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/neptune_event_subscription awscc_neptune_event_subscription} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/neptune_event_subscription awscc_neptune_event_subscription} Data Source.
 func NewDataAwsccNeptuneEventSubscription(scope constructs.Construct, id *string, config *DataAwsccNeptuneEventSubscriptionConfig) DataAwsccNeptuneEventSubscription {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccNeptuneEventSubscription(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/neptune_event_subscription awscc_neptune_event_subscription} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/neptune_event_subscription awscc_neptune_event_subscription} Data Source.
 func NewDataAwsccNeptuneEventSubscription_Override(d DataAwsccNeptuneEventSubscription, scope constructs.Construct, id *string, config *DataAwsccNeptuneEventSubscriptionConfig) {
 	_init_.Initialize()
 

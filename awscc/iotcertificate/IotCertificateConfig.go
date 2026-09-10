@@ -22,15 +22,15 @@ type IotCertificateConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_certificate#status IotCertificate#status}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_certificate#status IotCertificate#status}.
 	Status *string `field:"required" json:"status" yaml:"status"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_certificate#ca_certificate_pem IotCertificate#ca_certificate_pem}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_certificate#ca_certificate_pem IotCertificate#ca_certificate_pem}.
 	CaCertificatePem *string `field:"optional" json:"caCertificatePem" yaml:"caCertificatePem"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_certificate#certificate_mode IotCertificate#certificate_mode}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_certificate#certificate_mode IotCertificate#certificate_mode}.
 	CertificateMode *string `field:"optional" json:"certificateMode" yaml:"certificateMode"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_certificate#certificate_pem IotCertificate#certificate_pem}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_certificate#certificate_pem IotCertificate#certificate_pem}.
 	CertificatePem *string `field:"optional" json:"certificatePem" yaml:"certificatePem"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_certificate#certificate_signing_request IotCertificate#certificate_signing_request}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_certificate#certificate_signing_request IotCertificate#certificate_signing_request}.
 	CertificateSigningRequest *string `field:"optional" json:"certificateSigningRequest" yaml:"certificateSigningRequest"`
 }
 

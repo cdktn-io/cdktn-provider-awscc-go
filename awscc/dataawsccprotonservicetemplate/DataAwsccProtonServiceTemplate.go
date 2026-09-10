@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/proton_service_template awscc_proton_service_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/proton_service_template awscc_proton_service_template}.
 type DataAwsccProtonServiceTemplate interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccProtonServiceTemplate) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/proton_service_template awscc_proton_service_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/proton_service_template awscc_proton_service_template} Data Source.
 func NewDataAwsccProtonServiceTemplate(scope constructs.Construct, id *string, config *DataAwsccProtonServiceTemplateConfig) DataAwsccProtonServiceTemplate {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccProtonServiceTemplate(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/proton_service_template awscc_proton_service_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/proton_service_template awscc_proton_service_template} Data Source.
 func NewDataAwsccProtonServiceTemplate_Override(d DataAwsccProtonServiceTemplate, scope constructs.Construct, id *string, config *DataAwsccProtonServiceTemplateConfig) {
 	_init_.Initialize()
 

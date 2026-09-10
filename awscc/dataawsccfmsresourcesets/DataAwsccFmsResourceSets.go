@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/fms_resource_sets awscc_fms_resource_sets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/fms_resource_sets awscc_fms_resource_sets}.
 type DataAwsccFmsResourceSets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccFmsResourceSets) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/fms_resource_sets awscc_fms_resource_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/fms_resource_sets awscc_fms_resource_sets} Data Source.
 func NewDataAwsccFmsResourceSets(scope constructs.Construct, id *string, config *DataAwsccFmsResourceSetsConfig) DataAwsccFmsResourceSets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccFmsResourceSets(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/fms_resource_sets awscc_fms_resource_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/fms_resource_sets awscc_fms_resource_sets} Data Source.
 func NewDataAwsccFmsResourceSets_Override(d DataAwsccFmsResourceSets, scope constructs.Construct, id *string, config *DataAwsccFmsResourceSetsConfig) {
 	_init_.Initialize()
 

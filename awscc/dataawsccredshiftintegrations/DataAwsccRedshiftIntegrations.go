@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/redshift_integrations awscc_redshift_integrations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/redshift_integrations awscc_redshift_integrations}.
 type DataAwsccRedshiftIntegrations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRedshiftIntegrations) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/redshift_integrations awscc_redshift_integrations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/redshift_integrations awscc_redshift_integrations} Data Source.
 func NewDataAwsccRedshiftIntegrations(scope constructs.Construct, id *string, config *DataAwsccRedshiftIntegrationsConfig) DataAwsccRedshiftIntegrations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRedshiftIntegrations(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/redshift_integrations awscc_redshift_integrations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/redshift_integrations awscc_redshift_integrations} Data Source.
 func NewDataAwsccRedshiftIntegrations_Override(d DataAwsccRedshiftIntegrations, scope constructs.Construct, id *string, config *DataAwsccRedshiftIntegrationsConfig) {
 	_init_.Initialize()
 

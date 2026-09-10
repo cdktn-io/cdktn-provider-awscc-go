@@ -7,7 +7,7 @@ package bedrockagentcoreharness
 type BedrockagentcoreHarnessSkills struct {
 	// The filesystem path to the skill definition.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_harness#path BedrockagentcoreHarness#path}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrockagentcore_harness#path BedrockagentcoreHarness#path}
 	Path *string `field:"optional" json:"path" yaml:"path"`
 }
 

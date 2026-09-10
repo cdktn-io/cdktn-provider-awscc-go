@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudformation_publisher awscc_cloudformation_publisher}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudformation_publisher awscc_cloudformation_publisher}.
 type DataAwsccCloudformationPublisher interface {
 	cdktn.TerraformDataSource
 	AcceptTermsAndConditions() cdktn.IResolvable
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccCloudformationPublisher) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudformation_publisher awscc_cloudformation_publisher} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudformation_publisher awscc_cloudformation_publisher} Data Source.
 func NewDataAwsccCloudformationPublisher(scope constructs.Construct, id *string, config *DataAwsccCloudformationPublisherConfig) DataAwsccCloudformationPublisher {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccCloudformationPublisher(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudformation_publisher awscc_cloudformation_publisher} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudformation_publisher awscc_cloudformation_publisher} Data Source.
 func NewDataAwsccCloudformationPublisher_Override(d DataAwsccCloudformationPublisher, scope constructs.Construct, id *string, config *DataAwsccCloudformationPublisherConfig) {
 	_init_.Initialize()
 

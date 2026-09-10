@@ -7,15 +7,15 @@ package bedrockdatasource
 type BedrockDataSourceVectorIngestionConfigurationParsingConfigurationBedrockFoundationModelConfiguration struct {
 	// The model's ARN.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_source#model_arn BedrockDataSource#model_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrock_data_source#model_arn BedrockDataSource#model_arn}
 	ModelArn *string `field:"optional" json:"modelArn" yaml:"modelArn"`
 	// Determine how will parsed content be stored.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_source#parsing_modality BedrockDataSource#parsing_modality}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrock_data_source#parsing_modality BedrockDataSource#parsing_modality}
 	ParsingModality *string `field:"optional" json:"parsingModality" yaml:"parsingModality"`
 	// Instructions for interpreting the contents of a document.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_source#parsing_prompt BedrockDataSource#parsing_prompt}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrock_data_source#parsing_prompt BedrockDataSource#parsing_prompt}
 	ParsingPrompt *BedrockDataSourceVectorIngestionConfigurationParsingConfigurationBedrockFoundationModelConfigurationParsingPrompt `field:"optional" json:"parsingPrompt" yaml:"parsingPrompt"`
 }
 

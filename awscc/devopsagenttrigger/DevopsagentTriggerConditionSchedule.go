@@ -7,7 +7,7 @@ package devopsagenttrigger
 type DevopsagentTriggerConditionSchedule struct {
 	// A cron or rate expression that defines when the trigger fires.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_trigger#expression DevopsagentTrigger#expression}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/devopsagent_trigger#expression DevopsagentTrigger#expression}
 	Expression *string `field:"required" json:"expression" yaml:"expression"`
 }
 

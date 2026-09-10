@@ -5,7 +5,7 @@ package sagemakerspace
 
 
 type SagemakerSpaceSpaceSettingsCustomFileSystemsS3FileSystem struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_space#s3_uri SagemakerSpace#s3_uri}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_space#s3_uri SagemakerSpace#s3_uri}.
 	S3Uri *string `field:"optional" json:"s3Uri" yaml:"s3Uri"`
 }
 

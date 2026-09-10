@@ -9,11 +9,11 @@ type SupportauthzSupportPermitTags struct {
 	//
 	// You can specify a value that is 1 to 128 Unicode characters in length.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/supportauthz_support_permit#key SupportauthzSupportPermit#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/supportauthz_support_permit#key SupportauthzSupportPermit#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/supportauthz_support_permit#value SupportauthzSupportPermit#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/supportauthz_support_permit#value SupportauthzSupportPermit#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

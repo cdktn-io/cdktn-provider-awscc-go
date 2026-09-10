@@ -13,6 +13,8 @@ import (
 
 type SagemakerClusterOrchestratorSlurmOutputReference interface {
 	cdktn.ComplexObject
+	AccountingDatabase() SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference
+	AccountingDatabaseInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -67,6 +69,8 @@ type SagemakerClusterOrchestratorSlurmOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAccountingDatabase(value *SagemakerClusterOrchestratorSlurmAccountingDatabase)
+	ResetAccountingDatabase()
 	ResetSlurmConfigStrategy()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -81,6 +85,26 @@ type SagemakerClusterOrchestratorSlurmOutputReference interface {
 // The jsii proxy struct for SagemakerClusterOrchestratorSlurmOutputReference
 type jsiiProxy_SagemakerClusterOrchestratorSlurmOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_SagemakerClusterOrchestratorSlurmOutputReference) AccountingDatabase() SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference {
+	var returns SagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference
+	_jsii_.Get(
+		j,
+		"accountingDatabase",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerClusterOrchestratorSlurmOutputReference) AccountingDatabaseInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"accountingDatabaseInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_SagemakerClusterOrchestratorSlurmOutputReference) ComplexObjectIndex() interface{} {
@@ -451,6 +475,25 @@ func (s *jsiiProxy_SagemakerClusterOrchestratorSlurmOutputReference) Interpolati
 	)
 
 	return returns
+}
+
+func (s *jsiiProxy_SagemakerClusterOrchestratorSlurmOutputReference) PutAccountingDatabase(value *SagemakerClusterOrchestratorSlurmAccountingDatabase) {
+	if err := s.validatePutAccountingDatabaseParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putAccountingDatabase",
+		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SagemakerClusterOrchestratorSlurmOutputReference) ResetAccountingDatabase() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetAccountingDatabase",
+		nil, // no parameters
+	)
 }
 
 func (s *jsiiProxy_SagemakerClusterOrchestratorSlurmOutputReference) ResetSlurmConfigStrategy() {

@@ -7,15 +7,15 @@ package quicksightdatasource
 type QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAuroraPostgreSqlParameters struct {
 	// <p>The Amazon Aurora PostgreSQL database to connect to.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_data_source#database QuicksightDataSource#database}
 	Database *string `field:"optional" json:"database" yaml:"database"`
 	// <p>The Amazon Aurora PostgreSQL-Compatible host to connect to.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 	Host *string `field:"optional" json:"host" yaml:"host"`
 	// <p>The port that Amazon Aurora PostgreSQL is listening on.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 	Port *float64 `field:"optional" json:"port" yaml:"port"`
 }
 

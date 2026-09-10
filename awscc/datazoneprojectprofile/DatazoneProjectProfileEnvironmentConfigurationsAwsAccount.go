@@ -5,7 +5,7 @@ package datazoneprojectprofile
 
 
 type DatazoneProjectProfileEnvironmentConfigurationsAwsAccount struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_project_profile#aws_account_id DatazoneProjectProfile#aws_account_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_project_profile#aws_account_id DatazoneProjectProfile#aws_account_id}.
 	AwsAccountId *string `field:"optional" json:"awsAccountId" yaml:"awsAccountId"`
 }
 

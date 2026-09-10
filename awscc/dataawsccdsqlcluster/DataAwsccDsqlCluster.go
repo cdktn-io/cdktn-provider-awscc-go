@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/dsql_cluster awscc_dsql_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/dsql_cluster awscc_dsql_cluster}.
 type DataAwsccDsqlCluster interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccDsqlCluster) VpcEndpointServiceName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/dsql_cluster awscc_dsql_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/dsql_cluster awscc_dsql_cluster} Data Source.
 func NewDataAwsccDsqlCluster(scope constructs.Construct, id *string, config *DataAwsccDsqlClusterConfig) DataAwsccDsqlCluster {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccDsqlCluster(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/dsql_cluster awscc_dsql_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/dsql_cluster awscc_dsql_cluster} Data Source.
 func NewDataAwsccDsqlCluster_Override(d DataAwsccDsqlCluster, scope constructs.Construct, id *string, config *DataAwsccDsqlClusterConfig) {
 	_init_.Initialize()
 

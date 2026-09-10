@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connectcampaignsv2_campaign awscc_connectcampaignsv2_campaign}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connectcampaignsv2_campaign awscc_connectcampaignsv2_campaign}.
 type Connectcampaignsv2Campaign interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -628,7 +628,7 @@ func (j *jsiiProxy_Connectcampaignsv2Campaign) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connectcampaignsv2_campaign awscc_connectcampaignsv2_campaign} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connectcampaignsv2_campaign awscc_connectcampaignsv2_campaign} Resource.
 func NewConnectcampaignsv2Campaign(scope constructs.Construct, id *string, config *Connectcampaignsv2CampaignConfig) Connectcampaignsv2Campaign {
 	_init_.Initialize()
 
@@ -646,7 +646,7 @@ func NewConnectcampaignsv2Campaign(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connectcampaignsv2_campaign awscc_connectcampaignsv2_campaign} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connectcampaignsv2_campaign awscc_connectcampaignsv2_campaign} Resource.
 func NewConnectcampaignsv2Campaign_Override(c Connectcampaignsv2Campaign, scope constructs.Construct, id *string, config *Connectcampaignsv2CampaignConfig) {
 	_init_.Initialize()
 

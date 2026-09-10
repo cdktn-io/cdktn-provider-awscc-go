@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/directconnect_lag awscc_directconnect_lag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/directconnect_lag awscc_directconnect_lag}.
 type DirectconnectLag interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -553,7 +553,7 @@ func (j *jsiiProxy_DirectconnectLag) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/directconnect_lag awscc_directconnect_lag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/directconnect_lag awscc_directconnect_lag} Resource.
 func NewDirectconnectLag(scope constructs.Construct, id *string, config *DirectconnectLagConfig) DirectconnectLag {
 	_init_.Initialize()
 
@@ -571,7 +571,7 @@ func NewDirectconnectLag(scope constructs.Construct, id *string, config *Directc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/directconnect_lag awscc_directconnect_lag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/directconnect_lag awscc_directconnect_lag} Resource.
 func NewDirectconnectLag_Override(d DirectconnectLag, scope constructs.Construct, id *string, config *DirectconnectLagConfig) {
 	_init_.Initialize()
 

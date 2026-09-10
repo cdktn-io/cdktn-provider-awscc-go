@@ -22,15 +22,15 @@ type ConfigStoredQueryConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/config_stored_query#query_expression ConfigStoredQuery#query_expression}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/config_stored_query#query_expression ConfigStoredQuery#query_expression}.
 	QueryExpression *string `field:"required" json:"queryExpression" yaml:"queryExpression"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/config_stored_query#query_name ConfigStoredQuery#query_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/config_stored_query#query_name ConfigStoredQuery#query_name}.
 	QueryName *string `field:"required" json:"queryName" yaml:"queryName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/config_stored_query#query_description ConfigStoredQuery#query_description}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/config_stored_query#query_description ConfigStoredQuery#query_description}.
 	QueryDescription *string `field:"optional" json:"queryDescription" yaml:"queryDescription"`
 	// The tags for the stored query.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/config_stored_query#tags ConfigStoredQuery#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/config_stored_query#tags ConfigStoredQuery#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

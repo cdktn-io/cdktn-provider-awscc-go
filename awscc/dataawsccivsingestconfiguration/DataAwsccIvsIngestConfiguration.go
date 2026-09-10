@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ivs_ingest_configuration awscc_ivs_ingest_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ivs_ingest_configuration awscc_ivs_ingest_configuration}.
 type DataAwsccIvsIngestConfiguration interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccIvsIngestConfiguration) UserId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ivs_ingest_configuration awscc_ivs_ingest_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ivs_ingest_configuration awscc_ivs_ingest_configuration} Data Source.
 func NewDataAwsccIvsIngestConfiguration(scope constructs.Construct, id *string, config *DataAwsccIvsIngestConfigurationConfig) DataAwsccIvsIngestConfiguration {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccIvsIngestConfiguration(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ivs_ingest_configuration awscc_ivs_ingest_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ivs_ingest_configuration awscc_ivs_ingest_configuration} Data Source.
 func NewDataAwsccIvsIngestConfiguration_Override(d DataAwsccIvsIngestConfiguration, scope constructs.Construct, id *string, config *DataAwsccIvsIngestConfigurationConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint awscc_sagemaker_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint awscc_sagemaker_endpoint}.
 type SagemakerEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -38,6 +38,8 @@ type SagemakerEndpoint interface {
 	SetEndpointConfigName(val *string)
 	EndpointConfigNameInput() *string
 	EndpointName() *string
+	SetEndpointName(val *string)
+	EndpointNameInput() *string
 	ExcludeRetainedVariantProperties() SagemakerEndpointExcludeRetainedVariantPropertiesList
 	ExcludeRetainedVariantPropertiesInput() interface{}
 	// Experimental.
@@ -175,6 +177,7 @@ type SagemakerEndpoint interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetDeploymentConfig()
+	ResetEndpointName()
 	ResetExcludeRetainedVariantProperties()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -314,6 +317,16 @@ func (j *jsiiProxy_SagemakerEndpoint) EndpointName() *string {
 	_jsii_.Get(
 		j,
 		"endpointName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerEndpoint) EndpointNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"endpointNameInput",
 		&returns,
 	)
 	return returns
@@ -520,7 +533,7 @@ func (j *jsiiProxy_SagemakerEndpoint) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint awscc_sagemaker_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint awscc_sagemaker_endpoint} Resource.
 func NewSagemakerEndpoint(scope constructs.Construct, id *string, config *SagemakerEndpointConfig) SagemakerEndpoint {
 	_init_.Initialize()
 
@@ -538,7 +551,7 @@ func NewSagemakerEndpoint(scope constructs.Construct, id *string, config *Sagema
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_endpoint awscc_sagemaker_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint awscc_sagemaker_endpoint} Resource.
 func NewSagemakerEndpoint_Override(s SagemakerEndpoint, scope constructs.Construct, id *string, config *SagemakerEndpointConfig) {
 	_init_.Initialize()
 
@@ -586,6 +599,17 @@ func (j *jsiiProxy_SagemakerEndpoint)SetEndpointConfigName(val *string) {
 	_jsii_.Set(
 		j,
 		"endpointConfigName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SagemakerEndpoint)SetEndpointName(val *string) {
+	if err := j.validateSetEndpointNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"endpointName",
 		val,
 	)
 }
@@ -1067,6 +1091,14 @@ func (s *jsiiProxy_SagemakerEndpoint) ResetDeploymentConfig() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetDeploymentConfig",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SagemakerEndpoint) ResetEndpointName() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetEndpointName",
 		nil, // no parameters
 	)
 }

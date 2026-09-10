@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/amplify_webhook awscc_amplify_webhook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/amplify_webhook awscc_amplify_webhook}.
 type DataAwsccAmplifyWebhook interface {
 	cdktn.TerraformDataSource
 	AppId() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccAmplifyWebhook) WebhookUrl() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/amplify_webhook awscc_amplify_webhook} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/amplify_webhook awscc_amplify_webhook} Data Source.
 func NewDataAwsccAmplifyWebhook(scope constructs.Construct, id *string, config *DataAwsccAmplifyWebhookConfig) DataAwsccAmplifyWebhook {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccAmplifyWebhook(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/amplify_webhook awscc_amplify_webhook} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/amplify_webhook awscc_amplify_webhook} Data Source.
 func NewDataAwsccAmplifyWebhook_Override(d DataAwsccAmplifyWebhook, scope constructs.Construct, id *string, config *DataAwsccAmplifyWebhookConfig) {
 	_init_.Initialize()
 

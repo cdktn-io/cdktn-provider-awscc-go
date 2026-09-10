@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appintegrations_application awscc_appintegrations_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appintegrations_application awscc_appintegrations_application}.
 type AppintegrationsApplication interface {
 	cdktn.TerraformResource
 	ApplicationArn() *string
@@ -638,7 +638,7 @@ func (j *jsiiProxy_AppintegrationsApplication) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appintegrations_application awscc_appintegrations_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appintegrations_application awscc_appintegrations_application} Resource.
 func NewAppintegrationsApplication(scope constructs.Construct, id *string, config *AppintegrationsApplicationConfig) AppintegrationsApplication {
 	_init_.Initialize()
 
@@ -656,7 +656,7 @@ func NewAppintegrationsApplication(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appintegrations_application awscc_appintegrations_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appintegrations_application awscc_appintegrations_application} Resource.
 func NewAppintegrationsApplication_Override(a AppintegrationsApplication, scope constructs.Construct, id *string, config *AppintegrationsApplicationConfig) {
 	_init_.Initialize()
 

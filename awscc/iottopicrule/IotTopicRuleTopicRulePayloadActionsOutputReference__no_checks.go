@@ -79,6 +79,10 @@ func (i *jsiiProxy_IotTopicRuleTopicRulePayloadActionsOutputReference) validateP
 	return nil
 }
 
+func (i *jsiiProxy_IotTopicRuleTopicRulePayloadActionsOutputReference) validatePutInfluxDbParameters(value *IotTopicRuleTopicRulePayloadActionsInfluxDb) error {
+	return nil
+}
+
 func (i *jsiiProxy_IotTopicRuleTopicRulePayloadActionsOutputReference) validatePutIotAnalyticsParameters(value *IotTopicRuleTopicRulePayloadActionsIotAnalytics) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster awscc_eks_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/eks_cluster awscc_eks_cluster}.
 type EksCluster interface {
 	cdktn.TerraformResource
 	AccessConfig() EksClusterAccessConfigOutputReference
@@ -982,7 +982,7 @@ func (j *jsiiProxy_EksCluster) ZonalShiftConfigInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster awscc_eks_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/eks_cluster awscc_eks_cluster} Resource.
 func NewEksCluster(scope constructs.Construct, id *string, config *EksClusterConfig) EksCluster {
 	_init_.Initialize()
 
@@ -1000,7 +1000,7 @@ func NewEksCluster(scope constructs.Construct, id *string, config *EksClusterCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster awscc_eks_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/eks_cluster awscc_eks_cluster} Resource.
 func NewEksCluster_Override(e EksCluster, scope constructs.Construct, id *string, config *EksClusterConfig) {
 	_init_.Initialize()
 

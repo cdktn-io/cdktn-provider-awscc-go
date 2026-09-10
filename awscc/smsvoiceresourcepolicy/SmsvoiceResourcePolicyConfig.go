@@ -24,11 +24,11 @@ type SmsvoiceResourcePolicyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The JSON formatted resource-based policy to attach.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/smsvoice_resource_policy#policy_document SmsvoiceResourcePolicy#policy_document}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/smsvoice_resource_policy#policy_document SmsvoiceResourcePolicy#policy_document}
 	PolicyDocument *string `field:"required" json:"policyDocument" yaml:"policyDocument"`
 	// The Amazon Resource Name (ARN) of the AWS End User Messaging SMS and Voice resource to attach the resource-based policy to.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/smsvoice_resource_policy#resource_arn SmsvoiceResourcePolicy#resource_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/smsvoice_resource_policy#resource_arn SmsvoiceResourcePolicy#resource_arn}
 	ResourceArn *string `field:"required" json:"resourceArn" yaml:"resourceArn"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/omics_workflow_version awscc_omics_workflow_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/omics_workflow_version awscc_omics_workflow_version}.
 type DataAwsccOmicsWorkflowVersion interface {
 	cdktn.TerraformDataSource
 	Accelerators() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccOmicsWorkflowVersion) WorkflowId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/omics_workflow_version awscc_omics_workflow_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/omics_workflow_version awscc_omics_workflow_version} Data Source.
 func NewDataAwsccOmicsWorkflowVersion(scope constructs.Construct, id *string, config *DataAwsccOmicsWorkflowVersionConfig) DataAwsccOmicsWorkflowVersion {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccOmicsWorkflowVersion(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/omics_workflow_version awscc_omics_workflow_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/omics_workflow_version awscc_omics_workflow_version} Data Source.
 func NewDataAwsccOmicsWorkflowVersion_Override(d DataAwsccOmicsWorkflowVersion, scope constructs.Construct, id *string, config *DataAwsccOmicsWorkflowVersionConfig) {
 	_init_.Initialize()
 

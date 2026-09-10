@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ipam awscc_ec2_ipam}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_ipam awscc_ec2_ipam}.
 type DataAwsccEc2Ipam interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccEc2Ipam) Tier() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ipam awscc_ec2_ipam} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_ipam awscc_ec2_ipam} Data Source.
 func NewDataAwsccEc2Ipam(scope constructs.Construct, id *string, config *DataAwsccEc2IpamConfig) DataAwsccEc2Ipam {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccEc2Ipam(scope constructs.Construct, id *string, config *DataAws
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_ipam awscc_ec2_ipam} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_ipam awscc_ec2_ipam} Data Source.
 func NewDataAwsccEc2Ipam_Override(d DataAwsccEc2Ipam, scope constructs.Construct, id *string, config *DataAwsccEc2IpamConfig) {
 	_init_.Initialize()
 

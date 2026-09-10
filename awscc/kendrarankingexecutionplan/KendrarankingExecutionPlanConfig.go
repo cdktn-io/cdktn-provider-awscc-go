@@ -24,19 +24,19 @@ type KendrarankingExecutionPlanConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Name of kendra ranking rescore execution plan.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendraranking_execution_plan#name KendrarankingExecutionPlan#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kendraranking_execution_plan#name KendrarankingExecutionPlan#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Capacity units.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendraranking_execution_plan#capacity_units KendrarankingExecutionPlan#capacity_units}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kendraranking_execution_plan#capacity_units KendrarankingExecutionPlan#capacity_units}
 	CapacityUnits *KendrarankingExecutionPlanCapacityUnits `field:"optional" json:"capacityUnits" yaml:"capacityUnits"`
 	// A description for the execution plan.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendraranking_execution_plan#description KendrarankingExecutionPlan#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kendraranking_execution_plan#description KendrarankingExecutionPlan#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Tags for labeling the execution plan.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendraranking_execution_plan#tags KendrarankingExecutionPlan#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kendraranking_execution_plan#tags KendrarankingExecutionPlan#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

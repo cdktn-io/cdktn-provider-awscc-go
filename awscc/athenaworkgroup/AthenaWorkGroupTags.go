@@ -5,9 +5,9 @@ package athenaworkgroup
 
 
 type AthenaWorkGroupTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/athena_work_group#key AthenaWorkGroup#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/athena_work_group#key AthenaWorkGroup#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/athena_work_group#value AthenaWorkGroup#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/athena_work_group#value AthenaWorkGroup#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

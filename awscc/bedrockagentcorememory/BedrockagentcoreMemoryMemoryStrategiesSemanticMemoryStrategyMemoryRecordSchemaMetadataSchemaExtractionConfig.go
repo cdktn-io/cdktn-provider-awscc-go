@@ -5,7 +5,7 @@ package bedrockagentcorememory
 
 
 type BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#llm_extraction_config BedrockagentcoreMemory#llm_extraction_config}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrockagentcore_memory#llm_extraction_config BedrockagentcoreMemory#llm_extraction_config}.
 	LlmExtractionConfig *BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyMemoryRecordSchemaMetadataSchemaExtractionConfigLlmExtractionConfig `field:"optional" json:"llmExtractionConfig" yaml:"llmExtractionConfig"`
 }
 

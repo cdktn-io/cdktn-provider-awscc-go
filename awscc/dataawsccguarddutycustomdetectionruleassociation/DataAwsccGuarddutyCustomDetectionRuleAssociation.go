@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/guardduty_custom_detection_rule_association awscc_guardduty_custom_detection_rule_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/guardduty_custom_detection_rule_association awscc_guardduty_custom_detection_rule_association}.
 type DataAwsccGuarddutyCustomDetectionRuleAssociation interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccGuarddutyCustomDetectionRuleAssociation) UpdatedAt()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/guardduty_custom_detection_rule_association awscc_guardduty_custom_detection_rule_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/guardduty_custom_detection_rule_association awscc_guardduty_custom_detection_rule_association} Data Source.
 func NewDataAwsccGuarddutyCustomDetectionRuleAssociation(scope constructs.Construct, id *string, config *DataAwsccGuarddutyCustomDetectionRuleAssociationConfig) DataAwsccGuarddutyCustomDetectionRuleAssociation {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccGuarddutyCustomDetectionRuleAssociation(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/guardduty_custom_detection_rule_association awscc_guardduty_custom_detection_rule_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/guardduty_custom_detection_rule_association awscc_guardduty_custom_detection_rule_association} Data Source.
 func NewDataAwsccGuarddutyCustomDetectionRuleAssociation_Override(d DataAwsccGuarddutyCustomDetectionRuleAssociation, scope constructs.Construct, id *string, config *DataAwsccGuarddutyCustomDetectionRuleAssociationConfig) {
 	_init_.Initialize()
 

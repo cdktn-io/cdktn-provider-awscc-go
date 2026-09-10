@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/devopsagent_private_connection awscc_devopsagent_private_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/devopsagent_private_connection awscc_devopsagent_private_connection}.
 type DataAwsccDevopsagentPrivateConnection interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccDevopsagentPrivateConnection) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/devopsagent_private_connection awscc_devopsagent_private_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/devopsagent_private_connection awscc_devopsagent_private_connection} Data Source.
 func NewDataAwsccDevopsagentPrivateConnection(scope constructs.Construct, id *string, config *DataAwsccDevopsagentPrivateConnectionConfig) DataAwsccDevopsagentPrivateConnection {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccDevopsagentPrivateConnection(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/devopsagent_private_connection awscc_devopsagent_private_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/devopsagent_private_connection awscc_devopsagent_private_connection} Data Source.
 func NewDataAwsccDevopsagentPrivateConnection_Override(d DataAwsccDevopsagentPrivateConnection, scope constructs.Construct, id *string, config *DataAwsccDevopsagentPrivateConnectionConfig) {
 	_init_.Initialize()
 

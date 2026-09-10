@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/events_rule awscc_events_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/events_rule awscc_events_rule}.
 type EventsRule interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -593,7 +593,7 @@ func (j *jsiiProxy_EventsRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/events_rule awscc_events_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/events_rule awscc_events_rule} Resource.
 func NewEventsRule(scope constructs.Construct, id *string, config *EventsRuleConfig) EventsRule {
 	_init_.Initialize()
 
@@ -611,7 +611,7 @@ func NewEventsRule(scope constructs.Construct, id *string, config *EventsRuleCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/events_rule awscc_events_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/events_rule awscc_events_rule} Resource.
 func NewEventsRule_Override(e EventsRule, scope constructs.Construct, id *string, config *EventsRuleConfig) {
 	_init_.Initialize()
 

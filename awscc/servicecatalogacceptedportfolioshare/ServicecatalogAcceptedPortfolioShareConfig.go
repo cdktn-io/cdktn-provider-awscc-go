@@ -24,11 +24,11 @@ type ServicecatalogAcceptedPortfolioShareConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The portfolio identifier.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_accepted_portfolio_share#portfolio_id ServicecatalogAcceptedPortfolioShare#portfolio_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/servicecatalog_accepted_portfolio_share#portfolio_id ServicecatalogAcceptedPortfolioShare#portfolio_id}
 	PortfolioId *string `field:"required" json:"portfolioId" yaml:"portfolioId"`
 	// The language code.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_accepted_portfolio_share#accept_language ServicecatalogAcceptedPortfolioShare#accept_language}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/servicecatalog_accepted_portfolio_share#accept_language ServicecatalogAcceptedPortfolioShare#accept_language}
 	AcceptLanguage *string `field:"optional" json:"acceptLanguage" yaml:"acceptLanguage"`
 }
 

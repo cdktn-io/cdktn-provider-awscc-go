@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/batch_compute_environment awscc_batch_compute_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/batch_compute_environment awscc_batch_compute_environment}.
 type DataAwsccBatchComputeEnvironment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccBatchComputeEnvironment) UpdatePolicy() DataAwsccBat
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/batch_compute_environment awscc_batch_compute_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/batch_compute_environment awscc_batch_compute_environment} Data Source.
 func NewDataAwsccBatchComputeEnvironment(scope constructs.Construct, id *string, config *DataAwsccBatchComputeEnvironmentConfig) DataAwsccBatchComputeEnvironment {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccBatchComputeEnvironment(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/batch_compute_environment awscc_batch_compute_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/batch_compute_environment awscc_batch_compute_environment} Data Source.
 func NewDataAwsccBatchComputeEnvironment_Override(d DataAwsccBatchComputeEnvironment, scope constructs.Construct, id *string, config *DataAwsccBatchComputeEnvironmentConfig) {
 	_init_.Initialize()
 

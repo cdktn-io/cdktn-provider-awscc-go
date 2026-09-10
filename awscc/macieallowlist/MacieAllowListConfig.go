@@ -24,19 +24,19 @@ type MacieAllowListConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// AllowList criteria.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/macie_allow_list#criteria MacieAllowList#criteria}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/macie_allow_list#criteria MacieAllowList#criteria}
 	Criteria *MacieAllowListCriteria `field:"required" json:"criteria" yaml:"criteria"`
 	// Name of AllowList.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/macie_allow_list#name MacieAllowList#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/macie_allow_list#name MacieAllowList#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Description of AllowList.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/macie_allow_list#description MacieAllowList#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/macie_allow_list#description MacieAllowList#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// A collection of tags associated with a resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/macie_allow_list#tags MacieAllowList#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/macie_allow_list#tags MacieAllowList#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

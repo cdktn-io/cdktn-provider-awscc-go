@@ -5,9 +5,9 @@ package iottopicrule
 
 
 type IotTopicRuleTopicRulePayloadErrorActionTimestreamDimensions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule#name IotTopicRule#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule#name IotTopicRule#name}.
 	Name *string `field:"optional" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_topic_rule#value IotTopicRule#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_topic_rule#value IotTopicRule#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

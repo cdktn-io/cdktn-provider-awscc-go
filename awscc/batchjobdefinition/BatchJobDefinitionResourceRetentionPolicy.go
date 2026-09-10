@@ -5,7 +5,7 @@ package batchjobdefinition
 
 
 type BatchJobDefinitionResourceRetentionPolicy struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/batch_job_definition#skip_deregister_on_update BatchJobDefinition#skip_deregister_on_update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/batch_job_definition#skip_deregister_on_update BatchJobDefinition#skip_deregister_on_update}.
 	SkipDeregisterOnUpdate interface{} `field:"optional" json:"skipDeregisterOnUpdate" yaml:"skipDeregisterOnUpdate"`
 }
 

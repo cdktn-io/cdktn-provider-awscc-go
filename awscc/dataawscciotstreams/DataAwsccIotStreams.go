@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_streams awscc_iot_streams}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iot_streams awscc_iot_streams}.
 type DataAwsccIotStreams interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotStreams) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_streams awscc_iot_streams} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iot_streams awscc_iot_streams} Data Source.
 func NewDataAwsccIotStreams(scope constructs.Construct, id *string, config *DataAwsccIotStreamsConfig) DataAwsccIotStreams {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotStreams(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iot_streams awscc_iot_streams} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iot_streams awscc_iot_streams} Data Source.
 func NewDataAwsccIotStreams_Override(d DataAwsccIotStreams, scope constructs.Construct, id *string, config *DataAwsccIotStreamsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_template awscc_cases_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cases_template awscc_cases_template}.
 type CasesTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -590,7 +590,7 @@ func (j *jsiiProxy_CasesTemplate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_template awscc_cases_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cases_template awscc_cases_template} Resource.
 func NewCasesTemplate(scope constructs.Construct, id *string, config *CasesTemplateConfig) CasesTemplate {
 	_init_.Initialize()
 
@@ -608,7 +608,7 @@ func NewCasesTemplate(scope constructs.Construct, id *string, config *CasesTempl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cases_template awscc_cases_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cases_template awscc_cases_template} Resource.
 func NewCasesTemplate_Override(c CasesTemplate, scope constructs.Construct, id *string, config *CasesTemplateConfig) {
 	_init_.Initialize()
 

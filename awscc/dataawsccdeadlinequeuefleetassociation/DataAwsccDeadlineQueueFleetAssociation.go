@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/deadline_queue_fleet_association awscc_deadline_queue_fleet_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/deadline_queue_fleet_association awscc_deadline_queue_fleet_association}.
 type DataAwsccDeadlineQueueFleetAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccDeadlineQueueFleetAssociation) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/deadline_queue_fleet_association awscc_deadline_queue_fleet_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/deadline_queue_fleet_association awscc_deadline_queue_fleet_association} Data Source.
 func NewDataAwsccDeadlineQueueFleetAssociation(scope constructs.Construct, id *string, config *DataAwsccDeadlineQueueFleetAssociationConfig) DataAwsccDeadlineQueueFleetAssociation {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccDeadlineQueueFleetAssociation(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/deadline_queue_fleet_association awscc_deadline_queue_fleet_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/deadline_queue_fleet_association awscc_deadline_queue_fleet_association} Data Source.
 func NewDataAwsccDeadlineQueueFleetAssociation_Override(d DataAwsccDeadlineQueueFleetAssociation, scope constructs.Construct, id *string, config *DataAwsccDeadlineQueueFleetAssociationConfig) {
 	_init_.Initialize()
 

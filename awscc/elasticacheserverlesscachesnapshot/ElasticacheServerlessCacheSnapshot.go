@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elasticache_serverless_cache_snapshot awscc_elasticache_serverless_cache_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/elasticache_serverless_cache_snapshot awscc_elasticache_serverless_cache_snapshot}.
 type ElasticacheServerlessCacheSnapshot interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -515,7 +515,7 @@ func (j *jsiiProxy_ElasticacheServerlessCacheSnapshot) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elasticache_serverless_cache_snapshot awscc_elasticache_serverless_cache_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/elasticache_serverless_cache_snapshot awscc_elasticache_serverless_cache_snapshot} Resource.
 func NewElasticacheServerlessCacheSnapshot(scope constructs.Construct, id *string, config *ElasticacheServerlessCacheSnapshotConfig) ElasticacheServerlessCacheSnapshot {
 	_init_.Initialize()
 
@@ -533,7 +533,7 @@ func NewElasticacheServerlessCacheSnapshot(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elasticache_serverless_cache_snapshot awscc_elasticache_serverless_cache_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/elasticache_serverless_cache_snapshot awscc_elasticache_serverless_cache_snapshot} Resource.
 func NewElasticacheServerlessCacheSnapshot_Override(e ElasticacheServerlessCacheSnapshot, scope constructs.Construct, id *string, config *ElasticacheServerlessCacheSnapshotConfig) {
 	_init_.Initialize()
 

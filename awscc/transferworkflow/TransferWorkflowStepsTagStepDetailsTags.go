@@ -7,11 +7,11 @@ package transferworkflow
 type TransferWorkflowStepsTagStepDetailsTags struct {
 	// The name assigned to the tag that you create.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/transfer_workflow#key TransferWorkflow#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value that corresponds to the key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/transfer_workflow#value TransferWorkflow#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/transfer_workflow#value TransferWorkflow#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

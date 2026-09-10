@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cognito_identity_pool_role_attachment awscc_cognito_identity_pool_role_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cognito_identity_pool_role_attachment awscc_cognito_identity_pool_role_attachment}.
 type DataAwsccCognitoIdentityPoolRoleAttachment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccCognitoIdentityPoolRoleAttachment) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cognito_identity_pool_role_attachment awscc_cognito_identity_pool_role_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cognito_identity_pool_role_attachment awscc_cognito_identity_pool_role_attachment} Data Source.
 func NewDataAwsccCognitoIdentityPoolRoleAttachment(scope constructs.Construct, id *string, config *DataAwsccCognitoIdentityPoolRoleAttachmentConfig) DataAwsccCognitoIdentityPoolRoleAttachment {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccCognitoIdentityPoolRoleAttachment(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cognito_identity_pool_role_attachment awscc_cognito_identity_pool_role_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cognito_identity_pool_role_attachment awscc_cognito_identity_pool_role_attachment} Data Source.
 func NewDataAwsccCognitoIdentityPoolRoleAttachment_Override(d DataAwsccCognitoIdentityPoolRoleAttachment, scope constructs.Construct, id *string, config *DataAwsccCognitoIdentityPoolRoleAttachmentConfig) {
 	_init_.Initialize()
 

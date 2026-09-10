@@ -7,9 +7,9 @@ package appsyncchannelnamespace
 type AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegration struct {
 	// Data source to invoke for this integration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_channel_namespace#data_source_name AppsyncChannelNamespace#data_source_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appsync_channel_namespace#data_source_name AppsyncChannelNamespace#data_source_name}
 	DataSourceName *string `field:"optional" json:"dataSourceName" yaml:"dataSourceName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_channel_namespace#lambda_config AppsyncChannelNamespace#lambda_config}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appsync_channel_namespace#lambda_config AppsyncChannelNamespace#lambda_config}.
 	LambdaConfig *AppsyncChannelNamespaceHandlerConfigsOnSubscribeIntegrationLambdaConfig `field:"optional" json:"lambdaConfig" yaml:"lambdaConfig"`
 }
 

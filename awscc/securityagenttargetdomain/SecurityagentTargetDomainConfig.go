@@ -24,15 +24,15 @@ type SecurityagentTargetDomainConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Domain name of the target domain.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityagent_target_domain#target_domain_name SecurityagentTargetDomain#target_domain_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityagent_target_domain#target_domain_name SecurityagentTargetDomain#target_domain_name}
 	TargetDomainName *string `field:"required" json:"targetDomainName" yaml:"targetDomainName"`
 	// Verification method for the target domain.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityagent_target_domain#verification_method SecurityagentTargetDomain#verification_method}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityagent_target_domain#verification_method SecurityagentTargetDomain#verification_method}
 	VerificationMethod *string `field:"required" json:"verificationMethod" yaml:"verificationMethod"`
 	// Tags for the target domain.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityagent_target_domain#tags SecurityagentTargetDomain#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityagent_target_domain#tags SecurityagentTargetDomain#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

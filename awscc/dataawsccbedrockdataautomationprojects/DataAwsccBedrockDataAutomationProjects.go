@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrock_data_automation_projects awscc_bedrock_data_automation_projects}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrock_data_automation_projects awscc_bedrock_data_automation_projects}.
 type DataAwsccBedrockDataAutomationProjects interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockDataAutomationProjects) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrock_data_automation_projects awscc_bedrock_data_automation_projects} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrock_data_automation_projects awscc_bedrock_data_automation_projects} Data Source.
 func NewDataAwsccBedrockDataAutomationProjects(scope constructs.Construct, id *string, config *DataAwsccBedrockDataAutomationProjectsConfig) DataAwsccBedrockDataAutomationProjects {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockDataAutomationProjects(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrock_data_automation_projects awscc_bedrock_data_automation_projects} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrock_data_automation_projects awscc_bedrock_data_automation_projects} Data Source.
 func NewDataAwsccBedrockDataAutomationProjects_Override(d DataAwsccBedrockDataAutomationProjects, scope constructs.Construct, id *string, config *DataAwsccBedrockDataAutomationProjectsConfig) {
 	_init_.Initialize()
 

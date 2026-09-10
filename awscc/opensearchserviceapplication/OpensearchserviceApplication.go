@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearchservice_application awscc_opensearchservice_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/opensearchservice_application awscc_opensearchservice_application}.
 type OpensearchserviceApplication interface {
 	cdktn.TerraformResource
 	AppConfigs() OpensearchserviceApplicationAppConfigsList
@@ -544,7 +544,7 @@ func (j *jsiiProxy_OpensearchserviceApplication) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearchservice_application awscc_opensearchservice_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/opensearchservice_application awscc_opensearchservice_application} Resource.
 func NewOpensearchserviceApplication(scope constructs.Construct, id *string, config *OpensearchserviceApplicationConfig) OpensearchserviceApplication {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewOpensearchserviceApplication(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearchservice_application awscc_opensearchservice_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/opensearchservice_application awscc_opensearchservice_application} Resource.
 func NewOpensearchserviceApplication_Override(o OpensearchserviceApplication, scope constructs.Construct, id *string, config *OpensearchserviceApplicationConfig) {
 	_init_.Initialize()
 

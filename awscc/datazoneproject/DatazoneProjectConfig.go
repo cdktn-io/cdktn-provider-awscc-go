@@ -24,53 +24,53 @@ type DatazoneProjectConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID of the Amazon DataZone domain in which this project is created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_project#domain_identifier DatazoneProject#domain_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_project#domain_identifier DatazoneProject#domain_identifier}
 	DomainIdentifier *string `field:"required" json:"domainIdentifier" yaml:"domainIdentifier"`
 	// The name of the Amazon DataZone project.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_project#name DatazoneProject#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_project#name DatazoneProject#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The description of the Amazon DataZone project.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_project#description DatazoneProject#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_project#description DatazoneProject#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The ID of the domain unit.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_project#domain_unit_id DatazoneProject#domain_unit_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_project#domain_unit_id DatazoneProject#domain_unit_id}
 	DomainUnitId *string `field:"optional" json:"domainUnitId" yaml:"domainUnitId"`
 	// The glossary terms that can be used in this Amazon DataZone project.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_project#glossary_terms DatazoneProject#glossary_terms}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_project#glossary_terms DatazoneProject#glossary_terms}
 	GlossaryTerms *[]*string `field:"optional" json:"glossaryTerms" yaml:"glossaryTerms"`
 	// The project membership assignments.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_project#membership_assignments DatazoneProject#membership_assignments}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_project#membership_assignments DatazoneProject#membership_assignments}
 	MembershipAssignments interface{} `field:"optional" json:"membershipAssignments" yaml:"membershipAssignments"`
 	// The project category.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_project#project_category DatazoneProject#project_category}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_project#project_category DatazoneProject#project_category}
 	ProjectCategory *string `field:"optional" json:"projectCategory" yaml:"projectCategory"`
 	// The project execution role ARN.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_project#project_execution_role DatazoneProject#project_execution_role}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_project#project_execution_role DatazoneProject#project_execution_role}
 	ProjectExecutionRole *string `field:"optional" json:"projectExecutionRole" yaml:"projectExecutionRole"`
 	// The project profile ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_project#project_profile_id DatazoneProject#project_profile_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_project#project_profile_id DatazoneProject#project_profile_id}
 	ProjectProfileId *string `field:"optional" json:"projectProfileId" yaml:"projectProfileId"`
 	// The project profile version to which the project should be updated.
 	//
 	// You can only specify the following string for this parameter: latest.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_project#project_profile_version DatazoneProject#project_profile_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_project#project_profile_version DatazoneProject#project_profile_version}
 	ProjectProfileVersion *string `field:"optional" json:"projectProfileVersion" yaml:"projectProfileVersion"`
 	// The resource tags of the project.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_project#resource_tags DatazoneProject#resource_tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_project#resource_tags DatazoneProject#resource_tags}
 	ResourceTags interface{} `field:"optional" json:"resourceTags" yaml:"resourceTags"`
 	// The user parameters of the project.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_project#user_parameters DatazoneProject#user_parameters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_project#user_parameters DatazoneProject#user_parameters}
 	UserParameters interface{} `field:"optional" json:"userParameters" yaml:"userParameters"`
 }
 

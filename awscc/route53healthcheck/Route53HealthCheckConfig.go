@@ -24,11 +24,11 @@ type Route53HealthCheckConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A complex type that contains information about the health check.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_health_check#health_check_config Route53HealthCheck#health_check_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53_health_check#health_check_config Route53HealthCheck#health_check_config}
 	HealthCheckConfig *Route53HealthCheckHealthCheckConfig `field:"required" json:"healthCheckConfig" yaml:"healthCheckConfig"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/route53_health_check#health_check_tags Route53HealthCheck#health_check_tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53_health_check#health_check_tags Route53HealthCheck#health_check_tags}
 	HealthCheckTags interface{} `field:"optional" json:"healthCheckTags" yaml:"healthCheckTags"`
 }
 

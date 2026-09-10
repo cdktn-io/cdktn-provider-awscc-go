@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/deadline_budget awscc_deadline_budget}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/deadline_budget awscc_deadline_budget}.
 type DataAwsccDeadlineBudget interface {
 	cdktn.TerraformDataSource
 	Actions() DataAwsccDeadlineBudgetActionsList
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccDeadlineBudget) UsageTrackingResource() DataAwsccDea
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/deadline_budget awscc_deadline_budget} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/deadline_budget awscc_deadline_budget} Data Source.
 func NewDataAwsccDeadlineBudget(scope constructs.Construct, id *string, config *DataAwsccDeadlineBudgetConfig) DataAwsccDeadlineBudget {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccDeadlineBudget(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/deadline_budget awscc_deadline_budget} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/deadline_budget awscc_deadline_budget} Data Source.
 func NewDataAwsccDeadlineBudget_Override(d DataAwsccDeadlineBudget, scope constructs.Construct, id *string, config *DataAwsccDeadlineBudgetConfig) {
 	_init_.Initialize()
 

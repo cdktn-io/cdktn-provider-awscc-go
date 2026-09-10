@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/notifications_notification_hub awscc_notifications_notification_hub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_notification_hub awscc_notifications_notification_hub}.
 type NotificationsNotificationHub interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -400,7 +400,7 @@ func (j *jsiiProxy_NotificationsNotificationHub) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/notifications_notification_hub awscc_notifications_notification_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_notification_hub awscc_notifications_notification_hub} Resource.
 func NewNotificationsNotificationHub(scope constructs.Construct, id *string, config *NotificationsNotificationHubConfig) NotificationsNotificationHub {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewNotificationsNotificationHub(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/notifications_notification_hub awscc_notifications_notification_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_notification_hub awscc_notifications_notification_hub} Resource.
 func NewNotificationsNotificationHub_Override(n NotificationsNotificationHub, scope constructs.Construct, id *string, config *NotificationsNotificationHubConfig) {
 	_init_.Initialize()
 

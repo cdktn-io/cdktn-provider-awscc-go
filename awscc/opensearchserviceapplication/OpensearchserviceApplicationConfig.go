@@ -24,31 +24,31 @@ type OpensearchserviceApplicationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the application.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearchservice_application#name OpensearchserviceApplication#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/opensearchservice_application#name OpensearchserviceApplication#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// List of application configurations.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearchservice_application#app_configs OpensearchserviceApplication#app_configs}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/opensearchservice_application#app_configs OpensearchserviceApplication#app_configs}
 	AppConfigs interface{} `field:"optional" json:"appConfigs" yaml:"appConfigs"`
 	// List of data sources.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearchservice_application#data_sources OpensearchserviceApplication#data_sources}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/opensearchservice_application#data_sources OpensearchserviceApplication#data_sources}
 	DataSources interface{} `field:"optional" json:"dataSources" yaml:"dataSources"`
 	// The endpoint for the application.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearchservice_application#endpoint OpensearchserviceApplication#endpoint}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/opensearchservice_application#endpoint OpensearchserviceApplication#endpoint}
 	Endpoint *string `field:"optional" json:"endpoint" yaml:"endpoint"`
 	// Options for configuring IAM Identity Center.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearchservice_application#iam_identity_center_options OpensearchserviceApplication#iam_identity_center_options}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/opensearchservice_application#iam_identity_center_options OpensearchserviceApplication#iam_identity_center_options}
 	IamIdentityCenterOptions *OpensearchserviceApplicationIamIdentityCenterOptions `field:"optional" json:"iamIdentityCenterOptions" yaml:"iamIdentityCenterOptions"`
 	// The ARN of the KMS key used to encrypt the application.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearchservice_application#kms_key_arn OpensearchserviceApplication#kms_key_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/opensearchservice_application#kms_key_arn OpensearchserviceApplication#kms_key_arn}
 	KmsKeyArn *string `field:"optional" json:"kmsKeyArn" yaml:"kmsKeyArn"`
 	// An arbitrary set of tags (key-value pairs) for this application.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearchservice_application#tags OpensearchserviceApplication#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/opensearchservice_application#tags OpensearchserviceApplication#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

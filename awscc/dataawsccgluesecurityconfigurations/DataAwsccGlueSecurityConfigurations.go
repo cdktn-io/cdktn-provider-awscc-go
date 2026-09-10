@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/glue_security_configurations awscc_glue_security_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/glue_security_configurations awscc_glue_security_configurations}.
 type DataAwsccGlueSecurityConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGlueSecurityConfigurations) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/glue_security_configurations awscc_glue_security_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/glue_security_configurations awscc_glue_security_configurations} Data Source.
 func NewDataAwsccGlueSecurityConfigurations(scope constructs.Construct, id *string, config *DataAwsccGlueSecurityConfigurationsConfig) DataAwsccGlueSecurityConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGlueSecurityConfigurations(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/glue_security_configurations awscc_glue_security_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/glue_security_configurations awscc_glue_security_configurations} Data Source.
 func NewDataAwsccGlueSecurityConfigurations_Override(d DataAwsccGlueSecurityConfigurations, scope constructs.Construct, id *string, config *DataAwsccGlueSecurityConfigurationsConfig) {
 	_init_.Initialize()
 

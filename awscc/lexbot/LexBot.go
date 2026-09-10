@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot awscc_lex_bot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lex_bot awscc_lex_bot}.
 type LexBot interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -637,7 +637,7 @@ func (j *jsiiProxy_LexBot) TestBotAliasTagsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot awscc_lex_bot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lex_bot awscc_lex_bot} Resource.
 func NewLexBot(scope constructs.Construct, id *string, config *LexBotConfig) LexBot {
 	_init_.Initialize()
 
@@ -655,7 +655,7 @@ func NewLexBot(scope constructs.Construct, id *string, config *LexBotConfig) Lex
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot awscc_lex_bot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lex_bot awscc_lex_bot} Resource.
 func NewLexBot_Override(l LexBot, scope constructs.Construct, id *string, config *LexBotConfig) {
 	_init_.Initialize()
 

@@ -24,31 +24,31 @@ type ApsWorkspaceConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The AMP Workspace alert manager definition data.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_workspace#alert_manager_definition ApsWorkspace#alert_manager_definition}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/aps_workspace#alert_manager_definition ApsWorkspace#alert_manager_definition}
 	AlertManagerDefinition *string `field:"optional" json:"alertManagerDefinition" yaml:"alertManagerDefinition"`
 	// AMP Workspace alias.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_workspace#alias ApsWorkspace#alias}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/aps_workspace#alias ApsWorkspace#alias}
 	Alias *string `field:"optional" json:"alias" yaml:"alias"`
 	// KMS Key ARN used to encrypt and decrypt AMP workspace data.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_workspace#kms_key_arn ApsWorkspace#kms_key_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/aps_workspace#kms_key_arn ApsWorkspace#kms_key_arn}
 	KmsKeyArn *string `field:"optional" json:"kmsKeyArn" yaml:"kmsKeyArn"`
 	// Logging configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_workspace#logging_configuration ApsWorkspace#logging_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/aps_workspace#logging_configuration ApsWorkspace#logging_configuration}
 	LoggingConfiguration *ApsWorkspaceLoggingConfiguration `field:"optional" json:"loggingConfiguration" yaml:"loggingConfiguration"`
 	// Query logging configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_workspace#query_logging_configuration ApsWorkspace#query_logging_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/aps_workspace#query_logging_configuration ApsWorkspace#query_logging_configuration}
 	QueryLoggingConfiguration *ApsWorkspaceQueryLoggingConfiguration `field:"optional" json:"queryLoggingConfiguration" yaml:"queryLoggingConfiguration"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_workspace#tags ApsWorkspace#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/aps_workspace#tags ApsWorkspace#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// Workspace configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_workspace#workspace_configuration ApsWorkspace#workspace_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/aps_workspace#workspace_configuration ApsWorkspace#workspace_configuration}
 	WorkspaceConfiguration *ApsWorkspaceWorkspaceConfiguration `field:"optional" json:"workspaceConfiguration" yaml:"workspaceConfiguration"`
 }
 

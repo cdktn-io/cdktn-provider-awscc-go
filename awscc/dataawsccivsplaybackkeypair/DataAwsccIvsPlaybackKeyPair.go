@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ivs_playback_key_pair awscc_ivs_playback_key_pair}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ivs_playback_key_pair awscc_ivs_playback_key_pair}.
 type DataAwsccIvsPlaybackKeyPair interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccIvsPlaybackKeyPair) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ivs_playback_key_pair awscc_ivs_playback_key_pair} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ivs_playback_key_pair awscc_ivs_playback_key_pair} Data Source.
 func NewDataAwsccIvsPlaybackKeyPair(scope constructs.Construct, id *string, config *DataAwsccIvsPlaybackKeyPairConfig) DataAwsccIvsPlaybackKeyPair {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccIvsPlaybackKeyPair(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ivs_playback_key_pair awscc_ivs_playback_key_pair} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ivs_playback_key_pair awscc_ivs_playback_key_pair} Data Source.
 func NewDataAwsccIvsPlaybackKeyPair_Override(d DataAwsccIvsPlaybackKeyPair, scope constructs.Construct, id *string, config *DataAwsccIvsPlaybackKeyPairConfig) {
 	_init_.Initialize()
 

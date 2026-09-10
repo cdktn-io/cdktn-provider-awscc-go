@@ -7,11 +7,11 @@ package ioteventsdetectormodel
 type IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSns struct {
 	// You can configure the action payload when you send a message as an Amazon SNS push notification.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotevents_detector_model#payload IoteventsDetectorModel#payload}
 	Payload *IoteventsDetectorModelDetectorModelDefinitionStatesOnInputEventsActionsSnsPayload `field:"optional" json:"payload" yaml:"payload"`
 	// The ARN of the Amazon SNS target where the message is sent.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_detector_model#target_arn IoteventsDetectorModel#target_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotevents_detector_model#target_arn IoteventsDetectorModel#target_arn}
 	TargetArn *string `field:"optional" json:"targetArn" yaml:"targetArn"`
 }
 

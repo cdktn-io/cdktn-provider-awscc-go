@@ -7,7 +7,7 @@ package appflowconnector
 type AppflowConnectorConnectorProvisioningConfigLambda struct {
 	// Lambda ARN of the connector being registered.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appflow_connector#lambda_arn AppflowConnector#lambda_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appflow_connector#lambda_arn AppflowConnector#lambda_arn}
 	LambdaArn *string `field:"optional" json:"lambdaArn" yaml:"lambdaArn"`
 }
 

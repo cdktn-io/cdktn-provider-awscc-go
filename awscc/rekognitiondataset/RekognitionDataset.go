@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rekognition_dataset awscc_rekognition_dataset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/rekognition_dataset awscc_rekognition_dataset}.
 type RekognitionDataset interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -437,7 +437,7 @@ func (j *jsiiProxy_RekognitionDataset) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rekognition_dataset awscc_rekognition_dataset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/rekognition_dataset awscc_rekognition_dataset} Resource.
 func NewRekognitionDataset(scope constructs.Construct, id *string, config *RekognitionDatasetConfig) RekognitionDataset {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewRekognitionDataset(scope constructs.Construct, id *string, config *Rekog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/rekognition_dataset awscc_rekognition_dataset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/rekognition_dataset awscc_rekognition_dataset} Resource.
 func NewRekognitionDataset_Override(r RekognitionDataset, scope constructs.Construct, id *string, config *RekognitionDatasetConfig) {
 	_init_.Initialize()
 

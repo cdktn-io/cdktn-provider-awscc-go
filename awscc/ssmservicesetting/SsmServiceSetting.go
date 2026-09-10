@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssm_service_setting awscc_ssm_service_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ssm_service_setting awscc_ssm_service_setting}.
 type SsmServiceSetting interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -445,7 +445,7 @@ func (j *jsiiProxy_SsmServiceSetting) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssm_service_setting awscc_ssm_service_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ssm_service_setting awscc_ssm_service_setting} Resource.
 func NewSsmServiceSetting(scope constructs.Construct, id *string, config *SsmServiceSettingConfig) SsmServiceSetting {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewSsmServiceSetting(scope constructs.Construct, id *string, config *SsmSer
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssm_service_setting awscc_ssm_service_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ssm_service_setting awscc_ssm_service_setting} Resource.
 func NewSsmServiceSetting_Override(s SsmServiceSetting, scope constructs.Construct, id *string, config *SsmServiceSettingConfig) {
 	_init_.Initialize()
 

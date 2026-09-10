@@ -7,7 +7,7 @@ package batchquotashare
 type BatchQuotaSharePreemptionConfiguration struct {
 	// Specifies whether jobs within a quota share can be preempted by another, higher priority job in the same quota share.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/batch_quota_share#in_share_preemption BatchQuotaShare#in_share_preemption}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/batch_quota_share#in_share_preemption BatchQuotaShare#in_share_preemption}
 	InSharePreemption *string `field:"required" json:"inSharePreemption" yaml:"inSharePreemption"`
 }
 

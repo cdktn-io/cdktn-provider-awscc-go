@@ -9,7 +9,7 @@ type AccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfigurationAnalysi
 	//
 	// Entities that meet the rule criteria will not generate findings.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/accessanalyzer_analyzer#exclusions AccessanalyzerAnalyzer#exclusions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/accessanalyzer_analyzer#exclusions AccessanalyzerAnalyzer#exclusions}
 	Exclusions interface{} `field:"optional" json:"exclusions" yaml:"exclusions"`
 }
 

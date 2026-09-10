@@ -24,19 +24,19 @@ type SecurityhubConfigurationPolicyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// An object that defines how Security Hub is configured.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#configuration_policy SecurityhubConfigurationPolicy#configuration_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_configuration_policy#configuration_policy SecurityhubConfigurationPolicy#configuration_policy}
 	ConfigurationPolicy *SecurityhubConfigurationPolicyConfigurationPolicy `field:"required" json:"configurationPolicy" yaml:"configurationPolicy"`
 	// The name of the configuration policy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#name SecurityhubConfigurationPolicy#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_configuration_policy#name SecurityhubConfigurationPolicy#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The description of the configuration policy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#description SecurityhubConfigurationPolicy#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_configuration_policy#description SecurityhubConfigurationPolicy#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// A key-value pair to associate with a resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_configuration_policy#tags SecurityhubConfigurationPolicy#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_configuration_policy#tags SecurityhubConfigurationPolicy#tags}
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 }
 

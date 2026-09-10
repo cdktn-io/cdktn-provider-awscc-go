@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm}.
 type CloudwatchLogAlarm interface {
 	cdktn.TerraformResource
 	ActionLogLineCount() *float64
@@ -745,7 +745,7 @@ func (j *jsiiProxy_CloudwatchLogAlarm) WarmUpConfigurationInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm} Resource.
 func NewCloudwatchLogAlarm(scope constructs.Construct, id *string, config *CloudwatchLogAlarmConfig) CloudwatchLogAlarm {
 	_init_.Initialize()
 
@@ -763,7 +763,7 @@ func NewCloudwatchLogAlarm(scope constructs.Construct, id *string, config *Cloud
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm} Resource.
 func NewCloudwatchLogAlarm_Override(c CloudwatchLogAlarm, scope constructs.Construct, id *string, config *CloudwatchLogAlarmConfig) {
 	_init_.Initialize()
 

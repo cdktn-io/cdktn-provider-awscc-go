@@ -24,15 +24,15 @@ type SesMultiRegionEndpointConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Contains details of a multi-region endpoint (global-endpoint) being created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_multi_region_endpoint#details SesMultiRegionEndpoint#details}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ses_multi_region_endpoint#details SesMultiRegionEndpoint#details}
 	Details *SesMultiRegionEndpointDetails `field:"required" json:"details" yaml:"details"`
 	// The name of the multi-region endpoint (global-endpoint).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_multi_region_endpoint#endpoint_name SesMultiRegionEndpoint#endpoint_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ses_multi_region_endpoint#endpoint_name SesMultiRegionEndpoint#endpoint_name}
 	EndpointName *string `field:"required" json:"endpointName" yaml:"endpointName"`
 	// An Array of objects that define the tags (keys and values) to associate with the multi-region endpoint (global-endpoint).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_multi_region_endpoint#tags SesMultiRegionEndpoint#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ses_multi_region_endpoint#tags SesMultiRegionEndpoint#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

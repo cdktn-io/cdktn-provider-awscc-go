@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/s3files_mount_target awscc_s3files_mount_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/s3files_mount_target awscc_s3files_mount_target}.
 type DataAwsccS3FilesMountTarget interface {
 	cdktn.TerraformDataSource
 	AvailabilityZoneId() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccS3FilesMountTarget) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/s3files_mount_target awscc_s3files_mount_target} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/s3files_mount_target awscc_s3files_mount_target} Data Source.
 func NewDataAwsccS3FilesMountTarget(scope constructs.Construct, id *string, config *DataAwsccS3FilesMountTargetConfig) DataAwsccS3FilesMountTarget {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccS3FilesMountTarget(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/s3files_mount_target awscc_s3files_mount_target} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/s3files_mount_target awscc_s3files_mount_target} Data Source.
 func NewDataAwsccS3FilesMountTarget_Override(d DataAwsccS3FilesMountTarget, scope constructs.Construct, id *string, config *DataAwsccS3FilesMountTargetConfig) {
 	_init_.Initialize()
 

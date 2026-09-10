@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/codepipeline_webhook awscc_codepipeline_webhook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/codepipeline_webhook awscc_codepipeline_webhook}.
 type DataAwsccCodepipelineWebhook interface {
 	cdktn.TerraformDataSource
 	Authentication() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccCodepipelineWebhook) WebhookId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/codepipeline_webhook awscc_codepipeline_webhook} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/codepipeline_webhook awscc_codepipeline_webhook} Data Source.
 func NewDataAwsccCodepipelineWebhook(scope constructs.Construct, id *string, config *DataAwsccCodepipelineWebhookConfig) DataAwsccCodepipelineWebhook {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccCodepipelineWebhook(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/codepipeline_webhook awscc_codepipeline_webhook} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/codepipeline_webhook awscc_codepipeline_webhook} Data Source.
 func NewDataAwsccCodepipelineWebhook_Override(d DataAwsccCodepipelineWebhook, scope constructs.Construct, id *string, config *DataAwsccCodepipelineWebhookConfig) {
 	_init_.Initialize()
 

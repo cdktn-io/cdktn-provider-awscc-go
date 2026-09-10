@@ -24,19 +24,19 @@ type AppstreamStackUserAssociationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The authentication type for the user who is associated with the stack. You must specify USERPOOL.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appstream_stack_user_association#authentication_type AppstreamStackUserAssociation#authentication_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appstream_stack_user_association#authentication_type AppstreamStackUserAssociation#authentication_type}
 	AuthenticationType *string `field:"required" json:"authenticationType" yaml:"authenticationType"`
 	// The name of the stack that is associated with the user.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appstream_stack_user_association#stack_name AppstreamStackUserAssociation#stack_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appstream_stack_user_association#stack_name AppstreamStackUserAssociation#stack_name}
 	StackName *string `field:"required" json:"stackName" yaml:"stackName"`
 	// The name of the user who is associated with the stack.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appstream_stack_user_association#user_name AppstreamStackUserAssociation#user_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appstream_stack_user_association#user_name AppstreamStackUserAssociation#user_name}
 	UserName *string `field:"required" json:"userName" yaml:"userName"`
 	// Specifies whether a welcome email is sent to a user after the user is created in the user pool.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appstream_stack_user_association#send_email_notification AppstreamStackUserAssociation#send_email_notification}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appstream_stack_user_association#send_email_notification AppstreamStackUserAssociation#send_email_notification}
 	SendEmailNotification interface{} `field:"optional" json:"sendEmailNotification" yaml:"sendEmailNotification"`
 }
 

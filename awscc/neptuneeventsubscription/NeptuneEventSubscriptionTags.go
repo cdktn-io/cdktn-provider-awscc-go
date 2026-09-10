@@ -5,9 +5,9 @@ package neptuneeventsubscription
 
 
 type NeptuneEventSubscriptionTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/neptune_event_subscription#key NeptuneEventSubscription#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/neptune_event_subscription#key NeptuneEventSubscription#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/neptune_event_subscription#value NeptuneEventSubscription#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/neptune_event_subscription#value NeptuneEventSubscription#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

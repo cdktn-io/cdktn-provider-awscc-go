@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/m2_deployment awscc_m2_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/m2_deployment awscc_m2_deployment}.
 type M2Deployment interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -446,7 +446,7 @@ func (j *jsiiProxy_M2Deployment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/m2_deployment awscc_m2_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/m2_deployment awscc_m2_deployment} Resource.
 func NewM2Deployment(scope constructs.Construct, id *string, config *M2DeploymentConfig) M2Deployment {
 	_init_.Initialize()
 
@@ -464,7 +464,7 @@ func NewM2Deployment(scope constructs.Construct, id *string, config *M2Deploymen
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/m2_deployment awscc_m2_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/m2_deployment awscc_m2_deployment} Resource.
 func NewM2Deployment_Override(m M2Deployment, scope constructs.Construct, id *string, config *M2DeploymentConfig) {
 	_init_.Initialize()
 

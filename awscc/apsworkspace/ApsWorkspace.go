@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_workspace awscc_aps_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/aps_workspace awscc_aps_workspace}.
 type ApsWorkspace interface {
 	cdktn.TerraformResource
 	AlertManagerDefinition() *string
@@ -556,7 +556,7 @@ func (j *jsiiProxy_ApsWorkspace) WorkspaceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_workspace awscc_aps_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/aps_workspace awscc_aps_workspace} Resource.
 func NewApsWorkspace(scope constructs.Construct, id *string, config *ApsWorkspaceConfig) ApsWorkspace {
 	_init_.Initialize()
 
@@ -574,7 +574,7 @@ func NewApsWorkspace(scope constructs.Construct, id *string, config *ApsWorkspac
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_workspace awscc_aps_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/aps_workspace awscc_aps_workspace} Resource.
 func NewApsWorkspace_Override(a ApsWorkspace, scope constructs.Construct, id *string, config *ApsWorkspaceConfig) {
 	_init_.Initialize()
 

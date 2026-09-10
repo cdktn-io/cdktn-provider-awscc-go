@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/evidently_experiment awscc_evidently_experiment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/evidently_experiment awscc_evidently_experiment}.
 type EvidentlyExperiment interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -649,7 +649,7 @@ func (j *jsiiProxy_EvidentlyExperiment) TreatmentsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/evidently_experiment awscc_evidently_experiment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/evidently_experiment awscc_evidently_experiment} Resource.
 func NewEvidentlyExperiment(scope constructs.Construct, id *string, config *EvidentlyExperimentConfig) EvidentlyExperiment {
 	_init_.Initialize()
 
@@ -667,7 +667,7 @@ func NewEvidentlyExperiment(scope constructs.Construct, id *string, config *Evid
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/evidently_experiment awscc_evidently_experiment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/evidently_experiment awscc_evidently_experiment} Resource.
 func NewEvidentlyExperiment_Override(e EvidentlyExperiment, scope constructs.Construct, id *string, config *EvidentlyExperimentConfig) {
 	_init_.Initialize()
 

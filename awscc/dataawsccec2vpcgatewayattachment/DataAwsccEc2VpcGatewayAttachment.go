@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_vpc_gateway_attachment awscc_ec2_vpc_gateway_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_vpc_gateway_attachment awscc_ec2_vpc_gateway_attachment}.
 type DataAwsccEc2VpcGatewayAttachment interface {
 	cdktn.TerraformDataSource
 	AttachmentType() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccEc2VpcGatewayAttachment) VpnGatewayId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_vpc_gateway_attachment awscc_ec2_vpc_gateway_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_vpc_gateway_attachment awscc_ec2_vpc_gateway_attachment} Data Source.
 func NewDataAwsccEc2VpcGatewayAttachment(scope constructs.Construct, id *string, config *DataAwsccEc2VpcGatewayAttachmentConfig) DataAwsccEc2VpcGatewayAttachment {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccEc2VpcGatewayAttachment(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_vpc_gateway_attachment awscc_ec2_vpc_gateway_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_vpc_gateway_attachment awscc_ec2_vpc_gateway_attachment} Data Source.
 func NewDataAwsccEc2VpcGatewayAttachment_Override(d DataAwsccEc2VpcGatewayAttachment, scope constructs.Construct, id *string, config *DataAwsccEc2VpcGatewayAttachmentConfig) {
 	_init_.Initialize()
 

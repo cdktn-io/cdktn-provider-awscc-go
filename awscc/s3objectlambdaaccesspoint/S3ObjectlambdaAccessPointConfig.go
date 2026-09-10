@@ -24,11 +24,11 @@ type S3ObjectlambdaAccessPointConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The Object lambda Access Point Configuration that configures transformations to be applied on the objects on specified S3 Actions.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3objectlambda_access_point#object_lambda_configuration S3ObjectlambdaAccessPoint#object_lambda_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3objectlambda_access_point#object_lambda_configuration S3ObjectlambdaAccessPoint#object_lambda_configuration}
 	ObjectLambdaConfiguration *S3ObjectlambdaAccessPointObjectLambdaConfiguration `field:"required" json:"objectLambdaConfiguration" yaml:"objectLambdaConfiguration"`
 	// The name you want to assign to this Object lambda Access Point.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3objectlambda_access_point#name S3ObjectlambdaAccessPoint#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3objectlambda_access_point#name S3ObjectlambdaAccessPoint#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 }
 

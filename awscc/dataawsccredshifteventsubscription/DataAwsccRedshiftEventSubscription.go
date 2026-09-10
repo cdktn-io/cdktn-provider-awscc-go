@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/redshift_event_subscription awscc_redshift_event_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/redshift_event_subscription awscc_redshift_event_subscription}.
 type DataAwsccRedshiftEventSubscription interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccRedshiftEventSubscription) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/redshift_event_subscription awscc_redshift_event_subscription} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/redshift_event_subscription awscc_redshift_event_subscription} Data Source.
 func NewDataAwsccRedshiftEventSubscription(scope constructs.Construct, id *string, config *DataAwsccRedshiftEventSubscriptionConfig) DataAwsccRedshiftEventSubscription {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccRedshiftEventSubscription(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/redshift_event_subscription awscc_redshift_event_subscription} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/redshift_event_subscription awscc_redshift_event_subscription} Data Source.
 func NewDataAwsccRedshiftEventSubscription_Override(d DataAwsccRedshiftEventSubscription, scope constructs.Construct, id *string, config *DataAwsccRedshiftEventSubscriptionConfig) {
 	_init_.Initialize()
 

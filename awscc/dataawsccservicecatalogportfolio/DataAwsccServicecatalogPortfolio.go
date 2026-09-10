@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/servicecatalog_portfolio awscc_servicecatalog_portfolio}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/servicecatalog_portfolio awscc_servicecatalog_portfolio}.
 type DataAwsccServicecatalogPortfolio interface {
 	cdktn.TerraformDataSource
 	AcceptLanguage() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccServicecatalogPortfolio) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/servicecatalog_portfolio awscc_servicecatalog_portfolio} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/servicecatalog_portfolio awscc_servicecatalog_portfolio} Data Source.
 func NewDataAwsccServicecatalogPortfolio(scope constructs.Construct, id *string, config *DataAwsccServicecatalogPortfolioConfig) DataAwsccServicecatalogPortfolio {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccServicecatalogPortfolio(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/servicecatalog_portfolio awscc_servicecatalog_portfolio} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/servicecatalog_portfolio awscc_servicecatalog_portfolio} Data Source.
 func NewDataAwsccServicecatalogPortfolio_Override(d DataAwsccServicecatalogPortfolio, scope constructs.Construct, id *string, config *DataAwsccServicecatalogPortfolioConfig) {
 	_init_.Initialize()
 

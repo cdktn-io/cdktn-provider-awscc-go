@@ -22,11 +22,11 @@ type DaxSubnetGroupConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dax_subnet_group#subnet_ids DaxSubnetGroup#subnet_ids}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dax_subnet_group#subnet_ids DaxSubnetGroup#subnet_ids}.
 	SubnetIds *[]*string `field:"required" json:"subnetIds" yaml:"subnetIds"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dax_subnet_group#description DaxSubnetGroup#description}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dax_subnet_group#description DaxSubnetGroup#description}.
 	Description *string `field:"optional" json:"description" yaml:"description"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/dax_subnet_group#subnet_group_name DaxSubnetGroup#subnet_group_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dax_subnet_group#subnet_group_name DaxSubnetGroup#subnet_group_name}.
 	SubnetGroupName *string `field:"optional" json:"subnetGroupName" yaml:"subnetGroupName"`
 }
 

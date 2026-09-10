@@ -5,9 +5,9 @@ package apprunnerobservabilityconfiguration
 
 
 type ApprunnerObservabilityConfigurationTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apprunner_observability_configuration#key ApprunnerObservabilityConfiguration#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/apprunner_observability_configuration#key ApprunnerObservabilityConfiguration#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apprunner_observability_configuration#value ApprunnerObservabilityConfiguration#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/apprunner_observability_configuration#value ApprunnerObservabilityConfiguration#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

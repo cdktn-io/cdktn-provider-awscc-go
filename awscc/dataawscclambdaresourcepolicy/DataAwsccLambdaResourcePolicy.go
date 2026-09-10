@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lambda_resource_policy awscc_lambda_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/lambda_resource_policy awscc_lambda_resource_policy}.
 type DataAwsccLambdaResourcePolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccLambdaResourcePolicy) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lambda_resource_policy awscc_lambda_resource_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/lambda_resource_policy awscc_lambda_resource_policy} Data Source.
 func NewDataAwsccLambdaResourcePolicy(scope constructs.Construct, id *string, config *DataAwsccLambdaResourcePolicyConfig) DataAwsccLambdaResourcePolicy {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccLambdaResourcePolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lambda_resource_policy awscc_lambda_resource_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/lambda_resource_policy awscc_lambda_resource_policy} Data Source.
 func NewDataAwsccLambdaResourcePolicy_Override(d DataAwsccLambdaResourcePolicy, scope constructs.Construct, id *string, config *DataAwsccLambdaResourcePolicyConfig) {
 	_init_.Initialize()
 

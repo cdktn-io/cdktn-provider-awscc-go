@@ -9,7 +9,7 @@ type ElementalinferenceFeedOutputsOutputConfigClippingDataSourceConfiguration st
 	//
 	// To obtain this ID, use the SearchFixtures operation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/elementalinference_feed#fixture_id ElementalinferenceFeed#fixture_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/elementalinference_feed#fixture_id ElementalinferenceFeed#fixture_id}
 	FixtureId *string `field:"optional" json:"fixtureId" yaml:"fixtureId"`
 }
 

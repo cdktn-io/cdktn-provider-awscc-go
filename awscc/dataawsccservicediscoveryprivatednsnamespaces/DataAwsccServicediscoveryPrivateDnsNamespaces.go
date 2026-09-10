@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/servicediscovery_private_dns_namespaces awscc_servicediscovery_private_dns_namespaces}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/servicediscovery_private_dns_namespaces awscc_servicediscovery_private_dns_namespaces}.
 type DataAwsccServicediscoveryPrivateDnsNamespaces interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccServicediscoveryPrivateDnsNamespaces) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/servicediscovery_private_dns_namespaces awscc_servicediscovery_private_dns_namespaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/servicediscovery_private_dns_namespaces awscc_servicediscovery_private_dns_namespaces} Data Source.
 func NewDataAwsccServicediscoveryPrivateDnsNamespaces(scope constructs.Construct, id *string, config *DataAwsccServicediscoveryPrivateDnsNamespacesConfig) DataAwsccServicediscoveryPrivateDnsNamespaces {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccServicediscoveryPrivateDnsNamespaces(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/servicediscovery_private_dns_namespaces awscc_servicediscovery_private_dns_namespaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/servicediscovery_private_dns_namespaces awscc_servicediscovery_private_dns_namespaces} Data Source.
 func NewDataAwsccServicediscoveryPrivateDnsNamespaces_Override(d DataAwsccServicediscoveryPrivateDnsNamespaces, scope constructs.Construct, id *string, config *DataAwsccServicediscoveryPrivateDnsNamespacesConfig) {
 	_init_.Initialize()
 

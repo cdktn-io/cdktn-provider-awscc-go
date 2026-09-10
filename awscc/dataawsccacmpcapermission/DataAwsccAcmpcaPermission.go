@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/acmpca_permission awscc_acmpca_permission}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/acmpca_permission awscc_acmpca_permission}.
 type DataAwsccAcmpcaPermission interface {
 	cdktn.TerraformDataSource
 	Actions() *[]*string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccAcmpcaPermission) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/acmpca_permission awscc_acmpca_permission} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/acmpca_permission awscc_acmpca_permission} Data Source.
 func NewDataAwsccAcmpcaPermission(scope constructs.Construct, id *string, config *DataAwsccAcmpcaPermissionConfig) DataAwsccAcmpcaPermission {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccAcmpcaPermission(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/acmpca_permission awscc_acmpca_permission} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/acmpca_permission awscc_acmpca_permission} Data Source.
 func NewDataAwsccAcmpcaPermission_Override(d DataAwsccAcmpcaPermission, scope constructs.Construct, id *string, config *DataAwsccAcmpcaPermissionConfig) {
 	_init_.Initialize()
 

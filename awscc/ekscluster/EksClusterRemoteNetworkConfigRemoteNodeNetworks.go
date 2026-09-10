@@ -7,7 +7,7 @@ package ekscluster
 type EksClusterRemoteNetworkConfigRemoteNodeNetworks struct {
 	// Specifies the list of remote node CIDRs.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_cluster#cidrs EksCluster#cidrs}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/eks_cluster#cidrs EksCluster#cidrs}
 	Cidrs *[]*string `field:"optional" json:"cidrs" yaml:"cidrs"`
 }
 

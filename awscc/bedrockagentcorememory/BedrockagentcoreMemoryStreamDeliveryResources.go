@@ -5,7 +5,7 @@ package bedrockagentcorememory
 
 
 type BedrockagentcoreMemoryStreamDeliveryResources struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_memory#resources BedrockagentcoreMemory#resources}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrockagentcore_memory#resources BedrockagentcoreMemory#resources}.
 	Resources interface{} `field:"optional" json:"resources" yaml:"resources"`
 }
 

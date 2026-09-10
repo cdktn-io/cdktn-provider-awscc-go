@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ssmincidents_replication_sets awscc_ssmincidents_replication_sets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ssmincidents_replication_sets awscc_ssmincidents_replication_sets}.
 type DataAwsccSsmincidentsReplicationSets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSsmincidentsReplicationSets) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ssmincidents_replication_sets awscc_ssmincidents_replication_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ssmincidents_replication_sets awscc_ssmincidents_replication_sets} Data Source.
 func NewDataAwsccSsmincidentsReplicationSets(scope constructs.Construct, id *string, config *DataAwsccSsmincidentsReplicationSetsConfig) DataAwsccSsmincidentsReplicationSets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSsmincidentsReplicationSets(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ssmincidents_replication_sets awscc_ssmincidents_replication_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ssmincidents_replication_sets awscc_ssmincidents_replication_sets} Data Source.
 func NewDataAwsccSsmincidentsReplicationSets_Override(d DataAwsccSsmincidentsReplicationSets, scope constructs.Construct, id *string, config *DataAwsccSsmincidentsReplicationSetsConfig) {
 	_init_.Initialize()
 

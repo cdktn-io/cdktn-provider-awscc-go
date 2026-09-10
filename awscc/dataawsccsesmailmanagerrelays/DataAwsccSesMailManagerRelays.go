@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ses_mail_manager_relays awscc_ses_mail_manager_relays}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ses_mail_manager_relays awscc_ses_mail_manager_relays}.
 type DataAwsccSesMailManagerRelays interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSesMailManagerRelays) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ses_mail_manager_relays awscc_ses_mail_manager_relays} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ses_mail_manager_relays awscc_ses_mail_manager_relays} Data Source.
 func NewDataAwsccSesMailManagerRelays(scope constructs.Construct, id *string, config *DataAwsccSesMailManagerRelaysConfig) DataAwsccSesMailManagerRelays {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSesMailManagerRelays(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ses_mail_manager_relays awscc_ses_mail_manager_relays} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ses_mail_manager_relays awscc_ses_mail_manager_relays} Data Source.
 func NewDataAwsccSesMailManagerRelays_Override(d DataAwsccSesMailManagerRelays, scope constructs.Construct, id *string, config *DataAwsccSesMailManagerRelaysConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/licensemanager_grant awscc_licensemanager_grant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/licensemanager_grant awscc_licensemanager_grant}.
 type LicensemanagerGrant interface {
 	cdktn.TerraformResource
 	AllowedOperations() *[]*string
@@ -545,7 +545,7 @@ func (j *jsiiProxy_LicensemanagerGrant) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/licensemanager_grant awscc_licensemanager_grant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/licensemanager_grant awscc_licensemanager_grant} Resource.
 func NewLicensemanagerGrant(scope constructs.Construct, id *string, config *LicensemanagerGrantConfig) LicensemanagerGrant {
 	_init_.Initialize()
 
@@ -563,7 +563,7 @@ func NewLicensemanagerGrant(scope constructs.Construct, id *string, config *Lice
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/licensemanager_grant awscc_licensemanager_grant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/licensemanager_grant awscc_licensemanager_grant} Resource.
 func NewLicensemanagerGrant_Override(l LicensemanagerGrant, scope constructs.Construct, id *string, config *LicensemanagerGrantConfig) {
 	_init_.Initialize()
 

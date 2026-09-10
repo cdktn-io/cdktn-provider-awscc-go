@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/comprehend_document_classifier awscc_comprehend_document_classifier}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/comprehend_document_classifier awscc_comprehend_document_classifier}.
 type DataAwsccComprehendDocumentClassifier interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccComprehendDocumentClassifier) VpcConfig() DataAwsccC
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/comprehend_document_classifier awscc_comprehend_document_classifier} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/comprehend_document_classifier awscc_comprehend_document_classifier} Data Source.
 func NewDataAwsccComprehendDocumentClassifier(scope constructs.Construct, id *string, config *DataAwsccComprehendDocumentClassifierConfig) DataAwsccComprehendDocumentClassifier {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccComprehendDocumentClassifier(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/comprehend_document_classifier awscc_comprehend_document_classifier} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/comprehend_document_classifier awscc_comprehend_document_classifier} Data Source.
 func NewDataAwsccComprehendDocumentClassifier_Override(d DataAwsccComprehendDocumentClassifier, scope constructs.Construct, id *string, config *DataAwsccComprehendDocumentClassifierConfig) {
 	_init_.Initialize()
 

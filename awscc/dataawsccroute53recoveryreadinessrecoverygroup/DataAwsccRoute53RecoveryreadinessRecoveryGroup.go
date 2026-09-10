@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53recoveryreadiness_recovery_group awscc_route53recoveryreadiness_recovery_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/route53recoveryreadiness_recovery_group awscc_route53recoveryreadiness_recovery_group}.
 type DataAwsccRoute53RecoveryreadinessRecoveryGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccRoute53RecoveryreadinessRecoveryGroup) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53recoveryreadiness_recovery_group awscc_route53recoveryreadiness_recovery_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/route53recoveryreadiness_recovery_group awscc_route53recoveryreadiness_recovery_group} Data Source.
 func NewDataAwsccRoute53RecoveryreadinessRecoveryGroup(scope constructs.Construct, id *string, config *DataAwsccRoute53RecoveryreadinessRecoveryGroupConfig) DataAwsccRoute53RecoveryreadinessRecoveryGroup {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccRoute53RecoveryreadinessRecoveryGroup(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53recoveryreadiness_recovery_group awscc_route53recoveryreadiness_recovery_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/route53recoveryreadiness_recovery_group awscc_route53recoveryreadiness_recovery_group} Data Source.
 func NewDataAwsccRoute53RecoveryreadinessRecoveryGroup_Override(d DataAwsccRoute53RecoveryreadinessRecoveryGroup, scope constructs.Construct, id *string, config *DataAwsccRoute53RecoveryreadinessRecoveryGroupConfig) {
 	_init_.Initialize()
 

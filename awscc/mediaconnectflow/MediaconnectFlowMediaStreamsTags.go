@@ -5,9 +5,9 @@ package mediaconnectflow
 
 
 type MediaconnectFlowMediaStreamsTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#key MediaconnectFlow#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediaconnect_flow#key MediaconnectFlow#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#value MediaconnectFlow#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediaconnect_flow#value MediaconnectFlow#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

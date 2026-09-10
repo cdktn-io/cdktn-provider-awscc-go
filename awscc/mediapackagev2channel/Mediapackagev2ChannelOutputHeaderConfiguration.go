@@ -9,7 +9,7 @@ type Mediapackagev2ChannelOutputHeaderConfiguration struct {
 	//
 	// This setting is valid only when <code>InputType</code> is <code>CMAF</code>.</p>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediapackagev2_channel#publish_mqcs Mediapackagev2Channel#publish_mqcs}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediapackagev2_channel#publish_mqcs Mediapackagev2Channel#publish_mqcs}
 	PublishMqcs interface{} `field:"optional" json:"publishMqcs" yaml:"publishMqcs"`
 }
 

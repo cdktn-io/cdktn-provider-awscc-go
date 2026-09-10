@@ -24,27 +24,27 @@ type KendraThesaurusConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The identifier of the index for the thesaurus.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_thesaurus#index_id KendraThesaurus#index_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kendra_thesaurus#index_id KendraThesaurus#index_id}
 	IndexId *string `field:"required" json:"indexId" yaml:"indexId"`
 	// A name for the thesaurus.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_thesaurus#name KendraThesaurus#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kendra_thesaurus#name KendraThesaurus#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// An IAM role that gives Amazon Kendra permissions to access the thesaurus file specified in SourceS3Path.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_thesaurus#role_arn KendraThesaurus#role_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kendra_thesaurus#role_arn KendraThesaurus#role_arn}
 	RoleArn *string `field:"required" json:"roleArn" yaml:"roleArn"`
 	// Information required to find a specific file in an Amazon S3 bucket.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_thesaurus#source_s3_path KendraThesaurus#source_s3_path}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kendra_thesaurus#source_s3_path KendraThesaurus#source_s3_path}
 	SourceS3Path *KendraThesaurusSourceS3Path `field:"required" json:"sourceS3Path" yaml:"sourceS3Path"`
 	// A description for the thesaurus.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_thesaurus#description KendraThesaurus#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kendra_thesaurus#description KendraThesaurus#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// A list of key-value pairs that identify or categorize the thesaurus.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_thesaurus#tags KendraThesaurus#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kendra_thesaurus#tags KendraThesaurus#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

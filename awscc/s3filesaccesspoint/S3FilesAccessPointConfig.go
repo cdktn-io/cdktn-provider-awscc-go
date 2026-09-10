@@ -24,23 +24,23 @@ type S3FilesAccessPointConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID of the S3 Files file system that the access point provides access to.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3files_access_point#file_system_id S3FilesAccessPoint#file_system_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3files_access_point#file_system_id S3FilesAccessPoint#file_system_id}
 	FileSystemId *string `field:"required" json:"fileSystemId" yaml:"fileSystemId"`
 	// (optional) A string of up to 64 ASCII characters that Amazon EFS uses to ensure idempotent creation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3files_access_point#client_token S3FilesAccessPoint#client_token}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3files_access_point#client_token S3FilesAccessPoint#client_token}
 	ClientToken *string `field:"optional" json:"clientToken" yaml:"clientToken"`
 	// The operating system user and group applied to all compute drive requests made using the access point.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3files_access_point#posix_user S3FilesAccessPoint#posix_user}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3files_access_point#posix_user S3FilesAccessPoint#posix_user}
 	PosixUser *S3FilesAccessPointPosixUser `field:"optional" json:"posixUser" yaml:"posixUser"`
 	// Specifies the directory on the Amazon EFS file system that the access point exposes as the root directory of your file system to NFS clients using the access point.
 	//
 	// The clients using the access point can only access the root directory and below. If the RootDirectory>Path specified does not exist, EFS creates it and applies the CreationPermissions settings when a client connects to an access point. When specifying a RootDirectory, you need to provide the Path, and the CreationPermissions is optional.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3files_access_point#root_directory S3FilesAccessPoint#root_directory}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3files_access_point#root_directory S3FilesAccessPoint#root_directory}
 	RootDirectory *S3FilesAccessPointRootDirectory `field:"optional" json:"rootDirectory" yaml:"rootDirectory"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3files_access_point#tags S3FilesAccessPoint#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3files_access_point#tags S3FilesAccessPoint#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

@@ -26,13 +26,13 @@ type IamInstanceProfileConfig struct {
 	//
 	// Only one role can be assigned to an EC2 instance at a time, and all applications on the instance share the same role and permissions.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iam_instance_profile#roles IamInstanceProfile#roles}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iam_instance_profile#roles IamInstanceProfile#roles}
 	Roles *[]*string `field:"required" json:"roles" yaml:"roles"`
 	// The name of the instance profile to create.
 	//
 	// This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iam_instance_profile#instance_profile_name IamInstanceProfile#instance_profile_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iam_instance_profile#instance_profile_name IamInstanceProfile#instance_profile_name}
 	InstanceProfileName *string `field:"optional" json:"instanceProfileName" yaml:"instanceProfileName"`
 	// The path to the instance profile.
 	//
@@ -40,7 +40,7 @@ type IamInstanceProfileConfig struct {
 	//  This parameter is optional. If it is not included, it defaults to a slash (/).
 	//  This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of either a forward slash (/) by itself or a string that must begin and end with forward slashes. In addition, it can contain any ASCII character from the ! (``\u0021``) through the DEL character (``\u007F``), including most punctuation characters, digits, and upper and lowercased letters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iam_instance_profile#path IamInstanceProfile#path}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iam_instance_profile#path IamInstanceProfile#path}
 	Path *string `field:"optional" json:"path" yaml:"path"`
 }
 

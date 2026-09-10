@@ -9,7 +9,7 @@ type AgentregistryRegistryApprovalConfiguration struct {
 	//
 	// When omitted or empty, submitted records require manual review.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/agentregistry_registry#auto_approval_rules AgentregistryRegistry#auto_approval_rules}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry#auto_approval_rules AgentregistryRegistry#auto_approval_rules}
 	AutoApprovalRules *[]*string `field:"optional" json:"autoApprovalRules" yaml:"autoApprovalRules"`
 }
 

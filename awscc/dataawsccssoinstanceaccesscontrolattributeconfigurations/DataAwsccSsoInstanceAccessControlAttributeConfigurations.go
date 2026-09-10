@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sso_instance_access_control_attribute_configurations awscc_sso_instance_access_control_attribute_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/sso_instance_access_control_attribute_configurations awscc_sso_instance_access_control_attribute_configurations}.
 type DataAwsccSsoInstanceAccessControlAttributeConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSsoInstanceAccessControlAttributeConfigurations) Ter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sso_instance_access_control_attribute_configurations awscc_sso_instance_access_control_attribute_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/sso_instance_access_control_attribute_configurations awscc_sso_instance_access_control_attribute_configurations} Data Source.
 func NewDataAwsccSsoInstanceAccessControlAttributeConfigurations(scope constructs.Construct, id *string, config *DataAwsccSsoInstanceAccessControlAttributeConfigurationsConfig) DataAwsccSsoInstanceAccessControlAttributeConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSsoInstanceAccessControlAttributeConfigurations(scope construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sso_instance_access_control_attribute_configurations awscc_sso_instance_access_control_attribute_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/sso_instance_access_control_attribute_configurations awscc_sso_instance_access_control_attribute_configurations} Data Source.
 func NewDataAwsccSsoInstanceAccessControlAttributeConfigurations_Override(d DataAwsccSsoInstanceAccessControlAttributeConfigurations, scope constructs.Construct, id *string, config *DataAwsccSsoInstanceAccessControlAttributeConfigurationsConfig) {
 	_init_.Initialize()
 

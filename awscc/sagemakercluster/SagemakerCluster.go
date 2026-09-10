@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster awscc_sagemaker_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster awscc_sagemaker_cluster}.
 type SagemakerCluster interface {
 	cdktn.TerraformResource
 	AutoScaling() SagemakerClusterAutoScalingOutputReference
@@ -687,7 +687,7 @@ func (j *jsiiProxy_SagemakerCluster) VpcConfigInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster awscc_sagemaker_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster awscc_sagemaker_cluster} Resource.
 func NewSagemakerCluster(scope constructs.Construct, id *string, config *SagemakerClusterConfig) SagemakerCluster {
 	_init_.Initialize()
 
@@ -705,7 +705,7 @@ func NewSagemakerCluster(scope constructs.Construct, id *string, config *Sagemak
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster awscc_sagemaker_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster awscc_sagemaker_cluster} Resource.
 func NewSagemakerCluster_Override(s SagemakerCluster, scope constructs.Construct, id *string, config *SagemakerClusterConfig) {
 	_init_.Initialize()
 

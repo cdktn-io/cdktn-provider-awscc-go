@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/resourceexplorer2_default_view_association awscc_resourceexplorer2_default_view_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/resourceexplorer2_default_view_association awscc_resourceexplorer2_default_view_association}.
 type Resourceexplorer2DefaultViewAssociation interface {
 	cdktn.TerraformResource
 	AssociatedAwsPrincipal() *string
@@ -389,7 +389,7 @@ func (j *jsiiProxy_Resourceexplorer2DefaultViewAssociation) ViewArnInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/resourceexplorer2_default_view_association awscc_resourceexplorer2_default_view_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/resourceexplorer2_default_view_association awscc_resourceexplorer2_default_view_association} Resource.
 func NewResourceexplorer2DefaultViewAssociation(scope constructs.Construct, id *string, config *Resourceexplorer2DefaultViewAssociationConfig) Resourceexplorer2DefaultViewAssociation {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewResourceexplorer2DefaultViewAssociation(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/resourceexplorer2_default_view_association awscc_resourceexplorer2_default_view_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/resourceexplorer2_default_view_association awscc_resourceexplorer2_default_view_association} Resource.
 func NewResourceexplorer2DefaultViewAssociation_Override(r Resourceexplorer2DefaultViewAssociation, scope constructs.Construct, id *string, config *Resourceexplorer2DefaultViewAssociationConfig) {
 	_init_.Initialize()
 

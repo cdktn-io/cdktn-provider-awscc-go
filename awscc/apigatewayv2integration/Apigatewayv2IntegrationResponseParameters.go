@@ -7,7 +7,7 @@ package apigatewayv2integration
 type Apigatewayv2IntegrationResponseParameters struct {
 	// list of response parameters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigatewayv2_integration#response_parameters Apigatewayv2Integration#response_parameters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/apigatewayv2_integration#response_parameters Apigatewayv2Integration#response_parameters}
 	ResponseParameters interface{} `field:"optional" json:"responseParameters" yaml:"responseParameters"`
 }
 

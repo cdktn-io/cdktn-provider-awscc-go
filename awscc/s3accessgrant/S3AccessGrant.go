@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3_access_grant awscc_s3_access_grant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3_access_grant awscc_s3_access_grant}.
 type S3AccessGrant interface {
 	cdktn.TerraformResource
 	AccessGrantArn() *string
@@ -553,7 +553,7 @@ func (j *jsiiProxy_S3AccessGrant) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3_access_grant awscc_s3_access_grant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3_access_grant awscc_s3_access_grant} Resource.
 func NewS3AccessGrant(scope constructs.Construct, id *string, config *S3AccessGrantConfig) S3AccessGrant {
 	_init_.Initialize()
 
@@ -571,7 +571,7 @@ func NewS3AccessGrant(scope constructs.Construct, id *string, config *S3AccessGr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/s3_access_grant awscc_s3_access_grant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3_access_grant awscc_s3_access_grant} Resource.
 func NewS3AccessGrant_Override(s S3AccessGrant, scope constructs.Construct, id *string, config *S3AccessGrantConfig) {
 	_init_.Initialize()
 

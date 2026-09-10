@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_vpc_link awscc_apigateway_vpc_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/apigateway_vpc_link awscc_apigateway_vpc_link}.
 type ApigatewayVpcLink interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -460,7 +460,7 @@ func (j *jsiiProxy_ApigatewayVpcLink) VpcLinkId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_vpc_link awscc_apigateway_vpc_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/apigateway_vpc_link awscc_apigateway_vpc_link} Resource.
 func NewApigatewayVpcLink(scope constructs.Construct, id *string, config *ApigatewayVpcLinkConfig) ApigatewayVpcLink {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewApigatewayVpcLink(scope constructs.Construct, id *string, config *Apigat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/apigateway_vpc_link awscc_apigateway_vpc_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/apigateway_vpc_link awscc_apigateway_vpc_link} Resource.
 func NewApigatewayVpcLink_Override(a ApigatewayVpcLink, scope constructs.Construct, id *string, config *ApigatewayVpcLinkConfig) {
 	_init_.Initialize()
 

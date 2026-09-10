@@ -115,7 +115,29 @@ func (a *jsiiProxy_AgentregistryRegistryRecordDescriptorsOutputReference) valida
 	return nil
 }
 
+func (a *jsiiProxy_AgentregistryRegistryRecordDescriptorsOutputReference) validatePutAguiParameters(value *AgentregistryRegistryRecordDescriptorsAgui) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (a *jsiiProxy_AgentregistryRegistryRecordDescriptorsOutputReference) validatePutCustomParameters(value *AgentregistryRegistryRecordDescriptorsCustom) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AgentregistryRegistryRecordDescriptorsOutputReference) validatePutHttpParameters(value *AgentregistryRegistryRecordDescriptorsHttp) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}

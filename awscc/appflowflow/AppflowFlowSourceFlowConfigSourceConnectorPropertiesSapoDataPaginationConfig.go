@@ -5,7 +5,7 @@ package appflowflow
 
 
 type AppflowFlowSourceFlowConfigSourceConnectorPropertiesSapoDataPaginationConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appflow_flow#max_page_size AppflowFlow#max_page_size}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appflow_flow#max_page_size AppflowFlow#max_page_size}.
 	MaxPageSize *float64 `field:"optional" json:"maxPageSize" yaml:"maxPageSize"`
 }
 

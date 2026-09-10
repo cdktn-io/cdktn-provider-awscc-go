@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lambda_layer_version_permission awscc_lambda_layer_version_permission}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/lambda_layer_version_permission awscc_lambda_layer_version_permission}.
 type DataAwsccLambdaLayerVersionPermission interface {
 	cdktn.TerraformDataSource
 	Action() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccLambdaLayerVersionPermission) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lambda_layer_version_permission awscc_lambda_layer_version_permission} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/lambda_layer_version_permission awscc_lambda_layer_version_permission} Data Source.
 func NewDataAwsccLambdaLayerVersionPermission(scope constructs.Construct, id *string, config *DataAwsccLambdaLayerVersionPermissionConfig) DataAwsccLambdaLayerVersionPermission {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccLambdaLayerVersionPermission(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/lambda_layer_version_permission awscc_lambda_layer_version_permission} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/lambda_layer_version_permission awscc_lambda_layer_version_permission} Data Source.
 func NewDataAwsccLambdaLayerVersionPermission_Override(d DataAwsccLambdaLayerVersionPermission, scope constructs.Construct, id *string, config *DataAwsccLambdaLayerVersionPermissionConfig) {
 	_init_.Initialize()
 

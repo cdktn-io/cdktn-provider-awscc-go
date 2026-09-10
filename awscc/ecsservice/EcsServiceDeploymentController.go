@@ -41,7 +41,7 @@ type EcsServiceDeploymentController struct {
 	//  Resource handler returned message: "Invalid request provided: Unable to update task definition on services with a CODE_DEPLOY deployment controller.
 	//   +  After a successful migration from ``ECS`` to ``EXTERNAL`` deployment controller, you need to manually remove the ``ACTIVE`` task set, because ECS no longer manages the deployment. For information about how to delete a task set, see [DeleteTaskSet](https://docs.aws.amazon.com/AmazonECS/latest/APIReference/API_DeleteTaskSet.html) in the ECSlong API Reference.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_service#type EcsService#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_service#type EcsService#type}
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

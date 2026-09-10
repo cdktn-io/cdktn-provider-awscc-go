@@ -5,13 +5,13 @@ package wisdomaiagent
 
 
 type WisdomAiAgentConfigurationEmailResponseAiAgentConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wisdom_ai_agent#association_configurations WisdomAiAgent#association_configurations}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/wisdom_ai_agent#association_configurations WisdomAiAgent#association_configurations}.
 	AssociationConfigurations interface{} `field:"optional" json:"associationConfigurations" yaml:"associationConfigurations"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wisdom_ai_agent#email_query_reformulation_ai_prompt_id WisdomAiAgent#email_query_reformulation_ai_prompt_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/wisdom_ai_agent#email_query_reformulation_ai_prompt_id WisdomAiAgent#email_query_reformulation_ai_prompt_id}.
 	EmailQueryReformulationAiPromptId *string `field:"optional" json:"emailQueryReformulationAiPromptId" yaml:"emailQueryReformulationAiPromptId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wisdom_ai_agent#email_response_ai_prompt_id WisdomAiAgent#email_response_ai_prompt_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/wisdom_ai_agent#email_response_ai_prompt_id WisdomAiAgent#email_response_ai_prompt_id}.
 	EmailResponseAiPromptId *string `field:"optional" json:"emailResponseAiPromptId" yaml:"emailResponseAiPromptId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wisdom_ai_agent#locale WisdomAiAgent#locale}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/wisdom_ai_agent#locale WisdomAiAgent#locale}.
 	Locale *string `field:"optional" json:"locale" yaml:"locale"`
 }
 

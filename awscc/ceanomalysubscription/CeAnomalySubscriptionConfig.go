@@ -24,31 +24,31 @@ type CeAnomalySubscriptionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The frequency at which anomaly reports are sent over email.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ce_anomaly_subscription#frequency CeAnomalySubscription#frequency}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ce_anomaly_subscription#frequency CeAnomalySubscription#frequency}
 	Frequency *string `field:"required" json:"frequency" yaml:"frequency"`
 	// A list of cost anomaly monitors.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ce_anomaly_subscription#monitor_arn_list CeAnomalySubscription#monitor_arn_list}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ce_anomaly_subscription#monitor_arn_list CeAnomalySubscription#monitor_arn_list}
 	MonitorArnList *[]*string `field:"required" json:"monitorArnList" yaml:"monitorArnList"`
 	// A list of subscriber.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ce_anomaly_subscription#subscribers CeAnomalySubscription#subscribers}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ce_anomaly_subscription#subscribers CeAnomalySubscription#subscribers}
 	Subscribers interface{} `field:"required" json:"subscribers" yaml:"subscribers"`
 	// The name of the subscription.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ce_anomaly_subscription#subscription_name CeAnomalySubscription#subscription_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ce_anomaly_subscription#subscription_name CeAnomalySubscription#subscription_name}
 	SubscriptionName *string `field:"required" json:"subscriptionName" yaml:"subscriptionName"`
 	// Tags to assign to subscription.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ce_anomaly_subscription#resource_tags CeAnomalySubscription#resource_tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ce_anomaly_subscription#resource_tags CeAnomalySubscription#resource_tags}
 	ResourceTags interface{} `field:"optional" json:"resourceTags" yaml:"resourceTags"`
 	// The dollar value that triggers a notification if the threshold is exceeded.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ce_anomaly_subscription#threshold CeAnomalySubscription#threshold}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ce_anomaly_subscription#threshold CeAnomalySubscription#threshold}
 	Threshold *float64 `field:"optional" json:"threshold" yaml:"threshold"`
 	// An Expression object in JSON String format used to specify the anomalies that you want to generate alerts for.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ce_anomaly_subscription#threshold_expression CeAnomalySubscription#threshold_expression}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ce_anomaly_subscription#threshold_expression CeAnomalySubscription#threshold_expression}
 	ThresholdExpression *string `field:"optional" json:"thresholdExpression" yaml:"thresholdExpression"`
 }
 

@@ -7,11 +7,11 @@ package bedrockguardrail
 type BedrockGuardrailSensitiveInformationPolicyConfig struct {
 	// List of entities.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_guardrail#pii_entities_config BedrockGuardrail#pii_entities_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrock_guardrail#pii_entities_config BedrockGuardrail#pii_entities_config}
 	PiiEntitiesConfig interface{} `field:"optional" json:"piiEntitiesConfig" yaml:"piiEntitiesConfig"`
 	// List of regex.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_guardrail#regexes_config BedrockGuardrail#regexes_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrock_guardrail#regexes_config BedrockGuardrail#regexes_config}
 	RegexesConfig interface{} `field:"optional" json:"regexesConfig" yaml:"regexesConfig"`
 }
 

@@ -7,11 +7,11 @@ package bedrockdatasource
 type BedrockDataSourceDataSourceConfigurationWebConfiguration struct {
 	// Configuration for the web crawler.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_source#crawler_configuration BedrockDataSource#crawler_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrock_data_source#crawler_configuration BedrockDataSource#crawler_configuration}
 	CrawlerConfiguration *BedrockDataSourceDataSourceConfigurationWebConfigurationCrawlerConfiguration `field:"optional" json:"crawlerConfiguration" yaml:"crawlerConfiguration"`
 	// A web source configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_data_source#source_configuration BedrockDataSource#source_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrock_data_source#source_configuration BedrockDataSource#source_configuration}
 	SourceConfiguration *BedrockDataSourceDataSourceConfigurationWebConfigurationSourceConfiguration `field:"optional" json:"sourceConfiguration" yaml:"sourceConfiguration"`
 }
 

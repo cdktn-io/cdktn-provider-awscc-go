@@ -7,7 +7,7 @@ package quicksightdataset
 type QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperation struct {
 	// <p>The column that this operation acts on.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_data_set#column_name QuicksightDataSet#column_name}
 	ColumnName *string `field:"optional" json:"columnName" yaml:"columnName"`
 	// <p>The dataset column tag, currently only used for geospatial type tagging.
 	//
@@ -16,7 +16,7 @@ type QuicksightDataSetLogicalTableMapDataTransformsTagColumnOperation struct {
 	//             <p>This is not tags for the AWS tagging feature. .</p>
 	//         </note>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_data_set#tags QuicksightDataSet#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_data_set#tags QuicksightDataSet#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

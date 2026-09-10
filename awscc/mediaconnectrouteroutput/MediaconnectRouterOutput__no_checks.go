@@ -83,6 +83,10 @@ func (m *jsiiProxy_MediaconnectRouterOutput) validatePutConfigurationParameters(
 	return nil
 }
 
+func (m *jsiiProxy_MediaconnectRouterOutput) validatePutFabricConfigurationParameters(value *MediaconnectRouterOutputFabricConfiguration) error {
+	return nil
+}
+
 func (m *jsiiProxy_MediaconnectRouterOutput) validatePutMaintenanceConfigurationParameters(value *MediaconnectRouterOutputMaintenanceConfiguration) error {
 	return nil
 }

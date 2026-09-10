@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53globalresolver_access_token awscc_route53globalresolver_access_token}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/route53globalresolver_access_token awscc_route53globalresolver_access_token}.
 type DataAwsccRoute53GlobalresolverAccessToken interface {
 	cdktn.TerraformDataSource
 	AccessTokenId() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccRoute53GlobalresolverAccessToken) Value() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53globalresolver_access_token awscc_route53globalresolver_access_token} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/route53globalresolver_access_token awscc_route53globalresolver_access_token} Data Source.
 func NewDataAwsccRoute53GlobalresolverAccessToken(scope constructs.Construct, id *string, config *DataAwsccRoute53GlobalresolverAccessTokenConfig) DataAwsccRoute53GlobalresolverAccessToken {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccRoute53GlobalresolverAccessToken(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53globalresolver_access_token awscc_route53globalresolver_access_token} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/route53globalresolver_access_token awscc_route53globalresolver_access_token} Data Source.
 func NewDataAwsccRoute53GlobalresolverAccessToken_Override(d DataAwsccRoute53GlobalresolverAccessToken, scope constructs.Construct, id *string, config *DataAwsccRoute53GlobalresolverAccessTokenConfig) {
 	_init_.Initialize()
 

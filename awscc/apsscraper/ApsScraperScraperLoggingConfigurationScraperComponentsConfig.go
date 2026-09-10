@@ -5,7 +5,7 @@ package apsscraper
 
 
 type ApsScraperScraperLoggingConfigurationScraperComponentsConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aps_scraper#options ApsScraper#options}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/aps_scraper#options ApsScraper#options}.
 	Options *map[string]*string `field:"optional" json:"options" yaml:"options"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cognito_managed_login_branding awscc_cognito_managed_login_branding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cognito_managed_login_branding awscc_cognito_managed_login_branding}.
 type DataAwsccCognitoManagedLoginBranding interface {
 	cdktn.TerraformDataSource
 	Assets() DataAwsccCognitoManagedLoginBrandingAssetsList
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccCognitoManagedLoginBranding) UserPoolId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cognito_managed_login_branding awscc_cognito_managed_login_branding} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cognito_managed_login_branding awscc_cognito_managed_login_branding} Data Source.
 func NewDataAwsccCognitoManagedLoginBranding(scope constructs.Construct, id *string, config *DataAwsccCognitoManagedLoginBrandingConfig) DataAwsccCognitoManagedLoginBranding {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccCognitoManagedLoginBranding(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cognito_managed_login_branding awscc_cognito_managed_login_branding} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cognito_managed_login_branding awscc_cognito_managed_login_branding} Data Source.
 func NewDataAwsccCognitoManagedLoginBranding_Override(d DataAwsccCognitoManagedLoginBranding, scope constructs.Construct, id *string, config *DataAwsccCognitoManagedLoginBrandingConfig) {
 	_init_.Initialize()
 

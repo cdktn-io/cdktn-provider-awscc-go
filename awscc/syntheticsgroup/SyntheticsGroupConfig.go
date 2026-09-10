@@ -24,11 +24,11 @@ type SyntheticsGroupConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Name of the group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/synthetics_group#name SyntheticsGroup#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/synthetics_group#name SyntheticsGroup#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/synthetics_group#resource_arns SyntheticsGroup#resource_arns}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/synthetics_group#resource_arns SyntheticsGroup#resource_arns}.
 	ResourceArns *[]*string `field:"optional" json:"resourceArns" yaml:"resourceArns"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/synthetics_group#tags SyntheticsGroup#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/synthetics_group#tags SyntheticsGroup#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

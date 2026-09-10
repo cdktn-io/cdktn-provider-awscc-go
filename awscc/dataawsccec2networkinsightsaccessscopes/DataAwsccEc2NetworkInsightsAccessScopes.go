@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_network_insights_access_scopes awscc_ec2_network_insights_access_scopes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_network_insights_access_scopes awscc_ec2_network_insights_access_scopes}.
 type DataAwsccEc2NetworkInsightsAccessScopes interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2NetworkInsightsAccessScopes) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_network_insights_access_scopes awscc_ec2_network_insights_access_scopes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_network_insights_access_scopes awscc_ec2_network_insights_access_scopes} Data Source.
 func NewDataAwsccEc2NetworkInsightsAccessScopes(scope constructs.Construct, id *string, config *DataAwsccEc2NetworkInsightsAccessScopesConfig) DataAwsccEc2NetworkInsightsAccessScopes {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2NetworkInsightsAccessScopes(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_network_insights_access_scopes awscc_ec2_network_insights_access_scopes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_network_insights_access_scopes awscc_ec2_network_insights_access_scopes} Data Source.
 func NewDataAwsccEc2NetworkInsightsAccessScopes_Override(d DataAwsccEc2NetworkInsightsAccessScopes, scope constructs.Construct, id *string, config *DataAwsccEc2NetworkInsightsAccessScopesConfig) {
 	_init_.Initialize()
 

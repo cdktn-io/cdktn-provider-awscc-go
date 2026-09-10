@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/shield_drt_accesses awscc_shield_drt_accesses}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/shield_drt_accesses awscc_shield_drt_accesses}.
 type DataAwsccShieldDrtAccesses interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccShieldDrtAccesses) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/shield_drt_accesses awscc_shield_drt_accesses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/shield_drt_accesses awscc_shield_drt_accesses} Data Source.
 func NewDataAwsccShieldDrtAccesses(scope constructs.Construct, id *string, config *DataAwsccShieldDrtAccessesConfig) DataAwsccShieldDrtAccesses {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccShieldDrtAccesses(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/shield_drt_accesses awscc_shield_drt_accesses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/shield_drt_accesses awscc_shield_drt_accesses} Data Source.
 func NewDataAwsccShieldDrtAccesses_Override(d DataAwsccShieldDrtAccesses, scope constructs.Construct, id *string, config *DataAwsccShieldDrtAccessesConfig) {
 	_init_.Initialize()
 

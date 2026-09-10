@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/kms_key awscc_kms_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/kms_key awscc_kms_key}.
 type DataAwsccKmsKey interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccKmsKey) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/kms_key awscc_kms_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/kms_key awscc_kms_key} Data Source.
 func NewDataAwsccKmsKey(scope constructs.Construct, id *string, config *DataAwsccKmsKeyConfig) DataAwsccKmsKey {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccKmsKey(scope constructs.Construct, id *string, config *DataAwsc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/kms_key awscc_kms_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/kms_key awscc_kms_key} Data Source.
 func NewDataAwsccKmsKey_Override(d DataAwsccKmsKey, scope constructs.Construct, id *string, config *DataAwsccKmsKeyConfig) {
 	_init_.Initialize()
 

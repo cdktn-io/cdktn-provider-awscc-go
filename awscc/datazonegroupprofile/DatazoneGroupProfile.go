@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_group_profile awscc_datazone_group_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_group_profile awscc_datazone_group_profile}.
 type DatazoneGroupProfile interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -518,7 +518,7 @@ func (j *jsiiProxy_DatazoneGroupProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_group_profile awscc_datazone_group_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_group_profile awscc_datazone_group_profile} Resource.
 func NewDatazoneGroupProfile(scope constructs.Construct, id *string, config *DatazoneGroupProfileConfig) DatazoneGroupProfile {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewDatazoneGroupProfile(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datazone_group_profile awscc_datazone_group_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_group_profile awscc_datazone_group_profile} Resource.
 func NewDatazoneGroupProfile_Override(d DatazoneGroupProfile, scope constructs.Construct, id *string, config *DatazoneGroupProfileConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/networkmanager_transit_gateway_route_table_attachment awscc_networkmanager_transit_gateway_route_table_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkmanager_transit_gateway_route_table_attachment awscc_networkmanager_transit_gateway_route_table_attachment}.
 type NetworkmanagerTransitGatewayRouteTableAttachment interface {
 	cdktn.TerraformResource
 	AttachmentId() *string
@@ -664,7 +664,7 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) UpdatedAt()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/networkmanager_transit_gateway_route_table_attachment awscc_networkmanager_transit_gateway_route_table_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkmanager_transit_gateway_route_table_attachment awscc_networkmanager_transit_gateway_route_table_attachment} Resource.
 func NewNetworkmanagerTransitGatewayRouteTableAttachment(scope constructs.Construct, id *string, config *NetworkmanagerTransitGatewayRouteTableAttachmentConfig) NetworkmanagerTransitGatewayRouteTableAttachment {
 	_init_.Initialize()
 
@@ -682,7 +682,7 @@ func NewNetworkmanagerTransitGatewayRouteTableAttachment(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/networkmanager_transit_gateway_route_table_attachment awscc_networkmanager_transit_gateway_route_table_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkmanager_transit_gateway_route_table_attachment awscc_networkmanager_transit_gateway_route_table_attachment} Resource.
 func NewNetworkmanagerTransitGatewayRouteTableAttachment_Override(n NetworkmanagerTransitGatewayRouteTableAttachment, scope constructs.Construct, id *string, config *NetworkmanagerTransitGatewayRouteTableAttachmentConfig) {
 	_init_.Initialize()
 

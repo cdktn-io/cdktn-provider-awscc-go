@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/chime_app_instance_bots awscc_chime_app_instance_bots}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/chime_app_instance_bots awscc_chime_app_instance_bots}.
 type DataAwsccChimeAppInstanceBots interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccChimeAppInstanceBots) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/chime_app_instance_bots awscc_chime_app_instance_bots} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/chime_app_instance_bots awscc_chime_app_instance_bots} Data Source.
 func NewDataAwsccChimeAppInstanceBots(scope constructs.Construct, id *string, config *DataAwsccChimeAppInstanceBotsConfig) DataAwsccChimeAppInstanceBots {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccChimeAppInstanceBots(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/chime_app_instance_bots awscc_chime_app_instance_bots} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/chime_app_instance_bots awscc_chime_app_instance_bots} Data Source.
 func NewDataAwsccChimeAppInstanceBots_Override(d DataAwsccChimeAppInstanceBots, scope constructs.Construct, id *string, config *DataAwsccChimeAppInstanceBotsConfig) {
 	_init_.Initialize()
 

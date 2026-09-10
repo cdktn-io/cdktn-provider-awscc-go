@@ -24,15 +24,15 @@ type SignerSigningProfileConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID of the target signing platform.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/signer_signing_profile#platform_id SignerSigningProfile#platform_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/signer_signing_profile#platform_id SignerSigningProfile#platform_id}
 	PlatformId *string `field:"required" json:"platformId" yaml:"platformId"`
 	// Signature validity period of the profile.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/signer_signing_profile#signature_validity_period SignerSigningProfile#signature_validity_period}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/signer_signing_profile#signature_validity_period SignerSigningProfile#signature_validity_period}
 	SignatureValidityPeriod *SignerSigningProfileSignatureValidityPeriod `field:"optional" json:"signatureValidityPeriod" yaml:"signatureValidityPeriod"`
 	// A list of tags associated with the signing profile.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/signer_signing_profile#tags SignerSigningProfile#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/signer_signing_profile#tags SignerSigningProfile#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

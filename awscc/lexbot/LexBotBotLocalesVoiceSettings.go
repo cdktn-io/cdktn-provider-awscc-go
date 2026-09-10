@@ -9,11 +9,11 @@ type LexBotBotLocalesVoiceSettings struct {
 	//
 	// For more information, see the engine parameter of the SynthesizeSpeech operation in the Amazon Polly developer guide.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#engine LexBot#engine}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lex_bot#engine LexBot#engine}
 	Engine *string `field:"optional" json:"engine" yaml:"engine"`
 	// The Amazon Polly voice ID that Amazon Lex uses for voice interaction with the user.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lex_bot#voice_id LexBot#voice_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lex_bot#voice_id LexBot#voice_id}
 	VoiceId *string `field:"optional" json:"voiceId" yaml:"voiceId"`
 }
 

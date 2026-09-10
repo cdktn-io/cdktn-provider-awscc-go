@@ -7,7 +7,7 @@ package sagemakermodel
 type SagemakerModelPrimaryContainerModelDataSourceS3DataSourceHubAccessConfig struct {
 	// The ARN of the hub content for which deployment access is allowed.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model#hub_content_arn SagemakerModel#hub_content_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_model#hub_content_arn SagemakerModel#hub_content_arn}
 	HubContentArn *string `field:"optional" json:"hubContentArn" yaml:"hubContentArn"`
 }
 

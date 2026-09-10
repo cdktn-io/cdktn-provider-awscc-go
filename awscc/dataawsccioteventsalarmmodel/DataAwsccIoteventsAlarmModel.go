@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotevents_alarm_model awscc_iotevents_alarm_model}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotevents_alarm_model awscc_iotevents_alarm_model}.
 type DataAwsccIoteventsAlarmModel interface {
 	cdktn.TerraformDataSource
 	AlarmCapabilities() DataAwsccIoteventsAlarmModelAlarmCapabilitiesOutputReference
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccIoteventsAlarmModel) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotevents_alarm_model awscc_iotevents_alarm_model} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotevents_alarm_model awscc_iotevents_alarm_model} Data Source.
 func NewDataAwsccIoteventsAlarmModel(scope constructs.Construct, id *string, config *DataAwsccIoteventsAlarmModelConfig) DataAwsccIoteventsAlarmModel {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccIoteventsAlarmModel(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotevents_alarm_model awscc_iotevents_alarm_model} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotevents_alarm_model awscc_iotevents_alarm_model} Data Source.
 func NewDataAwsccIoteventsAlarmModel_Override(d DataAwsccIoteventsAlarmModel, scope constructs.Construct, id *string, config *DataAwsccIoteventsAlarmModelConfig) {
 	_init_.Initialize()
 

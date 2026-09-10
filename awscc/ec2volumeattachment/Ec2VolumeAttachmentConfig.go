@@ -26,23 +26,23 @@ type Ec2VolumeAttachmentConfig struct {
 	//
 	// This value can be a reference to an [AWS::EC2::Instance](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html) resource, or it can be the physical ID of an existing EC2 instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_volume_attachment#instance_id Ec2VolumeAttachment#instance_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_volume_attachment#instance_id Ec2VolumeAttachment#instance_id}
 	InstanceId *string `field:"required" json:"instanceId" yaml:"instanceId"`
 	// The ID of the Amazon EBS volume.
 	//
 	// The volume and instance must be within the same Availability Zone. This value can be a reference to an [AWS::EC2::Volume](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-ebs-volume.html) resource, or it can be the volume ID of an existing Amazon EBS volume.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_volume_attachment#volume_id Ec2VolumeAttachment#volume_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_volume_attachment#volume_id Ec2VolumeAttachment#volume_id}
 	VolumeId *string `field:"required" json:"volumeId" yaml:"volumeId"`
 	// The device name (for example, ``/dev/sdh`` or ``xvdh``).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_volume_attachment#device Ec2VolumeAttachment#device}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_volume_attachment#device Ec2VolumeAttachment#device}
 	Device *string `field:"optional" json:"device" yaml:"device"`
 	// The index of the EBS card.
 	//
 	// Some instance types support multiple EBS cards. The default EBS card index is 0.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_volume_attachment#ebs_card_index Ec2VolumeAttachment#ebs_card_index}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_volume_attachment#ebs_card_index Ec2VolumeAttachment#ebs_card_index}
 	EbsCardIndex *float64 `field:"optional" json:"ebsCardIndex" yaml:"ebsCardIndex"`
 }
 

@@ -22,9 +22,9 @@ type BackupBackupSelectionConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_backup_selection#backup_plan_id BackupBackupSelection#backup_plan_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/backup_backup_selection#backup_plan_id BackupBackupSelection#backup_plan_id}.
 	BackupPlanId *string `field:"required" json:"backupPlanId" yaml:"backupPlanId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/backup_backup_selection#backup_selection BackupBackupSelection#backup_selection}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/backup_backup_selection#backup_selection BackupBackupSelection#backup_selection}.
 	BackupSelection *BackupBackupSelectionBackupSelection `field:"required" json:"backupSelection" yaml:"backupSelection"`
 }
 

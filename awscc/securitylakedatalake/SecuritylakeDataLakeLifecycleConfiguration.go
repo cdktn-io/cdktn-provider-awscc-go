@@ -7,11 +7,11 @@ package securitylakedatalake
 type SecuritylakeDataLakeLifecycleConfiguration struct {
 	// Provides data expiration details of Amazon Security Lake object.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securitylake_data_lake#expiration SecuritylakeDataLake#expiration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securitylake_data_lake#expiration SecuritylakeDataLake#expiration}
 	Expiration *SecuritylakeDataLakeLifecycleConfigurationExpiration `field:"optional" json:"expiration" yaml:"expiration"`
 	// Provides data storage transition details of Amazon Security Lake object.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securitylake_data_lake#transitions SecuritylakeDataLake#transitions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securitylake_data_lake#transitions SecuritylakeDataLake#transitions}
 	Transitions interface{} `field:"optional" json:"transitions" yaml:"transitions"`
 }
 

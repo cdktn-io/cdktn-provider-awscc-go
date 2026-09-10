@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/imagebuilder_image_recipes awscc_imagebuilder_image_recipes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/imagebuilder_image_recipes awscc_imagebuilder_image_recipes}.
 type DataAwsccImagebuilderImageRecipes interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccImagebuilderImageRecipes) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/imagebuilder_image_recipes awscc_imagebuilder_image_recipes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/imagebuilder_image_recipes awscc_imagebuilder_image_recipes} Data Source.
 func NewDataAwsccImagebuilderImageRecipes(scope constructs.Construct, id *string, config *DataAwsccImagebuilderImageRecipesConfig) DataAwsccImagebuilderImageRecipes {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccImagebuilderImageRecipes(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/imagebuilder_image_recipes awscc_imagebuilder_image_recipes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/imagebuilder_image_recipes awscc_imagebuilder_image_recipes} Data Source.
 func NewDataAwsccImagebuilderImageRecipes_Override(d DataAwsccImagebuilderImageRecipes, scope constructs.Construct, id *string, config *DataAwsccImagebuilderImageRecipesConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sqs_queue awscc_sqs_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sqs_queue awscc_sqs_queue}.
 type SqsQueue interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -761,7 +761,7 @@ func (j *jsiiProxy_SqsQueue) VisibilityTimeoutInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sqs_queue awscc_sqs_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sqs_queue awscc_sqs_queue} Resource.
 func NewSqsQueue(scope constructs.Construct, id *string, config *SqsQueueConfig) SqsQueue {
 	_init_.Initialize()
 
@@ -779,7 +779,7 @@ func NewSqsQueue(scope constructs.Construct, id *string, config *SqsQueueConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sqs_queue awscc_sqs_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sqs_queue awscc_sqs_queue} Resource.
 func NewSqsQueue_Override(s SqsQueue, scope constructs.Construct, id *string, config *SqsQueueConfig) {
 	_init_.Initialize()
 

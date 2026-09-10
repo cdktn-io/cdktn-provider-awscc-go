@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ipam_external_resource_verification_token awscc_ec2_ipam_external_resource_verification_token}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ipam_external_resource_verification_token awscc_ec2_ipam_external_resource_verification_token}.
 type Ec2IpamExternalResourceVerificationToken interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -501,7 +501,7 @@ func (j *jsiiProxy_Ec2IpamExternalResourceVerificationToken) TokenValue() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ipam_external_resource_verification_token awscc_ec2_ipam_external_resource_verification_token} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ipam_external_resource_verification_token awscc_ec2_ipam_external_resource_verification_token} Resource.
 func NewEc2IpamExternalResourceVerificationToken(scope constructs.Construct, id *string, config *Ec2IpamExternalResourceVerificationTokenConfig) Ec2IpamExternalResourceVerificationToken {
 	_init_.Initialize()
 
@@ -519,7 +519,7 @@ func NewEc2IpamExternalResourceVerificationToken(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_ipam_external_resource_verification_token awscc_ec2_ipam_external_resource_verification_token} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ipam_external_resource_verification_token awscc_ec2_ipam_external_resource_verification_token} Resource.
 func NewEc2IpamExternalResourceVerificationToken_Override(e Ec2IpamExternalResourceVerificationToken, scope constructs.Construct, id *string, config *Ec2IpamExternalResourceVerificationTokenConfig) {
 	_init_.Initialize()
 

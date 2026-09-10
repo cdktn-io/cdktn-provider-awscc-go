@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/personalize_metric_attributions awscc_personalize_metric_attributions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/personalize_metric_attributions awscc_personalize_metric_attributions}.
 type DataAwsccPersonalizeMetricAttributions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccPersonalizeMetricAttributions) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/personalize_metric_attributions awscc_personalize_metric_attributions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/personalize_metric_attributions awscc_personalize_metric_attributions} Data Source.
 func NewDataAwsccPersonalizeMetricAttributions(scope constructs.Construct, id *string, config *DataAwsccPersonalizeMetricAttributionsConfig) DataAwsccPersonalizeMetricAttributions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccPersonalizeMetricAttributions(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/personalize_metric_attributions awscc_personalize_metric_attributions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/personalize_metric_attributions awscc_personalize_metric_attributions} Data Source.
 func NewDataAwsccPersonalizeMetricAttributions_Override(d DataAwsccPersonalizeMetricAttributions, scope constructs.Construct, id *string, config *DataAwsccPersonalizeMetricAttributionsConfig) {
 	_init_.Initialize()
 

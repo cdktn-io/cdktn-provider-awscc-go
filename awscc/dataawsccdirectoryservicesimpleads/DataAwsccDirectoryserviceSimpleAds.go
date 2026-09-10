@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/directoryservice_simple_ads awscc_directoryservice_simple_ads}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/directoryservice_simple_ads awscc_directoryservice_simple_ads}.
 type DataAwsccDirectoryserviceSimpleAds interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDirectoryserviceSimpleAds) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/directoryservice_simple_ads awscc_directoryservice_simple_ads} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/directoryservice_simple_ads awscc_directoryservice_simple_ads} Data Source.
 func NewDataAwsccDirectoryserviceSimpleAds(scope constructs.Construct, id *string, config *DataAwsccDirectoryserviceSimpleAdsConfig) DataAwsccDirectoryserviceSimpleAds {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDirectoryserviceSimpleAds(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/directoryservice_simple_ads awscc_directoryservice_simple_ads} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/directoryservice_simple_ads awscc_directoryservice_simple_ads} Data Source.
 func NewDataAwsccDirectoryserviceSimpleAds_Override(d DataAwsccDirectoryserviceSimpleAds, scope constructs.Construct, id *string, config *DataAwsccDirectoryserviceSimpleAdsConfig) {
 	_init_.Initialize()
 

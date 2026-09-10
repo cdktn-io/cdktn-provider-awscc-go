@@ -7,7 +7,7 @@ package devopsagentassociation
 type DevopsagentAssociationConfigurationMcpServerSigV4 struct {
 	// List of MCP tools available for the association.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
 	Tools *[]*string `field:"optional" json:"tools" yaml:"tools"`
 }
 

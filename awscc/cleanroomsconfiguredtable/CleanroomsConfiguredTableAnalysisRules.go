@@ -5,9 +5,9 @@ package cleanroomsconfiguredtable
 
 
 type CleanroomsConfiguredTableAnalysisRules struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_configured_table#policy CleanroomsConfiguredTable#policy}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cleanrooms_configured_table#policy CleanroomsConfiguredTable#policy}.
 	Policy *CleanroomsConfiguredTableAnalysisRulesPolicy `field:"optional" json:"policy" yaml:"policy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_configured_table#type CleanroomsConfiguredTable#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cleanrooms_configured_table#type CleanroomsConfiguredTable#type}.
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

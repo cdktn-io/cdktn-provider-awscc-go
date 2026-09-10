@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/entityresolution_schema_mappings awscc_entityresolution_schema_mappings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/entityresolution_schema_mappings awscc_entityresolution_schema_mappings}.
 type DataAwsccEntityresolutionSchemaMappings interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEntityresolutionSchemaMappings) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/entityresolution_schema_mappings awscc_entityresolution_schema_mappings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/entityresolution_schema_mappings awscc_entityresolution_schema_mappings} Data Source.
 func NewDataAwsccEntityresolutionSchemaMappings(scope constructs.Construct, id *string, config *DataAwsccEntityresolutionSchemaMappingsConfig) DataAwsccEntityresolutionSchemaMappings {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEntityresolutionSchemaMappings(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/entityresolution_schema_mappings awscc_entityresolution_schema_mappings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/entityresolution_schema_mappings awscc_entityresolution_schema_mappings} Data Source.
 func NewDataAwsccEntityresolutionSchemaMappings_Override(d DataAwsccEntityresolutionSchemaMappings, scope constructs.Construct, id *string, config *DataAwsccEntityresolutionSchemaMappingsConfig) {
 	_init_.Initialize()
 

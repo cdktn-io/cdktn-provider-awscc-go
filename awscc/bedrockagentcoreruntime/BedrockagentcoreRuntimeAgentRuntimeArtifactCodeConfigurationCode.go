@@ -7,7 +7,7 @@ package bedrockagentcoreruntime
 type BedrockagentcoreRuntimeAgentRuntimeArtifactCodeConfigurationCode struct {
 	// S3 Location Configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_runtime#s3 BedrockagentcoreRuntime#s3}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrockagentcore_runtime#s3 BedrockagentcoreRuntime#s3}
 	S3 *BedrockagentcoreRuntimeAgentRuntimeArtifactCodeConfigurationCodeS3 `field:"optional" json:"s3" yaml:"s3"`
 }
 

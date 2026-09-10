@@ -5,9 +5,9 @@ package iotanalyticsdataset
 
 
 type IotanalyticsDatasetActionsQueryAction struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotanalytics_dataset#filters IotanalyticsDataset#filters}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotanalytics_dataset#filters IotanalyticsDataset#filters}.
 	Filters interface{} `field:"optional" json:"filters" yaml:"filters"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotanalytics_dataset#sql_query IotanalyticsDataset#sql_query}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotanalytics_dataset#sql_query IotanalyticsDataset#sql_query}.
 	SqlQuery *string `field:"optional" json:"sqlQuery" yaml:"sqlQuery"`
 }
 

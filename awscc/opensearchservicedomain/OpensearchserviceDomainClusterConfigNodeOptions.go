@@ -5,9 +5,9 @@ package opensearchservicedomain
 
 
 type OpensearchserviceDomainClusterConfigNodeOptions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearchservice_domain#node_config OpensearchserviceDomain#node_config}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/opensearchservice_domain#node_config OpensearchserviceDomain#node_config}.
 	NodeConfig *OpensearchserviceDomainClusterConfigNodeOptionsNodeConfig `field:"optional" json:"nodeConfig" yaml:"nodeConfig"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/opensearchservice_domain#node_type OpensearchserviceDomain#node_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/opensearchservice_domain#node_type OpensearchserviceDomain#node_type}.
 	NodeType *string `field:"optional" json:"nodeType" yaml:"nodeType"`
 }
 

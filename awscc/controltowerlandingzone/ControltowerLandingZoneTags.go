@@ -5,9 +5,9 @@ package controltowerlandingzone
 
 
 type ControltowerLandingZoneTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/controltower_landing_zone#key ControltowerLandingZone#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/controltower_landing_zone#key ControltowerLandingZone#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/controltower_landing_zone#value ControltowerLandingZone#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/controltower_landing_zone#value ControltowerLandingZone#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

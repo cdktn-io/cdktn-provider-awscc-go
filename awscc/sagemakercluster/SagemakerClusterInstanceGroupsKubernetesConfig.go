@@ -7,11 +7,11 @@ package sagemakercluster
 type SagemakerClusterInstanceGroupsKubernetesConfig struct {
 	// A map of Kubernetes labels to apply to cluster nodes.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#labels SagemakerCluster#labels}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#labels SagemakerCluster#labels}
 	Labels *map[string]*string `field:"optional" json:"labels" yaml:"labels"`
 	// A list of Kubernetes taints to apply to cluster nodes. Maximum of 50 taints.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_cluster#taints SagemakerCluster#taints}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#taints SagemakerCluster#taints}
 	Taints interface{} `field:"optional" json:"taints" yaml:"taints"`
 }
 

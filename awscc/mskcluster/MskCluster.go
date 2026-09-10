@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/msk_cluster awscc_msk_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/msk_cluster awscc_msk_cluster}.
 type MskCluster interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -709,7 +709,7 @@ func (j *jsiiProxy_MskCluster) ZookeeperAccessInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/msk_cluster awscc_msk_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/msk_cluster awscc_msk_cluster} Resource.
 func NewMskCluster(scope constructs.Construct, id *string, config *MskClusterConfig) MskCluster {
 	_init_.Initialize()
 
@@ -727,7 +727,7 @@ func NewMskCluster(scope constructs.Construct, id *string, config *MskClusterCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/msk_cluster awscc_msk_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/msk_cluster awscc_msk_cluster} Resource.
 func NewMskCluster_Override(m MskCluster, scope constructs.Construct, id *string, config *MskClusterConfig) {
 	_init_.Initialize()
 

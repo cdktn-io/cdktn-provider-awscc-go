@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/backup_report_plan awscc_backup_report_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/backup_report_plan awscc_backup_report_plan}.
 type DataAwsccBackupReportPlan interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccBackupReportPlan) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/backup_report_plan awscc_backup_report_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/backup_report_plan awscc_backup_report_plan} Data Source.
 func NewDataAwsccBackupReportPlan(scope constructs.Construct, id *string, config *DataAwsccBackupReportPlanConfig) DataAwsccBackupReportPlan {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccBackupReportPlan(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/backup_report_plan awscc_backup_report_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/backup_report_plan awscc_backup_report_plan} Data Source.
 func NewDataAwsccBackupReportPlan_Override(d DataAwsccBackupReportPlan, scope constructs.Construct, id *string, config *DataAwsccBackupReportPlanConfig) {
 	_init_.Initialize()
 

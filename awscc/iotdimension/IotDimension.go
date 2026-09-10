@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_dimension awscc_iot_dimension}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_dimension awscc_iot_dimension}.
 type IotDimension interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -460,7 +460,7 @@ func (j *jsiiProxy_IotDimension) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_dimension awscc_iot_dimension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_dimension awscc_iot_dimension} Resource.
 func NewIotDimension(scope constructs.Construct, id *string, config *IotDimensionConfig) IotDimension {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewIotDimension(scope constructs.Construct, id *string, config *IotDimensio
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iot_dimension awscc_iot_dimension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_dimension awscc_iot_dimension} Resource.
 func NewIotDimension_Override(i IotDimension, scope constructs.Construct, id *string, config *IotDimensionConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aiops_investigation_group awscc_aiops_investigation_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/aiops_investigation_group awscc_aiops_investigation_group}.
 type AiopsInvestigationGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -649,7 +649,7 @@ func (j *jsiiProxy_AiopsInvestigationGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aiops_investigation_group awscc_aiops_investigation_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/aiops_investigation_group awscc_aiops_investigation_group} Resource.
 func NewAiopsInvestigationGroup(scope constructs.Construct, id *string, config *AiopsInvestigationGroupConfig) AiopsInvestigationGroup {
 	_init_.Initialize()
 
@@ -667,7 +667,7 @@ func NewAiopsInvestigationGroup(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/aiops_investigation_group awscc_aiops_investigation_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/aiops_investigation_group awscc_aiops_investigation_group} Resource.
 func NewAiopsInvestigationGroup_Override(a AiopsInvestigationGroup, scope constructs.Construct, id *string, config *AiopsInvestigationGroupConfig) {
 	_init_.Initialize()
 

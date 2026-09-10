@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/dms_instance_profile awscc_dms_instance_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/dms_instance_profile awscc_dms_instance_profile}.
 type DataAwsccDmsInstanceProfile interface {
 	cdktn.TerraformDataSource
 	AvailabilityZone() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccDmsInstanceProfile) VpcSecurityGroups() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/dms_instance_profile awscc_dms_instance_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/dms_instance_profile awscc_dms_instance_profile} Data Source.
 func NewDataAwsccDmsInstanceProfile(scope constructs.Construct, id *string, config *DataAwsccDmsInstanceProfileConfig) DataAwsccDmsInstanceProfile {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccDmsInstanceProfile(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/dms_instance_profile awscc_dms_instance_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/dms_instance_profile awscc_dms_instance_profile} Data Source.
 func NewDataAwsccDmsInstanceProfile_Override(d DataAwsccDmsInstanceProfile, scope constructs.Construct, id *string, config *DataAwsccDmsInstanceProfileConfig) {
 	_init_.Initialize()
 

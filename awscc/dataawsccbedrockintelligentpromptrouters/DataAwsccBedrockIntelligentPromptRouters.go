@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrock_intelligent_prompt_routers awscc_bedrock_intelligent_prompt_routers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrock_intelligent_prompt_routers awscc_bedrock_intelligent_prompt_routers}.
 type DataAwsccBedrockIntelligentPromptRouters interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockIntelligentPromptRouters) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrock_intelligent_prompt_routers awscc_bedrock_intelligent_prompt_routers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrock_intelligent_prompt_routers awscc_bedrock_intelligent_prompt_routers} Data Source.
 func NewDataAwsccBedrockIntelligentPromptRouters(scope constructs.Construct, id *string, config *DataAwsccBedrockIntelligentPromptRoutersConfig) DataAwsccBedrockIntelligentPromptRouters {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockIntelligentPromptRouters(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrock_intelligent_prompt_routers awscc_bedrock_intelligent_prompt_routers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrock_intelligent_prompt_routers awscc_bedrock_intelligent_prompt_routers} Data Source.
 func NewDataAwsccBedrockIntelligentPromptRouters_Override(d DataAwsccBedrockIntelligentPromptRouters, scope constructs.Construct, id *string, config *DataAwsccBedrockIntelligentPromptRoutersConfig) {
 	_init_.Initialize()
 

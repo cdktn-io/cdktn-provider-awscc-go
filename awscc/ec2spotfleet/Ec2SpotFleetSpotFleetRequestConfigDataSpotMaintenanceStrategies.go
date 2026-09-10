@@ -5,7 +5,7 @@ package ec2spotfleet
 
 
 type Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategies struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_spot_fleet#capacity_rebalance Ec2SpotFleet#capacity_rebalance}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_spot_fleet#capacity_rebalance Ec2SpotFleet#capacity_rebalance}.
 	CapacityRebalance *Ec2SpotFleetSpotFleetRequestConfigDataSpotMaintenanceStrategiesCapacityRebalance `field:"optional" json:"capacityRebalance" yaml:"capacityRebalance"`
 }
 

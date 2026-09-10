@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/neptune_db_cluster awscc_neptune_db_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/neptune_db_cluster awscc_neptune_db_cluster}.
 type NeptuneDbCluster interface {
 	cdktn.TerraformResource
 	AssociatedRoles() NeptuneDbClusterAssociatedRolesList
@@ -1047,7 +1047,7 @@ func (j *jsiiProxy_NeptuneDbCluster) VpcSecurityGroupIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/neptune_db_cluster awscc_neptune_db_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/neptune_db_cluster awscc_neptune_db_cluster} Resource.
 func NewNeptuneDbCluster(scope constructs.Construct, id *string, config *NeptuneDbClusterConfig) NeptuneDbCluster {
 	_init_.Initialize()
 
@@ -1065,7 +1065,7 @@ func NewNeptuneDbCluster(scope constructs.Construct, id *string, config *Neptune
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/neptune_db_cluster awscc_neptune_db_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/neptune_db_cluster awscc_neptune_db_cluster} Resource.
 func NewNeptuneDbCluster_Override(n NeptuneDbCluster, scope constructs.Construct, id *string, config *NeptuneDbClusterConfig) {
 	_init_.Initialize()
 

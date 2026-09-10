@@ -24,11 +24,11 @@ type Ec2RouteServerAssociationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Route Server ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_route_server_association#route_server_id Ec2RouteServerAssociation#route_server_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_route_server_association#route_server_id Ec2RouteServerAssociation#route_server_id}
 	RouteServerId *string `field:"required" json:"routeServerId" yaml:"routeServerId"`
 	// VPC ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_route_server_association#vpc_id Ec2RouteServerAssociation#vpc_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_route_server_association#vpc_id Ec2RouteServerAssociation#vpc_id}
 	VpcId *string `field:"required" json:"vpcId" yaml:"vpcId"`
 }
 

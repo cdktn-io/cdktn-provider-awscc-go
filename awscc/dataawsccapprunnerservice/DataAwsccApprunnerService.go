@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apprunner_service awscc_apprunner_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/apprunner_service awscc_apprunner_service}.
 type DataAwsccApprunnerService interface {
 	cdktn.TerraformDataSource
 	AutoScalingConfigurationArn() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccApprunnerService) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apprunner_service awscc_apprunner_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/apprunner_service awscc_apprunner_service} Data Source.
 func NewDataAwsccApprunnerService(scope constructs.Construct, id *string, config *DataAwsccApprunnerServiceConfig) DataAwsccApprunnerService {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccApprunnerService(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/apprunner_service awscc_apprunner_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/apprunner_service awscc_apprunner_service} Data Source.
 func NewDataAwsccApprunnerService_Override(d DataAwsccApprunnerService, scope constructs.Construct, id *string, config *DataAwsccApprunnerServiceConfig) {
 	_init_.Initialize()
 

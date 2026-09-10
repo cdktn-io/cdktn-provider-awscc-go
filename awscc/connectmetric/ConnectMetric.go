@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_metric awscc_connect_metric}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric awscc_connect_metric}.
 type ConnectMetric interface {
 	cdktn.TerraformResource
 	Category() *string
@@ -744,7 +744,7 @@ func (j *jsiiProxy_ConnectMetric) UnitInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_metric awscc_connect_metric} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric awscc_connect_metric} Resource.
 func NewConnectMetric(scope constructs.Construct, id *string, config *ConnectMetricConfig) ConnectMetric {
 	_init_.Initialize()
 
@@ -762,7 +762,7 @@ func NewConnectMetric(scope constructs.Construct, id *string, config *ConnectMet
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_metric awscc_connect_metric} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric awscc_connect_metric} Resource.
 func NewConnectMetric_Override(c ConnectMetric, scope constructs.Construct, id *string, config *ConnectMetricConfig) {
 	_init_.Initialize()
 

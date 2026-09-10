@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotfleetwise_signal_catalogs awscc_iotfleetwise_signal_catalogs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotfleetwise_signal_catalogs awscc_iotfleetwise_signal_catalogs}.
 type DataAwsccIotfleetwiseSignalCatalogs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotfleetwiseSignalCatalogs) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotfleetwise_signal_catalogs awscc_iotfleetwise_signal_catalogs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotfleetwise_signal_catalogs awscc_iotfleetwise_signal_catalogs} Data Source.
 func NewDataAwsccIotfleetwiseSignalCatalogs(scope constructs.Construct, id *string, config *DataAwsccIotfleetwiseSignalCatalogsConfig) DataAwsccIotfleetwiseSignalCatalogs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotfleetwiseSignalCatalogs(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotfleetwise_signal_catalogs awscc_iotfleetwise_signal_catalogs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotfleetwise_signal_catalogs awscc_iotfleetwise_signal_catalogs} Data Source.
 func NewDataAwsccIotfleetwiseSignalCatalogs_Override(d DataAwsccIotfleetwiseSignalCatalogs, scope constructs.Construct, id *string, config *DataAwsccIotfleetwiseSignalCatalogsConfig) {
 	_init_.Initialize()
 

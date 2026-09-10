@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/servicediscovery_private_dns_namespace awscc_servicediscovery_private_dns_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/servicediscovery_private_dns_namespace awscc_servicediscovery_private_dns_namespace}.
 type DataAwsccServicediscoveryPrivateDnsNamespace interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccServicediscoveryPrivateDnsNamespace) Vpc() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/servicediscovery_private_dns_namespace awscc_servicediscovery_private_dns_namespace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/servicediscovery_private_dns_namespace awscc_servicediscovery_private_dns_namespace} Data Source.
 func NewDataAwsccServicediscoveryPrivateDnsNamespace(scope constructs.Construct, id *string, config *DataAwsccServicediscoveryPrivateDnsNamespaceConfig) DataAwsccServicediscoveryPrivateDnsNamespace {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccServicediscoveryPrivateDnsNamespace(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/servicediscovery_private_dns_namespace awscc_servicediscovery_private_dns_namespace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/servicediscovery_private_dns_namespace awscc_servicediscovery_private_dns_namespace} Data Source.
 func NewDataAwsccServicediscoveryPrivateDnsNamespace_Override(d DataAwsccServicediscoveryPrivateDnsNamespace, scope constructs.Construct, id *string, config *DataAwsccServicediscoveryPrivateDnsNamespaceConfig) {
 	_init_.Initialize()
 

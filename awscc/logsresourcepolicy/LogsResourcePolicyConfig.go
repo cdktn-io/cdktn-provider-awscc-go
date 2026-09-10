@@ -24,11 +24,11 @@ type LogsResourcePolicyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The policy document.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_resource_policy#policy_document LogsResourcePolicy#policy_document}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/logs_resource_policy#policy_document LogsResourcePolicy#policy_document}
 	PolicyDocument *string `field:"required" json:"policyDocument" yaml:"policyDocument"`
 	// A name for resource policy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_resource_policy#policy_name LogsResourcePolicy#policy_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/logs_resource_policy#policy_name LogsResourcePolicy#policy_name}
 	PolicyName *string `field:"required" json:"policyName" yaml:"policyName"`
 }
 

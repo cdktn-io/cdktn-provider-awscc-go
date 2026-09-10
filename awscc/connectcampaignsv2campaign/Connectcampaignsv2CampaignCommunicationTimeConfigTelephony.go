@@ -7,11 +7,11 @@ package connectcampaignsv2campaign
 type Connectcampaignsv2CampaignCommunicationTimeConfigTelephony struct {
 	// Open Hours config.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connectcampaignsv2_campaign#open_hours Connectcampaignsv2Campaign#open_hours}
 	OpenHours *Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyOpenHours `field:"optional" json:"openHours" yaml:"openHours"`
 	// Restricted period config.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connectcampaignsv2_campaign#restricted_periods Connectcampaignsv2Campaign#restricted_periods}
 	RestrictedPeriods *Connectcampaignsv2CampaignCommunicationTimeConfigTelephonyRestrictedPeriods `field:"optional" json:"restrictedPeriods" yaml:"restrictedPeriods"`
 }
 

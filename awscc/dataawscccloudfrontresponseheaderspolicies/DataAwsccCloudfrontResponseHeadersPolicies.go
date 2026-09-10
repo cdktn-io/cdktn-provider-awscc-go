@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudfront_response_headers_policies awscc_cloudfront_response_headers_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudfront_response_headers_policies awscc_cloudfront_response_headers_policies}.
 type DataAwsccCloudfrontResponseHeadersPolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCloudfrontResponseHeadersPolicies) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudfront_response_headers_policies awscc_cloudfront_response_headers_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudfront_response_headers_policies awscc_cloudfront_response_headers_policies} Data Source.
 func NewDataAwsccCloudfrontResponseHeadersPolicies(scope constructs.Construct, id *string, config *DataAwsccCloudfrontResponseHeadersPoliciesConfig) DataAwsccCloudfrontResponseHeadersPolicies {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCloudfrontResponseHeadersPolicies(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudfront_response_headers_policies awscc_cloudfront_response_headers_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudfront_response_headers_policies awscc_cloudfront_response_headers_policies} Data Source.
 func NewDataAwsccCloudfrontResponseHeadersPolicies_Override(d DataAwsccCloudfrontResponseHeadersPolicies, scope constructs.Construct, id *string, config *DataAwsccCloudfrontResponseHeadersPoliciesConfig) {
 	_init_.Initialize()
 

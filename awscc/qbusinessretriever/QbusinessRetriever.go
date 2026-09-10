@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/qbusiness_retriever awscc_qbusiness_retriever}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/qbusiness_retriever awscc_qbusiness_retriever}.
 type QbusinessRetriever interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -550,7 +550,7 @@ func (j *jsiiProxy_QbusinessRetriever) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/qbusiness_retriever awscc_qbusiness_retriever} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/qbusiness_retriever awscc_qbusiness_retriever} Resource.
 func NewQbusinessRetriever(scope constructs.Construct, id *string, config *QbusinessRetrieverConfig) QbusinessRetriever {
 	_init_.Initialize()
 
@@ -568,7 +568,7 @@ func NewQbusinessRetriever(scope constructs.Construct, id *string, config *Qbusi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/qbusiness_retriever awscc_qbusiness_retriever} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/qbusiness_retriever awscc_qbusiness_retriever} Resource.
 func NewQbusinessRetriever_Override(q QbusinessRetriever, scope constructs.Construct, id *string, config *QbusinessRetrieverConfig) {
 	_init_.Initialize()
 

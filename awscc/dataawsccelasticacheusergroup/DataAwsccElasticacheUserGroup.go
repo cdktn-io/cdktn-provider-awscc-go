@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/elasticache_user_group awscc_elasticache_user_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/elasticache_user_group awscc_elasticache_user_group}.
 type DataAwsccElasticacheUserGroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccElasticacheUserGroup) UserIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/elasticache_user_group awscc_elasticache_user_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/elasticache_user_group awscc_elasticache_user_group} Data Source.
 func NewDataAwsccElasticacheUserGroup(scope constructs.Construct, id *string, config *DataAwsccElasticacheUserGroupConfig) DataAwsccElasticacheUserGroup {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccElasticacheUserGroup(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/elasticache_user_group awscc_elasticache_user_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/elasticache_user_group awscc_elasticache_user_group} Data Source.
 func NewDataAwsccElasticacheUserGroup_Override(d DataAwsccElasticacheUserGroup, scope constructs.Construct, id *string, config *DataAwsccElasticacheUserGroupConfig) {
 	_init_.Initialize()
 

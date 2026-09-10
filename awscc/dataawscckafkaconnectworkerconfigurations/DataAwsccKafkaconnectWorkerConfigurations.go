@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/kafkaconnect_worker_configurations awscc_kafkaconnect_worker_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/kafkaconnect_worker_configurations awscc_kafkaconnect_worker_configurations}.
 type DataAwsccKafkaconnectWorkerConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccKafkaconnectWorkerConfigurations) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/kafkaconnect_worker_configurations awscc_kafkaconnect_worker_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/kafkaconnect_worker_configurations awscc_kafkaconnect_worker_configurations} Data Source.
 func NewDataAwsccKafkaconnectWorkerConfigurations(scope constructs.Construct, id *string, config *DataAwsccKafkaconnectWorkerConfigurationsConfig) DataAwsccKafkaconnectWorkerConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccKafkaconnectWorkerConfigurations(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/kafkaconnect_worker_configurations awscc_kafkaconnect_worker_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/kafkaconnect_worker_configurations awscc_kafkaconnect_worker_configurations} Data Source.
 func NewDataAwsccKafkaconnectWorkerConfigurations_Override(d DataAwsccKafkaconnectWorkerConfigurations, scope constructs.Construct, id *string, config *DataAwsccKafkaconnectWorkerConfigurationsConfig) {
 	_init_.Initialize()
 

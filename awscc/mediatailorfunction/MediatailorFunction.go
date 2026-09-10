@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediatailor_function awscc_mediatailor_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediatailor_function awscc_mediatailor_function}.
 type MediatailorFunction interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_MediatailorFunction) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediatailor_function awscc_mediatailor_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediatailor_function awscc_mediatailor_function} Resource.
 func NewMediatailorFunction(scope constructs.Construct, id *string, config *MediatailorFunctionConfig) MediatailorFunction {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewMediatailorFunction(scope constructs.Construct, id *string, config *Medi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediatailor_function awscc_mediatailor_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediatailor_function awscc_mediatailor_function} Resource.
 func NewMediatailorFunction_Override(m MediatailorFunction, scope constructs.Construct, id *string, config *MediatailorFunctionConfig) {
 	_init_.Initialize()
 

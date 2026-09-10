@@ -22,7 +22,7 @@ type IoteventsAlarmModelAlarmEventActionsAlarmActions struct {
 	//  For more information, see [Expressions](https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-expressions.html) in the *Developer Guide*.
 	//  If the defined payload type is a string, ``DynamoDBAction`` writes non-JSON data to the DynamoDB table as binary data. The DynamoDB console displays the data as Base64-encoded text. The value for the ``payloadField`` parameter is ``<payload-field>_raw``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_alarm_model#dynamo_db IoteventsAlarmModel#dynamo_db}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotevents_alarm_model#dynamo_db IoteventsAlarmModel#dynamo_db}
 	DynamoDb *IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDb `field:"optional" json:"dynamoDb" yaml:"dynamoDb"`
 	// Defines an action to write to the Amazon DynamoDB table that you created.
 	//
@@ -41,15 +41,15 @@ type IoteventsAlarmModelAlarmEventActionsAlarmActions struct {
 	//  For more information, see [Expressions](https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-expressions.html) in the *Developer Guide*.
 	//  The value for the ``type`` parameter in ``Payload`` must be ``JSON``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_alarm_model#dynamo_d_bv_2 IoteventsAlarmModel#dynamo_d_bv_2}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotevents_alarm_model#dynamo_d_bv_2 IoteventsAlarmModel#dynamo_d_bv_2}
 	DynamoDBv2 *IoteventsAlarmModelAlarmEventActionsAlarmActionsDynamoDBv2 `field:"optional" json:"dynamoDBv2" yaml:"dynamoDBv2"`
 	// Sends information about the detector model instance and the event that triggered the action to an Amazon Kinesis Data Firehose delivery stream.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_alarm_model#firehose IoteventsAlarmModel#firehose}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotevents_alarm_model#firehose IoteventsAlarmModel#firehose}
 	Firehose *IoteventsAlarmModelAlarmEventActionsAlarmActionsFirehose `field:"optional" json:"firehose" yaml:"firehose"`
 	// Sends an ITE input, passing in information about the detector model instance and the event that triggered the action.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_alarm_model#iot_events IoteventsAlarmModel#iot_events}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotevents_alarm_model#iot_events IoteventsAlarmModel#iot_events}
 	IotEvents *IoteventsAlarmModelAlarmEventActionsAlarmActionsIotEvents `field:"optional" json:"iotEvents" yaml:"iotEvents"`
 	// Sends information about the detector model instance and the event that triggered the action to a specified asset property in ITSW.
 	//
@@ -64,23 +64,23 @@ type IoteventsAlarmModelAlarmEventActionsAlarmActions struct {
 	//  You must specify either ``propertyAlias`` or both ``assetId`` and ``propertyId`` to identify the target asset property in ITSW.
 	//  For more information, see [Expressions](https://docs.aws.amazon.com/iotevents/latest/developerguide/iotevents-expressions.html) in the *Developer Guide*.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_alarm_model#iot_site_wise IoteventsAlarmModel#iot_site_wise}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotevents_alarm_model#iot_site_wise IoteventsAlarmModel#iot_site_wise}
 	IotSiteWise *IoteventsAlarmModelAlarmEventActionsAlarmActionsIotSiteWise `field:"optional" json:"iotSiteWise" yaml:"iotSiteWise"`
 	// Information required to publish the MQTT message through the IoT message broker.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_alarm_model#iot_topic_publish IoteventsAlarmModel#iot_topic_publish}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotevents_alarm_model#iot_topic_publish IoteventsAlarmModel#iot_topic_publish}
 	IotTopicPublish *IoteventsAlarmModelAlarmEventActionsAlarmActionsIotTopicPublish `field:"optional" json:"iotTopicPublish" yaml:"iotTopicPublish"`
 	// Calls a Lambda function, passing in information about the detector model instance and the event that triggered the action.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_alarm_model#lambda IoteventsAlarmModel#lambda}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotevents_alarm_model#lambda IoteventsAlarmModel#lambda}
 	Lambda *IoteventsAlarmModelAlarmEventActionsAlarmActionsLambda `field:"optional" json:"lambda" yaml:"lambda"`
 	// Information required to publish the Amazon SNS message.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_alarm_model#sns IoteventsAlarmModel#sns}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotevents_alarm_model#sns IoteventsAlarmModel#sns}
 	Sns *IoteventsAlarmModelAlarmEventActionsAlarmActionsSns `field:"optional" json:"sns" yaml:"sns"`
 	// Sends information about the detector model instance and the event that triggered the action to an Amazon SQS queue.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotevents_alarm_model#sqs IoteventsAlarmModel#sqs}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotevents_alarm_model#sqs IoteventsAlarmModel#sqs}
 	Sqs *IoteventsAlarmModelAlarmEventActionsAlarmActionsSqs `field:"optional" json:"sqs" yaml:"sqs"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_transit_gateway_multicast_domains awscc_ec2_transit_gateway_multicast_domains}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_transit_gateway_multicast_domains awscc_ec2_transit_gateway_multicast_domains}.
 type DataAwsccEc2TransitGatewayMulticastDomains interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2TransitGatewayMulticastDomains) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_transit_gateway_multicast_domains awscc_ec2_transit_gateway_multicast_domains} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_transit_gateway_multicast_domains awscc_ec2_transit_gateway_multicast_domains} Data Source.
 func NewDataAwsccEc2TransitGatewayMulticastDomains(scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayMulticastDomainsConfig) DataAwsccEc2TransitGatewayMulticastDomains {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2TransitGatewayMulticastDomains(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_transit_gateway_multicast_domains awscc_ec2_transit_gateway_multicast_domains} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_transit_gateway_multicast_domains awscc_ec2_transit_gateway_multicast_domains} Data Source.
 func NewDataAwsccEc2TransitGatewayMulticastDomains_Override(d DataAwsccEc2TransitGatewayMulticastDomains, scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayMulticastDomainsConfig) {
 	_init_.Initialize()
 

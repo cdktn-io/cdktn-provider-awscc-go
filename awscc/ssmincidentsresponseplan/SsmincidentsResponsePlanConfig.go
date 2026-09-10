@@ -24,35 +24,35 @@ type SsmincidentsResponsePlanConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The incident template configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssmincidents_response_plan#incident_template SsmincidentsResponsePlan#incident_template}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ssmincidents_response_plan#incident_template SsmincidentsResponsePlan#incident_template}
 	IncidentTemplate *SsmincidentsResponsePlanIncidentTemplate `field:"required" json:"incidentTemplate" yaml:"incidentTemplate"`
 	// The name of the response plan.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssmincidents_response_plan#name SsmincidentsResponsePlan#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ssmincidents_response_plan#name SsmincidentsResponsePlan#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The list of actions.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssmincidents_response_plan#actions SsmincidentsResponsePlan#actions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ssmincidents_response_plan#actions SsmincidentsResponsePlan#actions}
 	Actions interface{} `field:"optional" json:"actions" yaml:"actions"`
 	// The chat channel configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssmincidents_response_plan#chat_channel SsmincidentsResponsePlan#chat_channel}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ssmincidents_response_plan#chat_channel SsmincidentsResponsePlan#chat_channel}
 	ChatChannel *SsmincidentsResponsePlanChatChannel `field:"optional" json:"chatChannel" yaml:"chatChannel"`
 	// The display name of the response plan.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssmincidents_response_plan#display_name SsmincidentsResponsePlan#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ssmincidents_response_plan#display_name SsmincidentsResponsePlan#display_name}
 	DisplayName *string `field:"optional" json:"displayName" yaml:"displayName"`
 	// The list of engagements to use.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssmincidents_response_plan#engagements SsmincidentsResponsePlan#engagements}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ssmincidents_response_plan#engagements SsmincidentsResponsePlan#engagements}
 	Engagements *[]*string `field:"optional" json:"engagements" yaml:"engagements"`
 	// The list of integrations.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssmincidents_response_plan#integrations SsmincidentsResponsePlan#integrations}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ssmincidents_response_plan#integrations SsmincidentsResponsePlan#integrations}
 	Integrations interface{} `field:"optional" json:"integrations" yaml:"integrations"`
 	// The tags to apply to the response plan.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ssmincidents_response_plan#tags SsmincidentsResponsePlan#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ssmincidents_response_plan#tags SsmincidentsResponsePlan#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

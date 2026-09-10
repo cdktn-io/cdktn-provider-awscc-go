@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_verified_access_trust_provider awscc_ec2_verified_access_trust_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_verified_access_trust_provider awscc_ec2_verified_access_trust_provider}.
 type Ec2VerifiedAccessTrustProvider interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -626,7 +626,7 @@ func (j *jsiiProxy_Ec2VerifiedAccessTrustProvider) VerifiedAccessTrustProviderId
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_verified_access_trust_provider awscc_ec2_verified_access_trust_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_verified_access_trust_provider awscc_ec2_verified_access_trust_provider} Resource.
 func NewEc2VerifiedAccessTrustProvider(scope constructs.Construct, id *string, config *Ec2VerifiedAccessTrustProviderConfig) Ec2VerifiedAccessTrustProvider {
 	_init_.Initialize()
 
@@ -644,7 +644,7 @@ func NewEc2VerifiedAccessTrustProvider(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_verified_access_trust_provider awscc_ec2_verified_access_trust_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_verified_access_trust_provider awscc_ec2_verified_access_trust_provider} Resource.
 func NewEc2VerifiedAccessTrustProvider_Override(e Ec2VerifiedAccessTrustProvider, scope constructs.Construct, id *string, config *Ec2VerifiedAccessTrustProviderConfig) {
 	_init_.Initialize()
 

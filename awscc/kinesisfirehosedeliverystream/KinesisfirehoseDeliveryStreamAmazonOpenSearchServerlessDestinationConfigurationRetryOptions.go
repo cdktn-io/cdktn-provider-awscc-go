@@ -5,7 +5,7 @@ package kinesisfirehosedeliverystream
 
 
 type KinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationRetryOptions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kinesisfirehose_delivery_stream#duration_in_seconds KinesisfirehoseDeliveryStream#duration_in_seconds}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kinesisfirehose_delivery_stream#duration_in_seconds KinesisfirehoseDeliveryStream#duration_in_seconds}.
 	DurationInSeconds *float64 `field:"optional" json:"durationInSeconds" yaml:"durationInSeconds"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition}.
 type CustomerprofilesCalculatedAttributeDefinition interface {
 	cdktn.TerraformResource
 	AttributeDetails() CustomerprofilesCalculatedAttributeDefinitionAttributeDetailsOutputReference
@@ -611,7 +611,7 @@ func (j *jsiiProxy_CustomerprofilesCalculatedAttributeDefinition) UseHistoricalD
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition} Resource.
 func NewCustomerprofilesCalculatedAttributeDefinition(scope constructs.Construct, id *string, config *CustomerprofilesCalculatedAttributeDefinitionConfig) CustomerprofilesCalculatedAttributeDefinition {
 	_init_.Initialize()
 
@@ -629,7 +629,7 @@ func NewCustomerprofilesCalculatedAttributeDefinition(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/customerprofiles_calculated_attribute_definition awscc_customerprofiles_calculated_attribute_definition} Resource.
 func NewCustomerprofilesCalculatedAttributeDefinition_Override(c CustomerprofilesCalculatedAttributeDefinition, scope constructs.Construct, id *string, config *CustomerprofilesCalculatedAttributeDefinitionConfig) {
 	_init_.Initialize()
 

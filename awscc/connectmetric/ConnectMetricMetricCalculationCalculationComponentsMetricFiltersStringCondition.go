@@ -5,9 +5,9 @@ package connectmetric
 
 
 type ConnectMetricMetricCalculationCalculationComponentsMetricFiltersStringCondition struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#comparison ConnectMetric#comparison}.
 	Comparison *string `field:"optional" json:"comparison" yaml:"comparison"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_metric#values ConnectMetric#values}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#values ConnectMetric#values}.
 	Values *[]*string `field:"optional" json:"values" yaml:"values"`
 }
 

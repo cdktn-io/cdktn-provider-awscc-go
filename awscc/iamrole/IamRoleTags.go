@@ -9,13 +9,13 @@ type IamRoleTags struct {
 	//
 	// For example, ``Department`` or ``Cost Center`` are common choices.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iam_role#key IamRole#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iam_role#key IamRole#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value associated with this tag.
 	//
 	// For example, tags with a key name of ``Department`` could have values such as ``Human Resources``, ``Accounting``, and ``Support``. Tags with a key name of ``Cost Center`` might have values that consist of the number associated with the different cost centers in your company. Typically, many resources have tags with the same key name but with different values.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iam_role#value IamRole#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iam_role#value IamRole#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/events_event_bus_policies awscc_events_event_bus_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/events_event_bus_policies awscc_events_event_bus_policies}.
 type DataAwsccEventsEventBusPolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEventsEventBusPolicies) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/events_event_bus_policies awscc_events_event_bus_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/events_event_bus_policies awscc_events_event_bus_policies} Data Source.
 func NewDataAwsccEventsEventBusPolicies(scope constructs.Construct, id *string, config *DataAwsccEventsEventBusPoliciesConfig) DataAwsccEventsEventBusPolicies {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEventsEventBusPolicies(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/events_event_bus_policies awscc_events_event_bus_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/events_event_bus_policies awscc_events_event_bus_policies} Data Source.
 func NewDataAwsccEventsEventBusPolicies_Override(d DataAwsccEventsEventBusPolicies, scope constructs.Construct, id *string, config *DataAwsccEventsEventBusPoliciesConfig) {
 	_init_.Initialize()
 

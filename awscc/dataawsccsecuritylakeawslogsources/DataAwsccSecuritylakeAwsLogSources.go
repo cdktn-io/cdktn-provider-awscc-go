@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/securitylake_aws_log_sources awscc_securitylake_aws_log_sources}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/securitylake_aws_log_sources awscc_securitylake_aws_log_sources}.
 type DataAwsccSecuritylakeAwsLogSources interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSecuritylakeAwsLogSources) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/securitylake_aws_log_sources awscc_securitylake_aws_log_sources} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/securitylake_aws_log_sources awscc_securitylake_aws_log_sources} Data Source.
 func NewDataAwsccSecuritylakeAwsLogSources(scope constructs.Construct, id *string, config *DataAwsccSecuritylakeAwsLogSourcesConfig) DataAwsccSecuritylakeAwsLogSources {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSecuritylakeAwsLogSources(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/securitylake_aws_log_sources awscc_securitylake_aws_log_sources} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/securitylake_aws_log_sources awscc_securitylake_aws_log_sources} Data Source.
 func NewDataAwsccSecuritylakeAwsLogSources_Override(d DataAwsccSecuritylakeAwsLogSources, scope constructs.Construct, id *string, config *DataAwsccSecuritylakeAwsLogSourcesConfig) {
 	_init_.Initialize()
 

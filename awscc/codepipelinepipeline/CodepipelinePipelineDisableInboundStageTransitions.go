@@ -9,11 +9,11 @@ type CodepipelinePipelineDisableInboundStageTransitions struct {
 	//
 	// This message is displayed in the pipeline console UI.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#reason CodepipelinePipeline#reason}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/codepipeline_pipeline#reason CodepipelinePipeline#reason}
 	Reason *string `field:"optional" json:"reason" yaml:"reason"`
 	// The name of the stage where you want to disable the inbound or outbound transition of artifacts.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/codepipeline_pipeline#stage_name CodepipelinePipeline#stage_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/codepipeline_pipeline#stage_name CodepipelinePipeline#stage_name}
 	StageName *string `field:"optional" json:"stageName" yaml:"stageName"`
 }
 

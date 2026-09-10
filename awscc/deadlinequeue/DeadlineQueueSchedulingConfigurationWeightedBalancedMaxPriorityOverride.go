@@ -5,7 +5,7 @@ package deadlinequeue
 
 
 type DeadlineQueueSchedulingConfigurationWeightedBalancedMaxPriorityOverride struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/deadline_queue#always_schedule_first DeadlineQueue#always_schedule_first}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/deadline_queue#always_schedule_first DeadlineQueue#always_schedule_first}.
 	AlwaysScheduleFirst *string `field:"optional" json:"alwaysScheduleFirst" yaml:"alwaysScheduleFirst"`
 }
 

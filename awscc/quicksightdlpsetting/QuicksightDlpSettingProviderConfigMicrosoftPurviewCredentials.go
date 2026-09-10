@@ -5,7 +5,7 @@ package quicksightdlpsetting
 
 
 type QuicksightDlpSettingProviderConfigMicrosoftPurviewCredentials struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_dlp_setting#secret_arn QuicksightDlpSetting#secret_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_dlp_setting#secret_arn QuicksightDlpSetting#secret_arn}.
 	SecretArn *string `field:"optional" json:"secretArn" yaml:"secretArn"`
 }
 

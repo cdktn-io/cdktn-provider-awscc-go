@@ -24,19 +24,19 @@ type ProtonServiceTemplateConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// <p>A description of the service template.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_service_template#description ProtonServiceTemplate#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/proton_service_template#description ProtonServiceTemplate#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// <p>The name of the service template as displayed in the developer interface.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_service_template#display_name ProtonServiceTemplate#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/proton_service_template#display_name ProtonServiceTemplate#display_name}
 	DisplayName *string `field:"optional" json:"displayName" yaml:"displayName"`
 	// <p>A customer provided encryption key that's used to encrypt data.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_service_template#encryption_key ProtonServiceTemplate#encryption_key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/proton_service_template#encryption_key ProtonServiceTemplate#encryption_key}
 	EncryptionKey *string `field:"optional" json:"encryptionKey" yaml:"encryptionKey"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_service_template#name ProtonServiceTemplate#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/proton_service_template#name ProtonServiceTemplate#name}.
 	Name *string `field:"optional" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_service_template#pipeline_provisioning ProtonServiceTemplate#pipeline_provisioning}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/proton_service_template#pipeline_provisioning ProtonServiceTemplate#pipeline_provisioning}.
 	PipelineProvisioning *string `field:"optional" json:"pipelineProvisioning" yaml:"pipelineProvisioning"`
 	// <p>An optional list of metadata items that you can associate with the Proton service template.
 	//
@@ -44,7 +44,7 @@ type ProtonServiceTemplateConfig struct {
 	//          <p>For more information, see <a href="https://docs.aws.amazon.com/proton/latest/userguide/resources.html">Proton resources and tagging</a> in the
 	//         <i>Proton User Guide</i>.</p>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/proton_service_template#tags ProtonServiceTemplate#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/proton_service_template#tags ProtonServiceTemplate#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

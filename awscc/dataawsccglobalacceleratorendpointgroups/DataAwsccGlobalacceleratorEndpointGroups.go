@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/globalaccelerator_endpoint_groups awscc_globalaccelerator_endpoint_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/globalaccelerator_endpoint_groups awscc_globalaccelerator_endpoint_groups}.
 type DataAwsccGlobalacceleratorEndpointGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGlobalacceleratorEndpointGroups) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/globalaccelerator_endpoint_groups awscc_globalaccelerator_endpoint_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/globalaccelerator_endpoint_groups awscc_globalaccelerator_endpoint_groups} Data Source.
 func NewDataAwsccGlobalacceleratorEndpointGroups(scope constructs.Construct, id *string, config *DataAwsccGlobalacceleratorEndpointGroupsConfig) DataAwsccGlobalacceleratorEndpointGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGlobalacceleratorEndpointGroups(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/globalaccelerator_endpoint_groups awscc_globalaccelerator_endpoint_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/globalaccelerator_endpoint_groups awscc_globalaccelerator_endpoint_groups} Data Source.
 func NewDataAwsccGlobalacceleratorEndpointGroups_Override(d DataAwsccGlobalacceleratorEndpointGroups, scope constructs.Construct, id *string, config *DataAwsccGlobalacceleratorEndpointGroupsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/connect_quick_connect awscc_connect_quick_connect}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/connect_quick_connect awscc_connect_quick_connect}.
 type DataAwsccConnectQuickConnect interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccConnectQuickConnect) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/connect_quick_connect awscc_connect_quick_connect} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/connect_quick_connect awscc_connect_quick_connect} Data Source.
 func NewDataAwsccConnectQuickConnect(scope constructs.Construct, id *string, config *DataAwsccConnectQuickConnectConfig) DataAwsccConnectQuickConnect {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccConnectQuickConnect(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/connect_quick_connect awscc_connect_quick_connect} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/connect_quick_connect awscc_connect_quick_connect} Data Source.
 func NewDataAwsccConnectQuickConnect_Override(d DataAwsccConnectQuickConnect, scope constructs.Construct, id *string, config *DataAwsccConnectQuickConnectConfig) {
 	_init_.Initialize()
 

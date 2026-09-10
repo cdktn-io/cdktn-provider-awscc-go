@@ -5,9 +5,9 @@ package pcaconnectoradtemplate
 
 
 type PcaconnectoradTemplateDefinitionTemplateV3ExtensionsApplicationPolicies struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pcaconnectorad_template#critical PcaconnectoradTemplate#critical}.
 	Critical interface{} `field:"optional" json:"critical" yaml:"critical"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pcaconnectorad_template#policies PcaconnectoradTemplate#policies}.
 	Policies interface{} `field:"optional" json:"policies" yaml:"policies"`
 }
 

@@ -24,15 +24,15 @@ type SecurityhubPolicyAssociationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The universally unique identifier (UUID) of the configuration policy or a value of SELF_MANAGED_SECURITY_HUB for a self-managed configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_policy_association#configuration_policy_id SecurityhubPolicyAssociation#configuration_policy_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_policy_association#configuration_policy_id SecurityhubPolicyAssociation#configuration_policy_id}
 	ConfigurationPolicyId *string `field:"required" json:"configurationPolicyId" yaml:"configurationPolicyId"`
 	// The identifier of the target account, organizational unit, or the root.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_policy_association#target_id SecurityhubPolicyAssociation#target_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_policy_association#target_id SecurityhubPolicyAssociation#target_id}
 	TargetId *string `field:"required" json:"targetId" yaml:"targetId"`
 	// Indicates whether the target is an AWS account, organizational unit, or the organization root.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/securityhub_policy_association#target_type SecurityhubPolicyAssociation#target_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_policy_association#target_type SecurityhubPolicyAssociation#target_type}
 	TargetType *string `field:"required" json:"targetType" yaml:"targetType"`
 }
 

@@ -7,11 +7,11 @@ package devopsagentassociation
 type DevopsagentAssociationConfigurationSlackTransmissionTargetIncidentResponseTarget struct {
 	// Slack channel ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_association#channel_id DevopsagentAssociation#channel_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/devopsagent_association#channel_id DevopsagentAssociation#channel_id}
 	ChannelId *string `field:"optional" json:"channelId" yaml:"channelId"`
 	// Slack channel name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/devopsagent_association#channel_name DevopsagentAssociation#channel_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/devopsagent_association#channel_name DevopsagentAssociation#channel_name}
 	ChannelName *string `field:"optional" json:"channelName" yaml:"channelName"`
 }
 

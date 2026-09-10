@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/elasticloadbalancingv2_load_balancers awscc_elasticloadbalancingv2_load_balancers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/elasticloadbalancingv2_load_balancers awscc_elasticloadbalancingv2_load_balancers}.
 type DataAwsccElasticloadbalancingv2LoadBalancers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccElasticloadbalancingv2LoadBalancers) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/elasticloadbalancingv2_load_balancers awscc_elasticloadbalancingv2_load_balancers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/elasticloadbalancingv2_load_balancers awscc_elasticloadbalancingv2_load_balancers} Data Source.
 func NewDataAwsccElasticloadbalancingv2LoadBalancers(scope constructs.Construct, id *string, config *DataAwsccElasticloadbalancingv2LoadBalancersConfig) DataAwsccElasticloadbalancingv2LoadBalancers {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccElasticloadbalancingv2LoadBalancers(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/elasticloadbalancingv2_load_balancers awscc_elasticloadbalancingv2_load_balancers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/elasticloadbalancingv2_load_balancers awscc_elasticloadbalancingv2_load_balancers} Data Source.
 func NewDataAwsccElasticloadbalancingv2LoadBalancers_Override(d DataAwsccElasticloadbalancingv2LoadBalancers, scope constructs.Construct, id *string, config *DataAwsccElasticloadbalancingv2LoadBalancersConfig) {
 	_init_.Initialize()
 

@@ -24,15 +24,15 @@ type SagemakerDeviceConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the edge device fleet.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_device#device_fleet_name SagemakerDevice#device_fleet_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_device#device_fleet_name SagemakerDevice#device_fleet_name}
 	DeviceFleetName *string `field:"required" json:"deviceFleetName" yaml:"deviceFleetName"`
 	// The Edge Device you want to register against a device fleet.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_device#device SagemakerDevice#device}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_device#device SagemakerDevice#device}
 	Device *SagemakerDeviceDevice `field:"optional" json:"device" yaml:"device"`
 	// Associate tags with the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_device#tags SagemakerDevice#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_device#tags SagemakerDevice#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

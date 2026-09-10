@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ssm_associations awscc_ssm_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ssm_associations awscc_ssm_associations}.
 type DataAwsccSsmAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSsmAssociations) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ssm_associations awscc_ssm_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ssm_associations awscc_ssm_associations} Data Source.
 func NewDataAwsccSsmAssociations(scope constructs.Construct, id *string, config *DataAwsccSsmAssociationsConfig) DataAwsccSsmAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSsmAssociations(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ssm_associations awscc_ssm_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ssm_associations awscc_ssm_associations} Data Source.
 func NewDataAwsccSsmAssociations_Override(d DataAwsccSsmAssociations, scope constructs.Construct, id *string, config *DataAwsccSsmAssociationsConfig) {
 	_init_.Initialize()
 

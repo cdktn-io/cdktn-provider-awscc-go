@@ -5,9 +5,9 @@ package batchserviceenvironment
 
 
 type BatchServiceEnvironmentCapacityLimits struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/batch_service_environment#capacity_unit BatchServiceEnvironment#capacity_unit}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/batch_service_environment#capacity_unit BatchServiceEnvironment#capacity_unit}.
 	CapacityUnit *string `field:"optional" json:"capacityUnit" yaml:"capacityUnit"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/batch_service_environment#max_capacity BatchServiceEnvironment#max_capacity}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/batch_service_environment#max_capacity BatchServiceEnvironment#max_capacity}.
 	MaxCapacity *float64 `field:"optional" json:"maxCapacity" yaml:"maxCapacity"`
 }
 

@@ -24,19 +24,19 @@ type EntityresolutionPolicyStatementConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Arn of the resource to which the policy statement is being attached.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/entityresolution_policy_statement#arn EntityresolutionPolicyStatement#arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/entityresolution_policy_statement#arn EntityresolutionPolicyStatement#arn}
 	Arn *string `field:"required" json:"arn" yaml:"arn"`
 	// The Statement Id of the policy statement that is being attached.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/entityresolution_policy_statement#statement_id EntityresolutionPolicyStatement#statement_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/entityresolution_policy_statement#statement_id EntityresolutionPolicyStatement#statement_id}
 	StatementId *string `field:"required" json:"statementId" yaml:"statementId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/entityresolution_policy_statement#action EntityresolutionPolicyStatement#action}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/entityresolution_policy_statement#action EntityresolutionPolicyStatement#action}.
 	Action *[]*string `field:"optional" json:"action" yaml:"action"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/entityresolution_policy_statement#condition EntityresolutionPolicyStatement#condition}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/entityresolution_policy_statement#condition EntityresolutionPolicyStatement#condition}.
 	Condition *string `field:"optional" json:"condition" yaml:"condition"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/entityresolution_policy_statement#effect EntityresolutionPolicyStatement#effect}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/entityresolution_policy_statement#effect EntityresolutionPolicyStatement#effect}.
 	Effect *string `field:"optional" json:"effect" yaml:"effect"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/entityresolution_policy_statement#principal EntityresolutionPolicyStatement#principal}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/entityresolution_policy_statement#principal EntityresolutionPolicyStatement#principal}.
 	Principal *[]*string `field:"optional" json:"principal" yaml:"principal"`
 }
 

@@ -5,7 +5,7 @@ package sesmailmanagerruleset
 
 
 type SesMailManagerRuleSetRulesUnlessNumberExpressionEvaluate struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ses_mail_manager_rule_set#attribute SesMailManagerRuleSet#attribute}.
 	Attribute *string `field:"optional" json:"attribute" yaml:"attribute"`
 }
 

@@ -5,9 +5,9 @@ package kendraindex
 
 
 type KendraIndexDocumentMetadataConfigurationsRelevanceValueImportanceItems struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_index#key KendraIndex#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kendra_index#key KendraIndex#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/kendra_index#value KendraIndex#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kendra_index#value KendraIndex#value}.
 	Value *float64 `field:"optional" json:"value" yaml:"value"`
 }
 

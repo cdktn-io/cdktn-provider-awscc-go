@@ -5,9 +5,9 @@ package bedrockagentcoregatewayrule
 
 
 type BedrockagentcoreGatewayRuleActionsRouteToTarget struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_gateway_rule#static_route BedrockagentcoreGatewayRule#static_route}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrockagentcore_gateway_rule#static_route BedrockagentcoreGatewayRule#static_route}.
 	StaticRoute *BedrockagentcoreGatewayRuleActionsRouteToTargetStaticRoute `field:"optional" json:"staticRoute" yaml:"staticRoute"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrockagentcore_gateway_rule#weighted_route BedrockagentcoreGatewayRule#weighted_route}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrockagentcore_gateway_rule#weighted_route BedrockagentcoreGatewayRule#weighted_route}.
 	WeightedRoute *BedrockagentcoreGatewayRuleActionsRouteToTargetWeightedRoute `field:"optional" json:"weightedRoute" yaml:"weightedRoute"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/datasync_location_smb awscc_datasync_location_smb}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/datasync_location_smb awscc_datasync_location_smb}.
 type DataAwsccDatasyncLocationSmb interface {
 	cdktn.TerraformDataSource
 	AgentArns() *[]*string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_DataAwsccDatasyncLocationSmb) User() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/datasync_location_smb awscc_datasync_location_smb} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/datasync_location_smb awscc_datasync_location_smb} Data Source.
 func NewDataAwsccDatasyncLocationSmb(scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationSmbConfig) DataAwsccDatasyncLocationSmb {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewDataAwsccDatasyncLocationSmb(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/datasync_location_smb awscc_datasync_location_smb} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/datasync_location_smb awscc_datasync_location_smb} Data Source.
 func NewDataAwsccDatasyncLocationSmb_Override(d DataAwsccDatasyncLocationSmb, scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationSmbConfig) {
 	_init_.Initialize()
 

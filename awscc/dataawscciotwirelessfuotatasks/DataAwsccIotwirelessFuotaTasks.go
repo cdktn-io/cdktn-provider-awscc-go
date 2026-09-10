@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotwireless_fuota_tasks awscc_iotwireless_fuota_tasks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotwireless_fuota_tasks awscc_iotwireless_fuota_tasks}.
 type DataAwsccIotwirelessFuotaTasks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotwirelessFuotaTasks) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotwireless_fuota_tasks awscc_iotwireless_fuota_tasks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotwireless_fuota_tasks awscc_iotwireless_fuota_tasks} Data Source.
 func NewDataAwsccIotwirelessFuotaTasks(scope constructs.Construct, id *string, config *DataAwsccIotwirelessFuotaTasksConfig) DataAwsccIotwirelessFuotaTasks {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotwirelessFuotaTasks(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/iotwireless_fuota_tasks awscc_iotwireless_fuota_tasks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotwireless_fuota_tasks awscc_iotwireless_fuota_tasks} Data Source.
 func NewDataAwsccIotwirelessFuotaTasks_Override(d DataAwsccIotwirelessFuotaTasks, scope constructs.Construct, id *string, config *DataAwsccIotwirelessFuotaTasksConfig) {
 	_init_.Initialize()
 

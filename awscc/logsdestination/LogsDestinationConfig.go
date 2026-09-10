@@ -24,23 +24,23 @@ type LogsDestinationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the destination resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_destination#destination_name LogsDestination#destination_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/logs_destination#destination_name LogsDestination#destination_name}
 	DestinationName *string `field:"required" json:"destinationName" yaml:"destinationName"`
 	// The ARN of an IAM role that permits CloudWatch Logs to send data to the specified AWS resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_destination#role_arn LogsDestination#role_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/logs_destination#role_arn LogsDestination#role_arn}
 	RoleArn *string `field:"required" json:"roleArn" yaml:"roleArn"`
 	// The ARN of the physical target where the log events are delivered (for example, a Kinesis stream).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_destination#target_arn LogsDestination#target_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/logs_destination#target_arn LogsDestination#target_arn}
 	TargetArn *string `field:"required" json:"targetArn" yaml:"targetArn"`
 	// An IAM policy document that governs which AWS accounts can create subscription filters against this destination.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_destination#destination_policy LogsDestination#destination_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/logs_destination#destination_policy LogsDestination#destination_policy}
 	DestinationPolicy *string `field:"optional" json:"destinationPolicy" yaml:"destinationPolicy"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/logs_destination#tags LogsDestination#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/logs_destination#tags LogsDestination#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

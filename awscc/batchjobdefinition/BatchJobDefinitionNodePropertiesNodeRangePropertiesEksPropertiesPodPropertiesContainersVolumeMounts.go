@@ -5,13 +5,13 @@ package batchjobdefinition
 
 
 type BatchJobDefinitionNodePropertiesNodeRangePropertiesEksPropertiesPodPropertiesContainersVolumeMounts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/batch_job_definition#mount_path BatchJobDefinition#mount_path}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/batch_job_definition#mount_path BatchJobDefinition#mount_path}.
 	MountPath *string `field:"optional" json:"mountPath" yaml:"mountPath"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}.
 	Name *string `field:"optional" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}.
 	ReadOnly interface{} `field:"optional" json:"readOnly" yaml:"readOnly"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/batch_job_definition#sub_path BatchJobDefinition#sub_path}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/batch_job_definition#sub_path BatchJobDefinition#sub_path}.
 	SubPath *string `field:"optional" json:"subPath" yaml:"subPath"`
 }
 

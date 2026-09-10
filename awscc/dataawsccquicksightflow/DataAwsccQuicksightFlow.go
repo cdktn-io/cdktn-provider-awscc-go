@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/quicksight_flow awscc_quicksight_flow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/quicksight_flow awscc_quicksight_flow}.
 type DataAwsccQuicksightFlow interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccQuicksightFlow) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/quicksight_flow awscc_quicksight_flow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/quicksight_flow awscc_quicksight_flow} Data Source.
 func NewDataAwsccQuicksightFlow(scope constructs.Construct, id *string, config *DataAwsccQuicksightFlowConfig) DataAwsccQuicksightFlow {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccQuicksightFlow(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/quicksight_flow awscc_quicksight_flow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/quicksight_flow awscc_quicksight_flow} Data Source.
 func NewDataAwsccQuicksightFlow_Override(d DataAwsccQuicksightFlow, scope constructs.Construct, id *string, config *DataAwsccQuicksightFlowConfig) {
 	_init_.Initialize()
 

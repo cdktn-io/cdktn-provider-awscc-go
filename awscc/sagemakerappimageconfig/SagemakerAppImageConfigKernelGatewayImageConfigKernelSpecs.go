@@ -7,11 +7,11 @@ package sagemakerappimageconfig
 type SagemakerAppImageConfigKernelGatewayImageConfigKernelSpecs struct {
 	// The display name of the kernel.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_app_image_config#display_name SagemakerAppImageConfig#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_app_image_config#display_name SagemakerAppImageConfig#display_name}
 	DisplayName *string `field:"optional" json:"displayName" yaml:"displayName"`
 	// The name of the kernel.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_app_image_config#name SagemakerAppImageConfig#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_app_image_config#name SagemakerAppImageConfig#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 }
 

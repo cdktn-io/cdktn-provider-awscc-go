@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/budgets_budgets_actions awscc_budgets_budgets_actions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/budgets_budgets_actions awscc_budgets_budgets_actions}.
 type DataAwsccBudgetsBudgetsActions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBudgetsBudgetsActions) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/budgets_budgets_actions awscc_budgets_budgets_actions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/budgets_budgets_actions awscc_budgets_budgets_actions} Data Source.
 func NewDataAwsccBudgetsBudgetsActions(scope constructs.Construct, id *string, config *DataAwsccBudgetsBudgetsActionsConfig) DataAwsccBudgetsBudgetsActions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBudgetsBudgetsActions(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/budgets_budgets_actions awscc_budgets_budgets_actions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/budgets_budgets_actions awscc_budgets_budgets_actions} Data Source.
 func NewDataAwsccBudgetsBudgetsActions_Override(d DataAwsccBudgetsBudgetsActions, scope constructs.Construct, id *string, config *DataAwsccBudgetsBudgetsActionsConfig) {
 	_init_.Initialize()
 

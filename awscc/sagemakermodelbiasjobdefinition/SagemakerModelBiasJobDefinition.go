@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model_bias_job_definition awscc_sagemaker_model_bias_job_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_model_bias_job_definition awscc_sagemaker_model_bias_job_definition}.
 type SagemakerModelBiasJobDefinition interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -636,7 +636,7 @@ func (j *jsiiProxy_SagemakerModelBiasJobDefinition) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model_bias_job_definition awscc_sagemaker_model_bias_job_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_model_bias_job_definition awscc_sagemaker_model_bias_job_definition} Resource.
 func NewSagemakerModelBiasJobDefinition(scope constructs.Construct, id *string, config *SagemakerModelBiasJobDefinitionConfig) SagemakerModelBiasJobDefinition {
 	_init_.Initialize()
 
@@ -654,7 +654,7 @@ func NewSagemakerModelBiasJobDefinition(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_model_bias_job_definition awscc_sagemaker_model_bias_job_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_model_bias_job_definition awscc_sagemaker_model_bias_job_definition} Resource.
 func NewSagemakerModelBiasJobDefinition_Override(s SagemakerModelBiasJobDefinition, scope constructs.Construct, id *string, config *SagemakerModelBiasJobDefinitionConfig) {
 	_init_.Initialize()
 

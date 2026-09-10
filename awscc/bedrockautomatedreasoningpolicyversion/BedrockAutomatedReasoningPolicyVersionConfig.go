@@ -24,13 +24,13 @@ type BedrockAutomatedReasoningPolicyVersionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Arn of the policy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version#policy_arn BedrockAutomatedReasoningPolicyVersion#policy_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrock_automated_reasoning_policy_version#policy_arn BedrockAutomatedReasoningPolicyVersion#policy_arn}
 	PolicyArn *string `field:"required" json:"policyArn" yaml:"policyArn"`
 	// The hash for this version.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version#last_updated_definition_hash BedrockAutomatedReasoningPolicyVersion#last_updated_definition_hash}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrock_automated_reasoning_policy_version#last_updated_definition_hash BedrockAutomatedReasoningPolicyVersion#last_updated_definition_hash}
 	LastUpdatedDefinitionHash *string `field:"optional" json:"lastUpdatedDefinitionHash" yaml:"lastUpdatedDefinitionHash"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_automated_reasoning_policy_version#tags BedrockAutomatedReasoningPolicyVersion#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrock_automated_reasoning_policy_version#tags BedrockAutomatedReasoningPolicyVersion#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

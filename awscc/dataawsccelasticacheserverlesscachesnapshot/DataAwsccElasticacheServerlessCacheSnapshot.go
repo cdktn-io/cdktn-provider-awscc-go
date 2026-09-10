@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/elasticache_serverless_cache_snapshot awscc_elasticache_serverless_cache_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/elasticache_serverless_cache_snapshot awscc_elasticache_serverless_cache_snapshot}.
 type DataAwsccElasticacheServerlessCacheSnapshot interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccElasticacheServerlessCacheSnapshot) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/elasticache_serverless_cache_snapshot awscc_elasticache_serverless_cache_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/elasticache_serverless_cache_snapshot awscc_elasticache_serverless_cache_snapshot} Data Source.
 func NewDataAwsccElasticacheServerlessCacheSnapshot(scope constructs.Construct, id *string, config *DataAwsccElasticacheServerlessCacheSnapshotConfig) DataAwsccElasticacheServerlessCacheSnapshot {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccElasticacheServerlessCacheSnapshot(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/elasticache_serverless_cache_snapshot awscc_elasticache_serverless_cache_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/elasticache_serverless_cache_snapshot awscc_elasticache_serverless_cache_snapshot} Data Source.
 func NewDataAwsccElasticacheServerlessCacheSnapshot_Override(d DataAwsccElasticacheServerlessCacheSnapshot, scope constructs.Construct, id *string, config *DataAwsccElasticacheServerlessCacheSnapshotConfig) {
 	_init_.Initialize()
 

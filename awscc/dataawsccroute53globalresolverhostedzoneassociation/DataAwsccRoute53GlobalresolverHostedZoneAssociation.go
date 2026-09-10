@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53globalresolver_hosted_zone_association awscc_route53globalresolver_hosted_zone_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/route53globalresolver_hosted_zone_association awscc_route53globalresolver_hosted_zone_association}.
 type DataAwsccRoute53GlobalresolverHostedZoneAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccRoute53GlobalresolverHostedZoneAssociation) UpdatedA
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53globalresolver_hosted_zone_association awscc_route53globalresolver_hosted_zone_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/route53globalresolver_hosted_zone_association awscc_route53globalresolver_hosted_zone_association} Data Source.
 func NewDataAwsccRoute53GlobalresolverHostedZoneAssociation(scope constructs.Construct, id *string, config *DataAwsccRoute53GlobalresolverHostedZoneAssociationConfig) DataAwsccRoute53GlobalresolverHostedZoneAssociation {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccRoute53GlobalresolverHostedZoneAssociation(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53globalresolver_hosted_zone_association awscc_route53globalresolver_hosted_zone_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/route53globalresolver_hosted_zone_association awscc_route53globalresolver_hosted_zone_association} Data Source.
 func NewDataAwsccRoute53GlobalresolverHostedZoneAssociation_Override(d DataAwsccRoute53GlobalresolverHostedZoneAssociation, scope constructs.Construct, id *string, config *DataAwsccRoute53GlobalresolverHostedZoneAssociationConfig) {
 	_init_.Initialize()
 

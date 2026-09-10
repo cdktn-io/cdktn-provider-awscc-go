@@ -5,9 +5,9 @@ package b2bitransformer
 
 
 type B2BiTransformerOutputConversionFormatOptionsX12 struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/b2bi_transformer#transaction_set B2BiTransformer#transaction_set}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/b2bi_transformer#transaction_set B2BiTransformer#transaction_set}.
 	TransactionSet *string `field:"optional" json:"transactionSet" yaml:"transactionSet"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/b2bi_transformer#version B2BiTransformer#version}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/b2bi_transformer#version B2BiTransformer#version}.
 	Version *string `field:"optional" json:"version" yaml:"version"`
 }
 

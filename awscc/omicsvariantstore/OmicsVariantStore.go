@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_variant_store awscc_omics_variant_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/omics_variant_store awscc_omics_variant_store}.
 type OmicsVariantStore interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -550,7 +550,7 @@ func (j *jsiiProxy_OmicsVariantStore) VariantStoreId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_variant_store awscc_omics_variant_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/omics_variant_store awscc_omics_variant_store} Resource.
 func NewOmicsVariantStore(scope constructs.Construct, id *string, config *OmicsVariantStoreConfig) OmicsVariantStore {
 	_init_.Initialize()
 
@@ -568,7 +568,7 @@ func NewOmicsVariantStore(scope constructs.Construct, id *string, config *OmicsV
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_variant_store awscc_omics_variant_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/omics_variant_store awscc_omics_variant_store} Resource.
 func NewOmicsVariantStore_Override(o OmicsVariantStore, scope constructs.Construct, id *string, config *OmicsVariantStoreConfig) {
 	_init_.Initialize()
 

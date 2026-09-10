@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/supportauthz_support_permits awscc_supportauthz_support_permits}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/supportauthz_support_permits awscc_supportauthz_support_permits}.
 type DataAwsccSupportauthzSupportPermits interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSupportauthzSupportPermits) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/supportauthz_support_permits awscc_supportauthz_support_permits} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/supportauthz_support_permits awscc_supportauthz_support_permits} Data Source.
 func NewDataAwsccSupportauthzSupportPermits(scope constructs.Construct, id *string, config *DataAwsccSupportauthzSupportPermitsConfig) DataAwsccSupportauthzSupportPermits {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSupportauthzSupportPermits(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/supportauthz_support_permits awscc_supportauthz_support_permits} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/supportauthz_support_permits awscc_supportauthz_support_permits} Data Source.
 func NewDataAwsccSupportauthzSupportPermits_Override(d DataAwsccSupportauthzSupportPermits, scope constructs.Construct, id *string, config *DataAwsccSupportauthzSupportPermitsConfig) {
 	_init_.Initialize()
 

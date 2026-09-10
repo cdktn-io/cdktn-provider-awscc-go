@@ -181,6 +181,17 @@ func (i *jsiiProxy_IotTopicRuleTopicRulePayloadErrorActionOutputReference) valid
 	return nil
 }
 
+func (i *jsiiProxy_IotTopicRuleTopicRulePayloadErrorActionOutputReference) validatePutInfluxDbParameters(value *IotTopicRuleTopicRulePayloadErrorActionInfluxDb) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (i *jsiiProxy_IotTopicRuleTopicRulePayloadErrorActionOutputReference) validatePutIotAnalyticsParameters(value *IotTopicRuleTopicRulePayloadErrorActionIotAnalytics) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

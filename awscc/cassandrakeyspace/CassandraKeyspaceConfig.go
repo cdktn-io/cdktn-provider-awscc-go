@@ -26,15 +26,15 @@ type CassandraKeyspaceConfig struct {
 	//
 	// To add a Region to a single-Region keyspace with at least one table, the value must be set to true. After you enabled client-side timestamps for a table, you can?t disable it again.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_keyspace#client_side_timestamps_enabled CassandraKeyspace#client_side_timestamps_enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cassandra_keyspace#client_side_timestamps_enabled CassandraKeyspace#client_side_timestamps_enabled}
 	ClientSideTimestampsEnabled interface{} `field:"optional" json:"clientSideTimestampsEnabled" yaml:"clientSideTimestampsEnabled"`
 	// Name for Cassandra keyspace.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_keyspace#keyspace_name CassandraKeyspace#keyspace_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cassandra_keyspace#keyspace_name CassandraKeyspace#keyspace_name}
 	KeyspaceName *string `field:"optional" json:"keyspaceName" yaml:"keyspaceName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_keyspace#replication_specification CassandraKeyspace#replication_specification}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cassandra_keyspace#replication_specification CassandraKeyspace#replication_specification}.
 	ReplicationSpecification *CassandraKeyspaceReplicationSpecification `field:"optional" json:"replicationSpecification" yaml:"replicationSpecification"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cassandra_keyspace#tags CassandraKeyspace#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cassandra_keyspace#tags CassandraKeyspace#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

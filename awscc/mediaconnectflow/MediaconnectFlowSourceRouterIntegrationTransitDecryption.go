@@ -7,9 +7,9 @@ package mediaconnectflow
 type MediaconnectFlowSourceRouterIntegrationTransitDecryption struct {
 	// Configuration settings for flow transit encryption keys.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#encryption_key_configuration MediaconnectFlow#encryption_key_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediaconnect_flow#encryption_key_configuration MediaconnectFlow#encryption_key_configuration}
 	EncryptionKeyConfiguration *MediaconnectFlowSourceRouterIntegrationTransitDecryptionEncryptionKeyConfiguration `field:"optional" json:"encryptionKeyConfiguration" yaml:"encryptionKeyConfiguration"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow#encryption_key_type MediaconnectFlow#encryption_key_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediaconnect_flow#encryption_key_type MediaconnectFlow#encryption_key_type}.
 	EncryptionKeyType *string `field:"optional" json:"encryptionKeyType" yaml:"encryptionKeyType"`
 }
 

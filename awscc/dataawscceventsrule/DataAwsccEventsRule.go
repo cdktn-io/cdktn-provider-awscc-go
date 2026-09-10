@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/events_rule awscc_events_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/events_rule awscc_events_rule}.
 type DataAwsccEventsRule interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccEventsRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/events_rule awscc_events_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/events_rule awscc_events_rule} Data Source.
 func NewDataAwsccEventsRule(scope constructs.Construct, id *string, config *DataAwsccEventsRuleConfig) DataAwsccEventsRule {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccEventsRule(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/events_rule awscc_events_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/events_rule awscc_events_rule} Data Source.
 func NewDataAwsccEventsRule_Override(d DataAwsccEventsRule, scope constructs.Construct, id *string, config *DataAwsccEventsRuleConfig) {
 	_init_.Initialize()
 

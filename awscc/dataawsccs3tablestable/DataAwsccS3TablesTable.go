@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/s3tables_table awscc_s3tables_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/s3tables_table awscc_s3tables_table}.
 type DataAwsccS3TablesTable interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccS3TablesTable) WithoutMetadata() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/s3tables_table awscc_s3tables_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/s3tables_table awscc_s3tables_table} Data Source.
 func NewDataAwsccS3TablesTable(scope constructs.Construct, id *string, config *DataAwsccS3TablesTableConfig) DataAwsccS3TablesTable {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccS3TablesTable(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/s3tables_table awscc_s3tables_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/s3tables_table awscc_s3tables_table} Data Source.
 func NewDataAwsccS3TablesTable_Override(d DataAwsccS3TablesTable, scope constructs.Construct, id *string, config *DataAwsccS3TablesTableConfig) {
 	_init_.Initialize()
 

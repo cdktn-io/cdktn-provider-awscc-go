@@ -22,17 +22,17 @@ type EventsArchiveConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/events_archive#source_arn EventsArchive#source_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/events_archive#source_arn EventsArchive#source_arn}.
 	SourceArn *string `field:"required" json:"sourceArn" yaml:"sourceArn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/events_archive#archive_name EventsArchive#archive_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/events_archive#archive_name EventsArchive#archive_name}.
 	ArchiveName *string `field:"optional" json:"archiveName" yaml:"archiveName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/events_archive#description EventsArchive#description}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/events_archive#description EventsArchive#description}.
 	Description *string `field:"optional" json:"description" yaml:"description"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/events_archive#event_pattern EventsArchive#event_pattern}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/events_archive#event_pattern EventsArchive#event_pattern}.
 	EventPattern *string `field:"optional" json:"eventPattern" yaml:"eventPattern"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/events_archive#kms_key_identifier EventsArchive#kms_key_identifier}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/events_archive#kms_key_identifier EventsArchive#kms_key_identifier}.
 	KmsKeyIdentifier *string `field:"optional" json:"kmsKeyIdentifier" yaml:"kmsKeyIdentifier"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/events_archive#retention_days EventsArchive#retention_days}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/events_archive#retention_days EventsArchive#retention_days}.
 	RetentionDays *float64 `field:"optional" json:"retentionDays" yaml:"retentionDays"`
 }
 

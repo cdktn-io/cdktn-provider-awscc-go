@@ -24,29 +24,29 @@ type OrganizationsAccountConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The friendly name of the member account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/organizations_account#account_name OrganizationsAccount#account_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/organizations_account#account_name OrganizationsAccount#account_name}
 	AccountName *string `field:"required" json:"accountName" yaml:"accountName"`
 	// The email address of the owner to assign to the new member account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/organizations_account#email OrganizationsAccount#email}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/organizations_account#email OrganizationsAccount#email}
 	Email *string `field:"required" json:"email" yaml:"email"`
 	// List of parent nodes for the member account.
 	//
 	// Currently only one parent at a time is supported. Default is root.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/organizations_account#parent_ids OrganizationsAccount#parent_ids}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/organizations_account#parent_ids OrganizationsAccount#parent_ids}
 	ParentIds *[]*string `field:"optional" json:"parentIds" yaml:"parentIds"`
 	// The name of an IAM role that AWS Organizations automatically preconfigures in the new member account.
 	//
 	// Default name is OrganizationAccountAccessRole if not specified.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/organizations_account#role_name OrganizationsAccount#role_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/organizations_account#role_name OrganizationsAccount#role_name}
 	RoleName *string `field:"optional" json:"roleName" yaml:"roleName"`
 	// A list of tags that you want to attach to the newly created account.
 	//
 	// For each tag in the list, you must specify both a tag key and a value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/organizations_account#tags OrganizationsAccount#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/organizations_account#tags OrganizationsAccount#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

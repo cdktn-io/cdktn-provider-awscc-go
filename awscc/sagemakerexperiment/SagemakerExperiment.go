@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_experiment awscc_sagemaker_experiment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_experiment awscc_sagemaker_experiment}.
 type SagemakerExperiment interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -483,7 +483,7 @@ func (j *jsiiProxy_SagemakerExperiment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_experiment awscc_sagemaker_experiment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_experiment awscc_sagemaker_experiment} Resource.
 func NewSagemakerExperiment(scope constructs.Construct, id *string, config *SagemakerExperimentConfig) SagemakerExperiment {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewSagemakerExperiment(scope constructs.Construct, id *string, config *Sage
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_experiment awscc_sagemaker_experiment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_experiment awscc_sagemaker_experiment} Resource.
 func NewSagemakerExperiment_Override(s SagemakerExperiment, scope constructs.Construct, id *string, config *SagemakerExperimentConfig) {
 	_init_.Initialize()
 

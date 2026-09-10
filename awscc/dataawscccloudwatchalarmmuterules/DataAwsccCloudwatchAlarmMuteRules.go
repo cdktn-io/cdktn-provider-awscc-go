@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudwatch_alarm_mute_rules awscc_cloudwatch_alarm_mute_rules}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudwatch_alarm_mute_rules awscc_cloudwatch_alarm_mute_rules}.
 type DataAwsccCloudwatchAlarmMuteRules interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCloudwatchAlarmMuteRules) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudwatch_alarm_mute_rules awscc_cloudwatch_alarm_mute_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudwatch_alarm_mute_rules awscc_cloudwatch_alarm_mute_rules} Data Source.
 func NewDataAwsccCloudwatchAlarmMuteRules(scope constructs.Construct, id *string, config *DataAwsccCloudwatchAlarmMuteRulesConfig) DataAwsccCloudwatchAlarmMuteRules {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCloudwatchAlarmMuteRules(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudwatch_alarm_mute_rules awscc_cloudwatch_alarm_mute_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudwatch_alarm_mute_rules awscc_cloudwatch_alarm_mute_rules} Data Source.
 func NewDataAwsccCloudwatchAlarmMuteRules_Override(d DataAwsccCloudwatchAlarmMuteRules, scope constructs.Construct, id *string, config *DataAwsccCloudwatchAlarmMuteRulesConfig) {
 	_init_.Initialize()
 

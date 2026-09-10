@@ -24,11 +24,11 @@ type BedrockGuardrailVersionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Identifier (GuardrailId or GuardrailArn) for the guardrail.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_guardrail_version#guardrail_identifier BedrockGuardrailVersion#guardrail_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrock_guardrail_version#guardrail_identifier BedrockGuardrailVersion#guardrail_identifier}
 	GuardrailIdentifier *string `field:"required" json:"guardrailIdentifier" yaml:"guardrailIdentifier"`
 	// Description of the Guardrail version.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/bedrock_guardrail_version#description BedrockGuardrailVersion#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrock_guardrail_version#description BedrockGuardrailVersion#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 }
 

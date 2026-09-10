@@ -5,13 +5,13 @@ package connectworkspace
 
 
 type ConnectWorkspaceThemeLightPaletteHeader struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_workspace#background ConnectWorkspace#background}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_workspace#background ConnectWorkspace#background}.
 	Background *string `field:"optional" json:"background" yaml:"background"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_workspace#invert_actions_colors ConnectWorkspace#invert_actions_colors}.
 	InvertActionsColors interface{} `field:"optional" json:"invertActionsColors" yaml:"invertActionsColors"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_workspace#text ConnectWorkspace#text}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_workspace#text ConnectWorkspace#text}.
 	Text *string `field:"optional" json:"text" yaml:"text"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_workspace#text_hover ConnectWorkspace#text_hover}.
 	TextHover *string `field:"optional" json:"textHover" yaml:"textHover"`
 }
 

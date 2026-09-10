@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/refactorspaces_application awscc_refactorspaces_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/refactorspaces_application awscc_refactorspaces_application}.
 type RefactorspacesApplication interface {
 	cdktn.TerraformResource
 	ApiGatewayId() *string
@@ -583,7 +583,7 @@ func (j *jsiiProxy_RefactorspacesApplication) VpcLinkId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/refactorspaces_application awscc_refactorspaces_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/refactorspaces_application awscc_refactorspaces_application} Resource.
 func NewRefactorspacesApplication(scope constructs.Construct, id *string, config *RefactorspacesApplicationConfig) RefactorspacesApplication {
 	_init_.Initialize()
 
@@ -601,7 +601,7 @@ func NewRefactorspacesApplication(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/refactorspaces_application awscc_refactorspaces_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/refactorspaces_application awscc_refactorspaces_application} Resource.
 func NewRefactorspacesApplication_Override(r RefactorspacesApplication, scope constructs.Construct, id *string, config *RefactorspacesApplicationConfig) {
 	_init_.Initialize()
 

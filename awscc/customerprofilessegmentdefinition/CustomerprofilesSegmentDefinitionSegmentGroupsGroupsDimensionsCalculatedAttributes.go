@@ -7,13 +7,13 @@ package customerprofilessegmentdefinition
 type CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributes struct {
 	// Overrides the condition block within the original calculated attribute definition.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_segment_definition#condition_overrides CustomerprofilesSegmentDefinition#condition_overrides}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/customerprofiles_segment_definition#condition_overrides CustomerprofilesSegmentDefinition#condition_overrides}
 	ConditionOverrides *CustomerprofilesSegmentDefinitionSegmentGroupsGroupsDimensionsCalculatedAttributesConditionOverrides `field:"optional" json:"conditionOverrides" yaml:"conditionOverrides"`
 	// The type of segment dimension to use.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/customerprofiles_segment_definition#dimension_type CustomerprofilesSegmentDefinition#dimension_type}
 	DimensionType *string `field:"optional" json:"dimensionType" yaml:"dimensionType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/customerprofiles_segment_definition#values CustomerprofilesSegmentDefinition#values}.
 	Values *[]*string `field:"optional" json:"values" yaml:"values"`
 }
 

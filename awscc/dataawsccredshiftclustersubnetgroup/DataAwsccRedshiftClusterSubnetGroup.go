@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/redshift_cluster_subnet_group awscc_redshift_cluster_subnet_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/redshift_cluster_subnet_group awscc_redshift_cluster_subnet_group}.
 type DataAwsccRedshiftClusterSubnetGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccRedshiftClusterSubnetGroup) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/redshift_cluster_subnet_group awscc_redshift_cluster_subnet_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/redshift_cluster_subnet_group awscc_redshift_cluster_subnet_group} Data Source.
 func NewDataAwsccRedshiftClusterSubnetGroup(scope constructs.Construct, id *string, config *DataAwsccRedshiftClusterSubnetGroupConfig) DataAwsccRedshiftClusterSubnetGroup {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccRedshiftClusterSubnetGroup(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/redshift_cluster_subnet_group awscc_redshift_cluster_subnet_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/redshift_cluster_subnet_group awscc_redshift_cluster_subnet_group} Data Source.
 func NewDataAwsccRedshiftClusterSubnetGroup_Override(d DataAwsccRedshiftClusterSubnetGroup, scope constructs.Construct, id *string, config *DataAwsccRedshiftClusterSubnetGroupConfig) {
 	_init_.Initialize()
 

@@ -5,11 +5,11 @@ package cleanroomsanalysistemplate
 
 
 type CleanroomsAnalysisTemplateAnalysisParameters struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_analysis_template#default_value CleanroomsAnalysisTemplate#default_value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cleanrooms_analysis_template#default_value CleanroomsAnalysisTemplate#default_value}.
 	DefaultValue *string `field:"optional" json:"defaultValue" yaml:"defaultValue"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_analysis_template#name CleanroomsAnalysisTemplate#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cleanrooms_analysis_template#name CleanroomsAnalysisTemplate#name}.
 	Name *string `field:"optional" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cleanrooms_analysis_template#type CleanroomsAnalysisTemplate#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cleanrooms_analysis_template#type CleanroomsAnalysisTemplate#type}.
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

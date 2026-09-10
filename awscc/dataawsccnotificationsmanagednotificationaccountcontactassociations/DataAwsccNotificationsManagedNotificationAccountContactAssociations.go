@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/notifications_managed_notification_account_contact_associations awscc_notifications_managed_notification_account_contact_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/notifications_managed_notification_account_contact_associations awscc_notifications_managed_notification_account_contact_associations}.
 type DataAwsccNotificationsManagedNotificationAccountContactAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNotificationsManagedNotificationAccountContactAssoci
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/notifications_managed_notification_account_contact_associations awscc_notifications_managed_notification_account_contact_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/notifications_managed_notification_account_contact_associations awscc_notifications_managed_notification_account_contact_associations} Data Source.
 func NewDataAwsccNotificationsManagedNotificationAccountContactAssociations(scope constructs.Construct, id *string, config *DataAwsccNotificationsManagedNotificationAccountContactAssociationsConfig) DataAwsccNotificationsManagedNotificationAccountContactAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNotificationsManagedNotificationAccountContactAssociations(scop
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/notifications_managed_notification_account_contact_associations awscc_notifications_managed_notification_account_contact_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/notifications_managed_notification_account_contact_associations awscc_notifications_managed_notification_account_contact_associations} Data Source.
 func NewDataAwsccNotificationsManagedNotificationAccountContactAssociations_Override(d DataAwsccNotificationsManagedNotificationAccountContactAssociations, scope constructs.Construct, id *string, config *DataAwsccNotificationsManagedNotificationAccountContactAssociationsConfig) {
 	_init_.Initialize()
 

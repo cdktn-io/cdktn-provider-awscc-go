@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/location_tracker awscc_location_tracker}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/location_tracker awscc_location_tracker}.
 type DataAwsccLocationTracker interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccLocationTracker) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/location_tracker awscc_location_tracker} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/location_tracker awscc_location_tracker} Data Source.
 func NewDataAwsccLocationTracker(scope constructs.Construct, id *string, config *DataAwsccLocationTrackerConfig) DataAwsccLocationTracker {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccLocationTracker(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/location_tracker awscc_location_tracker} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/location_tracker awscc_location_tracker} Data Source.
 func NewDataAwsccLocationTracker_Override(d DataAwsccLocationTracker, scope constructs.Construct, id *string, config *DataAwsccLocationTrackerConfig) {
 	_init_.Initialize()
 

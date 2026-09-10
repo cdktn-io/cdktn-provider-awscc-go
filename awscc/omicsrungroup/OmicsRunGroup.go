@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_run_group awscc_omics_run_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/omics_run_group awscc_omics_run_group}.
 type OmicsRunGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_OmicsRunGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_run_group awscc_omics_run_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/omics_run_group awscc_omics_run_group} Resource.
 func NewOmicsRunGroup(scope constructs.Construct, id *string, config *OmicsRunGroupConfig) OmicsRunGroup {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewOmicsRunGroup(scope constructs.Construct, id *string, config *OmicsRunGr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/omics_run_group awscc_omics_run_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/omics_run_group awscc_omics_run_group} Resource.
 func NewOmicsRunGroup_Override(o OmicsRunGroup, scope constructs.Construct, id *string, config *OmicsRunGroupConfig) {
 	_init_.Initialize()
 

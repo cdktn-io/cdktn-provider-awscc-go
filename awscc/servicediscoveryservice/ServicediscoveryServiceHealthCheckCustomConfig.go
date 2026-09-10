@@ -7,7 +7,7 @@ package servicediscoveryservice
 type ServicediscoveryServiceHealthCheckCustomConfig struct {
 	// The number of consecutive health check failures required before the service is considered unhealthy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicediscovery_service#failure_threshold ServicediscoveryService#failure_threshold}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/servicediscovery_service#failure_threshold ServicediscoveryService#failure_threshold}
 	FailureThreshold *float64 `field:"optional" json:"failureThreshold" yaml:"failureThreshold"`
 }
 

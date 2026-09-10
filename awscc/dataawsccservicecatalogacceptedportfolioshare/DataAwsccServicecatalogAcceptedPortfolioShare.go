@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/servicecatalog_accepted_portfolio_share awscc_servicecatalog_accepted_portfolio_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/servicecatalog_accepted_portfolio_share awscc_servicecatalog_accepted_portfolio_share}.
 type DataAwsccServicecatalogAcceptedPortfolioShare interface {
 	cdktn.TerraformDataSource
 	AcceptLanguage() *string
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccServicecatalogAcceptedPortfolioShare) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/servicecatalog_accepted_portfolio_share awscc_servicecatalog_accepted_portfolio_share} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/servicecatalog_accepted_portfolio_share awscc_servicecatalog_accepted_portfolio_share} Data Source.
 func NewDataAwsccServicecatalogAcceptedPortfolioShare(scope constructs.Construct, id *string, config *DataAwsccServicecatalogAcceptedPortfolioShareConfig) DataAwsccServicecatalogAcceptedPortfolioShare {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccServicecatalogAcceptedPortfolioShare(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/servicecatalog_accepted_portfolio_share awscc_servicecatalog_accepted_portfolio_share} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/servicecatalog_accepted_portfolio_share awscc_servicecatalog_accepted_portfolio_share} Data Source.
 func NewDataAwsccServicecatalogAcceptedPortfolioShare_Override(d DataAwsccServicecatalogAcceptedPortfolioShare, scope constructs.Construct, id *string, config *DataAwsccServicecatalogAcceptedPortfolioShareConfig) {
 	_init_.Initialize()
 

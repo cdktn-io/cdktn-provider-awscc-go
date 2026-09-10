@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/textract_adapter awscc_textract_adapter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/textract_adapter awscc_textract_adapter}.
 type DataAwsccTextractAdapter interface {
 	cdktn.TerraformDataSource
 	AdapterId() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccTextractAdapter) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/textract_adapter awscc_textract_adapter} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/textract_adapter awscc_textract_adapter} Data Source.
 func NewDataAwsccTextractAdapter(scope constructs.Construct, id *string, config *DataAwsccTextractAdapterConfig) DataAwsccTextractAdapter {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccTextractAdapter(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/textract_adapter awscc_textract_adapter} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/textract_adapter awscc_textract_adapter} Data Source.
 func NewDataAwsccTextractAdapter_Override(d DataAwsccTextractAdapter, scope constructs.Construct, id *string, config *DataAwsccTextractAdapterConfig) {
 	_init_.Initialize()
 

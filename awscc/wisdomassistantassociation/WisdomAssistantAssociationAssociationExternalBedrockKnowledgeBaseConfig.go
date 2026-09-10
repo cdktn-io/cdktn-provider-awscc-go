@@ -5,9 +5,9 @@ package wisdomassistantassociation
 
 
 type WisdomAssistantAssociationAssociationExternalBedrockKnowledgeBaseConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wisdom_assistant_association#access_role_arn WisdomAssistantAssociation#access_role_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/wisdom_assistant_association#access_role_arn WisdomAssistantAssociation#access_role_arn}.
 	AccessRoleArn *string `field:"optional" json:"accessRoleArn" yaml:"accessRoleArn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/wisdom_assistant_association#bedrock_knowledge_base_arn WisdomAssistantAssociation#bedrock_knowledge_base_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/wisdom_assistant_association#bedrock_knowledge_base_arn WisdomAssistantAssociation#bedrock_knowledge_base_arn}.
 	BedrockKnowledgeBaseArn *string `field:"optional" json:"bedrockKnowledgeBaseArn" yaml:"bedrockKnowledgeBaseArn"`
 }
 

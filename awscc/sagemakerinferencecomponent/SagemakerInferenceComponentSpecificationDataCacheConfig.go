@@ -7,7 +7,7 @@ package sagemakerinferencecomponent
 type SagemakerInferenceComponentSpecificationDataCacheConfig struct {
 	// Whether the endpoint caches the model artifacts and container image on each instance it provisions for the inference component.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/sagemaker_inference_component#enable_caching SagemakerInferenceComponent#enable_caching}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_inference_component#enable_caching SagemakerInferenceComponent#enable_caching}
 	EnableCaching interface{} `field:"optional" json:"enableCaching" yaml:"enableCaching"`
 }
 

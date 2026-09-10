@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_type awscc_appsync_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appsync_type awscc_appsync_type}.
 type AppsyncType interface {
 	cdktn.TerraformResource
 	ApiId() *string
@@ -446,7 +446,7 @@ func (j *jsiiProxy_AppsyncType) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_type awscc_appsync_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appsync_type awscc_appsync_type} Resource.
 func NewAppsyncType(scope constructs.Construct, id *string, config *AppsyncTypeConfig) AppsyncType {
 	_init_.Initialize()
 
@@ -464,7 +464,7 @@ func NewAppsyncType(scope constructs.Construct, id *string, config *AppsyncTypeC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/appsync_type awscc_appsync_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appsync_type awscc_appsync_type} Resource.
 func NewAppsyncType_Override(a AppsyncType, scope constructs.Construct, id *string, config *AppsyncTypeConfig) {
 	_init_.Initialize()
 

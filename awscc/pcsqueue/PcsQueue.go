@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pcs_queue awscc_pcs_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pcs_queue awscc_pcs_queue}.
 type PcsQueue interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -518,7 +518,7 @@ func (j *jsiiProxy_PcsQueue) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pcs_queue awscc_pcs_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pcs_queue awscc_pcs_queue} Resource.
 func NewPcsQueue(scope constructs.Construct, id *string, config *PcsQueueConfig) PcsQueue {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewPcsQueue(scope constructs.Construct, id *string, config *PcsQueueConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pcs_queue awscc_pcs_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pcs_queue awscc_pcs_queue} Resource.
 func NewPcsQueue_Override(p PcsQueue, scope constructs.Construct, id *string, config *PcsQueueConfig) {
 	_init_.Initialize()
 

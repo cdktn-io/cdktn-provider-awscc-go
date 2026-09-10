@@ -15,6 +15,7 @@ type DataAwsccAgentregistryRegistryRecordDescriptorsOutputReference interface {
 	cdktn.ComplexObject
 	A2AAgentCard() DataAwsccAgentregistryRegistryRecordDescriptorsA2AAgentCardOutputReference
 	AgentSkillsDefinition() DataAwsccAgentregistryRegistryRecordDescriptorsAgentSkillsDefinitionOutputReference
+	Agui() DataAwsccAgentregistryRegistryRecordDescriptorsAguiOutputReference
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -33,6 +34,7 @@ type DataAwsccAgentregistryRegistryRecordDescriptorsOutputReference interface {
 	Custom() DataAwsccAgentregistryRegistryRecordDescriptorsCustomOutputReference
 	// Experimental.
 	Fqn() *string
+	Http() DataAwsccAgentregistryRegistryRecordDescriptorsHttpOutputReference
 	InternalValue() *DataAwsccAgentregistryRegistryRecordDescriptors
 	SetInternalValue(val *DataAwsccAgentregistryRegistryRecordDescriptors)
 	McpServer() DataAwsccAgentregistryRegistryRecordDescriptorsMcpServerOutputReference
@@ -103,6 +105,16 @@ func (j *jsiiProxy_DataAwsccAgentregistryRegistryRecordDescriptorsOutputReferenc
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccAgentregistryRegistryRecordDescriptorsOutputReference) Agui() DataAwsccAgentregistryRegistryRecordDescriptorsAguiOutputReference {
+	var returns DataAwsccAgentregistryRegistryRecordDescriptorsAguiOutputReference
+	_jsii_.Get(
+		j,
+		"agui",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccAgentregistryRegistryRecordDescriptorsOutputReference) ComplexObjectIndex() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -148,6 +160,16 @@ func (j *jsiiProxy_DataAwsccAgentregistryRegistryRecordDescriptorsOutputReferenc
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccAgentregistryRegistryRecordDescriptorsOutputReference) Http() DataAwsccAgentregistryRegistryRecordDescriptorsHttpOutputReference {
+	var returns DataAwsccAgentregistryRegistryRecordDescriptorsHttpOutputReference
+	_jsii_.Get(
+		j,
+		"http",
 		&returns,
 	)
 	return returns

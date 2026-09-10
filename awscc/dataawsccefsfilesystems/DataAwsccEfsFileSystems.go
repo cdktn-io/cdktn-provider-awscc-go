@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/efs_file_systems awscc_efs_file_systems}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/efs_file_systems awscc_efs_file_systems}.
 type DataAwsccEfsFileSystems interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEfsFileSystems) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/efs_file_systems awscc_efs_file_systems} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/efs_file_systems awscc_efs_file_systems} Data Source.
 func NewDataAwsccEfsFileSystems(scope constructs.Construct, id *string, config *DataAwsccEfsFileSystemsConfig) DataAwsccEfsFileSystems {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEfsFileSystems(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/efs_file_systems awscc_efs_file_systems} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/efs_file_systems awscc_efs_file_systems} Data Source.
 func NewDataAwsccEfsFileSystems_Override(d DataAwsccEfsFileSystems, scope constructs.Construct, id *string, config *DataAwsccEfsFileSystemsConfig) {
 	_init_.Initialize()
 

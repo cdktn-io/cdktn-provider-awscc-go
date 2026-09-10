@@ -24,19 +24,19 @@ type NetworkmanagerGlobalNetworkConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The date and time that the global network was created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/networkmanager_global_network#created_at NetworkmanagerGlobalNetwork#created_at}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkmanager_global_network#created_at NetworkmanagerGlobalNetwork#created_at}
 	CreatedAt *string `field:"optional" json:"createdAt" yaml:"createdAt"`
 	// The description of the global network.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/networkmanager_global_network#description NetworkmanagerGlobalNetwork#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkmanager_global_network#description NetworkmanagerGlobalNetwork#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The state of the global network.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/networkmanager_global_network#state NetworkmanagerGlobalNetwork#state}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkmanager_global_network#state NetworkmanagerGlobalNetwork#state}
 	State *string `field:"optional" json:"state" yaml:"state"`
 	// The tags for the global network.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/networkmanager_global_network#tags NetworkmanagerGlobalNetwork#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkmanager_global_network#tags NetworkmanagerGlobalNetwork#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

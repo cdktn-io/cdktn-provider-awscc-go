@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cognito_user_pool_risk_configuration_attachment awscc_cognito_user_pool_risk_configuration_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cognito_user_pool_risk_configuration_attachment awscc_cognito_user_pool_risk_configuration_attachment}.
 type CognitoUserPoolRiskConfigurationAttachment interface {
 	cdktn.TerraformResource
 	AccountTakeoverRiskConfiguration() CognitoUserPoolRiskConfigurationAttachmentAccountTakeoverRiskConfigurationOutputReference
@@ -473,7 +473,7 @@ func (j *jsiiProxy_CognitoUserPoolRiskConfigurationAttachment) UserPoolIdInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cognito_user_pool_risk_configuration_attachment awscc_cognito_user_pool_risk_configuration_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cognito_user_pool_risk_configuration_attachment awscc_cognito_user_pool_risk_configuration_attachment} Resource.
 func NewCognitoUserPoolRiskConfigurationAttachment(scope constructs.Construct, id *string, config *CognitoUserPoolRiskConfigurationAttachmentConfig) CognitoUserPoolRiskConfigurationAttachment {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewCognitoUserPoolRiskConfigurationAttachment(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/cognito_user_pool_risk_configuration_attachment awscc_cognito_user_pool_risk_configuration_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cognito_user_pool_risk_configuration_attachment awscc_cognito_user_pool_risk_configuration_attachment} Resource.
 func NewCognitoUserPoolRiskConfigurationAttachment_Override(c CognitoUserPoolRiskConfigurationAttachment, scope constructs.Construct, id *string, config *CognitoUserPoolRiskConfigurationAttachmentConfig) {
 	_init_.Initialize()
 

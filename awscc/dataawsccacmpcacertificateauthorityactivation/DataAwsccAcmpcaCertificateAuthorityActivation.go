@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/acmpca_certificate_authority_activation awscc_acmpca_certificate_authority_activation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/acmpca_certificate_authority_activation awscc_acmpca_certificate_authority_activation}.
 type DataAwsccAcmpcaCertificateAuthorityActivation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccAcmpcaCertificateAuthorityActivation) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/acmpca_certificate_authority_activation awscc_acmpca_certificate_authority_activation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/acmpca_certificate_authority_activation awscc_acmpca_certificate_authority_activation} Data Source.
 func NewDataAwsccAcmpcaCertificateAuthorityActivation(scope constructs.Construct, id *string, config *DataAwsccAcmpcaCertificateAuthorityActivationConfig) DataAwsccAcmpcaCertificateAuthorityActivation {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccAcmpcaCertificateAuthorityActivation(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/acmpca_certificate_authority_activation awscc_acmpca_certificate_authority_activation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/acmpca_certificate_authority_activation awscc_acmpca_certificate_authority_activation} Data Source.
 func NewDataAwsccAcmpcaCertificateAuthorityActivation_Override(d DataAwsccAcmpcaCertificateAuthorityActivation, scope constructs.Construct, id *string, config *DataAwsccAcmpcaCertificateAuthorityActivationConfig) {
 	_init_.Initialize()
 

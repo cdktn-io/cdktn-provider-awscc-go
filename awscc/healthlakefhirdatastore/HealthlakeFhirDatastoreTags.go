@@ -7,11 +7,11 @@ package healthlakefhirdatastore
 type HealthlakeFhirDatastoreTags struct {
 	// The key of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/healthlake_fhir_datastore#key HealthlakeFhirDatastore#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/healthlake_fhir_datastore#key HealthlakeFhirDatastore#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/healthlake_fhir_datastore#value HealthlakeFhirDatastore#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/healthlake_fhir_datastore#value HealthlakeFhirDatastore#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

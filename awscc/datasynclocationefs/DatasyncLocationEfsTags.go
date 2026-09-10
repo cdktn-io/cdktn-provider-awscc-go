@@ -7,11 +7,11 @@ package datasynclocationefs
 type DatasyncLocationEfsTags struct {
 	// The key for an AWS resource tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_location_efs#key DatasyncLocationEfs#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datasync_location_efs#key DatasyncLocationEfs#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value for an AWS resource tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/datasync_location_efs#value DatasyncLocationEfs#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datasync_location_efs#value DatasyncLocationEfs#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

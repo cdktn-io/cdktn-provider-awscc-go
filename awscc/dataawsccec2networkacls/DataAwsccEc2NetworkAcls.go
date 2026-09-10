@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_network_acls awscc_ec2_network_acls}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_network_acls awscc_ec2_network_acls}.
 type DataAwsccEc2NetworkAcls interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2NetworkAcls) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_network_acls awscc_ec2_network_acls} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_network_acls awscc_ec2_network_acls} Data Source.
 func NewDataAwsccEc2NetworkAcls(scope constructs.Construct, id *string, config *DataAwsccEc2NetworkAclsConfig) DataAwsccEc2NetworkAcls {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2NetworkAcls(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_network_acls awscc_ec2_network_acls} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_network_acls awscc_ec2_network_acls} Data Source.
 func NewDataAwsccEc2NetworkAcls_Override(d DataAwsccEc2NetworkAcls, scope constructs.Construct, id *string, config *DataAwsccEc2NetworkAclsConfig) {
 	_init_.Initialize()
 

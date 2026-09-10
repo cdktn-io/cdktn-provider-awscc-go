@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/workspaces_connection_alias awscc_workspaces_connection_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/workspaces_connection_alias awscc_workspaces_connection_alias}.
 type DataAwsccWorkspacesConnectionAlias interface {
 	cdktn.TerraformDataSource
 	AliasId() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccWorkspacesConnectionAlias) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/workspaces_connection_alias awscc_workspaces_connection_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/workspaces_connection_alias awscc_workspaces_connection_alias} Data Source.
 func NewDataAwsccWorkspacesConnectionAlias(scope constructs.Construct, id *string, config *DataAwsccWorkspacesConnectionAliasConfig) DataAwsccWorkspacesConnectionAlias {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccWorkspacesConnectionAlias(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/workspaces_connection_alias awscc_workspaces_connection_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/workspaces_connection_alias awscc_workspaces_connection_alias} Data Source.
 func NewDataAwsccWorkspacesConnectionAlias_Override(d DataAwsccWorkspacesConnectionAlias, scope constructs.Construct, id *string, config *DataAwsccWorkspacesConnectionAliasConfig) {
 	_init_.Initialize()
 

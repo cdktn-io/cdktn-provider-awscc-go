@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/xray_sampling_rule awscc_xray_sampling_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/xray_sampling_rule awscc_xray_sampling_rule}.
 type DataAwsccXraySamplingRule interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccXraySamplingRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/xray_sampling_rule awscc_xray_sampling_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/xray_sampling_rule awscc_xray_sampling_rule} Data Source.
 func NewDataAwsccXraySamplingRule(scope constructs.Construct, id *string, config *DataAwsccXraySamplingRuleConfig) DataAwsccXraySamplingRule {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccXraySamplingRule(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/xray_sampling_rule awscc_xray_sampling_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/xray_sampling_rule awscc_xray_sampling_rule} Data Source.
 func NewDataAwsccXraySamplingRule_Override(d DataAwsccXraySamplingRule, scope constructs.Construct, id *string, config *DataAwsccXraySamplingRuleConfig) {
 	_init_.Initialize()
 

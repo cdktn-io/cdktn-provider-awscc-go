@@ -55,7 +55,15 @@ func (a *jsiiProxy_AgentregistryRegistryRecordDescriptorsOutputReference) valida
 	return nil
 }
 
+func (a *jsiiProxy_AgentregistryRegistryRecordDescriptorsOutputReference) validatePutAguiParameters(value *AgentregistryRegistryRecordDescriptorsAgui) error {
+	return nil
+}
+
 func (a *jsiiProxy_AgentregistryRegistryRecordDescriptorsOutputReference) validatePutCustomParameters(value *AgentregistryRegistryRecordDescriptorsCustom) error {
+	return nil
+}
+
+func (a *jsiiProxy_AgentregistryRegistryRecordDescriptorsOutputReference) validatePutHttpParameters(value *AgentregistryRegistryRecordDescriptorsHttp) error {
 	return nil
 }
 

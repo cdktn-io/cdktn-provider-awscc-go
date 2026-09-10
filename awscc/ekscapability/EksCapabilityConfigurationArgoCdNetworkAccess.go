@@ -9,7 +9,7 @@ type EksCapabilityConfigurationArgoCdNetworkAccess struct {
 	//
 	// Each VPC endpoint provides private connectivity from a specific VPC to the Argo CD server. You can specify multiple VPC endpoint IDs to enable access from multiple VPCs.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/eks_capability#vpce_ids EksCapability#vpce_ids}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/eks_capability#vpce_ids EksCapability#vpce_ids}
 	VpceIds *[]*string `field:"optional" json:"vpceIds" yaml:"vpceIds"`
 }
 

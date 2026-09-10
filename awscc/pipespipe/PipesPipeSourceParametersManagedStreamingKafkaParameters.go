@@ -5,17 +5,17 @@ package pipespipe
 
 
 type PipesPipeSourceParametersManagedStreamingKafkaParameters struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pipes_pipe#batch_size PipesPipe#batch_size}.
 	BatchSize *float64 `field:"optional" json:"batchSize" yaml:"batchSize"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pipes_pipe#consumer_group_id PipesPipe#consumer_group_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pipes_pipe#consumer_group_id PipesPipe#consumer_group_id}.
 	ConsumerGroupId *string `field:"optional" json:"consumerGroupId" yaml:"consumerGroupId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pipes_pipe#credentials PipesPipe#credentials}.
 	Credentials *PipesPipeSourceParametersManagedStreamingKafkaParametersCredentials `field:"optional" json:"credentials" yaml:"credentials"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pipes_pipe#maximum_batching_window_in_seconds PipesPipe#maximum_batching_window_in_seconds}.
 	MaximumBatchingWindowInSeconds *float64 `field:"optional" json:"maximumBatchingWindowInSeconds" yaml:"maximumBatchingWindowInSeconds"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pipes_pipe#starting_position PipesPipe#starting_position}.
 	StartingPosition *string `field:"optional" json:"startingPosition" yaml:"startingPosition"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/pipes_pipe#topic_name PipesPipe#topic_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pipes_pipe#topic_name PipesPipe#topic_name}.
 	TopicName *string `field:"optional" json:"topicName" yaml:"topicName"`
 }
 

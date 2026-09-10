@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sso_application_assignments awscc_sso_application_assignments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/sso_application_assignments awscc_sso_application_assignments}.
 type DataAwsccSsoApplicationAssignments interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSsoApplicationAssignments) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sso_application_assignments awscc_sso_application_assignments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/sso_application_assignments awscc_sso_application_assignments} Data Source.
 func NewDataAwsccSsoApplicationAssignments(scope constructs.Construct, id *string, config *DataAwsccSsoApplicationAssignmentsConfig) DataAwsccSsoApplicationAssignments {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSsoApplicationAssignments(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/sso_application_assignments awscc_sso_application_assignments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/sso_application_assignments awscc_sso_application_assignments} Data Source.
 func NewDataAwsccSsoApplicationAssignments_Override(d DataAwsccSsoApplicationAssignments, scope constructs.Construct, id *string, config *DataAwsccSsoApplicationAssignmentsConfig) {
 	_init_.Initialize()
 

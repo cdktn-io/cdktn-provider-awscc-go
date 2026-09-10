@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/inspectorv2_connector awscc_inspectorv2_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/inspectorv2_connector awscc_inspectorv2_connector}.
 type DataAwsccInspectorv2Connector interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccInspectorv2Connector) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/inspectorv2_connector awscc_inspectorv2_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/inspectorv2_connector awscc_inspectorv2_connector} Data Source.
 func NewDataAwsccInspectorv2Connector(scope constructs.Construct, id *string, config *DataAwsccInspectorv2ConnectorConfig) DataAwsccInspectorv2Connector {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccInspectorv2Connector(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/inspectorv2_connector awscc_inspectorv2_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/inspectorv2_connector awscc_inspectorv2_connector} Data Source.
 func NewDataAwsccInspectorv2Connector_Override(d DataAwsccInspectorv2Connector, scope constructs.Construct, id *string, config *DataAwsccInspectorv2ConnectorConfig) {
 	_init_.Initialize()
 

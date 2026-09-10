@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudfront_trust_store awscc_cloudfront_trust_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudfront_trust_store awscc_cloudfront_trust_store}.
 type DataAwsccCloudfrontTrustStore interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccCloudfrontTrustStore) UseClientCertificateOcspEndpoi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudfront_trust_store awscc_cloudfront_trust_store} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudfront_trust_store awscc_cloudfront_trust_store} Data Source.
 func NewDataAwsccCloudfrontTrustStore(scope constructs.Construct, id *string, config *DataAwsccCloudfrontTrustStoreConfig) DataAwsccCloudfrontTrustStore {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccCloudfrontTrustStore(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/cloudfront_trust_store awscc_cloudfront_trust_store} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudfront_trust_store awscc_cloudfront_trust_store} Data Source.
 func NewDataAwsccCloudfrontTrustStore_Override(d DataAwsccCloudfrontTrustStore, scope constructs.Construct, id *string, config *DataAwsccCloudfrontTrustStoreConfig) {
 	_init_.Initialize()
 

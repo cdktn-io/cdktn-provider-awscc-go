@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrock_guardrail awscc_bedrock_guardrail}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrock_guardrail awscc_bedrock_guardrail}.
 type DataAwsccBedrockGuardrail interface {
 	cdktn.TerraformDataSource
 	AutomatedReasoningPolicyConfig() DataAwsccBedrockGuardrailAutomatedReasoningPolicyConfigOutputReference
@@ -517,7 +517,7 @@ func (j *jsiiProxy_DataAwsccBedrockGuardrail) WordPolicyConfig() DataAwsccBedroc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrock_guardrail awscc_bedrock_guardrail} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrock_guardrail awscc_bedrock_guardrail} Data Source.
 func NewDataAwsccBedrockGuardrail(scope constructs.Construct, id *string, config *DataAwsccBedrockGuardrailConfig) DataAwsccBedrockGuardrail {
 	_init_.Initialize()
 
@@ -535,7 +535,7 @@ func NewDataAwsccBedrockGuardrail(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/bedrock_guardrail awscc_bedrock_guardrail} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrock_guardrail awscc_bedrock_guardrail} Data Source.
 func NewDataAwsccBedrockGuardrail_Override(d DataAwsccBedrockGuardrail, scope constructs.Construct, id *string, config *DataAwsccBedrockGuardrailConfig) {
 	_init_.Initialize()
 

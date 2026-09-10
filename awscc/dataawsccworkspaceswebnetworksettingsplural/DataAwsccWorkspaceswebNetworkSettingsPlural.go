@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/workspacesweb_network_settings_plural awscc_workspacesweb_network_settings_plural}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/workspacesweb_network_settings_plural awscc_workspacesweb_network_settings_plural}.
 type DataAwsccWorkspaceswebNetworkSettingsPlural interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccWorkspaceswebNetworkSettingsPlural) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/workspacesweb_network_settings_plural awscc_workspacesweb_network_settings_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/workspacesweb_network_settings_plural awscc_workspacesweb_network_settings_plural} Data Source.
 func NewDataAwsccWorkspaceswebNetworkSettingsPlural(scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebNetworkSettingsPluralConfig) DataAwsccWorkspaceswebNetworkSettingsPlural {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccWorkspaceswebNetworkSettingsPlural(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/workspacesweb_network_settings_plural awscc_workspacesweb_network_settings_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/workspacesweb_network_settings_plural awscc_workspacesweb_network_settings_plural} Data Source.
 func NewDataAwsccWorkspaceswebNetworkSettingsPlural_Override(d DataAwsccWorkspaceswebNetworkSettingsPlural, scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebNetworkSettingsPluralConfig) {
 	_init_.Initialize()
 

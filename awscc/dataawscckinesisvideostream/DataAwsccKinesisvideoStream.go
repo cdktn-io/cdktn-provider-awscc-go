@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/kinesisvideo_stream awscc_kinesisvideo_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/kinesisvideo_stream awscc_kinesisvideo_stream}.
 type DataAwsccKinesisvideoStream interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccKinesisvideoStream) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/kinesisvideo_stream awscc_kinesisvideo_stream} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/kinesisvideo_stream awscc_kinesisvideo_stream} Data Source.
 func NewDataAwsccKinesisvideoStream(scope constructs.Construct, id *string, config *DataAwsccKinesisvideoStreamConfig) DataAwsccKinesisvideoStream {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccKinesisvideoStream(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/kinesisvideo_stream awscc_kinesisvideo_stream} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/kinesisvideo_stream awscc_kinesisvideo_stream} Data Source.
 func NewDataAwsccKinesisvideoStream_Override(d DataAwsccKinesisvideoStream, scope constructs.Construct, id *string, config *DataAwsccKinesisvideoStreamConfig) {
 	_init_.Initialize()
 

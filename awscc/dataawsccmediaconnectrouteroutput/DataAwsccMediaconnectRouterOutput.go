@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediaconnect_router_output awscc_mediaconnect_router_output}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/mediaconnect_router_output awscc_mediaconnect_router_output}.
 type DataAwsccMediaconnectRouterOutput interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -31,6 +31,7 @@ type DataAwsccMediaconnectRouterOutput interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	FabricConfiguration() DataAwsccMediaconnectRouterOutputFabricConfigurationOutputReference
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -218,6 +219,16 @@ func (j *jsiiProxy_DataAwsccMediaconnectRouterOutput) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccMediaconnectRouterOutput) FabricConfiguration() DataAwsccMediaconnectRouterOutputFabricConfigurationOutputReference {
+	var returns DataAwsccMediaconnectRouterOutputFabricConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"fabricConfiguration",
 		&returns,
 	)
 	return returns
@@ -484,7 +495,7 @@ func (j *jsiiProxy_DataAwsccMediaconnectRouterOutput) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediaconnect_router_output awscc_mediaconnect_router_output} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/mediaconnect_router_output awscc_mediaconnect_router_output} Data Source.
 func NewDataAwsccMediaconnectRouterOutput(scope constructs.Construct, id *string, config *DataAwsccMediaconnectRouterOutputConfig) DataAwsccMediaconnectRouterOutput {
 	_init_.Initialize()
 
@@ -502,7 +513,7 @@ func NewDataAwsccMediaconnectRouterOutput(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediaconnect_router_output awscc_mediaconnect_router_output} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/mediaconnect_router_output awscc_mediaconnect_router_output} Data Source.
 func NewDataAwsccMediaconnectRouterOutput_Override(d DataAwsccMediaconnectRouterOutput, scope constructs.Construct, id *string, config *DataAwsccMediaconnectRouterOutputConfig) {
 	_init_.Initialize()
 

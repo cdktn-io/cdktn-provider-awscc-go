@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/gamelift_location awscc_gamelift_location}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/gamelift_location awscc_gamelift_location}.
 type DataAwsccGameliftLocation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccGameliftLocation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/gamelift_location awscc_gamelift_location} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/gamelift_location awscc_gamelift_location} Data Source.
 func NewDataAwsccGameliftLocation(scope constructs.Construct, id *string, config *DataAwsccGameliftLocationConfig) DataAwsccGameliftLocation {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccGameliftLocation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/gamelift_location awscc_gamelift_location} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/gamelift_location awscc_gamelift_location} Data Source.
 func NewDataAwsccGameliftLocation_Override(d DataAwsccGameliftLocation, scope constructs.Construct, id *string, config *DataAwsccGameliftLocationConfig) {
 	_init_.Initialize()
 

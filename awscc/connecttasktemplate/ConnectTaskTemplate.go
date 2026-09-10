@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_task_template awscc_connect_task_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_task_template awscc_connect_task_template}.
 type ConnectTaskTemplate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -629,7 +629,7 @@ func (j *jsiiProxy_ConnectTaskTemplate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_task_template awscc_connect_task_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_task_template awscc_connect_task_template} Resource.
 func NewConnectTaskTemplate(scope constructs.Construct, id *string, config *ConnectTaskTemplateConfig) ConnectTaskTemplate {
 	_init_.Initialize()
 
@@ -647,7 +647,7 @@ func NewConnectTaskTemplate(scope constructs.Construct, id *string, config *Conn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/connect_task_template awscc_connect_task_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_task_template awscc_connect_task_template} Resource.
 func NewConnectTaskTemplate_Override(c ConnectTaskTemplate, scope constructs.Construct, id *string, config *ConnectTaskTemplateConfig) {
 	_init_.Initialize()
 

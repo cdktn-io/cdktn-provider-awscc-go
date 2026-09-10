@@ -5,9 +5,9 @@ package mediaconnectflowoutput
 
 
 type MediaconnectFlowOutputTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow_output#key MediaconnectFlowOutput#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediaconnect_flow_output#key MediaconnectFlowOutput#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_flow_output#value MediaconnectFlowOutput#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediaconnect_flow_output#value MediaconnectFlowOutput#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

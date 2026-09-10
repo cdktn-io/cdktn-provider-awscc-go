@@ -9,11 +9,11 @@ type EcsTaskDefinitionContainerDefinitionsVolumesFrom struct {
 	//
 	// If this value is ``false``, then the container can write to the volume. The default value is ``false``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#read_only EcsTaskDefinition#read_only}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#read_only EcsTaskDefinition#read_only}
 	ReadOnly interface{} `field:"optional" json:"readOnly" yaml:"readOnly"`
 	// The name of another container within the same task definition to mount volumes from.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ecs_task_definition#source_container EcsTaskDefinition#source_container}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#source_container EcsTaskDefinition#source_container}
 	SourceContainer *string `field:"optional" json:"sourceContainer" yaml:"sourceContainer"`
 }
 

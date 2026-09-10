@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/s3vectors_vector_bucket_policies awscc_s3vectors_vector_bucket_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/s3vectors_vector_bucket_policies awscc_s3vectors_vector_bucket_policies}.
 type DataAwsccS3VectorsVectorBucketPolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccS3VectorsVectorBucketPolicies) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/s3vectors_vector_bucket_policies awscc_s3vectors_vector_bucket_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/s3vectors_vector_bucket_policies awscc_s3vectors_vector_bucket_policies} Data Source.
 func NewDataAwsccS3VectorsVectorBucketPolicies(scope constructs.Construct, id *string, config *DataAwsccS3VectorsVectorBucketPoliciesConfig) DataAwsccS3VectorsVectorBucketPolicies {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccS3VectorsVectorBucketPolicies(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/s3vectors_vector_bucket_policies awscc_s3vectors_vector_bucket_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/s3vectors_vector_bucket_policies awscc_s3vectors_vector_bucket_policies} Data Source.
 func NewDataAwsccS3VectorsVectorBucketPolicies_Override(d DataAwsccS3VectorsVectorBucketPolicies, scope constructs.Construct, id *string, config *DataAwsccS3VectorsVectorBucketPoliciesConfig) {
 	_init_.Initialize()
 

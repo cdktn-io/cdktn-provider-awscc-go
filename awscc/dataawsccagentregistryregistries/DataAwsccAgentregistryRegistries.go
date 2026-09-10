@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/agentregistry_registries awscc_agentregistry_registries}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/agentregistry_registries awscc_agentregistry_registries}.
 type DataAwsccAgentregistryRegistries interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccAgentregistryRegistries) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/agentregistry_registries awscc_agentregistry_registries} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/agentregistry_registries awscc_agentregistry_registries} Data Source.
 func NewDataAwsccAgentregistryRegistries(scope constructs.Construct, id *string, config *DataAwsccAgentregistryRegistriesConfig) DataAwsccAgentregistryRegistries {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccAgentregistryRegistries(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/agentregistry_registries awscc_agentregistry_registries} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/agentregistry_registries awscc_agentregistry_registries} Data Source.
 func NewDataAwsccAgentregistryRegistries_Override(d DataAwsccAgentregistryRegistries, scope constructs.Construct, id *string, config *DataAwsccAgentregistryRegistriesConfig) {
 	_init_.Initialize()
 

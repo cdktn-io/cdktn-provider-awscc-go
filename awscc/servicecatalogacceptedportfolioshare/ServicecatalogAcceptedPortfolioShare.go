@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_accepted_portfolio_share awscc_servicecatalog_accepted_portfolio_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/servicecatalog_accepted_portfolio_share awscc_servicecatalog_accepted_portfolio_share}.
 type ServicecatalogAcceptedPortfolioShare interface {
 	cdktn.TerraformResource
 	AcceptLanguage() *string
@@ -402,7 +402,7 @@ func (j *jsiiProxy_ServicecatalogAcceptedPortfolioShare) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_accepted_portfolio_share awscc_servicecatalog_accepted_portfolio_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/servicecatalog_accepted_portfolio_share awscc_servicecatalog_accepted_portfolio_share} Resource.
 func NewServicecatalogAcceptedPortfolioShare(scope constructs.Construct, id *string, config *ServicecatalogAcceptedPortfolioShareConfig) ServicecatalogAcceptedPortfolioShare {
 	_init_.Initialize()
 
@@ -420,7 +420,7 @@ func NewServicecatalogAcceptedPortfolioShare(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/servicecatalog_accepted_portfolio_share awscc_servicecatalog_accepted_portfolio_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/servicecatalog_accepted_portfolio_share awscc_servicecatalog_accepted_portfolio_share} Resource.
 func NewServicecatalogAcceptedPortfolioShare_Override(s ServicecatalogAcceptedPortfolioShare, scope constructs.Construct, id *string, config *ServicecatalogAcceptedPortfolioShareConfig) {
 	_init_.Initialize()
 

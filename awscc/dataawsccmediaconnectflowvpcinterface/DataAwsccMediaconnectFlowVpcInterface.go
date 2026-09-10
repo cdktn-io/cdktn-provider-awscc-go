@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediaconnect_flow_vpc_interface awscc_mediaconnect_flow_vpc_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/mediaconnect_flow_vpc_interface awscc_mediaconnect_flow_vpc_interface}.
 type DataAwsccMediaconnectFlowVpcInterface interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccMediaconnectFlowVpcInterface) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediaconnect_flow_vpc_interface awscc_mediaconnect_flow_vpc_interface} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/mediaconnect_flow_vpc_interface awscc_mediaconnect_flow_vpc_interface} Data Source.
 func NewDataAwsccMediaconnectFlowVpcInterface(scope constructs.Construct, id *string, config *DataAwsccMediaconnectFlowVpcInterfaceConfig) DataAwsccMediaconnectFlowVpcInterface {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccMediaconnectFlowVpcInterface(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/mediaconnect_flow_vpc_interface awscc_mediaconnect_flow_vpc_interface} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/mediaconnect_flow_vpc_interface awscc_mediaconnect_flow_vpc_interface} Data Source.
 func NewDataAwsccMediaconnectFlowVpcInterface_Override(d DataAwsccMediaconnectFlowVpcInterface, scope constructs.Construct, id *string, config *DataAwsccMediaconnectFlowVpcInterfaceConfig) {
 	_init_.Initialize()
 

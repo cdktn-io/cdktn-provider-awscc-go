@@ -83,6 +83,10 @@ func (i *jsiiProxy_IotTopicRuleDestination) validatePutHttpUrlPropertiesParamete
 	return nil
 }
 
+func (i *jsiiProxy_IotTopicRuleDestination) validatePutInfluxDbPropertiesParameters(value *IotTopicRuleDestinationInfluxDbProperties) error {
+	return nil
+}
+
 func (i *jsiiProxy_IotTopicRuleDestination) validatePutVpcPropertiesParameters(value *IotTopicRuleDestinationVpcProperties) error {
 	return nil
 }

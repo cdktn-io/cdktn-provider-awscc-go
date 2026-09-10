@@ -38,6 +38,7 @@ type DataAwsccIotTopicRuleTopicRulePayloadErrorActionOutputReference interface {
 	// Experimental.
 	Fqn() *string
 	Http() DataAwsccIotTopicRuleTopicRulePayloadErrorActionHttpOutputReference
+	InfluxDb() DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference
 	InternalValue() *DataAwsccIotTopicRuleTopicRulePayloadErrorAction
 	SetInternalValue(val *DataAwsccIotTopicRuleTopicRulePayloadErrorAction)
 	IotAnalytics() DataAwsccIotTopicRuleTopicRulePayloadErrorActionIotAnalyticsOutputReference
@@ -216,6 +217,16 @@ func (j *jsiiProxy_DataAwsccIotTopicRuleTopicRulePayloadErrorActionOutputReferen
 	_jsii_.Get(
 		j,
 		"http",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccIotTopicRuleTopicRulePayloadErrorActionOutputReference) InfluxDb() DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference {
+	var returns DataAwsccIotTopicRuleTopicRulePayloadErrorActionInfluxDbOutputReference
+	_jsii_.Get(
+		j,
+		"influxDb",
 		&returns,
 	)
 	return returns

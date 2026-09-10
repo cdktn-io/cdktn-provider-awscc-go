@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appstream_app_block_builder awscc_appstream_app_block_builder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/appstream_app_block_builder awscc_appstream_app_block_builder}.
 type DataAwsccAppstreamAppBlockBuilder interface {
 	cdktn.TerraformDataSource
 	AccessEndpoints() DataAwsccAppstreamAppBlockBuilderAccessEndpointsList
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccAppstreamAppBlockBuilder) VpcConfig() DataAwsccAppst
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appstream_app_block_builder awscc_appstream_app_block_builder} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/appstream_app_block_builder awscc_appstream_app_block_builder} Data Source.
 func NewDataAwsccAppstreamAppBlockBuilder(scope constructs.Construct, id *string, config *DataAwsccAppstreamAppBlockBuilderConfig) DataAwsccAppstreamAppBlockBuilder {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccAppstreamAppBlockBuilder(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/appstream_app_block_builder awscc_appstream_app_block_builder} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/appstream_app_block_builder awscc_appstream_app_block_builder} Data Source.
 func NewDataAwsccAppstreamAppBlockBuilder_Override(d DataAwsccAppstreamAppBlockBuilder, scope constructs.Construct, id *string, config *DataAwsccAppstreamAppBlockBuilderConfig) {
 	_init_.Initialize()
 

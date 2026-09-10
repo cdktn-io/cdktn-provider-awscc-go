@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ssm_patch_baselines awscc_ssm_patch_baselines}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ssm_patch_baselines awscc_ssm_patch_baselines}.
 type DataAwsccSsmPatchBaselines interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSsmPatchBaselines) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ssm_patch_baselines awscc_ssm_patch_baselines} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ssm_patch_baselines awscc_ssm_patch_baselines} Data Source.
 func NewDataAwsccSsmPatchBaselines(scope constructs.Construct, id *string, config *DataAwsccSsmPatchBaselinesConfig) DataAwsccSsmPatchBaselines {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSsmPatchBaselines(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ssm_patch_baselines awscc_ssm_patch_baselines} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ssm_patch_baselines awscc_ssm_patch_baselines} Data Source.
 func NewDataAwsccSsmPatchBaselines_Override(d DataAwsccSsmPatchBaselines, scope constructs.Construct, id *string, config *DataAwsccSsmPatchBaselinesConfig) {
 	_init_.Initialize()
 

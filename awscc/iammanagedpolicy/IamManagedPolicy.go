@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iam_managed_policy awscc_iam_managed_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iam_managed_policy awscc_iam_managed_policy}.
 type IamManagedPolicy interface {
 	cdktn.TerraformResource
 	AttachmentCount() *float64
@@ -610,7 +610,7 @@ func (j *jsiiProxy_IamManagedPolicy) UsersInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iam_managed_policy awscc_iam_managed_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iam_managed_policy awscc_iam_managed_policy} Resource.
 func NewIamManagedPolicy(scope constructs.Construct, id *string, config *IamManagedPolicyConfig) IamManagedPolicy {
 	_init_.Initialize()
 
@@ -628,7 +628,7 @@ func NewIamManagedPolicy(scope constructs.Construct, id *string, config *IamMana
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iam_managed_policy awscc_iam_managed_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iam_managed_policy awscc_iam_managed_policy} Resource.
 func NewIamManagedPolicy_Override(i IamManagedPolicy, scope constructs.Construct, id *string, config *IamManagedPolicyConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_router_output awscc_mediaconnect_router_output}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediaconnect_router_output awscc_mediaconnect_router_output}.
 type MediaconnectRouterOutput interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -38,6 +38,8 @@ type MediaconnectRouterOutput interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	FabricConfiguration() MediaconnectRouterOutputFabricConfigurationOutputReference
+	FabricConfigurationInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -175,6 +177,7 @@ type MediaconnectRouterOutput interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutConfiguration(value *MediaconnectRouterOutputConfiguration)
+	PutFabricConfiguration(value *MediaconnectRouterOutputFabricConfiguration)
 	PutMaintenanceConfiguration(value *MediaconnectRouterOutputMaintenanceConfiguration)
 	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
@@ -191,6 +194,7 @@ type MediaconnectRouterOutput interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAvailabilityZone()
+	ResetFabricConfiguration()
 	ResetMaintenanceConfiguration()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -329,6 +333,26 @@ func (j *jsiiProxy_MediaconnectRouterOutput) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediaconnectRouterOutput) FabricConfiguration() MediaconnectRouterOutputFabricConfigurationOutputReference {
+	var returns MediaconnectRouterOutputFabricConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"fabricConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediaconnectRouterOutput) FabricConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"fabricConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -665,7 +689,7 @@ func (j *jsiiProxy_MediaconnectRouterOutput) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_router_output awscc_mediaconnect_router_output} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediaconnect_router_output awscc_mediaconnect_router_output} Resource.
 func NewMediaconnectRouterOutput(scope constructs.Construct, id *string, config *MediaconnectRouterOutputConfig) MediaconnectRouterOutput {
 	_init_.Initialize()
 
@@ -683,7 +707,7 @@ func NewMediaconnectRouterOutput(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/mediaconnect_router_output awscc_mediaconnect_router_output} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediaconnect_router_output awscc_mediaconnect_router_output} Resource.
 func NewMediaconnectRouterOutput_Override(m MediaconnectRouterOutput, scope constructs.Construct, id *string, config *MediaconnectRouterOutputConfig) {
 	_init_.Initialize()
 
@@ -1208,6 +1232,17 @@ func (m *jsiiProxy_MediaconnectRouterOutput) PutConfiguration(value *Mediaconnec
 	)
 }
 
+func (m *jsiiProxy_MediaconnectRouterOutput) PutFabricConfiguration(value *MediaconnectRouterOutputFabricConfiguration) {
+	if err := m.validatePutFabricConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putFabricConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_MediaconnectRouterOutput) PutMaintenanceConfiguration(value *MediaconnectRouterOutputMaintenanceConfiguration) {
 	if err := m.validatePutMaintenanceConfigurationParameters(value); err != nil {
 		panic(err)
@@ -1245,6 +1280,14 @@ func (m *jsiiProxy_MediaconnectRouterOutput) ResetAvailabilityZone() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetAvailabilityZone",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MediaconnectRouterOutput) ResetFabricConfiguration() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetFabricConfiguration",
 		nil, // no parameters
 	)
 }

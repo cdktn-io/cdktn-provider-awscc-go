@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/evidently_project awscc_evidently_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/evidently_project awscc_evidently_project}.
 type DataAwsccEvidentlyProject interface {
 	cdktn.TerraformDataSource
 	AppConfigResource() DataAwsccEvidentlyProjectAppConfigResourceOutputReference
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccEvidentlyProject) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/evidently_project awscc_evidently_project} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/evidently_project awscc_evidently_project} Data Source.
 func NewDataAwsccEvidentlyProject(scope constructs.Construct, id *string, config *DataAwsccEvidentlyProjectConfig) DataAwsccEvidentlyProject {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccEvidentlyProject(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/evidently_project awscc_evidently_project} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/evidently_project awscc_evidently_project} Data Source.
 func NewDataAwsccEvidentlyProject_Override(d DataAwsccEvidentlyProject, scope constructs.Construct, id *string, config *DataAwsccEvidentlyProjectConfig) {
 	_init_.Initialize()
 

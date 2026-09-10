@@ -13,6 +13,7 @@ import (
 
 type DataAwsccSagemakerClusterOrchestratorSlurmOutputReference interface {
 	cdktn.ComplexObject
+	AccountingDatabase() DataAwsccSagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -78,6 +79,16 @@ type DataAwsccSagemakerClusterOrchestratorSlurmOutputReference interface {
 // The jsii proxy struct for DataAwsccSagemakerClusterOrchestratorSlurmOutputReference
 type jsiiProxy_DataAwsccSagemakerClusterOrchestratorSlurmOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerClusterOrchestratorSlurmOutputReference) AccountingDatabase() DataAwsccSagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference {
+	var returns DataAwsccSagemakerClusterOrchestratorSlurmAccountingDatabaseOutputReference
+	_jsii_.Get(
+		j,
+		"accountingDatabase",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAwsccSagemakerClusterOrchestratorSlurmOutputReference) ComplexObjectIndex() interface{} {

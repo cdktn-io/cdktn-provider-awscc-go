@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_route awscc_ec2_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_route awscc_ec2_route}.
 type Ec2Route interface {
 	cdktn.TerraformResource
 	CarrierGatewayId() *string
@@ -749,7 +749,7 @@ func (j *jsiiProxy_Ec2Route) VpcPeeringConnectionIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_route awscc_ec2_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_route awscc_ec2_route} Resource.
 func NewEc2Route(scope constructs.Construct, id *string, config *Ec2RouteConfig) Ec2Route {
 	_init_.Initialize()
 
@@ -767,7 +767,7 @@ func NewEc2Route(scope constructs.Construct, id *string, config *Ec2RouteConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/ec2_route awscc_ec2_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_route awscc_ec2_route} Resource.
 func NewEc2Route_Override(e Ec2Route, scope constructs.Construct, id *string, config *Ec2RouteConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53globalresolver_dns_view awscc_route53globalresolver_dns_view}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/route53globalresolver_dns_view awscc_route53globalresolver_dns_view}.
 type DataAwsccRoute53GlobalresolverDnsView interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccRoute53GlobalresolverDnsView) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53globalresolver_dns_view awscc_route53globalresolver_dns_view} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/route53globalresolver_dns_view awscc_route53globalresolver_dns_view} Data Source.
 func NewDataAwsccRoute53GlobalresolverDnsView(scope constructs.Construct, id *string, config *DataAwsccRoute53GlobalresolverDnsViewConfig) DataAwsccRoute53GlobalresolverDnsView {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccRoute53GlobalresolverDnsView(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/route53globalresolver_dns_view awscc_route53globalresolver_dns_view} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/route53globalresolver_dns_view awscc_route53globalresolver_dns_view} Data Source.
 func NewDataAwsccRoute53GlobalresolverDnsView_Override(d DataAwsccRoute53GlobalresolverDnsView, scope constructs.Construct, id *string, config *DataAwsccRoute53GlobalresolverDnsViewConfig) {
 	_init_.Initialize()
 

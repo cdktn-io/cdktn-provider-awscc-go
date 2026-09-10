@@ -7,7 +7,7 @@ package quicksighttheme
 type QuicksightThemeConfigurationSheetTileBorder struct {
 	// <p>The option to enable display of borders for visuals.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
 	Show interface{} `field:"optional" json:"show" yaml:"show"`
 }
 

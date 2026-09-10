@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/detective_member_invitation awscc_detective_member_invitation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/detective_member_invitation awscc_detective_member_invitation}.
 type DetectiveMemberInvitation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_DetectiveMemberInvitation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/detective_member_invitation awscc_detective_member_invitation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/detective_member_invitation awscc_detective_member_invitation} Resource.
 func NewDetectiveMemberInvitation(scope constructs.Construct, id *string, config *DetectiveMemberInvitationConfig) DetectiveMemberInvitation {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewDetectiveMemberInvitation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/detective_member_invitation awscc_detective_member_invitation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/detective_member_invitation awscc_detective_member_invitation} Resource.
 func NewDetectiveMemberInvitation_Override(d DetectiveMemberInvitation, scope constructs.Construct, id *string, config *DetectiveMemberInvitationConfig) {
 	_init_.Initialize()
 

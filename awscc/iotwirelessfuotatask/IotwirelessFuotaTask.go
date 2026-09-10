@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotwireless_fuota_task awscc_iotwireless_fuota_task}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotwireless_fuota_task awscc_iotwireless_fuota_task}.
 type IotwirelessFuotaTask interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -625,7 +625,7 @@ func (j *jsiiProxy_IotwirelessFuotaTask) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotwireless_fuota_task awscc_iotwireless_fuota_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotwireless_fuota_task awscc_iotwireless_fuota_task} Resource.
 func NewIotwirelessFuotaTask(scope constructs.Construct, id *string, config *IotwirelessFuotaTaskConfig) IotwirelessFuotaTask {
 	_init_.Initialize()
 
@@ -643,7 +643,7 @@ func NewIotwirelessFuotaTask(scope constructs.Construct, id *string, config *Iot
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/iotwireless_fuota_task awscc_iotwireless_fuota_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotwireless_fuota_task awscc_iotwireless_fuota_task} Resource.
 func NewIotwirelessFuotaTask_Override(i IotwirelessFuotaTask, scope constructs.Construct, id *string, config *IotwirelessFuotaTaskConfig) {
 	_init_.Initialize()
 

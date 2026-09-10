@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_subnets awscc_ec2_subnets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_subnets awscc_ec2_subnets}.
 type DataAwsccEc2Subnets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2Subnets) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_subnets awscc_ec2_subnets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_subnets awscc_ec2_subnets} Data Source.
 func NewDataAwsccEc2Subnets(scope constructs.Construct, id *string, config *DataAwsccEc2SubnetsConfig) DataAwsccEc2Subnets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2Subnets(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/data-sources/ec2_subnets awscc_ec2_subnets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_subnets awscc_ec2_subnets} Data Source.
 func NewDataAwsccEc2Subnets_Override(d DataAwsccEc2Subnets, scope constructs.Construct, id *string, config *DataAwsccEc2SubnetsConfig) {
 	_init_.Initialize()
 

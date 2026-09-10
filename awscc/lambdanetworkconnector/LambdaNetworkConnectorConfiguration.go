@@ -9,7 +9,7 @@ type LambdaNetworkConnectorConfiguration struct {
 	//
 	// Specifies the subnets, security groups, and network protocol for routing outbound traffic through your VPC.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.100.0/docs/resources/lambda_network_connector#vpc_egress_configuration LambdaNetworkConnector#vpc_egress_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lambda_network_connector#vpc_egress_configuration LambdaNetworkConnector#vpc_egress_configuration}
 	VpcEgressConfiguration *LambdaNetworkConnectorConfigurationVpcEgressConfiguration `field:"required" json:"vpcEgressConfiguration" yaml:"vpcEgressConfiguration"`
 }
 
