@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkmanager_site_to_site_vpn_attachment awscc_networkmanager_site_to_site_vpn_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/networkmanager_site_to_site_vpn_attachment awscc_networkmanager_site_to_site_vpn_attachment}.
 type NetworkmanagerSiteToSiteVpnAttachment interface {
 	cdktn.TerraformResource
 	AttachmentId() *string
@@ -61,9 +61,7 @@ type NetworkmanagerSiteToSiteVpnAttachment interface {
 	Node() constructs.Node
 	OwnerAccountId() *string
 	ProposedNetworkFunctionGroupChange() NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeOutputReference
-	ProposedNetworkFunctionGroupChangeInput() interface{}
 	ProposedSegmentChange() NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference
-	ProposedSegmentChangeInput() interface{}
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -171,8 +169,6 @@ type NetworkmanagerSiteToSiteVpnAttachment interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
-	PutProposedNetworkFunctionGroupChange(value *NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChange)
-	PutProposedSegmentChange(value *NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChange)
 	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -191,8 +187,6 @@ type NetworkmanagerSiteToSiteVpnAttachment interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
-	ResetProposedNetworkFunctionGroupChange()
-	ResetProposedSegmentChange()
 	ResetRoutingPolicyLabel()
 	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
@@ -462,31 +456,11 @@ func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) ProposedNetworkFunctio
 	return returns
 }
 
-func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) ProposedNetworkFunctionGroupChangeInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"proposedNetworkFunctionGroupChangeInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) ProposedSegmentChange() NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference {
 	var returns NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference
 	_jsii_.Get(
 		j,
 		"proposedSegmentChange",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) ProposedSegmentChangeInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"proposedSegmentChangeInput",
 		&returns,
 	)
 	return returns
@@ -653,7 +627,7 @@ func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) VpnConnectionArnInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkmanager_site_to_site_vpn_attachment awscc_networkmanager_site_to_site_vpn_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/networkmanager_site_to_site_vpn_attachment awscc_networkmanager_site_to_site_vpn_attachment} Resource.
 func NewNetworkmanagerSiteToSiteVpnAttachment(scope constructs.Construct, id *string, config *NetworkmanagerSiteToSiteVpnAttachmentConfig) NetworkmanagerSiteToSiteVpnAttachment {
 	_init_.Initialize()
 
@@ -671,7 +645,7 @@ func NewNetworkmanagerSiteToSiteVpnAttachment(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkmanager_site_to_site_vpn_attachment awscc_networkmanager_site_to_site_vpn_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/networkmanager_site_to_site_vpn_attachment awscc_networkmanager_site_to_site_vpn_attachment} Resource.
 func NewNetworkmanagerSiteToSiteVpnAttachment_Override(n NetworkmanagerSiteToSiteVpnAttachment, scope constructs.Construct, id *string, config *NetworkmanagerSiteToSiteVpnAttachmentConfig) {
 	_init_.Initialize()
 
@@ -1163,28 +1137,6 @@ func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) OverrideLogicalId(newL
 	)
 }
 
-func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) PutProposedNetworkFunctionGroupChange(value *NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChange) {
-	if err := n.validatePutProposedNetworkFunctionGroupChangeParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		n,
-		"putProposedNetworkFunctionGroupChange",
-		[]interface{}{value},
-	)
-}
-
-func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) PutProposedSegmentChange(value *NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChange) {
-	if err := n.validatePutProposedSegmentChangeParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		n,
-		"putProposedSegmentChange",
-		[]interface{}{value},
-	)
-}
-
 func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) PutTags(value interface{}) {
 	if err := n.validatePutTagsParameters(value); err != nil {
 		panic(err)
@@ -1219,22 +1171,6 @@ func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) ResetOverrideLogicalId
 	_jsii_.InvokeVoid(
 		n,
 		"resetOverrideLogicalId",
-		nil, // no parameters
-	)
-}
-
-func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) ResetProposedNetworkFunctionGroupChange() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetProposedNetworkFunctionGroupChange",
-		nil, // no parameters
-	)
-}
-
-func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) ResetProposedSegmentChange() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetProposedSegmentChange",
 		nil, // no parameters
 	)
 }

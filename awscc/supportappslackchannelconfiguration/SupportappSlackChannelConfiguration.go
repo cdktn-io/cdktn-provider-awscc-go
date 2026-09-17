@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/supportapp_slack_channel_configuration awscc_supportapp_slack_channel_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/supportapp_slack_channel_configuration awscc_supportapp_slack_channel_configuration}.
 type SupportappSlackChannelConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -543,7 +543,7 @@ func (j *jsiiProxy_SupportappSlackChannelConfiguration) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/supportapp_slack_channel_configuration awscc_supportapp_slack_channel_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/supportapp_slack_channel_configuration awscc_supportapp_slack_channel_configuration} Resource.
 func NewSupportappSlackChannelConfiguration(scope constructs.Construct, id *string, config *SupportappSlackChannelConfigurationConfig) SupportappSlackChannelConfiguration {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewSupportappSlackChannelConfiguration(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/supportapp_slack_channel_configuration awscc_supportapp_slack_channel_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/supportapp_slack_channel_configuration awscc_supportapp_slack_channel_configuration} Resource.
 func NewSupportappSlackChannelConfiguration_Override(s SupportappSlackChannelConfiguration, scope constructs.Construct, id *string, config *SupportappSlackChannelConfigurationConfig) {
 	_init_.Initialize()
 

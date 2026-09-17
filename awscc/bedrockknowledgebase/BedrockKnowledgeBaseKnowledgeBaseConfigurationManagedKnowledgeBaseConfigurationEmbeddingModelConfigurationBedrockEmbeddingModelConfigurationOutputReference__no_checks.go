@@ -79,6 +79,10 @@ func (j *jsiiProxy_BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledg
 	return nil
 }
 
+func (j *jsiiProxy_BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationOutputReference) validateSetModelConfigurationParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

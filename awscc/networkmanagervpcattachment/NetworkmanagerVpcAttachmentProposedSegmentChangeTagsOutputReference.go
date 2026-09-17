@@ -30,11 +30,9 @@ type NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference interfa
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
-	InternalValue() interface{}
-	SetInternalValue(val interface{})
+	InternalValue() *NetworkmanagerVpcAttachmentProposedSegmentChangeTags
+	SetInternalValue(val *NetworkmanagerVpcAttachmentProposedSegmentChangeTags)
 	Key() *string
-	SetKey(val *string)
-	KeyInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -44,8 +42,6 @@ type NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference interfa
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Value() *string
-	SetValue(val *string)
-	ValueInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -70,8 +66,6 @@ type NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference interfa
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	ResetKey()
-	ResetValue()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -127,8 +121,8 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputRef
 	return returns
 }
 
-func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference) InternalValue() interface{} {
-	var returns interface{}
+func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference) InternalValue() *NetworkmanagerVpcAttachmentProposedSegmentChangeTags {
+	var returns *NetworkmanagerVpcAttachmentProposedSegmentChangeTags
 	_jsii_.Get(
 		j,
 		"internalValue",
@@ -142,16 +136,6 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputRef
 	_jsii_.Get(
 		j,
 		"key",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference) KeyInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"keyInput",
 		&returns,
 	)
 	return returns
@@ -182,16 +166,6 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputRef
 	_jsii_.Get(
 		j,
 		"value",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference) ValueInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"valueInput",
 		&returns,
 	)
 	return returns
@@ -247,24 +221,13 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputRef
 	)
 }
 
-func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference)SetInternalValue(val interface{}) {
+func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference)SetInternalValue(val *NetworkmanagerVpcAttachmentProposedSegmentChangeTags) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
 	}
 	_jsii_.Set(
 		j,
 		"internalValue",
-		val,
-	)
-}
-
-func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference)SetKey(val *string) {
-	if err := j.validateSetKeyParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"key",
 		val,
 	)
 }
@@ -287,17 +250,6 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputRef
 	_jsii_.Set(
 		j,
 		"terraformResource",
-		val,
-	)
-}
-
-func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference)SetValue(val *string) {
-	if err := j.validateSetValueParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"value",
 		val,
 	)
 }
@@ -486,22 +438,6 @@ func (n *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputRef
 	)
 
 	return returns
-}
-
-func (n *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference) ResetKey() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetKey",
-		nil, // no parameters
-	)
-}
-
-func (n *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference) ResetValue() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetValue",
-		nil, // no parameters
-	)
 }
 
 func (n *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

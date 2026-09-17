@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/synthetics_groups awscc_synthetics_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/synthetics_groups awscc_synthetics_groups}.
 type DataAwsccSyntheticsGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSyntheticsGroups) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/synthetics_groups awscc_synthetics_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/synthetics_groups awscc_synthetics_groups} Data Source.
 func NewDataAwsccSyntheticsGroups(scope constructs.Construct, id *string, config *DataAwsccSyntheticsGroupsConfig) DataAwsccSyntheticsGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSyntheticsGroups(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/synthetics_groups awscc_synthetics_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/synthetics_groups awscc_synthetics_groups} Data Source.
 func NewDataAwsccSyntheticsGroups_Override(d DataAwsccSyntheticsGroups, scope constructs.Construct, id *string, config *DataAwsccSyntheticsGroupsConfig) {
 	_init_.Initialize()
 

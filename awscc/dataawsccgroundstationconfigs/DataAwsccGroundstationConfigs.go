@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/groundstation_configs awscc_groundstation_configs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/groundstation_configs awscc_groundstation_configs}.
 type DataAwsccGroundstationConfigs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGroundstationConfigs) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/groundstation_configs awscc_groundstation_configs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/groundstation_configs awscc_groundstation_configs} Data Source.
 func NewDataAwsccGroundstationConfigs(scope constructs.Construct, id *string, config *DataAwsccGroundstationConfigsConfig) DataAwsccGroundstationConfigs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGroundstationConfigs(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/groundstation_configs awscc_groundstation_configs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/groundstation_configs awscc_groundstation_configs} Data Source.
 func NewDataAwsccGroundstationConfigs_Override(d DataAwsccGroundstationConfigs, scope constructs.Construct, id *string, config *DataAwsccGroundstationConfigsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/fms_notification_channel awscc_fms_notification_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fms_notification_channel awscc_fms_notification_channel}.
 type DataAwsccFmsNotificationChannel interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccFmsNotificationChannel) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/fms_notification_channel awscc_fms_notification_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fms_notification_channel awscc_fms_notification_channel} Data Source.
 func NewDataAwsccFmsNotificationChannel(scope constructs.Construct, id *string, config *DataAwsccFmsNotificationChannelConfig) DataAwsccFmsNotificationChannel {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccFmsNotificationChannel(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/fms_notification_channel awscc_fms_notification_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fms_notification_channel awscc_fms_notification_channel} Data Source.
 func NewDataAwsccFmsNotificationChannel_Override(d DataAwsccFmsNotificationChannel, scope constructs.Construct, id *string, config *DataAwsccFmsNotificationChannelConfig) {
 	_init_.Initialize()
 

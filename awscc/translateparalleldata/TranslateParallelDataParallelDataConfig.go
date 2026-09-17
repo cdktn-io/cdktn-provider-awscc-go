@@ -7,11 +7,11 @@ package translateparalleldata
 type TranslateParallelDataParallelDataConfig struct {
 	// The format of the parallel data input file.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/translate_parallel_data#format TranslateParallelData#format}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/translate_parallel_data#format TranslateParallelData#format}
 	Format *string `field:"required" json:"format" yaml:"format"`
 	// The URI of the Amazon S3 folder that contains the parallel data input file.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/translate_parallel_data#s3_uri TranslateParallelData#s3_uri}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/translate_parallel_data#s3_uri TranslateParallelData#s3_uri}
 	S3Uri *string `field:"required" json:"s3Uri" yaml:"s3Uri"`
 }
 

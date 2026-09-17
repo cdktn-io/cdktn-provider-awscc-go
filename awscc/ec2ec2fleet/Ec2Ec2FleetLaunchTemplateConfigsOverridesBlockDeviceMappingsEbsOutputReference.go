@@ -44,6 +44,8 @@ type Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsOutputRefere
 	KmsKeyId() *string
 	SetKmsKeyId(val *string)
 	KmsKeyIdInput() *string
+	MultiAvailabilityZoneConfiguration() Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationOutputReference
+	MultiAvailabilityZoneConfigurationInput() interface{}
 	SnapshotId() *string
 	SetSnapshotId(val *string)
 	SnapshotIdInput() *string
@@ -85,10 +87,12 @@ type Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsOutputRefere
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutMultiAvailabilityZoneConfiguration(value *Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfiguration)
 	ResetDeleteOnTermination()
 	ResetEncrypted()
 	ResetIops()
 	ResetKmsKeyId()
+	ResetMultiAvailabilityZoneConfiguration()
 	ResetSnapshotId()
 	ResetVolumeSize()
 	ResetVolumeType()
@@ -232,6 +236,26 @@ func (j *jsiiProxy_Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsE
 	_jsii_.Get(
 		j,
 		"kmsKeyIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsOutputReference) MultiAvailabilityZoneConfiguration() Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationOutputReference {
+	var returns Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"multiAvailabilityZoneConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsOutputReference) MultiAvailabilityZoneConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"multiAvailabilityZoneConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -663,6 +687,17 @@ func (e *jsiiProxy_Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsE
 	return returns
 }
 
+func (e *jsiiProxy_Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsOutputReference) PutMultiAvailabilityZoneConfiguration(value *Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfiguration) {
+	if err := e.validatePutMultiAvailabilityZoneConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putMultiAvailabilityZoneConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (e *jsiiProxy_Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsOutputReference) ResetDeleteOnTermination() {
 	_jsii_.InvokeVoid(
 		e,
@@ -691,6 +726,14 @@ func (e *jsiiProxy_Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsE
 	_jsii_.InvokeVoid(
 		e,
 		"resetKmsKeyId",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsOutputReference) ResetMultiAvailabilityZoneConfiguration() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetMultiAvailabilityZoneConfiguration",
 		nil, // no parameters
 	)
 }

@@ -5,7 +5,7 @@ package fsxdatarepositoryassociation
 
 
 type FsxDataRepositoryAssociationS3AutoExportPolicy struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fsx_data_repository_association#events FsxDataRepositoryAssociation#events}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_data_repository_association#events FsxDataRepositoryAssociation#events}.
 	Events *[]*string `field:"optional" json:"events" yaml:"events"`
 }
 

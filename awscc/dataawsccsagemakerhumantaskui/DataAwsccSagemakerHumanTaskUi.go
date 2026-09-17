@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/sagemaker_human_task_ui awscc_sagemaker_human_task_ui}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sagemaker_human_task_ui awscc_sagemaker_human_task_ui}.
 type DataAwsccSagemakerHumanTaskUi interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccSagemakerHumanTaskUi) UiTemplate() DataAwsccSagemake
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/sagemaker_human_task_ui awscc_sagemaker_human_task_ui} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sagemaker_human_task_ui awscc_sagemaker_human_task_ui} Data Source.
 func NewDataAwsccSagemakerHumanTaskUi(scope constructs.Construct, id *string, config *DataAwsccSagemakerHumanTaskUiConfig) DataAwsccSagemakerHumanTaskUi {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccSagemakerHumanTaskUi(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/sagemaker_human_task_ui awscc_sagemaker_human_task_ui} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sagemaker_human_task_ui awscc_sagemaker_human_task_ui} Data Source.
 func NewDataAwsccSagemakerHumanTaskUi_Override(d DataAwsccSagemakerHumanTaskUi, scope constructs.Construct, id *string, config *DataAwsccSagemakerHumanTaskUiConfig) {
 	_init_.Initialize()
 

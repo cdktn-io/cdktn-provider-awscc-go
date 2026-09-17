@@ -24,15 +24,15 @@ type PanoramaPackageConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A name for the package.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/panorama_package#package_name PanoramaPackage#package_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/panorama_package#package_name PanoramaPackage#package_name}
 	PackageName *string `field:"required" json:"packageName" yaml:"packageName"`
 	// A storage location.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/panorama_package#storage_location PanoramaPackage#storage_location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/panorama_package#storage_location PanoramaPackage#storage_location}
 	StorageLocation *PanoramaPackageStorageLocation `field:"optional" json:"storageLocation" yaml:"storageLocation"`
 	// Tags for the package.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/panorama_package#tags PanoramaPackage#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/panorama_package#tags PanoramaPackage#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

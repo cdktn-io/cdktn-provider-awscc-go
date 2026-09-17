@@ -5,9 +5,9 @@ package iotanalyticsdatastore
 
 
 type IotanalyticsDatastoreRetentionPeriod struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotanalytics_datastore#number_of_days IotanalyticsDatastore#number_of_days}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotanalytics_datastore#number_of_days IotanalyticsDatastore#number_of_days}.
 	NumberOfDays *float64 `field:"optional" json:"numberOfDays" yaml:"numberOfDays"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotanalytics_datastore#unlimited IotanalyticsDatastore#unlimited}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotanalytics_datastore#unlimited IotanalyticsDatastore#unlimited}.
 	Unlimited interface{} `field:"optional" json:"unlimited" yaml:"unlimited"`
 }
 

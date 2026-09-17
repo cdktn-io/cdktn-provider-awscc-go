@@ -79,14 +79,6 @@ func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) validateOve
 	return nil
 }
 
-func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) validatePutProposedNetworkFunctionGroupChangeParameters(value *NetworkmanagerTransitGatewayRouteTableAttachmentProposedNetworkFunctionGroupChange) error {
-	return nil
-}
-
-func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) validatePutProposedSegmentChangeParameters(value *NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChange) error {
-	return nil
-}
-
 func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) validatePutTagsParameters(value interface{}) error {
 	return nil
 }

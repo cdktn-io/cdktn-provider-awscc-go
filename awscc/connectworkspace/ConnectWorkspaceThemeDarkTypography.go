@@ -5,7 +5,7 @@ package connectworkspace
 
 
 type ConnectWorkspaceThemeDarkTypography struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_workspace#font_family ConnectWorkspace#font_family}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_workspace#font_family ConnectWorkspace#font_family}.
 	FontFamily *ConnectWorkspaceThemeDarkTypographyFontFamily `field:"optional" json:"fontFamily" yaml:"fontFamily"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/apigatewayv2_routing_rule awscc_apigatewayv2_routing_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/apigatewayv2_routing_rule awscc_apigatewayv2_routing_rule}.
 type DataAwsccApigatewayv2RoutingRule interface {
 	cdktn.TerraformDataSource
 	Actions() DataAwsccApigatewayv2RoutingRuleActionsList
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccApigatewayv2RoutingRule) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/apigatewayv2_routing_rule awscc_apigatewayv2_routing_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/apigatewayv2_routing_rule awscc_apigatewayv2_routing_rule} Data Source.
 func NewDataAwsccApigatewayv2RoutingRule(scope constructs.Construct, id *string, config *DataAwsccApigatewayv2RoutingRuleConfig) DataAwsccApigatewayv2RoutingRule {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccApigatewayv2RoutingRule(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/apigatewayv2_routing_rule awscc_apigatewayv2_routing_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/apigatewayv2_routing_rule awscc_apigatewayv2_routing_rule} Data Source.
 func NewDataAwsccApigatewayv2RoutingRule_Override(d DataAwsccApigatewayv2RoutingRule, scope constructs.Construct, id *string, config *DataAwsccApigatewayv2RoutingRuleConfig) {
 	_init_.Initialize()
 

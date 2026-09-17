@@ -7,23 +7,23 @@ package devopsagentassociation
 type DevopsagentAssociationConfigurationSourceAws struct {
 	// AWS Account Id corresponding to provided resources.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
 	AccountId *string `field:"optional" json:"accountId" yaml:"accountId"`
 	// Account Type 'source' for DevOpsAgent monitoring.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
 	AccountType *string `field:"optional" json:"accountType" yaml:"accountType"`
 	// Role ARN to be assumed by DevOpsAgent to operate on behalf of customer.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
 	AssumableRoleArn *string `field:"optional" json:"assumableRoleArn" yaml:"assumableRoleArn"`
 	// List of AWS resources.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
 	Resources interface{} `field:"optional" json:"resources" yaml:"resources"`
 	// List of AWS tags as key-value pairs.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

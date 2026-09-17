@@ -9,13 +9,13 @@ type SagemakerProcessingJobNetworkConfigVpcConfig struct {
 	//
 	// Specify the security groups for the VPC that is specified in the 'Subnets' field.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_processing_job#security_group_ids SagemakerProcessingJob#security_group_ids}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_processing_job#security_group_ids SagemakerProcessingJob#security_group_ids}
 	SecurityGroupIds *[]*string `field:"optional" json:"securityGroupIds" yaml:"securityGroupIds"`
 	// The ID of the subnets in the VPC to which you want to connect your training job or model.
 	//
 	// For information about the availability of specific instance types, see https://docs.aws.amazon.com/sagemaker/latest/dg/regions-quotas.html
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_processing_job#subnets SagemakerProcessingJob#subnets}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_processing_job#subnets SagemakerProcessingJob#subnets}
 	Subnets *[]*string `field:"optional" json:"subnets" yaml:"subnets"`
 }
 

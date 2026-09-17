@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment}.
 type DataAwsccNetworkmanagerDirectConnectGatewayAttachment interface {
 	cdktn.TerraformDataSource
 	AttachmentId() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_DataAwsccNetworkmanagerDirectConnectGatewayAttachment) Update
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment} Data Source.
 func NewDataAwsccNetworkmanagerDirectConnectGatewayAttachment(scope constructs.Construct, id *string, config *DataAwsccNetworkmanagerDirectConnectGatewayAttachmentConfig) DataAwsccNetworkmanagerDirectConnectGatewayAttachment {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewDataAwsccNetworkmanagerDirectConnectGatewayAttachment(scope constructs.C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment} Data Source.
 func NewDataAwsccNetworkmanagerDirectConnectGatewayAttachment_Override(d DataAwsccNetworkmanagerDirectConnectGatewayAttachment, scope constructs.Construct, id *string, config *DataAwsccNetworkmanagerDirectConnectGatewayAttachmentConfig) {
 	_init_.Initialize()
 

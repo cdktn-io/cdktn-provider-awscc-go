@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/workspaces_workspaces_pool awscc_workspaces_workspaces_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/workspaces_workspaces_pool awscc_workspaces_workspaces_pool}.
 type WorkspacesWorkspacesPool interface {
 	cdktn.TerraformResource
 	ApplicationSettings() WorkspacesWorkspacesPoolApplicationSettingsOutputReference
@@ -600,7 +600,7 @@ func (j *jsiiProxy_WorkspacesWorkspacesPool) TimeoutSettingsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/workspaces_workspaces_pool awscc_workspaces_workspaces_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/workspaces_workspaces_pool awscc_workspaces_workspaces_pool} Resource.
 func NewWorkspacesWorkspacesPool(scope constructs.Construct, id *string, config *WorkspacesWorkspacesPoolConfig) WorkspacesWorkspacesPool {
 	_init_.Initialize()
 
@@ -618,7 +618,7 @@ func NewWorkspacesWorkspacesPool(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/workspaces_workspaces_pool awscc_workspaces_workspaces_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/workspaces_workspaces_pool awscc_workspaces_workspaces_pool} Resource.
 func NewWorkspacesWorkspacesPool_Override(w WorkspacesWorkspacesPool, scope constructs.Construct, id *string, config *WorkspacesWorkspacesPoolConfig) {
 	_init_.Initialize()
 

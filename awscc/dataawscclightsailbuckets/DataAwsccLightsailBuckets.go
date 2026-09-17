@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/lightsail_buckets awscc_lightsail_buckets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/lightsail_buckets awscc_lightsail_buckets}.
 type DataAwsccLightsailBuckets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLightsailBuckets) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/lightsail_buckets awscc_lightsail_buckets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/lightsail_buckets awscc_lightsail_buckets} Data Source.
 func NewDataAwsccLightsailBuckets(scope constructs.Construct, id *string, config *DataAwsccLightsailBucketsConfig) DataAwsccLightsailBuckets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLightsailBuckets(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/lightsail_buckets awscc_lightsail_buckets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/lightsail_buckets awscc_lightsail_buckets} Data Source.
 func NewDataAwsccLightsailBuckets_Override(d DataAwsccLightsailBuckets, scope constructs.Construct, id *string, config *DataAwsccLightsailBucketsConfig) {
 	_init_.Initialize()
 

@@ -47,6 +47,10 @@ func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitio
 	return nil
 }
 
+func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionOutputReference) validatePutCidrResourceParameters(value *VpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResource) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionOutputReference) validatePutDnsResourceParameters(value *VpclatticeResourceConfigurationResourceConfigurationDefinitionDnsResource) error {
 	return nil
 }

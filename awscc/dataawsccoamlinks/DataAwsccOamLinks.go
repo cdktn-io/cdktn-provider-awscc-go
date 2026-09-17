@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/oam_links awscc_oam_links}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/oam_links awscc_oam_links}.
 type DataAwsccOamLinks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccOamLinks) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/oam_links awscc_oam_links} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/oam_links awscc_oam_links} Data Source.
 func NewDataAwsccOamLinks(scope constructs.Construct, id *string, config *DataAwsccOamLinksConfig) DataAwsccOamLinks {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccOamLinks(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/oam_links awscc_oam_links} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/oam_links awscc_oam_links} Data Source.
 func NewDataAwsccOamLinks_Override(d DataAwsccOamLinks, scope constructs.Construct, id *string, config *DataAwsccOamLinksConfig) {
 	_init_.Initialize()
 

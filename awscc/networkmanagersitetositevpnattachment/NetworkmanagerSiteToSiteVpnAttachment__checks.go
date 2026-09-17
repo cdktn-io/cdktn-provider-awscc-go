@@ -215,28 +215,6 @@ func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validateOverrideLogica
 	return nil
 }
 
-func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validatePutProposedNetworkFunctionGroupChangeParameters(value *NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChange) error {
-	if value == nil {
-		return fmt.Errorf("parameter value is required, but nil was provided")
-	}
-	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
-		return err
-	}
-
-	return nil
-}
-
-func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validatePutProposedSegmentChangeParameters(value *NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChange) error {
-	if value == nil {
-		return fmt.Errorf("parameter value is required, but nil was provided")
-	}
-	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
-		return err
-	}
-
-	return nil
-}
-
 func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validatePutTagsParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

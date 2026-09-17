@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/observabilityadmin_telemetry_enrichment awscc_observabilityadmin_telemetry_enrichment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/observabilityadmin_telemetry_enrichment awscc_observabilityadmin_telemetry_enrichment}.
 type DataAwsccObservabilityadminTelemetryEnrichment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccObservabilityadminTelemetryEnrichment) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/observabilityadmin_telemetry_enrichment awscc_observabilityadmin_telemetry_enrichment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/observabilityadmin_telemetry_enrichment awscc_observabilityadmin_telemetry_enrichment} Data Source.
 func NewDataAwsccObservabilityadminTelemetryEnrichment(scope constructs.Construct, id *string, config *DataAwsccObservabilityadminTelemetryEnrichmentConfig) DataAwsccObservabilityadminTelemetryEnrichment {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccObservabilityadminTelemetryEnrichment(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/observabilityadmin_telemetry_enrichment awscc_observabilityadmin_telemetry_enrichment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/observabilityadmin_telemetry_enrichment awscc_observabilityadmin_telemetry_enrichment} Data Source.
 func NewDataAwsccObservabilityadminTelemetryEnrichment_Override(d DataAwsccObservabilityadminTelemetryEnrichment, scope constructs.Construct, id *string, config *DataAwsccObservabilityadminTelemetryEnrichmentConfig) {
 	_init_.Initialize()
 

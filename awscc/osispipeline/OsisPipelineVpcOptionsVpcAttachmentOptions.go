@@ -7,11 +7,11 @@ package osispipeline
 type OsisPipelineVpcOptionsVpcAttachmentOptions struct {
 	// Whether the pipeline should be attached to the provided VPC.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/osis_pipeline#attach_to_vpc OsisPipeline#attach_to_vpc}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/osis_pipeline#attach_to_vpc OsisPipeline#attach_to_vpc}
 	AttachToVpc interface{} `field:"optional" json:"attachToVpc" yaml:"attachToVpc"`
 	// The CIDR block to be reserved for OpenSearch Ingestion to create elastic network interfaces (ENIs).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/osis_pipeline#cidr_block OsisPipeline#cidr_block}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/osis_pipeline#cidr_block OsisPipeline#cidr_block}
 	CidrBlock *string `field:"optional" json:"cidrBlock" yaml:"cidrBlock"`
 }
 

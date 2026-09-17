@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/lightsail_alarms awscc_lightsail_alarms}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/lightsail_alarms awscc_lightsail_alarms}.
 type DataAwsccLightsailAlarms interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLightsailAlarms) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/lightsail_alarms awscc_lightsail_alarms} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/lightsail_alarms awscc_lightsail_alarms} Data Source.
 func NewDataAwsccLightsailAlarms(scope constructs.Construct, id *string, config *DataAwsccLightsailAlarmsConfig) DataAwsccLightsailAlarms {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLightsailAlarms(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/lightsail_alarms awscc_lightsail_alarms} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/lightsail_alarms awscc_lightsail_alarms} Data Source.
 func NewDataAwsccLightsailAlarms_Override(d DataAwsccLightsailAlarms, scope constructs.Construct, id *string, config *DataAwsccLightsailAlarmsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment}.
 type NetworkmanagerVpcAttachment interface {
 	cdktn.TerraformResource
 	AttachmentId() *string
@@ -61,9 +61,7 @@ type NetworkmanagerVpcAttachment interface {
 	OptionsInput() interface{}
 	OwnerAccountId() *string
 	ProposedNetworkFunctionGroupChange() NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeOutputReference
-	ProposedNetworkFunctionGroupChangeInput() interface{}
 	ProposedSegmentChange() NetworkmanagerVpcAttachmentProposedSegmentChangeOutputReference
-	ProposedSegmentChangeInput() interface{}
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -175,8 +173,6 @@ type NetworkmanagerVpcAttachment interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutOptions(value *NetworkmanagerVpcAttachmentOptions)
-	PutProposedNetworkFunctionGroupChange(value *NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChange)
-	PutProposedSegmentChange(value *NetworkmanagerVpcAttachmentProposedSegmentChange)
 	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -195,8 +191,6 @@ type NetworkmanagerVpcAttachment interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
-	ResetProposedNetworkFunctionGroupChange()
-	ResetProposedSegmentChange()
 	ResetRoutingPolicyLabel()
 	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
@@ -476,31 +470,11 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachment) ProposedNetworkFunctionGroupChan
 	return returns
 }
 
-func (j *jsiiProxy_NetworkmanagerVpcAttachment) ProposedNetworkFunctionGroupChangeInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"proposedNetworkFunctionGroupChangeInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_NetworkmanagerVpcAttachment) ProposedSegmentChange() NetworkmanagerVpcAttachmentProposedSegmentChangeOutputReference {
 	var returns NetworkmanagerVpcAttachmentProposedSegmentChangeOutputReference
 	_jsii_.Get(
 		j,
 		"proposedSegmentChange",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NetworkmanagerVpcAttachment) ProposedSegmentChangeInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"proposedSegmentChangeInput",
 		&returns,
 	)
 	return returns
@@ -687,7 +661,7 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachment) VpcArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment} Resource.
 func NewNetworkmanagerVpcAttachment(scope constructs.Construct, id *string, config *NetworkmanagerVpcAttachmentConfig) NetworkmanagerVpcAttachment {
 	_init_.Initialize()
 
@@ -705,7 +679,7 @@ func NewNetworkmanagerVpcAttachment(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/networkmanager_vpc_attachment awscc_networkmanager_vpc_attachment} Resource.
 func NewNetworkmanagerVpcAttachment_Override(n NetworkmanagerVpcAttachment, scope constructs.Construct, id *string, config *NetworkmanagerVpcAttachmentConfig) {
 	_init_.Initialize()
 
@@ -1208,28 +1182,6 @@ func (n *jsiiProxy_NetworkmanagerVpcAttachment) PutOptions(value *Networkmanager
 	)
 }
 
-func (n *jsiiProxy_NetworkmanagerVpcAttachment) PutProposedNetworkFunctionGroupChange(value *NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChange) {
-	if err := n.validatePutProposedNetworkFunctionGroupChangeParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		n,
-		"putProposedNetworkFunctionGroupChange",
-		[]interface{}{value},
-	)
-}
-
-func (n *jsiiProxy_NetworkmanagerVpcAttachment) PutProposedSegmentChange(value *NetworkmanagerVpcAttachmentProposedSegmentChange) {
-	if err := n.validatePutProposedSegmentChangeParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		n,
-		"putProposedSegmentChange",
-		[]interface{}{value},
-	)
-}
-
 func (n *jsiiProxy_NetworkmanagerVpcAttachment) PutTags(value interface{}) {
 	if err := n.validatePutTagsParameters(value); err != nil {
 		panic(err)
@@ -1264,22 +1216,6 @@ func (n *jsiiProxy_NetworkmanagerVpcAttachment) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetOverrideLogicalId",
-		nil, // no parameters
-	)
-}
-
-func (n *jsiiProxy_NetworkmanagerVpcAttachment) ResetProposedNetworkFunctionGroupChange() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetProposedNetworkFunctionGroupChange",
-		nil, // no parameters
-	)
-}
-
-func (n *jsiiProxy_NetworkmanagerVpcAttachment) ResetProposedSegmentChange() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetProposedSegmentChange",
 		nil, // no parameters
 	)
 }

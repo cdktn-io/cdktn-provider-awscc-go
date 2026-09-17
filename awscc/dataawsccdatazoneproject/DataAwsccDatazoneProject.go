@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/datazone_project awscc_datazone_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datazone_project awscc_datazone_project}.
 type DataAwsccDatazoneProject interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_DataAwsccDatazoneProject) UserParameters() DataAwsccDatazoneP
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/datazone_project awscc_datazone_project} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datazone_project awscc_datazone_project} Data Source.
 func NewDataAwsccDatazoneProject(scope constructs.Construct, id *string, config *DataAwsccDatazoneProjectConfig) DataAwsccDatazoneProject {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewDataAwsccDatazoneProject(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/datazone_project awscc_datazone_project} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datazone_project awscc_datazone_project} Data Source.
 func NewDataAwsccDatazoneProject_Override(d DataAwsccDatazoneProject, scope constructs.Construct, id *string, config *DataAwsccDatazoneProjectConfig) {
 	_init_.Initialize()
 

@@ -7,7 +7,7 @@ package datazoneconnection
 type DatazoneConnectionPropsMlflowProperties struct {
 	// The ARN of the MLflow tracking server.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_connection#tracking_server_arn DatazoneConnection#tracking_server_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datazone_connection#tracking_server_arn DatazoneConnection#tracking_server_arn}
 	TrackingServerArn *string `field:"optional" json:"trackingServerArn" yaml:"trackingServerArn"`
 }
 

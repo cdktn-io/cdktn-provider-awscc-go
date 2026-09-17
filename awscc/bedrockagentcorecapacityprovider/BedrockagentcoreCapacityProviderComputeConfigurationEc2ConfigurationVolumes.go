@@ -7,7 +7,7 @@ package bedrockagentcorecapacityprovider
 type BedrockagentcoreCapacityProviderComputeConfigurationEc2ConfigurationVolumes struct {
 	// Configuration for an EBS-backed persistent volume.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrockagentcore_capacity_provider#ebs_configuration BedrockagentcoreCapacityProvider#ebs_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrockagentcore_capacity_provider#ebs_configuration BedrockagentcoreCapacityProvider#ebs_configuration}
 	EbsConfiguration *BedrockagentcoreCapacityProviderComputeConfigurationEc2ConfigurationVolumesEbsConfiguration `field:"optional" json:"ebsConfiguration" yaml:"ebsConfiguration"`
 }
 

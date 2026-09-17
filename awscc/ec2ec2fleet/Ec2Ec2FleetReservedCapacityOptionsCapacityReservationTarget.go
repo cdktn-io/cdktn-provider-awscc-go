@@ -5,9 +5,9 @@ package ec2ec2fleet
 
 
 type Ec2Ec2FleetReservedCapacityOptionsCapacityReservationTarget struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#capacity_reservation_ids Ec2Ec2Fleet#capacity_reservation_ids}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#capacity_reservation_ids Ec2Ec2Fleet#capacity_reservation_ids}.
 	CapacityReservationIds *[]*string `field:"optional" json:"capacityReservationIds" yaml:"capacityReservationIds"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ec2_fleet#capacity_reservation_resource_group_arns Ec2Ec2Fleet#capacity_reservation_resource_group_arns}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ec2_fleet#capacity_reservation_resource_group_arns Ec2Ec2Fleet#capacity_reservation_resource_group_arns}.
 	CapacityReservationResourceGroupArns *[]*string `field:"optional" json:"capacityReservationResourceGroupArns" yaml:"capacityReservationResourceGroupArns"`
 }
 

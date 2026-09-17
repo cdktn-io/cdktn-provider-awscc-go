@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/location_api_keys awscc_location_api_keys}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/location_api_keys awscc_location_api_keys}.
 type DataAwsccLocationApiKeys interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLocationApiKeys) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/location_api_keys awscc_location_api_keys} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/location_api_keys awscc_location_api_keys} Data Source.
 func NewDataAwsccLocationApiKeys(scope constructs.Construct, id *string, config *DataAwsccLocationApiKeysConfig) DataAwsccLocationApiKeys {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLocationApiKeys(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/location_api_keys awscc_location_api_keys} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/location_api_keys awscc_location_api_keys} Data Source.
 func NewDataAwsccLocationApiKeys_Override(d DataAwsccLocationApiKeys, scope constructs.Construct, id *string, config *DataAwsccLocationApiKeysConfig) {
 	_init_.Initialize()
 

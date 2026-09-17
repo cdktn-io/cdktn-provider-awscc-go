@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_transit_gateway_multicast_group_member awscc_ec2_transit_gateway_multicast_group_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_transit_gateway_multicast_group_member awscc_ec2_transit_gateway_multicast_group_member}.
 type Ec2TransitGatewayMulticastGroupMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -501,7 +501,7 @@ func (j *jsiiProxy_Ec2TransitGatewayMulticastGroupMember) TransitGatewayMulticas
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_transit_gateway_multicast_group_member awscc_ec2_transit_gateway_multicast_group_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_transit_gateway_multicast_group_member awscc_ec2_transit_gateway_multicast_group_member} Resource.
 func NewEc2TransitGatewayMulticastGroupMember(scope constructs.Construct, id *string, config *Ec2TransitGatewayMulticastGroupMemberConfig) Ec2TransitGatewayMulticastGroupMember {
 	_init_.Initialize()
 
@@ -519,7 +519,7 @@ func NewEc2TransitGatewayMulticastGroupMember(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_transit_gateway_multicast_group_member awscc_ec2_transit_gateway_multicast_group_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_transit_gateway_multicast_group_member awscc_ec2_transit_gateway_multicast_group_member} Resource.
 func NewEc2TransitGatewayMulticastGroupMember_Override(e Ec2TransitGatewayMulticastGroupMember, scope constructs.Construct, id *string, config *Ec2TransitGatewayMulticastGroupMemberConfig) {
 	_init_.Initialize()
 

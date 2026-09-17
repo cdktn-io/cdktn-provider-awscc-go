@@ -7,7 +7,7 @@ package opensearchdatasource
 type OpensearchDataSourceDataSourceType struct {
 	// Configuration for an S3 Glue Data Catalog data source.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/opensearch_data_source#s3_glue_data_catalog OpensearchDataSource#s3_glue_data_catalog}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/opensearch_data_source#s3_glue_data_catalog OpensearchDataSource#s3_glue_data_catalog}
 	S3GlueDataCatalog *OpensearchDataSourceDataSourceTypeS3GlueDataCatalog `field:"optional" json:"s3GlueDataCatalog" yaml:"s3GlueDataCatalog"`
 }
 

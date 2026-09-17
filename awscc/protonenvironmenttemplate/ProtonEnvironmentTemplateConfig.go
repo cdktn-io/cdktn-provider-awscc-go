@@ -24,19 +24,19 @@ type ProtonEnvironmentTemplateConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// <p>A description of the environment template.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/proton_environment_template#description ProtonEnvironmentTemplate#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/proton_environment_template#description ProtonEnvironmentTemplate#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// <p>The environment template name as displayed in the developer interface.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/proton_environment_template#display_name ProtonEnvironmentTemplate#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/proton_environment_template#display_name ProtonEnvironmentTemplate#display_name}
 	DisplayName *string `field:"optional" json:"displayName" yaml:"displayName"`
 	// <p>A customer provided encryption key that Proton uses to encrypt data.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/proton_environment_template#encryption_key ProtonEnvironmentTemplate#encryption_key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/proton_environment_template#encryption_key ProtonEnvironmentTemplate#encryption_key}
 	EncryptionKey *string `field:"optional" json:"encryptionKey" yaml:"encryptionKey"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/proton_environment_template#name ProtonEnvironmentTemplate#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/proton_environment_template#name ProtonEnvironmentTemplate#name}.
 	Name *string `field:"optional" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/proton_environment_template#provisioning ProtonEnvironmentTemplate#provisioning}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/proton_environment_template#provisioning ProtonEnvironmentTemplate#provisioning}.
 	Provisioning *string `field:"optional" json:"provisioning" yaml:"provisioning"`
 	// <p>An optional list of metadata items that you can associate with the Proton environment template.
 	//
@@ -44,7 +44,7 @@ type ProtonEnvironmentTemplateConfig struct {
 	//          <p>For more information, see <a href="https://docs.aws.amazon.com/proton/latest/userguide/resources.html">Proton resources and tagging</a> in the
 	//         <i>Proton User Guide</i>.</p>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/proton_environment_template#tags ProtonEnvironmentTemplate#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/proton_environment_template#tags ProtonEnvironmentTemplate#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

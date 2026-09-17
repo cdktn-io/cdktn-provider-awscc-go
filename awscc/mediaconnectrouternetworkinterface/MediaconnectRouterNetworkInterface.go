@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediaconnect_router_network_interface awscc_mediaconnect_router_network_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconnect_router_network_interface awscc_mediaconnect_router_network_interface}.
 type MediaconnectRouterNetworkInterface interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -537,7 +537,7 @@ func (j *jsiiProxy_MediaconnectRouterNetworkInterface) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediaconnect_router_network_interface awscc_mediaconnect_router_network_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconnect_router_network_interface awscc_mediaconnect_router_network_interface} Resource.
 func NewMediaconnectRouterNetworkInterface(scope constructs.Construct, id *string, config *MediaconnectRouterNetworkInterfaceConfig) MediaconnectRouterNetworkInterface {
 	_init_.Initialize()
 
@@ -555,7 +555,7 @@ func NewMediaconnectRouterNetworkInterface(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediaconnect_router_network_interface awscc_mediaconnect_router_network_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconnect_router_network_interface awscc_mediaconnect_router_network_interface} Resource.
 func NewMediaconnectRouterNetworkInterface_Override(m MediaconnectRouterNetworkInterface, scope constructs.Construct, id *string, config *MediaconnectRouterNetworkInterfaceConfig) {
 	_init_.Initialize()
 

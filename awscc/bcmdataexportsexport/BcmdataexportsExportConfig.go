@@ -22,9 +22,9 @@ type BcmdataexportsExportConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bcmdataexports_export#export BcmdataexportsExport#export}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bcmdataexports_export#export BcmdataexportsExport#export}.
 	Export *BcmdataexportsExportExport `field:"required" json:"export" yaml:"export"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bcmdataexports_export#tags BcmdataexportsExport#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bcmdataexports_export#tags BcmdataexportsExport#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

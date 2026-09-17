@@ -93,48 +93,9 @@ func (n *jsiiProxy_NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChange
 	return nil
 }
 
-func (n *jsiiProxy_NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeOutputReference) validatePutTagsParameters(value interface{}) error {
-	if value == nil {
-		return fmt.Errorf("parameter value is required, but nil was provided")
-	}
-	switch value.(type) {
-	case cdktn.IResolvable:
-		// ok
-	case *[]*NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTags:
-		value := value.(*[]*NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTags)
-		for idx_cd4240, v := range *value {
-			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
-				return err
-			}
-		}
-	case []*NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTags:
-		value_ := value.([]*NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTags)
-		value := &value_
-		for idx_cd4240, v := range *value {
-			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
-				return err
-			}
-		}
-	default:
-		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTags; received %#v (a %T)", value, value)
-		}
-	}
-
-	return nil
-}
-
 func (n *jsiiProxy_NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeOutputReference) validateSetAttachmentPolicyRuleNumberParameters(val *float64) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil
@@ -205,33 +166,9 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChange
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeOutputReference) validateSetInternalValueParameters(val interface{}) error {
-	switch val.(type) {
-	case cdktn.IResolvable:
-		// ok
-	case *NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChange:
-		val := val.(*NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChange)
-		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
-			return err
-		}
-	case NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChange:
-		val_ := val.(NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChange)
-		val := &val_
-		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
-			return err
-		}
-	default:
-		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChange; received %#v (a %T)", val, val)
-		}
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeOutputReference) validateSetNetworkFunctionGroupNameParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
+func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeOutputReference) validateSetInternalValueParameters(val *NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChange) error {
+	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
+		return err
 	}
 
 	return nil

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_notification awscc_connect_notification}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_notification awscc_connect_notification}.
 type ConnectNotification interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -530,7 +530,7 @@ func (j *jsiiProxy_ConnectNotification) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_notification awscc_connect_notification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_notification awscc_connect_notification} Resource.
 func NewConnectNotification(scope constructs.Construct, id *string, config *ConnectNotificationConfig) ConnectNotification {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewConnectNotification(scope constructs.Construct, id *string, config *Conn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_notification awscc_connect_notification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_notification awscc_connect_notification} Resource.
 func NewConnectNotification_Override(c ConnectNotification, scope constructs.Construct, id *string, config *ConnectNotificationConfig) {
 	_init_.Initialize()
 

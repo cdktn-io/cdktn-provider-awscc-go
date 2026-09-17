@@ -7,11 +7,11 @@ package rtbfabriclinkroutingrule
 type RtbfabricLinkRoutingRuleConditionsQueryStringEquals struct {
 	// Query string key ? RFC 3986 unreserved characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/rtbfabric_link_routing_rule#key RtbfabricLinkRoutingRule#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/rtbfabric_link_routing_rule#key RtbfabricLinkRoutingRule#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// Query string value ? RFC 3986 unreserved characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/rtbfabric_link_routing_rule#value RtbfabricLinkRoutingRule#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/rtbfabric_link_routing_rule#value RtbfabricLinkRoutingRule#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

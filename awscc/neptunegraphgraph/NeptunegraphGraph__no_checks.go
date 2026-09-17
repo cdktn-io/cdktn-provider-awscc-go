@@ -79,6 +79,10 @@ func (n *jsiiProxy_NeptunegraphGraph) validateOverrideLogicalIdParameters(newLog
 	return nil
 }
 
+func (n *jsiiProxy_NeptunegraphGraph) validatePutImportTaskParameters(value *NeptunegraphGraphImportTask) error {
+	return nil
+}
+
 func (n *jsiiProxy_NeptunegraphGraph) validatePutTagsParameters(value interface{}) error {
 	return nil
 }

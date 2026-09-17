@@ -19,10 +19,6 @@ func (n *jsiiProxy_NetworkmanagerConnectAttachmentProposedSegmentChangeTagsList)
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedSegmentChangeTagsList) validateSetInternalValueParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedSegmentChangeTagsList) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

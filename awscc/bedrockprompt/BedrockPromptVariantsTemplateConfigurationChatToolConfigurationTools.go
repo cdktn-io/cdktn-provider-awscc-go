@@ -7,11 +7,11 @@ package bedrockprompt
 type BedrockPromptVariantsTemplateConfigurationChatToolConfigurationTools struct {
 	// CachePointBlock.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrock_prompt#cache_point BedrockPrompt#cache_point}
 	CachePoint *BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsCachePoint `field:"optional" json:"cachePoint" yaml:"cachePoint"`
 	// Tool specification.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrock_prompt#tool_spec BedrockPrompt#tool_spec}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrock_prompt#tool_spec BedrockPrompt#tool_spec}
 	ToolSpec *BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsToolSpec `field:"optional" json:"toolSpec" yaml:"toolSpec"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudformation_module_default_version awscc_cloudformation_module_default_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudformation_module_default_version awscc_cloudformation_module_default_version}.
 type DataAwsccCloudformationModuleDefaultVersion interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccCloudformationModuleDefaultVersion) VersionId() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudformation_module_default_version awscc_cloudformation_module_default_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudformation_module_default_version awscc_cloudformation_module_default_version} Data Source.
 func NewDataAwsccCloudformationModuleDefaultVersion(scope constructs.Construct, id *string, config *DataAwsccCloudformationModuleDefaultVersionConfig) DataAwsccCloudformationModuleDefaultVersion {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccCloudformationModuleDefaultVersion(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudformation_module_default_version awscc_cloudformation_module_default_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudformation_module_default_version awscc_cloudformation_module_default_version} Data Source.
 func NewDataAwsccCloudformationModuleDefaultVersion_Override(d DataAwsccCloudformationModuleDefaultVersion, scope constructs.Construct, id *string, config *DataAwsccCloudformationModuleDefaultVersionConfig) {
 	_init_.Initialize()
 

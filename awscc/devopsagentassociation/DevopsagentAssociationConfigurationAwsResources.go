@@ -7,15 +7,15 @@ package devopsagentassociation
 type DevopsagentAssociationConfigurationAwsResources struct {
 	// The Amazon Resource Name (ARN) of the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/devopsagent_association#resource_arn DevopsagentAssociation#resource_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/devopsagent_association#resource_arn DevopsagentAssociation#resource_arn}
 	ResourceArn *string `field:"optional" json:"resourceArn" yaml:"resourceArn"`
 	// Additional metadata for the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/devopsagent_association#resource_metadata DevopsagentAssociation#resource_metadata}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/devopsagent_association#resource_metadata DevopsagentAssociation#resource_metadata}
 	ResourceMetadata *string `field:"optional" json:"resourceMetadata" yaml:"resourceMetadata"`
 	// Resource type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/devopsagent_association#resource_type DevopsagentAssociation#resource_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/devopsagent_association#resource_type DevopsagentAssociation#resource_type}
 	ResourceType *string `field:"optional" json:"resourceType" yaml:"resourceType"`
 }
 

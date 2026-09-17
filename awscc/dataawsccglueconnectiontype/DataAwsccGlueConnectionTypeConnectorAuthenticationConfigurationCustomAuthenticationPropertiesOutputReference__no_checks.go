@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccglueconnectiontype
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccGlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccGlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccGlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccGlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccGlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccGlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccGlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccGlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccGlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccGlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccGlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccGlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccGlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccGlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesOutputReference) validateSetInternalValueParameters(val *DataAwsccGlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationProperties) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccGlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccGlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccGlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

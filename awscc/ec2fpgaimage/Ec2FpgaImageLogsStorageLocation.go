@@ -7,11 +7,11 @@ package ec2fpgaimage
 type Ec2FpgaImageLogsStorageLocation struct {
 	// The name of the S3 bucket.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_fpga_image#bucket Ec2FpgaImage#bucket}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_fpga_image#bucket Ec2FpgaImage#bucket}
 	Bucket *string `field:"optional" json:"bucket" yaml:"bucket"`
 	// The key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_fpga_image#key Ec2FpgaImage#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_fpga_image#key Ec2FpgaImage#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 }
 

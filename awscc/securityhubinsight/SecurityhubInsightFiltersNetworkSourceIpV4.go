@@ -7,7 +7,7 @@ package securityhubinsight
 type SecurityhubInsightFiltersNetworkSourceIpV4 struct {
 	// A finding's CIDR value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/securityhub_insight#cidr SecurityhubInsight#cidr}
 	Cidr *string `field:"optional" json:"cidr" yaml:"cidr"`
 }
 

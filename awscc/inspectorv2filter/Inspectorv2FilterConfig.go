@@ -24,21 +24,21 @@ type Inspectorv2FilterConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Findings filter action.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/inspectorv2_filter#filter_action Inspectorv2Filter#filter_action}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/inspectorv2_filter#filter_action Inspectorv2Filter#filter_action}
 	FilterAction *string `field:"required" json:"filterAction" yaml:"filterAction"`
 	// Findings filter criteria.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/inspectorv2_filter#filter_criteria Inspectorv2Filter#filter_criteria}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/inspectorv2_filter#filter_criteria Inspectorv2Filter#filter_criteria}
 	FilterCriteria *Inspectorv2FilterFilterCriteria `field:"required" json:"filterCriteria" yaml:"filterCriteria"`
 	// Findings filter name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/inspectorv2_filter#name Inspectorv2Filter#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/inspectorv2_filter#name Inspectorv2Filter#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Findings filter description.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/inspectorv2_filter#description Inspectorv2Filter#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/inspectorv2_filter#description Inspectorv2Filter#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/inspectorv2_filter#tags Inspectorv2Filter#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/inspectorv2_filter#tags Inspectorv2Filter#tags}.
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 }
 

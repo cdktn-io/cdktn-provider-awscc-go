@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/codeartifact_domains awscc_codeartifact_domains}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/codeartifact_domains awscc_codeartifact_domains}.
 type DataAwsccCodeartifactDomains interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCodeartifactDomains) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/codeartifact_domains awscc_codeartifact_domains} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/codeartifact_domains awscc_codeartifact_domains} Data Source.
 func NewDataAwsccCodeartifactDomains(scope constructs.Construct, id *string, config *DataAwsccCodeartifactDomainsConfig) DataAwsccCodeartifactDomains {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCodeartifactDomains(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/codeartifact_domains awscc_codeartifact_domains} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/codeartifact_domains awscc_codeartifact_domains} Data Source.
 func NewDataAwsccCodeartifactDomains_Override(d DataAwsccCodeartifactDomains, scope constructs.Construct, id *string, config *DataAwsccCodeartifactDomainsConfig) {
 	_init_.Initialize()
 

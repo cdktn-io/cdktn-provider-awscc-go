@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/eventschemas_registry_policy awscc_eventschemas_registry_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/eventschemas_registry_policy awscc_eventschemas_registry_policy}.
 type DataAwsccEventschemasRegistryPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccEventschemasRegistryPolicy) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/eventschemas_registry_policy awscc_eventschemas_registry_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/eventschemas_registry_policy awscc_eventschemas_registry_policy} Data Source.
 func NewDataAwsccEventschemasRegistryPolicy(scope constructs.Construct, id *string, config *DataAwsccEventschemasRegistryPolicyConfig) DataAwsccEventschemasRegistryPolicy {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccEventschemasRegistryPolicy(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/eventschemas_registry_policy awscc_eventschemas_registry_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/eventschemas_registry_policy awscc_eventschemas_registry_policy} Data Source.
 func NewDataAwsccEventschemasRegistryPolicy_Override(d DataAwsccEventschemasRegistryPolicy, scope constructs.Construct, id *string, config *DataAwsccEventschemasRegistryPolicyConfig) {
 	_init_.Initialize()
 

@@ -24,19 +24,19 @@ type ConnectTrafficDistributionGroupConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The identifier of the Amazon Connect instance that has been replicated.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_traffic_distribution_group#instance_arn ConnectTrafficDistributionGroup#instance_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_traffic_distribution_group#instance_arn ConnectTrafficDistributionGroup#instance_arn}
 	InstanceArn *string `field:"required" json:"instanceArn" yaml:"instanceArn"`
 	// The name for the traffic distribution group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_traffic_distribution_group#name ConnectTrafficDistributionGroup#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_traffic_distribution_group#name ConnectTrafficDistributionGroup#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// A description for the traffic distribution group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_traffic_distribution_group#description ConnectTrafficDistributionGroup#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_traffic_distribution_group#description ConnectTrafficDistributionGroup#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// One or more tags.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_traffic_distribution_group#tags ConnectTrafficDistributionGroup#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_traffic_distribution_group#tags ConnectTrafficDistributionGroup#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

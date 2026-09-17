@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datasync_location_azure_blob awscc_datasync_location_azure_blob}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob awscc_datasync_location_azure_blob}.
 type DatasyncLocationAzureBlob interface {
 	cdktn.TerraformResource
 	AgentArns() *[]*string
@@ -628,7 +628,7 @@ func (j *jsiiProxy_DatasyncLocationAzureBlob) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datasync_location_azure_blob awscc_datasync_location_azure_blob} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob awscc_datasync_location_azure_blob} Resource.
 func NewDatasyncLocationAzureBlob(scope constructs.Construct, id *string, config *DatasyncLocationAzureBlobConfig) DatasyncLocationAzureBlob {
 	_init_.Initialize()
 
@@ -646,7 +646,7 @@ func NewDatasyncLocationAzureBlob(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datasync_location_azure_blob awscc_datasync_location_azure_blob} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob awscc_datasync_location_azure_blob} Resource.
 func NewDatasyncLocationAzureBlob_Override(d DatasyncLocationAzureBlob, scope constructs.Construct, id *string, config *DatasyncLocationAzureBlobConfig) {
 	_init_.Initialize()
 

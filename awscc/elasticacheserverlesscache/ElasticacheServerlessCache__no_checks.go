@@ -151,6 +151,10 @@ func (j *jsiiProxy_ElasticacheServerlessCache) validateSetMajorEngineVersionPara
 	return nil
 }
 
+func (j *jsiiProxy_ElasticacheServerlessCache) validateSetNetworkTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ElasticacheServerlessCache) validateSetProvisionersParameters(val *[]interface{}) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/workspacesweb_browser_settings awscc_workspacesweb_browser_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/workspacesweb_browser_settings awscc_workspacesweb_browser_settings}.
 type DataAwsccWorkspaceswebBrowserSettings interface {
 	cdktn.TerraformDataSource
 	AdditionalEncryptionContext() cdktn.StringMap
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccWorkspaceswebBrowserSettings) WebContentFilteringPol
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/workspacesweb_browser_settings awscc_workspacesweb_browser_settings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/workspacesweb_browser_settings awscc_workspacesweb_browser_settings} Data Source.
 func NewDataAwsccWorkspaceswebBrowserSettings(scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebBrowserSettingsConfig) DataAwsccWorkspaceswebBrowserSettings {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccWorkspaceswebBrowserSettings(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/workspacesweb_browser_settings awscc_workspacesweb_browser_settings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/workspacesweb_browser_settings awscc_workspacesweb_browser_settings} Data Source.
 func NewDataAwsccWorkspaceswebBrowserSettings_Override(d DataAwsccWorkspaceswebBrowserSettings, scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebBrowserSettingsConfig) {
 	_init_.Initialize()
 

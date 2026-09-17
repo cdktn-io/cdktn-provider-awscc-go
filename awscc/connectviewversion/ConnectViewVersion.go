@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_view_version awscc_connect_view_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_view_version awscc_connect_view_version}.
 type ConnectViewVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -448,7 +448,7 @@ func (j *jsiiProxy_ConnectViewVersion) ViewVersionArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_view_version awscc_connect_view_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_view_version awscc_connect_view_version} Resource.
 func NewConnectViewVersion(scope constructs.Construct, id *string, config *ConnectViewVersionConfig) ConnectViewVersion {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewConnectViewVersion(scope constructs.Construct, id *string, config *Conne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_view_version awscc_connect_view_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_view_version awscc_connect_view_version} Resource.
 func NewConnectViewVersion_Override(c ConnectViewVersion, scope constructs.Construct, id *string, config *ConnectViewVersionConfig) {
 	_init_.Initialize()
 

@@ -36,6 +36,7 @@ type DataAwsccEc2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsOut
 	SetInternalValue(val *DataAwsccEc2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbs)
 	Iops() *float64
 	KmsKeyId() *string
+	MultiAvailabilityZoneConfiguration() DataAwsccEc2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationOutputReference
 	SnapshotId() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -171,6 +172,16 @@ func (j *jsiiProxy_DataAwsccEc2Ec2FleetLaunchTemplateConfigsOverridesBlockDevice
 	_jsii_.Get(
 		j,
 		"kmsKeyId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccEc2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsOutputReference) MultiAvailabilityZoneConfiguration() DataAwsccEc2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationOutputReference {
+	var returns DataAwsccEc2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"multiAvailabilityZoneConfiguration",
 		&returns,
 	)
 	return returns

@@ -5,9 +5,9 @@ package bedrockagentcoregatewayrule
 
 
 type BedrockagentcoreGatewayRuleActions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrockagentcore_gateway_rule#configuration_bundle BedrockagentcoreGatewayRule#configuration_bundle}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrockagentcore_gateway_rule#configuration_bundle BedrockagentcoreGatewayRule#configuration_bundle}.
 	ConfigurationBundle *BedrockagentcoreGatewayRuleActionsConfigurationBundle `field:"optional" json:"configurationBundle" yaml:"configurationBundle"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrockagentcore_gateway_rule#route_to_target BedrockagentcoreGatewayRule#route_to_target}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrockagentcore_gateway_rule#route_to_target BedrockagentcoreGatewayRule#route_to_target}.
 	RouteToTarget *BedrockagentcoreGatewayRuleActionsRouteToTarget `field:"optional" json:"routeToTarget" yaml:"routeToTarget"`
 }
 

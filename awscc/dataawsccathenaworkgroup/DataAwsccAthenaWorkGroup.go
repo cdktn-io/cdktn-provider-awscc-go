@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/athena_work_group awscc_athena_work_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/athena_work_group awscc_athena_work_group}.
 type DataAwsccAthenaWorkGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccAthenaWorkGroup) WorkGroupConfigurationUpdates() Dat
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/athena_work_group awscc_athena_work_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/athena_work_group awscc_athena_work_group} Data Source.
 func NewDataAwsccAthenaWorkGroup(scope constructs.Construct, id *string, config *DataAwsccAthenaWorkGroupConfig) DataAwsccAthenaWorkGroup {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccAthenaWorkGroup(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/athena_work_group awscc_athena_work_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/athena_work_group awscc_athena_work_group} Data Source.
 func NewDataAwsccAthenaWorkGroup_Override(d DataAwsccAthenaWorkGroup, scope constructs.Construct, id *string, config *DataAwsccAthenaWorkGroupConfig) {
 	_init_.Initialize()
 

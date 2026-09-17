@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/stepfunctions_activity awscc_stepfunctions_activity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/stepfunctions_activity awscc_stepfunctions_activity}.
 type DataAwsccStepfunctionsActivity interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccStepfunctionsActivity) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/stepfunctions_activity awscc_stepfunctions_activity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/stepfunctions_activity awscc_stepfunctions_activity} Data Source.
 func NewDataAwsccStepfunctionsActivity(scope constructs.Construct, id *string, config *DataAwsccStepfunctionsActivityConfig) DataAwsccStepfunctionsActivity {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccStepfunctionsActivity(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/stepfunctions_activity awscc_stepfunctions_activity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/stepfunctions_activity awscc_stepfunctions_activity} Data Source.
 func NewDataAwsccStepfunctionsActivity_Override(d DataAwsccStepfunctionsActivity, scope constructs.Construct, id *string, config *DataAwsccStepfunctionsActivityConfig) {
 	_init_.Initialize()
 

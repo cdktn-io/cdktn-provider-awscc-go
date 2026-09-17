@@ -14,8 +14,6 @@ import (
 type NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeOutputReference interface {
 	cdktn.ComplexObject
 	AttachmentPolicyRuleNumber() *float64
-	SetAttachmentPolicyRuleNumber(val *float64)
-	AttachmentPolicyRuleNumberInput() *float64
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -33,13 +31,10 @@ type NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeOutputRefe
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
-	InternalValue() interface{}
-	SetInternalValue(val interface{})
+	InternalValue() *NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChange
+	SetInternalValue(val *NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChange)
 	NetworkFunctionGroupName() *string
-	SetNetworkFunctionGroupName(val *string)
-	NetworkFunctionGroupNameInput() *string
 	Tags() NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeTagsList
-	TagsInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -72,10 +67,6 @@ type NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeOutputRefe
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	PutTags(value interface{})
-	ResetAttachmentPolicyRuleNumber()
-	ResetNetworkFunctionGroupName()
-	ResetTags()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -96,16 +87,6 @@ func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupCh
 	_jsii_.Get(
 		j,
 		"attachmentPolicyRuleNumber",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeOutputReference) AttachmentPolicyRuleNumberInput() *float64 {
-	var returns *float64
-	_jsii_.Get(
-		j,
-		"attachmentPolicyRuleNumberInput",
 		&returns,
 	)
 	return returns
@@ -151,8 +132,8 @@ func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupCh
 	return returns
 }
 
-func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeOutputReference) InternalValue() interface{} {
-	var returns interface{}
+func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeOutputReference) InternalValue() *NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChange {
+	var returns *NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChange
 	_jsii_.Get(
 		j,
 		"internalValue",
@@ -171,31 +152,11 @@ func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupCh
 	return returns
 }
 
-func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeOutputReference) NetworkFunctionGroupNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"networkFunctionGroupNameInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeOutputReference) Tags() NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeTagsList {
 	var returns NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeTagsList
 	_jsii_.Get(
 		j,
 		"tags",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeOutputReference) TagsInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"tagsInput",
 		&returns,
 	)
 	return returns
@@ -249,17 +210,6 @@ func NewNetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeOutputR
 	)
 }
 
-func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeOutputReference)SetAttachmentPolicyRuleNumber(val *float64) {
-	if err := j.validateSetAttachmentPolicyRuleNumberParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"attachmentPolicyRuleNumber",
-		val,
-	)
-}
-
 func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeOutputReference)SetComplexObjectIndex(val interface{}) {
 	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
 		panic(err)
@@ -282,24 +232,13 @@ func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupCh
 	)
 }
 
-func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeOutputReference)SetInternalValue(val interface{}) {
+func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeOutputReference)SetInternalValue(val *NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChange) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
 	}
 	_jsii_.Set(
 		j,
 		"internalValue",
-		val,
-	)
-}
-
-func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeOutputReference)SetNetworkFunctionGroupName(val *string) {
-	if err := j.validateSetNetworkFunctionGroupNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"networkFunctionGroupName",
 		val,
 	)
 }
@@ -510,41 +449,6 @@ func (n *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupCh
 	)
 
 	return returns
-}
-
-func (n *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeOutputReference) PutTags(value interface{}) {
-	if err := n.validatePutTagsParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		n,
-		"putTags",
-		[]interface{}{value},
-	)
-}
-
-func (n *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeOutputReference) ResetAttachmentPolicyRuleNumber() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetAttachmentPolicyRuleNumber",
-		nil, // no parameters
-	)
-}
-
-func (n *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeOutputReference) ResetNetworkFunctionGroupName() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetNetworkFunctionGroupName",
-		nil, // no parameters
-	)
-}
-
-func (n *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeOutputReference) ResetTags() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetTags",
-		nil, // no parameters
-	)
 }
 
 func (n *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

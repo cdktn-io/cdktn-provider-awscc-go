@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ssm_resource_data_syncs awscc_ssm_resource_data_syncs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssm_resource_data_syncs awscc_ssm_resource_data_syncs}.
 type DataAwsccSsmResourceDataSyncs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSsmResourceDataSyncs) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ssm_resource_data_syncs awscc_ssm_resource_data_syncs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssm_resource_data_syncs awscc_ssm_resource_data_syncs} Data Source.
 func NewDataAwsccSsmResourceDataSyncs(scope constructs.Construct, id *string, config *DataAwsccSsmResourceDataSyncsConfig) DataAwsccSsmResourceDataSyncs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSsmResourceDataSyncs(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ssm_resource_data_syncs awscc_ssm_resource_data_syncs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssm_resource_data_syncs awscc_ssm_resource_data_syncs} Data Source.
 func NewDataAwsccSsmResourceDataSyncs_Override(d DataAwsccSsmResourceDataSyncs, scope constructs.Construct, id *string, config *DataAwsccSsmResourceDataSyncsConfig) {
 	_init_.Initialize()
 

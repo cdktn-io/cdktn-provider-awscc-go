@@ -5,9 +5,9 @@ package kinesisfirehosedeliverystream
 
 
 type KinesisfirehoseDeliveryStreamIcebergDestinationConfigurationCatalogConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kinesisfirehose_delivery_stream#catalog_arn KinesisfirehoseDeliveryStream#catalog_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesisfirehose_delivery_stream#catalog_arn KinesisfirehoseDeliveryStream#catalog_arn}.
 	CatalogArn *string `field:"optional" json:"catalogArn" yaml:"catalogArn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kinesisfirehose_delivery_stream#warehouse_location KinesisfirehoseDeliveryStream#warehouse_location}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kinesisfirehose_delivery_stream#warehouse_location KinesisfirehoseDeliveryStream#warehouse_location}.
 	WarehouseLocation *string `field:"optional" json:"warehouseLocation" yaml:"warehouseLocation"`
 }
 

@@ -28,6 +28,7 @@ type DataAwsccBillingconductorPricingRuleTieringOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	CustomTiers() DataAwsccBillingconductorPricingRuleTieringCustomTiersList
 	// Experimental.
 	Fqn() *string
 	FreeTier() DataAwsccBillingconductorPricingRuleTieringFreeTierOutputReference
@@ -105,6 +106,16 @@ func (j *jsiiProxy_DataAwsccBillingconductorPricingRuleTieringOutputReference) C
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccBillingconductorPricingRuleTieringOutputReference) CustomTiers() DataAwsccBillingconductorPricingRuleTieringCustomTiersList {
+	var returns DataAwsccBillingconductorPricingRuleTieringCustomTiersList
+	_jsii_.Get(
+		j,
+		"customTiers",
 		&returns,
 	)
 	return returns

@@ -5,11 +5,11 @@ package transferconnector
 
 
 type TransferConnectorAs2ConfigAsyncMdnConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/transfer_connector#server_ids TransferConnector#server_ids}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#server_ids TransferConnector#server_ids}.
 	ServerIds *[]*string `field:"optional" json:"serverIds" yaml:"serverIds"`
 	// URL of the server to receive the MDN response on.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/transfer_connector#url TransferConnector#url}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#url TransferConnector#url}
 	Url *string `field:"optional" json:"url" yaml:"url"`
 }
 

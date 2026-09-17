@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/dax_parameter_group awscc_dax_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/dax_parameter_group awscc_dax_parameter_group}.
 type DataAwsccDaxParameterGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccDaxParameterGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/dax_parameter_group awscc_dax_parameter_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/dax_parameter_group awscc_dax_parameter_group} Data Source.
 func NewDataAwsccDaxParameterGroup(scope constructs.Construct, id *string, config *DataAwsccDaxParameterGroupConfig) DataAwsccDaxParameterGroup {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccDaxParameterGroup(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/dax_parameter_group awscc_dax_parameter_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/dax_parameter_group awscc_dax_parameter_group} Data Source.
 func NewDataAwsccDaxParameterGroup_Override(d DataAwsccDaxParameterGroup, scope constructs.Construct, id *string, config *DataAwsccDaxParameterGroupConfig) {
 	_init_.Initialize()
 

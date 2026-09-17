@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ssm_parameters awscc_ssm_parameters}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssm_parameters awscc_ssm_parameters}.
 type DataAwsccSsmParameters interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSsmParameters) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ssm_parameters awscc_ssm_parameters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssm_parameters awscc_ssm_parameters} Data Source.
 func NewDataAwsccSsmParameters(scope constructs.Construct, id *string, config *DataAwsccSsmParametersConfig) DataAwsccSsmParameters {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSsmParameters(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ssm_parameters awscc_ssm_parameters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssm_parameters awscc_ssm_parameters} Data Source.
 func NewDataAwsccSsmParameters_Override(d DataAwsccSsmParameters, scope constructs.Construct, id *string, config *DataAwsccSsmParametersConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_local_gateway_route_table_vpc_association awscc_ec2_local_gateway_route_table_vpc_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_local_gateway_route_table_vpc_association awscc_ec2_local_gateway_route_table_vpc_association}.
 type DataAwsccEc2LocalGatewayRouteTableVpcAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccEc2LocalGatewayRouteTableVpcAssociation) VpcId() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_local_gateway_route_table_vpc_association awscc_ec2_local_gateway_route_table_vpc_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_local_gateway_route_table_vpc_association awscc_ec2_local_gateway_route_table_vpc_association} Data Source.
 func NewDataAwsccEc2LocalGatewayRouteTableVpcAssociation(scope constructs.Construct, id *string, config *DataAwsccEc2LocalGatewayRouteTableVpcAssociationConfig) DataAwsccEc2LocalGatewayRouteTableVpcAssociation {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccEc2LocalGatewayRouteTableVpcAssociation(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_local_gateway_route_table_vpc_association awscc_ec2_local_gateway_route_table_vpc_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_local_gateway_route_table_vpc_association awscc_ec2_local_gateway_route_table_vpc_association} Data Source.
 func NewDataAwsccEc2LocalGatewayRouteTableVpcAssociation_Override(d DataAwsccEc2LocalGatewayRouteTableVpcAssociation, scope constructs.Construct, id *string, config *DataAwsccEc2LocalGatewayRouteTableVpcAssociationConfig) {
 	_init_.Initialize()
 

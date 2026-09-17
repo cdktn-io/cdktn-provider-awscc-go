@@ -5,13 +5,13 @@ package rtbfabriclink
 
 
 type RtbfabricLinkLinkAttributesResponderErrorMasking struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/rtbfabric_link#action RtbfabricLink#action}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/rtbfabric_link#action RtbfabricLink#action}.
 	Action *string `field:"optional" json:"action" yaml:"action"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/rtbfabric_link#http_code RtbfabricLink#http_code}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/rtbfabric_link#http_code RtbfabricLink#http_code}.
 	HttpCode *string `field:"optional" json:"httpCode" yaml:"httpCode"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/rtbfabric_link#logging_types RtbfabricLink#logging_types}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/rtbfabric_link#logging_types RtbfabricLink#logging_types}.
 	LoggingTypes *[]*string `field:"optional" json:"loggingTypes" yaml:"loggingTypes"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/rtbfabric_link#response_logging_percentage RtbfabricLink#response_logging_percentage}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/rtbfabric_link#response_logging_percentage RtbfabricLink#response_logging_percentage}.
 	ResponseLoggingPercentage *float64 `field:"optional" json:"responseLoggingPercentage" yaml:"responseLoggingPercentage"`
 }
 

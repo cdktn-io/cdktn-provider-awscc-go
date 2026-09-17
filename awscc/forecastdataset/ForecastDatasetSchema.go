@@ -5,7 +5,7 @@ package forecastdataset
 
 
 type ForecastDatasetSchema struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/forecast_dataset#attributes ForecastDataset#attributes}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/forecast_dataset#attributes ForecastDataset#attributes}.
 	Attributes interface{} `field:"optional" json:"attributes" yaml:"attributes"`
 }
 

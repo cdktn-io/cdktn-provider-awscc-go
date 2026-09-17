@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/s3objectlambda_access_point_policy awscc_s3objectlambda_access_point_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/s3objectlambda_access_point_policy awscc_s3objectlambda_access_point_policy}.
 type DataAwsccS3ObjectlambdaAccessPointPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccS3ObjectlambdaAccessPointPolicy) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/s3objectlambda_access_point_policy awscc_s3objectlambda_access_point_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/s3objectlambda_access_point_policy awscc_s3objectlambda_access_point_policy} Data Source.
 func NewDataAwsccS3ObjectlambdaAccessPointPolicy(scope constructs.Construct, id *string, config *DataAwsccS3ObjectlambdaAccessPointPolicyConfig) DataAwsccS3ObjectlambdaAccessPointPolicy {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccS3ObjectlambdaAccessPointPolicy(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/s3objectlambda_access_point_policy awscc_s3objectlambda_access_point_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/s3objectlambda_access_point_policy awscc_s3objectlambda_access_point_policy} Data Source.
 func NewDataAwsccS3ObjectlambdaAccessPointPolicy_Override(d DataAwsccS3ObjectlambdaAccessPointPolicy, scope constructs.Construct, id *string, config *DataAwsccS3ObjectlambdaAccessPointPolicyConfig) {
 	_init_.Initialize()
 

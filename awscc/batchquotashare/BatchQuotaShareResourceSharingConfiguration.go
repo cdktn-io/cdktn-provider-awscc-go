@@ -9,13 +9,13 @@ type BatchQuotaShareResourceSharingConfiguration struct {
 	//
 	// The `RESERVE` strategy allows a quota share to reserve idle capacity for itself. `LEND` configures the share to lend its idle capacity to another share in need of capacity. The `LEND_AND_BORROW` strategy configures the share to borrow idle capacity from an underutilized share, as well as lend to another share.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/batch_quota_share#strategy BatchQuotaShare#strategy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/batch_quota_share#strategy BatchQuotaShare#strategy}
 	Strategy *string `field:"required" json:"strategy" yaml:"strategy"`
 	// The maximum percentage of additional capacity that the quota share can borrow from other shares.
 	//
 	// `BorrowLimit` can only be applied to quota shares with a strategy of `LEND_AND_BORROW`. This value is expressed as a percentage of the quota share's configured CapacityLimits. The `BorrowLimit` is applied uniformly across all capacity units. For example, if the `BorrowLimit` is 200, the quota share can borrow up to 200% of its configured `maxCapacity` for each capacity unit. The default `BorrowLimit` is -1, which indicates unlimited borrowing.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/batch_quota_share#borrow_limit BatchQuotaShare#borrow_limit}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/batch_quota_share#borrow_limit BatchQuotaShare#borrow_limit}
 	BorrowLimit *float64 `field:"optional" json:"borrowLimit" yaml:"borrowLimit"`
 }
 

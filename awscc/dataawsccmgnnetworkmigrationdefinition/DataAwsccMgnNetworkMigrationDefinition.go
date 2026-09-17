@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/mgn_network_migration_definition awscc_mgn_network_migration_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/mgn_network_migration_definition awscc_mgn_network_migration_definition}.
 type DataAwsccMgnNetworkMigrationDefinition interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccMgnNetworkMigrationDefinition) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/mgn_network_migration_definition awscc_mgn_network_migration_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/mgn_network_migration_definition awscc_mgn_network_migration_definition} Data Source.
 func NewDataAwsccMgnNetworkMigrationDefinition(scope constructs.Construct, id *string, config *DataAwsccMgnNetworkMigrationDefinitionConfig) DataAwsccMgnNetworkMigrationDefinition {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccMgnNetworkMigrationDefinition(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/mgn_network_migration_definition awscc_mgn_network_migration_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/mgn_network_migration_definition awscc_mgn_network_migration_definition} Data Source.
 func NewDataAwsccMgnNetworkMigrationDefinition_Override(d DataAwsccMgnNetworkMigrationDefinition, scope constructs.Construct, id *string, config *DataAwsccMgnNetworkMigrationDefinitionConfig) {
 	_init_.Initialize()
 

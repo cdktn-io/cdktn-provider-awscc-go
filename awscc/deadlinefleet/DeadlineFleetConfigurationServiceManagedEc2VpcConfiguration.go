@@ -5,7 +5,7 @@ package deadlinefleet
 
 
 type DeadlineFleetConfigurationServiceManagedEc2VpcConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/deadline_fleet#resource_configuration_arns DeadlineFleet#resource_configuration_arns}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/deadline_fleet#resource_configuration_arns DeadlineFleet#resource_configuration_arns}.
 	ResourceConfigurationArns *[]*string `field:"optional" json:"resourceConfigurationArns" yaml:"resourceConfigurationArns"`
 }
 

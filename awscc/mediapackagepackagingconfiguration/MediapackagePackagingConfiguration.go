@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediapackage_packaging_configuration awscc_mediapackage_packaging_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackage_packaging_configuration awscc_mediapackage_packaging_configuration}.
 type MediapackagePackagingConfiguration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_MediapackagePackagingConfiguration) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediapackage_packaging_configuration awscc_mediapackage_packaging_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackage_packaging_configuration awscc_mediapackage_packaging_configuration} Resource.
 func NewMediapackagePackagingConfiguration(scope constructs.Construct, id *string, config *MediapackagePackagingConfigurationConfig) MediapackagePackagingConfiguration {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewMediapackagePackagingConfiguration(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediapackage_packaging_configuration awscc_mediapackage_packaging_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackage_packaging_configuration awscc_mediapackage_packaging_configuration} Resource.
 func NewMediapackagePackagingConfiguration_Override(m MediapackagePackagingConfiguration, scope constructs.Construct, id *string, config *MediapackagePackagingConfigurationConfig) {
 	_init_.Initialize()
 

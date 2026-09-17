@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric awscc_connect_metric}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric awscc_connect_metric}.
 type ConnectMetric interface {
 	cdktn.TerraformResource
 	Category() *string
@@ -197,15 +197,11 @@ type ConnectMetric interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetDescription()
-	ResetMetricCalculation()
-	ResetName()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetPositiveTrendIndicator()
-	ResetStatus()
 	ResetTags()
-	ResetUnit()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -744,7 +740,7 @@ func (j *jsiiProxy_ConnectMetric) UnitInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric awscc_connect_metric} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric awscc_connect_metric} Resource.
 func NewConnectMetric(scope constructs.Construct, id *string, config *ConnectMetricConfig) ConnectMetric {
 	_init_.Initialize()
 
@@ -762,7 +758,7 @@ func NewConnectMetric(scope constructs.Construct, id *string, config *ConnectMet
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric awscc_connect_metric} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric awscc_connect_metric} Resource.
 func NewConnectMetric_Override(c ConnectMetric, scope constructs.Construct, id *string, config *ConnectMetricConfig) {
 	_init_.Initialize()
 
@@ -1317,22 +1313,6 @@ func (c *jsiiProxy_ConnectMetric) ResetDescription() {
 	)
 }
 
-func (c *jsiiProxy_ConnectMetric) ResetMetricCalculation() {
-	_jsii_.InvokeVoid(
-		c,
-		"resetMetricCalculation",
-		nil, // no parameters
-	)
-}
-
-func (c *jsiiProxy_ConnectMetric) ResetName() {
-	_jsii_.InvokeVoid(
-		c,
-		"resetName",
-		nil, // no parameters
-	)
-}
-
 func (c *jsiiProxy_ConnectMetric) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		c,
@@ -1349,26 +1329,10 @@ func (c *jsiiProxy_ConnectMetric) ResetPositiveTrendIndicator() {
 	)
 }
 
-func (c *jsiiProxy_ConnectMetric) ResetStatus() {
-	_jsii_.InvokeVoid(
-		c,
-		"resetStatus",
-		nil, // no parameters
-	)
-}
-
 func (c *jsiiProxy_ConnectMetric) ResetTags() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetTags",
-		nil, // no parameters
-	)
-}
-
-func (c *jsiiProxy_ConnectMetric) ResetUnit() {
-	_jsii_.InvokeVoid(
-		c,
-		"resetUnit",
 		nil, // no parameters
 	)
 }

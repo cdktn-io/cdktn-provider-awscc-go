@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/fms_policy awscc_fms_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fms_policy awscc_fms_policy}.
 type DataAwsccFmsPolicy interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccFmsPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/fms_policy awscc_fms_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fms_policy awscc_fms_policy} Data Source.
 func NewDataAwsccFmsPolicy(scope constructs.Construct, id *string, config *DataAwsccFmsPolicyConfig) DataAwsccFmsPolicy {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccFmsPolicy(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/fms_policy awscc_fms_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fms_policy awscc_fms_policy} Data Source.
 func NewDataAwsccFmsPolicy_Override(d DataAwsccFmsPolicy, scope constructs.Construct, id *string, config *DataAwsccFmsPolicyConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotfleethub_application awscc_iotfleethub_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotfleethub_application awscc_iotfleethub_application}.
 type DataAwsccIotfleethubApplication interface {
 	cdktn.TerraformDataSource
 	ApplicationArn() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccIotfleethubApplication) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotfleethub_application awscc_iotfleethub_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotfleethub_application awscc_iotfleethub_application} Data Source.
 func NewDataAwsccIotfleethubApplication(scope constructs.Construct, id *string, config *DataAwsccIotfleethubApplicationConfig) DataAwsccIotfleethubApplication {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccIotfleethubApplication(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotfleethub_application awscc_iotfleethub_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotfleethub_application awscc_iotfleethub_application} Data Source.
 func NewDataAwsccIotfleethubApplication_Override(d DataAwsccIotfleethubApplication, scope constructs.Construct, id *string, config *DataAwsccIotfleethubApplicationConfig) {
 	_init_.Initialize()
 

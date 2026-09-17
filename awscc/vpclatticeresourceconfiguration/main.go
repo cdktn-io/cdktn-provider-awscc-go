@@ -116,6 +116,45 @@ func init() {
 		reflect.TypeOf((*VpclatticeResourceConfigurationResourceConfigurationDefinition)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.vpclatticeResourceConfiguration.VpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResource",
+		reflect.TypeOf((*VpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResource)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.vpclatticeResourceConfiguration.VpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResourceOutputReference",
+		reflect.TypeOf((*VpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResourceOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "cidrRanges", GoGetter: "CidrRanges"},
+			_jsii_.MemberProperty{JsiiProperty: "cidrRangesInput", GoGetter: "CidrRangesInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCidrRanges", GoMethod: "ResetCidrRanges"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResourceOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-awscc.vpclatticeResourceConfiguration.VpclatticeResourceConfigurationResourceConfigurationDefinitionDnsResource",
 		reflect.TypeOf((*VpclatticeResourceConfigurationResourceConfigurationDefinitionDnsResource)(nil)).Elem(),
 	)
@@ -163,6 +202,8 @@ func init() {
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arnResource", GoGetter: "ArnResource"},
 			_jsii_.MemberProperty{JsiiProperty: "arnResourceInput", GoGetter: "ArnResourceInput"},
+			_jsii_.MemberProperty{JsiiProperty: "cidrResource", GoGetter: "CidrResource"},
+			_jsii_.MemberProperty{JsiiProperty: "cidrResourceInput", GoGetter: "CidrResourceInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -184,8 +225,10 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "ipResource", GoGetter: "IpResource"},
 			_jsii_.MemberProperty{JsiiProperty: "ipResourceInput", GoGetter: "IpResourceInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putCidrResource", GoMethod: "PutCidrResource"},
 			_jsii_.MemberMethod{JsiiMethod: "putDnsResource", GoMethod: "PutDnsResource"},
 			_jsii_.MemberMethod{JsiiMethod: "resetArnResource", GoMethod: "ResetArnResource"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCidrResource", GoMethod: "ResetCidrResource"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDnsResource", GoMethod: "ResetDnsResource"},
 			_jsii_.MemberMethod{JsiiMethod: "resetIpResource", GoMethod: "ResetIpResource"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},

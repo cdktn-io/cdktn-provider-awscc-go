@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_pipeline awscc_iotsitewise_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline awscc_iotsitewise_pipeline}.
 type IotsitewisePipeline interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -518,7 +518,7 @@ func (j *jsiiProxy_IotsitewisePipeline) WorkspaceNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_pipeline awscc_iotsitewise_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline awscc_iotsitewise_pipeline} Resource.
 func NewIotsitewisePipeline(scope constructs.Construct, id *string, config *IotsitewisePipelineConfig) IotsitewisePipeline {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewIotsitewisePipeline(scope constructs.Construct, id *string, config *Iots
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotsitewise_pipeline awscc_iotsitewise_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline awscc_iotsitewise_pipeline} Resource.
 func NewIotsitewisePipeline_Override(i IotsitewisePipeline, scope constructs.Construct, id *string, config *IotsitewisePipelineConfig) {
 	_init_.Initialize()
 

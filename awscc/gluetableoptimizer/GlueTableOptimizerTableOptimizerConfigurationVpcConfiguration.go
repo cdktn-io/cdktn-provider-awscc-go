@@ -7,7 +7,7 @@ package gluetableoptimizer
 type GlueTableOptimizerTableOptimizerConfigurationVpcConfiguration struct {
 	// The name of the AWS Glue connection used for the VPC for the table optimizer.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/glue_table_optimizer#glue_connection_name GlueTableOptimizer#glue_connection_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_table_optimizer#glue_connection_name GlueTableOptimizer#glue_connection_name}
 	GlueConnectionName *string `field:"optional" json:"glueConnectionName" yaml:"glueConnectionName"`
 }
 

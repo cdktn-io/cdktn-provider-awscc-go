@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cognito_user_pool_user_to_group_attachment awscc_cognito_user_pool_user_to_group_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cognito_user_pool_user_to_group_attachment awscc_cognito_user_pool_user_to_group_attachment}.
 type DataAwsccCognitoUserPoolUserToGroupAttachment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccCognitoUserPoolUserToGroupAttachment) UserPoolId() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cognito_user_pool_user_to_group_attachment awscc_cognito_user_pool_user_to_group_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cognito_user_pool_user_to_group_attachment awscc_cognito_user_pool_user_to_group_attachment} Data Source.
 func NewDataAwsccCognitoUserPoolUserToGroupAttachment(scope constructs.Construct, id *string, config *DataAwsccCognitoUserPoolUserToGroupAttachmentConfig) DataAwsccCognitoUserPoolUserToGroupAttachment {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccCognitoUserPoolUserToGroupAttachment(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cognito_user_pool_user_to_group_attachment awscc_cognito_user_pool_user_to_group_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cognito_user_pool_user_to_group_attachment awscc_cognito_user_pool_user_to_group_attachment} Data Source.
 func NewDataAwsccCognitoUserPoolUserToGroupAttachment_Override(d DataAwsccCognitoUserPoolUserToGroupAttachment, scope constructs.Construct, id *string, config *DataAwsccCognitoUserPoolUserToGroupAttachmentConfig) {
 	_init_.Initialize()
 

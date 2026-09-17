@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/pcaconnectorscep_connectors awscc_pcaconnectorscep_connectors}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/pcaconnectorscep_connectors awscc_pcaconnectorscep_connectors}.
 type DataAwsccPcaconnectorscepConnectors interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccPcaconnectorscepConnectors) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/pcaconnectorscep_connectors awscc_pcaconnectorscep_connectors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/pcaconnectorscep_connectors awscc_pcaconnectorscep_connectors} Data Source.
 func NewDataAwsccPcaconnectorscepConnectors(scope constructs.Construct, id *string, config *DataAwsccPcaconnectorscepConnectorsConfig) DataAwsccPcaconnectorscepConnectors {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccPcaconnectorscepConnectors(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/pcaconnectorscep_connectors awscc_pcaconnectorscep_connectors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/pcaconnectorscep_connectors awscc_pcaconnectorscep_connectors} Data Source.
 func NewDataAwsccPcaconnectorscepConnectors_Override(d DataAwsccPcaconnectorscepConnectors, scope constructs.Construct, id *string, config *DataAwsccPcaconnectorscepConnectorsConfig) {
 	_init_.Initialize()
 

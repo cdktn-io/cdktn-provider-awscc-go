@@ -7,15 +7,15 @@ package sagemakerprocessingjob
 type SagemakerProcessingJobAppSpecification struct {
 	// The container image to be run by the processing job.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_processing_job#image_uri SagemakerProcessingJob#image_uri}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_processing_job#image_uri SagemakerProcessingJob#image_uri}
 	ImageUri *string `field:"required" json:"imageUri" yaml:"imageUri"`
 	// The arguments for a container used to run a processing job.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_processing_job#container_arguments SagemakerProcessingJob#container_arguments}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_processing_job#container_arguments SagemakerProcessingJob#container_arguments}
 	ContainerArguments *[]*string `field:"optional" json:"containerArguments" yaml:"containerArguments"`
 	// The entrypoint for a container used to run a processing job.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_processing_job#container_entrypoint SagemakerProcessingJob#container_entrypoint}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_processing_job#container_entrypoint SagemakerProcessingJob#container_entrypoint}
 	ContainerEntrypoint *[]*string `field:"optional" json:"containerEntrypoint" yaml:"containerEntrypoint"`
 }
 

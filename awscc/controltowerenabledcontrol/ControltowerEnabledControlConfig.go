@@ -24,11 +24,11 @@ type ControltowerEnabledControlConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Arn of the control.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/controltower_enabled_control#control_identifier ControltowerEnabledControl#control_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/controltower_enabled_control#control_identifier ControltowerEnabledControl#control_identifier}
 	ControlIdentifier *string `field:"required" json:"controlIdentifier" yaml:"controlIdentifier"`
 	// Arn for Organizational unit to which the control needs to be applied.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/controltower_enabled_control#target_identifier ControltowerEnabledControl#target_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/controltower_enabled_control#target_identifier ControltowerEnabledControl#target_identifier}
 	TargetIdentifier *string `field:"required" json:"targetIdentifier" yaml:"targetIdentifier"`
 }
 

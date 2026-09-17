@@ -5,9 +5,9 @@ package logsscheduledquery
 
 
 type LogsScheduledQueryTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/logs_scheduled_query#key LogsScheduledQuery#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/logs_scheduled_query#key LogsScheduledQuery#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/logs_scheduled_query#value LogsScheduledQuery#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/logs_scheduled_query#value LogsScheduledQuery#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

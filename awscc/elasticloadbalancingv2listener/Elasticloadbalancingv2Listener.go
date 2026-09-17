@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/elasticloadbalancingv2_listener awscc_elasticloadbalancingv2_listener}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/elasticloadbalancingv2_listener awscc_elasticloadbalancingv2_listener}.
 type Elasticloadbalancingv2Listener interface {
 	cdktn.TerraformResource
 	AlpnPolicy() *[]*string
@@ -604,7 +604,7 @@ func (j *jsiiProxy_Elasticloadbalancingv2Listener) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/elasticloadbalancingv2_listener awscc_elasticloadbalancingv2_listener} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/elasticloadbalancingv2_listener awscc_elasticloadbalancingv2_listener} Resource.
 func NewElasticloadbalancingv2Listener(scope constructs.Construct, id *string, config *Elasticloadbalancingv2ListenerConfig) Elasticloadbalancingv2Listener {
 	_init_.Initialize()
 
@@ -622,7 +622,7 @@ func NewElasticloadbalancingv2Listener(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/elasticloadbalancingv2_listener awscc_elasticloadbalancingv2_listener} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/elasticloadbalancingv2_listener awscc_elasticloadbalancingv2_listener} Resource.
 func NewElasticloadbalancingv2Listener_Override(e Elasticloadbalancingv2Listener, scope constructs.Construct, id *string, config *Elasticloadbalancingv2ListenerConfig) {
 	_init_.Initialize()
 

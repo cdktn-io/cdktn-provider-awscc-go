@@ -7,11 +7,11 @@ package customerprofileseventtrigger
 type CustomerprofilesEventTriggerEventTriggerLimits struct {
 	// Specifies that an event will only trigger the destination if it is processed within a certain latency period.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/customerprofiles_event_trigger#event_expiration CustomerprofilesEventTrigger#event_expiration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/customerprofiles_event_trigger#event_expiration CustomerprofilesEventTrigger#event_expiration}
 	EventExpiration *float64 `field:"optional" json:"eventExpiration" yaml:"eventExpiration"`
 	// A list of time periods during which the limits apply.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/customerprofiles_event_trigger#periods CustomerprofilesEventTrigger#periods}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/customerprofiles_event_trigger#periods CustomerprofilesEventTrigger#periods}
 	Periods interface{} `field:"optional" json:"periods" yaml:"periods"`
 }
 

@@ -9,7 +9,7 @@ type SagemakerDomainDefaultSpaceSettingsSpaceStorageSettings struct {
 	//
 	// Must be provided if storage type is Amazon EBS and must not be provided if storage type is not Amazon EBS
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_domain#default_ebs_storage_settings SagemakerDomain#default_ebs_storage_settings}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_domain#default_ebs_storage_settings SagemakerDomain#default_ebs_storage_settings}
 	DefaultEbsStorageSettings *SagemakerDomainDefaultSpaceSettingsSpaceStorageSettingsDefaultEbsStorageSettings `field:"optional" json:"defaultEbsStorageSettings" yaml:"defaultEbsStorageSettings"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotsitewise_portal awscc_iotsitewise_portal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_portal awscc_iotsitewise_portal}.
 type DataAwsccIotsitewisePortal interface {
 	cdktn.TerraformDataSource
 	Alarms() DataAwsccIotsitewisePortalAlarmsOutputReference
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccIotsitewisePortal) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotsitewise_portal awscc_iotsitewise_portal} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_portal awscc_iotsitewise_portal} Data Source.
 func NewDataAwsccIotsitewisePortal(scope constructs.Construct, id *string, config *DataAwsccIotsitewisePortalConfig) DataAwsccIotsitewisePortal {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccIotsitewisePortal(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotsitewise_portal awscc_iotsitewise_portal} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_portal awscc_iotsitewise_portal} Data Source.
 func NewDataAwsccIotsitewisePortal_Override(d DataAwsccIotsitewisePortal, scope constructs.Construct, id *string, config *DataAwsccIotsitewisePortalConfig) {
 	_init_.Initialize()
 

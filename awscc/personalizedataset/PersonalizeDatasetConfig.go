@@ -24,27 +24,27 @@ type PersonalizeDatasetConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The Amazon Resource Name (ARN) of the dataset group to add the dataset to.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/personalize_dataset#dataset_group_arn PersonalizeDataset#dataset_group_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/personalize_dataset#dataset_group_arn PersonalizeDataset#dataset_group_arn}
 	DatasetGroupArn *string `field:"required" json:"datasetGroupArn" yaml:"datasetGroupArn"`
 	// The type of dataset.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/personalize_dataset#dataset_type PersonalizeDataset#dataset_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/personalize_dataset#dataset_type PersonalizeDataset#dataset_type}
 	DatasetType *string `field:"required" json:"datasetType" yaml:"datasetType"`
 	// The name for the dataset.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/personalize_dataset#name PersonalizeDataset#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/personalize_dataset#name PersonalizeDataset#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The ARN of the schema to associate with the dataset. The schema defines the dataset fields.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/personalize_dataset#schema_arn PersonalizeDataset#schema_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/personalize_dataset#schema_arn PersonalizeDataset#schema_arn}
 	SchemaArn *string `field:"required" json:"schemaArn" yaml:"schemaArn"`
 	// Initial DatasetImportJob for the created dataset.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/personalize_dataset#dataset_import_job PersonalizeDataset#dataset_import_job}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/personalize_dataset#dataset_import_job PersonalizeDataset#dataset_import_job}
 	DatasetImportJob *PersonalizeDatasetDatasetImportJob `field:"optional" json:"datasetImportJob" yaml:"datasetImportJob"`
 	// The tags used to organize, track, or control access for this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/personalize_dataset#tags PersonalizeDataset#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/personalize_dataset#tags PersonalizeDataset#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

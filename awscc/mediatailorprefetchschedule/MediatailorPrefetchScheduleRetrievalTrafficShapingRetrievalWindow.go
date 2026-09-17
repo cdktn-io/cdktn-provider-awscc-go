@@ -7,7 +7,7 @@ package mediatailorprefetchschedule
 type MediatailorPrefetchScheduleRetrievalTrafficShapingRetrievalWindow struct {
 	// The amount of time, in seconds, that MediaTailor spreads prefetch requests to the ADS.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediatailor_prefetch_schedule#retrieval_window_duration_seconds MediatailorPrefetchSchedule#retrieval_window_duration_seconds}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediatailor_prefetch_schedule#retrieval_window_duration_seconds MediatailorPrefetchSchedule#retrieval_window_duration_seconds}
 	RetrievalWindowDurationSeconds *float64 `field:"optional" json:"retrievalWindowDurationSeconds" yaml:"retrievalWindowDurationSeconds"`
 }
 

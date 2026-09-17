@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/identitystore_user awscc_identitystore_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/identitystore_user awscc_identitystore_user}.
 type IdentitystoreUser interface {
 	cdktn.TerraformResource
 	Addresses() IdentitystoreUserAddressesList
@@ -863,7 +863,7 @@ func (j *jsiiProxy_IdentitystoreUser) WebsiteInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/identitystore_user awscc_identitystore_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/identitystore_user awscc_identitystore_user} Resource.
 func NewIdentitystoreUser(scope constructs.Construct, id *string, config *IdentitystoreUserConfig) IdentitystoreUser {
 	_init_.Initialize()
 
@@ -881,7 +881,7 @@ func NewIdentitystoreUser(scope constructs.Construct, id *string, config *Identi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/identitystore_user awscc_identitystore_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/identitystore_user awscc_identitystore_user} Resource.
 func NewIdentitystoreUser_Override(i IdentitystoreUser, scope constructs.Construct, id *string, config *IdentitystoreUserConfig) {
 	_init_.Initialize()
 

@@ -40,6 +40,9 @@ type BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurat
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	ModelConfiguration() *string
+	SetModelConfiguration(val *string)
+	ModelConfigurationInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -79,6 +82,7 @@ type BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurat
 	ResetAudio()
 	ResetDimensions()
 	ResetEmbeddingDataType()
+	ResetModelConfiguration()
 	ResetVideo()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -205,6 +209,26 @@ func (j *jsiiProxy_BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledge
 	return returns
 }
 
+func (j *jsiiProxy_BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationOutputReference) ModelConfiguration() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"modelConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationOutputReference) ModelConfigurationInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"modelConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -324,6 +348,17 @@ func (j *jsiiProxy_BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledge
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationOutputReference)SetModelConfiguration(val *string) {
+	if err := j.validateSetModelConfigurationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"modelConfiguration",
 		val,
 	)
 }
@@ -578,6 +613,14 @@ func (b *jsiiProxy_BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledge
 	_jsii_.InvokeVoid(
 		b,
 		"resetEmbeddingDataType",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockKnowledgeBaseKnowledgeBaseConfigurationVectorKnowledgeBaseConfigurationEmbeddingModelConfigurationBedrockEmbeddingModelConfigurationOutputReference) ResetModelConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetModelConfiguration",
 		nil, // no parameters
 	)
 }

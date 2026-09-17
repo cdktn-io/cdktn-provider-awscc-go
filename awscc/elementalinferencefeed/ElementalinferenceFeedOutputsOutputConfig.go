@@ -5,11 +5,11 @@ package elementalinferencefeed
 
 
 type ElementalinferenceFeedOutputsOutputConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/elementalinference_feed#clipping ElementalinferenceFeed#clipping}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/elementalinference_feed#clipping ElementalinferenceFeed#clipping}.
 	Clipping *ElementalinferenceFeedOutputsOutputConfigClipping `field:"optional" json:"clipping" yaml:"clipping"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/elementalinference_feed#cropping ElementalinferenceFeed#cropping}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/elementalinference_feed#cropping ElementalinferenceFeed#cropping}.
 	Cropping *ElementalinferenceFeedOutputsOutputConfigCropping `field:"optional" json:"cropping" yaml:"cropping"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/elementalinference_feed#subtitling ElementalinferenceFeed#subtitling}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/elementalinference_feed#subtitling ElementalinferenceFeed#subtitling}.
 	Subtitling *ElementalinferenceFeedOutputsOutputConfigSubtitling `field:"optional" json:"subtitling" yaml:"subtitling"`
 }
 

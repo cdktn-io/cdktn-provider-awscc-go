@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_vpcdhcp_options_associations awscc_ec2_vpcdhcp_options_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_vpcdhcp_options_associations awscc_ec2_vpcdhcp_options_associations}.
 type DataAwsccEc2VpcdhcpOptionsAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2VpcdhcpOptionsAssociations) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_vpcdhcp_options_associations awscc_ec2_vpcdhcp_options_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_vpcdhcp_options_associations awscc_ec2_vpcdhcp_options_associations} Data Source.
 func NewDataAwsccEc2VpcdhcpOptionsAssociations(scope constructs.Construct, id *string, config *DataAwsccEc2VpcdhcpOptionsAssociationsConfig) DataAwsccEc2VpcdhcpOptionsAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2VpcdhcpOptionsAssociations(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_vpcdhcp_options_associations awscc_ec2_vpcdhcp_options_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_vpcdhcp_options_associations awscc_ec2_vpcdhcp_options_associations} Data Source.
 func NewDataAwsccEc2VpcdhcpOptionsAssociations_Override(d DataAwsccEc2VpcdhcpOptionsAssociations, scope constructs.Construct, id *string, config *DataAwsccEc2VpcdhcpOptionsAssociationsConfig) {
 	_init_.Initialize()
 

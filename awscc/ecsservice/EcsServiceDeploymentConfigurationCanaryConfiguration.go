@@ -9,13 +9,13 @@ type EcsServiceDeploymentConfigurationCanaryConfiguration struct {
 	//
 	// Valid values are 0 to 1440 minutes (24 hours). The default value is 10.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_service#canary_bake_time_in_minutes EcsService#canary_bake_time_in_minutes}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_service#canary_bake_time_in_minutes EcsService#canary_bake_time_in_minutes}
 	CanaryBakeTimeInMinutes *float64 `field:"optional" json:"canaryBakeTimeInMinutes" yaml:"canaryBakeTimeInMinutes"`
 	// The percentage of production traffic to shift to the new service revision during the canary phase.
 	//
 	// Valid values are multiples of 0.1 from 0.1 to 100.0. The default value is 5.0.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_service#canary_percent EcsService#canary_percent}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_service#canary_percent EcsService#canary_percent}
 	CanaryPercent *float64 `field:"optional" json:"canaryPercent" yaml:"canaryPercent"`
 }
 

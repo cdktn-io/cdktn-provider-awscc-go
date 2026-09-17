@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/appflow_connector_profile awscc_appflow_connector_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/appflow_connector_profile awscc_appflow_connector_profile}.
 type DataAwsccAppflowConnectorProfile interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccAppflowConnectorProfile) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/appflow_connector_profile awscc_appflow_connector_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/appflow_connector_profile awscc_appflow_connector_profile} Data Source.
 func NewDataAwsccAppflowConnectorProfile(scope constructs.Construct, id *string, config *DataAwsccAppflowConnectorProfileConfig) DataAwsccAppflowConnectorProfile {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccAppflowConnectorProfile(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/appflow_connector_profile awscc_appflow_connector_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/appflow_connector_profile awscc_appflow_connector_profile} Data Source.
 func NewDataAwsccAppflowConnectorProfile_Override(d DataAwsccAppflowConnectorProfile, scope constructs.Construct, id *string, config *DataAwsccAppflowConnectorProfileConfig) {
 	_init_.Initialize()
 

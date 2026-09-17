@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lightsail_container awscc_lightsail_container}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lightsail_container awscc_lightsail_container}.
 type LightsailContainer interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -577,7 +577,7 @@ func (j *jsiiProxy_LightsailContainer) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lightsail_container awscc_lightsail_container} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lightsail_container awscc_lightsail_container} Resource.
 func NewLightsailContainer(scope constructs.Construct, id *string, config *LightsailContainerConfig) LightsailContainer {
 	_init_.Initialize()
 
@@ -595,7 +595,7 @@ func NewLightsailContainer(scope constructs.Construct, id *string, config *Light
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lightsail_container awscc_lightsail_container} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lightsail_container awscc_lightsail_container} Resource.
 func NewLightsailContainer_Override(l LightsailContainer, scope constructs.Construct, id *string, config *LightsailContainerConfig) {
 	_init_.Initialize()
 

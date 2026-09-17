@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ecr_registry_scanning_configuration awscc_ecr_registry_scanning_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ecr_registry_scanning_configuration awscc_ecr_registry_scanning_configuration}.
 type DataAwsccEcrRegistryScanningConfiguration interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccEcrRegistryScanningConfiguration) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ecr_registry_scanning_configuration awscc_ecr_registry_scanning_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ecr_registry_scanning_configuration awscc_ecr_registry_scanning_configuration} Data Source.
 func NewDataAwsccEcrRegistryScanningConfiguration(scope constructs.Construct, id *string, config *DataAwsccEcrRegistryScanningConfigurationConfig) DataAwsccEcrRegistryScanningConfiguration {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccEcrRegistryScanningConfiguration(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ecr_registry_scanning_configuration awscc_ecr_registry_scanning_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ecr_registry_scanning_configuration awscc_ecr_registry_scanning_configuration} Data Source.
 func NewDataAwsccEcrRegistryScanningConfiguration_Override(d DataAwsccEcrRegistryScanningConfiguration, scope constructs.Construct, id *string, config *DataAwsccEcrRegistryScanningConfigurationConfig) {
 	_init_.Initialize()
 

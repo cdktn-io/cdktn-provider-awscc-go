@@ -5,15 +5,15 @@ package opensearchservicedomain
 
 
 type OpensearchserviceDomainEbsOptions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/opensearchservice_domain#ebs_enabled OpensearchserviceDomain#ebs_enabled}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/opensearchservice_domain#ebs_enabled OpensearchserviceDomain#ebs_enabled}.
 	EbsEnabled interface{} `field:"optional" json:"ebsEnabled" yaml:"ebsEnabled"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/opensearchservice_domain#iops OpensearchserviceDomain#iops}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/opensearchservice_domain#iops OpensearchserviceDomain#iops}.
 	Iops *float64 `field:"optional" json:"iops" yaml:"iops"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/opensearchservice_domain#throughput OpensearchserviceDomain#throughput}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/opensearchservice_domain#throughput OpensearchserviceDomain#throughput}.
 	Throughput *float64 `field:"optional" json:"throughput" yaml:"throughput"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/opensearchservice_domain#volume_size OpensearchserviceDomain#volume_size}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/opensearchservice_domain#volume_size OpensearchserviceDomain#volume_size}.
 	VolumeSize *float64 `field:"optional" json:"volumeSize" yaml:"volumeSize"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/opensearchservice_domain#volume_type OpensearchserviceDomain#volume_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/opensearchservice_domain#volume_type OpensearchserviceDomain#volume_type}.
 	VolumeType *string `field:"optional" json:"volumeType" yaml:"volumeType"`
 }
 

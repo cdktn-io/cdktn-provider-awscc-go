@@ -22,17 +22,17 @@ type IamServerCertificateConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iam_server_certificate#certificate_body IamServerCertificate#certificate_body}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iam_server_certificate#certificate_body IamServerCertificate#certificate_body}.
 	CertificateBody *string `field:"optional" json:"certificateBody" yaml:"certificateBody"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iam_server_certificate#certificate_chain IamServerCertificate#certificate_chain}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iam_server_certificate#certificate_chain IamServerCertificate#certificate_chain}.
 	CertificateChain *string `field:"optional" json:"certificateChain" yaml:"certificateChain"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iam_server_certificate#path IamServerCertificate#path}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iam_server_certificate#path IamServerCertificate#path}.
 	Path *string `field:"optional" json:"path" yaml:"path"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iam_server_certificate#private_key IamServerCertificate#private_key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iam_server_certificate#private_key IamServerCertificate#private_key}.
 	PrivateKey *string `field:"optional" json:"privateKey" yaml:"privateKey"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iam_server_certificate#server_certificate_name IamServerCertificate#server_certificate_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iam_server_certificate#server_certificate_name IamServerCertificate#server_certificate_name}.
 	ServerCertificateName *string `field:"optional" json:"serverCertificateName" yaml:"serverCertificateName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iam_server_certificate#tags IamServerCertificate#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iam_server_certificate#tags IamServerCertificate#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

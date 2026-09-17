@@ -7,11 +7,11 @@ package datazonesubscriptiontarget
 type DatazoneSubscriptionTargetSubscriptionTargetConfig struct {
 	// The content of the subscription target configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_subscription_target#content DatazoneSubscriptionTarget#content}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datazone_subscription_target#content DatazoneSubscriptionTarget#content}
 	Content *string `field:"required" json:"content" yaml:"content"`
 	// The form name included in the subscription target configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_subscription_target#form_name DatazoneSubscriptionTarget#form_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datazone_subscription_target#form_name DatazoneSubscriptionTarget#form_name}
 	FormName *string `field:"required" json:"formName" yaml:"formName"`
 }
 

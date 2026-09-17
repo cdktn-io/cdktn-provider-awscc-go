@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/shield_protection awscc_shield_protection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/shield_protection awscc_shield_protection}.
 type ShieldProtection interface {
 	cdktn.TerraformResource
 	ApplicationLayerAutomaticResponseConfiguration() ShieldProtectionApplicationLayerAutomaticResponseConfigurationOutputReference
@@ -495,7 +495,7 @@ func (j *jsiiProxy_ShieldProtection) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/shield_protection awscc_shield_protection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/shield_protection awscc_shield_protection} Resource.
 func NewShieldProtection(scope constructs.Construct, id *string, config *ShieldProtectionConfig) ShieldProtection {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewShieldProtection(scope constructs.Construct, id *string, config *ShieldP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/shield_protection awscc_shield_protection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/shield_protection awscc_shield_protection} Resource.
 func NewShieldProtection_Override(s ShieldProtection, scope constructs.Construct, id *string, config *ShieldProtectionConfig) {
 	_init_.Initialize()
 

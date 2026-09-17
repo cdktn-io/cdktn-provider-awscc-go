@@ -24,11 +24,11 @@ type SsmServiceSettingConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID of the service setting, such as /ssm/parameter-store/high-throughput-enabled.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ssm_service_setting#setting_id SsmServiceSetting#setting_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ssm_service_setting#setting_id SsmServiceSetting#setting_id}
 	SettingId *string `field:"required" json:"settingId" yaml:"settingId"`
 	// The value of the service setting.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ssm_service_setting#setting_value SsmServiceSetting#setting_value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ssm_service_setting#setting_value SsmServiceSetting#setting_value}
 	SettingValue *string `field:"required" json:"settingValue" yaml:"settingValue"`
 }
 

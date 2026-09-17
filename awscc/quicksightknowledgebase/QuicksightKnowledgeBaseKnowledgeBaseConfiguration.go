@@ -5,7 +5,7 @@ package quicksightknowledgebase
 
 
 type QuicksightKnowledgeBaseKnowledgeBaseConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_knowledge_base#template_configuration QuicksightKnowledgeBase#template_configuration}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_knowledge_base#template_configuration QuicksightKnowledgeBase#template_configuration}.
 	TemplateConfiguration *QuicksightKnowledgeBaseKnowledgeBaseConfigurationTemplateConfiguration `field:"optional" json:"templateConfiguration" yaml:"templateConfiguration"`
 }
 

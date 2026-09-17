@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cognito_user_pool_regional_configuration_attachment awscc_cognito_user_pool_regional_configuration_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cognito_user_pool_regional_configuration_attachment awscc_cognito_user_pool_regional_configuration_attachment}.
 type CognitoUserPoolRegionalConfigurationAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -498,7 +498,7 @@ func (j *jsiiProxy_CognitoUserPoolRegionalConfigurationAttachment) UserPoolTagsI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cognito_user_pool_regional_configuration_attachment awscc_cognito_user_pool_regional_configuration_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cognito_user_pool_regional_configuration_attachment awscc_cognito_user_pool_regional_configuration_attachment} Resource.
 func NewCognitoUserPoolRegionalConfigurationAttachment(scope constructs.Construct, id *string, config *CognitoUserPoolRegionalConfigurationAttachmentConfig) CognitoUserPoolRegionalConfigurationAttachment {
 	_init_.Initialize()
 
@@ -516,7 +516,7 @@ func NewCognitoUserPoolRegionalConfigurationAttachment(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cognito_user_pool_regional_configuration_attachment awscc_cognito_user_pool_regional_configuration_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cognito_user_pool_regional_configuration_attachment awscc_cognito_user_pool_regional_configuration_attachment} Resource.
 func NewCognitoUserPoolRegionalConfigurationAttachment_Override(c CognitoUserPoolRegionalConfigurationAttachment, scope constructs.Construct, id *string, config *CognitoUserPoolRegionalConfigurationAttachmentConfig) {
 	_init_.Initialize()
 

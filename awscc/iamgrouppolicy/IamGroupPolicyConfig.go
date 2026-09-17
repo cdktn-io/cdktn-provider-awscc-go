@@ -26,13 +26,13 @@ type IamGroupPolicyConfig struct {
 	//
 	// This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iam_group_policy#group_name IamGroupPolicy#group_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iam_group_policy#group_name IamGroupPolicy#group_name}
 	GroupName *string `field:"required" json:"groupName" yaml:"groupName"`
 	// The name of the policy document.
 	//
 	// This parameter allows (through its [regex pattern](https://docs.aws.amazon.com/http://wikipedia.org/wiki/regex)) a string of characters consisting of upper and lowercase alphanumeric characters with no spaces. You can also include any of the following characters: _+=,.@-
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iam_group_policy#policy_name IamGroupPolicy#policy_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iam_group_policy#policy_name IamGroupPolicy#policy_name}
 	PolicyName *string `field:"required" json:"policyName" yaml:"policyName"`
 	// The policy document.
 	//
@@ -42,7 +42,7 @@ type IamGroupPolicyConfig struct {
 	//   +  The printable characters in the Basic Latin and Latin-1 Supplement character set (through ``\u00FF``)
 	//   +  The special characters tab (``\u0009``), line feed (``\u000A``), and carriage return (``\u000D``)
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iam_group_policy#policy_document IamGroupPolicy#policy_document}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iam_group_policy#policy_document IamGroupPolicy#policy_document}
 	PolicyDocument *string `field:"optional" json:"policyDocument" yaml:"policyDocument"`
 }
 

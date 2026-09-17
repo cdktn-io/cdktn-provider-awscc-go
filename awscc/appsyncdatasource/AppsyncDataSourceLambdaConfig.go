@@ -7,7 +7,7 @@ package appsyncdatasource
 type AppsyncDataSourceLambdaConfig struct {
 	// The ARN for the Lambda function.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appsync_data_source#lambda_function_arn AppsyncDataSource#lambda_function_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/appsync_data_source#lambda_function_arn AppsyncDataSource#lambda_function_arn}
 	LambdaFunctionArn *string `field:"optional" json:"lambdaFunctionArn" yaml:"lambdaFunctionArn"`
 }
 

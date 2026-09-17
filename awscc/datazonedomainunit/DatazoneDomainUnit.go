@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_domain_unit awscc_datazone_domain_unit}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datazone_domain_unit awscc_datazone_domain_unit}.
 type DatazoneDomainUnit interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -514,7 +514,7 @@ func (j *jsiiProxy_DatazoneDomainUnit) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_domain_unit awscc_datazone_domain_unit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datazone_domain_unit awscc_datazone_domain_unit} Resource.
 func NewDatazoneDomainUnit(scope constructs.Construct, id *string, config *DatazoneDomainUnitConfig) DatazoneDomainUnit {
 	_init_.Initialize()
 
@@ -532,7 +532,7 @@ func NewDatazoneDomainUnit(scope constructs.Construct, id *string, config *Dataz
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_domain_unit awscc_datazone_domain_unit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datazone_domain_unit awscc_datazone_domain_unit} Resource.
 func NewDatazoneDomainUnit_Override(d DatazoneDomainUnit, scope constructs.Construct, id *string, config *DatazoneDomainUnitConfig) {
 	_init_.Initialize()
 

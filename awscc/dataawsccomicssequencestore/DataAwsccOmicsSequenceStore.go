@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/omics_sequence_store awscc_omics_sequence_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/omics_sequence_store awscc_omics_sequence_store}.
 type DataAwsccOmicsSequenceStore interface {
 	cdktn.TerraformDataSource
 	AccessLogLocation() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccOmicsSequenceStore) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/omics_sequence_store awscc_omics_sequence_store} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/omics_sequence_store awscc_omics_sequence_store} Data Source.
 func NewDataAwsccOmicsSequenceStore(scope constructs.Construct, id *string, config *DataAwsccOmicsSequenceStoreConfig) DataAwsccOmicsSequenceStore {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccOmicsSequenceStore(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/omics_sequence_store awscc_omics_sequence_store} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/omics_sequence_store awscc_omics_sequence_store} Data Source.
 func NewDataAwsccOmicsSequenceStore_Override(d DataAwsccOmicsSequenceStore, scope constructs.Construct, id *string, config *DataAwsccOmicsSequenceStoreConfig) {
 	_init_.Initialize()
 

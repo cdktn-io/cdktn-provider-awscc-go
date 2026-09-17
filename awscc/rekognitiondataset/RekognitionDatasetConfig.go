@@ -24,15 +24,15 @@ type RekognitionDatasetConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The type of the dataset. Specify TRAIN to create a training dataset. Specify TEST to create a test dataset.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/rekognition_dataset#dataset_type RekognitionDataset#dataset_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/rekognition_dataset#dataset_type RekognitionDataset#dataset_type}
 	DatasetType *string `field:"required" json:"datasetType" yaml:"datasetType"`
 	// The ARN of the project to which the dataset belongs.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/rekognition_dataset#project_arn RekognitionDataset#project_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/rekognition_dataset#project_arn RekognitionDataset#project_arn}
 	ProjectArn *string `field:"optional" json:"projectArn" yaml:"projectArn"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/rekognition_dataset#tags RekognitionDataset#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/rekognition_dataset#tags RekognitionDataset#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

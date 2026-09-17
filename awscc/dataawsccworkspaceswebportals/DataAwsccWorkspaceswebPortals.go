@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/workspacesweb_portals awscc_workspacesweb_portals}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/workspacesweb_portals awscc_workspacesweb_portals}.
 type DataAwsccWorkspaceswebPortals interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccWorkspaceswebPortals) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/workspacesweb_portals awscc_workspacesweb_portals} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/workspacesweb_portals awscc_workspacesweb_portals} Data Source.
 func NewDataAwsccWorkspaceswebPortals(scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebPortalsConfig) DataAwsccWorkspaceswebPortals {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccWorkspaceswebPortals(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/workspacesweb_portals awscc_workspacesweb_portals} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/workspacesweb_portals awscc_workspacesweb_portals} Data Source.
 func NewDataAwsccWorkspaceswebPortals_Override(d DataAwsccWorkspaceswebPortals, scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebPortalsConfig) {
 	_init_.Initialize()
 

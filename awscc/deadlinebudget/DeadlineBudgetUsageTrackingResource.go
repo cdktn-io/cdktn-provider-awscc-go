@@ -7,7 +7,7 @@ package deadlinebudget
 type DeadlineBudgetUsageTrackingResource struct {
 	// The queue ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/deadline_budget#queue_id DeadlineBudget#queue_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/deadline_budget#queue_id DeadlineBudget#queue_id}
 	QueueId *string `field:"required" json:"queueId" yaml:"queueId"`
 }
 

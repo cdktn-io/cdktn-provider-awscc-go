@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/imagebuilder_component awscc_imagebuilder_component}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/imagebuilder_component awscc_imagebuilder_component}.
 type ImagebuilderComponent interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -636,7 +636,7 @@ func (j *jsiiProxy_ImagebuilderComponent) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/imagebuilder_component awscc_imagebuilder_component} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/imagebuilder_component awscc_imagebuilder_component} Resource.
 func NewImagebuilderComponent(scope constructs.Construct, id *string, config *ImagebuilderComponentConfig) ImagebuilderComponent {
 	_init_.Initialize()
 
@@ -654,7 +654,7 @@ func NewImagebuilderComponent(scope constructs.Construct, id *string, config *Im
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/imagebuilder_component awscc_imagebuilder_component} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/imagebuilder_component awscc_imagebuilder_component} Resource.
 func NewImagebuilderComponent_Override(i ImagebuilderComponent, scope constructs.Construct, id *string, config *ImagebuilderComponentConfig) {
 	_init_.Initialize()
 

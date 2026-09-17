@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment}.
 type NetworkmanagerDirectConnectGatewayAttachment interface {
 	cdktn.TerraformResource
 	AttachmentId() *string
@@ -64,9 +64,7 @@ type NetworkmanagerDirectConnectGatewayAttachment interface {
 	Node() constructs.Node
 	OwnerAccountId() *string
 	ProposedNetworkFunctionGroupChange() NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChangeOutputReference
-	ProposedNetworkFunctionGroupChangeInput() interface{}
 	ProposedSegmentChange() NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeOutputReference
-	ProposedSegmentChangeInput() interface{}
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -171,8 +169,6 @@ type NetworkmanagerDirectConnectGatewayAttachment interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
-	PutProposedNetworkFunctionGroupChange(value *NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChange)
-	PutProposedSegmentChange(value *NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChange)
 	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -190,8 +186,6 @@ type NetworkmanagerDirectConnectGatewayAttachment interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
-	ResetProposedNetworkFunctionGroupChange()
-	ResetProposedSegmentChange()
 	ResetRoutingPolicyLabel()
 	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
@@ -481,31 +475,11 @@ func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) ProposedNetwork
 	return returns
 }
 
-func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) ProposedNetworkFunctionGroupChangeInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"proposedNetworkFunctionGroupChangeInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) ProposedSegmentChange() NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeOutputReference {
 	var returns NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeOutputReference
 	_jsii_.Get(
 		j,
 		"proposedSegmentChange",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) ProposedSegmentChangeInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"proposedSegmentChangeInput",
 		&returns,
 	)
 	return returns
@@ -652,7 +626,7 @@ func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) UpdatedAt() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment} Resource.
 func NewNetworkmanagerDirectConnectGatewayAttachment(scope constructs.Construct, id *string, config *NetworkmanagerDirectConnectGatewayAttachmentConfig) NetworkmanagerDirectConnectGatewayAttachment {
 	_init_.Initialize()
 
@@ -670,7 +644,7 @@ func NewNetworkmanagerDirectConnectGatewayAttachment(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/networkmanager_direct_connect_gateway_attachment awscc_networkmanager_direct_connect_gateway_attachment} Resource.
 func NewNetworkmanagerDirectConnectGatewayAttachment_Override(n NetworkmanagerDirectConnectGatewayAttachment, scope constructs.Construct, id *string, config *NetworkmanagerDirectConnectGatewayAttachmentConfig) {
 	_init_.Initialize()
 
@@ -1162,28 +1136,6 @@ func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) OverrideLogical
 	)
 }
 
-func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) PutProposedNetworkFunctionGroupChange(value *NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChange) {
-	if err := n.validatePutProposedNetworkFunctionGroupChangeParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		n,
-		"putProposedNetworkFunctionGroupChange",
-		[]interface{}{value},
-	)
-}
-
-func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) PutProposedSegmentChange(value *NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChange) {
-	if err := n.validatePutProposedSegmentChangeParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		n,
-		"putProposedSegmentChange",
-		[]interface{}{value},
-	)
-}
-
 func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) PutTags(value interface{}) {
 	if err := n.validatePutTagsParameters(value); err != nil {
 		panic(err)
@@ -1210,22 +1162,6 @@ func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) ResetOverrideLo
 	_jsii_.InvokeVoid(
 		n,
 		"resetOverrideLogicalId",
-		nil, // no parameters
-	)
-}
-
-func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) ResetProposedNetworkFunctionGroupChange() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetProposedNetworkFunctionGroupChange",
-		nil, // no parameters
-	)
-}
-
-func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) ResetProposedSegmentChange() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetProposedSegmentChange",
 		nil, // no parameters
 	)
 }

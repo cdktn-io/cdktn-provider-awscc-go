@@ -7,7 +7,7 @@ package cloudfronttruststore
 type CloudfrontTrustStoreCaCertificatesBundleSource struct {
 	// The CA certificates bundle location in Amazon S3.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudfront_trust_store#ca_certificates_bundle_s3_location CloudfrontTrustStore#ca_certificates_bundle_s3_location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudfront_trust_store#ca_certificates_bundle_s3_location CloudfrontTrustStore#ca_certificates_bundle_s3_location}
 	CaCertificatesBundleS3Location *CloudfrontTrustStoreCaCertificatesBundleSourceCaCertificatesBundleS3Location `field:"optional" json:"caCertificatesBundleS3Location" yaml:"caCertificatesBundleS3Location"`
 }
 

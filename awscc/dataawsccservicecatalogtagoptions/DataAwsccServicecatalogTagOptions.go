@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/servicecatalog_tag_options awscc_servicecatalog_tag_options}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/servicecatalog_tag_options awscc_servicecatalog_tag_options}.
 type DataAwsccServicecatalogTagOptions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccServicecatalogTagOptions) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/servicecatalog_tag_options awscc_servicecatalog_tag_options} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/servicecatalog_tag_options awscc_servicecatalog_tag_options} Data Source.
 func NewDataAwsccServicecatalogTagOptions(scope constructs.Construct, id *string, config *DataAwsccServicecatalogTagOptionsConfig) DataAwsccServicecatalogTagOptions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccServicecatalogTagOptions(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/servicecatalog_tag_options awscc_servicecatalog_tag_options} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/servicecatalog_tag_options awscc_servicecatalog_tag_options} Data Source.
 func NewDataAwsccServicecatalogTagOptions_Override(d DataAwsccServicecatalogTagOptions, scope constructs.Construct, id *string, config *DataAwsccServicecatalogTagOptionsConfig) {
 	_init_.Initialize()
 

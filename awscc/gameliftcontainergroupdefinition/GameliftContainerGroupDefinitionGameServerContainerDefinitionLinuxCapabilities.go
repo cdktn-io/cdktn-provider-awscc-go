@@ -7,7 +7,7 @@ package gameliftcontainergroupdefinition
 type GameliftContainerGroupDefinitionGameServerContainerDefinitionLinuxCapabilities struct {
 	// The list of Linux capabilities to add to the container's default configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/gamelift_container_group_definition#include GameliftContainerGroupDefinition#include}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/gamelift_container_group_definition#include GameliftContainerGroupDefinition#include}
 	Include *[]*string `field:"optional" json:"include" yaml:"include"`
 }
 

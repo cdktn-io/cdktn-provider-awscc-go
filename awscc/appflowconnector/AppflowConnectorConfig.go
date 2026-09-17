@@ -24,19 +24,19 @@ type AppflowConnectorConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Contains information about the configuration of the connector being registered.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appflow_connector#connector_provisioning_config AppflowConnector#connector_provisioning_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/appflow_connector#connector_provisioning_config AppflowConnector#connector_provisioning_config}
 	ConnectorProvisioningConfig *AppflowConnectorConnectorProvisioningConfig `field:"required" json:"connectorProvisioningConfig" yaml:"connectorProvisioningConfig"`
 	// The provisioning type of the connector. Currently the only supported value is LAMBDA.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appflow_connector#connector_provisioning_type AppflowConnector#connector_provisioning_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/appflow_connector#connector_provisioning_type AppflowConnector#connector_provisioning_type}
 	ConnectorProvisioningType *string `field:"required" json:"connectorProvisioningType" yaml:"connectorProvisioningType"`
 	// The name of the connector. The name is unique for each ConnectorRegistration in your AWS account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appflow_connector#connector_label AppflowConnector#connector_label}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/appflow_connector#connector_label AppflowConnector#connector_label}
 	ConnectorLabel *string `field:"optional" json:"connectorLabel" yaml:"connectorLabel"`
 	// A description about the connector that's being registered.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appflow_connector#description AppflowConnector#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/appflow_connector#description AppflowConnector#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 }
 

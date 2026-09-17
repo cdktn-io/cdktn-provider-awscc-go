@@ -5,9 +5,9 @@ package ecscapacityprovider
 
 
 type EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateNetworkConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_capacity_provider#security_groups EcsCapacityProvider#security_groups}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_capacity_provider#security_groups EcsCapacityProvider#security_groups}.
 	SecurityGroups *[]*string `field:"optional" json:"securityGroups" yaml:"securityGroups"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_capacity_provider#subnets EcsCapacityProvider#subnets}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_capacity_provider#subnets EcsCapacityProvider#subnets}.
 	Subnets *[]*string `field:"optional" json:"subnets" yaml:"subnets"`
 }
 

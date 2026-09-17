@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudformation_hook_type_config awscc_cloudformation_hook_type_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudformation_hook_type_config awscc_cloudformation_hook_type_config}.
 type DataAwsccCloudformationHookTypeConfig interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccCloudformationHookTypeConfig) TypeName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudformation_hook_type_config awscc_cloudformation_hook_type_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudformation_hook_type_config awscc_cloudformation_hook_type_config} Data Source.
 func NewDataAwsccCloudformationHookTypeConfig(scope constructs.Construct, id *string, config *DataAwsccCloudformationHookTypeConfigConfig) DataAwsccCloudformationHookTypeConfig {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccCloudformationHookTypeConfig(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudformation_hook_type_config awscc_cloudformation_hook_type_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudformation_hook_type_config awscc_cloudformation_hook_type_config} Data Source.
 func NewDataAwsccCloudformationHookTypeConfig_Override(d DataAwsccCloudformationHookTypeConfig, scope constructs.Construct, id *string, config *DataAwsccCloudformationHookTypeConfigConfig) {
 	_init_.Initialize()
 

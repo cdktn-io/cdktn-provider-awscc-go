@@ -24,15 +24,15 @@ type GlueSchemaVersionMetadataConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Metadata key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/glue_schema_version_metadata#key GlueSchemaVersionMetadata#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_schema_version_metadata#key GlueSchemaVersionMetadata#key}
 	Key *string `field:"required" json:"key" yaml:"key"`
 	// Represents the version ID associated with the schema version.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/glue_schema_version_metadata#schema_version_id GlueSchemaVersionMetadata#schema_version_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_schema_version_metadata#schema_version_id GlueSchemaVersionMetadata#schema_version_id}
 	SchemaVersionId *string `field:"required" json:"schemaVersionId" yaml:"schemaVersionId"`
 	// Metadata value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/glue_schema_version_metadata#value GlueSchemaVersionMetadata#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_schema_version_metadata#value GlueSchemaVersionMetadata#value}
 	Value *string `field:"required" json:"value" yaml:"value"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_transit_gateway_multicast_domain_association awscc_ec2_transit_gateway_multicast_domain_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_transit_gateway_multicast_domain_association awscc_ec2_transit_gateway_multicast_domain_association}.
 type DataAwsccEc2TransitGatewayMulticastDomainAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccEc2TransitGatewayMulticastDomainAssociation) Transit
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_transit_gateway_multicast_domain_association awscc_ec2_transit_gateway_multicast_domain_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_transit_gateway_multicast_domain_association awscc_ec2_transit_gateway_multicast_domain_association} Data Source.
 func NewDataAwsccEc2TransitGatewayMulticastDomainAssociation(scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayMulticastDomainAssociationConfig) DataAwsccEc2TransitGatewayMulticastDomainAssociation {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccEc2TransitGatewayMulticastDomainAssociation(scope constructs.Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_transit_gateway_multicast_domain_association awscc_ec2_transit_gateway_multicast_domain_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_transit_gateway_multicast_domain_association awscc_ec2_transit_gateway_multicast_domain_association} Data Source.
 func NewDataAwsccEc2TransitGatewayMulticastDomainAssociation_Override(d DataAwsccEc2TransitGatewayMulticastDomainAssociation, scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayMulticastDomainAssociationConfig) {
 	_init_.Initialize()
 

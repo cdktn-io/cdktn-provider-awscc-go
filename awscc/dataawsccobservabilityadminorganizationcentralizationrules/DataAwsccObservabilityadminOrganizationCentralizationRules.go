@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/observabilityadmin_organization_centralization_rules awscc_observabilityadmin_organization_centralization_rules}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/observabilityadmin_organization_centralization_rules awscc_observabilityadmin_organization_centralization_rules}.
 type DataAwsccObservabilityadminOrganizationCentralizationRules interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccObservabilityadminOrganizationCentralizationRules) T
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/observabilityadmin_organization_centralization_rules awscc_observabilityadmin_organization_centralization_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/observabilityadmin_organization_centralization_rules awscc_observabilityadmin_organization_centralization_rules} Data Source.
 func NewDataAwsccObservabilityadminOrganizationCentralizationRules(scope constructs.Construct, id *string, config *DataAwsccObservabilityadminOrganizationCentralizationRulesConfig) DataAwsccObservabilityadminOrganizationCentralizationRules {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccObservabilityadminOrganizationCentralizationRules(scope constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/observabilityadmin_organization_centralization_rules awscc_observabilityadmin_organization_centralization_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/observabilityadmin_organization_centralization_rules awscc_observabilityadmin_organization_centralization_rules} Data Source.
 func NewDataAwsccObservabilityadminOrganizationCentralizationRules_Override(d DataAwsccObservabilityadminOrganizationCentralizationRules, scope constructs.Construct, id *string, config *DataAwsccObservabilityadminOrganizationCentralizationRulesConfig) {
 	_init_.Initialize()
 

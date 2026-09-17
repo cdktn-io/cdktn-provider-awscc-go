@@ -59,11 +59,7 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChange
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference) validateSetInternalValueParameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference) validateSetKeyParameters(val *string) error {
+func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference) validateSetInternalValueParameters(val *NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTags) error {
 	return nil
 }
 
@@ -72,10 +68,6 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChange
 }
 
 func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
-	return nil
-}
-
-func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference) validateSetValueParameters(val *string) error {
 	return nil
 }
 

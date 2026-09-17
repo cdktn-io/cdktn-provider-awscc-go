@@ -111,6 +111,10 @@ func (j *jsiiProxy_NotificationsManagedNotificationAccountContactAssociation) va
 	return nil
 }
 
+func (j *jsiiProxy_NotificationsManagedNotificationAccountContactAssociation) validateSetIsSensitiveEventsSubscribedParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_NotificationsManagedNotificationAccountContactAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

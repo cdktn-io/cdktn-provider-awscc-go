@@ -11,17 +11,17 @@ type QuicksightDataSourceCredentials struct {
 	//             data source in the ARN is used as the credentials for the
 	//             <code>DataSourceCredentials</code> structure.</p>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_data_source#copy_source_arn QuicksightDataSource#copy_source_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_data_source#copy_source_arn QuicksightDataSource#copy_source_arn}
 	CopySourceArn *string `field:"optional" json:"copySourceArn" yaml:"copySourceArn"`
 	// <p>The combination of user name and password that are used as credentials.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_data_source#credential_pair QuicksightDataSource#credential_pair}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_data_source#credential_pair QuicksightDataSource#credential_pair}
 	CredentialPair *QuicksightDataSourceCredentialsCredentialPair `field:"optional" json:"credentialPair" yaml:"credentialPair"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_data_source#key_pair_credentials QuicksightDataSource#key_pair_credentials}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_data_source#key_pair_credentials QuicksightDataSource#key_pair_credentials}.
 	KeyPairCredentials *QuicksightDataSourceCredentialsKeyPairCredentials `field:"optional" json:"keyPairCredentials" yaml:"keyPairCredentials"`
 	// <p>The Amazon Resource Name (ARN) of the secret associated with the data source in Amazon Secrets Manager.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_data_source#secret_arn QuicksightDataSource#secret_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_data_source#secret_arn QuicksightDataSource#secret_arn}
 	SecretArn *string `field:"optional" json:"secretArn" yaml:"secretArn"`
 }
 

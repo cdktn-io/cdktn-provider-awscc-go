@@ -30,11 +30,9 @@ type NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTags
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
-	InternalValue() interface{}
-	SetInternalValue(val interface{})
+	InternalValue() *NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTags
+	SetInternalValue(val *NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTags)
 	Key() *string
-	SetKey(val *string)
-	KeyInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -44,8 +42,6 @@ type NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTags
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Value() *string
-	SetValue(val *string)
-	ValueInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -70,8 +66,6 @@ type NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTags
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	ResetKey()
-	ResetValue()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -127,8 +121,8 @@ func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionG
 	return returns
 }
 
-func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference) InternalValue() interface{} {
-	var returns interface{}
+func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference) InternalValue() *NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTags {
+	var returns *NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTags
 	_jsii_.Get(
 		j,
 		"internalValue",
@@ -142,16 +136,6 @@ func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionG
 	_jsii_.Get(
 		j,
 		"key",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference) KeyInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"keyInput",
 		&returns,
 	)
 	return returns
@@ -182,16 +166,6 @@ func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionG
 	_jsii_.Get(
 		j,
 		"value",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference) ValueInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"valueInput",
 		&returns,
 	)
 	return returns
@@ -247,24 +221,13 @@ func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionG
 	)
 }
 
-func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference)SetInternalValue(val interface{}) {
+func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference)SetInternalValue(val *NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTags) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
 	}
 	_jsii_.Set(
 		j,
 		"internalValue",
-		val,
-	)
-}
-
-func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference)SetKey(val *string) {
-	if err := j.validateSetKeyParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"key",
 		val,
 	)
 }
@@ -287,17 +250,6 @@ func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionG
 	_jsii_.Set(
 		j,
 		"terraformResource",
-		val,
-	)
-}
-
-func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference)SetValue(val *string) {
-	if err := j.validateSetValueParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"value",
 		val,
 	)
 }
@@ -486,22 +438,6 @@ func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionG
 	)
 
 	return returns
-}
-
-func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference) ResetKey() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetKey",
-		nil, // no parameters
-	)
-}
-
-func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference) ResetValue() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetValue",
-		nil, // no parameters
-	)
 }
 
 func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTagsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

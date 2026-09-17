@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/dlm_lifecycle_policy awscc_dlm_lifecycle_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/dlm_lifecycle_policy awscc_dlm_lifecycle_policy}.
 type DataAwsccDlmLifecyclePolicy interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccDlmLifecyclePolicy) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/dlm_lifecycle_policy awscc_dlm_lifecycle_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/dlm_lifecycle_policy awscc_dlm_lifecycle_policy} Data Source.
 func NewDataAwsccDlmLifecyclePolicy(scope constructs.Construct, id *string, config *DataAwsccDlmLifecyclePolicyConfig) DataAwsccDlmLifecyclePolicy {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccDlmLifecyclePolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/dlm_lifecycle_policy awscc_dlm_lifecycle_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/dlm_lifecycle_policy awscc_dlm_lifecycle_policy} Data Source.
 func NewDataAwsccDlmLifecyclePolicy_Override(d DataAwsccDlmLifecyclePolicy, scope constructs.Construct, id *string, config *DataAwsccDlmLifecyclePolicyConfig) {
 	_init_.Initialize()
 

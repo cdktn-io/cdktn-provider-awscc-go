@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/mwaa_environment awscc_mwaa_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/mwaa_environment awscc_mwaa_environment}.
 type DataAwsccMwaaEnvironment interface {
 	cdktn.TerraformDataSource
 	AirflowConfigurationOptions() *string
@@ -627,7 +627,7 @@ func (j *jsiiProxy_DataAwsccMwaaEnvironment) WorkerReplacementStrategy() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/mwaa_environment awscc_mwaa_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/mwaa_environment awscc_mwaa_environment} Data Source.
 func NewDataAwsccMwaaEnvironment(scope constructs.Construct, id *string, config *DataAwsccMwaaEnvironmentConfig) DataAwsccMwaaEnvironment {
 	_init_.Initialize()
 
@@ -645,7 +645,7 @@ func NewDataAwsccMwaaEnvironment(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/mwaa_environment awscc_mwaa_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/mwaa_environment awscc_mwaa_environment} Data Source.
 func NewDataAwsccMwaaEnvironment_Override(d DataAwsccMwaaEnvironment, scope constructs.Construct, id *string, config *DataAwsccMwaaEnvironmentConfig) {
 	_init_.Initialize()
 

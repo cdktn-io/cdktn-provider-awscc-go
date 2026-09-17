@@ -7,9 +7,9 @@ package sagemakerinferencecomponent
 type SagemakerInferenceComponentSpecificationsSchedulingConfig struct {
 	// Configuration for balancing inference component copies across Availability Zones.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_inference_component#availability_zone_balance SagemakerInferenceComponent#availability_zone_balance}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_inference_component#availability_zone_balance SagemakerInferenceComponent#availability_zone_balance}
 	AvailabilityZoneBalance *SagemakerInferenceComponentSpecificationsSchedulingConfigAvailabilityZoneBalance `field:"optional" json:"availabilityZoneBalance" yaml:"availabilityZoneBalance"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_inference_component#placement_strategy SagemakerInferenceComponent#placement_strategy}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_inference_component#placement_strategy SagemakerInferenceComponent#placement_strategy}.
 	PlacementStrategy *string `field:"optional" json:"placementStrategy" yaml:"placementStrategy"`
 }
 

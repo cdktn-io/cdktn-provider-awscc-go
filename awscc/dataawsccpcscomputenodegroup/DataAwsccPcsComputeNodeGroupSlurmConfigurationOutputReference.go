@@ -30,6 +30,7 @@ type DataAwsccPcsComputeNodeGroupSlurmConfigurationOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	GresCustomSettings() cdktn.StringMapList
 	InternalValue() *DataAwsccPcsComputeNodeGroupSlurmConfiguration
 	SetInternalValue(val *DataAwsccPcsComputeNodeGroupSlurmConfiguration)
 	ScaleDownIdleTimeInSeconds() *float64
@@ -116,6 +117,16 @@ func (j *jsiiProxy_DataAwsccPcsComputeNodeGroupSlurmConfigurationOutputReference
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccPcsComputeNodeGroupSlurmConfigurationOutputReference) GresCustomSettings() cdktn.StringMapList {
+	var returns cdktn.StringMapList
+	_jsii_.Get(
+		j,
+		"gresCustomSettings",
 		&returns,
 	)
 	return returns

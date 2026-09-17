@@ -22,17 +22,17 @@ type LocationRouteCalculatorConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/location_route_calculator#calculator_name LocationRouteCalculator#calculator_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/location_route_calculator#calculator_name LocationRouteCalculator#calculator_name}.
 	CalculatorName *string `field:"required" json:"calculatorName" yaml:"calculatorName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/location_route_calculator#data_source LocationRouteCalculator#data_source}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/location_route_calculator#data_source LocationRouteCalculator#data_source}.
 	DataSource *string `field:"required" json:"dataSource" yaml:"dataSource"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/location_route_calculator#description LocationRouteCalculator#description}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/location_route_calculator#description LocationRouteCalculator#description}.
 	Description *string `field:"optional" json:"description" yaml:"description"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/location_route_calculator#pricing_plan LocationRouteCalculator#pricing_plan}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/location_route_calculator#pricing_plan LocationRouteCalculator#pricing_plan}.
 	PricingPlan *string `field:"optional" json:"pricingPlan" yaml:"pricingPlan"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/location_route_calculator#tags LocationRouteCalculator#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/location_route_calculator#tags LocationRouteCalculator#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

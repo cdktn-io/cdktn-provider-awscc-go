@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cur_report_definition awscc_cur_report_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cur_report_definition awscc_cur_report_definition}.
 type DataAwsccCurReportDefinition interface {
 	cdktn.TerraformDataSource
 	AdditionalArtifacts() *[]*string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccCurReportDefinition) TimeUnit() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cur_report_definition awscc_cur_report_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cur_report_definition awscc_cur_report_definition} Data Source.
 func NewDataAwsccCurReportDefinition(scope constructs.Construct, id *string, config *DataAwsccCurReportDefinitionConfig) DataAwsccCurReportDefinition {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccCurReportDefinition(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cur_report_definition awscc_cur_report_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cur_report_definition awscc_cur_report_definition} Data Source.
 func NewDataAwsccCurReportDefinition_Override(d DataAwsccCurReportDefinition, scope constructs.Construct, id *string, config *DataAwsccCurReportDefinitionConfig) {
 	_init_.Initialize()
 

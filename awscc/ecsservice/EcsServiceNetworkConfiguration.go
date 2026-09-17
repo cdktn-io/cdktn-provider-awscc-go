@@ -9,7 +9,7 @@ type EcsServiceNetworkConfiguration struct {
 	//
 	// All specified subnets and security groups must be from the same VPC.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_service#awsvpc_configuration EcsService#awsvpc_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_service#awsvpc_configuration EcsService#awsvpc_configuration}
 	AwsvpcConfiguration *EcsServiceNetworkConfigurationAwsvpcConfiguration `field:"optional" json:"awsvpcConfiguration" yaml:"awsvpcConfiguration"`
 }
 

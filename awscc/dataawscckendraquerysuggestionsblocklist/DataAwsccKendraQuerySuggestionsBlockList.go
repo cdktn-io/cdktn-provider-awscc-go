@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/kendra_query_suggestions_block_list awscc_kendra_query_suggestions_block_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/kendra_query_suggestions_block_list awscc_kendra_query_suggestions_block_list}.
 type DataAwsccKendraQuerySuggestionsBlockList interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccKendraQuerySuggestionsBlockList) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/kendra_query_suggestions_block_list awscc_kendra_query_suggestions_block_list} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/kendra_query_suggestions_block_list awscc_kendra_query_suggestions_block_list} Data Source.
 func NewDataAwsccKendraQuerySuggestionsBlockList(scope constructs.Construct, id *string, config *DataAwsccKendraQuerySuggestionsBlockListConfig) DataAwsccKendraQuerySuggestionsBlockList {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccKendraQuerySuggestionsBlockList(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/kendra_query_suggestions_block_list awscc_kendra_query_suggestions_block_list} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/kendra_query_suggestions_block_list awscc_kendra_query_suggestions_block_list} Data Source.
 func NewDataAwsccKendraQuerySuggestionsBlockList_Override(d DataAwsccKendraQuerySuggestionsBlockList, scope constructs.Construct, id *string, config *DataAwsccKendraQuerySuggestionsBlockListConfig) {
 	_init_.Initialize()
 

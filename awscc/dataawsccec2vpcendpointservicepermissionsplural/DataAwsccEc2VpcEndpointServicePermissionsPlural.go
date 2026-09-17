@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_vpc_endpoint_service_permissions_plural awscc_ec2_vpc_endpoint_service_permissions_plural}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_vpc_endpoint_service_permissions_plural awscc_ec2_vpc_endpoint_service_permissions_plural}.
 type DataAwsccEc2VpcEndpointServicePermissionsPlural interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2VpcEndpointServicePermissionsPlural) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_vpc_endpoint_service_permissions_plural awscc_ec2_vpc_endpoint_service_permissions_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_vpc_endpoint_service_permissions_plural awscc_ec2_vpc_endpoint_service_permissions_plural} Data Source.
 func NewDataAwsccEc2VpcEndpointServicePermissionsPlural(scope constructs.Construct, id *string, config *DataAwsccEc2VpcEndpointServicePermissionsPluralConfig) DataAwsccEc2VpcEndpointServicePermissionsPlural {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2VpcEndpointServicePermissionsPlural(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_vpc_endpoint_service_permissions_plural awscc_ec2_vpc_endpoint_service_permissions_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_vpc_endpoint_service_permissions_plural awscc_ec2_vpc_endpoint_service_permissions_plural} Data Source.
 func NewDataAwsccEc2VpcEndpointServicePermissionsPlural_Override(d DataAwsccEc2VpcEndpointServicePermissionsPlural, scope constructs.Construct, id *string, config *DataAwsccEc2VpcEndpointServicePermissionsPluralConfig) {
 	_init_.Initialize()
 

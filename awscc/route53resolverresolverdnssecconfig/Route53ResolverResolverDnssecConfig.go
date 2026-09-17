@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config}.
 type Route53ResolverResolverDnssecConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -412,7 +412,7 @@ func (j *jsiiProxy_Route53ResolverResolverDnssecConfig) ValidationStatus() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config} Resource.
 func NewRoute53ResolverResolverDnssecConfig(scope constructs.Construct, id *string, config *Route53ResolverResolverDnssecConfigConfig) Route53ResolverResolverDnssecConfig {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewRoute53ResolverResolverDnssecConfig(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config} Resource.
 func NewRoute53ResolverResolverDnssecConfig_Override(r Route53ResolverResolverDnssecConfig, scope constructs.Construct, id *string, config *Route53ResolverResolverDnssecConfigConfig) {
 	_init_.Initialize()
 

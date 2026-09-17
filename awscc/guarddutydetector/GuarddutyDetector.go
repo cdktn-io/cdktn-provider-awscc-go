@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/guardduty_detector awscc_guardduty_detector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/guardduty_detector awscc_guardduty_detector}.
 type GuarddutyDetector interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -485,7 +485,7 @@ func (j *jsiiProxy_GuarddutyDetector) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/guardduty_detector awscc_guardduty_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/guardduty_detector awscc_guardduty_detector} Resource.
 func NewGuarddutyDetector(scope constructs.Construct, id *string, config *GuarddutyDetectorConfig) GuarddutyDetector {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewGuarddutyDetector(scope constructs.Construct, id *string, config *Guardd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/guardduty_detector awscc_guardduty_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/guardduty_detector awscc_guardduty_detector} Resource.
 func NewGuarddutyDetector_Override(g GuarddutyDetector, scope constructs.Construct, id *string, config *GuarddutyDetectorConfig) {
 	_init_.Initialize()
 

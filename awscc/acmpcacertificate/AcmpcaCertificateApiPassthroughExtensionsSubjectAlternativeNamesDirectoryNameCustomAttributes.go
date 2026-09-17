@@ -7,11 +7,11 @@ package acmpcacertificate
 type AcmpcaCertificateApiPassthroughExtensionsSubjectAlternativeNamesDirectoryNameCustomAttributes struct {
 	// Specifies the object identifier (OID) of the attribute type of the relative distinguished name (RDN).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/acmpca_certificate#object_identifier AcmpcaCertificate#object_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/acmpca_certificate#object_identifier AcmpcaCertificate#object_identifier}
 	ObjectIdentifier *string `field:"optional" json:"objectIdentifier" yaml:"objectIdentifier"`
 	// Specifies the attribute value of relative distinguished name (RDN).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/acmpca_certificate#value AcmpcaCertificate#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/acmpca_certificate#value AcmpcaCertificate#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

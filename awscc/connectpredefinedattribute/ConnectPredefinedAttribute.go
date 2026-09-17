@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_predefined_attribute awscc_connect_predefined_attribute}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_predefined_attribute awscc_connect_predefined_attribute}.
 type ConnectPredefinedAttribute interface {
 	cdktn.TerraformResource
 	AttributeConfiguration() ConnectPredefinedAttributeAttributeConfigurationOutputReference
@@ -495,7 +495,7 @@ func (j *jsiiProxy_ConnectPredefinedAttribute) ValuesInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_predefined_attribute awscc_connect_predefined_attribute} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_predefined_attribute awscc_connect_predefined_attribute} Resource.
 func NewConnectPredefinedAttribute(scope constructs.Construct, id *string, config *ConnectPredefinedAttributeConfig) ConnectPredefinedAttribute {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewConnectPredefinedAttribute(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_predefined_attribute awscc_connect_predefined_attribute} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_predefined_attribute awscc_connect_predefined_attribute} Resource.
 func NewConnectPredefinedAttribute_Override(c ConnectPredefinedAttribute, scope constructs.Construct, id *string, config *ConnectPredefinedAttributeConfig) {
 	_init_.Initialize()
 

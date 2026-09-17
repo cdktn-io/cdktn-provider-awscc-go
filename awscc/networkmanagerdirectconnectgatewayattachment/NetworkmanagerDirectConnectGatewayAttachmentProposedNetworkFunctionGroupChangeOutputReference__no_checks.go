@@ -47,15 +47,7 @@ func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFu
 	return nil
 }
 
-func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChangeOutputReference) validatePutTagsParameters(value interface{}) error {
-	return nil
-}
-
 func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChangeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
-	return nil
-}
-
-func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChangeOutputReference) validateSetAttachmentPolicyRuleNumberParameters(val *float64) error {
 	return nil
 }
 
@@ -67,11 +59,7 @@ func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFu
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChangeOutputReference) validateSetInternalValueParameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChangeOutputReference) validateSetNetworkFunctionGroupNameParameters(val *string) error {
+func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChangeOutputReference) validateSetInternalValueParameters(val *NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChange) error {
 	return nil
 }
 

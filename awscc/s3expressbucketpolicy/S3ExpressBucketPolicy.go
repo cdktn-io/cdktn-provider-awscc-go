@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3express_bucket_policy awscc_s3express_bucket_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/s3express_bucket_policy awscc_s3express_bucket_policy}.
 type S3ExpressBucketPolicy interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -401,7 +401,7 @@ func (j *jsiiProxy_S3ExpressBucketPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3express_bucket_policy awscc_s3express_bucket_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/s3express_bucket_policy awscc_s3express_bucket_policy} Resource.
 func NewS3ExpressBucketPolicy(scope constructs.Construct, id *string, config *S3ExpressBucketPolicyConfig) S3ExpressBucketPolicy {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewS3ExpressBucketPolicy(scope constructs.Construct, id *string, config *S3
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3express_bucket_policy awscc_s3express_bucket_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/s3express_bucket_policy awscc_s3express_bucket_policy} Resource.
 func NewS3ExpressBucketPolicy_Override(s S3ExpressBucketPolicy, scope constructs.Construct, id *string, config *S3ExpressBucketPolicyConfig) {
 	_init_.Initialize()
 

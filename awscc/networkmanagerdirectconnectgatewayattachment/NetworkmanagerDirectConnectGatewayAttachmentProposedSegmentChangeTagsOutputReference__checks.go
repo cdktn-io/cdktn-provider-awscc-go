@@ -166,33 +166,9 @@ func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentCh
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeTagsOutputReference) validateSetInternalValueParameters(val interface{}) error {
-	switch val.(type) {
-	case cdktn.IResolvable:
-		// ok
-	case *NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeTags:
-		val := val.(*NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeTags)
-		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
-			return err
-		}
-	case NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeTags:
-		val_ := val.(NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeTags)
-		val := &val_
-		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
-			return err
-		}
-	default:
-		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeTags; received %#v (a %T)", val, val)
-		}
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeTagsOutputReference) validateSetKeyParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
+func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeTagsOutputReference) validateSetInternalValueParameters(val *NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeTags) error {
+	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
+		return err
 	}
 
 	return nil
@@ -207,14 +183,6 @@ func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentCh
 }
 
 func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeTagsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChangeTagsOutputReference) validateSetValueParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

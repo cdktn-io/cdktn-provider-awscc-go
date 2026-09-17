@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/inspectorv2_code_security_scan_configuration awscc_inspectorv2_code_security_scan_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/inspectorv2_code_security_scan_configuration awscc_inspectorv2_code_security_scan_configuration}.
 type Inspectorv2CodeSecurityScanConfiguration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -486,7 +486,7 @@ func (j *jsiiProxy_Inspectorv2CodeSecurityScanConfiguration) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/inspectorv2_code_security_scan_configuration awscc_inspectorv2_code_security_scan_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/inspectorv2_code_security_scan_configuration awscc_inspectorv2_code_security_scan_configuration} Resource.
 func NewInspectorv2CodeSecurityScanConfiguration(scope constructs.Construct, id *string, config *Inspectorv2CodeSecurityScanConfigurationConfig) Inspectorv2CodeSecurityScanConfiguration {
 	_init_.Initialize()
 
@@ -504,7 +504,7 @@ func NewInspectorv2CodeSecurityScanConfiguration(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/inspectorv2_code_security_scan_configuration awscc_inspectorv2_code_security_scan_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/inspectorv2_code_security_scan_configuration awscc_inspectorv2_code_security_scan_configuration} Resource.
 func NewInspectorv2CodeSecurityScanConfiguration_Override(i Inspectorv2CodeSecurityScanConfiguration, scope constructs.Construct, id *string, config *Inspectorv2CodeSecurityScanConfigurationConfig) {
 	_init_.Initialize()
 

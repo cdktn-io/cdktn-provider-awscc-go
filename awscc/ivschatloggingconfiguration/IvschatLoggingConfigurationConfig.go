@@ -24,15 +24,15 @@ type IvschatLoggingConfigurationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Destination configuration for IVS Chat logging.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ivschat_logging_configuration#destination_configuration IvschatLoggingConfiguration#destination_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ivschat_logging_configuration#destination_configuration IvschatLoggingConfiguration#destination_configuration}
 	DestinationConfiguration *IvschatLoggingConfigurationDestinationConfiguration `field:"required" json:"destinationConfiguration" yaml:"destinationConfiguration"`
 	// The name of the logging configuration. The value does not need to be unique.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ivschat_logging_configuration#name IvschatLoggingConfiguration#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ivschat_logging_configuration#name IvschatLoggingConfiguration#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ivschat_logging_configuration#tags IvschatLoggingConfiguration#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ivschat_logging_configuration#tags IvschatLoggingConfiguration#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

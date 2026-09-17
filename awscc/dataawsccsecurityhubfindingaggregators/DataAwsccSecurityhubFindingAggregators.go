@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/securityhub_finding_aggregators awscc_securityhub_finding_aggregators}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/securityhub_finding_aggregators awscc_securityhub_finding_aggregators}.
 type DataAwsccSecurityhubFindingAggregators interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSecurityhubFindingAggregators) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/securityhub_finding_aggregators awscc_securityhub_finding_aggregators} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/securityhub_finding_aggregators awscc_securityhub_finding_aggregators} Data Source.
 func NewDataAwsccSecurityhubFindingAggregators(scope constructs.Construct, id *string, config *DataAwsccSecurityhubFindingAggregatorsConfig) DataAwsccSecurityhubFindingAggregators {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSecurityhubFindingAggregators(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/securityhub_finding_aggregators awscc_securityhub_finding_aggregators} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/securityhub_finding_aggregators awscc_securityhub_finding_aggregators} Data Source.
 func NewDataAwsccSecurityhubFindingAggregators_Override(d DataAwsccSecurityhubFindingAggregators, scope constructs.Construct, id *string, config *DataAwsccSecurityhubFindingAggregatorsConfig) {
 	_init_.Initialize()
 

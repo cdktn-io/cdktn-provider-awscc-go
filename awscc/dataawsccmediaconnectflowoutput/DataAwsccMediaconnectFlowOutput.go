@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/mediaconnect_flow_output awscc_mediaconnect_flow_output}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/mediaconnect_flow_output awscc_mediaconnect_flow_output}.
 type DataAwsccMediaconnectFlowOutput interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -539,7 +539,7 @@ func (j *jsiiProxy_DataAwsccMediaconnectFlowOutput) VpcInterfaceAttachment() Dat
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/mediaconnect_flow_output awscc_mediaconnect_flow_output} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/mediaconnect_flow_output awscc_mediaconnect_flow_output} Data Source.
 func NewDataAwsccMediaconnectFlowOutput(scope constructs.Construct, id *string, config *DataAwsccMediaconnectFlowOutputConfig) DataAwsccMediaconnectFlowOutput {
 	_init_.Initialize()
 
@@ -557,7 +557,7 @@ func NewDataAwsccMediaconnectFlowOutput(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/mediaconnect_flow_output awscc_mediaconnect_flow_output} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/mediaconnect_flow_output awscc_mediaconnect_flow_output} Data Source.
 func NewDataAwsccMediaconnectFlowOutput_Override(d DataAwsccMediaconnectFlowOutput, scope constructs.Construct, id *string, config *DataAwsccMediaconnectFlowOutputConfig) {
 	_init_.Initialize()
 

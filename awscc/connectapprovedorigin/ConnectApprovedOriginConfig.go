@@ -24,11 +24,11 @@ type ConnectApprovedOriginConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Amazon Connect instance identifier.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_approved_origin#instance_id ConnectApprovedOrigin#instance_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_approved_origin#instance_id ConnectApprovedOrigin#instance_id}
 	InstanceId *string `field:"required" json:"instanceId" yaml:"instanceId"`
 	// Domain name to be added to the allowlist of instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_approved_origin#origin ConnectApprovedOrigin#origin}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_approved_origin#origin ConnectApprovedOrigin#origin}
 	Origin *string `field:"required" json:"origin" yaml:"origin"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/connect_metric awscc_connect_metric}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/connect_metric awscc_connect_metric}.
 type DataAwsccConnectMetric interface {
 	cdktn.TerraformDataSource
 	Category() *string
@@ -572,7 +572,7 @@ func (j *jsiiProxy_DataAwsccConnectMetric) Unit() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/connect_metric awscc_connect_metric} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/connect_metric awscc_connect_metric} Data Source.
 func NewDataAwsccConnectMetric(scope constructs.Construct, id *string, config *DataAwsccConnectMetricConfig) DataAwsccConnectMetric {
 	_init_.Initialize()
 
@@ -590,7 +590,7 @@ func NewDataAwsccConnectMetric(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/connect_metric awscc_connect_metric} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/connect_metric awscc_connect_metric} Data Source.
 func NewDataAwsccConnectMetric_Override(d DataAwsccConnectMetric, scope constructs.Construct, id *string, config *DataAwsccConnectMetricConfig) {
 	_init_.Initialize()
 

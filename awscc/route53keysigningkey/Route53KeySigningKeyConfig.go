@@ -24,25 +24,25 @@ type Route53KeySigningKeyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The unique string (ID) used to identify a hosted zone.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53_key_signing_key#hosted_zone_id Route53KeySigningKey#hosted_zone_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_key_signing_key#hosted_zone_id Route53KeySigningKey#hosted_zone_id}
 	HostedZoneId *string `field:"required" json:"hostedZoneId" yaml:"hostedZoneId"`
 	// The Amazon resource name (ARN) for a customer managed key (CMK) in AWS Key Management Service (KMS).
 	//
 	// The KeyManagementServiceArn must be unique for each key signing key (KSK) in a single hosted zone.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53_key_signing_key#key_management_service_arn Route53KeySigningKey#key_management_service_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_key_signing_key#key_management_service_arn Route53KeySigningKey#key_management_service_arn}
 	KeyManagementServiceArn *string `field:"required" json:"keyManagementServiceArn" yaml:"keyManagementServiceArn"`
 	// An alphanumeric string used to identify a key signing key (KSK).
 	//
 	// Name must be unique for each key signing key in the same hosted zone.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53_key_signing_key#name Route53KeySigningKey#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_key_signing_key#name Route53KeySigningKey#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// A string specifying the initial status of the key signing key (KSK).
 	//
 	// You can set the value to ACTIVE or INACTIVE.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53_key_signing_key#status Route53KeySigningKey#status}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_key_signing_key#status Route53KeySigningKey#status}
 	Status *string `field:"required" json:"status" yaml:"status"`
 }
 

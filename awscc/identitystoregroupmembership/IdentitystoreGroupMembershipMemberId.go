@@ -7,7 +7,7 @@ package identitystoregroupmembership
 type IdentitystoreGroupMembershipMemberId struct {
 	// The identifier for a user in the identity store.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/identitystore_group_membership#user_id IdentitystoreGroupMembership#user_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/identitystore_group_membership#user_id IdentitystoreGroupMembership#user_id}
 	UserId *string `field:"required" json:"userId" yaml:"userId"`
 }
 

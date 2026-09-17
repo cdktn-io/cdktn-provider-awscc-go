@@ -473,6 +473,14 @@ func (j *jsiiProxy_ElasticacheServerlessCache) validateSetMajorEngineVersionPara
 	return nil
 }
 
+func (j *jsiiProxy_ElasticacheServerlessCache) validateSetNetworkTypeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ElasticacheServerlessCache) validateSetProvisionersParameters(val *[]interface{}) error {
 	for idx_97dfc6, v := range *val {
 		switch v.(type) {

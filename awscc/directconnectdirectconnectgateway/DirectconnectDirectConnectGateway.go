@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/directconnect_direct_connect_gateway awscc_directconnect_direct_connect_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/directconnect_direct_connect_gateway awscc_directconnect_direct_connect_gateway}.
 type DirectconnectDirectConnectGateway interface {
 	cdktn.TerraformResource
 	AmazonSideAsn() *string
@@ -448,7 +448,7 @@ func (j *jsiiProxy_DirectconnectDirectConnectGateway) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/directconnect_direct_connect_gateway awscc_directconnect_direct_connect_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/directconnect_direct_connect_gateway awscc_directconnect_direct_connect_gateway} Resource.
 func NewDirectconnectDirectConnectGateway(scope constructs.Construct, id *string, config *DirectconnectDirectConnectGatewayConfig) DirectconnectDirectConnectGateway {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewDirectconnectDirectConnectGateway(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/directconnect_direct_connect_gateway awscc_directconnect_direct_connect_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/directconnect_direct_connect_gateway awscc_directconnect_direct_connect_gateway} Resource.
 func NewDirectconnectDirectConnectGateway_Override(d DirectconnectDirectConnectGateway, scope constructs.Construct, id *string, config *DirectconnectDirectConnectGatewayConfig) {
 	_init_.Initialize()
 

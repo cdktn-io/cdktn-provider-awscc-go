@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cleanroomsml_configured_model_algorithms awscc_cleanroomsml_configured_model_algorithms}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cleanroomsml_configured_model_algorithms awscc_cleanroomsml_configured_model_algorithms}.
 type DataAwsccCleanroomsmlConfiguredModelAlgorithms interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCleanroomsmlConfiguredModelAlgorithms) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cleanroomsml_configured_model_algorithms awscc_cleanroomsml_configured_model_algorithms} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cleanroomsml_configured_model_algorithms awscc_cleanroomsml_configured_model_algorithms} Data Source.
 func NewDataAwsccCleanroomsmlConfiguredModelAlgorithms(scope constructs.Construct, id *string, config *DataAwsccCleanroomsmlConfiguredModelAlgorithmsConfig) DataAwsccCleanroomsmlConfiguredModelAlgorithms {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCleanroomsmlConfiguredModelAlgorithms(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cleanroomsml_configured_model_algorithms awscc_cleanroomsml_configured_model_algorithms} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cleanroomsml_configured_model_algorithms awscc_cleanroomsml_configured_model_algorithms} Data Source.
 func NewDataAwsccCleanroomsmlConfiguredModelAlgorithms_Override(d DataAwsccCleanroomsmlConfiguredModelAlgorithms, scope constructs.Construct, id *string, config *DataAwsccCleanroomsmlConfiguredModelAlgorithmsConfig) {
 	_init_.Initialize()
 

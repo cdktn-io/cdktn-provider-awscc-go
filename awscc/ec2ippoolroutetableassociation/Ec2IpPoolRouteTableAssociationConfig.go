@@ -24,11 +24,11 @@ type Ec2IpPoolRouteTableAssociationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID of the public IPv4 pool.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ip_pool_route_table_association#public_ipv_4_pool Ec2IpPoolRouteTableAssociation#public_ipv_4_pool}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ip_pool_route_table_association#public_ipv_4_pool Ec2IpPoolRouteTableAssociation#public_ipv_4_pool}
 	PublicIpv4Pool *string `field:"required" json:"publicIpv4Pool" yaml:"publicIpv4Pool"`
 	// The ID of the route table.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ip_pool_route_table_association#route_table_id Ec2IpPoolRouteTableAssociation#route_table_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ip_pool_route_table_association#route_table_id Ec2IpPoolRouteTableAssociation#route_table_id}
 	RouteTableId *string `field:"required" json:"routeTableId" yaml:"routeTableId"`
 }
 

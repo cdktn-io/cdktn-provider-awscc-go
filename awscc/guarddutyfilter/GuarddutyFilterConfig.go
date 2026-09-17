@@ -22,19 +22,19 @@ type GuarddutyFilterConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/guardduty_filter#detector_id GuarddutyFilter#detector_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/guardduty_filter#detector_id GuarddutyFilter#detector_id}.
 	DetectorId *string `field:"required" json:"detectorId" yaml:"detectorId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/guardduty_filter#finding_criteria GuarddutyFilter#finding_criteria}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/guardduty_filter#finding_criteria GuarddutyFilter#finding_criteria}.
 	FindingCriteria *GuarddutyFilterFindingCriteria `field:"required" json:"findingCriteria" yaml:"findingCriteria"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/guardduty_filter#name GuarddutyFilter#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/guardduty_filter#name GuarddutyFilter#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/guardduty_filter#action GuarddutyFilter#action}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/guardduty_filter#action GuarddutyFilter#action}.
 	Action *string `field:"optional" json:"action" yaml:"action"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/guardduty_filter#description GuarddutyFilter#description}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/guardduty_filter#description GuarddutyFilter#description}.
 	Description *string `field:"optional" json:"description" yaml:"description"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/guardduty_filter#rank GuarddutyFilter#rank}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/guardduty_filter#rank GuarddutyFilter#rank}.
 	Rank *float64 `field:"optional" json:"rank" yaml:"rank"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/guardduty_filter#tags GuarddutyFilter#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/guardduty_filter#tags GuarddutyFilter#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

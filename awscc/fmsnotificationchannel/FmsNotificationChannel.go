@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fms_notification_channel awscc_fms_notification_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_notification_channel awscc_fms_notification_channel}.
 type FmsNotificationChannel interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_FmsNotificationChannel) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fms_notification_channel awscc_fms_notification_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_notification_channel awscc_fms_notification_channel} Resource.
 func NewFmsNotificationChannel(scope constructs.Construct, id *string, config *FmsNotificationChannelConfig) FmsNotificationChannel {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewFmsNotificationChannel(scope constructs.Construct, id *string, config *F
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/fms_notification_channel awscc_fms_notification_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_notification_channel awscc_fms_notification_channel} Resource.
 func NewFmsNotificationChannel_Override(f FmsNotificationChannel, scope constructs.Construct, id *string, config *FmsNotificationChannelConfig) {
 	_init_.Initialize()
 

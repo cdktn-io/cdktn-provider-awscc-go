@@ -226,28 +226,6 @@ func (n *jsiiProxy_NetworkmanagerConnectAttachment) validatePutOptionsParameters
 	return nil
 }
 
-func (n *jsiiProxy_NetworkmanagerConnectAttachment) validatePutProposedNetworkFunctionGroupChangeParameters(value *NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChange) error {
-	if value == nil {
-		return fmt.Errorf("parameter value is required, but nil was provided")
-	}
-	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
-		return err
-	}
-
-	return nil
-}
-
-func (n *jsiiProxy_NetworkmanagerConnectAttachment) validatePutProposedSegmentChangeParameters(value *NetworkmanagerConnectAttachmentProposedSegmentChange) error {
-	if value == nil {
-		return fmt.Errorf("parameter value is required, but nil was provided")
-	}
-	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
-		return err
-	}
-
-	return nil
-}
-
 func (n *jsiiProxy_NetworkmanagerConnectAttachment) validatePutTagsParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

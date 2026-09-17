@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53resolver_resolver_config awscc_route53resolver_resolver_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53resolver_resolver_config awscc_route53resolver_resolver_config}.
 type Route53ResolverResolverConfig interface {
 	cdktn.TerraformResource
 	AutodefinedReverse() *string
@@ -434,7 +434,7 @@ func (j *jsiiProxy_Route53ResolverResolverConfig) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53resolver_resolver_config awscc_route53resolver_resolver_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53resolver_resolver_config awscc_route53resolver_resolver_config} Resource.
 func NewRoute53ResolverResolverConfig(scope constructs.Construct, id *string, config *Route53ResolverResolverConfigConfig) Route53ResolverResolverConfig {
 	_init_.Initialize()
 
@@ -452,7 +452,7 @@ func NewRoute53ResolverResolverConfig(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53resolver_resolver_config awscc_route53resolver_resolver_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53resolver_resolver_config awscc_route53resolver_resolver_config} Resource.
 func NewRoute53ResolverResolverConfig_Override(r Route53ResolverResolverConfig, scope constructs.Construct, id *string, config *Route53ResolverResolverConfigConfig) {
 	_init_.Initialize()
 

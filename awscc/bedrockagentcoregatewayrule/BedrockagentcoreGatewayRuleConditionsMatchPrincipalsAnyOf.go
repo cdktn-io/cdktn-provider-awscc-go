@@ -5,7 +5,7 @@ package bedrockagentcoregatewayrule
 
 
 type BedrockagentcoreGatewayRuleConditionsMatchPrincipalsAnyOf struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrockagentcore_gateway_rule#iam_principal BedrockagentcoreGatewayRule#iam_principal}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrockagentcore_gateway_rule#iam_principal BedrockagentcoreGatewayRule#iam_principal}.
 	IamPrincipal *BedrockagentcoreGatewayRuleConditionsMatchPrincipalsAnyOfIamPrincipal `field:"optional" json:"iamPrincipal" yaml:"iamPrincipal"`
 }
 

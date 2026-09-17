@@ -7,7 +7,7 @@ package quicksightactionconnector
 type QuicksightActionConnectorPermissions struct {
 	// <p>The IAM action to grant or revoke permissions on.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_action_connector#actions QuicksightActionConnector#actions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_action_connector#actions QuicksightActionConnector#actions}
 	Actions *[]*string `field:"optional" json:"actions" yaml:"actions"`
 	// <p>The Amazon Resource Name (ARN) of the principal.
 	//
@@ -27,7 +27,7 @@ type QuicksightActionConnectorPermissions struct {
 	//             </li>
 	//          </ul>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_action_connector#principal QuicksightActionConnector#principal}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_action_connector#principal QuicksightActionConnector#principal}
 	Principal *string `field:"optional" json:"principal" yaml:"principal"`
 }
 

@@ -7,11 +7,11 @@ package appconfigexperimentrun
 type AppconfigExperimentRunTags struct {
 	// The tag key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_experiment_run#key AppconfigExperimentRun#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/appconfig_experiment_run#key AppconfigExperimentRun#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The tag value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_experiment_run#value AppconfigExperimentRun#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/appconfig_experiment_run#value AppconfigExperimentRun#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

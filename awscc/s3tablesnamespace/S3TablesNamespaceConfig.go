@@ -24,11 +24,11 @@ type S3TablesNamespaceConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A name for the namespace.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3tables_namespace#namespace S3TablesNamespace#namespace}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/s3tables_namespace#namespace S3TablesNamespace#namespace}
 	Namespace *string `field:"required" json:"namespace" yaml:"namespace"`
 	// The Amazon Resource Name (ARN) of the specified table bucket.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3tables_namespace#table_bucket_arn S3TablesNamespace#table_bucket_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/s3tables_namespace#table_bucket_arn S3TablesNamespace#table_bucket_arn}
 	TableBucketArn *string `field:"required" json:"tableBucketArn" yaml:"tableBucketArn"`
 }
 

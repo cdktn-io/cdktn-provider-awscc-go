@@ -24,27 +24,27 @@ type CustomerprofilesRecommenderConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the domain for which the recommender will be created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/customerprofiles_recommender#domain_name CustomerprofilesRecommender#domain_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/customerprofiles_recommender#domain_name CustomerprofilesRecommender#domain_name}
 	DomainName *string `field:"required" json:"domainName" yaml:"domainName"`
 	// The name of the recommender.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/customerprofiles_recommender#recommender_name CustomerprofilesRecommender#recommender_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/customerprofiles_recommender#recommender_name CustomerprofilesRecommender#recommender_name}
 	RecommenderName *string `field:"required" json:"recommenderName" yaml:"recommenderName"`
 	// The name of the recommender recipe.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/customerprofiles_recommender#recommender_recipe_name CustomerprofilesRecommender#recommender_recipe_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/customerprofiles_recommender#recommender_recipe_name CustomerprofilesRecommender#recommender_recipe_name}
 	RecommenderRecipeName *string `field:"required" json:"recommenderRecipeName" yaml:"recommenderRecipeName"`
 	// The description of the recommender.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/customerprofiles_recommender#description CustomerprofilesRecommender#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/customerprofiles_recommender#description CustomerprofilesRecommender#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Configuration for the recommender.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/customerprofiles_recommender#recommender_config CustomerprofilesRecommender#recommender_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/customerprofiles_recommender#recommender_config CustomerprofilesRecommender#recommender_config}
 	RecommenderConfig *CustomerprofilesRecommenderRecommenderConfig `field:"optional" json:"recommenderConfig" yaml:"recommenderConfig"`
 	// The tags used to organize, track, or control access for this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/customerprofiles_recommender#tags CustomerprofilesRecommender#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/customerprofiles_recommender#tags CustomerprofilesRecommender#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

@@ -30,6 +30,9 @@ type PcsComputeNodeGroupSlurmConfigurationOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	GresCustomSettings() interface{}
+	SetGresCustomSettings(val interface{})
+	GresCustomSettingsInput() interface{}
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
 	ScaleDownIdleTimeInSeconds() *float64
@@ -70,6 +73,7 @@ type PcsComputeNodeGroupSlurmConfigurationOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutSlurmCustomSettings(value interface{})
+	ResetGresCustomSettings()
 	ResetScaleDownIdleTimeInSeconds()
 	ResetSlurmCustomSettings()
 	// Produce the Token's value at resolution time.
@@ -122,6 +126,26 @@ func (j *jsiiProxy_PcsComputeNodeGroupSlurmConfigurationOutputReference) Fqn() *
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PcsComputeNodeGroupSlurmConfigurationOutputReference) GresCustomSettings() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"gresCustomSettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PcsComputeNodeGroupSlurmConfigurationOutputReference) GresCustomSettingsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"gresCustomSettingsInput",
 		&returns,
 	)
 	return returns
@@ -243,6 +267,17 @@ func (j *jsiiProxy_PcsComputeNodeGroupSlurmConfigurationOutputReference)SetCompl
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_PcsComputeNodeGroupSlurmConfigurationOutputReference)SetGresCustomSettings(val interface{}) {
+	if err := j.validateSetGresCustomSettingsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"gresCustomSettings",
 		val,
 	)
 }
@@ -485,6 +520,14 @@ func (p *jsiiProxy_PcsComputeNodeGroupSlurmConfigurationOutputReference) PutSlur
 		p,
 		"putSlurmCustomSettings",
 		[]interface{}{value},
+	)
+}
+
+func (p *jsiiProxy_PcsComputeNodeGroupSlurmConfigurationOutputReference) ResetGresCustomSettings() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetGresCustomSettings",
+		nil, // no parameters
 	)
 }
 

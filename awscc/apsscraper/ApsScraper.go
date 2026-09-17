@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/aps_scraper awscc_aps_scraper}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/aps_scraper awscc_aps_scraper}.
 type ApsScraper interface {
 	cdktn.TerraformResource
 	Alias() *string
@@ -553,7 +553,7 @@ func (j *jsiiProxy_ApsScraper) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/aps_scraper awscc_aps_scraper} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/aps_scraper awscc_aps_scraper} Resource.
 func NewApsScraper(scope constructs.Construct, id *string, config *ApsScraperConfig) ApsScraper {
 	_init_.Initialize()
 
@@ -571,7 +571,7 @@ func NewApsScraper(scope constructs.Construct, id *string, config *ApsScraperCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/aps_scraper awscc_aps_scraper} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/aps_scraper awscc_aps_scraper} Resource.
 func NewApsScraper_Override(a ApsScraper, scope constructs.Construct, id *string, config *ApsScraperConfig) {
 	_init_.Initialize()
 

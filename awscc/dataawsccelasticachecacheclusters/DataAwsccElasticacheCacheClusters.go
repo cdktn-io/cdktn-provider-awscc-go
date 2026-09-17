@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/elasticache_cache_clusters awscc_elasticache_cache_clusters}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticache_cache_clusters awscc_elasticache_cache_clusters}.
 type DataAwsccElasticacheCacheClusters interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccElasticacheCacheClusters) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/elasticache_cache_clusters awscc_elasticache_cache_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticache_cache_clusters awscc_elasticache_cache_clusters} Data Source.
 func NewDataAwsccElasticacheCacheClusters(scope constructs.Construct, id *string, config *DataAwsccElasticacheCacheClustersConfig) DataAwsccElasticacheCacheClusters {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccElasticacheCacheClusters(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/elasticache_cache_clusters awscc_elasticache_cache_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticache_cache_clusters awscc_elasticache_cache_clusters} Data Source.
 func NewDataAwsccElasticacheCacheClusters_Override(d DataAwsccElasticacheCacheClusters, scope constructs.Construct, id *string, config *DataAwsccElasticacheCacheClustersConfig) {
 	_init_.Initialize()
 

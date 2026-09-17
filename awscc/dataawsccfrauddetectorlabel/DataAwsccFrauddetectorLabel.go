@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/frauddetector_label awscc_frauddetector_label}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/frauddetector_label awscc_frauddetector_label}.
 type DataAwsccFrauddetectorLabel interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccFrauddetectorLabel) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/frauddetector_label awscc_frauddetector_label} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/frauddetector_label awscc_frauddetector_label} Data Source.
 func NewDataAwsccFrauddetectorLabel(scope constructs.Construct, id *string, config *DataAwsccFrauddetectorLabelConfig) DataAwsccFrauddetectorLabel {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccFrauddetectorLabel(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/frauddetector_label awscc_frauddetector_label} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/frauddetector_label awscc_frauddetector_label} Data Source.
 func NewDataAwsccFrauddetectorLabel_Override(d DataAwsccFrauddetectorLabel, scope constructs.Construct, id *string, config *DataAwsccFrauddetectorLabelConfig) {
 	_init_.Initialize()
 

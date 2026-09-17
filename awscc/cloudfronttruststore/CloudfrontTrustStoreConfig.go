@@ -24,19 +24,19 @@ type CloudfrontTrustStoreConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The trust store's name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudfront_trust_store#name CloudfrontTrustStore#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudfront_trust_store#name CloudfrontTrustStore#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// A CA certificates bundle source.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudfront_trust_store#ca_certificates_bundle_source CloudfrontTrustStore#ca_certificates_bundle_source}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudfront_trust_store#ca_certificates_bundle_source CloudfrontTrustStore#ca_certificates_bundle_source}
 	CaCertificatesBundleSource *CloudfrontTrustStoreCaCertificatesBundleSource `field:"optional" json:"caCertificatesBundleSource" yaml:"caCertificatesBundleSource"`
 	// A complex type that contains zero or more ``Tag`` elements.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudfront_trust_store#tags CloudfrontTrustStore#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudfront_trust_store#tags CloudfrontTrustStore#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// A boolean. When true, performs real-time certificate revocation checks by querying the OCSP endpoint specified within the client certificate.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudfront_trust_store#use_client_certificate_ocsp_endpoint CloudfrontTrustStore#use_client_certificate_ocsp_endpoint}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudfront_trust_store#use_client_certificate_ocsp_endpoint CloudfrontTrustStore#use_client_certificate_ocsp_endpoint}
 	UseClientCertificateOcspEndpoint interface{} `field:"optional" json:"useClientCertificateOcspEndpoint" yaml:"useClientCertificateOcspEndpoint"`
 }
 

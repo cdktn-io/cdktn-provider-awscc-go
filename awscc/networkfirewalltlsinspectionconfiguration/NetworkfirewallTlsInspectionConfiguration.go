@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkfirewall_tls_inspection_configuration awscc_networkfirewall_tls_inspection_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/networkfirewall_tls_inspection_configuration awscc_networkfirewall_tls_inspection_configuration}.
 type NetworkfirewallTlsInspectionConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_NetworkfirewallTlsInspectionConfiguration) TlsInspectionConfi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkfirewall_tls_inspection_configuration awscc_networkfirewall_tls_inspection_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/networkfirewall_tls_inspection_configuration awscc_networkfirewall_tls_inspection_configuration} Resource.
 func NewNetworkfirewallTlsInspectionConfiguration(scope constructs.Construct, id *string, config *NetworkfirewallTlsInspectionConfigurationConfig) NetworkfirewallTlsInspectionConfiguration {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewNetworkfirewallTlsInspectionConfiguration(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkfirewall_tls_inspection_configuration awscc_networkfirewall_tls_inspection_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/networkfirewall_tls_inspection_configuration awscc_networkfirewall_tls_inspection_configuration} Resource.
 func NewNetworkfirewallTlsInspectionConfiguration_Override(n NetworkfirewallTlsInspectionConfiguration, scope constructs.Construct, id *string, config *NetworkfirewallTlsInspectionConfigurationConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package datazoneconnection
 
 
 type DatazoneConnectionPropsRedshiftPropertiesCredentialsUsernamePassword struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_connection#password DatazoneConnection#password}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datazone_connection#password DatazoneConnection#password}.
 	Password *string `field:"optional" json:"password" yaml:"password"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_connection#username DatazoneConnection#username}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datazone_connection#username DatazoneConnection#username}.
 	Username *string `field:"optional" json:"username" yaml:"username"`
 }
 

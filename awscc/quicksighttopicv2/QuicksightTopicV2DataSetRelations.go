@@ -5,9 +5,9 @@ package quicksighttopicv2
 
 
 type QuicksightTopicV2DataSetRelations struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_topic_v2#left QuicksightTopicV2#left}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_topic_v2#left QuicksightTopicV2#left}.
 	Left *QuicksightTopicV2DataSetRelationsLeft `field:"optional" json:"left" yaml:"left"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_topic_v2#right QuicksightTopicV2#right}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_topic_v2#right QuicksightTopicV2#right}.
 	Right *QuicksightTopicV2DataSetRelationsRight `field:"optional" json:"right" yaml:"right"`
 }
 

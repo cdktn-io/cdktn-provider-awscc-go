@@ -14,8 +14,6 @@ import (
 type NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference interface {
 	cdktn.ComplexObject
 	AttachmentPolicyRuleNumber() *float64
-	SetAttachmentPolicyRuleNumber(val *float64)
-	AttachmentPolicyRuleNumberInput() *float64
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -33,13 +31,10 @@ type NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference i
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
-	InternalValue() interface{}
-	SetInternalValue(val interface{})
+	InternalValue() *NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChange
+	SetInternalValue(val *NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChange)
 	SegmentName() *string
-	SetSegmentName(val *string)
-	SegmentNameInput() *string
 	Tags() NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeTagsList
-	TagsInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -72,10 +67,6 @@ type NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference i
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	PutTags(value interface{})
-	ResetAttachmentPolicyRuleNumber()
-	ResetSegmentName()
-	ResetTags()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -96,16 +87,6 @@ func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOut
 	_jsii_.Get(
 		j,
 		"attachmentPolicyRuleNumber",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference) AttachmentPolicyRuleNumberInput() *float64 {
-	var returns *float64
-	_jsii_.Get(
-		j,
-		"attachmentPolicyRuleNumberInput",
 		&returns,
 	)
 	return returns
@@ -151,8 +132,8 @@ func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOut
 	return returns
 }
 
-func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference) InternalValue() interface{} {
-	var returns interface{}
+func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference) InternalValue() *NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChange {
+	var returns *NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChange
 	_jsii_.Get(
 		j,
 		"internalValue",
@@ -171,31 +152,11 @@ func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOut
 	return returns
 }
 
-func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference) SegmentNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"segmentNameInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference) Tags() NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeTagsList {
 	var returns NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeTagsList
 	_jsii_.Get(
 		j,
 		"tags",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference) TagsInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"tagsInput",
 		&returns,
 	)
 	return returns
@@ -249,17 +210,6 @@ func NewNetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReferenc
 	)
 }
 
-func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference)SetAttachmentPolicyRuleNumber(val *float64) {
-	if err := j.validateSetAttachmentPolicyRuleNumberParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"attachmentPolicyRuleNumber",
-		val,
-	)
-}
-
 func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference)SetComplexObjectIndex(val interface{}) {
 	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
 		panic(err)
@@ -282,24 +232,13 @@ func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOut
 	)
 }
 
-func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference)SetInternalValue(val interface{}) {
+func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference)SetInternalValue(val *NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChange) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
 	}
 	_jsii_.Set(
 		j,
 		"internalValue",
-		val,
-	)
-}
-
-func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference)SetSegmentName(val *string) {
-	if err := j.validateSetSegmentNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"segmentName",
 		val,
 	)
 }
@@ -510,41 +449,6 @@ func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOut
 	)
 
 	return returns
-}
-
-func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference) PutTags(value interface{}) {
-	if err := n.validatePutTagsParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		n,
-		"putTags",
-		[]interface{}{value},
-	)
-}
-
-func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference) ResetAttachmentPolicyRuleNumber() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetAttachmentPolicyRuleNumber",
-		nil, // no parameters
-	)
-}
-
-func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference) ResetSegmentName() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetSegmentName",
-		nil, // no parameters
-	)
-}
-
-func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference) ResetTags() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetTags",
-		nil, // no parameters
-	)
 }
 
 func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChangeOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

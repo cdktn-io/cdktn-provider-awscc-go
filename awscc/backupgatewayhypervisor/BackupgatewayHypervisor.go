@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/backupgateway_hypervisor awscc_backupgateway_hypervisor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/backupgateway_hypervisor awscc_backupgateway_hypervisor}.
 type BackupgatewayHypervisor interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -534,7 +534,7 @@ func (j *jsiiProxy_BackupgatewayHypervisor) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/backupgateway_hypervisor awscc_backupgateway_hypervisor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/backupgateway_hypervisor awscc_backupgateway_hypervisor} Resource.
 func NewBackupgatewayHypervisor(scope constructs.Construct, id *string, config *BackupgatewayHypervisorConfig) BackupgatewayHypervisor {
 	_init_.Initialize()
 
@@ -552,7 +552,7 @@ func NewBackupgatewayHypervisor(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/backupgateway_hypervisor awscc_backupgateway_hypervisor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/backupgateway_hypervisor awscc_backupgateway_hypervisor} Resource.
 func NewBackupgatewayHypervisor_Override(b BackupgatewayHypervisor, scope constructs.Construct, id *string, config *BackupgatewayHypervisorConfig) {
 	_init_.Initialize()
 

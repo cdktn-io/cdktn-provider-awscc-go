@@ -5,9 +5,9 @@ package s3expressaccesspoint
 
 
 type S3ExpressAccessPointTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3express_access_point#key S3ExpressAccessPoint#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/s3express_access_point#key S3ExpressAccessPoint#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3express_access_point#value S3ExpressAccessPoint#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/s3express_access_point#value S3ExpressAccessPoint#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

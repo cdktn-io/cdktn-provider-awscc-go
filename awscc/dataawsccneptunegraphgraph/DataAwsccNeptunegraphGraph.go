@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/neptunegraph_graph awscc_neptunegraph_graph}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/neptunegraph_graph awscc_neptunegraph_graph}.
 type DataAwsccNeptunegraphGraph interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -43,6 +43,7 @@ type DataAwsccNeptunegraphGraph interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	ImportTask() DataAwsccNeptunegraphGraphImportTaskOutputReference
 	KmsKeyIdentifier() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
@@ -276,6 +277,16 @@ func (j *jsiiProxy_DataAwsccNeptunegraphGraph) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccNeptunegraphGraph) ImportTask() DataAwsccNeptunegraphGraphImportTaskOutputReference {
+	var returns DataAwsccNeptunegraphGraphImportTaskOutputReference
+	_jsii_.Get(
+		j,
+		"importTask",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccNeptunegraphGraph) KmsKeyIdentifier() *string {
 	var returns *string
 	_jsii_.Get(
@@ -407,7 +418,7 @@ func (j *jsiiProxy_DataAwsccNeptunegraphGraph) VectorSearchConfiguration() DataA
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/neptunegraph_graph awscc_neptunegraph_graph} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/neptunegraph_graph awscc_neptunegraph_graph} Data Source.
 func NewDataAwsccNeptunegraphGraph(scope constructs.Construct, id *string, config *DataAwsccNeptunegraphGraphConfig) DataAwsccNeptunegraphGraph {
 	_init_.Initialize()
 
@@ -425,7 +436,7 @@ func NewDataAwsccNeptunegraphGraph(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/neptunegraph_graph awscc_neptunegraph_graph} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/neptunegraph_graph awscc_neptunegraph_graph} Data Source.
 func NewDataAwsccNeptunegraphGraph_Override(d DataAwsccNeptunegraphGraph, scope constructs.Construct, id *string, config *DataAwsccNeptunegraphGraphConfig) {
 	_init_.Initialize()
 

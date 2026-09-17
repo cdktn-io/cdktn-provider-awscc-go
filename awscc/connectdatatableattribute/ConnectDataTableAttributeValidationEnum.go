@@ -5,9 +5,9 @@ package connectdatatableattribute
 
 
 type ConnectDataTableAttributeValidationEnum struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_data_table_attribute#strict ConnectDataTableAttribute#strict}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_data_table_attribute#strict ConnectDataTableAttribute#strict}.
 	Strict interface{} `field:"optional" json:"strict" yaml:"strict"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_data_table_attribute#values ConnectDataTableAttribute#values}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_data_table_attribute#values ConnectDataTableAttribute#values}.
 	Values *[]*string `field:"optional" json:"values" yaml:"values"`
 }
 

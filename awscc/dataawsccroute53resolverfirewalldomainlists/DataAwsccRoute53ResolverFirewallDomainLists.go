@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/route53resolver_firewall_domain_lists awscc_route53resolver_firewall_domain_lists}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/route53resolver_firewall_domain_lists awscc_route53resolver_firewall_domain_lists}.
 type DataAwsccRoute53ResolverFirewallDomainLists interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRoute53ResolverFirewallDomainLists) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/route53resolver_firewall_domain_lists awscc_route53resolver_firewall_domain_lists} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/route53resolver_firewall_domain_lists awscc_route53resolver_firewall_domain_lists} Data Source.
 func NewDataAwsccRoute53ResolverFirewallDomainLists(scope constructs.Construct, id *string, config *DataAwsccRoute53ResolverFirewallDomainListsConfig) DataAwsccRoute53ResolverFirewallDomainLists {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRoute53ResolverFirewallDomainLists(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/route53resolver_firewall_domain_lists awscc_route53resolver_firewall_domain_lists} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/route53resolver_firewall_domain_lists awscc_route53resolver_firewall_domain_lists} Data Source.
 func NewDataAwsccRoute53ResolverFirewallDomainLists_Override(d DataAwsccRoute53ResolverFirewallDomainLists, scope constructs.Construct, id *string, config *DataAwsccRoute53ResolverFirewallDomainListsConfig) {
 	_init_.Initialize()
 

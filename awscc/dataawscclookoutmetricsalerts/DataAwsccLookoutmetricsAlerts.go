@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/lookoutmetrics_alerts awscc_lookoutmetrics_alerts}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/lookoutmetrics_alerts awscc_lookoutmetrics_alerts}.
 type DataAwsccLookoutmetricsAlerts interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLookoutmetricsAlerts) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/lookoutmetrics_alerts awscc_lookoutmetrics_alerts} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/lookoutmetrics_alerts awscc_lookoutmetrics_alerts} Data Source.
 func NewDataAwsccLookoutmetricsAlerts(scope constructs.Construct, id *string, config *DataAwsccLookoutmetricsAlertsConfig) DataAwsccLookoutmetricsAlerts {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLookoutmetricsAlerts(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/lookoutmetrics_alerts awscc_lookoutmetrics_alerts} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/lookoutmetrics_alerts awscc_lookoutmetrics_alerts} Data Source.
 func NewDataAwsccLookoutmetricsAlerts_Override(d DataAwsccLookoutmetricsAlerts, scope constructs.Construct, id *string, config *DataAwsccLookoutmetricsAlertsConfig) {
 	_init_.Initialize()
 

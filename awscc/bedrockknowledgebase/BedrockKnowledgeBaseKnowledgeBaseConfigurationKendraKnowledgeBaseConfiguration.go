@@ -7,7 +7,7 @@ package bedrockknowledgebase
 type BedrockKnowledgeBaseKnowledgeBaseConfigurationKendraKnowledgeBaseConfiguration struct {
 	// Arn of a Kendra index.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrock_knowledge_base#kendra_index_arn BedrockKnowledgeBase#kendra_index_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrock_knowledge_base#kendra_index_arn BedrockKnowledgeBase#kendra_index_arn}
 	KendraIndexArn *string `field:"optional" json:"kendraIndexArn" yaml:"kendraIndexArn"`
 }
 

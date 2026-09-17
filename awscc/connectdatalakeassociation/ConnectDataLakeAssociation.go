@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_data_lake_association awscc_connect_data_lake_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_data_lake_association awscc_connect_data_lake_association}.
 type ConnectDataLakeAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_ConnectDataLakeAssociation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_data_lake_association awscc_connect_data_lake_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_data_lake_association awscc_connect_data_lake_association} Resource.
 func NewConnectDataLakeAssociation(scope constructs.Construct, id *string, config *ConnectDataLakeAssociationConfig) ConnectDataLakeAssociation {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewConnectDataLakeAssociation(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_data_lake_association awscc_connect_data_lake_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_data_lake_association awscc_connect_data_lake_association} Resource.
 func NewConnectDataLakeAssociation_Override(c ConnectDataLakeAssociation, scope constructs.Construct, id *string, config *ConnectDataLakeAssociationConfig) {
 	_init_.Initialize()
 

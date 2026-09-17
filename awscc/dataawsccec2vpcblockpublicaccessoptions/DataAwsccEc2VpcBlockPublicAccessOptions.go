@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_vpc_block_public_access_options awscc_ec2_vpc_block_public_access_options}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_vpc_block_public_access_options awscc_ec2_vpc_block_public_access_options}.
 type DataAwsccEc2VpcBlockPublicAccessOptions interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccEc2VpcBlockPublicAccessOptions) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_vpc_block_public_access_options awscc_ec2_vpc_block_public_access_options} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_vpc_block_public_access_options awscc_ec2_vpc_block_public_access_options} Data Source.
 func NewDataAwsccEc2VpcBlockPublicAccessOptions(scope constructs.Construct, id *string, config *DataAwsccEc2VpcBlockPublicAccessOptionsConfig) DataAwsccEc2VpcBlockPublicAccessOptions {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccEc2VpcBlockPublicAccessOptions(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_vpc_block_public_access_options awscc_ec2_vpc_block_public_access_options} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_vpc_block_public_access_options awscc_ec2_vpc_block_public_access_options} Data Source.
 func NewDataAwsccEc2VpcBlockPublicAccessOptions_Override(d DataAwsccEc2VpcBlockPublicAccessOptions, scope constructs.Construct, id *string, config *DataAwsccEc2VpcBlockPublicAccessOptionsConfig) {
 	_init_.Initialize()
 

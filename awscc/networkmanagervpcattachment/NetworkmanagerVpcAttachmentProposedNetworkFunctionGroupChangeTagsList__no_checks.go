@@ -19,10 +19,6 @@ func (n *jsiiProxy_NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChange
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTagsList) validateSetInternalValueParameters(val interface{}) error {
-	return nil
-}
-
 func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedNetworkFunctionGroupChangeTagsList) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

@@ -5,11 +5,11 @@ package pipespipe
 
 
 type PipesPipeTargetParametersTimestreamParametersMultiMeasureMappingsMultiMeasureAttributeMappings struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pipes_pipe#measure_value PipesPipe#measure_value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/pipes_pipe#measure_value PipesPipe#measure_value}.
 	MeasureValue *string `field:"optional" json:"measureValue" yaml:"measureValue"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pipes_pipe#measure_value_type PipesPipe#measure_value_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/pipes_pipe#measure_value_type PipesPipe#measure_value_type}.
 	MeasureValueType *string `field:"optional" json:"measureValueType" yaml:"measureValueType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pipes_pipe#multi_measure_attribute_name PipesPipe#multi_measure_attribute_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/pipes_pipe#multi_measure_attribute_name PipesPipe#multi_measure_attribute_name}.
 	MultiMeasureAttributeName *string `field:"optional" json:"multiMeasureAttributeName" yaml:"multiMeasureAttributeName"`
 }
 

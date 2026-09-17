@@ -5,9 +5,9 @@ package iotcommand
 
 
 type IotCommandMandatoryParametersValueConditions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_command#comparison_operator IotCommand#comparison_operator}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iot_command#comparison_operator IotCommand#comparison_operator}.
 	ComparisonOperator *string `field:"optional" json:"comparisonOperator" yaml:"comparisonOperator"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_command#operand IotCommand#operand}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iot_command#operand IotCommand#operand}.
 	Operand *IotCommandMandatoryParametersValueConditionsOperand `field:"optional" json:"operand" yaml:"operand"`
 }
 

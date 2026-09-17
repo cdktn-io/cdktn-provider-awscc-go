@@ -28,6 +28,8 @@ type BillingconductorPricingRuleTieringOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	CustomTiers() BillingconductorPricingRuleTieringCustomTiersList
+	CustomTiersInput() interface{}
 	// Experimental.
 	Fqn() *string
 	FreeTier() BillingconductorPricingRuleTieringFreeTierOutputReference
@@ -66,7 +68,9 @@ type BillingconductorPricingRuleTieringOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutCustomTiers(value interface{})
 	PutFreeTier(value *BillingconductorPricingRuleTieringFreeTier)
+	ResetCustomTiers()
 	ResetFreeTier()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -108,6 +112,26 @@ func (j *jsiiProxy_BillingconductorPricingRuleTieringOutputReference) CreationSt
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BillingconductorPricingRuleTieringOutputReference) CustomTiers() BillingconductorPricingRuleTieringCustomTiersList {
+	var returns BillingconductorPricingRuleTieringCustomTiersList
+	_jsii_.Get(
+		j,
+		"customTiers",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BillingconductorPricingRuleTieringOutputReference) CustomTiersInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"customTiersInput",
 		&returns,
 	)
 	return returns
@@ -442,6 +466,17 @@ func (b *jsiiProxy_BillingconductorPricingRuleTieringOutputReference) Interpolat
 	return returns
 }
 
+func (b *jsiiProxy_BillingconductorPricingRuleTieringOutputReference) PutCustomTiers(value interface{}) {
+	if err := b.validatePutCustomTiersParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putCustomTiers",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BillingconductorPricingRuleTieringOutputReference) PutFreeTier(value *BillingconductorPricingRuleTieringFreeTier) {
 	if err := b.validatePutFreeTierParameters(value); err != nil {
 		panic(err)
@@ -450,6 +485,14 @@ func (b *jsiiProxy_BillingconductorPricingRuleTieringOutputReference) PutFreeTie
 		b,
 		"putFreeTier",
 		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BillingconductorPricingRuleTieringOutputReference) ResetCustomTiers() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetCustomTiers",
+		nil, // no parameters
 	)
 }
 

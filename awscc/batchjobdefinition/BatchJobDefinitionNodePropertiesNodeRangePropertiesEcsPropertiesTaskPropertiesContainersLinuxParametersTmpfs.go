@@ -5,11 +5,11 @@ package batchjobdefinition
 
 
 type BatchJobDefinitionNodePropertiesNodeRangePropertiesEcsPropertiesTaskPropertiesContainersLinuxParametersTmpfs struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/batch_job_definition#container_path BatchJobDefinition#container_path}.
 	ContainerPath *string `field:"optional" json:"containerPath" yaml:"containerPath"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/batch_job_definition#mount_options BatchJobDefinition#mount_options}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/batch_job_definition#mount_options BatchJobDefinition#mount_options}.
 	MountOptions *[]*string `field:"optional" json:"mountOptions" yaml:"mountOptions"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/batch_job_definition#size BatchJobDefinition#size}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/batch_job_definition#size BatchJobDefinition#size}.
 	Size *float64 `field:"optional" json:"size" yaml:"size"`
 }
 

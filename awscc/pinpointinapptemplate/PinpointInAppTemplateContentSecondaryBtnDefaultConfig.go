@@ -5,17 +5,17 @@ package pinpointinapptemplate
 
 
 type PinpointInAppTemplateContentSecondaryBtnDefaultConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pinpoint_in_app_template#background_color PinpointInAppTemplate#background_color}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/pinpoint_in_app_template#background_color PinpointInAppTemplate#background_color}.
 	BackgroundColor *string `field:"optional" json:"backgroundColor" yaml:"backgroundColor"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pinpoint_in_app_template#border_radius PinpointInAppTemplate#border_radius}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/pinpoint_in_app_template#border_radius PinpointInAppTemplate#border_radius}.
 	BorderRadius *float64 `field:"optional" json:"borderRadius" yaml:"borderRadius"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pinpoint_in_app_template#button_action PinpointInAppTemplate#button_action}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/pinpoint_in_app_template#button_action PinpointInAppTemplate#button_action}.
 	ButtonAction *string `field:"optional" json:"buttonAction" yaml:"buttonAction"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pinpoint_in_app_template#link PinpointInAppTemplate#link}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/pinpoint_in_app_template#link PinpointInAppTemplate#link}.
 	Link *string `field:"optional" json:"link" yaml:"link"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pinpoint_in_app_template#text PinpointInAppTemplate#text}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/pinpoint_in_app_template#text PinpointInAppTemplate#text}.
 	Text *string `field:"optional" json:"text" yaml:"text"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pinpoint_in_app_template#text_color PinpointInAppTemplate#text_color}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/pinpoint_in_app_template#text_color PinpointInAppTemplate#text_color}.
 	TextColor *string `field:"optional" json:"textColor" yaml:"textColor"`
 }
 

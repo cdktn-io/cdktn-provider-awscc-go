@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/events_event_bus awscc_events_event_bus}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/events_event_bus awscc_events_event_bus}.
 type EventsEventBus interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -557,7 +557,7 @@ func (j *jsiiProxy_EventsEventBus) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/events_event_bus awscc_events_event_bus} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/events_event_bus awscc_events_event_bus} Resource.
 func NewEventsEventBus(scope constructs.Construct, id *string, config *EventsEventBusConfig) EventsEventBus {
 	_init_.Initialize()
 
@@ -575,7 +575,7 @@ func NewEventsEventBus(scope constructs.Construct, id *string, config *EventsEve
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/events_event_bus awscc_events_event_bus} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/events_event_bus awscc_events_event_bus} Resource.
 func NewEventsEventBus_Override(e EventsEventBus, scope constructs.Construct, id *string, config *EventsEventBusConfig) {
 	_init_.Initialize()
 

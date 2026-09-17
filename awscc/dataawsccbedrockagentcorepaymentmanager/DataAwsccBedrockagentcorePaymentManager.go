@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrockagentcore_payment_manager awscc_bedrockagentcore_payment_manager}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_payment_manager awscc_bedrockagentcore_payment_manager}.
 type DataAwsccBedrockagentcorePaymentManager interface {
 	cdktn.TerraformDataSource
 	AuthorizerConfiguration() DataAwsccBedrockagentcorePaymentManagerAuthorizerConfigurationOutputReference
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcorePaymentManager) WorkloadIdentityDeta
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrockagentcore_payment_manager awscc_bedrockagentcore_payment_manager} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_payment_manager awscc_bedrockagentcore_payment_manager} Data Source.
 func NewDataAwsccBedrockagentcorePaymentManager(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcorePaymentManagerConfig) DataAwsccBedrockagentcorePaymentManager {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccBedrockagentcorePaymentManager(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrockagentcore_payment_manager awscc_bedrockagentcore_payment_manager} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_payment_manager awscc_bedrockagentcore_payment_manager} Data Source.
 func NewDataAwsccBedrockagentcorePaymentManager_Override(d DataAwsccBedrockagentcorePaymentManager, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcorePaymentManagerConfig) {
 	_init_.Initialize()
 

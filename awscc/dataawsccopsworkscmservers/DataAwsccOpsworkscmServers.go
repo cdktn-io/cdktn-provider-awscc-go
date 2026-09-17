@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/opsworkscm_servers awscc_opsworkscm_servers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/opsworkscm_servers awscc_opsworkscm_servers}.
 type DataAwsccOpsworkscmServers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccOpsworkscmServers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/opsworkscm_servers awscc_opsworkscm_servers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/opsworkscm_servers awscc_opsworkscm_servers} Data Source.
 func NewDataAwsccOpsworkscmServers(scope constructs.Construct, id *string, config *DataAwsccOpsworkscmServersConfig) DataAwsccOpsworkscmServers {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccOpsworkscmServers(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/opsworkscm_servers awscc_opsworkscm_servers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/opsworkscm_servers awscc_opsworkscm_servers} Data Source.
 func NewDataAwsccOpsworkscmServers_Override(d DataAwsccOpsworkscmServers, scope constructs.Construct, id *string, config *DataAwsccOpsworkscmServersConfig) {
 	_init_.Initialize()
 

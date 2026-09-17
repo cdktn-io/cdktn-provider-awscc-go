@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/msk_batch_scram_secret awscc_msk_batch_scram_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/msk_batch_scram_secret awscc_msk_batch_scram_secret}.
 type DataAwsccMskBatchScramSecret interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccMskBatchScramSecret) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/msk_batch_scram_secret awscc_msk_batch_scram_secret} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/msk_batch_scram_secret awscc_msk_batch_scram_secret} Data Source.
 func NewDataAwsccMskBatchScramSecret(scope constructs.Construct, id *string, config *DataAwsccMskBatchScramSecretConfig) DataAwsccMskBatchScramSecret {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccMskBatchScramSecret(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/msk_batch_scram_secret awscc_msk_batch_scram_secret} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/msk_batch_scram_secret awscc_msk_batch_scram_secret} Data Source.
 func NewDataAwsccMskBatchScramSecret_Override(d DataAwsccMskBatchScramSecret, scope constructs.Construct, id *string, config *DataAwsccMskBatchScramSecretConfig) {
 	_init_.Initialize()
 

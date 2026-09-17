@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/wisdom_ai_prompt_version awscc_wisdom_ai_prompt_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/wisdom_ai_prompt_version awscc_wisdom_ai_prompt_version}.
 type DataAwsccWisdomAiPromptVersion interface {
 	cdktn.TerraformDataSource
 	AiPromptArn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccWisdomAiPromptVersion) VersionNumber() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/wisdom_ai_prompt_version awscc_wisdom_ai_prompt_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/wisdom_ai_prompt_version awscc_wisdom_ai_prompt_version} Data Source.
 func NewDataAwsccWisdomAiPromptVersion(scope constructs.Construct, id *string, config *DataAwsccWisdomAiPromptVersionConfig) DataAwsccWisdomAiPromptVersion {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccWisdomAiPromptVersion(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/wisdom_ai_prompt_version awscc_wisdom_ai_prompt_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/wisdom_ai_prompt_version awscc_wisdom_ai_prompt_version} Data Source.
 func NewDataAwsccWisdomAiPromptVersion_Override(d DataAwsccWisdomAiPromptVersion, scope constructs.Construct, id *string, config *DataAwsccWisdomAiPromptVersionConfig) {
 	_init_.Initialize()
 

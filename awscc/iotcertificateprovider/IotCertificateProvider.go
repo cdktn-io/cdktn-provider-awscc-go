@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_certificate_provider awscc_iot_certificate_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iot_certificate_provider awscc_iot_certificate_provider}.
 type IotCertificateProvider interface {
 	cdktn.TerraformResource
 	AccountDefaultForOperations() *[]*string
@@ -460,7 +460,7 @@ func (j *jsiiProxy_IotCertificateProvider) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_certificate_provider awscc_iot_certificate_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iot_certificate_provider awscc_iot_certificate_provider} Resource.
 func NewIotCertificateProvider(scope constructs.Construct, id *string, config *IotCertificateProviderConfig) IotCertificateProvider {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewIotCertificateProvider(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_certificate_provider awscc_iot_certificate_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iot_certificate_provider awscc_iot_certificate_provider} Resource.
 func NewIotCertificateProvider_Override(i IotCertificateProvider, scope constructs.Construct, id *string, config *IotCertificateProviderConfig) {
 	_init_.Initialize()
 

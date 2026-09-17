@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotanalytics_pipeline awscc_iotanalytics_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotanalytics_pipeline awscc_iotanalytics_pipeline}.
 type DataAwsccIotanalyticsPipeline interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccIotanalyticsPipeline) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotanalytics_pipeline awscc_iotanalytics_pipeline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotanalytics_pipeline awscc_iotanalytics_pipeline} Data Source.
 func NewDataAwsccIotanalyticsPipeline(scope constructs.Construct, id *string, config *DataAwsccIotanalyticsPipelineConfig) DataAwsccIotanalyticsPipeline {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccIotanalyticsPipeline(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotanalytics_pipeline awscc_iotanalytics_pipeline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotanalytics_pipeline awscc_iotanalytics_pipeline} Data Source.
 func NewDataAwsccIotanalyticsPipeline_Override(d DataAwsccIotanalyticsPipeline, scope constructs.Construct, id *string, config *DataAwsccIotanalyticsPipelineConfig) {
 	_init_.Initialize()
 

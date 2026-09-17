@@ -9,20 +9,20 @@ type EcsTaskDefinitionContainerDefinitionsLinuxParameters struct {
 	//
 	// For tasks that use the Fargate launch type, ``capabilities`` is supported for all platform versions but the ``add`` parameter is only supported if using platform version 1.4.0 or later.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#capabilities EcsTaskDefinition#capabilities}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_task_definition#capabilities EcsTaskDefinition#capabilities}
 	Capabilities *EcsTaskDefinitionContainerDefinitionsLinuxParametersCapabilities `field:"optional" json:"capabilities" yaml:"capabilities"`
 	// Any host devices to expose to the container.
 	//
 	// This parameter maps to ``Devices`` in the docker container create command and the ``--device`` option to docker run.
 	//   If you're using tasks that use the Fargate launch type, the ``devices`` parameter isn't supported.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#devices EcsTaskDefinition#devices}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_task_definition#devices EcsTaskDefinition#devices}
 	Devices interface{} `field:"optional" json:"devices" yaml:"devices"`
 	// Run an ``init`` process inside the container that forwards signals and reaps processes.
 	//
 	// This parameter maps to the ``--init`` option to docker run. This parameter requires version 1.25 of the Docker Remote API or greater on your container instance. To check the Docker Remote API version on your container instance, log in to your container instance and run the following command: ``sudo docker version --format '{{.Server.APIVersion}}'``
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#init_process_enabled EcsTaskDefinition#init_process_enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_task_definition#init_process_enabled EcsTaskDefinition#init_process_enabled}
 	InitProcessEnabled interface{} `field:"optional" json:"initProcessEnabled" yaml:"initProcessEnabled"`
 	// The total amount of swap memory (in MiB) a container can use.
 	//
@@ -31,14 +31,14 @@ type EcsTaskDefinitionContainerDefinitionsLinuxParameters struct {
 	//   If you're using tasks that use the Fargate launch type, the ``maxSwap`` parameter isn't supported.
 	//  If you're using tasks on Amazon Linux 2023 the ``swappiness`` parameter isn't supported.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#max_swap EcsTaskDefinition#max_swap}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_task_definition#max_swap EcsTaskDefinition#max_swap}
 	MaxSwap *float64 `field:"optional" json:"maxSwap" yaml:"maxSwap"`
 	// The value for the size (in MiB) of the ``/dev/shm`` volume.
 	//
 	// This parameter maps to the ``--shm-size`` option to docker run.
 	//   If you are using tasks that use the Fargate launch type, the ``sharedMemorySize`` parameter is not supported.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#shared_memory_size EcsTaskDefinition#shared_memory_size}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_task_definition#shared_memory_size EcsTaskDefinition#shared_memory_size}
 	SharedMemorySize *float64 `field:"optional" json:"sharedMemorySize" yaml:"sharedMemorySize"`
 	// This allows you to tune a container's memory swappiness behavior.
 	//
@@ -46,13 +46,13 @@ type EcsTaskDefinitionContainerDefinitionsLinuxParameters struct {
 	//   If you're using tasks that use the Fargate launch type, the ``swappiness`` parameter isn't supported.
 	//  If you're using tasks on Amazon Linux 2023 the ``swappiness`` parameter isn't supported.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#swappiness EcsTaskDefinition#swappiness}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_task_definition#swappiness EcsTaskDefinition#swappiness}
 	Swappiness *float64 `field:"optional" json:"swappiness" yaml:"swappiness"`
 	// The container path, mount options, and size (in MiB) of the tmpfs mount.
 	//
 	// This parameter maps to the ``--tmpfs`` option to docker run.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecs_task_definition#tmpfs EcsTaskDefinition#tmpfs}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_task_definition#tmpfs EcsTaskDefinition#tmpfs}
 	Tmpfs interface{} `field:"optional" json:"tmpfs" yaml:"tmpfs"`
 }
 

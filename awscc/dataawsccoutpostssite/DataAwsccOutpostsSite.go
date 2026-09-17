@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/outposts_site awscc_outposts_site}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/outposts_site awscc_outposts_site}.
 type DataAwsccOutpostsSite interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccOutpostsSite) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/outposts_site awscc_outposts_site} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/outposts_site awscc_outposts_site} Data Source.
 func NewDataAwsccOutpostsSite(scope constructs.Construct, id *string, config *DataAwsccOutpostsSiteConfig) DataAwsccOutpostsSite {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccOutpostsSite(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/outposts_site awscc_outposts_site} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/outposts_site awscc_outposts_site} Data Source.
 func NewDataAwsccOutpostsSite_Override(d DataAwsccOutpostsSite, scope constructs.Construct, id *string, config *DataAwsccOutpostsSiteConfig) {
 	_init_.Initialize()
 

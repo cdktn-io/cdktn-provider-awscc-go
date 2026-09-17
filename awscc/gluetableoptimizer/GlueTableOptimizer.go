@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/glue_table_optimizer awscc_glue_table_optimizer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_table_optimizer awscc_glue_table_optimizer}.
 type GlueTableOptimizer interface {
 	cdktn.TerraformResource
 	CatalogId() *string
@@ -470,7 +470,7 @@ func (j *jsiiProxy_GlueTableOptimizer) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/glue_table_optimizer awscc_glue_table_optimizer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_table_optimizer awscc_glue_table_optimizer} Resource.
 func NewGlueTableOptimizer(scope constructs.Construct, id *string, config *GlueTableOptimizerConfig) GlueTableOptimizer {
 	_init_.Initialize()
 
@@ -488,7 +488,7 @@ func NewGlueTableOptimizer(scope constructs.Construct, id *string, config *GlueT
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/glue_table_optimizer awscc_glue_table_optimizer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_table_optimizer awscc_glue_table_optimizer} Resource.
 func NewGlueTableOptimizer_Override(g GlueTableOptimizer, scope constructs.Construct, id *string, config *GlueTableOptimizerConfig) {
 	_init_.Initialize()
 

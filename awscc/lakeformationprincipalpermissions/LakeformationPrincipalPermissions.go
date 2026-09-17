@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lakeformation_principal_permissions awscc_lakeformation_principal_permissions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lakeformation_principal_permissions awscc_lakeformation_principal_permissions}.
 type LakeformationPrincipalPermissions interface {
 	cdktn.TerraformResource
 	Catalog() *string
@@ -493,7 +493,7 @@ func (j *jsiiProxy_LakeformationPrincipalPermissions) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lakeformation_principal_permissions awscc_lakeformation_principal_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lakeformation_principal_permissions awscc_lakeformation_principal_permissions} Resource.
 func NewLakeformationPrincipalPermissions(scope constructs.Construct, id *string, config *LakeformationPrincipalPermissionsConfig) LakeformationPrincipalPermissions {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewLakeformationPrincipalPermissions(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lakeformation_principal_permissions awscc_lakeformation_principal_permissions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lakeformation_principal_permissions awscc_lakeformation_principal_permissions} Resource.
 func NewLakeformationPrincipalPermissions_Override(l LakeformationPrincipalPermissions, scope constructs.Construct, id *string, config *LakeformationPrincipalPermissionsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/securityhub_automation_rule_v2 awscc_securityhub_automation_rule_v2}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/securityhub_automation_rule_v2 awscc_securityhub_automation_rule_v2}.
 type DataAwsccSecurityhubAutomationRuleV2 interface {
 	cdktn.TerraformDataSource
 	Actions() DataAwsccSecurityhubAutomationRuleV2ActionsList
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccSecurityhubAutomationRuleV2) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/securityhub_automation_rule_v2 awscc_securityhub_automation_rule_v2} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/securityhub_automation_rule_v2 awscc_securityhub_automation_rule_v2} Data Source.
 func NewDataAwsccSecurityhubAutomationRuleV2(scope constructs.Construct, id *string, config *DataAwsccSecurityhubAutomationRuleV2Config) DataAwsccSecurityhubAutomationRuleV2 {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccSecurityhubAutomationRuleV2(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/securityhub_automation_rule_v2 awscc_securityhub_automation_rule_v2} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/securityhub_automation_rule_v2 awscc_securityhub_automation_rule_v2} Data Source.
 func NewDataAwsccSecurityhubAutomationRuleV2_Override(d DataAwsccSecurityhubAutomationRuleV2, scope constructs.Construct, id *string, config *DataAwsccSecurityhubAutomationRuleV2Config) {
 	_init_.Initialize()
 

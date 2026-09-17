@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/deadline_farms awscc_deadline_farms}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/deadline_farms awscc_deadline_farms}.
 type DataAwsccDeadlineFarms interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDeadlineFarms) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/deadline_farms awscc_deadline_farms} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/deadline_farms awscc_deadline_farms} Data Source.
 func NewDataAwsccDeadlineFarms(scope constructs.Construct, id *string, config *DataAwsccDeadlineFarmsConfig) DataAwsccDeadlineFarms {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDeadlineFarms(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/deadline_farms awscc_deadline_farms} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/deadline_farms awscc_deadline_farms} Data Source.
 func NewDataAwsccDeadlineFarms_Override(d DataAwsccDeadlineFarms, scope constructs.Construct, id *string, config *DataAwsccDeadlineFarmsConfig) {
 	_init_.Initialize()
 

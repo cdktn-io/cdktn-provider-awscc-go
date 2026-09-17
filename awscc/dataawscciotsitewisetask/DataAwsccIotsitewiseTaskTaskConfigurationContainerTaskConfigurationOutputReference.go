@@ -31,10 +31,12 @@ type DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputRe
 	CreationStack() *[]*string
 	EcrUri() *string
 	EnvironmentVariables() cdktn.StringMap
+	EphemeralStorageConfiguration() DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfiguration
 	SetInternalValue(val *DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfiguration)
+	Mounts() DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList
 	ProcessingType() *string
 	ProcessingUnit() *string
 	TaskExecutionRole() *string
@@ -146,6 +148,16 @@ func (j *jsiiProxy_DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigu
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference) EphemeralStorageConfiguration() DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference {
+	var returns DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"ephemeralStorageConfiguration",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -161,6 +173,16 @@ func (j *jsiiProxy_DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigu
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference) Mounts() DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList {
+	var returns DataAwsccIotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList
+	_jsii_.Get(
+		j,
+		"mounts",
 		&returns,
 	)
 	return returns

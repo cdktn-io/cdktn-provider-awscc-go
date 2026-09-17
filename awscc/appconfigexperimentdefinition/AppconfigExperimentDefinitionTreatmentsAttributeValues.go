@@ -7,23 +7,23 @@ package appconfigexperimentdefinition
 type AppconfigExperimentDefinitionTreatmentsAttributeValues struct {
 	// A boolean value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_experiment_definition#boolean_value AppconfigExperimentDefinition#boolean_value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/appconfig_experiment_definition#boolean_value AppconfigExperimentDefinition#boolean_value}
 	BooleanValue interface{} `field:"optional" json:"booleanValue" yaml:"booleanValue"`
 	// An array of numeric values.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_experiment_definition#number_array AppconfigExperimentDefinition#number_array}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/appconfig_experiment_definition#number_array AppconfigExperimentDefinition#number_array}
 	NumberArray *[]*float64 `field:"optional" json:"numberArray" yaml:"numberArray"`
 	// A numeric value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_experiment_definition#number_value AppconfigExperimentDefinition#number_value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/appconfig_experiment_definition#number_value AppconfigExperimentDefinition#number_value}
 	NumberValue *float64 `field:"optional" json:"numberValue" yaml:"numberValue"`
 	// An array of string values.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_experiment_definition#string_array AppconfigExperimentDefinition#string_array}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/appconfig_experiment_definition#string_array AppconfigExperimentDefinition#string_array}
 	StringArray *[]*string `field:"optional" json:"stringArray" yaml:"stringArray"`
 	// A string value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_experiment_definition#string_value AppconfigExperimentDefinition#string_value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/appconfig_experiment_definition#string_value AppconfigExperimentDefinition#string_value}
 	StringValue *string `field:"optional" json:"stringValue" yaml:"stringValue"`
 }
 

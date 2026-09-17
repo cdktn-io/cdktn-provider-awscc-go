@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/emr_wal_workspace awscc_emr_wal_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/emr_wal_workspace awscc_emr_wal_workspace}.
 type EmrWalWorkspace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_EmrWalWorkspace) WalWorkspaceNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/emr_wal_workspace awscc_emr_wal_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/emr_wal_workspace awscc_emr_wal_workspace} Resource.
 func NewEmrWalWorkspace(scope constructs.Construct, id *string, config *EmrWalWorkspaceConfig) EmrWalWorkspace {
 	_init_.Initialize()
 
@@ -421,7 +421,7 @@ func NewEmrWalWorkspace(scope constructs.Construct, id *string, config *EmrWalWo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/emr_wal_workspace awscc_emr_wal_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/emr_wal_workspace awscc_emr_wal_workspace} Resource.
 func NewEmrWalWorkspace_Override(e EmrWalWorkspace, scope constructs.Construct, id *string, config *EmrWalWorkspaceConfig) {
 	_init_.Initialize()
 

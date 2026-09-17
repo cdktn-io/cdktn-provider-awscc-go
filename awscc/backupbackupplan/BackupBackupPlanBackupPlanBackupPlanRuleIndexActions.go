@@ -5,7 +5,7 @@ package backupbackupplan
 
 
 type BackupBackupPlanBackupPlanBackupPlanRuleIndexActions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/backup_backup_plan#resource_types BackupBackupPlan#resource_types}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/backup_backup_plan#resource_types BackupBackupPlan#resource_types}.
 	ResourceTypes *[]*string `field:"optional" json:"resourceTypes" yaml:"resourceTypes"`
 }
 

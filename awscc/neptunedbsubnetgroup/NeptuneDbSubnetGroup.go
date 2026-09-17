@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/neptune_db_subnet_group awscc_neptune_db_subnet_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/neptune_db_subnet_group awscc_neptune_db_subnet_group}.
 type NeptuneDbSubnetGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_NeptuneDbSubnetGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/neptune_db_subnet_group awscc_neptune_db_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/neptune_db_subnet_group awscc_neptune_db_subnet_group} Resource.
 func NewNeptuneDbSubnetGroup(scope constructs.Construct, id *string, config *NeptuneDbSubnetGroupConfig) NeptuneDbSubnetGroup {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewNeptuneDbSubnetGroup(scope constructs.Construct, id *string, config *Nep
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/neptune_db_subnet_group awscc_neptune_db_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/neptune_db_subnet_group awscc_neptune_db_subnet_group} Resource.
 func NewNeptuneDbSubnetGroup_Override(n NeptuneDbSubnetGroup, scope constructs.Construct, id *string, config *NeptuneDbSubnetGroupConfig) {
 	_init_.Initialize()
 

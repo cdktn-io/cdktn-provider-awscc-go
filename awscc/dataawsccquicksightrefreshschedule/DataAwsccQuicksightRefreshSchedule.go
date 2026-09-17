@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/quicksight_refresh_schedule awscc_quicksight_refresh_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/quicksight_refresh_schedule awscc_quicksight_refresh_schedule}.
 type DataAwsccQuicksightRefreshSchedule interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccQuicksightRefreshSchedule) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/quicksight_refresh_schedule awscc_quicksight_refresh_schedule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/quicksight_refresh_schedule awscc_quicksight_refresh_schedule} Data Source.
 func NewDataAwsccQuicksightRefreshSchedule(scope constructs.Construct, id *string, config *DataAwsccQuicksightRefreshScheduleConfig) DataAwsccQuicksightRefreshSchedule {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccQuicksightRefreshSchedule(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/quicksight_refresh_schedule awscc_quicksight_refresh_schedule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/quicksight_refresh_schedule awscc_quicksight_refresh_schedule} Data Source.
 func NewDataAwsccQuicksightRefreshSchedule_Override(d DataAwsccQuicksightRefreshSchedule, scope constructs.Construct, id *string, config *DataAwsccQuicksightRefreshScheduleConfig) {
 	_init_.Initialize()
 

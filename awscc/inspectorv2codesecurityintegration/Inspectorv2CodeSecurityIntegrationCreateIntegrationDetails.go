@@ -5,7 +5,7 @@ package inspectorv2codesecurityintegration
 
 
 type Inspectorv2CodeSecurityIntegrationCreateIntegrationDetails struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/inspectorv2_code_security_integration#gitlab_self_managed Inspectorv2CodeSecurityIntegration#gitlab_self_managed}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/inspectorv2_code_security_integration#gitlab_self_managed Inspectorv2CodeSecurityIntegration#gitlab_self_managed}.
 	GitlabSelfManaged *Inspectorv2CodeSecurityIntegrationCreateIntegrationDetailsGitlabSelfManaged `field:"optional" json:"gitlabSelfManaged" yaml:"gitlabSelfManaged"`
 }
 

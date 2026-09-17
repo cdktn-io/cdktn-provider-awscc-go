@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bcmdataexports_export awscc_bcmdataexports_export}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bcmdataexports_export awscc_bcmdataexports_export}.
 type DataAwsccBcmdataexportsExport interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccBcmdataexportsExport) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bcmdataexports_export awscc_bcmdataexports_export} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bcmdataexports_export awscc_bcmdataexports_export} Data Source.
 func NewDataAwsccBcmdataexportsExport(scope constructs.Construct, id *string, config *DataAwsccBcmdataexportsExportConfig) DataAwsccBcmdataexportsExport {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccBcmdataexportsExport(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bcmdataexports_export awscc_bcmdataexports_export} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bcmdataexports_export awscc_bcmdataexports_export} Data Source.
 func NewDataAwsccBcmdataexportsExport_Override(d DataAwsccBcmdataexportsExport, scope constructs.Construct, id *string, config *DataAwsccBcmdataexportsExportConfig) {
 	_init_.Initialize()
 

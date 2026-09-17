@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_verified_access_instance awscc_ec2_verified_access_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_verified_access_instance awscc_ec2_verified_access_instance}.
 type DataAwsccEc2VerifiedAccessInstance interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccEc2VerifiedAccessInstance) VerifiedAccessTrustProvid
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_verified_access_instance awscc_ec2_verified_access_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_verified_access_instance awscc_ec2_verified_access_instance} Data Source.
 func NewDataAwsccEc2VerifiedAccessInstance(scope constructs.Construct, id *string, config *DataAwsccEc2VerifiedAccessInstanceConfig) DataAwsccEc2VerifiedAccessInstance {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccEc2VerifiedAccessInstance(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_verified_access_instance awscc_ec2_verified_access_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_verified_access_instance awscc_ec2_verified_access_instance} Data Source.
 func NewDataAwsccEc2VerifiedAccessInstance_Override(d DataAwsccEc2VerifiedAccessInstance, scope constructs.Construct, id *string, config *DataAwsccEc2VerifiedAccessInstanceConfig) {
 	_init_.Initialize()
 

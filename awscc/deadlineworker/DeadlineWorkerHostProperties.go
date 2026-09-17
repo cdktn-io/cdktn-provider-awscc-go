@@ -7,11 +7,11 @@ package deadlineworker
 type DeadlineWorkerHostProperties struct {
 	// The host name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/deadline_worker#host_name DeadlineWorker#host_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/deadline_worker#host_name DeadlineWorker#host_name}
 	HostName *string `field:"optional" json:"hostName" yaml:"hostName"`
 	// The IP addresses for a host.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/deadline_worker#ip_addresses DeadlineWorker#ip_addresses}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/deadline_worker#ip_addresses DeadlineWorker#ip_addresses}
 	IpAddresses *DeadlineWorkerHostPropertiesIpAddresses `field:"optional" json:"ipAddresses" yaml:"ipAddresses"`
 }
 

@@ -7,7 +7,7 @@ package sagemakercluster
 type SagemakerClusterInstanceGroupsScheduledUpdateConfigDeploymentConfigAutoRollbackConfiguration struct {
 	// The name of the alarm.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_cluster#alarm_name SagemakerCluster#alarm_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_cluster#alarm_name SagemakerCluster#alarm_name}
 	AlarmName *string `field:"optional" json:"alarmName" yaml:"alarmName"`
 }
 

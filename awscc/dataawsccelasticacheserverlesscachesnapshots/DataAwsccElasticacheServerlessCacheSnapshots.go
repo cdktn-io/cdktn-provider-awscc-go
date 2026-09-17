@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/elasticache_serverless_cache_snapshots awscc_elasticache_serverless_cache_snapshots}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticache_serverless_cache_snapshots awscc_elasticache_serverless_cache_snapshots}.
 type DataAwsccElasticacheServerlessCacheSnapshots interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccElasticacheServerlessCacheSnapshots) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/elasticache_serverless_cache_snapshots awscc_elasticache_serverless_cache_snapshots} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticache_serverless_cache_snapshots awscc_elasticache_serverless_cache_snapshots} Data Source.
 func NewDataAwsccElasticacheServerlessCacheSnapshots(scope constructs.Construct, id *string, config *DataAwsccElasticacheServerlessCacheSnapshotsConfig) DataAwsccElasticacheServerlessCacheSnapshots {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccElasticacheServerlessCacheSnapshots(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/elasticache_serverless_cache_snapshots awscc_elasticache_serverless_cache_snapshots} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticache_serverless_cache_snapshots awscc_elasticache_serverless_cache_snapshots} Data Source.
 func NewDataAwsccElasticacheServerlessCacheSnapshots_Override(d DataAwsccElasticacheServerlessCacheSnapshots, scope constructs.Construct, id *string, config *DataAwsccElasticacheServerlessCacheSnapshotsConfig) {
 	_init_.Initialize()
 

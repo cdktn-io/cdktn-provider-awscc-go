@@ -16,6 +16,8 @@ type VpclatticeResourceConfigurationResourceConfigurationDefinitionOutputReferen
 	ArnResource() *string
 	SetArnResource(val *string)
 	ArnResourceInput() *string
+	CidrResource() VpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResourceOutputReference
+	CidrResourceInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -72,8 +74,10 @@ type VpclatticeResourceConfigurationResourceConfigurationDefinitionOutputReferen
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutCidrResource(value *VpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResource)
 	PutDnsResource(value *VpclatticeResourceConfigurationResourceConfigurationDefinitionDnsResource)
 	ResetArnResource()
+	ResetCidrResource()
 	ResetDnsResource()
 	ResetIpResource()
 	// Produce the Token's value at resolution time.
@@ -106,6 +110,26 @@ func (j *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitio
 	_jsii_.Get(
 		j,
 		"arnResourceInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionOutputReference) CidrResource() VpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResourceOutputReference {
+	var returns VpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResourceOutputReference
+	_jsii_.Get(
+		j,
+		"cidrResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionOutputReference) CidrResourceInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"cidrResourceInput",
 		&returns,
 	)
 	return returns
@@ -512,6 +536,17 @@ func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitio
 	return returns
 }
 
+func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionOutputReference) PutCidrResource(value *VpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResource) {
+	if err := v.validatePutCidrResourceParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		v,
+		"putCidrResource",
+		[]interface{}{value},
+	)
+}
+
 func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionOutputReference) PutDnsResource(value *VpclatticeResourceConfigurationResourceConfigurationDefinitionDnsResource) {
 	if err := v.validatePutDnsResourceParameters(value); err != nil {
 		panic(err)
@@ -527,6 +562,14 @@ func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitio
 	_jsii_.InvokeVoid(
 		v,
 		"resetArnResource",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VpclatticeResourceConfigurationResourceConfigurationDefinitionOutputReference) ResetCidrResource() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetCidrResource",
 		nil, // no parameters
 	)
 }

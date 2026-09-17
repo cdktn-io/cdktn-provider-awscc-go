@@ -5,7 +5,7 @@ package bedrockagentcorememory
 
 
 type BedrockagentcoreMemoryStreamDeliveryResourcesResources struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrockagentcore_memory#kinesis BedrockagentcoreMemory#kinesis}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrockagentcore_memory#kinesis BedrockagentcoreMemory#kinesis}.
 	Kinesis *BedrockagentcoreMemoryStreamDeliveryResourcesResourcesKinesis `field:"optional" json:"kinesis" yaml:"kinesis"`
 }
 

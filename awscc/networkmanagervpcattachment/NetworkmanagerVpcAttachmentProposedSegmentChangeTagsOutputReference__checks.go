@@ -166,33 +166,9 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference) validateSetInternalValueParameters(val interface{}) error {
-	switch val.(type) {
-	case cdktn.IResolvable:
-		// ok
-	case *NetworkmanagerVpcAttachmentProposedSegmentChangeTags:
-		val := val.(*NetworkmanagerVpcAttachmentProposedSegmentChangeTags)
-		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
-			return err
-		}
-	case NetworkmanagerVpcAttachmentProposedSegmentChangeTags:
-		val_ := val.(NetworkmanagerVpcAttachmentProposedSegmentChangeTags)
-		val := &val_
-		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
-			return err
-		}
-	default:
-		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *NetworkmanagerVpcAttachmentProposedSegmentChangeTags; received %#v (a %T)", val, val)
-		}
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference) validateSetKeyParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
+func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference) validateSetInternalValueParameters(val *NetworkmanagerVpcAttachmentProposedSegmentChangeTags) error {
+	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
+		return err
 	}
 
 	return nil
@@ -207,14 +183,6 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputRef
 }
 
 func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsOutputReference) validateSetValueParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

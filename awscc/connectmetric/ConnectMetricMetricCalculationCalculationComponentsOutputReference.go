@@ -76,7 +76,6 @@ type ConnectMetricMetricCalculationCalculationComponentsOutputReference interfac
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutMetricFilters(value interface{})
-	ResetAlias()
 	ResetMetricFilters()
 	ResetMetricId()
 	ResetMetricName()
@@ -555,14 +554,6 @@ func (c *jsiiProxy_ConnectMetricMetricCalculationCalculationComponentsOutputRefe
 		c,
 		"putMetricFilters",
 		[]interface{}{value},
-	)
-}
-
-func (c *jsiiProxy_ConnectMetricMetricCalculationCalculationComponentsOutputReference) ResetAlias() {
-	_jsii_.InvokeVoid(
-		c,
-		"resetAlias",
-		nil, // no parameters
 	)
 }
 

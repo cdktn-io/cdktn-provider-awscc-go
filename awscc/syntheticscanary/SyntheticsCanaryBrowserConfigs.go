@@ -5,7 +5,7 @@ package syntheticscanary
 
 
 type SyntheticsCanaryBrowserConfigs struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/synthetics_canary#browser_type SyntheticsCanary#browser_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/synthetics_canary#browser_type SyntheticsCanary#browser_type}.
 	BrowserType *string `field:"optional" json:"browserType" yaml:"browserType"`
 }
 

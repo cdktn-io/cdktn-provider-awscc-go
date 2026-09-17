@@ -22,9 +22,9 @@ type QuicksightDataSourceConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_data_source#name QuicksightDataSource#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_data_source#name QuicksightDataSource#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_data_source#type QuicksightDataSource#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_data_source#type QuicksightDataSource#type}.
 	Type *string `field:"required" json:"type" yaml:"type"`
 	// <p>A set of alternate data source parameters that you want to share for the credentials             stored with this data source.
 	//
@@ -37,43 +37,43 @@ type QuicksightDataSourceConfig struct {
 	//             the <code>Credentials</code> originally used with this <code>DataSourceParameters</code>
 	//             are automatically allowed.</p>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_data_source#alternate_data_source_parameters QuicksightDataSource#alternate_data_source_parameters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_data_source#alternate_data_source_parameters QuicksightDataSource#alternate_data_source_parameters}
 	AlternateDataSourceParameters interface{} `field:"optional" json:"alternateDataSourceParameters" yaml:"alternateDataSourceParameters"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_data_source#aws_account_id QuicksightDataSource#aws_account_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_data_source#aws_account_id QuicksightDataSource#aws_account_id}.
 	AwsAccountId *string `field:"optional" json:"awsAccountId" yaml:"awsAccountId"`
 	// <p>Data source credentials.
 	//
 	// This is a variant type structure. For this structure to be
 	//             valid, only one of the attributes can be non-null.</p>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_data_source#credentials QuicksightDataSource#credentials}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_data_source#credentials QuicksightDataSource#credentials}
 	Credentials *QuicksightDataSourceCredentials `field:"optional" json:"credentials" yaml:"credentials"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_data_source#data_source_id QuicksightDataSource#data_source_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_data_source#data_source_id QuicksightDataSource#data_source_id}.
 	DataSourceId *string `field:"optional" json:"dataSourceId" yaml:"dataSourceId"`
 	// <p>The parameters that Amazon QuickSight uses to connect to your underlying data source.
 	//
 	// This is a variant type structure. For this structure to be valid, only one of the
 	//             attributes can be non-null.</p>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_data_source#data_source_parameters QuicksightDataSource#data_source_parameters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_data_source#data_source_parameters QuicksightDataSource#data_source_parameters}
 	DataSourceParameters *QuicksightDataSourceDataSourceParameters `field:"optional" json:"dataSourceParameters" yaml:"dataSourceParameters"`
 	// <p>Error information for the data source creation or update.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_data_source#error_info QuicksightDataSource#error_info}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_data_source#error_info QuicksightDataSource#error_info}
 	ErrorInfo *QuicksightDataSourceErrorInfo `field:"optional" json:"errorInfo" yaml:"errorInfo"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_data_source#folder_arns QuicksightDataSource#folder_arns}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_data_source#folder_arns QuicksightDataSource#folder_arns}.
 	FolderArns *[]*string `field:"optional" json:"folderArns" yaml:"folderArns"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_data_source#permissions QuicksightDataSource#permissions}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_data_source#permissions QuicksightDataSource#permissions}.
 	Permissions interface{} `field:"optional" json:"permissions" yaml:"permissions"`
 	// <p>Secure Socket Layer (SSL) properties that apply when Amazon QuickSight connects to your             underlying data source.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_data_source#ssl_properties QuicksightDataSource#ssl_properties}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_data_source#ssl_properties QuicksightDataSource#ssl_properties}
 	SslProperties *QuicksightDataSourceSslProperties `field:"optional" json:"sslProperties" yaml:"sslProperties"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_data_source#tags QuicksightDataSource#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_data_source#tags QuicksightDataSource#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// <p>VPC connection properties.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_data_source#vpc_connection_properties QuicksightDataSource#vpc_connection_properties}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_data_source#vpc_connection_properties QuicksightDataSource#vpc_connection_properties}
 	VpcConnectionProperties *QuicksightDataSourceVpcConnectionProperties `field:"optional" json:"vpcConnectionProperties" yaml:"vpcConnectionProperties"`
 }
 

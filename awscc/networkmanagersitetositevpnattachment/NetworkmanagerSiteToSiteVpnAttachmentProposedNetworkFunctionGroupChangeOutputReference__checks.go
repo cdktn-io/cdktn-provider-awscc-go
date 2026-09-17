@@ -93,48 +93,9 @@ func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionG
 	return nil
 }
 
-func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeOutputReference) validatePutTagsParameters(value interface{}) error {
-	if value == nil {
-		return fmt.Errorf("parameter value is required, but nil was provided")
-	}
-	switch value.(type) {
-	case cdktn.IResolvable:
-		// ok
-	case *[]*NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTags:
-		value := value.(*[]*NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTags)
-		for idx_cd4240, v := range *value {
-			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
-				return err
-			}
-		}
-	case []*NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTags:
-		value_ := value.([]*NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTags)
-		value := &value_
-		for idx_cd4240, v := range *value {
-			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
-				return err
-			}
-		}
-	default:
-		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeTags; received %#v (a %T)", value, value)
-		}
-	}
-
-	return nil
-}
-
 func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeOutputReference) validateSetAttachmentPolicyRuleNumberParameters(val *float64) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil
@@ -205,33 +166,9 @@ func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionG
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeOutputReference) validateSetInternalValueParameters(val interface{}) error {
-	switch val.(type) {
-	case cdktn.IResolvable:
-		// ok
-	case *NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChange:
-		val := val.(*NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChange)
-		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
-			return err
-		}
-	case NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChange:
-		val_ := val.(NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChange)
-		val := &val_
-		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
-			return err
-		}
-	default:
-		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChange; received %#v (a %T)", val, val)
-		}
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeOutputReference) validateSetNetworkFunctionGroupNameParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
+func (j *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChangeOutputReference) validateSetInternalValueParameters(val *NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChange) error {
+	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
+		return err
 	}
 
 	return nil

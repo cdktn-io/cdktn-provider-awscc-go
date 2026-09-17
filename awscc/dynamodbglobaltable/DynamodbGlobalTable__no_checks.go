@@ -123,6 +123,10 @@ func (d *jsiiProxy_DynamodbGlobalTable) validatePutTimeToLiveSpecificationParame
 	return nil
 }
 
+func (d *jsiiProxy_DynamodbGlobalTable) validatePutVectorIndexesParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DynamodbGlobalTable) validatePutWarmThroughputParameters(value *DynamodbGlobalTableWarmThroughput) error {
 	return nil
 }

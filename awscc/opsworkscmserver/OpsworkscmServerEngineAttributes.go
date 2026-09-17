@@ -5,9 +5,9 @@ package opsworkscmserver
 
 
 type OpsworkscmServerEngineAttributes struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/opsworkscm_server#name OpsworkscmServer#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/opsworkscm_server#name OpsworkscmServer#name}.
 	Name *string `field:"optional" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/opsworkscm_server#value OpsworkscmServer#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/opsworkscm_server#value OpsworkscmServer#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

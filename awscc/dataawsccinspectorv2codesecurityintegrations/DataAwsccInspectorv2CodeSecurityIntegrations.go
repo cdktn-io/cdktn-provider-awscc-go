@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/inspectorv2_code_security_integrations awscc_inspectorv2_code_security_integrations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/inspectorv2_code_security_integrations awscc_inspectorv2_code_security_integrations}.
 type DataAwsccInspectorv2CodeSecurityIntegrations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccInspectorv2CodeSecurityIntegrations) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/inspectorv2_code_security_integrations awscc_inspectorv2_code_security_integrations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/inspectorv2_code_security_integrations awscc_inspectorv2_code_security_integrations} Data Source.
 func NewDataAwsccInspectorv2CodeSecurityIntegrations(scope constructs.Construct, id *string, config *DataAwsccInspectorv2CodeSecurityIntegrationsConfig) DataAwsccInspectorv2CodeSecurityIntegrations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccInspectorv2CodeSecurityIntegrations(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/inspectorv2_code_security_integrations awscc_inspectorv2_code_security_integrations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/inspectorv2_code_security_integrations awscc_inspectorv2_code_security_integrations} Data Source.
 func NewDataAwsccInspectorv2CodeSecurityIntegrations_Override(d DataAwsccInspectorv2CodeSecurityIntegrations, scope constructs.Construct, id *string, config *DataAwsccInspectorv2CodeSecurityIntegrationsConfig) {
 	_init_.Initialize()
 

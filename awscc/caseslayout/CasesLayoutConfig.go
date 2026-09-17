@@ -26,21 +26,21 @@ type CasesLayoutConfig struct {
 	//
 	// Specifies which fields appear in the top panel and More Info tab, and their display order.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cases_layout#content CasesLayout#content}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cases_layout#content CasesLayout#content}
 	Content *CasesLayoutContent `field:"required" json:"content" yaml:"content"`
 	// A descriptive name for the layout.
 	//
 	// Must be unique within the Cases domain and should clearly indicate the layout's purpose and field organization.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cases_layout#name CasesLayout#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cases_layout#name CasesLayout#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The unique identifier of the Cases domain.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cases_layout#domain_id CasesLayout#domain_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cases_layout#domain_id CasesLayout#domain_id}
 	DomainId *string `field:"optional" json:"domainId" yaml:"domainId"`
 	// The tags that you attach to this layout.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cases_layout#tags CasesLayout#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cases_layout#tags CasesLayout#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

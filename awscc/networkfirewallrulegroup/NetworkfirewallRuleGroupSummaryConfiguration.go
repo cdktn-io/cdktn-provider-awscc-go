@@ -5,7 +5,7 @@ package networkfirewallrulegroup
 
 
 type NetworkfirewallRuleGroupSummaryConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkfirewall_rule_group#rule_options NetworkfirewallRuleGroup#rule_options}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/networkfirewall_rule_group#rule_options NetworkfirewallRuleGroup#rule_options}.
 	RuleOptions *[]*string `field:"optional" json:"ruleOptions" yaml:"ruleOptions"`
 }
 

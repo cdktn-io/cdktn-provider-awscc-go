@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule}.
 type DataAwsccCloudwatchInsightRule interface {
 	cdktn.TerraformDataSource
 	ApplyOnTransformedLogs() cdktn.IResolvable
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccCloudwatchInsightRule) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule} Data Source.
 func NewDataAwsccCloudwatchInsightRule(scope constructs.Construct, id *string, config *DataAwsccCloudwatchInsightRuleConfig) DataAwsccCloudwatchInsightRule {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccCloudwatchInsightRule(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule} Data Source.
 func NewDataAwsccCloudwatchInsightRule_Override(d DataAwsccCloudwatchInsightRule, scope constructs.Construct, id *string, config *DataAwsccCloudwatchInsightRuleConfig) {
 	_init_.Initialize()
 

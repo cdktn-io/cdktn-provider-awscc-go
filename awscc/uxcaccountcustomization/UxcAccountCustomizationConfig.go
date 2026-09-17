@@ -24,15 +24,15 @@ type UxcAccountCustomizationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The color theme assigned to the account for visual identification in the AWS Console.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/uxc_account_customization#account_color UxcAccountCustomization#account_color}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/uxc_account_customization#account_color UxcAccountCustomization#account_color}
 	AccountColor *string `field:"optional" json:"accountColor" yaml:"accountColor"`
 	// A list of AWS region identifiers visible to the account in the AWS Console.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/uxc_account_customization#visible_regions UxcAccountCustomization#visible_regions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/uxc_account_customization#visible_regions UxcAccountCustomization#visible_regions}
 	VisibleRegions *[]*string `field:"optional" json:"visibleRegions" yaml:"visibleRegions"`
 	// A list of AWS service identifiers visible to the account in the AWS Console.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/uxc_account_customization#visible_services UxcAccountCustomization#visible_services}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/uxc_account_customization#visible_services UxcAccountCustomization#visible_services}
 	VisibleServices *[]*string `field:"optional" json:"visibleServices" yaml:"visibleServices"`
 }
 

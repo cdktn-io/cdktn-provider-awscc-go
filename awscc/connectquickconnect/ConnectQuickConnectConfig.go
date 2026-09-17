@@ -24,23 +24,23 @@ type ConnectQuickConnectConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The identifier of the Amazon Connect instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_quick_connect#instance_arn ConnectQuickConnect#instance_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_quick_connect#instance_arn ConnectQuickConnect#instance_arn}
 	InstanceArn *string `field:"required" json:"instanceArn" yaml:"instanceArn"`
 	// The name of the quick connect.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_quick_connect#name ConnectQuickConnect#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_quick_connect#name ConnectQuickConnect#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Configuration settings for the quick connect.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_quick_connect#quick_connect_config ConnectQuickConnect#quick_connect_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_quick_connect#quick_connect_config ConnectQuickConnect#quick_connect_config}
 	QuickConnectConfig *ConnectQuickConnectQuickConnectConfig `field:"required" json:"quickConnectConfig" yaml:"quickConnectConfig"`
 	// The description of the quick connect.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_quick_connect#description ConnectQuickConnect#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_quick_connect#description ConnectQuickConnect#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// One or more tags.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_quick_connect#tags ConnectQuickConnect#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_quick_connect#tags ConnectQuickConnect#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

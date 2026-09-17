@@ -24,11 +24,11 @@ type LakeformationTagAssociationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// List of Lake Formation Tags to associate with the Lake Formation Resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lakeformation_tag_association#lf_tags LakeformationTagAssociation#lf_tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lakeformation_tag_association#lf_tags LakeformationTagAssociation#lf_tags}
 	LfTags interface{} `field:"required" json:"lfTags" yaml:"lfTags"`
 	// Resource to tag with the Lake Formation Tags.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lakeformation_tag_association#resource LakeformationTagAssociation#resource}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lakeformation_tag_association#resource LakeformationTagAssociation#resource}
 	Resource *LakeformationTagAssociationResource `field:"required" json:"resource" yaml:"resource"`
 }
 

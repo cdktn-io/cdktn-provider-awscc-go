@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/route53resolver_resolver_dnssec_configs awscc_route53resolver_resolver_dnssec_configs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/route53resolver_resolver_dnssec_configs awscc_route53resolver_resolver_dnssec_configs}.
 type DataAwsccRoute53ResolverResolverDnssecConfigs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRoute53ResolverResolverDnssecConfigs) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/route53resolver_resolver_dnssec_configs awscc_route53resolver_resolver_dnssec_configs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/route53resolver_resolver_dnssec_configs awscc_route53resolver_resolver_dnssec_configs} Data Source.
 func NewDataAwsccRoute53ResolverResolverDnssecConfigs(scope constructs.Construct, id *string, config *DataAwsccRoute53ResolverResolverDnssecConfigsConfig) DataAwsccRoute53ResolverResolverDnssecConfigs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRoute53ResolverResolverDnssecConfigs(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/route53resolver_resolver_dnssec_configs awscc_route53resolver_resolver_dnssec_configs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/route53resolver_resolver_dnssec_configs awscc_route53resolver_resolver_dnssec_configs} Data Source.
 func NewDataAwsccRoute53ResolverResolverDnssecConfigs_Override(d DataAwsccRoute53ResolverResolverDnssecConfigs, scope constructs.Construct, id *string, config *DataAwsccRoute53ResolverResolverDnssecConfigsConfig) {
 	_init_.Initialize()
 

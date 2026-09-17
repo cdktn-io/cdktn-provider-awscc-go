@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_prefix_list awscc_ec2_prefix_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_prefix_list awscc_ec2_prefix_list}.
 type DataAwsccEc2PrefixList interface {
 	cdktn.TerraformDataSource
 	AddressFamily() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccEc2PrefixList) Version() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_prefix_list awscc_ec2_prefix_list} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_prefix_list awscc_ec2_prefix_list} Data Source.
 func NewDataAwsccEc2PrefixList(scope constructs.Construct, id *string, config *DataAwsccEc2PrefixListConfig) DataAwsccEc2PrefixList {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccEc2PrefixList(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_prefix_list awscc_ec2_prefix_list} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_prefix_list awscc_ec2_prefix_list} Data Source.
 func NewDataAwsccEc2PrefixList_Override(d DataAwsccEc2PrefixList, scope constructs.Construct, id *string, config *DataAwsccEc2PrefixListConfig) {
 	_init_.Initialize()
 

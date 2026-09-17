@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/applicationsignals_grouping_configuration awscc_applicationsignals_grouping_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/applicationsignals_grouping_configuration awscc_applicationsignals_grouping_configuration}.
 type ApplicationsignalsGroupingConfiguration interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -400,7 +400,7 @@ func (j *jsiiProxy_ApplicationsignalsGroupingConfiguration) UpdatedAt() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/applicationsignals_grouping_configuration awscc_applicationsignals_grouping_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/applicationsignals_grouping_configuration awscc_applicationsignals_grouping_configuration} Resource.
 func NewApplicationsignalsGroupingConfiguration(scope constructs.Construct, id *string, config *ApplicationsignalsGroupingConfigurationConfig) ApplicationsignalsGroupingConfiguration {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewApplicationsignalsGroupingConfiguration(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/applicationsignals_grouping_configuration awscc_applicationsignals_grouping_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/applicationsignals_grouping_configuration awscc_applicationsignals_grouping_configuration} Resource.
 func NewApplicationsignalsGroupingConfiguration_Override(a ApplicationsignalsGroupingConfiguration, scope constructs.Construct, id *string, config *ApplicationsignalsGroupingConfigurationConfig) {
 	_init_.Initialize()
 

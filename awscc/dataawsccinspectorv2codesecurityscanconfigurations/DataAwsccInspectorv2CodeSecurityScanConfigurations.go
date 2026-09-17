@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/inspectorv2_code_security_scan_configurations awscc_inspectorv2_code_security_scan_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/inspectorv2_code_security_scan_configurations awscc_inspectorv2_code_security_scan_configurations}.
 type DataAwsccInspectorv2CodeSecurityScanConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccInspectorv2CodeSecurityScanConfigurations) Terraform
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/inspectorv2_code_security_scan_configurations awscc_inspectorv2_code_security_scan_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/inspectorv2_code_security_scan_configurations awscc_inspectorv2_code_security_scan_configurations} Data Source.
 func NewDataAwsccInspectorv2CodeSecurityScanConfigurations(scope constructs.Construct, id *string, config *DataAwsccInspectorv2CodeSecurityScanConfigurationsConfig) DataAwsccInspectorv2CodeSecurityScanConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccInspectorv2CodeSecurityScanConfigurations(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/inspectorv2_code_security_scan_configurations awscc_inspectorv2_code_security_scan_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/inspectorv2_code_security_scan_configurations awscc_inspectorv2_code_security_scan_configurations} Data Source.
 func NewDataAwsccInspectorv2CodeSecurityScanConfigurations_Override(d DataAwsccInspectorv2CodeSecurityScanConfigurations, scope constructs.Construct, id *string, config *DataAwsccInspectorv2CodeSecurityScanConfigurationsConfig) {
 	_init_.Initialize()
 

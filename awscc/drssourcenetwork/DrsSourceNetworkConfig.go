@@ -24,19 +24,19 @@ type DrsSourceNetworkConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The account ID containing the VPC to protect.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/drs_source_network#origin_account_id DrsSourceNetwork#origin_account_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/drs_source_network#origin_account_id DrsSourceNetwork#origin_account_id}
 	OriginAccountId *string `field:"required" json:"originAccountId" yaml:"originAccountId"`
 	// The region containing the VPC to protect.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/drs_source_network#origin_region DrsSourceNetwork#origin_region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/drs_source_network#origin_region DrsSourceNetwork#origin_region}
 	OriginRegion *string `field:"required" json:"originRegion" yaml:"originRegion"`
 	// The VPC ID to protect.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/drs_source_network#vpc_id DrsSourceNetwork#vpc_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/drs_source_network#vpc_id DrsSourceNetwork#vpc_id}
 	VpcId *string `field:"required" json:"vpcId" yaml:"vpcId"`
 	// A set of tags associated with the Source Network.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/drs_source_network#tags DrsSourceNetwork#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/drs_source_network#tags DrsSourceNetwork#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

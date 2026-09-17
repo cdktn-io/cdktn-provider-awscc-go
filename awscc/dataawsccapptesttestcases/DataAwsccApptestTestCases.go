@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/apptest_test_cases awscc_apptest_test_cases}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/apptest_test_cases awscc_apptest_test_cases}.
 type DataAwsccApptestTestCases interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccApptestTestCases) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/apptest_test_cases awscc_apptest_test_cases} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/apptest_test_cases awscc_apptest_test_cases} Data Source.
 func NewDataAwsccApptestTestCases(scope constructs.Construct, id *string, config *DataAwsccApptestTestCasesConfig) DataAwsccApptestTestCases {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccApptestTestCases(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/apptest_test_cases awscc_apptest_test_cases} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/apptest_test_cases awscc_apptest_test_cases} Data Source.
 func NewDataAwsccApptestTestCases_Override(d DataAwsccApptestTestCases, scope constructs.Construct, id *string, config *DataAwsccApptestTestCasesConfig) {
 	_init_.Initialize()
 

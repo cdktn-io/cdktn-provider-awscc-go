@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/pricingplanmanager_subscriptions awscc_pricingplanmanager_subscriptions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/pricingplanmanager_subscriptions awscc_pricingplanmanager_subscriptions}.
 type DataAwsccPricingplanmanagerSubscriptions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccPricingplanmanagerSubscriptions) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/pricingplanmanager_subscriptions awscc_pricingplanmanager_subscriptions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/pricingplanmanager_subscriptions awscc_pricingplanmanager_subscriptions} Data Source.
 func NewDataAwsccPricingplanmanagerSubscriptions(scope constructs.Construct, id *string, config *DataAwsccPricingplanmanagerSubscriptionsConfig) DataAwsccPricingplanmanagerSubscriptions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccPricingplanmanagerSubscriptions(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/pricingplanmanager_subscriptions awscc_pricingplanmanager_subscriptions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/pricingplanmanager_subscriptions awscc_pricingplanmanager_subscriptions} Data Source.
 func NewDataAwsccPricingplanmanagerSubscriptions_Override(d DataAwsccPricingplanmanagerSubscriptions, scope constructs.Construct, id *string, config *DataAwsccPricingplanmanagerSubscriptionsConfig) {
 	_init_.Initialize()
 

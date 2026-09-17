@@ -9,11 +9,11 @@ type GameliftMatchmakingRuleSetTags struct {
 	//
 	// You can specify a value that is 1 to 128 Unicode characters in length.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/gamelift_matchmaking_rule_set#key GameliftMatchmakingRuleSet#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/gamelift_matchmaking_rule_set#key GameliftMatchmakingRuleSet#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value for the tag. You can specify a value that is 1 to 256 Unicode characters in length.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/gamelift_matchmaking_rule_set#value GameliftMatchmakingRuleSet#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/gamelift_matchmaking_rule_set#value GameliftMatchmakingRuleSet#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

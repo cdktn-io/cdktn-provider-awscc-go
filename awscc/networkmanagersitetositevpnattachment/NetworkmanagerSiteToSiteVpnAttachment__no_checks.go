@@ -79,14 +79,6 @@ func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validateOverrideLogica
 	return nil
 }
 
-func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validatePutProposedNetworkFunctionGroupChangeParameters(value *NetworkmanagerSiteToSiteVpnAttachmentProposedNetworkFunctionGroupChange) error {
-	return nil
-}
-
-func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validatePutProposedSegmentChangeParameters(value *NetworkmanagerSiteToSiteVpnAttachmentProposedSegmentChange) error {
-	return nil
-}
-
 func (n *jsiiProxy_NetworkmanagerSiteToSiteVpnAttachment) validatePutTagsParameters(value interface{}) error {
 	return nil
 }

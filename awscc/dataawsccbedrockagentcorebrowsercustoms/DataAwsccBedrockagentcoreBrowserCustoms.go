@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrockagentcore_browser_customs awscc_bedrockagentcore_browser_customs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_browser_customs awscc_bedrockagentcore_browser_customs}.
 type DataAwsccBedrockagentcoreBrowserCustoms interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreBrowserCustoms) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrockagentcore_browser_customs awscc_bedrockagentcore_browser_customs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_browser_customs awscc_bedrockagentcore_browser_customs} Data Source.
 func NewDataAwsccBedrockagentcoreBrowserCustoms(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreBrowserCustomsConfig) DataAwsccBedrockagentcoreBrowserCustoms {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockagentcoreBrowserCustoms(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrockagentcore_browser_customs awscc_bedrockagentcore_browser_customs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_browser_customs awscc_bedrockagentcore_browser_customs} Data Source.
 func NewDataAwsccBedrockagentcoreBrowserCustoms_Override(d DataAwsccBedrockagentcoreBrowserCustoms, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreBrowserCustomsConfig) {
 	_init_.Initialize()
 

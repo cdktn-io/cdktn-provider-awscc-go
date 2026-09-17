@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/rds_db_subnet_group awscc_rds_db_subnet_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/rds_db_subnet_group awscc_rds_db_subnet_group}.
 type DataAwsccRdsDbSubnetGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccRdsDbSubnetGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/rds_db_subnet_group awscc_rds_db_subnet_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/rds_db_subnet_group awscc_rds_db_subnet_group} Data Source.
 func NewDataAwsccRdsDbSubnetGroup(scope constructs.Construct, id *string, config *DataAwsccRdsDbSubnetGroupConfig) DataAwsccRdsDbSubnetGroup {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccRdsDbSubnetGroup(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/rds_db_subnet_group awscc_rds_db_subnet_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/rds_db_subnet_group awscc_rds_db_subnet_group} Data Source.
 func NewDataAwsccRdsDbSubnetGroup_Override(d DataAwsccRdsDbSubnetGroup, scope constructs.Construct, id *string, config *DataAwsccRdsDbSubnetGroupConfig) {
 	_init_.Initialize()
 

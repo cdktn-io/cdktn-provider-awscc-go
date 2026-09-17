@@ -5,7 +5,7 @@ package inspectorv2codesecurityscanconfiguration
 
 
 type Inspectorv2CodeSecurityScanConfigurationConfigurationContinuousIntegrationScanConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/inspectorv2_code_security_scan_configuration#supported_events Inspectorv2CodeSecurityScanConfiguration#supported_events}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/inspectorv2_code_security_scan_configuration#supported_events Inspectorv2CodeSecurityScanConfiguration#supported_events}.
 	SupportedEvents *[]*string `field:"optional" json:"supportedEvents" yaml:"supportedEvents"`
 }
 

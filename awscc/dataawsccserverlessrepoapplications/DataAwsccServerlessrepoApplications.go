@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/serverlessrepo_applications awscc_serverlessrepo_applications}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/serverlessrepo_applications awscc_serverlessrepo_applications}.
 type DataAwsccServerlessrepoApplications interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccServerlessrepoApplications) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/serverlessrepo_applications awscc_serverlessrepo_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/serverlessrepo_applications awscc_serverlessrepo_applications} Data Source.
 func NewDataAwsccServerlessrepoApplications(scope constructs.Construct, id *string, config *DataAwsccServerlessrepoApplicationsConfig) DataAwsccServerlessrepoApplications {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccServerlessrepoApplications(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/serverlessrepo_applications awscc_serverlessrepo_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/serverlessrepo_applications awscc_serverlessrepo_applications} Data Source.
 func NewDataAwsccServerlessrepoApplications_Override(d DataAwsccServerlessrepoApplications, scope constructs.Construct, id *string, config *DataAwsccServerlessrepoApplicationsConfig) {
 	_init_.Initialize()
 

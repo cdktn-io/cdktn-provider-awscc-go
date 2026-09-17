@@ -9,7 +9,7 @@ type SagemakerEndpointConfigAsyncInferenceConfigClientConfig struct {
 	//
 	// If no value is provided, SageMaker will choose an optimal value for you.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_endpoint_config#max_concurrent_invocations_per_instance SagemakerEndpointConfigA#max_concurrent_invocations_per_instance}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_endpoint_config#max_concurrent_invocations_per_instance SagemakerEndpointConfigA#max_concurrent_invocations_per_instance}
 	MaxConcurrentInvocationsPerInstance *float64 `field:"optional" json:"maxConcurrentInvocationsPerInstance" yaml:"maxConcurrentInvocationsPerInstance"`
 }
 

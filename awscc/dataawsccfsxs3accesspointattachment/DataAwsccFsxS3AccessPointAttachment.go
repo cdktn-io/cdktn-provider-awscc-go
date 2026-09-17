@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/fsx_s3_access_point_attachment awscc_fsx_s3_access_point_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fsx_s3_access_point_attachment awscc_fsx_s3_access_point_attachment}.
 type DataAwsccFsxS3AccessPointAttachment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccFsxS3AccessPointAttachment) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/fsx_s3_access_point_attachment awscc_fsx_s3_access_point_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fsx_s3_access_point_attachment awscc_fsx_s3_access_point_attachment} Data Source.
 func NewDataAwsccFsxS3AccessPointAttachment(scope constructs.Construct, id *string, config *DataAwsccFsxS3AccessPointAttachmentConfig) DataAwsccFsxS3AccessPointAttachment {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccFsxS3AccessPointAttachment(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/fsx_s3_access_point_attachment awscc_fsx_s3_access_point_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fsx_s3_access_point_attachment awscc_fsx_s3_access_point_attachment} Data Source.
 func NewDataAwsccFsxS3AccessPointAttachment_Override(d DataAwsccFsxS3AccessPointAttachment, scope constructs.Construct, id *string, config *DataAwsccFsxS3AccessPointAttachmentConfig) {
 	_init_.Initialize()
 

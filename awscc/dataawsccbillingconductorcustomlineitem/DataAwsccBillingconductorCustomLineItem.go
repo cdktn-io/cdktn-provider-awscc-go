@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/billingconductor_custom_line_item awscc_billingconductor_custom_line_item}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/billingconductor_custom_line_item awscc_billingconductor_custom_line_item}.
 type DataAwsccBillingconductorCustomLineItem interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccBillingconductorCustomLineItem) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/billingconductor_custom_line_item awscc_billingconductor_custom_line_item} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/billingconductor_custom_line_item awscc_billingconductor_custom_line_item} Data Source.
 func NewDataAwsccBillingconductorCustomLineItem(scope constructs.Construct, id *string, config *DataAwsccBillingconductorCustomLineItemConfig) DataAwsccBillingconductorCustomLineItem {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccBillingconductorCustomLineItem(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/billingconductor_custom_line_item awscc_billingconductor_custom_line_item} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/billingconductor_custom_line_item awscc_billingconductor_custom_line_item} Data Source.
 func NewDataAwsccBillingconductorCustomLineItem_Override(d DataAwsccBillingconductorCustomLineItem, scope constructs.Construct, id *string, config *DataAwsccBillingconductorCustomLineItemConfig) {
 	_init_.Initialize()
 

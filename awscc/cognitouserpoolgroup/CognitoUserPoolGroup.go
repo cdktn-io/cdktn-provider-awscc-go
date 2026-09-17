@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cognito_user_pool_group awscc_cognito_user_pool_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cognito_user_pool_group awscc_cognito_user_pool_group}.
 type CognitoUserPoolGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -474,7 +474,7 @@ func (j *jsiiProxy_CognitoUserPoolGroup) UserPoolIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cognito_user_pool_group awscc_cognito_user_pool_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cognito_user_pool_group awscc_cognito_user_pool_group} Resource.
 func NewCognitoUserPoolGroup(scope constructs.Construct, id *string, config *CognitoUserPoolGroupConfig) CognitoUserPoolGroup {
 	_init_.Initialize()
 
@@ -492,7 +492,7 @@ func NewCognitoUserPoolGroup(scope constructs.Construct, id *string, config *Cog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cognito_user_pool_group awscc_cognito_user_pool_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cognito_user_pool_group awscc_cognito_user_pool_group} Resource.
 func NewCognitoUserPoolGroup_Override(c CognitoUserPoolGroup, scope constructs.Construct, id *string, config *CognitoUserPoolGroupConfig) {
 	_init_.Initialize()
 

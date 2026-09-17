@@ -5,9 +5,9 @@ package ec2spotfleet
 
 
 type Ec2SpotFleetSpotFleetRequestConfigDataLaunchTemplateConfigsOverridesInstanceRequirementsMemoryMiB struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_spot_fleet#max Ec2SpotFleet#max}.
 	Max *float64 `field:"optional" json:"max" yaml:"max"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_spot_fleet#min Ec2SpotFleet#min}.
 	Min *float64 `field:"optional" json:"min" yaml:"min"`
 }
 

@@ -5,7 +5,7 @@ package bcmdataexportsexport
 
 
 type BcmdataexportsExportExportDestinationConfigurations struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bcmdataexports_export#s3_destination BcmdataexportsExport#s3_destination}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bcmdataexports_export#s3_destination BcmdataexportsExport#s3_destination}.
 	S3Destination *BcmdataexportsExportExportDestinationConfigurationsS3Destination `field:"required" json:"s3Destination" yaml:"s3Destination"`
 }
 

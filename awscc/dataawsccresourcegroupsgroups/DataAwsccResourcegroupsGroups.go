@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/resourcegroups_groups awscc_resourcegroups_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/resourcegroups_groups awscc_resourcegroups_groups}.
 type DataAwsccResourcegroupsGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccResourcegroupsGroups) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/resourcegroups_groups awscc_resourcegroups_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/resourcegroups_groups awscc_resourcegroups_groups} Data Source.
 func NewDataAwsccResourcegroupsGroups(scope constructs.Construct, id *string, config *DataAwsccResourcegroupsGroupsConfig) DataAwsccResourcegroupsGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccResourcegroupsGroups(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/resourcegroups_groups awscc_resourcegroups_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/resourcegroups_groups awscc_resourcegroups_groups} Data Source.
 func NewDataAwsccResourcegroupsGroups_Override(d DataAwsccResourcegroupsGroups, scope constructs.Construct, id *string, config *DataAwsccResourcegroupsGroupsConfig) {
 	_init_.Initialize()
 

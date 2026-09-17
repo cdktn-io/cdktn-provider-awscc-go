@@ -7,11 +7,11 @@ package glueconnection
 type GlueConnectionConnectionInputAuthenticationConfigurationBasicAuthenticationCredentials struct {
 	// The password used in the authentication configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/glue_connection#password GlueConnection#password}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection#password GlueConnection#password}
 	Password *string `field:"optional" json:"password" yaml:"password"`
 	// The username used in the authentication configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/glue_connection#username GlueConnection#username}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection#username GlueConnection#username}
 	Username *string `field:"optional" json:"username" yaml:"username"`
 }
 

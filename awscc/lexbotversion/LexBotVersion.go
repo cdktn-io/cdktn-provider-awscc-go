@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lex_bot_version awscc_lex_bot_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lex_bot_version awscc_lex_bot_version}.
 type LexBotVersion interface {
 	cdktn.TerraformResource
 	BotId() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_LexBotVersion) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lex_bot_version awscc_lex_bot_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lex_bot_version awscc_lex_bot_version} Resource.
 func NewLexBotVersion(scope constructs.Construct, id *string, config *LexBotVersionConfig) LexBotVersion {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewLexBotVersion(scope constructs.Construct, id *string, config *LexBotVers
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lex_bot_version awscc_lex_bot_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lex_bot_version awscc_lex_bot_version} Resource.
 func NewLexBotVersion_Override(l LexBotVersion, scope constructs.Construct, id *string, config *LexBotVersionConfig) {
 	_init_.Initialize()
 

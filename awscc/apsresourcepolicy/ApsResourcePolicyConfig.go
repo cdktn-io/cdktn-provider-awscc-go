@@ -24,11 +24,11 @@ type ApsResourcePolicyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The JSON to use as the Resource-based Policy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/aps_resource_policy#policy_document ApsResourcePolicy#policy_document}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/aps_resource_policy#policy_document ApsResourcePolicy#policy_document}
 	PolicyDocument *string `field:"required" json:"policyDocument" yaml:"policyDocument"`
 	// The Arn of an APS Workspace that the PolicyDocument will be attached to.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/aps_resource_policy#workspace_arn ApsResourcePolicy#workspace_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/aps_resource_policy#workspace_arn ApsResourcePolicy#workspace_arn}
 	WorkspaceArn *string `field:"required" json:"workspaceArn" yaml:"workspaceArn"`
 }
 

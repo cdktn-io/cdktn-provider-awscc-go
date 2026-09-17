@@ -63,6 +63,10 @@ func (j *jsiiProxy_PcsComputeNodeGroupSlurmConfigurationOutputReference) validat
 	return nil
 }
 
+func (j *jsiiProxy_PcsComputeNodeGroupSlurmConfigurationOutputReference) validateSetGresCustomSettingsParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_PcsComputeNodeGroupSlurmConfigurationOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	return nil
 }

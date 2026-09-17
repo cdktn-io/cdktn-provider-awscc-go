@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ses_vdm_attributes awscc_ses_vdm_attributes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ses_vdm_attributes awscc_ses_vdm_attributes}.
 type SesVdmAttributes interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_SesVdmAttributes) VdmAttributesResourceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ses_vdm_attributes awscc_ses_vdm_attributes} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ses_vdm_attributes awscc_ses_vdm_attributes} Resource.
 func NewSesVdmAttributes(scope constructs.Construct, id *string, config *SesVdmAttributesConfig) SesVdmAttributes {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewSesVdmAttributes(scope constructs.Construct, id *string, config *SesVdmA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ses_vdm_attributes awscc_ses_vdm_attributes} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ses_vdm_attributes awscc_ses_vdm_attributes} Resource.
 func NewSesVdmAttributes_Override(s SesVdmAttributes, scope constructs.Construct, id *string, config *SesVdmAttributesConfig) {
 	_init_.Initialize()
 

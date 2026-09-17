@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cassandra_table awscc_cassandra_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cassandra_table awscc_cassandra_table}.
 type CassandraTable interface {
 	cdktn.TerraformResource
 	AutoScalingSpecifications() CassandraTableAutoScalingSpecificationsOutputReference
@@ -713,7 +713,7 @@ func (j *jsiiProxy_CassandraTable) WarmThroughputInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cassandra_table awscc_cassandra_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cassandra_table awscc_cassandra_table} Resource.
 func NewCassandraTable(scope constructs.Construct, id *string, config *CassandraTableConfig) CassandraTable {
 	_init_.Initialize()
 
@@ -731,7 +731,7 @@ func NewCassandraTable(scope constructs.Construct, id *string, config *Cassandra
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cassandra_table awscc_cassandra_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cassandra_table awscc_cassandra_table} Resource.
 func NewCassandraTable_Override(c CassandraTable, scope constructs.Construct, id *string, config *CassandraTableConfig) {
 	_init_.Initialize()
 

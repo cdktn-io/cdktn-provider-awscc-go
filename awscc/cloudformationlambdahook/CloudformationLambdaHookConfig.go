@@ -24,43 +24,43 @@ type CloudformationLambdaHookConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The typename alias for the hook.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudformation_lambda_hook#alias CloudformationLambdaHook#alias}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudformation_lambda_hook#alias CloudformationLambdaHook#alias}
 	Alias *string `field:"required" json:"alias" yaml:"alias"`
 	// The execution role ARN assumed by Hooks to invoke Lambda.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudformation_lambda_hook#execution_role CloudformationLambdaHook#execution_role}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudformation_lambda_hook#execution_role CloudformationLambdaHook#execution_role}
 	ExecutionRole *string `field:"required" json:"executionRole" yaml:"executionRole"`
 	// Attribute to specify CloudFormation behavior on hook failure.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudformation_lambda_hook#failure_mode CloudformationLambdaHook#failure_mode}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudformation_lambda_hook#failure_mode CloudformationLambdaHook#failure_mode}
 	FailureMode *string `field:"required" json:"failureMode" yaml:"failureMode"`
 	// Amazon Resource Name (ARN), Partial ARN, name, version, or alias of the Lambda function to invoke with this hook.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudformation_lambda_hook#lambda_function CloudformationLambdaHook#lambda_function}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudformation_lambda_hook#lambda_function CloudformationLambdaHook#lambda_function}
 	LambdaFunction *string `field:"required" json:"lambdaFunction" yaml:"lambdaFunction"`
 	// Which operations should this Hook run against? Resource changes, stacks or change sets.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudformation_lambda_hook#target_operations CloudformationLambdaHook#target_operations}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudformation_lambda_hook#target_operations CloudformationLambdaHook#target_operations}
 	TargetOperations *[]*string `field:"required" json:"targetOperations" yaml:"targetOperations"`
 	// Whether to automatically update the extension in this account and Region when a new minor version is published by the extension publisher.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudformation_lambda_hook#auto_update CloudformationLambdaHook#auto_update}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudformation_lambda_hook#auto_update CloudformationLambdaHook#auto_update}
 	AutoUpdate interface{} `field:"optional" json:"autoUpdate" yaml:"autoUpdate"`
 	// Attribute to specify which stacks this hook applies to or should get invoked for.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudformation_lambda_hook#hook_status CloudformationLambdaHook#hook_status}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudformation_lambda_hook#hook_status CloudformationLambdaHook#hook_status}
 	HookStatus *string `field:"optional" json:"hookStatus" yaml:"hookStatus"`
 	// Contains logging configuration information for the hook.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudformation_lambda_hook#logging_config CloudformationLambdaHook#logging_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudformation_lambda_hook#logging_config CloudformationLambdaHook#logging_config}
 	LoggingConfig *CloudformationLambdaHookLoggingConfig `field:"optional" json:"loggingConfig" yaml:"loggingConfig"`
 	// Filters to allow hooks to target specific stack attributes.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudformation_lambda_hook#stack_filters CloudformationLambdaHook#stack_filters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudformation_lambda_hook#stack_filters CloudformationLambdaHook#stack_filters}
 	StackFilters *CloudformationLambdaHookStackFilters `field:"optional" json:"stackFilters" yaml:"stackFilters"`
 	// Attribute to specify which targets should invoke the hook.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudformation_lambda_hook#target_filters CloudformationLambdaHook#target_filters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudformation_lambda_hook#target_filters CloudformationLambdaHook#target_filters}
 	TargetFilters *CloudformationLambdaHookTargetFilters `field:"optional" json:"targetFilters" yaml:"targetFilters"`
 }
 

@@ -5,9 +5,9 @@ package bedrockdataautomationproject
 
 
 type BedrockDataAutomationProjectStandardOutputConfigurationImage struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrock_data_automation_project#extraction BedrockDataAutomationProject#extraction}.
 	Extraction *BedrockDataAutomationProjectStandardOutputConfigurationImageExtraction `field:"optional" json:"extraction" yaml:"extraction"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrock_data_automation_project#generative_field BedrockDataAutomationProject#generative_field}.
 	GenerativeField *BedrockDataAutomationProjectStandardOutputConfigurationImageGenerativeField `field:"optional" json:"generativeField" yaml:"generativeField"`
 }
 

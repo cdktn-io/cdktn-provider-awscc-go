@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/dynamodb_table awscc_dynamodb_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/dynamodb_table awscc_dynamodb_table}.
 type DataAwsccDynamodbTable interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -77,6 +77,7 @@ type DataAwsccDynamodbTable interface {
 	// Experimental.
 	TerraformResourceType() *string
 	TimeToLiveSpecification() DataAwsccDynamodbTableTimeToLiveSpecificationOutputReference
+	VectorIndexes() DataAwsccDynamodbTableVectorIndexesList
 	WarmThroughput() DataAwsccDynamodbTableWarmThroughputOutputReference
 	// Experimental.
 	AddOverride(path *string, value interface{})
@@ -517,6 +518,16 @@ func (j *jsiiProxy_DataAwsccDynamodbTable) TimeToLiveSpecification() DataAwsccDy
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccDynamodbTable) VectorIndexes() DataAwsccDynamodbTableVectorIndexesList {
+	var returns DataAwsccDynamodbTableVectorIndexesList
+	_jsii_.Get(
+		j,
+		"vectorIndexes",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccDynamodbTable) WarmThroughput() DataAwsccDynamodbTableWarmThroughputOutputReference {
 	var returns DataAwsccDynamodbTableWarmThroughputOutputReference
 	_jsii_.Get(
@@ -528,7 +539,7 @@ func (j *jsiiProxy_DataAwsccDynamodbTable) WarmThroughput() DataAwsccDynamodbTab
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/dynamodb_table awscc_dynamodb_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/dynamodb_table awscc_dynamodb_table} Data Source.
 func NewDataAwsccDynamodbTable(scope constructs.Construct, id *string, config *DataAwsccDynamodbTableConfig) DataAwsccDynamodbTable {
 	_init_.Initialize()
 
@@ -546,7 +557,7 @@ func NewDataAwsccDynamodbTable(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/dynamodb_table awscc_dynamodb_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/dynamodb_table awscc_dynamodb_table} Data Source.
 func NewDataAwsccDynamodbTable_Override(d DataAwsccDynamodbTable, scope constructs.Construct, id *string, config *DataAwsccDynamodbTableConfig) {
 	_init_.Initialize()
 

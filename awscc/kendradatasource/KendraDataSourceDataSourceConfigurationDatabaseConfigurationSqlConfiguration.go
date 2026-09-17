@@ -5,7 +5,7 @@ package kendradatasource
 
 
 type KendraDataSourceDataSourceConfigurationDatabaseConfigurationSqlConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kendra_data_source#query_identifiers_enclosing_option KendraDataSource#query_identifiers_enclosing_option}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_data_source#query_identifiers_enclosing_option KendraDataSource#query_identifiers_enclosing_option}.
 	QueryIdentifiersEnclosingOption *string `field:"optional" json:"queryIdentifiersEnclosingOption" yaml:"queryIdentifiersEnclosingOption"`
 }
 

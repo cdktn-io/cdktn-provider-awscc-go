@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association}.
 type NotificationsManagedNotificationAdditionalChannelAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -43,6 +43,9 @@ type NotificationsManagedNotificationAdditionalChannelAssociation interface {
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
+	IsSensitiveEventsSubscribed() interface{}
+	SetIsSensitiveEventsSubscribed(val interface{})
+	IsSensitiveEventsSubscribedInput() interface{}
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -160,6 +163,7 @@ type NotificationsManagedNotificationAdditionalChannelAssociation interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetIsSensitiveEventsSubscribed()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -300,6 +304,26 @@ func (j *jsiiProxy_NotificationsManagedNotificationAdditionalChannelAssociation)
 	return returns
 }
 
+func (j *jsiiProxy_NotificationsManagedNotificationAdditionalChannelAssociation) IsSensitiveEventsSubscribed() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"isSensitiveEventsSubscribed",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NotificationsManagedNotificationAdditionalChannelAssociation) IsSensitiveEventsSubscribedInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"isSensitiveEventsSubscribedInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NotificationsManagedNotificationAdditionalChannelAssociation) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -401,7 +425,7 @@ func (j *jsiiProxy_NotificationsManagedNotificationAdditionalChannelAssociation)
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association} Resource.
 func NewNotificationsManagedNotificationAdditionalChannelAssociation(scope constructs.Construct, id *string, config *NotificationsManagedNotificationAdditionalChannelAssociationConfig) NotificationsManagedNotificationAdditionalChannelAssociation {
 	_init_.Initialize()
 
@@ -419,7 +443,7 @@ func NewNotificationsManagedNotificationAdditionalChannelAssociation(scope const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association} Resource.
 func NewNotificationsManagedNotificationAdditionalChannelAssociation_Override(n NotificationsManagedNotificationAdditionalChannelAssociation, scope constructs.Construct, id *string, config *NotificationsManagedNotificationAdditionalChannelAssociationConfig) {
 	_init_.Initialize()
 
@@ -475,6 +499,17 @@ func (j *jsiiProxy_NotificationsManagedNotificationAdditionalChannelAssociation)
 	_jsii_.Set(
 		j,
 		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NotificationsManagedNotificationAdditionalChannelAssociation)SetIsSensitiveEventsSubscribed(val interface{}) {
+	if err := j.validateSetIsSensitiveEventsSubscribedParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"isSensitiveEventsSubscribed",
 		val,
 	)
 }
@@ -897,6 +932,14 @@ func (n *jsiiProxy_NotificationsManagedNotificationAdditionalChannelAssociation)
 		n,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (n *jsiiProxy_NotificationsManagedNotificationAdditionalChannelAssociation) ResetIsSensitiveEventsSubscribed() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetIsSensitiveEventsSubscribed",
+		nil, // no parameters
 	)
 }
 

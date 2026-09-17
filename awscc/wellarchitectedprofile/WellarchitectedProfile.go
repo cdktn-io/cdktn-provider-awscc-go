@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/wellarchitected_profile awscc_wellarchitected_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/wellarchitected_profile awscc_wellarchitected_profile}.
 type WellarchitectedProfile interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -503,7 +503,7 @@ func (j *jsiiProxy_WellarchitectedProfile) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/wellarchitected_profile awscc_wellarchitected_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/wellarchitected_profile awscc_wellarchitected_profile} Resource.
 func NewWellarchitectedProfile(scope constructs.Construct, id *string, config *WellarchitectedProfileConfig) WellarchitectedProfile {
 	_init_.Initialize()
 
@@ -521,7 +521,7 @@ func NewWellarchitectedProfile(scope constructs.Construct, id *string, config *W
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/wellarchitected_profile awscc_wellarchitected_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/wellarchitected_profile awscc_wellarchitected_profile} Resource.
 func NewWellarchitectedProfile_Override(w WellarchitectedProfile, scope constructs.Construct, id *string, config *WellarchitectedProfileConfig) {
 	_init_.Initialize()
 

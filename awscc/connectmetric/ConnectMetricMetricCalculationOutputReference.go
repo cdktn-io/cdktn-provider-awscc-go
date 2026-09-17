@@ -70,8 +70,6 @@ type ConnectMetricMetricCalculationOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCalculationComponents(value interface{})
-	ResetCalculation()
-	ResetCalculationComponents()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -485,22 +483,6 @@ func (c *jsiiProxy_ConnectMetricMetricCalculationOutputReference) PutCalculation
 		c,
 		"putCalculationComponents",
 		[]interface{}{value},
-	)
-}
-
-func (c *jsiiProxy_ConnectMetricMetricCalculationOutputReference) ResetCalculation() {
-	_jsii_.InvokeVoid(
-		c,
-		"resetCalculation",
-		nil, // no parameters
-	)
-}
-
-func (c *jsiiProxy_ConnectMetricMetricCalculationOutputReference) ResetCalculationComponents() {
-	_jsii_.InvokeVoid(
-		c,
-		"resetCalculationComponents",
-		nil, // no parameters
 	)
 }
 

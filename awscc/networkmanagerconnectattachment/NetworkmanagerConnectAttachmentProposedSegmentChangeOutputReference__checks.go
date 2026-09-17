@@ -93,48 +93,9 @@ func (n *jsiiProxy_NetworkmanagerConnectAttachmentProposedSegmentChangeOutputRef
 	return nil
 }
 
-func (n *jsiiProxy_NetworkmanagerConnectAttachmentProposedSegmentChangeOutputReference) validatePutTagsParameters(value interface{}) error {
-	if value == nil {
-		return fmt.Errorf("parameter value is required, but nil was provided")
-	}
-	switch value.(type) {
-	case cdktn.IResolvable:
-		// ok
-	case *[]*NetworkmanagerConnectAttachmentProposedSegmentChangeTags:
-		value := value.(*[]*NetworkmanagerConnectAttachmentProposedSegmentChangeTags)
-		for idx_cd4240, v := range *value {
-			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
-				return err
-			}
-		}
-	case []*NetworkmanagerConnectAttachmentProposedSegmentChangeTags:
-		value_ := value.([]*NetworkmanagerConnectAttachmentProposedSegmentChangeTags)
-		value := &value_
-		for idx_cd4240, v := range *value {
-			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
-				return err
-			}
-		}
-	default:
-		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*NetworkmanagerConnectAttachmentProposedSegmentChangeTags; received %#v (a %T)", value, value)
-		}
-	}
-
-	return nil
-}
-
 func (n *jsiiProxy_NetworkmanagerConnectAttachmentProposedSegmentChangeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedSegmentChangeOutputReference) validateSetAttachmentPolicyRuleNumberParameters(val *float64) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil
@@ -205,33 +166,9 @@ func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedSegmentChangeOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedSegmentChangeOutputReference) validateSetInternalValueParameters(val interface{}) error {
-	switch val.(type) {
-	case cdktn.IResolvable:
-		// ok
-	case *NetworkmanagerConnectAttachmentProposedSegmentChange:
-		val := val.(*NetworkmanagerConnectAttachmentProposedSegmentChange)
-		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
-			return err
-		}
-	case NetworkmanagerConnectAttachmentProposedSegmentChange:
-		val_ := val.(NetworkmanagerConnectAttachmentProposedSegmentChange)
-		val := &val_
-		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
-			return err
-		}
-	default:
-		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *NetworkmanagerConnectAttachmentProposedSegmentChange; received %#v (a %T)", val, val)
-		}
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedSegmentChangeOutputReference) validateSetSegmentNameParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
+func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedSegmentChangeOutputReference) validateSetInternalValueParameters(val *NetworkmanagerConnectAttachmentProposedSegmentChange) error {
+	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
+		return err
 	}
 
 	return nil

@@ -47,6 +47,14 @@ func (i *jsiiProxy_IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOut
 	return nil
 }
 
+func (i *jsiiProxy_IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference) validatePutEphemeralStorageConfigurationParameters(value *IotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference) validatePutMountsParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

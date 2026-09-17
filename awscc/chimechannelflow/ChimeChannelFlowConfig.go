@@ -24,19 +24,19 @@ type ChimeChannelFlowConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ARN of the app instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/chime_channel_flow#app_instance_arn ChimeChannelFlow#app_instance_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_channel_flow#app_instance_arn ChimeChannelFlow#app_instance_arn}
 	AppInstanceArn *string `field:"required" json:"appInstanceArn" yaml:"appInstanceArn"`
 	// The name of the channel flow.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/chime_channel_flow#name ChimeChannelFlow#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_channel_flow#name ChimeChannelFlow#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Information about the processor Lambda functions.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/chime_channel_flow#processors ChimeChannelFlow#processors}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_channel_flow#processors ChimeChannelFlow#processors}
 	Processors interface{} `field:"required" json:"processors" yaml:"processors"`
 	// The tags for the channel flow.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/chime_channel_flow#tags ChimeChannelFlow#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_channel_flow#tags ChimeChannelFlow#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

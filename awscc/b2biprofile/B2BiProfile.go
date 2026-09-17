@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/b2bi_profile awscc_b2bi_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/b2bi_profile awscc_b2bi_profile}.
 type B2BiProfile interface {
 	cdktn.TerraformResource
 	BusinessName() *string
@@ -550,7 +550,7 @@ func (j *jsiiProxy_B2BiProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/b2bi_profile awscc_b2bi_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/b2bi_profile awscc_b2bi_profile} Resource.
 func NewB2BiProfile(scope constructs.Construct, id *string, config *B2BiProfileConfig) B2BiProfile {
 	_init_.Initialize()
 
@@ -568,7 +568,7 @@ func NewB2BiProfile(scope constructs.Construct, id *string, config *B2BiProfileC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/b2bi_profile awscc_b2bi_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/b2bi_profile awscc_b2bi_profile} Resource.
 func NewB2BiProfile_Override(b B2BiProfile, scope constructs.Construct, id *string, config *B2BiProfileConfig) {
 	_init_.Initialize()
 

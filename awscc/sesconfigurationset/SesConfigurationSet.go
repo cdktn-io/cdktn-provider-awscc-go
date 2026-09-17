@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ses_configuration_set awscc_ses_configuration_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ses_configuration_set awscc_ses_configuration_set}.
 type SesConfigurationSet interface {
 	cdktn.TerraformResource
 	ArchivingOptions() SesConfigurationSetArchivingOptionsOutputReference
@@ -571,7 +571,7 @@ func (j *jsiiProxy_SesConfigurationSet) VdmOptionsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ses_configuration_set awscc_ses_configuration_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ses_configuration_set awscc_ses_configuration_set} Resource.
 func NewSesConfigurationSet(scope constructs.Construct, id *string, config *SesConfigurationSetConfig) SesConfigurationSet {
 	_init_.Initialize()
 
@@ -589,7 +589,7 @@ func NewSesConfigurationSet(scope constructs.Construct, id *string, config *SesC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ses_configuration_set awscc_ses_configuration_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ses_configuration_set awscc_ses_configuration_set} Resource.
 func NewSesConfigurationSet_Override(s SesConfigurationSet, scope constructs.Construct, id *string, config *SesConfigurationSetConfig) {
 	_init_.Initialize()
 

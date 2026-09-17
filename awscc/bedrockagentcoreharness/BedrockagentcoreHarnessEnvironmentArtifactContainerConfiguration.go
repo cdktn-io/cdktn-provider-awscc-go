@@ -7,7 +7,7 @@ package bedrockagentcoreharness
 type BedrockagentcoreHarnessEnvironmentArtifactContainerConfiguration struct {
 	// The ECR URI of the container.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrockagentcore_harness#container_uri BedrockagentcoreHarness#container_uri}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrockagentcore_harness#container_uri BedrockagentcoreHarness#container_uri}
 	ContainerUri *string `field:"optional" json:"containerUri" yaml:"containerUri"`
 }
 

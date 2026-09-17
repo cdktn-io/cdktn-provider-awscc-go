@@ -47,6 +47,10 @@ func (b *jsiiProxy_BillingconductorPricingRuleTieringOutputReference) validateIn
 	return nil
 }
 
+func (b *jsiiProxy_BillingconductorPricingRuleTieringOutputReference) validatePutCustomTiersParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BillingconductorPricingRuleTieringOutputReference) validatePutFreeTierParameters(value *BillingconductorPricingRuleTieringFreeTier) error {
 	return nil
 }

@@ -5,7 +5,7 @@ package datazonepolicygrant
 
 
 type DatazonePolicyGrantPrincipalProjectProjectGrantFilter struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/datazone_policy_grant#domain_unit_filter DatazonePolicyGrant#domain_unit_filter}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datazone_policy_grant#domain_unit_filter DatazonePolicyGrant#domain_unit_filter}.
 	DomainUnitFilter *DatazonePolicyGrantPrincipalProjectProjectGrantFilterDomainUnitFilter `field:"optional" json:"domainUnitFilter" yaml:"domainUnitFilter"`
 }
 

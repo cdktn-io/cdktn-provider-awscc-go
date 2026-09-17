@@ -5,9 +5,9 @@ package cloudformationchangeset
 
 
 type CloudformationChangeSetTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudformation_change_set#key CloudformationChangeSet#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudformation_change_set#key CloudformationChangeSet#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudformation_change_set#value CloudformationChangeSet#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudformation_change_set#value CloudformationChangeSet#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

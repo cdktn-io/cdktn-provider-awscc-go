@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lakeformation_tag_association awscc_lakeformation_tag_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lakeformation_tag_association awscc_lakeformation_tag_association}.
 type LakeformationTagAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_LakeformationTagAssociation) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lakeformation_tag_association awscc_lakeformation_tag_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lakeformation_tag_association awscc_lakeformation_tag_association} Resource.
 func NewLakeformationTagAssociation(scope constructs.Construct, id *string, config *LakeformationTagAssociationConfig) LakeformationTagAssociation {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewLakeformationTagAssociation(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lakeformation_tag_association awscc_lakeformation_tag_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lakeformation_tag_association awscc_lakeformation_tag_association} Resource.
 func NewLakeformationTagAssociation_Override(l LakeformationTagAssociation, scope constructs.Construct, id *string, config *LakeformationTagAssociationConfig) {
 	_init_.Initialize()
 

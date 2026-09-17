@@ -24,15 +24,15 @@ type IvsPublicKeyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Name of the public key to be imported. The value does not need to be unique.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ivs_public_key#name IvsPublicKey#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ivs_public_key#name IvsPublicKey#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// The public portion of a customer-generated key pair. This field is required to create the AWS::IVS::PublicKey resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ivs_public_key#public_key_material IvsPublicKey#public_key_material}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ivs_public_key#public_key_material IvsPublicKey#public_key_material}
 	PublicKeyMaterial *string `field:"optional" json:"publicKeyMaterial" yaml:"publicKeyMaterial"`
 	// A list of key-value pairs that contain metadata for the asset model.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ivs_public_key#tags IvsPublicKey#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ivs_public_key#tags IvsPublicKey#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

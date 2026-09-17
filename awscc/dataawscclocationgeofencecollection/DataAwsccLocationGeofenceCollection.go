@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/location_geofence_collection awscc_location_geofence_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/location_geofence_collection awscc_location_geofence_collection}.
 type DataAwsccLocationGeofenceCollection interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccLocationGeofenceCollection) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/location_geofence_collection awscc_location_geofence_collection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/location_geofence_collection awscc_location_geofence_collection} Data Source.
 func NewDataAwsccLocationGeofenceCollection(scope constructs.Construct, id *string, config *DataAwsccLocationGeofenceCollectionConfig) DataAwsccLocationGeofenceCollection {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccLocationGeofenceCollection(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/location_geofence_collection awscc_location_geofence_collection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/location_geofence_collection awscc_location_geofence_collection} Data Source.
 func NewDataAwsccLocationGeofenceCollection_Override(d DataAwsccLocationGeofenceCollection, scope constructs.Construct, id *string, config *DataAwsccLocationGeofenceCollectionConfig) {
 	_init_.Initialize()
 

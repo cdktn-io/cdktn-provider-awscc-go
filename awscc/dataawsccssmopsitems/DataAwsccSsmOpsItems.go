@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ssm_ops_items awscc_ssm_ops_items}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssm_ops_items awscc_ssm_ops_items}.
 type DataAwsccSsmOpsItems interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSsmOpsItems) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ssm_ops_items awscc_ssm_ops_items} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssm_ops_items awscc_ssm_ops_items} Data Source.
 func NewDataAwsccSsmOpsItems(scope constructs.Construct, id *string, config *DataAwsccSsmOpsItemsConfig) DataAwsccSsmOpsItems {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSsmOpsItems(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ssm_ops_items awscc_ssm_ops_items} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssm_ops_items awscc_ssm_ops_items} Data Source.
 func NewDataAwsccSsmOpsItems_Override(d DataAwsccSsmOpsItems, scope constructs.Construct, id *string, config *DataAwsccSsmOpsItemsConfig) {
 	_init_.Initialize()
 

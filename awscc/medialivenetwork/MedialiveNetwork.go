@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/medialive_network awscc_medialive_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/medialive_network awscc_medialive_network}.
 type MedialiveNetwork interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -493,7 +493,7 @@ func (j *jsiiProxy_MedialiveNetwork) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/medialive_network awscc_medialive_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/medialive_network awscc_medialive_network} Resource.
 func NewMedialiveNetwork(scope constructs.Construct, id *string, config *MedialiveNetworkConfig) MedialiveNetwork {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewMedialiveNetwork(scope constructs.Construct, id *string, config *Mediali
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/medialive_network awscc_medialive_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/medialive_network awscc_medialive_network} Resource.
 func NewMedialiveNetwork_Override(m MedialiveNetwork, scope constructs.Construct, id *string, config *MedialiveNetworkConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/scheduler_schedule awscc_scheduler_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/scheduler_schedule awscc_scheduler_schedule}.
 type DataAwsccSchedulerSchedule interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccSchedulerSchedule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/scheduler_schedule awscc_scheduler_schedule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/scheduler_schedule awscc_scheduler_schedule} Data Source.
 func NewDataAwsccSchedulerSchedule(scope constructs.Construct, id *string, config *DataAwsccSchedulerScheduleConfig) DataAwsccSchedulerSchedule {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccSchedulerSchedule(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/scheduler_schedule awscc_scheduler_schedule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/scheduler_schedule awscc_scheduler_schedule} Data Source.
 func NewDataAwsccSchedulerSchedule_Override(d DataAwsccSchedulerSchedule, scope constructs.Construct, id *string, config *DataAwsccSchedulerScheduleConfig) {
 	_init_.Initialize()
 

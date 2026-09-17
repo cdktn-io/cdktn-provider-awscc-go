@@ -24,15 +24,15 @@ type BedrockSessionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The Amazon Resource Name (ARN) of the KMS key to use to encrypt the session data.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrock_session#encryption_key_arn BedrockSession#encryption_key_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrock_session#encryption_key_arn BedrockSession#encryption_key_arn}
 	EncryptionKeyArn *string `field:"optional" json:"encryptionKeyArn" yaml:"encryptionKeyArn"`
 	// A map of key-value pairs containing attributes to be persisted across the session.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrock_session#session_metadata BedrockSession#session_metadata}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrock_session#session_metadata BedrockSession#session_metadata}
 	SessionMetadata *map[string]*string `field:"optional" json:"sessionMetadata" yaml:"sessionMetadata"`
 	// A list of tags associated with the session.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrock_session#tags BedrockSession#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrock_session#tags BedrockSession#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

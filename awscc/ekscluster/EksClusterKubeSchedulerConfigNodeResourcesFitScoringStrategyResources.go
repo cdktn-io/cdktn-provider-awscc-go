@@ -7,11 +7,11 @@ package ekscluster
 type EksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategyResources struct {
 	// The name of the resource (for example, cpu or memory).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/eks_cluster#name EksCluster#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/eks_cluster#name EksCluster#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// The weight assigned to the resource for scoring. Must be between 1 and 100.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/eks_cluster#weight EksCluster#weight}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/eks_cluster#weight EksCluster#weight}
 	Weight *float64 `field:"optional" json:"weight" yaml:"weight"`
 }
 

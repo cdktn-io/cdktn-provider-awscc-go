@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/wickr_network awscc_wickr_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/wickr_network awscc_wickr_network}.
 type WickrNetwork interface {
 	cdktn.TerraformResource
 	AccessLevel() *string
@@ -456,7 +456,7 @@ func (j *jsiiProxy_WickrNetwork) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/wickr_network awscc_wickr_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/wickr_network awscc_wickr_network} Resource.
 func NewWickrNetwork(scope constructs.Construct, id *string, config *WickrNetworkConfig) WickrNetwork {
 	_init_.Initialize()
 
@@ -474,7 +474,7 @@ func NewWickrNetwork(scope constructs.Construct, id *string, config *WickrNetwor
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/wickr_network awscc_wickr_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/wickr_network awscc_wickr_network} Resource.
 func NewWickrNetwork_Override(w WickrNetwork, scope constructs.Construct, id *string, config *WickrNetworkConfig) {
 	_init_.Initialize()
 

@@ -42,6 +42,8 @@ type BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigura
 	SetInternalValue(val interface{})
 	ServerSideEncryptionConfiguration() BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationServerSideEncryptionConfigurationOutputReference
 	ServerSideEncryptionConfigurationInput() interface{}
+	SupplementalDataStorageConfiguration() BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationOutputReference
+	SupplementalDataStorageConfigurationInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -76,10 +78,12 @@ type BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigura
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutEmbeddingModelConfiguration(value *BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationEmbeddingModelConfiguration)
 	PutServerSideEncryptionConfiguration(value *BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationServerSideEncryptionConfiguration)
+	PutSupplementalDataStorageConfiguration(value *BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfiguration)
 	ResetEmbeddingModelArn()
 	ResetEmbeddingModelConfiguration()
 	ResetEmbeddingModelType()
 	ResetServerSideEncryptionConfiguration()
+	ResetSupplementalDataStorageConfiguration()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -220,6 +224,26 @@ func (j *jsiiProxy_BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledg
 	_jsii_.Get(
 		j,
 		"serverSideEncryptionConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationOutputReference) SupplementalDataStorageConfiguration() BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationOutputReference {
+	var returns BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"supplementalDataStorageConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationOutputReference) SupplementalDataStorageConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"supplementalDataStorageConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -558,6 +582,17 @@ func (b *jsiiProxy_BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledg
 	)
 }
 
+func (b *jsiiProxy_BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationOutputReference) PutSupplementalDataStorageConfiguration(value *BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationSupplementalDataStorageConfiguration) {
+	if err := b.validatePutSupplementalDataStorageConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putSupplementalDataStorageConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationOutputReference) ResetEmbeddingModelArn() {
 	_jsii_.InvokeVoid(
 		b,
@@ -586,6 +621,14 @@ func (b *jsiiProxy_BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledg
 	_jsii_.InvokeVoid(
 		b,
 		"resetServerSideEncryptionConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockKnowledgeBaseKnowledgeBaseConfigurationManagedKnowledgeBaseConfigurationOutputReference) ResetSupplementalDataStorageConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetSupplementalDataStorageConfiguration",
 		nil, // no parameters
 	)
 }

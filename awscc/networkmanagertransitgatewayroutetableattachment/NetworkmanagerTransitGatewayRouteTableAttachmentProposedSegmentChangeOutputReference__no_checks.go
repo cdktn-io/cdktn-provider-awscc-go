@@ -47,15 +47,7 @@ func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegme
 	return nil
 }
 
-func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChangeOutputReference) validatePutTagsParameters(value interface{}) error {
-	return nil
-}
-
 func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChangeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
-	return nil
-}
-
-func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChangeOutputReference) validateSetAttachmentPolicyRuleNumberParameters(val *float64) error {
 	return nil
 }
 
@@ -67,11 +59,7 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegme
 	return nil
 }
 
-func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChangeOutputReference) validateSetInternalValueParameters(val interface{}) error {
-	return nil
-}
-
-func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChangeOutputReference) validateSetSegmentNameParameters(val *string) error {
+func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChangeOutputReference) validateSetInternalValueParameters(val *NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChange) error {
 	return nil
 }
 

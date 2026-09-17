@@ -7,7 +7,7 @@ package bedrockdatasource
 type BedrockDataSourceVectorIngestionConfigurationChunkingConfigurationHierarchicalChunkingConfigurationLevelConfigurations struct {
 	// The maximum number of tokens that a chunk can contain in this layer.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/bedrock_data_source#max_tokens BedrockDataSource#max_tokens}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrock_data_source#max_tokens BedrockDataSource#max_tokens}
 	MaxTokens *float64 `field:"optional" json:"maxTokens" yaml:"maxTokens"`
 }
 

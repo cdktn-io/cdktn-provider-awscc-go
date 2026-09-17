@@ -9,11 +9,11 @@ type AccessanalyzerAnalyzerAnalyzerConfiguration struct {
 	//
 	// This configuration determines how the analyzer evaluates internal access within your AWS environment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/accessanalyzer_analyzer#internal_access_configuration AccessanalyzerAnalyzer#internal_access_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/accessanalyzer_analyzer#internal_access_configuration AccessanalyzerAnalyzer#internal_access_configuration}
 	InternalAccessConfiguration *AccessanalyzerAnalyzerAnalyzerConfigurationInternalAccessConfiguration `field:"optional" json:"internalAccessConfiguration" yaml:"internalAccessConfiguration"`
 	// The Configuration for Unused Access Analyzer.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/accessanalyzer_analyzer#unused_access_configuration AccessanalyzerAnalyzer#unused_access_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/accessanalyzer_analyzer#unused_access_configuration AccessanalyzerAnalyzer#unused_access_configuration}
 	UnusedAccessConfiguration *AccessanalyzerAnalyzerAnalyzerConfigurationUnusedAccessConfiguration `field:"optional" json:"unusedAccessConfiguration" yaml:"unusedAccessConfiguration"`
 }
 

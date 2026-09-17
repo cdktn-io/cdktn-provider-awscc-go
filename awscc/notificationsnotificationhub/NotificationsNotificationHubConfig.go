@@ -24,7 +24,7 @@ type NotificationsNotificationHubConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Region that NotificationHub is present in.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/notifications_notification_hub#region NotificationsNotificationHub#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_notification_hub#region NotificationsNotificationHub#region}
 	Region *string `field:"required" json:"region" yaml:"region"`
 }
 

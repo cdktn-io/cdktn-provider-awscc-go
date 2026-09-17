@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/codedeploy_applications awscc_codedeploy_applications}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/codedeploy_applications awscc_codedeploy_applications}.
 type DataAwsccCodedeployApplications interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCodedeployApplications) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/codedeploy_applications awscc_codedeploy_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/codedeploy_applications awscc_codedeploy_applications} Data Source.
 func NewDataAwsccCodedeployApplications(scope constructs.Construct, id *string, config *DataAwsccCodedeployApplicationsConfig) DataAwsccCodedeployApplications {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCodedeployApplications(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/codedeploy_applications awscc_codedeploy_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/codedeploy_applications awscc_codedeploy_applications} Data Source.
 func NewDataAwsccCodedeployApplications_Override(d DataAwsccCodedeployApplications, scope constructs.Construct, id *string, config *DataAwsccCodedeployApplicationsConfig) {
 	_init_.Initialize()
 

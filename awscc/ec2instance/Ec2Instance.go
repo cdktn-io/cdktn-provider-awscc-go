@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_instance awscc_ec2_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_instance awscc_ec2_instance}.
 type Ec2Instance interface {
 	cdktn.TerraformResource
 	AdditionalInfo() *string
@@ -1416,7 +1416,7 @@ func (j *jsiiProxy_Ec2Instance) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_instance awscc_ec2_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_instance awscc_ec2_instance} Resource.
 func NewEc2Instance(scope constructs.Construct, id *string, config *Ec2InstanceConfig) Ec2Instance {
 	_init_.Initialize()
 
@@ -1434,7 +1434,7 @@ func NewEc2Instance(scope constructs.Construct, id *string, config *Ec2InstanceC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_instance awscc_ec2_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_instance awscc_ec2_instance} Resource.
 func NewEc2Instance_Override(e Ec2Instance, scope constructs.Construct, id *string, config *Ec2InstanceConfig) {
 	_init_.Initialize()
 

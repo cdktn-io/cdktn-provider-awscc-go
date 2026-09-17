@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_space awscc_quicksight_space}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_space awscc_quicksight_space}.
 type QuicksightSpace interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -564,7 +564,7 @@ func (j *jsiiProxy_QuicksightSpace) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_space awscc_quicksight_space} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_space awscc_quicksight_space} Resource.
 func NewQuicksightSpace(scope constructs.Construct, id *string, config *QuicksightSpaceConfig) QuicksightSpace {
 	_init_.Initialize()
 
@@ -582,7 +582,7 @@ func NewQuicksightSpace(scope constructs.Construct, id *string, config *Quicksig
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/quicksight_space awscc_quicksight_space} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_space awscc_quicksight_space} Resource.
 func NewQuicksightSpace_Override(q QuicksightSpace, scope constructs.Construct, id *string, config *QuicksightSpaceConfig) {
 	_init_.Initialize()
 

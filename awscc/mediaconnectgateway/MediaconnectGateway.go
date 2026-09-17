@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediaconnect_gateway awscc_mediaconnect_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconnect_gateway awscc_mediaconnect_gateway}.
 type MediaconnectGateway interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -446,7 +446,7 @@ func (j *jsiiProxy_MediaconnectGateway) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediaconnect_gateway awscc_mediaconnect_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconnect_gateway awscc_mediaconnect_gateway} Resource.
 func NewMediaconnectGateway(scope constructs.Construct, id *string, config *MediaconnectGatewayConfig) MediaconnectGateway {
 	_init_.Initialize()
 
@@ -464,7 +464,7 @@ func NewMediaconnectGateway(scope constructs.Construct, id *string, config *Medi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediaconnect_gateway awscc_mediaconnect_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconnect_gateway awscc_mediaconnect_gateway} Resource.
 func NewMediaconnectGateway_Override(m MediaconnectGateway, scope constructs.Construct, id *string, config *MediaconnectGatewayConfig) {
 	_init_.Initialize()
 

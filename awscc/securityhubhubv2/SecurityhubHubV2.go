@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_hub_v2 awscc_securityhub_hub_v2}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/securityhub_hub_v2 awscc_securityhub_hub_v2}.
 type SecurityhubHubV2 interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -45,6 +45,8 @@ type SecurityhubHubV2 interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	NetworkScanning() SecurityhubHubV2NetworkScanningOutputReference
+	NetworkScanningInput() interface{}
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
@@ -146,6 +148,7 @@ type SecurityhubHubV2 interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutNetworkScanning(value *SecurityhubHubV2NetworkScanning)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -159,6 +162,7 @@ type SecurityhubHubV2 interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetNetworkScanning()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -300,6 +304,26 @@ func (j *jsiiProxy_SecurityhubHubV2) Lifecycle() *cdktn.TerraformResourceLifecyc
 	return returns
 }
 
+func (j *jsiiProxy_SecurityhubHubV2) NetworkScanning() SecurityhubHubV2NetworkScanningOutputReference {
+	var returns SecurityhubHubV2NetworkScanningOutputReference
+	_jsii_.Get(
+		j,
+		"networkScanning",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecurityhubHubV2) NetworkScanningInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"networkScanningInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_SecurityhubHubV2) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -401,7 +425,7 @@ func (j *jsiiProxy_SecurityhubHubV2) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_hub_v2 awscc_securityhub_hub_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/securityhub_hub_v2 awscc_securityhub_hub_v2} Resource.
 func NewSecurityhubHubV2(scope constructs.Construct, id *string, config *SecurityhubHubV2Config) SecurityhubHubV2 {
 	_init_.Initialize()
 
@@ -419,7 +443,7 @@ func NewSecurityhubHubV2(scope constructs.Construct, id *string, config *Securit
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/securityhub_hub_v2 awscc_securityhub_hub_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/securityhub_hub_v2 awscc_securityhub_hub_v2} Resource.
 func NewSecurityhubHubV2_Override(s SecurityhubHubV2, scope constructs.Construct, id *string, config *SecurityhubHubV2Config) {
 	_init_.Initialize()
 
@@ -878,6 +902,17 @@ func (s *jsiiProxy_SecurityhubHubV2) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (s *jsiiProxy_SecurityhubHubV2) PutNetworkScanning(value *SecurityhubHubV2NetworkScanning) {
+	if err := s.validatePutNetworkScanningParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putNetworkScanning",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_SecurityhubHubV2) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := s.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -886,6 +921,14 @@ func (s *jsiiProxy_SecurityhubHubV2) RegisterProviderFeatureUsage(feature cdktn.
 		s,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (s *jsiiProxy_SecurityhubHubV2) ResetNetworkScanning() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetNetworkScanning",
+		nil, // no parameters
 	)
 }
 

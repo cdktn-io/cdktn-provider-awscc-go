@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers awscc_bedrockagentcore_o_auth_2_credential_providers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers awscc_bedrockagentcore_o_auth_2_credential_providers}.
 type DataAwsccBedrockagentcoreOAuth2CredentialProviders interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreOAuth2CredentialProviders) Terraform
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers awscc_bedrockagentcore_o_auth_2_credential_providers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers awscc_bedrockagentcore_o_auth_2_credential_providers} Data Source.
 func NewDataAwsccBedrockagentcoreOAuth2CredentialProviders(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreOAuth2CredentialProvidersConfig) DataAwsccBedrockagentcoreOAuth2CredentialProviders {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockagentcoreOAuth2CredentialProviders(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers awscc_bedrockagentcore_o_auth_2_credential_providers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers awscc_bedrockagentcore_o_auth_2_credential_providers} Data Source.
 func NewDataAwsccBedrockagentcoreOAuth2CredentialProviders_Override(d DataAwsccBedrockagentcoreOAuth2CredentialProviders, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreOAuth2CredentialProvidersConfig) {
 	_init_.Initialize()
 

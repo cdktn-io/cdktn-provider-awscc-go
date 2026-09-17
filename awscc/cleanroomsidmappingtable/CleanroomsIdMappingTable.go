@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cleanrooms_id_mapping_table awscc_cleanrooms_id_mapping_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cleanrooms_id_mapping_table awscc_cleanrooms_id_mapping_table}.
 type CleanroomsIdMappingTable interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -562,7 +562,7 @@ func (j *jsiiProxy_CleanroomsIdMappingTable) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cleanrooms_id_mapping_table awscc_cleanrooms_id_mapping_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cleanrooms_id_mapping_table awscc_cleanrooms_id_mapping_table} Resource.
 func NewCleanroomsIdMappingTable(scope constructs.Construct, id *string, config *CleanroomsIdMappingTableConfig) CleanroomsIdMappingTable {
 	_init_.Initialize()
 
@@ -580,7 +580,7 @@ func NewCleanroomsIdMappingTable(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cleanrooms_id_mapping_table awscc_cleanrooms_id_mapping_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cleanrooms_id_mapping_table awscc_cleanrooms_id_mapping_table} Resource.
 func NewCleanroomsIdMappingTable_Override(c CleanroomsIdMappingTable, scope constructs.Construct, id *string, config *CleanroomsIdMappingTableConfig) {
 	_init_.Initialize()
 

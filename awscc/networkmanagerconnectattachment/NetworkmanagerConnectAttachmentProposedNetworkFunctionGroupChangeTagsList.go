@@ -20,8 +20,6 @@ type NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeTagsList i
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
-	InternalValue() interface{}
-	SetInternalValue(val interface{})
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -72,16 +70,6 @@ func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupCh
 	_jsii_.Get(
 		j,
 		"fqn",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeTagsList) InternalValue() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"internalValue",
 		&returns,
 	)
 	return returns
@@ -142,17 +130,6 @@ func NewNetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeTagsLis
 		"@cdktn/provider-awscc.networkmanagerConnectAttachment.NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeTagsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		n,
-	)
-}
-
-func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChangeTagsList)SetInternalValue(val interface{}) {
-	if err := j.validateSetInternalValueParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"internalValue",
-		val,
 	)
 }
 

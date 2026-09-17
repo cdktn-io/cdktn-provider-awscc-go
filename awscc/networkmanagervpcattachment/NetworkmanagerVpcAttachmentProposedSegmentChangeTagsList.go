@@ -20,8 +20,6 @@ type NetworkmanagerVpcAttachmentProposedSegmentChangeTagsList interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
-	InternalValue() interface{}
-	SetInternalValue(val interface{})
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -72,16 +70,6 @@ func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsList) Fqn
 	_jsii_.Get(
 		j,
 		"fqn",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsList) InternalValue() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"internalValue",
 		&returns,
 	)
 	return returns
@@ -142,17 +130,6 @@ func NewNetworkmanagerVpcAttachmentProposedSegmentChangeTagsList_Override(n Netw
 		"@cdktn/provider-awscc.networkmanagerVpcAttachment.NetworkmanagerVpcAttachmentProposedSegmentChangeTagsList",
 		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
 		n,
-	)
-}
-
-func (j *jsiiProxy_NetworkmanagerVpcAttachmentProposedSegmentChangeTagsList)SetInternalValue(val interface{}) {
-	if err := j.validateSetInternalValueParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"internalValue",
-		val,
 	)
 }
 

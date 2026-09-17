@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkmanager_transit_gateway_route_table_attachment awscc_networkmanager_transit_gateway_route_table_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/networkmanager_transit_gateway_route_table_attachment awscc_networkmanager_transit_gateway_route_table_attachment}.
 type NetworkmanagerTransitGatewayRouteTableAttachment interface {
 	cdktn.TerraformResource
 	AttachmentId() *string
@@ -62,9 +62,7 @@ type NetworkmanagerTransitGatewayRouteTableAttachment interface {
 	SetPeeringId(val *string)
 	PeeringIdInput() *string
 	ProposedNetworkFunctionGroupChange() NetworkmanagerTransitGatewayRouteTableAttachmentProposedNetworkFunctionGroupChangeOutputReference
-	ProposedNetworkFunctionGroupChangeInput() interface{}
 	ProposedSegmentChange() NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChangeOutputReference
-	ProposedSegmentChangeInput() interface{}
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -172,8 +170,6 @@ type NetworkmanagerTransitGatewayRouteTableAttachment interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
-	PutProposedNetworkFunctionGroupChange(value *NetworkmanagerTransitGatewayRouteTableAttachmentProposedNetworkFunctionGroupChange)
-	PutProposedSegmentChange(value *NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChange)
 	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -192,8 +188,6 @@ type NetworkmanagerTransitGatewayRouteTableAttachment interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
-	ResetProposedNetworkFunctionGroupChange()
-	ResetProposedSegmentChange()
 	ResetRoutingPolicyLabel()
 	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
@@ -473,31 +467,11 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) ProposedNet
 	return returns
 }
 
-func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) ProposedNetworkFunctionGroupChangeInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"proposedNetworkFunctionGroupChangeInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) ProposedSegmentChange() NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChangeOutputReference {
 	var returns NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChangeOutputReference
 	_jsii_.Get(
 		j,
 		"proposedSegmentChange",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) ProposedSegmentChangeInput() interface{} {
-	var returns interface{}
-	_jsii_.Get(
-		j,
-		"proposedSegmentChangeInput",
 		&returns,
 	)
 	return returns
@@ -664,7 +638,7 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) UpdatedAt()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkmanager_transit_gateway_route_table_attachment awscc_networkmanager_transit_gateway_route_table_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/networkmanager_transit_gateway_route_table_attachment awscc_networkmanager_transit_gateway_route_table_attachment} Resource.
 func NewNetworkmanagerTransitGatewayRouteTableAttachment(scope constructs.Construct, id *string, config *NetworkmanagerTransitGatewayRouteTableAttachmentConfig) NetworkmanagerTransitGatewayRouteTableAttachment {
 	_init_.Initialize()
 
@@ -682,7 +656,7 @@ func NewNetworkmanagerTransitGatewayRouteTableAttachment(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/networkmanager_transit_gateway_route_table_attachment awscc_networkmanager_transit_gateway_route_table_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/networkmanager_transit_gateway_route_table_attachment awscc_networkmanager_transit_gateway_route_table_attachment} Resource.
 func NewNetworkmanagerTransitGatewayRouteTableAttachment_Override(n NetworkmanagerTransitGatewayRouteTableAttachment, scope constructs.Construct, id *string, config *NetworkmanagerTransitGatewayRouteTableAttachmentConfig) {
 	_init_.Initialize()
 
@@ -1174,28 +1148,6 @@ func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) OverrideLog
 	)
 }
 
-func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) PutProposedNetworkFunctionGroupChange(value *NetworkmanagerTransitGatewayRouteTableAttachmentProposedNetworkFunctionGroupChange) {
-	if err := n.validatePutProposedNetworkFunctionGroupChangeParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		n,
-		"putProposedNetworkFunctionGroupChange",
-		[]interface{}{value},
-	)
-}
-
-func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) PutProposedSegmentChange(value *NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChange) {
-	if err := n.validatePutProposedSegmentChangeParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		n,
-		"putProposedSegmentChange",
-		[]interface{}{value},
-	)
-}
-
 func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) PutTags(value interface{}) {
 	if err := n.validatePutTagsParameters(value); err != nil {
 		panic(err)
@@ -1230,22 +1182,6 @@ func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) ResetOverri
 	_jsii_.InvokeVoid(
 		n,
 		"resetOverrideLogicalId",
-		nil, // no parameters
-	)
-}
-
-func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) ResetProposedNetworkFunctionGroupChange() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetProposedNetworkFunctionGroupChange",
-		nil, // no parameters
-	)
-}
-
-func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachment) ResetProposedSegmentChange() {
-	_jsii_.InvokeVoid(
-		n,
-		"resetProposedSegmentChange",
 		nil, // no parameters
 	)
 }

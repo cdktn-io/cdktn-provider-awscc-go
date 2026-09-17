@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/guardduty_filter awscc_guardduty_filter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/guardduty_filter awscc_guardduty_filter}.
 type DataAwsccGuarddutyFilter interface {
 	cdktn.TerraformDataSource
 	Action() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccGuarddutyFilter) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/guardduty_filter awscc_guardduty_filter} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/guardduty_filter awscc_guardduty_filter} Data Source.
 func NewDataAwsccGuarddutyFilter(scope constructs.Construct, id *string, config *DataAwsccGuarddutyFilterConfig) DataAwsccGuarddutyFilter {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccGuarddutyFilter(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/guardduty_filter awscc_guardduty_filter} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/guardduty_filter awscc_guardduty_filter} Data Source.
 func NewDataAwsccGuarddutyFilter_Override(d DataAwsccGuarddutyFilter, scope constructs.Construct, id *string, config *DataAwsccGuarddutyFilterConfig) {
 	_init_.Initialize()
 

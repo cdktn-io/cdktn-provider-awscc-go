@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_transit_gateway_policy_table_association awscc_ec2_transit_gateway_policy_table_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_transit_gateway_policy_table_association awscc_ec2_transit_gateway_policy_table_association}.
 type DataAwsccEc2TransitGatewayPolicyTableAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccEc2TransitGatewayPolicyTableAssociation) TransitGate
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_transit_gateway_policy_table_association awscc_ec2_transit_gateway_policy_table_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_transit_gateway_policy_table_association awscc_ec2_transit_gateway_policy_table_association} Data Source.
 func NewDataAwsccEc2TransitGatewayPolicyTableAssociation(scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayPolicyTableAssociationConfig) DataAwsccEc2TransitGatewayPolicyTableAssociation {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccEc2TransitGatewayPolicyTableAssociation(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_transit_gateway_policy_table_association awscc_ec2_transit_gateway_policy_table_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_transit_gateway_policy_table_association awscc_ec2_transit_gateway_policy_table_association} Data Source.
 func NewDataAwsccEc2TransitGatewayPolicyTableAssociation_Override(d DataAwsccEc2TransitGatewayPolicyTableAssociation, scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayPolicyTableAssociationConfig) {
 	_init_.Initialize()
 

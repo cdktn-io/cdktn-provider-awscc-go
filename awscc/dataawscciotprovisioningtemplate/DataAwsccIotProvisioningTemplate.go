@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iot_provisioning_template awscc_iot_provisioning_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iot_provisioning_template awscc_iot_provisioning_template}.
 type DataAwsccIotProvisioningTemplate interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccIotProvisioningTemplate) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iot_provisioning_template awscc_iot_provisioning_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iot_provisioning_template awscc_iot_provisioning_template} Data Source.
 func NewDataAwsccIotProvisioningTemplate(scope constructs.Construct, id *string, config *DataAwsccIotProvisioningTemplateConfig) DataAwsccIotProvisioningTemplate {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccIotProvisioningTemplate(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iot_provisioning_template awscc_iot_provisioning_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iot_provisioning_template awscc_iot_provisioning_template} Data Source.
 func NewDataAwsccIotProvisioningTemplate_Override(d DataAwsccIotProvisioningTemplate, scope constructs.Construct, id *string, config *DataAwsccIotProvisioningTemplateConfig) {
 	_init_.Initialize()
 

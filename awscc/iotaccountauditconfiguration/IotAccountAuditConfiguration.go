@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_account_audit_configuration awscc_iot_account_audit_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iot_account_audit_configuration awscc_iot_account_audit_configuration}.
 type IotAccountAuditConfiguration interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -448,7 +448,7 @@ func (j *jsiiProxy_IotAccountAuditConfiguration) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_account_audit_configuration awscc_iot_account_audit_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iot_account_audit_configuration awscc_iot_account_audit_configuration} Resource.
 func NewIotAccountAuditConfiguration(scope constructs.Construct, id *string, config *IotAccountAuditConfigurationConfig) IotAccountAuditConfiguration {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewIotAccountAuditConfiguration(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iot_account_audit_configuration awscc_iot_account_audit_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iot_account_audit_configuration awscc_iot_account_audit_configuration} Resource.
 func NewIotAccountAuditConfiguration_Override(i IotAccountAuditConfiguration, scope constructs.Construct, id *string, config *IotAccountAuditConfigurationConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrock_automated_reasoning_policies awscc_bedrock_automated_reasoning_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrock_automated_reasoning_policies awscc_bedrock_automated_reasoning_policies}.
 type DataAwsccBedrockAutomatedReasoningPolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockAutomatedReasoningPolicies) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrock_automated_reasoning_policies awscc_bedrock_automated_reasoning_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrock_automated_reasoning_policies awscc_bedrock_automated_reasoning_policies} Data Source.
 func NewDataAwsccBedrockAutomatedReasoningPolicies(scope constructs.Construct, id *string, config *DataAwsccBedrockAutomatedReasoningPoliciesConfig) DataAwsccBedrockAutomatedReasoningPolicies {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockAutomatedReasoningPolicies(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrock_automated_reasoning_policies awscc_bedrock_automated_reasoning_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrock_automated_reasoning_policies awscc_bedrock_automated_reasoning_policies} Data Source.
 func NewDataAwsccBedrockAutomatedReasoningPolicies_Override(d DataAwsccBedrockAutomatedReasoningPolicies, scope constructs.Construct, id *string, config *DataAwsccBedrockAutomatedReasoningPoliciesConfig) {
 	_init_.Initialize()
 

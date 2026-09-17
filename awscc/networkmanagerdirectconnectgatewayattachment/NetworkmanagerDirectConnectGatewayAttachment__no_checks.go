@@ -79,14 +79,6 @@ func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) validateOverrid
 	return nil
 }
 
-func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) validatePutProposedNetworkFunctionGroupChangeParameters(value *NetworkmanagerDirectConnectGatewayAttachmentProposedNetworkFunctionGroupChange) error {
-	return nil
-}
-
-func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) validatePutProposedSegmentChangeParameters(value *NetworkmanagerDirectConnectGatewayAttachmentProposedSegmentChange) error {
-	return nil
-}
-
 func (n *jsiiProxy_NetworkmanagerDirectConnectGatewayAttachment) validatePutTagsParameters(value interface{}) error {
 	return nil
 }

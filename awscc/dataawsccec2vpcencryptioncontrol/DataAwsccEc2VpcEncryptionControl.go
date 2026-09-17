@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_vpc_encryption_control awscc_ec2_vpc_encryption_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_vpc_encryption_control awscc_ec2_vpc_encryption_control}.
 type DataAwsccEc2VpcEncryptionControl interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccEc2VpcEncryptionControl) VpcPeeringExclusionInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_vpc_encryption_control awscc_ec2_vpc_encryption_control} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_vpc_encryption_control awscc_ec2_vpc_encryption_control} Data Source.
 func NewDataAwsccEc2VpcEncryptionControl(scope constructs.Construct, id *string, config *DataAwsccEc2VpcEncryptionControlConfig) DataAwsccEc2VpcEncryptionControl {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccEc2VpcEncryptionControl(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_vpc_encryption_control awscc_ec2_vpc_encryption_control} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_vpc_encryption_control awscc_ec2_vpc_encryption_control} Data Source.
 func NewDataAwsccEc2VpcEncryptionControl_Override(d DataAwsccEc2VpcEncryptionControl, scope constructs.Construct, id *string, config *DataAwsccEc2VpcEncryptionControlConfig) {
 	_init_.Initialize()
 

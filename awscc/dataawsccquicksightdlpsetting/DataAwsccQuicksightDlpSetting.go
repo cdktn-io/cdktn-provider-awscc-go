@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/quicksight_dlp_setting awscc_quicksight_dlp_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/quicksight_dlp_setting awscc_quicksight_dlp_setting}.
 type DataAwsccQuicksightDlpSetting interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccQuicksightDlpSetting) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/quicksight_dlp_setting awscc_quicksight_dlp_setting} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/quicksight_dlp_setting awscc_quicksight_dlp_setting} Data Source.
 func NewDataAwsccQuicksightDlpSetting(scope constructs.Construct, id *string, config *DataAwsccQuicksightDlpSettingConfig) DataAwsccQuicksightDlpSetting {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccQuicksightDlpSetting(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/quicksight_dlp_setting awscc_quicksight_dlp_setting} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/quicksight_dlp_setting awscc_quicksight_dlp_setting} Data Source.
 func NewDataAwsccQuicksightDlpSetting_Override(d DataAwsccQuicksightDlpSetting, scope constructs.Construct, id *string, config *DataAwsccQuicksightDlpSettingConfig) {
 	_init_.Initialize()
 

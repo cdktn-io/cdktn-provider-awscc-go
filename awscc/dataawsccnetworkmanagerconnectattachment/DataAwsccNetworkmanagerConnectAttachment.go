@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment}.
 type DataAwsccNetworkmanagerConnectAttachment interface {
 	cdktn.TerraformDataSource
 	AttachmentId() *string
@@ -506,7 +506,7 @@ func (j *jsiiProxy_DataAwsccNetworkmanagerConnectAttachment) UpdatedAt() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment} Data Source.
 func NewDataAwsccNetworkmanagerConnectAttachment(scope constructs.Construct, id *string, config *DataAwsccNetworkmanagerConnectAttachmentConfig) DataAwsccNetworkmanagerConnectAttachment {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewDataAwsccNetworkmanagerConnectAttachment(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment} Data Source.
 func NewDataAwsccNetworkmanagerConnectAttachment_Override(d DataAwsccNetworkmanagerConnectAttachment, scope constructs.Construct, id *string, config *DataAwsccNetworkmanagerConnectAttachmentConfig) {
 	_init_.Initialize()
 

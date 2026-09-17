@@ -1,0 +1,3 @@
+# `data_awscc_invoicing_procurement_portal_preferences`
+
+Refer to the Terraform Registry for docs: [`data_awscc_invoicing_procurement_portal_preferences`](https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/invoicing_procurement_portal_preferences).

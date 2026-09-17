@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/glue_data_catalog_encryption_settings awscc_glue_data_catalog_encryption_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_data_catalog_encryption_settings awscc_glue_data_catalog_encryption_settings}.
 type GlueDataCatalogEncryptionSettings interface {
 	cdktn.TerraformResource
 	CatalogId() *string
@@ -401,7 +401,7 @@ func (j *jsiiProxy_GlueDataCatalogEncryptionSettings) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/glue_data_catalog_encryption_settings awscc_glue_data_catalog_encryption_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_data_catalog_encryption_settings awscc_glue_data_catalog_encryption_settings} Resource.
 func NewGlueDataCatalogEncryptionSettings(scope constructs.Construct, id *string, config *GlueDataCatalogEncryptionSettingsConfig) GlueDataCatalogEncryptionSettings {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewGlueDataCatalogEncryptionSettings(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/glue_data_catalog_encryption_settings awscc_glue_data_catalog_encryption_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_data_catalog_encryption_settings awscc_glue_data_catalog_encryption_settings} Resource.
 func NewGlueDataCatalogEncryptionSettings_Override(g GlueDataCatalogEncryptionSettings, scope constructs.Construct, id *string, config *GlueDataCatalogEncryptionSettingsConfig) {
 	_init_.Initialize()
 

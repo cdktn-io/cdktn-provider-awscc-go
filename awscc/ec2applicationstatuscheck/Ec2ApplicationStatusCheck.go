@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_application_status_check awscc_ec2_application_status_check}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check awscc_ec2_application_status_check}.
 type Ec2ApplicationStatusCheck interface {
 	cdktn.TerraformResource
 	Aggregation() *string
@@ -746,7 +746,7 @@ func (j *jsiiProxy_Ec2ApplicationStatusCheck) TimeoutInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_application_status_check awscc_ec2_application_status_check} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check awscc_ec2_application_status_check} Resource.
 func NewEc2ApplicationStatusCheck(scope constructs.Construct, id *string, config *Ec2ApplicationStatusCheckConfig) Ec2ApplicationStatusCheck {
 	_init_.Initialize()
 
@@ -764,7 +764,7 @@ func NewEc2ApplicationStatusCheck(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_application_status_check awscc_ec2_application_status_check} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check awscc_ec2_application_status_check} Resource.
 func NewEc2ApplicationStatusCheck_Override(e Ec2ApplicationStatusCheck, scope constructs.Construct, id *string, config *Ec2ApplicationStatusCheckConfig) {
 	_init_.Initialize()
 

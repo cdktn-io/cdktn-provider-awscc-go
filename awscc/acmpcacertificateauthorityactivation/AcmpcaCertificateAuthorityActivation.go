@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/acmpca_certificate_authority_activation awscc_acmpca_certificate_authority_activation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/acmpca_certificate_authority_activation awscc_acmpca_certificate_authority_activation}.
 type AcmpcaCertificateAuthorityActivation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -460,7 +460,7 @@ func (j *jsiiProxy_AcmpcaCertificateAuthorityActivation) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/acmpca_certificate_authority_activation awscc_acmpca_certificate_authority_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/acmpca_certificate_authority_activation awscc_acmpca_certificate_authority_activation} Resource.
 func NewAcmpcaCertificateAuthorityActivation(scope constructs.Construct, id *string, config *AcmpcaCertificateAuthorityActivationConfig) AcmpcaCertificateAuthorityActivation {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewAcmpcaCertificateAuthorityActivation(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/acmpca_certificate_authority_activation awscc_acmpca_certificate_authority_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/acmpca_certificate_authority_activation awscc_acmpca_certificate_authority_activation} Resource.
 func NewAcmpcaCertificateAuthorityActivation_Override(a AcmpcaCertificateAuthorityActivation, scope constructs.Construct, id *string, config *AcmpcaCertificateAuthorityActivationConfig) {
 	_init_.Initialize()
 

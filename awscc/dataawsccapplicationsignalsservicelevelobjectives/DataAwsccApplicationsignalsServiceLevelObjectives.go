@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/applicationsignals_service_level_objectives awscc_applicationsignals_service_level_objectives}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/applicationsignals_service_level_objectives awscc_applicationsignals_service_level_objectives}.
 type DataAwsccApplicationsignalsServiceLevelObjectives interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccApplicationsignalsServiceLevelObjectives) TerraformR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/applicationsignals_service_level_objectives awscc_applicationsignals_service_level_objectives} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/applicationsignals_service_level_objectives awscc_applicationsignals_service_level_objectives} Data Source.
 func NewDataAwsccApplicationsignalsServiceLevelObjectives(scope constructs.Construct, id *string, config *DataAwsccApplicationsignalsServiceLevelObjectivesConfig) DataAwsccApplicationsignalsServiceLevelObjectives {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccApplicationsignalsServiceLevelObjectives(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/applicationsignals_service_level_objectives awscc_applicationsignals_service_level_objectives} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/applicationsignals_service_level_objectives awscc_applicationsignals_service_level_objectives} Data Source.
 func NewDataAwsccApplicationsignalsServiceLevelObjectives_Override(d DataAwsccApplicationsignalsServiceLevelObjectives, scope constructs.Construct, id *string, config *DataAwsccApplicationsignalsServiceLevelObjectivesConfig) {
 	_init_.Initialize()
 

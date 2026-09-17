@@ -7,7 +7,7 @@ package agentregistryregistryrecord
 type AgentregistryRegistryRecordDescriptorsHttp struct {
 	// Source configuration for a source-only descriptor. Unlike mcpServer/a2aAgentCard sources, source-only descriptors do not support credential providers.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/agentregistry_registry_record#source AgentregistryRegistryRecord#source}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/agentregistry_registry_record#source AgentregistryRegistryRecord#source}
 	Source *AgentregistryRegistryRecordDescriptorsHttpSource `field:"optional" json:"source" yaml:"source"`
 }
 

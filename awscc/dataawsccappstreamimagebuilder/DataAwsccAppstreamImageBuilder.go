@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/appstream_image_builder awscc_appstream_image_builder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/appstream_image_builder awscc_appstream_image_builder}.
 type DataAwsccAppstreamImageBuilder interface {
 	cdktn.TerraformDataSource
 	AccessEndpoints() DataAwsccAppstreamImageBuilderAccessEndpointsList
@@ -30,6 +30,7 @@ type DataAwsccAppstreamImageBuilder interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	Description() *string
+	DisableImdsv1() cdktn.IResolvable
 	DisplayName() *string
 	DomainJoinInfo() DataAwsccAppstreamImageBuilderDomainJoinInfoOutputReference
 	EnableDefaultInternetAccess() cdktn.IResolvable
@@ -207,6 +208,16 @@ func (j *jsiiProxy_DataAwsccAppstreamImageBuilder) Description() *string {
 	_jsii_.Get(
 		j,
 		"description",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccAppstreamImageBuilder) DisableImdsv1() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"disableImdsv1",
 		&returns,
 	)
 	return returns
@@ -473,7 +484,7 @@ func (j *jsiiProxy_DataAwsccAppstreamImageBuilder) VpcConfig() DataAwsccAppstrea
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/appstream_image_builder awscc_appstream_image_builder} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/appstream_image_builder awscc_appstream_image_builder} Data Source.
 func NewDataAwsccAppstreamImageBuilder(scope constructs.Construct, id *string, config *DataAwsccAppstreamImageBuilderConfig) DataAwsccAppstreamImageBuilder {
 	_init_.Initialize()
 
@@ -491,7 +502,7 @@ func NewDataAwsccAppstreamImageBuilder(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/appstream_image_builder awscc_appstream_image_builder} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/appstream_image_builder awscc_appstream_image_builder} Data Source.
 func NewDataAwsccAppstreamImageBuilder_Override(d DataAwsccAppstreamImageBuilder, scope constructs.Construct, id *string, config *DataAwsccAppstreamImageBuilderConfig) {
 	_init_.Initialize()
 

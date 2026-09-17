@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/applicationautoscaling_scaling_policy awscc_applicationautoscaling_scaling_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/applicationautoscaling_scaling_policy awscc_applicationautoscaling_scaling_policy}.
 type ApplicationautoscalingScalingPolicy interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -580,7 +580,7 @@ func (j *jsiiProxy_ApplicationautoscalingScalingPolicy) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/applicationautoscaling_scaling_policy awscc_applicationautoscaling_scaling_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/applicationautoscaling_scaling_policy awscc_applicationautoscaling_scaling_policy} Resource.
 func NewApplicationautoscalingScalingPolicy(scope constructs.Construct, id *string, config *ApplicationautoscalingScalingPolicyConfig) ApplicationautoscalingScalingPolicy {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewApplicationautoscalingScalingPolicy(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/applicationautoscaling_scaling_policy awscc_applicationautoscaling_scaling_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/applicationautoscaling_scaling_policy awscc_applicationautoscaling_scaling_policy} Resource.
 func NewApplicationautoscalingScalingPolicy_Override(a ApplicationautoscalingScalingPolicy, scope constructs.Construct, id *string, config *ApplicationautoscalingScalingPolicyConfig) {
 	_init_.Initialize()
 

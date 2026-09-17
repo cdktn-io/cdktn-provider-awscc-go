@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/odb_odb_peering_connection awscc_odb_odb_peering_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/odb_odb_peering_connection awscc_odb_odb_peering_connection}.
 type DataAwsccOdbOdbPeeringConnection interface {
 	cdktn.TerraformDataSource
 	AdditionalPeerNetworkCidrs() *[]*string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccOdbOdbPeeringConnection) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/odb_odb_peering_connection awscc_odb_odb_peering_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/odb_odb_peering_connection awscc_odb_odb_peering_connection} Data Source.
 func NewDataAwsccOdbOdbPeeringConnection(scope constructs.Construct, id *string, config *DataAwsccOdbOdbPeeringConnectionConfig) DataAwsccOdbOdbPeeringConnection {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccOdbOdbPeeringConnection(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/odb_odb_peering_connection awscc_odb_odb_peering_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/odb_odb_peering_connection awscc_odb_odb_peering_connection} Data Source.
 func NewDataAwsccOdbOdbPeeringConnection_Override(d DataAwsccOdbOdbPeeringConnection, scope constructs.Construct, id *string, config *DataAwsccOdbOdbPeeringConnectionConfig) {
 	_init_.Initialize()
 

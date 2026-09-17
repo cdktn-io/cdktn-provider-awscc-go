@@ -47,6 +47,10 @@ func (e *jsiiProxy_Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsE
 	return nil
 }
 
+func (e *jsiiProxy_Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsOutputReference) validatePutMultiAvailabilityZoneConfigurationParameters(value *Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsMultiAvailabilityZoneConfiguration) error {
+	return nil
+}
+
 func (e *jsiiProxy_Ec2Ec2FleetLaunchTemplateConfigsOverridesBlockDeviceMappingsEbsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

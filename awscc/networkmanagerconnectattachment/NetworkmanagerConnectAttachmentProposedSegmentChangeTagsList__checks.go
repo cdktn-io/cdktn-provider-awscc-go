@@ -8,8 +8,6 @@ package networkmanagerconnectattachment
 import (
 	"fmt"
 
-	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,34 +30,6 @@ func (n *jsiiProxy_NetworkmanagerConnectAttachmentProposedSegmentChangeTagsList)
 func (n *jsiiProxy_NetworkmanagerConnectAttachmentProposedSegmentChangeTagsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_NetworkmanagerConnectAttachmentProposedSegmentChangeTagsList) validateSetInternalValueParameters(val interface{}) error {
-	switch val.(type) {
-	case cdktn.IResolvable:
-		// ok
-	case *[]*NetworkmanagerConnectAttachmentProposedSegmentChangeTags:
-		val := val.(*[]*NetworkmanagerConnectAttachmentProposedSegmentChangeTags)
-		for idx_97dfc6, v := range *val {
-			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
-				return err
-			}
-		}
-	case []*NetworkmanagerConnectAttachmentProposedSegmentChangeTags:
-		val_ := val.([]*NetworkmanagerConnectAttachmentProposedSegmentChangeTags)
-		val := &val_
-		for idx_97dfc6, v := range *val {
-			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
-				return err
-			}
-		}
-	default:
-		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*NetworkmanagerConnectAttachmentProposedSegmentChangeTags; received %#v (a %T)", val, val)
-		}
 	}
 
 	return nil

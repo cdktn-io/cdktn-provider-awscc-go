@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecr_signing_configuration awscc_ecr_signing_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecr_signing_configuration awscc_ecr_signing_configuration}.
 type EcrSigningConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_EcrSigningConfiguration) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecr_signing_configuration awscc_ecr_signing_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecr_signing_configuration awscc_ecr_signing_configuration} Resource.
 func NewEcrSigningConfiguration(scope constructs.Construct, id *string, config *EcrSigningConfigurationConfig) EcrSigningConfiguration {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewEcrSigningConfiguration(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ecr_signing_configuration awscc_ecr_signing_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecr_signing_configuration awscc_ecr_signing_configuration} Resource.
 func NewEcrSigningConfiguration_Override(e EcrSigningConfiguration, scope constructs.Construct, id *string, config *EcrSigningConfigurationConfig) {
 	_init_.Initialize()
 

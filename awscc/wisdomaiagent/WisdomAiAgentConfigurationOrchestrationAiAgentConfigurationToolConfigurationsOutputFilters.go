@@ -5,9 +5,9 @@ package wisdomaiagent
 
 
 type WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOutputFilters struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/wisdom_ai_agent#json_path WisdomAiAgent#json_path}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/wisdom_ai_agent#json_path WisdomAiAgent#json_path}.
 	JsonPath *string `field:"optional" json:"jsonPath" yaml:"jsonPath"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/wisdom_ai_agent#output_configuration WisdomAiAgent#output_configuration}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/wisdom_ai_agent#output_configuration WisdomAiAgent#output_configuration}.
 	OutputConfiguration *WisdomAiAgentConfigurationOrchestrationAiAgentConfigurationToolConfigurationsOutputFiltersOutputConfiguration `field:"optional" json:"outputConfiguration" yaml:"outputConfiguration"`
 }
 

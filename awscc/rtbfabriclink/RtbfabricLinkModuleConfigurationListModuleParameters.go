@@ -5,9 +5,9 @@ package rtbfabriclink
 
 
 type RtbfabricLinkModuleConfigurationListModuleParameters struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/rtbfabric_link#no_bid RtbfabricLink#no_bid}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/rtbfabric_link#no_bid RtbfabricLink#no_bid}.
 	NoBid *RtbfabricLinkModuleConfigurationListModuleParametersNoBid `field:"optional" json:"noBid" yaml:"noBid"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/rtbfabric_link#open_rtb_attribute RtbfabricLink#open_rtb_attribute}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/rtbfabric_link#open_rtb_attribute RtbfabricLink#open_rtb_attribute}.
 	OpenRtbAttribute *RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttribute `field:"optional" json:"openRtbAttribute" yaml:"openRtbAttribute"`
 }
 

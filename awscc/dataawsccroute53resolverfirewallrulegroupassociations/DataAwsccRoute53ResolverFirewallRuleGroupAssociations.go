@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/route53resolver_firewall_rule_group_associations awscc_route53resolver_firewall_rule_group_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/route53resolver_firewall_rule_group_associations awscc_route53resolver_firewall_rule_group_associations}.
 type DataAwsccRoute53ResolverFirewallRuleGroupAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRoute53ResolverFirewallRuleGroupAssociations) Terraf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/route53resolver_firewall_rule_group_associations awscc_route53resolver_firewall_rule_group_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/route53resolver_firewall_rule_group_associations awscc_route53resolver_firewall_rule_group_associations} Data Source.
 func NewDataAwsccRoute53ResolverFirewallRuleGroupAssociations(scope constructs.Construct, id *string, config *DataAwsccRoute53ResolverFirewallRuleGroupAssociationsConfig) DataAwsccRoute53ResolverFirewallRuleGroupAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRoute53ResolverFirewallRuleGroupAssociations(scope constructs.C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/route53resolver_firewall_rule_group_associations awscc_route53resolver_firewall_rule_group_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/route53resolver_firewall_rule_group_associations awscc_route53resolver_firewall_rule_group_associations} Data Source.
 func NewDataAwsccRoute53ResolverFirewallRuleGroupAssociations_Override(d DataAwsccRoute53ResolverFirewallRuleGroupAssociations, scope constructs.Construct, id *string, config *DataAwsccRoute53ResolverFirewallRuleGroupAssociationsConfig) {
 	_init_.Initialize()
 

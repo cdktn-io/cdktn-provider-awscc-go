@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53globalresolver_firewall_domain_list awscc_route53globalresolver_firewall_domain_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53globalresolver_firewall_domain_list awscc_route53globalresolver_firewall_domain_list}.
 type Route53GlobalresolverFirewallDomainList interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -598,7 +598,7 @@ func (j *jsiiProxy_Route53GlobalresolverFirewallDomainList) UpdatedAt() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53globalresolver_firewall_domain_list awscc_route53globalresolver_firewall_domain_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53globalresolver_firewall_domain_list awscc_route53globalresolver_firewall_domain_list} Resource.
 func NewRoute53GlobalresolverFirewallDomainList(scope constructs.Construct, id *string, config *Route53GlobalresolverFirewallDomainListConfig) Route53GlobalresolverFirewallDomainList {
 	_init_.Initialize()
 
@@ -616,7 +616,7 @@ func NewRoute53GlobalresolverFirewallDomainList(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53globalresolver_firewall_domain_list awscc_route53globalresolver_firewall_domain_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53globalresolver_firewall_domain_list awscc_route53globalresolver_firewall_domain_list} Resource.
 func NewRoute53GlobalresolverFirewallDomainList_Override(r Route53GlobalresolverFirewallDomainList, scope constructs.Construct, id *string, config *Route53GlobalresolverFirewallDomainListConfig) {
 	_init_.Initialize()
 

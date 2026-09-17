@@ -9,13 +9,13 @@ type ConfigConnectorTags struct {
 	//
 	// You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/config_connector#key ConfigConnector#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/config_connector#key ConfigConnector#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value for the tag.
 	//
 	// You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/config_connector#value ConfigConnector#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/config_connector#value ConfigConnector#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

@@ -5,7 +5,7 @@ package evsenvironment
 
 
 type EvsEnvironmentInitialVlansVmManagement struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/evs_environment#cidr EvsEnvironment#cidr}.
 	Cidr *string `field:"optional" json:"cidr" yaml:"cidr"`
 }
 

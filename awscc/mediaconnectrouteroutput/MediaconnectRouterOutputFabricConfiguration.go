@@ -5,7 +5,7 @@ package mediaconnectrouteroutput
 
 
 type MediaconnectRouterOutputFabricConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediaconnect_router_output#recovery_latency_mode MediaconnectRouterOutput#recovery_latency_mode}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconnect_router_output#recovery_latency_mode MediaconnectRouterOutput#recovery_latency_mode}.
 	RecoveryLatencyMode *string `field:"optional" json:"recoveryLatencyMode" yaml:"recoveryLatencyMode"`
 }
 

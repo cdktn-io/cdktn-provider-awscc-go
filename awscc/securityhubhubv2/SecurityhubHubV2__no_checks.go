@@ -79,6 +79,10 @@ func (s *jsiiProxy_SecurityhubHubV2) validateOverrideLogicalIdParameters(newLogi
 	return nil
 }
 
+func (s *jsiiProxy_SecurityhubHubV2) validatePutNetworkScanningParameters(value *SecurityhubHubV2NetworkScanning) error {
+	return nil
+}
+
 func (s *jsiiProxy_SecurityhubHubV2) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }

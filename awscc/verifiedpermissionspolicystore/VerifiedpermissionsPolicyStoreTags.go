@@ -5,9 +5,9 @@ package verifiedpermissionspolicystore
 
 
 type VerifiedpermissionsPolicyStoreTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/verifiedpermissions_policy_store#key VerifiedpermissionsPolicyStore#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/verifiedpermissions_policy_store#key VerifiedpermissionsPolicyStore#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/verifiedpermissions_policy_store#value VerifiedpermissionsPolicyStore#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/verifiedpermissions_policy_store#value VerifiedpermissionsPolicyStore#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

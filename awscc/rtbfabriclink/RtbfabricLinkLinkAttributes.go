@@ -5,9 +5,9 @@ package rtbfabriclink
 
 
 type RtbfabricLinkLinkAttributes struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/rtbfabric_link#customer_provided_id RtbfabricLink#customer_provided_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/rtbfabric_link#customer_provided_id RtbfabricLink#customer_provided_id}.
 	CustomerProvidedId *string `field:"optional" json:"customerProvidedId" yaml:"customerProvidedId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/rtbfabric_link#responder_error_masking RtbfabricLink#responder_error_masking}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/rtbfabric_link#responder_error_masking RtbfabricLink#responder_error_masking}.
 	ResponderErrorMasking interface{} `field:"optional" json:"responderErrorMasking" yaml:"responderErrorMasking"`
 }
 

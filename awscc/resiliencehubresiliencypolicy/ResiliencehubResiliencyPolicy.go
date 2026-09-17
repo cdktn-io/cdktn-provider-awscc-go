@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/resiliencehub_resiliency_policy awscc_resiliencehub_resiliency_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/resiliencehub_resiliency_policy awscc_resiliencehub_resiliency_policy}.
 type ResiliencehubResiliencyPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -507,7 +507,7 @@ func (j *jsiiProxy_ResiliencehubResiliencyPolicy) TierInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/resiliencehub_resiliency_policy awscc_resiliencehub_resiliency_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/resiliencehub_resiliency_policy awscc_resiliencehub_resiliency_policy} Resource.
 func NewResiliencehubResiliencyPolicy(scope constructs.Construct, id *string, config *ResiliencehubResiliencyPolicyConfig) ResiliencehubResiliencyPolicy {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewResiliencehubResiliencyPolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/resiliencehub_resiliency_policy awscc_resiliencehub_resiliency_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/resiliencehub_resiliency_policy awscc_resiliencehub_resiliency_policy} Resource.
 func NewResiliencehubResiliencyPolicy_Override(r ResiliencehubResiliencyPolicy, scope constructs.Construct, id *string, config *ResiliencehubResiliencyPolicyConfig) {
 	_init_.Initialize()
 

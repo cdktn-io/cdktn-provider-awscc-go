@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrock_enforced_guardrail_configurations awscc_bedrock_enforced_guardrail_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrock_enforced_guardrail_configurations awscc_bedrock_enforced_guardrail_configurations}.
 type DataAwsccBedrockEnforcedGuardrailConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockEnforcedGuardrailConfigurations) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrock_enforced_guardrail_configurations awscc_bedrock_enforced_guardrail_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrock_enforced_guardrail_configurations awscc_bedrock_enforced_guardrail_configurations} Data Source.
 func NewDataAwsccBedrockEnforcedGuardrailConfigurations(scope constructs.Construct, id *string, config *DataAwsccBedrockEnforcedGuardrailConfigurationsConfig) DataAwsccBedrockEnforcedGuardrailConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockEnforcedGuardrailConfigurations(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrock_enforced_guardrail_configurations awscc_bedrock_enforced_guardrail_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrock_enforced_guardrail_configurations awscc_bedrock_enforced_guardrail_configurations} Data Source.
 func NewDataAwsccBedrockEnforcedGuardrailConfigurations_Override(d DataAwsccBedrockEnforcedGuardrailConfigurations, scope constructs.Construct, id *string, config *DataAwsccBedrockEnforcedGuardrailConfigurationsConfig) {
 	_init_.Initialize()
 

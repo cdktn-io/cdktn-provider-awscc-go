@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/robomaker_robot_applications awscc_robomaker_robot_applications}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/robomaker_robot_applications awscc_robomaker_robot_applications}.
 type DataAwsccRobomakerRobotApplications interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRobomakerRobotApplications) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/robomaker_robot_applications awscc_robomaker_robot_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/robomaker_robot_applications awscc_robomaker_robot_applications} Data Source.
 func NewDataAwsccRobomakerRobotApplications(scope constructs.Construct, id *string, config *DataAwsccRobomakerRobotApplicationsConfig) DataAwsccRobomakerRobotApplications {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRobomakerRobotApplications(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/robomaker_robot_applications awscc_robomaker_robot_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/robomaker_robot_applications awscc_robomaker_robot_applications} Data Source.
 func NewDataAwsccRobomakerRobotApplications_Override(d DataAwsccRobomakerRobotApplications, scope constructs.Construct, id *string, config *DataAwsccRobomakerRobotApplicationsConfig) {
 	_init_.Initialize()
 

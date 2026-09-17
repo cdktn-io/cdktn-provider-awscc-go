@@ -9,7 +9,7 @@ type CasesLayoutContent struct {
 	//
 	// Configures which fields appear in the top panel (immediately visible) and More Info tab (expandable section) of the case view, allowing customization of the agent experience.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cases_layout#basic CasesLayout#basic}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cases_layout#basic CasesLayout#basic}
 	Basic *CasesLayoutContentBasic `field:"optional" json:"basic" yaml:"basic"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/groundstation_dataflow_endpoint_group_v2s awscc_groundstation_dataflow_endpoint_group_v2s}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/groundstation_dataflow_endpoint_group_v2s awscc_groundstation_dataflow_endpoint_group_v2s}.
 type DataAwsccGroundstationDataflowEndpointGroupV2S interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGroundstationDataflowEndpointGroupV2S) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/groundstation_dataflow_endpoint_group_v2s awscc_groundstation_dataflow_endpoint_group_v2s} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/groundstation_dataflow_endpoint_group_v2s awscc_groundstation_dataflow_endpoint_group_v2s} Data Source.
 func NewDataAwsccGroundstationDataflowEndpointGroupV2S(scope constructs.Construct, id *string, config *DataAwsccGroundstationDataflowEndpointGroupV2SConfig) DataAwsccGroundstationDataflowEndpointGroupV2S {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGroundstationDataflowEndpointGroupV2S(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/groundstation_dataflow_endpoint_group_v2s awscc_groundstation_dataflow_endpoint_group_v2s} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/groundstation_dataflow_endpoint_group_v2s awscc_groundstation_dataflow_endpoint_group_v2s} Data Source.
 func NewDataAwsccGroundstationDataflowEndpointGroupV2S_Override(d DataAwsccGroundstationDataflowEndpointGroupV2S, scope constructs.Construct, id *string, config *DataAwsccGroundstationDataflowEndpointGroupV2SConfig) {
 	_init_.Initialize()
 

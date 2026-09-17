@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/sagemaker_endpoint_configs awscc_sagemaker_endpoint_configs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sagemaker_endpoint_configs awscc_sagemaker_endpoint_configs}.
 type DataAwsccSagemakerEndpointConfigs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSagemakerEndpointConfigs) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/sagemaker_endpoint_configs awscc_sagemaker_endpoint_configs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sagemaker_endpoint_configs awscc_sagemaker_endpoint_configs} Data Source.
 func NewDataAwsccSagemakerEndpointConfigs(scope constructs.Construct, id *string, config *DataAwsccSagemakerEndpointConfigsConfig) DataAwsccSagemakerEndpointConfigs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSagemakerEndpointConfigs(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/sagemaker_endpoint_configs awscc_sagemaker_endpoint_configs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sagemaker_endpoint_configs awscc_sagemaker_endpoint_configs} Data Source.
 func NewDataAwsccSagemakerEndpointConfigs_Override(d DataAwsccSagemakerEndpointConfigs, scope constructs.Construct, id *string, config *DataAwsccSagemakerEndpointConfigsConfig) {
 	_init_.Initialize()
 

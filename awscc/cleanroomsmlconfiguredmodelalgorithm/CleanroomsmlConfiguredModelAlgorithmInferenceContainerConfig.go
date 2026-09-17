@@ -5,7 +5,7 @@ package cleanroomsmlconfiguredmodelalgorithm
 
 
 type CleanroomsmlConfiguredModelAlgorithmInferenceContainerConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cleanroomsml_configured_model_algorithm#image_uri CleanroomsmlConfiguredModelAlgorithm#image_uri}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cleanroomsml_configured_model_algorithm#image_uri CleanroomsmlConfiguredModelAlgorithm#image_uri}.
 	ImageUri *string `field:"optional" json:"imageUri" yaml:"imageUri"`
 }
 

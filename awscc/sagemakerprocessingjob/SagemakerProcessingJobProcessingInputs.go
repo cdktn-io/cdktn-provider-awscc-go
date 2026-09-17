@@ -9,19 +9,19 @@ type SagemakerProcessingJobProcessingInputs struct {
 	//
 	// When False (default), input operations are managed by Amazon SageMaker.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_processing_job#app_managed SagemakerProcessingJob#app_managed}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_processing_job#app_managed SagemakerProcessingJob#app_managed}
 	AppManaged interface{} `field:"optional" json:"appManaged" yaml:"appManaged"`
 	// Configuration for Dataset Definition inputs. The Dataset Definition input must specify exactly one of either `AthenaDatasetDefinition` or `RedshiftDatasetDefinition` types.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_processing_job#dataset_definition SagemakerProcessingJob#dataset_definition}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_processing_job#dataset_definition SagemakerProcessingJob#dataset_definition}
 	DatasetDefinition *SagemakerProcessingJobProcessingInputsDatasetDefinition `field:"optional" json:"datasetDefinition" yaml:"datasetDefinition"`
 	// The name for the processing job input.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_processing_job#input_name SagemakerProcessingJob#input_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_processing_job#input_name SagemakerProcessingJob#input_name}
 	InputName *string `field:"optional" json:"inputName" yaml:"inputName"`
 	// Configuration for downloading input data from Amazon S3 into the processing container.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_processing_job#s3_input SagemakerProcessingJob#s3_input}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_processing_job#s3_input SagemakerProcessingJob#s3_input}
 	S3Input *SagemakerProcessingJobProcessingInputsS3Input `field:"optional" json:"s3Input" yaml:"s3Input"`
 }
 

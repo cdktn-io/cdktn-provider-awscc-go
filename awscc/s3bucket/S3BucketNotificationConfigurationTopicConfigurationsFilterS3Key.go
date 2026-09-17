@@ -7,7 +7,7 @@ package s3bucket
 type S3BucketNotificationConfigurationTopicConfigurationsFilterS3Key struct {
 	// A list of containers for the key-value pair that defines the criteria for the filter rule.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 	Rules interface{} `field:"optional" json:"rules" yaml:"rules"`
 }
 

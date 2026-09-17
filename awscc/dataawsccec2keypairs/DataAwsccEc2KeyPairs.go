@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_key_pairs awscc_ec2_key_pairs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_key_pairs awscc_ec2_key_pairs}.
 type DataAwsccEc2KeyPairs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2KeyPairs) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_key_pairs awscc_ec2_key_pairs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_key_pairs awscc_ec2_key_pairs} Data Source.
 func NewDataAwsccEc2KeyPairs(scope constructs.Construct, id *string, config *DataAwsccEc2KeyPairsConfig) DataAwsccEc2KeyPairs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2KeyPairs(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_key_pairs awscc_ec2_key_pairs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_key_pairs awscc_ec2_key_pairs} Data Source.
 func NewDataAwsccEc2KeyPairs_Override(d DataAwsccEc2KeyPairs, scope constructs.Construct, id *string, config *DataAwsccEc2KeyPairsConfig) {
 	_init_.Initialize()
 

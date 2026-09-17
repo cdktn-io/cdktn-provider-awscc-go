@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/appstream_entitlement awscc_appstream_entitlement}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/appstream_entitlement awscc_appstream_entitlement}.
 type DataAwsccAppstreamEntitlement interface {
 	cdktn.TerraformDataSource
 	AppVisibility() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccAppstreamEntitlement) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/appstream_entitlement awscc_appstream_entitlement} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/appstream_entitlement awscc_appstream_entitlement} Data Source.
 func NewDataAwsccAppstreamEntitlement(scope constructs.Construct, id *string, config *DataAwsccAppstreamEntitlementConfig) DataAwsccAppstreamEntitlement {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccAppstreamEntitlement(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/appstream_entitlement awscc_appstream_entitlement} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/appstream_entitlement awscc_appstream_entitlement} Data Source.
 func NewDataAwsccAppstreamEntitlement_Override(d DataAwsccAppstreamEntitlement, scope constructs.Construct, id *string, config *DataAwsccAppstreamEntitlementConfig) {
 	_init_.Initialize()
 

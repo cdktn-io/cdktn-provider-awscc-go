@@ -24,35 +24,35 @@ type DeadlineBudgetConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The budget actions to specify what happens when the budget runs out.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/deadline_budget#actions DeadlineBudget#actions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/deadline_budget#actions DeadlineBudget#actions}
 	Actions interface{} `field:"required" json:"actions" yaml:"actions"`
 	// The dollar limit based on consumed usage.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/deadline_budget#approximate_dollar_limit DeadlineBudget#approximate_dollar_limit}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/deadline_budget#approximate_dollar_limit DeadlineBudget#approximate_dollar_limit}
 	ApproximateDollarLimit *float64 `field:"required" json:"approximateDollarLimit" yaml:"approximateDollarLimit"`
 	// The display name of the budget.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/deadline_budget#display_name DeadlineBudget#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/deadline_budget#display_name DeadlineBudget#display_name}
 	DisplayName *string `field:"required" json:"displayName" yaml:"displayName"`
 	// The farm ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/deadline_budget#farm_id DeadlineBudget#farm_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/deadline_budget#farm_id DeadlineBudget#farm_id}
 	FarmId *string `field:"required" json:"farmId" yaml:"farmId"`
 	// The start and end time of the budget.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/deadline_budget#schedule DeadlineBudget#schedule}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/deadline_budget#schedule DeadlineBudget#schedule}
 	Schedule *DeadlineBudgetSchedule `field:"required" json:"schedule" yaml:"schedule"`
 	// The usage details of the allotted budget.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/deadline_budget#usage_tracking_resource DeadlineBudget#usage_tracking_resource}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/deadline_budget#usage_tracking_resource DeadlineBudget#usage_tracking_resource}
 	UsageTrackingResource *DeadlineBudgetUsageTrackingResource `field:"required" json:"usageTrackingResource" yaml:"usageTrackingResource"`
 	// The description of the budget.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/deadline_budget#description DeadlineBudget#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/deadline_budget#description DeadlineBudget#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/deadline_budget#tags DeadlineBudget#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/deadline_budget#tags DeadlineBudget#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

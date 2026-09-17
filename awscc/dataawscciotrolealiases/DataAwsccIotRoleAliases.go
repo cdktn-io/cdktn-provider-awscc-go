@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iot_role_aliases awscc_iot_role_aliases}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iot_role_aliases awscc_iot_role_aliases}.
 type DataAwsccIotRoleAliases interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotRoleAliases) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iot_role_aliases awscc_iot_role_aliases} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iot_role_aliases awscc_iot_role_aliases} Data Source.
 func NewDataAwsccIotRoleAliases(scope constructs.Construct, id *string, config *DataAwsccIotRoleAliasesConfig) DataAwsccIotRoleAliases {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotRoleAliases(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iot_role_aliases awscc_iot_role_aliases} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iot_role_aliases awscc_iot_role_aliases} Data Source.
 func NewDataAwsccIotRoleAliases_Override(d DataAwsccIotRoleAliases, scope constructs.Construct, id *string, config *DataAwsccIotRoleAliasesConfig) {
 	_init_.Initialize()
 

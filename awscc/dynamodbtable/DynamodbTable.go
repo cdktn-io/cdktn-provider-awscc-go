@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table awscc_dynamodb_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table awscc_dynamodb_table}.
 type DynamodbTable interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -107,6 +107,8 @@ type DynamodbTable interface {
 	TerraformResourceType() *string
 	TimeToLiveSpecification() DynamodbTableTimeToLiveSpecificationOutputReference
 	TimeToLiveSpecificationInput() interface{}
+	VectorIndexes() DynamodbTableVectorIndexesList
+	VectorIndexesInput() interface{}
 	WarmThroughput() DynamodbTableWarmThroughputOutputReference
 	WarmThroughputInput() interface{}
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
@@ -202,6 +204,7 @@ type DynamodbTable interface {
 	PutStreamSpecification(value *DynamodbTableStreamSpecification)
 	PutTags(value interface{})
 	PutTimeToLiveSpecification(value *DynamodbTableTimeToLiveSpecification)
+	PutVectorIndexes(value interface{})
 	PutWarmThroughput(value *DynamodbTableWarmThroughput)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -237,6 +240,7 @@ type DynamodbTable interface {
 	ResetTableName()
 	ResetTags()
 	ResetTimeToLiveSpecification()
+	ResetVectorIndexes()
 	ResetWarmThroughput()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -835,6 +839,26 @@ func (j *jsiiProxy_DynamodbTable) TimeToLiveSpecificationInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_DynamodbTable) VectorIndexes() DynamodbTableVectorIndexesList {
+	var returns DynamodbTableVectorIndexesList
+	_jsii_.Get(
+		j,
+		"vectorIndexes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DynamodbTable) VectorIndexesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"vectorIndexesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DynamodbTable) WarmThroughput() DynamodbTableWarmThroughputOutputReference {
 	var returns DynamodbTableWarmThroughputOutputReference
 	_jsii_.Get(
@@ -856,7 +880,7 @@ func (j *jsiiProxy_DynamodbTable) WarmThroughputInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table awscc_dynamodb_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table awscc_dynamodb_table} Resource.
 func NewDynamodbTable(scope constructs.Construct, id *string, config *DynamodbTableConfig) DynamodbTable {
 	_init_.Initialize()
 
@@ -874,7 +898,7 @@ func NewDynamodbTable(scope constructs.Construct, id *string, config *DynamodbTa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_table awscc_dynamodb_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table awscc_dynamodb_table} Resource.
 func NewDynamodbTable_Override(d DynamodbTable, scope constructs.Construct, id *string, config *DynamodbTableConfig) {
 	_init_.Initialize()
 
@@ -1531,6 +1555,17 @@ func (d *jsiiProxy_DynamodbTable) PutTimeToLiveSpecification(value *DynamodbTabl
 	)
 }
 
+func (d *jsiiProxy_DynamodbTable) PutVectorIndexes(value interface{}) {
+	if err := d.validatePutVectorIndexesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putVectorIndexes",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DynamodbTable) PutWarmThroughput(value *DynamodbTableWarmThroughput) {
 	if err := d.validatePutWarmThroughputParameters(value); err != nil {
 		panic(err)
@@ -1701,6 +1736,14 @@ func (d *jsiiProxy_DynamodbTable) ResetTimeToLiveSpecification() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetTimeToLiveSpecification",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DynamodbTable) ResetVectorIndexes() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetVectorIndexes",
 		nil, // no parameters
 	)
 }

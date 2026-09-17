@@ -37,10 +37,14 @@ type IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference i
 	EnvironmentVariables() *map[string]*string
 	SetEnvironmentVariables(val *map[string]*string)
 	EnvironmentVariablesInput() *map[string]*string
+	EphemeralStorageConfiguration() IotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference
+	EphemeralStorageConfigurationInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	Mounts() IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList
+	MountsInput() interface{}
 	ProcessingType() *string
 	SetProcessingType(val *string)
 	ProcessingTypeInput() *string
@@ -85,8 +89,12 @@ type IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference i
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutEphemeralStorageConfiguration(value *IotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration)
+	PutMounts(value interface{})
 	ResetCommand()
 	ResetEnvironmentVariables()
+	ResetEphemeralStorageConfiguration()
+	ResetMounts()
 	ResetTimeoutSeconds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -193,6 +201,26 @@ func (j *jsiiProxy_IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOut
 	return returns
 }
 
+func (j *jsiiProxy_IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference) EphemeralStorageConfiguration() IotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference {
+	var returns IotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"ephemeralStorageConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference) EphemeralStorageConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ephemeralStorageConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -208,6 +236,26 @@ func (j *jsiiProxy_IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOut
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference) Mounts() IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList {
+	var returns IotsitewiseTaskTaskConfigurationContainerTaskConfigurationMountsList
+	_jsii_.Get(
+		j,
+		"mounts",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference) MountsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"mountsInput",
 		&returns,
 	)
 	return returns
@@ -659,6 +707,28 @@ func (i *jsiiProxy_IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOut
 	return returns
 }
 
+func (i *jsiiProxy_IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference) PutEphemeralStorageConfiguration(value *IotsitewiseTaskTaskConfigurationContainerTaskConfigurationEphemeralStorageConfiguration) {
+	if err := i.validatePutEphemeralStorageConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		i,
+		"putEphemeralStorageConfiguration",
+		[]interface{}{value},
+	)
+}
+
+func (i *jsiiProxy_IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference) PutMounts(value interface{}) {
+	if err := i.validatePutMountsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		i,
+		"putMounts",
+		[]interface{}{value},
+	)
+}
+
 func (i *jsiiProxy_IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference) ResetCommand() {
 	_jsii_.InvokeVoid(
 		i,
@@ -671,6 +741,22 @@ func (i *jsiiProxy_IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOut
 	_jsii_.InvokeVoid(
 		i,
 		"resetEnvironmentVariables",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference) ResetEphemeralStorageConfiguration() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetEphemeralStorageConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IotsitewiseTaskTaskConfigurationContainerTaskConfigurationOutputReference) ResetMounts() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetMounts",
 		nil, // no parameters
 	)
 }

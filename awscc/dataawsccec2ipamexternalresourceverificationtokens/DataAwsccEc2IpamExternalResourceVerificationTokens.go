@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_ipam_external_resource_verification_tokens awscc_ec2_ipam_external_resource_verification_tokens}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_ipam_external_resource_verification_tokens awscc_ec2_ipam_external_resource_verification_tokens}.
 type DataAwsccEc2IpamExternalResourceVerificationTokens interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2IpamExternalResourceVerificationTokens) Terraform
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_ipam_external_resource_verification_tokens awscc_ec2_ipam_external_resource_verification_tokens} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_ipam_external_resource_verification_tokens awscc_ec2_ipam_external_resource_verification_tokens} Data Source.
 func NewDataAwsccEc2IpamExternalResourceVerificationTokens(scope constructs.Construct, id *string, config *DataAwsccEc2IpamExternalResourceVerificationTokensConfig) DataAwsccEc2IpamExternalResourceVerificationTokens {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2IpamExternalResourceVerificationTokens(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ec2_ipam_external_resource_verification_tokens awscc_ec2_ipam_external_resource_verification_tokens} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_ipam_external_resource_verification_tokens awscc_ec2_ipam_external_resource_verification_tokens} Data Source.
 func NewDataAwsccEc2IpamExternalResourceVerificationTokens_Override(d DataAwsccEc2IpamExternalResourceVerificationTokens, scope constructs.Construct, id *string, config *DataAwsccEc2IpamExternalResourceVerificationTokensConfig) {
 	_init_.Initialize()
 

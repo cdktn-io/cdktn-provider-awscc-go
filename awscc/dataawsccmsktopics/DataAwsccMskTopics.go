@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/msk_topics awscc_msk_topics}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/msk_topics awscc_msk_topics}.
 type DataAwsccMskTopics interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMskTopics) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/msk_topics awscc_msk_topics} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/msk_topics awscc_msk_topics} Data Source.
 func NewDataAwsccMskTopics(scope constructs.Construct, id *string, config *DataAwsccMskTopicsConfig) DataAwsccMskTopics {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMskTopics(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/msk_topics awscc_msk_topics} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/msk_topics awscc_msk_topics} Data Source.
 func NewDataAwsccMskTopics_Override(d DataAwsccMskTopics, scope constructs.Construct, id *string, config *DataAwsccMskTopicsConfig) {
 	_init_.Initialize()
 

@@ -22,43 +22,43 @@ type EvsEnvironmentConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/evs_environment#service_access_subnet_id EvsEnvironment#service_access_subnet_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/evs_environment#service_access_subnet_id EvsEnvironment#service_access_subnet_id}.
 	ServiceAccessSubnetId *string `field:"required" json:"serviceAccessSubnetId" yaml:"serviceAccessSubnetId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/evs_environment#terms_accepted EvsEnvironment#terms_accepted}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/evs_environment#terms_accepted EvsEnvironment#terms_accepted}.
 	TermsAccepted interface{} `field:"required" json:"termsAccepted" yaml:"termsAccepted"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/evs_environment#vcf_version EvsEnvironment#vcf_version}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/evs_environment#vcf_version EvsEnvironment#vcf_version}.
 	VcfVersion *string `field:"required" json:"vcfVersion" yaml:"vcfVersion"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/evs_environment#vpc_id EvsEnvironment#vpc_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/evs_environment#vpc_id EvsEnvironment#vpc_id}.
 	VpcId *string `field:"required" json:"vpcId" yaml:"vpcId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/evs_environment#connectivity_info EvsEnvironment#connectivity_info}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/evs_environment#connectivity_info EvsEnvironment#connectivity_info}.
 	ConnectivityInfo *EvsEnvironmentConnectivityInfo `field:"optional" json:"connectivityInfo" yaml:"connectivityInfo"`
 	// The name of an EVS environment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/evs_environment#environment_name EvsEnvironment#environment_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/evs_environment#environment_name EvsEnvironment#environment_name}
 	EnvironmentName *string `field:"optional" json:"environmentName" yaml:"environmentName"`
 	// The initial hosts for environment only required upon creation. Modification after creation will have no effect.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/evs_environment#hosts EvsEnvironment#hosts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/evs_environment#hosts EvsEnvironment#hosts}
 	Hosts interface{} `field:"optional" json:"hosts" yaml:"hosts"`
 	// The initial Vlan configuration only required upon creation. Modification after creation will have no effect.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/evs_environment#initial_vlans EvsEnvironment#initial_vlans}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/evs_environment#initial_vlans EvsEnvironment#initial_vlans}
 	InitialVlans *EvsEnvironmentInitialVlans `field:"optional" json:"initialVlans" yaml:"initialVlans"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/evs_environment#kms_key_id EvsEnvironment#kms_key_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/evs_environment#kms_key_id EvsEnvironment#kms_key_id}.
 	KmsKeyId *string `field:"optional" json:"kmsKeyId" yaml:"kmsKeyId"`
 	// The license information for an EVS environment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/evs_environment#license_info EvsEnvironment#license_info}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/evs_environment#license_info EvsEnvironment#license_info}
 	LicenseInfo *EvsEnvironmentLicenseInfo `field:"optional" json:"licenseInfo" yaml:"licenseInfo"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/evs_environment#service_access_security_groups EvsEnvironment#service_access_security_groups}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/evs_environment#service_access_security_groups EvsEnvironment#service_access_security_groups}.
 	ServiceAccessSecurityGroups *EvsEnvironmentServiceAccessSecurityGroups `field:"optional" json:"serviceAccessSecurityGroups" yaml:"serviceAccessSecurityGroups"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/evs_environment#site_id EvsEnvironment#site_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/evs_environment#site_id EvsEnvironment#site_id}.
 	SiteId *string `field:"optional" json:"siteId" yaml:"siteId"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/evs_environment#tags EvsEnvironment#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/evs_environment#tags EvsEnvironment#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/evs_environment#vcf_hostnames EvsEnvironment#vcf_hostnames}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/evs_environment#vcf_hostnames EvsEnvironment#vcf_hostnames}.
 	VcfHostnames *EvsEnvironmentVcfHostnames `field:"optional" json:"vcfHostnames" yaml:"vcfHostnames"`
 }
 

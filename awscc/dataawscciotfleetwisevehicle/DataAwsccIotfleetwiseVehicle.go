@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotfleetwise_vehicle awscc_iotfleetwise_vehicle}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotfleetwise_vehicle awscc_iotfleetwise_vehicle}.
 type DataAwsccIotfleetwiseVehicle interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccIotfleetwiseVehicle) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotfleetwise_vehicle awscc_iotfleetwise_vehicle} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotfleetwise_vehicle awscc_iotfleetwise_vehicle} Data Source.
 func NewDataAwsccIotfleetwiseVehicle(scope constructs.Construct, id *string, config *DataAwsccIotfleetwiseVehicleConfig) DataAwsccIotfleetwiseVehicle {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccIotfleetwiseVehicle(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/iotfleetwise_vehicle awscc_iotfleetwise_vehicle} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotfleetwise_vehicle awscc_iotfleetwise_vehicle} Data Source.
 func NewDataAwsccIotfleetwiseVehicle_Override(d DataAwsccIotfleetwiseVehicle, scope constructs.Construct, id *string, config *DataAwsccIotfleetwiseVehicleConfig) {
 	_init_.Initialize()
 

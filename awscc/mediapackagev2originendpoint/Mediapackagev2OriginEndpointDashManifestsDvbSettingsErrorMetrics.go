@@ -9,11 +9,11 @@ type Mediapackagev2OriginEndpointDashManifestsDvbSettingsErrorMetrics struct {
 	//
 	// This represents the probability that a playback device will be a reporting player for this session.</p>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediapackagev2_origin_endpoint#probability Mediapackagev2OriginEndpoint#probability}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_origin_endpoint#probability Mediapackagev2OriginEndpoint#probability}
 	Probability *float64 `field:"optional" json:"probability" yaml:"probability"`
 	// <p>The URL where playback devices send error reports.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediapackagev2_origin_endpoint#reporting_url Mediapackagev2OriginEndpoint#reporting_url}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_origin_endpoint#reporting_url Mediapackagev2OriginEndpoint#reporting_url}
 	ReportingUrl *string `field:"optional" json:"reportingUrl" yaml:"reportingUrl"`
 }
 

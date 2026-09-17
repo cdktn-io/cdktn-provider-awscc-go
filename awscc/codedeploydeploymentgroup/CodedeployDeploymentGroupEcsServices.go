@@ -7,11 +7,11 @@ package codedeploydeploymentgroup
 type CodedeployDeploymentGroupEcsServices struct {
 	// The name of the cluster that the Amazon ECS service is associated with.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/codedeploy_deployment_group#cluster_name CodedeployDeploymentGroup#cluster_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/codedeploy_deployment_group#cluster_name CodedeployDeploymentGroup#cluster_name}
 	ClusterName *string `field:"optional" json:"clusterName" yaml:"clusterName"`
 	// The name of the target Amazon ECS service.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/codedeploy_deployment_group#service_name CodedeployDeploymentGroup#service_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/codedeploy_deployment_group#service_name CodedeployDeploymentGroup#service_name}
 	ServiceName *string `field:"optional" json:"serviceName" yaml:"serviceName"`
 }
 

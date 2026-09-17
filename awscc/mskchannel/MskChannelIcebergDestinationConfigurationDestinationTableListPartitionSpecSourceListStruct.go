@@ -7,7 +7,7 @@ package mskchannel
 type MskChannelIcebergDestinationConfigurationDestinationTableListPartitionSpecSourceListStruct struct {
 	// Source name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/msk_channel#source_name MskChannel#source_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/msk_channel#source_name MskChannel#source_name}
 	SourceName *string `field:"optional" json:"sourceName" yaml:"sourceName"`
 }
 

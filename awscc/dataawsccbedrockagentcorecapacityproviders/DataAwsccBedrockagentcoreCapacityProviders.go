@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrockagentcore_capacity_providers awscc_bedrockagentcore_capacity_providers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_capacity_providers awscc_bedrockagentcore_capacity_providers}.
 type DataAwsccBedrockagentcoreCapacityProviders interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreCapacityProviders) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrockagentcore_capacity_providers awscc_bedrockagentcore_capacity_providers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_capacity_providers awscc_bedrockagentcore_capacity_providers} Data Source.
 func NewDataAwsccBedrockagentcoreCapacityProviders(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreCapacityProvidersConfig) DataAwsccBedrockagentcoreCapacityProviders {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockagentcoreCapacityProviders(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/bedrockagentcore_capacity_providers awscc_bedrockagentcore_capacity_providers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_capacity_providers awscc_bedrockagentcore_capacity_providers} Data Source.
 func NewDataAwsccBedrockagentcoreCapacityProviders_Override(d DataAwsccBedrockagentcoreCapacityProviders, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreCapacityProvidersConfig) {
 	_init_.Initialize()
 

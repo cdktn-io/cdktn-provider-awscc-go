@@ -24,19 +24,19 @@ type IottwinmakerSyncJobConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The IAM Role that execute SyncJob.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iottwinmaker_sync_job#sync_role IottwinmakerSyncJob#sync_role}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iottwinmaker_sync_job#sync_role IottwinmakerSyncJob#sync_role}
 	SyncRole *string `field:"required" json:"syncRole" yaml:"syncRole"`
 	// The source of the SyncJob.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iottwinmaker_sync_job#sync_source IottwinmakerSyncJob#sync_source}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iottwinmaker_sync_job#sync_source IottwinmakerSyncJob#sync_source}
 	SyncSource *string `field:"required" json:"syncSource" yaml:"syncSource"`
 	// The ID of the workspace.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iottwinmaker_sync_job#workspace_id IottwinmakerSyncJob#workspace_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iottwinmaker_sync_job#workspace_id IottwinmakerSyncJob#workspace_id}
 	WorkspaceId *string `field:"required" json:"workspaceId" yaml:"workspaceId"`
 	// A key-value pair to associate with a resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iottwinmaker_sync_job#tags IottwinmakerSyncJob#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iottwinmaker_sync_job#tags IottwinmakerSyncJob#tags}
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 }
 

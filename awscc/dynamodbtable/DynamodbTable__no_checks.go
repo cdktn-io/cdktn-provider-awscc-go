@@ -135,6 +135,10 @@ func (d *jsiiProxy_DynamodbTable) validatePutTimeToLiveSpecificationParameters(v
 	return nil
 }
 
+func (d *jsiiProxy_DynamodbTable) validatePutVectorIndexesParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DynamodbTable) validatePutWarmThroughputParameters(value *DynamodbTableWarmThroughput) error {
 	return nil
 }

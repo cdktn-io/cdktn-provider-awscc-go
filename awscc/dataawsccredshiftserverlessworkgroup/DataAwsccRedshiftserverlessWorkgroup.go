@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/redshiftserverless_workgroup awscc_redshiftserverless_workgroup}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/redshiftserverless_workgroup awscc_redshiftserverless_workgroup}.
 type DataAwsccRedshiftserverlessWorkgroup interface {
 	cdktn.TerraformDataSource
 	BaseCapacity() *float64
@@ -484,7 +484,7 @@ func (j *jsiiProxy_DataAwsccRedshiftserverlessWorkgroup) WorkgroupName() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/redshiftserverless_workgroup awscc_redshiftserverless_workgroup} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/redshiftserverless_workgroup awscc_redshiftserverless_workgroup} Data Source.
 func NewDataAwsccRedshiftserverlessWorkgroup(scope constructs.Construct, id *string, config *DataAwsccRedshiftserverlessWorkgroupConfig) DataAwsccRedshiftserverlessWorkgroup {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewDataAwsccRedshiftserverlessWorkgroup(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/redshiftserverless_workgroup awscc_redshiftserverless_workgroup} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/redshiftserverless_workgroup awscc_redshiftserverless_workgroup} Data Source.
 func NewDataAwsccRedshiftserverlessWorkgroup_Override(d DataAwsccRedshiftserverlessWorkgroup, scope constructs.Construct, id *string, config *DataAwsccRedshiftserverlessWorkgroupConfig) {
 	_init_.Initialize()
 

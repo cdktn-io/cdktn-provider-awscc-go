@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ses_template awscc_ses_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ses_template awscc_ses_template}.
 type SesTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_SesTemplate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ses_template awscc_ses_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ses_template awscc_ses_template} Resource.
 func NewSesTemplate(scope constructs.Construct, id *string, config *SesTemplateConfig) SesTemplate {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewSesTemplate(scope constructs.Construct, id *string, config *SesTemplateC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ses_template awscc_ses_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ses_template awscc_ses_template} Resource.
 func NewSesTemplate_Override(s SesTemplate, scope constructs.Construct, id *string, config *SesTemplateConfig) {
 	_init_.Initialize()
 

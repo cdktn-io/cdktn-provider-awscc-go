@@ -24,11 +24,11 @@ type ConfigConnectorConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The configuration for the connector that specifies the third-party cloud provider connection details.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/config_connector#connector_configuration ConfigConnector#connector_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/config_connector#connector_configuration ConfigConnector#connector_configuration}
 	ConnectorConfiguration *ConfigConnectorConnectorConfiguration `field:"required" json:"connectorConfiguration" yaml:"connectorConfiguration"`
 	// The tags for the connector.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/config_connector#tags ConfigConnector#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/config_connector#tags ConfigConnector#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

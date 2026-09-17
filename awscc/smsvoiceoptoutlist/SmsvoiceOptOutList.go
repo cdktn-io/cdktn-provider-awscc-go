@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/smsvoice_opt_out_list awscc_smsvoice_opt_out_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/smsvoice_opt_out_list awscc_smsvoice_opt_out_list}.
 type SmsvoiceOptOutList interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -414,7 +414,7 @@ func (j *jsiiProxy_SmsvoiceOptOutList) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/smsvoice_opt_out_list awscc_smsvoice_opt_out_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/smsvoice_opt_out_list awscc_smsvoice_opt_out_list} Resource.
 func NewSmsvoiceOptOutList(scope constructs.Construct, id *string, config *SmsvoiceOptOutListConfig) SmsvoiceOptOutList {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewSmsvoiceOptOutList(scope constructs.Construct, id *string, config *Smsvo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/smsvoice_opt_out_list awscc_smsvoice_opt_out_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/smsvoice_opt_out_list awscc_smsvoice_opt_out_list} Resource.
 func NewSmsvoiceOptOutList_Override(s SmsvoiceOptOutList, scope constructs.Construct, id *string, config *SmsvoiceOptOutListConfig) {
 	_init_.Initialize()
 

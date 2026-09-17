@@ -9,13 +9,13 @@ type LambdaFunctionDurableConfig struct {
 	//
 	// This timeout applies to the entire durable execution, not individual function invocations.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lambda_function#execution_timeout LambdaFunction#execution_timeout}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lambda_function#execution_timeout LambdaFunction#execution_timeout}
 	ExecutionTimeout *float64 `field:"optional" json:"executionTimeout" yaml:"executionTimeout"`
 	// The number of days to retain execution history after a durable execution completes.
 	//
 	// After this period, execution history is no longer available through the GetDurableExecutionHistory API.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/lambda_function#retention_period_in_days LambdaFunction#retention_period_in_days}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lambda_function#retention_period_in_days LambdaFunction#retention_period_in_days}
 	RetentionPeriodInDays *float64 `field:"optional" json:"retentionPeriodInDays" yaml:"retentionPeriodInDays"`
 }
 

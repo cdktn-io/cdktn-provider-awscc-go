@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudfront_origin_access_control awscc_cloudfront_origin_access_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudfront_origin_access_control awscc_cloudfront_origin_access_control}.
 type DataAwsccCloudfrontOriginAccessControl interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccCloudfrontOriginAccessControl) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudfront_origin_access_control awscc_cloudfront_origin_access_control} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudfront_origin_access_control awscc_cloudfront_origin_access_control} Data Source.
 func NewDataAwsccCloudfrontOriginAccessControl(scope constructs.Construct, id *string, config *DataAwsccCloudfrontOriginAccessControlConfig) DataAwsccCloudfrontOriginAccessControl {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccCloudfrontOriginAccessControl(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/cloudfront_origin_access_control awscc_cloudfront_origin_access_control} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudfront_origin_access_control awscc_cloudfront_origin_access_control} Data Source.
 func NewDataAwsccCloudfrontOriginAccessControl_Override(d DataAwsccCloudfrontOriginAccessControl, scope constructs.Construct, id *string, config *DataAwsccCloudfrontOriginAccessControlConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/workspacesinstances_volume_association awscc_workspacesinstances_volume_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/workspacesinstances_volume_association awscc_workspacesinstances_volume_association}.
 type DataAwsccWorkspacesinstancesVolumeAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccWorkspacesinstancesVolumeAssociation) WorkspaceInsta
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/workspacesinstances_volume_association awscc_workspacesinstances_volume_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/workspacesinstances_volume_association awscc_workspacesinstances_volume_association} Data Source.
 func NewDataAwsccWorkspacesinstancesVolumeAssociation(scope constructs.Construct, id *string, config *DataAwsccWorkspacesinstancesVolumeAssociationConfig) DataAwsccWorkspacesinstancesVolumeAssociation {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccWorkspacesinstancesVolumeAssociation(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/workspacesinstances_volume_association awscc_workspacesinstances_volume_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/workspacesinstances_volume_association awscc_workspacesinstances_volume_association} Data Source.
 func NewDataAwsccWorkspacesinstancesVolumeAssociation_Override(d DataAwsccWorkspacesinstancesVolumeAssociation, scope constructs.Construct, id *string, config *DataAwsccWorkspacesinstancesVolumeAssociationConfig) {
 	_init_.Initialize()
 

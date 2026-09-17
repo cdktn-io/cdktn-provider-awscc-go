@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pcaconnectorad_service_principal_name awscc_pcaconnectorad_service_principal_name}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/pcaconnectorad_service_principal_name awscc_pcaconnectorad_service_principal_name}.
 type PcaconnectoradServicePrincipalName interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_PcaconnectoradServicePrincipalName) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pcaconnectorad_service_principal_name awscc_pcaconnectorad_service_principal_name} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/pcaconnectorad_service_principal_name awscc_pcaconnectorad_service_principal_name} Resource.
 func NewPcaconnectoradServicePrincipalName(scope constructs.Construct, id *string, config *PcaconnectoradServicePrincipalNameConfig) PcaconnectoradServicePrincipalName {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewPcaconnectoradServicePrincipalName(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/pcaconnectorad_service_principal_name awscc_pcaconnectorad_service_principal_name} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/pcaconnectorad_service_principal_name awscc_pcaconnectorad_service_principal_name} Resource.
 func NewPcaconnectoradServicePrincipalName_Override(p PcaconnectoradServicePrincipalName, scope constructs.Construct, id *string, config *PcaconnectoradServicePrincipalNameConfig) {
 	_init_.Initialize()
 

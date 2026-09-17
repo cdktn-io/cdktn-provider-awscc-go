@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_image_version awscc_sagemaker_image_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_image_version awscc_sagemaker_image_version}.
 type SagemakerImageVersion interface {
 	cdktn.TerraformResource
 	Alias() *string
@@ -661,7 +661,7 @@ func (j *jsiiProxy_SagemakerImageVersion) Version() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_image_version awscc_sagemaker_image_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_image_version awscc_sagemaker_image_version} Resource.
 func NewSagemakerImageVersion(scope constructs.Construct, id *string, config *SagemakerImageVersionConfig) SagemakerImageVersion {
 	_init_.Initialize()
 
@@ -679,7 +679,7 @@ func NewSagemakerImageVersion(scope constructs.Construct, id *string, config *Sa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/sagemaker_image_version awscc_sagemaker_image_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_image_version awscc_sagemaker_image_version} Resource.
 func NewSagemakerImageVersion_Override(s SagemakerImageVersion, scope constructs.Construct, id *string, config *SagemakerImageVersionConfig) {
 	_init_.Initialize()
 

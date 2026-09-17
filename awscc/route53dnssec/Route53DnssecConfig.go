@@ -24,7 +24,7 @@ type Route53DnssecConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The unique string (ID) used to identify a hosted zone.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/route53_dnssec#hosted_zone_id Route53Dnssec#hosted_zone_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_dnssec#hosted_zone_id Route53Dnssec#hosted_zone_id}
 	HostedZoneId *string `field:"required" json:"hostedZoneId" yaml:"hostedZoneId"`
 }
 

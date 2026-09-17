@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ipam_resource_discovery awscc_ec2_ipam_resource_discovery}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ipam_resource_discovery awscc_ec2_ipam_resource_discovery}.
 type Ec2IpamResourceDiscovery interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -517,7 +517,7 @@ func (j *jsiiProxy_Ec2IpamResourceDiscovery) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ipam_resource_discovery awscc_ec2_ipam_resource_discovery} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ipam_resource_discovery awscc_ec2_ipam_resource_discovery} Resource.
 func NewEc2IpamResourceDiscovery(scope constructs.Construct, id *string, config *Ec2IpamResourceDiscoveryConfig) Ec2IpamResourceDiscovery {
 	_init_.Initialize()
 
@@ -535,7 +535,7 @@ func NewEc2IpamResourceDiscovery(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ec2_ipam_resource_discovery awscc_ec2_ipam_resource_discovery} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_ipam_resource_discovery awscc_ec2_ipam_resource_discovery} Resource.
 func NewEc2IpamResourceDiscovery_Override(e Ec2IpamResourceDiscovery, scope constructs.Construct, id *string, config *Ec2IpamResourceDiscoveryConfig) {
 	_init_.Initialize()
 

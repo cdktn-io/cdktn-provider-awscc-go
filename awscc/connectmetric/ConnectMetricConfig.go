@@ -24,35 +24,35 @@ type ConnectMetricConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The identifier of the Amazon Connect instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#instance_arn ConnectMetric#instance_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#instance_arn ConnectMetric#instance_arn}
 	InstanceArn *string `field:"required" json:"instanceArn" yaml:"instanceArn"`
-	// The description of the custom metric.
-	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#description ConnectMetric#description}
-	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The calculation configuration for the metric.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#metric_calculation ConnectMetric#metric_calculation}
-	MetricCalculation *ConnectMetricMetricCalculation `field:"optional" json:"metricCalculation" yaml:"metricCalculation"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#metric_calculation ConnectMetric#metric_calculation}
+	MetricCalculation *ConnectMetricMetricCalculation `field:"required" json:"metricCalculation" yaml:"metricCalculation"`
 	// The name of the custom metric.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#name ConnectMetric#name}
-	Name *string `field:"optional" json:"name" yaml:"name"`
-	// Indicates how to classify a positive trend in metric data on the UI.
-	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#positive_trend_indicator ConnectMetric#positive_trend_indicator}
-	PositiveTrendIndicator *string `field:"optional" json:"positiveTrendIndicator" yaml:"positiveTrendIndicator"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#name ConnectMetric#name}
+	Name *string `field:"required" json:"name" yaml:"name"`
 	// The status of the custom metric.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#status ConnectMetric#status}
-	Status *string `field:"optional" json:"status" yaml:"status"`
-	// One or more tags.
-	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#tags ConnectMetric#tags}
-	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#status ConnectMetric#status}
+	Status *string `field:"required" json:"status" yaml:"status"`
 	// Display unit for the metric data.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/connect_metric#unit ConnectMetric#unit}
-	Unit *string `field:"optional" json:"unit" yaml:"unit"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#unit ConnectMetric#unit}
+	Unit *string `field:"required" json:"unit" yaml:"unit"`
+	// The description of the custom metric.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#description ConnectMetric#description}
+	Description *string `field:"optional" json:"description" yaml:"description"`
+	// Indicates how to classify a positive trend in metric data on the UI.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#positive_trend_indicator ConnectMetric#positive_trend_indicator}
+	PositiveTrendIndicator *string `field:"optional" json:"positiveTrendIndicator" yaml:"positiveTrendIndicator"`
+	// One or more tags.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#tags ConnectMetric#tags}
+	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

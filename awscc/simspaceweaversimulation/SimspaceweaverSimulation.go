@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/simspaceweaver_simulation awscc_simspaceweaver_simulation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/simspaceweaver_simulation awscc_simspaceweaver_simulation}.
 type SimspaceweaverSimulation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_SimspaceweaverSimulation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/simspaceweaver_simulation awscc_simspaceweaver_simulation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/simspaceweaver_simulation awscc_simspaceweaver_simulation} Resource.
 func NewSimspaceweaverSimulation(scope constructs.Construct, id *string, config *SimspaceweaverSimulationConfig) SimspaceweaverSimulation {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewSimspaceweaverSimulation(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/simspaceweaver_simulation awscc_simspaceweaver_simulation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/simspaceweaver_simulation awscc_simspaceweaver_simulation} Resource.
 func NewSimspaceweaverSimulation_Override(s SimspaceweaverSimulation, scope constructs.Construct, id *string, config *SimspaceweaverSimulationConfig) {
 	_init_.Initialize()
 

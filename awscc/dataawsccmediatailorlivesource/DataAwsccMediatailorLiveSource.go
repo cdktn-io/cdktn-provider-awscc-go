@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/mediatailor_live_source awscc_mediatailor_live_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/mediatailor_live_source awscc_mediatailor_live_source}.
 type DataAwsccMediatailorLiveSource interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccMediatailorLiveSource) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/mediatailor_live_source awscc_mediatailor_live_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/mediatailor_live_source awscc_mediatailor_live_source} Data Source.
 func NewDataAwsccMediatailorLiveSource(scope constructs.Construct, id *string, config *DataAwsccMediatailorLiveSourceConfig) DataAwsccMediatailorLiveSource {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccMediatailorLiveSource(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/mediatailor_live_source awscc_mediatailor_live_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/mediatailor_live_source awscc_mediatailor_live_source} Data Source.
 func NewDataAwsccMediatailorLiveSource_Override(d DataAwsccMediatailorLiveSource, scope constructs.Construct, id *string, config *DataAwsccMediatailorLiveSourceConfig) {
 	_init_.Initialize()
 

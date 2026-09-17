@@ -7,7 +7,7 @@ package gluecatalog
 type GlueCatalogTargetRedshiftCatalog struct {
 	// The Amazon Resource Name (ARN) of the catalog resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/glue_catalog#catalog_arn GlueCatalog#catalog_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_catalog#catalog_arn GlueCatalog#catalog_arn}
 	CatalogArn *string `field:"optional" json:"catalogArn" yaml:"catalogArn"`
 }
 

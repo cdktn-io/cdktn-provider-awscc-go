@@ -5,9 +5,9 @@ package billingconductorcustomlineitem
 
 
 type BillingconductorCustomLineItemTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_custom_line_item#key BillingconductorCustomLineItem#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_custom_line_item#key BillingconductorCustomLineItem#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/billingconductor_custom_line_item#value BillingconductorCustomLineItem#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_custom_line_item#value BillingconductorCustomLineItem#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

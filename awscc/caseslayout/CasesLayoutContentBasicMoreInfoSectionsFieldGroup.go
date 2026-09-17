@@ -9,11 +9,11 @@ type CasesLayoutContentBasicMoreInfoSectionsFieldGroup struct {
 	//
 	// The order determines the sequence in which fields appear in the agent interface. Each field is referenced by its unique field ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cases_layout#fields CasesLayout#fields}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cases_layout#fields CasesLayout#fields}
 	Fields interface{} `field:"optional" json:"fields" yaml:"fields"`
 	// A descriptive name for the field group. Helps organize related fields together in the layout interface.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cases_layout#name CasesLayout#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cases_layout#name CasesLayout#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 }
 

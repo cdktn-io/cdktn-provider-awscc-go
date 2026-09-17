@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/datazone_policy_grants awscc_datazone_policy_grants}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datazone_policy_grants awscc_datazone_policy_grants}.
 type DataAwsccDatazonePolicyGrants interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDatazonePolicyGrants) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/datazone_policy_grants awscc_datazone_policy_grants} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datazone_policy_grants awscc_datazone_policy_grants} Data Source.
 func NewDataAwsccDatazonePolicyGrants(scope constructs.Construct, id *string, config *DataAwsccDatazonePolicyGrantsConfig) DataAwsccDatazonePolicyGrants {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDatazonePolicyGrants(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/datazone_policy_grants awscc_datazone_policy_grants} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datazone_policy_grants awscc_datazone_policy_grants} Data Source.
 func NewDataAwsccDatazonePolicyGrants_Override(d DataAwsccDatazonePolicyGrants, scope constructs.Construct, id *string, config *DataAwsccDatazonePolicyGrantsConfig) {
 	_init_.Initialize()
 

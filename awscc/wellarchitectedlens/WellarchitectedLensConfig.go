@@ -24,15 +24,15 @@ type WellarchitectedLensConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The JSON representation of a lens.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/wellarchitected_lens#json_string WellarchitectedLens#json_string}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/wellarchitected_lens#json_string WellarchitectedLens#json_string}
 	JsonString *string `field:"optional" json:"jsonString" yaml:"jsonString"`
 	// The version of the lens.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/wellarchitected_lens#lens_version WellarchitectedLens#lens_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/wellarchitected_lens#lens_version WellarchitectedLens#lens_version}
 	LensVersion *string `field:"optional" json:"lensVersion" yaml:"lensVersion"`
 	// The tags assigned to the lens.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/wellarchitected_lens#tags WellarchitectedLens#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/wellarchitected_lens#tags WellarchitectedLens#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

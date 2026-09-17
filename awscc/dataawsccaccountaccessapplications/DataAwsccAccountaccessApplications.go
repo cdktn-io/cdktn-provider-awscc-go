@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/accountaccess_applications awscc_accountaccess_applications}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/accountaccess_applications awscc_accountaccess_applications}.
 type DataAwsccAccountaccessApplications interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccAccountaccessApplications) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/accountaccess_applications awscc_accountaccess_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/accountaccess_applications awscc_accountaccess_applications} Data Source.
 func NewDataAwsccAccountaccessApplications(scope constructs.Construct, id *string, config *DataAwsccAccountaccessApplicationsConfig) DataAwsccAccountaccessApplications {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccAccountaccessApplications(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/accountaccess_applications awscc_accountaccess_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/accountaccess_applications awscc_accountaccess_applications} Data Source.
 func NewDataAwsccAccountaccessApplications_Override(d DataAwsccAccountaccessApplications, scope constructs.Construct, id *string, config *DataAwsccAccountaccessApplicationsConfig) {
 	_init_.Initialize()
 

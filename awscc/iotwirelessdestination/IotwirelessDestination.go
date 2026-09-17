@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotwireless_destination awscc_iotwireless_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotwireless_destination awscc_iotwireless_destination}.
 type IotwirelessDestination interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -507,7 +507,7 @@ func (j *jsiiProxy_IotwirelessDestination) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotwireless_destination awscc_iotwireless_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotwireless_destination awscc_iotwireless_destination} Resource.
 func NewIotwirelessDestination(scope constructs.Construct, id *string, config *IotwirelessDestinationConfig) IotwirelessDestination {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewIotwirelessDestination(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotwireless_destination awscc_iotwireless_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotwireless_destination awscc_iotwireless_destination} Resource.
 func NewIotwirelessDestination_Override(i IotwirelessDestination, scope constructs.Construct, id *string, config *IotwirelessDestinationConfig) {
 	_init_.Initialize()
 

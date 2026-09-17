@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association}.
 type DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -39,6 +39,7 @@ type DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation inter
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	IsSensitiveEventsSubscribed() cdktn.IResolvable
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -227,6 +228,16 @@ func (j *jsiiProxy_DataAwsccNotificationsManagedNotificationAdditionalChannelAss
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation) IsSensitiveEventsSubscribed() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"isSensitiveEventsSubscribed",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -308,7 +319,7 @@ func (j *jsiiProxy_DataAwsccNotificationsManagedNotificationAdditionalChannelAss
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association} Data Source.
 func NewDataAwsccNotificationsManagedNotificationAdditionalChannelAssociation(scope constructs.Construct, id *string, config *DataAwsccNotificationsManagedNotificationAdditionalChannelAssociationConfig) DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation {
 	_init_.Initialize()
 
@@ -326,7 +337,7 @@ func NewDataAwsccNotificationsManagedNotificationAdditionalChannelAssociation(sc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/notifications_managed_notification_additional_channel_association awscc_notifications_managed_notification_additional_channel_association} Data Source.
 func NewDataAwsccNotificationsManagedNotificationAdditionalChannelAssociation_Override(d DataAwsccNotificationsManagedNotificationAdditionalChannelAssociation, scope constructs.Construct, id *string, config *DataAwsccNotificationsManagedNotificationAdditionalChannelAssociationConfig) {
 	_init_.Initialize()
 

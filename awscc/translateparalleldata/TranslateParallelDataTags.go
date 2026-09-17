@@ -5,9 +5,9 @@ package translateparalleldata
 
 
 type TranslateParallelDataTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/translate_parallel_data#key TranslateParallelData#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/translate_parallel_data#key TranslateParallelData#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/translate_parallel_data#value TranslateParallelData#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/translate_parallel_data#value TranslateParallelData#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

@@ -24,15 +24,15 @@ type IotwirelessDeviceProfileConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// LoRaWANDeviceProfile supports all LoRa specific attributes for service profile for CreateDeviceProfile operation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotwireless_device_profile#lo_ra_wan IotwirelessDeviceProfile#lo_ra_wan}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotwireless_device_profile#lo_ra_wan IotwirelessDeviceProfile#lo_ra_wan}
 	LoRaWan *IotwirelessDeviceProfileLoRaWan `field:"optional" json:"loRaWan" yaml:"loRaWan"`
 	// Name of service profile.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotwireless_device_profile#name IotwirelessDeviceProfile#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotwireless_device_profile#name IotwirelessDeviceProfile#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// A list of key-value pairs that contain metadata for the device profile.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/iotwireless_device_profile#tags IotwirelessDeviceProfile#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotwireless_device_profile#tags IotwirelessDeviceProfile#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

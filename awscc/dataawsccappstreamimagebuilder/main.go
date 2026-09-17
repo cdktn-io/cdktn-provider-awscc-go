@@ -22,6 +22,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
+			_jsii_.MemberProperty{JsiiProperty: "disableImdsv1", GoGetter: "DisableImdsv1"},
 			_jsii_.MemberProperty{JsiiProperty: "displayName", GoGetter: "DisplayName"},
 			_jsii_.MemberProperty{JsiiProperty: "domainJoinInfo", GoGetter: "DomainJoinInfo"},
 			_jsii_.MemberProperty{JsiiProperty: "enableDefaultInternetAccess", GoGetter: "EnableDefaultInternetAccess"},

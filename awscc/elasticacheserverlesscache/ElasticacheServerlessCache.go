@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache}.
 type ElasticacheServerlessCache interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -69,6 +69,9 @@ type ElasticacheServerlessCache interface {
 	MajorEngineVersion() *string
 	SetMajorEngineVersion(val *string)
 	MajorEngineVersionInput() *string
+	NetworkType() *string
+	SetNetworkType(val *string)
+	NetworkTypeInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
@@ -213,6 +216,7 @@ type ElasticacheServerlessCache interface {
 	ResetFinalSnapshotName()
 	ResetKmsKeyId()
 	ResetMajorEngineVersion()
+	ResetNetworkType()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -540,6 +544,26 @@ func (j *jsiiProxy_ElasticacheServerlessCache) MajorEngineVersionInput() *string
 	return returns
 }
 
+func (j *jsiiProxy_ElasticacheServerlessCache) NetworkType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ElasticacheServerlessCache) NetworkTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkTypeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ElasticacheServerlessCache) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -781,7 +805,7 @@ func (j *jsiiProxy_ElasticacheServerlessCache) UserGroupIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache} Resource.
 func NewElasticacheServerlessCache(scope constructs.Construct, id *string, config *ElasticacheServerlessCacheConfig) ElasticacheServerlessCache {
 	_init_.Initialize()
 
@@ -799,7 +823,7 @@ func NewElasticacheServerlessCache(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache} Resource.
 func NewElasticacheServerlessCache_Override(e ElasticacheServerlessCache, scope constructs.Construct, id *string, config *ElasticacheServerlessCacheConfig) {
 	_init_.Initialize()
 
@@ -921,6 +945,17 @@ func (j *jsiiProxy_ElasticacheServerlessCache)SetMajorEngineVersion(val *string)
 	_jsii_.Set(
 		j,
 		"majorEngineVersion",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ElasticacheServerlessCache)SetNetworkType(val *string) {
+	if err := j.validateSetNetworkTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"networkType",
 		val,
 	)
 }
@@ -1486,6 +1521,14 @@ func (e *jsiiProxy_ElasticacheServerlessCache) ResetMajorEngineVersion() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetMajorEngineVersion",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_ElasticacheServerlessCache) ResetNetworkType() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetNetworkType",
 		nil, // no parameters
 	)
 }

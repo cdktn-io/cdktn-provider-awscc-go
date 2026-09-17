@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3objectlambda_access_point awscc_s3objectlambda_access_point}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/s3objectlambda_access_point awscc_s3objectlambda_access_point}.
 type S3ObjectlambdaAccessPoint interface {
 	cdktn.TerraformResource
 	Alias() S3ObjectlambdaAccessPointAliasOutputReference
@@ -457,7 +457,7 @@ func (j *jsiiProxy_S3ObjectlambdaAccessPoint) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3objectlambda_access_point awscc_s3objectlambda_access_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/s3objectlambda_access_point awscc_s3objectlambda_access_point} Resource.
 func NewS3ObjectlambdaAccessPoint(scope constructs.Construct, id *string, config *S3ObjectlambdaAccessPointConfig) S3ObjectlambdaAccessPoint {
 	_init_.Initialize()
 
@@ -475,7 +475,7 @@ func NewS3ObjectlambdaAccessPoint(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/s3objectlambda_access_point awscc_s3objectlambda_access_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/s3objectlambda_access_point awscc_s3objectlambda_access_point} Resource.
 func NewS3ObjectlambdaAccessPoint_Override(s S3ObjectlambdaAccessPoint, scope constructs.Construct, id *string, config *S3ObjectlambdaAccessPointConfig) {
 	_init_.Initialize()
 

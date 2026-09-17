@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/rds_db_instance awscc_rds_db_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/rds_db_instance awscc_rds_db_instance}.
 type DataAwsccRdsDbInstance interface {
 	cdktn.TerraformDataSource
 	AdditionalStorageVolumes() DataAwsccRdsDbInstanceAdditionalStorageVolumesList
@@ -1397,7 +1397,7 @@ func (j *jsiiProxy_DataAwsccRdsDbInstance) VpcSecurityGroups() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/rds_db_instance awscc_rds_db_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/rds_db_instance awscc_rds_db_instance} Data Source.
 func NewDataAwsccRdsDbInstance(scope constructs.Construct, id *string, config *DataAwsccRdsDbInstanceConfig) DataAwsccRdsDbInstance {
 	_init_.Initialize()
 
@@ -1415,7 +1415,7 @@ func NewDataAwsccRdsDbInstance(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/rds_db_instance awscc_rds_db_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/rds_db_instance awscc_rds_db_instance} Data Source.
 func NewDataAwsccRdsDbInstance_Override(d DataAwsccRdsDbInstance, scope constructs.Construct, id *string, config *DataAwsccRdsDbInstanceConfig) {
 	_init_.Initialize()
 

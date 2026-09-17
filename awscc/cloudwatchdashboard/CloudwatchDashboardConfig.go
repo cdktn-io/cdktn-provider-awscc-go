@@ -24,19 +24,19 @@ type CloudwatchDashboardConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The detailed information about the dashboard in JSON format, including the widgets to include and their location on the dashboard.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudwatch_dashboard#dashboard_body CloudwatchDashboard#dashboard_body}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudwatch_dashboard#dashboard_body CloudwatchDashboard#dashboard_body}
 	DashboardBody *string `field:"required" json:"dashboardBody" yaml:"dashboardBody"`
 	// The name of the dashboard.
 	//
 	// The name must be between 1 and 255 characters. If you do not specify a name, one will be generated automatically.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudwatch_dashboard#dashboard_name CloudwatchDashboard#dashboard_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudwatch_dashboard#dashboard_name CloudwatchDashboard#dashboard_name}
 	DashboardName *string `field:"optional" json:"dashboardName" yaml:"dashboardName"`
 	// A list of key-value pairs to associate with the cloudwatch dashboard.
 	//
 	// You can associate up to 50 tags with a dashboard
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudwatch_dashboard#tags CloudwatchDashboard#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudwatch_dashboard#tags CloudwatchDashboard#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

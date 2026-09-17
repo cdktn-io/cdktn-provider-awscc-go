@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/eks_addon awscc_eks_addon}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/eks_addon awscc_eks_addon}.
 type EksAddon interface {
 	cdktn.TerraformResource
 	AddonName() *string
@@ -604,7 +604,7 @@ func (j *jsiiProxy_EksAddon) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/eks_addon awscc_eks_addon} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/eks_addon awscc_eks_addon} Resource.
 func NewEksAddon(scope constructs.Construct, id *string, config *EksAddonConfig) EksAddon {
 	_init_.Initialize()
 
@@ -622,7 +622,7 @@ func NewEksAddon(scope constructs.Construct, id *string, config *EksAddonConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/eks_addon awscc_eks_addon} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/eks_addon awscc_eks_addon} Resource.
 func NewEksAddon_Override(e EksAddon, scope constructs.Construct, id *string, config *EksAddonConfig) {
 	_init_.Initialize()
 

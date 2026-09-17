@@ -5,7 +5,7 @@ package kendradatasource
 
 
 type KendraDataSourceDataSourceConfigurationDatabaseConfigurationAclConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/kendra_data_source#allowed_groups_column_name KendraDataSource#allowed_groups_column_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_data_source#allowed_groups_column_name KendraDataSource#allowed_groups_column_name}.
 	AllowedGroupsColumnName *string `field:"optional" json:"allowedGroupsColumnName" yaml:"allowedGroupsColumnName"`
 }
 

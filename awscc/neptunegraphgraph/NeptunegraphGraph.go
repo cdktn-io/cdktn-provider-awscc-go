@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/neptunegraph_graph awscc_neptunegraph_graph}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/neptunegraph_graph awscc_neptunegraph_graph}.
 type NeptunegraphGraph interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -49,6 +49,8 @@ type NeptunegraphGraph interface {
 	SetGraphName(val *string)
 	GraphNameInput() *string
 	Id() *string
+	ImportTask() NeptunegraphGraphImportTaskOutputReference
+	ImportTaskInput() interface{}
 	KmsKeyIdentifier() *string
 	SetKmsKeyIdentifier(val *string)
 	KmsKeyIdentifierInput() *string
@@ -166,6 +168,7 @@ type NeptunegraphGraph interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutImportTask(value *NeptunegraphGraphImportTask)
 	PutTags(value interface{})
 	PutVectorSearchConfiguration(value *NeptunegraphGraphVectorSearchConfiguration)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
@@ -183,6 +186,7 @@ type NeptunegraphGraph interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetDeletionProtection()
 	ResetGraphName()
+	ResetImportTask()
 	ResetKmsKeyIdentifier()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -373,6 +377,26 @@ func (j *jsiiProxy_NeptunegraphGraph) Id() *string {
 	_jsii_.Get(
 		j,
 		"id",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NeptunegraphGraph) ImportTask() NeptunegraphGraphImportTaskOutputReference {
+	var returns NeptunegraphGraphImportTaskOutputReference
+	_jsii_.Get(
+		j,
+		"importTask",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NeptunegraphGraph) ImportTaskInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"importTaskInput",
 		&returns,
 	)
 	return returns
@@ -579,7 +603,7 @@ func (j *jsiiProxy_NeptunegraphGraph) VectorSearchConfigurationInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/neptunegraph_graph awscc_neptunegraph_graph} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/neptunegraph_graph awscc_neptunegraph_graph} Resource.
 func NewNeptunegraphGraph(scope constructs.Construct, id *string, config *NeptunegraphGraphConfig) NeptunegraphGraph {
 	_init_.Initialize()
 
@@ -597,7 +621,7 @@ func NewNeptunegraphGraph(scope constructs.Construct, id *string, config *Neptun
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/neptunegraph_graph awscc_neptunegraph_graph} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/neptunegraph_graph awscc_neptunegraph_graph} Resource.
 func NewNeptunegraphGraph_Override(n NeptunegraphGraph, scope constructs.Construct, id *string, config *NeptunegraphGraphConfig) {
 	_init_.Initialize()
 
@@ -1111,6 +1135,17 @@ func (n *jsiiProxy_NeptunegraphGraph) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (n *jsiiProxy_NeptunegraphGraph) PutImportTask(value *NeptunegraphGraphImportTask) {
+	if err := n.validatePutImportTaskParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putImportTask",
+		[]interface{}{value},
+	)
+}
+
 func (n *jsiiProxy_NeptunegraphGraph) PutTags(value interface{}) {
 	if err := n.validatePutTagsParameters(value); err != nil {
 		panic(err)
@@ -1156,6 +1191,14 @@ func (n *jsiiProxy_NeptunegraphGraph) ResetGraphName() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetGraphName",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NeptunegraphGraph) ResetImportTask() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetImportTask",
 		nil, // no parameters
 	)
 }

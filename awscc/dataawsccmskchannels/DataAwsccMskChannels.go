@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/msk_channels awscc_msk_channels}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/msk_channels awscc_msk_channels}.
 type DataAwsccMskChannels interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMskChannels) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/msk_channels awscc_msk_channels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/msk_channels awscc_msk_channels} Data Source.
 func NewDataAwsccMskChannels(scope constructs.Construct, id *string, config *DataAwsccMskChannelsConfig) DataAwsccMskChannels {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMskChannels(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/msk_channels awscc_msk_channels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/msk_channels awscc_msk_channels} Data Source.
 func NewDataAwsccMskChannels_Override(d DataAwsccMskChannels, scope constructs.Construct, id *string, config *DataAwsccMskChannelsConfig) {
 	_init_.Initialize()
 

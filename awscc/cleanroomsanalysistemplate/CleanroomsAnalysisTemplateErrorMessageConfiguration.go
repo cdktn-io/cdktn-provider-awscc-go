@@ -5,7 +5,7 @@ package cleanroomsanalysistemplate
 
 
 type CleanroomsAnalysisTemplateErrorMessageConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cleanrooms_analysis_template#type CleanroomsAnalysisTemplate#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cleanrooms_analysis_template#type CleanroomsAnalysisTemplate#type}.
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

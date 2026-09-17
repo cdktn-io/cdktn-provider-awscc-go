@@ -24,9 +24,9 @@ type DetectiveGraphConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Indicates whether to automatically enable new organization accounts as member accounts in the organization behavior graph.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/detective_graph#auto_enable_members DetectiveGraph#auto_enable_members}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/detective_graph#auto_enable_members DetectiveGraph#auto_enable_members}
 	AutoEnableMembers interface{} `field:"optional" json:"autoEnableMembers" yaml:"autoEnableMembers"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/detective_graph#tags DetectiveGraph#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/detective_graph#tags DetectiveGraph#tags}.
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

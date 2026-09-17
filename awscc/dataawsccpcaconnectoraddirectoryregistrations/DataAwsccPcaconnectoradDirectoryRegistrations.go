@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/pcaconnectorad_directory_registrations awscc_pcaconnectorad_directory_registrations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/pcaconnectorad_directory_registrations awscc_pcaconnectorad_directory_registrations}.
 type DataAwsccPcaconnectoradDirectoryRegistrations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccPcaconnectoradDirectoryRegistrations) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/pcaconnectorad_directory_registrations awscc_pcaconnectorad_directory_registrations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/pcaconnectorad_directory_registrations awscc_pcaconnectorad_directory_registrations} Data Source.
 func NewDataAwsccPcaconnectoradDirectoryRegistrations(scope constructs.Construct, id *string, config *DataAwsccPcaconnectoradDirectoryRegistrationsConfig) DataAwsccPcaconnectoradDirectoryRegistrations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccPcaconnectoradDirectoryRegistrations(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/pcaconnectorad_directory_registrations awscc_pcaconnectorad_directory_registrations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/pcaconnectorad_directory_registrations awscc_pcaconnectorad_directory_registrations} Data Source.
 func NewDataAwsccPcaconnectoradDirectoryRegistrations_Override(d DataAwsccPcaconnectoradDirectoryRegistrations, scope constructs.Construct, id *string, config *DataAwsccPcaconnectoradDirectoryRegistrationsConfig) {
 	_init_.Initialize()
 

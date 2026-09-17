@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_global_table awscc_dynamodb_global_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table awscc_dynamodb_global_table}.
 type DynamodbGlobalTable interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -99,6 +99,8 @@ type DynamodbGlobalTable interface {
 	TerraformResourceType() *string
 	TimeToLiveSpecification() DynamodbGlobalTableTimeToLiveSpecificationOutputReference
 	TimeToLiveSpecificationInput() interface{}
+	VectorIndexes() DynamodbGlobalTableVectorIndexesList
+	VectorIndexesInput() interface{}
 	WarmThroughput() DynamodbGlobalTableWarmThroughputOutputReference
 	WarmThroughputInput() interface{}
 	WriteOnDemandThroughputSettings() DynamodbGlobalTableWriteOnDemandThroughputSettingsOutputReference
@@ -195,6 +197,7 @@ type DynamodbGlobalTable interface {
 	PutSseSpecification(value *DynamodbGlobalTableSseSpecification)
 	PutStreamSpecification(value *DynamodbGlobalTableStreamSpecification)
 	PutTimeToLiveSpecification(value *DynamodbGlobalTableTimeToLiveSpecification)
+	PutVectorIndexes(value interface{})
 	PutWarmThroughput(value *DynamodbGlobalTableWarmThroughput)
 	PutWriteOnDemandThroughputSettings(value *DynamodbGlobalTableWriteOnDemandThroughputSettings)
 	PutWriteProvisionedThroughputSettings(value *DynamodbGlobalTableWriteProvisionedThroughputSettings)
@@ -228,6 +231,7 @@ type DynamodbGlobalTable interface {
 	ResetStreamSpecification()
 	ResetTableName()
 	ResetTimeToLiveSpecification()
+	ResetVectorIndexes()
 	ResetWarmThroughput()
 	ResetWriteOnDemandThroughputSettings()
 	ResetWriteProvisionedThroughputSettings()
@@ -758,6 +762,26 @@ func (j *jsiiProxy_DynamodbGlobalTable) TimeToLiveSpecificationInput() interface
 	return returns
 }
 
+func (j *jsiiProxy_DynamodbGlobalTable) VectorIndexes() DynamodbGlobalTableVectorIndexesList {
+	var returns DynamodbGlobalTableVectorIndexesList
+	_jsii_.Get(
+		j,
+		"vectorIndexes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DynamodbGlobalTable) VectorIndexesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"vectorIndexesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DynamodbGlobalTable) WarmThroughput() DynamodbGlobalTableWarmThroughputOutputReference {
 	var returns DynamodbGlobalTableWarmThroughputOutputReference
 	_jsii_.Get(
@@ -819,7 +843,7 @@ func (j *jsiiProxy_DynamodbGlobalTable) WriteProvisionedThroughputSettingsInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_global_table awscc_dynamodb_global_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table awscc_dynamodb_global_table} Resource.
 func NewDynamodbGlobalTable(scope constructs.Construct, id *string, config *DynamodbGlobalTableConfig) DynamodbGlobalTable {
 	_init_.Initialize()
 
@@ -837,7 +861,7 @@ func NewDynamodbGlobalTable(scope constructs.Construct, id *string, config *Dyna
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/dynamodb_global_table awscc_dynamodb_global_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table awscc_dynamodb_global_table} Resource.
 func NewDynamodbGlobalTable_Override(d DynamodbGlobalTable, scope constructs.Construct, id *string, config *DynamodbGlobalTableConfig) {
 	_init_.Initialize()
 
@@ -1450,6 +1474,17 @@ func (d *jsiiProxy_DynamodbGlobalTable) PutTimeToLiveSpecification(value *Dynamo
 	)
 }
 
+func (d *jsiiProxy_DynamodbGlobalTable) PutVectorIndexes(value interface{}) {
+	if err := d.validatePutVectorIndexesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putVectorIndexes",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DynamodbGlobalTable) PutWarmThroughput(value *DynamodbGlobalTableWarmThroughput) {
 	if err := d.validatePutWarmThroughputParameters(value); err != nil {
 		panic(err)
@@ -1610,6 +1645,14 @@ func (d *jsiiProxy_DynamodbGlobalTable) ResetTimeToLiveSpecification() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetTimeToLiveSpecification",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DynamodbGlobalTable) ResetVectorIndexes() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetVectorIndexes",
 		nil, // no parameters
 	)
 }

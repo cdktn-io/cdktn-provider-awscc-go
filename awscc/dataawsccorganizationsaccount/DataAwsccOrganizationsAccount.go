@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/organizations_account awscc_organizations_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/organizations_account awscc_organizations_account}.
 type DataAwsccOrganizationsAccount interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccOrganizationsAccount) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/organizations_account awscc_organizations_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/organizations_account awscc_organizations_account} Data Source.
 func NewDataAwsccOrganizationsAccount(scope constructs.Construct, id *string, config *DataAwsccOrganizationsAccountConfig) DataAwsccOrganizationsAccount {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccOrganizationsAccount(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/organizations_account awscc_organizations_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/organizations_account awscc_organizations_account} Data Source.
 func NewDataAwsccOrganizationsAccount_Override(d DataAwsccOrganizationsAccount, scope constructs.Construct, id *string, config *DataAwsccOrganizationsAccountConfig) {
 	_init_.Initialize()
 

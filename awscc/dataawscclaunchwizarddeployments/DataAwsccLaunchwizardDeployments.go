@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/launchwizard_deployments awscc_launchwizard_deployments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/launchwizard_deployments awscc_launchwizard_deployments}.
 type DataAwsccLaunchwizardDeployments interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLaunchwizardDeployments) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/launchwizard_deployments awscc_launchwizard_deployments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/launchwizard_deployments awscc_launchwizard_deployments} Data Source.
 func NewDataAwsccLaunchwizardDeployments(scope constructs.Construct, id *string, config *DataAwsccLaunchwizardDeploymentsConfig) DataAwsccLaunchwizardDeployments {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLaunchwizardDeployments(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/launchwizard_deployments awscc_launchwizard_deployments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/launchwizard_deployments awscc_launchwizard_deployments} Data Source.
 func NewDataAwsccLaunchwizardDeployments_Override(d DataAwsccLaunchwizardDeployments, scope constructs.Construct, id *string, config *DataAwsccLaunchwizardDeploymentsConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package sesdedicatedippool
 
 
 type SesDedicatedIpPoolTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ses_dedicated_ip_pool#key SesDedicatedIpPool#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ses_dedicated_ip_pool#key SesDedicatedIpPool#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/ses_dedicated_ip_pool#value SesDedicatedIpPool#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ses_dedicated_ip_pool#value SesDedicatedIpPool#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

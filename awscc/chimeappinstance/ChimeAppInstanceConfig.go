@@ -24,15 +24,15 @@ type ChimeAppInstanceConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the AppInstance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/chime_app_instance#name ChimeAppInstance#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_app_instance#name ChimeAppInstance#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The metadata of the AppInstance. Limited to a 1KB string in UTF-8.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/chime_app_instance#metadata ChimeAppInstance#metadata}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_app_instance#metadata ChimeAppInstance#metadata}
 	Metadata *string `field:"optional" json:"metadata" yaml:"metadata"`
 	// Tags assigned to the AppInstance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/chime_app_instance#tags ChimeAppInstance#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_app_instance#tags ChimeAppInstance#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

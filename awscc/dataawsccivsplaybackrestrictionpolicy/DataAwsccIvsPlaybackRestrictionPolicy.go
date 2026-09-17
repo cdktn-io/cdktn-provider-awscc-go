@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ivs_playback_restriction_policy awscc_ivs_playback_restriction_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ivs_playback_restriction_policy awscc_ivs_playback_restriction_policy}.
 type DataAwsccIvsPlaybackRestrictionPolicy interface {
 	cdktn.TerraformDataSource
 	AllowedCountries() *[]*string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccIvsPlaybackRestrictionPolicy) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ivs_playback_restriction_policy awscc_ivs_playback_restriction_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ivs_playback_restriction_policy awscc_ivs_playback_restriction_policy} Data Source.
 func NewDataAwsccIvsPlaybackRestrictionPolicy(scope constructs.Construct, id *string, config *DataAwsccIvsPlaybackRestrictionPolicyConfig) DataAwsccIvsPlaybackRestrictionPolicy {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccIvsPlaybackRestrictionPolicy(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/ivs_playback_restriction_policy awscc_ivs_playback_restriction_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ivs_playback_restriction_policy awscc_ivs_playback_restriction_policy} Data Source.
 func NewDataAwsccIvsPlaybackRestrictionPolicy_Override(d DataAwsccIvsPlaybackRestrictionPolicy, scope constructs.Construct, id *string, config *DataAwsccIvsPlaybackRestrictionPolicyConfig) {
 	_init_.Initialize()
 

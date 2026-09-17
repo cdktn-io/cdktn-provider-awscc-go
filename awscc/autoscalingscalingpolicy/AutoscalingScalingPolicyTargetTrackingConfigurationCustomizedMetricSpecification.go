@@ -5,19 +5,19 @@ package autoscalingscalingpolicy
 
 
 type AutoscalingScalingPolicyTargetTrackingConfigurationCustomizedMetricSpecification struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/autoscaling_scaling_policy#dimensions AutoscalingScalingPolicy#dimensions}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/autoscaling_scaling_policy#dimensions AutoscalingScalingPolicy#dimensions}.
 	Dimensions interface{} `field:"optional" json:"dimensions" yaml:"dimensions"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/autoscaling_scaling_policy#metric_name AutoscalingScalingPolicy#metric_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/autoscaling_scaling_policy#metric_name AutoscalingScalingPolicy#metric_name}.
 	MetricName *string `field:"optional" json:"metricName" yaml:"metricName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/autoscaling_scaling_policy#metrics AutoscalingScalingPolicy#metrics}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/autoscaling_scaling_policy#metrics AutoscalingScalingPolicy#metrics}.
 	Metrics interface{} `field:"optional" json:"metrics" yaml:"metrics"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/autoscaling_scaling_policy#namespace AutoscalingScalingPolicy#namespace}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/autoscaling_scaling_policy#namespace AutoscalingScalingPolicy#namespace}.
 	Namespace *string `field:"optional" json:"namespace" yaml:"namespace"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/autoscaling_scaling_policy#period AutoscalingScalingPolicy#period}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/autoscaling_scaling_policy#period AutoscalingScalingPolicy#period}.
 	Period *float64 `field:"optional" json:"period" yaml:"period"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/autoscaling_scaling_policy#statistic AutoscalingScalingPolicy#statistic}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/autoscaling_scaling_policy#statistic AutoscalingScalingPolicy#statistic}.
 	Statistic *string `field:"optional" json:"statistic" yaml:"statistic"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/autoscaling_scaling_policy#unit AutoscalingScalingPolicy#unit}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/autoscaling_scaling_policy#unit AutoscalingScalingPolicy#unit}.
 	Unit *string `field:"optional" json:"unit" yaml:"unit"`
 }
 

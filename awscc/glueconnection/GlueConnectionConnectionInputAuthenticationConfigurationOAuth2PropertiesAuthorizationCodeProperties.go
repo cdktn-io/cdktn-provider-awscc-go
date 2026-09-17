@@ -7,11 +7,11 @@ package glueconnection
 type GlueConnectionConnectionInputAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties struct {
 	// The authorization code used in the authentication configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/glue_connection#authorization_code GlueConnection#authorization_code}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection#authorization_code GlueConnection#authorization_code}
 	AuthorizationCode *string `field:"optional" json:"authorizationCode" yaml:"authorizationCode"`
 	// The redirect URI where the user gets redirected to by authorization server when issuing an authorization code.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/glue_connection#redirect_uri GlueConnection#redirect_uri}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection#redirect_uri GlueConnection#redirect_uri}
 	RedirectUri *string `field:"optional" json:"redirectUri" yaml:"redirectUri"`
 }
 

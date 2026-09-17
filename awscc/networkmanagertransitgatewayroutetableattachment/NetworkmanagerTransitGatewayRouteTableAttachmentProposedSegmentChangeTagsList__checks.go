@@ -8,8 +8,6 @@ package networkmanagertransitgatewayroutetableattachment
 import (
 	"fmt"
 
-	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,34 +30,6 @@ func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegme
 func (n *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChangeTagsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChangeTagsList) validateSetInternalValueParameters(val interface{}) error {
-	switch val.(type) {
-	case cdktn.IResolvable:
-		// ok
-	case *[]*NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChangeTags:
-		val := val.(*[]*NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChangeTags)
-		for idx_97dfc6, v := range *val {
-			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
-				return err
-			}
-		}
-	case []*NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChangeTags:
-		val_ := val.([]*NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChangeTags)
-		val := &val_
-		for idx_97dfc6, v := range *val {
-			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
-				return err
-			}
-		}
-	default:
-		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*NetworkmanagerTransitGatewayRouteTableAttachmentProposedSegmentChangeTags; received %#v (a %T)", val, val)
-		}
 	}
 
 	return nil

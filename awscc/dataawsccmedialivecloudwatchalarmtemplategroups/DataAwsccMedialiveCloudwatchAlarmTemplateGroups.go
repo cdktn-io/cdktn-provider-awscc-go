@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/medialive_cloudwatch_alarm_template_groups awscc_medialive_cloudwatch_alarm_template_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/medialive_cloudwatch_alarm_template_groups awscc_medialive_cloudwatch_alarm_template_groups}.
 type DataAwsccMedialiveCloudwatchAlarmTemplateGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMedialiveCloudwatchAlarmTemplateGroups) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/medialive_cloudwatch_alarm_template_groups awscc_medialive_cloudwatch_alarm_template_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/medialive_cloudwatch_alarm_template_groups awscc_medialive_cloudwatch_alarm_template_groups} Data Source.
 func NewDataAwsccMedialiveCloudwatchAlarmTemplateGroups(scope constructs.Construct, id *string, config *DataAwsccMedialiveCloudwatchAlarmTemplateGroupsConfig) DataAwsccMedialiveCloudwatchAlarmTemplateGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMedialiveCloudwatchAlarmTemplateGroups(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/medialive_cloudwatch_alarm_template_groups awscc_medialive_cloudwatch_alarm_template_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/medialive_cloudwatch_alarm_template_groups awscc_medialive_cloudwatch_alarm_template_groups} Data Source.
 func NewDataAwsccMedialiveCloudwatchAlarmTemplateGroups_Override(d DataAwsccMedialiveCloudwatchAlarmTemplateGroups, scope constructs.Construct, id *string, config *DataAwsccMedialiveCloudwatchAlarmTemplateGroupsConfig) {
 	_init_.Initialize()
 

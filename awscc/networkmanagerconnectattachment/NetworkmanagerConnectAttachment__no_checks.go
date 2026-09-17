@@ -83,14 +83,6 @@ func (n *jsiiProxy_NetworkmanagerConnectAttachment) validatePutOptionsParameters
 	return nil
 }
 
-func (n *jsiiProxy_NetworkmanagerConnectAttachment) validatePutProposedNetworkFunctionGroupChangeParameters(value *NetworkmanagerConnectAttachmentProposedNetworkFunctionGroupChange) error {
-	return nil
-}
-
-func (n *jsiiProxy_NetworkmanagerConnectAttachment) validatePutProposedSegmentChangeParameters(value *NetworkmanagerConnectAttachmentProposedSegmentChange) error {
-	return nil
-}
-
 func (n *jsiiProxy_NetworkmanagerConnectAttachment) validatePutTagsParameters(value interface{}) error {
 	return nil
 }

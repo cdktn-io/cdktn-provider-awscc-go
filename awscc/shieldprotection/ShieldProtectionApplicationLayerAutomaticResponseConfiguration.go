@@ -9,11 +9,11 @@ type ShieldProtectionApplicationLayerAutomaticResponseConfiguration struct {
 	//
 	// You specify this as part of the configuration for the automatic application layer DDoS mitigation feature, when you enable or update automatic mitigation. Shield Advanced creates the AWS WAF rules in a Shield Advanced-managed rule group, inside the web ACL that you have associated with the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/shield_protection#action ShieldProtection#action}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/shield_protection#action ShieldProtection#action}
 	Action *ShieldProtectionApplicationLayerAutomaticResponseConfigurationAction `field:"optional" json:"action" yaml:"action"`
 	// Indicates whether automatic application layer DDoS mitigation is enabled for the protection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/shield_protection#status ShieldProtection#status}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/shield_protection#status ShieldProtection#status}
 	Status *string `field:"optional" json:"status" yaml:"status"`
 }
 

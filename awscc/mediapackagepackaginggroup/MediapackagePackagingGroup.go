@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediapackage_packaging_group awscc_mediapackage_packaging_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackage_packaging_group awscc_mediapackage_packaging_group}.
 type MediapackagePackagingGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -472,7 +472,7 @@ func (j *jsiiProxy_MediapackagePackagingGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediapackage_packaging_group awscc_mediapackage_packaging_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackage_packaging_group awscc_mediapackage_packaging_group} Resource.
 func NewMediapackagePackagingGroup(scope constructs.Construct, id *string, config *MediapackagePackagingGroupConfig) MediapackagePackagingGroup {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewMediapackagePackagingGroup(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/mediapackage_packaging_group awscc_mediapackage_packaging_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackage_packaging_group awscc_mediapackage_packaging_group} Resource.
 func NewMediapackagePackagingGroup_Override(m MediapackagePackagingGroup, scope constructs.Construct, id *string, config *MediapackagePackagingGroupConfig) {
 	_init_.Initialize()
 

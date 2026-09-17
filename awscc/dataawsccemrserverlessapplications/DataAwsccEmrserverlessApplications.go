@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/emrserverless_applications awscc_emrserverless_applications}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/emrserverless_applications awscc_emrserverless_applications}.
 type DataAwsccEmrserverlessApplications interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEmrserverlessApplications) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/emrserverless_applications awscc_emrserverless_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/emrserverless_applications awscc_emrserverless_applications} Data Source.
 func NewDataAwsccEmrserverlessApplications(scope constructs.Construct, id *string, config *DataAwsccEmrserverlessApplicationsConfig) DataAwsccEmrserverlessApplications {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEmrserverlessApplications(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/data-sources/emrserverless_applications awscc_emrserverless_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/emrserverless_applications awscc_emrserverless_applications} Data Source.
 func NewDataAwsccEmrserverlessApplications_Override(d DataAwsccEmrserverlessApplications, scope constructs.Construct, id *string, config *DataAwsccEmrserverlessApplicationsConfig) {
 	_init_.Initialize()
 

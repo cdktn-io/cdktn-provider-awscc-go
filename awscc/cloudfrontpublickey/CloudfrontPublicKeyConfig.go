@@ -24,7 +24,7 @@ type CloudfrontPublicKeyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Configuration information about a public key that you can use with [signed URLs and signed cookies](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/PrivateContent.html), or with [field-level encryption](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/field-level-encryption.html).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/cloudfront_public_key#public_key_config CloudfrontPublicKey#public_key_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudfront_public_key#public_key_config CloudfrontPublicKey#public_key_config}
 	PublicKeyConfig *CloudfrontPublicKeyPublicKeyConfig `field:"required" json:"publicKeyConfig" yaml:"publicKeyConfig"`
 }
 

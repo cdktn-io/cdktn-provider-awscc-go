@@ -24,17 +24,17 @@ type AppconfigApplicationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A name for the application.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_application#name AppconfigApplication#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/appconfig_application#name AppconfigApplication#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// A description of the application.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_application#description AppconfigApplication#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/appconfig_application#description AppconfigApplication#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Metadata to assign to the application.
 	//
 	// Tags help organize and categorize your AWS AppConfig resources. Each tag consists of a key and an optional value, both of which you define.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.101.0/docs/resources/appconfig_application#tags AppconfigApplication#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/appconfig_application#tags AppconfigApplication#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

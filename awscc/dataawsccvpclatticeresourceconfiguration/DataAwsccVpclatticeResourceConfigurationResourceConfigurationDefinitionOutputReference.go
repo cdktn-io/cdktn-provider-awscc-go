@@ -14,6 +14,7 @@ import (
 type DataAwsccVpclatticeResourceConfigurationResourceConfigurationDefinitionOutputReference interface {
 	cdktn.ComplexObject
 	ArnResource() *string
+	CidrResource() DataAwsccVpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResourceOutputReference
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -87,6 +88,16 @@ func (j *jsiiProxy_DataAwsccVpclatticeResourceConfigurationResourceConfiguration
 	_jsii_.Get(
 		j,
 		"arnResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccVpclatticeResourceConfigurationResourceConfigurationDefinitionOutputReference) CidrResource() DataAwsccVpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResourceOutputReference {
+	var returns DataAwsccVpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResourceOutputReference
+	_jsii_.Get(
+		j,
+		"cidrResource",
 		&returns,
 	)
 	return returns
