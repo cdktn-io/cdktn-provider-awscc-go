@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53profiles_profile_resource_association awscc_route53profiles_profile_resource_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/route53profiles_profile_resource_association awscc_route53profiles_profile_resource_association}.
 type Route53ProfilesProfileResourceAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -470,7 +470,7 @@ func (j *jsiiProxy_Route53ProfilesProfileResourceAssociation) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53profiles_profile_resource_association awscc_route53profiles_profile_resource_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/route53profiles_profile_resource_association awscc_route53profiles_profile_resource_association} Resource.
 func NewRoute53ProfilesProfileResourceAssociation(scope constructs.Construct, id *string, config *Route53ProfilesProfileResourceAssociationConfig) Route53ProfilesProfileResourceAssociation {
 	_init_.Initialize()
 
@@ -488,7 +488,7 @@ func NewRoute53ProfilesProfileResourceAssociation(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53profiles_profile_resource_association awscc_route53profiles_profile_resource_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/route53profiles_profile_resource_association awscc_route53profiles_profile_resource_association} Resource.
 func NewRoute53ProfilesProfileResourceAssociation_Override(r Route53ProfilesProfileResourceAssociation, scope constructs.Construct, id *string, config *Route53ProfilesProfileResourceAssociationConfig) {
 	_init_.Initialize()
 

@@ -38,6 +38,8 @@ type TransferServerProtocolDetailsOutputReference interface {
 	PassiveIp() *string
 	SetPassiveIp(val *string)
 	PassiveIpInput() *string
+	ProxyConfig() TransferServerProtocolDetailsProxyConfigOutputReference
+	ProxyConfigInput() interface{}
 	SetStatOption() *string
 	SetSetStatOption(val *string)
 	SetStatOptionInput() *string
@@ -76,8 +78,10 @@ type TransferServerProtocolDetailsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutProxyConfig(value *TransferServerProtocolDetailsProxyConfig)
 	ResetAs2Transports()
 	ResetPassiveIp()
+	ResetProxyConfig()
 	ResetSetStatOption()
 	ResetTlsSessionResumptionMode()
 	// Produce the Token's value at resolution time.
@@ -180,6 +184,26 @@ func (j *jsiiProxy_TransferServerProtocolDetailsOutputReference) PassiveIpInput(
 	_jsii_.Get(
 		j,
 		"passiveIpInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TransferServerProtocolDetailsOutputReference) ProxyConfig() TransferServerProtocolDetailsProxyConfigOutputReference {
+	var returns TransferServerProtocolDetailsProxyConfigOutputReference
+	_jsii_.Get(
+		j,
+		"proxyConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TransferServerProtocolDetailsOutputReference) ProxyConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"proxyConfigInput",
 		&returns,
 	)
 	return returns
@@ -558,6 +582,17 @@ func (t *jsiiProxy_TransferServerProtocolDetailsOutputReference) InterpolationFo
 	return returns
 }
 
+func (t *jsiiProxy_TransferServerProtocolDetailsOutputReference) PutProxyConfig(value *TransferServerProtocolDetailsProxyConfig) {
+	if err := t.validatePutProxyConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		t,
+		"putProxyConfig",
+		[]interface{}{value},
+	)
+}
+
 func (t *jsiiProxy_TransferServerProtocolDetailsOutputReference) ResetAs2Transports() {
 	_jsii_.InvokeVoid(
 		t,
@@ -570,6 +605,14 @@ func (t *jsiiProxy_TransferServerProtocolDetailsOutputReference) ResetPassiveIp(
 	_jsii_.InvokeVoid(
 		t,
 		"resetPassiveIp",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TransferServerProtocolDetailsOutputReference) ResetProxyConfig() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetProxyConfig",
 		nil, // no parameters
 	)
 }

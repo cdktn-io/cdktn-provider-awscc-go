@@ -24,11 +24,11 @@ type CloudfrontVpcOriginConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The VPC origin endpoint configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudfront_vpc_origin#vpc_origin_endpoint_config CloudfrontVpcOrigin#vpc_origin_endpoint_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cloudfront_vpc_origin#vpc_origin_endpoint_config CloudfrontVpcOrigin#vpc_origin_endpoint_config}
 	VpcOriginEndpointConfig *CloudfrontVpcOriginVpcOriginEndpointConfig `field:"required" json:"vpcOriginEndpointConfig" yaml:"vpcOriginEndpointConfig"`
 	// A complex type that contains zero or more ``Tag`` elements.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudfront_vpc_origin#tags CloudfrontVpcOrigin#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cloudfront_vpc_origin#tags CloudfrontVpcOrigin#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

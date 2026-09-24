@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sdb_domain awscc_sdb_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sdb_domain awscc_sdb_domain}.
 type SdbDomain interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -390,7 +390,7 @@ func (j *jsiiProxy_SdbDomain) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sdb_domain awscc_sdb_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sdb_domain awscc_sdb_domain} Resource.
 func NewSdbDomain(scope constructs.Construct, id *string, config *SdbDomainConfig) SdbDomain {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewSdbDomain(scope constructs.Construct, id *string, config *SdbDomainConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sdb_domain awscc_sdb_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sdb_domain awscc_sdb_domain} Resource.
 func NewSdbDomain_Override(s SdbDomain, scope constructs.Construct, id *string, config *SdbDomainConfig) {
 	_init_.Initialize()
 

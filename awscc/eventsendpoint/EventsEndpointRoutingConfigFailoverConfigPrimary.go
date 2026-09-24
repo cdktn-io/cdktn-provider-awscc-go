@@ -5,7 +5,7 @@ package eventsendpoint
 
 
 type EventsEndpointRoutingConfigFailoverConfigPrimary struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/events_endpoint#health_check EventsEndpoint#health_check}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/events_endpoint#health_check EventsEndpoint#health_check}.
 	HealthCheck *string `field:"required" json:"healthCheck" yaml:"healthCheck"`
 }
 

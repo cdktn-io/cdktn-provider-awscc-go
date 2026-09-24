@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cleanrooms_privacy_budget_template awscc_cleanrooms_privacy_budget_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cleanrooms_privacy_budget_template awscc_cleanrooms_privacy_budget_template}.
 type CleanroomsPrivacyBudgetTemplate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -526,7 +526,7 @@ func (j *jsiiProxy_CleanroomsPrivacyBudgetTemplate) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cleanrooms_privacy_budget_template awscc_cleanrooms_privacy_budget_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cleanrooms_privacy_budget_template awscc_cleanrooms_privacy_budget_template} Resource.
 func NewCleanroomsPrivacyBudgetTemplate(scope constructs.Construct, id *string, config *CleanroomsPrivacyBudgetTemplateConfig) CleanroomsPrivacyBudgetTemplate {
 	_init_.Initialize()
 
@@ -544,7 +544,7 @@ func NewCleanroomsPrivacyBudgetTemplate(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cleanrooms_privacy_budget_template awscc_cleanrooms_privacy_budget_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cleanrooms_privacy_budget_template awscc_cleanrooms_privacy_budget_template} Resource.
 func NewCleanroomsPrivacyBudgetTemplate_Override(c CleanroomsPrivacyBudgetTemplate, scope constructs.Construct, id *string, config *CleanroomsPrivacyBudgetTemplateConfig) {
 	_init_.Initialize()
 

@@ -10,37 +10,37 @@ type EfsFileSystemReplicationConfigurationDestinations struct {
 	// Use the format ``us-east-1a`` to specify the Availability Zone. For more information about One Zone file systems, see [EFS file system types](https://docs.aws.amazon.com/efs/latest/ug/storage-classes.html) in the *Amazon EFS User Guide*.
 	//   One Zone file system type is not available in all Availability Zones in AWS-Regions where Amazon EFS is available.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/efs_file_system#availability_zone_name EfsFileSystem#availability_zone_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/efs_file_system#availability_zone_name EfsFileSystem#availability_zone_name}
 	AvailabilityZoneName *string `field:"optional" json:"availabilityZoneName" yaml:"availabilityZoneName"`
 	// The ID of the destination Amazon EFS file system.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/efs_file_system#file_system_id EfsFileSystem#file_system_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/efs_file_system#file_system_id EfsFileSystem#file_system_id}
 	FileSystemId *string `field:"optional" json:"fileSystemId" yaml:"fileSystemId"`
 	// The ID of an kms-key-long used to protect the encrypted file system.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/efs_file_system#kms_key_id EfsFileSystem#kms_key_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/efs_file_system#kms_key_id EfsFileSystem#kms_key_id}
 	KmsKeyId *string `field:"optional" json:"kmsKeyId" yaml:"kmsKeyId"`
 	// The AWS-Region in which the destination file system is located.
 	//
 	// For One Zone file systems, the replication configuration must specify the AWS-Region in which the destination file system is located.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/efs_file_system#region EfsFileSystem#region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/efs_file_system#region EfsFileSystem#region}
 	Region *string `field:"optional" json:"region" yaml:"region"`
 	// The Amazon Resource Name (ARN) of the current source file system in the replication configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/efs_file_system#role_arn EfsFileSystem#role_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/efs_file_system#role_arn EfsFileSystem#role_arn}
 	RoleArn *string `field:"optional" json:"roleArn" yaml:"roleArn"`
 	// Describes the status of the replication configuration.
 	//
 	// For more information about replication status, see [Viewing replication details](https://docs.aws.amazon.com//efs/latest/ug/awsbackup.html#restoring-backup-efsmonitoring-replication-status.html) in the *Amazon EFS User Guide*.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/efs_file_system#status EfsFileSystem#status}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/efs_file_system#status EfsFileSystem#status}
 	Status *string `field:"optional" json:"status" yaml:"status"`
 	// Message that provides details about the ``PAUSED`` or ``ERRROR`` state of the replication destination configuration.
 	//
 	// For more information about replication status messages, see [Viewing replication details](https://docs.aws.amazon.com//efs/latest/ug/awsbackup.html#restoring-backup-efsmonitoring-replication-status.html) in the *Amazon EFS User Guide*.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/efs_file_system#status_message EfsFileSystem#status_message}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/efs_file_system#status_message EfsFileSystem#status_message}
 	StatusMessage *string `field:"optional" json:"statusMessage" yaml:"statusMessage"`
 }
 

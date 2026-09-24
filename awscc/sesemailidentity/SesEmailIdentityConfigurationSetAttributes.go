@@ -9,7 +9,7 @@ type SesEmailIdentityConfigurationSetAttributes struct {
 	//
 	// Note that any configuration set defined in the email sending request takes precedence.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ses_email_identity#configuration_set_name SesEmailIdentity#configuration_set_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ses_email_identity#configuration_set_name SesEmailIdentity#configuration_set_name}
 	ConfigurationSetName *string `field:"optional" json:"configurationSetName" yaml:"configurationSetName"`
 }
 

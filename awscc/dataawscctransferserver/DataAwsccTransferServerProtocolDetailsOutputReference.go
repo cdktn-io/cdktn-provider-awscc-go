@@ -34,6 +34,7 @@ type DataAwsccTransferServerProtocolDetailsOutputReference interface {
 	InternalValue() *DataAwsccTransferServerProtocolDetails
 	SetInternalValue(val *DataAwsccTransferServerProtocolDetails)
 	PassiveIp() *string
+	ProxyConfig() DataAwsccTransferServerProtocolDetailsProxyConfigOutputReference
 	SetStatOption() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -148,6 +149,16 @@ func (j *jsiiProxy_DataAwsccTransferServerProtocolDetailsOutputReference) Passiv
 	_jsii_.Get(
 		j,
 		"passiveIp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccTransferServerProtocolDetailsOutputReference) ProxyConfig() DataAwsccTransferServerProtocolDetailsProxyConfigOutputReference {
+	var returns DataAwsccTransferServerProtocolDetailsProxyConfigOutputReference
+	_jsii_.Get(
+		j,
+		"proxyConfig",
 		&returns,
 	)
 	return returns

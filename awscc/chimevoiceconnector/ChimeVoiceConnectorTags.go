@@ -7,11 +7,11 @@ package chimevoiceconnector
 type ChimeVoiceConnectorTags struct {
 	// The tag key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_voice_connector#key ChimeVoiceConnector#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_voice_connector#key ChimeVoiceConnector#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The tag value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_voice_connector#value ChimeVoiceConnector#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_voice_connector#value ChimeVoiceConnector#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

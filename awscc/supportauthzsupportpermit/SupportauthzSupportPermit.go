@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/supportauthz_support_permit awscc_supportauthz_support_permit}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/supportauthz_support_permit awscc_supportauthz_support_permit}.
 type SupportauthzSupportPermit interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -540,7 +540,7 @@ func (j *jsiiProxy_SupportauthzSupportPermit) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/supportauthz_support_permit awscc_supportauthz_support_permit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/supportauthz_support_permit awscc_supportauthz_support_permit} Resource.
 func NewSupportauthzSupportPermit(scope constructs.Construct, id *string, config *SupportauthzSupportPermitConfig) SupportauthzSupportPermit {
 	_init_.Initialize()
 
@@ -558,7 +558,7 @@ func NewSupportauthzSupportPermit(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/supportauthz_support_permit awscc_supportauthz_support_permit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/supportauthz_support_permit awscc_supportauthz_support_permit} Resource.
 func NewSupportauthzSupportPermit_Override(s SupportauthzSupportPermit, scope constructs.Construct, id *string, config *SupportauthzSupportPermitConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_transit_gateway_metering_policy_entry awscc_ec2_transit_gateway_metering_policy_entry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_transit_gateway_metering_policy_entry awscc_ec2_transit_gateway_metering_policy_entry}.
 type DataAwsccEc2TransitGatewayMeteringPolicyEntry interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccEc2TransitGatewayMeteringPolicyEntry) UpdateEffectiv
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_transit_gateway_metering_policy_entry awscc_ec2_transit_gateway_metering_policy_entry} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_transit_gateway_metering_policy_entry awscc_ec2_transit_gateway_metering_policy_entry} Data Source.
 func NewDataAwsccEc2TransitGatewayMeteringPolicyEntry(scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayMeteringPolicyEntryConfig) DataAwsccEc2TransitGatewayMeteringPolicyEntry {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccEc2TransitGatewayMeteringPolicyEntry(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_transit_gateway_metering_policy_entry awscc_ec2_transit_gateway_metering_policy_entry} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_transit_gateway_metering_policy_entry awscc_ec2_transit_gateway_metering_policy_entry} Data Source.
 func NewDataAwsccEc2TransitGatewayMeteringPolicyEntry_Override(d DataAwsccEc2TransitGatewayMeteringPolicyEntry, scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayMeteringPolicyEntryConfig) {
 	_init_.Initialize()
 

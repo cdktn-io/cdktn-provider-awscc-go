@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sagemaker_model_quality_job_definitions awscc_sagemaker_model_quality_job_definitions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_model_quality_job_definitions awscc_sagemaker_model_quality_job_definitions}.
 type DataAwsccSagemakerModelQualityJobDefinitions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSagemakerModelQualityJobDefinitions) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sagemaker_model_quality_job_definitions awscc_sagemaker_model_quality_job_definitions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_model_quality_job_definitions awscc_sagemaker_model_quality_job_definitions} Data Source.
 func NewDataAwsccSagemakerModelQualityJobDefinitions(scope constructs.Construct, id *string, config *DataAwsccSagemakerModelQualityJobDefinitionsConfig) DataAwsccSagemakerModelQualityJobDefinitions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSagemakerModelQualityJobDefinitions(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sagemaker_model_quality_job_definitions awscc_sagemaker_model_quality_job_definitions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_model_quality_job_definitions awscc_sagemaker_model_quality_job_definitions} Data Source.
 func NewDataAwsccSagemakerModelQualityJobDefinitions_Override(d DataAwsccSagemakerModelQualityJobDefinitions, scope constructs.Construct, id *string, config *DataAwsccSagemakerModelQualityJobDefinitionsConfig) {
 	_init_.Initialize()
 

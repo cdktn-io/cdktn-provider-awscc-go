@@ -534,6 +534,14 @@ func (j *jsiiProxy_SnsTopic) validateSetLifecycleParameters(val *cdktn.Terraform
 	return nil
 }
 
+func (j *jsiiProxy_SnsTopic) validateSetMaximumMessageSizeParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_SnsTopic) validateSetProvisionersParameters(val *[]interface{}) error {
 	for idx_97dfc6, v := range *val {
 		switch v.(type) {

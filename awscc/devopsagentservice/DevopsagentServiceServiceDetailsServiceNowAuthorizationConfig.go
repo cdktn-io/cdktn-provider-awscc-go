@@ -7,7 +7,7 @@ package devopsagentservice
 type DevopsagentServiceServiceDetailsServiceNowAuthorizationConfig struct {
 	// OAuth client credentials.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
 	OAuthClientCredentials *DevopsagentServiceServiceDetailsServiceNowAuthorizationConfigOAuthClientCredentials `field:"optional" json:"oAuthClientCredentials" yaml:"oAuthClientCredentials"`
 }
 

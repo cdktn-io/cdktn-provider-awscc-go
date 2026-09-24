@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/batch_consumable_resources awscc_batch_consumable_resources}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/batch_consumable_resources awscc_batch_consumable_resources}.
 type DataAwsccBatchConsumableResources interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBatchConsumableResources) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/batch_consumable_resources awscc_batch_consumable_resources} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/batch_consumable_resources awscc_batch_consumable_resources} Data Source.
 func NewDataAwsccBatchConsumableResources(scope constructs.Construct, id *string, config *DataAwsccBatchConsumableResourcesConfig) DataAwsccBatchConsumableResources {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBatchConsumableResources(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/batch_consumable_resources awscc_batch_consumable_resources} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/batch_consumable_resources awscc_batch_consumable_resources} Data Source.
 func NewDataAwsccBatchConsumableResources_Override(d DataAwsccBatchConsumableResources, scope constructs.Construct, id *string, config *DataAwsccBatchConsumableResourcesConfig) {
 	_init_.Initialize()
 

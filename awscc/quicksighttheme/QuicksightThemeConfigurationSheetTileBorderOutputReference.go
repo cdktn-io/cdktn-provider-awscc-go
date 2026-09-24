@@ -13,6 +13,9 @@ import (
 
 type QuicksightThemeConfigurationSheetTileBorderOutputReference interface {
 	cdktn.ComplexObject
+	Color() *string
+	SetColor(val *string)
+	ColorInput() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,6 +46,9 @@ type QuicksightThemeConfigurationSheetTileBorderOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Width() *string
+	SetWidth(val *string)
+	WidthInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -67,7 +73,9 @@ type QuicksightThemeConfigurationSheetTileBorderOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetColor()
 	ResetShow()
+	ResetWidth()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -81,6 +89,26 @@ type QuicksightThemeConfigurationSheetTileBorderOutputReference interface {
 // The jsii proxy struct for QuicksightThemeConfigurationSheetTileBorderOutputReference
 type jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference) Color() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"color",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference) ColorInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"colorInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference) ComplexObjectIndex() interface{} {
@@ -173,6 +201,26 @@ func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference) T
 	return returns
 }
 
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference) Width() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"width",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference) WidthInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"widthInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewQuicksightThemeConfigurationSheetTileBorderOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) QuicksightThemeConfigurationSheetTileBorderOutputReference {
 	_init_.Initialize()
@@ -198,6 +246,17 @@ func NewQuicksightThemeConfigurationSheetTileBorderOutputReference_Override(q Qu
 		"@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationSheetTileBorderOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		q,
+	)
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference)SetColor(val *string) {
+	if err := j.validateSetColorParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"color",
+		val,
 	)
 }
 
@@ -263,6 +322,17 @@ func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference)Se
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference)SetWidth(val *string) {
+	if err := j.validateSetWidthParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"width",
 		val,
 	)
 }
@@ -453,10 +523,26 @@ func (q *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference) I
 	return returns
 }
 
+func (q *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference) ResetColor() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetColor",
+		nil, // no parameters
+	)
+}
+
 func (q *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference) ResetShow() {
 	_jsii_.InvokeVoid(
 		q,
 		"resetShow",
+		nil, // no parameters
+	)
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference) ResetWidth() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetWidth",
 		nil, // no parameters
 	)
 }

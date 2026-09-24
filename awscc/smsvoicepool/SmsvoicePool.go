@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/smsvoice_pool awscc_smsvoice_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/smsvoice_pool awscc_smsvoice_pool}.
 type SmsvoicePool interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -591,7 +591,7 @@ func (j *jsiiProxy_SmsvoicePool) TwoWayInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/smsvoice_pool awscc_smsvoice_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/smsvoice_pool awscc_smsvoice_pool} Resource.
 func NewSmsvoicePool(scope constructs.Construct, id *string, config *SmsvoicePoolConfig) SmsvoicePool {
 	_init_.Initialize()
 
@@ -609,7 +609,7 @@ func NewSmsvoicePool(scope constructs.Construct, id *string, config *SmsvoicePoo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/smsvoice_pool awscc_smsvoice_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/smsvoice_pool awscc_smsvoice_pool} Resource.
 func NewSmsvoicePool_Override(s SmsvoicePool, scope constructs.Construct, id *string, config *SmsvoicePoolConfig) {
 	_init_.Initialize()
 

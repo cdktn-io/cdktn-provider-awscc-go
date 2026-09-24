@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccquicksighttheme
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference) validateSetInternalValueParameters(val *DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSize) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

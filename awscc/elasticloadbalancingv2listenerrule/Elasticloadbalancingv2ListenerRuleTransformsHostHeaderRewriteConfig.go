@@ -5,7 +5,7 @@ package elasticloadbalancingv2listenerrule
 
 
 type Elasticloadbalancingv2ListenerRuleTransformsHostHeaderRewriteConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/elasticloadbalancingv2_listener_rule#rewrites Elasticloadbalancingv2ListenerRule#rewrites}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticloadbalancingv2_listener_rule#rewrites Elasticloadbalancingv2ListenerRule#rewrites}.
 	Rewrites interface{} `field:"optional" json:"rewrites" yaml:"rewrites"`
 }
 

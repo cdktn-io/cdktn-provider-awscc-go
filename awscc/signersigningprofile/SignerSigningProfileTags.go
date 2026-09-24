@@ -5,9 +5,9 @@ package signersigningprofile
 
 
 type SignerSigningProfileTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/signer_signing_profile#key SignerSigningProfile#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/signer_signing_profile#key SignerSigningProfile#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/signer_signing_profile#value SignerSigningProfile#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/signer_signing_profile#value SignerSigningProfile#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

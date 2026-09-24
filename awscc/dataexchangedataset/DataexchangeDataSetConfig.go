@@ -24,19 +24,19 @@ type DataexchangeDataSetConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The type of asset that is added to a data set.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dataexchange_data_set#asset_type DataexchangeDataSet#asset_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dataexchange_data_set#asset_type DataexchangeDataSet#asset_type}
 	AssetType *string `field:"required" json:"assetType" yaml:"assetType"`
 	// A description for the data set.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dataexchange_data_set#description DataexchangeDataSet#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dataexchange_data_set#description DataexchangeDataSet#description}
 	Description *string `field:"required" json:"description" yaml:"description"`
 	// The name of the data set.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dataexchange_data_set#name DataexchangeDataSet#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dataexchange_data_set#name DataexchangeDataSet#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Tags for the data set.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dataexchange_data_set#tags DataexchangeDataSet#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dataexchange_data_set#tags DataexchangeDataSet#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iot_authorizers awscc_iot_authorizers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iot_authorizers awscc_iot_authorizers}.
 type DataAwsccIotAuthorizers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotAuthorizers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iot_authorizers awscc_iot_authorizers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iot_authorizers awscc_iot_authorizers} Data Source.
 func NewDataAwsccIotAuthorizers(scope constructs.Construct, id *string, config *DataAwsccIotAuthorizersConfig) DataAwsccIotAuthorizers {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotAuthorizers(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iot_authorizers awscc_iot_authorizers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iot_authorizers awscc_iot_authorizers} Data Source.
 func NewDataAwsccIotAuthorizers_Override(d DataAwsccIotAuthorizers, scope constructs.Construct, id *string, config *DataAwsccIotAuthorizersConfig) {
 	_init_.Initialize()
 

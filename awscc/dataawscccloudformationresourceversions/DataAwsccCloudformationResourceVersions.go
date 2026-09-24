@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudformation_resource_versions awscc_cloudformation_resource_versions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/cloudformation_resource_versions awscc_cloudformation_resource_versions}.
 type DataAwsccCloudformationResourceVersions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCloudformationResourceVersions) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudformation_resource_versions awscc_cloudformation_resource_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/cloudformation_resource_versions awscc_cloudformation_resource_versions} Data Source.
 func NewDataAwsccCloudformationResourceVersions(scope constructs.Construct, id *string, config *DataAwsccCloudformationResourceVersionsConfig) DataAwsccCloudformationResourceVersions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCloudformationResourceVersions(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudformation_resource_versions awscc_cloudformation_resource_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/cloudformation_resource_versions awscc_cloudformation_resource_versions} Data Source.
 func NewDataAwsccCloudformationResourceVersions_Override(d DataAwsccCloudformationResourceVersions, scope constructs.Construct, id *string, config *DataAwsccCloudformationResourceVersionsConfig) {
 	_init_.Initialize()
 

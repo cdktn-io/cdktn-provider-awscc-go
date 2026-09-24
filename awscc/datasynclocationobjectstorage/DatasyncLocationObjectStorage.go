@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage}.
 type DatasyncLocationObjectStorage interface {
 	cdktn.TerraformResource
 	AccessKey() *string
@@ -44,6 +44,8 @@ type DatasyncLocationObjectStorage interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	FederatedIdentity() DatasyncLocationObjectStorageFederatedIdentityOutputReference
+	FederatedIdentityInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -179,6 +181,7 @@ type DatasyncLocationObjectStorage interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutCmkSecretConfig(value *DatasyncLocationObjectStorageCmkSecretConfig)
 	PutCustomSecretConfig(value *DatasyncLocationObjectStorageCustomSecretConfig)
+	PutFederatedIdentity(value *DatasyncLocationObjectStorageFederatedIdentity)
 	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -198,6 +201,7 @@ type DatasyncLocationObjectStorage interface {
 	ResetBucketName()
 	ResetCmkSecretConfig()
 	ResetCustomSecretConfig()
+	ResetFederatedIdentity()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -380,6 +384,26 @@ func (j *jsiiProxy_DatasyncLocationObjectStorage) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DatasyncLocationObjectStorage) FederatedIdentity() DatasyncLocationObjectStorageFederatedIdentityOutputReference {
+	var returns DatasyncLocationObjectStorageFederatedIdentityOutputReference
+	_jsii_.Get(
+		j,
+		"federatedIdentity",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DatasyncLocationObjectStorage) FederatedIdentityInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"federatedIdentityInput",
 		&returns,
 	)
 	return returns
@@ -676,7 +700,7 @@ func (j *jsiiProxy_DatasyncLocationObjectStorage) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage} Resource.
 func NewDatasyncLocationObjectStorage(scope constructs.Construct, id *string, config *DatasyncLocationObjectStorageConfig) DatasyncLocationObjectStorage {
 	_init_.Initialize()
 
@@ -694,7 +718,7 @@ func NewDatasyncLocationObjectStorage(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage} Resource.
 func NewDatasyncLocationObjectStorage_Override(d DatasyncLocationObjectStorage, scope constructs.Construct, id *string, config *DatasyncLocationObjectStorageConfig) {
 	_init_.Initialize()
 
@@ -1263,6 +1287,17 @@ func (d *jsiiProxy_DatasyncLocationObjectStorage) PutCustomSecretConfig(value *D
 	)
 }
 
+func (d *jsiiProxy_DatasyncLocationObjectStorage) PutFederatedIdentity(value *DatasyncLocationObjectStorageFederatedIdentity) {
+	if err := d.validatePutFederatedIdentityParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putFederatedIdentity",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DatasyncLocationObjectStorage) PutTags(value interface{}) {
 	if err := d.validatePutTagsParameters(value); err != nil {
 		panic(err)
@@ -1321,6 +1356,14 @@ func (d *jsiiProxy_DatasyncLocationObjectStorage) ResetCustomSecretConfig() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetCustomSecretConfig",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DatasyncLocationObjectStorage) ResetFederatedIdentity() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetFederatedIdentity",
 		nil, // no parameters
 	)
 }

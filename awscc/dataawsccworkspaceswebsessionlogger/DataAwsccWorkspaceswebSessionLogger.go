@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/workspacesweb_session_logger awscc_workspacesweb_session_logger}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/workspacesweb_session_logger awscc_workspacesweb_session_logger}.
 type DataAwsccWorkspaceswebSessionLogger interface {
 	cdktn.TerraformDataSource
 	AdditionalEncryptionContext() cdktn.StringMap
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccWorkspaceswebSessionLogger) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/workspacesweb_session_logger awscc_workspacesweb_session_logger} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/workspacesweb_session_logger awscc_workspacesweb_session_logger} Data Source.
 func NewDataAwsccWorkspaceswebSessionLogger(scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebSessionLoggerConfig) DataAwsccWorkspaceswebSessionLogger {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccWorkspaceswebSessionLogger(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/workspacesweb_session_logger awscc_workspacesweb_session_logger} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/workspacesweb_session_logger awscc_workspacesweb_session_logger} Data Source.
 func NewDataAwsccWorkspaceswebSessionLogger_Override(d DataAwsccWorkspaceswebSessionLogger, scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebSessionLoggerConfig) {
 	_init_.Initialize()
 

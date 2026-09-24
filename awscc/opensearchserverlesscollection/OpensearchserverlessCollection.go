@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/opensearchserverless_collection awscc_opensearchserverless_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/opensearchserverless_collection awscc_opensearchserverless_collection}.
 type OpensearchserverlessCollection interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -636,7 +636,7 @@ func (j *jsiiProxy_OpensearchserverlessCollection) VectorOptionsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/opensearchserverless_collection awscc_opensearchserverless_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/opensearchserverless_collection awscc_opensearchserverless_collection} Resource.
 func NewOpensearchserverlessCollection(scope constructs.Construct, id *string, config *OpensearchserverlessCollectionConfig) OpensearchserverlessCollection {
 	_init_.Initialize()
 
@@ -654,7 +654,7 @@ func NewOpensearchserverlessCollection(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/opensearchserverless_collection awscc_opensearchserverless_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/opensearchserverless_collection awscc_opensearchserverless_collection} Resource.
 func NewOpensearchserverlessCollection_Override(o OpensearchserverlessCollection, scope constructs.Construct, id *string, config *OpensearchserverlessCollectionConfig) {
 	_init_.Initialize()
 

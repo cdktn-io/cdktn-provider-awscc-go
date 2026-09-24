@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_customer_gateway awscc_ec2_customer_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_customer_gateway awscc_ec2_customer_gateway}.
 type DataAwsccEc2CustomerGateway interface {
 	cdktn.TerraformDataSource
 	BgpAsn() *float64
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccEc2CustomerGateway) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_customer_gateway awscc_ec2_customer_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_customer_gateway awscc_ec2_customer_gateway} Data Source.
 func NewDataAwsccEc2CustomerGateway(scope constructs.Construct, id *string, config *DataAwsccEc2CustomerGatewayConfig) DataAwsccEc2CustomerGateway {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccEc2CustomerGateway(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_customer_gateway awscc_ec2_customer_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_customer_gateway awscc_ec2_customer_gateway} Data Source.
 func NewDataAwsccEc2CustomerGateway_Override(d DataAwsccEc2CustomerGateway, scope constructs.Construct, id *string, config *DataAwsccEc2CustomerGatewayConfig) {
 	_init_.Initialize()
 

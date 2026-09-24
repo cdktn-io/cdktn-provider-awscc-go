@@ -1,3 +1,3 @@
 # `awscc_rbin_rule`
 
-Refer to the Terraform Registry for docs: [`awscc_rbin_rule`](https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/rbin_rule).
+Refer to the Terraform Registry for docs: [`awscc_rbin_rule`](https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/rbin_rule).

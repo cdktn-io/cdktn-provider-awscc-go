@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/chatbot_microsoft_teams_channel_configurations awscc_chatbot_microsoft_teams_channel_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/chatbot_microsoft_teams_channel_configurations awscc_chatbot_microsoft_teams_channel_configurations}.
 type DataAwsccChatbotMicrosoftTeamsChannelConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccChatbotMicrosoftTeamsChannelConfigurations) Terrafor
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/chatbot_microsoft_teams_channel_configurations awscc_chatbot_microsoft_teams_channel_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/chatbot_microsoft_teams_channel_configurations awscc_chatbot_microsoft_teams_channel_configurations} Data Source.
 func NewDataAwsccChatbotMicrosoftTeamsChannelConfigurations(scope constructs.Construct, id *string, config *DataAwsccChatbotMicrosoftTeamsChannelConfigurationsConfig) DataAwsccChatbotMicrosoftTeamsChannelConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccChatbotMicrosoftTeamsChannelConfigurations(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/chatbot_microsoft_teams_channel_configurations awscc_chatbot_microsoft_teams_channel_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/chatbot_microsoft_teams_channel_configurations awscc_chatbot_microsoft_teams_channel_configurations} Data Source.
 func NewDataAwsccChatbotMicrosoftTeamsChannelConfigurations_Override(d DataAwsccChatbotMicrosoftTeamsChannelConfigurations, scope constructs.Construct, id *string, config *DataAwsccChatbotMicrosoftTeamsChannelConfigurationsConfig) {
 	_init_.Initialize()
 

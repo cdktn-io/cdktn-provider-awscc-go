@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_location_fsx_windows_plural awscc_datasync_location_fsx_windows_plural}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_location_fsx_windows_plural awscc_datasync_location_fsx_windows_plural}.
 type DataAwsccDatasyncLocationFsxWindowsPlural interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDatasyncLocationFsxWindowsPlural) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_location_fsx_windows_plural awscc_datasync_location_fsx_windows_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_location_fsx_windows_plural awscc_datasync_location_fsx_windows_plural} Data Source.
 func NewDataAwsccDatasyncLocationFsxWindowsPlural(scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationFsxWindowsPluralConfig) DataAwsccDatasyncLocationFsxWindowsPlural {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDatasyncLocationFsxWindowsPlural(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_location_fsx_windows_plural awscc_datasync_location_fsx_windows_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_location_fsx_windows_plural awscc_datasync_location_fsx_windows_plural} Data Source.
 func NewDataAwsccDatasyncLocationFsxWindowsPlural_Override(d DataAwsccDatasyncLocationFsxWindowsPlural, scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationFsxWindowsPluralConfig) {
 	_init_.Initialize()
 

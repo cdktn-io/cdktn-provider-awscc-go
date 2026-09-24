@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/qldb_streams awscc_qldb_streams}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/qldb_streams awscc_qldb_streams}.
 type DataAwsccQldbStreams interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccQldbStreams) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/qldb_streams awscc_qldb_streams} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/qldb_streams awscc_qldb_streams} Data Source.
 func NewDataAwsccQldbStreams(scope constructs.Construct, id *string, config *DataAwsccQldbStreamsConfig) DataAwsccQldbStreams {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccQldbStreams(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/qldb_streams awscc_qldb_streams} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/qldb_streams awscc_qldb_streams} Data Source.
 func NewDataAwsccQldbStreams_Override(d DataAwsccQldbStreams, scope constructs.Construct, id *string, config *DataAwsccQldbStreamsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/qbusiness_permission awscc_qbusiness_permission}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/qbusiness_permission awscc_qbusiness_permission}.
 type DataAwsccQbusinessPermission interface {
 	cdktn.TerraformDataSource
 	Actions() *[]*string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccQbusinessPermission) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/qbusiness_permission awscc_qbusiness_permission} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/qbusiness_permission awscc_qbusiness_permission} Data Source.
 func NewDataAwsccQbusinessPermission(scope constructs.Construct, id *string, config *DataAwsccQbusinessPermissionConfig) DataAwsccQbusinessPermission {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccQbusinessPermission(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/qbusiness_permission awscc_qbusiness_permission} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/qbusiness_permission awscc_qbusiness_permission} Data Source.
 func NewDataAwsccQbusinessPermission_Override(d DataAwsccQbusinessPermission, scope constructs.Construct, id *string, config *DataAwsccQbusinessPermissionConfig) {
 	_init_.Initialize()
 

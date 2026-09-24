@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/omics_run_cache awscc_omics_run_cache}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/omics_run_cache awscc_omics_run_cache}.
 type OmicsRunCache interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -543,7 +543,7 @@ func (j *jsiiProxy_OmicsRunCache) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/omics_run_cache awscc_omics_run_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/omics_run_cache awscc_omics_run_cache} Resource.
 func NewOmicsRunCache(scope constructs.Construct, id *string, config *OmicsRunCacheConfig) OmicsRunCache {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewOmicsRunCache(scope constructs.Construct, id *string, config *OmicsRunCa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/omics_run_cache awscc_omics_run_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/omics_run_cache awscc_omics_run_cache} Resource.
 func NewOmicsRunCache_Override(o OmicsRunCache, scope constructs.Construct, id *string, config *OmicsRunCacheConfig) {
 	_init_.Initialize()
 

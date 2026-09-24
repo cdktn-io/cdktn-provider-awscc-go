@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/smsvoice_sender_id awscc_smsvoice_sender_id}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/smsvoice_sender_id awscc_smsvoice_sender_id}.
 type SmsvoiceSenderId interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -460,7 +460,7 @@ func (j *jsiiProxy_SmsvoiceSenderId) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/smsvoice_sender_id awscc_smsvoice_sender_id} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/smsvoice_sender_id awscc_smsvoice_sender_id} Resource.
 func NewSmsvoiceSenderId(scope constructs.Construct, id *string, config *SmsvoiceSenderIdConfig) SmsvoiceSenderId {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewSmsvoiceSenderId(scope constructs.Construct, id *string, config *Smsvoic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/smsvoice_sender_id awscc_smsvoice_sender_id} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/smsvoice_sender_id awscc_smsvoice_sender_id} Resource.
 func NewSmsvoiceSenderId_Override(s SmsvoiceSenderId, scope constructs.Construct, id *string, config *SmsvoiceSenderIdConfig) {
 	_init_.Initialize()
 

@@ -7,15 +7,15 @@ package casescaserule
 type CasesCaseRuleRuleRequiredConditionsEqualTo struct {
 	// The left hand operand in the condition.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cases_case_rule#operand_one CasesCaseRule#operand_one}
 	OperandOne *CasesCaseRuleRuleRequiredConditionsEqualToOperandOne `field:"optional" json:"operandOne" yaml:"operandOne"`
 	// The right hand operand in the condition.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cases_case_rule#operand_two CasesCaseRule#operand_two}
 	OperandTwo *CasesCaseRuleRuleRequiredConditionsEqualToOperandTwo `field:"optional" json:"operandTwo" yaml:"operandTwo"`
 	// The value of the outer rule if the condition evaluates to true.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cases_case_rule#result CasesCaseRule#result}
 	Result interface{} `field:"optional" json:"result" yaml:"result"`
 }
 

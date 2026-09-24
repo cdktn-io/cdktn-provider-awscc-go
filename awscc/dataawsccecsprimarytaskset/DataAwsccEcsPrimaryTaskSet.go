@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ecs_primary_task_set awscc_ecs_primary_task_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ecs_primary_task_set awscc_ecs_primary_task_set}.
 type DataAwsccEcsPrimaryTaskSet interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccEcsPrimaryTaskSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ecs_primary_task_set awscc_ecs_primary_task_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ecs_primary_task_set awscc_ecs_primary_task_set} Data Source.
 func NewDataAwsccEcsPrimaryTaskSet(scope constructs.Construct, id *string, config *DataAwsccEcsPrimaryTaskSetConfig) DataAwsccEcsPrimaryTaskSet {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccEcsPrimaryTaskSet(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ecs_primary_task_set awscc_ecs_primary_task_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ecs_primary_task_set awscc_ecs_primary_task_set} Data Source.
 func NewDataAwsccEcsPrimaryTaskSet_Override(d DataAwsccEcsPrimaryTaskSet, scope constructs.Construct, id *string, config *DataAwsccEcsPrimaryTaskSetConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/s3tables_namespace awscc_s3tables_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/s3tables_namespace awscc_s3tables_namespace}.
 type S3TablesNamespace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_S3TablesNamespace) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/s3tables_namespace awscc_s3tables_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/s3tables_namespace awscc_s3tables_namespace} Resource.
 func NewS3TablesNamespace(scope constructs.Construct, id *string, config *S3TablesNamespaceConfig) S3TablesNamespace {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewS3TablesNamespace(scope constructs.Construct, id *string, config *S3Tabl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/s3tables_namespace awscc_s3tables_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/s3tables_namespace awscc_s3tables_namespace} Resource.
 func NewS3TablesNamespace_Override(s S3TablesNamespace, scope constructs.Construct, id *string, config *S3TablesNamespaceConfig) {
 	_init_.Initialize()
 

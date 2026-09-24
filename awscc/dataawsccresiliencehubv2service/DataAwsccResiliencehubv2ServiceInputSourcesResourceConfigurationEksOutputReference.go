@@ -33,6 +33,7 @@ type DataAwsccResiliencehubv2ServiceInputSourcesResourceConfigurationEksOutputRe
 	Fqn() *string
 	InternalValue() *DataAwsccResiliencehubv2ServiceInputSourcesResourceConfigurationEks
 	SetInternalValue(val *DataAwsccResiliencehubv2ServiceInputSourcesResourceConfigurationEks)
+	LabelSelector() DataAwsccResiliencehubv2ServiceInputSourcesResourceConfigurationEksLabelSelectorOutputReference
 	Namespaces() *[]*string
 	// Experimental.
 	TerraformAttribute() *string
@@ -136,6 +137,16 @@ func (j *jsiiProxy_DataAwsccResiliencehubv2ServiceInputSourcesResourceConfigurat
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccResiliencehubv2ServiceInputSourcesResourceConfigurationEksOutputReference) LabelSelector() DataAwsccResiliencehubv2ServiceInputSourcesResourceConfigurationEksLabelSelectorOutputReference {
+	var returns DataAwsccResiliencehubv2ServiceInputSourcesResourceConfigurationEksLabelSelectorOutputReference
+	_jsii_.Get(
+		j,
+		"labelSelector",
 		&returns,
 	)
 	return returns

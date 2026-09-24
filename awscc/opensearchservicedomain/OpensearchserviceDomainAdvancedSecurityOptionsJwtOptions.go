@@ -5,13 +5,13 @@ package opensearchservicedomain
 
 
 type OpensearchserviceDomainAdvancedSecurityOptionsJwtOptions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/opensearchservice_domain#enabled OpensearchserviceDomain#enabled}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/opensearchservice_domain#enabled OpensearchserviceDomain#enabled}.
 	Enabled interface{} `field:"optional" json:"enabled" yaml:"enabled"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/opensearchservice_domain#public_key OpensearchserviceDomain#public_key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/opensearchservice_domain#public_key OpensearchserviceDomain#public_key}.
 	PublicKey *string `field:"optional" json:"publicKey" yaml:"publicKey"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/opensearchservice_domain#roles_key OpensearchserviceDomain#roles_key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/opensearchservice_domain#roles_key OpensearchserviceDomain#roles_key}.
 	RolesKey *string `field:"optional" json:"rolesKey" yaml:"rolesKey"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/opensearchservice_domain#subject_key OpensearchserviceDomain#subject_key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/opensearchservice_domain#subject_key OpensearchserviceDomain#subject_key}.
 	SubjectKey *string `field:"optional" json:"subjectKey" yaml:"subjectKey"`
 }
 

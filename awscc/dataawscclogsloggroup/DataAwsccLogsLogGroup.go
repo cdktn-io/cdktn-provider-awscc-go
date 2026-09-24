@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/logs_log_group awscc_logs_log_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/logs_log_group awscc_logs_log_group}.
 type DataAwsccLogsLogGroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccLogsLogGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/logs_log_group awscc_logs_log_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/logs_log_group awscc_logs_log_group} Data Source.
 func NewDataAwsccLogsLogGroup(scope constructs.Construct, id *string, config *DataAwsccLogsLogGroupConfig) DataAwsccLogsLogGroup {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccLogsLogGroup(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/logs_log_group awscc_logs_log_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/logs_log_group awscc_logs_log_group} Data Source.
 func NewDataAwsccLogsLogGroup_Override(d DataAwsccLogsLogGroup, scope constructs.Construct, id *string, config *DataAwsccLogsLogGroupConfig) {
 	_init_.Initialize()
 

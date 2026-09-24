@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datapipeline_pipelines awscc_datapipeline_pipelines}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datapipeline_pipelines awscc_datapipeline_pipelines}.
 type DataAwsccDatapipelinePipelines interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDatapipelinePipelines) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datapipeline_pipelines awscc_datapipeline_pipelines} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datapipeline_pipelines awscc_datapipeline_pipelines} Data Source.
 func NewDataAwsccDatapipelinePipelines(scope constructs.Construct, id *string, config *DataAwsccDatapipelinePipelinesConfig) DataAwsccDatapipelinePipelines {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDatapipelinePipelines(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datapipeline_pipelines awscc_datapipeline_pipelines} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datapipeline_pipelines awscc_datapipeline_pipelines} Data Source.
 func NewDataAwsccDatapipelinePipelines_Override(d DataAwsccDatapipelinePipelines, scope constructs.Construct, id *string, config *DataAwsccDatapipelinePipelinesConfig) {
 	_init_.Initialize()
 

@@ -7,7 +7,7 @@ package iotsitewiseworkspace
 type IotsitewiseWorkspaceEncryptionConfiguration struct {
 	// The type of encryption.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_workspace#encryption_type IotsitewiseWorkspace#encryption_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_workspace#encryption_type IotsitewiseWorkspace#encryption_type}
 	EncryptionType *string `field:"required" json:"encryptionType" yaml:"encryptionType"`
 }
 

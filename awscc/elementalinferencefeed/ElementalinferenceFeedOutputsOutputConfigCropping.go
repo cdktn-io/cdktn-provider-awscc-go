@@ -5,7 +5,7 @@ package elementalinferencefeed
 
 
 type ElementalinferenceFeedOutputsOutputConfigCropping struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/elementalinference_feed#template_groups ElementalinferenceFeed#template_groups}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elementalinference_feed#template_groups ElementalinferenceFeed#template_groups}.
 	TemplateGroups interface{} `field:"optional" json:"templateGroups" yaml:"templateGroups"`
 }
 

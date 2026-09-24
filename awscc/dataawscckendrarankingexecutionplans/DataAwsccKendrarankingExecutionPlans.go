@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/kendraranking_execution_plans awscc_kendraranking_execution_plans}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/kendraranking_execution_plans awscc_kendraranking_execution_plans}.
 type DataAwsccKendrarankingExecutionPlans interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccKendrarankingExecutionPlans) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/kendraranking_execution_plans awscc_kendraranking_execution_plans} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/kendraranking_execution_plans awscc_kendraranking_execution_plans} Data Source.
 func NewDataAwsccKendrarankingExecutionPlans(scope constructs.Construct, id *string, config *DataAwsccKendrarankingExecutionPlansConfig) DataAwsccKendrarankingExecutionPlans {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccKendrarankingExecutionPlans(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/kendraranking_execution_plans awscc_kendraranking_execution_plans} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/kendraranking_execution_plans awscc_kendraranking_execution_plans} Data Source.
 func NewDataAwsccKendrarankingExecutionPlans_Override(d DataAwsccKendrarankingExecutionPlans, scope constructs.Construct, id *string, config *DataAwsccKendrarankingExecutionPlansConfig) {
 	_init_.Initialize()
 

@@ -26,21 +26,21 @@ type MediaconvertPresetConfig struct {
 	//
 	// This specification must conform to the AWS Elemental MediaConvert job validation. For information about forming this specification, see the Remarks section later in this topic.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconvert_preset#settings_json MediaconvertPreset#settings_json}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediaconvert_preset#settings_json MediaconvertPreset#settings_json}
 	SettingsJson *string `field:"required" json:"settingsJson" yaml:"settingsJson"`
 	// The new category for the preset, if you are changing it.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconvert_preset#category MediaconvertPreset#category}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediaconvert_preset#category MediaconvertPreset#category}
 	Category *string `field:"optional" json:"category" yaml:"category"`
 	// The new description for the preset, if you are changing it.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconvert_preset#description MediaconvertPreset#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediaconvert_preset#description MediaconvertPreset#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The name of the preset that you are modifying.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconvert_preset#name MediaconvertPreset#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediaconvert_preset#name MediaconvertPreset#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconvert_preset#tags MediaconvertPreset#tags}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediaconvert_preset#tags MediaconvertPreset#tags}.
 	Tags *string `field:"optional" json:"tags" yaml:"tags"`
 }
 

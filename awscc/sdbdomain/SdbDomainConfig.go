@@ -24,7 +24,7 @@ type SdbDomainConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Information about the SimpleDB domain.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sdb_domain#description SdbDomain#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sdb_domain#description SdbDomain#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 }
 

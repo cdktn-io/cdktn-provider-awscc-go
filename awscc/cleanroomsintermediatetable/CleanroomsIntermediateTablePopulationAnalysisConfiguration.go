@@ -5,7 +5,7 @@ package cleanroomsintermediatetable
 
 
 type CleanroomsIntermediateTablePopulationAnalysisConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cleanrooms_intermediate_table#sql_parameters CleanroomsIntermediateTable#sql_parameters}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cleanrooms_intermediate_table#sql_parameters CleanroomsIntermediateTable#sql_parameters}.
 	SqlParameters *CleanroomsIntermediateTablePopulationAnalysisConfigurationSqlParameters `field:"optional" json:"sqlParameters" yaml:"sqlParameters"`
 }
 

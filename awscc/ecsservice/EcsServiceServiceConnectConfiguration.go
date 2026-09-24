@@ -10,11 +10,11 @@ type EcsServiceServiceConnectConfiguration struct {
 	// Access logs capture detailed information about requests made to your service, including request patterns, response codes, and timing data. They can be useful for debugging connectivity issues, monitoring service performance, and auditing service-to-service communication for security and compliance purposes.
 	//   To enable access logs, you must also specify a ``logConfiguration`` in the ``serviceConnectConfiguration``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_service#access_log_configuration EcsService#access_log_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ecs_service#access_log_configuration EcsService#access_log_configuration}
 	AccessLogConfiguration *EcsServiceServiceConnectConfigurationAccessLogConfiguration `field:"optional" json:"accessLogConfiguration" yaml:"accessLogConfiguration"`
 	// Specifies whether to use Service Connect with this service.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_service#enabled EcsService#enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ecs_service#enabled EcsService#enabled}
 	Enabled interface{} `field:"optional" json:"enabled" yaml:"enabled"`
 	// The log configuration for the container.
 	//
@@ -28,13 +28,13 @@ type EcsServiceServiceConnectConfiguration struct {
 	//   +  For tasks that are hosted on Amazon EC2 instances, the Amazon ECS container agent must register the available logging drivers with the ``ECS_AVAILABLE_LOGGING_DRIVERS`` environment variable before containers placed on that instance can use these log configuration options. For more information, see [Amazon ECS container agent configuration](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-agent-config.html) in the *Amazon Elastic Container Service Developer Guide*.
 	//   +  For tasks that are on FARGATElong, because you don't have access to the underlying infrastructure your tasks are hosted on, any additional software needed must be installed outside of the task. For example, the Fluentd output aggregators or a remote host running Logstash to send Gelf logs to.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_service#log_configuration EcsService#log_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ecs_service#log_configuration EcsService#log_configuration}
 	LogConfiguration *EcsServiceServiceConnectConfigurationLogConfiguration `field:"optional" json:"logConfiguration" yaml:"logConfiguration"`
 	// The namespace name or full Amazon Resource Name (ARN) of the CMAPlong namespace for use with Service Connect.
 	//
 	// The namespace must be in the same AWS Region as the Amazon ECS service and cluster. The type of namespace doesn't affect Service Connect. For more information about CMAPlong, see [Working with Services](https://docs.aws.amazon.com/cloud-map/latest/dg/working-with-services.html) in the *Developer Guide*.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_service#namespace EcsService#namespace}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ecs_service#namespace EcsService#namespace}
 	Namespace *string `field:"optional" json:"namespace" yaml:"namespace"`
 	// The list of Service Connect service objects.
 	//
@@ -42,7 +42,7 @@ type EcsServiceServiceConnectConfiguration struct {
 	//  This field is not required for a "client" Amazon ECS service that's a member of a namespace only to connect to other services within the namespace. An example of this would be a frontend application that accepts incoming requests from either a load balancer that's attached to the service or by other means.
 	//  An object selects a port from the task definition, assigns a name for the CMAPlong service, and a list of aliases (endpoints) and ports for client applications to refer to this service.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_service#services EcsService#services}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ecs_service#services EcsService#services}
 	Services interface{} `field:"optional" json:"services" yaml:"services"`
 }
 

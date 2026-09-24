@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/workspacesinstances_volume_association awscc_workspacesinstances_volume_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/workspacesinstances_volume_association awscc_workspacesinstances_volume_association}.
 type WorkspacesinstancesVolumeAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -448,7 +448,7 @@ func (j *jsiiProxy_WorkspacesinstancesVolumeAssociation) WorkspaceInstanceIdInpu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/workspacesinstances_volume_association awscc_workspacesinstances_volume_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/workspacesinstances_volume_association awscc_workspacesinstances_volume_association} Resource.
 func NewWorkspacesinstancesVolumeAssociation(scope constructs.Construct, id *string, config *WorkspacesinstancesVolumeAssociationConfig) WorkspacesinstancesVolumeAssociation {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewWorkspacesinstancesVolumeAssociation(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/workspacesinstances_volume_association awscc_workspacesinstances_volume_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/workspacesinstances_volume_association awscc_workspacesinstances_volume_association} Resource.
 func NewWorkspacesinstancesVolumeAssociation_Override(w WorkspacesinstancesVolumeAssociation, scope constructs.Construct, id *string, config *WorkspacesinstancesVolumeAssociationConfig) {
 	_init_.Initialize()
 

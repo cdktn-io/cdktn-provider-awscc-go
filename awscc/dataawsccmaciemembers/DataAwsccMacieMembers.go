@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/macie_members awscc_macie_members}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/macie_members awscc_macie_members}.
 type DataAwsccMacieMembers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMacieMembers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/macie_members awscc_macie_members} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/macie_members awscc_macie_members} Data Source.
 func NewDataAwsccMacieMembers(scope constructs.Construct, id *string, config *DataAwsccMacieMembersConfig) DataAwsccMacieMembers {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMacieMembers(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/macie_members awscc_macie_members} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/macie_members awscc_macie_members} Data Source.
 func NewDataAwsccMacieMembers_Override(d DataAwsccMacieMembers, scope constructs.Construct, id *string, config *DataAwsccMacieMembersConfig) {
 	_init_.Initialize()
 

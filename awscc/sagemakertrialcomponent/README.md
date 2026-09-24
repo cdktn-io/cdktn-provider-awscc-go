@@ -1,3 +1,3 @@
 # `awscc_sagemaker_trial_component`
 
-Refer to the Terraform Registry for docs: [`awscc_sagemaker_trial_component`](https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_trial_component).
+Refer to the Terraform Registry for docs: [`awscc_sagemaker_trial_component`](https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_trial_component).

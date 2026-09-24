@@ -5,7 +5,7 @@ package mskcluster
 
 
 type MskClusterOpenMonitoringPrometheusJmxExporter struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/msk_cluster#enabled_in_broker MskCluster#enabled_in_broker}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/msk_cluster#enabled_in_broker MskCluster#enabled_in_broker}.
 	EnabledInBroker interface{} `field:"optional" json:"enabledInBroker" yaml:"enabledInBroker"`
 }
 

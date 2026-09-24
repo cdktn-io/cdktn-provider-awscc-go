@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/glue_connection_types awscc_glue_connection_types}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/glue_connection_types awscc_glue_connection_types}.
 type DataAwsccGlueConnectionTypes interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGlueConnectionTypes) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/glue_connection_types awscc_glue_connection_types} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/glue_connection_types awscc_glue_connection_types} Data Source.
 func NewDataAwsccGlueConnectionTypes(scope constructs.Construct, id *string, config *DataAwsccGlueConnectionTypesConfig) DataAwsccGlueConnectionTypes {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGlueConnectionTypes(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/glue_connection_types awscc_glue_connection_types} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/glue_connection_types awscc_glue_connection_types} Data Source.
 func NewDataAwsccGlueConnectionTypes_Override(d DataAwsccGlueConnectionTypes, scope constructs.Construct, id *string, config *DataAwsccGlueConnectionTypesConfig) {
 	_init_.Initialize()
 

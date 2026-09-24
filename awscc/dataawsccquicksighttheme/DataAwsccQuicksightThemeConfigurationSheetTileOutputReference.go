@@ -13,7 +13,9 @@ import (
 
 type DataAwsccQuicksightThemeConfigurationSheetTileOutputReference interface {
 	cdktn.ComplexObject
+	BackgroundColor() *string
 	Border() DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference
+	BorderRadius() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -33,6 +35,7 @@ type DataAwsccQuicksightThemeConfigurationSheetTileOutputReference interface {
 	Fqn() *string
 	InternalValue() *DataAwsccQuicksightThemeConfigurationSheetTile
 	SetInternalValue(val *DataAwsccQuicksightThemeConfigurationSheetTile)
+	Padding() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -80,11 +83,31 @@ type jsiiProxy_DataAwsccQuicksightThemeConfigurationSheetTileOutputReference str
 	internal.Type__cdktnComplexObject
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightThemeConfigurationSheetTileOutputReference) BackgroundColor() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"backgroundColor",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightThemeConfigurationSheetTileOutputReference) Border() DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference {
 	var returns DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference
 	_jsii_.Get(
 		j,
 		"border",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightThemeConfigurationSheetTileOutputReference) BorderRadius() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"borderRadius",
 		&returns,
 	)
 	return returns
@@ -135,6 +158,16 @@ func (j *jsiiProxy_DataAwsccQuicksightThemeConfigurationSheetTileOutputReference
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightThemeConfigurationSheetTileOutputReference) Padding() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"padding",
 		&returns,
 	)
 	return returns

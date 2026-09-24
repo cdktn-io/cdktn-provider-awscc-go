@@ -24,19 +24,19 @@ type BraketSpendingLimitConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The Amazon Resource Name (ARN) of the quantum device to apply the spending limit to.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/braket_spending_limit#device_arn BraketSpendingLimit#device_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/braket_spending_limit#device_arn BraketSpendingLimit#device_arn}
 	DeviceArn *string `field:"required" json:"deviceArn" yaml:"deviceArn"`
 	// The maximum amount that can be spent on the specified device, in USD.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/braket_spending_limit#spending_limit BraketSpendingLimit#spending_limit}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/braket_spending_limit#spending_limit BraketSpendingLimit#spending_limit}
 	SpendingLimit *string `field:"required" json:"spendingLimit" yaml:"spendingLimit"`
 	// The tags to apply to the spending limit.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/braket_spending_limit#tags BraketSpendingLimit#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/braket_spending_limit#tags BraketSpendingLimit#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// Defines a time range for spending limits, specifying when the limit is active.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/braket_spending_limit#time_period BraketSpendingLimit#time_period}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/braket_spending_limit#time_period BraketSpendingLimit#time_period}
 	TimePeriod *BraketSpendingLimitTimePeriod `field:"optional" json:"timePeriod" yaml:"timePeriod"`
 }
 

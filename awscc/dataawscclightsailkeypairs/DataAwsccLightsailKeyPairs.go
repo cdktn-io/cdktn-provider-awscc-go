@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/lightsail_key_pairs awscc_lightsail_key_pairs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/lightsail_key_pairs awscc_lightsail_key_pairs}.
 type DataAwsccLightsailKeyPairs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLightsailKeyPairs) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/lightsail_key_pairs awscc_lightsail_key_pairs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/lightsail_key_pairs awscc_lightsail_key_pairs} Data Source.
 func NewDataAwsccLightsailKeyPairs(scope constructs.Construct, id *string, config *DataAwsccLightsailKeyPairsConfig) DataAwsccLightsailKeyPairs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLightsailKeyPairs(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/lightsail_key_pairs awscc_lightsail_key_pairs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/lightsail_key_pairs awscc_lightsail_key_pairs} Data Source.
 func NewDataAwsccLightsailKeyPairs_Override(d DataAwsccLightsailKeyPairs, scope constructs.Construct, id *string, config *DataAwsccLightsailKeyPairsConfig) {
 	_init_.Initialize()
 

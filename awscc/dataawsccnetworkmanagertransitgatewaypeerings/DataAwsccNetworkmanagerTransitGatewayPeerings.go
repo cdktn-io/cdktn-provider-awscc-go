@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/networkmanager_transit_gateway_peerings awscc_networkmanager_transit_gateway_peerings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/networkmanager_transit_gateway_peerings awscc_networkmanager_transit_gateway_peerings}.
 type DataAwsccNetworkmanagerTransitGatewayPeerings interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNetworkmanagerTransitGatewayPeerings) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/networkmanager_transit_gateway_peerings awscc_networkmanager_transit_gateway_peerings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/networkmanager_transit_gateway_peerings awscc_networkmanager_transit_gateway_peerings} Data Source.
 func NewDataAwsccNetworkmanagerTransitGatewayPeerings(scope constructs.Construct, id *string, config *DataAwsccNetworkmanagerTransitGatewayPeeringsConfig) DataAwsccNetworkmanagerTransitGatewayPeerings {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNetworkmanagerTransitGatewayPeerings(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/networkmanager_transit_gateway_peerings awscc_networkmanager_transit_gateway_peerings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/networkmanager_transit_gateway_peerings awscc_networkmanager_transit_gateway_peerings} Data Source.
 func NewDataAwsccNetworkmanagerTransitGatewayPeerings_Override(d DataAwsccNetworkmanagerTransitGatewayPeerings, scope constructs.Construct, id *string, config *DataAwsccNetworkmanagerTransitGatewayPeeringsConfig) {
 	_init_.Initialize()
 

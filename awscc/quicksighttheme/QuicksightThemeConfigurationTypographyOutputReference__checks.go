@@ -93,6 +93,39 @@ func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) valida
 	return nil
 }
 
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) validatePutAxisLabelFontConfigurationParameters(value *QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) validatePutAxisTitleFontConfigurationParameters(value *QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) validatePutDataLabelFontConfigurationParameters(value *QuicksightThemeConfigurationTypographyDataLabelFontConfiguration) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) validatePutFontFamiliesParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -119,6 +152,50 @@ func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) valida
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*QuicksightThemeConfigurationTypographyFontFamilies; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) validatePutLegendTitleFontConfigurationParameters(value *QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) validatePutLegendValueFontConfigurationParameters(value *QuicksightThemeConfigurationTypographyLegendValueFontConfiguration) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) validatePutVisualSubtitleFontConfigurationParameters(value *QuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) validatePutVisualTitleFontConfigurationParameters(value *QuicksightThemeConfigurationTypographyVisualTitleFontConfiguration) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
 	}
 
 	return nil

@@ -9,15 +9,15 @@ type TimestreamTableSchemaCompositePartitionKey struct {
 	//
 	// Options are REQUIRED (dimension key must be specified) and OPTIONAL (dimension key does not have to be specified).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/timestream_table#enforcement_in_record TimestreamTable#enforcement_in_record}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/timestream_table#enforcement_in_record TimestreamTable#enforcement_in_record}
 	EnforcementInRecord *string `field:"optional" json:"enforcementInRecord" yaml:"enforcementInRecord"`
 	// The name of the attribute used for a dimension key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/timestream_table#name TimestreamTable#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/timestream_table#name TimestreamTable#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// The type of the partition key. Options are DIMENSION (dimension key) and MEASURE (measure key).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/timestream_table#type TimestreamTable#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/timestream_table#type TimestreamTable#type}
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

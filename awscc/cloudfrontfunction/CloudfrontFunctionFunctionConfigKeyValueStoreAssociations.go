@@ -7,7 +7,7 @@ package cloudfrontfunction
 type CloudfrontFunctionFunctionConfigKeyValueStoreAssociations struct {
 	// The Amazon Resource Name (ARN) of the key value store association.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudfront_function#key_value_store_arn CloudfrontFunction#key_value_store_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cloudfront_function#key_value_store_arn CloudfrontFunction#key_value_store_arn}
 	KeyValueStoreArn *string `field:"optional" json:"keyValueStoreArn" yaml:"keyValueStoreArn"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/omics_configuration awscc_omics_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/omics_configuration awscc_omics_configuration}.
 type OmicsConfiguration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -493,7 +493,7 @@ func (j *jsiiProxy_OmicsConfiguration) Uuid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/omics_configuration awscc_omics_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/omics_configuration awscc_omics_configuration} Resource.
 func NewOmicsConfiguration(scope constructs.Construct, id *string, config *OmicsConfigurationConfig) OmicsConfiguration {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewOmicsConfiguration(scope constructs.Construct, id *string, config *Omics
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/omics_configuration awscc_omics_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/omics_configuration awscc_omics_configuration} Resource.
 func NewOmicsConfiguration_Override(o OmicsConfiguration, scope constructs.Construct, id *string, config *OmicsConfigurationConfig) {
 	_init_.Initialize()
 

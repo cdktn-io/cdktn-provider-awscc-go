@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudformation_change_set awscc_cloudformation_change_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cloudformation_change_set awscc_cloudformation_change_set}.
 type CloudformationChangeSet interface {
 	cdktn.TerraformResource
 	Capabilities() *[]*string
@@ -746,7 +746,7 @@ func (j *jsiiProxy_CloudformationChangeSet) UsePreviousTemplateInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudformation_change_set awscc_cloudformation_change_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cloudformation_change_set awscc_cloudformation_change_set} Resource.
 func NewCloudformationChangeSet(scope constructs.Construct, id *string, config *CloudformationChangeSetConfig) CloudformationChangeSet {
 	_init_.Initialize()
 
@@ -764,7 +764,7 @@ func NewCloudformationChangeSet(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudformation_change_set awscc_cloudformation_change_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cloudformation_change_set awscc_cloudformation_change_set} Resource.
 func NewCloudformationChangeSet_Override(c CloudformationChangeSet, scope constructs.Construct, id *string, config *CloudformationChangeSetConfig) {
 	_init_.Initialize()
 

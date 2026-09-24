@@ -5,7 +5,7 @@ package eventsconnection
 
 
 type EventsConnectionAuthParametersConnectivityParameters struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/events_connection#resource_parameters EventsConnection#resource_parameters}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/events_connection#resource_parameters EventsConnection#resource_parameters}.
 	ResourceParameters *EventsConnectionAuthParametersConnectivityParametersResourceParameters `field:"optional" json:"resourceParameters" yaml:"resourceParameters"`
 }
 

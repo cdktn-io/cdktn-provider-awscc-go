@@ -7,7 +7,7 @@ package apsscraper
 type ApsScraperScraperLoggingConfigurationLoggingDestinationCloudwatchLogs struct {
 	// ARN of the CloudWatch log group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/aps_scraper#log_group_arn ApsScraper#log_group_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/aps_scraper#log_group_arn ApsScraper#log_group_arn}
 	LogGroupArn *string `field:"optional" json:"logGroupArn" yaml:"logGroupArn"`
 }
 

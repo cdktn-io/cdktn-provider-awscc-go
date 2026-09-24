@@ -7,15 +7,15 @@ package mediaconnectrouterinput
 type MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevel struct {
 	// Detects black frames in the router input's source content and reports them through a CloudWatch metric, an EventBridge event, and a router input message.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconnect_router_input#black_frames MediaconnectRouterInput#black_frames}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediaconnect_router_input#black_frames MediaconnectRouterInput#black_frames}
 	BlackFrames *MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelBlackFrames `field:"optional" json:"blackFrames" yaml:"blackFrames"`
 	// Detects frozen video frames in the router input's source content and reports them through a CloudWatch metric, an EventBridge event, and a router input message.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconnect_router_input#frozen_frames MediaconnectRouterInput#frozen_frames}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediaconnect_router_input#frozen_frames MediaconnectRouterInput#frozen_frames}
 	FrozenFrames *MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelFrozenFrames `field:"optional" json:"frozenFrames" yaml:"frozenFrames"`
 	// Detects silent audio in the router input's source content and reports it through a CloudWatch metric, an EventBridge event, and a router input message.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconnect_router_input#silent_audio MediaconnectRouterInput#silent_audio}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediaconnect_router_input#silent_audio MediaconnectRouterInput#silent_audio}
 	SilentAudio *MediaconnectRouterInputContentQualityAnalysisConfigurationContentLevelSilentAudio `field:"optional" json:"silentAudio" yaml:"silentAudio"`
 }
 

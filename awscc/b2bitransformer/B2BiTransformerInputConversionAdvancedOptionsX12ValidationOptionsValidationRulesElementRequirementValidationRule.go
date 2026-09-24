@@ -5,9 +5,9 @@ package b2bitransformer
 
 
 type B2BiTransformerInputConversionAdvancedOptionsX12ValidationOptionsValidationRulesElementRequirementValidationRule struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/b2bi_transformer#element_position B2BiTransformer#element_position}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/b2bi_transformer#element_position B2BiTransformer#element_position}.
 	ElementPosition *string `field:"optional" json:"elementPosition" yaml:"elementPosition"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/b2bi_transformer#requirement B2BiTransformer#requirement}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/b2bi_transformer#requirement B2BiTransformer#requirement}.
 	Requirement *string `field:"optional" json:"requirement" yaml:"requirement"`
 }
 

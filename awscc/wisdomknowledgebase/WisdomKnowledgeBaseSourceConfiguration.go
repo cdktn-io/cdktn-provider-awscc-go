@@ -5,9 +5,9 @@ package wisdomknowledgebase
 
 
 type WisdomKnowledgeBaseSourceConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/wisdom_knowledge_base#app_integrations WisdomKnowledgeBase#app_integrations}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/wisdom_knowledge_base#app_integrations WisdomKnowledgeBase#app_integrations}.
 	AppIntegrations *WisdomKnowledgeBaseSourceConfigurationAppIntegrations `field:"optional" json:"appIntegrations" yaml:"appIntegrations"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/wisdom_knowledge_base#managed_source_configuration WisdomKnowledgeBase#managed_source_configuration}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/wisdom_knowledge_base#managed_source_configuration WisdomKnowledgeBase#managed_source_configuration}.
 	ManagedSourceConfiguration *WisdomKnowledgeBaseSourceConfigurationManagedSourceConfiguration `field:"optional" json:"managedSourceConfiguration" yaml:"managedSourceConfiguration"`
 }
 

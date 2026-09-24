@@ -5,7 +5,7 @@ package iotcommand
 
 
 type IotCommandPreprocessorAwsJsonSubstitution struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iot_command#output_format IotCommand#output_format}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iot_command#output_format IotCommand#output_format}.
 	OutputFormat *string `field:"optional" json:"outputFormat" yaml:"outputFormat"`
 }
 

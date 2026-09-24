@@ -5,11 +5,11 @@ package backupbackupplan
 
 
 type BackupBackupPlanBackupPlanScanSettings struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/backup_backup_plan#malware_scanner BackupBackupPlan#malware_scanner}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/backup_backup_plan#malware_scanner BackupBackupPlan#malware_scanner}.
 	MalwareScanner *string `field:"optional" json:"malwareScanner" yaml:"malwareScanner"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/backup_backup_plan#resource_types BackupBackupPlan#resource_types}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/backup_backup_plan#resource_types BackupBackupPlan#resource_types}.
 	ResourceTypes *[]*string `field:"optional" json:"resourceTypes" yaml:"resourceTypes"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/backup_backup_plan#scanner_role_arn BackupBackupPlan#scanner_role_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/backup_backup_plan#scanner_role_arn BackupBackupPlan#scanner_role_arn}.
 	ScannerRoleArn *string `field:"optional" json:"scannerRoleArn" yaml:"scannerRoleArn"`
 }
 

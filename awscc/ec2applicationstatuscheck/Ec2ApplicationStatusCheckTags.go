@@ -5,9 +5,9 @@ package ec2applicationstatuscheck
 
 
 type Ec2ApplicationStatusCheckTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#key Ec2ApplicationStatusCheck#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#key Ec2ApplicationStatusCheck#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_application_status_check#value Ec2ApplicationStatusCheck#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_application_status_check#value Ec2ApplicationStatusCheck#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

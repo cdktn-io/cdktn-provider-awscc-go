@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_enclave_certificate_iam_role_association awscc_ec2_enclave_certificate_iam_role_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_enclave_certificate_iam_role_association awscc_ec2_enclave_certificate_iam_role_association}.
 type Ec2EnclaveCertificateIamRoleAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -434,7 +434,7 @@ func (j *jsiiProxy_Ec2EnclaveCertificateIamRoleAssociation) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_enclave_certificate_iam_role_association awscc_ec2_enclave_certificate_iam_role_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_enclave_certificate_iam_role_association awscc_ec2_enclave_certificate_iam_role_association} Resource.
 func NewEc2EnclaveCertificateIamRoleAssociation(scope constructs.Construct, id *string, config *Ec2EnclaveCertificateIamRoleAssociationConfig) Ec2EnclaveCertificateIamRoleAssociation {
 	_init_.Initialize()
 
@@ -452,7 +452,7 @@ func NewEc2EnclaveCertificateIamRoleAssociation(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_enclave_certificate_iam_role_association awscc_ec2_enclave_certificate_iam_role_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_enclave_certificate_iam_role_association awscc_ec2_enclave_certificate_iam_role_association} Resource.
 func NewEc2EnclaveCertificateIamRoleAssociation_Override(e Ec2EnclaveCertificateIamRoleAssociation, scope constructs.Construct, id *string, config *Ec2EnclaveCertificateIamRoleAssociationConfig) {
 	_init_.Initialize()
 

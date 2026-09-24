@@ -24,23 +24,23 @@ type TextractAdapterConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name to be assigned to the adapter being created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/textract_adapter#adapter_name TextractAdapter#adapter_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/textract_adapter#adapter_name TextractAdapter#adapter_name}
 	AdapterName *string `field:"required" json:"adapterName" yaml:"adapterName"`
 	// The type of feature that the adapter is being trained on. Currently, supported feature types are: QUERIES.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/textract_adapter#feature_types TextractAdapter#feature_types}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/textract_adapter#feature_types TextractAdapter#feature_types}
 	FeatureTypes *[]*string `field:"required" json:"featureTypes" yaml:"featureTypes"`
 	// Controls whether or not the adapter should automatically update.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/textract_adapter#auto_update TextractAdapter#auto_update}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/textract_adapter#auto_update TextractAdapter#auto_update}
 	AutoUpdate *string `field:"optional" json:"autoUpdate" yaml:"autoUpdate"`
 	// The description to be assigned to the adapter being created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/textract_adapter#description TextractAdapter#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/textract_adapter#description TextractAdapter#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// A list of tags to be added to the adapter.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/textract_adapter#tags TextractAdapter#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/textract_adapter#tags TextractAdapter#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

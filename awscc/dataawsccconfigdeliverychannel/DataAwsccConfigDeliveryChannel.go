@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/config_delivery_channel awscc_config_delivery_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/config_delivery_channel awscc_config_delivery_channel}.
 type DataAwsccConfigDeliveryChannel interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccConfigDeliveryChannel) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/config_delivery_channel awscc_config_delivery_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/config_delivery_channel awscc_config_delivery_channel} Data Source.
 func NewDataAwsccConfigDeliveryChannel(scope constructs.Construct, id *string, config *DataAwsccConfigDeliveryChannelConfig) DataAwsccConfigDeliveryChannel {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccConfigDeliveryChannel(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/config_delivery_channel awscc_config_delivery_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/config_delivery_channel awscc_config_delivery_channel} Data Source.
 func NewDataAwsccConfigDeliveryChannel_Override(d DataAwsccConfigDeliveryChannel, scope constructs.Construct, id *string, config *DataAwsccConfigDeliveryChannelConfig) {
 	_init_.Initialize()
 

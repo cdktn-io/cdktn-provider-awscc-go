@@ -112,6 +112,22 @@ func (q *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) validat
 	return nil
 }
 
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) validateSetBackgroundColorParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) validateSetBorderRadiusParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	switch val.(type) {
 	case *string:
@@ -196,6 +212,14 @@ func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) validat
 		if !_jsii_.IsAnonymousProxy(val) {
 			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *QuicksightThemeConfigurationSheetTile; received %#v (a %T)", val, val)
 		}
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) validateSetPaddingParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil

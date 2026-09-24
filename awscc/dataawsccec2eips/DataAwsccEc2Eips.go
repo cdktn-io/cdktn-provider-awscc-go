@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_eips awscc_ec2_eips}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_eips awscc_ec2_eips}.
 type DataAwsccEc2Eips interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2Eips) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_eips awscc_ec2_eips} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_eips awscc_ec2_eips} Data Source.
 func NewDataAwsccEc2Eips(scope constructs.Construct, id *string, config *DataAwsccEc2EipsConfig) DataAwsccEc2Eips {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2Eips(scope constructs.Construct, id *string, config *DataAws
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_eips awscc_ec2_eips} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_eips awscc_ec2_eips} Data Source.
 func NewDataAwsccEc2Eips_Override(d DataAwsccEc2Eips, scope constructs.Construct, id *string, config *DataAwsccEc2EipsConfig) {
 	_init_.Initialize()
 

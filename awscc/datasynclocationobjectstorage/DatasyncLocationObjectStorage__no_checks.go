@@ -87,6 +87,10 @@ func (d *jsiiProxy_DatasyncLocationObjectStorage) validatePutCustomSecretConfigP
 	return nil
 }
 
+func (d *jsiiProxy_DatasyncLocationObjectStorage) validatePutFederatedIdentityParameters(value *DatasyncLocationObjectStorageFederatedIdentity) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatasyncLocationObjectStorage) validatePutTagsParameters(value interface{}) error {
 	return nil
 }

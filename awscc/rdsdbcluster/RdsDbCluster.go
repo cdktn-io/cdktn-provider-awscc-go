@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/rds_db_cluster awscc_rds_db_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/rds_db_cluster awscc_rds_db_cluster}.
 type RdsDbCluster interface {
 	cdktn.TerraformResource
 	AllocatedStorage() *float64
@@ -1885,7 +1885,7 @@ func (j *jsiiProxy_RdsDbCluster) VpcSecurityGroupIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/rds_db_cluster awscc_rds_db_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/rds_db_cluster awscc_rds_db_cluster} Resource.
 func NewRdsDbCluster(scope constructs.Construct, id *string, config *RdsDbClusterConfig) RdsDbCluster {
 	_init_.Initialize()
 
@@ -1903,7 +1903,7 @@ func NewRdsDbCluster(scope constructs.Construct, id *string, config *RdsDbCluste
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/rds_db_cluster awscc_rds_db_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/rds_db_cluster awscc_rds_db_cluster} Resource.
 func NewRdsDbCluster_Override(r RdsDbCluster, scope constructs.Construct, id *string, config *RdsDbClusterConfig) {
 	_init_.Initialize()
 

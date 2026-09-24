@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrockagentcore_memory awscc_bedrockagentcore_memory}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bedrockagentcore_memory awscc_bedrockagentcore_memory}.
 type BedrockagentcoreMemory interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -67,6 +67,8 @@ type BedrockagentcoreMemory interface {
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
+	NamespaceKeys() BedrockagentcoreMemoryNamespaceKeysList
+	NamespaceKeysInput() interface{}
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
@@ -173,6 +175,7 @@ type BedrockagentcoreMemory interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutIndexedKeys(value interface{})
 	PutMemoryStrategies(value interface{})
+	PutNamespaceKeys(value interface{})
 	PutStreamDeliveryResources(value *BedrockagentcoreMemoryStreamDeliveryResources)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -192,6 +195,7 @@ type BedrockagentcoreMemory interface {
 	ResetIndexedKeys()
 	ResetMemoryExecutionRoleArn()
 	ResetMemoryStrategies()
+	ResetNamespaceKeys()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -504,6 +508,26 @@ func (j *jsiiProxy_BedrockagentcoreMemory) NameInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreMemory) NamespaceKeys() BedrockagentcoreMemoryNamespaceKeysList {
+	var returns BedrockagentcoreMemoryNamespaceKeysList
+	_jsii_.Get(
+		j,
+		"namespaceKeys",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreMemory) NamespaceKeysInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"namespaceKeysInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreMemory) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -635,7 +659,7 @@ func (j *jsiiProxy_BedrockagentcoreMemory) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrockagentcore_memory awscc_bedrockagentcore_memory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bedrockagentcore_memory awscc_bedrockagentcore_memory} Resource.
 func NewBedrockagentcoreMemory(scope constructs.Construct, id *string, config *BedrockagentcoreMemoryConfig) BedrockagentcoreMemory {
 	_init_.Initialize()
 
@@ -653,7 +677,7 @@ func NewBedrockagentcoreMemory(scope constructs.Construct, id *string, config *B
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrockagentcore_memory awscc_bedrockagentcore_memory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bedrockagentcore_memory awscc_bedrockagentcore_memory} Resource.
 func NewBedrockagentcoreMemory_Override(b BedrockagentcoreMemory, scope constructs.Construct, id *string, config *BedrockagentcoreMemoryConfig) {
 	_init_.Initialize()
 
@@ -1189,6 +1213,17 @@ func (b *jsiiProxy_BedrockagentcoreMemory) PutMemoryStrategies(value interface{}
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreMemory) PutNamespaceKeys(value interface{}) {
+	if err := b.validatePutNamespaceKeysParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putNamespaceKeys",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreMemory) PutStreamDeliveryResources(value *BedrockagentcoreMemoryStreamDeliveryResources) {
 	if err := b.validatePutStreamDeliveryResourcesParameters(value); err != nil {
 		panic(err)
@@ -1247,6 +1282,14 @@ func (b *jsiiProxy_BedrockagentcoreMemory) ResetMemoryStrategies() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetMemoryStrategies",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreMemory) ResetNamespaceKeys() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetNamespaceKeys",
 		nil, // no parameters
 	)
 }

@@ -7,7 +7,7 @@ package sagemakerhumantaskui
 type SagemakerHumanTaskUiUiTemplate struct {
 	// The content of the Liquid template for the worker user interface.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_human_task_ui#content SagemakerHumanTaskUi#content}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_human_task_ui#content SagemakerHumanTaskUi#content}
 	Content *string `field:"optional" json:"content" yaml:"content"`
 }
 

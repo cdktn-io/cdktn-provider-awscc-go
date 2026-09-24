@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/resiliencehub_app awscc_resiliencehub_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/resiliencehub_app awscc_resiliencehub_app}.
 type ResiliencehubApp interface {
 	cdktn.TerraformResource
 	AppArn() *string
@@ -590,7 +590,7 @@ func (j *jsiiProxy_ResiliencehubApp) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/resiliencehub_app awscc_resiliencehub_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/resiliencehub_app awscc_resiliencehub_app} Resource.
 func NewResiliencehubApp(scope constructs.Construct, id *string, config *ResiliencehubAppConfig) ResiliencehubApp {
 	_init_.Initialize()
 
@@ -608,7 +608,7 @@ func NewResiliencehubApp(scope constructs.Construct, id *string, config *Resilie
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/resiliencehub_app awscc_resiliencehub_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/resiliencehub_app awscc_resiliencehub_app} Resource.
 func NewResiliencehubApp_Override(r ResiliencehubApp, scope constructs.Construct, id *string, config *ResiliencehubAppConfig) {
 	_init_.Initialize()
 

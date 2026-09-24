@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/servicecatalog_cloudformation_product awscc_servicecatalog_cloudformation_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/servicecatalog_cloudformation_product awscc_servicecatalog_cloudformation_product}.
 type DataAwsccServicecatalogCloudformationProduct interface {
 	cdktn.TerraformDataSource
 	AcceptLanguage() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccServicecatalogCloudformationProduct) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/servicecatalog_cloudformation_product awscc_servicecatalog_cloudformation_product} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/servicecatalog_cloudformation_product awscc_servicecatalog_cloudformation_product} Data Source.
 func NewDataAwsccServicecatalogCloudformationProduct(scope constructs.Construct, id *string, config *DataAwsccServicecatalogCloudformationProductConfig) DataAwsccServicecatalogCloudformationProduct {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccServicecatalogCloudformationProduct(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/servicecatalog_cloudformation_product awscc_servicecatalog_cloudformation_product} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/servicecatalog_cloudformation_product awscc_servicecatalog_cloudformation_product} Data Source.
 func NewDataAwsccServicecatalogCloudformationProduct_Override(d DataAwsccServicecatalogCloudformationProduct, scope constructs.Construct, id *string, config *DataAwsccServicecatalogCloudformationProductConfig) {
 	_init_.Initialize()
 

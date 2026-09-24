@@ -5,9 +5,9 @@ package apptesttestcase
 
 
 type ApptestTestCaseStepsActionCompareAction struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/apptest_test_case#input ApptestTestCase#input}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/apptest_test_case#input ApptestTestCase#input}.
 	Input *ApptestTestCaseStepsActionCompareActionInput `field:"optional" json:"input" yaml:"input"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/apptest_test_case#output ApptestTestCase#output}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/apptest_test_case#output ApptestTestCase#output}.
 	Output *ApptestTestCaseStepsActionCompareActionOutput `field:"optional" json:"output" yaml:"output"`
 }
 

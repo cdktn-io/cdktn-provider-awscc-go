@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/events_endpoint awscc_events_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/events_endpoint awscc_events_endpoint}.
 type EventsEndpoint interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -552,7 +552,7 @@ func (j *jsiiProxy_EventsEndpoint) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/events_endpoint awscc_events_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/events_endpoint awscc_events_endpoint} Resource.
 func NewEventsEndpoint(scope constructs.Construct, id *string, config *EventsEndpointConfig) EventsEndpoint {
 	_init_.Initialize()
 
@@ -570,7 +570,7 @@ func NewEventsEndpoint(scope constructs.Construct, id *string, config *EventsEnd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/events_endpoint awscc_events_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/events_endpoint awscc_events_endpoint} Resource.
 func NewEventsEndpoint_Override(e EventsEndpoint, scope constructs.Construct, id *string, config *EventsEndpointConfig) {
 	_init_.Initialize()
 

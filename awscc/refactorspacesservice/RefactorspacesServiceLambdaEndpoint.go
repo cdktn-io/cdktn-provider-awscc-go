@@ -5,7 +5,7 @@ package refactorspacesservice
 
 
 type RefactorspacesServiceLambdaEndpoint struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/refactorspaces_service#arn RefactorspacesService#arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/refactorspaces_service#arn RefactorspacesService#arn}.
 	Arn *string `field:"optional" json:"arn" yaml:"arn"`
 }
 

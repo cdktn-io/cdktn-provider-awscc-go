@@ -24,23 +24,23 @@ type LaunchwizardDeploymentConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Workload deployment pattern name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/launchwizard_deployment#deployment_pattern_name LaunchwizardDeployment#deployment_pattern_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/launchwizard_deployment#deployment_pattern_name LaunchwizardDeployment#deployment_pattern_name}
 	DeploymentPatternName *string `field:"required" json:"deploymentPatternName" yaml:"deploymentPatternName"`
 	// Name of LaunchWizard deployment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/launchwizard_deployment#name LaunchwizardDeployment#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/launchwizard_deployment#name LaunchwizardDeployment#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Workload Name for LaunchWizard deployment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/launchwizard_deployment#workload_name LaunchwizardDeployment#workload_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/launchwizard_deployment#workload_name LaunchwizardDeployment#workload_name}
 	WorkloadName *string `field:"required" json:"workloadName" yaml:"workloadName"`
 	// LaunchWizard deployment specifications.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/launchwizard_deployment#specifications LaunchwizardDeployment#specifications}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/launchwizard_deployment#specifications LaunchwizardDeployment#specifications}
 	Specifications *map[string]*string `field:"optional" json:"specifications" yaml:"specifications"`
 	// Tags for LaunchWizard deployment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/launchwizard_deployment#tags LaunchwizardDeployment#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/launchwizard_deployment#tags LaunchwizardDeployment#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

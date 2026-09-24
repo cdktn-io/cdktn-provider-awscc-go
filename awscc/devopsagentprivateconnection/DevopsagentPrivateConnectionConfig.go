@@ -24,19 +24,19 @@ type DevopsagentPrivateConnectionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The connection configuration for the Private Connection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/devopsagent_private_connection#connection_configuration DevopsagentPrivateConnection#connection_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_private_connection#connection_configuration DevopsagentPrivateConnection#connection_configuration}
 	ConnectionConfiguration *DevopsagentPrivateConnectionConnectionConfiguration `field:"required" json:"connectionConfiguration" yaml:"connectionConfiguration"`
 	// Unique name for this Private Connection within the account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/devopsagent_private_connection#name DevopsagentPrivateConnection#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_private_connection#name DevopsagentPrivateConnection#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Certificate for the Private Connection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/devopsagent_private_connection#certificate DevopsagentPrivateConnection#certificate}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_private_connection#certificate DevopsagentPrivateConnection#certificate}
 	Certificate *string `field:"optional" json:"certificate" yaml:"certificate"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/devopsagent_private_connection#tags DevopsagentPrivateConnection#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_private_connection#tags DevopsagentPrivateConnection#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

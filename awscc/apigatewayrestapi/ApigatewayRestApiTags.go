@@ -9,11 +9,11 @@ type ApigatewayRestApiTags struct {
 	//
 	// The combination of tag keys and values can help you organize and categorize your resources.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/apigateway_rest_api#key ApigatewayRestApi#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/apigateway_rest_api#key ApigatewayRestApi#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value for the specified tag key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/apigateway_rest_api#value ApigatewayRestApi#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/apigateway_rest_api#value ApigatewayRestApi#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

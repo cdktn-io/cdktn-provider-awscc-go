@@ -24,7 +24,7 @@ type EcrSigningConfigurationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Array of signing rules that define which repositories should be signed and with which signing profiles.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecr_signing_configuration#rules EcrSigningConfiguration#rules}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ecr_signing_configuration#rules EcrSigningConfiguration#rules}
 	Rules interface{} `field:"required" json:"rules" yaml:"rules"`
 }
 

@@ -1,3 +1,3 @@
 # `awscc_kendraranking_execution_plan`
 
-Refer to the Terraform Registry for docs: [`awscc_kendraranking_execution_plan`](https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendraranking_execution_plan).
+Refer to the Terraform Registry for docs: [`awscc_kendraranking_execution_plan`](https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendraranking_execution_plan).

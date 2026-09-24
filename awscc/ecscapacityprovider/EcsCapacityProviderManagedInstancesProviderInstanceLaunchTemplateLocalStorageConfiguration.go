@@ -5,7 +5,7 @@ package ecscapacityprovider
 
 
 type EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateLocalStorageConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_capacity_provider#use_local_storage EcsCapacityProvider#use_local_storage}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ecs_capacity_provider#use_local_storage EcsCapacityProvider#use_local_storage}.
 	UseLocalStorage interface{} `field:"optional" json:"useLocalStorage" yaml:"useLocalStorage"`
 }
 

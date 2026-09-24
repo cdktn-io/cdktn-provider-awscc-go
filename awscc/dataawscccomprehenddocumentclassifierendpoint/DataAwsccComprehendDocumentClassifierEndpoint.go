@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/comprehend_document_classifier_endpoint awscc_comprehend_document_classifier_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/comprehend_document_classifier_endpoint awscc_comprehend_document_classifier_endpoint}.
 type DataAwsccComprehendDocumentClassifierEndpoint interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccComprehendDocumentClassifierEndpoint) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/comprehend_document_classifier_endpoint awscc_comprehend_document_classifier_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/comprehend_document_classifier_endpoint awscc_comprehend_document_classifier_endpoint} Data Source.
 func NewDataAwsccComprehendDocumentClassifierEndpoint(scope constructs.Construct, id *string, config *DataAwsccComprehendDocumentClassifierEndpointConfig) DataAwsccComprehendDocumentClassifierEndpoint {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccComprehendDocumentClassifierEndpoint(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/comprehend_document_classifier_endpoint awscc_comprehend_document_classifier_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/comprehend_document_classifier_endpoint awscc_comprehend_document_classifier_endpoint} Data Source.
 func NewDataAwsccComprehendDocumentClassifierEndpoint_Override(d DataAwsccComprehendDocumentClassifierEndpoint, scope constructs.Construct, id *string, config *DataAwsccComprehendDocumentClassifierEndpointConfig) {
 	_init_.Initialize()
 

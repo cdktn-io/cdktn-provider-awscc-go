@@ -1,3 +1,3 @@
 # `awscc_iam_role`
 
-Refer to the Terraform Registry for docs: [`awscc_iam_role`](https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iam_role).
+Refer to the Terraform Registry for docs: [`awscc_iam_role`](https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iam_role).

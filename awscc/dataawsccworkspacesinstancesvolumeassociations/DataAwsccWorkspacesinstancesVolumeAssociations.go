@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/workspacesinstances_volume_associations awscc_workspacesinstances_volume_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/workspacesinstances_volume_associations awscc_workspacesinstances_volume_associations}.
 type DataAwsccWorkspacesinstancesVolumeAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccWorkspacesinstancesVolumeAssociations) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/workspacesinstances_volume_associations awscc_workspacesinstances_volume_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/workspacesinstances_volume_associations awscc_workspacesinstances_volume_associations} Data Source.
 func NewDataAwsccWorkspacesinstancesVolumeAssociations(scope constructs.Construct, id *string, config *DataAwsccWorkspacesinstancesVolumeAssociationsConfig) DataAwsccWorkspacesinstancesVolumeAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccWorkspacesinstancesVolumeAssociations(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/workspacesinstances_volume_associations awscc_workspacesinstances_volume_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/workspacesinstances_volume_associations awscc_workspacesinstances_volume_associations} Data Source.
 func NewDataAwsccWorkspacesinstancesVolumeAssociations_Override(d DataAwsccWorkspacesinstancesVolumeAssociations, scope constructs.Construct, id *string, config *DataAwsccWorkspacesinstancesVolumeAssociationsConfig) {
 	_init_.Initialize()
 

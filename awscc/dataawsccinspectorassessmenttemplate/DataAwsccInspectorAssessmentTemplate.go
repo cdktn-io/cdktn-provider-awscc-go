@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/inspector_assessment_template awscc_inspector_assessment_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/inspector_assessment_template awscc_inspector_assessment_template}.
 type DataAwsccInspectorAssessmentTemplate interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccInspectorAssessmentTemplate) UserAttributesForFindin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/inspector_assessment_template awscc_inspector_assessment_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/inspector_assessment_template awscc_inspector_assessment_template} Data Source.
 func NewDataAwsccInspectorAssessmentTemplate(scope constructs.Construct, id *string, config *DataAwsccInspectorAssessmentTemplateConfig) DataAwsccInspectorAssessmentTemplate {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccInspectorAssessmentTemplate(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/inspector_assessment_template awscc_inspector_assessment_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/inspector_assessment_template awscc_inspector_assessment_template} Data Source.
 func NewDataAwsccInspectorAssessmentTemplate_Override(d DataAwsccInspectorAssessmentTemplate, scope constructs.Construct, id *string, config *DataAwsccInspectorAssessmentTemplateConfig) {
 	_init_.Initialize()
 

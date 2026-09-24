@@ -5,9 +5,9 @@ package healthagentdomain
 
 
 type HealthagentDomainTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/healthagent_domain#key HealthagentDomain#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/healthagent_domain#key HealthagentDomain#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/healthagent_domain#value HealthagentDomain#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/healthagent_domain#value HealthagentDomain#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

@@ -5,11 +5,11 @@ package sagemakerinferencecomponent
 
 
 type SagemakerInferenceComponentSpecificationsSchedulingConfigAvailabilityZoneBalance struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_inference_component#enforcement_mode SagemakerInferenceComponent#enforcement_mode}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_inference_component#enforcement_mode SagemakerInferenceComponent#enforcement_mode}.
 	EnforcementMode *string `field:"optional" json:"enforcementMode" yaml:"enforcementMode"`
 	// The maximum allowed difference in the number of inference component copies between any two Availability Zones.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_inference_component#max_imbalance SagemakerInferenceComponent#max_imbalance}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_inference_component#max_imbalance SagemakerInferenceComponent#max_imbalance}
 	MaxImbalance *float64 `field:"optional" json:"maxImbalance" yaml:"maxImbalance"`
 }
 

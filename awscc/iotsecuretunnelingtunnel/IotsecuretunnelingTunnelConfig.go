@@ -24,19 +24,19 @@ type IotsecuretunnelingTunnelConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A short text description of the tunnel.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsecuretunneling_tunnel#description IotsecuretunnelingTunnel#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsecuretunneling_tunnel#description IotsecuretunnelingTunnel#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The destination configuration for the tunnel.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsecuretunneling_tunnel#destination_config IotsecuretunnelingTunnel#destination_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsecuretunneling_tunnel#destination_config IotsecuretunnelingTunnel#destination_config}
 	DestinationConfig *IotsecuretunnelingTunnelDestinationConfig `field:"optional" json:"destinationConfig" yaml:"destinationConfig"`
 	// A collection of tag metadata.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsecuretunneling_tunnel#tags IotsecuretunnelingTunnel#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsecuretunneling_tunnel#tags IotsecuretunnelingTunnel#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// Timeout configuration for the tunnel.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsecuretunneling_tunnel#timeout_config IotsecuretunnelingTunnel#timeout_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsecuretunneling_tunnel#timeout_config IotsecuretunnelingTunnel#timeout_config}
 	TimeoutConfig *IotsecuretunnelingTunnelTimeoutConfig `field:"optional" json:"timeoutConfig" yaml:"timeoutConfig"`
 }
 

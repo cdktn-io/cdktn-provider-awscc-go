@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/appstream_application awscc_appstream_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/appstream_application awscc_appstream_application}.
 type DataAwsccAppstreamApplication interface {
 	cdktn.TerraformDataSource
 	AppBlockArn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccAppstreamApplication) WorkingDirectory() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/appstream_application awscc_appstream_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/appstream_application awscc_appstream_application} Data Source.
 func NewDataAwsccAppstreamApplication(scope constructs.Construct, id *string, config *DataAwsccAppstreamApplicationConfig) DataAwsccAppstreamApplication {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccAppstreamApplication(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/appstream_application awscc_appstream_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/appstream_application awscc_appstream_application} Data Source.
 func NewDataAwsccAppstreamApplication_Override(d DataAwsccAppstreamApplication, scope constructs.Construct, id *string, config *DataAwsccAppstreamApplicationConfig) {
 	_init_.Initialize()
 

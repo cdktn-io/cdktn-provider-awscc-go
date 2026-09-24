@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/stepfunctions_state_machine awscc_stepfunctions_state_machine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/stepfunctions_state_machine awscc_stepfunctions_state_machine}.
 type DataAwsccStepfunctionsStateMachine interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccStepfunctionsStateMachine) TracingConfiguration() Da
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/stepfunctions_state_machine awscc_stepfunctions_state_machine} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/stepfunctions_state_machine awscc_stepfunctions_state_machine} Data Source.
 func NewDataAwsccStepfunctionsStateMachine(scope constructs.Construct, id *string, config *DataAwsccStepfunctionsStateMachineConfig) DataAwsccStepfunctionsStateMachine {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccStepfunctionsStateMachine(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/stepfunctions_state_machine awscc_stepfunctions_state_machine} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/stepfunctions_state_machine awscc_stepfunctions_state_machine} Data Source.
 func NewDataAwsccStepfunctionsStateMachine_Override(d DataAwsccStepfunctionsStateMachine, scope constructs.Construct, id *string, config *DataAwsccStepfunctionsStateMachineConfig) {
 	_init_.Initialize()
 

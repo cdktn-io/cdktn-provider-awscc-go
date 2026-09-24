@@ -24,19 +24,19 @@ type ChimeSipMediaApplicationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The AWS Region in which the SIP media application is created.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_sip_media_application#aws_region ChimeSipMediaApplication#aws_region}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_sip_media_application#aws_region ChimeSipMediaApplication#aws_region}
 	AwsRegion *string `field:"required" json:"awsRegion" yaml:"awsRegion"`
 	// List of endpoints (Lambda ARNs) specified for the SIP media application.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_sip_media_application#endpoints ChimeSipMediaApplication#endpoints}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_sip_media_application#endpoints ChimeSipMediaApplication#endpoints}
 	Endpoints interface{} `field:"required" json:"endpoints" yaml:"endpoints"`
 	// The name of the SIP media application.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_sip_media_application#name ChimeSipMediaApplication#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_sip_media_application#name ChimeSipMediaApplication#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Tags assigned to the SIP media application.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_sip_media_application#tags ChimeSipMediaApplication#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_sip_media_application#tags ChimeSipMediaApplication#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/kendra_featured_results_set awscc_kendra_featured_results_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/kendra_featured_results_set awscc_kendra_featured_results_set}.
 type DataAwsccKendraFeaturedResultsSet interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccKendraFeaturedResultsSet) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/kendra_featured_results_set awscc_kendra_featured_results_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/kendra_featured_results_set awscc_kendra_featured_results_set} Data Source.
 func NewDataAwsccKendraFeaturedResultsSet(scope constructs.Construct, id *string, config *DataAwsccKendraFeaturedResultsSetConfig) DataAwsccKendraFeaturedResultsSet {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccKendraFeaturedResultsSet(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/kendra_featured_results_set awscc_kendra_featured_results_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/kendra_featured_results_set awscc_kendra_featured_results_set} Data Source.
 func NewDataAwsccKendraFeaturedResultsSet_Override(d DataAwsccKendraFeaturedResultsSet, scope constructs.Construct, id *string, config *DataAwsccKendraFeaturedResultsSetConfig) {
 	_init_.Initialize()
 

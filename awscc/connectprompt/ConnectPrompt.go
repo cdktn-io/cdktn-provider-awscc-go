@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_prompt awscc_connect_prompt}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_prompt awscc_connect_prompt}.
 type ConnectPrompt interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_ConnectPrompt) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_prompt awscc_connect_prompt} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_prompt awscc_connect_prompt} Resource.
 func NewConnectPrompt(scope constructs.Construct, id *string, config *ConnectPromptConfig) ConnectPrompt {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewConnectPrompt(scope constructs.Construct, id *string, config *ConnectPro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_prompt awscc_connect_prompt} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_prompt awscc_connect_prompt} Resource.
 func NewConnectPrompt_Override(c ConnectPrompt, scope constructs.Construct, id *string, config *ConnectPromptConfig) {
 	_init_.Initialize()
 

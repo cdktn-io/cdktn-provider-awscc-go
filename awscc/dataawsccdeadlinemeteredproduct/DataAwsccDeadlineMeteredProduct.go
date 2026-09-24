@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/deadline_metered_product awscc_deadline_metered_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/deadline_metered_product awscc_deadline_metered_product}.
 type DataAwsccDeadlineMeteredProduct interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccDeadlineMeteredProduct) Vendor() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/deadline_metered_product awscc_deadline_metered_product} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/deadline_metered_product awscc_deadline_metered_product} Data Source.
 func NewDataAwsccDeadlineMeteredProduct(scope constructs.Construct, id *string, config *DataAwsccDeadlineMeteredProductConfig) DataAwsccDeadlineMeteredProduct {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccDeadlineMeteredProduct(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/deadline_metered_product awscc_deadline_metered_product} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/deadline_metered_product awscc_deadline_metered_product} Data Source.
 func NewDataAwsccDeadlineMeteredProduct_Override(d DataAwsccDeadlineMeteredProduct, scope constructs.Construct, id *string, config *DataAwsccDeadlineMeteredProductConfig) {
 	_init_.Initialize()
 

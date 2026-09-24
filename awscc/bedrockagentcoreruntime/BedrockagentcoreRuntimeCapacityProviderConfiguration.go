@@ -7,7 +7,7 @@ package bedrockagentcoreruntime
 type BedrockagentcoreRuntimeCapacityProviderConfiguration struct {
 	// ARN of the capacity provider.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrockagentcore_runtime#capacity_provider_arn BedrockagentcoreRuntime#capacity_provider_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bedrockagentcore_runtime#capacity_provider_arn BedrockagentcoreRuntime#capacity_provider_arn}
 	CapacityProviderArn *string `field:"optional" json:"capacityProviderArn" yaml:"capacityProviderArn"`
 }
 

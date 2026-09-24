@@ -12,10 +12,11 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/mediapackagev2_channel awscc_mediapackagev2_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/mediapackagev2_channel awscc_mediapackagev2_channel}.
 type DataAwsccMediapackagev2Channel interface {
 	cdktn.TerraformDataSource
 	Arn() *string
+	AttachedMultiviewChannels() *[]*string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	ChannelGroupName() *string
@@ -52,6 +53,7 @@ type DataAwsccMediapackagev2Channel interface {
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	ModifiedAt() *string
+	MultiviewConfiguration() DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference
 	// The tree node.
 	Node() constructs.Node
 	OutputHeaderConfiguration() DataAwsccMediapackagev2ChannelOutputHeaderConfigurationOutputReference
@@ -143,6 +145,16 @@ func (j *jsiiProxy_DataAwsccMediapackagev2Channel) Arn() *string {
 	_jsii_.Get(
 		j,
 		"arn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccMediapackagev2Channel) AttachedMultiviewChannels() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"attachedMultiviewChannels",
 		&returns,
 	)
 	return returns
@@ -338,6 +350,16 @@ func (j *jsiiProxy_DataAwsccMediapackagev2Channel) ModifiedAt() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccMediapackagev2Channel) MultiviewConfiguration() DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference {
+	var returns DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"multiviewConfiguration",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccMediapackagev2Channel) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -429,7 +451,7 @@ func (j *jsiiProxy_DataAwsccMediapackagev2Channel) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/mediapackagev2_channel awscc_mediapackagev2_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/mediapackagev2_channel awscc_mediapackagev2_channel} Data Source.
 func NewDataAwsccMediapackagev2Channel(scope constructs.Construct, id *string, config *DataAwsccMediapackagev2ChannelConfig) DataAwsccMediapackagev2Channel {
 	_init_.Initialize()
 
@@ -447,7 +469,7 @@ func NewDataAwsccMediapackagev2Channel(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/mediapackagev2_channel awscc_mediapackagev2_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/mediapackagev2_channel awscc_mediapackagev2_channel} Data Source.
 func NewDataAwsccMediapackagev2Channel_Override(d DataAwsccMediapackagev2Channel, scope constructs.Construct, id *string, config *DataAwsccMediapackagev2ChannelConfig) {
 	_init_.Initialize()
 

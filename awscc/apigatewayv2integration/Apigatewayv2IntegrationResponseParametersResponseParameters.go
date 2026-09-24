@@ -5,9 +5,9 @@ package apigatewayv2integration
 
 
 type Apigatewayv2IntegrationResponseParametersResponseParameters struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/apigatewayv2_integration#destination Apigatewayv2Integration#destination}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/apigatewayv2_integration#destination Apigatewayv2Integration#destination}.
 	Destination *string `field:"optional" json:"destination" yaml:"destination"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/apigatewayv2_integration#source Apigatewayv2Integration#source}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/apigatewayv2_integration#source Apigatewayv2Integration#source}.
 	Source *string `field:"optional" json:"source" yaml:"source"`
 }
 

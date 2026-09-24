@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/securityhub_product_subscriptions awscc_securityhub_product_subscriptions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/securityhub_product_subscriptions awscc_securityhub_product_subscriptions}.
 type DataAwsccSecurityhubProductSubscriptions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSecurityhubProductSubscriptions) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/securityhub_product_subscriptions awscc_securityhub_product_subscriptions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/securityhub_product_subscriptions awscc_securityhub_product_subscriptions} Data Source.
 func NewDataAwsccSecurityhubProductSubscriptions(scope constructs.Construct, id *string, config *DataAwsccSecurityhubProductSubscriptionsConfig) DataAwsccSecurityhubProductSubscriptions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSecurityhubProductSubscriptions(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/securityhub_product_subscriptions awscc_securityhub_product_subscriptions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/securityhub_product_subscriptions awscc_securityhub_product_subscriptions} Data Source.
 func NewDataAwsccSecurityhubProductSubscriptions_Override(d DataAwsccSecurityhubProductSubscriptions, scope constructs.Construct, id *string, config *DataAwsccSecurityhubProductSubscriptionsConfig) {
 	_init_.Initialize()
 

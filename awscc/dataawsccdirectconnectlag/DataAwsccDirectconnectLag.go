@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/directconnect_lag awscc_directconnect_lag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/directconnect_lag awscc_directconnect_lag}.
 type DataAwsccDirectconnectLag interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccDirectconnectLag) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/directconnect_lag awscc_directconnect_lag} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/directconnect_lag awscc_directconnect_lag} Data Source.
 func NewDataAwsccDirectconnectLag(scope constructs.Construct, id *string, config *DataAwsccDirectconnectLagConfig) DataAwsccDirectconnectLag {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccDirectconnectLag(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/directconnect_lag awscc_directconnect_lag} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/directconnect_lag awscc_directconnect_lag} Data Source.
 func NewDataAwsccDirectconnectLag_Override(d DataAwsccDirectconnectLag, scope constructs.Construct, id *string, config *DataAwsccDirectconnectLagConfig) {
 	_init_.Initialize()
 

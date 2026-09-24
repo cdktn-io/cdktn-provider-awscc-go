@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lambda_network_connector awscc_lambda_network_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/lambda_network_connector awscc_lambda_network_connector}.
 type LambdaNetworkConnector interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -472,7 +472,7 @@ func (j *jsiiProxy_LambdaNetworkConnector) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lambda_network_connector awscc_lambda_network_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/lambda_network_connector awscc_lambda_network_connector} Resource.
 func NewLambdaNetworkConnector(scope constructs.Construct, id *string, config *LambdaNetworkConnectorConfig) LambdaNetworkConnector {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewLambdaNetworkConnector(scope constructs.Construct, id *string, config *L
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lambda_network_connector awscc_lambda_network_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/lambda_network_connector awscc_lambda_network_connector} Resource.
 func NewLambdaNetworkConnector_Override(l LambdaNetworkConnector, scope constructs.Construct, id *string, config *LambdaNetworkConnectorConfig) {
 	_init_.Initialize()
 

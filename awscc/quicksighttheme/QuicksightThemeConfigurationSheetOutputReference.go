@@ -13,6 +13,8 @@ import (
 
 type QuicksightThemeConfigurationSheetOutputReference interface {
 	cdktn.ComplexObject
+	Background() QuicksightThemeConfigurationSheetBackgroundOutputReference
+	BackgroundInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -68,8 +70,10 @@ type QuicksightThemeConfigurationSheetOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutBackground(value *QuicksightThemeConfigurationSheetBackground)
 	PutTile(value *QuicksightThemeConfigurationSheetTile)
 	PutTileLayout(value *QuicksightThemeConfigurationSheetTileLayout)
+	ResetBackground()
 	ResetTile()
 	ResetTileLayout()
 	// Produce the Token's value at resolution time.
@@ -85,6 +89,26 @@ type QuicksightThemeConfigurationSheetOutputReference interface {
 // The jsii proxy struct for QuicksightThemeConfigurationSheetOutputReference
 type jsiiProxy_QuicksightThemeConfigurationSheetOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetOutputReference) Background() QuicksightThemeConfigurationSheetBackgroundOutputReference {
+	var returns QuicksightThemeConfigurationSheetBackgroundOutputReference
+	_jsii_.Get(
+		j,
+		"background",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetOutputReference) BackgroundInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"backgroundInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_QuicksightThemeConfigurationSheetOutputReference) ComplexObjectIndex() interface{} {
@@ -466,6 +490,17 @@ func (q *jsiiProxy_QuicksightThemeConfigurationSheetOutputReference) Interpolati
 	return returns
 }
 
+func (q *jsiiProxy_QuicksightThemeConfigurationSheetOutputReference) PutBackground(value *QuicksightThemeConfigurationSheetBackground) {
+	if err := q.validatePutBackgroundParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		q,
+		"putBackground",
+		[]interface{}{value},
+	)
+}
+
 func (q *jsiiProxy_QuicksightThemeConfigurationSheetOutputReference) PutTile(value *QuicksightThemeConfigurationSheetTile) {
 	if err := q.validatePutTileParameters(value); err != nil {
 		panic(err)
@@ -485,6 +520,14 @@ func (q *jsiiProxy_QuicksightThemeConfigurationSheetOutputReference) PutTileLayo
 		q,
 		"putTileLayout",
 		[]interface{}{value},
+	)
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationSheetOutputReference) ResetBackground() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetBackground",
+		nil, // no parameters
 	)
 }
 

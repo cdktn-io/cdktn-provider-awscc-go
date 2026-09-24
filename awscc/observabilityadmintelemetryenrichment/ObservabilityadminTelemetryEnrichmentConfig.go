@@ -24,7 +24,7 @@ type ObservabilityadminTelemetryEnrichmentConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Scope of the Telemetry Enrichment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/observabilityadmin_telemetry_enrichment#scope ObservabilityadminTelemetryEnrichment#scope}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/observabilityadmin_telemetry_enrichment#scope ObservabilityadminTelemetryEnrichment#scope}
 	Scope *string `field:"required" json:"scope" yaml:"scope"`
 }
 

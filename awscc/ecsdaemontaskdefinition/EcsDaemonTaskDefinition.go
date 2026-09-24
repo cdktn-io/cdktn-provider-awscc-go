@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_daemon_task_definition awscc_ecs_daemon_task_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ecs_daemon_task_definition awscc_ecs_daemon_task_definition}.
 type EcsDaemonTaskDefinition interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -606,7 +606,7 @@ func (j *jsiiProxy_EcsDaemonTaskDefinition) VolumesInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_daemon_task_definition awscc_ecs_daemon_task_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ecs_daemon_task_definition awscc_ecs_daemon_task_definition} Resource.
 func NewEcsDaemonTaskDefinition(scope constructs.Construct, id *string, config *EcsDaemonTaskDefinitionConfig) EcsDaemonTaskDefinition {
 	_init_.Initialize()
 
@@ -624,7 +624,7 @@ func NewEcsDaemonTaskDefinition(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_daemon_task_definition awscc_ecs_daemon_task_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ecs_daemon_task_definition awscc_ecs_daemon_task_definition} Resource.
 func NewEcsDaemonTaskDefinition_Override(e EcsDaemonTaskDefinition, scope constructs.Construct, id *string, config *EcsDaemonTaskDefinitionConfig) {
 	_init_.Initialize()
 

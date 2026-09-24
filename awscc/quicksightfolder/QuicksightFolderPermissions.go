@@ -7,7 +7,7 @@ package quicksightfolder
 type QuicksightFolderPermissions struct {
 	// <p>The IAM action to grant or revoke permissions on.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_folder#actions QuicksightFolder#actions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_folder#actions QuicksightFolder#actions}
 	Actions *[]*string `field:"optional" json:"actions" yaml:"actions"`
 	// <p>The Amazon Resource Name (ARN) of the principal.
 	//
@@ -27,7 +27,7 @@ type QuicksightFolderPermissions struct {
 	//             </li>
 	//          </ul>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_folder#principal QuicksightFolder#principal}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_folder#principal QuicksightFolder#principal}
 	Principal *string `field:"optional" json:"principal" yaml:"principal"`
 }
 

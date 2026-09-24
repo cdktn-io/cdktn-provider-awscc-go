@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/entityresolution_id_mapping_workflows awscc_entityresolution_id_mapping_workflows}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/entityresolution_id_mapping_workflows awscc_entityresolution_id_mapping_workflows}.
 type DataAwsccEntityresolutionIdMappingWorkflows interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEntityresolutionIdMappingWorkflows) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/entityresolution_id_mapping_workflows awscc_entityresolution_id_mapping_workflows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/entityresolution_id_mapping_workflows awscc_entityresolution_id_mapping_workflows} Data Source.
 func NewDataAwsccEntityresolutionIdMappingWorkflows(scope constructs.Construct, id *string, config *DataAwsccEntityresolutionIdMappingWorkflowsConfig) DataAwsccEntityresolutionIdMappingWorkflows {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEntityresolutionIdMappingWorkflows(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/entityresolution_id_mapping_workflows awscc_entityresolution_id_mapping_workflows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/entityresolution_id_mapping_workflows awscc_entityresolution_id_mapping_workflows} Data Source.
 func NewDataAwsccEntityresolutionIdMappingWorkflows_Override(d DataAwsccEntityresolutionIdMappingWorkflows, scope constructs.Construct, id *string, config *DataAwsccEntityresolutionIdMappingWorkflowsConfig) {
 	_init_.Initialize()
 

@@ -24,17 +24,17 @@ type DaxParameterGroupConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A description of the parameter group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dax_parameter_group#description DaxParameterGroup#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dax_parameter_group#description DaxParameterGroup#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The name of the parameter group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dax_parameter_group#parameter_group_name DaxParameterGroup#parameter_group_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dax_parameter_group#parameter_group_name DaxParameterGroup#parameter_group_name}
 	ParameterGroupName *string `field:"optional" json:"parameterGroupName" yaml:"parameterGroupName"`
 	// An array of name-value pairs for the parameters in the group.
 	//
 	// Each element in the array represents a single parameter.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dax_parameter_group#parameter_name_values DaxParameterGroup#parameter_name_values}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dax_parameter_group#parameter_name_values DaxParameterGroup#parameter_name_values}
 	ParameterNameValues *string `field:"optional" json:"parameterNameValues" yaml:"parameterNameValues"`
 }
 

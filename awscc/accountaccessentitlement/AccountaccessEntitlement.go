@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/accountaccess_entitlement awscc_accountaccess_entitlement}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/accountaccess_entitlement awscc_accountaccess_entitlement}.
 type AccountaccessEntitlement interface {
 	cdktn.TerraformResource
 	ApplicationArn() *string
@@ -423,7 +423,7 @@ func (j *jsiiProxy_AccountaccessEntitlement) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/accountaccess_entitlement awscc_accountaccess_entitlement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/accountaccess_entitlement awscc_accountaccess_entitlement} Resource.
 func NewAccountaccessEntitlement(scope constructs.Construct, id *string, config *AccountaccessEntitlementConfig) AccountaccessEntitlement {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewAccountaccessEntitlement(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/accountaccess_entitlement awscc_accountaccess_entitlement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/accountaccess_entitlement awscc_accountaccess_entitlement} Resource.
 func NewAccountaccessEntitlement_Override(a AccountaccessEntitlement, scope constructs.Construct, id *string, config *AccountaccessEntitlementConfig) {
 	_init_.Initialize()
 

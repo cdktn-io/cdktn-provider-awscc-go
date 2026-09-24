@@ -37,6 +37,8 @@ type EcsServiceDeploymentConfigurationOutputReference interface {
 	CreationStack() *[]*string
 	DeploymentCircuitBreaker() EcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference
 	DeploymentCircuitBreakerInput() interface{}
+	EarlySuccessCriteria() EcsServiceDeploymentConfigurationEarlySuccessCriteriaOutputReference
+	EarlySuccessCriteriaInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -89,12 +91,14 @@ type EcsServiceDeploymentConfigurationOutputReference interface {
 	PutAlarms(value *EcsServiceDeploymentConfigurationAlarms)
 	PutCanaryConfiguration(value *EcsServiceDeploymentConfigurationCanaryConfiguration)
 	PutDeploymentCircuitBreaker(value *EcsServiceDeploymentConfigurationDeploymentCircuitBreaker)
+	PutEarlySuccessCriteria(value *EcsServiceDeploymentConfigurationEarlySuccessCriteria)
 	PutLifecycleHooks(value interface{})
 	PutLinearConfiguration(value *EcsServiceDeploymentConfigurationLinearConfiguration)
 	ResetAlarms()
 	ResetBakeTimeInMinutes()
 	ResetCanaryConfiguration()
 	ResetDeploymentCircuitBreaker()
+	ResetEarlySuccessCriteria()
 	ResetLifecycleHooks()
 	ResetLinearConfiguration()
 	ResetMaximumPercent()
@@ -220,6 +224,26 @@ func (j *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) DeploymentC
 	_jsii_.Get(
 		j,
 		"deploymentCircuitBreakerInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) EarlySuccessCriteria() EcsServiceDeploymentConfigurationEarlySuccessCriteriaOutputReference {
+	var returns EcsServiceDeploymentConfigurationEarlySuccessCriteriaOutputReference
+	_jsii_.Get(
+		j,
+		"earlySuccessCriteria",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) EarlySuccessCriteriaInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"earlySuccessCriteriaInput",
 		&returns,
 	)
 	return returns
@@ -711,6 +735,17 @@ func (e *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) PutDeployme
 	)
 }
 
+func (e *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) PutEarlySuccessCriteria(value *EcsServiceDeploymentConfigurationEarlySuccessCriteria) {
+	if err := e.validatePutEarlySuccessCriteriaParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putEarlySuccessCriteria",
+		[]interface{}{value},
+	)
+}
+
 func (e *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) PutLifecycleHooks(value interface{}) {
 	if err := e.validatePutLifecycleHooksParameters(value); err != nil {
 		panic(err)
@@ -761,6 +796,14 @@ func (e *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) ResetDeploy
 	_jsii_.InvokeVoid(
 		e,
 		"resetDeploymentCircuitBreaker",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) ResetEarlySuccessCriteria() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetEarlySuccessCriteria",
 		nil, // no parameters
 	)
 }

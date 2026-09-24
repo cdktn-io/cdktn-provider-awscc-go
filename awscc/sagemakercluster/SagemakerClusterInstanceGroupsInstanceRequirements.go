@@ -7,7 +7,7 @@ package sagemakercluster
 type SagemakerClusterInstanceGroupsInstanceRequirements struct {
 	// A list of instance types that can be used for this instance group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_cluster#instance_types SagemakerCluster#instance_types}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_cluster#instance_types SagemakerCluster#instance_types}
 	InstanceTypes *[]*string `field:"optional" json:"instanceTypes" yaml:"instanceTypes"`
 }
 

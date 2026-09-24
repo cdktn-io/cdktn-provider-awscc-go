@@ -5,11 +5,11 @@ package verifiedpermissionspolicy
 
 
 type VerifiedpermissionsPolicyDefinitionTemplateLinked struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/verifiedpermissions_policy#policy_template_id VerifiedpermissionsPolicy#policy_template_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/verifiedpermissions_policy#policy_template_id VerifiedpermissionsPolicy#policy_template_id}.
 	PolicyTemplateId *string `field:"optional" json:"policyTemplateId" yaml:"policyTemplateId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/verifiedpermissions_policy#principal VerifiedpermissionsPolicy#principal}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/verifiedpermissions_policy#principal VerifiedpermissionsPolicy#principal}.
 	Principal *VerifiedpermissionsPolicyDefinitionTemplateLinkedPrincipal `field:"optional" json:"principal" yaml:"principal"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/verifiedpermissions_policy#resource VerifiedpermissionsPolicy#resource}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/verifiedpermissions_policy#resource VerifiedpermissionsPolicy#resource}.
 	Resource *VerifiedpermissionsPolicyDefinitionTemplateLinkedResource `field:"optional" json:"resource" yaml:"resource"`
 }
 

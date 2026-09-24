@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/appsync_channel_namespace awscc_appsync_channel_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/appsync_channel_namespace awscc_appsync_channel_namespace}.
 type DataAwsccAppsyncChannelNamespace interface {
 	cdktn.TerraformDataSource
 	ApiId() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccAppsyncChannelNamespace) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/appsync_channel_namespace awscc_appsync_channel_namespace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/appsync_channel_namespace awscc_appsync_channel_namespace} Data Source.
 func NewDataAwsccAppsyncChannelNamespace(scope constructs.Construct, id *string, config *DataAwsccAppsyncChannelNamespaceConfig) DataAwsccAppsyncChannelNamespace {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccAppsyncChannelNamespace(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/appsync_channel_namespace awscc_appsync_channel_namespace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/appsync_channel_namespace awscc_appsync_channel_namespace} Data Source.
 func NewDataAwsccAppsyncChannelNamespace_Override(d DataAwsccAppsyncChannelNamespace, scope constructs.Construct, id *string, config *DataAwsccAppsyncChannelNamespaceConfig) {
 	_init_.Initialize()
 

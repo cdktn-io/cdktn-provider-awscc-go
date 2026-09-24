@@ -7,11 +7,11 @@ package datasynclocationfsxwindows
 type DatasyncLocationFsxWindowsTags struct {
 	// The key for an AWS resource tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_fsx_windows#key DatasyncLocationFsxWindows#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_fsx_windows#key DatasyncLocationFsxWindows#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value for an AWS resource tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_fsx_windows#value DatasyncLocationFsxWindows#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_fsx_windows#value DatasyncLocationFsxWindows#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

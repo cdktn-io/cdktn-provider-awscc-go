@@ -24,19 +24,19 @@ type DeadlineWorkerConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The farm ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/deadline_worker#farm_id DeadlineWorker#farm_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/deadline_worker#farm_id DeadlineWorker#farm_id}
 	FarmId *string `field:"required" json:"farmId" yaml:"farmId"`
 	// The fleet ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/deadline_worker#fleet_id DeadlineWorker#fleet_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/deadline_worker#fleet_id DeadlineWorker#fleet_id}
 	FleetId *string `field:"required" json:"fleetId" yaml:"fleetId"`
 	// The IP address and host name of the worker.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/deadline_worker#host_properties DeadlineWorker#host_properties}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/deadline_worker#host_properties DeadlineWorker#host_properties}
 	HostProperties *DeadlineWorkerHostProperties `field:"optional" json:"hostProperties" yaml:"hostProperties"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/deadline_worker#tags DeadlineWorker#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/deadline_worker#tags DeadlineWorker#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

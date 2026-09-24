@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/lightsail_contact_methods awscc_lightsail_contact_methods}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/lightsail_contact_methods awscc_lightsail_contact_methods}.
 type DataAwsccLightsailContactMethods interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLightsailContactMethods) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/lightsail_contact_methods awscc_lightsail_contact_methods} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/lightsail_contact_methods awscc_lightsail_contact_methods} Data Source.
 func NewDataAwsccLightsailContactMethods(scope constructs.Construct, id *string, config *DataAwsccLightsailContactMethodsConfig) DataAwsccLightsailContactMethods {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLightsailContactMethods(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/lightsail_contact_methods awscc_lightsail_contact_methods} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/lightsail_contact_methods awscc_lightsail_contact_methods} Data Source.
 func NewDataAwsccLightsailContactMethods_Override(d DataAwsccLightsailContactMethods, scope constructs.Construct, id *string, config *DataAwsccLightsailContactMethodsConfig) {
 	_init_.Initialize()
 

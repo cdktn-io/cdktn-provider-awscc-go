@@ -7,7 +7,7 @@ package quicksightanalysis
 type QuicksightAnalysisPermissions struct {
 	// <p>The IAM action to grant or revoke permissions on.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_analysis#actions QuicksightAnalysis#actions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_analysis#actions QuicksightAnalysis#actions}
 	Actions *[]*string `field:"optional" json:"actions" yaml:"actions"`
 	// <p>The Amazon Resource Name (ARN) of the principal.
 	//
@@ -27,7 +27,7 @@ type QuicksightAnalysisPermissions struct {
 	//             </li>
 	//          </ul>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_analysis#principal QuicksightAnalysis#principal}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_analysis#principal QuicksightAnalysis#principal}
 	Principal *string `field:"optional" json:"principal" yaml:"principal"`
 }
 

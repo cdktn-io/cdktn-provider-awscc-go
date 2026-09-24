@@ -5,9 +5,9 @@ package wisdomassistantassociation
 
 
 type WisdomAssistantAssociationTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/wisdom_assistant_association#key WisdomAssistantAssociation#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/wisdom_assistant_association#key WisdomAssistantAssociation#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/wisdom_assistant_association#value WisdomAssistantAssociation#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/wisdom_assistant_association#value WisdomAssistantAssociation#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

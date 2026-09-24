@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotwireless_wireless_device_import_task awscc_iotwireless_wireless_device_import_task}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotwireless_wireless_device_import_task awscc_iotwireless_wireless_device_import_task}.
 type IotwirelessWirelessDeviceImportTask interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -524,7 +524,7 @@ func (j *jsiiProxy_IotwirelessWirelessDeviceImportTask) WirelessDeviceImportTask
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotwireless_wireless_device_import_task awscc_iotwireless_wireless_device_import_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotwireless_wireless_device_import_task awscc_iotwireless_wireless_device_import_task} Resource.
 func NewIotwirelessWirelessDeviceImportTask(scope constructs.Construct, id *string, config *IotwirelessWirelessDeviceImportTaskConfig) IotwirelessWirelessDeviceImportTask {
 	_init_.Initialize()
 
@@ -542,7 +542,7 @@ func NewIotwirelessWirelessDeviceImportTask(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotwireless_wireless_device_import_task awscc_iotwireless_wireless_device_import_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotwireless_wireless_device_import_task awscc_iotwireless_wireless_device_import_task} Resource.
 func NewIotwirelessWirelessDeviceImportTask_Override(i IotwirelessWirelessDeviceImportTask, scope constructs.Construct, id *string, config *IotwirelessWirelessDeviceImportTaskConfig) {
 	_init_.Initialize()
 

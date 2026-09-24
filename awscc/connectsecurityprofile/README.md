@@ -1,3 +1,3 @@
 # `awscc_connect_security_profile`
 
-Refer to the Terraform Registry for docs: [`awscc_connect_security_profile`](https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_security_profile).
+Refer to the Terraform Registry for docs: [`awscc_connect_security_profile`](https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_security_profile).

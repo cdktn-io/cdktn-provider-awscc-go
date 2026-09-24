@@ -9,7 +9,7 @@ type QuicksightThemeConfigurationSheetTileLayoutGutter struct {
 	//
 	// </p>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
 	Show interface{} `field:"optional" json:"show" yaml:"show"`
 }
 

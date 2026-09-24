@@ -70,6 +70,8 @@ type ElasticbeanstalkApplicationVersionSourceBundleOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetS3Bucket()
+	ResetS3Key()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -484,6 +486,22 @@ func (e *jsiiProxy_ElasticbeanstalkApplicationVersionSourceBundleOutputReference
 	)
 
 	return returns
+}
+
+func (e *jsiiProxy_ElasticbeanstalkApplicationVersionSourceBundleOutputReference) ResetS3Bucket() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetS3Bucket",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_ElasticbeanstalkApplicationVersionSourceBundleOutputReference) ResetS3Key() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetS3Key",
+		nil, // no parameters
+	)
 }
 
 func (e *jsiiProxy_ElasticbeanstalkApplicationVersionSourceBundleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/connect_contact_flow_module_alias awscc_connect_contact_flow_module_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/connect_contact_flow_module_alias awscc_connect_contact_flow_module_alias}.
 type DataAwsccConnectContactFlowModuleAlias interface {
 	cdktn.TerraformDataSource
 	AliasId() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccConnectContactFlowModuleAlias) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/connect_contact_flow_module_alias awscc_connect_contact_flow_module_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/connect_contact_flow_module_alias awscc_connect_contact_flow_module_alias} Data Source.
 func NewDataAwsccConnectContactFlowModuleAlias(scope constructs.Construct, id *string, config *DataAwsccConnectContactFlowModuleAliasConfig) DataAwsccConnectContactFlowModuleAlias {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccConnectContactFlowModuleAlias(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/connect_contact_flow_module_alias awscc_connect_contact_flow_module_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/connect_contact_flow_module_alias awscc_connect_contact_flow_module_alias} Data Source.
 func NewDataAwsccConnectContactFlowModuleAlias_Override(d DataAwsccConnectContactFlowModuleAlias, scope constructs.Construct, id *string, config *DataAwsccConnectContactFlowModuleAliasConfig) {
 	_init_.Initialize()
 

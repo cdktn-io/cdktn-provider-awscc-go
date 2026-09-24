@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/b2bi_partnership awscc_b2bi_partnership}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/b2bi_partnership awscc_b2bi_partnership}.
 type B2BiPartnership interface {
 	cdktn.TerraformResource
 	Capabilities() *[]*string
@@ -574,7 +574,7 @@ func (j *jsiiProxy_B2BiPartnership) TradingPartnerId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/b2bi_partnership awscc_b2bi_partnership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/b2bi_partnership awscc_b2bi_partnership} Resource.
 func NewB2BiPartnership(scope constructs.Construct, id *string, config *B2BiPartnershipConfig) B2BiPartnership {
 	_init_.Initialize()
 
@@ -592,7 +592,7 @@ func NewB2BiPartnership(scope constructs.Construct, id *string, config *B2BiPart
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/b2bi_partnership awscc_b2bi_partnership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/b2bi_partnership awscc_b2bi_partnership} Resource.
 func NewB2BiPartnership_Override(b B2BiPartnership, scope constructs.Construct, id *string, config *B2BiPartnershipConfig) {
 	_init_.Initialize()
 

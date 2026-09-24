@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/frauddetector_label awscc_frauddetector_label}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/frauddetector_label awscc_frauddetector_label}.
 type FrauddetectorLabel interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -459,7 +459,7 @@ func (j *jsiiProxy_FrauddetectorLabel) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/frauddetector_label awscc_frauddetector_label} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/frauddetector_label awscc_frauddetector_label} Resource.
 func NewFrauddetectorLabel(scope constructs.Construct, id *string, config *FrauddetectorLabelConfig) FrauddetectorLabel {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewFrauddetectorLabel(scope constructs.Construct, id *string, config *Fraud
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/frauddetector_label awscc_frauddetector_label} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/frauddetector_label awscc_frauddetector_label} Resource.
 func NewFrauddetectorLabel_Override(f FrauddetectorLabel, scope constructs.Construct, id *string, config *FrauddetectorLabelConfig) {
 	_init_.Initialize()
 

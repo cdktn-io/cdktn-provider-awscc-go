@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/licensemanager_license_asset_rule_set awscc_licensemanager_license_asset_rule_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/licensemanager_license_asset_rule_set awscc_licensemanager_license_asset_rule_set}.
 type DataAwsccLicensemanagerLicenseAssetRuleSet interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccLicensemanagerLicenseAssetRuleSet) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/licensemanager_license_asset_rule_set awscc_licensemanager_license_asset_rule_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/licensemanager_license_asset_rule_set awscc_licensemanager_license_asset_rule_set} Data Source.
 func NewDataAwsccLicensemanagerLicenseAssetRuleSet(scope constructs.Construct, id *string, config *DataAwsccLicensemanagerLicenseAssetRuleSetConfig) DataAwsccLicensemanagerLicenseAssetRuleSet {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccLicensemanagerLicenseAssetRuleSet(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/licensemanager_license_asset_rule_set awscc_licensemanager_license_asset_rule_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/licensemanager_license_asset_rule_set awscc_licensemanager_license_asset_rule_set} Data Source.
 func NewDataAwsccLicensemanagerLicenseAssetRuleSet_Override(d DataAwsccLicensemanagerLicenseAssetRuleSet, scope constructs.Construct, id *string, config *DataAwsccLicensemanagerLicenseAssetRuleSetConfig) {
 	_init_.Initialize()
 

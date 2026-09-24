@@ -1,3 +1,3 @@
 # `awscc_apptest_test_case`
 
-Refer to the Terraform Registry for docs: [`awscc_apptest_test_case`](https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/apptest_test_case).
+Refer to the Terraform Registry for docs: [`awscc_apptest_test_case`](https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/apptest_test_case).

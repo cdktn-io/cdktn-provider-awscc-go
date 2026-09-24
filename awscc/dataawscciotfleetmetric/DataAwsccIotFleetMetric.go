@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iot_fleet_metric awscc_iot_fleet_metric}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iot_fleet_metric awscc_iot_fleet_metric}.
 type DataAwsccIotFleetMetric interface {
 	cdktn.TerraformDataSource
 	AggregationField() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccIotFleetMetric) Version() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iot_fleet_metric awscc_iot_fleet_metric} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iot_fleet_metric awscc_iot_fleet_metric} Data Source.
 func NewDataAwsccIotFleetMetric(scope constructs.Construct, id *string, config *DataAwsccIotFleetMetricConfig) DataAwsccIotFleetMetric {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccIotFleetMetric(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iot_fleet_metric awscc_iot_fleet_metric} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iot_fleet_metric awscc_iot_fleet_metric} Data Source.
 func NewDataAwsccIotFleetMetric_Override(d DataAwsccIotFleetMetric, scope constructs.Construct, id *string, config *DataAwsccIotFleetMetricConfig) {
 	_init_.Initialize()
 

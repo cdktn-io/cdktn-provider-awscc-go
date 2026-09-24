@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/frauddetector_detectors awscc_frauddetector_detectors}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/frauddetector_detectors awscc_frauddetector_detectors}.
 type DataAwsccFrauddetectorDetectors interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccFrauddetectorDetectors) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/frauddetector_detectors awscc_frauddetector_detectors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/frauddetector_detectors awscc_frauddetector_detectors} Data Source.
 func NewDataAwsccFrauddetectorDetectors(scope constructs.Construct, id *string, config *DataAwsccFrauddetectorDetectorsConfig) DataAwsccFrauddetectorDetectors {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccFrauddetectorDetectors(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/frauddetector_detectors awscc_frauddetector_detectors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/frauddetector_detectors awscc_frauddetector_detectors} Data Source.
 func NewDataAwsccFrauddetectorDetectors_Override(d DataAwsccFrauddetectorDetectors, scope constructs.Construct, id *string, config *DataAwsccFrauddetectorDetectorsConfig) {
 	_init_.Initialize()
 

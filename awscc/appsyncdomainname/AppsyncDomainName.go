@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/appsync_domain_name awscc_appsync_domain_name}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/appsync_domain_name awscc_appsync_domain_name}.
 type AppsyncDomainName interface {
 	cdktn.TerraformResource
 	AppSyncDomainName() *string
@@ -482,7 +482,7 @@ func (j *jsiiProxy_AppsyncDomainName) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/appsync_domain_name awscc_appsync_domain_name} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/appsync_domain_name awscc_appsync_domain_name} Resource.
 func NewAppsyncDomainName(scope constructs.Construct, id *string, config *AppsyncDomainNameConfig) AppsyncDomainName {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewAppsyncDomainName(scope constructs.Construct, id *string, config *Appsyn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/appsync_domain_name awscc_appsync_domain_name} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/appsync_domain_name awscc_appsync_domain_name} Resource.
 func NewAppsyncDomainName_Override(a AppsyncDomainName, scope constructs.Construct, id *string, config *AppsyncDomainNameConfig) {
 	_init_.Initialize()
 

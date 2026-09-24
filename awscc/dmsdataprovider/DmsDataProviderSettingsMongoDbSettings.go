@@ -5,21 +5,21 @@ package dmsdataprovider
 
 
 type DmsDataProviderSettingsMongoDbSettings struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_data_provider#auth_mechanism DmsDataProvider#auth_mechanism}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_data_provider#auth_mechanism DmsDataProvider#auth_mechanism}.
 	AuthMechanism *string `field:"optional" json:"authMechanism" yaml:"authMechanism"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_data_provider#auth_source DmsDataProvider#auth_source}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_data_provider#auth_source DmsDataProvider#auth_source}.
 	AuthSource *string `field:"optional" json:"authSource" yaml:"authSource"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_data_provider#auth_type DmsDataProvider#auth_type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_data_provider#auth_type DmsDataProvider#auth_type}.
 	AuthType *string `field:"optional" json:"authType" yaml:"authType"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}.
 	CertificateArn *string `field:"optional" json:"certificateArn" yaml:"certificateArn"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_data_provider#database_name DmsDataProvider#database_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_data_provider#database_name DmsDataProvider#database_name}.
 	DatabaseName *string `field:"optional" json:"databaseName" yaml:"databaseName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_data_provider#port DmsDataProvider#port}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_data_provider#port DmsDataProvider#port}.
 	Port *float64 `field:"optional" json:"port" yaml:"port"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}.
 	ServerName *string `field:"optional" json:"serverName" yaml:"serverName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}.
 	SslMode *string `field:"optional" json:"sslMode" yaml:"sslMode"`
 }
 

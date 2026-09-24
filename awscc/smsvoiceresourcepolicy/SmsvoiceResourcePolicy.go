@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/smsvoice_resource_policy awscc_smsvoice_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/smsvoice_resource_policy awscc_smsvoice_resource_policy}.
 type SmsvoiceResourcePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_SmsvoiceResourcePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/smsvoice_resource_policy awscc_smsvoice_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/smsvoice_resource_policy awscc_smsvoice_resource_policy} Resource.
 func NewSmsvoiceResourcePolicy(scope constructs.Construct, id *string, config *SmsvoiceResourcePolicyConfig) SmsvoiceResourcePolicy {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewSmsvoiceResourcePolicy(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/smsvoice_resource_policy awscc_smsvoice_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/smsvoice_resource_policy awscc_smsvoice_resource_policy} Resource.
 func NewSmsvoiceResourcePolicy_Override(s SmsvoiceResourcePolicy, scope constructs.Construct, id *string, config *SmsvoiceResourcePolicyConfig) {
 	_init_.Initialize()
 

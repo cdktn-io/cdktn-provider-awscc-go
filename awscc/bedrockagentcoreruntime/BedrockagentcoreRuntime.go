@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime}.
 type BedrockagentcoreRuntime interface {
 	cdktn.TerraformResource
 	AgentRuntimeArn() *string
@@ -73,6 +73,9 @@ type BedrockagentcoreRuntime interface {
 	NetworkConfigurationInput() interface{}
 	// The tree node.
 	Node() constructs.Node
+	PlatformVersion() *string
+	SetPlatformVersion(val *string)
+	PlatformVersionInput() *string
 	ProtocolConfiguration() *string
 	SetProtocolConfiguration(val *string)
 	ProtocolConfigurationInput() *string
@@ -211,6 +214,7 @@ type BedrockagentcoreRuntime interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPlatformVersion()
 	ResetProtocolConfiguration()
 	ResetRequestHeaderConfiguration()
 	ResetTags()
@@ -591,6 +595,26 @@ func (j *jsiiProxy_BedrockagentcoreRuntime) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreRuntime) PlatformVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"platformVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreRuntime) PlatformVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"platformVersionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreRuntime) ProtocolConfiguration() *string {
 	var returns *string
 	_jsii_.Get(
@@ -752,7 +776,7 @@ func (j *jsiiProxy_BedrockagentcoreRuntime) WorkloadIdentityDetails() Bedrockage
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime} Resource.
 func NewBedrockagentcoreRuntime(scope constructs.Construct, id *string, config *BedrockagentcoreRuntimeConfig) BedrockagentcoreRuntime {
 	_init_.Initialize()
 
@@ -770,7 +794,7 @@ func NewBedrockagentcoreRuntime(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime} Resource.
 func NewBedrockagentcoreRuntime_Override(b BedrockagentcoreRuntime, scope constructs.Construct, id *string, config *BedrockagentcoreRuntimeConfig) {
 	_init_.Initialize()
 
@@ -859,6 +883,17 @@ func (j *jsiiProxy_BedrockagentcoreRuntime)SetLifecycle(val *cdktn.TerraformReso
 	_jsii_.Set(
 		j,
 		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreRuntime)SetPlatformVersion(val *string) {
+	if err := j.validateSetPlatformVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"platformVersion",
 		val,
 	)
 }
@@ -1432,6 +1467,14 @@ func (b *jsiiProxy_BedrockagentcoreRuntime) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreRuntime) ResetPlatformVersion() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetPlatformVersion",
 		nil, // no parameters
 	)
 }

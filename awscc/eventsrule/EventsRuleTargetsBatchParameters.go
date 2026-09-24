@@ -5,13 +5,13 @@ package eventsrule
 
 
 type EventsRuleTargetsBatchParameters struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/events_rule#array_properties EventsRule#array_properties}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/events_rule#array_properties EventsRule#array_properties}.
 	ArrayProperties *EventsRuleTargetsBatchParametersArrayProperties `field:"optional" json:"arrayProperties" yaml:"arrayProperties"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/events_rule#job_definition EventsRule#job_definition}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/events_rule#job_definition EventsRule#job_definition}.
 	JobDefinition *string `field:"optional" json:"jobDefinition" yaml:"jobDefinition"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/events_rule#job_name EventsRule#job_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/events_rule#job_name EventsRule#job_name}.
 	JobName *string `field:"optional" json:"jobName" yaml:"jobName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/events_rule#retry_strategy EventsRule#retry_strategy}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/events_rule#retry_strategy EventsRule#retry_strategy}.
 	RetryStrategy *EventsRuleTargetsBatchParametersRetryStrategy `field:"optional" json:"retryStrategy" yaml:"retryStrategy"`
 }
 

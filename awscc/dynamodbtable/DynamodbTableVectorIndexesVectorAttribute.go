@@ -5,7 +5,7 @@ package dynamodbtable
 
 
 type DynamodbTableVectorIndexesVectorAttribute struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_table#attribute_name DynamodbTable#attribute_name}.
 	AttributeName *string `field:"optional" json:"attributeName" yaml:"attributeName"`
 }
 

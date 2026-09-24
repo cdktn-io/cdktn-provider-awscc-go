@@ -7,11 +7,11 @@ package memorydbparametergroup
 type MemorydbParameterGroupTags struct {
 	// The key for the tag. May not be null.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_parameter_group#key MemorydbParameterGroup#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_parameter_group#key MemorydbParameterGroup#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The tag's value. May be null.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_parameter_group#value MemorydbParameterGroup#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_parameter_group#value MemorydbParameterGroup#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

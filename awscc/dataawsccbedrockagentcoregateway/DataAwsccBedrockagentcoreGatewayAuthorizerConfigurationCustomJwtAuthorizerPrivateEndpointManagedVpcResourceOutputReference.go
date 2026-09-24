@@ -36,6 +36,7 @@ type DataAwsccBedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerP
 	RoutingDomain() *string
 	SecurityGroupIds() *[]*string
 	SubnetIds() *[]*string
+	Tags() cdktn.StringMap
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -169,6 +170,16 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreGatewayAuthorizerConfigurationCustom
 	_jsii_.Get(
 		j,
 		"subnetIds",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreGatewayAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourceOutputReference) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"tags",
 		&returns,
 	)
 	return returns

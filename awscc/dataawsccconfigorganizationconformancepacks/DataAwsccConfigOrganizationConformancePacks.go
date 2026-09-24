@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/config_organization_conformance_packs awscc_config_organization_conformance_packs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/config_organization_conformance_packs awscc_config_organization_conformance_packs}.
 type DataAwsccConfigOrganizationConformancePacks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccConfigOrganizationConformancePacks) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/config_organization_conformance_packs awscc_config_organization_conformance_packs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/config_organization_conformance_packs awscc_config_organization_conformance_packs} Data Source.
 func NewDataAwsccConfigOrganizationConformancePacks(scope constructs.Construct, id *string, config *DataAwsccConfigOrganizationConformancePacksConfig) DataAwsccConfigOrganizationConformancePacks {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccConfigOrganizationConformancePacks(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/config_organization_conformance_packs awscc_config_organization_conformance_packs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/config_organization_conformance_packs awscc_config_organization_conformance_packs} Data Source.
 func NewDataAwsccConfigOrganizationConformancePacks_Override(d DataAwsccConfigOrganizationConformancePacks, scope constructs.Construct, id *string, config *DataAwsccConfigOrganizationConformancePacksConfig) {
 	_init_.Initialize()
 

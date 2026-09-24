@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iot_security_profile awscc_iot_security_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iot_security_profile awscc_iot_security_profile}.
 type IotSecurityProfile interface {
 	cdktn.TerraformResource
 	AdditionalMetricsToRetainV2() IotSecurityProfileAdditionalMetricsToRetainV2List
@@ -558,7 +558,7 @@ func (j *jsiiProxy_IotSecurityProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iot_security_profile awscc_iot_security_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iot_security_profile awscc_iot_security_profile} Resource.
 func NewIotSecurityProfile(scope constructs.Construct, id *string, config *IotSecurityProfileConfig) IotSecurityProfile {
 	_init_.Initialize()
 
@@ -576,7 +576,7 @@ func NewIotSecurityProfile(scope constructs.Construct, id *string, config *IotSe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iot_security_profile awscc_iot_security_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iot_security_profile awscc_iot_security_profile} Resource.
 func NewIotSecurityProfile_Override(i IotSecurityProfile, scope constructs.Construct, id *string, config *IotSecurityProfileConfig) {
 	_init_.Initialize()
 

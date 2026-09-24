@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/servicecatalog_service_action awscc_servicecatalog_service_action}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/servicecatalog_service_action awscc_servicecatalog_service_action}.
 type DataAwsccServicecatalogServiceAction interface {
 	cdktn.TerraformDataSource
 	AcceptLanguage() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccServicecatalogServiceAction) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/servicecatalog_service_action awscc_servicecatalog_service_action} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/servicecatalog_service_action awscc_servicecatalog_service_action} Data Source.
 func NewDataAwsccServicecatalogServiceAction(scope constructs.Construct, id *string, config *DataAwsccServicecatalogServiceActionConfig) DataAwsccServicecatalogServiceAction {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccServicecatalogServiceAction(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/servicecatalog_service_action awscc_servicecatalog_service_action} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/servicecatalog_service_action awscc_servicecatalog_service_action} Data Source.
 func NewDataAwsccServicecatalogServiceAction_Override(d DataAwsccServicecatalogServiceAction, scope constructs.Construct, id *string, config *DataAwsccServicecatalogServiceActionConfig) {
 	_init_.Initialize()
 

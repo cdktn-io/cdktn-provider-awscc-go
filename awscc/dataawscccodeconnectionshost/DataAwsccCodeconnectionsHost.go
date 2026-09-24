@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/codeconnections_host awscc_codeconnections_host}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/codeconnections_host awscc_codeconnections_host}.
 type DataAwsccCodeconnectionsHost interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccCodeconnectionsHost) VpcConfiguration() DataAwsccCod
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/codeconnections_host awscc_codeconnections_host} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/codeconnections_host awscc_codeconnections_host} Data Source.
 func NewDataAwsccCodeconnectionsHost(scope constructs.Construct, id *string, config *DataAwsccCodeconnectionsHostConfig) DataAwsccCodeconnectionsHost {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccCodeconnectionsHost(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/codeconnections_host awscc_codeconnections_host} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/codeconnections_host awscc_codeconnections_host} Data Source.
 func NewDataAwsccCodeconnectionsHost_Override(d DataAwsccCodeconnectionsHost, scope constructs.Construct, id *string, config *DataAwsccCodeconnectionsHostConfig) {
 	_init_.Initialize()
 

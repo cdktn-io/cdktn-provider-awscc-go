@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_vpc_peering_connections awscc_ec2_vpc_peering_connections}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_vpc_peering_connections awscc_ec2_vpc_peering_connections}.
 type DataAwsccEc2VpcPeeringConnections interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2VpcPeeringConnections) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_vpc_peering_connections awscc_ec2_vpc_peering_connections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_vpc_peering_connections awscc_ec2_vpc_peering_connections} Data Source.
 func NewDataAwsccEc2VpcPeeringConnections(scope constructs.Construct, id *string, config *DataAwsccEc2VpcPeeringConnectionsConfig) DataAwsccEc2VpcPeeringConnections {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2VpcPeeringConnections(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_vpc_peering_connections awscc_ec2_vpc_peering_connections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_vpc_peering_connections awscc_ec2_vpc_peering_connections} Data Source.
 func NewDataAwsccEc2VpcPeeringConnections_Override(d DataAwsccEc2VpcPeeringConnections, scope constructs.Construct, id *string, config *DataAwsccEc2VpcPeeringConnectionsConfig) {
 	_init_.Initialize()
 

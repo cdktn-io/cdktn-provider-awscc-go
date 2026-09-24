@@ -24,27 +24,27 @@ type SsoAssignmentConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The sso instance that the permission set is owned.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sso_assignment#instance_arn SsoAssignment#instance_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sso_assignment#instance_arn SsoAssignment#instance_arn}
 	InstanceArn *string `field:"required" json:"instanceArn" yaml:"instanceArn"`
 	// The permission set that the assignment will be assigned.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sso_assignment#permission_set_arn SsoAssignment#permission_set_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sso_assignment#permission_set_arn SsoAssignment#permission_set_arn}
 	PermissionSetArn *string `field:"required" json:"permissionSetArn" yaml:"permissionSetArn"`
 	// The assignee's identifier, user id/group id.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sso_assignment#principal_id SsoAssignment#principal_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sso_assignment#principal_id SsoAssignment#principal_id}
 	PrincipalId *string `field:"required" json:"principalId" yaml:"principalId"`
 	// The assignee's type, user/group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sso_assignment#principal_type SsoAssignment#principal_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sso_assignment#principal_type SsoAssignment#principal_type}
 	PrincipalType *string `field:"required" json:"principalType" yaml:"principalType"`
 	// The account id to be provisioned.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sso_assignment#target_id SsoAssignment#target_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sso_assignment#target_id SsoAssignment#target_id}
 	TargetId *string `field:"required" json:"targetId" yaml:"targetId"`
 	// The type of resource to be provisioned to, only aws account now.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sso_assignment#target_type SsoAssignment#target_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sso_assignment#target_type SsoAssignment#target_type}
 	TargetType *string `field:"required" json:"targetType" yaml:"targetType"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iot_policy awscc_iot_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iot_policy awscc_iot_policy}.
 type DataAwsccIotPolicy interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccIotPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iot_policy awscc_iot_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iot_policy awscc_iot_policy} Data Source.
 func NewDataAwsccIotPolicy(scope constructs.Construct, id *string, config *DataAwsccIotPolicyConfig) DataAwsccIotPolicy {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccIotPolicy(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iot_policy awscc_iot_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iot_policy awscc_iot_policy} Data Source.
 func NewDataAwsccIotPolicy_Override(d DataAwsccIotPolicy, scope constructs.Construct, id *string, config *DataAwsccIotPolicyConfig) {
 	_init_.Initialize()
 

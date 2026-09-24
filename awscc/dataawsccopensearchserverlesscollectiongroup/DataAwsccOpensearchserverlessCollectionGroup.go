@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/opensearchserverless_collection_group awscc_opensearchserverless_collection_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/opensearchserverless_collection_group awscc_opensearchserverless_collection_group}.
 type DataAwsccOpensearchserverlessCollectionGroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccOpensearchserverlessCollectionGroup) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/opensearchserverless_collection_group awscc_opensearchserverless_collection_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/opensearchserverless_collection_group awscc_opensearchserverless_collection_group} Data Source.
 func NewDataAwsccOpensearchserverlessCollectionGroup(scope constructs.Construct, id *string, config *DataAwsccOpensearchserverlessCollectionGroupConfig) DataAwsccOpensearchserverlessCollectionGroup {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccOpensearchserverlessCollectionGroup(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/opensearchserverless_collection_group awscc_opensearchserverless_collection_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/opensearchserverless_collection_group awscc_opensearchserverless_collection_group} Data Source.
 func NewDataAwsccOpensearchserverlessCollectionGroup_Override(d DataAwsccOpensearchserverlessCollectionGroup, scope constructs.Construct, id *string, config *DataAwsccOpensearchserverlessCollectionGroupConfig) {
 	_init_.Initialize()
 

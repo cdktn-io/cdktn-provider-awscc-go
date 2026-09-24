@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudformation_generated_template awscc_cloudformation_generated_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cloudformation_generated_template awscc_cloudformation_generated_template}.
 type CloudformationGeneratedTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -468,7 +468,7 @@ func (j *jsiiProxy_CloudformationGeneratedTemplate) TotalWarnings() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudformation_generated_template awscc_cloudformation_generated_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cloudformation_generated_template awscc_cloudformation_generated_template} Resource.
 func NewCloudformationGeneratedTemplate(scope constructs.Construct, id *string, config *CloudformationGeneratedTemplateConfig) CloudformationGeneratedTemplate {
 	_init_.Initialize()
 
@@ -486,7 +486,7 @@ func NewCloudformationGeneratedTemplate(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudformation_generated_template awscc_cloudformation_generated_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cloudformation_generated_template awscc_cloudformation_generated_template} Resource.
 func NewCloudformationGeneratedTemplate_Override(c CloudformationGeneratedTemplate, scope constructs.Construct, id *string, config *CloudformationGeneratedTemplateConfig) {
 	_init_.Initialize()
 

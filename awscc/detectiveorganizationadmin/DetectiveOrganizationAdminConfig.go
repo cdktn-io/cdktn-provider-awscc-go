@@ -24,7 +24,7 @@ type DetectiveOrganizationAdminConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The account ID of the account that should be registered as your Organization's delegated administrator for Detective.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/detective_organization_admin#account_id DetectiveOrganizationAdmin#account_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/detective_organization_admin#account_id DetectiveOrganizationAdmin#account_id}
 	AccountId *string `field:"required" json:"accountId" yaml:"accountId"`
 }
 

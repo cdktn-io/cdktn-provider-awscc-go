@@ -24,15 +24,15 @@ type AwsexternalanthropicWorkspaceConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the workspace.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/awsexternalanthropic_workspace#name AwsexternalanthropicWorkspace#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/awsexternalanthropic_workspace#name AwsexternalanthropicWorkspace#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Data residency configuration for the workspace. WorkspaceGeo is immutable after creation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/awsexternalanthropic_workspace#data_residency AwsexternalanthropicWorkspace#data_residency}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/awsexternalanthropic_workspace#data_residency AwsexternalanthropicWorkspace#data_residency}
 	DataResidency *AwsexternalanthropicWorkspaceDataResidency `field:"optional" json:"dataResidency" yaml:"dataResidency"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/awsexternalanthropic_workspace#tags AwsexternalanthropicWorkspace#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/awsexternalanthropic_workspace#tags AwsexternalanthropicWorkspace#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

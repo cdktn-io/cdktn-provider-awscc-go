@@ -5,7 +5,7 @@ package refactorspacesroute
 
 
 type RefactorspacesRouteDefaultRoute struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/refactorspaces_route#activation_state RefactorspacesRoute#activation_state}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/refactorspaces_route#activation_state RefactorspacesRoute#activation_state}.
 	ActivationState *string `field:"optional" json:"activationState" yaml:"activationState"`
 }
 

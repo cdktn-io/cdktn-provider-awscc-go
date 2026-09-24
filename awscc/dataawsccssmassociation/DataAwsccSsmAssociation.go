@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssm_association awscc_ssm_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ssm_association awscc_ssm_association}.
 type DataAwsccSsmAssociation interface {
 	cdktn.TerraformDataSource
 	ApplyOnlyAtCronInterval() cdktn.IResolvable
@@ -506,7 +506,7 @@ func (j *jsiiProxy_DataAwsccSsmAssociation) WaitForSuccessTimeoutSeconds() *floa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssm_association awscc_ssm_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ssm_association awscc_ssm_association} Data Source.
 func NewDataAwsccSsmAssociation(scope constructs.Construct, id *string, config *DataAwsccSsmAssociationConfig) DataAwsccSsmAssociation {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewDataAwsccSsmAssociation(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssm_association awscc_ssm_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ssm_association awscc_ssm_association} Data Source.
 func NewDataAwsccSsmAssociation_Override(d DataAwsccSsmAssociation, scope constructs.Construct, id *string, config *DataAwsccSsmAssociationConfig) {
 	_init_.Initialize()
 

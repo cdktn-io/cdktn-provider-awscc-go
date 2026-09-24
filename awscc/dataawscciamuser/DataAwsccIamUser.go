@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iam_user awscc_iam_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iam_user awscc_iam_user}.
 type DataAwsccIamUser interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccIamUser) UserName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iam_user awscc_iam_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iam_user awscc_iam_user} Data Source.
 func NewDataAwsccIamUser(scope constructs.Construct, id *string, config *DataAwsccIamUserConfig) DataAwsccIamUser {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccIamUser(scope constructs.Construct, id *string, config *DataAws
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iam_user awscc_iam_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iam_user awscc_iam_user} Data Source.
 func NewDataAwsccIamUser_Override(d DataAwsccIamUser, scope constructs.Construct, id *string, config *DataAwsccIamUserConfig) {
 	_init_.Initialize()
 

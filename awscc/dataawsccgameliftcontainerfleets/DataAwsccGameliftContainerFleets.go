@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/gamelift_container_fleets awscc_gamelift_container_fleets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/gamelift_container_fleets awscc_gamelift_container_fleets}.
 type DataAwsccGameliftContainerFleets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGameliftContainerFleets) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/gamelift_container_fleets awscc_gamelift_container_fleets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/gamelift_container_fleets awscc_gamelift_container_fleets} Data Source.
 func NewDataAwsccGameliftContainerFleets(scope constructs.Construct, id *string, config *DataAwsccGameliftContainerFleetsConfig) DataAwsccGameliftContainerFleets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGameliftContainerFleets(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/gamelift_container_fleets awscc_gamelift_container_fleets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/gamelift_container_fleets awscc_gamelift_container_fleets} Data Source.
 func NewDataAwsccGameliftContainerFleets_Override(d DataAwsccGameliftContainerFleets, scope constructs.Construct, id *string, config *DataAwsccGameliftContainerFleetsConfig) {
 	_init_.Initialize()
 

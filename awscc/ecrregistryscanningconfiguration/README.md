@@ -1,3 +1,3 @@
 # `awscc_ecr_registry_scanning_configuration`
 
-Refer to the Terraform Registry for docs: [`awscc_ecr_registry_scanning_configuration`](https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecr_registry_scanning_configuration).
+Refer to the Terraform Registry for docs: [`awscc_ecr_registry_scanning_configuration`](https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ecr_registry_scanning_configuration).

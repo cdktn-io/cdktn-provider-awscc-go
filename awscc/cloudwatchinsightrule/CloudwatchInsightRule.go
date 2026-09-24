@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule}.
 type CloudwatchInsightRule interface {
 	cdktn.TerraformResource
 	ApplyOnTransformedLogs() interface{}
@@ -483,7 +483,7 @@ func (j *jsiiProxy_CloudwatchInsightRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule} Resource.
 func NewCloudwatchInsightRule(scope constructs.Construct, id *string, config *CloudwatchInsightRuleConfig) CloudwatchInsightRule {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewCloudwatchInsightRule(scope constructs.Construct, id *string, config *Cl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule} Resource.
 func NewCloudwatchInsightRule_Override(c CloudwatchInsightRule, scope constructs.Construct, id *string, config *CloudwatchInsightRuleConfig) {
 	_init_.Initialize()
 

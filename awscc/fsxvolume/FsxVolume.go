@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume awscc_fsx_volume}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fsx_volume awscc_fsx_volume}.
 type FsxVolume interface {
 	cdktn.TerraformResource
 	BackupId() *string
@@ -531,7 +531,7 @@ func (j *jsiiProxy_FsxVolume) VolumeTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume awscc_fsx_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fsx_volume awscc_fsx_volume} Resource.
 func NewFsxVolume(scope constructs.Construct, id *string, config *FsxVolumeConfig) FsxVolume {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewFsxVolume(scope constructs.Construct, id *string, config *FsxVolumeConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fsx_volume awscc_fsx_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fsx_volume awscc_fsx_volume} Resource.
 func NewFsxVolume_Override(f FsxVolume, scope constructs.Construct, id *string, config *FsxVolumeConfig) {
 	_init_.Initialize()
 

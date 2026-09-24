@@ -7,7 +7,7 @@ package s3storagelens
 type S3StorageLensStorageLensConfigurationAccountLevelBucketLevelAdvancedPerformanceMetrics struct {
 	// Specifies whether the Advanced Performance Metrics is enabled or disabled.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/s3_storage_lens#is_enabled S3StorageLens#is_enabled}
 	IsEnabled interface{} `field:"optional" json:"isEnabled" yaml:"isEnabled"`
 }
 

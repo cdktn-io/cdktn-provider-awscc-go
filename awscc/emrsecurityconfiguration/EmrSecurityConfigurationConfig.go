@@ -24,11 +24,11 @@ type EmrSecurityConfigurationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The security configuration details in JSON format.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/emr_security_configuration#security_configuration EmrSecurityConfiguration#security_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/emr_security_configuration#security_configuration EmrSecurityConfiguration#security_configuration}
 	SecurityConfiguration *string `field:"required" json:"securityConfiguration" yaml:"securityConfiguration"`
 	// The name of the security configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/emr_security_configuration#name EmrSecurityConfiguration#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/emr_security_configuration#name EmrSecurityConfiguration#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 }
 

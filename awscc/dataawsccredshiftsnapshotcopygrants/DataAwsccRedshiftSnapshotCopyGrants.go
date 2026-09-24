@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/redshift_snapshot_copy_grants awscc_redshift_snapshot_copy_grants}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/redshift_snapshot_copy_grants awscc_redshift_snapshot_copy_grants}.
 type DataAwsccRedshiftSnapshotCopyGrants interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRedshiftSnapshotCopyGrants) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/redshift_snapshot_copy_grants awscc_redshift_snapshot_copy_grants} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/redshift_snapshot_copy_grants awscc_redshift_snapshot_copy_grants} Data Source.
 func NewDataAwsccRedshiftSnapshotCopyGrants(scope constructs.Construct, id *string, config *DataAwsccRedshiftSnapshotCopyGrantsConfig) DataAwsccRedshiftSnapshotCopyGrants {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRedshiftSnapshotCopyGrants(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/redshift_snapshot_copy_grants awscc_redshift_snapshot_copy_grants} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/redshift_snapshot_copy_grants awscc_redshift_snapshot_copy_grants} Data Source.
 func NewDataAwsccRedshiftSnapshotCopyGrants_Override(d DataAwsccRedshiftSnapshotCopyGrants, scope constructs.Construct, id *string, config *DataAwsccRedshiftSnapshotCopyGrantsConfig) {
 	_init_.Initialize()
 

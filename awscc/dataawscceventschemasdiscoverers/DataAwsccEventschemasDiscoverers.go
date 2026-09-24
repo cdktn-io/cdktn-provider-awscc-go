@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/eventschemas_discoverers awscc_eventschemas_discoverers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/eventschemas_discoverers awscc_eventschemas_discoverers}.
 type DataAwsccEventschemasDiscoverers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEventschemasDiscoverers) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/eventschemas_discoverers awscc_eventschemas_discoverers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/eventschemas_discoverers awscc_eventschemas_discoverers} Data Source.
 func NewDataAwsccEventschemasDiscoverers(scope constructs.Construct, id *string, config *DataAwsccEventschemasDiscoverersConfig) DataAwsccEventschemasDiscoverers {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEventschemasDiscoverers(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/eventschemas_discoverers awscc_eventschemas_discoverers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/eventschemas_discoverers awscc_eventschemas_discoverers} Data Source.
 func NewDataAwsccEventschemasDiscoverers_Override(d DataAwsccEventschemasDiscoverers, scope constructs.Construct, id *string, config *DataAwsccEventschemasDiscoverersConfig) {
 	_init_.Initialize()
 

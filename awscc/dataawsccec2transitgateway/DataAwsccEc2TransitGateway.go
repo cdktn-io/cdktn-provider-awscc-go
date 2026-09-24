@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_transit_gateway awscc_ec2_transit_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_transit_gateway awscc_ec2_transit_gateway}.
 type DataAwsccEc2TransitGateway interface {
 	cdktn.TerraformDataSource
 	AmazonSideAsn() *float64
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccEc2TransitGateway) VpnEcmpSupport() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_transit_gateway awscc_ec2_transit_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_transit_gateway awscc_ec2_transit_gateway} Data Source.
 func NewDataAwsccEc2TransitGateway(scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayConfig) DataAwsccEc2TransitGateway {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccEc2TransitGateway(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_transit_gateway awscc_ec2_transit_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_transit_gateway awscc_ec2_transit_gateway} Data Source.
 func NewDataAwsccEc2TransitGateway_Override(d DataAwsccEc2TransitGateway, scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayConfig) {
 	_init_.Initialize()
 

@@ -7,7 +7,7 @@ package customerprofilesrecommender
 type CustomerprofilesRecommenderRecommenderConfigEventsConfig struct {
 	// List of event parameters with their value thresholds.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/customerprofiles_recommender#event_parameters_list CustomerprofilesRecommender#event_parameters_list}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/customerprofiles_recommender#event_parameters_list CustomerprofilesRecommender#event_parameters_list}
 	EventParametersList interface{} `field:"optional" json:"eventParametersList" yaml:"eventParametersList"`
 }
 

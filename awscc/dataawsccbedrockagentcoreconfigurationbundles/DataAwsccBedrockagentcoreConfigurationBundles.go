@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_configuration_bundles awscc_bedrockagentcore_configuration_bundles}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bedrockagentcore_configuration_bundles awscc_bedrockagentcore_configuration_bundles}.
 type DataAwsccBedrockagentcoreConfigurationBundles interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreConfigurationBundles) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_configuration_bundles awscc_bedrockagentcore_configuration_bundles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bedrockagentcore_configuration_bundles awscc_bedrockagentcore_configuration_bundles} Data Source.
 func NewDataAwsccBedrockagentcoreConfigurationBundles(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreConfigurationBundlesConfig) DataAwsccBedrockagentcoreConfigurationBundles {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockagentcoreConfigurationBundles(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_configuration_bundles awscc_bedrockagentcore_configuration_bundles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bedrockagentcore_configuration_bundles awscc_bedrockagentcore_configuration_bundles} Data Source.
 func NewDataAwsccBedrockagentcoreConfigurationBundles_Override(d DataAwsccBedrockagentcoreConfigurationBundles, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreConfigurationBundlesConfig) {
 	_init_.Initialize()
 

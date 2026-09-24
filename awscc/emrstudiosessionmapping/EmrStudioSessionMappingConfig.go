@@ -26,21 +26,21 @@ type EmrStudioSessionMappingConfig struct {
 	//
 	// For more information, see UserName and DisplayName in the AWS SSO Identity Store API Reference. Either IdentityName or IdentityId must be specified.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/emr_studio_session_mapping#identity_name EmrStudioSessionMapping#identity_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/emr_studio_session_mapping#identity_name EmrStudioSessionMapping#identity_name}
 	IdentityName *string `field:"required" json:"identityName" yaml:"identityName"`
 	// Specifies whether the identity to map to the Studio is a user or a group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/emr_studio_session_mapping#identity_type EmrStudioSessionMapping#identity_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/emr_studio_session_mapping#identity_type EmrStudioSessionMapping#identity_type}
 	IdentityType *string `field:"required" json:"identityType" yaml:"identityType"`
 	// The Amazon Resource Name (ARN) for the session policy that will be applied to the user or group.
 	//
 	// Session policies refine Studio user permissions without the need to use multiple IAM user roles.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/emr_studio_session_mapping#session_policy_arn EmrStudioSessionMapping#session_policy_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/emr_studio_session_mapping#session_policy_arn EmrStudioSessionMapping#session_policy_arn}
 	SessionPolicyArn *string `field:"required" json:"sessionPolicyArn" yaml:"sessionPolicyArn"`
 	// The ID of the Amazon EMR Studio to which the user or group will be mapped.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/emr_studio_session_mapping#studio_id EmrStudioSessionMapping#studio_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/emr_studio_session_mapping#studio_id EmrStudioSessionMapping#studio_id}
 	StudioId *string `field:"required" json:"studioId" yaml:"studioId"`
 }
 

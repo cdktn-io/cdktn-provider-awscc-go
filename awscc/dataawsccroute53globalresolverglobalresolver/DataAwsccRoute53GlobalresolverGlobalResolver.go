@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/route53globalresolver_global_resolver awscc_route53globalresolver_global_resolver}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/route53globalresolver_global_resolver awscc_route53globalresolver_global_resolver}.
 type DataAwsccRoute53GlobalresolverGlobalResolver interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccRoute53GlobalresolverGlobalResolver) UpdatedAt() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/route53globalresolver_global_resolver awscc_route53globalresolver_global_resolver} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/route53globalresolver_global_resolver awscc_route53globalresolver_global_resolver} Data Source.
 func NewDataAwsccRoute53GlobalresolverGlobalResolver(scope constructs.Construct, id *string, config *DataAwsccRoute53GlobalresolverGlobalResolverConfig) DataAwsccRoute53GlobalresolverGlobalResolver {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccRoute53GlobalresolverGlobalResolver(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/route53globalresolver_global_resolver awscc_route53globalresolver_global_resolver} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/route53globalresolver_global_resolver awscc_route53globalresolver_global_resolver} Data Source.
 func NewDataAwsccRoute53GlobalresolverGlobalResolver_Override(d DataAwsccRoute53GlobalresolverGlobalResolver, scope constructs.Construct, id *string, config *DataAwsccRoute53GlobalresolverGlobalResolverConfig) {
 	_init_.Initialize()
 

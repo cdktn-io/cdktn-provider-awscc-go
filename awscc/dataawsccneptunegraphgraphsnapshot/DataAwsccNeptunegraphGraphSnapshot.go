@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/neptunegraph_graph_snapshot awscc_neptunegraph_graph_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/neptunegraph_graph_snapshot awscc_neptunegraph_graph_snapshot}.
 type DataAwsccNeptunegraphGraphSnapshot interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccNeptunegraphGraphSnapshot) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/neptunegraph_graph_snapshot awscc_neptunegraph_graph_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/neptunegraph_graph_snapshot awscc_neptunegraph_graph_snapshot} Data Source.
 func NewDataAwsccNeptunegraphGraphSnapshot(scope constructs.Construct, id *string, config *DataAwsccNeptunegraphGraphSnapshotConfig) DataAwsccNeptunegraphGraphSnapshot {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccNeptunegraphGraphSnapshot(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/neptunegraph_graph_snapshot awscc_neptunegraph_graph_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/neptunegraph_graph_snapshot awscc_neptunegraph_graph_snapshot} Data Source.
 func NewDataAwsccNeptunegraphGraphSnapshot_Override(d DataAwsccNeptunegraphGraphSnapshot, scope constructs.Construct, id *string, config *DataAwsccNeptunegraphGraphSnapshotConfig) {
 	_init_.Initialize()
 

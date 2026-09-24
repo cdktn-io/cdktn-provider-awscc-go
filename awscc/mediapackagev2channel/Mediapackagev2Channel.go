@@ -12,10 +12,11 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel awscc_mediapackagev2_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel awscc_mediapackagev2_channel}.
 type Mediapackagev2Channel interface {
 	cdktn.TerraformResource
 	Arn() *string
+	AttachedMultiviewChannels() *[]*string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	ChannelGroupName() *string
@@ -63,6 +64,8 @@ type Mediapackagev2Channel interface {
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	ModifiedAt() *string
+	MultiviewConfiguration() Mediapackagev2ChannelMultiviewConfigurationOutputReference
+	MultiviewConfigurationInput() interface{}
 	// The tree node.
 	Node() constructs.Node
 	OutputHeaderConfiguration() Mediapackagev2ChannelOutputHeaderConfigurationOutputReference
@@ -168,6 +171,7 @@ type Mediapackagev2Channel interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutInputSwitchConfiguration(value *Mediapackagev2ChannelInputSwitchConfiguration)
+	PutMultiviewConfiguration(value *Mediapackagev2ChannelMultiviewConfiguration)
 	PutOutputHeaderConfiguration(value *Mediapackagev2ChannelOutputHeaderConfiguration)
 	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
@@ -186,6 +190,7 @@ type Mediapackagev2Channel interface {
 	ResetDescription()
 	ResetInputSwitchConfiguration()
 	ResetInputType()
+	ResetMultiviewConfiguration()
 	ResetOutputHeaderConfiguration()
 	ResetOutputLockingMode()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -224,6 +229,16 @@ func (j *jsiiProxy_Mediapackagev2Channel) Arn() *string {
 	_jsii_.Get(
 		j,
 		"arn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Mediapackagev2Channel) AttachedMultiviewChannels() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"attachedMultiviewChannels",
 		&returns,
 	)
 	return returns
@@ -469,6 +484,26 @@ func (j *jsiiProxy_Mediapackagev2Channel) ModifiedAt() *string {
 	return returns
 }
 
+func (j *jsiiProxy_Mediapackagev2Channel) MultiviewConfiguration() Mediapackagev2ChannelMultiviewConfigurationOutputReference {
+	var returns Mediapackagev2ChannelMultiviewConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"multiviewConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Mediapackagev2Channel) MultiviewConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"multiviewConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_Mediapackagev2Channel) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -600,7 +635,7 @@ func (j *jsiiProxy_Mediapackagev2Channel) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel awscc_mediapackagev2_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel awscc_mediapackagev2_channel} Resource.
 func NewMediapackagev2Channel(scope constructs.Construct, id *string, config *Mediapackagev2ChannelConfig) Mediapackagev2Channel {
 	_init_.Initialize()
 
@@ -618,7 +653,7 @@ func NewMediapackagev2Channel(scope constructs.Construct, id *string, config *Me
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel awscc_mediapackagev2_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel awscc_mediapackagev2_channel} Resource.
 func NewMediapackagev2Channel_Override(m Mediapackagev2Channel, scope constructs.Construct, id *string, config *Mediapackagev2ChannelConfig) {
 	_init_.Initialize()
 
@@ -1132,6 +1167,17 @@ func (m *jsiiProxy_Mediapackagev2Channel) PutInputSwitchConfiguration(value *Med
 	)
 }
 
+func (m *jsiiProxy_Mediapackagev2Channel) PutMultiviewConfiguration(value *Mediapackagev2ChannelMultiviewConfiguration) {
+	if err := m.validatePutMultiviewConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putMultiviewConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_Mediapackagev2Channel) PutOutputHeaderConfiguration(value *Mediapackagev2ChannelOutputHeaderConfiguration) {
 	if err := m.validatePutOutputHeaderConfigurationParameters(value); err != nil {
 		panic(err)
@@ -1185,6 +1231,14 @@ func (m *jsiiProxy_Mediapackagev2Channel) ResetInputType() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetInputType",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_Mediapackagev2Channel) ResetMultiviewConfiguration() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetMultiviewConfiguration",
 		nil, // no parameters
 	)
 }

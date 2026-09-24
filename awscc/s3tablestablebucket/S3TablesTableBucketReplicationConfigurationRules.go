@@ -7,7 +7,7 @@ package s3tablestablebucket
 type S3TablesTableBucketReplicationConfigurationRules struct {
 	// List of replication destinations.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/s3tables_table_bucket#destinations S3TablesTableBucket#destinations}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/s3tables_table_bucket#destinations S3TablesTableBucket#destinations}
 	Destinations interface{} `field:"optional" json:"destinations" yaml:"destinations"`
 }
 

@@ -151,6 +151,10 @@ func (j *jsiiProxy_SnsTopic) validateSetLifecycleParameters(val *cdktn.Terraform
 	return nil
 }
 
+func (j *jsiiProxy_SnsTopic) validateSetMaximumMessageSizeParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_SnsTopic) validateSetProvisionersParameters(val *[]interface{}) error {
 	return nil
 }

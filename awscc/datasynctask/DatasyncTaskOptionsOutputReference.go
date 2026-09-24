@@ -47,6 +47,9 @@ type DatasyncTaskOptionsOutputReference interface {
 	Mtime() *string
 	SetMtime(val *string)
 	MtimeInput() *string
+	ObjectMetadata() *string
+	SetObjectMetadata(val *string)
+	ObjectMetadataInput() *string
 	ObjectTags() *string
 	SetObjectTags(val *string)
 	ObjectTagsInput() *string
@@ -114,6 +117,7 @@ type DatasyncTaskOptionsOutputReference interface {
 	ResetGid()
 	ResetLogLevel()
 	ResetMtime()
+	ResetObjectMetadata()
 	ResetObjectTags()
 	ResetOverwriteMode()
 	ResetPosixPermissions()
@@ -284,6 +288,26 @@ func (j *jsiiProxy_DatasyncTaskOptionsOutputReference) MtimeInput() *string {
 	_jsii_.Get(
 		j,
 		"mtimeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DatasyncTaskOptionsOutputReference) ObjectMetadata() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"objectMetadata",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DatasyncTaskOptionsOutputReference) ObjectMetadataInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"objectMetadataInput",
 		&returns,
 	)
 	return returns
@@ -621,6 +645,17 @@ func (j *jsiiProxy_DatasyncTaskOptionsOutputReference)SetMtime(val *string) {
 	_jsii_.Set(
 		j,
 		"mtime",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DatasyncTaskOptionsOutputReference)SetObjectMetadata(val *string) {
+	if err := j.validateSetObjectMetadataParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"objectMetadata",
 		val,
 	)
 }
@@ -979,6 +1014,14 @@ func (d *jsiiProxy_DatasyncTaskOptionsOutputReference) ResetMtime() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetMtime",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DatasyncTaskOptionsOutputReference) ResetObjectMetadata() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetObjectMetadata",
 		nil, // no parameters
 	)
 }

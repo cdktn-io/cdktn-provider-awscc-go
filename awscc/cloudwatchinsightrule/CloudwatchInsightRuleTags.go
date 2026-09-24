@@ -5,9 +5,9 @@ package cloudwatchinsightrule
 
 
 type CloudwatchInsightRuleTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudwatch_insight_rule#key CloudwatchInsightRule#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cloudwatch_insight_rule#key CloudwatchInsightRule#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudwatch_insight_rule#value CloudwatchInsightRule#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cloudwatch_insight_rule#value CloudwatchInsightRule#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

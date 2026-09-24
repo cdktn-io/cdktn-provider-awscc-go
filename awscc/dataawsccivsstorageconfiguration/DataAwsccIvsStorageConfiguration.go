@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ivs_storage_configuration awscc_ivs_storage_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ivs_storage_configuration awscc_ivs_storage_configuration}.
 type DataAwsccIvsStorageConfiguration interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccIvsStorageConfiguration) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ivs_storage_configuration awscc_ivs_storage_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ivs_storage_configuration awscc_ivs_storage_configuration} Data Source.
 func NewDataAwsccIvsStorageConfiguration(scope constructs.Construct, id *string, config *DataAwsccIvsStorageConfigurationConfig) DataAwsccIvsStorageConfiguration {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccIvsStorageConfiguration(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ivs_storage_configuration awscc_ivs_storage_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ivs_storage_configuration awscc_ivs_storage_configuration} Data Source.
 func NewDataAwsccIvsStorageConfiguration_Override(d DataAwsccIvsStorageConfiguration, scope constructs.Construct, id *string, config *DataAwsccIvsStorageConfigurationConfig) {
 	_init_.Initialize()
 

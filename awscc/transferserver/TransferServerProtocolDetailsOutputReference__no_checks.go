@@ -47,6 +47,10 @@ func (t *jsiiProxy_TransferServerProtocolDetailsOutputReference) validateInterpo
 	return nil
 }
 
+func (t *jsiiProxy_TransferServerProtocolDetailsOutputReference) validatePutProxyConfigParameters(value *TransferServerProtocolDetailsProxyConfig) error {
+	return nil
+}
+
 func (t *jsiiProxy_TransferServerProtocolDetailsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

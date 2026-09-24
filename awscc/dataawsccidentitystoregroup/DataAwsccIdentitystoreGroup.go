@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/identitystore_group awscc_identitystore_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/identitystore_group awscc_identitystore_group}.
 type DataAwsccIdentitystoreGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccIdentitystoreGroup) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/identitystore_group awscc_identitystore_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/identitystore_group awscc_identitystore_group} Data Source.
 func NewDataAwsccIdentitystoreGroup(scope constructs.Construct, id *string, config *DataAwsccIdentitystoreGroupConfig) DataAwsccIdentitystoreGroup {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccIdentitystoreGroup(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/identitystore_group awscc_identitystore_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/identitystore_group awscc_identitystore_group} Data Source.
 func NewDataAwsccIdentitystoreGroup_Override(d DataAwsccIdentitystoreGroup, scope constructs.Construct, id *string, config *DataAwsccIdentitystoreGroupConfig) {
 	_init_.Initialize()
 

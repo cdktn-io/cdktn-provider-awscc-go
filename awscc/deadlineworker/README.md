@@ -1,3 +1,3 @@
 # `awscc_deadline_worker`
 
-Refer to the Terraform Registry for docs: [`awscc_deadline_worker`](https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/deadline_worker).
+Refer to the Terraform Registry for docs: [`awscc_deadline_worker`](https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/deadline_worker).

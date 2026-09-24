@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudhsm_clusters awscc_cloudhsm_clusters}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/cloudhsm_clusters awscc_cloudhsm_clusters}.
 type DataAwsccCloudhsmClusters interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCloudhsmClusters) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudhsm_clusters awscc_cloudhsm_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/cloudhsm_clusters awscc_cloudhsm_clusters} Data Source.
 func NewDataAwsccCloudhsmClusters(scope constructs.Construct, id *string, config *DataAwsccCloudhsmClustersConfig) DataAwsccCloudhsmClusters {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCloudhsmClusters(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudhsm_clusters awscc_cloudhsm_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/cloudhsm_clusters awscc_cloudhsm_clusters} Data Source.
 func NewDataAwsccCloudhsmClusters_Override(d DataAwsccCloudhsmClusters, scope constructs.Construct, id *string, config *DataAwsccCloudhsmClustersConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrock_session awscc_bedrock_session}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bedrock_session awscc_bedrock_session}.
 type DataAwsccBedrockSession interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccBedrockSession) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrock_session awscc_bedrock_session} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bedrock_session awscc_bedrock_session} Data Source.
 func NewDataAwsccBedrockSession(scope constructs.Construct, id *string, config *DataAwsccBedrockSessionConfig) DataAwsccBedrockSession {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccBedrockSession(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrock_session awscc_bedrock_session} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bedrock_session awscc_bedrock_session} Data Source.
 func NewDataAwsccBedrockSession_Override(d DataAwsccBedrockSession, scope constructs.Construct, id *string, config *DataAwsccBedrockSessionConfig) {
 	_init_.Initialize()
 

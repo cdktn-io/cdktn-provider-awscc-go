@@ -24,23 +24,23 @@ type DatasyncLocationNfsConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Contains a list of Amazon Resource Names (ARNs) of agents that are used to connect an NFS server.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_nfs#on_prem_config DatasyncLocationNfs#on_prem_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_nfs#on_prem_config DatasyncLocationNfs#on_prem_config}
 	OnPremConfig *DatasyncLocationNfsOnPremConfig `field:"required" json:"onPremConfig" yaml:"onPremConfig"`
 	// The NFS mount options that DataSync can use to mount your NFS share.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_nfs#mount_options DatasyncLocationNfs#mount_options}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_nfs#mount_options DatasyncLocationNfs#mount_options}
 	MountOptions *DatasyncLocationNfsMountOptions `field:"optional" json:"mountOptions" yaml:"mountOptions"`
 	// The name of the NFS server. This value is the IP address or DNS name of the NFS server.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_nfs#server_hostname DatasyncLocationNfs#server_hostname}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_nfs#server_hostname DatasyncLocationNfs#server_hostname}
 	ServerHostname *string `field:"optional" json:"serverHostname" yaml:"serverHostname"`
 	// The subdirectory in the NFS file system that is used to read data from the NFS source location or write data to the NFS destination.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_nfs#subdirectory DatasyncLocationNfs#subdirectory}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_nfs#subdirectory DatasyncLocationNfs#subdirectory}
 	Subdirectory *string `field:"optional" json:"subdirectory" yaml:"subdirectory"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_nfs#tags DatasyncLocationNfs#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_nfs#tags DatasyncLocationNfs#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

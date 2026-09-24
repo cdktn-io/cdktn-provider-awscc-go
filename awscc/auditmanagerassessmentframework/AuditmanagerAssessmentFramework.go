@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/auditmanager_assessment_framework awscc_auditmanager_assessment_framework}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/auditmanager_assessment_framework awscc_auditmanager_assessment_framework}.
 type AuditmanagerAssessmentFramework interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -550,7 +550,7 @@ func (j *jsiiProxy_AuditmanagerAssessmentFramework) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/auditmanager_assessment_framework awscc_auditmanager_assessment_framework} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/auditmanager_assessment_framework awscc_auditmanager_assessment_framework} Resource.
 func NewAuditmanagerAssessmentFramework(scope constructs.Construct, id *string, config *AuditmanagerAssessmentFrameworkConfig) AuditmanagerAssessmentFramework {
 	_init_.Initialize()
 
@@ -568,7 +568,7 @@ func NewAuditmanagerAssessmentFramework(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/auditmanager_assessment_framework awscc_auditmanager_assessment_framework} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/auditmanager_assessment_framework awscc_auditmanager_assessment_framework} Resource.
 func NewAuditmanagerAssessmentFramework_Override(a AuditmanagerAssessmentFramework, scope constructs.Construct, id *string, config *AuditmanagerAssessmentFrameworkConfig) {
 	_init_.Initialize()
 

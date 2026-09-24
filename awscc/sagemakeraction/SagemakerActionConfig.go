@@ -24,35 +24,35 @@ type SagemakerActionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the action. Must be unique to your account in an AWS Region.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_action#action_name SagemakerAction#action_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_action#action_name SagemakerAction#action_name}
 	ActionName *string `field:"required" json:"actionName" yaml:"actionName"`
 	// The action type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_action#action_type SagemakerAction#action_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_action#action_type SagemakerAction#action_type}
 	ActionType *string `field:"required" json:"actionType" yaml:"actionType"`
 	// The source type, ID, and URI.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_action#source SagemakerAction#source}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_action#source SagemakerAction#source}
 	Source *SagemakerActionSource `field:"required" json:"source" yaml:"source"`
 	// The description of the action.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_action#description SagemakerAction#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_action#description SagemakerAction#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Metadata properties of the tracking entity, trial, or trial component.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_action#metadata_properties SagemakerAction#metadata_properties}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_action#metadata_properties SagemakerAction#metadata_properties}
 	MetadataProperties *SagemakerActionMetadataProperties `field:"optional" json:"metadataProperties" yaml:"metadataProperties"`
 	// A list of properties to add to the action.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_action#properties SagemakerAction#properties}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_action#properties SagemakerAction#properties}
 	Properties *map[string]*string `field:"optional" json:"properties" yaml:"properties"`
 	// The status of the action.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_action#status SagemakerAction#status}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_action#status SagemakerAction#status}
 	Status *string `field:"optional" json:"status" yaml:"status"`
 	// A list of tags to apply to the action.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_action#tags SagemakerAction#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_action#tags SagemakerAction#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

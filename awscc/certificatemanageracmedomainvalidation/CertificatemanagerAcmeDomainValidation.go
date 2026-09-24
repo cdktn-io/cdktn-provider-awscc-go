@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/certificatemanager_acme_domain_validation awscc_certificatemanager_acme_domain_validation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/certificatemanager_acme_domain_validation awscc_certificatemanager_acme_domain_validation}.
 type CertificatemanagerAcmeDomainValidation interface {
 	cdktn.TerraformResource
 	AcmeEndpointArn() *string
@@ -459,7 +459,7 @@ func (j *jsiiProxy_CertificatemanagerAcmeDomainValidation) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/certificatemanager_acme_domain_validation awscc_certificatemanager_acme_domain_validation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/certificatemanager_acme_domain_validation awscc_certificatemanager_acme_domain_validation} Resource.
 func NewCertificatemanagerAcmeDomainValidation(scope constructs.Construct, id *string, config *CertificatemanagerAcmeDomainValidationConfig) CertificatemanagerAcmeDomainValidation {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewCertificatemanagerAcmeDomainValidation(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/certificatemanager_acme_domain_validation awscc_certificatemanager_acme_domain_validation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/certificatemanager_acme_domain_validation awscc_certificatemanager_acme_domain_validation} Resource.
 func NewCertificatemanagerAcmeDomainValidation_Override(c CertificatemanagerAcmeDomainValidation, scope constructs.Construct, id *string, config *CertificatemanagerAcmeDomainValidationConfig) {
 	_init_.Initialize()
 

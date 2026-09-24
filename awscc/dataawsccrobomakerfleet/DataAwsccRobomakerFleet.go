@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/robomaker_fleet awscc_robomaker_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/robomaker_fleet awscc_robomaker_fleet}.
 type DataAwsccRobomakerFleet interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccRobomakerFleet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/robomaker_fleet awscc_robomaker_fleet} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/robomaker_fleet awscc_robomaker_fleet} Data Source.
 func NewDataAwsccRobomakerFleet(scope constructs.Construct, id *string, config *DataAwsccRobomakerFleetConfig) DataAwsccRobomakerFleet {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccRobomakerFleet(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/robomaker_fleet awscc_robomaker_fleet} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/robomaker_fleet awscc_robomaker_fleet} Data Source.
 func NewDataAwsccRobomakerFleet_Override(d DataAwsccRobomakerFleet, scope constructs.Construct, id *string, config *DataAwsccRobomakerFleetConfig) {
 	_init_.Initialize()
 

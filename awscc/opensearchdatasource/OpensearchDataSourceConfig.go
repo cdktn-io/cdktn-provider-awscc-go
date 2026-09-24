@@ -24,19 +24,19 @@ type OpensearchDataSourceConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The type of data source.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/opensearch_data_source#data_source_type OpensearchDataSource#data_source_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/opensearch_data_source#data_source_type OpensearchDataSource#data_source_type}
 	DataSourceType *OpensearchDataSourceDataSourceType `field:"required" json:"dataSourceType" yaml:"dataSourceType"`
 	// The name of the OpenSearch Service domain.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/opensearch_data_source#domain_name OpensearchDataSource#domain_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/opensearch_data_source#domain_name OpensearchDataSource#domain_name}
 	DomainName *string `field:"required" json:"domainName" yaml:"domainName"`
 	// The name of the data source.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/opensearch_data_source#name OpensearchDataSource#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/opensearch_data_source#name OpensearchDataSource#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// A description of the data source.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/opensearch_data_source#description OpensearchDataSource#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/opensearch_data_source#description OpensearchDataSource#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 }
 

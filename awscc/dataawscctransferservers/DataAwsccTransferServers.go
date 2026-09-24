@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/transfer_servers awscc_transfer_servers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/transfer_servers awscc_transfer_servers}.
 type DataAwsccTransferServers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccTransferServers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/transfer_servers awscc_transfer_servers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/transfer_servers awscc_transfer_servers} Data Source.
 func NewDataAwsccTransferServers(scope constructs.Construct, id *string, config *DataAwsccTransferServersConfig) DataAwsccTransferServers {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccTransferServers(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/transfer_servers awscc_transfer_servers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/transfer_servers awscc_transfer_servers} Data Source.
 func NewDataAwsccTransferServers_Override(d DataAwsccTransferServers, scope constructs.Construct, id *string, config *DataAwsccTransferServersConfig) {
 	_init_.Initialize()
 

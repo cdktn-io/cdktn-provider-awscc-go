@@ -5,7 +5,7 @@ package quicksightknowledgebase
 
 
 type QuicksightKnowledgeBaseMediaExtractionConfigurationAudioExtractionConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_knowledge_base#audio_extraction_status QuicksightKnowledgeBase#audio_extraction_status}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_knowledge_base#audio_extraction_status QuicksightKnowledgeBase#audio_extraction_status}.
 	AudioExtractionStatus *string `field:"optional" json:"audioExtractionStatus" yaml:"audioExtractionStatus"`
 }
 

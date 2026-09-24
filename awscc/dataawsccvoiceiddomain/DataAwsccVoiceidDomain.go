@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/voiceid_domain awscc_voiceid_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/voiceid_domain awscc_voiceid_domain}.
 type DataAwsccVoiceidDomain interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccVoiceidDomain) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/voiceid_domain awscc_voiceid_domain} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/voiceid_domain awscc_voiceid_domain} Data Source.
 func NewDataAwsccVoiceidDomain(scope constructs.Construct, id *string, config *DataAwsccVoiceidDomainConfig) DataAwsccVoiceidDomain {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccVoiceidDomain(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/voiceid_domain awscc_voiceid_domain} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/voiceid_domain awscc_voiceid_domain} Data Source.
 func NewDataAwsccVoiceidDomain_Override(d DataAwsccVoiceidDomain, scope constructs.Construct, id *string, config *DataAwsccVoiceidDomainConfig) {
 	_init_.Initialize()
 

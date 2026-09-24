@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/notificationscontacts_email_contacts awscc_notificationscontacts_email_contacts}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/notificationscontacts_email_contacts awscc_notificationscontacts_email_contacts}.
 type DataAwsccNotificationscontactsEmailContacts interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNotificationscontactsEmailContacts) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/notificationscontacts_email_contacts awscc_notificationscontacts_email_contacts} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/notificationscontacts_email_contacts awscc_notificationscontacts_email_contacts} Data Source.
 func NewDataAwsccNotificationscontactsEmailContacts(scope constructs.Construct, id *string, config *DataAwsccNotificationscontactsEmailContactsConfig) DataAwsccNotificationscontactsEmailContacts {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNotificationscontactsEmailContacts(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/notificationscontacts_email_contacts awscc_notificationscontacts_email_contacts} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/notificationscontacts_email_contacts awscc_notificationscontacts_email_contacts} Data Source.
 func NewDataAwsccNotificationscontactsEmailContacts_Override(d DataAwsccNotificationscontactsEmailContacts, scope constructs.Construct, id *string, config *DataAwsccNotificationscontactsEmailContactsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/chime_voice_connector awscc_chime_voice_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/chime_voice_connector awscc_chime_voice_connector}.
 type DataAwsccChimeVoiceConnector interface {
 	cdktn.TerraformDataSource
 	AwsRegion() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccChimeVoiceConnector) VoiceConnectorId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/chime_voice_connector awscc_chime_voice_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/chime_voice_connector awscc_chime_voice_connector} Data Source.
 func NewDataAwsccChimeVoiceConnector(scope constructs.Construct, id *string, config *DataAwsccChimeVoiceConnectorConfig) DataAwsccChimeVoiceConnector {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccChimeVoiceConnector(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/chime_voice_connector awscc_chime_voice_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/chime_voice_connector awscc_chime_voice_connector} Data Source.
 func NewDataAwsccChimeVoiceConnector_Override(d DataAwsccChimeVoiceConnector, scope constructs.Construct, id *string, config *DataAwsccChimeVoiceConnectorConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/arczonalshift_autoshift_observer_notification_status awscc_arczonalshift_autoshift_observer_notification_status}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/arczonalshift_autoshift_observer_notification_status awscc_arczonalshift_autoshift_observer_notification_status}.
 type ArczonalshiftAutoshiftObserverNotificationStatus interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -400,7 +400,7 @@ func (j *jsiiProxy_ArczonalshiftAutoshiftObserverNotificationStatus) TerraformRe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/arczonalshift_autoshift_observer_notification_status awscc_arczonalshift_autoshift_observer_notification_status} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/arczonalshift_autoshift_observer_notification_status awscc_arczonalshift_autoshift_observer_notification_status} Resource.
 func NewArczonalshiftAutoshiftObserverNotificationStatus(scope constructs.Construct, id *string, config *ArczonalshiftAutoshiftObserverNotificationStatusConfig) ArczonalshiftAutoshiftObserverNotificationStatus {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewArczonalshiftAutoshiftObserverNotificationStatus(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/arczonalshift_autoshift_observer_notification_status awscc_arczonalshift_autoshift_observer_notification_status} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/arczonalshift_autoshift_observer_notification_status awscc_arczonalshift_autoshift_observer_notification_status} Resource.
 func NewArczonalshiftAutoshiftObserverNotificationStatus_Override(a ArczonalshiftAutoshiftObserverNotificationStatus, scope constructs.Construct, id *string, config *ArczonalshiftAutoshiftObserverNotificationStatusConfig) {
 	_init_.Initialize()
 

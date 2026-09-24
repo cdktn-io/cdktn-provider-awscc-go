@@ -24,21 +24,21 @@ type CloudfrontKeyValueStoreConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the key value store.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudfront_key_value_store#name CloudfrontKeyValueStore#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cloudfront_key_value_store#name CloudfrontKeyValueStore#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// A comment to describe the Key Value Store.
 	//
 	// Omitting ``Comment`` from the template during updates will clear the existing comment (set to empty string). To preserve an existing comment, you must explicitly include it in the template.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudfront_key_value_store#comment CloudfrontKeyValueStore#comment}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cloudfront_key_value_store#comment CloudfrontKeyValueStore#comment}
 	Comment *string `field:"optional" json:"comment" yaml:"comment"`
 	// The import source for the key value store.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudfront_key_value_store#import_source CloudfrontKeyValueStore#import_source}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cloudfront_key_value_store#import_source CloudfrontKeyValueStore#import_source}
 	ImportSource *CloudfrontKeyValueStoreImportSource `field:"optional" json:"importSource" yaml:"importSource"`
 	// A complex type that contains zero or more ``Tag`` elements.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudfront_key_value_store#tags CloudfrontKeyValueStore#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cloudfront_key_value_store#tags CloudfrontKeyValueStore#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

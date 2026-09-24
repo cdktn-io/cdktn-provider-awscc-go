@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sso_application awscc_sso_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sso_application awscc_sso_application}.
 type SsoApplication interface {
 	cdktn.TerraformResource
 	ApplicationArn() *string
@@ -542,7 +542,7 @@ func (j *jsiiProxy_SsoApplication) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sso_application awscc_sso_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sso_application awscc_sso_application} Resource.
 func NewSsoApplication(scope constructs.Construct, id *string, config *SsoApplicationConfig) SsoApplication {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewSsoApplication(scope constructs.Construct, id *string, config *SsoApplic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sso_application awscc_sso_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sso_application awscc_sso_application} Resource.
 func NewSsoApplication_Override(s SsoApplication, scope constructs.Construct, id *string, config *SsoApplicationConfig) {
 	_init_.Initialize()
 

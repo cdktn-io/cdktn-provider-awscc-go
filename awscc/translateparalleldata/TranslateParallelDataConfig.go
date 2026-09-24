@@ -24,23 +24,23 @@ type TranslateParallelDataConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A custom name for the parallel data resource. Must be unique in the account and region.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/translate_parallel_data#name TranslateParallelData#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/translate_parallel_data#name TranslateParallelData#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Specifies the format and S3 location of the parallel data input file.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/translate_parallel_data#parallel_data_config TranslateParallelData#parallel_data_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/translate_parallel_data#parallel_data_config TranslateParallelData#parallel_data_config}
 	ParallelDataConfig *TranslateParallelDataParallelDataConfig `field:"required" json:"parallelDataConfig" yaml:"parallelDataConfig"`
 	// A custom description for the parallel data resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/translate_parallel_data#description TranslateParallelData#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/translate_parallel_data#description TranslateParallelData#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The encryption key used to encrypt this object.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/translate_parallel_data#encryption_key TranslateParallelData#encryption_key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/translate_parallel_data#encryption_key TranslateParallelData#encryption_key}
 	EncryptionKey *TranslateParallelDataEncryptionKey `field:"optional" json:"encryptionKey" yaml:"encryptionKey"`
 	// Tags associated with the parallel data resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/translate_parallel_data#tags TranslateParallelData#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/translate_parallel_data#tags TranslateParallelData#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

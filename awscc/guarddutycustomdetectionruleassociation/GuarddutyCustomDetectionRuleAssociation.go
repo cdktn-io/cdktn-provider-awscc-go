@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/guardduty_custom_detection_rule_association awscc_guardduty_custom_detection_rule_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/guardduty_custom_detection_rule_association awscc_guardduty_custom_detection_rule_association}.
 type GuarddutyCustomDetectionRuleAssociation interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -480,7 +480,7 @@ func (j *jsiiProxy_GuarddutyCustomDetectionRuleAssociation) UpdatedAt() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/guardduty_custom_detection_rule_association awscc_guardduty_custom_detection_rule_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/guardduty_custom_detection_rule_association awscc_guardduty_custom_detection_rule_association} Resource.
 func NewGuarddutyCustomDetectionRuleAssociation(scope constructs.Construct, id *string, config *GuarddutyCustomDetectionRuleAssociationConfig) GuarddutyCustomDetectionRuleAssociation {
 	_init_.Initialize()
 
@@ -498,7 +498,7 @@ func NewGuarddutyCustomDetectionRuleAssociation(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/guardduty_custom_detection_rule_association awscc_guardduty_custom_detection_rule_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/guardduty_custom_detection_rule_association awscc_guardduty_custom_detection_rule_association} Resource.
 func NewGuarddutyCustomDetectionRuleAssociation_Override(g GuarddutyCustomDetectionRuleAssociation, scope constructs.Construct, id *string, config *GuarddutyCustomDetectionRuleAssociationConfig) {
 	_init_.Initialize()
 

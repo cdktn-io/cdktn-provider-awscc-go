@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/connect_approved_origin awscc_connect_approved_origin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/connect_approved_origin awscc_connect_approved_origin}.
 type DataAwsccConnectApprovedOrigin interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccConnectApprovedOrigin) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/connect_approved_origin awscc_connect_approved_origin} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/connect_approved_origin awscc_connect_approved_origin} Data Source.
 func NewDataAwsccConnectApprovedOrigin(scope constructs.Construct, id *string, config *DataAwsccConnectApprovedOriginConfig) DataAwsccConnectApprovedOrigin {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccConnectApprovedOrigin(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/connect_approved_origin awscc_connect_approved_origin} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/connect_approved_origin awscc_connect_approved_origin} Data Source.
 func NewDataAwsccConnectApprovedOrigin_Override(d DataAwsccConnectApprovedOrigin, scope constructs.Construct, id *string, config *DataAwsccConnectApprovedOriginConfig) {
 	_init_.Initialize()
 

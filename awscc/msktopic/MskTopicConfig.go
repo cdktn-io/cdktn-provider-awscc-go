@@ -24,23 +24,23 @@ type MskTopicConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The Amazon Resource Name (ARN) of the MSK cluster.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/msk_topic#cluster_arn MskTopic#cluster_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/msk_topic#cluster_arn MskTopic#cluster_arn}
 	ClusterArn *string `field:"required" json:"clusterArn" yaml:"clusterArn"`
 	// The number of partitions for the topic.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/msk_topic#partition_count MskTopic#partition_count}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/msk_topic#partition_count MskTopic#partition_count}
 	PartitionCount *float64 `field:"required" json:"partitionCount" yaml:"partitionCount"`
 	// The replication factor for the topic.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/msk_topic#replication_factor MskTopic#replication_factor}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/msk_topic#replication_factor MskTopic#replication_factor}
 	ReplicationFactor *float64 `field:"required" json:"replicationFactor" yaml:"replicationFactor"`
 	// The name of the topic.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/msk_topic#topic_name MskTopic#topic_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/msk_topic#topic_name MskTopic#topic_name}
 	TopicName *string `field:"required" json:"topicName" yaml:"topicName"`
 	// Base64 encoded configuration properties of the topic.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/msk_topic#configs MskTopic#configs}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/msk_topic#configs MskTopic#configs}
 	Configs *string `field:"optional" json:"configs" yaml:"configs"`
 }
 

@@ -7,11 +7,11 @@ package mediaconnectrouterinput
 type MediaconnectRouterInputConfigurationFailoverProtocolConfigurationsSrtCallerDecryptionConfigurationEncryptionKey struct {
 	// The ARN of the IAM role assumed by MediaConnect to access the Secrets Manager secret.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediaconnect_router_input#role_arn MediaconnectRouterInput#role_arn}
 	RoleArn *string `field:"optional" json:"roleArn" yaml:"roleArn"`
 	// The ARN of the Secrets Manager secret used for transit encryption.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediaconnect_router_input#secret_arn MediaconnectRouterInput#secret_arn}
 	SecretArn *string `field:"optional" json:"secretArn" yaml:"secretArn"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/dms_replication_tasks awscc_dms_replication_tasks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/dms_replication_tasks awscc_dms_replication_tasks}.
 type DataAwsccDmsReplicationTasks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDmsReplicationTasks) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/dms_replication_tasks awscc_dms_replication_tasks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/dms_replication_tasks awscc_dms_replication_tasks} Data Source.
 func NewDataAwsccDmsReplicationTasks(scope constructs.Construct, id *string, config *DataAwsccDmsReplicationTasksConfig) DataAwsccDmsReplicationTasks {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDmsReplicationTasks(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/dms_replication_tasks awscc_dms_replication_tasks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/dms_replication_tasks awscc_dms_replication_tasks} Data Source.
 func NewDataAwsccDmsReplicationTasks_Override(d DataAwsccDmsReplicationTasks, scope constructs.Construct, id *string, config *DataAwsccDmsReplicationTasksConfig) {
 	_init_.Initialize()
 

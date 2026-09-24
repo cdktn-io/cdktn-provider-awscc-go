@@ -5,7 +5,7 @@ package rtbfabriclink
 
 
 type RtbfabricLinkModuleConfigurationListModuleParametersOpenRtbAttributeFilterConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/rtbfabric_link#criteria RtbfabricLink#criteria}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/rtbfabric_link#criteria RtbfabricLink#criteria}.
 	Criteria interface{} `field:"optional" json:"criteria" yaml:"criteria"`
 }
 

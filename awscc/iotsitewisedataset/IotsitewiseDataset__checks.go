@@ -215,6 +215,17 @@ func (i *jsiiProxy_IotsitewiseDataset) validateOverrideLogicalIdParameters(newLo
 	return nil
 }
 
+func (i *jsiiProxy_IotsitewiseDataset) validatePutDatasetConfigParameters(value *IotsitewiseDatasetDatasetConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (i *jsiiProxy_IotsitewiseDataset) validatePutDatasetSourceParameters(value *IotsitewiseDatasetDatasetSource) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -411,6 +422,14 @@ func (j *jsiiProxy_IotsitewiseDataset) validateSetDatasetNameParameters(val *str
 	return nil
 }
 
+func (j *jsiiProxy_IotsitewiseDataset) validateSetDatasetTypeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_IotsitewiseDataset) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err
@@ -460,6 +479,14 @@ func (j *jsiiProxy_IotsitewiseDataset) validateSetProvisionersParameters(val *[]
 				return fmt.Errorf("parameter val[%#v] must be one of the allowed types: *cdktn.FileProvisioner, *cdktn.LocalExecProvisioner, *cdktn.RemoteExecProvisioner; received %#v (a %T)", idx_97dfc6, v, v)
 			}
 		}
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_IotsitewiseDataset) validateSetWorkspaceNameParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil

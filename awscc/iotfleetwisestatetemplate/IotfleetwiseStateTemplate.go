@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotfleetwise_state_template awscc_iotfleetwise_state_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotfleetwise_state_template awscc_iotfleetwise_state_template}.
 type IotfleetwiseStateTemplate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -564,7 +564,7 @@ func (j *jsiiProxy_IotfleetwiseStateTemplate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotfleetwise_state_template awscc_iotfleetwise_state_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotfleetwise_state_template awscc_iotfleetwise_state_template} Resource.
 func NewIotfleetwiseStateTemplate(scope constructs.Construct, id *string, config *IotfleetwiseStateTemplateConfig) IotfleetwiseStateTemplate {
 	_init_.Initialize()
 
@@ -582,7 +582,7 @@ func NewIotfleetwiseStateTemplate(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotfleetwise_state_template awscc_iotfleetwise_state_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotfleetwise_state_template awscc_iotfleetwise_state_template} Resource.
 func NewIotfleetwiseStateTemplate_Override(i IotfleetwiseStateTemplate, scope constructs.Construct, id *string, config *IotfleetwiseStateTemplateConfig) {
 	_init_.Initialize()
 

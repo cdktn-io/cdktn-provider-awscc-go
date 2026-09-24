@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime}.
 type DataAwsccBedrockagentcoreRuntime interface {
 	cdktn.TerraformDataSource
 	AgentRuntimeArn() *string
@@ -59,6 +59,7 @@ type DataAwsccBedrockagentcoreRuntime interface {
 	NetworkConfiguration() DataAwsccBedrockagentcoreRuntimeNetworkConfigurationOutputReference
 	// The tree node.
 	Node() constructs.Node
+	PlatformVersion() *string
 	ProtocolConfiguration() *string
 	// Experimental.
 	Provider() cdktn.TerraformProvider
@@ -406,6 +407,16 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreRuntime) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccBedrockagentcoreRuntime) PlatformVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"platformVersion",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccBedrockagentcoreRuntime) ProtocolConfiguration() *string {
 	var returns *string
 	_jsii_.Get(
@@ -517,7 +528,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreRuntime) WorkloadIdentityDetails() D
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime} Data Source.
 func NewDataAwsccBedrockagentcoreRuntime(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreRuntimeConfig) DataAwsccBedrockagentcoreRuntime {
 	_init_.Initialize()
 
@@ -535,7 +546,7 @@ func NewDataAwsccBedrockagentcoreRuntime(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bedrockagentcore_runtime awscc_bedrockagentcore_runtime} Data Source.
 func NewDataAwsccBedrockagentcoreRuntime_Override(d DataAwsccBedrockagentcoreRuntime, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreRuntimeConfig) {
 	_init_.Initialize()
 

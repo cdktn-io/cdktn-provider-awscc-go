@@ -24,19 +24,19 @@ type PersonalizeSchemaConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Name for the schema.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/personalize_schema#name PersonalizeSchema#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/personalize_schema#name PersonalizeSchema#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// A schema in Avro JSON format.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/personalize_schema#schema PersonalizeSchema#schema}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/personalize_schema#schema PersonalizeSchema#schema}
 	Schema *string `field:"required" json:"schema" yaml:"schema"`
 	// The domain of a Domain dataset group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/personalize_schema#domain PersonalizeSchema#domain}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/personalize_schema#domain PersonalizeSchema#domain}
 	Domain *string `field:"optional" json:"domain" yaml:"domain"`
 	// The tags used to organize, track, or control access for this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/personalize_schema#tags PersonalizeSchema#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/personalize_schema#tags PersonalizeSchema#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

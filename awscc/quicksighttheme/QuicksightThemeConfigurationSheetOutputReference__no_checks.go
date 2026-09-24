@@ -47,6 +47,10 @@ func (q *jsiiProxy_QuicksightThemeConfigurationSheetOutputReference) validateInt
 	return nil
 }
 
+func (q *jsiiProxy_QuicksightThemeConfigurationSheetOutputReference) validatePutBackgroundParameters(value *QuicksightThemeConfigurationSheetBackground) error {
+	return nil
+}
+
 func (q *jsiiProxy_QuicksightThemeConfigurationSheetOutputReference) validatePutTileParameters(value *QuicksightThemeConfigurationSheetTile) error {
 	return nil
 }

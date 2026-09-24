@@ -24,15 +24,15 @@ type DataexchangeEventActionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// What occurs after a certain event.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dataexchange_event_action#action DataexchangeEventAction#action}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dataexchange_event_action#action DataexchangeEventAction#action}
 	Action *DataexchangeEventActionAction `field:"required" json:"action" yaml:"action"`
 	// What occurs to start an action.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dataexchange_event_action#event DataexchangeEventAction#event}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dataexchange_event_action#event DataexchangeEventAction#event}
 	Event *DataexchangeEventActionEvent `field:"required" json:"event" yaml:"event"`
 	// The tags for the event action.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dataexchange_event_action#tags DataexchangeEventAction#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dataexchange_event_action#tags DataexchangeEventAction#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

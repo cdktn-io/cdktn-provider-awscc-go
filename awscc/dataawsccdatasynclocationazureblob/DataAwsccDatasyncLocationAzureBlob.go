@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_location_azure_blob awscc_datasync_location_azure_blob}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_location_azure_blob awscc_datasync_location_azure_blob}.
 type DataAwsccDatasyncLocationAzureBlob interface {
 	cdktn.TerraformDataSource
 	AgentArns() *[]*string
@@ -35,6 +35,7 @@ type DataAwsccDatasyncLocationAzureBlob interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	FederatedIdentity() DataAwsccDatasyncLocationAzureBlobFederatedIdentityOutputReference
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -258,6 +259,16 @@ func (j *jsiiProxy_DataAwsccDatasyncLocationAzureBlob) DependsOn() *[]*string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccDatasyncLocationAzureBlob) FederatedIdentity() DataAwsccDatasyncLocationAzureBlobFederatedIdentityOutputReference {
+	var returns DataAwsccDatasyncLocationAzureBlobFederatedIdentityOutputReference
+	_jsii_.Get(
+		j,
+		"federatedIdentity",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccDatasyncLocationAzureBlob) ForEach() cdktn.ITerraformIterator {
 	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
@@ -429,7 +440,7 @@ func (j *jsiiProxy_DataAwsccDatasyncLocationAzureBlob) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_location_azure_blob awscc_datasync_location_azure_blob} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_location_azure_blob awscc_datasync_location_azure_blob} Data Source.
 func NewDataAwsccDatasyncLocationAzureBlob(scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationAzureBlobConfig) DataAwsccDatasyncLocationAzureBlob {
 	_init_.Initialize()
 
@@ -447,7 +458,7 @@ func NewDataAwsccDatasyncLocationAzureBlob(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_location_azure_blob awscc_datasync_location_azure_blob} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_location_azure_blob awscc_datasync_location_azure_blob} Data Source.
 func NewDataAwsccDatasyncLocationAzureBlob_Override(d DataAwsccDatasyncLocationAzureBlob, scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationAzureBlobConfig) {
 	_init_.Initialize()
 

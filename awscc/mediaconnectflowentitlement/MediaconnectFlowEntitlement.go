@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconnect_flow_entitlement awscc_mediaconnect_flow_entitlement}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediaconnect_flow_entitlement awscc_mediaconnect_flow_entitlement}.
 type MediaconnectFlowEntitlement interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -554,7 +554,7 @@ func (j *jsiiProxy_MediaconnectFlowEntitlement) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconnect_flow_entitlement awscc_mediaconnect_flow_entitlement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediaconnect_flow_entitlement awscc_mediaconnect_flow_entitlement} Resource.
 func NewMediaconnectFlowEntitlement(scope constructs.Construct, id *string, config *MediaconnectFlowEntitlementConfig) MediaconnectFlowEntitlement {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewMediaconnectFlowEntitlement(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconnect_flow_entitlement awscc_mediaconnect_flow_entitlement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediaconnect_flow_entitlement awscc_mediaconnect_flow_entitlement} Resource.
 func NewMediaconnectFlowEntitlement_Override(m MediaconnectFlowEntitlement, scope constructs.Construct, id *string, config *MediaconnectFlowEntitlementConfig) {
 	_init_.Initialize()
 

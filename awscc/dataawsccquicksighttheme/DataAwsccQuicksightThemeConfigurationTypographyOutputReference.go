@@ -13,6 +13,8 @@ import (
 
 type DataAwsccQuicksightThemeConfigurationTypographyOutputReference interface {
 	cdktn.ComplexObject
+	AxisLabelFontConfiguration() DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference
+	AxisTitleFontConfiguration() DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -28,11 +30,14 @@ type DataAwsccQuicksightThemeConfigurationTypographyOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DataLabelFontConfiguration() DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference
 	FontFamilies() DataAwsccQuicksightThemeConfigurationTypographyFontFamiliesList
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAwsccQuicksightThemeConfigurationTypography
 	SetInternalValue(val *DataAwsccQuicksightThemeConfigurationTypography)
+	LegendTitleFontConfiguration() DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference
+	LegendValueFontConfiguration() DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -41,6 +46,8 @@ type DataAwsccQuicksightThemeConfigurationTypographyOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	VisualSubtitleFontConfiguration() DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference
+	VisualTitleFontConfiguration() DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -80,6 +87,26 @@ type jsiiProxy_DataAwsccQuicksightThemeConfigurationTypographyOutputReference st
 	internal.Type__cdktnComplexObject
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightThemeConfigurationTypographyOutputReference) AxisLabelFontConfiguration() DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference {
+	var returns DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"axisLabelFontConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightThemeConfigurationTypographyOutputReference) AxisTitleFontConfiguration() DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference {
+	var returns DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"axisTitleFontConfiguration",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightThemeConfigurationTypographyOutputReference) ComplexObjectIndex() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -105,6 +132,16 @@ func (j *jsiiProxy_DataAwsccQuicksightThemeConfigurationTypographyOutputReferenc
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightThemeConfigurationTypographyOutputReference) DataLabelFontConfiguration() DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference {
+	var returns DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"dataLabelFontConfiguration",
 		&returns,
 	)
 	return returns
@@ -140,6 +177,26 @@ func (j *jsiiProxy_DataAwsccQuicksightThemeConfigurationTypographyOutputReferenc
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightThemeConfigurationTypographyOutputReference) LegendTitleFontConfiguration() DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference {
+	var returns DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"legendTitleFontConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightThemeConfigurationTypographyOutputReference) LegendValueFontConfiguration() DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference {
+	var returns DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"legendValueFontConfiguration",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightThemeConfigurationTypographyOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -155,6 +212,26 @@ func (j *jsiiProxy_DataAwsccQuicksightThemeConfigurationTypographyOutputReferenc
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightThemeConfigurationTypographyOutputReference) VisualSubtitleFontConfiguration() DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference {
+	var returns DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"visualSubtitleFontConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightThemeConfigurationTypographyOutputReference) VisualTitleFontConfiguration() DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference {
+	var returns DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"visualTitleFontConfiguration",
 		&returns,
 	)
 	return returns

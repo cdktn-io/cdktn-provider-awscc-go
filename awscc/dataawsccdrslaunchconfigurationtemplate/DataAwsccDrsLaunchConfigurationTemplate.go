@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/drs_launch_configuration_template awscc_drs_launch_configuration_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/drs_launch_configuration_template awscc_drs_launch_configuration_template}.
 type DataAwsccDrsLaunchConfigurationTemplate interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccDrsLaunchConfigurationTemplate) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/drs_launch_configuration_template awscc_drs_launch_configuration_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/drs_launch_configuration_template awscc_drs_launch_configuration_template} Data Source.
 func NewDataAwsccDrsLaunchConfigurationTemplate(scope constructs.Construct, id *string, config *DataAwsccDrsLaunchConfigurationTemplateConfig) DataAwsccDrsLaunchConfigurationTemplate {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccDrsLaunchConfigurationTemplate(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/drs_launch_configuration_template awscc_drs_launch_configuration_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/drs_launch_configuration_template awscc_drs_launch_configuration_template} Data Source.
 func NewDataAwsccDrsLaunchConfigurationTemplate_Override(d DataAwsccDrsLaunchConfigurationTemplate, scope constructs.Construct, id *string, config *DataAwsccDrsLaunchConfigurationTemplateConfig) {
 	_init_.Initialize()
 

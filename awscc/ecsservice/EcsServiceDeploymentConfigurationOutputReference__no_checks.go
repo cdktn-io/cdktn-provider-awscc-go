@@ -59,6 +59,10 @@ func (e *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) validatePut
 	return nil
 }
 
+func (e *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) validatePutEarlySuccessCriteriaParameters(value *EcsServiceDeploymentConfigurationEarlySuccessCriteria) error {
+	return nil
+}
+
 func (e *jsiiProxy_EcsServiceDeploymentConfigurationOutputReference) validatePutLifecycleHooksParameters(value interface{}) error {
 	return nil
 }

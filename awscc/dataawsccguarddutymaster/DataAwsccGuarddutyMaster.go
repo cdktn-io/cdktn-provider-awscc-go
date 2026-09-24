@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/guardduty_master awscc_guardduty_master}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/guardduty_master awscc_guardduty_master}.
 type DataAwsccGuarddutyMaster interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccGuarddutyMaster) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/guardduty_master awscc_guardduty_master} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/guardduty_master awscc_guardduty_master} Data Source.
 func NewDataAwsccGuarddutyMaster(scope constructs.Construct, id *string, config *DataAwsccGuarddutyMasterConfig) DataAwsccGuarddutyMaster {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccGuarddutyMaster(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/guardduty_master awscc_guardduty_master} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/guardduty_master awscc_guardduty_master} Data Source.
 func NewDataAwsccGuarddutyMaster_Override(d DataAwsccGuarddutyMaster, scope constructs.Construct, id *string, config *DataAwsccGuarddutyMasterConfig) {
 	_init_.Initialize()
 

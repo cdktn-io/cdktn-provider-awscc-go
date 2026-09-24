@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_public_dns_namespace awscc_servicediscovery_public_dns_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_public_dns_namespace awscc_servicediscovery_public_dns_namespace}.
 type ServicediscoveryPublicDnsNamespace interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -483,7 +483,7 @@ func (j *jsiiProxy_ServicediscoveryPublicDnsNamespace) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_public_dns_namespace awscc_servicediscovery_public_dns_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_public_dns_namespace awscc_servicediscovery_public_dns_namespace} Resource.
 func NewServicediscoveryPublicDnsNamespace(scope constructs.Construct, id *string, config *ServicediscoveryPublicDnsNamespaceConfig) ServicediscoveryPublicDnsNamespace {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewServicediscoveryPublicDnsNamespace(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_public_dns_namespace awscc_servicediscovery_public_dns_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_public_dns_namespace awscc_servicediscovery_public_dns_namespace} Resource.
 func NewServicediscoveryPublicDnsNamespace_Override(s ServicediscoveryPublicDnsNamespace, scope constructs.Construct, id *string, config *ServicediscoveryPublicDnsNamespaceConfig) {
 	_init_.Initialize()
 

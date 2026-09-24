@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticloadbalancingv2_target_groups awscc_elasticloadbalancingv2_target_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/elasticloadbalancingv2_target_groups awscc_elasticloadbalancingv2_target_groups}.
 type DataAwsccElasticloadbalancingv2TargetGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccElasticloadbalancingv2TargetGroups) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticloadbalancingv2_target_groups awscc_elasticloadbalancingv2_target_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/elasticloadbalancingv2_target_groups awscc_elasticloadbalancingv2_target_groups} Data Source.
 func NewDataAwsccElasticloadbalancingv2TargetGroups(scope constructs.Construct, id *string, config *DataAwsccElasticloadbalancingv2TargetGroupsConfig) DataAwsccElasticloadbalancingv2TargetGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccElasticloadbalancingv2TargetGroups(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticloadbalancingv2_target_groups awscc_elasticloadbalancingv2_target_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/elasticloadbalancingv2_target_groups awscc_elasticloadbalancingv2_target_groups} Data Source.
 func NewDataAwsccElasticloadbalancingv2TargetGroups_Override(d DataAwsccElasticloadbalancingv2TargetGroups, scope constructs.Construct, id *string, config *DataAwsccElasticloadbalancingv2TargetGroupsConfig) {
 	_init_.Initialize()
 

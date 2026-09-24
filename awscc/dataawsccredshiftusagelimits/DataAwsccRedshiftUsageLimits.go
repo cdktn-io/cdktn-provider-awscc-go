@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/redshift_usage_limits awscc_redshift_usage_limits}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/redshift_usage_limits awscc_redshift_usage_limits}.
 type DataAwsccRedshiftUsageLimits interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRedshiftUsageLimits) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/redshift_usage_limits awscc_redshift_usage_limits} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/redshift_usage_limits awscc_redshift_usage_limits} Data Source.
 func NewDataAwsccRedshiftUsageLimits(scope constructs.Construct, id *string, config *DataAwsccRedshiftUsageLimitsConfig) DataAwsccRedshiftUsageLimits {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRedshiftUsageLimits(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/redshift_usage_limits awscc_redshift_usage_limits} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/redshift_usage_limits awscc_redshift_usage_limits} Data Source.
 func NewDataAwsccRedshiftUsageLimits_Override(d DataAwsccRedshiftUsageLimits, scope constructs.Construct, id *string, config *DataAwsccRedshiftUsageLimitsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/invoicing_procurement_portal_preference awscc_invoicing_procurement_portal_preference}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/invoicing_procurement_portal_preference awscc_invoicing_procurement_portal_preference}.
 type InvoicingProcurementPortalPreference interface {
 	cdktn.TerraformResource
 	AwsAccountId() *string
@@ -771,7 +771,7 @@ func (j *jsiiProxy_InvoicingProcurementPortalPreference) Version() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/invoicing_procurement_portal_preference awscc_invoicing_procurement_portal_preference} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/invoicing_procurement_portal_preference awscc_invoicing_procurement_portal_preference} Resource.
 func NewInvoicingProcurementPortalPreference(scope constructs.Construct, id *string, config *InvoicingProcurementPortalPreferenceConfig) InvoicingProcurementPortalPreference {
 	_init_.Initialize()
 
@@ -789,7 +789,7 @@ func NewInvoicingProcurementPortalPreference(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/invoicing_procurement_portal_preference awscc_invoicing_procurement_portal_preference} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/invoicing_procurement_portal_preference awscc_invoicing_procurement_portal_preference} Resource.
 func NewInvoicingProcurementPortalPreference_Override(i InvoicingProcurementPortalPreference, scope constructs.Construct, id *string, config *InvoicingProcurementPortalPreferenceConfig) {
 	_init_.Initialize()
 

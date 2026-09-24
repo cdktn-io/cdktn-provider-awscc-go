@@ -24,11 +24,11 @@ type LightsailContactMethodConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The destination of the contact method, such as an email address or a mobile phone number.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lightsail_contact_method#contact_endpoint LightsailContactMethod#contact_endpoint}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/lightsail_contact_method#contact_endpoint LightsailContactMethod#contact_endpoint}
 	ContactEndpoint *string `field:"required" json:"contactEndpoint" yaml:"contactEndpoint"`
 	// The protocol of the contact method, such as Email or SMS (text messaging).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lightsail_contact_method#protocol LightsailContactMethod#protocol}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/lightsail_contact_method#protocol LightsailContactMethod#protocol}
 	Protocol *string `field:"required" json:"protocol" yaml:"protocol"`
 }
 

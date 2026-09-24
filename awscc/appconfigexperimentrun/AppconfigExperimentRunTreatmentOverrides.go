@@ -7,7 +7,7 @@ package appconfigexperimentrun
 type AppconfigExperimentRunTreatmentOverrides struct {
 	// Map of entity ID to treatment key (t1, t2, ..., or c for control).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/appconfig_experiment_run#inline AppconfigExperimentRun#inline}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/appconfig_experiment_run#inline AppconfigExperimentRun#inline}
 	Inline *map[string]*string `field:"optional" json:"inline" yaml:"inline"`
 }
 

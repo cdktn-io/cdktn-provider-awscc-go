@@ -87,6 +87,10 @@ func (b *jsiiProxy_BedrockagentcoreMemory) validatePutMemoryStrategiesParameters
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreMemory) validatePutNamespaceKeysParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreMemory) validatePutStreamDeliveryResourcesParameters(value *BedrockagentcoreMemoryStreamDeliveryResources) error {
 	return nil
 }

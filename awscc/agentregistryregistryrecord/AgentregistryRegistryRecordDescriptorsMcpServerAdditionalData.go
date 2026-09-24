@@ -7,7 +7,7 @@ package agentregistryregistryrecord
 type AgentregistryRegistryRecordDescriptorsMcpServerAdditionalData struct {
 	// The MCP tools descriptor.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/agentregistry_registry_record#tools AgentregistryRegistryRecord#tools}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/agentregistry_registry_record#tools AgentregistryRegistryRecord#tools}
 	Tools *AgentregistryRegistryRecordDescriptorsMcpServerAdditionalDataTools `field:"optional" json:"tools" yaml:"tools"`
 }
 

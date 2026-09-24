@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_transit_gateway_peering_attachments awscc_ec2_transit_gateway_peering_attachments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_transit_gateway_peering_attachments awscc_ec2_transit_gateway_peering_attachments}.
 type DataAwsccEc2TransitGatewayPeeringAttachments interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2TransitGatewayPeeringAttachments) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_transit_gateway_peering_attachments awscc_ec2_transit_gateway_peering_attachments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_transit_gateway_peering_attachments awscc_ec2_transit_gateway_peering_attachments} Data Source.
 func NewDataAwsccEc2TransitGatewayPeeringAttachments(scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayPeeringAttachmentsConfig) DataAwsccEc2TransitGatewayPeeringAttachments {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2TransitGatewayPeeringAttachments(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_transit_gateway_peering_attachments awscc_ec2_transit_gateway_peering_attachments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_transit_gateway_peering_attachments awscc_ec2_transit_gateway_peering_attachments} Data Source.
 func NewDataAwsccEc2TransitGatewayPeeringAttachments_Override(d DataAwsccEc2TransitGatewayPeeringAttachments, scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayPeeringAttachmentsConfig) {
 	_init_.Initialize()
 

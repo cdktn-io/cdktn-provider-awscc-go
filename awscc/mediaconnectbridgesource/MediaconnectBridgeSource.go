@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconnect_bridge_source awscc_mediaconnect_bridge_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediaconnect_bridge_source awscc_mediaconnect_bridge_source}.
 type MediaconnectBridgeSource interface {
 	cdktn.TerraformResource
 	BridgeArn() *string
@@ -449,7 +449,7 @@ func (j *jsiiProxy_MediaconnectBridgeSource) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconnect_bridge_source awscc_mediaconnect_bridge_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediaconnect_bridge_source awscc_mediaconnect_bridge_source} Resource.
 func NewMediaconnectBridgeSource(scope constructs.Construct, id *string, config *MediaconnectBridgeSourceConfig) MediaconnectBridgeSource {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewMediaconnectBridgeSource(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconnect_bridge_source awscc_mediaconnect_bridge_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediaconnect_bridge_source awscc_mediaconnect_bridge_source} Resource.
 func NewMediaconnectBridgeSource_Override(m MediaconnectBridgeSource, scope constructs.Construct, id *string, config *MediaconnectBridgeSourceConfig) {
 	_init_.Initialize()
 

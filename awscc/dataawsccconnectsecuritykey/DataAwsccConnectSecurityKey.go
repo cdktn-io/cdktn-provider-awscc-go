@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/connect_security_key awscc_connect_security_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/connect_security_key awscc_connect_security_key}.
 type DataAwsccConnectSecurityKey interface {
 	cdktn.TerraformDataSource
 	AssociationId() *string
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccConnectSecurityKey) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/connect_security_key awscc_connect_security_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/connect_security_key awscc_connect_security_key} Data Source.
 func NewDataAwsccConnectSecurityKey(scope constructs.Construct, id *string, config *DataAwsccConnectSecurityKeyConfig) DataAwsccConnectSecurityKey {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccConnectSecurityKey(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/connect_security_key awscc_connect_security_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/connect_security_key awscc_connect_security_key} Data Source.
 func NewDataAwsccConnectSecurityKey_Override(d DataAwsccConnectSecurityKey, scope constructs.Construct, id *string, config *DataAwsccConnectSecurityKeyConfig) {
 	_init_.Initialize()
 

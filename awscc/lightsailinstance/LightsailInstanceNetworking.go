@@ -7,11 +7,11 @@ package lightsailinstance
 type LightsailInstanceNetworking struct {
 	// Monthly Transfer of the Instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lightsail_instance#monthly_transfer LightsailInstance#monthly_transfer}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/lightsail_instance#monthly_transfer LightsailInstance#monthly_transfer}
 	MonthlyTransfer *LightsailInstanceNetworkingMonthlyTransfer `field:"optional" json:"monthlyTransfer" yaml:"monthlyTransfer"`
 	// Ports to the Instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lightsail_instance#ports LightsailInstance#ports}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/lightsail_instance#ports LightsailInstance#ports}
 	Ports interface{} `field:"optional" json:"ports" yaml:"ports"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target}.
 type ApplicationautoscalingScalableTarget interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -79,6 +79,8 @@ type ApplicationautoscalingScalableTarget interface {
 	ServiceNamespaceInput() *string
 	SuspendedState() ApplicationautoscalingScalableTargetSuspendedStateOutputReference
 	SuspendedStateInput() interface{}
+	Tags() ApplicationautoscalingScalableTargetTagsList
+	TagsInput() interface{}
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -166,6 +168,7 @@ type ApplicationautoscalingScalableTarget interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutScheduledActions(value interface{})
 	PutSuspendedState(value *ApplicationautoscalingScalableTargetSuspendedState)
+	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -185,6 +188,7 @@ type ApplicationautoscalingScalableTarget interface {
 	ResetRoleArn()
 	ResetScheduledActions()
 	ResetSuspendedState()
+	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -522,6 +526,26 @@ func (j *jsiiProxy_ApplicationautoscalingScalableTarget) SuspendedStateInput() i
 	return returns
 }
 
+func (j *jsiiProxy_ApplicationautoscalingScalableTarget) Tags() ApplicationautoscalingScalableTargetTagsList {
+	var returns ApplicationautoscalingScalableTargetTagsList
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApplicationautoscalingScalableTarget) TagsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"tagsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ApplicationautoscalingScalableTarget) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -553,7 +577,7 @@ func (j *jsiiProxy_ApplicationautoscalingScalableTarget) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target} Resource.
 func NewApplicationautoscalingScalableTarget(scope constructs.Construct, id *string, config *ApplicationautoscalingScalableTargetConfig) ApplicationautoscalingScalableTarget {
 	_init_.Initialize()
 
@@ -571,7 +595,7 @@ func NewApplicationautoscalingScalableTarget(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target} Resource.
 func NewApplicationautoscalingScalableTarget_Override(a ApplicationautoscalingScalableTarget, scope constructs.Construct, id *string, config *ApplicationautoscalingScalableTargetConfig) {
 	_init_.Initialize()
 
@@ -1107,6 +1131,17 @@ func (a *jsiiProxy_ApplicationautoscalingScalableTarget) PutSuspendedState(value
 	)
 }
 
+func (a *jsiiProxy_ApplicationautoscalingScalableTarget) PutTags(value interface{}) {
+	if err := a.validatePutTagsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putTags",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_ApplicationautoscalingScalableTarget) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := a.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -1146,6 +1181,14 @@ func (a *jsiiProxy_ApplicationautoscalingScalableTarget) ResetSuspendedState() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetSuspendedState",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApplicationautoscalingScalableTarget) ResetTags() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetTags",
 		nil, // no parameters
 	)
 }

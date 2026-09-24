@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ses_mail_manager_relay awscc_ses_mail_manager_relay}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ses_mail_manager_relay awscc_ses_mail_manager_relay}.
 type SesMailManagerRelay interface {
 	cdktn.TerraformResource
 	Authentication() SesMailManagerRelayAuthenticationOutputReference
@@ -494,7 +494,7 @@ func (j *jsiiProxy_SesMailManagerRelay) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ses_mail_manager_relay awscc_ses_mail_manager_relay} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ses_mail_manager_relay awscc_ses_mail_manager_relay} Resource.
 func NewSesMailManagerRelay(scope constructs.Construct, id *string, config *SesMailManagerRelayConfig) SesMailManagerRelay {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewSesMailManagerRelay(scope constructs.Construct, id *string, config *SesM
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ses_mail_manager_relay awscc_ses_mail_manager_relay} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ses_mail_manager_relay awscc_ses_mail_manager_relay} Resource.
 func NewSesMailManagerRelay_Override(s SesMailManagerRelay, scope constructs.Construct, id *string, config *SesMailManagerRelayConfig) {
 	_init_.Initialize()
 

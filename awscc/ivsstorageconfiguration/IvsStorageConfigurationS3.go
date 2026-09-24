@@ -9,7 +9,7 @@ type IvsStorageConfigurationS3 struct {
 	//
 	// Note that the StorageConfiguration and S3 bucket must be in the same region as the Composition.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ivs_storage_configuration#bucket_name IvsStorageConfiguration#bucket_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ivs_storage_configuration#bucket_name IvsStorageConfiguration#bucket_name}
 	BucketName *string `field:"required" json:"bucketName" yaml:"bucketName"`
 }
 

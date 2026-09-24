@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_fpga_image awscc_ec2_fpga_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_fpga_image awscc_ec2_fpga_image}.
 type DataAwsccEc2FpgaImage interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccEc2FpgaImage) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_fpga_image awscc_ec2_fpga_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_fpga_image awscc_ec2_fpga_image} Data Source.
 func NewDataAwsccEc2FpgaImage(scope constructs.Construct, id *string, config *DataAwsccEc2FpgaImageConfig) DataAwsccEc2FpgaImage {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccEc2FpgaImage(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_fpga_image awscc_ec2_fpga_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_fpga_image awscc_ec2_fpga_image} Data Source.
 func NewDataAwsccEc2FpgaImage_Override(d DataAwsccEc2FpgaImage, scope constructs.Construct, id *string, config *DataAwsccEc2FpgaImageConfig) {
 	_init_.Initialize()
 

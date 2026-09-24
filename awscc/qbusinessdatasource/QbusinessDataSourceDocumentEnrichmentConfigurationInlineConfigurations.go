@@ -5,11 +5,11 @@ package qbusinessdatasource
 
 
 type QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurations struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/qbusiness_data_source#condition QbusinessDataSource#condition}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/qbusiness_data_source#condition QbusinessDataSource#condition}.
 	Condition *QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsCondition `field:"optional" json:"condition" yaml:"condition"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/qbusiness_data_source#document_content_operator QbusinessDataSource#document_content_operator}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/qbusiness_data_source#document_content_operator QbusinessDataSource#document_content_operator}.
 	DocumentContentOperator *string `field:"optional" json:"documentContentOperator" yaml:"documentContentOperator"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/qbusiness_data_source#target QbusinessDataSource#target}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/qbusiness_data_source#target QbusinessDataSource#target}.
 	Target *QbusinessDataSourceDocumentEnrichmentConfigurationInlineConfigurationsTarget `field:"optional" json:"target" yaml:"target"`
 }
 

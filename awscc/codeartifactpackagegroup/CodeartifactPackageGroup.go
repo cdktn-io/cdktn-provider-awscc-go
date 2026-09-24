@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/codeartifact_package_group awscc_codeartifact_package_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/codeartifact_package_group awscc_codeartifact_package_group}.
 type CodeartifactPackageGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_CodeartifactPackageGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/codeartifact_package_group awscc_codeartifact_package_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/codeartifact_package_group awscc_codeartifact_package_group} Resource.
 func NewCodeartifactPackageGroup(scope constructs.Construct, id *string, config *CodeartifactPackageGroupConfig) CodeartifactPackageGroup {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewCodeartifactPackageGroup(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/codeartifact_package_group awscc_codeartifact_package_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/codeartifact_package_group awscc_codeartifact_package_group} Resource.
 func NewCodeartifactPackageGroup_Override(c CodeartifactPackageGroup, scope constructs.Construct, id *string, config *CodeartifactPackageGroupConfig) {
 	_init_.Initialize()
 

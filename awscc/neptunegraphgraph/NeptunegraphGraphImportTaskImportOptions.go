@@ -7,7 +7,7 @@ package neptunegraphgraph
 type NeptunegraphGraphImportTaskImportOptions struct {
 	// Options for importing data from a Neptune database.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/neptunegraph_graph#neptune NeptunegraphGraph#neptune}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/neptunegraph_graph#neptune NeptunegraphGraph#neptune}
 	Neptune *NeptunegraphGraphImportTaskImportOptionsNeptune `field:"optional" json:"neptune" yaml:"neptune"`
 }
 

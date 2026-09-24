@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_phone_number awscc_connect_phone_number}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_phone_number awscc_connect_phone_number}.
 type ConnectPhoneNumber interface {
 	cdktn.TerraformResource
 	Address() *string
@@ -544,7 +544,7 @@ func (j *jsiiProxy_ConnectPhoneNumber) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_phone_number awscc_connect_phone_number} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_phone_number awscc_connect_phone_number} Resource.
 func NewConnectPhoneNumber(scope constructs.Construct, id *string, config *ConnectPhoneNumberConfig) ConnectPhoneNumber {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewConnectPhoneNumber(scope constructs.Construct, id *string, config *Conne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_phone_number awscc_connect_phone_number} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_phone_number awscc_connect_phone_number} Resource.
 func NewConnectPhoneNumber_Override(c ConnectPhoneNumber, scope constructs.Construct, id *string, config *ConnectPhoneNumberConfig) {
 	_init_.Initialize()
 

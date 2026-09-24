@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_media_insights_pipeline_configuration awscc_chime_media_insights_pipeline_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_media_insights_pipeline_configuration awscc_chime_media_insights_pipeline_configuration}.
 type ChimeMediaInsightsPipelineConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -516,7 +516,7 @@ func (j *jsiiProxy_ChimeMediaInsightsPipelineConfiguration) UpdatedTimestamp() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_media_insights_pipeline_configuration awscc_chime_media_insights_pipeline_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_media_insights_pipeline_configuration awscc_chime_media_insights_pipeline_configuration} Resource.
 func NewChimeMediaInsightsPipelineConfiguration(scope constructs.Construct, id *string, config *ChimeMediaInsightsPipelineConfigurationConfig) ChimeMediaInsightsPipelineConfiguration {
 	_init_.Initialize()
 
@@ -534,7 +534,7 @@ func NewChimeMediaInsightsPipelineConfiguration(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_media_insights_pipeline_configuration awscc_chime_media_insights_pipeline_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_media_insights_pipeline_configuration awscc_chime_media_insights_pipeline_configuration} Resource.
 func NewChimeMediaInsightsPipelineConfiguration_Override(c ChimeMediaInsightsPipelineConfiguration, scope constructs.Construct, id *string, config *ChimeMediaInsightsPipelineConfigurationConfig) {
 	_init_.Initialize()
 

@@ -1,3 +1,3 @@
 # `awscc_ses_contact_list`
 
-Refer to the Terraform Registry for docs: [`awscc_ses_contact_list`](https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ses_contact_list).
+Refer to the Terraform Registry for docs: [`awscc_ses_contact_list`](https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ses_contact_list).

@@ -1,3 +1,3 @@
 # `awscc_ssm_service_setting`
 
-Refer to the Terraform Registry for docs: [`awscc_ssm_service_setting`](https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ssm_service_setting).
+Refer to the Terraform Registry for docs: [`awscc_ssm_service_setting`](https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ssm_service_setting).

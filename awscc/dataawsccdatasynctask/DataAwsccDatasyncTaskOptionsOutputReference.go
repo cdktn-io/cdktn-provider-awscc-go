@@ -37,6 +37,7 @@ type DataAwsccDatasyncTaskOptionsOutputReference interface {
 	SetInternalValue(val *DataAwsccDatasyncTaskOptions)
 	LogLevel() *string
 	Mtime() *string
+	ObjectMetadata() *string
 	ObjectTags() *string
 	OverwriteMode() *string
 	PosixPermissions() *string
@@ -189,6 +190,16 @@ func (j *jsiiProxy_DataAwsccDatasyncTaskOptionsOutputReference) Mtime() *string 
 	_jsii_.Get(
 		j,
 		"mtime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccDatasyncTaskOptionsOutputReference) ObjectMetadata() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"objectMetadata",
 		&returns,
 	)
 	return returns

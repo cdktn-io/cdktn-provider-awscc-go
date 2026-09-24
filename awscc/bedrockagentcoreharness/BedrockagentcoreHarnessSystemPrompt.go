@@ -7,7 +7,7 @@ package bedrockagentcoreharness
 type BedrockagentcoreHarnessSystemPrompt struct {
 	// The text content of the system prompt block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrockagentcore_harness#text BedrockagentcoreHarness#text}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bedrockagentcore_harness#text BedrockagentcoreHarness#text}
 	Text *string `field:"optional" json:"text" yaml:"text"`
 }
 

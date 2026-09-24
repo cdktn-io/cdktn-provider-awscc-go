@@ -342,6 +342,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "logLevel", GoGetter: "LogLevel"},
 			_jsii_.MemberProperty{JsiiProperty: "mtime", GoGetter: "Mtime"},
+			_jsii_.MemberProperty{JsiiProperty: "objectMetadata", GoGetter: "ObjectMetadata"},
 			_jsii_.MemberProperty{JsiiProperty: "objectTags", GoGetter: "ObjectTags"},
 			_jsii_.MemberProperty{JsiiProperty: "overwriteMode", GoGetter: "OverwriteMode"},
 			_jsii_.MemberProperty{JsiiProperty: "posixPermissions", GoGetter: "PosixPermissions"},

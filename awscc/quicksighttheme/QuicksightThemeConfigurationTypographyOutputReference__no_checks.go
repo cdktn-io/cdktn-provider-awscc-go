@@ -47,7 +47,35 @@ func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) valida
 	return nil
 }
 
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) validatePutAxisLabelFontConfigurationParameters(value *QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) validatePutAxisTitleFontConfigurationParameters(value *QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) validatePutDataLabelFontConfigurationParameters(value *QuicksightThemeConfigurationTypographyDataLabelFontConfiguration) error {
+	return nil
+}
+
 func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) validatePutFontFamiliesParameters(value interface{}) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) validatePutLegendTitleFontConfigurationParameters(value *QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) validatePutLegendValueFontConfigurationParameters(value *QuicksightThemeConfigurationTypographyLegendValueFontConfiguration) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) validatePutVisualSubtitleFontConfigurationParameters(value *QuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyOutputReference) validatePutVisualTitleFontConfigurationParameters(value *QuicksightThemeConfigurationTypographyVisualTitleFontConfiguration) error {
 	return nil
 }
 

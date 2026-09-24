@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/servicecatalogappregistry_application awscc_servicecatalogappregistry_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/servicecatalogappregistry_application awscc_servicecatalogappregistry_application}.
 type DataAwsccServicecatalogappregistryApplication interface {
 	cdktn.TerraformDataSource
 	ApplicationId() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccServicecatalogappregistryApplication) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/servicecatalogappregistry_application awscc_servicecatalogappregistry_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/servicecatalogappregistry_application awscc_servicecatalogappregistry_application} Data Source.
 func NewDataAwsccServicecatalogappregistryApplication(scope constructs.Construct, id *string, config *DataAwsccServicecatalogappregistryApplicationConfig) DataAwsccServicecatalogappregistryApplication {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccServicecatalogappregistryApplication(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/servicecatalogappregistry_application awscc_servicecatalogappregistry_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/servicecatalogappregistry_application awscc_servicecatalogappregistry_application} Data Source.
 func NewDataAwsccServicecatalogappregistryApplication_Override(d DataAwsccServicecatalogappregistryApplication, scope constructs.Construct, id *string, config *DataAwsccServicecatalogappregistryApplicationConfig) {
 	_init_.Initialize()
 

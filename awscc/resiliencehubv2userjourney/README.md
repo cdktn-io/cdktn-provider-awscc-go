@@ -1,3 +1,3 @@
 # `awscc_resiliencehubv2_user_journey`
 
-Refer to the Terraform Registry for docs: [`awscc_resiliencehubv2_user_journey`](https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/resiliencehubv2_user_journey).
+Refer to the Terraform Registry for docs: [`awscc_resiliencehubv2_user_journey`](https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/resiliencehubv2_user_journey).

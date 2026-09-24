@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sns_topic awscc_sns_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sns_topic awscc_sns_topic}.
 type DataAwsccSnsTopic interface {
 	cdktn.TerraformDataSource
 	ArchivePolicy() *string
@@ -50,6 +50,7 @@ type DataAwsccSnsTopic interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	MaximumMessageSize() *float64
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
@@ -319,6 +320,16 @@ func (j *jsiiProxy_DataAwsccSnsTopic) Lifecycle() *cdktn.TerraformResourceLifecy
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccSnsTopic) MaximumMessageSize() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"maximumMessageSize",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccSnsTopic) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -440,7 +451,7 @@ func (j *jsiiProxy_DataAwsccSnsTopic) TracingConfig() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sns_topic awscc_sns_topic} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sns_topic awscc_sns_topic} Data Source.
 func NewDataAwsccSnsTopic(scope constructs.Construct, id *string, config *DataAwsccSnsTopicConfig) DataAwsccSnsTopic {
 	_init_.Initialize()
 
@@ -458,7 +469,7 @@ func NewDataAwsccSnsTopic(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sns_topic awscc_sns_topic} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sns_topic awscc_sns_topic} Data Source.
 func NewDataAwsccSnsTopic_Override(d DataAwsccSnsTopic, scope constructs.Construct, id *string, config *DataAwsccSnsTopicConfig) {
 	_init_.Initialize()
 

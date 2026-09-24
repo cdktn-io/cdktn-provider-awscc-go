@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/logs_storage_tier_policy awscc_logs_storage_tier_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/logs_storage_tier_policy awscc_logs_storage_tier_policy}.
 type LogsStorageTierPolicy interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -400,7 +400,7 @@ func (j *jsiiProxy_LogsStorageTierPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/logs_storage_tier_policy awscc_logs_storage_tier_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/logs_storage_tier_policy awscc_logs_storage_tier_policy} Resource.
 func NewLogsStorageTierPolicy(scope constructs.Construct, id *string, config *LogsStorageTierPolicyConfig) LogsStorageTierPolicy {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewLogsStorageTierPolicy(scope constructs.Construct, id *string, config *Lo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/logs_storage_tier_policy awscc_logs_storage_tier_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/logs_storage_tier_policy awscc_logs_storage_tier_policy} Resource.
 func NewLogsStorageTierPolicy_Override(l LogsStorageTierPolicy, scope constructs.Construct, id *string, config *LogsStorageTierPolicyConfig) {
 	_init_.Initialize()
 

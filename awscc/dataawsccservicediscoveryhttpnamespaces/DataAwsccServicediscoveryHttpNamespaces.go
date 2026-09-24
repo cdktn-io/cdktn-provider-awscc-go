@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/servicediscovery_http_namespaces awscc_servicediscovery_http_namespaces}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/servicediscovery_http_namespaces awscc_servicediscovery_http_namespaces}.
 type DataAwsccServicediscoveryHttpNamespaces interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccServicediscoveryHttpNamespaces) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/servicediscovery_http_namespaces awscc_servicediscovery_http_namespaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/servicediscovery_http_namespaces awscc_servicediscovery_http_namespaces} Data Source.
 func NewDataAwsccServicediscoveryHttpNamespaces(scope constructs.Construct, id *string, config *DataAwsccServicediscoveryHttpNamespacesConfig) DataAwsccServicediscoveryHttpNamespaces {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccServicediscoveryHttpNamespaces(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/servicediscovery_http_namespaces awscc_servicediscovery_http_namespaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/servicediscovery_http_namespaces awscc_servicediscovery_http_namespaces} Data Source.
 func NewDataAwsccServicediscoveryHttpNamespaces_Override(d DataAwsccServicediscoveryHttpNamespaces, scope constructs.Construct, id *string, config *DataAwsccServicediscoveryHttpNamespacesConfig) {
 	_init_.Initialize()
 

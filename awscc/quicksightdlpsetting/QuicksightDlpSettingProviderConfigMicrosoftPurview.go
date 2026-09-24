@@ -5,11 +5,11 @@ package quicksightdlpsetting
 
 
 type QuicksightDlpSettingProviderConfigMicrosoftPurview struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_dlp_setting#credentials QuicksightDlpSetting#credentials}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_dlp_setting#credentials QuicksightDlpSetting#credentials}.
 	Credentials *QuicksightDlpSettingProviderConfigMicrosoftPurviewCredentials `field:"optional" json:"credentials" yaml:"credentials"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_dlp_setting#label_action_mappings QuicksightDlpSetting#label_action_mappings}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_dlp_setting#label_action_mappings QuicksightDlpSetting#label_action_mappings}.
 	LabelActionMappings interface{} `field:"optional" json:"labelActionMappings" yaml:"labelActionMappings"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_dlp_setting#unmapped_action QuicksightDlpSetting#unmapped_action}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_dlp_setting#unmapped_action QuicksightDlpSetting#unmapped_action}.
 	UnmappedAction *string `field:"optional" json:"unmappedAction" yaml:"unmappedAction"`
 }
 

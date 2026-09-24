@@ -9,7 +9,7 @@ type IoteventsAlarmModelAlarmCapabilitiesInitializationConfiguration struct {
 	//
 	// If ``FALSE``, all alarm instances created based on the alarm model are activated. The default value is ``TRUE``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotevents_alarm_model#disabled_on_initialization IoteventsAlarmModel#disabled_on_initialization}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotevents_alarm_model#disabled_on_initialization IoteventsAlarmModel#disabled_on_initialization}
 	DisabledOnInitialization interface{} `field:"optional" json:"disabledOnInitialization" yaml:"disabledOnInitialization"`
 }
 

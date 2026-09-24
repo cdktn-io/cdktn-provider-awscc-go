@@ -7,11 +7,11 @@ package dlmlifecyclepolicy
 type DlmLifecyclePolicyPolicyDetailsEventSource struct {
 	// Information about the event.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dlm_lifecycle_policy#parameters DlmLifecyclePolicy#parameters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dlm_lifecycle_policy#parameters DlmLifecyclePolicy#parameters}
 	Parameters *DlmLifecyclePolicyPolicyDetailsEventSourceParameters `field:"optional" json:"parameters" yaml:"parameters"`
 	// The source of the event. Currently only managed Amazon EventBridge events are supported.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dlm_lifecycle_policy#type DlmLifecyclePolicy#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dlm_lifecycle_policy#type DlmLifecyclePolicy#type}
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

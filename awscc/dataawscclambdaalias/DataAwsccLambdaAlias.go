@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/lambda_alias awscc_lambda_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/lambda_alias awscc_lambda_alias}.
 type DataAwsccLambdaAlias interface {
 	cdktn.TerraformDataSource
 	AliasArn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccLambdaAlias) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/lambda_alias awscc_lambda_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/lambda_alias awscc_lambda_alias} Data Source.
 func NewDataAwsccLambdaAlias(scope constructs.Construct, id *string, config *DataAwsccLambdaAliasConfig) DataAwsccLambdaAlias {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccLambdaAlias(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/lambda_alias awscc_lambda_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/lambda_alias awscc_lambda_alias} Data Source.
 func NewDataAwsccLambdaAlias_Override(d DataAwsccLambdaAlias, scope constructs.Construct, id *string, config *DataAwsccLambdaAliasConfig) {
 	_init_.Initialize()
 

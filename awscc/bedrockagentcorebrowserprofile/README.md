@@ -1,3 +1,3 @@
 # `awscc_bedrockagentcore_browser_profile`
 
-Refer to the Terraform Registry for docs: [`awscc_bedrockagentcore_browser_profile`](https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrockagentcore_browser_profile).
+Refer to the Terraform Registry for docs: [`awscc_bedrockagentcore_browser_profile`](https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bedrockagentcore_browser_profile).

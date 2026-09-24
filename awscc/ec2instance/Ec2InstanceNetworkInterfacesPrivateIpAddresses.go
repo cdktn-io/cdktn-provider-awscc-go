@@ -9,11 +9,11 @@ type Ec2InstanceNetworkInterfacesPrivateIpAddresses struct {
 	//
 	// Only one IPv4 address can be designated as primary.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_instance#primary Ec2Instance#primary}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_instance#primary Ec2Instance#primary}
 	Primary interface{} `field:"optional" json:"primary" yaml:"primary"`
 	// The private IPv4 addresses.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_instance#private_ip_address Ec2Instance#private_ip_address}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_instance#private_ip_address Ec2Instance#private_ip_address}
 	PrivateIpAddress *string `field:"optional" json:"privateIpAddress" yaml:"privateIpAddress"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cognito_log_delivery_configuration awscc_cognito_log_delivery_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/cognito_log_delivery_configuration awscc_cognito_log_delivery_configuration}.
 type DataAwsccCognitoLogDeliveryConfiguration interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccCognitoLogDeliveryConfiguration) UserPoolId() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cognito_log_delivery_configuration awscc_cognito_log_delivery_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/cognito_log_delivery_configuration awscc_cognito_log_delivery_configuration} Data Source.
 func NewDataAwsccCognitoLogDeliveryConfiguration(scope constructs.Construct, id *string, config *DataAwsccCognitoLogDeliveryConfigurationConfig) DataAwsccCognitoLogDeliveryConfiguration {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccCognitoLogDeliveryConfiguration(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cognito_log_delivery_configuration awscc_cognito_log_delivery_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/cognito_log_delivery_configuration awscc_cognito_log_delivery_configuration} Data Source.
 func NewDataAwsccCognitoLogDeliveryConfiguration_Override(d DataAwsccCognitoLogDeliveryConfiguration, scope constructs.Construct, id *string, config *DataAwsccCognitoLogDeliveryConfigurationConfig) {
 	_init_.Initialize()
 

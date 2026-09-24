@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssmcontacts_rotations awscc_ssmcontacts_rotations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ssmcontacts_rotations awscc_ssmcontacts_rotations}.
 type DataAwsccSsmcontactsRotations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSsmcontactsRotations) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssmcontacts_rotations awscc_ssmcontacts_rotations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ssmcontacts_rotations awscc_ssmcontacts_rotations} Data Source.
 func NewDataAwsccSsmcontactsRotations(scope constructs.Construct, id *string, config *DataAwsccSsmcontactsRotationsConfig) DataAwsccSsmcontactsRotations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSsmcontactsRotations(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssmcontacts_rotations awscc_ssmcontacts_rotations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ssmcontacts_rotations awscc_ssmcontacts_rotations} Data Source.
 func NewDataAwsccSsmcontactsRotations_Override(d DataAwsccSsmcontactsRotations, scope constructs.Construct, id *string, config *DataAwsccSsmcontactsRotationsConfig) {
 	_init_.Initialize()
 

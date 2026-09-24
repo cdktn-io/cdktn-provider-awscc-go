@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_application_status_checks awscc_ec2_application_status_checks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_application_status_checks awscc_ec2_application_status_checks}.
 type DataAwsccEc2ApplicationStatusChecks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2ApplicationStatusChecks) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_application_status_checks awscc_ec2_application_status_checks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_application_status_checks awscc_ec2_application_status_checks} Data Source.
 func NewDataAwsccEc2ApplicationStatusChecks(scope constructs.Construct, id *string, config *DataAwsccEc2ApplicationStatusChecksConfig) DataAwsccEc2ApplicationStatusChecks {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2ApplicationStatusChecks(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_application_status_checks awscc_ec2_application_status_checks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_application_status_checks awscc_ec2_application_status_checks} Data Source.
 func NewDataAwsccEc2ApplicationStatusChecks_Override(d DataAwsccEc2ApplicationStatusChecks, scope constructs.Construct, id *string, config *DataAwsccEc2ApplicationStatusChecksConfig) {
 	_init_.Initialize()
 

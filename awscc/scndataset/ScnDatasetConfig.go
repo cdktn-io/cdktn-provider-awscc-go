@@ -24,31 +24,31 @@ type ScnDatasetConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The Amazon Web Services Supply Chain instance identifier.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/scn_dataset#instance_id ScnDataset#instance_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/scn_dataset#instance_id ScnDataset#instance_id}
 	InstanceId *string `field:"required" json:"instanceId" yaml:"instanceId"`
 	// The name of the dataset.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/scn_dataset#name ScnDataset#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/scn_dataset#name ScnDataset#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The namespace of the dataset.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/scn_dataset#namespace ScnDataset#namespace}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/scn_dataset#namespace ScnDataset#namespace}
 	Namespace *string `field:"required" json:"namespace" yaml:"namespace"`
 	// The description of the dataset.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/scn_dataset#description ScnDataset#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/scn_dataset#description ScnDataset#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The partition specification of the dataset.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/scn_dataset#partition_spec ScnDataset#partition_spec}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/scn_dataset#partition_spec ScnDataset#partition_spec}
 	PartitionSpec *ScnDatasetPartitionSpec `field:"optional" json:"partitionSpec" yaml:"partitionSpec"`
 	// The schema of the dataset.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/scn_dataset#schema ScnDataset#schema}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/scn_dataset#schema ScnDataset#schema}
 	Schema *ScnDatasetSchema `field:"optional" json:"schema" yaml:"schema"`
 	// The tags for the dataset.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/scn_dataset#tags ScnDataset#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/scn_dataset#tags ScnDataset#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

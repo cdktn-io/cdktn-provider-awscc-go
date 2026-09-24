@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/servicediscovery_instance awscc_servicediscovery_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/servicediscovery_instance awscc_servicediscovery_instance}.
 type DataAwsccServicediscoveryInstance interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccServicediscoveryInstance) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/servicediscovery_instance awscc_servicediscovery_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/servicediscovery_instance awscc_servicediscovery_instance} Data Source.
 func NewDataAwsccServicediscoveryInstance(scope constructs.Construct, id *string, config *DataAwsccServicediscoveryInstanceConfig) DataAwsccServicediscoveryInstance {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccServicediscoveryInstance(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/servicediscovery_instance awscc_servicediscovery_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/servicediscovery_instance awscc_servicediscovery_instance} Data Source.
 func NewDataAwsccServicediscoveryInstance_Override(d DataAwsccServicediscoveryInstance, scope constructs.Construct, id *string, config *DataAwsccServicediscoveryInstanceConfig) {
 	_init_.Initialize()
 

@@ -24,15 +24,15 @@ type GuarddutyMasterConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Unique ID of the detector of the GuardDuty member account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/guardduty_master#detector_id GuarddutyMaster#detector_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/guardduty_master#detector_id GuarddutyMaster#detector_id}
 	DetectorId *string `field:"required" json:"detectorId" yaml:"detectorId"`
 	// ID of the account used as the master account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/guardduty_master#master_id GuarddutyMaster#master_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/guardduty_master#master_id GuarddutyMaster#master_id}
 	MasterId *string `field:"required" json:"masterId" yaml:"masterId"`
 	// Value used to validate the master account to the member account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/guardduty_master#invitation_id GuarddutyMaster#invitation_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/guardduty_master#invitation_id GuarddutyMaster#invitation_id}
 	InvitationId *string `field:"optional" json:"invitationId" yaml:"invitationId"`
 }
 

@@ -7,7 +7,7 @@ package auditmanagerassessmentframework
 type AuditmanagerAssessmentFrameworkControlSetsControls struct {
 	// The unique identifier of the control.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/auditmanager_assessment_framework#id AuditmanagerAssessmentFramework#id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/auditmanager_assessment_framework#id AuditmanagerAssessmentFramework#id}
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

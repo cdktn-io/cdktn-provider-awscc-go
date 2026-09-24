@@ -5,7 +5,7 @@ package ssmpatchbaseline
 
 
 type SsmPatchBaselineApprovalRulesPatchRulesPatchFilterGroup struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ssm_patch_baseline#patch_filters SsmPatchBaseline#patch_filters}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ssm_patch_baseline#patch_filters SsmPatchBaseline#patch_filters}.
 	PatchFilters interface{} `field:"optional" json:"patchFilters" yaml:"patchFilters"`
 }
 

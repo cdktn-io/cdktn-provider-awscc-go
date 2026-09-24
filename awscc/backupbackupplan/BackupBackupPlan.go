@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/backup_backup_plan awscc_backup_backup_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/backup_backup_plan awscc_backup_backup_plan}.
 type BackupBackupPlan interface {
 	cdktn.TerraformResource
 	BackupPlan() BackupBackupPlanBackupPlanOutputReference
@@ -435,7 +435,7 @@ func (j *jsiiProxy_BackupBackupPlan) VersionId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/backup_backup_plan awscc_backup_backup_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/backup_backup_plan awscc_backup_backup_plan} Resource.
 func NewBackupBackupPlan(scope constructs.Construct, id *string, config *BackupBackupPlanConfig) BackupBackupPlan {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewBackupBackupPlan(scope constructs.Construct, id *string, config *BackupB
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/backup_backup_plan awscc_backup_backup_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/backup_backup_plan awscc_backup_backup_plan} Resource.
 func NewBackupBackupPlan_Override(b BackupBackupPlan, scope constructs.Construct, id *string, config *BackupBackupPlanConfig) {
 	_init_.Initialize()
 

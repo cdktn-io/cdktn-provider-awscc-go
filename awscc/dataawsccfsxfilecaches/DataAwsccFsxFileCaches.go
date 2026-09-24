@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fsx_file_caches awscc_fsx_file_caches}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/fsx_file_caches awscc_fsx_file_caches}.
 type DataAwsccFsxFileCaches interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccFsxFileCaches) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fsx_file_caches awscc_fsx_file_caches} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/fsx_file_caches awscc_fsx_file_caches} Data Source.
 func NewDataAwsccFsxFileCaches(scope constructs.Construct, id *string, config *DataAwsccFsxFileCachesConfig) DataAwsccFsxFileCaches {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccFsxFileCaches(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fsx_file_caches awscc_fsx_file_caches} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/fsx_file_caches awscc_fsx_file_caches} Data Source.
 func NewDataAwsccFsxFileCaches_Override(d DataAwsccFsxFileCaches, scope constructs.Construct, id *string, config *DataAwsccFsxFileCachesConfig) {
 	_init_.Initialize()
 

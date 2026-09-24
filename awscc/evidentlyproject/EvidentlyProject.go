@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/evidently_project awscc_evidently_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/evidently_project awscc_evidently_project}.
 type EvidentlyProject interface {
 	cdktn.TerraformResource
 	AppConfigResource() EvidentlyProjectAppConfigResourceOutputReference
@@ -485,7 +485,7 @@ func (j *jsiiProxy_EvidentlyProject) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/evidently_project awscc_evidently_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/evidently_project awscc_evidently_project} Resource.
 func NewEvidentlyProject(scope constructs.Construct, id *string, config *EvidentlyProjectConfig) EvidentlyProject {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewEvidentlyProject(scope constructs.Construct, id *string, config *Evident
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/evidently_project awscc_evidently_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/evidently_project awscc_evidently_project} Resource.
 func NewEvidentlyProject_Override(e EvidentlyProject, scope constructs.Construct, id *string, config *EvidentlyProjectConfig) {
 	_init_.Initialize()
 

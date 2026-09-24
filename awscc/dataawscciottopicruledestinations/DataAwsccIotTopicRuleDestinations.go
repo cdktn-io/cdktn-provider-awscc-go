@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iot_topic_rule_destinations awscc_iot_topic_rule_destinations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iot_topic_rule_destinations awscc_iot_topic_rule_destinations}.
 type DataAwsccIotTopicRuleDestinations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotTopicRuleDestinations) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iot_topic_rule_destinations awscc_iot_topic_rule_destinations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iot_topic_rule_destinations awscc_iot_topic_rule_destinations} Data Source.
 func NewDataAwsccIotTopicRuleDestinations(scope constructs.Construct, id *string, config *DataAwsccIotTopicRuleDestinationsConfig) DataAwsccIotTopicRuleDestinations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotTopicRuleDestinations(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iot_topic_rule_destinations awscc_iot_topic_rule_destinations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iot_topic_rule_destinations awscc_iot_topic_rule_destinations} Data Source.
 func NewDataAwsccIotTopicRuleDestinations_Override(d DataAwsccIotTopicRuleDestinations, scope constructs.Construct, id *string, config *DataAwsccIotTopicRuleDestinationsConfig) {
 	_init_.Initialize()
 

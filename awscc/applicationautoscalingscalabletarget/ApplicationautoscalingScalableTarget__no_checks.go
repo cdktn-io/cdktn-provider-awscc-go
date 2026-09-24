@@ -87,6 +87,10 @@ func (a *jsiiProxy_ApplicationautoscalingScalableTarget) validatePutSuspendedSta
 	return nil
 }
 
+func (a *jsiiProxy_ApplicationautoscalingScalableTarget) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApplicationautoscalingScalableTarget) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }

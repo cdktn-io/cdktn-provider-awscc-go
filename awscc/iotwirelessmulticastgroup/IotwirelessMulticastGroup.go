@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotwireless_multicast_group awscc_iotwireless_multicast_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotwireless_multicast_group awscc_iotwireless_multicast_group}.
 type IotwirelessMulticastGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -531,7 +531,7 @@ func (j *jsiiProxy_IotwirelessMulticastGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotwireless_multicast_group awscc_iotwireless_multicast_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotwireless_multicast_group awscc_iotwireless_multicast_group} Resource.
 func NewIotwirelessMulticastGroup(scope constructs.Construct, id *string, config *IotwirelessMulticastGroupConfig) IotwirelessMulticastGroup {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewIotwirelessMulticastGroup(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotwireless_multicast_group awscc_iotwireless_multicast_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotwireless_multicast_group awscc_iotwireless_multicast_group} Resource.
 func NewIotwirelessMulticastGroup_Override(i IotwirelessMulticastGroup, scope constructs.Construct, id *string, config *IotwirelessMulticastGroupConfig) {
 	_init_.Initialize()
 

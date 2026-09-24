@@ -5,9 +5,9 @@ package ec2securitygroup
 
 
 type Ec2SecurityGroupTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_security_group#key Ec2SecurityGroup#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_security_group#key Ec2SecurityGroup#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_security_group#value Ec2SecurityGroup#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_security_group#value Ec2SecurityGroup#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

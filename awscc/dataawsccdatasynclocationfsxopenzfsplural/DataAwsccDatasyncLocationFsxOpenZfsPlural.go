@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_location_fsx_open_zfs_plural awscc_datasync_location_fsx_open_zfs_plural}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_location_fsx_open_zfs_plural awscc_datasync_location_fsx_open_zfs_plural}.
 type DataAwsccDatasyncLocationFsxOpenZfsPlural interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDatasyncLocationFsxOpenZfsPlural) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_location_fsx_open_zfs_plural awscc_datasync_location_fsx_open_zfs_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_location_fsx_open_zfs_plural awscc_datasync_location_fsx_open_zfs_plural} Data Source.
 func NewDataAwsccDatasyncLocationFsxOpenZfsPlural(scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationFsxOpenZfsPluralConfig) DataAwsccDatasyncLocationFsxOpenZfsPlural {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDatasyncLocationFsxOpenZfsPlural(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_location_fsx_open_zfs_plural awscc_datasync_location_fsx_open_zfs_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_location_fsx_open_zfs_plural awscc_datasync_location_fsx_open_zfs_plural} Data Source.
 func NewDataAwsccDatasyncLocationFsxOpenZfsPlural_Override(d DataAwsccDatasyncLocationFsxOpenZfsPlural, scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationFsxOpenZfsPluralConfig) {
 	_init_.Initialize()
 

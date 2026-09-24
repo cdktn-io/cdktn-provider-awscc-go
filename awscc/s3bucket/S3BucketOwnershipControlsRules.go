@@ -7,7 +7,7 @@ package s3bucket
 type S3BucketOwnershipControlsRules struct {
 	// Specifies an object ownership rule.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/s3_bucket#object_ownership S3Bucket#object_ownership}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/s3_bucket#object_ownership S3Bucket#object_ownership}
 	ObjectOwnership *string `field:"optional" json:"objectOwnership" yaml:"objectOwnership"`
 }
 

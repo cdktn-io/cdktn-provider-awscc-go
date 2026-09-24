@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/transfer_agreement awscc_transfer_agreement}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/transfer_agreement awscc_transfer_agreement}.
 type DataAwsccTransferAgreement interface {
 	cdktn.TerraformDataSource
 	AccessRole() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccTransferAgreement) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/transfer_agreement awscc_transfer_agreement} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/transfer_agreement awscc_transfer_agreement} Data Source.
 func NewDataAwsccTransferAgreement(scope constructs.Construct, id *string, config *DataAwsccTransferAgreementConfig) DataAwsccTransferAgreement {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccTransferAgreement(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/transfer_agreement awscc_transfer_agreement} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/transfer_agreement awscc_transfer_agreement} Data Source.
 func NewDataAwsccTransferAgreement_Override(d DataAwsccTransferAgreement, scope constructs.Construct, id *string, config *DataAwsccTransferAgreementConfig) {
 	_init_.Initialize()
 

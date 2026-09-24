@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sns_topic awscc_sns_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sns_topic awscc_sns_topic}.
 type SnsTopic interface {
 	cdktn.TerraformResource
 	ArchivePolicy() *string
@@ -67,6 +67,9 @@ type SnsTopic interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	MaximumMessageSize() *float64
+	SetMaximumMessageSize(val *float64)
+	MaximumMessageSizeInput() *float64
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
@@ -202,6 +205,7 @@ type SnsTopic interface {
 	ResetFifoThroughputScope()
 	ResetFifoTopic()
 	ResetKmsMasterKeyId()
+	ResetMaximumMessageSize()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -497,6 +501,26 @@ func (j *jsiiProxy_SnsTopic) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	return returns
 }
 
+func (j *jsiiProxy_SnsTopic) MaximumMessageSize() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"maximumMessageSize",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SnsTopic) MaximumMessageSizeInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"maximumMessageSizeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_SnsTopic) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -678,7 +702,7 @@ func (j *jsiiProxy_SnsTopic) TracingConfigInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sns_topic awscc_sns_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sns_topic awscc_sns_topic} Resource.
 func NewSnsTopic(scope constructs.Construct, id *string, config *SnsTopicConfig) SnsTopic {
 	_init_.Initialize()
 
@@ -696,7 +720,7 @@ func NewSnsTopic(scope constructs.Construct, id *string, config *SnsTopicConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sns_topic awscc_sns_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sns_topic awscc_sns_topic} Resource.
 func NewSnsTopic_Override(s SnsTopic, scope constructs.Construct, id *string, config *SnsTopicConfig) {
 	_init_.Initialize()
 
@@ -829,6 +853,17 @@ func (j *jsiiProxy_SnsTopic)SetLifecycle(val *cdktn.TerraformResourceLifecycle) 
 	_jsii_.Set(
 		j,
 		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SnsTopic)SetMaximumMessageSize(val *float64) {
+	if err := j.validateSetMaximumMessageSizeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"maximumMessageSize",
 		val,
 	)
 }
@@ -1358,6 +1393,14 @@ func (s *jsiiProxy_SnsTopic) ResetKmsMasterKeyId() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetKmsMasterKeyId",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SnsTopic) ResetMaximumMessageSize() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetMaximumMessageSize",
 		nil, // no parameters
 	)
 }

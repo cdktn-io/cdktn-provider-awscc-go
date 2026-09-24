@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/chime_media_insights_pipeline_configuration awscc_chime_media_insights_pipeline_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/chime_media_insights_pipeline_configuration awscc_chime_media_insights_pipeline_configuration}.
 type DataAwsccChimeMediaInsightsPipelineConfiguration interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccChimeMediaInsightsPipelineConfiguration) UpdatedTime
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/chime_media_insights_pipeline_configuration awscc_chime_media_insights_pipeline_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/chime_media_insights_pipeline_configuration awscc_chime_media_insights_pipeline_configuration} Data Source.
 func NewDataAwsccChimeMediaInsightsPipelineConfiguration(scope constructs.Construct, id *string, config *DataAwsccChimeMediaInsightsPipelineConfigurationConfig) DataAwsccChimeMediaInsightsPipelineConfiguration {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccChimeMediaInsightsPipelineConfiguration(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/chime_media_insights_pipeline_configuration awscc_chime_media_insights_pipeline_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/chime_media_insights_pipeline_configuration awscc_chime_media_insights_pipeline_configuration} Data Source.
 func NewDataAwsccChimeMediaInsightsPipelineConfiguration_Override(d DataAwsccChimeMediaInsightsPipelineConfiguration, scope constructs.Construct, id *string, config *DataAwsccChimeMediaInsightsPipelineConfigurationConfig) {
 	_init_.Initialize()
 

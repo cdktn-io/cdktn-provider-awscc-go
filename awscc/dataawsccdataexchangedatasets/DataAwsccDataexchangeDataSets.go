@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/dataexchange_data_sets awscc_dataexchange_data_sets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/dataexchange_data_sets awscc_dataexchange_data_sets}.
 type DataAwsccDataexchangeDataSets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDataexchangeDataSets) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/dataexchange_data_sets awscc_dataexchange_data_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/dataexchange_data_sets awscc_dataexchange_data_sets} Data Source.
 func NewDataAwsccDataexchangeDataSets(scope constructs.Construct, id *string, config *DataAwsccDataexchangeDataSetsConfig) DataAwsccDataexchangeDataSets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDataexchangeDataSets(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/dataexchange_data_sets awscc_dataexchange_data_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/dataexchange_data_sets awscc_dataexchange_data_sets} Data Source.
 func NewDataAwsccDataexchangeDataSets_Override(d DataAwsccDataexchangeDataSets, scope constructs.Construct, id *string, config *DataAwsccDataexchangeDataSetsConfig) {
 	_init_.Initialize()
 

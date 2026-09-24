@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fms_protocols_list awscc_fms_protocols_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/fms_protocols_list awscc_fms_protocols_list}.
 type DataAwsccFmsProtocolsList interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccFmsProtocolsList) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fms_protocols_list awscc_fms_protocols_list} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/fms_protocols_list awscc_fms_protocols_list} Data Source.
 func NewDataAwsccFmsProtocolsList(scope constructs.Construct, id *string, config *DataAwsccFmsProtocolsListConfig) DataAwsccFmsProtocolsList {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccFmsProtocolsList(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fms_protocols_list awscc_fms_protocols_list} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/fms_protocols_list awscc_fms_protocols_list} Data Source.
 func NewDataAwsccFmsProtocolsList_Override(d DataAwsccFmsProtocolsList, scope constructs.Construct, id *string, config *DataAwsccFmsProtocolsListConfig) {
 	_init_.Initialize()
 

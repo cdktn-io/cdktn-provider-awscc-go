@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrock_blueprints awscc_bedrock_blueprints}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bedrock_blueprints awscc_bedrock_blueprints}.
 type DataAwsccBedrockBlueprints interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockBlueprints) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrock_blueprints awscc_bedrock_blueprints} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bedrock_blueprints awscc_bedrock_blueprints} Data Source.
 func NewDataAwsccBedrockBlueprints(scope constructs.Construct, id *string, config *DataAwsccBedrockBlueprintsConfig) DataAwsccBedrockBlueprints {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockBlueprints(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrock_blueprints awscc_bedrock_blueprints} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bedrock_blueprints awscc_bedrock_blueprints} Data Source.
 func NewDataAwsccBedrockBlueprints_Override(d DataAwsccBedrockBlueprints, scope constructs.Construct, id *string, config *DataAwsccBedrockBlueprintsConfig) {
 	_init_.Initialize()
 

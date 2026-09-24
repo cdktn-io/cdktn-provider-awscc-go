@@ -35,6 +35,8 @@ type Resiliencehubv2ServiceInputSourcesResourceConfigurationEksOutputReference i
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	LabelSelector() Resiliencehubv2ServiceInputSourcesResourceConfigurationEksLabelSelectorOutputReference
+	LabelSelectorInput() interface{}
 	Namespaces() *[]*string
 	SetNamespaces(val *[]*string)
 	NamespacesInput() *[]*string
@@ -70,7 +72,9 @@ type Resiliencehubv2ServiceInputSourcesResourceConfigurationEksOutputReference i
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutLabelSelector(value *Resiliencehubv2ServiceInputSourcesResourceConfigurationEksLabelSelector)
 	ResetClusterArn()
+	ResetLabelSelector()
 	ResetNamespaces()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -152,6 +156,26 @@ func (j *jsiiProxy_Resiliencehubv2ServiceInputSourcesResourceConfigurationEksOut
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Resiliencehubv2ServiceInputSourcesResourceConfigurationEksOutputReference) LabelSelector() Resiliencehubv2ServiceInputSourcesResourceConfigurationEksLabelSelectorOutputReference {
+	var returns Resiliencehubv2ServiceInputSourcesResourceConfigurationEksLabelSelectorOutputReference
+	_jsii_.Get(
+		j,
+		"labelSelector",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Resiliencehubv2ServiceInputSourcesResourceConfigurationEksOutputReference) LabelSelectorInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"labelSelectorInput",
 		&returns,
 	)
 	return returns
@@ -488,10 +512,29 @@ func (r *jsiiProxy_Resiliencehubv2ServiceInputSourcesResourceConfigurationEksOut
 	return returns
 }
 
+func (r *jsiiProxy_Resiliencehubv2ServiceInputSourcesResourceConfigurationEksOutputReference) PutLabelSelector(value *Resiliencehubv2ServiceInputSourcesResourceConfigurationEksLabelSelector) {
+	if err := r.validatePutLabelSelectorParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		r,
+		"putLabelSelector",
+		[]interface{}{value},
+	)
+}
+
 func (r *jsiiProxy_Resiliencehubv2ServiceInputSourcesResourceConfigurationEksOutputReference) ResetClusterArn() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetClusterArn",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_Resiliencehubv2ServiceInputSourcesResourceConfigurationEksOutputReference) ResetLabelSelector() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetLabelSelector",
 		nil, // no parameters
 	)
 }

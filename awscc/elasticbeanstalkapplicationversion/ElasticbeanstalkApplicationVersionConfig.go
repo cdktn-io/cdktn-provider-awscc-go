@@ -24,15 +24,27 @@ type ElasticbeanstalkApplicationVersionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the Elastic Beanstalk application that is associated with this application version.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/elasticbeanstalk_application_version#application_name ElasticbeanstalkApplicationVersion#application_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticbeanstalk_application_version#application_name ElasticbeanstalkApplicationVersion#application_name}
 	ApplicationName *string `field:"required" json:"applicationName" yaml:"applicationName"`
-	// The Amazon S3 bucket and key that identify the location of the source bundle for this version.
+	// Settings for an AWS CodeBuild build that packages and builds an application version from source code.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/elasticbeanstalk_application_version#source_bundle ElasticbeanstalkApplicationVersion#source_bundle}
-	SourceBundle *ElasticbeanstalkApplicationVersionSourceBundle `field:"required" json:"sourceBundle" yaml:"sourceBundle"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticbeanstalk_application_version#build_configuration ElasticbeanstalkApplicationVersion#build_configuration}
+	BuildConfiguration *ElasticbeanstalkApplicationVersionBuildConfiguration `field:"optional" json:"buildConfiguration" yaml:"buildConfiguration"`
 	// A description of this application version.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/elasticbeanstalk_application_version#description ElasticbeanstalkApplicationVersion#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticbeanstalk_application_version#description ElasticbeanstalkApplicationVersion#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
+	// Configuration for image-based application versions.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticbeanstalk_application_version#image_configuration ElasticbeanstalkApplicationVersion#image_configuration}
+	ImageConfiguration *ElasticbeanstalkApplicationVersionImageConfiguration `field:"optional" json:"imageConfiguration" yaml:"imageConfiguration"`
+	// Pre-process and validate the environment manifest (`env.yaml`) and configuration files in the source bundle. Leave unset for the service default.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticbeanstalk_application_version#process ElasticbeanstalkApplicationVersion#process}
+	Process interface{} `field:"optional" json:"process" yaml:"process"`
+	// The Amazon S3 bucket and key that identify the location of the source bundle for this version.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticbeanstalk_application_version#source_bundle ElasticbeanstalkApplicationVersion#source_bundle}
+	SourceBundle *ElasticbeanstalkApplicationVersionSourceBundle `field:"optional" json:"sourceBundle" yaml:"sourceBundle"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/quicksight_action_connector awscc_quicksight_action_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/quicksight_action_connector awscc_quicksight_action_connector}.
 type DataAwsccQuicksightActionConnector interface {
 	cdktn.TerraformDataSource
 	ActionConnectorId() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccQuicksightActionConnector) VpcConnectionArn() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/quicksight_action_connector awscc_quicksight_action_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/quicksight_action_connector awscc_quicksight_action_connector} Data Source.
 func NewDataAwsccQuicksightActionConnector(scope constructs.Construct, id *string, config *DataAwsccQuicksightActionConnectorConfig) DataAwsccQuicksightActionConnector {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccQuicksightActionConnector(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/quicksight_action_connector awscc_quicksight_action_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/quicksight_action_connector awscc_quicksight_action_connector} Data Source.
 func NewDataAwsccQuicksightActionConnector_Override(d DataAwsccQuicksightActionConnector, scope constructs.Construct, id *string, config *DataAwsccQuicksightActionConnectorConfig) {
 	_init_.Initialize()
 

@@ -1,3 +1,3 @@
 # `data_awscc_uxc_account_customization`
 
-Refer to the Terraform Registry for docs: [`data_awscc_uxc_account_customization`](https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/uxc_account_customization).
+Refer to the Terraform Registry for docs: [`data_awscc_uxc_account_customization`](https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/uxc_account_customization).

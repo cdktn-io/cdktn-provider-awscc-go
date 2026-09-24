@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_snapshot_block_public_access awscc_ec2_snapshot_block_public_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_snapshot_block_public_access awscc_ec2_snapshot_block_public_access}.
 type DataAwsccEc2SnapshotBlockPublicAccess interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccEc2SnapshotBlockPublicAccess) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_snapshot_block_public_access awscc_ec2_snapshot_block_public_access} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_snapshot_block_public_access awscc_ec2_snapshot_block_public_access} Data Source.
 func NewDataAwsccEc2SnapshotBlockPublicAccess(scope constructs.Construct, id *string, config *DataAwsccEc2SnapshotBlockPublicAccessConfig) DataAwsccEc2SnapshotBlockPublicAccess {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccEc2SnapshotBlockPublicAccess(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_snapshot_block_public_access awscc_ec2_snapshot_block_public_access} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_snapshot_block_public_access awscc_ec2_snapshot_block_public_access} Data Source.
 func NewDataAwsccEc2SnapshotBlockPublicAccess_Override(d DataAwsccEc2SnapshotBlockPublicAccess, scope constructs.Construct, id *string, config *DataAwsccEc2SnapshotBlockPublicAccessConfig) {
 	_init_.Initialize()
 

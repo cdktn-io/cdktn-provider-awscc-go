@@ -24,11 +24,11 @@ type MacieSessionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A enumeration value that specifies how frequently finding updates are published.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/macie_session#finding_publishing_frequency MacieSession#finding_publishing_frequency}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/macie_session#finding_publishing_frequency MacieSession#finding_publishing_frequency}
 	FindingPublishingFrequency *string `field:"optional" json:"findingPublishingFrequency" yaml:"findingPublishingFrequency"`
 	// A enumeration value that specifies the status of the Macie Session.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/macie_session#status MacieSession#status}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/macie_session#status MacieSession#status}
 	Status *string `field:"optional" json:"status" yaml:"status"`
 }
 

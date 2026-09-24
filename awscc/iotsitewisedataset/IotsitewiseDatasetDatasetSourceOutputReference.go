@@ -74,6 +74,8 @@ type IotsitewiseDatasetDatasetSourceOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutSourceDetail(value *IotsitewiseDatasetDatasetSourceSourceDetail)
 	ResetSourceDetail()
+	ResetSourceFormat()
+	ResetSourceType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -525,6 +527,22 @@ func (i *jsiiProxy_IotsitewiseDatasetDatasetSourceOutputReference) ResetSourceDe
 	_jsii_.InvokeVoid(
 		i,
 		"resetSourceDetail",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IotsitewiseDatasetDatasetSourceOutputReference) ResetSourceFormat() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetSourceFormat",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IotsitewiseDatasetDatasetSourceOutputReference) ResetSourceType() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetSourceType",
 		nil, // no parameters
 	)
 }

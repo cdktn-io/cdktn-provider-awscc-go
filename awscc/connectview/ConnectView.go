@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_view awscc_connect_view}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_view awscc_connect_view}.
 type ConnectView interface {
 	cdktn.TerraformResource
 	Actions() *[]*string
@@ -528,7 +528,7 @@ func (j *jsiiProxy_ConnectView) ViewId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_view awscc_connect_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_view awscc_connect_view} Resource.
 func NewConnectView(scope constructs.Construct, id *string, config *ConnectViewConfig) ConnectView {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewConnectView(scope constructs.Construct, id *string, config *ConnectViewC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_view awscc_connect_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_view awscc_connect_view} Resource.
 func NewConnectView_Override(c ConnectView, scope constructs.Construct, id *string, config *ConnectViewConfig) {
 	_init_.Initialize()
 

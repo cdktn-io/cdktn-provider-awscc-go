@@ -13,6 +13,7 @@ import (
 
 type QuicksightThemeVersionConfigurationSheetOutputReference interface {
 	cdktn.ComplexObject
+	Background() QuicksightThemeVersionConfigurationSheetBackgroundOutputReference
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -79,6 +80,16 @@ type QuicksightThemeVersionConfigurationSheetOutputReference interface {
 // The jsii proxy struct for QuicksightThemeVersionConfigurationSheetOutputReference
 type jsiiProxy_QuicksightThemeVersionConfigurationSheetOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_QuicksightThemeVersionConfigurationSheetOutputReference) Background() QuicksightThemeVersionConfigurationSheetBackgroundOutputReference {
+	var returns QuicksightThemeVersionConfigurationSheetBackgroundOutputReference
+	_jsii_.Get(
+		j,
+		"background",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_QuicksightThemeVersionConfigurationSheetOutputReference) ComplexObjectIndex() interface{} {

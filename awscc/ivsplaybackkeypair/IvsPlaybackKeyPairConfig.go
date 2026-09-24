@@ -26,15 +26,15 @@ type IvsPlaybackKeyPairConfig struct {
 	//
 	// The value does not need to be unique.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ivs_playback_key_pair#name IvsPlaybackKeyPair#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ivs_playback_key_pair#name IvsPlaybackKeyPair#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// The public portion of a customer-generated key pair. This field is required to create the AWS::IVS::PlaybackKeyPair resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ivs_playback_key_pair#public_key_material IvsPlaybackKeyPair#public_key_material}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ivs_playback_key_pair#public_key_material IvsPlaybackKeyPair#public_key_material}
 	PublicKeyMaterial *string `field:"optional" json:"publicKeyMaterial" yaml:"publicKeyMaterial"`
 	// A list of key-value pairs that contain metadata for the asset model.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ivs_playback_key_pair#tags IvsPlaybackKeyPair#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ivs_playback_key_pair#tags IvsPlaybackKeyPair#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

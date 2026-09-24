@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/xray_sampling_rule awscc_xray_sampling_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/xray_sampling_rule awscc_xray_sampling_rule}.
 type XraySamplingRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -486,7 +486,7 @@ func (j *jsiiProxy_XraySamplingRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/xray_sampling_rule awscc_xray_sampling_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/xray_sampling_rule awscc_xray_sampling_rule} Resource.
 func NewXraySamplingRule(scope constructs.Construct, id *string, config *XraySamplingRuleConfig) XraySamplingRule {
 	_init_.Initialize()
 
@@ -504,7 +504,7 @@ func NewXraySamplingRule(scope constructs.Construct, id *string, config *XraySam
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/xray_sampling_rule awscc_xray_sampling_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/xray_sampling_rule awscc_xray_sampling_rule} Resource.
 func NewXraySamplingRule_Override(x XraySamplingRule, scope constructs.Construct, id *string, config *XraySamplingRuleConfig) {
 	_init_.Initialize()
 

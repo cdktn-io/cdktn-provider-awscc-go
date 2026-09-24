@@ -1,3 +1,3 @@
 # `awscc_storagegateway_tape`
 
-Refer to the Terraform Registry for docs: [`awscc_storagegateway_tape`](https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape).
+Refer to the Terraform Registry for docs: [`awscc_storagegateway_tape`](https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape).

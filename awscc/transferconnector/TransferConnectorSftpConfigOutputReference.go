@@ -35,6 +35,9 @@ type TransferConnectorSftpConfigOutputReference interface {
 	MaxConcurrentConnections() *float64
 	SetMaxConcurrentConnections(val *float64)
 	MaxConcurrentConnectionsInput() *float64
+	OrderedUserSecretVersionStages() *[]*string
+	SetOrderedUserSecretVersionStages(val *[]*string)
+	OrderedUserSecretVersionStagesInput() *[]*string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -74,6 +77,7 @@ type TransferConnectorSftpConfigOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetMaxConcurrentConnections()
+	ResetOrderedUserSecretVersionStages()
 	ResetTrustedHostKeys()
 	ResetUserSecretId()
 	// Produce the Token's value at resolution time.
@@ -156,6 +160,26 @@ func (j *jsiiProxy_TransferConnectorSftpConfigOutputReference) MaxConcurrentConn
 	_jsii_.Get(
 		j,
 		"maxConcurrentConnectionsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TransferConnectorSftpConfigOutputReference) OrderedUserSecretVersionStages() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"orderedUserSecretVersionStages",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TransferConnectorSftpConfigOutputReference) OrderedUserSecretVersionStagesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"orderedUserSecretVersionStagesInput",
 		&returns,
 	)
 	return returns
@@ -289,6 +313,17 @@ func (j *jsiiProxy_TransferConnectorSftpConfigOutputReference)SetMaxConcurrentCo
 	_jsii_.Set(
 		j,
 		"maxConcurrentConnections",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TransferConnectorSftpConfigOutputReference)SetOrderedUserSecretVersionStages(val *[]*string) {
+	if err := j.validateSetOrderedUserSecretVersionStagesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"orderedUserSecretVersionStages",
 		val,
 	)
 }
@@ -527,6 +562,14 @@ func (t *jsiiProxy_TransferConnectorSftpConfigOutputReference) ResetMaxConcurren
 	_jsii_.InvokeVoid(
 		t,
 		"resetMaxConcurrentConnections",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TransferConnectorSftpConfigOutputReference) ResetOrderedUserSecretVersionStages() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetOrderedUserSecretVersionStages",
 		nil, // no parameters
 	)
 }

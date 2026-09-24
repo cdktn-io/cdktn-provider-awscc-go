@@ -24,15 +24,15 @@ type FmsApplicationsListConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// An array of applications in the Firewall Manager applications list.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_applications_list#apps_list FmsApplicationsList#apps_list}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_applications_list#apps_list FmsApplicationsList#apps_list}
 	AppsList interface{} `field:"required" json:"appsList" yaml:"appsList"`
 	// The name of the Firewall Manager applications list.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_applications_list#list_name FmsApplicationsList#list_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_applications_list#list_name FmsApplicationsList#list_name}
 	ListName *string `field:"required" json:"listName" yaml:"listName"`
 	// An array of key-value pairs to apply to the applications list.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_applications_list#tags FmsApplicationsList#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_applications_list#tags FmsApplicationsList#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_channel_association awscc_notifications_channel_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/notifications_channel_association awscc_notifications_channel_association}.
 type NotificationsChannelAssociation interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -401,7 +401,7 @@ func (j *jsiiProxy_NotificationsChannelAssociation) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_channel_association awscc_notifications_channel_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/notifications_channel_association awscc_notifications_channel_association} Resource.
 func NewNotificationsChannelAssociation(scope constructs.Construct, id *string, config *NotificationsChannelAssociationConfig) NotificationsChannelAssociation {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewNotificationsChannelAssociation(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_channel_association awscc_notifications_channel_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/notifications_channel_association awscc_notifications_channel_association} Resource.
 func NewNotificationsChannelAssociation_Override(n NotificationsChannelAssociation, scope constructs.Construct, id *string, config *NotificationsChannelAssociationConfig) {
 	_init_.Initialize()
 

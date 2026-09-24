@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/smsvoice_opt_out_lists awscc_smsvoice_opt_out_lists}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/smsvoice_opt_out_lists awscc_smsvoice_opt_out_lists}.
 type DataAwsccSmsvoiceOptOutLists interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSmsvoiceOptOutLists) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/smsvoice_opt_out_lists awscc_smsvoice_opt_out_lists} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/smsvoice_opt_out_lists awscc_smsvoice_opt_out_lists} Data Source.
 func NewDataAwsccSmsvoiceOptOutLists(scope constructs.Construct, id *string, config *DataAwsccSmsvoiceOptOutListsConfig) DataAwsccSmsvoiceOptOutLists {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSmsvoiceOptOutLists(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/smsvoice_opt_out_lists awscc_smsvoice_opt_out_lists} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/smsvoice_opt_out_lists awscc_smsvoice_opt_out_lists} Data Source.
 func NewDataAwsccSmsvoiceOptOutLists_Override(d DataAwsccSmsvoiceOptOutLists, scope constructs.Construct, id *string, config *DataAwsccSmsvoiceOptOutListsConfig) {
 	_init_.Initialize()
 

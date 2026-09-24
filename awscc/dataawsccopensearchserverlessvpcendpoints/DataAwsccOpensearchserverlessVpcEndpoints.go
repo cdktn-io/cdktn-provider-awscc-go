@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/opensearchserverless_vpc_endpoints awscc_opensearchserverless_vpc_endpoints}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/opensearchserverless_vpc_endpoints awscc_opensearchserverless_vpc_endpoints}.
 type DataAwsccOpensearchserverlessVpcEndpoints interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccOpensearchserverlessVpcEndpoints) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/opensearchserverless_vpc_endpoints awscc_opensearchserverless_vpc_endpoints} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/opensearchserverless_vpc_endpoints awscc_opensearchserverless_vpc_endpoints} Data Source.
 func NewDataAwsccOpensearchserverlessVpcEndpoints(scope constructs.Construct, id *string, config *DataAwsccOpensearchserverlessVpcEndpointsConfig) DataAwsccOpensearchserverlessVpcEndpoints {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccOpensearchserverlessVpcEndpoints(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/opensearchserverless_vpc_endpoints awscc_opensearchserverless_vpc_endpoints} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/opensearchserverless_vpc_endpoints awscc_opensearchserverless_vpc_endpoints} Data Source.
 func NewDataAwsccOpensearchserverlessVpcEndpoints_Override(d DataAwsccOpensearchserverlessVpcEndpoints, scope constructs.Construct, id *string, config *DataAwsccOpensearchserverlessVpcEndpointsConfig) {
 	_init_.Initialize()
 

@@ -67,6 +67,10 @@ func (j *jsiiProxy_TransferConnectorSftpConfigOutputReference) validateSetMaxCon
 	return nil
 }
 
+func (j *jsiiProxy_TransferConnectorSftpConfigOutputReference) validateSetOrderedUserSecretVersionStagesParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_TransferConnectorSftpConfigOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

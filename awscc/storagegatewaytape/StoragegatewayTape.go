@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape awscc_storagegateway_tape}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape awscc_storagegateway_tape}.
 type StoragegatewayTape interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -589,7 +589,7 @@ func (j *jsiiProxy_StoragegatewayTape) WormInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape awscc_storagegateway_tape} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape awscc_storagegateway_tape} Resource.
 func NewStoragegatewayTape(scope constructs.Construct, id *string, config *StoragegatewayTapeConfig) StoragegatewayTape {
 	_init_.Initialize()
 
@@ -607,7 +607,7 @@ func NewStoragegatewayTape(scope constructs.Construct, id *string, config *Stora
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape awscc_storagegateway_tape} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape awscc_storagegateway_tape} Resource.
 func NewStoragegatewayTape_Override(s StoragegatewayTape, scope constructs.Construct, id *string, config *StoragegatewayTapeConfig) {
 	_init_.Initialize()
 

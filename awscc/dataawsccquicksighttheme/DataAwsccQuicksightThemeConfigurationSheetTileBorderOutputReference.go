@@ -13,6 +13,7 @@ import (
 
 type DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference interface {
 	cdktn.ComplexObject
+	Color() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,6 +42,7 @@ type DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference interfa
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Width() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -78,6 +80,16 @@ type DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference interfa
 // The jsii proxy struct for DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference
 type jsiiProxy_DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference) Color() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"color",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference) ComplexObjectIndex() interface{} {
@@ -155,6 +167,16 @@ func (j *jsiiProxy_DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputRef
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference) Width() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"width",
 		&returns,
 	)
 	return returns

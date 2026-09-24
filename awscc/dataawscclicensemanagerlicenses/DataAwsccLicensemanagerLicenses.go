@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/licensemanager_licenses awscc_licensemanager_licenses}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/licensemanager_licenses awscc_licensemanager_licenses}.
 type DataAwsccLicensemanagerLicenses interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLicensemanagerLicenses) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/licensemanager_licenses awscc_licensemanager_licenses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/licensemanager_licenses awscc_licensemanager_licenses} Data Source.
 func NewDataAwsccLicensemanagerLicenses(scope constructs.Construct, id *string, config *DataAwsccLicensemanagerLicensesConfig) DataAwsccLicensemanagerLicenses {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLicensemanagerLicenses(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/licensemanager_licenses awscc_licensemanager_licenses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/licensemanager_licenses awscc_licensemanager_licenses} Data Source.
 func NewDataAwsccLicensemanagerLicenses_Override(d DataAwsccLicensemanagerLicenses, scope constructs.Construct, id *string, config *DataAwsccLicensemanagerLicensesConfig) {
 	_init_.Initialize()
 

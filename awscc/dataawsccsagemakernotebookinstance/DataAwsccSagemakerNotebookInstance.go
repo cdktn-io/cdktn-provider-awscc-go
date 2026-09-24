@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sagemaker_notebook_instance awscc_sagemaker_notebook_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_notebook_instance awscc_sagemaker_notebook_instance}.
 type DataAwsccSagemakerNotebookInstance interface {
 	cdktn.TerraformDataSource
 	AcceleratorTypes() *[]*string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccSagemakerNotebookInstance) VolumeSizeInGb() *float64
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sagemaker_notebook_instance awscc_sagemaker_notebook_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_notebook_instance awscc_sagemaker_notebook_instance} Data Source.
 func NewDataAwsccSagemakerNotebookInstance(scope constructs.Construct, id *string, config *DataAwsccSagemakerNotebookInstanceConfig) DataAwsccSagemakerNotebookInstance {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccSagemakerNotebookInstance(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sagemaker_notebook_instance awscc_sagemaker_notebook_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_notebook_instance awscc_sagemaker_notebook_instance} Data Source.
 func NewDataAwsccSagemakerNotebookInstance_Override(d DataAwsccSagemakerNotebookInstance, scope constructs.Construct, id *string, config *DataAwsccSagemakerNotebookInstanceConfig) {
 	_init_.Initialize()
 

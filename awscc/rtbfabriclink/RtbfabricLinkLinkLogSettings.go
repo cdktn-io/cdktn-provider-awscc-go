@@ -5,7 +5,7 @@ package rtbfabriclink
 
 
 type RtbfabricLinkLinkLogSettings struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/rtbfabric_link#application_logs RtbfabricLink#application_logs}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/rtbfabric_link#application_logs RtbfabricLink#application_logs}.
 	ApplicationLogs *RtbfabricLinkLinkLogSettingsApplicationLogs `field:"required" json:"applicationLogs" yaml:"applicationLogs"`
 }
 

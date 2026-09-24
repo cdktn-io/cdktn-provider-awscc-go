@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ses_contact_lists awscc_ses_contact_lists}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ses_contact_lists awscc_ses_contact_lists}.
 type DataAwsccSesContactLists interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSesContactLists) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ses_contact_lists awscc_ses_contact_lists} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ses_contact_lists awscc_ses_contact_lists} Data Source.
 func NewDataAwsccSesContactLists(scope constructs.Construct, id *string, config *DataAwsccSesContactListsConfig) DataAwsccSesContactLists {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSesContactLists(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ses_contact_lists awscc_ses_contact_lists} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ses_contact_lists awscc_ses_contact_lists} Data Source.
 func NewDataAwsccSesContactLists_Override(d DataAwsccSesContactLists, scope constructs.Construct, id *string, config *DataAwsccSesContactListsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_test_case awscc_connect_test_case}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_test_case awscc_connect_test_case}.
 type ConnectTestCase interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -577,7 +577,7 @@ func (j *jsiiProxy_ConnectTestCase) TestCaseArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_test_case awscc_connect_test_case} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_test_case awscc_connect_test_case} Resource.
 func NewConnectTestCase(scope constructs.Construct, id *string, config *ConnectTestCaseConfig) ConnectTestCase {
 	_init_.Initialize()
 
@@ -595,7 +595,7 @@ func NewConnectTestCase(scope constructs.Construct, id *string, config *ConnectT
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_test_case awscc_connect_test_case} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_test_case awscc_connect_test_case} Resource.
 func NewConnectTestCase_Override(c ConnectTestCase, scope constructs.Construct, id *string, config *ConnectTestCaseConfig) {
 	_init_.Initialize()
 

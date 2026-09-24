@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/appconfig_hosted_configuration_version awscc_appconfig_hosted_configuration_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/appconfig_hosted_configuration_version awscc_appconfig_hosted_configuration_version}.
 type AppconfigHostedConfigurationVersion interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -530,7 +530,7 @@ func (j *jsiiProxy_AppconfigHostedConfigurationVersion) VersionNumber() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/appconfig_hosted_configuration_version awscc_appconfig_hosted_configuration_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/appconfig_hosted_configuration_version awscc_appconfig_hosted_configuration_version} Resource.
 func NewAppconfigHostedConfigurationVersion(scope constructs.Construct, id *string, config *AppconfigHostedConfigurationVersionConfig) AppconfigHostedConfigurationVersion {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewAppconfigHostedConfigurationVersion(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/appconfig_hosted_configuration_version awscc_appconfig_hosted_configuration_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/appconfig_hosted_configuration_version awscc_appconfig_hosted_configuration_version} Resource.
 func NewAppconfigHostedConfigurationVersion_Override(a AppconfigHostedConfigurationVersion, scope constructs.Construct, id *string, config *AppconfigHostedConfigurationVersionConfig) {
 	_init_.Initialize()
 

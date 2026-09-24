@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iot_job_template awscc_iot_job_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iot_job_template awscc_iot_job_template}.
 type DataAwsccIotJobTemplate interface {
 	cdktn.TerraformDataSource
 	AbortConfig() DataAwsccIotJobTemplateAbortConfigOutputReference
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccIotJobTemplate) TimeoutConfig() DataAwsccIotJobTempl
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iot_job_template awscc_iot_job_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iot_job_template awscc_iot_job_template} Data Source.
 func NewDataAwsccIotJobTemplate(scope constructs.Construct, id *string, config *DataAwsccIotJobTemplateConfig) DataAwsccIotJobTemplate {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccIotJobTemplate(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iot_job_template awscc_iot_job_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iot_job_template awscc_iot_job_template} Data Source.
 func NewDataAwsccIotJobTemplate_Override(d DataAwsccIotJobTemplate, scope constructs.Construct, id *string, config *DataAwsccIotJobTemplateConfig) {
 	_init_.Initialize()
 

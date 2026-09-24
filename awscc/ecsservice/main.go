@@ -417,6 +417,51 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.ecsService.EcsServiceDeploymentConfigurationEarlySuccessCriteria",
+		reflect.TypeOf((*EcsServiceDeploymentConfigurationEarlySuccessCriteria)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.ecsService.EcsServiceDeploymentConfigurationEarlySuccessCriteriaOutputReference",
+		reflect.TypeOf((*EcsServiceDeploymentConfigurationEarlySuccessCriteriaOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "enable", GoGetter: "Enable"},
+			_jsii_.MemberProperty{JsiiProperty: "enableInput", GoGetter: "EnableInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "healthyPercent", GoGetter: "HealthyPercent"},
+			_jsii_.MemberProperty{JsiiProperty: "healthyPercentInput", GoGetter: "HealthyPercentInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEnable", GoMethod: "ResetEnable"},
+			_jsii_.MemberMethod{JsiiMethod: "resetHealthyPercent", GoMethod: "ResetHealthyPercent"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSourceServiceRevisionCleanup", GoMethod: "ResetSourceServiceRevisionCleanup"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "sourceServiceRevisionCleanup", GoGetter: "SourceServiceRevisionCleanup"},
+			_jsii_.MemberProperty{JsiiProperty: "sourceServiceRevisionCleanupInput", GoGetter: "SourceServiceRevisionCleanupInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_EcsServiceDeploymentConfigurationEarlySuccessCriteriaOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-awscc.ecsService.EcsServiceDeploymentConfigurationLifecycleHooks",
 		reflect.TypeOf((*EcsServiceDeploymentConfigurationLifecycleHooks)(nil)).Elem(),
 	)
@@ -593,6 +638,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
 			_jsii_.MemberProperty{JsiiProperty: "deploymentCircuitBreaker", GoGetter: "DeploymentCircuitBreaker"},
 			_jsii_.MemberProperty{JsiiProperty: "deploymentCircuitBreakerInput", GoGetter: "DeploymentCircuitBreakerInput"},
+			_jsii_.MemberProperty{JsiiProperty: "earlySuccessCriteria", GoGetter: "EarlySuccessCriteria"},
+			_jsii_.MemberProperty{JsiiProperty: "earlySuccessCriteriaInput", GoGetter: "EarlySuccessCriteriaInput"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
 			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
@@ -617,12 +664,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putAlarms", GoMethod: "PutAlarms"},
 			_jsii_.MemberMethod{JsiiMethod: "putCanaryConfiguration", GoMethod: "PutCanaryConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putDeploymentCircuitBreaker", GoMethod: "PutDeploymentCircuitBreaker"},
+			_jsii_.MemberMethod{JsiiMethod: "putEarlySuccessCriteria", GoMethod: "PutEarlySuccessCriteria"},
 			_jsii_.MemberMethod{JsiiMethod: "putLifecycleHooks", GoMethod: "PutLifecycleHooks"},
 			_jsii_.MemberMethod{JsiiMethod: "putLinearConfiguration", GoMethod: "PutLinearConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAlarms", GoMethod: "ResetAlarms"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBakeTimeInMinutes", GoMethod: "ResetBakeTimeInMinutes"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCanaryConfiguration", GoMethod: "ResetCanaryConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDeploymentCircuitBreaker", GoMethod: "ResetDeploymentCircuitBreaker"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEarlySuccessCriteria", GoMethod: "ResetEarlySuccessCriteria"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLifecycleHooks", GoMethod: "ResetLifecycleHooks"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLinearConfiguration", GoMethod: "ResetLinearConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMaximumPercent", GoMethod: "ResetMaximumPercent"},

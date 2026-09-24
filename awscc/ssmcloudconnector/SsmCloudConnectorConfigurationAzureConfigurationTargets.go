@@ -7,7 +7,7 @@ package ssmcloudconnector
 type SsmCloudConnectorConfigurationAzureConfigurationTargets struct {
 	// List of Azure subscriptions.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ssm_cloud_connector#subscriptions SsmCloudConnector#subscriptions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ssm_cloud_connector#subscriptions SsmCloudConnector#subscriptions}
 	Subscriptions interface{} `field:"optional" json:"subscriptions" yaml:"subscriptions"`
 }
 

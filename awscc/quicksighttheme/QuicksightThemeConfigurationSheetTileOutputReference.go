@@ -13,8 +13,14 @@ import (
 
 type QuicksightThemeConfigurationSheetTileOutputReference interface {
 	cdktn.ComplexObject
+	BackgroundColor() *string
+	SetBackgroundColor(val *string)
+	BackgroundColorInput() *string
 	Border() QuicksightThemeConfigurationSheetTileBorderOutputReference
 	BorderInput() interface{}
+	BorderRadius() *string
+	SetBorderRadius(val *string)
+	BorderRadiusInput() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -34,6 +40,9 @@ type QuicksightThemeConfigurationSheetTileOutputReference interface {
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	Padding() *string
+	SetPadding(val *string)
+	PaddingInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,7 +76,10 @@ type QuicksightThemeConfigurationSheetTileOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutBorder(value *QuicksightThemeConfigurationSheetTileBorder)
+	ResetBackgroundColor()
 	ResetBorder()
+	ResetBorderRadius()
+	ResetPadding()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -81,6 +93,26 @@ type QuicksightThemeConfigurationSheetTileOutputReference interface {
 // The jsii proxy struct for QuicksightThemeConfigurationSheetTileOutputReference
 type jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) BackgroundColor() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"backgroundColor",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) BackgroundColorInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"backgroundColorInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) Border() QuicksightThemeConfigurationSheetTileBorderOutputReference {
@@ -98,6 +130,26 @@ func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) BorderI
 	_jsii_.Get(
 		j,
 		"borderInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) BorderRadius() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"borderRadius",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) BorderRadiusInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"borderRadiusInput",
 		&returns,
 	)
 	return returns
@@ -153,6 +205,26 @@ func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) Interna
 	return returns
 }
 
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) Padding() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"padding",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) PaddingInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"paddingInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -201,6 +273,28 @@ func NewQuicksightThemeConfigurationSheetTileOutputReference_Override(q Quicksig
 	)
 }
 
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference)SetBackgroundColor(val *string) {
+	if err := j.validateSetBackgroundColorParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"backgroundColor",
+		val,
+	)
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference)SetBorderRadius(val *string) {
+	if err := j.validateSetBorderRadiusParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"borderRadius",
+		val,
+	)
+}
+
 func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference)SetComplexObjectIndex(val interface{}) {
 	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
 		panic(err)
@@ -230,6 +324,17 @@ func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference)SetInter
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference)SetPadding(val *string) {
+	if err := j.validateSetPaddingParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"padding",
 		val,
 	)
 }
@@ -453,10 +558,34 @@ func (q *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) PutBord
 	)
 }
 
+func (q *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) ResetBackgroundColor() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetBackgroundColor",
+		nil, // no parameters
+	)
+}
+
 func (q *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) ResetBorder() {
 	_jsii_.InvokeVoid(
 		q,
 		"resetBorder",
+		nil, // no parameters
+	)
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) ResetBorderRadius() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetBorderRadius",
+		nil, // no parameters
+	)
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) ResetPadding() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetPadding",
 		nil, // no parameters
 	)
 }

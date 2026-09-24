@@ -28,35 +28,35 @@ type ShieldProtectionGroupConfig struct {
 	// * Mean - Use the average of the traffic across the group. This is a good choice for resources that share traffic uniformly. Examples include accelerators and load balancers.
 	// * Max - Use the highest traffic from each resource. This is useful for resources that don't share traffic and for resources that share that traffic in a non-uniform way. Examples include Amazon CloudFront and origin resources for CloudFront distributions.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/shield_protection_group#aggregation ShieldProtectionGroup#aggregation}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/shield_protection_group#aggregation ShieldProtectionGroup#aggregation}
 	Aggregation *string `field:"required" json:"aggregation" yaml:"aggregation"`
 	// The criteria to use to choose the protected resources for inclusion in the group.
 	//
 	// You can include all resources that have protections, provide a list of resource Amazon Resource Names (ARNs), or include all resources of a specified resource type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/shield_protection_group#pattern ShieldProtectionGroup#pattern}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/shield_protection_group#pattern ShieldProtectionGroup#pattern}
 	Pattern *string `field:"required" json:"pattern" yaml:"pattern"`
 	// The name of the protection group.
 	//
 	// You use this to identify the protection group in lists and to manage the protection group, for example to update, delete, or describe it.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/shield_protection_group#protection_group_id ShieldProtectionGroup#protection_group_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/shield_protection_group#protection_group_id ShieldProtectionGroup#protection_group_id}
 	ProtectionGroupId *string `field:"required" json:"protectionGroupId" yaml:"protectionGroupId"`
 	// The Amazon Resource Names (ARNs) of the resources to include in the protection group.
 	//
 	// You must set this when you set `Pattern` to `ARBITRARY` and you must not set it for any other `Pattern` setting.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/shield_protection_group#members ShieldProtectionGroup#members}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/shield_protection_group#members ShieldProtectionGroup#members}
 	Members *[]*string `field:"optional" json:"members" yaml:"members"`
 	// The resource type to include in the protection group.
 	//
 	// All protected resources of this type are included in the protection group. Newly protected resources of this type are automatically added to the group. You must set this when you set `Pattern` to `BY_RESOURCE_TYPE` and you must not set it for any other `Pattern` setting.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/shield_protection_group#resource_type ShieldProtectionGroup#resource_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/shield_protection_group#resource_type ShieldProtectionGroup#resource_type}
 	ResourceType *string `field:"optional" json:"resourceType" yaml:"resourceType"`
 	// One or more tag key-value pairs for the Protection object.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/shield_protection_group#tags ShieldProtectionGroup#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/shield_protection_group#tags ShieldProtectionGroup#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

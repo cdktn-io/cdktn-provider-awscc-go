@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/proton_service_template awscc_proton_service_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/proton_service_template awscc_proton_service_template}.
 type ProtonServiceTemplate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -510,7 +510,7 @@ func (j *jsiiProxy_ProtonServiceTemplate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/proton_service_template awscc_proton_service_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/proton_service_template awscc_proton_service_template} Resource.
 func NewProtonServiceTemplate(scope constructs.Construct, id *string, config *ProtonServiceTemplateConfig) ProtonServiceTemplate {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewProtonServiceTemplate(scope constructs.Construct, id *string, config *Pr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/proton_service_template awscc_proton_service_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/proton_service_template awscc_proton_service_template} Resource.
 func NewProtonServiceTemplate_Override(p ProtonServiceTemplate, scope constructs.Construct, id *string, config *ProtonServiceTemplateConfig) {
 	_init_.Initialize()
 

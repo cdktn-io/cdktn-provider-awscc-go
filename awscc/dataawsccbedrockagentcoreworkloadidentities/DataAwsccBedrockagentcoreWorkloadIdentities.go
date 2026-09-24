@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_workload_identities awscc_bedrockagentcore_workload_identities}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bedrockagentcore_workload_identities awscc_bedrockagentcore_workload_identities}.
 type DataAwsccBedrockagentcoreWorkloadIdentities interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreWorkloadIdentities) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_workload_identities awscc_bedrockagentcore_workload_identities} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bedrockagentcore_workload_identities awscc_bedrockagentcore_workload_identities} Data Source.
 func NewDataAwsccBedrockagentcoreWorkloadIdentities(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreWorkloadIdentitiesConfig) DataAwsccBedrockagentcoreWorkloadIdentities {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockagentcoreWorkloadIdentities(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_workload_identities awscc_bedrockagentcore_workload_identities} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bedrockagentcore_workload_identities awscc_bedrockagentcore_workload_identities} Data Source.
 func NewDataAwsccBedrockagentcoreWorkloadIdentities_Override(d DataAwsccBedrockagentcoreWorkloadIdentities, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreWorkloadIdentitiesConfig) {
 	_init_.Initialize()
 

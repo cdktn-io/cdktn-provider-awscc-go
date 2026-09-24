@@ -5,9 +5,9 @@ package cleanroomsconfiguredtable
 
 
 type CleanroomsConfiguredTableAnalysisRulesPolicyV1CustomComparisonControls struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cleanrooms_configured_table#allowed_column_comparison_columns CleanroomsConfiguredTable#allowed_column_comparison_columns}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cleanrooms_configured_table#allowed_column_comparison_columns CleanroomsConfiguredTable#allowed_column_comparison_columns}.
 	AllowedColumnComparisonColumns *[]*string `field:"optional" json:"allowedColumnComparisonColumns" yaml:"allowedColumnComparisonColumns"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cleanrooms_configured_table#allowed_literal_comparison_columns CleanroomsConfiguredTable#allowed_literal_comparison_columns}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cleanrooms_configured_table#allowed_literal_comparison_columns CleanroomsConfiguredTable#allowed_literal_comparison_columns}.
 	AllowedLiteralComparisonColumns *[]*string `field:"optional" json:"allowedLiteralComparisonColumns" yaml:"allowedLiteralComparisonColumns"`
 }
 

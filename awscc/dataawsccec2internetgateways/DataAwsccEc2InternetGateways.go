@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_internet_gateways awscc_ec2_internet_gateways}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_internet_gateways awscc_ec2_internet_gateways}.
 type DataAwsccEc2InternetGateways interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2InternetGateways) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_internet_gateways awscc_ec2_internet_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_internet_gateways awscc_ec2_internet_gateways} Data Source.
 func NewDataAwsccEc2InternetGateways(scope constructs.Construct, id *string, config *DataAwsccEc2InternetGatewaysConfig) DataAwsccEc2InternetGateways {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2InternetGateways(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_internet_gateways awscc_ec2_internet_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_internet_gateways awscc_ec2_internet_gateways} Data Source.
 func NewDataAwsccEc2InternetGateways_Override(d DataAwsccEc2InternetGateways, scope constructs.Construct, id *string, config *DataAwsccEc2InternetGatewaysConfig) {
 	_init_.Initialize()
 

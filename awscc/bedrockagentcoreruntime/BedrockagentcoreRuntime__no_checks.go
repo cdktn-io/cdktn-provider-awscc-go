@@ -151,6 +151,10 @@ func (j *jsiiProxy_BedrockagentcoreRuntime) validateSetLifecycleParameters(val *
 	return nil
 }
 
+func (j *jsiiProxy_BedrockagentcoreRuntime) validateSetPlatformVersionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BedrockagentcoreRuntime) validateSetProtocolConfigurationParameters(val *string) error {
 	return nil
 }

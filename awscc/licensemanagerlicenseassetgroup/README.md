@@ -1,0 +1,3 @@
+# `awscc_licensemanager_license_asset_group`
+
+Refer to the Terraform Registry for docs: [`awscc_licensemanager_license_asset_group`](https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/licensemanager_license_asset_group).

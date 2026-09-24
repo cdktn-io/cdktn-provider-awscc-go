@@ -12,11 +12,12 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version}.
 type DataAwsccElasticbeanstalkApplicationVersion interface {
 	cdktn.TerraformDataSource
 	ApplicationName() *string
 	ApplicationVersionId() *string
+	BuildConfiguration() DataAwsccElasticbeanstalkApplicationVersionBuildConfigurationOutputReference
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -41,12 +42,14 @@ type DataAwsccElasticbeanstalkApplicationVersion interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	ImageConfiguration() DataAwsccElasticbeanstalkApplicationVersionImageConfigurationOutputReference
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
+	Process() cdktn.IResolvable
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -144,6 +147,16 @@ func (j *jsiiProxy_DataAwsccElasticbeanstalkApplicationVersion) ApplicationVersi
 	_jsii_.Get(
 		j,
 		"applicationVersionId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccElasticbeanstalkApplicationVersion) BuildConfiguration() DataAwsccElasticbeanstalkApplicationVersionBuildConfigurationOutputReference {
+	var returns DataAwsccElasticbeanstalkApplicationVersionBuildConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"buildConfiguration",
 		&returns,
 	)
 	return returns
@@ -249,6 +262,16 @@ func (j *jsiiProxy_DataAwsccElasticbeanstalkApplicationVersion) IdInput() *strin
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccElasticbeanstalkApplicationVersion) ImageConfiguration() DataAwsccElasticbeanstalkApplicationVersionImageConfigurationOutputReference {
+	var returns DataAwsccElasticbeanstalkApplicationVersionImageConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"imageConfiguration",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccElasticbeanstalkApplicationVersion) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -264,6 +287,16 @@ func (j *jsiiProxy_DataAwsccElasticbeanstalkApplicationVersion) Node() construct
 	_jsii_.Get(
 		j,
 		"node",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccElasticbeanstalkApplicationVersion) Process() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"process",
 		&returns,
 	)
 	return returns
@@ -330,7 +363,7 @@ func (j *jsiiProxy_DataAwsccElasticbeanstalkApplicationVersion) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version} Data Source.
 func NewDataAwsccElasticbeanstalkApplicationVersion(scope constructs.Construct, id *string, config *DataAwsccElasticbeanstalkApplicationVersionConfig) DataAwsccElasticbeanstalkApplicationVersion {
 	_init_.Initialize()
 
@@ -348,7 +381,7 @@ func NewDataAwsccElasticbeanstalkApplicationVersion(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version} Data Source.
 func NewDataAwsccElasticbeanstalkApplicationVersion_Override(d DataAwsccElasticbeanstalkApplicationVersion, scope constructs.Construct, id *string, config *DataAwsccElasticbeanstalkApplicationVersionConfig) {
 	_init_.Initialize()
 

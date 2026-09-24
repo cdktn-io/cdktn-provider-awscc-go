@@ -24,21 +24,21 @@ type Apigatewayv2RoutingRuleConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The resulting action based on matching a routing rules condition. Only InvokeApi is supported.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/apigatewayv2_routing_rule#actions Apigatewayv2RoutingRule#actions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/apigatewayv2_routing_rule#actions Apigatewayv2RoutingRule#actions}
 	Actions interface{} `field:"required" json:"actions" yaml:"actions"`
 	// The conditions of the routing rule.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/apigatewayv2_routing_rule#conditions Apigatewayv2RoutingRule#conditions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/apigatewayv2_routing_rule#conditions Apigatewayv2RoutingRule#conditions}
 	Conditions interface{} `field:"required" json:"conditions" yaml:"conditions"`
 	// The ARN of the domain name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/apigatewayv2_routing_rule#domain_name_arn Apigatewayv2RoutingRule#domain_name_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/apigatewayv2_routing_rule#domain_name_arn Apigatewayv2RoutingRule#domain_name_arn}
 	DomainNameArn *string `field:"required" json:"domainNameArn" yaml:"domainNameArn"`
 	// The order in which API Gateway evaluates a rule.
 	//
 	// Priority is evaluated from the lowest value to the highest value. Rules can't have the same priority. Priority values 1-1,000,000 are supported.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/apigatewayv2_routing_rule#priority Apigatewayv2RoutingRule#priority}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/apigatewayv2_routing_rule#priority Apigatewayv2RoutingRule#priority}
 	Priority *float64 `field:"required" json:"priority" yaml:"priority"`
 }
 

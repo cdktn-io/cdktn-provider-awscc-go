@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticbeanstalk_applications awscc_elasticbeanstalk_applications}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/elasticbeanstalk_applications awscc_elasticbeanstalk_applications}.
 type DataAwsccElasticbeanstalkApplications interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccElasticbeanstalkApplications) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticbeanstalk_applications awscc_elasticbeanstalk_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/elasticbeanstalk_applications awscc_elasticbeanstalk_applications} Data Source.
 func NewDataAwsccElasticbeanstalkApplications(scope constructs.Construct, id *string, config *DataAwsccElasticbeanstalkApplicationsConfig) DataAwsccElasticbeanstalkApplications {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccElasticbeanstalkApplications(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticbeanstalk_applications awscc_elasticbeanstalk_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/elasticbeanstalk_applications awscc_elasticbeanstalk_applications} Data Source.
 func NewDataAwsccElasticbeanstalkApplications_Override(d DataAwsccElasticbeanstalkApplications, scope constructs.Construct, id *string, config *DataAwsccElasticbeanstalkApplicationsConfig) {
 	_init_.Initialize()
 

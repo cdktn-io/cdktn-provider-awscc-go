@@ -7,11 +7,11 @@ package connectmetric
 type ConnectMetricMetricCalculation struct {
 	// The calculation formula.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#calculation ConnectMetric#calculation}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_metric#calculation ConnectMetric#calculation}
 	Calculation *string `field:"required" json:"calculation" yaml:"calculation"`
 	// The calculation components for the metric.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_metric#calculation_components ConnectMetric#calculation_components}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_metric#calculation_components ConnectMetric#calculation_components}
 	CalculationComponents interface{} `field:"required" json:"calculationComponents" yaml:"calculationComponents"`
 }
 

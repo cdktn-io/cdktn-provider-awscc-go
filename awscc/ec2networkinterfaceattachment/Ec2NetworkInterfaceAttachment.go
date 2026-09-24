@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_network_interface_attachment awscc_ec2_network_interface_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_network_interface_attachment awscc_ec2_network_interface_attachment}.
 type Ec2NetworkInterfaceAttachment interface {
 	cdktn.TerraformResource
 	AttachmentId() *string
@@ -507,7 +507,7 @@ func (j *jsiiProxy_Ec2NetworkInterfaceAttachment) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_network_interface_attachment awscc_ec2_network_interface_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_network_interface_attachment awscc_ec2_network_interface_attachment} Resource.
 func NewEc2NetworkInterfaceAttachment(scope constructs.Construct, id *string, config *Ec2NetworkInterfaceAttachmentConfig) Ec2NetworkInterfaceAttachment {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewEc2NetworkInterfaceAttachment(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_network_interface_attachment awscc_ec2_network_interface_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_network_interface_attachment awscc_ec2_network_interface_attachment} Resource.
 func NewEc2NetworkInterfaceAttachment_Override(e Ec2NetworkInterfaceAttachment, scope constructs.Construct, id *string, config *Ec2NetworkInterfaceAttachmentConfig) {
 	_init_.Initialize()
 

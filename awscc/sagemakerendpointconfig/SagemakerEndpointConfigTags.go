@@ -7,11 +7,11 @@ package sagemakerendpointconfig
 type SagemakerEndpointConfigTags struct {
 	// The tag key. Tag keys must be unique per resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_endpoint_config#key SagemakerEndpointConfigA#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_endpoint_config#key SagemakerEndpointConfigA#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The tag value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_endpoint_config#value SagemakerEndpointConfigA#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_endpoint_config#value SagemakerEndpointConfigA#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

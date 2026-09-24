@@ -12,13 +12,15 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version}.
 type ElasticbeanstalkApplicationVersion interface {
 	cdktn.TerraformResource
 	ApplicationName() *string
 	SetApplicationName(val *string)
 	ApplicationNameInput() *string
 	ApplicationVersionId() *string
+	BuildConfiguration() ElasticbeanstalkApplicationVersionBuildConfigurationOutputReference
+	BuildConfigurationInput() interface{}
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -47,12 +49,17 @@ type ElasticbeanstalkApplicationVersion interface {
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
+	ImageConfiguration() ElasticbeanstalkApplicationVersionImageConfigurationOutputReference
+	ImageConfigurationInput() interface{}
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
+	Process() interface{}
+	SetProcess(val interface{})
+	ProcessInput() interface{}
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -150,6 +157,8 @@ type ElasticbeanstalkApplicationVersion interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutBuildConfiguration(value *ElasticbeanstalkApplicationVersionBuildConfiguration)
+	PutImageConfiguration(value *ElasticbeanstalkApplicationVersionImageConfiguration)
 	PutSourceBundle(value *ElasticbeanstalkApplicationVersionSourceBundle)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -164,10 +173,14 @@ type ElasticbeanstalkApplicationVersion interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetBuildConfiguration()
 	ResetDescription()
+	ResetImageConfiguration()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetProcess()
+	ResetSourceBundle()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -220,6 +233,26 @@ func (j *jsiiProxy_ElasticbeanstalkApplicationVersion) ApplicationVersionId() *s
 	_jsii_.Get(
 		j,
 		"applicationVersionId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ElasticbeanstalkApplicationVersion) BuildConfiguration() ElasticbeanstalkApplicationVersionBuildConfigurationOutputReference {
+	var returns ElasticbeanstalkApplicationVersionBuildConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"buildConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ElasticbeanstalkApplicationVersion) BuildConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"buildConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -335,6 +368,26 @@ func (j *jsiiProxy_ElasticbeanstalkApplicationVersion) Id() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ElasticbeanstalkApplicationVersion) ImageConfiguration() ElasticbeanstalkApplicationVersionImageConfigurationOutputReference {
+	var returns ElasticbeanstalkApplicationVersionImageConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"imageConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ElasticbeanstalkApplicationVersion) ImageConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"imageConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ElasticbeanstalkApplicationVersion) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -350,6 +403,26 @@ func (j *jsiiProxy_ElasticbeanstalkApplicationVersion) Node() constructs.Node {
 	_jsii_.Get(
 		j,
 		"node",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ElasticbeanstalkApplicationVersion) Process() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"process",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ElasticbeanstalkApplicationVersion) ProcessInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"processInput",
 		&returns,
 	)
 	return returns
@@ -436,7 +509,7 @@ func (j *jsiiProxy_ElasticbeanstalkApplicationVersion) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version} Resource.
 func NewElasticbeanstalkApplicationVersion(scope constructs.Construct, id *string, config *ElasticbeanstalkApplicationVersionConfig) ElasticbeanstalkApplicationVersion {
 	_init_.Initialize()
 
@@ -454,7 +527,7 @@ func NewElasticbeanstalkApplicationVersion(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version} Resource.
 func NewElasticbeanstalkApplicationVersion_Override(e ElasticbeanstalkApplicationVersion, scope constructs.Construct, id *string, config *ElasticbeanstalkApplicationVersionConfig) {
 	_init_.Initialize()
 
@@ -532,6 +605,17 @@ func (j *jsiiProxy_ElasticbeanstalkApplicationVersion)SetLifecycle(val *cdktn.Te
 	_jsii_.Set(
 		j,
 		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ElasticbeanstalkApplicationVersion)SetProcess(val interface{}) {
+	if err := j.validateSetProcessParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"process",
 		val,
 	)
 }
@@ -924,6 +1008,28 @@ func (e *jsiiProxy_ElasticbeanstalkApplicationVersion) OverrideLogicalId(newLogi
 	)
 }
 
+func (e *jsiiProxy_ElasticbeanstalkApplicationVersion) PutBuildConfiguration(value *ElasticbeanstalkApplicationVersionBuildConfiguration) {
+	if err := e.validatePutBuildConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putBuildConfiguration",
+		[]interface{}{value},
+	)
+}
+
+func (e *jsiiProxy_ElasticbeanstalkApplicationVersion) PutImageConfiguration(value *ElasticbeanstalkApplicationVersionImageConfiguration) {
+	if err := e.validatePutImageConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putImageConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (e *jsiiProxy_ElasticbeanstalkApplicationVersion) PutSourceBundle(value *ElasticbeanstalkApplicationVersionSourceBundle) {
 	if err := e.validatePutSourceBundleParameters(value); err != nil {
 		panic(err)
@@ -946,6 +1052,14 @@ func (e *jsiiProxy_ElasticbeanstalkApplicationVersion) RegisterProviderFeatureUs
 	)
 }
 
+func (e *jsiiProxy_ElasticbeanstalkApplicationVersion) ResetBuildConfiguration() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetBuildConfiguration",
+		nil, // no parameters
+	)
+}
+
 func (e *jsiiProxy_ElasticbeanstalkApplicationVersion) ResetDescription() {
 	_jsii_.InvokeVoid(
 		e,
@@ -954,10 +1068,34 @@ func (e *jsiiProxy_ElasticbeanstalkApplicationVersion) ResetDescription() {
 	)
 }
 
+func (e *jsiiProxy_ElasticbeanstalkApplicationVersion) ResetImageConfiguration() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetImageConfiguration",
+		nil, // no parameters
+	)
+}
+
 func (e *jsiiProxy_ElasticbeanstalkApplicationVersion) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_ElasticbeanstalkApplicationVersion) ResetProcess() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetProcess",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_ElasticbeanstalkApplicationVersion) ResetSourceBundle() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetSourceBundle",
 		nil, // no parameters
 	)
 }

@@ -9,7 +9,7 @@ type LambdaFunctionRuntimeManagementConfig struct {
 	//
 	// This is only required if you're using the *Manual* runtime update mode.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lambda_function#runtime_version_arn LambdaFunction#runtime_version_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/lambda_function#runtime_version_arn LambdaFunction#runtime_version_arn}
 	RuntimeVersionArn *string `field:"optional" json:"runtimeVersionArn" yaml:"runtimeVersionArn"`
 	// Specify the runtime update mode.
 	//
@@ -19,7 +19,7 @@ type LambdaFunctionRuntimeManagementConfig struct {
 	//
 	//  *Valid Values*: ``Auto`` | ``FunctionUpdate`` | ``Manual``
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lambda_function#update_runtime_on LambdaFunction#update_runtime_on}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/lambda_function#update_runtime_on LambdaFunction#update_runtime_on}
 	UpdateRuntimeOn *string `field:"optional" json:"updateRuntimeOn" yaml:"updateRuntimeOn"`
 }
 

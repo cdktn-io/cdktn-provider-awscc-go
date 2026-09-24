@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/managedblockchain_accessor awscc_managedblockchain_accessor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/managedblockchain_accessor awscc_managedblockchain_accessor}.
 type DataAwsccManagedblockchainAccessor interface {
 	cdktn.TerraformDataSource
 	AccessorId() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccManagedblockchainAccessor) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/managedblockchain_accessor awscc_managedblockchain_accessor} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/managedblockchain_accessor awscc_managedblockchain_accessor} Data Source.
 func NewDataAwsccManagedblockchainAccessor(scope constructs.Construct, id *string, config *DataAwsccManagedblockchainAccessorConfig) DataAwsccManagedblockchainAccessor {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccManagedblockchainAccessor(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/managedblockchain_accessor awscc_managedblockchain_accessor} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/managedblockchain_accessor awscc_managedblockchain_accessor} Data Source.
 func NewDataAwsccManagedblockchainAccessor_Override(d DataAwsccManagedblockchainAccessor, scope constructs.Construct, id *string, config *DataAwsccManagedblockchainAccessorConfig) {
 	_init_.Initialize()
 

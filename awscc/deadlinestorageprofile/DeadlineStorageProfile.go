@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/deadline_storage_profile awscc_deadline_storage_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/deadline_storage_profile awscc_deadline_storage_profile}.
 type DeadlineStorageProfile interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -459,7 +459,7 @@ func (j *jsiiProxy_DeadlineStorageProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/deadline_storage_profile awscc_deadline_storage_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/deadline_storage_profile awscc_deadline_storage_profile} Resource.
 func NewDeadlineStorageProfile(scope constructs.Construct, id *string, config *DeadlineStorageProfileConfig) DeadlineStorageProfile {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewDeadlineStorageProfile(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/deadline_storage_profile awscc_deadline_storage_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/deadline_storage_profile awscc_deadline_storage_profile} Resource.
 func NewDeadlineStorageProfile_Override(d DeadlineStorageProfile, scope constructs.Construct, id *string, config *DeadlineStorageProfileConfig) {
 	_init_.Initialize()
 

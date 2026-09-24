@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_transit_gateway_route_table_propagation awscc_ec2_transit_gateway_route_table_propagation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_transit_gateway_route_table_propagation awscc_ec2_transit_gateway_route_table_propagation}.
 type DataAwsccEc2TransitGatewayRouteTablePropagation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccEc2TransitGatewayRouteTablePropagation) TransitGatew
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_transit_gateway_route_table_propagation awscc_ec2_transit_gateway_route_table_propagation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_transit_gateway_route_table_propagation awscc_ec2_transit_gateway_route_table_propagation} Data Source.
 func NewDataAwsccEc2TransitGatewayRouteTablePropagation(scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayRouteTablePropagationConfig) DataAwsccEc2TransitGatewayRouteTablePropagation {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccEc2TransitGatewayRouteTablePropagation(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_transit_gateway_route_table_propagation awscc_ec2_transit_gateway_route_table_propagation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_transit_gateway_route_table_propagation awscc_ec2_transit_gateway_route_table_propagation} Data Source.
 func NewDataAwsccEc2TransitGatewayRouteTablePropagation_Override(d DataAwsccEc2TransitGatewayRouteTablePropagation, scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayRouteTablePropagationConfig) {
 	_init_.Initialize()
 

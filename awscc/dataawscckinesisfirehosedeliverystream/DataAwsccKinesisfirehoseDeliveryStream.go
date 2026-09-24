@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/kinesisfirehose_delivery_stream awscc_kinesisfirehose_delivery_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/kinesisfirehose_delivery_stream awscc_kinesisfirehose_delivery_stream}.
 type DataAwsccKinesisfirehoseDeliveryStream interface {
 	cdktn.TerraformDataSource
 	AmazonOpenSearchServerlessDestinationConfiguration() DataAwsccKinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationOutputReference
@@ -495,7 +495,7 @@ func (j *jsiiProxy_DataAwsccKinesisfirehoseDeliveryStream) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/kinesisfirehose_delivery_stream awscc_kinesisfirehose_delivery_stream} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/kinesisfirehose_delivery_stream awscc_kinesisfirehose_delivery_stream} Data Source.
 func NewDataAwsccKinesisfirehoseDeliveryStream(scope constructs.Construct, id *string, config *DataAwsccKinesisfirehoseDeliveryStreamConfig) DataAwsccKinesisfirehoseDeliveryStream {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewDataAwsccKinesisfirehoseDeliveryStream(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/kinesisfirehose_delivery_stream awscc_kinesisfirehose_delivery_stream} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/kinesisfirehose_delivery_stream awscc_kinesisfirehose_delivery_stream} Data Source.
 func NewDataAwsccKinesisfirehoseDeliveryStream_Override(d DataAwsccKinesisfirehoseDeliveryStream, scope constructs.Construct, id *string, config *DataAwsccKinesisfirehoseDeliveryStreamConfig) {
 	_init_.Initialize()
 

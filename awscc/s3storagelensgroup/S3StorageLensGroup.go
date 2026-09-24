@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/s3_storage_lens_group awscc_s3_storage_lens_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/s3_storage_lens_group awscc_s3_storage_lens_group}.
 type S3StorageLensGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -436,7 +436,7 @@ func (j *jsiiProxy_S3StorageLensGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/s3_storage_lens_group awscc_s3_storage_lens_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/s3_storage_lens_group awscc_s3_storage_lens_group} Resource.
 func NewS3StorageLensGroup(scope constructs.Construct, id *string, config *S3StorageLensGroupConfig) S3StorageLensGroup {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewS3StorageLensGroup(scope constructs.Construct, id *string, config *S3Sto
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/s3_storage_lens_group awscc_s3_storage_lens_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/s3_storage_lens_group awscc_s3_storage_lens_group} Resource.
 func NewS3StorageLensGroup_Override(s S3StorageLensGroup, scope constructs.Construct, id *string, config *S3StorageLensGroupConfig) {
 	_init_.Initialize()
 

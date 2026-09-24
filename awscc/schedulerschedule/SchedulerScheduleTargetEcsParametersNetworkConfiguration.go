@@ -9,7 +9,7 @@ type SchedulerScheduleTargetEcsParametersNetworkConfiguration struct {
 	//
 	// This structure is relevant only for ECS tasks that use the awsvpc network mode.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/scheduler_schedule#awsvpc_configuration SchedulerSchedule#awsvpc_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/scheduler_schedule#awsvpc_configuration SchedulerSchedule#awsvpc_configuration}
 	AwsvpcConfiguration *SchedulerScheduleTargetEcsParametersNetworkConfigurationAwsvpcConfiguration `field:"optional" json:"awsvpcConfiguration" yaml:"awsvpcConfiguration"`
 }
 

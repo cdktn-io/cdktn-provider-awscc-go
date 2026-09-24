@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/backupgateway_hypervisor awscc_backupgateway_hypervisor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/backupgateway_hypervisor awscc_backupgateway_hypervisor}.
 type DataAwsccBackupgatewayHypervisor interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccBackupgatewayHypervisor) Username() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/backupgateway_hypervisor awscc_backupgateway_hypervisor} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/backupgateway_hypervisor awscc_backupgateway_hypervisor} Data Source.
 func NewDataAwsccBackupgatewayHypervisor(scope constructs.Construct, id *string, config *DataAwsccBackupgatewayHypervisorConfig) DataAwsccBackupgatewayHypervisor {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccBackupgatewayHypervisor(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/backupgateway_hypervisor awscc_backupgateway_hypervisor} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/backupgateway_hypervisor awscc_backupgateway_hypervisor} Data Source.
 func NewDataAwsccBackupgatewayHypervisor_Override(d DataAwsccBackupgatewayHypervisor, scope constructs.Construct, id *string, config *DataAwsccBackupgatewayHypervisorConfig) {
 	_init_.Initialize()
 

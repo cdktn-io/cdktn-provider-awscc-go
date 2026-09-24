@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/connect_prompt awscc_connect_prompt}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/connect_prompt awscc_connect_prompt}.
 type DataAwsccConnectPrompt interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccConnectPrompt) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/connect_prompt awscc_connect_prompt} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/connect_prompt awscc_connect_prompt} Data Source.
 func NewDataAwsccConnectPrompt(scope constructs.Construct, id *string, config *DataAwsccConnectPromptConfig) DataAwsccConnectPrompt {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccConnectPrompt(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/connect_prompt awscc_connect_prompt} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/connect_prompt awscc_connect_prompt} Data Source.
 func NewDataAwsccConnectPrompt_Override(d DataAwsccConnectPrompt, scope constructs.Construct, id *string, config *DataAwsccConnectPromptConfig) {
 	_init_.Initialize()
 

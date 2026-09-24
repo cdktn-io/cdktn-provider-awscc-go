@@ -24,11 +24,11 @@ type AccountaccessEntitlementConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ARN of the application.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/accountaccess_entitlement#application_arn AccountaccessEntitlement#application_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/accountaccess_entitlement#application_arn AccountaccessEntitlement#application_arn}
 	ApplicationArn *string `field:"required" json:"applicationArn" yaml:"applicationArn"`
 	// The entitlement details.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/accountaccess_entitlement#entitlement AccountaccessEntitlement#entitlement}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/accountaccess_entitlement#entitlement AccountaccessEntitlement#entitlement}
 	Entitlement *AccountaccessEntitlementEntitlement `field:"required" json:"entitlement" yaml:"entitlement"`
 }
 

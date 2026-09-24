@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_route_tables awscc_ec2_route_tables}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_route_tables awscc_ec2_route_tables}.
 type DataAwsccEc2RouteTables interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2RouteTables) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_route_tables awscc_ec2_route_tables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_route_tables awscc_ec2_route_tables} Data Source.
 func NewDataAwsccEc2RouteTables(scope constructs.Construct, id *string, config *DataAwsccEc2RouteTablesConfig) DataAwsccEc2RouteTables {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2RouteTables(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_route_tables awscc_ec2_route_tables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_route_tables awscc_ec2_route_tables} Data Source.
 func NewDataAwsccEc2RouteTables_Override(d DataAwsccEc2RouteTables, scope constructs.Construct, id *string, config *DataAwsccEc2RouteTablesConfig) {
 	_init_.Initialize()
 

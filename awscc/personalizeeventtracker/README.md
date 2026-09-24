@@ -1,3 +1,3 @@
 # `awscc_personalize_event_tracker`
 
-Refer to the Terraform Registry for docs: [`awscc_personalize_event_tracker`](https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/personalize_event_tracker).
+Refer to the Terraform Registry for docs: [`awscc_personalize_event_tracker`](https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/personalize_event_tracker).

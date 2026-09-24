@@ -5,9 +5,9 @@ package quicksighttopic
 
 
 type QuicksightTopicDataSetsColumnsCellValueSynonyms struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_topic#cell_value QuicksightTopic#cell_value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_topic#cell_value QuicksightTopic#cell_value}.
 	CellValue *string `field:"optional" json:"cellValue" yaml:"cellValue"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_topic#synonyms QuicksightTopic#synonyms}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_topic#synonyms QuicksightTopic#synonyms}.
 	Synonyms *[]*string `field:"optional" json:"synonyms" yaml:"synonyms"`
 }
 

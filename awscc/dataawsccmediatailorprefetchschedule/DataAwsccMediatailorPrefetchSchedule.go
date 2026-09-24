@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/mediatailor_prefetch_schedule awscc_mediatailor_prefetch_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/mediatailor_prefetch_schedule awscc_mediatailor_prefetch_schedule}.
 type DataAwsccMediatailorPrefetchSchedule interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccMediatailorPrefetchSchedule) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/mediatailor_prefetch_schedule awscc_mediatailor_prefetch_schedule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/mediatailor_prefetch_schedule awscc_mediatailor_prefetch_schedule} Data Source.
 func NewDataAwsccMediatailorPrefetchSchedule(scope constructs.Construct, id *string, config *DataAwsccMediatailorPrefetchScheduleConfig) DataAwsccMediatailorPrefetchSchedule {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccMediatailorPrefetchSchedule(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/mediatailor_prefetch_schedule awscc_mediatailor_prefetch_schedule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/mediatailor_prefetch_schedule awscc_mediatailor_prefetch_schedule} Data Source.
 func NewDataAwsccMediatailorPrefetchSchedule_Override(d DataAwsccMediatailorPrefetchSchedule, scope constructs.Construct, id *string, config *DataAwsccMediatailorPrefetchScheduleConfig) {
 	_init_.Initialize()
 

@@ -5,7 +5,7 @@ package b2bipartnership
 
 
 type B2BiPartnershipCapabilityOptionsOutboundEdi struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/b2bi_partnership#x12 B2BiPartnership#x12}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/b2bi_partnership#x12 B2BiPartnership#x12}.
 	X12 *B2BiPartnershipCapabilityOptionsOutboundEdiX12 `field:"optional" json:"x12" yaml:"x12"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/connect_security_profile awscc_connect_security_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/connect_security_profile awscc_connect_security_profile}.
 type DataAwsccConnectSecurityProfile interface {
 	cdktn.TerraformDataSource
 	AllowedAccessControlHierarchyGroupId() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccConnectSecurityProfile) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/connect_security_profile awscc_connect_security_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/connect_security_profile awscc_connect_security_profile} Data Source.
 func NewDataAwsccConnectSecurityProfile(scope constructs.Construct, id *string, config *DataAwsccConnectSecurityProfileConfig) DataAwsccConnectSecurityProfile {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccConnectSecurityProfile(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/connect_security_profile awscc_connect_security_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/connect_security_profile awscc_connect_security_profile} Data Source.
 func NewDataAwsccConnectSecurityProfile_Override(d DataAwsccConnectSecurityProfile, scope constructs.Construct, id *string, config *DataAwsccConnectSecurityProfileConfig) {
 	_init_.Initialize()
 

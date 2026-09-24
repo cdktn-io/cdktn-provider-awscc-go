@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cleanroomsml_configured_model_algorithm_associations awscc_cleanroomsml_configured_model_algorithm_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/cleanroomsml_configured_model_algorithm_associations awscc_cleanroomsml_configured_model_algorithm_associations}.
 type DataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations) Te
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cleanroomsml_configured_model_algorithm_associations awscc_cleanroomsml_configured_model_algorithm_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/cleanroomsml_configured_model_algorithm_associations awscc_cleanroomsml_configured_model_algorithm_associations} Data Source.
 func NewDataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations(scope constructs.Construct, id *string, config *DataAwsccCleanroomsmlConfiguredModelAlgorithmAssociationsConfig) DataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations(scope construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cleanroomsml_configured_model_algorithm_associations awscc_cleanroomsml_configured_model_algorithm_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/cleanroomsml_configured_model_algorithm_associations awscc_cleanroomsml_configured_model_algorithm_associations} Data Source.
 func NewDataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations_Override(d DataAwsccCleanroomsmlConfiguredModelAlgorithmAssociations, scope constructs.Construct, id *string, config *DataAwsccCleanroomsmlConfiguredModelAlgorithmAssociationsConfig) {
 	_init_.Initialize()
 

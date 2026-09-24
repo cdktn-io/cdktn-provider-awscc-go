@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudfront_cache_policies awscc_cloudfront_cache_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/cloudfront_cache_policies awscc_cloudfront_cache_policies}.
 type DataAwsccCloudfrontCachePolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCloudfrontCachePolicies) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudfront_cache_policies awscc_cloudfront_cache_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/cloudfront_cache_policies awscc_cloudfront_cache_policies} Data Source.
 func NewDataAwsccCloudfrontCachePolicies(scope constructs.Construct, id *string, config *DataAwsccCloudfrontCachePoliciesConfig) DataAwsccCloudfrontCachePolicies {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCloudfrontCachePolicies(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudfront_cache_policies awscc_cloudfront_cache_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/cloudfront_cache_policies awscc_cloudfront_cache_policies} Data Source.
 func NewDataAwsccCloudfrontCachePolicies_Override(d DataAwsccCloudfrontCachePolicies, scope constructs.Construct, id *string, config *DataAwsccCloudfrontCachePoliciesConfig) {
 	_init_.Initialize()
 

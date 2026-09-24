@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sagemaker_experiments awscc_sagemaker_experiments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_experiments awscc_sagemaker_experiments}.
 type DataAwsccSagemakerExperiments interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSagemakerExperiments) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sagemaker_experiments awscc_sagemaker_experiments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_experiments awscc_sagemaker_experiments} Data Source.
 func NewDataAwsccSagemakerExperiments(scope constructs.Construct, id *string, config *DataAwsccSagemakerExperimentsConfig) DataAwsccSagemakerExperiments {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSagemakerExperiments(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sagemaker_experiments awscc_sagemaker_experiments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_experiments awscc_sagemaker_experiments} Data Source.
 func NewDataAwsccSagemakerExperiments_Override(d DataAwsccSagemakerExperiments, scope constructs.Construct, id *string, config *DataAwsccSagemakerExperimentsConfig) {
 	_init_.Initialize()
 

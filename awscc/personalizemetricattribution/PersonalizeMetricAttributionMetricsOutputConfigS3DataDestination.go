@@ -7,11 +7,11 @@ package personalizemetricattribution
 type PersonalizeMetricAttributionMetricsOutputConfigS3DataDestination struct {
 	// The ARN of the KMS key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/personalize_metric_attribution#kms_key_arn PersonalizeMetricAttribution#kms_key_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/personalize_metric_attribution#kms_key_arn PersonalizeMetricAttribution#kms_key_arn}
 	KmsKeyArn *string `field:"optional" json:"kmsKeyArn" yaml:"kmsKeyArn"`
 	// The file path of the Amazon S3 bucket.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/personalize_metric_attribution#path PersonalizeMetricAttribution#path}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/personalize_metric_attribution#path PersonalizeMetricAttribution#path}
 	Path *string `field:"optional" json:"path" yaml:"path"`
 }
 

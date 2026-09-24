@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/healthagent_domain awscc_healthagent_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/healthagent_domain awscc_healthagent_domain}.
 type HealthagentDomain interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -457,7 +457,7 @@ func (j *jsiiProxy_HealthagentDomain) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/healthagent_domain awscc_healthagent_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/healthagent_domain awscc_healthagent_domain} Resource.
 func NewHealthagentDomain(scope constructs.Construct, id *string, config *HealthagentDomainConfig) HealthagentDomain {
 	_init_.Initialize()
 
@@ -475,7 +475,7 @@ func NewHealthagentDomain(scope constructs.Construct, id *string, config *Health
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/healthagent_domain awscc_healthagent_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/healthagent_domain awscc_healthagent_domain} Resource.
 func NewHealthagentDomain_Override(h HealthagentDomain, scope constructs.Construct, id *string, config *HealthagentDomainConfig) {
 	_init_.Initialize()
 

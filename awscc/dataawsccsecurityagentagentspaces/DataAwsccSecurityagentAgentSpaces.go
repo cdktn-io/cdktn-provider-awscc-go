@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/securityagent_agent_spaces awscc_securityagent_agent_spaces}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/securityagent_agent_spaces awscc_securityagent_agent_spaces}.
 type DataAwsccSecurityagentAgentSpaces interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSecurityagentAgentSpaces) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/securityagent_agent_spaces awscc_securityagent_agent_spaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/securityagent_agent_spaces awscc_securityagent_agent_spaces} Data Source.
 func NewDataAwsccSecurityagentAgentSpaces(scope constructs.Construct, id *string, config *DataAwsccSecurityagentAgentSpacesConfig) DataAwsccSecurityagentAgentSpaces {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSecurityagentAgentSpaces(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/securityagent_agent_spaces awscc_securityagent_agent_spaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/securityagent_agent_spaces awscc_securityagent_agent_spaces} Data Source.
 func NewDataAwsccSecurityagentAgentSpaces_Override(d DataAwsccSecurityagentAgentSpaces, scope constructs.Construct, id *string, config *DataAwsccSecurityagentAgentSpacesConfig) {
 	_init_.Initialize()
 

@@ -7,11 +7,11 @@ package iotsecuretunnelingtunnel
 type IotsecuretunnelingTunnelTags struct {
 	// The key of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsecuretunneling_tunnel#key IotsecuretunnelingTunnel#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsecuretunneling_tunnel#key IotsecuretunnelingTunnel#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsecuretunneling_tunnel#value IotsecuretunnelingTunnel#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsecuretunneling_tunnel#value IotsecuretunnelingTunnel#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

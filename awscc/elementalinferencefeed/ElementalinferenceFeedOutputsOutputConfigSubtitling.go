@@ -5,13 +5,13 @@ package elementalinferencefeed
 
 
 type ElementalinferenceFeedOutputsOutputConfigSubtitling struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/elementalinference_feed#aspect_ratio ElementalinferenceFeed#aspect_ratio}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elementalinference_feed#aspect_ratio ElementalinferenceFeed#aspect_ratio}.
 	AspectRatio *ElementalinferenceFeedOutputsOutputConfigSubtitlingAspectRatio `field:"optional" json:"aspectRatio" yaml:"aspectRatio"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/elementalinference_feed#dictionary ElementalinferenceFeed#dictionary}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elementalinference_feed#dictionary ElementalinferenceFeed#dictionary}.
 	Dictionary *string `field:"optional" json:"dictionary" yaml:"dictionary"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/elementalinference_feed#language ElementalinferenceFeed#language}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elementalinference_feed#language ElementalinferenceFeed#language}.
 	Language *string `field:"optional" json:"language" yaml:"language"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/elementalinference_feed#profanity_filter ElementalinferenceFeed#profanity_filter}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elementalinference_feed#profanity_filter ElementalinferenceFeed#profanity_filter}.
 	ProfanityFilter *string `field:"optional" json:"profanityFilter" yaml:"profanityFilter"`
 }
 

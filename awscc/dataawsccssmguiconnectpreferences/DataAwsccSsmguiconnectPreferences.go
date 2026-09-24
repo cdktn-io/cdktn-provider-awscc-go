@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssmguiconnect_preferences awscc_ssmguiconnect_preferences}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ssmguiconnect_preferences awscc_ssmguiconnect_preferences}.
 type DataAwsccSsmguiconnectPreferences interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccSsmguiconnectPreferences) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssmguiconnect_preferences awscc_ssmguiconnect_preferences} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ssmguiconnect_preferences awscc_ssmguiconnect_preferences} Data Source.
 func NewDataAwsccSsmguiconnectPreferences(scope constructs.Construct, id *string, config *DataAwsccSsmguiconnectPreferencesConfig) DataAwsccSsmguiconnectPreferences {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccSsmguiconnectPreferences(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssmguiconnect_preferences awscc_ssmguiconnect_preferences} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ssmguiconnect_preferences awscc_ssmguiconnect_preferences} Data Source.
 func NewDataAwsccSsmguiconnectPreferences_Override(d DataAwsccSsmguiconnectPreferences, scope constructs.Construct, id *string, config *DataAwsccSsmguiconnectPreferencesConfig) {
 	_init_.Initialize()
 

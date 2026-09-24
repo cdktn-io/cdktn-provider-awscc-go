@@ -51,6 +51,10 @@ func (q *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference) v
 	return nil
 }
 
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference) validateSetColorParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference) v
 }
 
 func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference) validateSetWidthParameters(val *string) error {
 	return nil
 }
 

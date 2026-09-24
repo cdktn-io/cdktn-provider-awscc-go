@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/rtbfabric_requester_gateway awscc_rtbfabric_requester_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/rtbfabric_requester_gateway awscc_rtbfabric_requester_gateway}.
 type RtbfabricRequesterGateway interface {
 	cdktn.TerraformResource
 	ActiveLinksCount() *float64
@@ -560,7 +560,7 @@ func (j *jsiiProxy_RtbfabricRequesterGateway) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/rtbfabric_requester_gateway awscc_rtbfabric_requester_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/rtbfabric_requester_gateway awscc_rtbfabric_requester_gateway} Resource.
 func NewRtbfabricRequesterGateway(scope constructs.Construct, id *string, config *RtbfabricRequesterGatewayConfig) RtbfabricRequesterGateway {
 	_init_.Initialize()
 
@@ -578,7 +578,7 @@ func NewRtbfabricRequesterGateway(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/rtbfabric_requester_gateway awscc_rtbfabric_requester_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/rtbfabric_requester_gateway awscc_rtbfabric_requester_gateway} Resource.
 func NewRtbfabricRequesterGateway_Override(r RtbfabricRequesterGateway, scope constructs.Construct, id *string, config *RtbfabricRequesterGatewayConfig) {
 	_init_.Initialize()
 

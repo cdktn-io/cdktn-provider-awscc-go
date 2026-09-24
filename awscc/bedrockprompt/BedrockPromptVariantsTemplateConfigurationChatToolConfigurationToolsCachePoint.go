@@ -7,7 +7,7 @@ package bedrockprompt
 type BedrockPromptVariantsTemplateConfigurationChatToolConfigurationToolsCachePoint struct {
 	// CachePoint types for CachePointBlock.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bedrock_prompt#type BedrockPrompt#type}
 	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

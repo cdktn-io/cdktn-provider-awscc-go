@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iot_logging awscc_iot_logging}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iot_logging awscc_iot_logging}.
 type IotLogging interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -448,7 +448,7 @@ func (j *jsiiProxy_IotLogging) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iot_logging awscc_iot_logging} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iot_logging awscc_iot_logging} Resource.
 func NewIotLogging(scope constructs.Construct, id *string, config *IotLoggingConfig) IotLogging {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewIotLogging(scope constructs.Construct, id *string, config *IotLoggingCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iot_logging awscc_iot_logging} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iot_logging awscc_iot_logging} Resource.
 func NewIotLogging_Override(i IotLogging, scope constructs.Construct, id *string, config *IotLoggingConfig) {
 	_init_.Initialize()
 

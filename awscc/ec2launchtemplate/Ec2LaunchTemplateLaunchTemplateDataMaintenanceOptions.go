@@ -7,7 +7,7 @@ package ec2launchtemplate
 type Ec2LaunchTemplateLaunchTemplateDataMaintenanceOptions struct {
 	// Disables the automatic recovery behavior of your instance or sets it to default.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_launch_template#auto_recovery Ec2LaunchTemplate#auto_recovery}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_launch_template#auto_recovery Ec2LaunchTemplate#auto_recovery}
 	AutoRecovery *string `field:"optional" json:"autoRecovery" yaml:"autoRecovery"`
 }
 

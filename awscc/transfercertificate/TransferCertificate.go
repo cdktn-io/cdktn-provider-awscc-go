@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_certificate awscc_transfer_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_certificate awscc_transfer_certificate}.
 type TransferCertificate interface {
 	cdktn.TerraformResource
 	ActiveDate() *string
@@ -622,7 +622,7 @@ func (j *jsiiProxy_TransferCertificate) UsageInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_certificate awscc_transfer_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_certificate awscc_transfer_certificate} Resource.
 func NewTransferCertificate(scope constructs.Construct, id *string, config *TransferCertificateConfig) TransferCertificate {
 	_init_.Initialize()
 
@@ -640,7 +640,7 @@ func NewTransferCertificate(scope constructs.Construct, id *string, config *Tran
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_certificate awscc_transfer_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_certificate awscc_transfer_certificate} Resource.
 func NewTransferCertificate_Override(t TransferCertificate, scope constructs.Construct, id *string, config *TransferCertificateConfig) {
 	_init_.Initialize()
 

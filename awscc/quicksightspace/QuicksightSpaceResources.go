@@ -7,11 +7,11 @@ package quicksightspace
 type QuicksightSpaceResources struct {
 	// The ARN of the QuickSight resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_space#resource_arn QuicksightSpace#resource_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_space#resource_arn QuicksightSpace#resource_arn}
 	ResourceArn *string `field:"optional" json:"resourceArn" yaml:"resourceArn"`
 	// The type of QuickSight resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_space#resource_type QuicksightSpace#resource_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_space#resource_type QuicksightSpace#resource_type}
 	ResourceType *string `field:"optional" json:"resourceType" yaml:"resourceType"`
 }
 

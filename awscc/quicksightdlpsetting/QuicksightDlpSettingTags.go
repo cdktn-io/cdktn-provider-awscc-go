@@ -7,11 +7,11 @@ package quicksightdlpsetting
 type QuicksightDlpSettingTags struct {
 	// <p>Tag key.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_dlp_setting#key QuicksightDlpSetting#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_dlp_setting#key QuicksightDlpSetting#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// <p>Tag value.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_dlp_setting#value QuicksightDlpSetting#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_dlp_setting#value QuicksightDlpSetting#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

@@ -7,7 +7,7 @@ package ec2launchtemplate
 type Ec2LaunchTemplateLaunchTemplateDataHibernationOptions struct {
 	// If you set this parameter to ``true``, the instance is enabled for hibernation.  Default: ``false``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_launch_template#configured Ec2LaunchTemplate#configured}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_launch_template#configured Ec2LaunchTemplate#configured}
 	Configured interface{} `field:"optional" json:"configured" yaml:"configured"`
 }
 

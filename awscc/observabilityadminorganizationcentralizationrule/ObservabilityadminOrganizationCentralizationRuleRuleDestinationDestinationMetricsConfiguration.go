@@ -5,7 +5,7 @@ package observabilityadminorganizationcentralizationrule
 
 
 type ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationMetricsConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/observabilityadmin_organization_centralization_rule#backup_configuration ObservabilityadminOrganizationCentralizationRule#backup_configuration}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/observabilityadmin_organization_centralization_rule#backup_configuration ObservabilityadminOrganizationCentralizationRule#backup_configuration}.
 	BackupConfiguration *ObservabilityadminOrganizationCentralizationRuleRuleDestinationDestinationMetricsConfigurationBackupConfiguration `field:"optional" json:"backupConfiguration" yaml:"backupConfiguration"`
 }
 

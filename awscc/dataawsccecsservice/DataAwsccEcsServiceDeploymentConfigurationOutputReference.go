@@ -32,6 +32,7 @@ type DataAwsccEcsServiceDeploymentConfigurationOutputReference interface {
 	// Experimental.
 	CreationStack() *[]*string
 	DeploymentCircuitBreaker() DataAwsccEcsServiceDeploymentConfigurationDeploymentCircuitBreakerOutputReference
+	EarlySuccessCriteria() DataAwsccEcsServiceDeploymentConfigurationEarlySuccessCriteriaOutputReference
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAwsccEcsServiceDeploymentConfiguration
@@ -153,6 +154,16 @@ func (j *jsiiProxy_DataAwsccEcsServiceDeploymentConfigurationOutputReference) De
 	_jsii_.Get(
 		j,
 		"deploymentCircuitBreaker",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccEcsServiceDeploymentConfigurationOutputReference) EarlySuccessCriteria() DataAwsccEcsServiceDeploymentConfigurationEarlySuccessCriteriaOutputReference {
+	var returns DataAwsccEcsServiceDeploymentConfigurationEarlySuccessCriteriaOutputReference
+	_jsii_.Get(
+		j,
+		"earlySuccessCriteria",
 		&returns,
 	)
 	return returns

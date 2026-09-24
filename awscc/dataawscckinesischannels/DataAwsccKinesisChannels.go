@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/kinesis_channels awscc_kinesis_channels}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/kinesis_channels awscc_kinesis_channels}.
 type DataAwsccKinesisChannels interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccKinesisChannels) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/kinesis_channels awscc_kinesis_channels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/kinesis_channels awscc_kinesis_channels} Data Source.
 func NewDataAwsccKinesisChannels(scope constructs.Construct, id *string, config *DataAwsccKinesisChannelsConfig) DataAwsccKinesisChannels {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccKinesisChannels(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/kinesis_channels awscc_kinesis_channels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/kinesis_channels awscc_kinesis_channels} Data Source.
 func NewDataAwsccKinesisChannels_Override(d DataAwsccKinesisChannels, scope constructs.Construct, id *string, config *DataAwsccKinesisChannelsConfig) {
 	_init_.Initialize()
 

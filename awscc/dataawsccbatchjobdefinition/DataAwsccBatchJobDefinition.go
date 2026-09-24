@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/batch_job_definition awscc_batch_job_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/batch_job_definition awscc_batch_job_definition}.
 type DataAwsccBatchJobDefinition interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataAwsccBatchJobDefinition) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/batch_job_definition awscc_batch_job_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/batch_job_definition awscc_batch_job_definition} Data Source.
 func NewDataAwsccBatchJobDefinition(scope constructs.Construct, id *string, config *DataAwsccBatchJobDefinitionConfig) DataAwsccBatchJobDefinition {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataAwsccBatchJobDefinition(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/batch_job_definition awscc_batch_job_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/batch_job_definition awscc_batch_job_definition} Data Source.
 func NewDataAwsccBatchJobDefinition_Override(d DataAwsccBatchJobDefinition, scope constructs.Construct, id *string, config *DataAwsccBatchJobDefinitionConfig) {
 	_init_.Initialize()
 

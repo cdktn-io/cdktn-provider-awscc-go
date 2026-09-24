@@ -24,15 +24,15 @@ type Route53TrafficPolicyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The definition of the traffic policy in JSON format.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_traffic_policy#document Route53TrafficPolicy#document}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/route53_traffic_policy#document Route53TrafficPolicy#document}
 	Document *string `field:"required" json:"document" yaml:"document"`
 	// The name of the traffic policy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_traffic_policy#name Route53TrafficPolicy#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/route53_traffic_policy#name Route53TrafficPolicy#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Any comments to include about the traffic policy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_traffic_policy#comment Route53TrafficPolicy#comment}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/route53_traffic_policy#comment Route53TrafficPolicy#comment}
 	Comment *string `field:"optional" json:"comment" yaml:"comment"`
 }
 

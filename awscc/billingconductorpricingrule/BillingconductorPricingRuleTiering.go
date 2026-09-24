@@ -9,11 +9,11 @@ type BillingconductorPricingRuleTiering struct {
 	//
 	// Tiers must start at 0, be contiguous, and the last tier must have no end range.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#custom_tiers BillingconductorPricingRule#custom_tiers}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/billingconductor_pricing_rule#custom_tiers BillingconductorPricingRule#custom_tiers}
 	CustomTiers interface{} `field:"optional" json:"customTiers" yaml:"customTiers"`
 	// The possible customizable free tier configurations.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/billingconductor_pricing_rule#free_tier BillingconductorPricingRule#free_tier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/billingconductor_pricing_rule#free_tier BillingconductorPricingRule#free_tier}
 	FreeTier *BillingconductorPricingRuleTieringFreeTier `field:"optional" json:"freeTier" yaml:"freeTier"`
 }
 

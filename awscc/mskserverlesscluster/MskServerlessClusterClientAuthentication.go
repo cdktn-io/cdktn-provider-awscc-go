@@ -5,7 +5,7 @@ package mskserverlesscluster
 
 
 type MskServerlessClusterClientAuthentication struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/msk_serverless_cluster#sasl MskServerlessCluster#sasl}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/msk_serverless_cluster#sasl MskServerlessCluster#sasl}.
 	Sasl *MskServerlessClusterClientAuthenticationSasl `field:"required" json:"sasl" yaml:"sasl"`
 }
 

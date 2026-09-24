@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/observabilityadmin_s3_table_integration awscc_observabilityadmin_s3_table_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/observabilityadmin_s3_table_integration awscc_observabilityadmin_s3_table_integration}.
 type ObservabilityadminS3TableIntegration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -460,7 +460,7 @@ func (j *jsiiProxy_ObservabilityadminS3TableIntegration) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/observabilityadmin_s3_table_integration awscc_observabilityadmin_s3_table_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/observabilityadmin_s3_table_integration awscc_observabilityadmin_s3_table_integration} Resource.
 func NewObservabilityadminS3TableIntegration(scope constructs.Construct, id *string, config *ObservabilityadminS3TableIntegrationConfig) ObservabilityadminS3TableIntegration {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewObservabilityadminS3TableIntegration(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/observabilityadmin_s3_table_integration awscc_observabilityadmin_s3_table_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/observabilityadmin_s3_table_integration awscc_observabilityadmin_s3_table_integration} Resource.
 func NewObservabilityadminS3TableIntegration_Override(o ObservabilityadminS3TableIntegration, scope constructs.Construct, id *string, config *ObservabilityadminS3TableIntegrationConfig) {
 	_init_.Initialize()
 

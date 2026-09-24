@@ -1,0 +1,101 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package quicksighttheme
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference) validatePutFontSizeParameters(value *QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference) validatePutFontWeightParameters(value *QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference) validateSetFontColorParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference) validateSetFontDecorationParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference) validateSetFontFamilyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference) validateSetFontStyleParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

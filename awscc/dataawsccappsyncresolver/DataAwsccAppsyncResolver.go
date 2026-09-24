@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/appsync_resolver awscc_appsync_resolver}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/appsync_resolver awscc_appsync_resolver}.
 type DataAwsccAppsyncResolver interface {
 	cdktn.TerraformDataSource
 	ApiId() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_DataAwsccAppsyncResolver) TypeName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/appsync_resolver awscc_appsync_resolver} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/appsync_resolver awscc_appsync_resolver} Data Source.
 func NewDataAwsccAppsyncResolver(scope constructs.Construct, id *string, config *DataAwsccAppsyncResolverConfig) DataAwsccAppsyncResolver {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewDataAwsccAppsyncResolver(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/appsync_resolver awscc_appsync_resolver} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/appsync_resolver awscc_appsync_resolver} Data Source.
 func NewDataAwsccAppsyncResolver_Override(d DataAwsccAppsyncResolver, scope constructs.Construct, id *string, config *DataAwsccAppsyncResolverConfig) {
 	_init_.Initialize()
 

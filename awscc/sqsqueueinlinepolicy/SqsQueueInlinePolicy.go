@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sqs_queue_inline_policy awscc_sqs_queue_inline_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sqs_queue_inline_policy awscc_sqs_queue_inline_policy}.
 type SqsQueueInlinePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_SqsQueueInlinePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sqs_queue_inline_policy awscc_sqs_queue_inline_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sqs_queue_inline_policy awscc_sqs_queue_inline_policy} Resource.
 func NewSqsQueueInlinePolicy(scope constructs.Construct, id *string, config *SqsQueueInlinePolicyConfig) SqsQueueInlinePolicy {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewSqsQueueInlinePolicy(scope constructs.Construct, id *string, config *Sqs
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sqs_queue_inline_policy awscc_sqs_queue_inline_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sqs_queue_inline_policy awscc_sqs_queue_inline_policy} Resource.
 func NewSqsQueueInlinePolicy_Override(s SqsQueueInlinePolicy, scope constructs.Construct, id *string, config *SqsQueueInlinePolicyConfig) {
 	_init_.Initialize()
 

@@ -5,7 +5,7 @@ package cleanroomsintermediatetable
 
 
 type CleanroomsIntermediateTableAnalysisRulesPolicyV1CustomDifferentialPrivacyColumns struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cleanrooms_intermediate_table#name CleanroomsIntermediateTable#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cleanrooms_intermediate_table#name CleanroomsIntermediateTable#name}.
 	Name *string `field:"optional" json:"name" yaml:"name"`
 }
 

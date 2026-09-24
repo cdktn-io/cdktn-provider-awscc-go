@@ -24,35 +24,35 @@ type MskChannelConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Name of the channel.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/msk_channel#channel_name MskChannel#channel_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/msk_channel#channel_name MskChannel#channel_name}
 	ChannelName *string `field:"required" json:"channelName" yaml:"channelName"`
 	// Topic configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/msk_channel#topic_configuration_list MskChannel#topic_configuration_list}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/msk_channel#topic_configuration_list MskChannel#topic_configuration_list}
 	TopicConfigurationList interface{} `field:"required" json:"topicConfigurationList" yaml:"topicConfigurationList"`
 	// The Amazon Resource Name (ARN) of the cluster.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/msk_channel#cluster_arn MskChannel#cluster_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/msk_channel#cluster_arn MskChannel#cluster_arn}
 	ClusterArn *string `field:"optional" json:"clusterArn" yaml:"clusterArn"`
 	// Encryption configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/msk_channel#encryption_configuration MskChannel#encryption_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/msk_channel#encryption_configuration MskChannel#encryption_configuration}
 	EncryptionConfiguration *MskChannelEncryptionConfiguration `field:"optional" json:"encryptionConfiguration" yaml:"encryptionConfiguration"`
 	// Iceberg destination configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/msk_channel#iceberg_destination_configuration MskChannel#iceberg_destination_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/msk_channel#iceberg_destination_configuration MskChannel#iceberg_destination_configuration}
 	IcebergDestinationConfiguration *MskChannelIcebergDestinationConfiguration `field:"optional" json:"icebergDestinationConfiguration" yaml:"icebergDestinationConfiguration"`
 	// Log configuration details for Channel.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/msk_channel#logging_info MskChannel#logging_info}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/msk_channel#logging_info MskChannel#logging_info}
 	LoggingInfo *MskChannelLoggingInfo `field:"optional" json:"loggingInfo" yaml:"loggingInfo"`
 	// S3 destination configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/msk_channel#s3_destination_configuration MskChannel#s3_destination_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/msk_channel#s3_destination_configuration MskChannel#s3_destination_configuration}
 	S3DestinationConfiguration *MskChannelS3DestinationConfiguration `field:"optional" json:"s3DestinationConfiguration" yaml:"s3DestinationConfiguration"`
 	// Tags attached to the channel.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/msk_channel#tags MskChannel#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/msk_channel#tags MskChannel#tags}
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 }
 

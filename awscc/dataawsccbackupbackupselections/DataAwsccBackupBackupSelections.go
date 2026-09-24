@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/backup_backup_selections awscc_backup_backup_selections}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/backup_backup_selections awscc_backup_backup_selections}.
 type DataAwsccBackupBackupSelections interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBackupBackupSelections) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/backup_backup_selections awscc_backup_backup_selections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/backup_backup_selections awscc_backup_backup_selections} Data Source.
 func NewDataAwsccBackupBackupSelections(scope constructs.Construct, id *string, config *DataAwsccBackupBackupSelectionsConfig) DataAwsccBackupBackupSelections {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBackupBackupSelections(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/backup_backup_selections awscc_backup_backup_selections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/backup_backup_selections awscc_backup_backup_selections} Data Source.
 func NewDataAwsccBackupBackupSelections_Override(d DataAwsccBackupBackupSelections, scope constructs.Construct, id *string, config *DataAwsccBackupBackupSelectionsConfig) {
 	_init_.Initialize()
 

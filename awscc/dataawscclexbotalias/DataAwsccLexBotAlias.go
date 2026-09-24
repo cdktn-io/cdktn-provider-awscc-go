@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/lex_bot_alias awscc_lex_bot_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/lex_bot_alias awscc_lex_bot_alias}.
 type DataAwsccLexBotAlias interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccLexBotAlias) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/lex_bot_alias awscc_lex_bot_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/lex_bot_alias awscc_lex_bot_alias} Data Source.
 func NewDataAwsccLexBotAlias(scope constructs.Construct, id *string, config *DataAwsccLexBotAliasConfig) DataAwsccLexBotAlias {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccLexBotAlias(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/lex_bot_alias awscc_lex_bot_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/lex_bot_alias awscc_lex_bot_alias} Data Source.
 func NewDataAwsccLexBotAlias_Override(d DataAwsccLexBotAlias, scope constructs.Construct, id *string, config *DataAwsccLexBotAliasConfig) {
 	_init_.Initialize()
 

@@ -24,31 +24,31 @@ type DirectconnectConnectionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The bandwidth of the connection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/directconnect_connection#bandwidth DirectconnectConnection#bandwidth}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/directconnect_connection#bandwidth DirectconnectConnection#bandwidth}
 	Bandwidth *string `field:"required" json:"bandwidth" yaml:"bandwidth"`
 	// The name of the connection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/directconnect_connection#connection_name DirectconnectConnection#connection_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/directconnect_connection#connection_name DirectconnectConnection#connection_name}
 	ConnectionName *string `field:"required" json:"connectionName" yaml:"connectionName"`
 	// The location of the connection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/directconnect_connection#location DirectconnectConnection#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/directconnect_connection#location DirectconnectConnection#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// The ID or ARN of the LAG to associate the connection with.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/directconnect_connection#lag_id DirectconnectConnection#lag_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/directconnect_connection#lag_id DirectconnectConnection#lag_id}
 	LagId *string `field:"optional" json:"lagId" yaml:"lagId"`
 	// The name of the service provider associated with the requested connection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/directconnect_connection#provider_name DirectconnectConnection#provider_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/directconnect_connection#provider_name DirectconnectConnection#provider_name}
 	ProviderName *string `field:"optional" json:"providerName" yaml:"providerName"`
 	// Indicates whether you want the connection to support MAC Security (MACsec).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/directconnect_connection#request_mac_sec DirectconnectConnection#request_mac_sec}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/directconnect_connection#request_mac_sec DirectconnectConnection#request_mac_sec}
 	RequestMacSec interface{} `field:"optional" json:"requestMacSec" yaml:"requestMacSec"`
 	// The tags associated with the connection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/directconnect_connection#tags DirectconnectConnection#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/directconnect_connection#tags DirectconnectConnection#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

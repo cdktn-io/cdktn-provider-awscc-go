@@ -5,9 +5,9 @@ package codebuildfleet
 
 
 type CodebuildFleetFleetProxyConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/codebuild_fleet#default_behavior CodebuildFleet#default_behavior}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/codebuild_fleet#default_behavior CodebuildFleet#default_behavior}.
 	DefaultBehavior *string `field:"optional" json:"defaultBehavior" yaml:"defaultBehavior"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/codebuild_fleet#ordered_proxy_rules CodebuildFleet#ordered_proxy_rules}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/codebuild_fleet#ordered_proxy_rules CodebuildFleet#ordered_proxy_rules}.
 	OrderedProxyRules interface{} `field:"optional" json:"orderedProxyRules" yaml:"orderedProxyRules"`
 }
 

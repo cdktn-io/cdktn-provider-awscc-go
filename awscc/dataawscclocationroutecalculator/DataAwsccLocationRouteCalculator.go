@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/location_route_calculator awscc_location_route_calculator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/location_route_calculator awscc_location_route_calculator}.
 type DataAwsccLocationRouteCalculator interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccLocationRouteCalculator) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/location_route_calculator awscc_location_route_calculator} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/location_route_calculator awscc_location_route_calculator} Data Source.
 func NewDataAwsccLocationRouteCalculator(scope constructs.Construct, id *string, config *DataAwsccLocationRouteCalculatorConfig) DataAwsccLocationRouteCalculator {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccLocationRouteCalculator(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/location_route_calculator awscc_location_route_calculator} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/location_route_calculator awscc_location_route_calculator} Data Source.
 func NewDataAwsccLocationRouteCalculator_Override(d DataAwsccLocationRouteCalculator, scope constructs.Construct, id *string, config *DataAwsccLocationRouteCalculatorConfig) {
 	_init_.Initialize()
 

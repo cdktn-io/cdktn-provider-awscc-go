@@ -7,19 +7,19 @@ package cloudformationlambdahook
 type CloudformationLambdaHookTargetFilters struct {
 	// List of actions that the hook is going to target.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudformation_lambda_hook#actions CloudformationLambdaHook#actions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cloudformation_lambda_hook#actions CloudformationLambdaHook#actions}
 	Actions *[]*string `field:"optional" json:"actions" yaml:"actions"`
 	// List of invocation points that the hook is going to target.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudformation_lambda_hook#invocation_points CloudformationLambdaHook#invocation_points}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cloudformation_lambda_hook#invocation_points CloudformationLambdaHook#invocation_points}
 	InvocationPoints *[]*string `field:"optional" json:"invocationPoints" yaml:"invocationPoints"`
 	// List of type names that the hook is going to target.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudformation_lambda_hook#target_names CloudformationLambdaHook#target_names}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cloudformation_lambda_hook#target_names CloudformationLambdaHook#target_names}
 	TargetNames *[]*string `field:"optional" json:"targetNames" yaml:"targetNames"`
 	// List of hook targets.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudformation_lambda_hook#targets CloudformationLambdaHook#targets}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cloudformation_lambda_hook#targets CloudformationLambdaHook#targets}
 	Targets interface{} `field:"optional" json:"targets" yaml:"targets"`
 }
 

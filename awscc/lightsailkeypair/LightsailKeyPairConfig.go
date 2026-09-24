@@ -24,11 +24,11 @@ type LightsailKeyPairConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the key pair.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lightsail_key_pair#key_pair_name LightsailKeyPair#key_pair_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/lightsail_key_pair#key_pair_name LightsailKeyPair#key_pair_name}
 	KeyPairName *string `field:"required" json:"keyPairName" yaml:"keyPairName"`
 	// The tag keys and optional values to add to the resource during create.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lightsail_key_pair#tags LightsailKeyPair#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/lightsail_key_pair#tags LightsailKeyPair#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

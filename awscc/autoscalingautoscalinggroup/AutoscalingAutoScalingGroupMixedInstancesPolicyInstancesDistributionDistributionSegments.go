@@ -11,7 +11,7 @@ type AutoscalingAutoScalingGroupMixedInstancesPolicyInstancesDistributionDistrib
 	//  The following lists the valid values:
 	//   + on-demand-capacity-reservation On-Demand Capacity Reservations. + capacity-block Capacity Blocks. + interruptible-capacity-reservation Interruptible Capacity Reservations. + on-demand On-Demand capacity. Include this value to allow the group to fall back to On-Demand capacity when the preceding capacity types are unavailable.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/autoscaling_auto_scaling_group#target_capacity_types AutoscalingAutoScalingGroup#target_capacity_types}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/autoscaling_auto_scaling_group#target_capacity_types AutoscalingAutoScalingGroup#target_capacity_types}
 	TargetCapacityTypes *[]*string `field:"optional" json:"targetCapacityTypes" yaml:"targetCapacityTypes"`
 }
 

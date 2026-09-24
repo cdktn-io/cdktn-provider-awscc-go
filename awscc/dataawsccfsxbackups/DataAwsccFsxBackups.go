@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fsx_backups awscc_fsx_backups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/fsx_backups awscc_fsx_backups}.
 type DataAwsccFsxBackups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccFsxBackups) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fsx_backups awscc_fsx_backups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/fsx_backups awscc_fsx_backups} Data Source.
 func NewDataAwsccFsxBackups(scope constructs.Construct, id *string, config *DataAwsccFsxBackupsConfig) DataAwsccFsxBackups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccFsxBackups(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fsx_backups awscc_fsx_backups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/fsx_backups awscc_fsx_backups} Data Source.
 func NewDataAwsccFsxBackups_Override(d DataAwsccFsxBackups, scope constructs.Construct, id *string, config *DataAwsccFsxBackupsConfig) {
 	_init_.Initialize()
 

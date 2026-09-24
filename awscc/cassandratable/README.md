@@ -1,3 +1,3 @@
 # `awscc_cassandra_table`
 
-Refer to the Terraform Registry for docs: [`awscc_cassandra_table`](https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cassandra_table).
+Refer to the Terraform Registry for docs: [`awscc_cassandra_table`](https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cassandra_table).

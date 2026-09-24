@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/events_archive awscc_events_archive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/events_archive awscc_events_archive}.
 type DataAwsccEventsArchive interface {
 	cdktn.TerraformDataSource
 	ArchiveName() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccEventsArchive) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/events_archive awscc_events_archive} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/events_archive awscc_events_archive} Data Source.
 func NewDataAwsccEventsArchive(scope constructs.Construct, id *string, config *DataAwsccEventsArchiveConfig) DataAwsccEventsArchive {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccEventsArchive(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/events_archive awscc_events_archive} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/events_archive awscc_events_archive} Data Source.
 func NewDataAwsccEventsArchive_Override(d DataAwsccEventsArchive, scope constructs.Construct, id *string, config *DataAwsccEventsArchiveConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrock_enforced_guardrail_configuration awscc_bedrock_enforced_guardrail_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bedrock_enforced_guardrail_configuration awscc_bedrock_enforced_guardrail_configuration}.
 type BedrockEnforcedGuardrailConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -537,7 +537,7 @@ func (j *jsiiProxy_BedrockEnforcedGuardrailConfiguration) UpdatedBy() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrock_enforced_guardrail_configuration awscc_bedrock_enforced_guardrail_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bedrock_enforced_guardrail_configuration awscc_bedrock_enforced_guardrail_configuration} Resource.
 func NewBedrockEnforcedGuardrailConfiguration(scope constructs.Construct, id *string, config *BedrockEnforcedGuardrailConfigurationConfig) BedrockEnforcedGuardrailConfiguration {
 	_init_.Initialize()
 
@@ -555,7 +555,7 @@ func NewBedrockEnforcedGuardrailConfiguration(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrock_enforced_guardrail_configuration awscc_bedrock_enforced_guardrail_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bedrock_enforced_guardrail_configuration awscc_bedrock_enforced_guardrail_configuration} Resource.
 func NewBedrockEnforcedGuardrailConfiguration_Override(b BedrockEnforcedGuardrailConfiguration, scope constructs.Construct, id *string, config *BedrockEnforcedGuardrailConfigurationConfig) {
 	_init_.Initialize()
 

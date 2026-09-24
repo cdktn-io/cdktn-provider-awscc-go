@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_api_key_credential_provider awscc_bedrockagentcore_api_key_credential_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bedrockagentcore_api_key_credential_provider awscc_bedrockagentcore_api_key_credential_provider}.
 type DataAwsccBedrockagentcoreApiKeyCredentialProvider interface {
 	cdktn.TerraformDataSource
 	ApiKey() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreApiKeyCredentialProvider) TerraformR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_api_key_credential_provider awscc_bedrockagentcore_api_key_credential_provider} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bedrockagentcore_api_key_credential_provider awscc_bedrockagentcore_api_key_credential_provider} Data Source.
 func NewDataAwsccBedrockagentcoreApiKeyCredentialProvider(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreApiKeyCredentialProviderConfig) DataAwsccBedrockagentcoreApiKeyCredentialProvider {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccBedrockagentcoreApiKeyCredentialProvider(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrockagentcore_api_key_credential_provider awscc_bedrockagentcore_api_key_credential_provider} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bedrockagentcore_api_key_credential_provider awscc_bedrockagentcore_api_key_credential_provider} Data Source.
 func NewDataAwsccBedrockagentcoreApiKeyCredentialProvider_Override(d DataAwsccBedrockagentcoreApiKeyCredentialProvider, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreApiKeyCredentialProviderConfig) {
 	_init_.Initialize()
 

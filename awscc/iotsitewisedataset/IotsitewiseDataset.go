@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset}.
 type IotsitewiseDataset interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,8 @@ type IotsitewiseDataset interface {
 	// Experimental.
 	SetCount(val interface{})
 	DatasetArn() *string
+	DatasetConfig() IotsitewiseDatasetDatasetConfigOutputReference
+	DatasetConfigInput() interface{}
 	DatasetDescription() *string
 	SetDatasetDescription(val *string)
 	DatasetDescriptionInput() *string
@@ -37,6 +39,9 @@ type IotsitewiseDataset interface {
 	DatasetNameInput() *string
 	DatasetSource() IotsitewiseDatasetDatasetSourceOutputReference
 	DatasetSourceInput() interface{}
+	DatasetType() *string
+	SetDatasetType(val *string)
+	DatasetTypeInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -74,6 +79,9 @@ type IotsitewiseDataset interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	WorkspaceName() *string
+	SetWorkspaceName(val *string)
+	WorkspaceNameInput() *string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -153,6 +161,7 @@ type IotsitewiseDataset interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutDatasetConfig(value *IotsitewiseDatasetDatasetConfig)
 	PutDatasetSource(value *IotsitewiseDatasetDatasetSource)
 	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
@@ -168,11 +177,15 @@ type IotsitewiseDataset interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetDatasetConfig()
 	ResetDatasetDescription()
+	ResetDatasetSource()
+	ResetDatasetType()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetTags()
+	ResetWorkspaceName()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -250,6 +263,26 @@ func (j *jsiiProxy_IotsitewiseDataset) DatasetArn() *string {
 	return returns
 }
 
+func (j *jsiiProxy_IotsitewiseDataset) DatasetConfig() IotsitewiseDatasetDatasetConfigOutputReference {
+	var returns IotsitewiseDatasetDatasetConfigOutputReference
+	_jsii_.Get(
+		j,
+		"datasetConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IotsitewiseDataset) DatasetConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"datasetConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_IotsitewiseDataset) DatasetDescription() *string {
 	var returns *string
 	_jsii_.Get(
@@ -315,6 +348,26 @@ func (j *jsiiProxy_IotsitewiseDataset) DatasetSourceInput() interface{} {
 	_jsii_.Get(
 		j,
 		"datasetSourceInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IotsitewiseDataset) DatasetType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"datasetType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IotsitewiseDataset) DatasetTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"datasetTypeInput",
 		&returns,
 	)
 	return returns
@@ -470,8 +523,28 @@ func (j *jsiiProxy_IotsitewiseDataset) TerraformResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_IotsitewiseDataset) WorkspaceName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"workspaceName",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset} Resource.
+func (j *jsiiProxy_IotsitewiseDataset) WorkspaceNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"workspaceNameInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset} Resource.
 func NewIotsitewiseDataset(scope constructs.Construct, id *string, config *IotsitewiseDatasetConfig) IotsitewiseDataset {
 	_init_.Initialize()
 
@@ -489,7 +562,7 @@ func NewIotsitewiseDataset(scope constructs.Construct, id *string, config *Iotsi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset} Resource.
 func NewIotsitewiseDataset_Override(i IotsitewiseDataset, scope constructs.Construct, id *string, config *IotsitewiseDatasetConfig) {
 	_init_.Initialize()
 
@@ -544,6 +617,17 @@ func (j *jsiiProxy_IotsitewiseDataset)SetDatasetName(val *string) {
 	)
 }
 
+func (j *jsiiProxy_IotsitewiseDataset)SetDatasetType(val *string) {
+	if err := j.validateSetDatasetTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"datasetType",
+		val,
+	)
+}
+
 func (j *jsiiProxy_IotsitewiseDataset)SetDependsOn(val *[]*string) {
 	_jsii_.Set(
 		j,
@@ -586,6 +670,17 @@ func (j *jsiiProxy_IotsitewiseDataset)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_IotsitewiseDataset)SetWorkspaceName(val *string) {
+	if err := j.validateSetWorkspaceNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"workspaceName",
 		val,
 	)
 }
@@ -959,6 +1054,17 @@ func (i *jsiiProxy_IotsitewiseDataset) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (i *jsiiProxy_IotsitewiseDataset) PutDatasetConfig(value *IotsitewiseDatasetDatasetConfig) {
+	if err := i.validatePutDatasetConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		i,
+		"putDatasetConfig",
+		[]interface{}{value},
+	)
+}
+
 func (i *jsiiProxy_IotsitewiseDataset) PutDatasetSource(value *IotsitewiseDatasetDatasetSource) {
 	if err := i.validatePutDatasetSourceParameters(value); err != nil {
 		panic(err)
@@ -992,10 +1098,34 @@ func (i *jsiiProxy_IotsitewiseDataset) RegisterProviderFeatureUsage(feature cdkt
 	)
 }
 
+func (i *jsiiProxy_IotsitewiseDataset) ResetDatasetConfig() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetDatasetConfig",
+		nil, // no parameters
+	)
+}
+
 func (i *jsiiProxy_IotsitewiseDataset) ResetDatasetDescription() {
 	_jsii_.InvokeVoid(
 		i,
 		"resetDatasetDescription",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IotsitewiseDataset) ResetDatasetSource() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetDatasetSource",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IotsitewiseDataset) ResetDatasetType() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetDatasetType",
 		nil, // no parameters
 	)
 }
@@ -1012,6 +1142,14 @@ func (i *jsiiProxy_IotsitewiseDataset) ResetTags() {
 	_jsii_.InvokeVoid(
 		i,
 		"resetTags",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IotsitewiseDataset) ResetWorkspaceName() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetWorkspaceName",
 		nil, // no parameters
 	)
 }

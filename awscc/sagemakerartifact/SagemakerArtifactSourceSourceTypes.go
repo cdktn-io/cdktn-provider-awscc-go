@@ -7,11 +7,11 @@ package sagemakerartifact
 type SagemakerArtifactSourceSourceTypes struct {
 	// The type of ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_artifact#source_id_type SagemakerArtifact#source_id_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_artifact#source_id_type SagemakerArtifact#source_id_type}
 	SourceIdType *string `field:"optional" json:"sourceIdType" yaml:"sourceIdType"`
 	// The ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_artifact#value SagemakerArtifact#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_artifact#value SagemakerArtifact#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

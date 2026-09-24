@@ -5,9 +5,9 @@ package ec2prefixlist
 
 
 type Ec2PrefixListEntries struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_prefix_list#cidr Ec2PrefixList#cidr}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_prefix_list#cidr Ec2PrefixList#cidr}.
 	Cidr *string `field:"optional" json:"cidr" yaml:"cidr"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_prefix_list#description Ec2PrefixList#description}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_prefix_list#description Ec2PrefixList#description}.
 	Description *string `field:"optional" json:"description" yaml:"description"`
 }
 

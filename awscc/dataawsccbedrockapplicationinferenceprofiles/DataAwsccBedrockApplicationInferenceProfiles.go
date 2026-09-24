@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrock_application_inference_profiles awscc_bedrock_application_inference_profiles}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bedrock_application_inference_profiles awscc_bedrock_application_inference_profiles}.
 type DataAwsccBedrockApplicationInferenceProfiles interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockApplicationInferenceProfiles) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrock_application_inference_profiles awscc_bedrock_application_inference_profiles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bedrock_application_inference_profiles awscc_bedrock_application_inference_profiles} Data Source.
 func NewDataAwsccBedrockApplicationInferenceProfiles(scope constructs.Construct, id *string, config *DataAwsccBedrockApplicationInferenceProfilesConfig) DataAwsccBedrockApplicationInferenceProfiles {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockApplicationInferenceProfiles(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/bedrock_application_inference_profiles awscc_bedrock_application_inference_profiles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bedrock_application_inference_profiles awscc_bedrock_application_inference_profiles} Data Source.
 func NewDataAwsccBedrockApplicationInferenceProfiles_Override(d DataAwsccBedrockApplicationInferenceProfiles, scope constructs.Construct, id *string, config *DataAwsccBedrockApplicationInferenceProfilesConfig) {
 	_init_.Initialize()
 

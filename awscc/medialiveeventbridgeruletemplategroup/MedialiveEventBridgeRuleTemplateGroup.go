@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/medialive_event_bridge_rule_template_group awscc_medialive_event_bridge_rule_template_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/medialive_event_bridge_rule_template_group awscc_medialive_event_bridge_rule_template_group}.
 type MedialiveEventBridgeRuleTemplateGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -481,7 +481,7 @@ func (j *jsiiProxy_MedialiveEventBridgeRuleTemplateGroup) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/medialive_event_bridge_rule_template_group awscc_medialive_event_bridge_rule_template_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/medialive_event_bridge_rule_template_group awscc_medialive_event_bridge_rule_template_group} Resource.
 func NewMedialiveEventBridgeRuleTemplateGroup(scope constructs.Construct, id *string, config *MedialiveEventBridgeRuleTemplateGroupConfig) MedialiveEventBridgeRuleTemplateGroup {
 	_init_.Initialize()
 
@@ -499,7 +499,7 @@ func NewMedialiveEventBridgeRuleTemplateGroup(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/medialive_event_bridge_rule_template_group awscc_medialive_event_bridge_rule_template_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/medialive_event_bridge_rule_template_group awscc_medialive_event_bridge_rule_template_group} Resource.
 func NewMedialiveEventBridgeRuleTemplateGroup_Override(m MedialiveEventBridgeRuleTemplateGroup, scope constructs.Construct, id *string, config *MedialiveEventBridgeRuleTemplateGroupConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config}.
 type DataAwsccRoute53ResolverResolverDnssecConfig interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccRoute53ResolverResolverDnssecConfig) ValidationStatu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config} Data Source.
 func NewDataAwsccRoute53ResolverResolverDnssecConfig(scope constructs.Construct, id *string, config *DataAwsccRoute53ResolverResolverDnssecConfigConfig) DataAwsccRoute53ResolverResolverDnssecConfig {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccRoute53ResolverResolverDnssecConfig(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config} Data Source.
 func NewDataAwsccRoute53ResolverResolverDnssecConfig_Override(d DataAwsccRoute53ResolverResolverDnssecConfig, scope constructs.Construct, id *string, config *DataAwsccRoute53ResolverResolverDnssecConfigConfig) {
 	_init_.Initialize()
 

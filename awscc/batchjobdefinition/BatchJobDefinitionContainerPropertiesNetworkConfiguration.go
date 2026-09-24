@@ -5,7 +5,7 @@ package batchjobdefinition
 
 
 type BatchJobDefinitionContainerPropertiesNetworkConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/batch_job_definition#assign_public_ip BatchJobDefinition#assign_public_ip}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/batch_job_definition#assign_public_ip BatchJobDefinition#assign_public_ip}.
 	AssignPublicIp *string `field:"optional" json:"assignPublicIp" yaml:"assignPublicIp"`
 }
 

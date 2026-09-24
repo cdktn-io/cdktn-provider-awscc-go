@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/directoryservice_simple_ad awscc_directoryservice_simple_ad}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/directoryservice_simple_ad awscc_directoryservice_simple_ad}.
 type DirectoryserviceSimpleAd interface {
 	cdktn.TerraformResource
 	Alias() *string
@@ -601,7 +601,7 @@ func (j *jsiiProxy_DirectoryserviceSimpleAd) VpcSettingsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/directoryservice_simple_ad awscc_directoryservice_simple_ad} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/directoryservice_simple_ad awscc_directoryservice_simple_ad} Resource.
 func NewDirectoryserviceSimpleAd(scope constructs.Construct, id *string, config *DirectoryserviceSimpleAdConfig) DirectoryserviceSimpleAd {
 	_init_.Initialize()
 
@@ -619,7 +619,7 @@ func NewDirectoryserviceSimpleAd(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/directoryservice_simple_ad awscc_directoryservice_simple_ad} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/directoryservice_simple_ad awscc_directoryservice_simple_ad} Resource.
 func NewDirectoryserviceSimpleAd_Override(d DirectoryserviceSimpleAd, scope constructs.Construct, id *string, config *DirectoryserviceSimpleAdConfig) {
 	_init_.Initialize()
 

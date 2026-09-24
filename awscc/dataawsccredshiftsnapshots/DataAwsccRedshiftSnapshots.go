@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/redshift_snapshots awscc_redshift_snapshots}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/redshift_snapshots awscc_redshift_snapshots}.
 type DataAwsccRedshiftSnapshots interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRedshiftSnapshots) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/redshift_snapshots awscc_redshift_snapshots} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/redshift_snapshots awscc_redshift_snapshots} Data Source.
 func NewDataAwsccRedshiftSnapshots(scope constructs.Construct, id *string, config *DataAwsccRedshiftSnapshotsConfig) DataAwsccRedshiftSnapshots {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRedshiftSnapshots(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/redshift_snapshots awscc_redshift_snapshots} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/redshift_snapshots awscc_redshift_snapshots} Data Source.
 func NewDataAwsccRedshiftSnapshots_Override(d DataAwsccRedshiftSnapshots, scope constructs.Construct, id *string, config *DataAwsccRedshiftSnapshotsConfig) {
 	_init_.Initialize()
 

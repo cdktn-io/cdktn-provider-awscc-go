@@ -7,7 +7,7 @@ package appsyncapi
 type AppsyncApiEventConfigDefaultSubscribeAuthModes struct {
 	// Security configuration for your AppSync API.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}
 	AuthType *string `field:"optional" json:"authType" yaml:"authType"`
 }
 

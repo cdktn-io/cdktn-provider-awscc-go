@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob awscc_datasync_location_azure_blob}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob awscc_datasync_location_azure_blob}.
 type DatasyncLocationAzureBlob interface {
 	cdktn.TerraformResource
 	AgentArns() *[]*string
@@ -52,6 +52,8 @@ type DatasyncLocationAzureBlob interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	FederatedIdentity() DatasyncLocationAzureBlobFederatedIdentityOutputReference
+	FederatedIdentityInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -173,6 +175,7 @@ type DatasyncLocationAzureBlob interface {
 	PutAzureBlobSasConfiguration(value *DatasyncLocationAzureBlobAzureBlobSasConfiguration)
 	PutCmkSecretConfig(value *DatasyncLocationAzureBlobCmkSecretConfig)
 	PutCustomSecretConfig(value *DatasyncLocationAzureBlobCustomSecretConfig)
+	PutFederatedIdentity(value *DatasyncLocationAzureBlobFederatedIdentity)
 	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -195,6 +198,7 @@ type DatasyncLocationAzureBlob interface {
 	ResetAzureBlobType()
 	ResetCmkSecretConfig()
 	ResetCustomSecretConfig()
+	ResetFederatedIdentity()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -437,6 +441,26 @@ func (j *jsiiProxy_DatasyncLocationAzureBlob) DependsOn() *[]*string {
 	return returns
 }
 
+func (j *jsiiProxy_DatasyncLocationAzureBlob) FederatedIdentity() DatasyncLocationAzureBlobFederatedIdentityOutputReference {
+	var returns DatasyncLocationAzureBlobFederatedIdentityOutputReference
+	_jsii_.Get(
+		j,
+		"federatedIdentity",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DatasyncLocationAzureBlob) FederatedIdentityInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"federatedIdentityInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DatasyncLocationAzureBlob) ForEach() cdktn.ITerraformIterator {
 	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
@@ -628,7 +652,7 @@ func (j *jsiiProxy_DatasyncLocationAzureBlob) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob awscc_datasync_location_azure_blob} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob awscc_datasync_location_azure_blob} Resource.
 func NewDatasyncLocationAzureBlob(scope constructs.Construct, id *string, config *DatasyncLocationAzureBlobConfig) DatasyncLocationAzureBlob {
 	_init_.Initialize()
 
@@ -646,7 +670,7 @@ func NewDatasyncLocationAzureBlob(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob awscc_datasync_location_azure_blob} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob awscc_datasync_location_azure_blob} Resource.
 func NewDatasyncLocationAzureBlob_Override(d DatasyncLocationAzureBlob, scope constructs.Construct, id *string, config *DatasyncLocationAzureBlobConfig) {
 	_init_.Initialize()
 
@@ -1193,6 +1217,17 @@ func (d *jsiiProxy_DatasyncLocationAzureBlob) PutCustomSecretConfig(value *Datas
 	)
 }
 
+func (d *jsiiProxy_DatasyncLocationAzureBlob) PutFederatedIdentity(value *DatasyncLocationAzureBlobFederatedIdentity) {
+	if err := d.validatePutFederatedIdentityParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putFederatedIdentity",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DatasyncLocationAzureBlob) PutTags(value interface{}) {
 	if err := d.validatePutTagsParameters(value); err != nil {
 		panic(err)
@@ -1275,6 +1310,14 @@ func (d *jsiiProxy_DatasyncLocationAzureBlob) ResetCustomSecretConfig() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetCustomSecretConfig",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DatasyncLocationAzureBlob) ResetFederatedIdentity() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetFederatedIdentity",
 		nil, // no parameters
 	)
 }

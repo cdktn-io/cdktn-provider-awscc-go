@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/personalize_dataset_groups awscc_personalize_dataset_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/personalize_dataset_groups awscc_personalize_dataset_groups}.
 type DataAwsccPersonalizeDatasetGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccPersonalizeDatasetGroups) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/personalize_dataset_groups awscc_personalize_dataset_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/personalize_dataset_groups awscc_personalize_dataset_groups} Data Source.
 func NewDataAwsccPersonalizeDatasetGroups(scope constructs.Construct, id *string, config *DataAwsccPersonalizeDatasetGroupsConfig) DataAwsccPersonalizeDatasetGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccPersonalizeDatasetGroups(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/personalize_dataset_groups awscc_personalize_dataset_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/personalize_dataset_groups awscc_personalize_dataset_groups} Data Source.
 func NewDataAwsccPersonalizeDatasetGroups_Override(d DataAwsccPersonalizeDatasetGroups, scope constructs.Construct, id *string, config *DataAwsccPersonalizeDatasetGroupsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/wellarchitected_lens awscc_wellarchitected_lens}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/wellarchitected_lens awscc_wellarchitected_lens}.
 type WellarchitectedLens interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -482,7 +482,7 @@ func (j *jsiiProxy_WellarchitectedLens) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/wellarchitected_lens awscc_wellarchitected_lens} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/wellarchitected_lens awscc_wellarchitected_lens} Resource.
 func NewWellarchitectedLens(scope constructs.Construct, id *string, config *WellarchitectedLensConfig) WellarchitectedLens {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewWellarchitectedLens(scope constructs.Construct, id *string, config *Well
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/wellarchitected_lens awscc_wellarchitected_lens} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/wellarchitected_lens awscc_wellarchitected_lens} Resource.
 func NewWellarchitectedLens_Override(w WellarchitectedLens, scope constructs.Construct, id *string, config *WellarchitectedLensConfig) {
 	_init_.Initialize()
 

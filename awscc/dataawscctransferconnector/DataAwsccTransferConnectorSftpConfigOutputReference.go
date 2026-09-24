@@ -33,6 +33,7 @@ type DataAwsccTransferConnectorSftpConfigOutputReference interface {
 	InternalValue() *DataAwsccTransferConnectorSftpConfig
 	SetInternalValue(val *DataAwsccTransferConnectorSftpConfig)
 	MaxConcurrentConnections() *float64
+	OrderedUserSecretVersionStages() *[]*string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -137,6 +138,16 @@ func (j *jsiiProxy_DataAwsccTransferConnectorSftpConfigOutputReference) MaxConcu
 	_jsii_.Get(
 		j,
 		"maxConcurrentConnections",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccTransferConnectorSftpConfigOutputReference) OrderedUserSecretVersionStages() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"orderedUserSecretVersionStages",
 		&returns,
 	)
 	return returns

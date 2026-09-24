@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/securityhub_delegated_admin awscc_securityhub_delegated_admin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/securityhub_delegated_admin awscc_securityhub_delegated_admin}.
 type DataAwsccSecurityhubDelegatedAdmin interface {
 	cdktn.TerraformDataSource
 	AdminAccountId() *string
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccSecurityhubDelegatedAdmin) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/securityhub_delegated_admin awscc_securityhub_delegated_admin} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/securityhub_delegated_admin awscc_securityhub_delegated_admin} Data Source.
 func NewDataAwsccSecurityhubDelegatedAdmin(scope constructs.Construct, id *string, config *DataAwsccSecurityhubDelegatedAdminConfig) DataAwsccSecurityhubDelegatedAdmin {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccSecurityhubDelegatedAdmin(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/securityhub_delegated_admin awscc_securityhub_delegated_admin} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/securityhub_delegated_admin awscc_securityhub_delegated_admin} Data Source.
 func NewDataAwsccSecurityhubDelegatedAdmin_Override(d DataAwsccSecurityhubDelegatedAdmin, scope constructs.Construct, id *string, config *DataAwsccSecurityhubDelegatedAdminConfig) {
 	_init_.Initialize()
 

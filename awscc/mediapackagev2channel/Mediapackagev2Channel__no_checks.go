@@ -83,6 +83,10 @@ func (m *jsiiProxy_Mediapackagev2Channel) validatePutInputSwitchConfigurationPar
 	return nil
 }
 
+func (m *jsiiProxy_Mediapackagev2Channel) validatePutMultiviewConfigurationParameters(value *Mediapackagev2ChannelMultiviewConfiguration) error {
+	return nil
+}
+
 func (m *jsiiProxy_Mediapackagev2Channel) validatePutOutputHeaderConfigurationParameters(value *Mediapackagev2ChannelOutputHeaderConfiguration) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconvert_preset awscc_mediaconvert_preset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediaconvert_preset awscc_mediaconvert_preset}.
 type MediaconvertPreset interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -485,7 +485,7 @@ func (j *jsiiProxy_MediaconvertPreset) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconvert_preset awscc_mediaconvert_preset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediaconvert_preset awscc_mediaconvert_preset} Resource.
 func NewMediaconvertPreset(scope constructs.Construct, id *string, config *MediaconvertPresetConfig) MediaconvertPreset {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewMediaconvertPreset(scope constructs.Construct, id *string, config *Media
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediaconvert_preset awscc_mediaconvert_preset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediaconvert_preset awscc_mediaconvert_preset} Resource.
 func NewMediaconvertPreset_Override(m MediaconvertPreset, scope constructs.Construct, id *string, config *MediaconvertPresetConfig) {
 	_init_.Initialize()
 

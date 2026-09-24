@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/logs_log_anomaly_detector awscc_logs_log_anomaly_detector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/logs_log_anomaly_detector awscc_logs_log_anomaly_detector}.
 type LogsLogAnomalyDetector interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -567,7 +567,7 @@ func (j *jsiiProxy_LogsLogAnomalyDetector) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/logs_log_anomaly_detector awscc_logs_log_anomaly_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/logs_log_anomaly_detector awscc_logs_log_anomaly_detector} Resource.
 func NewLogsLogAnomalyDetector(scope constructs.Construct, id *string, config *LogsLogAnomalyDetectorConfig) LogsLogAnomalyDetector {
 	_init_.Initialize()
 
@@ -585,7 +585,7 @@ func NewLogsLogAnomalyDetector(scope constructs.Construct, id *string, config *L
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/logs_log_anomaly_detector awscc_logs_log_anomaly_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/logs_log_anomaly_detector awscc_logs_log_anomaly_detector} Resource.
 func NewLogsLogAnomalyDetector_Override(l LogsLogAnomalyDetector, scope constructs.Construct, id *string, config *LogsLogAnomalyDetectorConfig) {
 	_init_.Initialize()
 

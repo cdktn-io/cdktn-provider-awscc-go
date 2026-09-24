@@ -13,11 +13,11 @@ type AutoscalingAutoScalingGroupCapacityReservationSpecification struct {
 	//   +  ``none`` - Auto Scaling will not launch instances into a Capacity Reservation. Instances will run in On-Demand capacity.
 	//   +  ``default`` - Auto Scaling uses the Capacity Reservation preference from your launch template or an open Capacity Reservation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/autoscaling_auto_scaling_group#capacity_reservation_preference AutoscalingAutoScalingGroup#capacity_reservation_preference}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/autoscaling_auto_scaling_group#capacity_reservation_preference AutoscalingAutoScalingGroup#capacity_reservation_preference}
 	CapacityReservationPreference *string `field:"optional" json:"capacityReservationPreference" yaml:"capacityReservationPreference"`
 	// Describes a target Capacity Reservation or Capacity Reservation resource group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/autoscaling_auto_scaling_group#capacity_reservation_target AutoscalingAutoScalingGroup#capacity_reservation_target}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/autoscaling_auto_scaling_group#capacity_reservation_target AutoscalingAutoScalingGroup#capacity_reservation_target}
 	CapacityReservationTarget *AutoscalingAutoScalingGroupCapacityReservationSpecificationCapacityReservationTarget `field:"optional" json:"capacityReservationTarget" yaml:"capacityReservationTarget"`
 }
 

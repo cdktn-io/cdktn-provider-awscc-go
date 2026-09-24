@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/efs_mount_target awscc_efs_mount_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/efs_mount_target awscc_efs_mount_target}.
 type DataAwsccEfsMountTarget interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccEfsMountTarget) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/efs_mount_target awscc_efs_mount_target} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/efs_mount_target awscc_efs_mount_target} Data Source.
 func NewDataAwsccEfsMountTarget(scope constructs.Construct, id *string, config *DataAwsccEfsMountTargetConfig) DataAwsccEfsMountTarget {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccEfsMountTarget(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/efs_mount_target awscc_efs_mount_target} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/efs_mount_target awscc_efs_mount_target} Data Source.
 func NewDataAwsccEfsMountTarget_Override(d DataAwsccEfsMountTarget, scope constructs.Construct, id *string, config *DataAwsccEfsMountTargetConfig) {
 	_init_.Initialize()
 

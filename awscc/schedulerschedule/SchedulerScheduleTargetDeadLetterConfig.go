@@ -7,7 +7,7 @@ package schedulerschedule
 type SchedulerScheduleTargetDeadLetterConfig struct {
 	// The ARN of the SQS queue specified as the target for the dead-letter queue.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/scheduler_schedule#arn SchedulerSchedule#arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/scheduler_schedule#arn SchedulerSchedule#arn}
 	Arn *string `field:"optional" json:"arn" yaml:"arn"`
 }
 

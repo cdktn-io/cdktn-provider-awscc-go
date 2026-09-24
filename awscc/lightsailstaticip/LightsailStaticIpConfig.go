@@ -24,11 +24,11 @@ type LightsailStaticIpConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the static IP address.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lightsail_static_ip#static_ip_name LightsailStaticIp#static_ip_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/lightsail_static_ip#static_ip_name LightsailStaticIp#static_ip_name}
 	StaticIpName *string `field:"required" json:"staticIpName" yaml:"staticIpName"`
 	// The instance where the static IP is attached.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lightsail_static_ip#attached_to LightsailStaticIp#attached_to}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/lightsail_static_ip#attached_to LightsailStaticIp#attached_to}
 	AttachedTo *string `field:"optional" json:"attachedTo" yaml:"attachedTo"`
 }
 

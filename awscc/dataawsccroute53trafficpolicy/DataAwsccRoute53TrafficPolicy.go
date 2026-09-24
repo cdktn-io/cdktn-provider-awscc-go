@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/route53_traffic_policy awscc_route53_traffic_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/route53_traffic_policy awscc_route53_traffic_policy}.
 type DataAwsccRoute53TrafficPolicy interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccRoute53TrafficPolicy) Version() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/route53_traffic_policy awscc_route53_traffic_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/route53_traffic_policy awscc_route53_traffic_policy} Data Source.
 func NewDataAwsccRoute53TrafficPolicy(scope constructs.Construct, id *string, config *DataAwsccRoute53TrafficPolicyConfig) DataAwsccRoute53TrafficPolicy {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccRoute53TrafficPolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/route53_traffic_policy awscc_route53_traffic_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/route53_traffic_policy awscc_route53_traffic_policy} Data Source.
 func NewDataAwsccRoute53TrafficPolicy_Override(d DataAwsccRoute53TrafficPolicy, scope constructs.Construct, id *string, config *DataAwsccRoute53TrafficPolicyConfig) {
 	_init_.Initialize()
 

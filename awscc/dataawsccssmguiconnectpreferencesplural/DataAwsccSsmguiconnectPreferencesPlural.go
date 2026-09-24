@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssmguiconnect_preferences_plural awscc_ssmguiconnect_preferences_plural}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ssmguiconnect_preferences_plural awscc_ssmguiconnect_preferences_plural}.
 type DataAwsccSsmguiconnectPreferencesPlural interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSsmguiconnectPreferencesPlural) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssmguiconnect_preferences_plural awscc_ssmguiconnect_preferences_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ssmguiconnect_preferences_plural awscc_ssmguiconnect_preferences_plural} Data Source.
 func NewDataAwsccSsmguiconnectPreferencesPlural(scope constructs.Construct, id *string, config *DataAwsccSsmguiconnectPreferencesPluralConfig) DataAwsccSsmguiconnectPreferencesPlural {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSsmguiconnectPreferencesPlural(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssmguiconnect_preferences_plural awscc_ssmguiconnect_preferences_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ssmguiconnect_preferences_plural awscc_ssmguiconnect_preferences_plural} Data Source.
 func NewDataAwsccSsmguiconnectPreferencesPlural_Override(d DataAwsccSsmguiconnectPreferencesPlural, scope constructs.Construct, id *string, config *DataAwsccSsmguiconnectPreferencesPluralConfig) {
 	_init_.Initialize()
 

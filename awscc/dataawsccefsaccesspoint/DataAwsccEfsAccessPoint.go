@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/efs_access_point awscc_efs_access_point}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/efs_access_point awscc_efs_access_point}.
 type DataAwsccEfsAccessPoint interface {
 	cdktn.TerraformDataSource
 	AccessPointId() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccEfsAccessPoint) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/efs_access_point awscc_efs_access_point} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/efs_access_point awscc_efs_access_point} Data Source.
 func NewDataAwsccEfsAccessPoint(scope constructs.Construct, id *string, config *DataAwsccEfsAccessPointConfig) DataAwsccEfsAccessPoint {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccEfsAccessPoint(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/efs_access_point awscc_efs_access_point} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/efs_access_point awscc_efs_access_point} Data Source.
 func NewDataAwsccEfsAccessPoint_Override(d DataAwsccEfsAccessPoint, scope constructs.Construct, id *string, config *DataAwsccEfsAccessPointConfig) {
 	_init_.Initialize()
 

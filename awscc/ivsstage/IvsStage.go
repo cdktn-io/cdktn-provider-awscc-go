@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ivs_stage awscc_ivs_stage}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ivs_stage awscc_ivs_stage}.
 type IvsStage interface {
 	cdktn.TerraformResource
 	ActiveSessionId() *string
@@ -449,7 +449,7 @@ func (j *jsiiProxy_IvsStage) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ivs_stage awscc_ivs_stage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ivs_stage awscc_ivs_stage} Resource.
 func NewIvsStage(scope constructs.Construct, id *string, config *IvsStageConfig) IvsStage {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewIvsStage(scope constructs.Construct, id *string, config *IvsStageConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ivs_stage awscc_ivs_stage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ivs_stage awscc_ivs_stage} Resource.
 func NewIvsStage_Override(i IvsStage, scope constructs.Construct, id *string, config *IvsStageConfig) {
 	_init_.Initialize()
 

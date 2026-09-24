@@ -7,11 +7,11 @@ package transferconnector
 type TransferConnectorEgressConfigVpcLattice struct {
 	// Port to connect to on the target VPC Lattice resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#port_number TransferConnector#port_number}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#port_number TransferConnector#port_number}
 	PortNumber *float64 `field:"optional" json:"portNumber" yaml:"portNumber"`
 	// ARN of the VPC Lattice resource configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#resource_configuration_arn TransferConnector#resource_configuration_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#resource_configuration_arn TransferConnector#resource_configuration_arn}
 	ResourceConfigurationArn *string `field:"optional" json:"resourceConfigurationArn" yaml:"resourceConfigurationArn"`
 }
 

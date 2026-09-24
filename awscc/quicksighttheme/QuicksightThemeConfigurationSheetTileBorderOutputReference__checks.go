@@ -101,6 +101,14 @@ func (q *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference) v
 	return nil
 }
 
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference) validateSetColorParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	switch val.(type) {
 	case *string:
@@ -219,6 +227,14 @@ func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference) v
 }
 
 func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileBorderOutputReference) validateSetWidthParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

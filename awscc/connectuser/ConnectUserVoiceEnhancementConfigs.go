@@ -7,11 +7,11 @@ package connectuser
 type ConnectUserVoiceEnhancementConfigs struct {
 	// The channels that agents can handle in the Contact Control Panel (CCP).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_user#channel ConnectUser#channel}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_user#channel ConnectUser#channel}
 	Channel *string `field:"optional" json:"channel" yaml:"channel"`
 	// The Voice Enhancement Mode setting.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/connect_user#voice_enhancement_mode ConnectUser#voice_enhancement_mode}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_user#voice_enhancement_mode ConnectUser#voice_enhancement_mode}
 	VoiceEnhancementMode *string `field:"optional" json:"voiceEnhancementMode" yaml:"voiceEnhancementMode"`
 }
 

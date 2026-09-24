@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/apigateway_domain_names awscc_apigateway_domain_names}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/apigateway_domain_names awscc_apigateway_domain_names}.
 type DataAwsccApigatewayDomainNames interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccApigatewayDomainNames) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/apigateway_domain_names awscc_apigateway_domain_names} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/apigateway_domain_names awscc_apigateway_domain_names} Data Source.
 func NewDataAwsccApigatewayDomainNames(scope constructs.Construct, id *string, config *DataAwsccApigatewayDomainNamesConfig) DataAwsccApigatewayDomainNames {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccApigatewayDomainNames(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/apigateway_domain_names awscc_apigateway_domain_names} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/apigateway_domain_names awscc_apigateway_domain_names} Data Source.
 func NewDataAwsccApigatewayDomainNames_Override(d DataAwsccApigatewayDomainNames, scope constructs.Construct, id *string, config *DataAwsccApigatewayDomainNamesConfig) {
 	_init_.Initialize()
 

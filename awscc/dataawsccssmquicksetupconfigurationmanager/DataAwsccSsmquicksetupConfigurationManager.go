@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssmquicksetup_configuration_manager awscc_ssmquicksetup_configuration_manager}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ssmquicksetup_configuration_manager awscc_ssmquicksetup_configuration_manager}.
 type DataAwsccSsmquicksetupConfigurationManager interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccSsmquicksetupConfigurationManager) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssmquicksetup_configuration_manager awscc_ssmquicksetup_configuration_manager} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ssmquicksetup_configuration_manager awscc_ssmquicksetup_configuration_manager} Data Source.
 func NewDataAwsccSsmquicksetupConfigurationManager(scope constructs.Construct, id *string, config *DataAwsccSsmquicksetupConfigurationManagerConfig) DataAwsccSsmquicksetupConfigurationManager {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccSsmquicksetupConfigurationManager(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ssmquicksetup_configuration_manager awscc_ssmquicksetup_configuration_manager} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ssmquicksetup_configuration_manager awscc_ssmquicksetup_configuration_manager} Data Source.
 func NewDataAwsccSsmquicksetupConfigurationManager_Override(d DataAwsccSsmquicksetupConfigurationManager, scope constructs.Construct, id *string, config *DataAwsccSsmquicksetupConfigurationManagerConfig) {
 	_init_.Initialize()
 

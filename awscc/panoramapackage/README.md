@@ -1,3 +1,3 @@
 # `awscc_panorama_package`
 
-Refer to the Terraform Registry for docs: [`awscc_panorama_package`](https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/panorama_package).
+Refer to the Terraform Registry for docs: [`awscc_panorama_package`](https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/panorama_package).

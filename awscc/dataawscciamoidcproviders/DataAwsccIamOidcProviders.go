@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iam_oidc_providers awscc_iam_oidc_providers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iam_oidc_providers awscc_iam_oidc_providers}.
 type DataAwsccIamOidcProviders interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIamOidcProviders) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iam_oidc_providers awscc_iam_oidc_providers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iam_oidc_providers awscc_iam_oidc_providers} Data Source.
 func NewDataAwsccIamOidcProviders(scope constructs.Construct, id *string, config *DataAwsccIamOidcProvidersConfig) DataAwsccIamOidcProviders {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIamOidcProviders(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iam_oidc_providers awscc_iam_oidc_providers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iam_oidc_providers awscc_iam_oidc_providers} Data Source.
 func NewDataAwsccIamOidcProviders_Override(d DataAwsccIamOidcProviders, scope constructs.Construct, id *string, config *DataAwsccIamOidcProvidersConfig) {
 	_init_.Initialize()
 

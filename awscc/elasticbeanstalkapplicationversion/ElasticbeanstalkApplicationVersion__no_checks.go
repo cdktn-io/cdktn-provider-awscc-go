@@ -79,6 +79,14 @@ func (e *jsiiProxy_ElasticbeanstalkApplicationVersion) validateOverrideLogicalId
 	return nil
 }
 
+func (e *jsiiProxy_ElasticbeanstalkApplicationVersion) validatePutBuildConfigurationParameters(value *ElasticbeanstalkApplicationVersionBuildConfiguration) error {
+	return nil
+}
+
+func (e *jsiiProxy_ElasticbeanstalkApplicationVersion) validatePutImageConfigurationParameters(value *ElasticbeanstalkApplicationVersionImageConfiguration) error {
+	return nil
+}
+
 func (e *jsiiProxy_ElasticbeanstalkApplicationVersion) validatePutSourceBundleParameters(value *ElasticbeanstalkApplicationVersionSourceBundle) error {
 	return nil
 }
@@ -120,6 +128,10 @@ func (j *jsiiProxy_ElasticbeanstalkApplicationVersion) validateSetDescriptionPar
 }
 
 func (j *jsiiProxy_ElasticbeanstalkApplicationVersion) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_ElasticbeanstalkApplicationVersion) validateSetProcessParameters(val interface{}) error {
 	return nil
 }
 

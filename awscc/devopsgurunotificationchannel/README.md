@@ -1,3 +1,3 @@
 # `awscc_devopsguru_notification_channel`
 
-Refer to the Terraform Registry for docs: [`awscc_devopsguru_notification_channel`](https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/devopsguru_notification_channel).
+Refer to the Terraform Registry for docs: [`awscc_devopsguru_notification_channel`](https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsguru_notification_channel).

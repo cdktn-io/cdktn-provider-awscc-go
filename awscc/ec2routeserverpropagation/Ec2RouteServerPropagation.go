@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_route_server_propagation awscc_ec2_route_server_propagation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_route_server_propagation awscc_ec2_route_server_propagation}.
 type Ec2RouteServerPropagation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_Ec2RouteServerPropagation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_route_server_propagation awscc_ec2_route_server_propagation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_route_server_propagation awscc_ec2_route_server_propagation} Resource.
 func NewEc2RouteServerPropagation(scope constructs.Construct, id *string, config *Ec2RouteServerPropagationConfig) Ec2RouteServerPropagation {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewEc2RouteServerPropagation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_route_server_propagation awscc_ec2_route_server_propagation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_route_server_propagation awscc_ec2_route_server_propagation} Resource.
 func NewEc2RouteServerPropagation_Override(e Ec2RouteServerPropagation, scope constructs.Construct, id *string, config *Ec2RouteServerPropagationConfig) {
 	_init_.Initialize()
 

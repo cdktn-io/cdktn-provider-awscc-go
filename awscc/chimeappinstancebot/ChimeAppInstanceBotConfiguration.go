@@ -7,7 +7,7 @@ package chimeappinstancebot
 type ChimeAppInstanceBotConfiguration struct {
 	// The configuration for an Amazon Lex V2 bot.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_app_instance_bot#lex ChimeAppInstanceBot#lex}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_app_instance_bot#lex ChimeAppInstanceBot#lex}
 	Lex *ChimeAppInstanceBotConfigurationLex `field:"required" json:"lex" yaml:"lex"`
 }
 

@@ -7,7 +7,7 @@ package wisdomquickresponse
 type WisdomQuickResponseContent struct {
 	// The content of the quick response.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/wisdom_quick_response#content WisdomQuickResponse#content}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/wisdom_quick_response#content WisdomQuickResponse#content}
 	Content *string `field:"optional" json:"content" yaml:"content"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_task awscc_iotsitewise_task}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iotsitewise_task awscc_iotsitewise_task}.
 type DataAwsccIotsitewiseTask interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccIotsitewiseTask) WorkspaceName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_task awscc_iotsitewise_task} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iotsitewise_task awscc_iotsitewise_task} Data Source.
 func NewDataAwsccIotsitewiseTask(scope constructs.Construct, id *string, config *DataAwsccIotsitewiseTaskConfig) DataAwsccIotsitewiseTask {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccIotsitewiseTask(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_task awscc_iotsitewise_task} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iotsitewise_task awscc_iotsitewise_task} Data Source.
 func NewDataAwsccIotsitewiseTask_Override(d DataAwsccIotsitewiseTask, scope constructs.Construct, id *string, config *DataAwsccIotsitewiseTaskConfig) {
 	_init_.Initialize()
 

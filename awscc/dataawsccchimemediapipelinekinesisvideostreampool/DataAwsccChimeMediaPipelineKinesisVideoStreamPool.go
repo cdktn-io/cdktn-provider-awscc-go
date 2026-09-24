@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pool awscc_chime_media_pipeline_kinesis_video_stream_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pool awscc_chime_media_pipeline_kinesis_video_stream_pool}.
 type DataAwsccChimeMediaPipelineKinesisVideoStreamPool interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccChimeMediaPipelineKinesisVideoStreamPool) UpdatedTim
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pool awscc_chime_media_pipeline_kinesis_video_stream_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pool awscc_chime_media_pipeline_kinesis_video_stream_pool} Data Source.
 func NewDataAwsccChimeMediaPipelineKinesisVideoStreamPool(scope constructs.Construct, id *string, config *DataAwsccChimeMediaPipelineKinesisVideoStreamPoolConfig) DataAwsccChimeMediaPipelineKinesisVideoStreamPool {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccChimeMediaPipelineKinesisVideoStreamPool(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pool awscc_chime_media_pipeline_kinesis_video_stream_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pool awscc_chime_media_pipeline_kinesis_video_stream_pool} Data Source.
 func NewDataAwsccChimeMediaPipelineKinesisVideoStreamPool_Override(d DataAwsccChimeMediaPipelineKinesisVideoStreamPool, scope constructs.Construct, id *string, config *DataAwsccChimeMediaPipelineKinesisVideoStreamPoolConfig) {
 	_init_.Initialize()
 

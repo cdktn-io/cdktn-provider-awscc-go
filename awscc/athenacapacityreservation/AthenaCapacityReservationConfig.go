@@ -24,19 +24,19 @@ type AthenaCapacityReservationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The reservation name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/athena_capacity_reservation#name AthenaCapacityReservation#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/athena_capacity_reservation#name AthenaCapacityReservation#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The number of DPUs to request to be allocated to the reservation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/athena_capacity_reservation#target_dpus AthenaCapacityReservation#target_dpus}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/athena_capacity_reservation#target_dpus AthenaCapacityReservation#target_dpus}
 	TargetDpus *float64 `field:"required" json:"targetDpus" yaml:"targetDpus"`
 	// Assignment configuration to assign workgroups to a reservation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/athena_capacity_reservation#capacity_assignment_configuration AthenaCapacityReservation#capacity_assignment_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/athena_capacity_reservation#capacity_assignment_configuration AthenaCapacityReservation#capacity_assignment_configuration}
 	CapacityAssignmentConfiguration *AthenaCapacityReservationCapacityAssignmentConfiguration `field:"optional" json:"capacityAssignmentConfiguration" yaml:"capacityAssignmentConfiguration"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/athena_capacity_reservation#tags AthenaCapacityReservation#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/athena_capacity_reservation#tags AthenaCapacityReservation#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

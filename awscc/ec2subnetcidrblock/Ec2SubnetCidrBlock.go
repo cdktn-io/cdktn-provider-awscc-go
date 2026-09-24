@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_subnet_cidr_block awscc_ec2_subnet_cidr_block}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_subnet_cidr_block awscc_ec2_subnet_cidr_block}.
 type Ec2SubnetCidrBlock interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -483,7 +483,7 @@ func (j *jsiiProxy_Ec2SubnetCidrBlock) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_subnet_cidr_block awscc_ec2_subnet_cidr_block} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_subnet_cidr_block awscc_ec2_subnet_cidr_block} Resource.
 func NewEc2SubnetCidrBlock(scope constructs.Construct, id *string, config *Ec2SubnetCidrBlockConfig) Ec2SubnetCidrBlock {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewEc2SubnetCidrBlock(scope constructs.Construct, id *string, config *Ec2Su
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ec2_subnet_cidr_block awscc_ec2_subnet_cidr_block} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_subnet_cidr_block awscc_ec2_subnet_cidr_block} Resource.
 func NewEc2SubnetCidrBlock_Override(e Ec2SubnetCidrBlock, scope constructs.Construct, id *string, config *Ec2SubnetCidrBlockConfig) {
 	_init_.Initialize()
 

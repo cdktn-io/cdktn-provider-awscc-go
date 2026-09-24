@@ -1,3 +1,3 @@
 # `awscc_aps_rule_groups_namespace`
 
-Refer to the Terraform Registry for docs: [`awscc_aps_rule_groups_namespace`](https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/aps_rule_groups_namespace).
+Refer to the Terraform Registry for docs: [`awscc_aps_rule_groups_namespace`](https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/aps_rule_groups_namespace).

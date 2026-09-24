@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/amplify_branch awscc_amplify_branch}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/amplify_branch awscc_amplify_branch}.
 type DataAwsccAmplifyBranch interface {
 	cdktn.TerraformDataSource
 	AppId() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccAmplifyBranch) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/amplify_branch awscc_amplify_branch} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/amplify_branch awscc_amplify_branch} Data Source.
 func NewDataAwsccAmplifyBranch(scope constructs.Construct, id *string, config *DataAwsccAmplifyBranchConfig) DataAwsccAmplifyBranch {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccAmplifyBranch(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/amplify_branch awscc_amplify_branch} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/amplify_branch awscc_amplify_branch} Data Source.
 func NewDataAwsccAmplifyBranch_Override(d DataAwsccAmplifyBranch, scope constructs.Construct, id *string, config *DataAwsccAmplifyBranchConfig) {
 	_init_.Initialize()
 

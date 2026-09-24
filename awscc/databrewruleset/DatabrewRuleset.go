@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/databrew_ruleset awscc_databrew_ruleset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/databrew_ruleset awscc_databrew_ruleset}.
 type DatabrewRuleset interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_DatabrewRuleset) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/databrew_ruleset awscc_databrew_ruleset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/databrew_ruleset awscc_databrew_ruleset} Resource.
 func NewDatabrewRuleset(scope constructs.Construct, id *string, config *DatabrewRulesetConfig) DatabrewRuleset {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewDatabrewRuleset(scope constructs.Construct, id *string, config *Databrew
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/databrew_ruleset awscc_databrew_ruleset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/databrew_ruleset awscc_databrew_ruleset} Resource.
 func NewDatabrewRuleset_Override(d DatabrewRuleset, scope constructs.Construct, id *string, config *DatabrewRulesetConfig) {
 	_init_.Initialize()
 

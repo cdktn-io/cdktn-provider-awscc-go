@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/transfer_connectors awscc_transfer_connectors}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/transfer_connectors awscc_transfer_connectors}.
 type DataAwsccTransferConnectors interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccTransferConnectors) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/transfer_connectors awscc_transfer_connectors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/transfer_connectors awscc_transfer_connectors} Data Source.
 func NewDataAwsccTransferConnectors(scope constructs.Construct, id *string, config *DataAwsccTransferConnectorsConfig) DataAwsccTransferConnectors {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccTransferConnectors(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/transfer_connectors awscc_transfer_connectors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/transfer_connectors awscc_transfer_connectors} Data Source.
 func NewDataAwsccTransferConnectors_Override(d DataAwsccTransferConnectors, scope constructs.Construct, id *string, config *DataAwsccTransferConnectorsConfig) {
 	_init_.Initialize()
 

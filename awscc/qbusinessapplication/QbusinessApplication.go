@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/qbusiness_application awscc_qbusiness_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/qbusiness_application awscc_qbusiness_application}.
 type QbusinessApplication interface {
 	cdktn.TerraformResource
 	ApplicationArn() *string
@@ -756,7 +756,7 @@ func (j *jsiiProxy_QbusinessApplication) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/qbusiness_application awscc_qbusiness_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/qbusiness_application awscc_qbusiness_application} Resource.
 func NewQbusinessApplication(scope constructs.Construct, id *string, config *QbusinessApplicationConfig) QbusinessApplication {
 	_init_.Initialize()
 
@@ -774,7 +774,7 @@ func NewQbusinessApplication(scope constructs.Construct, id *string, config *Qbu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/qbusiness_application awscc_qbusiness_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/qbusiness_application awscc_qbusiness_application} Resource.
 func NewQbusinessApplication_Override(q QbusinessApplication, scope constructs.Construct, id *string, config *QbusinessApplicationConfig) {
 	_init_.Initialize()
 

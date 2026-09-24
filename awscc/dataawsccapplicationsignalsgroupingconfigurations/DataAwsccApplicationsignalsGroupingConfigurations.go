@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/applicationsignals_grouping_configurations awscc_applicationsignals_grouping_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/applicationsignals_grouping_configurations awscc_applicationsignals_grouping_configurations}.
 type DataAwsccApplicationsignalsGroupingConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccApplicationsignalsGroupingConfigurations) TerraformR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/applicationsignals_grouping_configurations awscc_applicationsignals_grouping_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/applicationsignals_grouping_configurations awscc_applicationsignals_grouping_configurations} Data Source.
 func NewDataAwsccApplicationsignalsGroupingConfigurations(scope constructs.Construct, id *string, config *DataAwsccApplicationsignalsGroupingConfigurationsConfig) DataAwsccApplicationsignalsGroupingConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccApplicationsignalsGroupingConfigurations(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/applicationsignals_grouping_configurations awscc_applicationsignals_grouping_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/applicationsignals_grouping_configurations awscc_applicationsignals_grouping_configurations} Data Source.
 func NewDataAwsccApplicationsignalsGroupingConfigurations_Override(d DataAwsccApplicationsignalsGroupingConfigurations, scope constructs.Construct, id *string, config *DataAwsccApplicationsignalsGroupingConfigurationsConfig) {
 	_init_.Initialize()
 

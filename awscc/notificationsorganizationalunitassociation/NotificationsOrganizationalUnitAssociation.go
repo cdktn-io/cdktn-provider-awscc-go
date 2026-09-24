@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_organizational_unit_association awscc_notifications_organizational_unit_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/notifications_organizational_unit_association awscc_notifications_organizational_unit_association}.
 type NotificationsOrganizationalUnitAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_NotificationsOrganizationalUnitAssociation) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_organizational_unit_association awscc_notifications_organizational_unit_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/notifications_organizational_unit_association awscc_notifications_organizational_unit_association} Resource.
 func NewNotificationsOrganizationalUnitAssociation(scope constructs.Construct, id *string, config *NotificationsOrganizationalUnitAssociationConfig) NotificationsOrganizationalUnitAssociation {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewNotificationsOrganizationalUnitAssociation(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/notifications_organizational_unit_association awscc_notifications_organizational_unit_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/notifications_organizational_unit_association awscc_notifications_organizational_unit_association} Resource.
 func NewNotificationsOrganizationalUnitAssociation_Override(n NotificationsOrganizationalUnitAssociation, scope constructs.Construct, id *string, config *NotificationsOrganizationalUnitAssociationConfig) {
 	_init_.Initialize()
 

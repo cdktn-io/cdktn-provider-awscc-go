@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/applicationsignals_discovery awscc_applicationsignals_discovery}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/applicationsignals_discovery awscc_applicationsignals_discovery}.
 type DataAwsccApplicationsignalsDiscovery interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -297,7 +297,7 @@ func (j *jsiiProxy_DataAwsccApplicationsignalsDiscovery) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/applicationsignals_discovery awscc_applicationsignals_discovery} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/applicationsignals_discovery awscc_applicationsignals_discovery} Data Source.
 func NewDataAwsccApplicationsignalsDiscovery(scope constructs.Construct, id *string, config *DataAwsccApplicationsignalsDiscoveryConfig) DataAwsccApplicationsignalsDiscovery {
 	_init_.Initialize()
 
@@ -315,7 +315,7 @@ func NewDataAwsccApplicationsignalsDiscovery(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/applicationsignals_discovery awscc_applicationsignals_discovery} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/applicationsignals_discovery awscc_applicationsignals_discovery} Data Source.
 func NewDataAwsccApplicationsignalsDiscovery_Override(d DataAwsccApplicationsignalsDiscovery, scope constructs.Construct, id *string, config *DataAwsccApplicationsignalsDiscoveryConfig) {
 	_init_.Initialize()
 

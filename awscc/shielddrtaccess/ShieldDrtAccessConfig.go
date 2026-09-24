@@ -26,13 +26,13 @@ type ShieldDrtAccessConfig struct {
 	//
 	// This enables the SRT to inspect your AWS WAF configuration and create or update AWS WAF rules and web ACLs.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/shield_drt_access#role_arn ShieldDrtAccess#role_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/shield_drt_access#role_arn ShieldDrtAccess#role_arn}
 	RoleArn *string `field:"required" json:"roleArn" yaml:"roleArn"`
 	// Authorizes the Shield Response Team (SRT) to access the specified Amazon S3 bucket containing log data such as Application Load Balancer access logs, CloudFront logs, or logs from third party sources.
 	//
 	// You can associate up to 10 Amazon S3 buckets with your subscription.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/shield_drt_access#log_bucket_list ShieldDrtAccess#log_bucket_list}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/shield_drt_access#log_bucket_list ShieldDrtAccess#log_bucket_list}
 	LogBucketList *[]*string `field:"optional" json:"logBucketList" yaml:"logBucketList"`
 }
 

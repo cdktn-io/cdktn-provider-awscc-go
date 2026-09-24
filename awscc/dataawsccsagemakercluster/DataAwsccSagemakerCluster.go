@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sagemaker_cluster awscc_sagemaker_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_cluster awscc_sagemaker_cluster}.
 type DataAwsccSagemakerCluster interface {
 	cdktn.TerraformDataSource
 	AutoScaling() DataAwsccSagemakerClusterAutoScalingOutputReference
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataAwsccSagemakerCluster) VpcConfig() DataAwsccSagemakerClus
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sagemaker_cluster awscc_sagemaker_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_cluster awscc_sagemaker_cluster} Data Source.
 func NewDataAwsccSagemakerCluster(scope constructs.Construct, id *string, config *DataAwsccSagemakerClusterConfig) DataAwsccSagemakerCluster {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataAwsccSagemakerCluster(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sagemaker_cluster awscc_sagemaker_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_cluster awscc_sagemaker_cluster} Data Source.
 func NewDataAwsccSagemakerCluster_Override(d DataAwsccSagemakerCluster, scope constructs.Construct, id *string, config *DataAwsccSagemakerClusterConfig) {
 	_init_.Initialize()
 

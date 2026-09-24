@@ -7,7 +7,7 @@ package bedrockagentcoreonlineevaluationconfig
 type BedrockagentcoreOnlineEvaluationConfigClusteringConfig struct {
 	// The list of frequencies at which clustering reports are generated.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/bedrockagentcore_online_evaluation_config#frequencies BedrockagentcoreOnlineEvaluationConfig#frequencies}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bedrockagentcore_online_evaluation_config#frequencies BedrockagentcoreOnlineEvaluationConfig#frequencies}
 	Frequencies *[]*string `field:"optional" json:"frequencies" yaml:"frequencies"`
 }
 

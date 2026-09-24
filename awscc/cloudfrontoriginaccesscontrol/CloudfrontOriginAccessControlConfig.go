@@ -24,7 +24,7 @@ type CloudfrontOriginAccessControlConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The origin access control.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/cloudfront_origin_access_control#origin_access_control_config CloudfrontOriginAccessControl#origin_access_control_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cloudfront_origin_access_control#origin_access_control_config CloudfrontOriginAccessControl#origin_access_control_config}
 	OriginAccessControlConfig *CloudfrontOriginAccessControlOriginAccessControlConfig `field:"required" json:"originAccessControlConfig" yaml:"originAccessControlConfig"`
 }
 

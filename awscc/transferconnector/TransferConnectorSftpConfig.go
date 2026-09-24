@@ -7,15 +7,21 @@ package transferconnector
 type TransferConnectorSftpConfig struct {
 	// Specifies the number of active connections that your connector can establish with the remote server at the same time.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#max_concurrent_connections TransferConnector#max_concurrent_connections}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#max_concurrent_connections TransferConnector#max_concurrent_connections}
 	MaxConcurrentConnections *float64 `field:"optional" json:"maxConcurrentConnections" yaml:"maxConcurrentConnections"`
+	// Specifies the order in which the connector attempts to use secret versions during authentication.
+	//
+	// This enables fallback to alternative credentials if the primary version fails.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#ordered_user_secret_version_stages TransferConnector#ordered_user_secret_version_stages}
+	OrderedUserSecretVersionStages *[]*string `field:"optional" json:"orderedUserSecretVersionStages" yaml:"orderedUserSecretVersionStages"`
 	// List of public host keys, for the external server to which you are connecting.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#trusted_host_keys TransferConnector#trusted_host_keys}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#trusted_host_keys TransferConnector#trusted_host_keys}
 	TrustedHostKeys *[]*string `field:"optional" json:"trustedHostKeys" yaml:"trustedHostKeys"`
 	// ARN or name of the secret in AWS Secrets Manager which contains the SFTP user's private keys or passwords.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#user_secret_id TransferConnector#user_secret_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#user_secret_id TransferConnector#user_secret_id}
 	UserSecretId *string `field:"optional" json:"userSecretId" yaml:"userSecretId"`
 }
 

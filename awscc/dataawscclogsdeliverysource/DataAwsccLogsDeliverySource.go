@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/logs_delivery_source awscc_logs_delivery_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/logs_delivery_source awscc_logs_delivery_source}.
 type DataAwsccLogsDeliverySource interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccLogsDeliverySource) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/logs_delivery_source awscc_logs_delivery_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/logs_delivery_source awscc_logs_delivery_source} Data Source.
 func NewDataAwsccLogsDeliverySource(scope constructs.Construct, id *string, config *DataAwsccLogsDeliverySourceConfig) DataAwsccLogsDeliverySource {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccLogsDeliverySource(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/logs_delivery_source awscc_logs_delivery_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/logs_delivery_source awscc_logs_delivery_source} Data Source.
 func NewDataAwsccLogsDeliverySource_Override(d DataAwsccLogsDeliverySource, scope constructs.Construct, id *string, config *DataAwsccLogsDeliverySourceConfig) {
 	_init_.Initialize()
 

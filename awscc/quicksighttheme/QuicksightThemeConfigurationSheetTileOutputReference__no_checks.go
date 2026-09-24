@@ -55,6 +55,14 @@ func (q *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) validat
 	return nil
 }
 
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) validateSetBackgroundColorParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) validateSetBorderRadiusParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }
@@ -64,6 +72,10 @@ func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) validat
 }
 
 func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightThemeConfigurationSheetTileOutputReference) validateSetPaddingParameters(val *string) error {
 	return nil
 }
 

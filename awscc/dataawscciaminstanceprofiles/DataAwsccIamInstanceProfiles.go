@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iam_instance_profiles awscc_iam_instance_profiles}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iam_instance_profiles awscc_iam_instance_profiles}.
 type DataAwsccIamInstanceProfiles interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIamInstanceProfiles) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iam_instance_profiles awscc_iam_instance_profiles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iam_instance_profiles awscc_iam_instance_profiles} Data Source.
 func NewDataAwsccIamInstanceProfiles(scope constructs.Construct, id *string, config *DataAwsccIamInstanceProfilesConfig) DataAwsccIamInstanceProfiles {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIamInstanceProfiles(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iam_instance_profiles awscc_iam_instance_profiles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iam_instance_profiles awscc_iam_instance_profiles} Data Source.
 func NewDataAwsccIamInstanceProfiles_Override(d DataAwsccIamInstanceProfiles, scope constructs.Construct, id *string, config *DataAwsccIamInstanceProfilesConfig) {
 	_init_.Initialize()
 

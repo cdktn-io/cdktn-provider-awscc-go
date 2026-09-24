@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/synthetics_canaries awscc_synthetics_canaries}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/synthetics_canaries awscc_synthetics_canaries}.
 type DataAwsccSyntheticsCanaries interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSyntheticsCanaries) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/synthetics_canaries awscc_synthetics_canaries} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/synthetics_canaries awscc_synthetics_canaries} Data Source.
 func NewDataAwsccSyntheticsCanaries(scope constructs.Construct, id *string, config *DataAwsccSyntheticsCanariesConfig) DataAwsccSyntheticsCanaries {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSyntheticsCanaries(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/synthetics_canaries awscc_synthetics_canaries} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/synthetics_canaries awscc_synthetics_canaries} Data Source.
 func NewDataAwsccSyntheticsCanaries_Override(d DataAwsccSyntheticsCanaries, scope constructs.Construct, id *string, config *DataAwsccSyntheticsCanariesConfig) {
 	_init_.Initialize()
 

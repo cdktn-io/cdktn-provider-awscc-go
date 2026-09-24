@@ -7,7 +7,7 @@ package lambdaalias
 type LambdaAliasRoutingConfig struct {
 	// The second version, and the percentage of traffic that's routed to it.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/lambda_alias#additional_version_weights LambdaAlias#additional_version_weights}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/lambda_alias#additional_version_weights LambdaAlias#additional_version_weights}
 	AdditionalVersionWeights interface{} `field:"optional" json:"additionalVersionWeights" yaml:"additionalVersionWeights"`
 }
 

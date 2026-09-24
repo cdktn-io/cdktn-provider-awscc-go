@@ -7,7 +7,7 @@ package rumappmonitor
 type RumAppMonitorCustomEvents struct {
 	// Indicates whether AppMonitor accepts custom events.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/rum_app_monitor#status RumAppMonitor#status}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/rum_app_monitor#status RumAppMonitor#status}
 	Status *string `field:"optional" json:"status" yaml:"status"`
 }
 

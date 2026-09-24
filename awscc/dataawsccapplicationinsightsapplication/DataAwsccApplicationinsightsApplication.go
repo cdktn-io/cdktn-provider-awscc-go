@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/applicationinsights_application awscc_applicationinsights_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/applicationinsights_application awscc_applicationinsights_application}.
 type DataAwsccApplicationinsightsApplication interface {
 	cdktn.TerraformDataSource
 	ApplicationArn() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccApplicationinsightsApplication) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/applicationinsights_application awscc_applicationinsights_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/applicationinsights_application awscc_applicationinsights_application} Data Source.
 func NewDataAwsccApplicationinsightsApplication(scope constructs.Construct, id *string, config *DataAwsccApplicationinsightsApplicationConfig) DataAwsccApplicationinsightsApplication {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccApplicationinsightsApplication(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/applicationinsights_application awscc_applicationinsights_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/applicationinsights_application awscc_applicationinsights_application} Data Source.
 func NewDataAwsccApplicationinsightsApplication_Override(d DataAwsccApplicationinsightsApplication, scope constructs.Construct, id *string, config *DataAwsccApplicationinsightsApplicationConfig) {
 	_init_.Initialize()
 

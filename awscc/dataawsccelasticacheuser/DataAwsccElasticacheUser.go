@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticache_user awscc_elasticache_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/elasticache_user awscc_elasticache_user}.
 type DataAwsccElasticacheUser interface {
 	cdktn.TerraformDataSource
 	AccessString() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccElasticacheUser) UserName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticache_user awscc_elasticache_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/elasticache_user awscc_elasticache_user} Data Source.
 func NewDataAwsccElasticacheUser(scope constructs.Construct, id *string, config *DataAwsccElasticacheUserConfig) DataAwsccElasticacheUser {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccElasticacheUser(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/elasticache_user awscc_elasticache_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/elasticache_user awscc_elasticache_user} Data Source.
 func NewDataAwsccElasticacheUser_Override(d DataAwsccElasticacheUser, scope constructs.Construct, id *string, config *DataAwsccElasticacheUserConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/personalize_metric_attribution awscc_personalize_metric_attribution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/personalize_metric_attribution awscc_personalize_metric_attribution}.
 type PersonalizeMetricAttribution interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -469,7 +469,7 @@ func (j *jsiiProxy_PersonalizeMetricAttribution) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/personalize_metric_attribution awscc_personalize_metric_attribution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/personalize_metric_attribution awscc_personalize_metric_attribution} Resource.
 func NewPersonalizeMetricAttribution(scope constructs.Construct, id *string, config *PersonalizeMetricAttributionConfig) PersonalizeMetricAttribution {
 	_init_.Initialize()
 
@@ -487,7 +487,7 @@ func NewPersonalizeMetricAttribution(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/personalize_metric_attribution awscc_personalize_metric_attribution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/personalize_metric_attribution awscc_personalize_metric_attribution} Resource.
 func NewPersonalizeMetricAttribution_Override(p PersonalizeMetricAttribution, scope constructs.Construct, id *string, config *PersonalizeMetricAttributionConfig) {
 	_init_.Initialize()
 

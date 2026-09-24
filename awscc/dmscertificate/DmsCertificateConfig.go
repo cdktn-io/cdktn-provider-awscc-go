@@ -24,15 +24,15 @@ type DmsCertificateConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The certificate Identifier.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_certificate#certificate_identifier DmsCertificate#certificate_identifier}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_certificate#certificate_identifier DmsCertificate#certificate_identifier}
 	CertificateIdentifier *string `field:"optional" json:"certificateIdentifier" yaml:"certificateIdentifier"`
 	// The certificate Pem.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_certificate#certificate_pem DmsCertificate#certificate_pem}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_certificate#certificate_pem DmsCertificate#certificate_pem}
 	CertificatePem *string `field:"optional" json:"certificatePem" yaml:"certificatePem"`
 	// The certificate Wallet.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_certificate#certificate_wallet DmsCertificate#certificate_wallet}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_certificate#certificate_wallet DmsCertificate#certificate_wallet}
 	CertificateWallet *string `field:"optional" json:"certificateWallet" yaml:"certificateWallet"`
 }
 

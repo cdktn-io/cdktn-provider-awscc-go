@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/serverlessrepo_application awscc_serverlessrepo_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/serverlessrepo_application awscc_serverlessrepo_application}.
 type ServerlessrepoApplication interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -649,7 +649,7 @@ func (j *jsiiProxy_ServerlessrepoApplication) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/serverlessrepo_application awscc_serverlessrepo_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/serverlessrepo_application awscc_serverlessrepo_application} Resource.
 func NewServerlessrepoApplication(scope constructs.Construct, id *string, config *ServerlessrepoApplicationConfig) ServerlessrepoApplication {
 	_init_.Initialize()
 
@@ -667,7 +667,7 @@ func NewServerlessrepoApplication(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/serverlessrepo_application awscc_serverlessrepo_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/serverlessrepo_application awscc_serverlessrepo_application} Resource.
 func NewServerlessrepoApplication_Override(s ServerlessrepoApplication, scope constructs.Construct, id *string, config *ServerlessrepoApplicationConfig) {
 	_init_.Initialize()
 

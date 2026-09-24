@@ -24,7 +24,7 @@ type SecurityhubProductSubscriptionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The generic ARN of the product being subscribed to.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/securityhub_product_subscription#product_arn SecurityhubProductSubscription#product_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/securityhub_product_subscription#product_arn SecurityhubProductSubscription#product_arn}
 	ProductArn *string `field:"required" json:"productArn" yaml:"productArn"`
 }
 

@@ -9,15 +9,15 @@ type SagemakerModelPackageValidationSpecificationValidationProfilesTransformJobD
 	//
 	// For distributed transform jobs, specify a value greater than 1. The default value is 1.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_model_package#instance_count SagemakerModelPackage#instance_count}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_model_package#instance_count SagemakerModelPackage#instance_count}
 	InstanceCount *float64 `field:"optional" json:"instanceCount" yaml:"instanceCount"`
 	// The ML compute instance type for the transform job.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_model_package#instance_type SagemakerModelPackage#instance_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_model_package#instance_type SagemakerModelPackage#instance_type}
 	InstanceType *string `field:"optional" json:"instanceType" yaml:"instanceType"`
 	// The AWS Key Management Service (AWS KMS) key that Amazon SageMaker uses to encrypt model data on the storage volume attached to the ML compute instance(s) that run the batch transform job.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_model_package#volume_kms_key_id SagemakerModelPackage#volume_kms_key_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_model_package#volume_kms_key_id SagemakerModelPackage#volume_kms_key_id}
 	VolumeKmsKeyId *string `field:"optional" json:"volumeKmsKeyId" yaml:"volumeKmsKeyId"`
 }
 

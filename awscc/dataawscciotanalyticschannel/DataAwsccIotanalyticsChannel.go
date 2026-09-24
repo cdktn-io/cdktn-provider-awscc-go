@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotanalytics_channel awscc_iotanalytics_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iotanalytics_channel awscc_iotanalytics_channel}.
 type DataAwsccIotanalyticsChannel interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccIotanalyticsChannel) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotanalytics_channel awscc_iotanalytics_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iotanalytics_channel awscc_iotanalytics_channel} Data Source.
 func NewDataAwsccIotanalyticsChannel(scope constructs.Construct, id *string, config *DataAwsccIotanalyticsChannelConfig) DataAwsccIotanalyticsChannel {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccIotanalyticsChannel(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotanalytics_channel awscc_iotanalytics_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iotanalytics_channel awscc_iotanalytics_channel} Data Source.
 func NewDataAwsccIotanalyticsChannel_Override(d DataAwsccIotanalyticsChannel, scope constructs.Construct, id *string, config *DataAwsccIotanalyticsChannelConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_express_gateway_service awscc_ecs_express_gateway_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ecs_express_gateway_service awscc_ecs_express_gateway_service}.
 type EcsExpressGatewayService interface {
 	cdktn.TerraformResource
 	ActiveConfigurations() EcsExpressGatewayServiceActiveConfigurationsList
@@ -743,7 +743,7 @@ func (j *jsiiProxy_EcsExpressGatewayService) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_express_gateway_service awscc_ecs_express_gateway_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ecs_express_gateway_service awscc_ecs_express_gateway_service} Resource.
 func NewEcsExpressGatewayService(scope constructs.Construct, id *string, config *EcsExpressGatewayServiceConfig) EcsExpressGatewayService {
 	_init_.Initialize()
 
@@ -761,7 +761,7 @@ func NewEcsExpressGatewayService(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ecs_express_gateway_service awscc_ecs_express_gateway_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ecs_express_gateway_service awscc_ecs_express_gateway_service} Resource.
 func NewEcsExpressGatewayService_Override(e EcsExpressGatewayService, scope constructs.Construct, id *string, config *EcsExpressGatewayServiceConfig) {
 	_init_.Initialize()
 

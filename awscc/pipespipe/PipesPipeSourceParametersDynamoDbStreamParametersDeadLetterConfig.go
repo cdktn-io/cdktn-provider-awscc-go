@@ -5,7 +5,7 @@ package pipespipe
 
 
 type PipesPipeSourceParametersDynamoDbStreamParametersDeadLetterConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/pipes_pipe#arn PipesPipe#arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/pipes_pipe#arn PipesPipe#arn}.
 	Arn *string `field:"optional" json:"arn" yaml:"arn"`
 }
 

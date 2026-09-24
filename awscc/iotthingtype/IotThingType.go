@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iot_thing_type awscc_iot_thing_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iot_thing_type awscc_iot_thing_type}.
 type IotThingType interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_IotThingType) ThingTypePropertiesInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iot_thing_type awscc_iot_thing_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iot_thing_type awscc_iot_thing_type} Resource.
 func NewIotThingType(scope constructs.Construct, id *string, config *IotThingTypeConfig) IotThingType {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewIotThingType(scope constructs.Construct, id *string, config *IotThingTyp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iot_thing_type awscc_iot_thing_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iot_thing_type awscc_iot_thing_type} Resource.
 func NewIotThingType_Override(i IotThingType, scope constructs.Construct, id *string, config *IotThingTypeConfig) {
 	_init_.Initialize()
 

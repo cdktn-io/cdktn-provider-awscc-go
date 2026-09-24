@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/emr_step awscc_emr_step}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/emr_step awscc_emr_step}.
 type DataAwsccEmrStep interface {
 	cdktn.TerraformDataSource
 	ActionOnFailure() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccEmrStep) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/emr_step awscc_emr_step} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/emr_step awscc_emr_step} Data Source.
 func NewDataAwsccEmrStep(scope constructs.Construct, id *string, config *DataAwsccEmrStepConfig) DataAwsccEmrStep {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccEmrStep(scope constructs.Construct, id *string, config *DataAws
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/emr_step awscc_emr_step} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/emr_step awscc_emr_step} Data Source.
 func NewDataAwsccEmrStep_Override(d DataAwsccEmrStep, scope constructs.Construct, id *string, config *DataAwsccEmrStepConfig) {
 	_init_.Initialize()
 

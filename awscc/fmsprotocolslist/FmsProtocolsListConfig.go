@@ -24,15 +24,15 @@ type FmsProtocolsListConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the Firewall Manager protocols list.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_protocols_list#list_name FmsProtocolsList#list_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_protocols_list#list_name FmsProtocolsList#list_name}
 	ListName *string `field:"required" json:"listName" yaml:"listName"`
 	// An array of protocols in the Firewall Manager protocols list.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_protocols_list#protocols_list FmsProtocolsList#protocols_list}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_protocols_list#protocols_list FmsProtocolsList#protocols_list}
 	ProtocolsList *[]*string `field:"required" json:"protocolsList" yaml:"protocolsList"`
 	// An array of key-value pairs to apply to the protocols list.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/fms_protocols_list#tags FmsProtocolsList#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/fms_protocols_list#tags FmsProtocolsList#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

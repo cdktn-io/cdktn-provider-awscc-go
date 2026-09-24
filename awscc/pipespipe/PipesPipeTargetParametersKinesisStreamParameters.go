@@ -5,7 +5,7 @@ package pipespipe
 
 
 type PipesPipeTargetParametersKinesisStreamParameters struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/pipes_pipe#partition_key PipesPipe#partition_key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/pipes_pipe#partition_key PipesPipe#partition_key}.
 	PartitionKey *string `field:"optional" json:"partitionKey" yaml:"partitionKey"`
 }
 

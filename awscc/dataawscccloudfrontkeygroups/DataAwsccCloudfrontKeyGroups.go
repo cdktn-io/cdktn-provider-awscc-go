@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudfront_key_groups awscc_cloudfront_key_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/cloudfront_key_groups awscc_cloudfront_key_groups}.
 type DataAwsccCloudfrontKeyGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCloudfrontKeyGroups) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudfront_key_groups awscc_cloudfront_key_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/cloudfront_key_groups awscc_cloudfront_key_groups} Data Source.
 func NewDataAwsccCloudfrontKeyGroups(scope constructs.Construct, id *string, config *DataAwsccCloudfrontKeyGroupsConfig) DataAwsccCloudfrontKeyGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCloudfrontKeyGroups(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cloudfront_key_groups awscc_cloudfront_key_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/cloudfront_key_groups awscc_cloudfront_key_groups} Data Source.
 func NewDataAwsccCloudfrontKeyGroups_Override(d DataAwsccCloudfrontKeyGroups, scope constructs.Construct, id *string, config *DataAwsccCloudfrontKeyGroupsConfig) {
 	_init_.Initialize()
 

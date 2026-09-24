@@ -17,6 +17,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
+			_jsii_.MemberProperty{JsiiProperty: "attachedMultiviewChannels", GoGetter: "AttachedMultiviewChannels"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
 			_jsii_.MemberProperty{JsiiProperty: "channelGroupName", GoGetter: "ChannelGroupName"},
 			_jsii_.MemberProperty{JsiiProperty: "channelGroupNameInput", GoGetter: "ChannelGroupNameInput"},
@@ -57,6 +58,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "moveFromId", GoMethod: "MoveFromId"},
 			_jsii_.MemberMethod{JsiiMethod: "moveTo", GoMethod: "MoveTo"},
 			_jsii_.MemberMethod{JsiiMethod: "moveToId", GoMethod: "MoveToId"},
+			_jsii_.MemberProperty{JsiiProperty: "multiviewConfiguration", GoGetter: "MultiviewConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "multiviewConfigurationInput", GoGetter: "MultiviewConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
 			_jsii_.MemberProperty{JsiiProperty: "outputHeaderConfiguration", GoGetter: "OutputHeaderConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "outputHeaderConfigurationInput", GoGetter: "OutputHeaderConfigurationInput"},
@@ -66,6 +69,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
 			_jsii_.MemberMethod{JsiiMethod: "putInputSwitchConfiguration", GoMethod: "PutInputSwitchConfiguration"},
+			_jsii_.MemberMethod{JsiiMethod: "putMultiviewConfiguration", GoMethod: "PutMultiviewConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putOutputHeaderConfiguration", GoMethod: "PutOutputHeaderConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putTags", GoMethod: "PutTags"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
@@ -73,6 +77,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
 			_jsii_.MemberMethod{JsiiMethod: "resetInputSwitchConfiguration", GoMethod: "ResetInputSwitchConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetInputType", GoMethod: "ResetInputType"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMultiviewConfiguration", GoMethod: "ResetMultiviewConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOutputHeaderConfiguration", GoMethod: "ResetOutputHeaderConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOutputLockingMode", GoMethod: "ResetOutputLockingMode"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
@@ -197,6 +202,48 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_Mediapackagev2ChannelInputSwitchConfigurationOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfiguration",
+		reflect.TypeOf((*Mediapackagev2ChannelMultiviewConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference",
+		reflect.TypeOf((*Mediapackagev2ChannelMultiviewConfigurationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "availableLayouts", GoGetter: "AvailableLayouts"},
+			_jsii_.MemberProperty{JsiiProperty: "availableLayoutsInput", GoGetter: "AvailableLayoutsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "availableSources", GoGetter: "AvailableSources"},
+			_jsii_.MemberProperty{JsiiProperty: "availableSourcesInput", GoGetter: "AvailableSourcesInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAvailableLayouts", GoMethod: "ResetAvailableLayouts"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAvailableSources", GoMethod: "ResetAvailableSources"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_Mediapackagev2ChannelMultiviewConfigurationOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

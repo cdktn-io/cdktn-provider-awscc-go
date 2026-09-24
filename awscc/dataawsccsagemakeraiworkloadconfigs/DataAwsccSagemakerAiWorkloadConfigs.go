@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sagemaker_ai_workload_configs awscc_sagemaker_ai_workload_configs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_ai_workload_configs awscc_sagemaker_ai_workload_configs}.
 type DataAwsccSagemakerAiWorkloadConfigs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSagemakerAiWorkloadConfigs) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sagemaker_ai_workload_configs awscc_sagemaker_ai_workload_configs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_ai_workload_configs awscc_sagemaker_ai_workload_configs} Data Source.
 func NewDataAwsccSagemakerAiWorkloadConfigs(scope constructs.Construct, id *string, config *DataAwsccSagemakerAiWorkloadConfigsConfig) DataAwsccSagemakerAiWorkloadConfigs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSagemakerAiWorkloadConfigs(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sagemaker_ai_workload_configs awscc_sagemaker_ai_workload_configs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_ai_workload_configs awscc_sagemaker_ai_workload_configs} Data Source.
 func NewDataAwsccSagemakerAiWorkloadConfigs_Override(d DataAwsccSagemakerAiWorkloadConfigs, scope constructs.Construct, id *string, config *DataAwsccSagemakerAiWorkloadConfigsConfig) {
 	_init_.Initialize()
 

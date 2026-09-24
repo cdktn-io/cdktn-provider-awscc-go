@@ -79,6 +79,10 @@ func (i *jsiiProxy_IotsitewiseDataset) validateOverrideLogicalIdParameters(newLo
 	return nil
 }
 
+func (i *jsiiProxy_IotsitewiseDataset) validatePutDatasetConfigParameters(value *IotsitewiseDatasetDatasetConfig) error {
+	return nil
+}
+
 func (i *jsiiProxy_IotsitewiseDataset) validatePutDatasetSourceParameters(value *IotsitewiseDatasetDatasetSource) error {
 	return nil
 }
@@ -123,11 +127,19 @@ func (j *jsiiProxy_IotsitewiseDataset) validateSetDatasetNameParameters(val *str
 	return nil
 }
 
+func (j *jsiiProxy_IotsitewiseDataset) validateSetDatasetTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IotsitewiseDataset) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 
 func (j *jsiiProxy_IotsitewiseDataset) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_IotsitewiseDataset) validateSetWorkspaceNameParameters(val *string) error {
 	return nil
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/comprehend_document_classifier_endpoints awscc_comprehend_document_classifier_endpoints}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/comprehend_document_classifier_endpoints awscc_comprehend_document_classifier_endpoints}.
 type DataAwsccComprehendDocumentClassifierEndpoints interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccComprehendDocumentClassifierEndpoints) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/comprehend_document_classifier_endpoints awscc_comprehend_document_classifier_endpoints} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/comprehend_document_classifier_endpoints awscc_comprehend_document_classifier_endpoints} Data Source.
 func NewDataAwsccComprehendDocumentClassifierEndpoints(scope constructs.Construct, id *string, config *DataAwsccComprehendDocumentClassifierEndpointsConfig) DataAwsccComprehendDocumentClassifierEndpoints {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccComprehendDocumentClassifierEndpoints(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/comprehend_document_classifier_endpoints awscc_comprehend_document_classifier_endpoints} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/comprehend_document_classifier_endpoints awscc_comprehend_document_classifier_endpoints} Data Source.
 func NewDataAwsccComprehendDocumentClassifierEndpoints_Override(d DataAwsccComprehendDocumentClassifierEndpoints, scope constructs.Construct, id *string, config *DataAwsccComprehendDocumentClassifierEndpointsConfig) {
 	_init_.Initialize()
 

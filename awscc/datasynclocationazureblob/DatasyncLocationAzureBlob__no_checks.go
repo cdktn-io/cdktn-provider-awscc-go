@@ -91,6 +91,10 @@ func (d *jsiiProxy_DatasyncLocationAzureBlob) validatePutCustomSecretConfigParam
 	return nil
 }
 
+func (d *jsiiProxy_DatasyncLocationAzureBlob) validatePutFederatedIdentityParameters(value *DatasyncLocationAzureBlobFederatedIdentity) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatasyncLocationAzureBlob) validatePutTagsParameters(value interface{}) error {
 	return nil
 }

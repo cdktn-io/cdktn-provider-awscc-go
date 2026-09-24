@@ -147,6 +147,10 @@ func (j *jsiiProxy_Resiliencehubv2Policy) validateSetProvisionersParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_Resiliencehubv2Policy) validateSetSharingEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func validateNewResiliencehubv2PolicyParameters(scope constructs.Construct, id *string, config *Resiliencehubv2PolicyConfig) error {
 	return nil
 }

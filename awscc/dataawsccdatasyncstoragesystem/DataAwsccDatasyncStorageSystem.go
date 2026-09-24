@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_storage_system awscc_datasync_storage_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_storage_system awscc_datasync_storage_system}.
 type DataAwsccDatasyncStorageSystem interface {
 	cdktn.TerraformDataSource
 	AgentArns() *[]*string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccDatasyncStorageSystem) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_storage_system awscc_datasync_storage_system} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_storage_system awscc_datasync_storage_system} Data Source.
 func NewDataAwsccDatasyncStorageSystem(scope constructs.Construct, id *string, config *DataAwsccDatasyncStorageSystemConfig) DataAwsccDatasyncStorageSystem {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccDatasyncStorageSystem(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_storage_system awscc_datasync_storage_system} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_storage_system awscc_datasync_storage_system} Data Source.
 func NewDataAwsccDatasyncStorageSystem_Override(d DataAwsccDatasyncStorageSystem, scope constructs.Construct, id *string, config *DataAwsccDatasyncStorageSystemConfig) {
 	_init_.Initialize()
 

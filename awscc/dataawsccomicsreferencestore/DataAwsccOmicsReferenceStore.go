@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/omics_reference_store awscc_omics_reference_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/omics_reference_store awscc_omics_reference_store}.
 type DataAwsccOmicsReferenceStore interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccOmicsReferenceStore) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/omics_reference_store awscc_omics_reference_store} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/omics_reference_store awscc_omics_reference_store} Data Source.
 func NewDataAwsccOmicsReferenceStore(scope constructs.Construct, id *string, config *DataAwsccOmicsReferenceStoreConfig) DataAwsccOmicsReferenceStore {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccOmicsReferenceStore(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/omics_reference_store awscc_omics_reference_store} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/omics_reference_store awscc_omics_reference_store} Data Source.
 func NewDataAwsccOmicsReferenceStore_Override(d DataAwsccOmicsReferenceStore, scope constructs.Construct, id *string, config *DataAwsccOmicsReferenceStoreConfig) {
 	_init_.Initialize()
 

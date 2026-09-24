@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cleanrooms_analysis_template awscc_cleanrooms_analysis_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/cleanrooms_analysis_template awscc_cleanrooms_analysis_template}.
 type DataAwsccCleanroomsAnalysisTemplate interface {
 	cdktn.TerraformDataSource
 	AnalysisParameters() DataAwsccCleanroomsAnalysisTemplateAnalysisParametersList
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataAwsccCleanroomsAnalysisTemplate) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cleanrooms_analysis_template awscc_cleanrooms_analysis_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/cleanrooms_analysis_template awscc_cleanrooms_analysis_template} Data Source.
 func NewDataAwsccCleanroomsAnalysisTemplate(scope constructs.Construct, id *string, config *DataAwsccCleanroomsAnalysisTemplateConfig) DataAwsccCleanroomsAnalysisTemplate {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataAwsccCleanroomsAnalysisTemplate(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/cleanrooms_analysis_template awscc_cleanrooms_analysis_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/cleanrooms_analysis_template awscc_cleanrooms_analysis_template} Data Source.
 func NewDataAwsccCleanroomsAnalysisTemplate_Override(d DataAwsccCleanroomsAnalysisTemplate, scope constructs.Construct, id *string, config *DataAwsccCleanroomsAnalysisTemplateConfig) {
 	_init_.Initialize()
 

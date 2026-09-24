@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_sip_media_application awscc_chime_sip_media_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_sip_media_application awscc_chime_sip_media_application}.
 type ChimeSipMediaApplication interface {
 	cdktn.TerraformResource
 	AwsRegion() *string
@@ -492,7 +492,7 @@ func (j *jsiiProxy_ChimeSipMediaApplication) UpdatedTimestamp() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_sip_media_application awscc_chime_sip_media_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_sip_media_application awscc_chime_sip_media_application} Resource.
 func NewChimeSipMediaApplication(scope constructs.Construct, id *string, config *ChimeSipMediaApplicationConfig) ChimeSipMediaApplication {
 	_init_.Initialize()
 
@@ -510,7 +510,7 @@ func NewChimeSipMediaApplication(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_sip_media_application awscc_chime_sip_media_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_sip_media_application awscc_chime_sip_media_application} Resource.
 func NewChimeSipMediaApplication_Override(c ChimeSipMediaApplication, scope constructs.Construct, id *string, config *ChimeSipMediaApplicationConfig) {
 	_init_.Initialize()
 

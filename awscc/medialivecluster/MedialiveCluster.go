@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/medialive_cluster awscc_medialive_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/medialive_cluster awscc_medialive_cluster}.
 type MedialiveCluster interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -519,7 +519,7 @@ func (j *jsiiProxy_MedialiveCluster) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/medialive_cluster awscc_medialive_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/medialive_cluster awscc_medialive_cluster} Resource.
 func NewMedialiveCluster(scope constructs.Construct, id *string, config *MedialiveClusterConfig) MedialiveCluster {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewMedialiveCluster(scope constructs.Construct, id *string, config *Mediali
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/medialive_cluster awscc_medialive_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/medialive_cluster awscc_medialive_cluster} Resource.
 func NewMedialiveCluster_Override(m MedialiveCluster, scope constructs.Construct, id *string, config *MedialiveClusterConfig) {
 	_init_.Initialize()
 

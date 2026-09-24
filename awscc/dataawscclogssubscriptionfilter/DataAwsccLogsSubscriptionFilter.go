@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/logs_subscription_filter awscc_logs_subscription_filter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/logs_subscription_filter awscc_logs_subscription_filter}.
 type DataAwsccLogsSubscriptionFilter interface {
 	cdktn.TerraformDataSource
 	ApplyOnTransformedLogs() cdktn.IResolvable
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccLogsSubscriptionFilter) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/logs_subscription_filter awscc_logs_subscription_filter} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/logs_subscription_filter awscc_logs_subscription_filter} Data Source.
 func NewDataAwsccLogsSubscriptionFilter(scope constructs.Construct, id *string, config *DataAwsccLogsSubscriptionFilterConfig) DataAwsccLogsSubscriptionFilter {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccLogsSubscriptionFilter(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/logs_subscription_filter awscc_logs_subscription_filter} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/logs_subscription_filter awscc_logs_subscription_filter} Data Source.
 func NewDataAwsccLogsSubscriptionFilter_Override(d DataAwsccLogsSubscriptionFilter, scope constructs.Construct, id *string, config *DataAwsccLogsSubscriptionFilterConfig) {
 	_init_.Initialize()
 

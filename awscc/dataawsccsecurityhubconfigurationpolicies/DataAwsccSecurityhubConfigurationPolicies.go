@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/securityhub_configuration_policies awscc_securityhub_configuration_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/securityhub_configuration_policies awscc_securityhub_configuration_policies}.
 type DataAwsccSecurityhubConfigurationPolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSecurityhubConfigurationPolicies) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/securityhub_configuration_policies awscc_securityhub_configuration_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/securityhub_configuration_policies awscc_securityhub_configuration_policies} Data Source.
 func NewDataAwsccSecurityhubConfigurationPolicies(scope constructs.Construct, id *string, config *DataAwsccSecurityhubConfigurationPoliciesConfig) DataAwsccSecurityhubConfigurationPolicies {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSecurityhubConfigurationPolicies(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/securityhub_configuration_policies awscc_securityhub_configuration_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/securityhub_configuration_policies awscc_securityhub_configuration_policies} Data Source.
 func NewDataAwsccSecurityhubConfigurationPolicies_Override(d DataAwsccSecurityhubConfigurationPolicies, scope constructs.Construct, id *string, config *DataAwsccSecurityhubConfigurationPoliciesConfig) {
 	_init_.Initialize()
 

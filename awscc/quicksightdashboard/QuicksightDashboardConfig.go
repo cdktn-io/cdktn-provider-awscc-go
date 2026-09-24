@@ -22,25 +22,25 @@ type QuicksightDashboardConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_dashboard#aws_account_id QuicksightDashboard#aws_account_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_dashboard#aws_account_id QuicksightDashboard#aws_account_id}.
 	AwsAccountId *string `field:"required" json:"awsAccountId" yaml:"awsAccountId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_dashboard#dashboard_id QuicksightDashboard#dashboard_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_dashboard#dashboard_id QuicksightDashboard#dashboard_id}.
 	DashboardId *string `field:"required" json:"dashboardId" yaml:"dashboardId"`
 	// <p>Dashboard source entity.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_dashboard#source_entity QuicksightDashboard#source_entity}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_dashboard#source_entity QuicksightDashboard#source_entity}
 	SourceEntity *QuicksightDashboardSourceEntity `field:"required" json:"sourceEntity" yaml:"sourceEntity"`
 	// <p>Dashboard publish options.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_dashboard#dashboard_publish_options QuicksightDashboard#dashboard_publish_options}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_dashboard#dashboard_publish_options QuicksightDashboard#dashboard_publish_options}
 	DashboardPublishOptions *QuicksightDashboardDashboardPublishOptions `field:"optional" json:"dashboardPublishOptions" yaml:"dashboardPublishOptions"`
 	// <p>The display name of the dashboard.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_dashboard#name QuicksightDashboard#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// <p>A list of QuickSight parameters and the list's override values.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_dashboard#parameters QuicksightDashboard#parameters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_dashboard#parameters QuicksightDashboard#parameters}
 	Parameters *QuicksightDashboardParameters `field:"optional" json:"parameters" yaml:"parameters"`
 	// <p>A structure that contains the permissions of the dashboard.
 	//
@@ -50,11 +50,11 @@ type QuicksightDashboardConfig struct {
 	//
 	//         <p>To specify no permissions, omit the permissions list.</p>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_dashboard#permissions QuicksightDashboard#permissions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_dashboard#permissions QuicksightDashboard#permissions}
 	Permissions interface{} `field:"optional" json:"permissions" yaml:"permissions"`
 	// <p>Contains a map of the key-value pairs for the resource tag or tags assigned to the             dashboard.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_dashboard#tags QuicksightDashboard#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_dashboard#tags QuicksightDashboard#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// <p>The Amazon Resource Name (ARN) of the theme that is being used for this dashboard.
 	//
@@ -63,11 +63,11 @@ type QuicksightDashboardConfig struct {
 	//             entity. The theme ARN must exist in the same AWS account where you create the
 	//             dashboard.</p>
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_dashboard#theme_arn QuicksightDashboard#theme_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_dashboard#theme_arn QuicksightDashboard#theme_arn}
 	ThemeArn *string `field:"optional" json:"themeArn" yaml:"themeArn"`
 	// <p>A description for the first version of the dashboard being created.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/quicksight_dashboard#version_description QuicksightDashboard#version_description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_dashboard#version_description QuicksightDashboard#version_description}
 	VersionDescription *string `field:"optional" json:"versionDescription" yaml:"versionDescription"`
 }
 

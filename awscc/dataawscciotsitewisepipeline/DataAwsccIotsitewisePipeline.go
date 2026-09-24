@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_pipeline awscc_iotsitewise_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iotsitewise_pipeline awscc_iotsitewise_pipeline}.
 type DataAwsccIotsitewisePipeline interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccIotsitewisePipeline) WorkspaceName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_pipeline awscc_iotsitewise_pipeline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iotsitewise_pipeline awscc_iotsitewise_pipeline} Data Source.
 func NewDataAwsccIotsitewisePipeline(scope constructs.Construct, id *string, config *DataAwsccIotsitewisePipelineConfig) DataAwsccIotsitewisePipeline {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccIotsitewisePipeline(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_pipeline awscc_iotsitewise_pipeline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iotsitewise_pipeline awscc_iotsitewise_pipeline} Data Source.
 func NewDataAwsccIotsitewisePipeline_Override(d DataAwsccIotsitewisePipeline, scope constructs.Construct, id *string, config *DataAwsccIotsitewisePipelineConfig) {
 	_init_.Initialize()
 

@@ -7,15 +7,15 @@ package inspectorv2connector
 type Inspectorv2ConnectorProviderConfigurationAzureScopeConfiguration struct {
 	// Defines the scope of Azure resources to monitor for a specific resource type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/inspectorv2_connector#container_image_scanning Inspectorv2Connector#container_image_scanning}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/inspectorv2_connector#container_image_scanning Inspectorv2Connector#container_image_scanning}
 	ContainerImageScanning *Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationContainerImageScanning `field:"optional" json:"containerImageScanning" yaml:"containerImageScanning"`
 	// Defines the scope of Azure resources to monitor for a specific resource type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/inspectorv2_connector#serverless_scanning Inspectorv2Connector#serverless_scanning}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/inspectorv2_connector#serverless_scanning Inspectorv2Connector#serverless_scanning}
 	ServerlessScanning *Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationServerlessScanning `field:"optional" json:"serverlessScanning" yaml:"serverlessScanning"`
 	// Defines the scope of Azure resources to monitor for a specific resource type.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/inspectorv2_connector#vm_scanning Inspectorv2Connector#vm_scanning}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/inspectorv2_connector#vm_scanning Inspectorv2Connector#vm_scanning}
 	VmScanning *Inspectorv2ConnectorProviderConfigurationAzureScopeConfigurationVmScanning `field:"optional" json:"vmScanning" yaml:"vmScanning"`
 }
 

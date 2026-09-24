@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_volume_attachment awscc_ec2_volume_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_volume_attachment awscc_ec2_volume_attachment}.
 type DataAwsccEc2VolumeAttachment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccEc2VolumeAttachment) VolumeId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_volume_attachment awscc_ec2_volume_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_volume_attachment awscc_ec2_volume_attachment} Data Source.
 func NewDataAwsccEc2VolumeAttachment(scope constructs.Construct, id *string, config *DataAwsccEc2VolumeAttachmentConfig) DataAwsccEc2VolumeAttachment {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccEc2VolumeAttachment(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_volume_attachment awscc_ec2_volume_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_volume_attachment awscc_ec2_volume_attachment} Data Source.
 func NewDataAwsccEc2VolumeAttachment_Override(d DataAwsccEc2VolumeAttachment, scope constructs.Construct, id *string, config *DataAwsccEc2VolumeAttachmentConfig) {
 	_init_.Initialize()
 

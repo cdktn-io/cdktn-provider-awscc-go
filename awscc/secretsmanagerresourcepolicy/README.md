@@ -1,3 +1,3 @@
 # `awscc_secretsmanager_resource_policy`
 
-Refer to the Terraform Registry for docs: [`awscc_secretsmanager_resource_policy`](https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/secretsmanager_resource_policy).
+Refer to the Terraform Registry for docs: [`awscc_secretsmanager_resource_policy`](https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/secretsmanager_resource_policy).

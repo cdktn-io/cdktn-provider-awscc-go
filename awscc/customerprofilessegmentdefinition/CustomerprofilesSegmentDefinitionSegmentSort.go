@@ -7,7 +7,7 @@ package customerprofilessegmentdefinition
 type CustomerprofilesSegmentDefinitionSegmentSort struct {
 	// A list of attributes used to sort the segments and their ordering preferences.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/customerprofiles_segment_definition#attributes CustomerprofilesSegmentDefinition#attributes}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/customerprofiles_segment_definition#attributes CustomerprofilesSegmentDefinition#attributes}
 	Attributes interface{} `field:"optional" json:"attributes" yaml:"attributes"`
 }
 

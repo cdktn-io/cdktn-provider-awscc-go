@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/transcribe_call_analytics_categories awscc_transcribe_call_analytics_categories}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/transcribe_call_analytics_categories awscc_transcribe_call_analytics_categories}.
 type DataAwsccTranscribeCallAnalyticsCategories interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccTranscribeCallAnalyticsCategories) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/transcribe_call_analytics_categories awscc_transcribe_call_analytics_categories} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/transcribe_call_analytics_categories awscc_transcribe_call_analytics_categories} Data Source.
 func NewDataAwsccTranscribeCallAnalyticsCategories(scope constructs.Construct, id *string, config *DataAwsccTranscribeCallAnalyticsCategoriesConfig) DataAwsccTranscribeCallAnalyticsCategories {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccTranscribeCallAnalyticsCategories(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/transcribe_call_analytics_categories awscc_transcribe_call_analytics_categories} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/transcribe_call_analytics_categories awscc_transcribe_call_analytics_categories} Data Source.
 func NewDataAwsccTranscribeCallAnalyticsCategories_Override(d DataAwsccTranscribeCallAnalyticsCategories, scope constructs.Construct, id *string, config *DataAwsccTranscribeCallAnalyticsCategoriesConfig) {
 	_init_.Initialize()
 

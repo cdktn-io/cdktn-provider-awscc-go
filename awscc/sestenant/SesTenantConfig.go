@@ -24,15 +24,15 @@ type SesTenantConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the tenant.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ses_tenant#tenant_name SesTenant#tenant_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ses_tenant#tenant_name SesTenant#tenant_name}
 	TenantName *string `field:"required" json:"tenantName" yaml:"tenantName"`
 	// The list of resources to associate with the tenant.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ses_tenant#resource_associations SesTenant#resource_associations}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ses_tenant#resource_associations SesTenant#resource_associations}
 	ResourceAssociations interface{} `field:"optional" json:"resourceAssociations" yaml:"resourceAssociations"`
 	// The tags (keys and values) associated with the tenant.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/ses_tenant#tags SesTenant#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ses_tenant#tags SesTenant#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

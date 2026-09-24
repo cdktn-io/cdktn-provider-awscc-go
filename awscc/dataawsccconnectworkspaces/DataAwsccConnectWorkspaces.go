@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/connect_workspaces awscc_connect_workspaces}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/connect_workspaces awscc_connect_workspaces}.
 type DataAwsccConnectWorkspaces interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccConnectWorkspaces) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/connect_workspaces awscc_connect_workspaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/connect_workspaces awscc_connect_workspaces} Data Source.
 func NewDataAwsccConnectWorkspaces(scope constructs.Construct, id *string, config *DataAwsccConnectWorkspacesConfig) DataAwsccConnectWorkspaces {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccConnectWorkspaces(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/connect_workspaces awscc_connect_workspaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/connect_workspaces awscc_connect_workspaces} Data Source.
 func NewDataAwsccConnectWorkspaces_Override(d DataAwsccConnectWorkspaces, scope constructs.Construct, id *string, config *DataAwsccConnectWorkspacesConfig) {
 	_init_.Initialize()
 

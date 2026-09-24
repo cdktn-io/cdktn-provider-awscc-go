@@ -5,7 +5,7 @@ package sagemakerinferencecomponent
 
 
 type SagemakerInferenceComponentSpecificationContainerContainerMetricsConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/sagemaker_inference_component#metrics_endpoints SagemakerInferenceComponent#metrics_endpoints}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_inference_component#metrics_endpoints SagemakerInferenceComponent#metrics_endpoints}.
 	MetricsEndpoints interface{} `field:"optional" json:"metricsEndpoints" yaml:"metricsEndpoints"`
 }
 
