@@ -143,6 +143,10 @@ func (j *jsiiProxy_DmsDataProvider) validateSetProvisionersParameters(val *[]int
 	return nil
 }
 
+func (j *jsiiProxy_DmsDataProvider) validateSetVirtualParameters(val interface{}) error {
+	return nil
+}
+
 func validateNewDmsDataProviderParameters(scope constructs.Construct, id *string, config *DmsDataProviderConfig) error {
 	return nil
 }

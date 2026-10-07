@@ -9,7 +9,7 @@ type MediaconnectRouterOutputConfigurationStandardProtocolConfigurationRtmpPushT
 	//
 	// This type does not require any additional settings.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediaconnect_router_output#public MediaconnectRouterOutput#public}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_router_output#public MediaconnectRouterOutput#public}
 	Public *string `field:"optional" json:"public" yaml:"public"`
 }
 

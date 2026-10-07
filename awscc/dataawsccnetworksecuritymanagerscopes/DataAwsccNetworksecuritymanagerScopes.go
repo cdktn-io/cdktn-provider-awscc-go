@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/networksecuritymanager_scopes awscc_networksecuritymanager_scopes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/networksecuritymanager_scopes awscc_networksecuritymanager_scopes}.
 type DataAwsccNetworksecuritymanagerScopes interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNetworksecuritymanagerScopes) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/networksecuritymanager_scopes awscc_networksecuritymanager_scopes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/networksecuritymanager_scopes awscc_networksecuritymanager_scopes} Data Source.
 func NewDataAwsccNetworksecuritymanagerScopes(scope constructs.Construct, id *string, config *DataAwsccNetworksecuritymanagerScopesConfig) DataAwsccNetworksecuritymanagerScopes {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNetworksecuritymanagerScopes(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/networksecuritymanager_scopes awscc_networksecuritymanager_scopes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/networksecuritymanager_scopes awscc_networksecuritymanager_scopes} Data Source.
 func NewDataAwsccNetworksecuritymanagerScopes_Override(d DataAwsccNetworksecuritymanagerScopes, scope constructs.Construct, id *string, config *DataAwsccNetworksecuritymanagerScopesConfig) {
 	_init_.Initialize()
 

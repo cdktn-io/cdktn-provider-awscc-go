@@ -41,6 +41,12 @@ type DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference interface 
 	Port() *float64
 	SetPort(val *float64)
 	PortInput() *float64
+	S3AccessRoleArn() *string
+	SetS3AccessRoleArn(val *string)
+	S3AccessRoleArnInput() *string
+	S3Path() *string
+	SetS3Path(val *string)
+	S3PathInput() *string
 	ServerName() *string
 	SetServerName(val *string)
 	ServerNameInput() *string
@@ -82,6 +88,8 @@ type DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference interface 
 	ResetCertificateArn()
 	ResetDatabaseName()
 	ResetPort()
+	ResetS3AccessRoleArn()
+	ResetS3Path()
 	ResetServerName()
 	ResetSslMode()
 	// Produce the Token's value at resolution time.
@@ -204,6 +212,46 @@ func (j *jsiiProxy_DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputRefere
 	_jsii_.Get(
 		j,
 		"portInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference) S3AccessRoleArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"s3AccessRoleArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference) S3AccessRoleArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"s3AccessRoleArnInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference) S3Path() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"s3Path",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference) S3PathInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"s3PathInput",
 		&returns,
 	)
 	return returns
@@ -359,6 +407,28 @@ func (j *jsiiProxy_DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputRefere
 	_jsii_.Set(
 		j,
 		"port",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference)SetS3AccessRoleArn(val *string) {
+	if err := j.validateSetS3AccessRoleArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"s3AccessRoleArn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference)SetS3Path(val *string) {
+	if err := j.validateSetS3PathParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"s3Path",
 		val,
 	)
 }
@@ -613,6 +683,22 @@ func (d *jsiiProxy_DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputRefere
 	_jsii_.InvokeVoid(
 		d,
 		"resetPort",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference) ResetS3AccessRoleArn() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetS3AccessRoleArn",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference) ResetS3Path() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetS3Path",
 		nil, // no parameters
 	)
 }

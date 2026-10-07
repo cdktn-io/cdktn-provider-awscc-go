@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/elasticache_snapshots awscc_elasticache_snapshots}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/elasticache_snapshots awscc_elasticache_snapshots}.
 type DataAwsccElasticacheSnapshots interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccElasticacheSnapshots) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/elasticache_snapshots awscc_elasticache_snapshots} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/elasticache_snapshots awscc_elasticache_snapshots} Data Source.
 func NewDataAwsccElasticacheSnapshots(scope constructs.Construct, id *string, config *DataAwsccElasticacheSnapshotsConfig) DataAwsccElasticacheSnapshots {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccElasticacheSnapshots(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/elasticache_snapshots awscc_elasticache_snapshots} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/elasticache_snapshots awscc_elasticache_snapshots} Data Source.
 func NewDataAwsccElasticacheSnapshots_Override(d DataAwsccElasticacheSnapshots, scope constructs.Construct, id *string, config *DataAwsccElasticacheSnapshotsConfig) {
 	_init_.Initialize()
 

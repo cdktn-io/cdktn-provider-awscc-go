@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/ram_principal_associations awscc_ram_principal_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ram_principal_associations awscc_ram_principal_associations}.
 type DataAwsccRamPrincipalAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRamPrincipalAssociations) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/ram_principal_associations awscc_ram_principal_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ram_principal_associations awscc_ram_principal_associations} Data Source.
 func NewDataAwsccRamPrincipalAssociations(scope constructs.Construct, id *string, config *DataAwsccRamPrincipalAssociationsConfig) DataAwsccRamPrincipalAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRamPrincipalAssociations(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/ram_principal_associations awscc_ram_principal_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ram_principal_associations awscc_ram_principal_associations} Data Source.
 func NewDataAwsccRamPrincipalAssociations_Override(d DataAwsccRamPrincipalAssociations, scope constructs.Construct, id *string, config *DataAwsccRamPrincipalAssociationsConfig) {
 	_init_.Initialize()
 

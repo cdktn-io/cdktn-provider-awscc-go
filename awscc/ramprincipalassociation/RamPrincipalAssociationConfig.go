@@ -34,11 +34,11 @@ type RamPrincipalAssociationConfig struct {
 	//
 	// - An ARN of an IAM user
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_principal_association#principal RamPrincipalAssociation#principal}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_principal_association#principal RamPrincipalAssociation#principal}
 	Principal *string `field:"required" json:"principal" yaml:"principal"`
 	// Specifies the [Amazon Resource Name (ARN)](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) of the resource share.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_principal_association#resource_share_arn RamPrincipalAssociation#resource_share_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_principal_association#resource_share_arn RamPrincipalAssociation#resource_share_arn}
 	ResourceShareArn *string `field:"required" json:"resourceShareArn" yaml:"resourceShareArn"`
 }
 

@@ -9,7 +9,7 @@ type Eventsv2SubscriberInvokeConfigurationEventBusV2ParametersDeduplicationConfi
 	//
 	// To deduplicate by a caller-supplied token instead, omit DeduplicationConfiguration and set SystemMetadata.DeduplicationId.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#deduplication_type Eventsv2Subscriber#deduplication_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#deduplication_type Eventsv2Subscriber#deduplication_type}
 	DeduplicationType *string `field:"optional" json:"deduplicationType" yaml:"deduplicationType"`
 }
 

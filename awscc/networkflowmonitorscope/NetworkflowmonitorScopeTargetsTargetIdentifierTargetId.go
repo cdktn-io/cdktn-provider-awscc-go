@@ -7,7 +7,7 @@ package networkflowmonitorscope
 type NetworkflowmonitorScopeTargetsTargetIdentifierTargetId struct {
 	// The account ID for the target.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope#account_id NetworkflowmonitorScope#account_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope#account_id NetworkflowmonitorScope#account_id}
 	AccountId *string `field:"required" json:"accountId" yaml:"accountId"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow awscc_scn_data_integration_flow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow awscc_scn_data_integration_flow}.
 type ScnDataIntegrationFlow interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -527,7 +527,7 @@ func (j *jsiiProxy_ScnDataIntegrationFlow) TransformationInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow awscc_scn_data_integration_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow awscc_scn_data_integration_flow} Resource.
 func NewScnDataIntegrationFlow(scope constructs.Construct, id *string, config *ScnDataIntegrationFlowConfig) ScnDataIntegrationFlow {
 	_init_.Initialize()
 
@@ -545,7 +545,7 @@ func NewScnDataIntegrationFlow(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow awscc_scn_data_integration_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow awscc_scn_data_integration_flow} Resource.
 func NewScnDataIntegrationFlow_Override(s ScnDataIntegrationFlow, scope constructs.Construct, id *string, config *ScnDataIntegrationFlowConfig) {
 	_init_.Initialize()
 

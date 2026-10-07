@@ -12,15 +12,18 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/s3_bucket awscc_s3_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/s3_bucket awscc_s3_bucket}.
 type DataAwsccS3Bucket interface {
 	cdktn.TerraformDataSource
+	AbacStatus() *string
 	AccelerateConfiguration() DataAwsccS3BucketAccelerateConfigurationOutputReference
 	AccessControl() *string
 	AnalyticsConfigurations() DataAwsccS3BucketAnalyticsConfigurationsList
 	Arn() *string
 	BucketEncryption() DataAwsccS3BucketBucketEncryptionOutputReference
 	BucketName() *string
+	BucketNamePrefix() *string
+	BucketNamespace() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -55,6 +58,7 @@ type DataAwsccS3Bucket interface {
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LifecycleConfiguration() DataAwsccS3BucketLifecycleConfigurationOutputReference
 	LoggingConfiguration() DataAwsccS3BucketLoggingConfigurationOutputReference
+	MetadataConfiguration() DataAwsccS3BucketMetadataConfigurationOutputReference
 	MetadataTableConfiguration() DataAwsccS3BucketMetadataTableConfigurationOutputReference
 	MetricsConfigurations() DataAwsccS3BucketMetricsConfigurationsList
 	// The tree node.
@@ -151,6 +155,16 @@ type jsiiProxy_DataAwsccS3Bucket struct {
 	internal.Type__cdktnTerraformDataSource
 }
 
+func (j *jsiiProxy_DataAwsccS3Bucket) AbacStatus() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"abacStatus",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccS3Bucket) AccelerateConfiguration() DataAwsccS3BucketAccelerateConfigurationOutputReference {
 	var returns DataAwsccS3BucketAccelerateConfigurationOutputReference
 	_jsii_.Get(
@@ -206,6 +220,26 @@ func (j *jsiiProxy_DataAwsccS3Bucket) BucketName() *string {
 	_jsii_.Get(
 		j,
 		"bucketName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccS3Bucket) BucketNamePrefix() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bucketNamePrefix",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccS3Bucket) BucketNamespace() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bucketNamespace",
 		&returns,
 	)
 	return returns
@@ -376,6 +410,16 @@ func (j *jsiiProxy_DataAwsccS3Bucket) LoggingConfiguration() DataAwsccS3BucketLo
 	_jsii_.Get(
 		j,
 		"loggingConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccS3Bucket) MetadataConfiguration() DataAwsccS3BucketMetadataConfigurationOutputReference {
+	var returns DataAwsccS3BucketMetadataConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"metadataConfiguration",
 		&returns,
 	)
 	return returns
@@ -572,7 +616,7 @@ func (j *jsiiProxy_DataAwsccS3Bucket) WebsiteUrl() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/s3_bucket awscc_s3_bucket} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/s3_bucket awscc_s3_bucket} Data Source.
 func NewDataAwsccS3Bucket(scope constructs.Construct, id *string, config *DataAwsccS3BucketConfig) DataAwsccS3Bucket {
 	_init_.Initialize()
 
@@ -590,7 +634,7 @@ func NewDataAwsccS3Bucket(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/s3_bucket awscc_s3_bucket} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/s3_bucket awscc_s3_bucket} Data Source.
 func NewDataAwsccS3Bucket_Override(d DataAwsccS3Bucket, scope constructs.Construct, id *string, config *DataAwsccS3BucketConfig) {
 	_init_.Initialize()
 

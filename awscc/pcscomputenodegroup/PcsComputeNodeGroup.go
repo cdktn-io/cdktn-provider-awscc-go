@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group}.
 type PcsComputeNodeGroup interface {
 	cdktn.TerraformResource
 	AmiId() *string
@@ -198,6 +198,7 @@ type PcsComputeNodeGroup interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAmiId()
+	ResetCustomLaunchTemplate()
 	ResetName()
 	ResetNodeLifecycleActions()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -705,7 +706,7 @@ func (j *jsiiProxy_PcsComputeNodeGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group} Resource.
 func NewPcsComputeNodeGroup(scope constructs.Construct, id *string, config *PcsComputeNodeGroupConfig) PcsComputeNodeGroup {
 	_init_.Initialize()
 
@@ -723,7 +724,7 @@ func NewPcsComputeNodeGroup(scope constructs.Construct, id *string, config *PcsC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group} Resource.
 func NewPcsComputeNodeGroup_Override(p PcsComputeNodeGroup, scope constructs.Construct, id *string, config *PcsComputeNodeGroupConfig) {
 	_init_.Initialize()
 
@@ -1329,6 +1330,14 @@ func (p *jsiiProxy_PcsComputeNodeGroup) ResetAmiId() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetAmiId",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PcsComputeNodeGroup) ResetCustomLaunchTemplate() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetCustomLaunchTemplate",
 		nil, // no parameters
 	)
 }

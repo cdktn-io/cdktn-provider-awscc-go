@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/agentregistry_registry awscc_agentregistry_registry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry awscc_agentregistry_registry}.
 type AgentregistryRegistry interface {
 	cdktn.TerraformResource
 	ApprovalConfiguration() AgentregistryRegistryApprovalConfigurationOutputReference
@@ -20,6 +20,13 @@ type AgentregistryRegistry interface {
 	AuthorizerType() *string
 	SetAuthorizerType(val *string)
 	AuthorizerTypeInput() *string
+	AutoDetectionEnabled() interface{}
+	SetAutoDetectionEnabled(val interface{})
+	AutoDetectionEnabledInput() interface{}
+	AutoDetectionScope() *string
+	SetAutoDetectionScope(val *string)
+	AutoDetectionScopeInput() *string
+	AutoDetectionStatus() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -42,6 +49,8 @@ type AgentregistryRegistry interface {
 	DescriptionInput() *string
 	DiscoveryConfiguration() AgentregistryRegistryDiscoveryConfigurationOutputReference
 	DiscoveryConfigurationInput() interface{}
+	EncryptionConfiguration() AgentregistryRegistryEncryptionConfigurationOutputReference
+	EncryptionConfigurationInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -163,6 +172,7 @@ type AgentregistryRegistry interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutApprovalConfiguration(value *AgentregistryRegistryApprovalConfiguration)
 	PutDiscoveryConfiguration(value *AgentregistryRegistryDiscoveryConfiguration)
+	PutEncryptionConfiguration(value *AgentregistryRegistryEncryptionConfiguration)
 	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -179,8 +189,11 @@ type AgentregistryRegistry interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetApprovalConfiguration()
 	ResetAuthorizerType()
+	ResetAutoDetectionEnabled()
+	ResetAutoDetectionScope()
 	ResetDescription()
 	ResetDiscoveryConfiguration()
+	ResetEncryptionConfiguration()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -247,6 +260,56 @@ func (j *jsiiProxy_AgentregistryRegistry) AuthorizerTypeInput() *string {
 	_jsii_.Get(
 		j,
 		"authorizerTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgentregistryRegistry) AutoDetectionEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"autoDetectionEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgentregistryRegistry) AutoDetectionEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"autoDetectionEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgentregistryRegistry) AutoDetectionScope() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"autoDetectionScope",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgentregistryRegistry) AutoDetectionScopeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"autoDetectionScopeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgentregistryRegistry) AutoDetectionStatus() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"autoDetectionStatus",
 		&returns,
 	)
 	return returns
@@ -347,6 +410,26 @@ func (j *jsiiProxy_AgentregistryRegistry) DiscoveryConfigurationInput() interfac
 	_jsii_.Get(
 		j,
 		"discoveryConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgentregistryRegistry) EncryptionConfiguration() AgentregistryRegistryEncryptionConfigurationOutputReference {
+	var returns AgentregistryRegistryEncryptionConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"encryptionConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgentregistryRegistry) EncryptionConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"encryptionConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -553,7 +636,7 @@ func (j *jsiiProxy_AgentregistryRegistry) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/agentregistry_registry awscc_agentregistry_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry awscc_agentregistry_registry} Resource.
 func NewAgentregistryRegistry(scope constructs.Construct, id *string, config *AgentregistryRegistryConfig) AgentregistryRegistry {
 	_init_.Initialize()
 
@@ -571,7 +654,7 @@ func NewAgentregistryRegistry(scope constructs.Construct, id *string, config *Ag
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/agentregistry_registry awscc_agentregistry_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry awscc_agentregistry_registry} Resource.
 func NewAgentregistryRegistry_Override(a AgentregistryRegistry, scope constructs.Construct, id *string, config *AgentregistryRegistryConfig) {
 	_init_.Initialize()
 
@@ -589,6 +672,28 @@ func (j *jsiiProxy_AgentregistryRegistry)SetAuthorizerType(val *string) {
 	_jsii_.Set(
 		j,
 		"authorizerType",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AgentregistryRegistry)SetAutoDetectionEnabled(val interface{}) {
+	if err := j.validateSetAutoDetectionEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"autoDetectionEnabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AgentregistryRegistry)SetAutoDetectionScope(val *string) {
+	if err := j.validateSetAutoDetectionScopeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"autoDetectionScope",
 		val,
 	)
 }
@@ -1074,6 +1179,17 @@ func (a *jsiiProxy_AgentregistryRegistry) PutDiscoveryConfiguration(value *Agent
 	)
 }
 
+func (a *jsiiProxy_AgentregistryRegistry) PutEncryptionConfiguration(value *AgentregistryRegistryEncryptionConfiguration) {
+	if err := a.validatePutEncryptionConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putEncryptionConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_AgentregistryRegistry) PutTags(value interface{}) {
 	if err := a.validatePutTagsParameters(value); err != nil {
 		panic(err)
@@ -1112,6 +1228,22 @@ func (a *jsiiProxy_AgentregistryRegistry) ResetAuthorizerType() {
 	)
 }
 
+func (a *jsiiProxy_AgentregistryRegistry) ResetAutoDetectionEnabled() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetAutoDetectionEnabled",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AgentregistryRegistry) ResetAutoDetectionScope() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetAutoDetectionScope",
+		nil, // no parameters
+	)
+}
+
 func (a *jsiiProxy_AgentregistryRegistry) ResetDescription() {
 	_jsii_.InvokeVoid(
 		a,
@@ -1124,6 +1256,14 @@ func (a *jsiiProxy_AgentregistryRegistry) ResetDiscoveryConfiguration() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetDiscoveryConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AgentregistryRegistry) ResetEncryptionConfiguration() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetEncryptionConfiguration",
 		nil, // no parameters
 	)
 }

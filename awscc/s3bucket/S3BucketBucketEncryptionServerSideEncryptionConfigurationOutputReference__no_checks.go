@@ -47,6 +47,10 @@ func (s *jsiiProxy_S3BucketBucketEncryptionServerSideEncryptionConfigurationOutp
 	return nil
 }
 
+func (s *jsiiProxy_S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference) validatePutBlockedEncryptionTypesParameters(value *S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference) validatePutServerSideEncryptionByDefaultParameters(value *S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefault) error {
 	return nil
 }

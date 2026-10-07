@@ -24,7 +24,7 @@ type Ec2IPv4PoolConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Any tags assigned to the public IPv4 pool.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_i_pv_4_pool#tags Ec2IPv4Pool#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_i_pv_4_pool#tags Ec2IPv4Pool#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

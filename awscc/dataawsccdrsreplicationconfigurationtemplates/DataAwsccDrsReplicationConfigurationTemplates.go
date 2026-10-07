@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/drs_replication_configuration_templates awscc_drs_replication_configuration_templates}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/drs_replication_configuration_templates awscc_drs_replication_configuration_templates}.
 type DataAwsccDrsReplicationConfigurationTemplates interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDrsReplicationConfigurationTemplates) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/drs_replication_configuration_templates awscc_drs_replication_configuration_templates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/drs_replication_configuration_templates awscc_drs_replication_configuration_templates} Data Source.
 func NewDataAwsccDrsReplicationConfigurationTemplates(scope constructs.Construct, id *string, config *DataAwsccDrsReplicationConfigurationTemplatesConfig) DataAwsccDrsReplicationConfigurationTemplates {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDrsReplicationConfigurationTemplates(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/drs_replication_configuration_templates awscc_drs_replication_configuration_templates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/drs_replication_configuration_templates awscc_drs_replication_configuration_templates} Data Source.
 func NewDataAwsccDrsReplicationConfigurationTemplates_Override(d DataAwsccDrsReplicationConfigurationTemplates, scope constructs.Construct, id *string, config *DataAwsccDrsReplicationConfigurationTemplatesConfig) {
 	_init_.Initialize()
 

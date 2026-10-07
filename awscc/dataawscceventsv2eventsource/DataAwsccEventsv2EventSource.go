@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/eventsv2_event_source awscc_eventsv2_event_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/eventsv2_event_source awscc_eventsv2_event_source}.
 type DataAwsccEventsv2EventSource interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccEventsv2EventSource) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/eventsv2_event_source awscc_eventsv2_event_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/eventsv2_event_source awscc_eventsv2_event_source} Data Source.
 func NewDataAwsccEventsv2EventSource(scope constructs.Construct, id *string, config *DataAwsccEventsv2EventSourceConfig) DataAwsccEventsv2EventSource {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccEventsv2EventSource(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/eventsv2_event_source awscc_eventsv2_event_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/eventsv2_event_source awscc_eventsv2_event_source} Data Source.
 func NewDataAwsccEventsv2EventSource_Override(d DataAwsccEventsv2EventSource, scope constructs.Construct, id *string, config *DataAwsccEventsv2EventSourceConfig) {
 	_init_.Initialize()
 

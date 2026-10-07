@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/cloud9_environment_ec2 awscc_cloud9_environment_ec2}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/cloud9_environment_ec2 awscc_cloud9_environment_ec2}.
 type DataAwsccCloud9EnvironmentEc2 interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccCloud9EnvironmentEc2) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/cloud9_environment_ec2 awscc_cloud9_environment_ec2} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/cloud9_environment_ec2 awscc_cloud9_environment_ec2} Data Source.
 func NewDataAwsccCloud9EnvironmentEc2(scope constructs.Construct, id *string, config *DataAwsccCloud9EnvironmentEc2Config) DataAwsccCloud9EnvironmentEc2 {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccCloud9EnvironmentEc2(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/cloud9_environment_ec2 awscc_cloud9_environment_ec2} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/cloud9_environment_ec2 awscc_cloud9_environment_ec2} Data Source.
 func NewDataAwsccCloud9EnvironmentEc2_Override(d DataAwsccCloud9EnvironmentEc2, scope constructs.Construct, id *string, config *DataAwsccCloud9EnvironmentEc2Config) {
 	_init_.Initialize()
 

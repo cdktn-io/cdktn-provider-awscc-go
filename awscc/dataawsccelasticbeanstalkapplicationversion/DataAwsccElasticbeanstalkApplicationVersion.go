@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version}.
 type DataAwsccElasticbeanstalkApplicationVersion interface {
 	cdktn.TerraformDataSource
 	ApplicationName() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccElasticbeanstalkApplicationVersion) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version} Data Source.
 func NewDataAwsccElasticbeanstalkApplicationVersion(scope constructs.Construct, id *string, config *DataAwsccElasticbeanstalkApplicationVersionConfig) DataAwsccElasticbeanstalkApplicationVersion {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccElasticbeanstalkApplicationVersion(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version} Data Source.
 func NewDataAwsccElasticbeanstalkApplicationVersion_Override(d DataAwsccElasticbeanstalkApplicationVersion, scope constructs.Construct, id *string, config *DataAwsccElasticbeanstalkApplicationVersionConfig) {
 	_init_.Initialize()
 

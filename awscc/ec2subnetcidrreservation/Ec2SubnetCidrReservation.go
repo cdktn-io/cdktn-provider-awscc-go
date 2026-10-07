@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_subnet_cidr_reservation awscc_ec2_subnet_cidr_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_subnet_cidr_reservation awscc_ec2_subnet_cidr_reservation}.
 type Ec2SubnetCidrReservation interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -505,7 +505,7 @@ func (j *jsiiProxy_Ec2SubnetCidrReservation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_subnet_cidr_reservation awscc_ec2_subnet_cidr_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_subnet_cidr_reservation awscc_ec2_subnet_cidr_reservation} Resource.
 func NewEc2SubnetCidrReservation(scope constructs.Construct, id *string, config *Ec2SubnetCidrReservationConfig) Ec2SubnetCidrReservation {
 	_init_.Initialize()
 
@@ -523,7 +523,7 @@ func NewEc2SubnetCidrReservation(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_subnet_cidr_reservation awscc_ec2_subnet_cidr_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_subnet_cidr_reservation awscc_ec2_subnet_cidr_reservation} Resource.
 func NewEc2SubnetCidrReservation_Override(e Ec2SubnetCidrReservation, scope constructs.Construct, id *string, config *Ec2SubnetCidrReservationConfig) {
 	_init_.Initialize()
 

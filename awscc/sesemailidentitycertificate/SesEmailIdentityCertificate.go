@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ses_email_identity_certificate awscc_ses_email_identity_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_email_identity_certificate awscc_ses_email_identity_certificate}.
 type SesEmailIdentityCertificate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_SesEmailIdentityCertificate) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ses_email_identity_certificate awscc_ses_email_identity_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_email_identity_certificate awscc_ses_email_identity_certificate} Resource.
 func NewSesEmailIdentityCertificate(scope constructs.Construct, id *string, config *SesEmailIdentityCertificateConfig) SesEmailIdentityCertificate {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewSesEmailIdentityCertificate(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ses_email_identity_certificate awscc_ses_email_identity_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_email_identity_certificate awscc_ses_email_identity_certificate} Resource.
 func NewSesEmailIdentityCertificate_Override(s SesEmailIdentityCertificate, scope constructs.Construct, id *string, config *SesEmailIdentityCertificateConfig) {
 	_init_.Initialize()
 

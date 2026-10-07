@@ -5,7 +5,7 @@ package sagemakernotebookinstancelifecycleconfig
 
 
 type SagemakerNotebookInstanceLifecycleConfigOnCreate struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_notebook_instance_lifecycle_config#content SagemakerNotebookInstanceLifecycleConfig#content}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_notebook_instance_lifecycle_config#content SagemakerNotebookInstanceLifecycleConfig#content}.
 	Content *string `field:"optional" json:"content" yaml:"content"`
 }
 

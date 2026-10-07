@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/config_configuration_recorders awscc_config_configuration_recorders}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/config_configuration_recorders awscc_config_configuration_recorders}.
 type DataAwsccConfigConfigurationRecorders interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccConfigConfigurationRecorders) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/config_configuration_recorders awscc_config_configuration_recorders} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/config_configuration_recorders awscc_config_configuration_recorders} Data Source.
 func NewDataAwsccConfigConfigurationRecorders(scope constructs.Construct, id *string, config *DataAwsccConfigConfigurationRecordersConfig) DataAwsccConfigConfigurationRecorders {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccConfigConfigurationRecorders(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/config_configuration_recorders awscc_config_configuration_recorders} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/config_configuration_recorders awscc_config_configuration_recorders} Data Source.
 func NewDataAwsccConfigConfigurationRecorders_Override(d DataAwsccConfigConfigurationRecorders, scope constructs.Construct, id *string, config *DataAwsccConfigConfigurationRecordersConfig) {
 	_init_.Initialize()
 

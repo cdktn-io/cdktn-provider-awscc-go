@@ -5,7 +5,7 @@ package sesmailmanageringresspoint
 
 
 type SesMailManagerIngressPointIngressPointConfigurationTlsAuthConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ses_mail_manager_ingress_point#trust_store SesMailManagerIngressPoint#trust_store}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_mail_manager_ingress_point#trust_store SesMailManagerIngressPoint#trust_store}.
 	TrustStore *SesMailManagerIngressPointIngressPointConfigurationTlsAuthConfigurationTrustStore `field:"optional" json:"trustStore" yaml:"trustStore"`
 }
 

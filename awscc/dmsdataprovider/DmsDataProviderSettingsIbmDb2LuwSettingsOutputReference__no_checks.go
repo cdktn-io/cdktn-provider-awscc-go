@@ -67,11 +67,19 @@ func (j *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) vali
 	return nil
 }
 
+func (j *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) validateSetEncryptionAlgorithmParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	return nil
 }
 
 func (j *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) validateSetPortParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) validateSetSecurityMechanismParameters(val *float64) error {
 	return nil
 }
 

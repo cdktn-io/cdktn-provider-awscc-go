@@ -7,11 +7,11 @@ package smsvoiceregistrationattachment
 type SmsvoiceRegistrationAttachmentTags struct {
 	// The key identifier, or name, of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_registration_attachment#key SmsvoiceRegistrationAttachment#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/smsvoice_registration_attachment#key SmsvoiceRegistrationAttachment#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The string value associated with the key of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_registration_attachment#value SmsvoiceRegistrationAttachment#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/smsvoice_registration_attachment#value SmsvoiceRegistrationAttachment#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

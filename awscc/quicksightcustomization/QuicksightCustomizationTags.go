@@ -7,11 +7,11 @@ package quicksightcustomization
 type QuicksightCustomizationTags struct {
 	// Tag key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_customization#key QuicksightCustomization#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/quicksight_customization#key QuicksightCustomization#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// Tag value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_customization#value QuicksightCustomization#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/quicksight_customization#value QuicksightCustomization#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

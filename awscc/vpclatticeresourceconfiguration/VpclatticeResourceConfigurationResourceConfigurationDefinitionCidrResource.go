@@ -5,7 +5,7 @@ package vpclatticeresourceconfiguration
 
 
 type VpclatticeResourceConfigurationResourceConfigurationDefinitionCidrResource struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/vpclattice_resource_configuration#cidr_ranges VpclatticeResourceConfiguration#cidr_ranges}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/vpclattice_resource_configuration#cidr_ranges VpclatticeResourceConfiguration#cidr_ranges}.
 	CidrRanges *[]*string `field:"optional" json:"cidrRanges" yaml:"cidrRanges"`
 }
 

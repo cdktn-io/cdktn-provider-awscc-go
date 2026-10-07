@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content awscc_wisdom_content}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content awscc_wisdom_content}.
 type WisdomContent interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -598,7 +598,7 @@ func (j *jsiiProxy_WisdomContent) UploadIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content awscc_wisdom_content} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content awscc_wisdom_content} Resource.
 func NewWisdomContent(scope constructs.Construct, id *string, config *WisdomContentConfig) WisdomContent {
 	_init_.Initialize()
 
@@ -616,7 +616,7 @@ func NewWisdomContent(scope constructs.Construct, id *string, config *WisdomCont
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content awscc_wisdom_content} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content awscc_wisdom_content} Resource.
 func NewWisdomContent_Override(w WisdomContent, scope constructs.Construct, id *string, config *WisdomContentConfig) {
 	_init_.Initialize()
 

@@ -30,11 +30,13 @@ type DataAwsccDmsDataProviderSettingsIbmDb2LuwSettingsOutputReference interface 
 	// Experimental.
 	CreationStack() *[]*string
 	DatabaseName() *string
+	EncryptionAlgorithm() *float64
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAwsccDmsDataProviderSettingsIbmDb2LuwSettings
 	SetInternalValue(val *DataAwsccDmsDataProviderSettingsIbmDb2LuwSettings)
 	Port() *float64
+	SecurityMechanism() *float64
 	ServerName() *string
 	SslMode() *string
 	// Experimental.
@@ -134,6 +136,16 @@ func (j *jsiiProxy_DataAwsccDmsDataProviderSettingsIbmDb2LuwSettingsOutputRefere
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccDmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) EncryptionAlgorithm() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"encryptionAlgorithm",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccDmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -159,6 +171,16 @@ func (j *jsiiProxy_DataAwsccDmsDataProviderSettingsIbmDb2LuwSettingsOutputRefere
 	_jsii_.Get(
 		j,
 		"port",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccDmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) SecurityMechanism() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"securityMechanism",
 		&returns,
 	)
 	return returns

@@ -7,7 +7,7 @@ package mediatailorprogram
 type MediatailorProgramAdBreaksTimeSignalMessage struct {
 	// The configurations for the SCTE-35 segmentation_descriptor message(s).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#segmentation_descriptors MediatailorProgram#segmentation_descriptors}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#segmentation_descriptors MediatailorProgram#segmentation_descriptors}
 	SegmentationDescriptors interface{} `field:"optional" json:"segmentationDescriptors" yaml:"segmentationDescriptors"`
 }
 

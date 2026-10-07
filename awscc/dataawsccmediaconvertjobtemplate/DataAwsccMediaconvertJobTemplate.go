@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mediaconvert_job_template awscc_mediaconvert_job_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/mediaconvert_job_template awscc_mediaconvert_job_template}.
 type DataAwsccMediaconvertJobTemplate interface {
 	cdktn.TerraformDataSource
 	AccelerationSettings() DataAwsccMediaconvertJobTemplateAccelerationSettingsOutputReference
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccMediaconvertJobTemplate) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mediaconvert_job_template awscc_mediaconvert_job_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/mediaconvert_job_template awscc_mediaconvert_job_template} Data Source.
 func NewDataAwsccMediaconvertJobTemplate(scope constructs.Construct, id *string, config *DataAwsccMediaconvertJobTemplateConfig) DataAwsccMediaconvertJobTemplate {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccMediaconvertJobTemplate(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mediaconvert_job_template awscc_mediaconvert_job_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/mediaconvert_job_template awscc_mediaconvert_job_template} Data Source.
 func NewDataAwsccMediaconvertJobTemplate_Override(d DataAwsccMediaconvertJobTemplate, scope constructs.Construct, id *string, config *DataAwsccMediaconvertJobTemplateConfig) {
 	_init_.Initialize()
 

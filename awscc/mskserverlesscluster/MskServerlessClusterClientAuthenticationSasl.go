@@ -5,7 +5,7 @@ package mskserverlesscluster
 
 
 type MskServerlessClusterClientAuthenticationSasl struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/msk_serverless_cluster#iam MskServerlessCluster#iam}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/msk_serverless_cluster#iam MskServerlessCluster#iam}.
 	Iam *MskServerlessClusterClientAuthenticationSaslIam `field:"required" json:"iam" yaml:"iam"`
 }
 

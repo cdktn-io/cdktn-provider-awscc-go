@@ -7,7 +7,7 @@ package scndataintegrationflow
 type ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriority struct {
 	// The list of field names and their sort order for deduplication.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#fields ScnDataIntegrationFlow#fields}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#fields ScnDataIntegrationFlow#fields}
 	Fields interface{} `field:"optional" json:"fields" yaml:"fields"`
 }
 

@@ -9,7 +9,7 @@ type Eventsv2EventSourceConfigurationAwsServiceEventsConfigurationOnFailureConfi
 	//
 	// FIFO queues are not supported.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_event_source#arn Eventsv2EventSource#arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_event_source#arn Eventsv2EventSource#arn}
 	Arn *string `field:"optional" json:"arn" yaml:"arn"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/sagemaker_workteam awscc_sagemaker_workteam}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/sagemaker_workteam awscc_sagemaker_workteam}.
 type DataAwsccSagemakerWorkteam interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccSagemakerWorkteam) WorkteamName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/sagemaker_workteam awscc_sagemaker_workteam} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/sagemaker_workteam awscc_sagemaker_workteam} Data Source.
 func NewDataAwsccSagemakerWorkteam(scope constructs.Construct, id *string, config *DataAwsccSagemakerWorkteamConfig) DataAwsccSagemakerWorkteam {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccSagemakerWorkteam(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/sagemaker_workteam awscc_sagemaker_workteam} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/sagemaker_workteam awscc_sagemaker_workteam} Data Source.
 func NewDataAwsccSagemakerWorkteam_Override(d DataAwsccSagemakerWorkteam, scope constructs.Construct, id *string, config *DataAwsccSagemakerWorkteamConfig) {
 	_init_.Initialize()
 

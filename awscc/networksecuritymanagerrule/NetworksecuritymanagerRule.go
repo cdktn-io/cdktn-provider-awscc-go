@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networksecuritymanager_rule awscc_networksecuritymanager_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_rule awscc_networksecuritymanager_rule}.
 type NetworksecuritymanagerRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -82,6 +82,7 @@ type NetworksecuritymanagerRule interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	UpdatedAt() *string
 	Version() *string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
@@ -531,6 +532,16 @@ func (j *jsiiProxy_NetworksecuritymanagerRule) TerraformResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_NetworksecuritymanagerRule) UpdatedAt() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updatedAt",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetworksecuritymanagerRule) Version() *string {
 	var returns *string
 	_jsii_.Get(
@@ -542,7 +553,7 @@ func (j *jsiiProxy_NetworksecuritymanagerRule) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networksecuritymanager_rule awscc_networksecuritymanager_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_rule awscc_networksecuritymanager_rule} Resource.
 func NewNetworksecuritymanagerRule(scope constructs.Construct, id *string, config *NetworksecuritymanagerRuleConfig) NetworksecuritymanagerRule {
 	_init_.Initialize()
 
@@ -560,7 +571,7 @@ func NewNetworksecuritymanagerRule(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networksecuritymanager_rule awscc_networksecuritymanager_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_rule awscc_networksecuritymanager_rule} Resource.
 func NewNetworksecuritymanagerRule_Override(n NetworksecuritymanagerRule, scope constructs.Construct, id *string, config *NetworksecuritymanagerRuleConfig) {
 	_init_.Initialize()
 

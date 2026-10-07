@@ -7,7 +7,7 @@ package redshiftredshiftidcapplication
 type RedshiftRedshiftIdcApplicationServiceIntegrationsLakeFormationLakeFormationQuery struct {
 	// Determines whether the query scope is enabled or disabled.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/redshift_redshift_idc_application#authorization RedshiftRedshiftIdcApplication#authorization}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/redshift_redshift_idc_application#authorization RedshiftRedshiftIdcApplication#authorization}
 	Authorization *string `field:"optional" json:"authorization" yaml:"authorization"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/networksecuritymanager_rules awscc_networksecuritymanager_rules}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/networksecuritymanager_rules awscc_networksecuritymanager_rules}.
 type DataAwsccNetworksecuritymanagerRules interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNetworksecuritymanagerRules) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/networksecuritymanager_rules awscc_networksecuritymanager_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/networksecuritymanager_rules awscc_networksecuritymanager_rules} Data Source.
 func NewDataAwsccNetworksecuritymanagerRules(scope constructs.Construct, id *string, config *DataAwsccNetworksecuritymanagerRulesConfig) DataAwsccNetworksecuritymanagerRules {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNetworksecuritymanagerRules(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/networksecuritymanager_rules awscc_networksecuritymanager_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/networksecuritymanager_rules awscc_networksecuritymanager_rules} Data Source.
 func NewDataAwsccNetworksecuritymanagerRules_Override(d DataAwsccNetworksecuritymanagerRules, scope constructs.Construct, id *string, config *DataAwsccNetworksecuritymanagerRulesConfig) {
 	_init_.Initialize()
 

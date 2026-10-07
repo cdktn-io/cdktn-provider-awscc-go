@@ -7,11 +7,11 @@ package bcmscheduledreport
 type BcmScheduledReportTags struct {
 	// The tag key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#key BcmScheduledReport#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/bcm_scheduled_report#key BcmScheduledReport#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The tag value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#value BcmScheduledReport#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/bcm_scheduled_report#value BcmScheduledReport#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

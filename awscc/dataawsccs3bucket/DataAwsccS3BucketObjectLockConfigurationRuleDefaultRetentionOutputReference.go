@@ -29,6 +29,7 @@ type DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference
 	// Experimental.
 	CreationStack() *[]*string
 	Days() *float64
+	DefaultEventHold() DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetention
@@ -117,6 +118,16 @@ func (j *jsiiProxy_DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionO
 	_jsii_.Get(
 		j,
 		"days",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference) DefaultEventHold() DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference {
+	var returns DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference
+	_jsii_.Get(
+		j,
+		"defaultEventHold",
 		&returns,
 	)
 	return returns

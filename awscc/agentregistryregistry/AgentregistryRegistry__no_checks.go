@@ -87,6 +87,10 @@ func (a *jsiiProxy_AgentregistryRegistry) validatePutDiscoveryConfigurationParam
 	return nil
 }
 
+func (a *jsiiProxy_AgentregistryRegistry) validatePutEncryptionConfigurationParameters(value *AgentregistryRegistryEncryptionConfiguration) error {
+	return nil
+}
+
 func (a *jsiiProxy_AgentregistryRegistry) validatePutTagsParameters(value interface{}) error {
 	return nil
 }
@@ -112,6 +116,14 @@ func validateAgentregistryRegistry_IsTerraformResourceParameters(x interface{}) 
 }
 
 func (j *jsiiProxy_AgentregistryRegistry) validateSetAuthorizerTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AgentregistryRegistry) validateSetAutoDetectionEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AgentregistryRegistry) validateSetAutoDetectionScopeParameters(val *string) error {
 	return nil
 }
 

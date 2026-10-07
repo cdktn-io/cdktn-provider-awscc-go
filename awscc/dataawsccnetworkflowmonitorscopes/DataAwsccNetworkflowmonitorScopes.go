@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/networkflowmonitor_scopes awscc_networkflowmonitor_scopes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/networkflowmonitor_scopes awscc_networkflowmonitor_scopes}.
 type DataAwsccNetworkflowmonitorScopes interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNetworkflowmonitorScopes) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/networkflowmonitor_scopes awscc_networkflowmonitor_scopes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/networkflowmonitor_scopes awscc_networkflowmonitor_scopes} Data Source.
 func NewDataAwsccNetworkflowmonitorScopes(scope constructs.Construct, id *string, config *DataAwsccNetworkflowmonitorScopesConfig) DataAwsccNetworkflowmonitorScopes {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNetworkflowmonitorScopes(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/networkflowmonitor_scopes awscc_networkflowmonitor_scopes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/networkflowmonitor_scopes awscc_networkflowmonitor_scopes} Data Source.
 func NewDataAwsccNetworkflowmonitorScopes_Override(d DataAwsccNetworkflowmonitorScopes, scope constructs.Construct, id *string, config *DataAwsccNetworkflowmonitorScopesConfig) {
 	_init_.Initialize()
 

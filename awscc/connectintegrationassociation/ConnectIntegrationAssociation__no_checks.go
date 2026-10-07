@@ -131,6 +131,18 @@ func (j *jsiiProxy_ConnectIntegrationAssociation) validateSetProvisionersParamet
 	return nil
 }
 
+func (j *jsiiProxy_ConnectIntegrationAssociation) validateSetSourceApplicationNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectIntegrationAssociation) validateSetSourceApplicationUrlParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ConnectIntegrationAssociation) validateSetSourceTypeParameters(val *string) error {
+	return nil
+}
+
 func validateNewConnectIntegrationAssociationParameters(scope constructs.Construct, id *string, config *ConnectIntegrationAssociationConfig) error {
 	return nil
 }

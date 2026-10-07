@@ -26,19 +26,19 @@ type QuicksightCustomizationConfig struct {
 	//
 	// May be an AWS-managed starter theme such as arn:{Partition}:quicksight::aws:theme/MIDNIGHT or a theme owned by this account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_customization#default_theme QuicksightCustomization#default_theme}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/quicksight_customization#default_theme QuicksightCustomization#default_theme}
 	DefaultTheme *string `field:"required" json:"defaultTheme" yaml:"defaultTheme"`
 	// The QuickSight namespace the customization applies to.
 	//
 	// One customization exists per (account, region, namespace), so this is create-only: changing it addresses a different resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_customization#namespace QuicksightCustomization#namespace}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/quicksight_customization#namespace QuicksightCustomization#namespace}
 	Namespace *string `field:"required" json:"namespace" yaml:"namespace"`
 	// Tags applied to the customization.
 	//
 	// QuickSight rejects any key prefixed aws: or quicksight:, so CloudFormation system tags are not propagated.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_customization#tags QuicksightCustomization#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/quicksight_customization#tags QuicksightCustomization#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mediatailor_program awscc_mediatailor_program}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/mediatailor_program awscc_mediatailor_program}.
 type DataAwsccMediatailorProgram interface {
 	cdktn.TerraformDataSource
 	AdBreaks() DataAwsccMediatailorProgramAdBreaksList
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccMediatailorProgram) VodSourceName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mediatailor_program awscc_mediatailor_program} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/mediatailor_program awscc_mediatailor_program} Data Source.
 func NewDataAwsccMediatailorProgram(scope constructs.Construct, id *string, config *DataAwsccMediatailorProgramConfig) DataAwsccMediatailorProgram {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccMediatailorProgram(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mediatailor_program awscc_mediatailor_program} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/mediatailor_program awscc_mediatailor_program} Data Source.
 func NewDataAwsccMediatailorProgram_Override(d DataAwsccMediatailorProgram, scope constructs.Construct, id *string, config *DataAwsccMediatailorProgramConfig) {
 	_init_.Initialize()
 

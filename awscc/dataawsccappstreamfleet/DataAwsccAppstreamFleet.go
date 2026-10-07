@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/appstream_fleet awscc_appstream_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/appstream_fleet awscc_appstream_fleet}.
 type DataAwsccAppstreamFleet interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -572,7 +572,7 @@ func (j *jsiiProxy_DataAwsccAppstreamFleet) VpcConfig() DataAwsccAppstreamFleetV
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/appstream_fleet awscc_appstream_fleet} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/appstream_fleet awscc_appstream_fleet} Data Source.
 func NewDataAwsccAppstreamFleet(scope constructs.Construct, id *string, config *DataAwsccAppstreamFleetConfig) DataAwsccAppstreamFleet {
 	_init_.Initialize()
 
@@ -590,7 +590,7 @@ func NewDataAwsccAppstreamFleet(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/appstream_fleet awscc_appstream_fleet} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/appstream_fleet awscc_appstream_fleet} Data Source.
 func NewDataAwsccAppstreamFleet_Override(d DataAwsccAppstreamFleet, scope constructs.Construct, id *string, config *DataAwsccAppstreamFleetConfig) {
 	_init_.Initialize()
 

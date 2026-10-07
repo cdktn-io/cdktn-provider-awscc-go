@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/route53_delegation_sets awscc_route53_delegation_sets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/route53_delegation_sets awscc_route53_delegation_sets}.
 type DataAwsccRoute53DelegationSets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRoute53DelegationSets) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/route53_delegation_sets awscc_route53_delegation_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/route53_delegation_sets awscc_route53_delegation_sets} Data Source.
 func NewDataAwsccRoute53DelegationSets(scope constructs.Construct, id *string, config *DataAwsccRoute53DelegationSetsConfig) DataAwsccRoute53DelegationSets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRoute53DelegationSets(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/route53_delegation_sets awscc_route53_delegation_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/route53_delegation_sets awscc_route53_delegation_sets} Data Source.
 func NewDataAwsccRoute53DelegationSets_Override(d DataAwsccRoute53DelegationSets, scope constructs.Construct, id *string, config *DataAwsccRoute53DelegationSetsConfig) {
 	_init_.Initialize()
 

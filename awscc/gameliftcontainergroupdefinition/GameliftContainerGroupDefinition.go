@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition awscc_gamelift_container_group_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition awscc_gamelift_container_group_definition}.
 type GameliftContainerGroupDefinition interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -197,6 +197,7 @@ type GameliftContainerGroupDefinition interface {
 	ResetSourceVersionNumber()
 	ResetSupportContainerDefinitions()
 	ResetTags()
+	ResetTotalVcpuLimit()
 	ResetVersionDescription()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -646,7 +647,7 @@ func (j *jsiiProxy_GameliftContainerGroupDefinition) VersionNumber() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition awscc_gamelift_container_group_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition awscc_gamelift_container_group_definition} Resource.
 func NewGameliftContainerGroupDefinition(scope constructs.Construct, id *string, config *GameliftContainerGroupDefinitionConfig) GameliftContainerGroupDefinition {
 	_init_.Initialize()
 
@@ -664,7 +665,7 @@ func NewGameliftContainerGroupDefinition(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition awscc_gamelift_container_group_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition awscc_gamelift_container_group_definition} Resource.
 func NewGameliftContainerGroupDefinition_Override(g GameliftContainerGroupDefinition, scope constructs.Construct, id *string, config *GameliftContainerGroupDefinitionConfig) {
 	_init_.Initialize()
 
@@ -1277,6 +1278,14 @@ func (g *jsiiProxy_GameliftContainerGroupDefinition) ResetTags() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetTags",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GameliftContainerGroupDefinition) ResetTotalVcpuLimit() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetTotalVcpuLimit",
 		nil, // no parameters
 	)
 }

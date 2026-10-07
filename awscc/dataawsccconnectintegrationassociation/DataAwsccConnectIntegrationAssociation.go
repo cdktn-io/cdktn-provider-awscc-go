@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/connect_integration_association awscc_connect_integration_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/connect_integration_association awscc_connect_integration_association}.
 type DataAwsccConnectIntegrationAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -54,6 +54,9 @@ type DataAwsccConnectIntegrationAssociation interface {
 	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
+	SourceApplicationName() *string
+	SourceApplicationUrl() *string
+	SourceType() *string
 	Tags() DataAwsccConnectIntegrationAssociationTagsList
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -300,6 +303,36 @@ func (j *jsiiProxy_DataAwsccConnectIntegrationAssociation) RawOverrides() interf
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccConnectIntegrationAssociation) SourceApplicationName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceApplicationName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccConnectIntegrationAssociation) SourceApplicationUrl() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceApplicationUrl",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccConnectIntegrationAssociation) SourceType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceType",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccConnectIntegrationAssociation) Tags() DataAwsccConnectIntegrationAssociationTagsList {
 	var returns DataAwsccConnectIntegrationAssociationTagsList
 	_jsii_.Get(
@@ -341,7 +374,7 @@ func (j *jsiiProxy_DataAwsccConnectIntegrationAssociation) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/connect_integration_association awscc_connect_integration_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/connect_integration_association awscc_connect_integration_association} Data Source.
 func NewDataAwsccConnectIntegrationAssociation(scope constructs.Construct, id *string, config *DataAwsccConnectIntegrationAssociationConfig) DataAwsccConnectIntegrationAssociation {
 	_init_.Initialize()
 
@@ -359,7 +392,7 @@ func NewDataAwsccConnectIntegrationAssociation(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/connect_integration_association awscc_connect_integration_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/connect_integration_association awscc_connect_integration_association} Data Source.
 func NewDataAwsccConnectIntegrationAssociation_Override(d DataAwsccConnectIntegrationAssociation, scope constructs.Construct, id *string, config *DataAwsccConnectIntegrationAssociationConfig) {
 	_init_.Initialize()
 

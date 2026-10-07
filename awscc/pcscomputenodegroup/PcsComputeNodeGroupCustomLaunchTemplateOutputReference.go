@@ -71,6 +71,7 @@ type PcsComputeNodeGroupCustomLaunchTemplateOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetTemplateId()
+	ResetVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -491,6 +492,14 @@ func (p *jsiiProxy_PcsComputeNodeGroupCustomLaunchTemplateOutputReference) Reset
 	_jsii_.InvokeVoid(
 		p,
 		"resetTemplateId",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PcsComputeNodeGroupCustomLaunchTemplateOutputReference) ResetVersion() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetVersion",
 		nil, // no parameters
 	)
 }

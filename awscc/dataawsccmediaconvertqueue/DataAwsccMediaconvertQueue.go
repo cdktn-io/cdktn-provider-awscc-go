@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mediaconvert_queue awscc_mediaconvert_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/mediaconvert_queue awscc_mediaconvert_queue}.
 type DataAwsccMediaconvertQueue interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccMediaconvertQueue) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mediaconvert_queue awscc_mediaconvert_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/mediaconvert_queue awscc_mediaconvert_queue} Data Source.
 func NewDataAwsccMediaconvertQueue(scope constructs.Construct, id *string, config *DataAwsccMediaconvertQueueConfig) DataAwsccMediaconvertQueue {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccMediaconvertQueue(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mediaconvert_queue awscc_mediaconvert_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/mediaconvert_queue awscc_mediaconvert_queue} Data Source.
 func NewDataAwsccMediaconvertQueue_Override(d DataAwsccMediaconvertQueue, scope constructs.Construct, id *string, config *DataAwsccMediaconvertQueueConfig) {
 	_init_.Initialize()
 

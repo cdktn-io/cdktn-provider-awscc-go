@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_use_case awscc_connect_use_case}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_use_case awscc_connect_use_case}.
 type ConnectUseCase interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -470,7 +470,7 @@ func (j *jsiiProxy_ConnectUseCase) UseCaseTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_use_case awscc_connect_use_case} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_use_case awscc_connect_use_case} Resource.
 func NewConnectUseCase(scope constructs.Construct, id *string, config *ConnectUseCaseConfig) ConnectUseCase {
 	_init_.Initialize()
 
@@ -488,7 +488,7 @@ func NewConnectUseCase(scope constructs.Construct, id *string, config *ConnectUs
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_use_case awscc_connect_use_case} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_use_case awscc_connect_use_case} Resource.
 func NewConnectUseCase_Override(c ConnectUseCase, scope constructs.Construct, id *string, config *ConnectUseCaseConfig) {
 	_init_.Initialize()
 

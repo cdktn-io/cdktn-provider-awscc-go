@@ -34,6 +34,9 @@ type DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference interface {
 	DatabaseName() *string
 	SetDatabaseName(val *string)
 	DatabaseNameInput() *string
+	EncryptionAlgorithm() *float64
+	SetEncryptionAlgorithm(val *float64)
+	EncryptionAlgorithmInput() *float64
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -41,6 +44,9 @@ type DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference interface {
 	Port() *float64
 	SetPort(val *float64)
 	PortInput() *float64
+	SecurityMechanism() *float64
+	SetSecurityMechanism(val *float64)
+	SecurityMechanismInput() *float64
 	ServerName() *string
 	SetServerName(val *string)
 	ServerNameInput() *string
@@ -81,7 +87,9 @@ type DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCertificateArn()
 	ResetDatabaseName()
+	ResetEncryptionAlgorithm()
 	ResetPort()
+	ResetSecurityMechanism()
 	ResetServerName()
 	ResetSslMode()
 	// Produce the Token's value at resolution time.
@@ -169,6 +177,26 @@ func (j *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) Data
 	return returns
 }
 
+func (j *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) EncryptionAlgorithm() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"encryptionAlgorithm",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) EncryptionAlgorithmInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"encryptionAlgorithmInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -204,6 +232,26 @@ func (j *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) Port
 	_jsii_.Get(
 		j,
 		"portInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) SecurityMechanism() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"securityMechanism",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) SecurityMechanismInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"securityMechanismInput",
 		&returns,
 	)
 	return returns
@@ -341,6 +389,17 @@ func (j *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference)SetDa
 	)
 }
 
+func (j *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference)SetEncryptionAlgorithm(val *float64) {
+	if err := j.validateSetEncryptionAlgorithmParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"encryptionAlgorithm",
+		val,
+	)
+}
+
 func (j *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference)SetInternalValue(val interface{}) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
@@ -359,6 +418,17 @@ func (j *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference)SetPo
 	_jsii_.Set(
 		j,
 		"port",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference)SetSecurityMechanism(val *float64) {
+	if err := j.validateSetSecurityMechanismParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"securityMechanism",
 		val,
 	)
 }
@@ -609,10 +679,26 @@ func (d *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) Rese
 	)
 }
 
+func (d *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) ResetEncryptionAlgorithm() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetEncryptionAlgorithm",
+		nil, // no parameters
+	)
+}
+
 func (d *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) ResetPort() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetPort",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) ResetSecurityMechanism() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetSecurityMechanism",
 		nil, // no parameters
 	)
 }

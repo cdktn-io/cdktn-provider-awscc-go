@@ -5,7 +5,7 @@ package datazoneconnection
 
 
 type DatazoneConnectionPropsAthenaProperties struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/datazone_connection#workgroup_name DatazoneConnection#workgroup_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/datazone_connection#workgroup_name DatazoneConnection#workgroup_name}.
 	WorkgroupName *string `field:"optional" json:"workgroupName" yaml:"workgroupName"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_integration_association awscc_connect_integration_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_integration_association awscc_connect_integration_association}.
 type ConnectIntegrationAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -66,6 +66,15 @@ type ConnectIntegrationAssociation interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	SourceApplicationName() *string
+	SetSourceApplicationName(val *string)
+	SourceApplicationNameInput() *string
+	SourceApplicationUrl() *string
+	SetSourceApplicationUrl(val *string)
+	SourceApplicationUrlInput() *string
+	SourceType() *string
+	SetSourceType(val *string)
+	SourceTypeInput() *string
 	Tags() ConnectIntegrationAssociationTagsList
 	TagsInput() interface{}
 	// Experimental.
@@ -170,6 +179,9 @@ type ConnectIntegrationAssociation interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetSourceApplicationName()
+	ResetSourceApplicationUrl()
+	ResetSourceType()
 	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -408,6 +420,66 @@ func (j *jsiiProxy_ConnectIntegrationAssociation) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_ConnectIntegrationAssociation) SourceApplicationName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceApplicationName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ConnectIntegrationAssociation) SourceApplicationNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceApplicationNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ConnectIntegrationAssociation) SourceApplicationUrl() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceApplicationUrl",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ConnectIntegrationAssociation) SourceApplicationUrlInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceApplicationUrlInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ConnectIntegrationAssociation) SourceType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ConnectIntegrationAssociation) SourceTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sourceTypeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ConnectIntegrationAssociation) Tags() ConnectIntegrationAssociationTagsList {
 	var returns ConnectIntegrationAssociationTagsList
 	_jsii_.Get(
@@ -459,7 +531,7 @@ func (j *jsiiProxy_ConnectIntegrationAssociation) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_integration_association awscc_connect_integration_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_integration_association awscc_connect_integration_association} Resource.
 func NewConnectIntegrationAssociation(scope constructs.Construct, id *string, config *ConnectIntegrationAssociationConfig) ConnectIntegrationAssociation {
 	_init_.Initialize()
 
@@ -477,7 +549,7 @@ func NewConnectIntegrationAssociation(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_integration_association awscc_connect_integration_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_integration_association awscc_connect_integration_association} Resource.
 func NewConnectIntegrationAssociation_Override(c ConnectIntegrationAssociation, scope constructs.Construct, id *string, config *ConnectIntegrationAssociationConfig) {
 	_init_.Initialize()
 
@@ -585,6 +657,39 @@ func (j *jsiiProxy_ConnectIntegrationAssociation)SetProvisioners(val *[]interfac
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ConnectIntegrationAssociation)SetSourceApplicationName(val *string) {
+	if err := j.validateSetSourceApplicationNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"sourceApplicationName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ConnectIntegrationAssociation)SetSourceApplicationUrl(val *string) {
+	if err := j.validateSetSourceApplicationUrlParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"sourceApplicationUrl",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ConnectIntegrationAssociation)SetSourceType(val *string) {
+	if err := j.validateSetSourceTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"sourceType",
 		val,
 	)
 }
@@ -984,6 +1089,30 @@ func (c *jsiiProxy_ConnectIntegrationAssociation) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ConnectIntegrationAssociation) ResetSourceApplicationName() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSourceApplicationName",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ConnectIntegrationAssociation) ResetSourceApplicationUrl() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSourceApplicationUrl",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ConnectIntegrationAssociation) ResetSourceType() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSourceType",
 		nil, // no parameters
 	)
 }

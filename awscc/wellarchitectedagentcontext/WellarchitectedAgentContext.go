@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_context awscc_wellarchitected_agent_context}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wellarchitected_agent_context awscc_wellarchitected_agent_context}.
 type WellarchitectedAgentContext interface {
 	cdktn.TerraformResource
 	AgentContextId() *string
@@ -535,7 +535,7 @@ func (j *jsiiProxy_WellarchitectedAgentContext) TitleInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_context awscc_wellarchitected_agent_context} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wellarchitected_agent_context awscc_wellarchitected_agent_context} Resource.
 func NewWellarchitectedAgentContext(scope constructs.Construct, id *string, config *WellarchitectedAgentContextConfig) WellarchitectedAgentContext {
 	_init_.Initialize()
 
@@ -553,7 +553,7 @@ func NewWellarchitectedAgentContext(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_context awscc_wellarchitected_agent_context} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wellarchitected_agent_context awscc_wellarchitected_agent_context} Resource.
 func NewWellarchitectedAgentContext_Override(w WellarchitectedAgentContext, scope constructs.Construct, id *string, config *WellarchitectedAgentContextConfig) {
 	_init_.Initialize()
 

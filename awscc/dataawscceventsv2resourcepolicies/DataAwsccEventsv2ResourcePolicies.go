@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/eventsv2_resource_policies awscc_eventsv2_resource_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/eventsv2_resource_policies awscc_eventsv2_resource_policies}.
 type DataAwsccEventsv2ResourcePolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEventsv2ResourcePolicies) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/eventsv2_resource_policies awscc_eventsv2_resource_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/eventsv2_resource_policies awscc_eventsv2_resource_policies} Data Source.
 func NewDataAwsccEventsv2ResourcePolicies(scope constructs.Construct, id *string, config *DataAwsccEventsv2ResourcePoliciesConfig) DataAwsccEventsv2ResourcePolicies {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEventsv2ResourcePolicies(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/eventsv2_resource_policies awscc_eventsv2_resource_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/eventsv2_resource_policies awscc_eventsv2_resource_policies} Data Source.
 func NewDataAwsccEventsv2ResourcePolicies_Override(d DataAwsccEventsv2ResourcePolicies, scope constructs.Construct, id *string, config *DataAwsccEventsv2ResourcePoliciesConfig) {
 	_init_.Initialize()
 

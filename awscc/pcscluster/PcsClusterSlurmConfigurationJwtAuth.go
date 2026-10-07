@@ -7,7 +7,7 @@ package pcscluster
 type PcsClusterSlurmConfigurationJwtAuth struct {
 	// JWT key configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_cluster#jwt_key PcsCluster#jwt_key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_cluster#jwt_key PcsCluster#jwt_key}
 	JwtKey *PcsClusterSlurmConfigurationJwtAuthJwtKey `field:"optional" json:"jwtKey" yaml:"jwtKey"`
 }
 

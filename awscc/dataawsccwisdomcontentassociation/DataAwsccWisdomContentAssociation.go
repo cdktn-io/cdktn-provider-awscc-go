@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/wisdom_content_association awscc_wisdom_content_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/wisdom_content_association awscc_wisdom_content_association}.
 type DataAwsccWisdomContentAssociation interface {
 	cdktn.TerraformDataSource
 	Association() DataAwsccWisdomContentAssociationAssociationOutputReference
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccWisdomContentAssociation) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/wisdom_content_association awscc_wisdom_content_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/wisdom_content_association awscc_wisdom_content_association} Data Source.
 func NewDataAwsccWisdomContentAssociation(scope constructs.Construct, id *string, config *DataAwsccWisdomContentAssociationConfig) DataAwsccWisdomContentAssociation {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccWisdomContentAssociation(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/wisdom_content_association awscc_wisdom_content_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/wisdom_content_association awscc_wisdom_content_association} Data Source.
 func NewDataAwsccWisdomContentAssociation_Override(d DataAwsccWisdomContentAssociation, scope constructs.Construct, id *string, config *DataAwsccWisdomContentAssociationConfig) {
 	_init_.Initialize()
 

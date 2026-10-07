@@ -5,7 +5,7 @@ package servicediscoveryprivatednsnamespace
 
 
 type ServicediscoveryPrivateDnsNamespacePropertiesDnsProperties struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/servicediscovery_private_dns_namespace#soa ServicediscoveryPrivateDnsNamespace#soa}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/servicediscovery_private_dns_namespace#soa ServicediscoveryPrivateDnsNamespace#soa}.
 	Soa *ServicediscoveryPrivateDnsNamespacePropertiesDnsPropertiesSoa `field:"optional" json:"soa" yaml:"soa"`
 }
 

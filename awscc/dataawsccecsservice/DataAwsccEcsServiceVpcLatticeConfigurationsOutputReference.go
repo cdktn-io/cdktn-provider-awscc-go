@@ -13,6 +13,7 @@ import (
 
 type DataAwsccEcsServiceVpcLatticeConfigurationsOutputReference interface {
 	cdktn.ComplexObject
+	AdvancedConfiguration() DataAwsccEcsServiceVpcLatticeConfigurationsAdvancedConfigurationOutputReference
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -80,6 +81,16 @@ type DataAwsccEcsServiceVpcLatticeConfigurationsOutputReference interface {
 // The jsii proxy struct for DataAwsccEcsServiceVpcLatticeConfigurationsOutputReference
 type jsiiProxy_DataAwsccEcsServiceVpcLatticeConfigurationsOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataAwsccEcsServiceVpcLatticeConfigurationsOutputReference) AdvancedConfiguration() DataAwsccEcsServiceVpcLatticeConfigurationsAdvancedConfigurationOutputReference {
+	var returns DataAwsccEcsServiceVpcLatticeConfigurationsAdvancedConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"advancedConfiguration",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAwsccEcsServiceVpcLatticeConfigurationsOutputReference) ComplexObjectIndex() interface{} {

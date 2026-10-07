@@ -1,0 +1,133 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package ec2secondarynetwork
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (e *jsiiProxy_Ec2SecondaryNetwork) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2SecondaryNetwork) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2SecondaryNetwork) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2SecondaryNetwork) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2SecondaryNetwork) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2SecondaryNetwork) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2SecondaryNetwork) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2SecondaryNetwork) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2SecondaryNetwork) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2SecondaryNetwork) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2SecondaryNetwork) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2SecondaryNetwork) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2SecondaryNetwork) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2SecondaryNetwork) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2SecondaryNetwork) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2SecondaryNetwork) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2SecondaryNetwork) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2SecondaryNetwork) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2SecondaryNetwork) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (e *jsiiProxy_Ec2SecondaryNetwork) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateEc2SecondaryNetwork_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateEc2SecondaryNetwork_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateEc2SecondaryNetwork_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateEc2SecondaryNetwork_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_Ec2SecondaryNetwork) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_Ec2SecondaryNetwork) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_Ec2SecondaryNetwork) validateSetIpv4CidrBlockParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_Ec2SecondaryNetwork) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_Ec2SecondaryNetwork) validateSetNetworkTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_Ec2SecondaryNetwork) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func validateNewEc2SecondaryNetworkParameters(scope constructs.Construct, id *string, config *Ec2SecondaryNetworkConfig) error {
+	return nil
+}
+

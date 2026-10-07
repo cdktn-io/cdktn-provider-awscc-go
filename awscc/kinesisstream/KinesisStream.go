@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/kinesis_stream awscc_kinesis_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/kinesis_stream awscc_kinesis_stream}.
 type KinesisStream interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -66,6 +66,9 @@ type KinesisStream interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	RecordDistributionStrategy() *string
+	SetRecordDistributionStrategy(val *string)
+	RecordDistributionStrategyInput() *string
 	RetentionPeriodHours() *float64
 	SetRetentionPeriodHours(val *float64)
 	RetentionPeriodHoursInput() *float64
@@ -189,6 +192,7 @@ type KinesisStream interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetRecordDistributionStrategy()
 	ResetRetentionPeriodHours()
 	ResetShardCount()
 	ResetStreamEncryption()
@@ -432,6 +436,26 @@ func (j *jsiiProxy_KinesisStream) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_KinesisStream) RecordDistributionStrategy() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"recordDistributionStrategy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KinesisStream) RecordDistributionStrategyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"recordDistributionStrategyInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_KinesisStream) RetentionPeriodHours() *float64 {
 	var returns *float64
 	_jsii_.Get(
@@ -593,7 +617,7 @@ func (j *jsiiProxy_KinesisStream) WarmThroughputObject() KinesisStreamWarmThroug
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/kinesis_stream awscc_kinesis_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/kinesis_stream awscc_kinesis_stream} Resource.
 func NewKinesisStream(scope constructs.Construct, id *string, config *KinesisStreamConfig) KinesisStream {
 	_init_.Initialize()
 
@@ -611,7 +635,7 @@ func NewKinesisStream(scope constructs.Construct, id *string, config *KinesisStr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/kinesis_stream awscc_kinesis_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/kinesis_stream awscc_kinesis_stream} Resource.
 func NewKinesisStream_Override(k KinesisStream, scope constructs.Construct, id *string, config *KinesisStreamConfig) {
 	_init_.Initialize()
 
@@ -719,6 +743,17 @@ func (j *jsiiProxy_KinesisStream)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_KinesisStream)SetRecordDistributionStrategy(val *string) {
+	if err := j.validateSetRecordDistributionStrategyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"recordDistributionStrategy",
 		val,
 	)
 }
@@ -1197,6 +1232,14 @@ func (k *jsiiProxy_KinesisStream) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		k,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (k *jsiiProxy_KinesisStream) ResetRecordDistributionStrategy() {
+	_jsii_.InvokeVoid(
+		k,
+		"resetRecordDistributionStrategy",
 		nil, // no parameters
 	)
 }

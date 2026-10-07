@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/transcribe_medical_vocabulary awscc_transcribe_medical_vocabulary}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/transcribe_medical_vocabulary awscc_transcribe_medical_vocabulary}.
 type DataAwsccTranscribeMedicalVocabulary interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccTranscribeMedicalVocabulary) VocabularyName() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/transcribe_medical_vocabulary awscc_transcribe_medical_vocabulary} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/transcribe_medical_vocabulary awscc_transcribe_medical_vocabulary} Data Source.
 func NewDataAwsccTranscribeMedicalVocabulary(scope constructs.Construct, id *string, config *DataAwsccTranscribeMedicalVocabularyConfig) DataAwsccTranscribeMedicalVocabulary {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccTranscribeMedicalVocabulary(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/transcribe_medical_vocabulary awscc_transcribe_medical_vocabulary} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/transcribe_medical_vocabulary awscc_transcribe_medical_vocabulary} Data Source.
 func NewDataAwsccTranscribeMedicalVocabulary_Override(d DataAwsccTranscribeMedicalVocabulary, scope constructs.Construct, id *string, config *DataAwsccTranscribeMedicalVocabularyConfig) {
 	_init_.Initialize()
 

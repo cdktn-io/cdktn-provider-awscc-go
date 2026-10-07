@@ -1,3 +1,3 @@
 # `awscc_rds_option_group`
 
-Refer to the Terraform Registry for docs: [`awscc_rds_option_group`](https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/rds_option_group).
+Refer to the Terraform Registry for docs: [`awscc_rds_option_group`](https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/rds_option_group).

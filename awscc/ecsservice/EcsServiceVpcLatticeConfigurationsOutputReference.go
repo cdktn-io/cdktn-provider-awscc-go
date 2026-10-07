@@ -13,6 +13,8 @@ import (
 
 type EcsServiceVpcLatticeConfigurationsOutputReference interface {
 	cdktn.ComplexObject
+	AdvancedConfiguration() EcsServiceVpcLatticeConfigurationsAdvancedConfigurationOutputReference
+	AdvancedConfigurationInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -73,6 +75,8 @@ type EcsServiceVpcLatticeConfigurationsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAdvancedConfiguration(value *EcsServiceVpcLatticeConfigurationsAdvancedConfiguration)
+	ResetAdvancedConfiguration()
 	ResetPortName()
 	ResetRoleArn()
 	ResetTargetGroupArn()
@@ -89,6 +93,26 @@ type EcsServiceVpcLatticeConfigurationsOutputReference interface {
 // The jsii proxy struct for EcsServiceVpcLatticeConfigurationsOutputReference
 type jsiiProxy_EcsServiceVpcLatticeConfigurationsOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_EcsServiceVpcLatticeConfigurationsOutputReference) AdvancedConfiguration() EcsServiceVpcLatticeConfigurationsAdvancedConfigurationOutputReference {
+	var returns EcsServiceVpcLatticeConfigurationsAdvancedConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"advancedConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsServiceVpcLatticeConfigurationsOutputReference) AdvancedConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"advancedConfigurationInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_EcsServiceVpcLatticeConfigurationsOutputReference) ComplexObjectIndex() interface{} {
@@ -521,6 +545,25 @@ func (e *jsiiProxy_EcsServiceVpcLatticeConfigurationsOutputReference) Interpolat
 	)
 
 	return returns
+}
+
+func (e *jsiiProxy_EcsServiceVpcLatticeConfigurationsOutputReference) PutAdvancedConfiguration(value *EcsServiceVpcLatticeConfigurationsAdvancedConfiguration) {
+	if err := e.validatePutAdvancedConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putAdvancedConfiguration",
+		[]interface{}{value},
+	)
+}
+
+func (e *jsiiProxy_EcsServiceVpcLatticeConfigurationsOutputReference) ResetAdvancedConfiguration() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetAdvancedConfiguration",
+		nil, // no parameters
+	)
 }
 
 func (e *jsiiProxy_EcsServiceVpcLatticeConfigurationsOutputReference) ResetPortName() {

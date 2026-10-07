@@ -5,9 +5,17 @@ package fsxvolume
 
 
 type FsxVolumeOntapConfigurationAggregateConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#aggregates FsxVolume#aggregates}.
+	// The list of aggregates that this volume resides on.
+	//
+	// Aggregates are storage pools which make up your primary storage tier.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#aggregates FsxVolume#aggregates}
 	Aggregates *[]*string `field:"optional" json:"aggregates" yaml:"aggregates"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#constituents_per_aggregate FsxVolume#constituents_per_aggregate}.
+	// Used to explicitly set the number of constituents within the FlexGroup per storage aggregate.
+	//
+	// This field is optional when creating a FlexGroup volume. If unspecified, the default value will be 8. This field cannot be provided when creating a FlexVol volume.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#constituents_per_aggregate FsxVolume#constituents_per_aggregate}
 	ConstituentsPerAggregate *float64 `field:"optional" json:"constituentsPerAggregate" yaml:"constituentsPerAggregate"`
 }
 

@@ -9,7 +9,7 @@ type BedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfig
 	//
 	// Exactly one variant is set: an explicit day number, or the last calendar day of the month.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bedrock_data_source#day_of_month BedrockDataSource#day_of_month}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/bedrock_data_source#day_of_month BedrockDataSource#day_of_month}
 	DayOfMonth *BedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationSyncScheduleMonthlyDayOfMonth `field:"optional" json:"dayOfMonth" yaml:"dayOfMonth"`
 }
 

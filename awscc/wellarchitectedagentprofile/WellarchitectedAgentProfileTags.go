@@ -7,11 +7,11 @@ package wellarchitectedagentprofile
 type WellarchitectedAgentProfileTags struct {
 	// The tag key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_profile#key WellarchitectedAgentProfile#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wellarchitected_agent_profile#key WellarchitectedAgentProfile#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The tag value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_profile#value WellarchitectedAgentProfile#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wellarchitected_agent_profile#value WellarchitectedAgentProfile#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

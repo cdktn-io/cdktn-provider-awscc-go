@@ -5,7 +5,7 @@ package locationapikey
 
 
 type LocationApiKeyRestrictionsAllowAppleApps struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/location_api_key#bundle_id LocationApiKey#bundle_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/location_api_key#bundle_id LocationApiKey#bundle_id}.
 	BundleId *string `field:"optional" json:"bundleId" yaml:"bundleId"`
 }
 

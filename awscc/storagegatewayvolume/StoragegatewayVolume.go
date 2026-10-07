@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume awscc_storagegateway_volume}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume awscc_storagegateway_volume}.
 type StoragegatewayVolume interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -655,7 +655,7 @@ func (j *jsiiProxy_StoragegatewayVolume) VolumeUsedInBytes() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume awscc_storagegateway_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume awscc_storagegateway_volume} Resource.
 func NewStoragegatewayVolume(scope constructs.Construct, id *string, config *StoragegatewayVolumeConfig) StoragegatewayVolume {
 	_init_.Initialize()
 
@@ -673,7 +673,7 @@ func NewStoragegatewayVolume(scope constructs.Construct, id *string, config *Sto
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume awscc_storagegateway_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume awscc_storagegateway_volume} Resource.
 func NewStoragegatewayVolume_Override(s StoragegatewayVolume, scope constructs.Construct, id *string, config *StoragegatewayVolumeConfig) {
 	_init_.Initialize()
 

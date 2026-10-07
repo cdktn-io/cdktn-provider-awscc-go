@@ -1,3 +1,3 @@
 # `data_awscc_amazonmq_configuration`
 
-Refer to the Terraform Registry for docs: [`data_awscc_amazonmq_configuration`](https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/amazonmq_configuration).
+Refer to the Terraform Registry for docs: [`data_awscc_amazonmq_configuration`](https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/amazonmq_configuration).

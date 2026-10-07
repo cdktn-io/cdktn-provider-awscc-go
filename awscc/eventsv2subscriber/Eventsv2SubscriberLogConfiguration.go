@@ -9,13 +9,13 @@ type Eventsv2SubscriberLogConfiguration struct {
 	//
 	// The default is ON_ERROR_ONLY.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#include_payload Eventsv2Subscriber#include_payload}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#include_payload Eventsv2Subscriber#include_payload}
 	IncludePayload *string `field:"optional" json:"includePayload" yaml:"includePayload"`
 	// The minimum log level: OFF (no logging), ERROR, or INFO.
 	//
 	// Records below this level are not emitted. The default is OFF.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#level Eventsv2Subscriber#level}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#level Eventsv2Subscriber#level}
 	Level *string `field:"optional" json:"level" yaml:"level"`
 }
 

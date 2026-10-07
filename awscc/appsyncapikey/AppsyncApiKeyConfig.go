@@ -24,17 +24,17 @@ type AppsyncApiKeyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Unique AWS AppSync GraphQL API ID for this API key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_key#api_id AppsyncApiKey#api_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_key#api_id AppsyncApiKey#api_id}
 	ApiId *string `field:"required" json:"apiId" yaml:"apiId"`
 	// Unique description of your API key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_key#description AppsyncApiKey#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_key#description AppsyncApiKey#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The time after which the API key expires.
 	//
 	// The date is represented as seconds since the epoch, rounded down to the nearest hour.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_key#expires AppsyncApiKey#expires}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_key#expires AppsyncApiKey#expires}
 	Expires *float64 `field:"optional" json:"expires" yaml:"expires"`
 }
 

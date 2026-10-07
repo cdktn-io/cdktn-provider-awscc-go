@@ -1,3 +1,3 @@
 # `awscc_kms_key`
 
-Refer to the Terraform Registry for docs: [`awscc_kms_key`](https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/kms_key).
+Refer to the Terraform Registry for docs: [`awscc_kms_key`](https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/kms_key).

@@ -75,6 +75,14 @@ func (j *jsiiProxy_DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputRefere
 	return nil
 }
 
+func (j *jsiiProxy_DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference) validateSetS3AccessRoleArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference) validateSetS3PathParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference) validateSetServerNameParameters(val *string) error {
 	return nil
 }

@@ -214,6 +214,22 @@ func (j *jsiiProxy_DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputRefere
 	return nil
 }
 
+func (j *jsiiProxy_DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference) validateSetS3AccessRoleArnParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference) validateSetS3PathParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference) validateSetServerNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/bcmpricingcalculator_workload_estimate awscc_bcmpricingcalculator_workload_estimate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/bcmpricingcalculator_workload_estimate awscc_bcmpricingcalculator_workload_estimate}.
 type DataAwsccBcmpricingcalculatorWorkloadEstimate interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccBcmpricingcalculatorWorkloadEstimate) WorkloadEstima
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/bcmpricingcalculator_workload_estimate awscc_bcmpricingcalculator_workload_estimate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/bcmpricingcalculator_workload_estimate awscc_bcmpricingcalculator_workload_estimate} Data Source.
 func NewDataAwsccBcmpricingcalculatorWorkloadEstimate(scope constructs.Construct, id *string, config *DataAwsccBcmpricingcalculatorWorkloadEstimateConfig) DataAwsccBcmpricingcalculatorWorkloadEstimate {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccBcmpricingcalculatorWorkloadEstimate(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/bcmpricingcalculator_workload_estimate awscc_bcmpricingcalculator_workload_estimate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/bcmpricingcalculator_workload_estimate awscc_bcmpricingcalculator_workload_estimate} Data Source.
 func NewDataAwsccBcmpricingcalculatorWorkloadEstimate_Override(d DataAwsccBcmpricingcalculatorWorkloadEstimate, scope constructs.Construct, id *string, config *DataAwsccBcmpricingcalculatorWorkloadEstimateConfig) {
 	_init_.Initialize()
 

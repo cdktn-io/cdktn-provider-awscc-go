@@ -5,11 +5,17 @@ package fsxvolume
 
 
 type FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriod struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#default_retention FsxVolume#default_retention}.
+	// The retention period assigned to a write once, read many (WORM) file by default if an explicit retention period is not set for an FSx for ONTAP SnapLock volume.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#default_retention FsxVolume#default_retention}
 	DefaultRetention *FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodDefaultRetention `field:"optional" json:"defaultRetention" yaml:"defaultRetention"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#maximum_retention FsxVolume#maximum_retention}.
+	// The longest retention period that can be assigned to a WORM file on an FSx for ONTAP SnapLock volume.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#maximum_retention FsxVolume#maximum_retention}
 	MaximumRetention *FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMaximumRetention `field:"optional" json:"maximumRetention" yaml:"maximumRetention"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#minimum_retention FsxVolume#minimum_retention}.
+	// The shortest retention period that can be assigned to a WORM file on an FSx for ONTAP SnapLock volume.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#minimum_retention FsxVolume#minimum_retention}
 	MinimumRetention *FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMinimumRetention `field:"optional" json:"minimumRetention" yaml:"minimumRetention"`
 }
 

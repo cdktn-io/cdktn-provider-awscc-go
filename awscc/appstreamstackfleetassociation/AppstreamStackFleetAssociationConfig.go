@@ -26,13 +26,13 @@ type AppstreamStackFleetAssociationConfig struct {
 	//
 	// To associate a fleet with a stack, you must specify a dependency on the fleet resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appstream_stack_fleet_association#fleet_name AppstreamStackFleetAssociation#fleet_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appstream_stack_fleet_association#fleet_name AppstreamStackFleetAssociation#fleet_name}
 	FleetName *string `field:"required" json:"fleetName" yaml:"fleetName"`
 	// The name of the stack.
 	//
 	// To associate a fleet with a stack, you must specify a dependency on the stack resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appstream_stack_fleet_association#stack_name AppstreamStackFleetAssociation#stack_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appstream_stack_fleet_association#stack_name AppstreamStackFleetAssociation#stack_name}
 	StackName *string `field:"required" json:"stackName" yaml:"stackName"`
 }
 

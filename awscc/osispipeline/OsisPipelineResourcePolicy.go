@@ -5,7 +5,7 @@ package osispipeline
 
 
 type OsisPipelineResourcePolicy struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/osis_pipeline#policy OsisPipeline#policy}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/osis_pipeline#policy OsisPipeline#policy}.
 	Policy *string `field:"optional" json:"policy" yaml:"policy"`
 }
 

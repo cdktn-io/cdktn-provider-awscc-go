@@ -24,7 +24,7 @@ type CloudfrontFieldLevelEncryptionProfileConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The configuration of a field-level encryption profile.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloudfront_field_level_encryption_profile#field_level_encryption_profile_config CloudfrontFieldLevelEncryptionProfile#field_level_encryption_profile_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudfront_field_level_encryption_profile#field_level_encryption_profile_config CloudfrontFieldLevelEncryptionProfile#field_level_encryption_profile_config}
 	FieldLevelEncryptionProfileConfig *CloudfrontFieldLevelEncryptionProfileFieldLevelEncryptionProfileConfig `field:"required" json:"fieldLevelEncryptionProfileConfig" yaml:"fieldLevelEncryptionProfileConfig"`
 }
 

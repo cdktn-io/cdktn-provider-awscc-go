@@ -47,6 +47,10 @@ func (e *jsiiProxy_EcsServiceVpcLatticeConfigurationsOutputReference) validateIn
 	return nil
 }
 
+func (e *jsiiProxy_EcsServiceVpcLatticeConfigurationsOutputReference) validatePutAdvancedConfigurationParameters(value *EcsServiceVpcLatticeConfigurationsAdvancedConfiguration) error {
+	return nil
+}
+
 func (e *jsiiProxy_EcsServiceVpcLatticeConfigurationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

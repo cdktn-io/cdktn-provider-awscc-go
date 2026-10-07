@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/personalize_filters awscc_personalize_filters}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/personalize_filters awscc_personalize_filters}.
 type DataAwsccPersonalizeFilters interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccPersonalizeFilters) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/personalize_filters awscc_personalize_filters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/personalize_filters awscc_personalize_filters} Data Source.
 func NewDataAwsccPersonalizeFilters(scope constructs.Construct, id *string, config *DataAwsccPersonalizeFiltersConfig) DataAwsccPersonalizeFilters {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccPersonalizeFilters(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/personalize_filters awscc_personalize_filters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/personalize_filters awscc_personalize_filters} Data Source.
 func NewDataAwsccPersonalizeFilters_Override(d DataAwsccPersonalizeFilters, scope constructs.Construct, id *string, config *DataAwsccPersonalizeFiltersConfig) {
 	_init_.Initialize()
 

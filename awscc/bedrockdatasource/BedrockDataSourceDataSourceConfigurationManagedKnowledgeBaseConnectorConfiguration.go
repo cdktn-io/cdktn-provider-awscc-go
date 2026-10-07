@@ -7,19 +7,19 @@ package bedrockdatasource
 type BedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfiguration struct {
 	// Connector-specific parameters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bedrock_data_source#connector_parameters BedrockDataSource#connector_parameters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/bedrock_data_source#connector_parameters BedrockDataSource#connector_parameters}
 	ConnectorParameters *string `field:"optional" json:"connectorParameters" yaml:"connectorParameters"`
 	// Configuration for deletion protection.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bedrock_data_source#deletion_protection_configuration BedrockDataSource#deletion_protection_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/bedrock_data_source#deletion_protection_configuration BedrockDataSource#deletion_protection_configuration}
 	DeletionProtectionConfiguration *BedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationDeletionProtectionConfiguration `field:"optional" json:"deletionProtectionConfiguration" yaml:"deletionProtectionConfiguration"`
 	// Configuration for media extraction settings.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bedrock_data_source#media_extraction_configuration BedrockDataSource#media_extraction_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/bedrock_data_source#media_extraction_configuration BedrockDataSource#media_extraction_configuration}
 	MediaExtractionConfiguration *BedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationMediaExtractionConfiguration `field:"optional" json:"mediaExtractionConfiguration" yaml:"mediaExtractionConfiguration"`
 	// Recurring schedule on which the connector automatically refreshes ingested content. Exactly one frequency variant is set.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bedrock_data_source#sync_schedule BedrockDataSource#sync_schedule}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/bedrock_data_source#sync_schedule BedrockDataSource#sync_schedule}
 	SyncSchedule *BedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationSyncSchedule `field:"optional" json:"syncSchedule" yaml:"syncSchedule"`
 }
 

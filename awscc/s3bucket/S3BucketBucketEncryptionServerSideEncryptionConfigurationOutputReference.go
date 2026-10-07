@@ -13,6 +13,8 @@ import (
 
 type S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference interface {
 	cdktn.ComplexObject
+	BlockedEncryptionTypes() S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference
+	BlockedEncryptionTypesInput() interface{}
 	BucketKeyEnabled() interface{}
 	SetBucketKeyEnabled(val interface{})
 	BucketKeyEnabledInput() interface{}
@@ -69,7 +71,9 @@ type S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference in
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutBlockedEncryptionTypes(value *S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes)
 	PutServerSideEncryptionByDefault(value *S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefault)
+	ResetBlockedEncryptionTypes()
 	ResetBucketKeyEnabled()
 	ResetServerSideEncryptionByDefault()
 	// Produce the Token's value at resolution time.
@@ -85,6 +89,26 @@ type S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference in
 // The jsii proxy struct for S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference
 type jsiiProxy_S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference) BlockedEncryptionTypes() S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference {
+	var returns S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference
+	_jsii_.Get(
+		j,
+		"blockedEncryptionTypes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference) BlockedEncryptionTypesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"blockedEncryptionTypesInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference) BucketKeyEnabled() interface{} {
@@ -477,6 +501,17 @@ func (s *jsiiProxy_S3BucketBucketEncryptionServerSideEncryptionConfigurationOutp
 	return returns
 }
 
+func (s *jsiiProxy_S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference) PutBlockedEncryptionTypes(value *S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes) {
+	if err := s.validatePutBlockedEncryptionTypesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putBlockedEncryptionTypes",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference) PutServerSideEncryptionByDefault(value *S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefault) {
 	if err := s.validatePutServerSideEncryptionByDefaultParameters(value); err != nil {
 		panic(err)
@@ -485,6 +520,14 @@ func (s *jsiiProxy_S3BucketBucketEncryptionServerSideEncryptionConfigurationOutp
 		s,
 		"putServerSideEncryptionByDefault",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference) ResetBlockedEncryptionTypes() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetBlockedEncryptionTypes",
+		nil, // no parameters
 	)
 }
 

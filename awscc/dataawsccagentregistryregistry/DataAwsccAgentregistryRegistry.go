@@ -12,11 +12,14 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/agentregistry_registry awscc_agentregistry_registry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/agentregistry_registry awscc_agentregistry_registry}.
 type DataAwsccAgentregistryRegistry interface {
 	cdktn.TerraformDataSource
 	ApprovalConfiguration() DataAwsccAgentregistryRegistryApprovalConfigurationOutputReference
 	AuthorizerType() *string
+	AutoDetectionEnabled() cdktn.IResolvable
+	AutoDetectionScope() *string
+	AutoDetectionStatus() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -32,6 +35,7 @@ type DataAwsccAgentregistryRegistry interface {
 	SetDependsOn(val *[]*string)
 	Description() *string
 	DiscoveryConfiguration() DataAwsccAgentregistryRegistryDiscoveryConfigurationOutputReference
+	EncryptionConfiguration() DataAwsccAgentregistryRegistryEncryptionConfigurationOutputReference
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -156,6 +160,36 @@ func (j *jsiiProxy_DataAwsccAgentregistryRegistry) AuthorizerType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccAgentregistryRegistry) AutoDetectionEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"autoDetectionEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccAgentregistryRegistry) AutoDetectionScope() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"autoDetectionScope",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccAgentregistryRegistry) AutoDetectionStatus() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"autoDetectionStatus",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccAgentregistryRegistry) CdktfStack() cdktn.TerraformStack {
 	var returns cdktn.TerraformStack
 	_jsii_.Get(
@@ -221,6 +255,16 @@ func (j *jsiiProxy_DataAwsccAgentregistryRegistry) DiscoveryConfiguration() Data
 	_jsii_.Get(
 		j,
 		"discoveryConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccAgentregistryRegistry) EncryptionConfiguration() DataAwsccAgentregistryRegistryEncryptionConfigurationOutputReference {
+	var returns DataAwsccAgentregistryRegistryEncryptionConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"encryptionConfiguration",
 		&returns,
 	)
 	return returns
@@ -407,7 +451,7 @@ func (j *jsiiProxy_DataAwsccAgentregistryRegistry) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/agentregistry_registry awscc_agentregistry_registry} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/agentregistry_registry awscc_agentregistry_registry} Data Source.
 func NewDataAwsccAgentregistryRegistry(scope constructs.Construct, id *string, config *DataAwsccAgentregistryRegistryConfig) DataAwsccAgentregistryRegistry {
 	_init_.Initialize()
 
@@ -425,7 +469,7 @@ func NewDataAwsccAgentregistryRegistry(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/agentregistry_registry awscc_agentregistry_registry} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/agentregistry_registry awscc_agentregistry_registry} Data Source.
 func NewDataAwsccAgentregistryRegistry_Override(d DataAwsccAgentregistryRegistry, scope constructs.Construct, id *string, config *DataAwsccAgentregistryRegistryConfig) {
 	_init_.Initialize()
 

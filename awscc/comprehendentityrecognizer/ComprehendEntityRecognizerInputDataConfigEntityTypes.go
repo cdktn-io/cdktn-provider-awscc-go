@@ -7,7 +7,7 @@ package comprehendentityrecognizer
 type ComprehendEntityRecognizerInputDataConfigEntityTypes struct {
 	// An entity type within a labeled training dataset.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/comprehend_entity_recognizer#type ComprehendEntityRecognizer#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/comprehend_entity_recognizer#type ComprehendEntityRecognizer#type}
 	Type *string `field:"required" json:"type" yaml:"type"`
 }
 

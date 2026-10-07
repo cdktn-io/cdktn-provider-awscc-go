@@ -111,6 +111,10 @@ func (s *jsiiProxy_S3Bucket) validatePutLoggingConfigurationParameters(value *S3
 	return nil
 }
 
+func (s *jsiiProxy_S3Bucket) validatePutMetadataConfigurationParameters(value *S3BucketMetadataConfiguration) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3Bucket) validatePutMetadataTableConfigurationParameters(value *S3BucketMetadataTableConfiguration) error {
 	return nil
 }
@@ -171,11 +175,23 @@ func validateS3Bucket_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 
+func (j *jsiiProxy_S3Bucket) validateSetAbacStatusParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_S3Bucket) validateSetAccessControlParameters(val *string) error {
 	return nil
 }
 
 func (j *jsiiProxy_S3Bucket) validateSetBucketNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3Bucket) validateSetBucketNamePrefixParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_S3Bucket) validateSetBucketNamespaceParameters(val *string) error {
 	return nil
 }
 

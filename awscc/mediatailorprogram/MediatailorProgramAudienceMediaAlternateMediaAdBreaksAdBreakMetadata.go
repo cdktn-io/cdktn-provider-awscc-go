@@ -7,11 +7,11 @@ package mediatailorprogram
 type MediatailorProgramAudienceMediaAlternateMediaAdBreaksAdBreakMetadata struct {
 	// The key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#key MediatailorProgram#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#key MediatailorProgram#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#value MediatailorProgram#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#value MediatailorProgram#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

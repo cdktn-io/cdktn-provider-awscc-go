@@ -24,19 +24,19 @@ type PersonalizeFilterConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ARN of the dataset group that the filter belongs to.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/personalize_filter#dataset_group_arn PersonalizeFilter#dataset_group_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_filter#dataset_group_arn PersonalizeFilter#dataset_group_arn}
 	DatasetGroupArn *string `field:"required" json:"datasetGroupArn" yaml:"datasetGroupArn"`
 	// The filter expression that defines which items are included or excluded from recommendations.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/personalize_filter#filter_expression PersonalizeFilter#filter_expression}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_filter#filter_expression PersonalizeFilter#filter_expression}
 	FilterExpression *string `field:"required" json:"filterExpression" yaml:"filterExpression"`
 	// The name of the filter.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/personalize_filter#name PersonalizeFilter#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_filter#name PersonalizeFilter#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Tags to associate with the filter.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/personalize_filter#tags PersonalizeFilter#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_filter#tags PersonalizeFilter#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

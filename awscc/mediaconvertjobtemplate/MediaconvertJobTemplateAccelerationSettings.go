@@ -7,7 +7,7 @@ package mediaconvertjobtemplate
 type MediaconvertJobTemplateAccelerationSettings struct {
 	// Specify the conditions when the service will run your job with accelerated transcoding.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediaconvert_job_template#mode MediaconvertJobTemplate#mode}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconvert_job_template#mode MediaconvertJobTemplate#mode}
 	Mode *string `field:"optional" json:"mode" yaml:"mode"`
 }
 

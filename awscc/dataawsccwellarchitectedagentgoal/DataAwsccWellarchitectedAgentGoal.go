@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/wellarchitected_agent_goal awscc_wellarchitected_agent_goal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/wellarchitected_agent_goal awscc_wellarchitected_agent_goal}.
 type DataAwsccWellarchitectedAgentGoal interface {
 	cdktn.TerraformDataSource
 	AgentGoalId() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccWellarchitectedAgentGoal) Title() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/wellarchitected_agent_goal awscc_wellarchitected_agent_goal} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/wellarchitected_agent_goal awscc_wellarchitected_agent_goal} Data Source.
 func NewDataAwsccWellarchitectedAgentGoal(scope constructs.Construct, id *string, config *DataAwsccWellarchitectedAgentGoalConfig) DataAwsccWellarchitectedAgentGoal {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccWellarchitectedAgentGoal(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/wellarchitected_agent_goal awscc_wellarchitected_agent_goal} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/wellarchitected_agent_goal awscc_wellarchitected_agent_goal} Data Source.
 func NewDataAwsccWellarchitectedAgentGoal_Override(d DataAwsccWellarchitectedAgentGoal, scope constructs.Construct, id *string, config *DataAwsccWellarchitectedAgentGoalConfig) {
 	_init_.Initialize()
 

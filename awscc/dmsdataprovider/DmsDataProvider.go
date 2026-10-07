@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider awscc_dms_data_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider awscc_dms_data_provider}.
 type DmsDataProvider interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -83,6 +83,9 @@ type DmsDataProvider interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	Virtual() interface{}
+	SetVirtual(val interface{})
+	VirtualInput() interface{}
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -186,6 +189,7 @@ type DmsDataProvider interface {
 	ResetOverrideLogicalId()
 	ResetSettings()
 	ResetTags()
+	ResetVirtual()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -543,8 +547,28 @@ func (j *jsiiProxy_DmsDataProvider) TerraformResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DmsDataProvider) Virtual() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"virtual",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider awscc_dms_data_provider} Resource.
+func (j *jsiiProxy_DmsDataProvider) VirtualInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"virtualInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider awscc_dms_data_provider} Resource.
 func NewDmsDataProvider(scope constructs.Construct, id *string, config *DmsDataProviderConfig) DmsDataProvider {
 	_init_.Initialize()
 
@@ -562,7 +586,7 @@ func NewDmsDataProvider(scope constructs.Construct, id *string, config *DmsDataP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider awscc_dms_data_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider awscc_dms_data_provider} Resource.
 func NewDmsDataProvider_Override(d DmsDataProvider, scope constructs.Construct, id *string, config *DmsDataProviderConfig) {
 	_init_.Initialize()
 
@@ -692,6 +716,17 @@ func (j *jsiiProxy_DmsDataProvider)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DmsDataProvider)SetVirtual(val interface{}) {
+	if err := j.validateSetVirtualParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"virtual",
 		val,
 	)
 }
@@ -1150,6 +1185,14 @@ func (d *jsiiProxy_DmsDataProvider) ResetTags() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetTags",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DmsDataProvider) ResetVirtual() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetVirtual",
 		nil, // no parameters
 	)
 }

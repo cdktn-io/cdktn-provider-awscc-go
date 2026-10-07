@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/ram_permission_associations awscc_ram_permission_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ram_permission_associations awscc_ram_permission_associations}.
 type DataAwsccRamPermissionAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRamPermissionAssociations) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/ram_permission_associations awscc_ram_permission_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ram_permission_associations awscc_ram_permission_associations} Data Source.
 func NewDataAwsccRamPermissionAssociations(scope constructs.Construct, id *string, config *DataAwsccRamPermissionAssociationsConfig) DataAwsccRamPermissionAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRamPermissionAssociations(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/ram_permission_associations awscc_ram_permission_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ram_permission_associations awscc_ram_permission_associations} Data Source.
 func NewDataAwsccRamPermissionAssociations_Override(d DataAwsccRamPermissionAssociations, scope constructs.Construct, id *string, config *DataAwsccRamPermissionAssociationsConfig) {
 	_init_.Initialize()
 

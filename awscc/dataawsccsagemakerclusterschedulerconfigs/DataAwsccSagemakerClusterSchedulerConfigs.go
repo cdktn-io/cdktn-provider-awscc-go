@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/sagemaker_cluster_scheduler_configs awscc_sagemaker_cluster_scheduler_configs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/sagemaker_cluster_scheduler_configs awscc_sagemaker_cluster_scheduler_configs}.
 type DataAwsccSagemakerClusterSchedulerConfigs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSagemakerClusterSchedulerConfigs) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/sagemaker_cluster_scheduler_configs awscc_sagemaker_cluster_scheduler_configs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/sagemaker_cluster_scheduler_configs awscc_sagemaker_cluster_scheduler_configs} Data Source.
 func NewDataAwsccSagemakerClusterSchedulerConfigs(scope constructs.Construct, id *string, config *DataAwsccSagemakerClusterSchedulerConfigsConfig) DataAwsccSagemakerClusterSchedulerConfigs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSagemakerClusterSchedulerConfigs(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/sagemaker_cluster_scheduler_configs awscc_sagemaker_cluster_scheduler_configs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/sagemaker_cluster_scheduler_configs awscc_sagemaker_cluster_scheduler_configs} Data Source.
 func NewDataAwsccSagemakerClusterSchedulerConfigs_Override(d DataAwsccSagemakerClusterSchedulerConfigs, scope constructs.Construct, id *string, config *DataAwsccSagemakerClusterSchedulerConfigsConfig) {
 	_init_.Initialize()
 

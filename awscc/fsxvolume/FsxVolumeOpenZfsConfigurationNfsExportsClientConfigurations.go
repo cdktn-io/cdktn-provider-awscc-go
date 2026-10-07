@@ -5,9 +5,15 @@ package fsxvolume
 
 
 type FsxVolumeOpenZfsConfigurationNfsExportsClientConfigurations struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#clients FsxVolume#clients}.
+	// A value that specifies who can mount the file system.
+	//
+	// You can provide a wildcard character (*), an IP address (0.0.0.0), or a CIDR address (192.0.2.0/24). By default, Amazon FSx uses the wildcard character when specifying the client.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#clients FsxVolume#clients}
 	Clients *string `field:"optional" json:"clients" yaml:"clients"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#options FsxVolume#options}.
+	// The configuration object for mounting a Network File System (NFS) file system.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#options FsxVolume#options}
 	Options *[]*string `field:"optional" json:"options" yaml:"options"`
 }
 

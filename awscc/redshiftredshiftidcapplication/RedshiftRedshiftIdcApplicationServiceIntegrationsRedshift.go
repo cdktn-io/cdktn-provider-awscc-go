@@ -7,7 +7,7 @@ package redshiftredshiftidcapplication
 type RedshiftRedshiftIdcApplicationServiceIntegrationsRedshift struct {
 	// The Amazon Redshift connect integration scope.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/redshift_redshift_idc_application#connect RedshiftRedshiftIdcApplication#connect}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/redshift_redshift_idc_application#connect RedshiftRedshiftIdcApplication#connect}
 	Connect *RedshiftRedshiftIdcApplicationServiceIntegrationsRedshiftConnect `field:"optional" json:"connect" yaml:"connect"`
 }
 

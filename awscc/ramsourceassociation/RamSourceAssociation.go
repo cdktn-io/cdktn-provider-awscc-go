@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_source_association awscc_ram_source_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_source_association awscc_ram_source_association}.
 type RamSourceAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -445,7 +445,7 @@ func (j *jsiiProxy_RamSourceAssociation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_source_association awscc_ram_source_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_source_association awscc_ram_source_association} Resource.
 func NewRamSourceAssociation(scope constructs.Construct, id *string, config *RamSourceAssociationConfig) RamSourceAssociation {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewRamSourceAssociation(scope constructs.Construct, id *string, config *Ram
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_source_association awscc_ram_source_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_source_association awscc_ram_source_association} Resource.
 func NewRamSourceAssociation_Override(r RamSourceAssociation, scope constructs.Construct, id *string, config *RamSourceAssociationConfig) {
 	_init_.Initialize()
 

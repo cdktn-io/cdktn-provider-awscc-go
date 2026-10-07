@@ -5,7 +5,7 @@ package cleanroomsanalysistemplate
 
 
 type CleanroomsAnalysisTemplateSourceArtifactsAdditionalArtifacts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cleanrooms_analysis_template#location CleanroomsAnalysisTemplate#location}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cleanrooms_analysis_template#location CleanroomsAnalysisTemplate#location}.
 	Location *CleanroomsAnalysisTemplateSourceArtifactsAdditionalArtifactsLocation `field:"optional" json:"location" yaml:"location"`
 }
 

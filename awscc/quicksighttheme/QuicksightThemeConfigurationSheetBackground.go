@@ -7,9 +7,9 @@ package quicksighttheme
 type QuicksightThemeConfigurationSheetBackground struct {
 	// String to encapsulate the most generic way Color can be formatted (words, hexStrings etc).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#color QuicksightTheme#color}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/quicksight_theme#color QuicksightTheme#color}
 	Color *string `field:"optional" json:"color" yaml:"color"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#gradient QuicksightTheme#gradient}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/quicksight_theme#gradient QuicksightTheme#gradient}.
 	Gradient *string `field:"optional" json:"gradient" yaml:"gradient"`
 }
 

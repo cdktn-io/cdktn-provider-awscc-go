@@ -35,6 +35,8 @@ type DataAwsccDmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference i
 	InternalValue() *DataAwsccDmsDataProviderSettingsMicrosoftSqlServerSettings
 	SetInternalValue(val *DataAwsccDmsDataProviderSettingsMicrosoftSqlServerSettings)
 	Port() *float64
+	S3AccessRoleArn() *string
+	S3Path() *string
 	ServerName() *string
 	SslMode() *string
 	// Experimental.
@@ -159,6 +161,26 @@ func (j *jsiiProxy_DataAwsccDmsDataProviderSettingsMicrosoftSqlServerSettingsOut
 	_jsii_.Get(
 		j,
 		"port",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccDmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference) S3AccessRoleArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"s3AccessRoleArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccDmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference) S3Path() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"s3Path",
 		&returns,
 	)
 	return returns

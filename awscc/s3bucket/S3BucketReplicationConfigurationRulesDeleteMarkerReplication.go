@@ -5,9 +5,9 @@ package s3bucket
 
 
 type S3BucketReplicationConfigurationRulesDeleteMarkerReplication struct {
-	// Indicates whether to replicate delete markers. Disabled by default.
+	// Indicates whether to replicate delete markers.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 	Status *string `field:"optional" json:"status" yaml:"status"`
 }
 

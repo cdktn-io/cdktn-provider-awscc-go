@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/cloudfront_field_level_encryption_profile awscc_cloudfront_field_level_encryption_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/cloudfront_field_level_encryption_profile awscc_cloudfront_field_level_encryption_profile}.
 type DataAwsccCloudfrontFieldLevelEncryptionProfile interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccCloudfrontFieldLevelEncryptionProfile) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/cloudfront_field_level_encryption_profile awscc_cloudfront_field_level_encryption_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/cloudfront_field_level_encryption_profile awscc_cloudfront_field_level_encryption_profile} Data Source.
 func NewDataAwsccCloudfrontFieldLevelEncryptionProfile(scope constructs.Construct, id *string, config *DataAwsccCloudfrontFieldLevelEncryptionProfileConfig) DataAwsccCloudfrontFieldLevelEncryptionProfile {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccCloudfrontFieldLevelEncryptionProfile(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/cloudfront_field_level_encryption_profile awscc_cloudfront_field_level_encryption_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/cloudfront_field_level_encryption_profile awscc_cloudfront_field_level_encryption_profile} Data Source.
 func NewDataAwsccCloudfrontFieldLevelEncryptionProfile_Override(d DataAwsccCloudfrontFieldLevelEncryptionProfile, scope constructs.Construct, id *string, config *DataAwsccCloudfrontFieldLevelEncryptionProfileConfig) {
 	_init_.Initialize()
 

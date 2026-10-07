@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/appsync_api_key awscc_appsync_api_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/appsync_api_key awscc_appsync_api_key}.
 type DataAwsccAppsyncApiKey interface {
 	cdktn.TerraformDataSource
 	ApiId() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccAppsyncApiKey) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/appsync_api_key awscc_appsync_api_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/appsync_api_key awscc_appsync_api_key} Data Source.
 func NewDataAwsccAppsyncApiKey(scope constructs.Construct, id *string, config *DataAwsccAppsyncApiKeyConfig) DataAwsccAppsyncApiKey {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccAppsyncApiKey(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/appsync_api_key awscc_appsync_api_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/appsync_api_key awscc_appsync_api_key} Data Source.
 func NewDataAwsccAppsyncApiKey_Override(d DataAwsccAppsyncApiKey, scope constructs.Construct, id *string, config *DataAwsccAppsyncApiKeyConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target}.
 type DataAwsccApplicationautoscalingScalableTarget interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccApplicationautoscalingScalableTarget) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target} Data Source.
 func NewDataAwsccApplicationautoscalingScalableTarget(scope constructs.Construct, id *string, config *DataAwsccApplicationautoscalingScalableTargetConfig) DataAwsccApplicationautoscalingScalableTarget {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccApplicationautoscalingScalableTarget(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target} Data Source.
 func NewDataAwsccApplicationautoscalingScalableTarget_Override(d DataAwsccApplicationautoscalingScalableTarget, scope constructs.Construct, id *string, config *DataAwsccApplicationautoscalingScalableTargetConfig) {
 	_init_.Initialize()
 

@@ -12,9 +12,12 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket awscc_s3_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket awscc_s3_bucket}.
 type S3Bucket interface {
 	cdktn.TerraformResource
+	AbacStatus() *string
+	SetAbacStatus(val *string)
+	AbacStatusInput() *string
 	AccelerateConfiguration() S3BucketAccelerateConfigurationOutputReference
 	AccelerateConfigurationInput() interface{}
 	AccessControl() *string
@@ -28,6 +31,12 @@ type S3Bucket interface {
 	BucketName() *string
 	SetBucketName(val *string)
 	BucketNameInput() *string
+	BucketNamePrefix() *string
+	SetBucketNamePrefix(val *string)
+	BucketNamePrefixInput() *string
+	BucketNamespace() *string
+	SetBucketNamespace(val *string)
+	BucketNamespaceInput() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -69,6 +78,8 @@ type S3Bucket interface {
 	LifecycleConfigurationInput() interface{}
 	LoggingConfiguration() S3BucketLoggingConfigurationOutputReference
 	LoggingConfigurationInput() interface{}
+	MetadataConfiguration() S3BucketMetadataConfigurationOutputReference
+	MetadataConfigurationInput() interface{}
 	MetadataTableConfiguration() S3BucketMetadataTableConfigurationOutputReference
 	MetadataTableConfigurationInput() interface{}
 	MetricsConfigurations() S3BucketMetricsConfigurationsList
@@ -199,6 +210,7 @@ type S3Bucket interface {
 	PutInventoryConfigurations(value interface{})
 	PutLifecycleConfiguration(value *S3BucketLifecycleConfiguration)
 	PutLoggingConfiguration(value *S3BucketLoggingConfiguration)
+	PutMetadataConfiguration(value *S3BucketMetadataConfiguration)
 	PutMetadataTableConfiguration(value *S3BucketMetadataTableConfiguration)
 	PutMetricsConfigurations(value interface{})
 	PutNotificationConfiguration(value *S3BucketNotificationConfiguration)
@@ -222,16 +234,20 @@ type S3Bucket interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetAbacStatus()
 	ResetAccelerateConfiguration()
 	ResetAccessControl()
 	ResetAnalyticsConfigurations()
 	ResetBucketEncryption()
 	ResetBucketName()
+	ResetBucketNamePrefix()
+	ResetBucketNamespace()
 	ResetCorsConfiguration()
 	ResetIntelligentTieringConfigurations()
 	ResetInventoryConfigurations()
 	ResetLifecycleConfiguration()
 	ResetLoggingConfiguration()
+	ResetMetadataConfiguration()
 	ResetMetadataTableConfiguration()
 	ResetMetricsConfigurations()
 	ResetNotificationConfiguration()
@@ -271,6 +287,26 @@ type S3Bucket interface {
 // The jsii proxy struct for S3Bucket
 type jsiiProxy_S3Bucket struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_S3Bucket) AbacStatus() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"abacStatus",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_S3Bucket) AbacStatusInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"abacStatusInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_S3Bucket) AccelerateConfiguration() S3BucketAccelerateConfigurationOutputReference {
@@ -378,6 +414,46 @@ func (j *jsiiProxy_S3Bucket) BucketNameInput() *string {
 	_jsii_.Get(
 		j,
 		"bucketNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_S3Bucket) BucketNamePrefix() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bucketNamePrefix",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_S3Bucket) BucketNamePrefixInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bucketNamePrefixInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_S3Bucket) BucketNamespace() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bucketNamespace",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_S3Bucket) BucketNamespaceInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bucketNamespaceInput",
 		&returns,
 	)
 	return returns
@@ -598,6 +674,26 @@ func (j *jsiiProxy_S3Bucket) LoggingConfigurationInput() interface{} {
 	_jsii_.Get(
 		j,
 		"loggingConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_S3Bucket) MetadataConfiguration() S3BucketMetadataConfigurationOutputReference {
+	var returns S3BucketMetadataConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"metadataConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_S3Bucket) MetadataConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"metadataConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -914,7 +1010,7 @@ func (j *jsiiProxy_S3Bucket) WebsiteUrl() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket awscc_s3_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket awscc_s3_bucket} Resource.
 func NewS3Bucket(scope constructs.Construct, id *string, config *S3BucketConfig) S3Bucket {
 	_init_.Initialize()
 
@@ -932,7 +1028,7 @@ func NewS3Bucket(scope constructs.Construct, id *string, config *S3BucketConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket awscc_s3_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket awscc_s3_bucket} Resource.
 func NewS3Bucket_Override(s S3Bucket, scope constructs.Construct, id *string, config *S3BucketConfig) {
 	_init_.Initialize()
 
@@ -940,6 +1036,17 @@ func NewS3Bucket_Override(s S3Bucket, scope constructs.Construct, id *string, co
 		"@cdktn/provider-awscc.s3Bucket.S3Bucket",
 		[]interface{}{scope, id, config},
 		s,
+	)
+}
+
+func (j *jsiiProxy_S3Bucket)SetAbacStatus(val *string) {
+	if err := j.validateSetAbacStatusParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"abacStatus",
+		val,
 	)
 }
 
@@ -961,6 +1068,28 @@ func (j *jsiiProxy_S3Bucket)SetBucketName(val *string) {
 	_jsii_.Set(
 		j,
 		"bucketName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_S3Bucket)SetBucketNamePrefix(val *string) {
+	if err := j.validateSetBucketNamePrefixParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"bucketNamePrefix",
+		val,
+	)
+}
+
+func (j *jsiiProxy_S3Bucket)SetBucketNamespace(val *string) {
+	if err := j.validateSetBucketNamespaceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"bucketNamespace",
 		val,
 	)
 }
@@ -1501,6 +1630,17 @@ func (s *jsiiProxy_S3Bucket) PutLoggingConfiguration(value *S3BucketLoggingConfi
 	)
 }
 
+func (s *jsiiProxy_S3Bucket) PutMetadataConfiguration(value *S3BucketMetadataConfiguration) {
+	if err := s.validatePutMetadataConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putMetadataConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_S3Bucket) PutMetadataTableConfiguration(value *S3BucketMetadataTableConfiguration) {
 	if err := s.validatePutMetadataTableConfigurationParameters(value); err != nil {
 		panic(err)
@@ -1622,6 +1762,14 @@ func (s *jsiiProxy_S3Bucket) RegisterProviderFeatureUsage(feature cdktn.Provider
 	)
 }
 
+func (s *jsiiProxy_S3Bucket) ResetAbacStatus() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetAbacStatus",
+		nil, // no parameters
+	)
+}
+
 func (s *jsiiProxy_S3Bucket) ResetAccelerateConfiguration() {
 	_jsii_.InvokeVoid(
 		s,
@@ -1662,6 +1810,22 @@ func (s *jsiiProxy_S3Bucket) ResetBucketName() {
 	)
 }
 
+func (s *jsiiProxy_S3Bucket) ResetBucketNamePrefix() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetBucketNamePrefix",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_S3Bucket) ResetBucketNamespace() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetBucketNamespace",
+		nil, // no parameters
+	)
+}
+
 func (s *jsiiProxy_S3Bucket) ResetCorsConfiguration() {
 	_jsii_.InvokeVoid(
 		s,
@@ -1698,6 +1862,14 @@ func (s *jsiiProxy_S3Bucket) ResetLoggingConfiguration() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetLoggingConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_S3Bucket) ResetMetadataConfiguration() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetMetadataConfiguration",
 		nil, // no parameters
 	)
 }

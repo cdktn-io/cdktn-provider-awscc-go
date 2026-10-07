@@ -93,6 +93,17 @@ func (s *jsiiProxy_S3BucketObjectLockConfigurationRuleDefaultRetentionOutputRefe
 	return nil
 }
 
+func (s *jsiiProxy_S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference) validatePutDefaultEventHoldParameters(value *S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")

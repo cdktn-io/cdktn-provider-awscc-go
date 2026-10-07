@@ -7,7 +7,7 @@ package iotsitewisedataset
 type IotsitewiseDatasetDatasetConfig struct {
 	// The session configuration for a SESSION dataset.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iotsitewise_dataset#session IotsitewiseDataset#session}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/iotsitewise_dataset#session IotsitewiseDataset#session}
 	Session *IotsitewiseDatasetDatasetConfigSession `field:"optional" json:"session" yaml:"session"`
 }
 

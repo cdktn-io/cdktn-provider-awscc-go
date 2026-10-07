@@ -5,9 +5,13 @@ package fsxvolume
 
 
 type FsxVolumeOntapConfigurationTieringPolicy struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#cooling_period FsxVolume#cooling_period}.
+	// Specifies the number of days that user data in a volume must remain inactive before it is considered "cold" and moved to the capacity pool.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#cooling_period FsxVolume#cooling_period}
 	CoolingPeriod *float64 `field:"optional" json:"coolingPeriod" yaml:"coolingPeriod"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#name FsxVolume#name}.
+	// Specifies the tiering policy used to transition data. Default value is SNAPSHOT_ONLY.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#name FsxVolume#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mgn_connector awscc_mgn_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/mgn_connector awscc_mgn_connector}.
 type DataAwsccMgnConnector interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccMgnConnector) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mgn_connector awscc_mgn_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/mgn_connector awscc_mgn_connector} Data Source.
 func NewDataAwsccMgnConnector(scope constructs.Construct, id *string, config *DataAwsccMgnConnectorConfig) DataAwsccMgnConnector {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccMgnConnector(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mgn_connector awscc_mgn_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/mgn_connector awscc_mgn_connector} Data Source.
 func NewDataAwsccMgnConnector_Override(d DataAwsccMgnConnector, scope constructs.Construct, id *string, config *DataAwsccMgnConnectorConfig) {
 	_init_.Initialize()
 

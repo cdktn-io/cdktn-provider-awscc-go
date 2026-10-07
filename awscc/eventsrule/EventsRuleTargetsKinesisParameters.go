@@ -5,7 +5,7 @@ package eventsrule
 
 
 type EventsRuleTargetsKinesisParameters struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/events_rule#partition_key_path EventsRule#partition_key_path}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/events_rule#partition_key_path EventsRule#partition_key_path}.
 	PartitionKeyPath *string `field:"optional" json:"partitionKeyPath" yaml:"partitionKeyPath"`
 }
 

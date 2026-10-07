@@ -5,7 +5,9 @@ package fsxvolume
 
 
 type FsxVolumeOpenZfsConfigurationNfsExports struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#client_configurations FsxVolume#client_configurations}.
+	// The configuration object for mounting a Network File System (NFS) file system.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#client_configurations FsxVolume#client_configurations}
 	ClientConfigurations interface{} `field:"optional" json:"clientConfigurations" yaml:"clientConfigurations"`
 }
 

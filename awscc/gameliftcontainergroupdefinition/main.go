@@ -67,6 +67,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetSourceVersionNumber", GoMethod: "ResetSourceVersionNumber"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSupportContainerDefinitions", GoMethod: "ResetSupportContainerDefinitions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTotalVcpuLimit", GoMethod: "ResetTotalVcpuLimit"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVersionDescription", GoMethod: "ResetVersionDescription"},
 			_jsii_.MemberProperty{JsiiProperty: "sourceVersionNumber", GoGetter: "SourceVersionNumber"},
 			_jsii_.MemberProperty{JsiiProperty: "sourceVersionNumberInput", GoGetter: "SourceVersionNumberInput"},

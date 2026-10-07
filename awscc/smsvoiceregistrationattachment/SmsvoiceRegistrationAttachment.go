@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_registration_attachment awscc_smsvoice_registration_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/smsvoice_registration_attachment awscc_smsvoice_registration_attachment}.
 type SmsvoiceRegistrationAttachment interface {
 	cdktn.TerraformResource
 	AttachmentBody() *string
@@ -482,7 +482,7 @@ func (j *jsiiProxy_SmsvoiceRegistrationAttachment) UploadedAttachmentUrl() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_registration_attachment awscc_smsvoice_registration_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/smsvoice_registration_attachment awscc_smsvoice_registration_attachment} Resource.
 func NewSmsvoiceRegistrationAttachment(scope constructs.Construct, id *string, config *SmsvoiceRegistrationAttachmentConfig) SmsvoiceRegistrationAttachment {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewSmsvoiceRegistrationAttachment(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_registration_attachment awscc_smsvoice_registration_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/smsvoice_registration_attachment awscc_smsvoice_registration_attachment} Resource.
 func NewSmsvoiceRegistrationAttachment_Override(s SmsvoiceRegistrationAttachment, scope constructs.Construct, id *string, config *SmsvoiceRegistrationAttachmentConfig) {
 	_init_.Initialize()
 

@@ -1,3 +1,3 @@
 # `awscc_transfer_certificate`
 
-Refer to the Terraform Registry for docs: [`awscc_transfer_certificate`](https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/transfer_certificate).
+Refer to the Terraform Registry for docs: [`awscc_transfer_certificate`](https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/transfer_certificate).

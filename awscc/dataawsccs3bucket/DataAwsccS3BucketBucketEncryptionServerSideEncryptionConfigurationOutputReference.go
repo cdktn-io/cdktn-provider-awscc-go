@@ -13,6 +13,7 @@ import (
 
 type DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference interface {
 	cdktn.ComplexObject
+	BlockedEncryptionTypes() DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference
 	BucketKeyEnabled() cdktn.IResolvable
 	// the index of the complex object in a list.
 	// Experimental.
@@ -79,6 +80,16 @@ type DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationOutputRef
 // The jsii proxy struct for DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference
 type jsiiProxy_DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference) BlockedEncryptionTypes() DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference {
+	var returns DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference
+	_jsii_.Get(
+		j,
+		"blockedEncryptionTypes",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference) BucketKeyEnabled() cdktn.IResolvable {

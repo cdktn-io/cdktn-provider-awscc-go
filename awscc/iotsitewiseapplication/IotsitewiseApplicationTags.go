@@ -7,11 +7,11 @@ package iotsitewiseapplication
 type IotsitewiseApplicationTags struct {
 	// The key name of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iotsitewise_application#key IotsitewiseApplication#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/iotsitewise_application#key IotsitewiseApplication#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value for the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iotsitewise_application#value IotsitewiseApplication#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/iotsitewise_application#value IotsitewiseApplication#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

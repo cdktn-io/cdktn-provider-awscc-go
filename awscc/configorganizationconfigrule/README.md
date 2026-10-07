@@ -1,0 +1,3 @@
+# `awscc_config_organization_config_rule`
+
+Refer to the Terraform Registry for docs: [`awscc_config_organization_config_rule`](https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/config_organization_config_rule).

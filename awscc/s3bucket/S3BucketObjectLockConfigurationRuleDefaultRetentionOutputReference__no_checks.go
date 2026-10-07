@@ -47,6 +47,10 @@ func (s *jsiiProxy_S3BucketObjectLockConfigurationRuleDefaultRetentionOutputRefe
 	return nil
 }
 
+func (s *jsiiProxy_S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference) validatePutDefaultEventHoldParameters(value *S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold) error {
+	return nil
+}
+
 func (s *jsiiProxy_S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

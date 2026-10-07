@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/appsync_api_cache awscc_appsync_api_cache}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/appsync_api_cache awscc_appsync_api_cache}.
 type DataAwsccAppsyncApiCache interface {
 	cdktn.TerraformDataSource
 	ApiCacheId() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccAppsyncApiCache) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/appsync_api_cache awscc_appsync_api_cache} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/appsync_api_cache awscc_appsync_api_cache} Data Source.
 func NewDataAwsccAppsyncApiCache(scope constructs.Construct, id *string, config *DataAwsccAppsyncApiCacheConfig) DataAwsccAppsyncApiCache {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccAppsyncApiCache(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/appsync_api_cache awscc_appsync_api_cache} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/appsync_api_cache awscc_appsync_api_cache} Data Source.
 func NewDataAwsccAppsyncApiCache_Override(d DataAwsccAppsyncApiCache, scope constructs.Construct, id *string, config *DataAwsccAppsyncApiCacheConfig) {
 	_init_.Initialize()
 

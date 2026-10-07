@@ -182,6 +182,14 @@ func (j *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) vali
 	return nil
 }
 
+func (j *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) validateSetEncryptionAlgorithmParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
 	case cdktn.IResolvable:
@@ -207,6 +215,14 @@ func (j *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) vali
 }
 
 func (j *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) validateSetPortParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference) validateSetSecurityMechanismParameters(val *float64) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

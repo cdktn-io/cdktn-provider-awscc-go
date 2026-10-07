@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/comprehend_entity_recognizer_endpoint awscc_comprehend_entity_recognizer_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/comprehend_entity_recognizer_endpoint awscc_comprehend_entity_recognizer_endpoint}.
 type DataAwsccComprehendEntityRecognizerEndpoint interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccComprehendEntityRecognizerEndpoint) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/comprehend_entity_recognizer_endpoint awscc_comprehend_entity_recognizer_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/comprehend_entity_recognizer_endpoint awscc_comprehend_entity_recognizer_endpoint} Data Source.
 func NewDataAwsccComprehendEntityRecognizerEndpoint(scope constructs.Construct, id *string, config *DataAwsccComprehendEntityRecognizerEndpointConfig) DataAwsccComprehendEntityRecognizerEndpoint {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccComprehendEntityRecognizerEndpoint(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/comprehend_entity_recognizer_endpoint awscc_comprehend_entity_recognizer_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/comprehend_entity_recognizer_endpoint awscc_comprehend_entity_recognizer_endpoint} Data Source.
 func NewDataAwsccComprehendEntityRecognizerEndpoint_Override(d DataAwsccComprehendEntityRecognizerEndpoint, scope constructs.Construct, id *string, config *DataAwsccComprehendEntityRecognizerEndpointConfig) {
 	_init_.Initialize()
 

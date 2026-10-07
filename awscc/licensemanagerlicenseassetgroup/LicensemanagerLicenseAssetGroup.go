@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/licensemanager_license_asset_group awscc_licensemanager_license_asset_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/licensemanager_license_asset_group awscc_licensemanager_license_asset_group}.
 type LicensemanagerLicenseAssetGroup interface {
 	cdktn.TerraformResource
 	AssociatedLicenseAssetRulesetArNs() *[]*string
@@ -507,7 +507,7 @@ func (j *jsiiProxy_LicensemanagerLicenseAssetGroup) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/licensemanager_license_asset_group awscc_licensemanager_license_asset_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/licensemanager_license_asset_group awscc_licensemanager_license_asset_group} Resource.
 func NewLicensemanagerLicenseAssetGroup(scope constructs.Construct, id *string, config *LicensemanagerLicenseAssetGroupConfig) LicensemanagerLicenseAssetGroup {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewLicensemanagerLicenseAssetGroup(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/licensemanager_license_asset_group awscc_licensemanager_license_asset_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/licensemanager_license_asset_group awscc_licensemanager_license_asset_group} Resource.
 func NewLicensemanagerLicenseAssetGroup_Override(l LicensemanagerLicenseAssetGroup, scope constructs.Construct, id *string, config *LicensemanagerLicenseAssetGroupConfig) {
 	_init_.Initialize()
 

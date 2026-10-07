@@ -22,17 +22,17 @@ type Ec2VpnConcentratorConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// The ID of the transit gateway associated with the VPN concentrator.
-	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_vpn_concentrator#transit_gateway_id Ec2VpnConcentrator#transit_gateway_id}
-	TransitGatewayId *string `field:"required" json:"transitGatewayId" yaml:"transitGatewayId"`
 	// The type of VPN concentrator.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_vpn_concentrator#type Ec2VpnConcentrator#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_vpn_concentrator#type Ec2VpnConcentrator#type}
 	Type *string `field:"required" json:"type" yaml:"type"`
 	// Any tags assigned to the VPN concentrator.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_vpn_concentrator#tags Ec2VpnConcentrator#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_vpn_concentrator#tags Ec2VpnConcentrator#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
+	// The ID of the transit gateway associated with the VPN concentrator.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_vpn_concentrator#transit_gateway_id Ec2VpnConcentrator#transit_gateway_id}
+	TransitGatewayId *string `field:"optional" json:"transitGatewayId" yaml:"transitGatewayId"`
 }
 

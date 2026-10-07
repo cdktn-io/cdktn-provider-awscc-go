@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/eventsv2_subscribers awscc_eventsv2_subscribers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/eventsv2_subscribers awscc_eventsv2_subscribers}.
 type DataAwsccEventsv2Subscribers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEventsv2Subscribers) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/eventsv2_subscribers awscc_eventsv2_subscribers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/eventsv2_subscribers awscc_eventsv2_subscribers} Data Source.
 func NewDataAwsccEventsv2Subscribers(scope constructs.Construct, id *string, config *DataAwsccEventsv2SubscribersConfig) DataAwsccEventsv2Subscribers {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEventsv2Subscribers(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/eventsv2_subscribers awscc_eventsv2_subscribers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/eventsv2_subscribers awscc_eventsv2_subscribers} Data Source.
 func NewDataAwsccEventsv2Subscribers_Override(d DataAwsccEventsv2Subscribers, scope constructs.Construct, id *string, config *DataAwsccEventsv2SubscribersConfig) {
 	_init_.Initialize()
 

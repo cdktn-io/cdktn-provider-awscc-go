@@ -5,7 +5,7 @@ package quicksightactionconnector
 
 
 type QuicksightActionConnectorAuthenticationConfigAuthenticationMetadataNoneConnectionMetadata struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_action_connector#base_endpoint QuicksightActionConnector#base_endpoint}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/quicksight_action_connector#base_endpoint QuicksightActionConnector#base_endpoint}.
 	BaseEndpoint *string `field:"optional" json:"baseEndpoint" yaml:"baseEndpoint"`
 }
 

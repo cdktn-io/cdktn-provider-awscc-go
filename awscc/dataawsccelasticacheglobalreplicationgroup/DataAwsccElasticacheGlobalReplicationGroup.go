@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/elasticache_global_replication_group awscc_elasticache_global_replication_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/elasticache_global_replication_group awscc_elasticache_global_replication_group}.
 type DataAwsccElasticacheGlobalReplicationGroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccElasticacheGlobalReplicationGroup) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/elasticache_global_replication_group awscc_elasticache_global_replication_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/elasticache_global_replication_group awscc_elasticache_global_replication_group} Data Source.
 func NewDataAwsccElasticacheGlobalReplicationGroup(scope constructs.Construct, id *string, config *DataAwsccElasticacheGlobalReplicationGroupConfig) DataAwsccElasticacheGlobalReplicationGroup {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccElasticacheGlobalReplicationGroup(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/elasticache_global_replication_group awscc_elasticache_global_replication_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/elasticache_global_replication_group awscc_elasticache_global_replication_group} Data Source.
 func NewDataAwsccElasticacheGlobalReplicationGroup_Override(d DataAwsccElasticacheGlobalReplicationGroup, scope constructs.Construct, id *string, config *DataAwsccElasticacheGlobalReplicationGroupConfig) {
 	_init_.Initialize()
 

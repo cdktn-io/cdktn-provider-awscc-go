@@ -31,6 +31,8 @@ type S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference interfac
 	Days() *float64
 	SetDays(val *float64)
 	DaysInput() *float64
+	DefaultEventHold() S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference
+	DefaultEventHoldInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -73,7 +75,9 @@ type S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference interfac
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutDefaultEventHold(value *S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold)
 	ResetDays()
+	ResetDefaultEventHold()
 	ResetMode()
 	ResetYears()
 	// Produce the Token's value at resolution time.
@@ -136,6 +140,26 @@ func (j *jsiiProxy_S3BucketObjectLockConfigurationRuleDefaultRetentionOutputRefe
 	_jsii_.Get(
 		j,
 		"daysInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference) DefaultEventHold() S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference {
+	var returns S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference
+	_jsii_.Get(
+		j,
+		"defaultEventHold",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference) DefaultEventHoldInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"defaultEventHoldInput",
 		&returns,
 	)
 	return returns
@@ -523,10 +547,29 @@ func (s *jsiiProxy_S3BucketObjectLockConfigurationRuleDefaultRetentionOutputRefe
 	return returns
 }
 
+func (s *jsiiProxy_S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference) PutDefaultEventHold(value *S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold) {
+	if err := s.validatePutDefaultEventHoldParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putDefaultEventHold",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference) ResetDays() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetDays",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference) ResetDefaultEventHold() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDefaultEventHold",
 		nil, // no parameters
 	)
 }

@@ -5,7 +5,7 @@ package opensearchservicedomain
 
 
 type OpensearchserviceDomainNodeToNodeEncryptionOptions struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/opensearchservice_domain#enabled OpensearchserviceDomain#enabled}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/opensearchservice_domain#enabled OpensearchserviceDomain#enabled}.
 	Enabled interface{} `field:"optional" json:"enabled" yaml:"enabled"`
 }
 
