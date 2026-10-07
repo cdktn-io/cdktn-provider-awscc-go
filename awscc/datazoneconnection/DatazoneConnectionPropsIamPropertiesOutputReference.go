@@ -35,6 +35,9 @@ type DatazoneConnectionPropsIamPropertiesOutputReference interface {
 	GlueLineageSyncEnabledInput() interface{}
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	RoleArn() *string
+	SetRoleArn(val *string)
+	RoleArnInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -68,6 +71,7 @@ type DatazoneConnectionPropsIamPropertiesOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetGlueLineageSyncEnabled()
+	ResetRoleArn()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -148,6 +152,26 @@ func (j *jsiiProxy_DatazoneConnectionPropsIamPropertiesOutputReference) Internal
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DatazoneConnectionPropsIamPropertiesOutputReference) RoleArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"roleArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DatazoneConnectionPropsIamPropertiesOutputReference) RoleArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"roleArnInput",
 		&returns,
 	)
 	return returns
@@ -241,6 +265,17 @@ func (j *jsiiProxy_DatazoneConnectionPropsIamPropertiesOutputReference)SetIntern
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DatazoneConnectionPropsIamPropertiesOutputReference)SetRoleArn(val *string) {
+	if err := j.validateSetRoleArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"roleArn",
 		val,
 	)
 }
@@ -457,6 +492,14 @@ func (d *jsiiProxy_DatazoneConnectionPropsIamPropertiesOutputReference) ResetGlu
 	_jsii_.InvokeVoid(
 		d,
 		"resetGlueLineageSyncEnabled",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DatazoneConnectionPropsIamPropertiesOutputReference) ResetRoleArn() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetRoleArn",
 		nil, // no parameters
 	)
 }

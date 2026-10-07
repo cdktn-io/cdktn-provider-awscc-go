@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache}.
 type ElasticacheServerlessCache interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -24,6 +24,9 @@ type ElasticacheServerlessCache interface {
 	Connection() interface{}
 	// Experimental.
 	SetConnection(val interface{})
+	ConnectionType() *string
+	SetConnectionType(val *string)
+	ConnectionTypeInput() *string
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -210,6 +213,7 @@ type ElasticacheServerlessCache interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetCacheUsageLimits()
+	ResetConnectionType()
 	ResetDailySnapshotTime()
 	ResetDescription()
 	ResetEndpoint()
@@ -299,6 +303,26 @@ func (j *jsiiProxy_ElasticacheServerlessCache) Connection() interface{} {
 	_jsii_.Get(
 		j,
 		"connection",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ElasticacheServerlessCache) ConnectionType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"connectionType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ElasticacheServerlessCache) ConnectionTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"connectionTypeInput",
 		&returns,
 	)
 	return returns
@@ -805,7 +829,7 @@ func (j *jsiiProxy_ElasticacheServerlessCache) UserGroupIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache} Resource.
 func NewElasticacheServerlessCache(scope constructs.Construct, id *string, config *ElasticacheServerlessCacheConfig) ElasticacheServerlessCache {
 	_init_.Initialize()
 
@@ -823,7 +847,7 @@ func NewElasticacheServerlessCache(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache} Resource.
 func NewElasticacheServerlessCache_Override(e ElasticacheServerlessCache, scope constructs.Construct, id *string, config *ElasticacheServerlessCacheConfig) {
 	_init_.Initialize()
 
@@ -841,6 +865,17 @@ func (j *jsiiProxy_ElasticacheServerlessCache)SetConnection(val interface{}) {
 	_jsii_.Set(
 		j,
 		"connection",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ElasticacheServerlessCache)SetConnectionType(val *string) {
+	if err := j.validateSetConnectionTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"connectionType",
 		val,
 	)
 }
@@ -1473,6 +1508,14 @@ func (e *jsiiProxy_ElasticacheServerlessCache) ResetCacheUsageLimits() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetCacheUsageLimits",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_ElasticacheServerlessCache) ResetConnectionType() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetConnectionType",
 		nil, // no parameters
 	)
 }

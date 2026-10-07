@@ -87,6 +87,10 @@ func (e *jsiiProxy_ElasticacheGlobalReplicationGroup) validatePutRegionalConfigu
 	return nil
 }
 
+func (e *jsiiProxy_ElasticacheGlobalReplicationGroup) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_ElasticacheGlobalReplicationGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }

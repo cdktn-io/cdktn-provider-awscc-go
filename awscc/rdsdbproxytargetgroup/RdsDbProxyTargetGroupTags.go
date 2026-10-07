@@ -1,0 +1,17 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package rdsdbproxytargetgroup
+
+
+type RdsDbProxyTargetGroupTags struct {
+	// The key name of the tag.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/rds_db_proxy_target_group#key RdsDbProxyTargetGroup#key}
+	Key *string `field:"optional" json:"key" yaml:"key"`
+	// The value for the tag.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/rds_db_proxy_target_group#value RdsDbProxyTargetGroup#value}
+	Value *string `field:"optional" json:"value" yaml:"value"`
+}
+

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition awscc_glue_partition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition awscc_glue_partition}.
 type GluePartition interface {
 	cdktn.TerraformResource
 	CatalogId() *string
@@ -458,7 +458,7 @@ func (j *jsiiProxy_GluePartition) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition awscc_glue_partition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition awscc_glue_partition} Resource.
 func NewGluePartition(scope constructs.Construct, id *string, config *GluePartitionConfig) GluePartition {
 	_init_.Initialize()
 
@@ -476,7 +476,7 @@ func NewGluePartition(scope constructs.Construct, id *string, config *GluePartit
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition awscc_glue_partition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition awscc_glue_partition} Resource.
 func NewGluePartition_Override(g GluePartition, scope constructs.Construct, id *string, config *GluePartitionConfig) {
 	_init_.Initialize()
 

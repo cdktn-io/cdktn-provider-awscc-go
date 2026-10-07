@@ -51,6 +51,10 @@ func (m *jsiiProxy_MediatailorFunctionSequentialExecutorConfigurationFunctionLis
 	return nil
 }
 
+func (j *jsiiProxy_MediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference) validateSetAliasParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_MediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }

@@ -55,6 +55,10 @@ func (b *jsiiProxy_BedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseC
 	return nil
 }
 
+func (b *jsiiProxy_BedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationOutputReference) validatePutSyncScheduleParameters(value *BedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationSyncSchedule) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

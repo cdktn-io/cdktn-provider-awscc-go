@@ -126,6 +126,17 @@ func (o *jsiiProxy_ObservabilityadminOrganizationTelemetryRuleRuleDestinationCon
 	return nil
 }
 
+func (o *jsiiProxy_ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationOutputReference) validatePutMskMonitoringParametersParameters(value *ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationMskMonitoringParameters) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (o *jsiiProxy_ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationOutputReference) validatePutVpcFlowLogParametersParameters(value *ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationVpcFlowLogParameters) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

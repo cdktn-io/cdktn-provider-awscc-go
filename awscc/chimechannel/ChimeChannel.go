@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel awscc_chime_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel awscc_chime_channel}.
 type ChimeChannel interface {
 	cdktn.TerraformResource
 	AppInstanceArn() *string
@@ -706,7 +706,7 @@ func (j *jsiiProxy_ChimeChannel) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel awscc_chime_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel awscc_chime_channel} Resource.
 func NewChimeChannel(scope constructs.Construct, id *string, config *ChimeChannelConfig) ChimeChannel {
 	_init_.Initialize()
 
@@ -724,7 +724,7 @@ func NewChimeChannel(scope constructs.Construct, id *string, config *ChimeChanne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel awscc_chime_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel awscc_chime_channel} Resource.
 func NewChimeChannel_Override(c ChimeChannel, scope constructs.Construct, id *string, config *ChimeChannelConfig) {
 	_init_.Initialize()
 

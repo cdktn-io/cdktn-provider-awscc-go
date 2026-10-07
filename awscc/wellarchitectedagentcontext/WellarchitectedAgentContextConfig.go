@@ -24,21 +24,21 @@ type WellarchitectedAgentContextConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The free-form content of the Agent Context, supplied as an arbitrary JSON object.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/wellarchitected_agent_context#content WellarchitectedAgentContext#content}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_context#content WellarchitectedAgentContext#content}
 	Content *string `field:"required" json:"content" yaml:"content"`
 	// The type of the Agent Context.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/wellarchitected_agent_context#context_type WellarchitectedAgentContext#context_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_context#context_type WellarchitectedAgentContext#context_type}
 	ContextType *string `field:"required" json:"contextType" yaml:"contextType"`
 	// The Amazon Resource Name (ARN) of the parent Agent Profile that owns this context.
 	//
 	// Pass `!Ref` of the parent AWS::WellArchitected::AgentProfile to flow its ARN here.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/wellarchitected_agent_context#profile_arn WellarchitectedAgentContext#profile_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_context#profile_arn WellarchitectedAgentContext#profile_arn}
 	ProfileArn *string `field:"required" json:"profileArn" yaml:"profileArn"`
 	// The title of the Agent Context.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/wellarchitected_agent_context#title WellarchitectedAgentContext#title}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_context#title WellarchitectedAgentContext#title}
 	Title *string `field:"required" json:"title" yaml:"title"`
 }
 

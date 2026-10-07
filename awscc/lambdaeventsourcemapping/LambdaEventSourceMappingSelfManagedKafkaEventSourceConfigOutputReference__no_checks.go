@@ -67,6 +67,10 @@ func (j *jsiiProxy_LambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutp
 	return nil
 }
 
+func (j *jsiiProxy_LambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutputReference) validateSetConsumptionModeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_LambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	return nil
 }

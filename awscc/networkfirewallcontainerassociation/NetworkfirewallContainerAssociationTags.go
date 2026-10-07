@@ -7,11 +7,11 @@ package networkfirewallcontainerassociation
 type NetworkfirewallContainerAssociationTags struct {
 	// The part of the key:value pair that defines a tag. Tag keys are case-sensitive.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/networkfirewall_container_association#key NetworkfirewallContainerAssociation#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkfirewall_container_association#key NetworkfirewallContainerAssociation#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The part of the key:value pair that defines a tag. Tag values are case-sensitive.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/networkfirewall_container_association#value NetworkfirewallContainerAssociation#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkfirewall_container_association#value NetworkfirewallContainerAssociation#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

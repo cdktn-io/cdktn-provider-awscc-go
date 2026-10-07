@@ -119,6 +119,10 @@ func (j *jsiiProxy_ElasticacheServerlessCache) validateSetConnectionParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_ElasticacheServerlessCache) validateSetConnectionTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ElasticacheServerlessCache) validateSetCountParameters(val interface{}) error {
 	return nil
 }

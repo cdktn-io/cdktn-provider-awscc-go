@@ -12,12 +12,16 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediatailor_function awscc_mediatailor_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_function awscc_mediatailor_function}.
 type MediatailorFunction interface {
 	cdktn.TerraformResource
 	Arn() *string
+	AwsServiceRequestConfiguration() MediatailorFunctionAwsServiceRequestConfigurationOutputReference
+	AwsServiceRequestConfigurationInput() interface{}
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
+	ConcurrentExecutorConfiguration() MediatailorFunctionConcurrentExecutorConfigurationOutputReference
+	ConcurrentExecutorConfigurationInput() interface{}
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -80,6 +84,8 @@ type MediatailorFunction interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	VastRequestConfiguration() MediatailorFunctionVastRequestConfigurationOutputReference
+	VastRequestConfigurationInput() interface{}
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -159,10 +165,13 @@ type MediatailorFunction interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutAwsServiceRequestConfiguration(value *MediatailorFunctionAwsServiceRequestConfiguration)
+	PutConcurrentExecutorConfiguration(value *MediatailorFunctionConcurrentExecutorConfiguration)
 	PutCustomOutputConfiguration(value *MediatailorFunctionCustomOutputConfiguration)
 	PutHttpRequestConfiguration(value *MediatailorFunctionHttpRequestConfiguration)
 	PutSequentialExecutorConfiguration(value *MediatailorFunctionSequentialExecutorConfiguration)
 	PutTags(value interface{})
+	PutVastRequestConfiguration(value *MediatailorFunctionVastRequestConfiguration)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -176,6 +185,8 @@ type MediatailorFunction interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetAwsServiceRequestConfiguration()
+	ResetConcurrentExecutorConfiguration()
 	ResetCustomOutputConfiguration()
 	ResetDescription()
 	ResetHttpRequestConfiguration()
@@ -184,6 +195,7 @@ type MediatailorFunction interface {
 	ResetOverrideLogicalId()
 	ResetSequentialExecutorConfiguration()
 	ResetTags()
+	ResetVastRequestConfiguration()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -221,11 +233,51 @@ func (j *jsiiProxy_MediatailorFunction) Arn() *string {
 	return returns
 }
 
+func (j *jsiiProxy_MediatailorFunction) AwsServiceRequestConfiguration() MediatailorFunctionAwsServiceRequestConfigurationOutputReference {
+	var returns MediatailorFunctionAwsServiceRequestConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"awsServiceRequestConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediatailorFunction) AwsServiceRequestConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"awsServiceRequestConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_MediatailorFunction) CdktfStack() cdktn.TerraformStack {
 	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediatailorFunction) ConcurrentExecutorConfiguration() MediatailorFunctionConcurrentExecutorConfigurationOutputReference {
+	var returns MediatailorFunctionConcurrentExecutorConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"concurrentExecutorConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediatailorFunction) ConcurrentExecutorConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"concurrentExecutorConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -531,8 +583,28 @@ func (j *jsiiProxy_MediatailorFunction) TerraformResourceType() *string {
 	return returns
 }
 
+func (j *jsiiProxy_MediatailorFunction) VastRequestConfiguration() MediatailorFunctionVastRequestConfigurationOutputReference {
+	var returns MediatailorFunctionVastRequestConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"vastRequestConfiguration",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediatailor_function awscc_mediatailor_function} Resource.
+func (j *jsiiProxy_MediatailorFunction) VastRequestConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"vastRequestConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_function awscc_mediatailor_function} Resource.
 func NewMediatailorFunction(scope constructs.Construct, id *string, config *MediatailorFunctionConfig) MediatailorFunction {
 	_init_.Initialize()
 
@@ -550,7 +622,7 @@ func NewMediatailorFunction(scope constructs.Construct, id *string, config *Medi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediatailor_function awscc_mediatailor_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_function awscc_mediatailor_function} Resource.
 func NewMediatailorFunction_Override(m MediatailorFunction, scope constructs.Construct, id *string, config *MediatailorFunctionConfig) {
 	_init_.Initialize()
 
@@ -1031,6 +1103,28 @@ func (m *jsiiProxy_MediatailorFunction) OverrideLogicalId(newLogicalId *string) 
 	)
 }
 
+func (m *jsiiProxy_MediatailorFunction) PutAwsServiceRequestConfiguration(value *MediatailorFunctionAwsServiceRequestConfiguration) {
+	if err := m.validatePutAwsServiceRequestConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putAwsServiceRequestConfiguration",
+		[]interface{}{value},
+	)
+}
+
+func (m *jsiiProxy_MediatailorFunction) PutConcurrentExecutorConfiguration(value *MediatailorFunctionConcurrentExecutorConfiguration) {
+	if err := m.validatePutConcurrentExecutorConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putConcurrentExecutorConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_MediatailorFunction) PutCustomOutputConfiguration(value *MediatailorFunctionCustomOutputConfiguration) {
 	if err := m.validatePutCustomOutputConfigurationParameters(value); err != nil {
 		panic(err)
@@ -1075,6 +1169,17 @@ func (m *jsiiProxy_MediatailorFunction) PutTags(value interface{}) {
 	)
 }
 
+func (m *jsiiProxy_MediatailorFunction) PutVastRequestConfiguration(value *MediatailorFunctionVastRequestConfiguration) {
+	if err := m.validatePutVastRequestConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putVastRequestConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_MediatailorFunction) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := m.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -1083,6 +1188,22 @@ func (m *jsiiProxy_MediatailorFunction) RegisterProviderFeatureUsage(feature cdk
 		m,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (m *jsiiProxy_MediatailorFunction) ResetAwsServiceRequestConfiguration() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetAwsServiceRequestConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MediatailorFunction) ResetConcurrentExecutorConfiguration() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetConcurrentExecutorConfiguration",
+		nil, // no parameters
 	)
 }
 
@@ -1130,6 +1251,14 @@ func (m *jsiiProxy_MediatailorFunction) ResetTags() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetTags",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MediatailorFunction) ResetVastRequestConfiguration() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetVastRequestConfiguration",
 		nil, // no parameters
 	)
 }

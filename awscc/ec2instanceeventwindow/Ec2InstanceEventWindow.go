@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_instance_event_window awscc_ec2_instance_event_window}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_instance_event_window awscc_ec2_instance_event_window}.
 type Ec2InstanceEventWindow interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_Ec2InstanceEventWindow) TimeRangesInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_instance_event_window awscc_ec2_instance_event_window} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_instance_event_window awscc_ec2_instance_event_window} Resource.
 func NewEc2InstanceEventWindow(scope constructs.Construct, id *string, config *Ec2InstanceEventWindowConfig) Ec2InstanceEventWindow {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewEc2InstanceEventWindow(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_instance_event_window awscc_ec2_instance_event_window} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_instance_event_window awscc_ec2_instance_event_window} Resource.
 func NewEc2InstanceEventWindow_Override(e Ec2InstanceEventWindow, scope constructs.Construct, id *string, config *Ec2InstanceEventWindowConfig) {
 	_init_.Initialize()
 

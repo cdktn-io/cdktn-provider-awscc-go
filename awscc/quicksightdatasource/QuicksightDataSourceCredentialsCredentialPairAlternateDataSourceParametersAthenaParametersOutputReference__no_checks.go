@@ -63,6 +63,10 @@ func (j *jsiiProxy_QuicksightDataSourceCredentialsCredentialPairAlternateDataSou
 	return nil
 }
 
+func (j *jsiiProxy_QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAthenaParametersOutputReference) validateSetConsumerAccountRoleArnParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersAthenaParametersOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	return nil
 }

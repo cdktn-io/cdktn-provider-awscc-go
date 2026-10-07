@@ -83,6 +83,10 @@ func (d *jsiiProxy_DevopsagentAgentSpace) validatePutOperatorAppParameters(value
 	return nil
 }
 
+func (d *jsiiProxy_DevopsagentAgentSpace) validatePutPreferencesParameters(value *DevopsagentAgentSpacePreferences) error {
+	return nil
+}
+
 func (d *jsiiProxy_DevopsagentAgentSpace) validatePutTagsParameters(value interface{}) error {
 	return nil
 }

@@ -38,6 +38,7 @@ type DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigur
 	SetInternalValue(val *DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfiguration)
 	KmsKeyArn() *string
 	LogDeliveryParameters() DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationLogDeliveryParametersOutputReference
+	MskMonitoringParameters() DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationMskMonitoringParametersOutputReference
 	RetentionInDays() *float64
 	// Experimental.
 	TerraformAttribute() *string
@@ -193,6 +194,16 @@ func (j *jsiiProxy_DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDesti
 	_jsii_.Get(
 		j,
 		"logDeliveryParameters",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationOutputReference) MskMonitoringParameters() DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationMskMonitoringParametersOutputReference {
+	var returns DataAwsccObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationMskMonitoringParametersOutputReference
+	_jsii_.Get(
+		j,
+		"mskMonitoringParameters",
 		&returns,
 	)
 	return returns

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_notebook_instance_lifecycle_config awscc_sagemaker_notebook_instance_lifecycle_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/sagemaker_notebook_instance_lifecycle_config awscc_sagemaker_notebook_instance_lifecycle_config}.
 type DataAwsccSagemakerNotebookInstanceLifecycleConfig interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccSagemakerNotebookInstanceLifecycleConfig) TerraformR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_notebook_instance_lifecycle_config awscc_sagemaker_notebook_instance_lifecycle_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/sagemaker_notebook_instance_lifecycle_config awscc_sagemaker_notebook_instance_lifecycle_config} Data Source.
 func NewDataAwsccSagemakerNotebookInstanceLifecycleConfig(scope constructs.Construct, id *string, config *DataAwsccSagemakerNotebookInstanceLifecycleConfigConfig) DataAwsccSagemakerNotebookInstanceLifecycleConfig {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccSagemakerNotebookInstanceLifecycleConfig(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_notebook_instance_lifecycle_config awscc_sagemaker_notebook_instance_lifecycle_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/sagemaker_notebook_instance_lifecycle_config awscc_sagemaker_notebook_instance_lifecycle_config} Data Source.
 func NewDataAwsccSagemakerNotebookInstanceLifecycleConfig_Override(d DataAwsccSagemakerNotebookInstanceLifecycleConfig, scope constructs.Construct, id *string, config *DataAwsccSagemakerNotebookInstanceLifecycleConfigConfig) {
 	_init_.Initialize()
 

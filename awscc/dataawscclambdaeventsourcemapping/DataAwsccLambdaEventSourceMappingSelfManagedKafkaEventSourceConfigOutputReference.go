@@ -24,6 +24,7 @@ type DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutputRef
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
 	ConsumerGroupId() *string
+	ConsumptionMode() *string
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -106,6 +107,16 @@ func (j *jsiiProxy_DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceC
 	_jsii_.Get(
 		j,
 		"consumerGroupId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutputReference) ConsumptionMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"consumptionMode",
 		&returns,
 	)
 	return returns

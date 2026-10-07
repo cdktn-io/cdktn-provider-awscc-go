@@ -5,21 +5,27 @@ package mediatailorfunction
 
 
 type MediatailorFunctionSequentialExecutorConfiguration struct {
-	// The list of functions to execute sequentially.
+	// An ordered list of 1 to 10 steps.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediatailor_function#function_list MediatailorFunction#function_list}
+	// Each step specifies a child function to execute and an optional run condition expression that controls whether the step runs. MediaTailor executes the steps in order, passing data between steps through temporary data. Each step's resolved namespace must be unique across the list.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_function#function_list MediatailorFunction#function_list}
 	FunctionList interface{} `field:"optional" json:"functionList" yaml:"functionList"`
-	// A map of output key-value pairs that define the final output from sequential execution.
+	// A map of output bindings that controls which bindings the sequence commits to the session state after all steps complete.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
+	// Each key is a namespaced output path, and each value is an expression that MediaTailor evaluates against the accumulated results of the steps.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_function#output MediatailorFunction#output}
 	Output *map[string]*string `field:"optional" json:"output" yaml:"output"`
-	// The runtime environment for the function expression language.
+	// The expression language used to evaluate expressions in the function configuration. Set this to JSONATA.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_function#runtime MediatailorFunction#runtime}
 	Runtime *string `field:"optional" json:"runtime" yaml:"runtime"`
-	// The timeout in milliseconds for the entire sequential execution chain.
+	// The maximum time, in milliseconds, for the entire sequence to complete.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediatailor_function#timeout_milliseconds MediatailorFunction#timeout_milliseconds}
+	// This timeout covers all steps, including any HTTP calls made by child functions. If the sequence exceeds this timeout, MediaTailor discards all output from the sequence and proceeds with default behavior. Valid values are 100 to 2000.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_function#timeout_milliseconds MediatailorFunction#timeout_milliseconds}
 	TimeoutMilliseconds *float64 `field:"optional" json:"timeoutMilliseconds" yaml:"timeoutMilliseconds"`
 }
 

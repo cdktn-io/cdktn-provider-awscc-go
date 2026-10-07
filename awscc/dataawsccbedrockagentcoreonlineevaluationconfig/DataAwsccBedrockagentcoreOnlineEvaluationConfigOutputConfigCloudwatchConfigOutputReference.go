@@ -33,6 +33,8 @@ type DataAwsccBedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfig
 	InternalValue() *DataAwsccBedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfig
 	SetInternalValue(val *DataAwsccBedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfig)
 	LogGroupName() *string
+	MetricsNamespace() *string
+	ResultDestination() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -135,6 +137,26 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreOnlineEvaluationConfigOutputConfigCl
 	_jsii_.Get(
 		j,
 		"logGroupName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference) MetricsNamespace() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"metricsNamespace",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference) ResultDestination() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"resultDestination",
 		&returns,
 	)
 	return returns

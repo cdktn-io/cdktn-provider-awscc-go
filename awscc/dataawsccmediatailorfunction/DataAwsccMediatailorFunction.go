@@ -12,12 +12,14 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/mediatailor_function awscc_mediatailor_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mediatailor_function awscc_mediatailor_function}.
 type DataAwsccMediatailorFunction interface {
 	cdktn.TerraformDataSource
 	Arn() *string
+	AwsServiceRequestConfiguration() DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
+	ConcurrentExecutorConfiguration() DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -64,6 +66,7 @@ type DataAwsccMediatailorFunction interface {
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
+	VastRequestConfiguration() DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference
 	// Experimental.
 	AddOverride(path *string, value interface{})
 	// Experimental.
@@ -143,11 +146,31 @@ func (j *jsiiProxy_DataAwsccMediatailorFunction) Arn() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccMediatailorFunction) AwsServiceRequestConfiguration() DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference {
+	var returns DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"awsServiceRequestConfiguration",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccMediatailorFunction) CdktfStack() cdktn.TerraformStack {
 	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccMediatailorFunction) ConcurrentExecutorConfiguration() DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference {
+	var returns DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"concurrentExecutorConfiguration",
 		&returns,
 	)
 	return returns
@@ -373,8 +396,18 @@ func (j *jsiiProxy_DataAwsccMediatailorFunction) TerraformResourceType() *string
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccMediatailorFunction) VastRequestConfiguration() DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference {
+	var returns DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"vastRequestConfiguration",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/mediatailor_function awscc_mediatailor_function} Data Source.
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mediatailor_function awscc_mediatailor_function} Data Source.
 func NewDataAwsccMediatailorFunction(scope constructs.Construct, id *string, config *DataAwsccMediatailorFunctionConfig) DataAwsccMediatailorFunction {
 	_init_.Initialize()
 
@@ -392,7 +425,7 @@ func NewDataAwsccMediatailorFunction(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/mediatailor_function awscc_mediatailor_function} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mediatailor_function awscc_mediatailor_function} Data Source.
 func NewDataAwsccMediatailorFunction_Override(d DataAwsccMediatailorFunction, scope constructs.Construct, id *string, config *DataAwsccMediatailorFunctionConfig) {
 	_init_.Initialize()
 

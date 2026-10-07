@@ -63,6 +63,10 @@ func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwa
 	return nil
 }
 
+func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwatchLogsOutputReference) validateSetLogGroupNamePrefixesParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwatchLogsOutputReference) validateSetLogGroupNamesParameters(val *[]*string) error {
 	return nil
 }

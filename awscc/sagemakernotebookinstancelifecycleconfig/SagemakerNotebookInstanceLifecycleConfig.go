@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_notebook_instance_lifecycle_config awscc_sagemaker_notebook_instance_lifecycle_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_notebook_instance_lifecycle_config awscc_sagemaker_notebook_instance_lifecycle_config}.
 type SagemakerNotebookInstanceLifecycleConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_SagemakerNotebookInstanceLifecycleConfig) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_notebook_instance_lifecycle_config awscc_sagemaker_notebook_instance_lifecycle_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_notebook_instance_lifecycle_config awscc_sagemaker_notebook_instance_lifecycle_config} Resource.
 func NewSagemakerNotebookInstanceLifecycleConfig(scope constructs.Construct, id *string, config *SagemakerNotebookInstanceLifecycleConfigConfig) SagemakerNotebookInstanceLifecycleConfig {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewSagemakerNotebookInstanceLifecycleConfig(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/sagemaker_notebook_instance_lifecycle_config awscc_sagemaker_notebook_instance_lifecycle_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_notebook_instance_lifecycle_config awscc_sagemaker_notebook_instance_lifecycle_config} Resource.
 func NewSagemakerNotebookInstanceLifecycleConfig_Override(s SagemakerNotebookInstanceLifecycleConfig, scope constructs.Construct, id *string, config *SagemakerNotebookInstanceLifecycleConfigConfig) {
 	_init_.Initialize()
 

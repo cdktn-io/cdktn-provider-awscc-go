@@ -33,6 +33,7 @@ type DataAwsccMediaconnectRouterOutputConfigurationStandardProtocolConfiguration
 	InternalValue() *DataAwsccMediaconnectRouterOutputConfigurationStandardProtocolConfiguration
 	SetInternalValue(val *DataAwsccMediaconnectRouterOutputConfigurationStandardProtocolConfiguration)
 	Rist() DataAwsccMediaconnectRouterOutputConfigurationStandardProtocolConfigurationRistOutputReference
+	RtmpPush() DataAwsccMediaconnectRouterOutputConfigurationStandardProtocolConfigurationRtmpPushOutputReference
 	Rtp() DataAwsccMediaconnectRouterOutputConfigurationStandardProtocolConfigurationRtpOutputReference
 	SrtCaller() DataAwsccMediaconnectRouterOutputConfigurationStandardProtocolConfigurationSrtCallerOutputReference
 	SrtListener() DataAwsccMediaconnectRouterOutputConfigurationStandardProtocolConfigurationSrtListenerOutputReference
@@ -138,6 +139,16 @@ func (j *jsiiProxy_DataAwsccMediaconnectRouterOutputConfigurationStandardProtoco
 	_jsii_.Get(
 		j,
 		"rist",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccMediaconnectRouterOutputConfigurationStandardProtocolConfigurationOutputReference) RtmpPush() DataAwsccMediaconnectRouterOutputConfigurationStandardProtocolConfigurationRtmpPushOutputReference {
+	var returns DataAwsccMediaconnectRouterOutputConfigurationStandardProtocolConfigurationRtmpPushOutputReference
+	_jsii_.Get(
+		j,
+		"rtmpPush",
 		&returns,
 	)
 	return returns

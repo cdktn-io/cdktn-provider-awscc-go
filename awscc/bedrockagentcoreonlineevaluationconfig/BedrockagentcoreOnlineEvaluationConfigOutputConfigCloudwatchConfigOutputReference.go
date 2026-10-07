@@ -30,9 +30,17 @@ type BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputRef
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
-	InternalValue() *BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfig
-	SetInternalValue(val *BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfig)
+	InternalValue() interface{}
+	SetInternalValue(val interface{})
 	LogGroupName() *string
+	SetLogGroupName(val *string)
+	LogGroupNameInput() *string
+	MetricsNamespace() *string
+	SetMetricsNamespace(val *string)
+	MetricsNamespaceInput() *string
+	ResultDestination() *string
+	SetResultDestination(val *string)
+	ResultDestinationInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -65,6 +73,9 @@ type BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputRef
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetLogGroupName()
+	ResetMetricsNamespace()
+	ResetResultDestination()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -120,8 +131,8 @@ func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchC
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference) InternalValue() *BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfig {
-	var returns *BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfig
+func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference) InternalValue() interface{} {
+	var returns interface{}
 	_jsii_.Get(
 		j,
 		"internalValue",
@@ -135,6 +146,56 @@ func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchC
 	_jsii_.Get(
 		j,
 		"logGroupName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference) LogGroupNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"logGroupNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference) MetricsNamespace() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"metricsNamespace",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference) MetricsNamespaceInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"metricsNamespaceInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference) ResultDestination() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"resultDestination",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference) ResultDestinationInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"resultDestinationInput",
 		&returns,
 	)
 	return returns
@@ -210,13 +271,46 @@ func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchC
 	)
 }
 
-func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference)SetInternalValue(val *BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfig) {
+func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference)SetInternalValue(val interface{}) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
 	}
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference)SetLogGroupName(val *string) {
+	if err := j.validateSetLogGroupNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"logGroupName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference)SetMetricsNamespace(val *string) {
+	if err := j.validateSetMetricsNamespaceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"metricsNamespace",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference)SetResultDestination(val *string) {
+	if err := j.validateSetResultDestinationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"resultDestination",
 		val,
 	)
 }
@@ -427,6 +521,30 @@ func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchC
 	)
 
 	return returns
+}
+
+func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference) ResetLogGroupName() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetLogGroupName",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference) ResetMetricsNamespace() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetMetricsNamespace",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference) ResetResultDestination() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetResultDestination",
+		nil, // no parameters
+	)
 }
 
 func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

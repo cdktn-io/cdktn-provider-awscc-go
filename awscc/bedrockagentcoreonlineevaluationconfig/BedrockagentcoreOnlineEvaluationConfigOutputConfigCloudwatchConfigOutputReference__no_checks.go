@@ -59,7 +59,19 @@ func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchC
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference) validateSetInternalValueParameters(val *BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfig) error {
+func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference) validateSetLogGroupNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference) validateSetMetricsNamespaceParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference) validateSetResultDestinationParameters(val *string) error {
 	return nil
 }
 

@@ -5,7 +5,7 @@ package quicksighttheme
 
 
 type QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#name QuicksightTheme#name}.
 	Name *string `field:"optional" json:"name" yaml:"name"`
 }
 

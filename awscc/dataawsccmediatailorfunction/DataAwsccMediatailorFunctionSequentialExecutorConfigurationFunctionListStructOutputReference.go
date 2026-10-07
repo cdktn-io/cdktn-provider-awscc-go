@@ -13,6 +13,7 @@ import (
 
 type DataAwsccMediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference interface {
 	cdktn.ComplexObject
+	Alias() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -79,6 +80,16 @@ type DataAwsccMediatailorFunctionSequentialExecutorConfigurationFunctionListStru
 // The jsii proxy struct for DataAwsccMediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference
 type jsiiProxy_DataAwsccMediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataAwsccMediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference) Alias() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"alias",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAwsccMediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference) ComplexObjectIndex() interface{} {

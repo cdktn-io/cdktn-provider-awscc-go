@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_application awscc_iotsitewise_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iotsitewise_application awscc_iotsitewise_application}.
 type IotsitewiseApplication interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -550,7 +550,7 @@ func (j *jsiiProxy_IotsitewiseApplication) WorkspaceNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_application awscc_iotsitewise_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iotsitewise_application awscc_iotsitewise_application} Resource.
 func NewIotsitewiseApplication(scope constructs.Construct, id *string, config *IotsitewiseApplicationConfig) IotsitewiseApplication {
 	_init_.Initialize()
 
@@ -568,7 +568,7 @@ func NewIotsitewiseApplication(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_application awscc_iotsitewise_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iotsitewise_application awscc_iotsitewise_application} Resource.
 func NewIotsitewiseApplication_Override(i IotsitewiseApplication, scope constructs.Construct, id *string, config *IotsitewiseApplicationConfig) {
 	_init_.Initialize()
 

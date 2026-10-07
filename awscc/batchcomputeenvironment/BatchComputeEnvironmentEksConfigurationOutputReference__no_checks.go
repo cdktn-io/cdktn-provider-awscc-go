@@ -47,6 +47,10 @@ func (b *jsiiProxy_BatchComputeEnvironmentEksConfigurationOutputReference) valid
 	return nil
 }
 
+func (b *jsiiProxy_BatchComputeEnvironmentEksConfigurationOutputReference) validatePutAccessEntryParameters(value *BatchComputeEnvironmentEksConfigurationAccessEntry) error {
+	return nil
+}
+
 func (b *jsiiProxy_BatchComputeEnvironmentEksConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

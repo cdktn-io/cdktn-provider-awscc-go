@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/quicksight_customization awscc_quicksight_customization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/quicksight_customization awscc_quicksight_customization}.
 type DataAwsccQuicksightCustomization interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomization) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/quicksight_customization awscc_quicksight_customization} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/quicksight_customization awscc_quicksight_customization} Data Source.
 func NewDataAwsccQuicksightCustomization(scope constructs.Construct, id *string, config *DataAwsccQuicksightCustomizationConfig) DataAwsccQuicksightCustomization {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccQuicksightCustomization(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/quicksight_customization awscc_quicksight_customization} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/quicksight_customization awscc_quicksight_customization} Data Source.
 func NewDataAwsccQuicksightCustomization_Override(d DataAwsccQuicksightCustomization, scope constructs.Construct, id *string, config *DataAwsccQuicksightCustomizationConfig) {
 	_init_.Initialize()
 

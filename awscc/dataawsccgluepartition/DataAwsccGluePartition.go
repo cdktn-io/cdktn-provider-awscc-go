@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/glue_partition awscc_glue_partition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/glue_partition awscc_glue_partition}.
 type DataAwsccGluePartition interface {
 	cdktn.TerraformDataSource
 	CatalogId() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccGluePartition) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/glue_partition awscc_glue_partition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/glue_partition awscc_glue_partition} Data Source.
 func NewDataAwsccGluePartition(scope constructs.Construct, id *string, config *DataAwsccGluePartitionConfig) DataAwsccGluePartition {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccGluePartition(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/glue_partition awscc_glue_partition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/glue_partition awscc_glue_partition} Data Source.
 func NewDataAwsccGluePartition_Override(d DataAwsccGluePartition, scope constructs.Construct, id *string, config *DataAwsccGluePartitionConfig) {
 	_init_.Initialize()
 

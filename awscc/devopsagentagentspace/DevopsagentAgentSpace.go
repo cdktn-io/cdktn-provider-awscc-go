@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space awscc_devopsagent_agent_space}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space awscc_devopsagent_agent_space}.
 type DevopsagentAgentSpace interface {
 	cdktn.TerraformResource
 	AgentSpaceId() *string
@@ -63,6 +63,8 @@ type DevopsagentAgentSpace interface {
 	Node() constructs.Node
 	OperatorApp() DevopsagentAgentSpaceOperatorAppOutputReference
 	OperatorAppInput() interface{}
+	Preferences() DevopsagentAgentSpacePreferencesOutputReference
+	PreferencesInput() interface{}
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -162,6 +164,7 @@ type DevopsagentAgentSpace interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutOperatorApp(value *DevopsagentAgentSpaceOperatorApp)
+	PutPreferences(value *DevopsagentAgentSpacePreferences)
 	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -183,6 +186,7 @@ type DevopsagentAgentSpace interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPreferences()
 	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -451,6 +455,26 @@ func (j *jsiiProxy_DevopsagentAgentSpace) OperatorAppInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_DevopsagentAgentSpace) Preferences() DevopsagentAgentSpacePreferencesOutputReference {
+	var returns DevopsagentAgentSpacePreferencesOutputReference
+	_jsii_.Get(
+		j,
+		"preferences",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DevopsagentAgentSpace) PreferencesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"preferencesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DevopsagentAgentSpace) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -542,7 +566,7 @@ func (j *jsiiProxy_DevopsagentAgentSpace) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space awscc_devopsagent_agent_space} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space awscc_devopsagent_agent_space} Resource.
 func NewDevopsagentAgentSpace(scope constructs.Construct, id *string, config *DevopsagentAgentSpaceConfig) DevopsagentAgentSpace {
 	_init_.Initialize()
 
@@ -560,7 +584,7 @@ func NewDevopsagentAgentSpace(scope constructs.Construct, id *string, config *De
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space awscc_devopsagent_agent_space} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space awscc_devopsagent_agent_space} Resource.
 func NewDevopsagentAgentSpace_Override(d DevopsagentAgentSpace, scope constructs.Construct, id *string, config *DevopsagentAgentSpaceConfig) {
 	_init_.Initialize()
 
@@ -1063,6 +1087,17 @@ func (d *jsiiProxy_DevopsagentAgentSpace) PutOperatorApp(value *DevopsagentAgent
 	)
 }
 
+func (d *jsiiProxy_DevopsagentAgentSpace) PutPreferences(value *DevopsagentAgentSpacePreferences) {
+	if err := d.validatePutPreferencesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putPreferences",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DevopsagentAgentSpace) PutTags(value interface{}) {
 	if err := d.validatePutTagsParameters(value); err != nil {
 		panic(err)
@@ -1121,6 +1156,14 @@ func (d *jsiiProxy_DevopsagentAgentSpace) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DevopsagentAgentSpace) ResetPreferences() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetPreferences",
 		nil, // no parameters
 	)
 }

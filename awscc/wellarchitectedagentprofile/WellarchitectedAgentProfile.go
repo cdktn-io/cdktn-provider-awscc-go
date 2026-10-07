@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/wellarchitected_agent_profile awscc_wellarchitected_agent_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_profile awscc_wellarchitected_agent_profile}.
 type WellarchitectedAgentProfile interface {
 	cdktn.TerraformResource
 	AggregationConfiguration() WellarchitectedAgentProfileAggregationConfigurationList
@@ -622,7 +622,7 @@ func (j *jsiiProxy_WellarchitectedAgentProfile) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/wellarchitected_agent_profile awscc_wellarchitected_agent_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_profile awscc_wellarchitected_agent_profile} Resource.
 func NewWellarchitectedAgentProfile(scope constructs.Construct, id *string, config *WellarchitectedAgentProfileConfig) WellarchitectedAgentProfile {
 	_init_.Initialize()
 
@@ -640,7 +640,7 @@ func NewWellarchitectedAgentProfile(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/wellarchitected_agent_profile awscc_wellarchitected_agent_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_profile awscc_wellarchitected_agent_profile} Resource.
 func NewWellarchitectedAgentProfile_Override(w WellarchitectedAgentProfile, scope constructs.Construct, id *string, config *WellarchitectedAgentProfileConfig) {
 	_init_.Initialize()
 

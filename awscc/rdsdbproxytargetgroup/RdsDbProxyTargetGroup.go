@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/rds_db_proxy_target_group awscc_rds_db_proxy_target_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/rds_db_proxy_target_group awscc_rds_db_proxy_target_group}.
 type RdsDbProxyTargetGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -67,6 +67,8 @@ type RdsDbProxyTargetGroup interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	Tags() RdsDbProxyTargetGroupTagsList
+	TagsInput() interface{}
 	TargetGroupArn() *string
 	TargetGroupName() *string
 	SetTargetGroupName(val *string)
@@ -157,6 +159,7 @@ type RdsDbProxyTargetGroup interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutConnectionPoolConfigurationInfo(value *RdsDbProxyTargetGroupConnectionPoolConfigurationInfo)
+	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -176,6 +179,7 @@ type RdsDbProxyTargetGroup interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -423,6 +427,26 @@ func (j *jsiiProxy_RdsDbProxyTargetGroup) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_RdsDbProxyTargetGroup) Tags() RdsDbProxyTargetGroupTagsList {
+	var returns RdsDbProxyTargetGroupTagsList
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RdsDbProxyTargetGroup) TagsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"tagsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_RdsDbProxyTargetGroup) TargetGroupArn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -484,7 +508,7 @@ func (j *jsiiProxy_RdsDbProxyTargetGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/rds_db_proxy_target_group awscc_rds_db_proxy_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/rds_db_proxy_target_group awscc_rds_db_proxy_target_group} Resource.
 func NewRdsDbProxyTargetGroup(scope constructs.Construct, id *string, config *RdsDbProxyTargetGroupConfig) RdsDbProxyTargetGroup {
 	_init_.Initialize()
 
@@ -502,7 +526,7 @@ func NewRdsDbProxyTargetGroup(scope constructs.Construct, id *string, config *Rd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/rds_db_proxy_target_group awscc_rds_db_proxy_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/rds_db_proxy_target_group awscc_rds_db_proxy_target_group} Resource.
 func NewRdsDbProxyTargetGroup_Override(r RdsDbProxyTargetGroup, scope constructs.Construct, id *string, config *RdsDbProxyTargetGroupConfig) {
 	_init_.Initialize()
 
@@ -1005,6 +1029,17 @@ func (r *jsiiProxy_RdsDbProxyTargetGroup) PutConnectionPoolConfigurationInfo(val
 	)
 }
 
+func (r *jsiiProxy_RdsDbProxyTargetGroup) PutTags(value interface{}) {
+	if err := r.validatePutTagsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		r,
+		"putTags",
+		[]interface{}{value},
+	)
+}
+
 func (r *jsiiProxy_RdsDbProxyTargetGroup) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := r.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -1044,6 +1079,14 @@ func (r *jsiiProxy_RdsDbProxyTargetGroup) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_RdsDbProxyTargetGroup) ResetTags() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetTags",
 		nil, // no parameters
 	)
 }

@@ -215,6 +215,28 @@ func (m *jsiiProxy_MediatailorFunction) validateOverrideLogicalIdParameters(newL
 	return nil
 }
 
+func (m *jsiiProxy_MediatailorFunction) validatePutAwsServiceRequestConfigurationParameters(value *MediatailorFunctionAwsServiceRequestConfiguration) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (m *jsiiProxy_MediatailorFunction) validatePutConcurrentExecutorConfigurationParameters(value *MediatailorFunctionConcurrentExecutorConfiguration) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (m *jsiiProxy_MediatailorFunction) validatePutCustomOutputConfigurationParameters(value *MediatailorFunctionCustomOutputConfiguration) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -274,6 +296,17 @@ func (m *jsiiProxy_MediatailorFunction) validatePutTagsParameters(value interfac
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*MediatailorFunctionTags; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (m *jsiiProxy_MediatailorFunction) validatePutVastRequestConfigurationParameters(value *MediatailorFunctionVastRequestConfiguration) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
 	}
 
 	return nil

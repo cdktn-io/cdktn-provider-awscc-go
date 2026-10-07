@@ -83,6 +83,10 @@ func (r *jsiiProxy_RdsDbProxyTargetGroup) validatePutConnectionPoolConfiguration
 	return nil
 }
 
+func (r *jsiiProxy_RdsDbProxyTargetGroup) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RdsDbProxyTargetGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }

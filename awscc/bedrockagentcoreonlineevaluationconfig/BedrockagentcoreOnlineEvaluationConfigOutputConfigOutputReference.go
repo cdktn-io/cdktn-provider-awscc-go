@@ -14,6 +14,7 @@ import (
 type BedrockagentcoreOnlineEvaluationConfigOutputConfigOutputReference interface {
 	cdktn.ComplexObject
 	CloudwatchConfig() BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfigOutputReference
+	CloudwatchConfigInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -31,8 +32,8 @@ type BedrockagentcoreOnlineEvaluationConfigOutputConfigOutputReference interface
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
-	InternalValue() *BedrockagentcoreOnlineEvaluationConfigOutputConfig
-	SetInternalValue(val *BedrockagentcoreOnlineEvaluationConfigOutputConfig)
+	InternalValue() interface{}
+	SetInternalValue(val interface{})
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -65,6 +66,8 @@ type BedrockagentcoreOnlineEvaluationConfigOutputConfigOutputReference interface
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutCloudwatchConfig(value *BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfig)
+	ResetCloudwatchConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -85,6 +88,16 @@ func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigOutputRefer
 	_jsii_.Get(
 		j,
 		"cloudwatchConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigOutputReference) CloudwatchConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"cloudwatchConfigInput",
 		&returns,
 	)
 	return returns
@@ -130,8 +143,8 @@ func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigOutputRefer
 	return returns
 }
 
-func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigOutputReference) InternalValue() *BedrockagentcoreOnlineEvaluationConfigOutputConfig {
-	var returns *BedrockagentcoreOnlineEvaluationConfigOutputConfig
+func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigOutputReference) InternalValue() interface{} {
+	var returns interface{}
 	_jsii_.Get(
 		j,
 		"internalValue",
@@ -210,7 +223,7 @@ func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigOutputRefer
 	)
 }
 
-func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigOutputReference)SetInternalValue(val *BedrockagentcoreOnlineEvaluationConfigOutputConfig) {
+func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigOutputReference)SetInternalValue(val interface{}) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
 	}
@@ -427,6 +440,25 @@ func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigOutputRefer
 	)
 
 	return returns
+}
+
+func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigOutputReference) PutCloudwatchConfig(value *BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfig) {
+	if err := b.validatePutCloudwatchConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putCloudwatchConfig",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigOutputReference) ResetCloudwatchConfig() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetCloudwatchConfig",
+		nil, // no parameters
+	)
 }
 
 func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

@@ -26,6 +26,9 @@ type LambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutputReference in
 	ConsumerGroupId() *string
 	SetConsumerGroupId(val *string)
 	ConsumerGroupIdInput() *string
+	ConsumptionMode() *string
+	SetConsumptionMode(val *string)
+	ConsumptionModeInput() *string
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -71,6 +74,7 @@ type LambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutputReference in
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutSchemaRegistryConfig(value *LambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfig)
 	ResetConsumerGroupId()
+	ResetConsumptionMode()
 	ResetSchemaRegistryConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -122,6 +126,26 @@ func (j *jsiiProxy_LambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutp
 	_jsii_.Get(
 		j,
 		"consumerGroupIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutputReference) ConsumptionMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"consumptionMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutputReference) ConsumptionModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"consumptionModeInput",
 		&returns,
 	)
 	return returns
@@ -254,6 +278,17 @@ func (j *jsiiProxy_LambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutp
 	_jsii_.Set(
 		j,
 		"consumerGroupId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutputReference)SetConsumptionMode(val *string) {
+	if err := j.validateSetConsumptionModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"consumptionMode",
 		val,
 	)
 }
@@ -492,6 +527,14 @@ func (l *jsiiProxy_LambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutp
 	_jsii_.InvokeVoid(
 		l,
 		"resetConsumerGroupId",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutputReference) ResetConsumptionMode() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetConsumptionMode",
 		nil, // no parameters
 	)
 }

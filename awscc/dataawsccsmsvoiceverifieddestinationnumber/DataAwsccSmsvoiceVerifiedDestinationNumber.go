@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/smsvoice_verified_destination_number awscc_smsvoice_verified_destination_number}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/smsvoice_verified_destination_number awscc_smsvoice_verified_destination_number}.
 type DataAwsccSmsvoiceVerifiedDestinationNumber interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccSmsvoiceVerifiedDestinationNumber) VerifiedDestinati
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/smsvoice_verified_destination_number awscc_smsvoice_verified_destination_number} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/smsvoice_verified_destination_number awscc_smsvoice_verified_destination_number} Data Source.
 func NewDataAwsccSmsvoiceVerifiedDestinationNumber(scope constructs.Construct, id *string, config *DataAwsccSmsvoiceVerifiedDestinationNumberConfig) DataAwsccSmsvoiceVerifiedDestinationNumber {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccSmsvoiceVerifiedDestinationNumber(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/smsvoice_verified_destination_number awscc_smsvoice_verified_destination_number} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/smsvoice_verified_destination_number awscc_smsvoice_verified_destination_number} Data Source.
 func NewDataAwsccSmsvoiceVerifiedDestinationNumber_Override(d DataAwsccSmsvoiceVerifiedDestinationNumber, scope constructs.Construct, id *string, config *DataAwsccSmsvoiceVerifiedDestinationNumberConfig) {
 	_init_.Initialize()
 

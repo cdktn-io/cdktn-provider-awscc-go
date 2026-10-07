@@ -23,6 +23,9 @@ type QuicksightDataSourceAlternateDataSourceParametersAthenaParametersOutputRefe
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ConsumerAccountRoleArn() *string
+	SetConsumerAccountRoleArn(val *string)
+	ConsumerAccountRoleArnInput() *string
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -73,6 +76,7 @@ type QuicksightDataSourceAlternateDataSourceParametersAthenaParametersOutputRefe
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutIdentityCenterConfiguration(value *QuicksightDataSourceAlternateDataSourceParametersAthenaParametersIdentityCenterConfiguration)
+	ResetConsumerAccountRoleArn()
 	ResetIdentityCenterConfiguration()
 	ResetRoleArn()
 	ResetWorkGroup()
@@ -106,6 +110,26 @@ func (j *jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersAthenaParame
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersAthenaParametersOutputReference) ConsumerAccountRoleArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"consumerAccountRoleArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersAthenaParametersOutputReference) ConsumerAccountRoleArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"consumerAccountRoleArnInput",
 		&returns,
 	)
 	return returns
@@ -267,6 +291,17 @@ func (j *jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersAthenaParame
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersAthenaParametersOutputReference)SetConsumerAccountRoleArn(val *string) {
+	if err := j.validateSetConsumerAccountRoleArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"consumerAccountRoleArn",
 		val,
 	)
 }
@@ -520,6 +555,14 @@ func (q *jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersAthenaParame
 		q,
 		"putIdentityCenterConfiguration",
 		[]interface{}{value},
+	)
+}
+
+func (q *jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersAthenaParametersOutputReference) ResetConsumerAccountRoleArn() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetConsumerAccountRoleArn",
+		nil, // no parameters
 	)
 }
 

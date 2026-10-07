@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/drs_replication_configuration_template awscc_drs_replication_configuration_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/drs_replication_configuration_template awscc_drs_replication_configuration_template}.
 type DataAwsccDrsReplicationConfigurationTemplate interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_DataAwsccDrsReplicationConfigurationTemplate) UseDedicatedRep
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/drs_replication_configuration_template awscc_drs_replication_configuration_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/drs_replication_configuration_template awscc_drs_replication_configuration_template} Data Source.
 func NewDataAwsccDrsReplicationConfigurationTemplate(scope constructs.Construct, id *string, config *DataAwsccDrsReplicationConfigurationTemplateConfig) DataAwsccDrsReplicationConfigurationTemplate {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewDataAwsccDrsReplicationConfigurationTemplate(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/drs_replication_configuration_template awscc_drs_replication_configuration_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/drs_replication_configuration_template awscc_drs_replication_configuration_template} Data Source.
 func NewDataAwsccDrsReplicationConfigurationTemplate_Override(d DataAwsccDrsReplicationConfigurationTemplate, scope constructs.Construct, id *string, config *DataAwsccDrsReplicationConfigurationTemplateConfig) {
 	_init_.Initialize()
 

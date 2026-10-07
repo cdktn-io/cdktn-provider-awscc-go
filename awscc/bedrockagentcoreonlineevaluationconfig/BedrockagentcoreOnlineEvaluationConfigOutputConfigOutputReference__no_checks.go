@@ -47,6 +47,10 @@ func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigOutputRefer
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigOutputReference) validatePutCloudwatchConfigParameters(value *BedrockagentcoreOnlineEvaluationConfigOutputConfigCloudwatchConfig) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
@@ -59,7 +63,7 @@ func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigOutputReference) validateSetInternalValueParameters(val *BedrockagentcoreOnlineEvaluationConfigOutputConfig) error {
+func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigOutputConfigOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	return nil
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/route53_query_logging_configs awscc_route53_query_logging_configs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/route53_query_logging_configs awscc_route53_query_logging_configs}.
 type DataAwsccRoute53QueryLoggingConfigs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRoute53QueryLoggingConfigs) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/route53_query_logging_configs awscc_route53_query_logging_configs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/route53_query_logging_configs awscc_route53_query_logging_configs} Data Source.
 func NewDataAwsccRoute53QueryLoggingConfigs(scope constructs.Construct, id *string, config *DataAwsccRoute53QueryLoggingConfigsConfig) DataAwsccRoute53QueryLoggingConfigs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRoute53QueryLoggingConfigs(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/route53_query_logging_configs awscc_route53_query_logging_configs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/route53_query_logging_configs awscc_route53_query_logging_configs} Data Source.
 func NewDataAwsccRoute53QueryLoggingConfigs_Override(d DataAwsccRoute53QueryLoggingConfigs, scope constructs.Construct, id *string, config *DataAwsccRoute53QueryLoggingConfigsConfig) {
 	_init_.Initialize()
 

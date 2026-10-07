@@ -51,6 +51,10 @@ func (m *jsiiProxy_MediaconnectRouterOutputConfigurationStandardProtocolConfigur
 	return nil
 }
 
+func (m *jsiiProxy_MediaconnectRouterOutputConfigurationStandardProtocolConfigurationOutputReference) validatePutRtmpPushParameters(value *MediaconnectRouterOutputConfigurationStandardProtocolConfigurationRtmpPush) error {
+	return nil
+}
+
 func (m *jsiiProxy_MediaconnectRouterOutputConfigurationStandardProtocolConfigurationOutputReference) validatePutRtpParameters(value *MediaconnectRouterOutputConfigurationStandardProtocolConfigurationRtp) error {
 	return nil
 }

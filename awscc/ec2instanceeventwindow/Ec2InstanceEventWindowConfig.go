@@ -24,19 +24,19 @@ type Ec2InstanceEventWindowConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The cron expression defined for the event window. Exactly one of TimeRanges or CronExpression must be specified.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_instance_event_window#cron_expression Ec2InstanceEventWindow#cron_expression}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_instance_event_window#cron_expression Ec2InstanceEventWindow#cron_expression}
 	CronExpression *string `field:"optional" json:"cronExpression" yaml:"cronExpression"`
 	// The name of the event window.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_instance_event_window#name Ec2InstanceEventWindow#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_instance_event_window#name Ec2InstanceEventWindow#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// The tags applied to the event window.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_instance_event_window#tags Ec2InstanceEventWindow#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_instance_event_window#tags Ec2InstanceEventWindow#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// The time ranges of the event window. Exactly one of TimeRanges or CronExpression must be specified.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_instance_event_window#time_ranges Ec2InstanceEventWindow#time_ranges}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_instance_event_window#time_ranges Ec2InstanceEventWindow#time_ranges}
 	TimeRanges interface{} `field:"optional" json:"timeRanges" yaml:"timeRanges"`
 }
 

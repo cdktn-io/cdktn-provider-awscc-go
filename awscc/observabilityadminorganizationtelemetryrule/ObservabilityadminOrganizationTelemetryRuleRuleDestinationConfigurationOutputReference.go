@@ -47,6 +47,8 @@ type ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationOutp
 	KmsKeyArnInput() *string
 	LogDeliveryParameters() ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationLogDeliveryParametersOutputReference
 	LogDeliveryParametersInput() interface{}
+	MskMonitoringParameters() ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationMskMonitoringParametersOutputReference
+	MskMonitoringParametersInput() interface{}
 	RetentionInDays() *float64
 	SetRetentionInDays(val *float64)
 	RetentionInDaysInput() *float64
@@ -89,6 +91,7 @@ type ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationOutp
 	PutCloudtrailParameters(value *ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationCloudtrailParameters)
 	PutElbLoadBalancerLoggingParameters(value *ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationElbLoadBalancerLoggingParameters)
 	PutLogDeliveryParameters(value *ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationLogDeliveryParameters)
+	PutMskMonitoringParameters(value *ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationMskMonitoringParameters)
 	PutVpcFlowLogParameters(value *ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationVpcFlowLogParameters)
 	PutWafLoggingParameters(value *ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationWafLoggingParameters)
 	ResetCloudtrailParameters()
@@ -97,6 +100,7 @@ type ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationOutp
 	ResetElbLoadBalancerLoggingParameters()
 	ResetKmsKeyArn()
 	ResetLogDeliveryParameters()
+	ResetMskMonitoringParameters()
 	ResetRetentionInDays()
 	ResetVpcFlowLogParameters()
 	ResetWafLoggingParameters()
@@ -280,6 +284,26 @@ func (j *jsiiProxy_ObservabilityadminOrganizationTelemetryRuleRuleDestinationCon
 	_jsii_.Get(
 		j,
 		"logDeliveryParametersInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationOutputReference) MskMonitoringParameters() ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationMskMonitoringParametersOutputReference {
+	var returns ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationMskMonitoringParametersOutputReference
+	_jsii_.Get(
+		j,
+		"mskMonitoringParameters",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationOutputReference) MskMonitoringParametersInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"mskMonitoringParametersInput",
 		&returns,
 	)
 	return returns
@@ -711,6 +735,17 @@ func (o *jsiiProxy_ObservabilityadminOrganizationTelemetryRuleRuleDestinationCon
 	)
 }
 
+func (o *jsiiProxy_ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationOutputReference) PutMskMonitoringParameters(value *ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationMskMonitoringParameters) {
+	if err := o.validatePutMskMonitoringParametersParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		o,
+		"putMskMonitoringParameters",
+		[]interface{}{value},
+	)
+}
+
 func (o *jsiiProxy_ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationOutputReference) PutVpcFlowLogParameters(value *ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationVpcFlowLogParameters) {
 	if err := o.validatePutVpcFlowLogParametersParameters(value); err != nil {
 		panic(err)
@@ -777,6 +812,14 @@ func (o *jsiiProxy_ObservabilityadminOrganizationTelemetryRuleRuleDestinationCon
 	_jsii_.InvokeVoid(
 		o,
 		"resetLogDeliveryParameters",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationOutputReference) ResetMskMonitoringParameters() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetMskMonitoringParameters",
 		nil, // no parameters
 	)
 }

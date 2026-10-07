@@ -24,21 +24,21 @@ type WellarchitectedAgentGoalConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The list of Well-Architected pillars this goal targets.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/wellarchitected_agent_goal#pillars WellarchitectedAgentGoal#pillars}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_goal#pillars WellarchitectedAgentGoal#pillars}
 	Pillars *[]*string `field:"required" json:"pillars" yaml:"pillars"`
 	// The Amazon Resource Name (ARN) of the parent Agent Profile that owns this goal.
 	//
 	// Pass `!Ref` of the parent AWS::WellArchitected::AgentProfile to flow its ARN here.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/wellarchitected_agent_goal#profile_arn WellarchitectedAgentGoal#profile_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_goal#profile_arn WellarchitectedAgentGoal#profile_arn}
 	ProfileArn *string `field:"required" json:"profileArn" yaml:"profileArn"`
 	// The title of the Agent Goal.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/wellarchitected_agent_goal#title WellarchitectedAgentGoal#title}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_goal#title WellarchitectedAgentGoal#title}
 	Title *string `field:"required" json:"title" yaml:"title"`
 	// A description of the Agent Goal.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/wellarchitected_agent_goal#description WellarchitectedAgentGoal#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_goal#description WellarchitectedAgentGoal#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 }
 

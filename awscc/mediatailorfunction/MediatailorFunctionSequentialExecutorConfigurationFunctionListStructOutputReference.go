@@ -13,6 +13,9 @@ import (
 
 type MediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference interface {
 	cdktn.ComplexObject
+	Alias() *string
+	SetAlias(val *string)
+	AliasInput() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -70,6 +73,7 @@ type MediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputR
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetAlias()
 	ResetFunctionId()
 	ResetRunCondition()
 	// Produce the Token's value at resolution time.
@@ -85,6 +89,26 @@ type MediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputR
 // The jsii proxy struct for MediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference
 type jsiiProxy_MediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_MediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference) Alias() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"alias",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference) AliasInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"aliasInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_MediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference) ComplexObjectIndex() interface{} {
@@ -222,6 +246,17 @@ func NewMediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutp
 		"@cdktn/provider-awscc.mediatailorFunction.MediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference",
 		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
 		m,
+	)
+}
+
+func (j *jsiiProxy_MediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference)SetAlias(val *string) {
+	if err := j.validateSetAliasParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"alias",
+		val,
 	)
 }
 
@@ -486,6 +521,14 @@ func (m *jsiiProxy_MediatailorFunctionSequentialExecutorConfigurationFunctionLis
 	)
 
 	return returns
+}
+
+func (m *jsiiProxy_MediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference) ResetAlias() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetAlias",
+		nil, // no parameters
+	)
 }
 
 func (m *jsiiProxy_MediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference) ResetFunctionId() {

@@ -12,9 +12,10 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group awscc_elasticache_global_replication_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group awscc_elasticache_global_replication_group}.
 type ElasticacheGlobalReplicationGroup interface {
 	cdktn.TerraformResource
+	Arn() *string
 	AutomaticFailoverEnabled() interface{}
 	SetAutomaticFailoverEnabled(val interface{})
 	AutomaticFailoverEnabledInput() interface{}
@@ -86,6 +87,8 @@ type ElasticacheGlobalReplicationGroup interface {
 	RegionalConfigurations() ElasticacheGlobalReplicationGroupRegionalConfigurationsList
 	RegionalConfigurationsInput() interface{}
 	Status() *string
+	Tags() ElasticacheGlobalReplicationGroupTagsList
+	TagsInput() interface{}
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -173,6 +176,7 @@ type ElasticacheGlobalReplicationGroup interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutMembers(value interface{})
 	PutRegionalConfigurations(value interface{})
+	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -198,6 +202,7 @@ type ElasticacheGlobalReplicationGroup interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRegionalConfigurations()
+	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -223,6 +228,16 @@ type ElasticacheGlobalReplicationGroup interface {
 // The jsii proxy struct for ElasticacheGlobalReplicationGroup
 type jsiiProxy_ElasticacheGlobalReplicationGroup struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) Arn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"arn",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) AutomaticFailoverEnabled() interface{} {
@@ -585,6 +600,26 @@ func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) Status() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) Tags() ElasticacheGlobalReplicationGroupTagsList {
+	var returns ElasticacheGlobalReplicationGroupTagsList
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) TagsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"tagsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -616,7 +651,7 @@ func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group awscc_elasticache_global_replication_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group awscc_elasticache_global_replication_group} Resource.
 func NewElasticacheGlobalReplicationGroup(scope constructs.Construct, id *string, config *ElasticacheGlobalReplicationGroupConfig) ElasticacheGlobalReplicationGroup {
 	_init_.Initialize()
 
@@ -634,7 +669,7 @@ func NewElasticacheGlobalReplicationGroup(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group awscc_elasticache_global_replication_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group awscc_elasticache_global_replication_group} Resource.
 func NewElasticacheGlobalReplicationGroup_Override(e ElasticacheGlobalReplicationGroup, scope constructs.Construct, id *string, config *ElasticacheGlobalReplicationGroupConfig) {
 	_init_.Initialize()
 
@@ -1192,6 +1227,17 @@ func (e *jsiiProxy_ElasticacheGlobalReplicationGroup) PutRegionalConfigurations(
 	)
 }
 
+func (e *jsiiProxy_ElasticacheGlobalReplicationGroup) PutTags(value interface{}) {
+	if err := e.validatePutTagsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putTags",
+		[]interface{}{value},
+	)
+}
+
 func (e *jsiiProxy_ElasticacheGlobalReplicationGroup) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := e.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -1279,6 +1325,14 @@ func (e *jsiiProxy_ElasticacheGlobalReplicationGroup) ResetRegionalConfiguration
 	_jsii_.InvokeVoid(
 		e,
 		"resetRegionalConfigurations",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_ElasticacheGlobalReplicationGroup) ResetTags() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetTags",
 		nil, // no parameters
 	)
 }

@@ -59,6 +59,10 @@ func (o *jsiiProxy_ObservabilityadminTelemetryRuleRuleDestinationConfigurationOu
 	return nil
 }
 
+func (o *jsiiProxy_ObservabilityadminTelemetryRuleRuleDestinationConfigurationOutputReference) validatePutMskMonitoringParametersParameters(value *ObservabilityadminTelemetryRuleRuleDestinationConfigurationMskMonitoringParameters) error {
+	return nil
+}
+
 func (o *jsiiProxy_ObservabilityadminTelemetryRuleRuleDestinationConfigurationOutputReference) validatePutVpcFlowLogParametersParameters(value *ObservabilityadminTelemetryRuleRuleDestinationConfigurationVpcFlowLogParameters) error {
 	return nil
 }

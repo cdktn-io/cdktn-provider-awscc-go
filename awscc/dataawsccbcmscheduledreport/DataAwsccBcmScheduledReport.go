@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bcm_scheduled_report awscc_bcm_scheduled_report}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/bcm_scheduled_report awscc_bcm_scheduled_report}.
 type DataAwsccBcmScheduledReport interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccBcmScheduledReport) WidgetIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bcm_scheduled_report awscc_bcm_scheduled_report} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/bcm_scheduled_report awscc_bcm_scheduled_report} Data Source.
 func NewDataAwsccBcmScheduledReport(scope constructs.Construct, id *string, config *DataAwsccBcmScheduledReportConfig) DataAwsccBcmScheduledReport {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccBcmScheduledReport(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bcm_scheduled_report awscc_bcm_scheduled_report} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/bcm_scheduled_report awscc_bcm_scheduled_report} Data Source.
 func NewDataAwsccBcmScheduledReport_Override(d DataAwsccBcmScheduledReport, scope constructs.Construct, id *string, config *DataAwsccBcmScheduledReportConfig) {
 	_init_.Initialize()
 

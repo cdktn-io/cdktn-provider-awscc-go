@@ -67,6 +67,10 @@ func (j *jsiiProxy_DatazoneConnectionPropsIamPropertiesOutputReference) validate
 	return nil
 }
 
+func (j *jsiiProxy_DatazoneConnectionPropsIamPropertiesOutputReference) validateSetRoleArnParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DatazoneConnectionPropsIamPropertiesOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

@@ -12,9 +12,10 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/elasticache_global_replication_group awscc_elasticache_global_replication_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/elasticache_global_replication_group awscc_elasticache_global_replication_group}.
 type DataAwsccElasticacheGlobalReplicationGroup interface {
 	cdktn.TerraformDataSource
+	Arn() *string
 	AutomaticFailoverEnabled() cdktn.IResolvable
 	CacheNodeType() *string
 	CacheParameterGroupName() *string
@@ -62,6 +63,7 @@ type DataAwsccElasticacheGlobalReplicationGroup interface {
 	RawOverrides() interface{}
 	RegionalConfigurations() DataAwsccElasticacheGlobalReplicationGroupRegionalConfigurationsList
 	Status() *string
+	Tags() DataAwsccElasticacheGlobalReplicationGroupTagsList
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -135,6 +137,16 @@ type DataAwsccElasticacheGlobalReplicationGroup interface {
 // The jsii proxy struct for DataAwsccElasticacheGlobalReplicationGroup
 type jsiiProxy_DataAwsccElasticacheGlobalReplicationGroup struct {
 	internal.Type__cdktnTerraformDataSource
+}
+
+func (j *jsiiProxy_DataAwsccElasticacheGlobalReplicationGroup) Arn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"arn",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAwsccElasticacheGlobalReplicationGroup) AutomaticFailoverEnabled() cdktn.IResolvable {
@@ -387,6 +399,16 @@ func (j *jsiiProxy_DataAwsccElasticacheGlobalReplicationGroup) Status() *string 
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccElasticacheGlobalReplicationGroup) Tags() DataAwsccElasticacheGlobalReplicationGroupTagsList {
+	var returns DataAwsccElasticacheGlobalReplicationGroupTagsList
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccElasticacheGlobalReplicationGroup) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -418,7 +440,7 @@ func (j *jsiiProxy_DataAwsccElasticacheGlobalReplicationGroup) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/elasticache_global_replication_group awscc_elasticache_global_replication_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/elasticache_global_replication_group awscc_elasticache_global_replication_group} Data Source.
 func NewDataAwsccElasticacheGlobalReplicationGroup(scope constructs.Construct, id *string, config *DataAwsccElasticacheGlobalReplicationGroupConfig) DataAwsccElasticacheGlobalReplicationGroup {
 	_init_.Initialize()
 
@@ -436,7 +458,7 @@ func NewDataAwsccElasticacheGlobalReplicationGroup(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/elasticache_global_replication_group awscc_elasticache_global_replication_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/elasticache_global_replication_group awscc_elasticache_global_replication_group} Data Source.
 func NewDataAwsccElasticacheGlobalReplicationGroup_Override(d DataAwsccElasticacheGlobalReplicationGroup, scope constructs.Construct, id *string, config *DataAwsccElasticacheGlobalReplicationGroupConfig) {
 	_init_.Initialize()
 

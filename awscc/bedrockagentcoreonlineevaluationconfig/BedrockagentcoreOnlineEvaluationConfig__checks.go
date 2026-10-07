@@ -299,6 +299,17 @@ func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfig) validatePutInsightsPa
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfig) validatePutOutputConfigParameters(value *BedrockagentcoreOnlineEvaluationConfigOutputConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfig) validatePutRuleParameters(value *BedrockagentcoreOnlineEvaluationConfigRule) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

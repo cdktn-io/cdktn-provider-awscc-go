@@ -32,6 +32,9 @@ type BedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwatchLogsOutputR
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	LogGroupNamePrefixes() *[]*string
+	SetLogGroupNamePrefixes(val *[]*string)
+	LogGroupNamePrefixesInput() *[]*string
 	LogGroupNames() *[]*string
 	SetLogGroupNames(val *[]*string)
 	LogGroupNamesInput() *[]*string
@@ -70,6 +73,8 @@ type BedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwatchLogsOutputR
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetLogGroupNamePrefixes()
+	ResetLogGroupNames()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -130,6 +135,26 @@ func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwa
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwatchLogsOutputReference) LogGroupNamePrefixes() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"logGroupNamePrefixes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwatchLogsOutputReference) LogGroupNamePrefixesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"logGroupNamePrefixesInput",
 		&returns,
 	)
 	return returns
@@ -252,6 +277,17 @@ func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwa
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwatchLogsOutputReference)SetLogGroupNamePrefixes(val *[]*string) {
+	if err := j.validateSetLogGroupNamePrefixesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"logGroupNamePrefixes",
 		val,
 	)
 }
@@ -484,6 +520,22 @@ func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwa
 	)
 
 	return returns
+}
+
+func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwatchLogsOutputReference) ResetLogGroupNamePrefixes() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetLogGroupNamePrefixes",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwatchLogsOutputReference) ResetLogGroupNames() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetLogGroupNames",
+		nil, // no parameters
+	)
 }
 
 func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwatchLogsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

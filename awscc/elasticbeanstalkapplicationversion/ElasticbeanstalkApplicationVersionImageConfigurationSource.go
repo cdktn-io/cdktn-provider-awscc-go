@@ -7,7 +7,7 @@ package elasticbeanstalkapplicationversion
 type ElasticbeanstalkApplicationVersionImageConfigurationSource struct {
 	// The URI of the container image, e.g. an ECR image URI.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticbeanstalk_application_version#uri ElasticbeanstalkApplicationVersion#uri}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticbeanstalk_application_version#uri ElasticbeanstalkApplicationVersion#uri}
 	Uri *string `field:"optional" json:"uri" yaml:"uri"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_instance_event_windows awscc_ec2_instance_event_windows}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/ec2_instance_event_windows awscc_ec2_instance_event_windows}.
 type DataAwsccEc2InstanceEventWindows interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2InstanceEventWindows) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_instance_event_windows awscc_ec2_instance_event_windows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/ec2_instance_event_windows awscc_ec2_instance_event_windows} Data Source.
 func NewDataAwsccEc2InstanceEventWindows(scope constructs.Construct, id *string, config *DataAwsccEc2InstanceEventWindowsConfig) DataAwsccEc2InstanceEventWindows {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2InstanceEventWindows(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_instance_event_windows awscc_ec2_instance_event_windows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/ec2_instance_event_windows awscc_ec2_instance_event_windows} Data Source.
 func NewDataAwsccEc2InstanceEventWindows_Override(d DataAwsccEc2InstanceEventWindows, scope constructs.Construct, id *string, config *DataAwsccEc2InstanceEventWindowsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/networkfirewall_container_associations awscc_networkfirewall_container_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/networkfirewall_container_associations awscc_networkfirewall_container_associations}.
 type DataAwsccNetworkfirewallContainerAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNetworkfirewallContainerAssociations) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/networkfirewall_container_associations awscc_networkfirewall_container_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/networkfirewall_container_associations awscc_networkfirewall_container_associations} Data Source.
 func NewDataAwsccNetworkfirewallContainerAssociations(scope constructs.Construct, id *string, config *DataAwsccNetworkfirewallContainerAssociationsConfig) DataAwsccNetworkfirewallContainerAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNetworkfirewallContainerAssociations(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/networkfirewall_container_associations awscc_networkfirewall_container_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/networkfirewall_container_associations awscc_networkfirewall_container_associations} Data Source.
 func NewDataAwsccNetworkfirewallContainerAssociations_Override(d DataAwsccNetworkfirewallContainerAssociations, scope constructs.Construct, id *string, config *DataAwsccNetworkfirewallContainerAssociationsConfig) {
 	_init_.Initialize()
 

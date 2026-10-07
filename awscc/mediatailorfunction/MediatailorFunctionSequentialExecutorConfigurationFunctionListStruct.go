@@ -5,13 +5,21 @@ package mediatailorfunction
 
 
 type MediatailorFunctionSequentialExecutorConfigurationFunctionListStruct struct {
-	// The identifier of the function to execute.
+	// An optional alternate name for the child function within the executor.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediatailor_function#function_id MediatailorFunction#function_id}
+	// MediaTailor uses this value as the namespace for the child function's output. If omitted, MediaTailor uses the function identifier. The resolved namespace must be unique across all child functions in the list.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_function#alias MediatailorFunction#alias}
+	Alias *string `field:"optional" json:"alias" yaml:"alias"`
+	// The identifier of the child function to execute.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_function#function_id MediatailorFunction#function_id}
 	FunctionId *string `field:"optional" json:"functionId" yaml:"functionId"`
-	// A conditional expression that determines whether this function should execute.
+	// An optional expression that evaluates to a boolean.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediatailor_function#run_condition MediatailorFunction#run_condition}
+	// MediaTailor evaluates this expression immediately before running the child function, using the accumulated state at that point. If the expression evaluates to false, MediaTailor skips the child function. If omitted, the child function always runs.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_function#run_condition MediatailorFunction#run_condition}
 	RunCondition *string `field:"optional" json:"runCondition" yaml:"runCondition"`
 }
 

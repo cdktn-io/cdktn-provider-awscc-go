@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_i_pv_4_pools awscc_ec2_i_pv_4_pools}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/ec2_i_pv_4_pools awscc_ec2_i_pv_4_pools}.
 type DataAwsccEc2IPv4Pools interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2IPv4Pools) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_i_pv_4_pools awscc_ec2_i_pv_4_pools} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/ec2_i_pv_4_pools awscc_ec2_i_pv_4_pools} Data Source.
 func NewDataAwsccEc2IPv4Pools(scope constructs.Construct, id *string, config *DataAwsccEc2IPv4PoolsConfig) DataAwsccEc2IPv4Pools {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2IPv4Pools(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_i_pv_4_pools awscc_ec2_i_pv_4_pools} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/ec2_i_pv_4_pools awscc_ec2_i_pv_4_pools} Data Source.
 func NewDataAwsccEc2IPv4Pools_Override(d DataAwsccEc2IPv4Pools, scope constructs.Construct, id *string, config *DataAwsccEc2IPv4PoolsConfig) {
 	_init_.Initialize()
 

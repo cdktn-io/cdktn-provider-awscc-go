@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/appstream_app_block_builder awscc_appstream_app_block_builder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appstream_app_block_builder awscc_appstream_app_block_builder}.
 type AppstreamAppBlockBuilder interface {
 	cdktn.TerraformResource
 	AccessEndpoints() AppstreamAppBlockBuilderAccessEndpointsList
@@ -41,6 +41,9 @@ type AppstreamAppBlockBuilder interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
+	DisableImdsv1() interface{}
+	SetDisableImdsv1(val interface{})
+	DisableImdsv1Input() interface{}
 	DisplayName() *string
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
@@ -192,6 +195,7 @@ type AppstreamAppBlockBuilder interface {
 	ResetAccessEndpoints()
 	ResetAppBlockArns()
 	ResetDescription()
+	ResetDisableImdsv1()
 	ResetDisplayName()
 	ResetEnableDefaultInternetAccess()
 	ResetIamRoleArn()
@@ -351,6 +355,26 @@ func (j *jsiiProxy_AppstreamAppBlockBuilder) DescriptionInput() *string {
 	_jsii_.Get(
 		j,
 		"descriptionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AppstreamAppBlockBuilder) DisableImdsv1() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disableImdsv1",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AppstreamAppBlockBuilder) DisableImdsv1Input() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disableImdsv1Input",
 		&returns,
 	)
 	return returns
@@ -637,7 +661,7 @@ func (j *jsiiProxy_AppstreamAppBlockBuilder) VpcConfigInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/appstream_app_block_builder awscc_appstream_app_block_builder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appstream_app_block_builder awscc_appstream_app_block_builder} Resource.
 func NewAppstreamAppBlockBuilder(scope constructs.Construct, id *string, config *AppstreamAppBlockBuilderConfig) AppstreamAppBlockBuilder {
 	_init_.Initialize()
 
@@ -655,7 +679,7 @@ func NewAppstreamAppBlockBuilder(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/appstream_app_block_builder awscc_appstream_app_block_builder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appstream_app_block_builder awscc_appstream_app_block_builder} Resource.
 func NewAppstreamAppBlockBuilder_Override(a AppstreamAppBlockBuilder, scope constructs.Construct, id *string, config *AppstreamAppBlockBuilderConfig) {
 	_init_.Initialize()
 
@@ -714,6 +738,17 @@ func (j *jsiiProxy_AppstreamAppBlockBuilder)SetDescription(val *string) {
 	_jsii_.Set(
 		j,
 		"description",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AppstreamAppBlockBuilder)SetDisableImdsv1(val interface{}) {
+	if err := j.validateSetDisableImdsv1Parameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"disableImdsv1",
 		val,
 	)
 }
@@ -1255,6 +1290,14 @@ func (a *jsiiProxy_AppstreamAppBlockBuilder) ResetDescription() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AppstreamAppBlockBuilder) ResetDisableImdsv1() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDisableImdsv1",
 		nil, // no parameters
 	)
 }

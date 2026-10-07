@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/appstream_stack_fleet_association awscc_appstream_stack_fleet_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/appstream_stack_fleet_association awscc_appstream_stack_fleet_association}.
 type DataAwsccAppstreamStackFleetAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -51,7 +51,6 @@ type DataAwsccAppstreamStackFleetAssociation interface {
 	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
-	StackFleetAssociationId() *string
 	StackName() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -268,16 +267,6 @@ func (j *jsiiProxy_DataAwsccAppstreamStackFleetAssociation) RawOverrides() inter
 	return returns
 }
 
-func (j *jsiiProxy_DataAwsccAppstreamStackFleetAssociation) StackFleetAssociationId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"stackFleetAssociationId",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_DataAwsccAppstreamStackFleetAssociation) StackName() *string {
 	var returns *string
 	_jsii_.Get(
@@ -319,7 +308,7 @@ func (j *jsiiProxy_DataAwsccAppstreamStackFleetAssociation) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/appstream_stack_fleet_association awscc_appstream_stack_fleet_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/appstream_stack_fleet_association awscc_appstream_stack_fleet_association} Data Source.
 func NewDataAwsccAppstreamStackFleetAssociation(scope constructs.Construct, id *string, config *DataAwsccAppstreamStackFleetAssociationConfig) DataAwsccAppstreamStackFleetAssociation {
 	_init_.Initialize()
 
@@ -337,7 +326,7 @@ func NewDataAwsccAppstreamStackFleetAssociation(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/appstream_stack_fleet_association awscc_appstream_stack_fleet_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/appstream_stack_fleet_association awscc_appstream_stack_fleet_association} Data Source.
 func NewDataAwsccAppstreamStackFleetAssociation_Override(d DataAwsccAppstreamStackFleetAssociation, scope constructs.Construct, id *string, config *DataAwsccAppstreamStackFleetAssociationConfig) {
 	_init_.Initialize()
 

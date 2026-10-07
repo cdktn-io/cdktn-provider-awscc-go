@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bedrockagentcore_online_evaluation_config awscc_bedrockagentcore_online_evaluation_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bedrockagentcore_online_evaluation_config awscc_bedrockagentcore_online_evaluation_config}.
 type BedrockagentcoreOnlineEvaluationConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -70,6 +70,7 @@ type BedrockagentcoreOnlineEvaluationConfig interface {
 	SetOnlineEvaluationConfigName(val *string)
 	OnlineEvaluationConfigNameInput() *string
 	OutputConfig() BedrockagentcoreOnlineEvaluationConfigOutputConfigOutputReference
+	OutputConfigInput() interface{}
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -175,6 +176,7 @@ type BedrockagentcoreOnlineEvaluationConfig interface {
 	PutDataSourceConfig(value *BedrockagentcoreOnlineEvaluationConfigDataSourceConfig)
 	PutEvaluators(value interface{})
 	PutInsights(value interface{})
+	PutOutputConfig(value *BedrockagentcoreOnlineEvaluationConfigOutputConfig)
 	PutRule(value *BedrockagentcoreOnlineEvaluationConfigRule)
 	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
@@ -195,6 +197,7 @@ type BedrockagentcoreOnlineEvaluationConfig interface {
 	ResetEvaluators()
 	ResetExecutionStatus()
 	ResetInsights()
+	ResetOutputConfig()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -536,6 +539,16 @@ func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfig) OutputConfig() Bedroc
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfig) OutputConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"outputConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfig) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -657,7 +670,7 @@ func (j *jsiiProxy_BedrockagentcoreOnlineEvaluationConfig) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bedrockagentcore_online_evaluation_config awscc_bedrockagentcore_online_evaluation_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bedrockagentcore_online_evaluation_config awscc_bedrockagentcore_online_evaluation_config} Resource.
 func NewBedrockagentcoreOnlineEvaluationConfig(scope constructs.Construct, id *string, config *BedrockagentcoreOnlineEvaluationConfigConfig) BedrockagentcoreOnlineEvaluationConfig {
 	_init_.Initialize()
 
@@ -675,7 +688,7 @@ func NewBedrockagentcoreOnlineEvaluationConfig(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bedrockagentcore_online_evaluation_config awscc_bedrockagentcore_online_evaluation_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bedrockagentcore_online_evaluation_config awscc_bedrockagentcore_online_evaluation_config} Resource.
 func NewBedrockagentcoreOnlineEvaluationConfig_Override(b BedrockagentcoreOnlineEvaluationConfig, scope constructs.Construct, id *string, config *BedrockagentcoreOnlineEvaluationConfigConfig) {
 	_init_.Initialize()
 
@@ -1211,6 +1224,17 @@ func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfig) PutInsights(value int
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfig) PutOutputConfig(value *BedrockagentcoreOnlineEvaluationConfigOutputConfig) {
+	if err := b.validatePutOutputConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putOutputConfig",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfig) PutRule(value *BedrockagentcoreOnlineEvaluationConfigRule) {
 	if err := b.validatePutRuleParameters(value); err != nil {
 		panic(err)
@@ -1280,6 +1304,14 @@ func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfig) ResetInsights() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetInsights",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfig) ResetOutputConfig() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetOutputConfig",
 		nil, // no parameters
 	)
 }

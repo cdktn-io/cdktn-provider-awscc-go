@@ -79,6 +79,14 @@ func (m *jsiiProxy_MediatailorFunction) validateOverrideLogicalIdParameters(newL
 	return nil
 }
 
+func (m *jsiiProxy_MediatailorFunction) validatePutAwsServiceRequestConfigurationParameters(value *MediatailorFunctionAwsServiceRequestConfiguration) error {
+	return nil
+}
+
+func (m *jsiiProxy_MediatailorFunction) validatePutConcurrentExecutorConfigurationParameters(value *MediatailorFunctionConcurrentExecutorConfiguration) error {
+	return nil
+}
+
 func (m *jsiiProxy_MediatailorFunction) validatePutCustomOutputConfigurationParameters(value *MediatailorFunctionCustomOutputConfiguration) error {
 	return nil
 }
@@ -92,6 +100,10 @@ func (m *jsiiProxy_MediatailorFunction) validatePutSequentialExecutorConfigurati
 }
 
 func (m *jsiiProxy_MediatailorFunction) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (m *jsiiProxy_MediatailorFunction) validatePutVastRequestConfigurationParameters(value *MediatailorFunctionVastRequestConfiguration) error {
 	return nil
 }
 

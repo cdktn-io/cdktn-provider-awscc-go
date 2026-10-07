@@ -95,6 +95,10 @@ func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfig) validatePutInsightsPa
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfig) validatePutOutputConfigParameters(value *BedrockagentcoreOnlineEvaluationConfigOutputConfig) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreOnlineEvaluationConfig) validatePutRuleParameters(value *BedrockagentcoreOnlineEvaluationConfigRule) error {
 	return nil
 }

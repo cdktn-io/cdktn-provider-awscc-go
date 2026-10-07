@@ -414,6 +414,45 @@ func init() {
 			return &j
 		},
 	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.observabilityadminOrganizationTelemetryRule.ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationMskMonitoringParameters",
+		reflect.TypeOf((*ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationMskMonitoringParameters)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.observabilityadminOrganizationTelemetryRule.ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationMskMonitoringParametersOutputReference",
+		reflect.TypeOf((*ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationMskMonitoringParametersOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "enhancedMonitoring", GoGetter: "EnhancedMonitoring"},
+			_jsii_.MemberProperty{JsiiProperty: "enhancedMonitoringInput", GoGetter: "EnhancedMonitoringInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEnhancedMonitoring", GoMethod: "ResetEnhancedMonitoring"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationMskMonitoringParametersOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
 	_jsii_.RegisterClass(
 		"@cdktn/provider-awscc.observabilityadminOrganizationTelemetryRule.ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationOutputReference",
 		reflect.TypeOf((*ObservabilityadminOrganizationTelemetryRuleRuleDestinationConfigurationOutputReference)(nil)).Elem(),
@@ -447,9 +486,12 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "kmsKeyArnInput", GoGetter: "KmsKeyArnInput"},
 			_jsii_.MemberProperty{JsiiProperty: "logDeliveryParameters", GoGetter: "LogDeliveryParameters"},
 			_jsii_.MemberProperty{JsiiProperty: "logDeliveryParametersInput", GoGetter: "LogDeliveryParametersInput"},
+			_jsii_.MemberProperty{JsiiProperty: "mskMonitoringParameters", GoGetter: "MskMonitoringParameters"},
+			_jsii_.MemberProperty{JsiiProperty: "mskMonitoringParametersInput", GoGetter: "MskMonitoringParametersInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putCloudtrailParameters", GoMethod: "PutCloudtrailParameters"},
 			_jsii_.MemberMethod{JsiiMethod: "putElbLoadBalancerLoggingParameters", GoMethod: "PutElbLoadBalancerLoggingParameters"},
 			_jsii_.MemberMethod{JsiiMethod: "putLogDeliveryParameters", GoMethod: "PutLogDeliveryParameters"},
+			_jsii_.MemberMethod{JsiiMethod: "putMskMonitoringParameters", GoMethod: "PutMskMonitoringParameters"},
 			_jsii_.MemberMethod{JsiiMethod: "putVpcFlowLogParameters", GoMethod: "PutVpcFlowLogParameters"},
 			_jsii_.MemberMethod{JsiiMethod: "putWafLoggingParameters", GoMethod: "PutWafLoggingParameters"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCloudtrailParameters", GoMethod: "ResetCloudtrailParameters"},
@@ -458,6 +500,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetElbLoadBalancerLoggingParameters", GoMethod: "ResetElbLoadBalancerLoggingParameters"},
 			_jsii_.MemberMethod{JsiiMethod: "resetKmsKeyArn", GoMethod: "ResetKmsKeyArn"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLogDeliveryParameters", GoMethod: "ResetLogDeliveryParameters"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMskMonitoringParameters", GoMethod: "ResetMskMonitoringParameters"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRetentionInDays", GoMethod: "ResetRetentionInDays"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVpcFlowLogParameters", GoMethod: "ResetVpcFlowLogParameters"},
 			_jsii_.MemberMethod{JsiiMethod: "resetWafLoggingParameters", GoMethod: "ResetWafLoggingParameters"},

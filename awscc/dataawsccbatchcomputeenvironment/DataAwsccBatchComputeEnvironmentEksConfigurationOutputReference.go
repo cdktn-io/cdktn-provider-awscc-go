@@ -13,6 +13,7 @@ import (
 
 type DataAwsccBatchComputeEnvironmentEksConfigurationOutputReference interface {
 	cdktn.ComplexObject
+	AccessEntry() DataAwsccBatchComputeEnvironmentEksConfigurationAccessEntryOutputReference
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -79,6 +80,16 @@ type DataAwsccBatchComputeEnvironmentEksConfigurationOutputReference interface {
 // The jsii proxy struct for DataAwsccBatchComputeEnvironmentEksConfigurationOutputReference
 type jsiiProxy_DataAwsccBatchComputeEnvironmentEksConfigurationOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataAwsccBatchComputeEnvironmentEksConfigurationOutputReference) AccessEntry() DataAwsccBatchComputeEnvironmentEksConfigurationAccessEntryOutputReference {
+	var returns DataAwsccBatchComputeEnvironmentEksConfigurationAccessEntryOutputReference
+	_jsii_.Get(
+		j,
+		"accessEntry",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAwsccBatchComputeEnvironmentEksConfigurationOutputReference) ComplexObjectIndex() interface{} {

@@ -5,7 +5,7 @@ package transferserver
 
 
 type TransferServerProtocolDetailsProxyConfig struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_server#sftp_mode TransferServer#sftp_mode}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/transfer_server#sftp_mode TransferServer#sftp_mode}.
 	SftpMode *string `field:"optional" json:"sftpMode" yaml:"sftpMode"`
 }
 

@@ -127,6 +127,10 @@ func (j *jsiiProxy_AppstreamAppBlockBuilder) validateSetDescriptionParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_AppstreamAppBlockBuilder) validateSetDisableImdsv1Parameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_AppstreamAppBlockBuilder) validateSetDisplayNameParameters(val *string) error {
 	return nil
 }

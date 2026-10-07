@@ -33,6 +33,7 @@ type DataAwsccDatazoneConnectionPropsIamPropertiesOutputReference interface {
 	GlueLineageSyncEnabled() cdktn.IResolvable
 	InternalValue() *DataAwsccDatazoneConnectionPropsIamProperties
 	SetInternalValue(val *DataAwsccDatazoneConnectionPropsIamProperties)
+	RoleArn() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -135,6 +136,16 @@ func (j *jsiiProxy_DataAwsccDatazoneConnectionPropsIamPropertiesOutputReference)
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccDatazoneConnectionPropsIamPropertiesOutputReference) RoleArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"roleArn",
 		&returns,
 	)
 	return returns

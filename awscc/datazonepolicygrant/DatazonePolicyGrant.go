@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datazone_policy_grant awscc_datazone_policy_grant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/datazone_policy_grant awscc_datazone_policy_grant}.
 type DatazonePolicyGrant interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -175,11 +175,9 @@ type DatazonePolicyGrant interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
-	ResetDetail()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
-	ResetPrincipal()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -528,7 +526,7 @@ func (j *jsiiProxy_DatazonePolicyGrant) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datazone_policy_grant awscc_datazone_policy_grant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/datazone_policy_grant awscc_datazone_policy_grant} Resource.
 func NewDatazonePolicyGrant(scope constructs.Construct, id *string, config *DatazonePolicyGrantConfig) DatazonePolicyGrant {
 	_init_.Initialize()
 
@@ -546,7 +544,7 @@ func NewDatazonePolicyGrant(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datazone_policy_grant awscc_datazone_policy_grant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/datazone_policy_grant awscc_datazone_policy_grant} Resource.
 func NewDatazonePolicyGrant_Override(d DatazonePolicyGrant, scope constructs.Construct, id *string, config *DatazonePolicyGrantConfig) {
 	_init_.Initialize()
 
@@ -1071,26 +1069,10 @@ func (d *jsiiProxy_DatazonePolicyGrant) RegisterProviderFeatureUsage(feature cdk
 	)
 }
 
-func (d *jsiiProxy_DatazonePolicyGrant) ResetDetail() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetDetail",
-		nil, // no parameters
-	)
-}
-
 func (d *jsiiProxy_DatazonePolicyGrant) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetOverrideLogicalId",
-		nil, // no parameters
-	)
-}
-
-func (d *jsiiProxy_DatazonePolicyGrant) ResetPrincipal() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetPrincipal",
 		nil, // no parameters
 	)
 }

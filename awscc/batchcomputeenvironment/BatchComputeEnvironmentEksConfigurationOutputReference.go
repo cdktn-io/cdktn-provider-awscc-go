@@ -13,6 +13,8 @@ import (
 
 type BatchComputeEnvironmentEksConfigurationOutputReference interface {
 	cdktn.ComplexObject
+	AccessEntry() BatchComputeEnvironmentEksConfigurationAccessEntryOutputReference
+	AccessEntryInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -70,6 +72,8 @@ type BatchComputeEnvironmentEksConfigurationOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAccessEntry(value *BatchComputeEnvironmentEksConfigurationAccessEntry)
+	ResetAccessEntry()
 	ResetEksClusterArn()
 	ResetKubernetesNamespace()
 	// Produce the Token's value at resolution time.
@@ -85,6 +89,26 @@ type BatchComputeEnvironmentEksConfigurationOutputReference interface {
 // The jsii proxy struct for BatchComputeEnvironmentEksConfigurationOutputReference
 type jsiiProxy_BatchComputeEnvironmentEksConfigurationOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_BatchComputeEnvironmentEksConfigurationOutputReference) AccessEntry() BatchComputeEnvironmentEksConfigurationAccessEntryOutputReference {
+	var returns BatchComputeEnvironmentEksConfigurationAccessEntryOutputReference
+	_jsii_.Get(
+		j,
+		"accessEntry",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BatchComputeEnvironmentEksConfigurationOutputReference) AccessEntryInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"accessEntryInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_BatchComputeEnvironmentEksConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -486,6 +510,25 @@ func (b *jsiiProxy_BatchComputeEnvironmentEksConfigurationOutputReference) Inter
 	)
 
 	return returns
+}
+
+func (b *jsiiProxy_BatchComputeEnvironmentEksConfigurationOutputReference) PutAccessEntry(value *BatchComputeEnvironmentEksConfigurationAccessEntry) {
+	if err := b.validatePutAccessEntryParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putAccessEntry",
+		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BatchComputeEnvironmentEksConfigurationOutputReference) ResetAccessEntry() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetAccessEntry",
+		nil, // no parameters
+	)
 }
 
 func (b *jsiiProxy_BatchComputeEnvironmentEksConfigurationOutputReference) ResetEksClusterArn() {

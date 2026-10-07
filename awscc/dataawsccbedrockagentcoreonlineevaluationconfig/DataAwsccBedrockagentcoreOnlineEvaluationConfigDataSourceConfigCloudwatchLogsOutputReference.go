@@ -32,6 +32,7 @@ type DataAwsccBedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwatchLo
 	Fqn() *string
 	InternalValue() *DataAwsccBedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwatchLogs
 	SetInternalValue(val *DataAwsccBedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwatchLogs)
+	LogGroupNamePrefixes() *[]*string
 	LogGroupNames() *[]*string
 	ServiceNames() *[]*string
 	// Experimental.
@@ -126,6 +127,16 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreOnlineEvaluationConfigDataSourceConf
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreOnlineEvaluationConfigDataSourceConfigCloudwatchLogsOutputReference) LogGroupNamePrefixes() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"logGroupNamePrefixes",
 		&returns,
 	)
 	return returns

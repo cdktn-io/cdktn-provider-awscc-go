@@ -5,19 +5,19 @@ package quicksighttheme
 
 
 type QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}.
 	FontColor *string `field:"optional" json:"fontColor" yaml:"fontColor"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}.
 	FontDecoration *string `field:"optional" json:"fontDecoration" yaml:"fontDecoration"`
 	// <p>The font family that you want to use.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
 	FontFamily *string `field:"optional" json:"fontFamily" yaml:"fontFamily"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}.
 	FontSize *QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize `field:"optional" json:"fontSize" yaml:"fontSize"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}.
 	FontStyle *string `field:"optional" json:"fontStyle" yaml:"fontStyle"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}.
 	FontWeight *QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight `field:"optional" json:"fontWeight" yaml:"fontWeight"`
 }
 

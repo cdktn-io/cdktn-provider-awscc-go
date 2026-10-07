@@ -7,7 +7,7 @@ package casesrelateditem
 type CasesRelatedItemContent struct {
 	// Represents a comment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cases_related_item#comment CasesRelatedItem#comment}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item#comment CasesRelatedItem#comment}
 	Comment *CasesRelatedItemContentComment `field:"optional" json:"comment" yaml:"comment"`
 }
 

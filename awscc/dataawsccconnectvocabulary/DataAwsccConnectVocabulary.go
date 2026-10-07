@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/connect_vocabulary awscc_connect_vocabulary}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/connect_vocabulary awscc_connect_vocabulary}.
 type DataAwsccConnectVocabulary interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccConnectVocabulary) VocabularyName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/connect_vocabulary awscc_connect_vocabulary} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/connect_vocabulary awscc_connect_vocabulary} Data Source.
 func NewDataAwsccConnectVocabulary(scope constructs.Construct, id *string, config *DataAwsccConnectVocabularyConfig) DataAwsccConnectVocabulary {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccConnectVocabulary(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/connect_vocabulary awscc_connect_vocabulary} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/connect_vocabulary awscc_connect_vocabulary} Data Source.
 func NewDataAwsccConnectVocabulary_Override(d DataAwsccConnectVocabulary, scope constructs.Construct, id *string, config *DataAwsccConnectVocabularyConfig) {
 	_init_.Initialize()
 

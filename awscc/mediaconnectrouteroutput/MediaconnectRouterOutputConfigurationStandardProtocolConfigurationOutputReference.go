@@ -34,6 +34,8 @@ type MediaconnectRouterOutputConfigurationStandardProtocolConfigurationOutputRef
 	SetInternalValue(val interface{})
 	Rist() MediaconnectRouterOutputConfigurationStandardProtocolConfigurationRistOutputReference
 	RistInput() interface{}
+	RtmpPush() MediaconnectRouterOutputConfigurationStandardProtocolConfigurationRtmpPushOutputReference
+	RtmpPushInput() interface{}
 	Rtp() MediaconnectRouterOutputConfigurationStandardProtocolConfigurationRtpOutputReference
 	RtpInput() interface{}
 	SrtCaller() MediaconnectRouterOutputConfigurationStandardProtocolConfigurationSrtCallerOutputReference
@@ -73,10 +75,12 @@ type MediaconnectRouterOutputConfigurationStandardProtocolConfigurationOutputRef
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutRist(value *MediaconnectRouterOutputConfigurationStandardProtocolConfigurationRist)
+	PutRtmpPush(value *MediaconnectRouterOutputConfigurationStandardProtocolConfigurationRtmpPush)
 	PutRtp(value *MediaconnectRouterOutputConfigurationStandardProtocolConfigurationRtp)
 	PutSrtCaller(value *MediaconnectRouterOutputConfigurationStandardProtocolConfigurationSrtCaller)
 	PutSrtListener(value *MediaconnectRouterOutputConfigurationStandardProtocolConfigurationSrtListener)
 	ResetRist()
+	ResetRtmpPush()
 	ResetRtp()
 	ResetSrtCaller()
 	ResetSrtListener()
@@ -160,6 +164,26 @@ func (j *jsiiProxy_MediaconnectRouterOutputConfigurationStandardProtocolConfigur
 	_jsii_.Get(
 		j,
 		"ristInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediaconnectRouterOutputConfigurationStandardProtocolConfigurationOutputReference) RtmpPush() MediaconnectRouterOutputConfigurationStandardProtocolConfigurationRtmpPushOutputReference {
+	var returns MediaconnectRouterOutputConfigurationStandardProtocolConfigurationRtmpPushOutputReference
+	_jsii_.Get(
+		j,
+		"rtmpPush",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediaconnectRouterOutputConfigurationStandardProtocolConfigurationOutputReference) RtmpPushInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"rtmpPushInput",
 		&returns,
 	)
 	return returns
@@ -525,6 +549,17 @@ func (m *jsiiProxy_MediaconnectRouterOutputConfigurationStandardProtocolConfigur
 	)
 }
 
+func (m *jsiiProxy_MediaconnectRouterOutputConfigurationStandardProtocolConfigurationOutputReference) PutRtmpPush(value *MediaconnectRouterOutputConfigurationStandardProtocolConfigurationRtmpPush) {
+	if err := m.validatePutRtmpPushParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putRtmpPush",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_MediaconnectRouterOutputConfigurationStandardProtocolConfigurationOutputReference) PutRtp(value *MediaconnectRouterOutputConfigurationStandardProtocolConfigurationRtp) {
 	if err := m.validatePutRtpParameters(value); err != nil {
 		panic(err)
@@ -562,6 +597,14 @@ func (m *jsiiProxy_MediaconnectRouterOutputConfigurationStandardProtocolConfigur
 	_jsii_.InvokeVoid(
 		m,
 		"resetRist",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MediaconnectRouterOutputConfigurationStandardProtocolConfigurationOutputReference) ResetRtmpPush() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetRtmpPush",
 		nil, // no parameters
 	)
 }

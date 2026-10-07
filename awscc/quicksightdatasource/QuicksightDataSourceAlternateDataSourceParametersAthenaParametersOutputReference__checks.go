@@ -177,6 +177,14 @@ func (j *jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersAthenaParame
 	return nil
 }
 
+func (j *jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersAthenaParametersOutputReference) validateSetConsumerAccountRoleArnParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersAthenaParametersOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
 	case cdktn.IResolvable:

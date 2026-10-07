@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bcmpricingcalculator_workload_estimates awscc_bcmpricingcalculator_workload_estimates}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/bcmpricingcalculator_workload_estimates awscc_bcmpricingcalculator_workload_estimates}.
 type DataAwsccBcmpricingcalculatorWorkloadEstimates interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBcmpricingcalculatorWorkloadEstimates) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bcmpricingcalculator_workload_estimates awscc_bcmpricingcalculator_workload_estimates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/bcmpricingcalculator_workload_estimates awscc_bcmpricingcalculator_workload_estimates} Data Source.
 func NewDataAwsccBcmpricingcalculatorWorkloadEstimates(scope constructs.Construct, id *string, config *DataAwsccBcmpricingcalculatorWorkloadEstimatesConfig) DataAwsccBcmpricingcalculatorWorkloadEstimates {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBcmpricingcalculatorWorkloadEstimates(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/bcmpricingcalculator_workload_estimates awscc_bcmpricingcalculator_workload_estimates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/bcmpricingcalculator_workload_estimates awscc_bcmpricingcalculator_workload_estimates} Data Source.
 func NewDataAwsccBcmpricingcalculatorWorkloadEstimates_Override(d DataAwsccBcmpricingcalculatorWorkloadEstimates, scope constructs.Construct, id *string, config *DataAwsccBcmpricingcalculatorWorkloadEstimatesConfig) {
 	_init_.Initialize()
 

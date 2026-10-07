@@ -35,6 +35,7 @@ type DataAwsccBedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnec
 	InternalValue() *DataAwsccBedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfiguration
 	SetInternalValue(val *DataAwsccBedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfiguration)
 	MediaExtractionConfiguration() DataAwsccBedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationMediaExtractionConfigurationOutputReference
+	SyncSchedule() DataAwsccBedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationSyncScheduleOutputReference
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -157,6 +158,16 @@ func (j *jsiiProxy_DataAwsccBedrockDataSourceDataSourceConfigurationManagedKnowl
 	_jsii_.Get(
 		j,
 		"mediaExtractionConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccBedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationOutputReference) SyncSchedule() DataAwsccBedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationSyncScheduleOutputReference {
+	var returns DataAwsccBedrockDataSourceDataSourceConfigurationManagedKnowledgeBaseConnectorConfigurationSyncScheduleOutputReference
+	_jsii_.Get(
+		j,
+		"syncSchedule",
 		&returns,
 	)
 	return returns
