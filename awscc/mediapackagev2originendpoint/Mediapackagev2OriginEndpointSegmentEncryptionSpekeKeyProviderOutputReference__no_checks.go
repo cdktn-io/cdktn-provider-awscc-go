@@ -47,6 +47,10 @@ func (m *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProvider
 	return nil
 }
 
+func (m *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutputReference) validatePutContentKeyPeriodConfigurationParameters(value *Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfiguration) error {
+	return nil
+}
+
 func (m *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutputReference) validatePutEncryptionContractConfigurationParameters(value *Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderEncryptionContractConfiguration) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (j *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProvider
 }
 
 func (j *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutputReference) validateSetRoleArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutputReference) validateSetSpekeVersionParameters(val *string) error {
 	return nil
 }
 

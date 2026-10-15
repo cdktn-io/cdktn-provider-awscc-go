@@ -32,6 +32,7 @@ type DataAwsccDevopsagentServiceAdditionalServiceDetailsOutputReference interfac
 	Dynatrace() DataAwsccDevopsagentServiceAdditionalServiceDetailsDynatraceOutputReference
 	// Experimental.
 	Fqn() *string
+	GitHub() DataAwsccDevopsagentServiceAdditionalServiceDetailsGitHubOutputReference
 	GitLab() DataAwsccDevopsagentServiceAdditionalServiceDetailsGitLabOutputReference
 	InternalValue() *DataAwsccDevopsagentServiceAdditionalServiceDetails
 	SetInternalValue(val *DataAwsccDevopsagentServiceAdditionalServiceDetails)
@@ -144,6 +145,16 @@ func (j *jsiiProxy_DataAwsccDevopsagentServiceAdditionalServiceDetailsOutputRefe
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccDevopsagentServiceAdditionalServiceDetailsOutputReference) GitHub() DataAwsccDevopsagentServiceAdditionalServiceDetailsGitHubOutputReference {
+	var returns DataAwsccDevopsagentServiceAdditionalServiceDetailsGitHubOutputReference
+	_jsii_.Get(
+		j,
+		"gitHub",
 		&returns,
 	)
 	return returns

@@ -13,6 +13,7 @@ import (
 
 type DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOutputReference interface {
 	cdktn.ComplexObject
+	AuthenticationType() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -33,6 +34,7 @@ type DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOutput
 	Host() *string
 	InternalValue() *DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParameters
 	SetInternalValue(val *DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParameters)
+	OAuthParameters() DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersOutputReference
 	Port() *float64
 	SqlEndpointPath() *string
 	// Experimental.
@@ -80,6 +82,16 @@ type DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOutput
 // The jsii proxy struct for DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOutputReference
 type jsiiProxy_DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOutputReference) AuthenticationType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"authenticationType",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOutputReference) ComplexObjectIndex() interface{} {
@@ -137,6 +149,16 @@ func (j *jsiiProxy_DataAwsccQuicksightDataSourceDataSourceParametersDatabricksPa
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOutputReference) OAuthParameters() DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersOutputReference {
+	var returns DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersOutputReference
+	_jsii_.Get(
+		j,
+		"oAuthParameters",
 		&returns,
 	)
 	return returns

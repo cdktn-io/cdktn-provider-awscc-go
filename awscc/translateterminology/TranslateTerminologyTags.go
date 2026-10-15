@@ -7,11 +7,11 @@ package translateterminology
 type TranslateTerminologyTags struct {
 	// The key of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/translate_terminology#key TranslateTerminology#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology#key TranslateTerminology#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/translate_terminology#value TranslateTerminology#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology#value TranslateTerminology#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

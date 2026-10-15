@@ -1,0 +1,578 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build !no_runtime_type_checking
+
+package licensemanagerlicenseconfiguration
+
+import (
+	"fmt"
+
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+
+	"github.com/aws/constructs-go/constructs/v10"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+func (l *jsiiProxy_LicensemanagerLicenseConfiguration) validateAddMoveTargetParameters(moveTarget *string) error {
+	if moveTarget == nil {
+		return fmt.Errorf("parameter moveTarget is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LicensemanagerLicenseConfiguration) validateAddOverrideParameters(path *string, value interface{}) error {
+	if path == nil {
+		return fmt.Errorf("parameter path is required, but nil was provided")
+	}
+
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LicensemanagerLicenseConfiguration) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LicensemanagerLicenseConfiguration) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LicensemanagerLicenseConfiguration) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LicensemanagerLicenseConfiguration) validateGetListAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LicensemanagerLicenseConfiguration) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LicensemanagerLicenseConfiguration) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LicensemanagerLicenseConfiguration) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LicensemanagerLicenseConfiguration) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LicensemanagerLicenseConfiguration) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LicensemanagerLicenseConfiguration) validateImportFromParameters(id *string) error {
+	if id == nil {
+		return fmt.Errorf("parameter id is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LicensemanagerLicenseConfiguration) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LicensemanagerLicenseConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LicensemanagerLicenseConfiguration) validateMoveFromIdParameters(id *string) error {
+	if id == nil {
+		return fmt.Errorf("parameter id is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LicensemanagerLicenseConfiguration) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	if moveTarget == nil {
+		return fmt.Errorf("parameter moveTarget is required, but nil was provided")
+	}
+
+	switch index.(type) {
+	case *string:
+		// ok
+	case string:
+		// ok
+	case *float64:
+		// ok
+	case float64:
+		// ok
+	case *int:
+		// ok
+	case int:
+		// ok
+	case *uint:
+		// ok
+	case uint:
+		// ok
+	case *int8:
+		// ok
+	case int8:
+		// ok
+	case *int16:
+		// ok
+	case int16:
+		// ok
+	case *int32:
+		// ok
+	case int32:
+		// ok
+	case *int64:
+		// ok
+	case int64:
+		// ok
+	case *uint8:
+		// ok
+	case uint8:
+		// ok
+	case *uint16:
+		// ok
+	case uint16:
+		// ok
+	case *uint32:
+		// ok
+	case uint32:
+		// ok
+	case *uint64:
+		// ok
+	case uint64:
+		// ok
+	default:
+		return fmt.Errorf("parameter index must be one of the allowed types: *string, *float64; received %#v (a %T)", index, index)
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LicensemanagerLicenseConfiguration) validateMoveToIdParameters(id *string) error {
+	if id == nil {
+		return fmt.Errorf("parameter id is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LicensemanagerLicenseConfiguration) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	if newLogicalId == nil {
+		return fmt.Errorf("parameter newLogicalId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LicensemanagerLicenseConfiguration) validatePutProductInformationListParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*LicensemanagerLicenseConfigurationProductInformationListStruct:
+		value := value.(*[]*LicensemanagerLicenseConfigurationProductInformationListStruct)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*LicensemanagerLicenseConfigurationProductInformationListStruct:
+		value_ := value.([]*LicensemanagerLicenseConfigurationProductInformationListStruct)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*LicensemanagerLicenseConfigurationProductInformationListStruct; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LicensemanagerLicenseConfiguration) validatePutTagsParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*LicensemanagerLicenseConfigurationTags:
+		value := value.(*[]*LicensemanagerLicenseConfigurationTags)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*LicensemanagerLicenseConfigurationTags:
+		value_ := value.([]*LicensemanagerLicenseConfigurationTags)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*LicensemanagerLicenseConfigurationTags; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LicensemanagerLicenseConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func validateLicensemanagerLicenseConfiguration_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	if scope == nil {
+		return fmt.Errorf("parameter scope is required, but nil was provided")
+	}
+
+	if importToId == nil {
+		return fmt.Errorf("parameter importToId is required, but nil was provided")
+	}
+
+	if importFromId == nil {
+		return fmt.Errorf("parameter importFromId is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func validateLicensemanagerLicenseConfiguration_IsConstructParameters(x interface{}) error {
+	if x == nil {
+		return fmt.Errorf("parameter x is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func validateLicensemanagerLicenseConfiguration_IsTerraformElementParameters(x interface{}) error {
+	if x == nil {
+		return fmt.Errorf("parameter x is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func validateLicensemanagerLicenseConfiguration_IsTerraformResourceParameters(x interface{}) error {
+	if x == nil {
+		return fmt.Errorf("parameter x is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_LicensemanagerLicenseConfiguration) validateSetConnectionParameters(val interface{}) error {
+	switch val.(type) {
+	case *cdktn.SSHProvisionerConnection:
+		val := val.(*cdktn.SSHProvisionerConnection)
+		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
+			return err
+		}
+	case cdktn.SSHProvisionerConnection:
+		val_ := val.(cdktn.SSHProvisionerConnection)
+		val := &val_
+		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
+			return err
+		}
+	case *cdktn.WinrmProvisionerConnection:
+		val := val.(*cdktn.WinrmProvisionerConnection)
+		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
+			return err
+		}
+	case cdktn.WinrmProvisionerConnection:
+		val_ := val.(cdktn.WinrmProvisionerConnection)
+		val := &val_
+		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
+			return err
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *cdktn.SSHProvisionerConnection, *cdktn.WinrmProvisionerConnection; received %#v (a %T)", val, val)
+		}
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_LicensemanagerLicenseConfiguration) validateSetCountParameters(val interface{}) error {
+	switch val.(type) {
+	case *float64:
+		// ok
+	case float64:
+		// ok
+	case *int:
+		// ok
+	case int:
+		// ok
+	case *uint:
+		// ok
+	case uint:
+		// ok
+	case *int8:
+		// ok
+	case int8:
+		// ok
+	case *int16:
+		// ok
+	case int16:
+		// ok
+	case *int32:
+		// ok
+	case int32:
+		// ok
+	case *int64:
+		// ok
+	case int64:
+		// ok
+	case *uint8:
+		// ok
+	case uint8:
+		// ok
+	case *uint16:
+		// ok
+	case uint16:
+		// ok
+	case *uint32:
+		// ok
+	case uint32:
+		// ok
+	case *uint64:
+		// ok
+	case uint64:
+		// ok
+	case cdktn.TerraformCount:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *float64, cdktn.TerraformCount; received %#v (a %T)", val, val)
+		}
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_LicensemanagerLicenseConfiguration) validateSetDescriptionParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_LicensemanagerLicenseConfiguration) validateSetDisassociateWhenNotFoundParameters(val interface{}) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+	switch val.(type) {
+	case *bool:
+		// ok
+	case bool:
+		// ok
+	case cdktn.IResolvable:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
+		}
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_LicensemanagerLicenseConfiguration) validateSetLicenseCountParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_LicensemanagerLicenseConfiguration) validateSetLicenseCountHardLimitParameters(val interface{}) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+	switch val.(type) {
+	case *bool:
+		// ok
+	case bool:
+		// ok
+	case cdktn.IResolvable:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
+		}
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_LicensemanagerLicenseConfiguration) validateSetLicenseCountingTypeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_LicensemanagerLicenseConfiguration) validateSetLicenseExpiryParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_LicensemanagerLicenseConfiguration) validateSetLicenseRulesParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_LicensemanagerLicenseConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_LicensemanagerLicenseConfiguration) validateSetNameParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_LicensemanagerLicenseConfiguration) validateSetProvisionersParameters(val *[]interface{}) error {
+	for idx_97dfc6, v := range *val {
+		switch v.(type) {
+		case *cdktn.FileProvisioner:
+			v := v.(*cdktn.FileProvisioner)
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
+				return err
+			}
+		case cdktn.FileProvisioner:
+			v_ := v.(cdktn.FileProvisioner)
+			v := &v_
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
+				return err
+			}
+		case *cdktn.LocalExecProvisioner:
+			v := v.(*cdktn.LocalExecProvisioner)
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
+				return err
+			}
+		case cdktn.LocalExecProvisioner:
+			v_ := v.(cdktn.LocalExecProvisioner)
+			v := &v_
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
+				return err
+			}
+		case *cdktn.RemoteExecProvisioner:
+			v := v.(*cdktn.RemoteExecProvisioner)
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
+				return err
+			}
+		case cdktn.RemoteExecProvisioner:
+			v_ := v.(cdktn.RemoteExecProvisioner)
+			v := &v_
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
+				return err
+			}
+		default:
+			if !_jsii_.IsAnonymousProxy(v) {
+				return fmt.Errorf("parameter val[%#v] must be one of the allowed types: *cdktn.FileProvisioner, *cdktn.LocalExecProvisioner, *cdktn.RemoteExecProvisioner; received %#v (a %T)", idx_97dfc6, v, v)
+			}
+		}
+	}
+
+	return nil
+}
+
+func validateNewLicensemanagerLicenseConfigurationParameters(scope constructs.Construct, id *string, config *LicensemanagerLicenseConfigurationConfig) error {
+	if scope == nil {
+		return fmt.Errorf("parameter scope is required, but nil was provided")
+	}
+
+	if id == nil {
+		return fmt.Errorf("parameter id is required, but nil was provided")
+	}
+
+	if config == nil {
+		return fmt.Errorf("parameter config is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(config, func() string { return "parameter config" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/route53_hosted_zone awscc_route53_hosted_zone}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_hosted_zone awscc_route53_hosted_zone}.
 type Route53HostedZone interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,9 @@ type Route53HostedZone interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DelegationSetId() *string
+	SetDelegationSetId(val *string)
+	DelegationSetIdInput() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -174,6 +177,7 @@ type Route53HostedZone interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetDelegationSetId()
 	ResetHostedZoneConfig()
 	ResetHostedZoneFeatures()
 	ResetHostedZoneTags()
@@ -245,6 +249,26 @@ func (j *jsiiProxy_Route53HostedZone) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Route53HostedZone) DelegationSetId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"delegationSetId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Route53HostedZone) DelegationSetIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"delegationSetIdInput",
 		&returns,
 	)
 	return returns
@@ -521,7 +545,7 @@ func (j *jsiiProxy_Route53HostedZone) VpCsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/route53_hosted_zone awscc_route53_hosted_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_hosted_zone awscc_route53_hosted_zone} Resource.
 func NewRoute53HostedZone(scope constructs.Construct, id *string, config *Route53HostedZoneConfig) Route53HostedZone {
 	_init_.Initialize()
 
@@ -539,7 +563,7 @@ func NewRoute53HostedZone(scope constructs.Construct, id *string, config *Route5
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/route53_hosted_zone awscc_route53_hosted_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_hosted_zone awscc_route53_hosted_zone} Resource.
 func NewRoute53HostedZone_Override(r Route53HostedZone, scope constructs.Construct, id *string, config *Route53HostedZoneConfig) {
 	_init_.Initialize()
 
@@ -568,6 +592,17 @@ func (j *jsiiProxy_Route53HostedZone)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Route53HostedZone)SetDelegationSetId(val *string) {
+	if err := j.validateSetDelegationSetIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"delegationSetId",
 		val,
 	)
 }
@@ -1061,6 +1096,14 @@ func (r *jsiiProxy_Route53HostedZone) RegisterProviderFeatureUsage(feature cdktn
 		r,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (r *jsiiProxy_Route53HostedZone) ResetDelegationSetId() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetDelegationSetId",
+		nil, // no parameters
 	)
 }
 

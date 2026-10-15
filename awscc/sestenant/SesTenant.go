@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_tenant awscc_ses_tenant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant awscc_ses_tenant}.
 type SesTenant interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -57,8 +57,12 @@ type SesTenant interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	ReputationEntity() SesTenantReputationEntityOutputReference
+	ReputationEntityInput() interface{}
 	ResourceAssociations() SesTenantResourceAssociationsList
 	ResourceAssociationsInput() interface{}
+	SuppressionAttributes() SesTenantSuppressionAttributesOutputReference
+	SuppressionAttributesInput() interface{}
 	Tags() SesTenantTagsList
 	TagsInput() interface{}
 	TenantName() *string
@@ -149,7 +153,9 @@ type SesTenant interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutReputationEntity(value *SesTenantReputationEntity)
 	PutResourceAssociations(value interface{})
+	PutSuppressionAttributes(value *SesTenantSuppressionAttributes)
 	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -167,7 +173,9 @@ type SesTenant interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetReputationEntity()
 	ResetResourceAssociations()
+	ResetSuppressionAttributes()
 	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -346,6 +354,26 @@ func (j *jsiiProxy_SesTenant) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_SesTenant) ReputationEntity() SesTenantReputationEntityOutputReference {
+	var returns SesTenantReputationEntityOutputReference
+	_jsii_.Get(
+		j,
+		"reputationEntity",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SesTenant) ReputationEntityInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"reputationEntityInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_SesTenant) ResourceAssociations() SesTenantResourceAssociationsList {
 	var returns SesTenantResourceAssociationsList
 	_jsii_.Get(
@@ -361,6 +389,26 @@ func (j *jsiiProxy_SesTenant) ResourceAssociationsInput() interface{} {
 	_jsii_.Get(
 		j,
 		"resourceAssociationsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SesTenant) SuppressionAttributes() SesTenantSuppressionAttributesOutputReference {
+	var returns SesTenantSuppressionAttributesOutputReference
+	_jsii_.Get(
+		j,
+		"suppressionAttributes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SesTenant) SuppressionAttributesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"suppressionAttributesInput",
 		&returns,
 	)
 	return returns
@@ -437,7 +485,7 @@ func (j *jsiiProxy_SesTenant) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_tenant awscc_ses_tenant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant awscc_ses_tenant} Resource.
 func NewSesTenant(scope constructs.Construct, id *string, config *SesTenantConfig) SesTenant {
 	_init_.Initialize()
 
@@ -455,7 +503,7 @@ func NewSesTenant(scope constructs.Construct, id *string, config *SesTenantConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_tenant awscc_ses_tenant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant awscc_ses_tenant} Resource.
 func NewSesTenant_Override(s SesTenant, scope constructs.Construct, id *string, config *SesTenantConfig) {
 	_init_.Initialize()
 
@@ -914,6 +962,17 @@ func (s *jsiiProxy_SesTenant) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (s *jsiiProxy_SesTenant) PutReputationEntity(value *SesTenantReputationEntity) {
+	if err := s.validatePutReputationEntityParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putReputationEntity",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_SesTenant) PutResourceAssociations(value interface{}) {
 	if err := s.validatePutResourceAssociationsParameters(value); err != nil {
 		panic(err)
@@ -921,6 +980,17 @@ func (s *jsiiProxy_SesTenant) PutResourceAssociations(value interface{}) {
 	_jsii_.InvokeVoid(
 		s,
 		"putResourceAssociations",
+		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SesTenant) PutSuppressionAttributes(value *SesTenantSuppressionAttributes) {
+	if err := s.validatePutSuppressionAttributesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putSuppressionAttributes",
 		[]interface{}{value},
 	)
 }
@@ -955,10 +1025,26 @@ func (s *jsiiProxy_SesTenant) ResetOverrideLogicalId() {
 	)
 }
 
+func (s *jsiiProxy_SesTenant) ResetReputationEntity() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetReputationEntity",
+		nil, // no parameters
+	)
+}
+
 func (s *jsiiProxy_SesTenant) ResetResourceAssociations() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetResourceAssociations",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SesTenant) ResetSuppressionAttributes() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetSuppressionAttributes",
 		nil, // no parameters
 	)
 }

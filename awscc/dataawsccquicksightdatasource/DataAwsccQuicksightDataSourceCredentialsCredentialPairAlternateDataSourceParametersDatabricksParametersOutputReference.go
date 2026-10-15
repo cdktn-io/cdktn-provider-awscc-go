@@ -13,6 +13,7 @@ import (
 
 type DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOutputReference interface {
 	cdktn.ComplexObject
+	AuthenticationType() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -33,6 +34,7 @@ type DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePa
 	Host() *string
 	InternalValue() *DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParameters
 	SetInternalValue(val *DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParameters)
+	OAuthParameters() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersOutputReference
 	Port() *float64
 	SqlEndpointPath() *string
 	// Experimental.
@@ -80,6 +82,16 @@ type DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourcePa
 // The jsii proxy struct for DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOutputReference
 type jsiiProxy_DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOutputReference) AuthenticationType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"authenticationType",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOutputReference) ComplexObjectIndex() interface{} {
@@ -137,6 +149,16 @@ func (j *jsiiProxy_DataAwsccQuicksightDataSourceCredentialsCredentialPairAlterna
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOutputReference) OAuthParameters() DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersOutputReference {
+	var returns DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersOutputReference
+	_jsii_.Get(
+		j,
+		"oAuthParameters",
 		&returns,
 	)
 	return returns

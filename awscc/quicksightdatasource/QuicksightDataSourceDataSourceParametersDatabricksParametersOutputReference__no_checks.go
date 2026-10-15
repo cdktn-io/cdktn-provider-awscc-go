@@ -47,7 +47,15 @@ func (q *jsiiProxy_QuicksightDataSourceDataSourceParametersDatabricksParametersO
 	return nil
 }
 
+func (q *jsiiProxy_QuicksightDataSourceDataSourceParametersDatabricksParametersOutputReference) validatePutOAuthParametersParameters(value *QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParameters) error {
+	return nil
+}
+
 func (q *jsiiProxy_QuicksightDataSourceDataSourceParametersDatabricksParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightDataSourceDataSourceParametersDatabricksParametersOutputReference) validateSetAuthenticationTypeParameters(val *string) error {
 	return nil
 }
 

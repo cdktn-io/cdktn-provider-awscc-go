@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/rds_db_cluster_endpoint awscc_rds_db_cluster_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_cluster_endpoint awscc_rds_db_cluster_endpoint}.
 type DataAwsccRdsDbClusterEndpointA interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccRdsDbClusterEndpointA) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/rds_db_cluster_endpoint awscc_rds_db_cluster_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_cluster_endpoint awscc_rds_db_cluster_endpoint} Data Source.
 func NewDataAwsccRdsDbClusterEndpointA(scope constructs.Construct, id *string, config *DataAwsccRdsDbClusterEndpointAConfig) DataAwsccRdsDbClusterEndpointA {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccRdsDbClusterEndpointA(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/rds_db_cluster_endpoint awscc_rds_db_cluster_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_cluster_endpoint awscc_rds_db_cluster_endpoint} Data Source.
 func NewDataAwsccRdsDbClusterEndpointA_Override(d DataAwsccRdsDbClusterEndpointA, scope constructs.Construct, id *string, config *DataAwsccRdsDbClusterEndpointAConfig) {
 	_init_.Initialize()
 

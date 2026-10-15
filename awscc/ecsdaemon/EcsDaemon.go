@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ecs_daemon awscc_ecs_daemon}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_daemon awscc_ecs_daemon}.
 type EcsDaemon interface {
 	cdktn.TerraformResource
 	CapacityProviderArns() *[]*string
@@ -34,6 +34,9 @@ type EcsDaemon interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreatedAt() *string
+	Critical() interface{}
+	SetCritical(val interface{})
+	CriticalInput() interface{}
 	DaemonArn() *string
 	DaemonName() *string
 	SetDaemonName(val *string)
@@ -188,6 +191,7 @@ type EcsDaemon interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetCapacityProviderArns()
 	ResetClusterArn()
+	ResetCritical()
 	ResetDaemonName()
 	ResetDaemonTaskDefinitionArn()
 	ResetDeploymentConfiguration()
@@ -310,6 +314,26 @@ func (j *jsiiProxy_EcsDaemon) CreatedAt() *string {
 	_jsii_.Get(
 		j,
 		"createdAt",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsDaemon) Critical() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"critical",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsDaemon) CriticalInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"criticalInput",
 		&returns,
 	)
 	return returns
@@ -626,7 +650,7 @@ func (j *jsiiProxy_EcsDaemon) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ecs_daemon awscc_ecs_daemon} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_daemon awscc_ecs_daemon} Resource.
 func NewEcsDaemon(scope constructs.Construct, id *string, config *EcsDaemonConfig) EcsDaemon {
 	_init_.Initialize()
 
@@ -644,7 +668,7 @@ func NewEcsDaemon(scope constructs.Construct, id *string, config *EcsDaemonConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ecs_daemon awscc_ecs_daemon} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_daemon awscc_ecs_daemon} Resource.
 func NewEcsDaemon_Override(e EcsDaemon, scope constructs.Construct, id *string, config *EcsDaemonConfig) {
 	_init_.Initialize()
 
@@ -695,6 +719,17 @@ func (j *jsiiProxy_EcsDaemon)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EcsDaemon)SetCritical(val interface{}) {
+	if err := j.validateSetCriticalParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"critical",
 		val,
 	)
 }
@@ -1214,6 +1249,14 @@ func (e *jsiiProxy_EcsDaemon) ResetClusterArn() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetClusterArn",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EcsDaemon) ResetCritical() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetCritical",
 		nil, // no parameters
 	)
 }

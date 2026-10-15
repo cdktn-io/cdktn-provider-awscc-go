@@ -93,6 +93,17 @@ func (m *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProvider
 	return nil
 }
 
+func (m *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutputReference) validatePutContentKeyPeriodConfigurationParameters(value *Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfiguration) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (m *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutputReference) validatePutEncryptionContractConfigurationParameters(value *Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderEncryptionContractConfiguration) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -226,6 +237,14 @@ func (j *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProvider
 }
 
 func (j *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutputReference) validateSetRoleArnParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutputReference) validateSetSpekeVersionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

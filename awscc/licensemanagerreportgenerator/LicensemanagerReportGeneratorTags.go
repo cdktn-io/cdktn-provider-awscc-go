@@ -7,11 +7,11 @@ package licensemanagerreportgenerator
 type LicensemanagerReportGeneratorTags struct {
 	// The tag key.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/licensemanager_report_generator#key LicensemanagerReportGenerator#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#key LicensemanagerReportGenerator#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The tag value.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/licensemanager_report_generator#value LicensemanagerReportGenerator#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#value LicensemanagerReportGenerator#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

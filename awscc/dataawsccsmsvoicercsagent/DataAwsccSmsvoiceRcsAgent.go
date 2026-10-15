@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/smsvoice_rcs_agent awscc_smsvoice_rcs_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_rcs_agent awscc_smsvoice_rcs_agent}.
 type DataAwsccSmsvoiceRcsAgent interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccSmsvoiceRcsAgent) TwoWayRcsEventsEnabled() *[]*strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/smsvoice_rcs_agent awscc_smsvoice_rcs_agent} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_rcs_agent awscc_smsvoice_rcs_agent} Data Source.
 func NewDataAwsccSmsvoiceRcsAgent(scope constructs.Construct, id *string, config *DataAwsccSmsvoiceRcsAgentConfig) DataAwsccSmsvoiceRcsAgent {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccSmsvoiceRcsAgent(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/smsvoice_rcs_agent awscc_smsvoice_rcs_agent} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_rcs_agent awscc_smsvoice_rcs_agent} Data Source.
 func NewDataAwsccSmsvoiceRcsAgent_Override(d DataAwsccSmsvoiceRcsAgent, scope constructs.Construct, id *string, config *DataAwsccSmsvoiceRcsAgentConfig) {
 	_init_.Initialize()
 

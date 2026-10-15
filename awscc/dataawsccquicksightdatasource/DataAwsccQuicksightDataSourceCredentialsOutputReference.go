@@ -35,6 +35,7 @@ type DataAwsccQuicksightDataSourceCredentialsOutputReference interface {
 	InternalValue() *DataAwsccQuicksightDataSourceCredentials
 	SetInternalValue(val *DataAwsccQuicksightDataSourceCredentials)
 	KeyPairCredentials() DataAwsccQuicksightDataSourceCredentialsKeyPairCredentialsOutputReference
+	OAuthClientCredentials() DataAwsccQuicksightDataSourceCredentialsOAuthClientCredentialsOutputReference
 	SecretArn() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -158,6 +159,16 @@ func (j *jsiiProxy_DataAwsccQuicksightDataSourceCredentialsOutputReference) KeyP
 	_jsii_.Get(
 		j,
 		"keyPairCredentials",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightDataSourceCredentialsOutputReference) OAuthClientCredentials() DataAwsccQuicksightDataSourceCredentialsOAuthClientCredentialsOutputReference {
+	var returns DataAwsccQuicksightDataSourceCredentialsOAuthClientCredentialsOutputReference
+	_jsii_.Get(
+		j,
+		"oAuthClientCredentials",
 		&returns,
 	)
 	return returns

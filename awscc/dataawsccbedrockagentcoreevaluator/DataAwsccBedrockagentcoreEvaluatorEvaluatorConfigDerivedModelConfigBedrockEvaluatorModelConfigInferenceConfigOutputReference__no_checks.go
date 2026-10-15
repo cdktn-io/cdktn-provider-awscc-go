@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccbedrockagentcoreevaluator
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference) validateSetInternalValueParameters(val *DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfig) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

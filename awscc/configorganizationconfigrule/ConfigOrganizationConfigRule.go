@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/config_organization_config_rule awscc_config_organization_config_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_organization_config_rule awscc_config_organization_config_rule}.
 type ConfigOrganizationConfigRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -485,7 +485,7 @@ func (j *jsiiProxy_ConfigOrganizationConfigRule) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/config_organization_config_rule awscc_config_organization_config_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_organization_config_rule awscc_config_organization_config_rule} Resource.
 func NewConfigOrganizationConfigRule(scope constructs.Construct, id *string, config *ConfigOrganizationConfigRuleConfig) ConfigOrganizationConfigRule {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewConfigOrganizationConfigRule(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/config_organization_config_rule awscc_config_organization_config_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_organization_config_rule awscc_config_organization_config_rule} Resource.
 func NewConfigOrganizationConfigRule_Override(c ConfigOrganizationConfigRule, scope constructs.Construct, id *string, config *ConfigOrganizationConfigRuleConfig) {
 	_init_.Initialize()
 

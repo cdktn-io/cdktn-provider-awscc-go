@@ -179,6 +179,14 @@ func (j *jsiiProxy_DevopsagentAssociationConfigurationAwsOutputReference) valida
 	return nil
 }
 
+func (j *jsiiProxy_DevopsagentAssociationConfigurationAwsOutputReference) validateSetAgentElevatedRoleArnParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DevopsagentAssociationConfigurationAwsOutputReference) validateSetAssumableRoleArnParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

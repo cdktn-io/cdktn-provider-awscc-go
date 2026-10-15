@@ -41,6 +41,7 @@ type DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOut
 	MemoryMiB() DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesMemoryMiBOutputReference
 	OsFamily() *string
 	RootEbsVolume() DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesRootEbsVolumeOutputReference
+	SoftwareAddOns() DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesSoftwareAddOnsList
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -224,6 +225,16 @@ func (j *jsiiProxy_DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceC
 	_jsii_.Get(
 		j,
 		"rootEbsVolume",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutputReference) SoftwareAddOns() DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesSoftwareAddOnsList {
+	var returns DataAwsccDeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesSoftwareAddOnsList
+	_jsii_.Get(
+		j,
+		"softwareAddOns",
 		&returns,
 	)
 	return returns

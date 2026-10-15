@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/lambda_web_functions awscc_lambda_web_functions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_functions awscc_lambda_web_functions}.
 type DataAwsccLambdaWebFunctions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLambdaWebFunctions) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/lambda_web_functions awscc_lambda_web_functions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_functions awscc_lambda_web_functions} Data Source.
 func NewDataAwsccLambdaWebFunctions(scope constructs.Construct, id *string, config *DataAwsccLambdaWebFunctionsConfig) DataAwsccLambdaWebFunctions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLambdaWebFunctions(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/lambda_web_functions awscc_lambda_web_functions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_functions awscc_lambda_web_functions} Data Source.
 func NewDataAwsccLambdaWebFunctions_Override(d DataAwsccLambdaWebFunctions, scope constructs.Construct, id *string, config *DataAwsccLambdaWebFunctionsConfig) {
 	_init_.Initialize()
 

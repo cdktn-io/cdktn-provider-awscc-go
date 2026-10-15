@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/personalize_campaigns awscc_personalize_campaigns}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/personalize_campaigns awscc_personalize_campaigns}.
 type DataAwsccPersonalizeCampaigns interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccPersonalizeCampaigns) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/personalize_campaigns awscc_personalize_campaigns} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/personalize_campaigns awscc_personalize_campaigns} Data Source.
 func NewDataAwsccPersonalizeCampaigns(scope constructs.Construct, id *string, config *DataAwsccPersonalizeCampaignsConfig) DataAwsccPersonalizeCampaigns {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccPersonalizeCampaigns(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/personalize_campaigns awscc_personalize_campaigns} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/personalize_campaigns awscc_personalize_campaigns} Data Source.
 func NewDataAwsccPersonalizeCampaigns_Override(d DataAwsccPersonalizeCampaigns, scope constructs.Construct, id *string, config *DataAwsccPersonalizeCampaignsConfig) {
 	_init_.Initialize()
 

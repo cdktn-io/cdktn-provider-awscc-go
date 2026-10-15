@@ -21,6 +21,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
 			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
 			_jsii_.MemberProperty{JsiiProperty: "createdAt", GoGetter: "CreatedAt"},
+			_jsii_.MemberProperty{JsiiProperty: "critical", GoGetter: "Critical"},
 			_jsii_.MemberProperty{JsiiProperty: "daemonArn", GoGetter: "DaemonArn"},
 			_jsii_.MemberProperty{JsiiProperty: "daemonName", GoGetter: "DaemonName"},
 			_jsii_.MemberProperty{JsiiProperty: "daemonStatus", GoGetter: "DaemonStatus"},

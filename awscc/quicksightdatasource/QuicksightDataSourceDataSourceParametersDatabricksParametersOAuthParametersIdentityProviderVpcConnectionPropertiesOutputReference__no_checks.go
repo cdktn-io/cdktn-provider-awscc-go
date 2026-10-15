@@ -1,0 +1,81 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package quicksightdatasource
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (q *jsiiProxy_QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (q *jsiiProxy_QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference) validateSetVpcConnectionArnParameters(val *string) error {
+	return nil
+}
+
+func validateNewQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

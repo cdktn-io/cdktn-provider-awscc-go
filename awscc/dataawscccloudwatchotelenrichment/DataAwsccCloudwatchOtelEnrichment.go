@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment}.
 type DataAwsccCloudwatchOtelEnrichment interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -28,6 +28,7 @@ type DataAwsccCloudwatchOtelEnrichment interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	ExcludeFilters() DataAwsccCloudwatchOtelEnrichmentExcludeFiltersList
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -39,6 +40,7 @@ type DataAwsccCloudwatchOtelEnrichment interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	IncludeFilters() DataAwsccCloudwatchOtelEnrichmentIncludeFiltersList
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -177,6 +179,16 @@ func (j *jsiiProxy_DataAwsccCloudwatchOtelEnrichment) DependsOn() *[]*string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccCloudwatchOtelEnrichment) ExcludeFilters() DataAwsccCloudwatchOtelEnrichmentExcludeFiltersList {
+	var returns DataAwsccCloudwatchOtelEnrichmentExcludeFiltersList
+	_jsii_.Get(
+		j,
+		"excludeFilters",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccCloudwatchOtelEnrichment) ForEach() cdktn.ITerraformIterator {
 	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
@@ -222,6 +234,16 @@ func (j *jsiiProxy_DataAwsccCloudwatchOtelEnrichment) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccCloudwatchOtelEnrichment) IncludeFilters() DataAwsccCloudwatchOtelEnrichmentIncludeFiltersList {
+	var returns DataAwsccCloudwatchOtelEnrichmentIncludeFiltersList
+	_jsii_.Get(
+		j,
+		"includeFilters",
 		&returns,
 	)
 	return returns
@@ -308,7 +330,7 @@ func (j *jsiiProxy_DataAwsccCloudwatchOtelEnrichment) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment} Data Source.
 func NewDataAwsccCloudwatchOtelEnrichment(scope constructs.Construct, id *string, config *DataAwsccCloudwatchOtelEnrichmentConfig) DataAwsccCloudwatchOtelEnrichment {
 	_init_.Initialize()
 
@@ -326,7 +348,7 @@ func NewDataAwsccCloudwatchOtelEnrichment(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment} Data Source.
 func NewDataAwsccCloudwatchOtelEnrichment_Override(d DataAwsccCloudwatchOtelEnrichment, scope constructs.Construct, id *string, config *DataAwsccCloudwatchOtelEnrichmentConfig) {
 	_init_.Initialize()
 

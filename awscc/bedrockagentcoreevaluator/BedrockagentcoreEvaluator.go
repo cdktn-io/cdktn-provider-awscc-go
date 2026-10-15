@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/bedrockagentcore_evaluator awscc_bedrockagentcore_evaluator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator awscc_bedrockagentcore_evaluator}.
 type BedrockagentcoreEvaluator interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -42,6 +42,7 @@ type BedrockagentcoreEvaluator interface {
 	EvaluatorName() *string
 	SetEvaluatorName(val *string)
 	EvaluatorNameInput() *string
+	EvaluatorType() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -67,6 +68,7 @@ type BedrockagentcoreEvaluator interface {
 	Provider() cdktn.TerraformProvider
 	// Experimental.
 	SetProvider(val cdktn.TerraformProvider)
+	ProviderName() *string
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -350,6 +352,16 @@ func (j *jsiiProxy_BedrockagentcoreEvaluator) EvaluatorNameInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreEvaluator) EvaluatorType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"evaluatorType",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreEvaluator) ForEach() cdktn.ITerraformIterator {
 	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
@@ -460,6 +472,16 @@ func (j *jsiiProxy_BedrockagentcoreEvaluator) Provider() cdktn.TerraformProvider
 	return returns
 }
 
+func (j *jsiiProxy_BedrockagentcoreEvaluator) ProviderName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"providerName",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BedrockagentcoreEvaluator) Provisioners() *[]interface{} {
 	var returns *[]interface{}
 	_jsii_.Get(
@@ -551,7 +573,7 @@ func (j *jsiiProxy_BedrockagentcoreEvaluator) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/bedrockagentcore_evaluator awscc_bedrockagentcore_evaluator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator awscc_bedrockagentcore_evaluator} Resource.
 func NewBedrockagentcoreEvaluator(scope constructs.Construct, id *string, config *BedrockagentcoreEvaluatorConfig) BedrockagentcoreEvaluator {
 	_init_.Initialize()
 
@@ -569,7 +591,7 @@ func NewBedrockagentcoreEvaluator(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/bedrockagentcore_evaluator awscc_bedrockagentcore_evaluator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator awscc_bedrockagentcore_evaluator} Resource.
 func NewBedrockagentcoreEvaluator_Override(b BedrockagentcoreEvaluator, scope constructs.Construct, id *string, config *BedrockagentcoreEvaluatorConfig) {
 	_init_.Initialize()
 

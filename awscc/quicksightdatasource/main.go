@@ -379,10 +379,100 @@ func init() {
 		"@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersDatabricksParameters",
 		reflect.TypeOf((*QuicksightDataSourceAlternateDataSourceParametersDatabricksParameters)(nil)).Elem(),
 	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParameters",
+		reflect.TypeOf((*QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParameters)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties",
+		reflect.TypeOf((*QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference",
+		reflect.TypeOf((*QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetVpcConnectionArn", GoMethod: "ResetVpcConnectionArn"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "vpcConnectionArn", GoGetter: "VpcConnectionArn"},
+			_jsii_.MemberProperty{JsiiProperty: "vpcConnectionArnInput", GoGetter: "VpcConnectionArnInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersOutputReference",
+		reflect.TypeOf((*QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "identityProviderResourceUri", GoGetter: "IdentityProviderResourceUri"},
+			_jsii_.MemberProperty{JsiiProperty: "identityProviderResourceUriInput", GoGetter: "IdentityProviderResourceUriInput"},
+			_jsii_.MemberProperty{JsiiProperty: "identityProviderVpcConnectionProperties", GoGetter: "IdentityProviderVpcConnectionProperties"},
+			_jsii_.MemberProperty{JsiiProperty: "identityProviderVpcConnectionPropertiesInput", GoGetter: "IdentityProviderVpcConnectionPropertiesInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "oAuthScope", GoGetter: "OAuthScope"},
+			_jsii_.MemberProperty{JsiiProperty: "oAuthScopeInput", GoGetter: "OAuthScopeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putIdentityProviderVpcConnectionProperties", GoMethod: "PutIdentityProviderVpcConnectionProperties"},
+			_jsii_.MemberMethod{JsiiMethod: "resetIdentityProviderResourceUri", GoMethod: "ResetIdentityProviderResourceUri"},
+			_jsii_.MemberMethod{JsiiMethod: "resetIdentityProviderVpcConnectionProperties", GoMethod: "ResetIdentityProviderVpcConnectionProperties"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOAuthScope", GoMethod: "ResetOAuthScope"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTokenProviderUrl", GoMethod: "ResetTokenProviderUrl"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberProperty{JsiiProperty: "tokenProviderUrl", GoGetter: "TokenProviderUrl"},
+			_jsii_.MemberProperty{JsiiProperty: "tokenProviderUrlInput", GoGetter: "TokenProviderUrlInput"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
 	_jsii_.RegisterClass(
 		"@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOutputReference",
 		reflect.TypeOf((*QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "authenticationType", GoGetter: "AuthenticationType"},
+			_jsii_.MemberProperty{JsiiProperty: "authenticationTypeInput", GoGetter: "AuthenticationTypeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -402,9 +492,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "oAuthParameters", GoGetter: "OAuthParameters"},
+			_jsii_.MemberProperty{JsiiProperty: "oAuthParametersInput", GoGetter: "OAuthParametersInput"},
 			_jsii_.MemberProperty{JsiiProperty: "port", GoGetter: "Port"},
 			_jsii_.MemberProperty{JsiiProperty: "portInput", GoGetter: "PortInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putOAuthParameters", GoMethod: "PutOAuthParameters"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAuthenticationType", GoMethod: "ResetAuthenticationType"},
 			_jsii_.MemberMethod{JsiiMethod: "resetHost", GoMethod: "ResetHost"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOAuthParameters", GoMethod: "ResetOAuthParameters"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPort", GoMethod: "ResetPort"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSqlEndpointPath", GoMethod: "ResetSqlEndpointPath"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
@@ -1837,10 +1932,100 @@ func init() {
 		"@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParameters",
 		reflect.TypeOf((*QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParameters)(nil)).Elem(),
 	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParameters",
+		reflect.TypeOf((*QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParameters)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties",
+		reflect.TypeOf((*QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference",
+		reflect.TypeOf((*QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetVpcConnectionArn", GoMethod: "ResetVpcConnectionArn"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "vpcConnectionArn", GoGetter: "VpcConnectionArn"},
+			_jsii_.MemberProperty{JsiiProperty: "vpcConnectionArnInput", GoGetter: "VpcConnectionArnInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersOutputReference",
+		reflect.TypeOf((*QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "identityProviderResourceUri", GoGetter: "IdentityProviderResourceUri"},
+			_jsii_.MemberProperty{JsiiProperty: "identityProviderResourceUriInput", GoGetter: "IdentityProviderResourceUriInput"},
+			_jsii_.MemberProperty{JsiiProperty: "identityProviderVpcConnectionProperties", GoGetter: "IdentityProviderVpcConnectionProperties"},
+			_jsii_.MemberProperty{JsiiProperty: "identityProviderVpcConnectionPropertiesInput", GoGetter: "IdentityProviderVpcConnectionPropertiesInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "oAuthScope", GoGetter: "OAuthScope"},
+			_jsii_.MemberProperty{JsiiProperty: "oAuthScopeInput", GoGetter: "OAuthScopeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putIdentityProviderVpcConnectionProperties", GoMethod: "PutIdentityProviderVpcConnectionProperties"},
+			_jsii_.MemberMethod{JsiiMethod: "resetIdentityProviderResourceUri", GoMethod: "ResetIdentityProviderResourceUri"},
+			_jsii_.MemberMethod{JsiiMethod: "resetIdentityProviderVpcConnectionProperties", GoMethod: "ResetIdentityProviderVpcConnectionProperties"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOAuthScope", GoMethod: "ResetOAuthScope"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTokenProviderUrl", GoMethod: "ResetTokenProviderUrl"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberProperty{JsiiProperty: "tokenProviderUrl", GoGetter: "TokenProviderUrl"},
+			_jsii_.MemberProperty{JsiiProperty: "tokenProviderUrlInput", GoGetter: "TokenProviderUrlInput"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
 	_jsii_.RegisterClass(
 		"@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOutputReference",
 		reflect.TypeOf((*QuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "authenticationType", GoGetter: "AuthenticationType"},
+			_jsii_.MemberProperty{JsiiProperty: "authenticationTypeInput", GoGetter: "AuthenticationTypeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1860,9 +2045,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "oAuthParameters", GoGetter: "OAuthParameters"},
+			_jsii_.MemberProperty{JsiiProperty: "oAuthParametersInput", GoGetter: "OAuthParametersInput"},
 			_jsii_.MemberProperty{JsiiProperty: "port", GoGetter: "Port"},
 			_jsii_.MemberProperty{JsiiProperty: "portInput", GoGetter: "PortInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putOAuthParameters", GoMethod: "PutOAuthParameters"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAuthenticationType", GoMethod: "ResetAuthenticationType"},
 			_jsii_.MemberMethod{JsiiMethod: "resetHost", GoMethod: "ResetHost"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOAuthParameters", GoMethod: "ResetOAuthParameters"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPort", GoMethod: "ResetPort"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSqlEndpointPath", GoMethod: "ResetSqlEndpointPath"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
@@ -3106,6 +3296,51 @@ func init() {
 			return &j
 		},
 	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsOAuthClientCredentials",
+		reflect.TypeOf((*QuicksightDataSourceCredentialsOAuthClientCredentials)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsOAuthClientCredentialsOutputReference",
+		reflect.TypeOf((*QuicksightDataSourceCredentialsOAuthClientCredentialsOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
+			_jsii_.MemberProperty{JsiiProperty: "clientIdInput", GoGetter: "ClientIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "clientSecret", GoGetter: "ClientSecret"},
+			_jsii_.MemberProperty{JsiiProperty: "clientSecretInput", GoGetter: "ClientSecretInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetClientId", GoMethod: "ResetClientId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetClientSecret", GoMethod: "ResetClientSecret"},
+			_jsii_.MemberMethod{JsiiMethod: "resetUsername", GoMethod: "ResetUsername"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "username", GoGetter: "Username"},
+			_jsii_.MemberProperty{JsiiProperty: "usernameInput", GoGetter: "UsernameInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_QuicksightDataSourceCredentialsOAuthClientCredentialsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
 	_jsii_.RegisterClass(
 		"@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceCredentialsOutputReference",
 		reflect.TypeOf((*QuicksightDataSourceCredentialsOutputReference)(nil)).Elem(),
@@ -3133,11 +3368,15 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "keyPairCredentials", GoGetter: "KeyPairCredentials"},
 			_jsii_.MemberProperty{JsiiProperty: "keyPairCredentialsInput", GoGetter: "KeyPairCredentialsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "oAuthClientCredentials", GoGetter: "OAuthClientCredentials"},
+			_jsii_.MemberProperty{JsiiProperty: "oAuthClientCredentialsInput", GoGetter: "OAuthClientCredentialsInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putCredentialPair", GoMethod: "PutCredentialPair"},
 			_jsii_.MemberMethod{JsiiMethod: "putKeyPairCredentials", GoMethod: "PutKeyPairCredentials"},
+			_jsii_.MemberMethod{JsiiMethod: "putOAuthClientCredentials", GoMethod: "PutOAuthClientCredentials"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCopySourceArn", GoMethod: "ResetCopySourceArn"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCredentialPair", GoMethod: "ResetCredentialPair"},
 			_jsii_.MemberMethod{JsiiMethod: "resetKeyPairCredentials", GoMethod: "ResetKeyPairCredentials"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOAuthClientCredentials", GoMethod: "ResetOAuthClientCredentials"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSecretArn", GoMethod: "ResetSecretArn"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "secretArn", GoGetter: "SecretArn"},
@@ -3416,10 +3655,100 @@ func init() {
 		"@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersDatabricksParameters",
 		reflect.TypeOf((*QuicksightDataSourceDataSourceParametersDatabricksParameters)(nil)).Elem(),
 	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParameters",
+		reflect.TypeOf((*QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParameters)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties",
+		reflect.TypeOf((*QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference",
+		reflect.TypeOf((*QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetVpcConnectionArn", GoMethod: "ResetVpcConnectionArn"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "vpcConnectionArn", GoGetter: "VpcConnectionArn"},
+			_jsii_.MemberProperty{JsiiProperty: "vpcConnectionArnInput", GoGetter: "VpcConnectionArnInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersOutputReference",
+		reflect.TypeOf((*QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "identityProviderResourceUri", GoGetter: "IdentityProviderResourceUri"},
+			_jsii_.MemberProperty{JsiiProperty: "identityProviderResourceUriInput", GoGetter: "IdentityProviderResourceUriInput"},
+			_jsii_.MemberProperty{JsiiProperty: "identityProviderVpcConnectionProperties", GoGetter: "IdentityProviderVpcConnectionProperties"},
+			_jsii_.MemberProperty{JsiiProperty: "identityProviderVpcConnectionPropertiesInput", GoGetter: "IdentityProviderVpcConnectionPropertiesInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "oAuthScope", GoGetter: "OAuthScope"},
+			_jsii_.MemberProperty{JsiiProperty: "oAuthScopeInput", GoGetter: "OAuthScopeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putIdentityProviderVpcConnectionProperties", GoMethod: "PutIdentityProviderVpcConnectionProperties"},
+			_jsii_.MemberMethod{JsiiMethod: "resetIdentityProviderResourceUri", GoMethod: "ResetIdentityProviderResourceUri"},
+			_jsii_.MemberMethod{JsiiMethod: "resetIdentityProviderVpcConnectionProperties", GoMethod: "ResetIdentityProviderVpcConnectionProperties"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOAuthScope", GoMethod: "ResetOAuthScope"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTokenProviderUrl", GoMethod: "ResetTokenProviderUrl"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberProperty{JsiiProperty: "tokenProviderUrl", GoGetter: "TokenProviderUrl"},
+			_jsii_.MemberProperty{JsiiProperty: "tokenProviderUrlInput", GoGetter: "TokenProviderUrlInput"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_QuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
 	_jsii_.RegisterClass(
 		"@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceDataSourceParametersDatabricksParametersOutputReference",
 		reflect.TypeOf((*QuicksightDataSourceDataSourceParametersDatabricksParametersOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "authenticationType", GoGetter: "AuthenticationType"},
+			_jsii_.MemberProperty{JsiiProperty: "authenticationTypeInput", GoGetter: "AuthenticationTypeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3439,9 +3768,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "oAuthParameters", GoGetter: "OAuthParameters"},
+			_jsii_.MemberProperty{JsiiProperty: "oAuthParametersInput", GoGetter: "OAuthParametersInput"},
 			_jsii_.MemberProperty{JsiiProperty: "port", GoGetter: "Port"},
 			_jsii_.MemberProperty{JsiiProperty: "portInput", GoGetter: "PortInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putOAuthParameters", GoMethod: "PutOAuthParameters"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAuthenticationType", GoMethod: "ResetAuthenticationType"},
 			_jsii_.MemberMethod{JsiiMethod: "resetHost", GoMethod: "ResetHost"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOAuthParameters", GoMethod: "ResetOAuthParameters"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPort", GoMethod: "ResetPort"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSqlEndpointPath", GoMethod: "ResetSqlEndpointPath"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},

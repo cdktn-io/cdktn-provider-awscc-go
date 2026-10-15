@@ -67,6 +67,10 @@ func (j *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfi
 	return nil
 }
 
+func (j *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference) validateSetStopSequencesParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference) validateSetTemperatureParameters(val *float64) error {
 	return nil
 }

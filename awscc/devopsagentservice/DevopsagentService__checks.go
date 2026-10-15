@@ -419,6 +419,14 @@ func (j *jsiiProxy_DevopsagentService) validateSetLifecycleParameters(val *cdktn
 	return nil
 }
 
+func (j *jsiiProxy_DevopsagentService) validateSetNameParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DevopsagentService) validateSetPrivateConnectionNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

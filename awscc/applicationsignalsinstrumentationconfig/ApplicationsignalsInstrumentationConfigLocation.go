@@ -7,7 +7,7 @@ package applicationsignalsinstrumentationconfig
 type ApplicationsignalsInstrumentationConfigLocation struct {
 	// Identifies a code location to instrument.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/applicationsignals_instrumentation_config#code_location ApplicationsignalsInstrumentationConfig#code_location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_instrumentation_config#code_location ApplicationsignalsInstrumentationConfig#code_location}
 	CodeLocation *ApplicationsignalsInstrumentationConfigLocationCodeLocation `field:"required" json:"codeLocation" yaml:"codeLocation"`
 }
 

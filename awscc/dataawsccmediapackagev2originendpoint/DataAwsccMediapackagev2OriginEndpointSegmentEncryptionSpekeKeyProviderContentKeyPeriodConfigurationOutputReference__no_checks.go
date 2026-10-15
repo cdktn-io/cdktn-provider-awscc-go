@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccmediapackagev2originendpoint
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference) validateSetInternalValueParameters(val *DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfiguration) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

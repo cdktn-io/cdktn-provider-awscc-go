@@ -28,6 +28,9 @@ type DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference interfac
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EnabledElevatedTools() *[]*string
+	SetEnabledElevatedTools(val *[]*string)
+	EnabledElevatedToolsInput() *[]*string
 	EnableWebhookUpdates() interface{}
 	SetEnableWebhookUpdates(val interface{})
 	EnableWebhookUpdatesInput() interface{}
@@ -73,6 +76,7 @@ type DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference interfac
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetEnabledElevatedTools()
 	ResetEnableWebhookUpdates()
 	ResetEndpoint()
 	ResetTools()
@@ -116,6 +120,26 @@ func (j *jsiiProxy_DevopsagentAssociationConfigurationMcpServerGrafanaOutputRefe
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference) EnabledElevatedTools() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"enabledElevatedTools",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference) EnabledElevatedToolsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"enabledElevatedToolsInput",
 		&returns,
 	)
 	return returns
@@ -267,6 +291,17 @@ func (j *jsiiProxy_DevopsagentAssociationConfigurationMcpServerGrafanaOutputRefe
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference)SetEnabledElevatedTools(val *[]*string) {
+	if err := j.validateSetEnabledElevatedToolsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enabledElevatedTools",
 		val,
 	)
 }
@@ -521,6 +556,14 @@ func (d *jsiiProxy_DevopsagentAssociationConfigurationMcpServerGrafanaOutputRefe
 	)
 
 	return returns
+}
+
+func (d *jsiiProxy_DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference) ResetEnabledElevatedTools() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetEnabledElevatedTools",
+		nil, // no parameters
+	)
 }
 
 func (d *jsiiProxy_DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference) ResetEnableWebhookUpdates() {

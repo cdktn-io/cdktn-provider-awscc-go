@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ecs_daemon awscc_ecs_daemon}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_daemon awscc_ecs_daemon}.
 type DataAwsccEcsDaemon interface {
 	cdktn.TerraformDataSource
 	CapacityProviderArns() *[]*string
@@ -26,6 +26,7 @@ type DataAwsccEcsDaemon interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreatedAt() *string
+	Critical() cdktn.IResolvable
 	DaemonArn() *string
 	DaemonName() *string
 	DaemonStatus() *string
@@ -194,6 +195,16 @@ func (j *jsiiProxy_DataAwsccEcsDaemon) CreatedAt() *string {
 	_jsii_.Get(
 		j,
 		"createdAt",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccEcsDaemon) Critical() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"critical",
 		&returns,
 	)
 	return returns
@@ -440,7 +451,7 @@ func (j *jsiiProxy_DataAwsccEcsDaemon) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ecs_daemon awscc_ecs_daemon} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_daemon awscc_ecs_daemon} Data Source.
 func NewDataAwsccEcsDaemon(scope constructs.Construct, id *string, config *DataAwsccEcsDaemonConfig) DataAwsccEcsDaemon {
 	_init_.Initialize()
 
@@ -458,7 +469,7 @@ func NewDataAwsccEcsDaemon(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ecs_daemon awscc_ecs_daemon} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_daemon awscc_ecs_daemon} Data Source.
 func NewDataAwsccEcsDaemon_Override(d DataAwsccEcsDaemon, scope constructs.Construct, id *string, config *DataAwsccEcsDaemonConfig) {
 	_init_.Initialize()
 

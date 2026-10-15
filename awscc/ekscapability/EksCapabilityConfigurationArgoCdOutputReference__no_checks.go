@@ -71,6 +71,10 @@ func (j *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validateSetC
 	return nil
 }
 
+func (j *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validateSetEndpointPrefixParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	return nil
 }

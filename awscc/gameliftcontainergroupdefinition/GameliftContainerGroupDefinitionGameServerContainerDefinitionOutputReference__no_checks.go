@@ -107,6 +107,10 @@ func (j *jsiiProxy_GameliftContainerGroupDefinitionGameServerContainerDefinition
 	return nil
 }
 
+func (j *jsiiProxy_GameliftContainerGroupDefinitionGameServerContainerDefinitionOutputReference) validateSetVcpuParameters(val *float64) error {
+	return nil
+}
+
 func validateNewGameliftContainerGroupDefinitionGameServerContainerDefinitionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

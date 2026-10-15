@@ -21,6 +21,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "certificate", GoGetter: "Certificate"},
 			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
 			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "createWithHostKey", GoGetter: "CreateWithHostKey"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "domain", GoGetter: "Domain"},
 			_jsii_.MemberProperty{JsiiProperty: "endpointDetails", GoGetter: "EndpointDetails"},

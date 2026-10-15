@@ -63,6 +63,10 @@ func (j *jsiiProxy_DevopsagentAssociationConfigurationMcpServerDatadogOutputRefe
 	return nil
 }
 
+func (j *jsiiProxy_DevopsagentAssociationConfigurationMcpServerDatadogOutputReference) validateSetEnabledElevatedToolsParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DevopsagentAssociationConfigurationMcpServerDatadogOutputReference) validateSetEnableWebhookUpdatesParameters(val interface{}) error {
 	return nil
 }

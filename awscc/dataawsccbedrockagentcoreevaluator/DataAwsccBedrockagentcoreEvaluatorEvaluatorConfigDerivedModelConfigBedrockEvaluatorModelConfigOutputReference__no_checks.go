@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccbedrockagentcoreevaluator
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigOutputReference) validateSetInternalValueParameters(val *DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfig) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

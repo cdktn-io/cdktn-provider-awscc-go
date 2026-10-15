@@ -35,6 +35,9 @@ type BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigBedrockEvalua
 	MaxTokens() *float64
 	SetMaxTokens(val *float64)
 	MaxTokensInput() *float64
+	StopSequences() *[]*string
+	SetStopSequences(val *[]*string)
+	StopSequencesInput() *[]*string
 	Temperature() *float64
 	SetTemperature(val *float64)
 	TemperatureInput() *float64
@@ -74,6 +77,7 @@ type BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigBedrockEvalua
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetMaxTokens()
+	ResetStopSequences()
 	ResetTemperature()
 	ResetTopP()
 	// Produce the Token's value at resolution time.
@@ -156,6 +160,26 @@ func (j *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfi
 	_jsii_.Get(
 		j,
 		"maxTokensInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference) StopSequences() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"stopSequences",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference) StopSequencesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"stopSequencesInput",
 		&returns,
 	)
 	return returns
@@ -289,6 +313,17 @@ func (j *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfi
 	_jsii_.Set(
 		j,
 		"maxTokens",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference)SetStopSequences(val *[]*string) {
+	if err := j.validateSetStopSequencesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"stopSequences",
 		val,
 	)
 }
@@ -527,6 +562,14 @@ func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfi
 	_jsii_.InvokeVoid(
 		b,
 		"resetMaxTokens",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference) ResetStopSequences() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetStopSequences",
 		nil, // no parameters
 	)
 }

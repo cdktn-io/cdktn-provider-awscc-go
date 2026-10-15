@@ -28,6 +28,7 @@ type DataAwsccLambdaWebFunctionRevisionServiceConfigOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EgressNetworkConnectorArn() *string
 	EnvironmentVariables() cdktn.StringMap
 	ExecutionRoleArn() *string
 	// Experimental.
@@ -109,6 +110,16 @@ func (j *jsiiProxy_DataAwsccLambdaWebFunctionRevisionServiceConfigOutputReferenc
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccLambdaWebFunctionRevisionServiceConfigOutputReference) EgressNetworkConnectorArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"egressNetworkConnectorArn",
 		&returns,
 	)
 	return returns

@@ -79,7 +79,15 @@ func (s *jsiiProxy_SesTenant) validateOverrideLogicalIdParameters(newLogicalId *
 	return nil
 }
 
+func (s *jsiiProxy_SesTenant) validatePutReputationEntityParameters(value *SesTenantReputationEntity) error {
+	return nil
+}
+
 func (s *jsiiProxy_SesTenant) validatePutResourceAssociationsParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SesTenant) validatePutSuppressionAttributesParameters(value *SesTenantSuppressionAttributes) error {
 	return nil
 }
 

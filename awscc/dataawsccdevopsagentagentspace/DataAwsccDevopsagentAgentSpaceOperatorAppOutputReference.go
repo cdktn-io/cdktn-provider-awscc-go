@@ -32,6 +32,7 @@ type DataAwsccDevopsagentAgentSpaceOperatorAppOutputReference interface {
 	Fqn() *string
 	Iam() DataAwsccDevopsagentAgentSpaceOperatorAppIamOutputReference
 	Idc() DataAwsccDevopsagentAgentSpaceOperatorAppIdcOutputReference
+	Idp() DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference
 	InternalValue() *DataAwsccDevopsagentAgentSpaceOperatorApp
 	SetInternalValue(val *DataAwsccDevopsagentAgentSpaceOperatorApp)
 	// Experimental.
@@ -136,6 +137,16 @@ func (j *jsiiProxy_DataAwsccDevopsagentAgentSpaceOperatorAppOutputReference) Idc
 	_jsii_.Get(
 		j,
 		"idc",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccDevopsagentAgentSpaceOperatorAppOutputReference) Idp() DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference {
+	var returns DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference
+	_jsii_.Get(
+		j,
+		"idp",
 		&returns,
 	)
 	return returns

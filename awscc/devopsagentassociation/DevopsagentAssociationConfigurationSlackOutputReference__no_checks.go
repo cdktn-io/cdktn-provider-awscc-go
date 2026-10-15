@@ -47,6 +47,10 @@ func (d *jsiiProxy_DevopsagentAssociationConfigurationSlackOutputReference) vali
 	return nil
 }
 
+func (d *jsiiProxy_DevopsagentAssociationConfigurationSlackOutputReference) validatePutBidirectionalParameters(value *DevopsagentAssociationConfigurationSlackBidirectional) error {
+	return nil
+}
+
 func (d *jsiiProxy_DevopsagentAssociationConfigurationSlackOutputReference) validatePutTransmissionTargetParameters(value *DevopsagentAssociationConfigurationSlackTransmissionTarget) error {
 	return nil
 }

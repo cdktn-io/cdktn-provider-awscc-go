@@ -7,11 +7,11 @@ package smsvoicenotifyconfiguration
 type SmsvoiceNotifyConfigurationTags struct {
 	// The key identifier, or name, of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/smsvoice_notify_configuration#key SmsvoiceNotifyConfiguration#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_notify_configuration#key SmsvoiceNotifyConfiguration#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The string value associated with the key of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/smsvoice_notify_configuration#value SmsvoiceNotifyConfiguration#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_notify_configuration#value SmsvoiceNotifyConfiguration#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

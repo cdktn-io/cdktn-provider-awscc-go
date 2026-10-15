@@ -83,6 +83,10 @@ func (a *jsiiProxy_AgentregistryRegistry) validatePutApprovalConfigurationParame
 	return nil
 }
 
+func (a *jsiiProxy_AgentregistryRegistry) validatePutCustomMetadataSchemaConfigurationParameters(value *AgentregistryRegistryCustomMetadataSchemaConfiguration) error {
+	return nil
+}
+
 func (a *jsiiProxy_AgentregistryRegistry) validatePutDiscoveryConfigurationParameters(value *AgentregistryRegistryDiscoveryConfiguration) error {
 	return nil
 }

@@ -62,6 +62,9 @@ type GameliftContainerGroupDefinitionGameServerContainerDefinitionOutputReferenc
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Vcpu() *float64
+	SetVcpu(val *float64)
+	VcpuInput() *float64
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -100,6 +103,7 @@ type GameliftContainerGroupDefinitionGameServerContainerDefinitionOutputReferenc
 	ResetPortConfiguration()
 	ResetResolvedImageDigest()
 	ResetServerSdkVersion()
+	ResetVcpu()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -365,6 +369,26 @@ func (j *jsiiProxy_GameliftContainerGroupDefinitionGameServerContainerDefinition
 	return returns
 }
 
+func (j *jsiiProxy_GameliftContainerGroupDefinitionGameServerContainerDefinitionOutputReference) Vcpu() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"vcpu",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GameliftContainerGroupDefinitionGameServerContainerDefinitionOutputReference) VcpuInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"vcpuInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewGameliftContainerGroupDefinitionGameServerContainerDefinitionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) GameliftContainerGroupDefinitionGameServerContainerDefinitionOutputReference {
 	_init_.Initialize()
@@ -488,6 +512,17 @@ func (j *jsiiProxy_GameliftContainerGroupDefinitionGameServerContainerDefinition
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GameliftContainerGroupDefinitionGameServerContainerDefinitionOutputReference)SetVcpu(val *float64) {
+	if err := j.validateSetVcpuParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"vcpu",
 		val,
 	)
 }
@@ -801,6 +836,14 @@ func (g *jsiiProxy_GameliftContainerGroupDefinitionGameServerContainerDefinition
 	_jsii_.InvokeVoid(
 		g,
 		"resetServerSdkVersion",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GameliftContainerGroupDefinitionGameServerContainerDefinitionOutputReference) ResetVcpu() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetVcpu",
 		nil, // no parameters
 	)
 }

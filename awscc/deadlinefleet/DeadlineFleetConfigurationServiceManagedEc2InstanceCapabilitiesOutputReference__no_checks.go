@@ -67,6 +67,10 @@ func (d *jsiiProxy_DeadlineFleetConfigurationServiceManagedEc2InstanceCapabiliti
 	return nil
 }
 
+func (d *jsiiProxy_DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutputReference) validatePutSoftwareAddOnsParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutputReference) validatePutVCpuCountParameters(value *DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesVCpuCount) error {
 	return nil
 }

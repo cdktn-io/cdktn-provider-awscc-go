@@ -13,6 +13,9 @@ import (
 
 type QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOutputReference interface {
 	cdktn.ComplexObject
+	AuthenticationType() *string
+	SetAuthenticationType(val *string)
+	AuthenticationTypeInput() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -35,6 +38,8 @@ type QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOutput
 	HostInput() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	OAuthParameters() QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersOutputReference
+	OAuthParametersInput() interface{}
 	Port() *float64
 	SetPort(val *float64)
 	PortInput() *float64
@@ -73,7 +78,10 @@ type QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOutput
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutOAuthParameters(value *QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParameters)
+	ResetAuthenticationType()
 	ResetHost()
+	ResetOAuthParameters()
 	ResetPort()
 	ResetSqlEndpointPath()
 	// Produce the Token's value at resolution time.
@@ -89,6 +97,26 @@ type QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOutput
 // The jsii proxy struct for QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOutputReference
 type jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOutputReference) AuthenticationType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"authenticationType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOutputReference) AuthenticationTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"authenticationTypeInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOutputReference) ComplexObjectIndex() interface{} {
@@ -156,6 +184,26 @@ func (j *jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersDatabricksPa
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOutputReference) OAuthParameters() QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersOutputReference {
+	var returns QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersOutputReference
+	_jsii_.Get(
+		j,
+		"oAuthParameters",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOutputReference) OAuthParametersInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"oAuthParametersInput",
 		&returns,
 	)
 	return returns
@@ -246,6 +294,17 @@ func NewQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOut
 		"@cdktn/provider-awscc.quicksightDataSource.QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		q,
+	)
+}
+
+func (j *jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOutputReference)SetAuthenticationType(val *string) {
+	if err := j.validateSetAuthenticationTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"authenticationType",
+		val,
 	)
 }
 
@@ -523,10 +582,37 @@ func (q *jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersDatabricksPa
 	return returns
 }
 
+func (q *jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOutputReference) PutOAuthParameters(value *QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParameters) {
+	if err := q.validatePutOAuthParametersParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		q,
+		"putOAuthParameters",
+		[]interface{}{value},
+	)
+}
+
+func (q *jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOutputReference) ResetAuthenticationType() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetAuthenticationType",
+		nil, // no parameters
+	)
+}
+
 func (q *jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOutputReference) ResetHost() {
 	_jsii_.InvokeVoid(
 		q,
 		"resetHost",
+		nil, // no parameters
+	)
+}
+
+func (q *jsiiProxy_QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOutputReference) ResetOAuthParameters() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetOAuthParameters",
 		nil, // no parameters
 	)
 }

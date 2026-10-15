@@ -31,6 +31,9 @@ type DevopsagentAssociationConfigurationMcpServerDatadogOutputReference interfac
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
+	EnabledElevatedTools() *[]*string
+	SetEnabledElevatedTools(val *[]*string)
+	EnabledElevatedToolsInput() *[]*string
 	EnableWebhookUpdates() interface{}
 	SetEnableWebhookUpdates(val interface{})
 	EnableWebhookUpdatesInput() interface{}
@@ -77,6 +80,7 @@ type DevopsagentAssociationConfigurationMcpServerDatadogOutputReference interfac
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDescription()
+	ResetEnabledElevatedTools()
 	ResetEnableWebhookUpdates()
 	ResetEndpoint()
 	ResetName()
@@ -140,6 +144,26 @@ func (j *jsiiProxy_DevopsagentAssociationConfigurationMcpServerDatadogOutputRefe
 	_jsii_.Get(
 		j,
 		"descriptionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DevopsagentAssociationConfigurationMcpServerDatadogOutputReference) EnabledElevatedTools() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"enabledElevatedTools",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DevopsagentAssociationConfigurationMcpServerDatadogOutputReference) EnabledElevatedToolsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"enabledElevatedToolsInput",
 		&returns,
 	)
 	return returns
@@ -302,6 +326,17 @@ func (j *jsiiProxy_DevopsagentAssociationConfigurationMcpServerDatadogOutputRefe
 	_jsii_.Set(
 		j,
 		"description",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DevopsagentAssociationConfigurationMcpServerDatadogOutputReference)SetEnabledElevatedTools(val *[]*string) {
+	if err := j.validateSetEnabledElevatedToolsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enabledElevatedTools",
 		val,
 	)
 }
@@ -562,6 +597,14 @@ func (d *jsiiProxy_DevopsagentAssociationConfigurationMcpServerDatadogOutputRefe
 	_jsii_.InvokeVoid(
 		d,
 		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DevopsagentAssociationConfigurationMcpServerDatadogOutputReference) ResetEnabledElevatedTools() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetEnabledElevatedTools",
 		nil, // no parameters
 	)
 }

@@ -30,6 +30,8 @@ type BedrockagentcoreEvaluatorEvaluatorConfigOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	Derived() BedrockagentcoreEvaluatorEvaluatorConfigDerivedOutputReference
+	DerivedInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -69,8 +71,10 @@ type BedrockagentcoreEvaluatorEvaluatorConfigOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCodeBased(value *BedrockagentcoreEvaluatorEvaluatorConfigCodeBased)
+	PutDerived(value *BedrockagentcoreEvaluatorEvaluatorConfigDerived)
 	PutLlmAsAJudge(value *BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudge)
 	ResetCodeBased()
+	ResetDerived()
 	ResetLlmAsAJudge()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -132,6 +136,26 @@ func (j *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigOutputReference) Crea
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigOutputReference) Derived() BedrockagentcoreEvaluatorEvaluatorConfigDerivedOutputReference {
+	var returns BedrockagentcoreEvaluatorEvaluatorConfigDerivedOutputReference
+	_jsii_.Get(
+		j,
+		"derived",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigOutputReference) DerivedInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"derivedInput",
 		&returns,
 	)
 	return returns
@@ -477,6 +501,17 @@ func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigOutputReference) PutC
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigOutputReference) PutDerived(value *BedrockagentcoreEvaluatorEvaluatorConfigDerived) {
+	if err := b.validatePutDerivedParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putDerived",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigOutputReference) PutLlmAsAJudge(value *BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudge) {
 	if err := b.validatePutLlmAsAJudgeParameters(value); err != nil {
 		panic(err)
@@ -492,6 +527,14 @@ func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigOutputReference) Rese
 	_jsii_.InvokeVoid(
 		b,
 		"resetCodeBased",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigOutputReference) ResetDerived() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetDerived",
 		nil, // no parameters
 	)
 }

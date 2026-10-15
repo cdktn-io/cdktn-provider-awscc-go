@@ -24,6 +24,7 @@ type DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutpu
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ContentKeyPeriodConfiguration() DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -37,6 +38,7 @@ type DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutpu
 	SetInternalValue(val *DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProvider)
 	ResourceId() *string
 	RoleArn() *string
+	SpekeVersion() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -115,6 +117,16 @@ func (j *jsiiProxy_DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKe
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutputReference) ContentKeyPeriodConfiguration() DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference {
+	var returns DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"contentKeyPeriodConfiguration",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutputReference) CreationStack() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -180,6 +192,16 @@ func (j *jsiiProxy_DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKe
 	_jsii_.Get(
 		j,
 		"roleArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutputReference) SpekeVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"spekeVersion",
 		&returns,
 	)
 	return returns

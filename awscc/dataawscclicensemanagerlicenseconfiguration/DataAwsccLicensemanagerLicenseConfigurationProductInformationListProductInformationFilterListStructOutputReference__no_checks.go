@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawscclicensemanagerlicenseconfiguration
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccLicensemanagerLicenseConfigurationProductInformationListProductInformationFilterListStructOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLicensemanagerLicenseConfigurationProductInformationListProductInformationFilterListStructOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLicensemanagerLicenseConfigurationProductInformationListProductInformationFilterListStructOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLicensemanagerLicenseConfigurationProductInformationListProductInformationFilterListStructOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLicensemanagerLicenseConfigurationProductInformationListProductInformationFilterListStructOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLicensemanagerLicenseConfigurationProductInformationListProductInformationFilterListStructOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLicensemanagerLicenseConfigurationProductInformationListProductInformationFilterListStructOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLicensemanagerLicenseConfigurationProductInformationListProductInformationFilterListStructOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLicensemanagerLicenseConfigurationProductInformationListProductInformationFilterListStructOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLicensemanagerLicenseConfigurationProductInformationListProductInformationFilterListStructOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccLicensemanagerLicenseConfigurationProductInformationListProductInformationFilterListStructOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccLicensemanagerLicenseConfigurationProductInformationListProductInformationFilterListStructOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccLicensemanagerLicenseConfigurationProductInformationListProductInformationFilterListStructOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccLicensemanagerLicenseConfigurationProductInformationListProductInformationFilterListStructOutputReference) validateSetInternalValueParameters(val *DataAwsccLicensemanagerLicenseConfigurationProductInformationListProductInformationFilterListStruct) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccLicensemanagerLicenseConfigurationProductInformationListProductInformationFilterListStructOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccLicensemanagerLicenseConfigurationProductInformationListProductInformationFilterListStructOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccLicensemanagerLicenseConfigurationProductInformationListProductInformationFilterListStructOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

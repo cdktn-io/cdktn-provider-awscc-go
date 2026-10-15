@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function awscc_lambda_web_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function awscc_lambda_web_function}.
 type LambdaWebFunction interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -457,7 +457,7 @@ func (j *jsiiProxy_LambdaWebFunction) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function awscc_lambda_web_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function awscc_lambda_web_function} Resource.
 func NewLambdaWebFunction(scope constructs.Construct, id *string, config *LambdaWebFunctionConfig) LambdaWebFunction {
 	_init_.Initialize()
 
@@ -475,7 +475,7 @@ func NewLambdaWebFunction(scope constructs.Construct, id *string, config *Lambda
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function awscc_lambda_web_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function awscc_lambda_web_function} Resource.
 func NewLambdaWebFunction_Override(l LambdaWebFunction, scope constructs.Construct, id *string, config *LambdaWebFunctionConfig) {
 	_init_.Initialize()
 

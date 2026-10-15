@@ -159,6 +159,10 @@ func (j *jsiiProxy_MediaconnectFlowOutput) validateSetNameParameters(val *string
 	return nil
 }
 
+func (j *jsiiProxy_MediaconnectFlowOutput) validateSetNdiAudioReferenceLevelParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_MediaconnectFlowOutput) validateSetNdiOutputTimecodeSourceParameters(val *string) error {
 	return nil
 }

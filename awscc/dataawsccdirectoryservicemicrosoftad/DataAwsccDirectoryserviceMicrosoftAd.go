@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/directoryservice_microsoft_ad awscc_directoryservice_microsoft_ad}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directoryservice_microsoft_ad awscc_directoryservice_microsoft_ad}.
 type DataAwsccDirectoryserviceMicrosoftAd interface {
 	cdktn.TerraformDataSource
 	Alias() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccDirectoryserviceMicrosoftAd) VpcSettings() DataAwscc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/directoryservice_microsoft_ad awscc_directoryservice_microsoft_ad} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directoryservice_microsoft_ad awscc_directoryservice_microsoft_ad} Data Source.
 func NewDataAwsccDirectoryserviceMicrosoftAd(scope constructs.Construct, id *string, config *DataAwsccDirectoryserviceMicrosoftAdConfig) DataAwsccDirectoryserviceMicrosoftAd {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccDirectoryserviceMicrosoftAd(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/directoryservice_microsoft_ad awscc_directoryservice_microsoft_ad} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directoryservice_microsoft_ad awscc_directoryservice_microsoft_ad} Data Source.
 func NewDataAwsccDirectoryserviceMicrosoftAd_Override(d DataAwsccDirectoryserviceMicrosoftAd, scope constructs.Construct, id *string, config *DataAwsccDirectoryserviceMicrosoftAdConfig) {
 	_init_.Initialize()
 

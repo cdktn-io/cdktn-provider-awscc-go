@@ -215,6 +215,17 @@ func (s *jsiiProxy_SesTenant) validateOverrideLogicalIdParameters(newLogicalId *
 	return nil
 }
 
+func (s *jsiiProxy_SesTenant) validatePutReputationEntityParameters(value *SesTenantReputationEntity) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_SesTenant) validatePutResourceAssociationsParameters(value interface{}) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -241,6 +252,17 @@ func (s *jsiiProxy_SesTenant) validatePutResourceAssociationsParameters(value in
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SesTenantResourceAssociations; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_SesTenant) validatePutSuppressionAttributesParameters(value *SesTenantSuppressionAttributes) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
 	}
 
 	return nil

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry awscc_agentregistry_registry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry awscc_agentregistry_registry}.
 type AgentregistryRegistry interface {
 	cdktn.TerraformResource
 	ApprovalConfiguration() AgentregistryRegistryApprovalConfigurationOutputReference
@@ -40,6 +40,8 @@ type AgentregistryRegistry interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreatedAt() *string
+	CustomMetadataSchemaConfiguration() AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference
+	CustomMetadataSchemaConfigurationInput() interface{}
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -171,6 +173,7 @@ type AgentregistryRegistry interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutApprovalConfiguration(value *AgentregistryRegistryApprovalConfiguration)
+	PutCustomMetadataSchemaConfiguration(value *AgentregistryRegistryCustomMetadataSchemaConfiguration)
 	PutDiscoveryConfiguration(value *AgentregistryRegistryDiscoveryConfiguration)
 	PutEncryptionConfiguration(value *AgentregistryRegistryEncryptionConfiguration)
 	PutTags(value interface{})
@@ -191,6 +194,7 @@ type AgentregistryRegistry interface {
 	ResetAuthorizerType()
 	ResetAutoDetectionEnabled()
 	ResetAutoDetectionScope()
+	ResetCustomMetadataSchemaConfiguration()
 	ResetDescription()
 	ResetDiscoveryConfiguration()
 	ResetEncryptionConfiguration()
@@ -360,6 +364,26 @@ func (j *jsiiProxy_AgentregistryRegistry) CreatedAt() *string {
 	_jsii_.Get(
 		j,
 		"createdAt",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgentregistryRegistry) CustomMetadataSchemaConfiguration() AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference {
+	var returns AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"customMetadataSchemaConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgentregistryRegistry) CustomMetadataSchemaConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"customMetadataSchemaConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -636,7 +660,7 @@ func (j *jsiiProxy_AgentregistryRegistry) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry awscc_agentregistry_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry awscc_agentregistry_registry} Resource.
 func NewAgentregistryRegistry(scope constructs.Construct, id *string, config *AgentregistryRegistryConfig) AgentregistryRegistry {
 	_init_.Initialize()
 
@@ -654,7 +678,7 @@ func NewAgentregistryRegistry(scope constructs.Construct, id *string, config *Ag
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry awscc_agentregistry_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry awscc_agentregistry_registry} Resource.
 func NewAgentregistryRegistry_Override(a AgentregistryRegistry, scope constructs.Construct, id *string, config *AgentregistryRegistryConfig) {
 	_init_.Initialize()
 
@@ -1168,6 +1192,17 @@ func (a *jsiiProxy_AgentregistryRegistry) PutApprovalConfiguration(value *Agentr
 	)
 }
 
+func (a *jsiiProxy_AgentregistryRegistry) PutCustomMetadataSchemaConfiguration(value *AgentregistryRegistryCustomMetadataSchemaConfiguration) {
+	if err := a.validatePutCustomMetadataSchemaConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putCustomMetadataSchemaConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_AgentregistryRegistry) PutDiscoveryConfiguration(value *AgentregistryRegistryDiscoveryConfiguration) {
 	if err := a.validatePutDiscoveryConfigurationParameters(value); err != nil {
 		panic(err)
@@ -1240,6 +1275,14 @@ func (a *jsiiProxy_AgentregistryRegistry) ResetAutoDetectionScope() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetAutoDetectionScope",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AgentregistryRegistry) ResetCustomMetadataSchemaConfiguration() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetCustomMetadataSchemaConfiguration",
 		nil, // no parameters
 	)
 }

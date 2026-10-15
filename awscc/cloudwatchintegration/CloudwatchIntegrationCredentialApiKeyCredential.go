@@ -1,0 +1,11 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package cloudwatchintegration
+
+
+type CloudwatchIntegrationCredentialApiKeyCredential struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_integration#api_key_value CloudwatchIntegration#api_key_value}.
+	ApiKeyValue *string `field:"optional" json:"apiKeyValue" yaml:"apiKeyValue"`
+}
+

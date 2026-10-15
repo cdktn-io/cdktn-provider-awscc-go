@@ -55,6 +55,10 @@ func (q *jsiiProxy_QuicksightDataSourceCredentialsOutputReference) validatePutKe
 	return nil
 }
 
+func (q *jsiiProxy_QuicksightDataSourceCredentialsOutputReference) validatePutOAuthClientCredentialsParameters(value *QuicksightDataSourceCredentialsOAuthClientCredentials) error {
+	return nil
+}
+
 func (q *jsiiProxy_QuicksightDataSourceCredentialsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

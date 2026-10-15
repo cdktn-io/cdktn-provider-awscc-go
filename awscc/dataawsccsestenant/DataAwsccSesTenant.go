@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ses_tenant awscc_ses_tenant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_tenant awscc_ses_tenant}.
 type DataAwsccSesTenant interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -51,7 +51,9 @@ type DataAwsccSesTenant interface {
 	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
+	ReputationEntity() DataAwsccSesTenantReputationEntityOutputReference
 	ResourceAssociations() DataAwsccSesTenantResourceAssociationsList
+	SuppressionAttributes() DataAwsccSesTenantSuppressionAttributesOutputReference
 	Tags() DataAwsccSesTenantTagsList
 	TenantName() *string
 	// Experimental.
@@ -269,11 +271,31 @@ func (j *jsiiProxy_DataAwsccSesTenant) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccSesTenant) ReputationEntity() DataAwsccSesTenantReputationEntityOutputReference {
+	var returns DataAwsccSesTenantReputationEntityOutputReference
+	_jsii_.Get(
+		j,
+		"reputationEntity",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccSesTenant) ResourceAssociations() DataAwsccSesTenantResourceAssociationsList {
 	var returns DataAwsccSesTenantResourceAssociationsList
 	_jsii_.Get(
 		j,
 		"resourceAssociations",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccSesTenant) SuppressionAttributes() DataAwsccSesTenantSuppressionAttributesOutputReference {
+	var returns DataAwsccSesTenantSuppressionAttributesOutputReference
+	_jsii_.Get(
+		j,
+		"suppressionAttributes",
 		&returns,
 	)
 	return returns
@@ -330,7 +352,7 @@ func (j *jsiiProxy_DataAwsccSesTenant) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ses_tenant awscc_ses_tenant} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_tenant awscc_ses_tenant} Data Source.
 func NewDataAwsccSesTenant(scope constructs.Construct, id *string, config *DataAwsccSesTenantConfig) DataAwsccSesTenant {
 	_init_.Initialize()
 
@@ -348,7 +370,7 @@ func NewDataAwsccSesTenant(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ses_tenant awscc_ses_tenant} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_tenant awscc_ses_tenant} Data Source.
 func NewDataAwsccSesTenant_Override(d DataAwsccSesTenant, scope constructs.Construct, id *string, config *DataAwsccSesTenantConfig) {
 	_init_.Initialize()
 

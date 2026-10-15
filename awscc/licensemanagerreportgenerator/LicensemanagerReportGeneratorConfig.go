@@ -24,27 +24,27 @@ type LicensemanagerReportGeneratorConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Details of the license configurations and asset groups that this generator reports on.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/licensemanager_report_generator#report_context LicensemanagerReportGenerator#report_context}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#report_context LicensemanagerReportGenerator#report_context}
 	ReportContext *LicensemanagerReportGeneratorReportContext `field:"required" json:"reportContext" yaml:"reportContext"`
 	// Details about how frequently reports are generated.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/licensemanager_report_generator#report_frequency LicensemanagerReportGenerator#report_frequency}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#report_frequency LicensemanagerReportGenerator#report_frequency}
 	ReportFrequency *LicensemanagerReportGeneratorReportFrequency `field:"required" json:"reportFrequency" yaml:"reportFrequency"`
 	// Name of the report generator.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/licensemanager_report_generator#report_generator_name LicensemanagerReportGenerator#report_generator_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#report_generator_name LicensemanagerReportGenerator#report_generator_name}
 	ReportGeneratorName *string `field:"required" json:"reportGeneratorName" yaml:"reportGeneratorName"`
 	// Type of reports to generate. The report type determines the data reported on.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/licensemanager_report_generator#report_type LicensemanagerReportGenerator#report_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#report_type LicensemanagerReportGenerator#report_type}
 	ReportType *[]*string `field:"required" json:"reportType" yaml:"reportType"`
 	// Description of the report generator.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/licensemanager_report_generator#description LicensemanagerReportGenerator#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#description LicensemanagerReportGenerator#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/licensemanager_report_generator#tags LicensemanagerReportGenerator#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_report_generator#tags LicensemanagerReportGenerator#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

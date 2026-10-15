@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment}.
 type CloudwatchOtelEnrichment interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -32,6 +32,8 @@ type CloudwatchOtelEnrichment interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	ExcludeFilters() CloudwatchOtelEnrichmentExcludeFiltersList
+	ExcludeFiltersInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -41,6 +43,8 @@ type CloudwatchOtelEnrichment interface {
 	// Experimental.
 	FriendlyUniqueId() *string
 	Id() *string
+	IncludeFilters() CloudwatchOtelEnrichmentIncludeFiltersList
+	IncludeFiltersInput() interface{}
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -143,6 +147,8 @@ type CloudwatchOtelEnrichment interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutExcludeFilters(value interface{})
+	PutIncludeFilters(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -156,6 +162,8 @@ type CloudwatchOtelEnrichment interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetExcludeFilters()
+	ResetIncludeFilters()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -246,6 +254,26 @@ func (j *jsiiProxy_CloudwatchOtelEnrichment) DependsOn() *[]*string {
 	return returns
 }
 
+func (j *jsiiProxy_CloudwatchOtelEnrichment) ExcludeFilters() CloudwatchOtelEnrichmentExcludeFiltersList {
+	var returns CloudwatchOtelEnrichmentExcludeFiltersList
+	_jsii_.Get(
+		j,
+		"excludeFilters",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudwatchOtelEnrichment) ExcludeFiltersInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"excludeFiltersInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CloudwatchOtelEnrichment) ForEach() cdktn.ITerraformIterator {
 	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
@@ -281,6 +309,26 @@ func (j *jsiiProxy_CloudwatchOtelEnrichment) Id() *string {
 	_jsii_.Get(
 		j,
 		"id",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudwatchOtelEnrichment) IncludeFilters() CloudwatchOtelEnrichmentIncludeFiltersList {
+	var returns CloudwatchOtelEnrichmentIncludeFiltersList
+	_jsii_.Get(
+		j,
+		"includeFilters",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudwatchOtelEnrichment) IncludeFiltersInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"includeFiltersInput",
 		&returns,
 	)
 	return returns
@@ -377,7 +425,7 @@ func (j *jsiiProxy_CloudwatchOtelEnrichment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment} Resource.
 func NewCloudwatchOtelEnrichment(scope constructs.Construct, id *string, config *CloudwatchOtelEnrichmentConfig) CloudwatchOtelEnrichment {
 	_init_.Initialize()
 
@@ -395,7 +443,7 @@ func NewCloudwatchOtelEnrichment(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment} Resource.
 func NewCloudwatchOtelEnrichment_Override(c CloudwatchOtelEnrichment, scope constructs.Construct, id *string, config *CloudwatchOtelEnrichmentConfig) {
 	_init_.Initialize()
 
@@ -843,6 +891,28 @@ func (c *jsiiProxy_CloudwatchOtelEnrichment) OverrideLogicalId(newLogicalId *str
 	)
 }
 
+func (c *jsiiProxy_CloudwatchOtelEnrichment) PutExcludeFilters(value interface{}) {
+	if err := c.validatePutExcludeFiltersParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putExcludeFilters",
+		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_CloudwatchOtelEnrichment) PutIncludeFilters(value interface{}) {
+	if err := c.validatePutIncludeFiltersParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putIncludeFilters",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CloudwatchOtelEnrichment) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := c.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -851,6 +921,22 @@ func (c *jsiiProxy_CloudwatchOtelEnrichment) RegisterProviderFeatureUsage(featur
 		c,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (c *jsiiProxy_CloudwatchOtelEnrichment) ResetExcludeFilters() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetExcludeFilters",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudwatchOtelEnrichment) ResetIncludeFilters() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetIncludeFilters",
+		nil, // no parameters
 	)
 }
 

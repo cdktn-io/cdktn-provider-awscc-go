@@ -30,6 +30,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
 			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
 			_jsii_.MemberProperty{JsiiProperty: "createdAt", GoGetter: "CreatedAt"},
+			_jsii_.MemberProperty{JsiiProperty: "customMetadataSchemaConfiguration", GoGetter: "CustomMetadataSchemaConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "customMetadataSchemaConfigurationInput", GoGetter: "CustomMetadataSchemaConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
 			_jsii_.MemberProperty{JsiiProperty: "descriptionInput", GoGetter: "DescriptionInput"},
@@ -65,6 +67,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
 			_jsii_.MemberMethod{JsiiMethod: "putApprovalConfiguration", GoMethod: "PutApprovalConfiguration"},
+			_jsii_.MemberMethod{JsiiMethod: "putCustomMetadataSchemaConfiguration", GoMethod: "PutCustomMetadataSchemaConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putDiscoveryConfiguration", GoMethod: "PutDiscoveryConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putEncryptionConfiguration", GoMethod: "PutEncryptionConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putTags", GoMethod: "PutTags"},
@@ -76,6 +79,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetAuthorizerType", GoMethod: "ResetAuthorizerType"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAutoDetectionEnabled", GoMethod: "ResetAutoDetectionEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAutoDetectionScope", GoMethod: "ResetAutoDetectionScope"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCustomMetadataSchemaConfiguration", GoMethod: "ResetCustomMetadataSchemaConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDiscoveryConfiguration", GoMethod: "ResetDiscoveryConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEncryptionConfiguration", GoMethod: "ResetEncryptionConfiguration"},
@@ -144,6 +148,113 @@ func init() {
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryConfig",
 		reflect.TypeOf((*AgentregistryRegistryConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfiguration",
+		reflect.TypeOf((*AgentregistryRegistryCustomMetadataSchemaConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference",
+		reflect.TypeOf((*AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "defaultSchema", GoGetter: "DefaultSchema"},
+			_jsii_.MemberProperty{JsiiProperty: "defaultSchemaInput", GoGetter: "DefaultSchemaInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "putRecordTypeSchemaOverrides", GoMethod: "PutRecordTypeSchemaOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "recordTypeSchemaOverrides", GoGetter: "RecordTypeSchemaOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "recordTypeSchemaOverridesInput", GoGetter: "RecordTypeSchemaOverridesInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDefaultSchema", GoMethod: "ResetDefaultSchema"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRecordTypeSchemaOverrides", GoMethod: "ResetRecordTypeSchemaOverrides"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides",
+		reflect.TypeOf((*AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList",
+		reflect.TypeOf((*AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference",
+		reflect.TypeOf((*AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "recordType", GoGetter: "RecordType"},
+			_jsii_.MemberProperty{JsiiProperty: "recordTypeInput", GoGetter: "RecordTypeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRecordType", GoMethod: "ResetRecordType"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSchema", GoMethod: "ResetSchema"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "schema", GoGetter: "Schema"},
+			_jsii_.MemberProperty{JsiiProperty: "schemaInput", GoGetter: "SchemaInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
 	)
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryDiscoveryConfiguration",

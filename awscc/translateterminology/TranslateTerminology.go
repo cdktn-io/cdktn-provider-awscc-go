@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/translate_terminology awscc_translate_terminology}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology awscc_translate_terminology}.
 type TranslateTerminology interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -597,7 +597,7 @@ func (j *jsiiProxy_TranslateTerminology) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/translate_terminology awscc_translate_terminology} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology awscc_translate_terminology} Resource.
 func NewTranslateTerminology(scope constructs.Construct, id *string, config *TranslateTerminologyConfig) TranslateTerminology {
 	_init_.Initialize()
 
@@ -615,7 +615,7 @@ func NewTranslateTerminology(scope constructs.Construct, id *string, config *Tra
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/translate_terminology awscc_translate_terminology} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology awscc_translate_terminology} Resource.
 func NewTranslateTerminology_Override(t TranslateTerminology, scope constructs.Construct, id *string, config *TranslateTerminologyConfig) {
 	_init_.Initialize()
 

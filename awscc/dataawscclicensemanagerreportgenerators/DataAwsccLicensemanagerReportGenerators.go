@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/licensemanager_report_generators awscc_licensemanager_report_generators}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/licensemanager_report_generators awscc_licensemanager_report_generators}.
 type DataAwsccLicensemanagerReportGenerators interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLicensemanagerReportGenerators) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/licensemanager_report_generators awscc_licensemanager_report_generators} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/licensemanager_report_generators awscc_licensemanager_report_generators} Data Source.
 func NewDataAwsccLicensemanagerReportGenerators(scope constructs.Construct, id *string, config *DataAwsccLicensemanagerReportGeneratorsConfig) DataAwsccLicensemanagerReportGenerators {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLicensemanagerReportGenerators(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/licensemanager_report_generators awscc_licensemanager_report_generators} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/licensemanager_report_generators awscc_licensemanager_report_generators} Data Source.
 func NewDataAwsccLicensemanagerReportGenerators_Override(d DataAwsccLicensemanagerReportGenerators, scope constructs.Construct, id *string, config *DataAwsccLicensemanagerReportGeneratorsConfig) {
 	_init_.Initialize()
 

@@ -59,6 +59,10 @@ func (j *jsiiProxy_DevopsagentAssociationConfigurationMcpServerGrafanaOutputRefe
 	return nil
 }
 
+func (j *jsiiProxy_DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference) validateSetEnabledElevatedToolsParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference) validateSetEnableWebhookUpdatesParameters(val interface{}) error {
 	return nil
 }

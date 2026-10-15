@@ -32,6 +32,7 @@ type DevopsagentServiceAdditionalServiceDetailsOutputReference interface {
 	Dynatrace() DevopsagentServiceAdditionalServiceDetailsDynatraceOutputReference
 	// Experimental.
 	Fqn() *string
+	GitHub() DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference
 	GitLab() DevopsagentServiceAdditionalServiceDetailsGitLabOutputReference
 	InternalValue() *DevopsagentServiceAdditionalServiceDetails
 	SetInternalValue(val *DevopsagentServiceAdditionalServiceDetails)
@@ -144,6 +145,16 @@ func (j *jsiiProxy_DevopsagentServiceAdditionalServiceDetailsOutputReference) Fq
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DevopsagentServiceAdditionalServiceDetailsOutputReference) GitHub() DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference {
+	var returns DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference
+	_jsii_.Get(
+		j,
+		"gitHub",
 		&returns,
 	)
 	return returns

@@ -392,6 +392,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetPortConfiguration", GoMethod: "ResetPortConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetResolvedImageDigest", GoMethod: "ResetResolvedImageDigest"},
 			_jsii_.MemberMethod{JsiiMethod: "resetServerSdkVersion", GoMethod: "ResetServerSdkVersion"},
+			_jsii_.MemberMethod{JsiiMethod: "resetVcpu", GoMethod: "ResetVcpu"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "resolvedImageDigest", GoGetter: "ResolvedImageDigest"},
 			_jsii_.MemberProperty{JsiiProperty: "resolvedImageDigestInput", GoGetter: "ResolvedImageDigestInput"},
@@ -400,6 +401,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "vcpu", GoGetter: "Vcpu"},
+			_jsii_.MemberProperty{JsiiProperty: "vcpuInput", GoGetter: "VcpuInput"},
 		},
 		func() interface{} {
 			j := jsiiProxy_GameliftContainerGroupDefinitionGameServerContainerDefinitionOutputReference{}

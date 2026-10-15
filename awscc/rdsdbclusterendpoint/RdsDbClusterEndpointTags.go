@@ -7,11 +7,11 @@ package rdsdbclusterendpoint
 type RdsDbClusterEndpointTags struct {
 	// The key name of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/rds_db_cluster_endpoint#key RdsDbClusterEndpointA#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint#key RdsDbClusterEndpointA#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value for the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/rds_db_cluster_endpoint#value RdsDbClusterEndpointA#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint#value RdsDbClusterEndpointA#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

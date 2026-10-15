@@ -33,6 +33,7 @@ type DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigBedr
 	InternalValue() *DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigBedrockEvaluatorModelConfigInferenceConfig
 	SetInternalValue(val *DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigBedrockEvaluatorModelConfigInferenceConfig)
 	MaxTokens() *float64
+	StopSequences() *[]*string
 	Temperature() *float64
 	// Experimental.
 	TerraformAttribute() *string
@@ -137,6 +138,16 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeM
 	_jsii_.Get(
 		j,
 		"maxTokens",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference) StopSequences() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"stopSequences",
 		&returns,
 	)
 	return returns

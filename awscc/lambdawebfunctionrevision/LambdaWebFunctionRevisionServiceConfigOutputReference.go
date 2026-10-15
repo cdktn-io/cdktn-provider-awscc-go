@@ -28,6 +28,9 @@ type LambdaWebFunctionRevisionServiceConfigOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EgressNetworkConnectorArn() *string
+	SetEgressNetworkConnectorArn(val *string)
+	EgressNetworkConnectorArnInput() *string
 	EnvironmentVariables() *map[string]*string
 	SetEnvironmentVariables(val *map[string]*string)
 	EnvironmentVariablesInput() *map[string]*string
@@ -79,6 +82,7 @@ type LambdaWebFunctionRevisionServiceConfigOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutTelemetryConfig(value *LambdaWebFunctionRevisionServiceConfigTelemetryConfig)
+	ResetEgressNetworkConnectorArn()
 	ResetEnvironmentVariables()
 	ResetMaxConcurrencyPerEnvironment()
 	ResetTelemetryConfig()
@@ -123,6 +127,26 @@ func (j *jsiiProxy_LambdaWebFunctionRevisionServiceConfigOutputReference) Creati
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LambdaWebFunctionRevisionServiceConfigOutputReference) EgressNetworkConnectorArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"egressNetworkConnectorArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LambdaWebFunctionRevisionServiceConfigOutputReference) EgressNetworkConnectorArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"egressNetworkConnectorArnInput",
 		&returns,
 	)
 	return returns
@@ -314,6 +338,17 @@ func (j *jsiiProxy_LambdaWebFunctionRevisionServiceConfigOutputReference)SetComp
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LambdaWebFunctionRevisionServiceConfigOutputReference)SetEgressNetworkConnectorArn(val *string) {
+	if err := j.validateSetEgressNetworkConnectorArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"egressNetworkConnectorArn",
 		val,
 	)
 }
@@ -589,6 +624,14 @@ func (l *jsiiProxy_LambdaWebFunctionRevisionServiceConfigOutputReference) PutTel
 		l,
 		"putTelemetryConfig",
 		[]interface{}{value},
+	)
+}
+
+func (l *jsiiProxy_LambdaWebFunctionRevisionServiceConfigOutputReference) ResetEgressNetworkConnectorArn() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetEgressNetworkConnectorArn",
+		nil, // no parameters
 	)
 }
 

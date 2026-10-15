@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket awscc_s3_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket awscc_s3_bucket}.
 type S3Bucket interface {
 	cdktn.TerraformResource
 	AbacStatus() *string
@@ -1010,7 +1010,7 @@ func (j *jsiiProxy_S3Bucket) WebsiteUrl() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket awscc_s3_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket awscc_s3_bucket} Resource.
 func NewS3Bucket(scope constructs.Construct, id *string, config *S3BucketConfig) S3Bucket {
 	_init_.Initialize()
 
@@ -1028,7 +1028,7 @@ func NewS3Bucket(scope constructs.Construct, id *string, config *S3BucketConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket awscc_s3_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket awscc_s3_bucket} Resource.
 func NewS3Bucket_Override(s S3Bucket, scope constructs.Construct, id *string, config *S3BucketConfig) {
 	_init_.Initialize()
 

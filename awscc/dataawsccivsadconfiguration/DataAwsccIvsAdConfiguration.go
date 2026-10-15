@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ivs_ad_configuration awscc_ivs_ad_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_ad_configuration awscc_ivs_ad_configuration}.
 type DataAwsccIvsAdConfiguration interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccIvsAdConfiguration) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ivs_ad_configuration awscc_ivs_ad_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_ad_configuration awscc_ivs_ad_configuration} Data Source.
 func NewDataAwsccIvsAdConfiguration(scope constructs.Construct, id *string, config *DataAwsccIvsAdConfigurationConfig) DataAwsccIvsAdConfiguration {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccIvsAdConfiguration(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ivs_ad_configuration awscc_ivs_ad_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_ad_configuration awscc_ivs_ad_configuration} Data Source.
 func NewDataAwsccIvsAdConfiguration_Override(d DataAwsccIvsAdConfiguration, scope constructs.Construct, id *string, config *DataAwsccIvsAdConfigurationConfig) {
 	_init_.Initialize()
 

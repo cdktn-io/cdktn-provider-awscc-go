@@ -49,6 +49,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "moveFromId", GoMethod: "MoveFromId"},
 			_jsii_.MemberMethod{JsiiMethod: "moveTo", GoMethod: "MoveTo"},
 			_jsii_.MemberMethod{JsiiMethod: "moveToId", GoMethod: "MoveToId"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
 			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
 			_jsii_.MemberProperty{JsiiProperty: "privateConnectionName", GoGetter: "PrivateConnectionName"},
@@ -61,6 +63,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetExchangeUrlPrivateConnectionName", GoMethod: "ResetExchangeUrlPrivateConnectionName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetKmsKeyArn", GoMethod: "ResetKmsKeyArn"},
+			_jsii_.MemberMethod{JsiiMethod: "resetName", GoMethod: "ResetName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPrivateConnectionName", GoMethod: "ResetPrivateConnectionName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetServiceDetails", GoMethod: "ResetServiceDetails"},
@@ -169,6 +172,48 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DevopsagentServiceAdditionalServiceDetailsDynatraceOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHub",
+		reflect.TypeOf((*DevopsagentServiceAdditionalServiceDetailsGitHub)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference",
+		reflect.TypeOf((*DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "appVariant", GoGetter: "AppVariant"},
+			_jsii_.MemberProperty{JsiiProperty: "authMode", GoGetter: "AuthMode"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "hostingType", GoGetter: "HostingType"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "owner", GoGetter: "Owner"},
+			_jsii_.MemberProperty{JsiiProperty: "ownerType", GoGetter: "OwnerType"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "targetUrl", GoGetter: "TargetUrl"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
@@ -437,6 +482,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "gitHub", GoGetter: "GitHub"},
 			_jsii_.MemberProperty{JsiiProperty: "gitLab", GoGetter: "GitLab"},
 			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
@@ -716,6 +762,143 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DevopsagentServiceServiceDetailsDynatraceOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHub",
+		reflect.TypeOf((*DevopsagentServiceServiceDetailsGitHub)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerification",
+		reflect.TypeOf((*DevopsagentServiceServiceDetailsGitHubAppVerification)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference",
+		reflect.TypeOf((*DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "appVariant", GoGetter: "AppVariant"},
+			_jsii_.MemberProperty{JsiiProperty: "appVariantInput", GoGetter: "AppVariantInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "organizationName", GoGetter: "OrganizationName"},
+			_jsii_.MemberProperty{JsiiProperty: "organizationNameInput", GoGetter: "OrganizationNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAppVariant", GoMethod: "ResetAppVariant"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOrganizationName", GoMethod: "ResetOrganizationName"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTargetUrl", GoMethod: "ResetTargetUrl"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTokenValue", GoMethod: "ResetTokenValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "targetUrl", GoGetter: "TargetUrl"},
+			_jsii_.MemberProperty{JsiiProperty: "targetUrlInput", GoGetter: "TargetUrlInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberProperty{JsiiProperty: "tokenValue", GoGetter: "TokenValue"},
+			_jsii_.MemberProperty{JsiiProperty: "tokenValueInput", GoGetter: "TokenValueInput"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccess",
+		reflect.TypeOf((*DevopsagentServiceServiceDetailsGitHubDirectAccess)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference",
+		reflect.TypeOf((*DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "organizationName", GoGetter: "OrganizationName"},
+			_jsii_.MemberProperty{JsiiProperty: "organizationNameInput", GoGetter: "OrganizationNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOrganizationName", GoMethod: "ResetOrganizationName"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTargetUrl", GoMethod: "ResetTargetUrl"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTokenValue", GoMethod: "ResetTokenValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "targetUrl", GoGetter: "TargetUrl"},
+			_jsii_.MemberProperty{JsiiProperty: "targetUrlInput", GoGetter: "TargetUrlInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberProperty{JsiiProperty: "tokenValue", GoGetter: "TokenValue"},
+			_jsii_.MemberProperty{JsiiProperty: "tokenValueInput", GoGetter: "TokenValueInput"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference",
+		reflect.TypeOf((*DevopsagentServiceServiceDetailsGitHubOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "appVerification", GoGetter: "AppVerification"},
+			_jsii_.MemberProperty{JsiiProperty: "appVerificationInput", GoGetter: "AppVerificationInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "directAccess", GoGetter: "DirectAccess"},
+			_jsii_.MemberProperty{JsiiProperty: "directAccessInput", GoGetter: "DirectAccessInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "putAppVerification", GoMethod: "PutAppVerification"},
+			_jsii_.MemberMethod{JsiiMethod: "putDirectAccess", GoMethod: "PutDirectAccess"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAppVerification", GoMethod: "ResetAppVerification"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDirectAccess", GoMethod: "ResetDirectAccess"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DevopsagentServiceServiceDetailsGitHubOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
@@ -1533,6 +1716,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "gitHub", GoGetter: "GitHub"},
+			_jsii_.MemberProperty{JsiiProperty: "gitHubInput", GoGetter: "GitHubInput"},
 			_jsii_.MemberProperty{JsiiProperty: "gitLab", GoGetter: "GitLab"},
 			_jsii_.MemberProperty{JsiiProperty: "gitLabInput", GoGetter: "GitLabInput"},
 			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
@@ -1552,6 +1737,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "pagerDutyInput", GoGetter: "PagerDutyInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putAzureIdentity", GoMethod: "PutAzureIdentity"},
 			_jsii_.MemberMethod{JsiiMethod: "putDynatrace", GoMethod: "PutDynatrace"},
+			_jsii_.MemberMethod{JsiiMethod: "putGitHub", GoMethod: "PutGitHub"},
 			_jsii_.MemberMethod{JsiiMethod: "putGitLab", GoMethod: "PutGitLab"},
 			_jsii_.MemberMethod{JsiiMethod: "putMcpServer", GoMethod: "PutMcpServer"},
 			_jsii_.MemberMethod{JsiiMethod: "putMcpServerGrafana", GoMethod: "PutMcpServerGrafana"},
@@ -1562,6 +1748,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putServiceNow", GoMethod: "PutServiceNow"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAzureIdentity", GoMethod: "ResetAzureIdentity"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDynatrace", GoMethod: "ResetDynatrace"},
+			_jsii_.MemberMethod{JsiiMethod: "resetGitHub", GoMethod: "ResetGitHub"},
 			_jsii_.MemberMethod{JsiiMethod: "resetGitLab", GoMethod: "ResetGitLab"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMcpServer", GoMethod: "ResetMcpServer"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMcpServerGrafana", GoMethod: "ResetMcpServerGrafana"},

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/agentregistry_registry_record awscc_agentregistry_registry_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/agentregistry_registry_record awscc_agentregistry_registry_record}.
 type DataAwsccAgentregistryRegistryRecord interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -25,6 +25,7 @@ type DataAwsccAgentregistryRegistryRecord interface {
 	SetCount(val interface{})
 	CreatedAt() *string
 	CreatedBy() *string
+	CustomMetadata() *string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -185,6 +186,16 @@ func (j *jsiiProxy_DataAwsccAgentregistryRegistryRecord) CreatedBy() *string {
 	_jsii_.Get(
 		j,
 		"createdBy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccAgentregistryRegistryRecord) CustomMetadata() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"customMetadata",
 		&returns,
 	)
 	return returns
@@ -451,7 +462,7 @@ func (j *jsiiProxy_DataAwsccAgentregistryRegistryRecord) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/agentregistry_registry_record awscc_agentregistry_registry_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/agentregistry_registry_record awscc_agentregistry_registry_record} Data Source.
 func NewDataAwsccAgentregistryRegistryRecord(scope constructs.Construct, id *string, config *DataAwsccAgentregistryRegistryRecordConfig) DataAwsccAgentregistryRegistryRecord {
 	_init_.Initialize()
 
@@ -469,7 +480,7 @@ func NewDataAwsccAgentregistryRegistryRecord(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/agentregistry_registry_record awscc_agentregistry_registry_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/agentregistry_registry_record awscc_agentregistry_registry_record} Data Source.
 func NewDataAwsccAgentregistryRegistryRecord_Override(d DataAwsccAgentregistryRegistryRecord, scope constructs.Construct, id *string, config *DataAwsccAgentregistryRegistryRecordConfig) {
 	_init_.Initialize()
 

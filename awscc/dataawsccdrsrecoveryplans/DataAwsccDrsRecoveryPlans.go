@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/drs_recovery_plans awscc_drs_recovery_plans}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/drs_recovery_plans awscc_drs_recovery_plans}.
 type DataAwsccDrsRecoveryPlans interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDrsRecoveryPlans) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/drs_recovery_plans awscc_drs_recovery_plans} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/drs_recovery_plans awscc_drs_recovery_plans} Data Source.
 func NewDataAwsccDrsRecoveryPlans(scope constructs.Construct, id *string, config *DataAwsccDrsRecoveryPlansConfig) DataAwsccDrsRecoveryPlans {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDrsRecoveryPlans(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/drs_recovery_plans awscc_drs_recovery_plans} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/drs_recovery_plans awscc_drs_recovery_plans} Data Source.
 func NewDataAwsccDrsRecoveryPlans_Override(d DataAwsccDrsRecoveryPlans, scope constructs.Construct, id *string, config *DataAwsccDrsRecoveryPlansConfig) {
 	_init_.Initialize()
 

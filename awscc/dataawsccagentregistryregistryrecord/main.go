@@ -20,6 +20,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
 			_jsii_.MemberProperty{JsiiProperty: "createdAt", GoGetter: "CreatedAt"},
 			_jsii_.MemberProperty{JsiiProperty: "createdBy", GoGetter: "CreatedBy"},
+			_jsii_.MemberProperty{JsiiProperty: "customMetadata", GoGetter: "CustomMetadata"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
 			_jsii_.MemberProperty{JsiiProperty: "descriptors", GoGetter: "Descriptors"},

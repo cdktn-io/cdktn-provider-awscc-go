@@ -34,6 +34,8 @@ type DevopsagentServiceServiceDetailsOutputReference interface {
 	DynatraceInput() interface{}
 	// Experimental.
 	Fqn() *string
+	GitHub() DevopsagentServiceServiceDetailsGitHubOutputReference
+	GitHubInput() interface{}
 	GitLab() DevopsagentServiceServiceDetailsGitLabOutputReference
 	GitLabInput() interface{}
 	InternalValue() interface{}
@@ -86,6 +88,7 @@ type DevopsagentServiceServiceDetailsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAzureIdentity(value *DevopsagentServiceServiceDetailsAzureIdentity)
 	PutDynatrace(value *DevopsagentServiceServiceDetailsDynatrace)
+	PutGitHub(value *DevopsagentServiceServiceDetailsGitHub)
 	PutGitLab(value *DevopsagentServiceServiceDetailsGitLab)
 	PutMcpServer(value *DevopsagentServiceServiceDetailsMcpServer)
 	PutMcpServerGrafana(value *DevopsagentServiceServiceDetailsMcpServerGrafana)
@@ -96,6 +99,7 @@ type DevopsagentServiceServiceDetailsOutputReference interface {
 	PutServiceNow(value *DevopsagentServiceServiceDetailsServiceNow)
 	ResetAzureIdentity()
 	ResetDynatrace()
+	ResetGitHub()
 	ResetGitLab()
 	ResetMcpServer()
 	ResetMcpServerGrafana()
@@ -194,6 +198,26 @@ func (j *jsiiProxy_DevopsagentServiceServiceDetailsOutputReference) Fqn() *strin
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DevopsagentServiceServiceDetailsOutputReference) GitHub() DevopsagentServiceServiceDetailsGitHubOutputReference {
+	var returns DevopsagentServiceServiceDetailsGitHubOutputReference
+	_jsii_.Get(
+		j,
+		"gitHub",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DevopsagentServiceServiceDetailsOutputReference) GitHubInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"gitHubInput",
 		&returns,
 	)
 	return returns
@@ -680,6 +704,17 @@ func (d *jsiiProxy_DevopsagentServiceServiceDetailsOutputReference) PutDynatrace
 	)
 }
 
+func (d *jsiiProxy_DevopsagentServiceServiceDetailsOutputReference) PutGitHub(value *DevopsagentServiceServiceDetailsGitHub) {
+	if err := d.validatePutGitHubParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putGitHub",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DevopsagentServiceServiceDetailsOutputReference) PutGitLab(value *DevopsagentServiceServiceDetailsGitLab) {
 	if err := d.validatePutGitLabParameters(value); err != nil {
 		panic(err)
@@ -780,6 +815,14 @@ func (d *jsiiProxy_DevopsagentServiceServiceDetailsOutputReference) ResetDynatra
 	_jsii_.InvokeVoid(
 		d,
 		"resetDynatrace",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DevopsagentServiceServiceDetailsOutputReference) ResetGitHub() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetGitHub",
 		nil, // no parameters
 	)
 }

@@ -29,6 +29,7 @@ type DataAwsccEksCapabilityConfigurationArgoCdOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EndpointPrefix() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAwsccEksCapabilityConfigurationArgoCd
@@ -119,6 +120,16 @@ func (j *jsiiProxy_DataAwsccEksCapabilityConfigurationArgoCdOutputReference) Cre
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccEksCapabilityConfigurationArgoCdOutputReference) EndpointPrefix() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"endpointPrefix",
 		&returns,
 	)
 	return returns

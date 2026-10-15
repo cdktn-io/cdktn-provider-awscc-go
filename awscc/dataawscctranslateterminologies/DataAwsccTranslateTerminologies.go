@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/translate_terminologies awscc_translate_terminologies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/translate_terminologies awscc_translate_terminologies}.
 type DataAwsccTranslateTerminologies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccTranslateTerminologies) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/translate_terminologies awscc_translate_terminologies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/translate_terminologies awscc_translate_terminologies} Data Source.
 func NewDataAwsccTranslateTerminologies(scope constructs.Construct, id *string, config *DataAwsccTranslateTerminologiesConfig) DataAwsccTranslateTerminologies {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccTranslateTerminologies(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/translate_terminologies awscc_translate_terminologies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/translate_terminologies awscc_translate_terminologies} Data Source.
 func NewDataAwsccTranslateTerminologies_Override(d DataAwsccTranslateTerminologies, scope constructs.Construct, id *string, config *DataAwsccTranslateTerminologiesConfig) {
 	_init_.Initialize()
 

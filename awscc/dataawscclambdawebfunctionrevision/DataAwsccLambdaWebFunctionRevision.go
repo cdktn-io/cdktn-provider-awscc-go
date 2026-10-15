@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/lambda_web_function_revision awscc_lambda_web_function_revision}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_function_revision awscc_lambda_web_function_revision}.
 type DataAwsccLambdaWebFunctionRevision interface {
 	cdktn.TerraformDataSource
 	BuildConfig() DataAwsccLambdaWebFunctionRevisionBuildConfigOutputReference
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccLambdaWebFunctionRevision) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/lambda_web_function_revision awscc_lambda_web_function_revision} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_function_revision awscc_lambda_web_function_revision} Data Source.
 func NewDataAwsccLambdaWebFunctionRevision(scope constructs.Construct, id *string, config *DataAwsccLambdaWebFunctionRevisionConfig) DataAwsccLambdaWebFunctionRevision {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccLambdaWebFunctionRevision(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/lambda_web_function_revision awscc_lambda_web_function_revision} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_function_revision awscc_lambda_web_function_revision} Data Source.
 func NewDataAwsccLambdaWebFunctionRevision_Override(d DataAwsccLambdaWebFunctionRevision, scope constructs.Construct, id *string, config *DataAwsccLambdaWebFunctionRevisionConfig) {
 	_init_.Initialize()
 

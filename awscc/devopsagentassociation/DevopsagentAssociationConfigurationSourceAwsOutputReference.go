@@ -19,6 +19,9 @@ type DevopsagentAssociationConfigurationSourceAwsOutputReference interface {
 	AccountType() *string
 	SetAccountType(val *string)
 	AccountTypeInput() *string
+	AgentElevatedRoleArn() *string
+	SetAgentElevatedRoleArn(val *string)
+	AgentElevatedRoleArnInput() *string
 	AssumableRoleArn() *string
 	SetAssumableRoleArn(val *string)
 	AssumableRoleArnInput() *string
@@ -81,6 +84,7 @@ type DevopsagentAssociationConfigurationSourceAwsOutputReference interface {
 	PutTags(value interface{})
 	ResetAccountId()
 	ResetAccountType()
+	ResetAgentElevatedRoleArn()
 	ResetAssumableRoleArn()
 	ResetResources()
 	ResetTags()
@@ -134,6 +138,26 @@ func (j *jsiiProxy_DevopsagentAssociationConfigurationSourceAwsOutputReference) 
 	_jsii_.Get(
 		j,
 		"accountTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DevopsagentAssociationConfigurationSourceAwsOutputReference) AgentElevatedRoleArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"agentElevatedRoleArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DevopsagentAssociationConfigurationSourceAwsOutputReference) AgentElevatedRoleArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"agentElevatedRoleArnInput",
 		&returns,
 	)
 	return returns
@@ -315,6 +339,17 @@ func (j *jsiiProxy_DevopsagentAssociationConfigurationSourceAwsOutputReference)S
 	_jsii_.Set(
 		j,
 		"accountType",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DevopsagentAssociationConfigurationSourceAwsOutputReference)SetAgentElevatedRoleArn(val *string) {
+	if err := j.validateSetAgentElevatedRoleArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"agentElevatedRoleArn",
 		val,
 	)
 }
@@ -605,6 +640,14 @@ func (d *jsiiProxy_DevopsagentAssociationConfigurationSourceAwsOutputReference) 
 	_jsii_.InvokeVoid(
 		d,
 		"resetAccountType",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DevopsagentAssociationConfigurationSourceAwsOutputReference) ResetAgentElevatedRoleArn() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetAgentElevatedRoleArn",
 		nil, // no parameters
 	)
 }

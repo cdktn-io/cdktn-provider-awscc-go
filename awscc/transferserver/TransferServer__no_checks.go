@@ -135,6 +135,10 @@ func (j *jsiiProxy_TransferServer) validateSetCountParameters(val interface{}) e
 	return nil
 }
 
+func (j *jsiiProxy_TransferServer) validateSetCreateWithHostKeyParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_TransferServer) validateSetDomainParameters(val *string) error {
 	return nil
 }

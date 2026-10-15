@@ -54,6 +54,8 @@ type DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutputRefere
 	OsFamilyInput() *string
 	RootEbsVolume() DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesRootEbsVolumeOutputReference
 	RootEbsVolumeInput() interface{}
+	SoftwareAddOns() DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesSoftwareAddOnsList
+	SoftwareAddOnsInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -93,6 +95,7 @@ type DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutputRefere
 	PutCustomAttributes(value interface{})
 	PutMemoryMiB(value *DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesMemoryMiB)
 	PutRootEbsVolume(value *DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesRootEbsVolume)
+	PutSoftwareAddOns(value interface{})
 	PutVCpuCount(value *DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesVCpuCount)
 	ResetAcceleratorCapabilities()
 	ResetAllowedInstanceTypes()
@@ -103,6 +106,7 @@ type DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutputRefere
 	ResetMemoryMiB()
 	ResetOsFamily()
 	ResetRootEbsVolume()
+	ResetSoftwareAddOns()
 	ResetVCpuCount()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -344,6 +348,26 @@ func (j *jsiiProxy_DeadlineFleetConfigurationServiceManagedEc2InstanceCapabiliti
 	_jsii_.Get(
 		j,
 		"rootEbsVolumeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutputReference) SoftwareAddOns() DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesSoftwareAddOnsList {
+	var returns DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesSoftwareAddOnsList
+	_jsii_.Get(
+		j,
+		"softwareAddOns",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutputReference) SoftwareAddOnsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"softwareAddOnsInput",
 		&returns,
 	)
 	return returns
@@ -757,6 +781,17 @@ func (d *jsiiProxy_DeadlineFleetConfigurationServiceManagedEc2InstanceCapabiliti
 	)
 }
 
+func (d *jsiiProxy_DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutputReference) PutSoftwareAddOns(value interface{}) {
+	if err := d.validatePutSoftwareAddOnsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putSoftwareAddOns",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutputReference) PutVCpuCount(value *DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesVCpuCount) {
 	if err := d.validatePutVCpuCountParameters(value); err != nil {
 		panic(err)
@@ -836,6 +871,14 @@ func (d *jsiiProxy_DeadlineFleetConfigurationServiceManagedEc2InstanceCapabiliti
 	_jsii_.InvokeVoid(
 		d,
 		"resetRootEbsVolume",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutputReference) ResetSoftwareAddOns() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetSoftwareAddOns",
 		nil, // no parameters
 	)
 }

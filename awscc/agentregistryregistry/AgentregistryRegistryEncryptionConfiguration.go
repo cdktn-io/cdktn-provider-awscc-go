@@ -9,7 +9,7 @@ type AgentregistryRegistryEncryptionConfiguration struct {
 	//
 	// The key must be a symmetric encryption key in the same AWS account and Region as the registry. Multi-Region keys are not supported.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#kms_key_arn AgentregistryRegistry#kms_key_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#kms_key_arn AgentregistryRegistry#kms_key_arn}
 	KmsKeyArn *string `field:"optional" json:"kmsKeyArn" yaml:"kmsKeyArn"`
 }
 

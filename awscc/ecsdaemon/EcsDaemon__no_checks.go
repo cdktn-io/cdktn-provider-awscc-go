@@ -123,6 +123,10 @@ func (j *jsiiProxy_EcsDaemon) validateSetCountParameters(val interface{}) error 
 	return nil
 }
 
+func (j *jsiiProxy_EcsDaemon) validateSetCriticalParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_EcsDaemon) validateSetDaemonNameParameters(val *string) error {
 	return nil
 }

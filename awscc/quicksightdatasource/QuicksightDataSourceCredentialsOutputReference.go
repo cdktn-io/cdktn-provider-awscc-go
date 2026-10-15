@@ -39,6 +39,8 @@ type QuicksightDataSourceCredentialsOutputReference interface {
 	SetInternalValue(val interface{})
 	KeyPairCredentials() QuicksightDataSourceCredentialsKeyPairCredentialsOutputReference
 	KeyPairCredentialsInput() interface{}
+	OAuthClientCredentials() QuicksightDataSourceCredentialsOAuthClientCredentialsOutputReference
+	OAuthClientCredentialsInput() interface{}
 	SecretArn() *string
 	SetSecretArn(val *string)
 	SecretArnInput() *string
@@ -76,9 +78,11 @@ type QuicksightDataSourceCredentialsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCredentialPair(value *QuicksightDataSourceCredentialsCredentialPair)
 	PutKeyPairCredentials(value *QuicksightDataSourceCredentialsKeyPairCredentials)
+	PutOAuthClientCredentials(value *QuicksightDataSourceCredentialsOAuthClientCredentials)
 	ResetCopySourceArn()
 	ResetCredentialPair()
 	ResetKeyPairCredentials()
+	ResetOAuthClientCredentials()
 	ResetSecretArn()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -200,6 +204,26 @@ func (j *jsiiProxy_QuicksightDataSourceCredentialsOutputReference) KeyPairCreden
 	_jsii_.Get(
 		j,
 		"keyPairCredentialsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightDataSourceCredentialsOutputReference) OAuthClientCredentials() QuicksightDataSourceCredentialsOAuthClientCredentialsOutputReference {
+	var returns QuicksightDataSourceCredentialsOAuthClientCredentialsOutputReference
+	_jsii_.Get(
+		j,
+		"oAuthClientCredentials",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_QuicksightDataSourceCredentialsOutputReference) OAuthClientCredentialsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"oAuthClientCredentialsInput",
 		&returns,
 	)
 	return returns
@@ -558,6 +582,17 @@ func (q *jsiiProxy_QuicksightDataSourceCredentialsOutputReference) PutKeyPairCre
 	)
 }
 
+func (q *jsiiProxy_QuicksightDataSourceCredentialsOutputReference) PutOAuthClientCredentials(value *QuicksightDataSourceCredentialsOAuthClientCredentials) {
+	if err := q.validatePutOAuthClientCredentialsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		q,
+		"putOAuthClientCredentials",
+		[]interface{}{value},
+	)
+}
+
 func (q *jsiiProxy_QuicksightDataSourceCredentialsOutputReference) ResetCopySourceArn() {
 	_jsii_.InvokeVoid(
 		q,
@@ -578,6 +613,14 @@ func (q *jsiiProxy_QuicksightDataSourceCredentialsOutputReference) ResetKeyPairC
 	_jsii_.InvokeVoid(
 		q,
 		"resetKeyPairCredentials",
+		nil, // no parameters
+	)
+}
+
+func (q *jsiiProxy_QuicksightDataSourceCredentialsOutputReference) ResetOAuthClientCredentials() {
+	_jsii_.InvokeVoid(
+		q,
+		"resetOAuthClientCredentials",
 		nil, // no parameters
 	)
 }

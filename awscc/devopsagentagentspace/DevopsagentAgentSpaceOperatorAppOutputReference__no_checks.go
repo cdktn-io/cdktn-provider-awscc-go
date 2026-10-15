@@ -55,6 +55,10 @@ func (d *jsiiProxy_DevopsagentAgentSpaceOperatorAppOutputReference) validatePutI
 	return nil
 }
 
+func (d *jsiiProxy_DevopsagentAgentSpaceOperatorAppOutputReference) validatePutIdpParameters(value *DevopsagentAgentSpaceOperatorAppIdp) error {
+	return nil
+}
+
 func (d *jsiiProxy_DevopsagentAgentSpaceOperatorAppOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

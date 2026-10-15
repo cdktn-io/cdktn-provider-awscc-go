@@ -5,9 +5,9 @@ package drsrecoveryplan
 
 
 type DrsRecoveryPlanTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_recovery_plan#key DrsRecoveryPlan#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_recovery_plan#key DrsRecoveryPlan#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_recovery_plan#value DrsRecoveryPlan#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_recovery_plan#value DrsRecoveryPlan#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

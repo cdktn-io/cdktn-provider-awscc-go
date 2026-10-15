@@ -13,6 +13,7 @@ import (
 
 type DataAwsccDevopsagentAssociationConfigurationSlackOutputReference interface {
 	cdktn.ComplexObject
+	Bidirectional() DataAwsccDevopsagentAssociationConfigurationSlackBidirectionalOutputReference
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -80,6 +81,16 @@ type DataAwsccDevopsagentAssociationConfigurationSlackOutputReference interface 
 // The jsii proxy struct for DataAwsccDevopsagentAssociationConfigurationSlackOutputReference
 type jsiiProxy_DataAwsccDevopsagentAssociationConfigurationSlackOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataAwsccDevopsagentAssociationConfigurationSlackOutputReference) Bidirectional() DataAwsccDevopsagentAssociationConfigurationSlackBidirectionalOutputReference {
+	var returns DataAwsccDevopsagentAssociationConfigurationSlackBidirectionalOutputReference
+	_jsii_.Get(
+		j,
+		"bidirectional",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAwsccDevopsagentAssociationConfigurationSlackOutputReference) ComplexObjectIndex() interface{} {

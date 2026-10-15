@@ -76,8 +76,6 @@ type LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference in
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	ResetNetworkProtocol()
-	ResetSecurityGroupIds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -554,22 +552,6 @@ func (l *jsiiProxy_LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutp
 	)
 
 	return returns
-}
-
-func (l *jsiiProxy_LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference) ResetNetworkProtocol() {
-	_jsii_.InvokeVoid(
-		l,
-		"resetNetworkProtocol",
-		nil, // no parameters
-	)
-}
-
-func (l *jsiiProxy_LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference) ResetSecurityGroupIds() {
-	_jsii_.InvokeVoid(
-		l,
-		"resetSecurityGroupIds",
-		nil, // no parameters
-	)
 }
 
 func (l *jsiiProxy_LambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

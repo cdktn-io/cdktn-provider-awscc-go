@@ -115,6 +115,10 @@ func (j *jsiiProxy_AgentregistryRegistryRecord) validateSetCountParameters(val i
 	return nil
 }
 
+func (j *jsiiProxy_AgentregistryRegistryRecord) validateSetCustomMetadataParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_AgentregistryRegistryRecord) validateSetDescriptionParameters(val *string) error {
 	return nil
 }

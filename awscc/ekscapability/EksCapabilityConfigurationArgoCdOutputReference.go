@@ -30,6 +30,9 @@ type EksCapabilityConfigurationArgoCdOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EndpointPrefix() *string
+	SetEndpointPrefix(val *string)
+	EndpointPrefixInput() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -78,6 +81,7 @@ type EksCapabilityConfigurationArgoCdOutputReference interface {
 	PutNetworkAccess(value *EksCapabilityConfigurationArgoCdNetworkAccess)
 	PutRbacRoleMappings(value interface{})
 	ResetAwsIdc()
+	ResetEndpointPrefix()
 	ResetNamespace()
 	ResetNetworkAccess()
 	ResetRbacRoleMappings()
@@ -141,6 +145,26 @@ func (j *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) CreationStac
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) EndpointPrefix() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"endpointPrefix",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) EndpointPrefixInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"endpointPrefixInput",
 		&returns,
 	)
 	return returns
@@ -302,6 +326,17 @@ func (j *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference)SetComplexObj
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference)SetEndpointPrefix(val *string) {
+	if err := j.validateSetEndpointPrefixParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"endpointPrefix",
 		val,
 	)
 }
@@ -573,6 +608,14 @@ func (e *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) ResetAwsIdc(
 	_jsii_.InvokeVoid(
 		e,
 		"resetAwsIdc",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EksCapabilityConfigurationArgoCdOutputReference) ResetEndpointPrefix() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetEndpointPrefix",
 		nil, // no parameters
 	)
 }

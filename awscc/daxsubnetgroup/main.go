@@ -53,7 +53,6 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSubnetGroupName", GoMethod: "ResetSubnetGroupName"},
-			_jsii_.MemberProperty{JsiiProperty: "subnetGroupId", GoGetter: "SubnetGroupId"},
 			_jsii_.MemberProperty{JsiiProperty: "subnetGroupName", GoGetter: "SubnetGroupName"},
 			_jsii_.MemberProperty{JsiiProperty: "subnetGroupNameInput", GoGetter: "SubnetGroupNameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "subnetIds", GoGetter: "SubnetIds"},

@@ -26,6 +26,8 @@ type Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutputReferenc
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ContentKeyPeriodConfiguration() Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference
+	ContentKeyPeriodConfigurationInput() interface{}
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -46,6 +48,9 @@ type Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutputReferenc
 	RoleArn() *string
 	SetRoleArn(val *string)
 	RoleArnInput() *string
+	SpekeVersion() *string
+	SetSpekeVersion(val *string)
+	SpekeVersionInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -81,12 +86,15 @@ type Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutputReferenc
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutContentKeyPeriodConfiguration(value *Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfiguration)
 	PutEncryptionContractConfiguration(value *Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderEncryptionContractConfiguration)
 	ResetCertificateArn()
+	ResetContentKeyPeriodConfiguration()
 	ResetDrmSystems()
 	ResetEncryptionContractConfiguration()
 	ResetResourceId()
 	ResetRoleArn()
+	ResetSpekeVersion()
 	ResetUrl()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -138,6 +146,26 @@ func (j *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProvider
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutputReference) ContentKeyPeriodConfiguration() Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference {
+	var returns Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"contentKeyPeriodConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutputReference) ContentKeyPeriodConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"contentKeyPeriodConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -248,6 +276,26 @@ func (j *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProvider
 	_jsii_.Get(
 		j,
 		"roleArnInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutputReference) SpekeVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"spekeVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutputReference) SpekeVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"spekeVersionInput",
 		&returns,
 	)
 	return returns
@@ -394,6 +442,17 @@ func (j *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProvider
 	_jsii_.Set(
 		j,
 		"roleArn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutputReference)SetSpekeVersion(val *string) {
+	if err := j.validateSetSpekeVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"spekeVersion",
 		val,
 	)
 }
@@ -617,6 +676,17 @@ func (m *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProvider
 	return returns
 }
 
+func (m *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutputReference) PutContentKeyPeriodConfiguration(value *Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfiguration) {
+	if err := m.validatePutContentKeyPeriodConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putContentKeyPeriodConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutputReference) PutEncryptionContractConfiguration(value *Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderEncryptionContractConfiguration) {
 	if err := m.validatePutEncryptionContractConfigurationParameters(value); err != nil {
 		panic(err)
@@ -632,6 +702,14 @@ func (m *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProvider
 	_jsii_.InvokeVoid(
 		m,
 		"resetCertificateArn",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutputReference) ResetContentKeyPeriodConfiguration() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetContentKeyPeriodConfiguration",
 		nil, // no parameters
 	)
 }
@@ -664,6 +742,14 @@ func (m *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProvider
 	_jsii_.InvokeVoid(
 		m,
 		"resetRoleArn",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderOutputReference) ResetSpekeVersion() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetSpekeVersion",
 		nil, // no parameters
 	)
 }

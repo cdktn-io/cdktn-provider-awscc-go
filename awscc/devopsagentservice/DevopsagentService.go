@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service awscc_devopsagent_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service awscc_devopsagent_service}.
 type DevopsagentService interface {
 	cdktn.TerraformResource
 	AccessibleResources() cdktn.StringMapList
@@ -53,6 +53,9 @@ type DevopsagentService interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	Name() *string
+	SetName(val *string)
+	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	PrivateConnectionName() *string
@@ -181,6 +184,7 @@ type DevopsagentService interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetExchangeUrlPrivateConnectionName()
 	ResetKmsKeyArn()
+	ResetName()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -385,6 +389,26 @@ func (j *jsiiProxy_DevopsagentService) Lifecycle() *cdktn.TerraformResourceLifec
 	return returns
 }
 
+func (j *jsiiProxy_DevopsagentService) Name() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"name",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DevopsagentService) NameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"nameInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DevopsagentService) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -566,7 +590,7 @@ func (j *jsiiProxy_DevopsagentService) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service awscc_devopsagent_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service awscc_devopsagent_service} Resource.
 func NewDevopsagentService(scope constructs.Construct, id *string, config *DevopsagentServiceConfig) DevopsagentService {
 	_init_.Initialize()
 
@@ -584,7 +608,7 @@ func NewDevopsagentService(scope constructs.Construct, id *string, config *Devop
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service awscc_devopsagent_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service awscc_devopsagent_service} Resource.
 func NewDevopsagentService_Override(d DevopsagentService, scope constructs.Construct, id *string, config *DevopsagentServiceConfig) {
 	_init_.Initialize()
 
@@ -662,6 +686,17 @@ func (j *jsiiProxy_DevopsagentService)SetLifecycle(val *cdktn.TerraformResourceL
 	_jsii_.Set(
 		j,
 		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DevopsagentService)SetName(val *string) {
+	if err := j.validateSetNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"name",
 		val,
 	)
 }
@@ -1132,6 +1167,14 @@ func (d *jsiiProxy_DevopsagentService) ResetKmsKeyArn() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetKmsKeyArn",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DevopsagentService) ResetName() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetName",
 		nil, // no parameters
 	)
 }

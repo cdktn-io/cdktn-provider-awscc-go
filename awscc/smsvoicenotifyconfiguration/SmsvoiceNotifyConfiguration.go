@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/smsvoice_notify_configuration awscc_smsvoice_notify_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_notify_configuration awscc_smsvoice_notify_configuration}.
 type SmsvoiceNotifyConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -610,7 +610,7 @@ func (j *jsiiProxy_SmsvoiceNotifyConfiguration) UseCaseInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/smsvoice_notify_configuration awscc_smsvoice_notify_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_notify_configuration awscc_smsvoice_notify_configuration} Resource.
 func NewSmsvoiceNotifyConfiguration(scope constructs.Construct, id *string, config *SmsvoiceNotifyConfigurationConfig) SmsvoiceNotifyConfiguration {
 	_init_.Initialize()
 
@@ -628,7 +628,7 @@ func NewSmsvoiceNotifyConfiguration(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/smsvoice_notify_configuration awscc_smsvoice_notify_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_notify_configuration awscc_smsvoice_notify_configuration} Resource.
 func NewSmsvoiceNotifyConfiguration_Override(s SmsvoiceNotifyConfiguration, scope constructs.Construct, id *string, config *SmsvoiceNotifyConfigurationConfig) {
 	_init_.Initialize()
 

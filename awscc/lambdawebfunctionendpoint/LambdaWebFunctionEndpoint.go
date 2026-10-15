@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_endpoint awscc_lambda_web_function_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_endpoint awscc_lambda_web_function_endpoint}.
 type LambdaWebFunctionEndpoint interface {
 	cdktn.TerraformResource
 	AuthType() *string
@@ -677,7 +677,7 @@ func (j *jsiiProxy_LambdaWebFunctionEndpoint) UpdateStatusReason() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_endpoint awscc_lambda_web_function_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_endpoint awscc_lambda_web_function_endpoint} Resource.
 func NewLambdaWebFunctionEndpoint(scope constructs.Construct, id *string, config *LambdaWebFunctionEndpointConfig) LambdaWebFunctionEndpoint {
 	_init_.Initialize()
 
@@ -695,7 +695,7 @@ func NewLambdaWebFunctionEndpoint(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_endpoint awscc_lambda_web_function_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_endpoint awscc_lambda_web_function_endpoint} Resource.
 func NewLambdaWebFunctionEndpoint_Override(l LambdaWebFunctionEndpoint, scope constructs.Construct, id *string, config *LambdaWebFunctionEndpointConfig) {
 	_init_.Initialize()
 

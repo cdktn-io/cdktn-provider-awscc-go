@@ -51,6 +51,10 @@ func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigOutputReference) vali
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigOutputReference) validatePutDerivedParameters(value *BedrockagentcoreEvaluatorEvaluatorConfigDerived) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigOutputReference) validatePutLlmAsAJudgeParameters(value *BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudge) error {
 	return nil
 }

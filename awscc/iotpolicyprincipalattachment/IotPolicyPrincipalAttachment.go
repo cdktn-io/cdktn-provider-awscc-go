@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/iot_policy_principal_attachment awscc_iot_policy_principal_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy_principal_attachment awscc_iot_policy_principal_attachment}.
 type IotPolicyPrincipalAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_IotPolicyPrincipalAttachment) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/iot_policy_principal_attachment awscc_iot_policy_principal_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy_principal_attachment awscc_iot_policy_principal_attachment} Resource.
 func NewIotPolicyPrincipalAttachment(scope constructs.Construct, id *string, config *IotPolicyPrincipalAttachmentConfig) IotPolicyPrincipalAttachment {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewIotPolicyPrincipalAttachment(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/iot_policy_principal_attachment awscc_iot_policy_principal_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy_principal_attachment awscc_iot_policy_principal_attachment} Resource.
 func NewIotPolicyPrincipalAttachment_Override(i IotPolicyPrincipalAttachment, scope constructs.Construct, id *string, config *IotPolicyPrincipalAttachmentConfig) {
 	_init_.Initialize()
 

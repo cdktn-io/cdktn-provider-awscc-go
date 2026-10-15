@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccbedrockagentcoreevaluator
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigOutputReference) validateSetInternalValueParameters(val *DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfig) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

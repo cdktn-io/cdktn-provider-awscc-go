@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/lambda_network_connector awscc_lambda_network_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_network_connector awscc_lambda_network_connector}.
 type DataAwsccLambdaNetworkConnector interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -40,6 +40,8 @@ type DataAwsccLambdaNetworkConnector interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	LatestVersion() *float64
+	LatestVersionArn() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -241,6 +243,26 @@ func (j *jsiiProxy_DataAwsccLambdaNetworkConnector) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccLambdaNetworkConnector) LatestVersion() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"latestVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccLambdaNetworkConnector) LatestVersionArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"latestVersionArn",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccLambdaNetworkConnector) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -352,7 +374,7 @@ func (j *jsiiProxy_DataAwsccLambdaNetworkConnector) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/lambda_network_connector awscc_lambda_network_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_network_connector awscc_lambda_network_connector} Data Source.
 func NewDataAwsccLambdaNetworkConnector(scope constructs.Construct, id *string, config *DataAwsccLambdaNetworkConnectorConfig) DataAwsccLambdaNetworkConnector {
 	_init_.Initialize()
 
@@ -370,7 +392,7 @@ func NewDataAwsccLambdaNetworkConnector(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/lambda_network_connector awscc_lambda_network_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_network_connector awscc_lambda_network_connector} Data Source.
 func NewDataAwsccLambdaNetworkConnector_Override(d DataAwsccLambdaNetworkConnector, scope constructs.Construct, id *string, config *DataAwsccLambdaNetworkConnectorConfig) {
 	_init_.Initialize()
 

@@ -49,6 +49,7 @@ type DataAwsccGameliftContainerGroupDefinitionGameServerContainerDefinitionOutpu
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Vcpu() *float64
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -243,6 +244,16 @@ func (j *jsiiProxy_DataAwsccGameliftContainerGroupDefinitionGameServerContainerD
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccGameliftContainerGroupDefinitionGameServerContainerDefinitionOutputReference) Vcpu() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"vcpu",
 		&returns,
 	)
 	return returns

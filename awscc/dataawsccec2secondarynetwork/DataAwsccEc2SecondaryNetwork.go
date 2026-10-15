@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ec2_secondary_network awscc_ec2_secondary_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_secondary_network awscc_ec2_secondary_network}.
 type DataAwsccEc2SecondaryNetwork interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccEc2SecondaryNetwork) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ec2_secondary_network awscc_ec2_secondary_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_secondary_network awscc_ec2_secondary_network} Data Source.
 func NewDataAwsccEc2SecondaryNetwork(scope constructs.Construct, id *string, config *DataAwsccEc2SecondaryNetworkConfig) DataAwsccEc2SecondaryNetwork {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccEc2SecondaryNetwork(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ec2_secondary_network awscc_ec2_secondary_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_secondary_network awscc_ec2_secondary_network} Data Source.
 func NewDataAwsccEc2SecondaryNetwork_Override(d DataAwsccEc2SecondaryNetwork, scope constructs.Construct, id *string, config *DataAwsccEc2SecondaryNetworkConfig) {
 	_init_.Initialize()
 

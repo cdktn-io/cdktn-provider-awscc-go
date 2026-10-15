@@ -34,6 +34,8 @@ type DevopsagentAgentSpaceOperatorAppOutputReference interface {
 	IamInput() interface{}
 	Idc() DevopsagentAgentSpaceOperatorAppIdcOutputReference
 	IdcInput() interface{}
+	Idp() DevopsagentAgentSpaceOperatorAppIdpOutputReference
+	IdpInput() interface{}
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
 	// Experimental.
@@ -70,8 +72,10 @@ type DevopsagentAgentSpaceOperatorAppOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutIam(value *DevopsagentAgentSpaceOperatorAppIam)
 	PutIdc(value *DevopsagentAgentSpaceOperatorAppIdc)
+	PutIdp(value *DevopsagentAgentSpaceOperatorAppIdp)
 	ResetIam()
 	ResetIdc()
+	ResetIdp()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -162,6 +166,26 @@ func (j *jsiiProxy_DevopsagentAgentSpaceOperatorAppOutputReference) IdcInput() i
 	_jsii_.Get(
 		j,
 		"idcInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DevopsagentAgentSpaceOperatorAppOutputReference) Idp() DevopsagentAgentSpaceOperatorAppIdpOutputReference {
+	var returns DevopsagentAgentSpaceOperatorAppIdpOutputReference
+	_jsii_.Get(
+		j,
+		"idp",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DevopsagentAgentSpaceOperatorAppOutputReference) IdpInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"idpInput",
 		&returns,
 	)
 	return returns
@@ -488,6 +512,17 @@ func (d *jsiiProxy_DevopsagentAgentSpaceOperatorAppOutputReference) PutIdc(value
 	)
 }
 
+func (d *jsiiProxy_DevopsagentAgentSpaceOperatorAppOutputReference) PutIdp(value *DevopsagentAgentSpaceOperatorAppIdp) {
+	if err := d.validatePutIdpParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putIdp",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DevopsagentAgentSpaceOperatorAppOutputReference) ResetIam() {
 	_jsii_.InvokeVoid(
 		d,
@@ -500,6 +535,14 @@ func (d *jsiiProxy_DevopsagentAgentSpaceOperatorAppOutputReference) ResetIdc() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetIdc",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DevopsagentAgentSpaceOperatorAppOutputReference) ResetIdp() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetIdp",
 		nil, // no parameters
 	)
 }

@@ -63,6 +63,10 @@ func (j *jsiiProxy_LambdaWebFunctionRevisionServiceConfigOutputReference) valida
 	return nil
 }
 
+func (j *jsiiProxy_LambdaWebFunctionRevisionServiceConfigOutputReference) validateSetEgressNetworkConnectorArnParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_LambdaWebFunctionRevisionServiceConfigOutputReference) validateSetEnvironmentVariablesParameters(val *map[string]*string) error {
 	return nil
 }

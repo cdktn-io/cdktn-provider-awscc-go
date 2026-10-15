@@ -79,6 +79,14 @@ func (c *jsiiProxy_CloudwatchOtelEnrichment) validateOverrideLogicalIdParameters
 	return nil
 }
 
+func (c *jsiiProxy_CloudwatchOtelEnrichment) validatePutExcludeFiltersParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudwatchOtelEnrichment) validatePutIncludeFiltersParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudwatchOtelEnrichment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }

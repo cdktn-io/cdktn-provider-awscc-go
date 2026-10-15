@@ -29,6 +29,7 @@ type DataAwsccDevopsagentAssociationConfigurationMcpServerDatadogOutputReference
 	// Experimental.
 	CreationStack() *[]*string
 	Description() *string
+	EnabledElevatedTools() *[]*string
 	EnableWebhookUpdates() cdktn.IResolvable
 	Endpoint() *string
 	// Experimental.
@@ -118,6 +119,16 @@ func (j *jsiiProxy_DataAwsccDevopsagentAssociationConfigurationMcpServerDatadogO
 	_jsii_.Get(
 		j,
 		"description",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccDevopsagentAssociationConfigurationMcpServerDatadogOutputReference) EnabledElevatedTools() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"enabledElevatedTools",
 		&returns,
 	)
 	return returns

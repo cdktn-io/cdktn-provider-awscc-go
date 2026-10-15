@@ -7,11 +7,11 @@ package smsvoicercsagent
 type SmsvoiceRcsAgentTags struct {
 	// The key of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/smsvoice_rcs_agent#key SmsvoiceRcsAgent#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_rcs_agent#key SmsvoiceRcsAgent#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/smsvoice_rcs_agent#value SmsvoiceRcsAgent#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_rcs_agent#value SmsvoiceRcsAgent#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

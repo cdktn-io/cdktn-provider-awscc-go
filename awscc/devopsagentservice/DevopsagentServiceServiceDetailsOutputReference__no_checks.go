@@ -55,6 +55,10 @@ func (d *jsiiProxy_DevopsagentServiceServiceDetailsOutputReference) validatePutD
 	return nil
 }
 
+func (d *jsiiProxy_DevopsagentServiceServiceDetailsOutputReference) validatePutGitHubParameters(value *DevopsagentServiceServiceDetailsGitHub) error {
+	return nil
+}
+
 func (d *jsiiProxy_DevopsagentServiceServiceDetailsOutputReference) validatePutGitLabParameters(value *DevopsagentServiceServiceDetailsGitLab) error {
 	return nil
 }

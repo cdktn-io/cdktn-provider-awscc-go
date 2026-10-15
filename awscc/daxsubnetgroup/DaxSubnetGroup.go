@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dax_subnet_group awscc_dax_subnet_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dax_subnet_group awscc_dax_subnet_group}.
 type DaxSubnetGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -59,7 +59,6 @@ type DaxSubnetGroup interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
-	SubnetGroupId() *string
 	SubnetGroupName() *string
 	SetSubnetGroupName(val *string)
 	SubnetGroupNameInput() *string
@@ -356,16 +355,6 @@ func (j *jsiiProxy_DaxSubnetGroup) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DaxSubnetGroup) SubnetGroupId() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"subnetGroupId",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_DaxSubnetGroup) SubnetGroupName() *string {
 	var returns *string
 	_jsii_.Get(
@@ -437,7 +426,7 @@ func (j *jsiiProxy_DaxSubnetGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dax_subnet_group awscc_dax_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dax_subnet_group awscc_dax_subnet_group} Resource.
 func NewDaxSubnetGroup(scope constructs.Construct, id *string, config *DaxSubnetGroupConfig) DaxSubnetGroup {
 	_init_.Initialize()
 
@@ -455,7 +444,7 @@ func NewDaxSubnetGroup(scope constructs.Construct, id *string, config *DaxSubnet
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dax_subnet_group awscc_dax_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dax_subnet_group awscc_dax_subnet_group} Resource.
 func NewDaxSubnetGroup_Override(d DaxSubnetGroup, scope constructs.Construct, id *string, config *DaxSubnetGroupConfig) {
 	_init_.Initialize()
 

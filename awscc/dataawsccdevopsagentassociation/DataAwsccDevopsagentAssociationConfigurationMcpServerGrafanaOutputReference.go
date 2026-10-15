@@ -28,6 +28,7 @@ type DataAwsccDevopsagentAssociationConfigurationMcpServerGrafanaOutputReference
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EnabledElevatedTools() *[]*string
 	EnableWebhookUpdates() cdktn.IResolvable
 	Endpoint() *string
 	// Experimental.
@@ -107,6 +108,16 @@ func (j *jsiiProxy_DataAwsccDevopsagentAssociationConfigurationMcpServerGrafanaO
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccDevopsagentAssociationConfigurationMcpServerGrafanaOutputReference) EnabledElevatedTools() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"enabledElevatedTools",
 		&returns,
 	)
 	return returns

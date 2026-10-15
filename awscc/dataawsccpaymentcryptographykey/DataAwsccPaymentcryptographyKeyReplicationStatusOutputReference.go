@@ -32,6 +32,8 @@ type DataAwsccPaymentcryptographyKeyReplicationStatusOutputReference interface {
 	Fqn() *string
 	InternalValue() *DataAwsccPaymentcryptographyKeyReplicationStatus
 	SetInternalValue(val *DataAwsccPaymentcryptographyKeyReplicationStatus)
+	KmsKeyArn() *string
+	KmsKeyId() *string
 	Status() *string
 	StatusMessage() *string
 	// Experimental.
@@ -126,6 +128,26 @@ func (j *jsiiProxy_DataAwsccPaymentcryptographyKeyReplicationStatusOutputReferen
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccPaymentcryptographyKeyReplicationStatusOutputReference) KmsKeyArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccPaymentcryptographyKeyReplicationStatusOutputReference) KmsKeyId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyId",
 		&returns,
 	)
 	return returns

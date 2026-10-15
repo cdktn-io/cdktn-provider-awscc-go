@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign awscc_personalize_campaign}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign awscc_personalize_campaign}.
 type PersonalizeCampaign interface {
 	cdktn.TerraformResource
 	CampaignArn() *string
@@ -517,7 +517,7 @@ func (j *jsiiProxy_PersonalizeCampaign) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign awscc_personalize_campaign} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign awscc_personalize_campaign} Resource.
 func NewPersonalizeCampaign(scope constructs.Construct, id *string, config *PersonalizeCampaignConfig) PersonalizeCampaign {
 	_init_.Initialize()
 
@@ -535,7 +535,7 @@ func NewPersonalizeCampaign(scope constructs.Construct, id *string, config *Pers
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign awscc_personalize_campaign} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign awscc_personalize_campaign} Resource.
 func NewPersonalizeCampaign_Override(p PersonalizeCampaign, scope constructs.Construct, id *string, config *PersonalizeCampaignConfig) {
 	_init_.Initialize()
 

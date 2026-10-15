@@ -67,6 +67,10 @@ func (j *jsiiProxy_DevopsagentAssociationConfigurationSourceAwsOutputReference) 
 	return nil
 }
 
+func (j *jsiiProxy_DevopsagentAssociationConfigurationSourceAwsOutputReference) validateSetAgentElevatedRoleArnParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DevopsagentAssociationConfigurationSourceAwsOutputReference) validateSetAssumableRoleArnParameters(val *string) error {
 	return nil
 }

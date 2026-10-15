@@ -5,17 +5,21 @@ package quicksightdatasource
 
 
 type QuicksightDataSourceAlternateDataSourceParametersDatabricksParameters struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_data_source#authentication_type QuicksightDataSource#authentication_type}.
+	AuthenticationType *string `field:"optional" json:"authenticationType" yaml:"authenticationType"`
 	// <p>The host name of the Databricks data source.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_data_source#host QuicksightDataSource#host}
 	Host *string `field:"optional" json:"host" yaml:"host"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_data_source#o_auth_parameters QuicksightDataSource#o_auth_parameters}.
+	OAuthParameters *QuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParameters `field:"optional" json:"oAuthParameters" yaml:"oAuthParameters"`
 	// <p>The port for the Databricks data source.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_data_source#port QuicksightDataSource#port}
 	Port *float64 `field:"optional" json:"port" yaml:"port"`
 	// <p>The HTTP path of the Databricks data source.</p>.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/quicksight_data_source#sql_endpoint_path QuicksightDataSource#sql_endpoint_path}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_data_source#sql_endpoint_path QuicksightDataSource#sql_endpoint_path}
 	SqlEndpointPath *string `field:"optional" json:"sqlEndpointPath" yaml:"sqlEndpointPath"`
 }
 

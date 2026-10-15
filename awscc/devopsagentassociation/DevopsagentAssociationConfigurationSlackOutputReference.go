@@ -13,6 +13,8 @@ import (
 
 type DevopsagentAssociationConfigurationSlackOutputReference interface {
 	cdktn.ComplexObject
+	Bidirectional() DevopsagentAssociationConfigurationSlackBidirectionalOutputReference
+	BidirectionalInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -72,7 +74,9 @@ type DevopsagentAssociationConfigurationSlackOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutBidirectional(value *DevopsagentAssociationConfigurationSlackBidirectional)
 	PutTransmissionTarget(value *DevopsagentAssociationConfigurationSlackTransmissionTarget)
+	ResetBidirectional()
 	ResetTransmissionTarget()
 	ResetWorkspaceId()
 	ResetWorkspaceName()
@@ -89,6 +93,26 @@ type DevopsagentAssociationConfigurationSlackOutputReference interface {
 // The jsii proxy struct for DevopsagentAssociationConfigurationSlackOutputReference
 type jsiiProxy_DevopsagentAssociationConfigurationSlackOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DevopsagentAssociationConfigurationSlackOutputReference) Bidirectional() DevopsagentAssociationConfigurationSlackBidirectionalOutputReference {
+	var returns DevopsagentAssociationConfigurationSlackBidirectionalOutputReference
+	_jsii_.Get(
+		j,
+		"bidirectional",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DevopsagentAssociationConfigurationSlackOutputReference) BidirectionalInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"bidirectionalInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DevopsagentAssociationConfigurationSlackOutputReference) ComplexObjectIndex() interface{} {
@@ -512,6 +536,17 @@ func (d *jsiiProxy_DevopsagentAssociationConfigurationSlackOutputReference) Inte
 	return returns
 }
 
+func (d *jsiiProxy_DevopsagentAssociationConfigurationSlackOutputReference) PutBidirectional(value *DevopsagentAssociationConfigurationSlackBidirectional) {
+	if err := d.validatePutBidirectionalParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putBidirectional",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DevopsagentAssociationConfigurationSlackOutputReference) PutTransmissionTarget(value *DevopsagentAssociationConfigurationSlackTransmissionTarget) {
 	if err := d.validatePutTransmissionTargetParameters(value); err != nil {
 		panic(err)
@@ -520,6 +555,14 @@ func (d *jsiiProxy_DevopsagentAssociationConfigurationSlackOutputReference) PutT
 		d,
 		"putTransmissionTarget",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DevopsagentAssociationConfigurationSlackOutputReference) ResetBidirectional() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetBidirectional",
+		nil, // no parameters
 	)
 }
 

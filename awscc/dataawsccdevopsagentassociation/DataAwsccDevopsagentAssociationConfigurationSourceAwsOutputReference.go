@@ -15,6 +15,7 @@ type DataAwsccDevopsagentAssociationConfigurationSourceAwsOutputReference interf
 	cdktn.ComplexObject
 	AccountId() *string
 	AccountType() *string
+	AgentElevatedRoleArn() *string
 	AssumableRoleArn() *string
 	// the index of the complex object in a list.
 	// Experimental.
@@ -99,6 +100,16 @@ func (j *jsiiProxy_DataAwsccDevopsagentAssociationConfigurationSourceAwsOutputRe
 	_jsii_.Get(
 		j,
 		"accountType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccDevopsagentAssociationConfigurationSourceAwsOutputReference) AgentElevatedRoleArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"agentElevatedRoleArn",
 		&returns,
 	)
 	return returns

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output awscc_mediaconnect_flow_output}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output awscc_mediaconnect_flow_output}.
 type MediaconnectFlowOutput interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -69,6 +69,9 @@ type MediaconnectFlowOutput interface {
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
+	NdiAudioReferenceLevel() *float64
+	SetNdiAudioReferenceLevel(val *float64)
+	NdiAudioReferenceLevelInput() *float64
 	NdiOutputTimecodeSource() *string
 	SetNdiOutputTimecodeSource(val *string)
 	NdiOutputTimecodeSourceInput() *string
@@ -229,6 +232,7 @@ type MediaconnectFlowOutput interface {
 	ResetMediaStreamOutputConfigurations()
 	ResetMinLatency()
 	ResetName()
+	ResetNdiAudioReferenceLevel()
 	ResetNdiOutputTimecodeSource()
 	ResetNdiProgramName()
 	ResetNdiSpeedHqQuality()
@@ -547,6 +551,26 @@ func (j *jsiiProxy_MediaconnectFlowOutput) NameInput() *string {
 	_jsii_.Get(
 		j,
 		"nameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediaconnectFlowOutput) NdiAudioReferenceLevel() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"ndiAudioReferenceLevel",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MediaconnectFlowOutput) NdiAudioReferenceLevelInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"ndiAudioReferenceLevelInput",
 		&returns,
 	)
 	return returns
@@ -893,7 +917,7 @@ func (j *jsiiProxy_MediaconnectFlowOutput) VpcInterfaceAttachmentInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output awscc_mediaconnect_flow_output} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output awscc_mediaconnect_flow_output} Resource.
 func NewMediaconnectFlowOutput(scope constructs.Construct, id *string, config *MediaconnectFlowOutputConfig) MediaconnectFlowOutput {
 	_init_.Initialize()
 
@@ -911,7 +935,7 @@ func NewMediaconnectFlowOutput(scope constructs.Construct, id *string, config *M
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output awscc_mediaconnect_flow_output} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output awscc_mediaconnect_flow_output} Resource.
 func NewMediaconnectFlowOutput_Override(m MediaconnectFlowOutput, scope constructs.Construct, id *string, config *MediaconnectFlowOutputConfig) {
 	_init_.Initialize()
 
@@ -1044,6 +1068,17 @@ func (j *jsiiProxy_MediaconnectFlowOutput)SetName(val *string) {
 	_jsii_.Set(
 		j,
 		"name",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MediaconnectFlowOutput)SetNdiAudioReferenceLevel(val *float64) {
+	if err := j.validateSetNdiAudioReferenceLevelParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ndiAudioReferenceLevel",
 		val,
 	)
 }
@@ -1672,6 +1707,14 @@ func (m *jsiiProxy_MediaconnectFlowOutput) ResetName() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetName",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MediaconnectFlowOutput) ResetNdiAudioReferenceLevel() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetNdiAudioReferenceLevel",
 		nil, // no parameters
 	)
 }

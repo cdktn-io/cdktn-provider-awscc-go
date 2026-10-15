@@ -127,6 +127,10 @@ func (j *jsiiProxy_Route53HostedZone) validateSetCountParameters(val interface{}
 	return nil
 }
 
+func (j *jsiiProxy_Route53HostedZone) validateSetDelegationSetIdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_Route53HostedZone) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

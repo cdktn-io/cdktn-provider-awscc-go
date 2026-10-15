@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_instance awscc_scn_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_instance awscc_scn_instance}.
 type ScnInstance interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -528,7 +528,7 @@ func (j *jsiiProxy_ScnInstance) WebAppDnsDomainInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_instance awscc_scn_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_instance awscc_scn_instance} Resource.
 func NewScnInstance(scope constructs.Construct, id *string, config *ScnInstanceConfig) ScnInstance {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewScnInstance(scope constructs.Construct, id *string, config *ScnInstanceC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_instance awscc_scn_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_instance awscc_scn_instance} Resource.
 func NewScnInstance_Override(s ScnInstance, scope constructs.Construct, id *string, config *ScnInstanceConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/directoryservice_microsoft_ad awscc_directoryservice_microsoft_ad}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directoryservice_microsoft_ad awscc_directoryservice_microsoft_ad}.
 type DirectoryserviceMicrosoftAd interface {
 	cdktn.TerraformResource
 	Alias() *string
@@ -554,7 +554,7 @@ func (j *jsiiProxy_DirectoryserviceMicrosoftAd) VpcSettingsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/directoryservice_microsoft_ad awscc_directoryservice_microsoft_ad} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directoryservice_microsoft_ad awscc_directoryservice_microsoft_ad} Resource.
 func NewDirectoryserviceMicrosoftAd(scope constructs.Construct, id *string, config *DirectoryserviceMicrosoftAdConfig) DirectoryserviceMicrosoftAd {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewDirectoryserviceMicrosoftAd(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/directoryservice_microsoft_ad awscc_directoryservice_microsoft_ad} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directoryservice_microsoft_ad awscc_directoryservice_microsoft_ad} Resource.
 func NewDirectoryserviceMicrosoftAd_Override(d DirectoryserviceMicrosoftAd, scope constructs.Construct, id *string, config *DirectoryserviceMicrosoftAdConfig) {
 	_init_.Initialize()
 

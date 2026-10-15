@@ -29,6 +29,7 @@ type DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigOutputReference interface 
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	Derived() DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedOutputReference
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAwsccBedrockagentcoreEvaluatorEvaluatorConfig
@@ -116,6 +117,16 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigOutputRefere
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigOutputReference) Derived() DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedOutputReference {
+	var returns DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedOutputReference
+	_jsii_.Get(
+		j,
+		"derived",
 		&returns,
 	)
 	return returns

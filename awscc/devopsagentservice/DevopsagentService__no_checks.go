@@ -127,6 +127,10 @@ func (j *jsiiProxy_DevopsagentService) validateSetLifecycleParameters(val *cdktn
 	return nil
 }
 
+func (j *jsiiProxy_DevopsagentService) validateSetNameParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DevopsagentService) validateSetPrivateConnectionNameParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_integration_association awscc_connect_integration_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_integration_association awscc_connect_integration_association}.
 type ConnectIntegrationAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -531,7 +531,7 @@ func (j *jsiiProxy_ConnectIntegrationAssociation) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_integration_association awscc_connect_integration_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_integration_association awscc_connect_integration_association} Resource.
 func NewConnectIntegrationAssociation(scope constructs.Construct, id *string, config *ConnectIntegrationAssociationConfig) ConnectIntegrationAssociation {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewConnectIntegrationAssociation(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_integration_association awscc_connect_integration_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_integration_association awscc_connect_integration_association} Resource.
 func NewConnectIntegrationAssociation_Override(c ConnectIntegrationAssociation, scope constructs.Construct, id *string, config *ConnectIntegrationAssociationConfig) {
 	_init_.Initialize()
 

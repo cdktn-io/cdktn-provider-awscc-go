@@ -188,6 +188,37 @@ func (d *jsiiProxy_DeadlineFleetConfigurationServiceManagedEc2InstanceCapabiliti
 	return nil
 }
 
+func (d *jsiiProxy_DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutputReference) validatePutSoftwareAddOnsParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesSoftwareAddOns:
+		value := value.(*[]*DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesSoftwareAddOns)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesSoftwareAddOns:
+		value_ := value.([]*DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesSoftwareAddOns)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesSoftwareAddOns; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (d *jsiiProxy_DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesOutputReference) validatePutVCpuCountParameters(value *DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesVCpuCount) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

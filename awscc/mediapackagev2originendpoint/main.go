@@ -1510,6 +1510,45 @@ func init() {
 		reflect.TypeOf((*Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProvider)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfiguration",
+		reflect.TypeOf((*Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference",
+		reflect.TypeOf((*Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "contentKeyPeriodTiming", GoGetter: "ContentKeyPeriodTiming"},
+			_jsii_.MemberProperty{JsiiProperty: "contentKeyPeriodTimingInput", GoGetter: "ContentKeyPeriodTimingInput"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetContentKeyPeriodTiming", GoMethod: "ResetContentKeyPeriodTiming"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderEncryptionContractConfiguration",
 		reflect.TypeOf((*Mediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderEncryptionContractConfiguration)(nil)).Elem(),
 	)
@@ -1560,6 +1599,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "contentKeyPeriodConfiguration", GoGetter: "ContentKeyPeriodConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "contentKeyPeriodConfigurationInput", GoGetter: "ContentKeyPeriodConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
 			_jsii_.MemberProperty{JsiiProperty: "drmSystems", GoGetter: "DrmSystems"},
 			_jsii_.MemberProperty{JsiiProperty: "drmSystemsInput", GoGetter: "DrmSystemsInput"},
@@ -1578,18 +1619,23 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "putContentKeyPeriodConfiguration", GoMethod: "PutContentKeyPeriodConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putEncryptionContractConfiguration", GoMethod: "PutEncryptionContractConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCertificateArn", GoMethod: "ResetCertificateArn"},
+			_jsii_.MemberMethod{JsiiMethod: "resetContentKeyPeriodConfiguration", GoMethod: "ResetContentKeyPeriodConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDrmSystems", GoMethod: "ResetDrmSystems"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEncryptionContractConfiguration", GoMethod: "ResetEncryptionContractConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetResourceId", GoMethod: "ResetResourceId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRoleArn", GoMethod: "ResetRoleArn"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSpekeVersion", GoMethod: "ResetSpekeVersion"},
 			_jsii_.MemberMethod{JsiiMethod: "resetUrl", GoMethod: "ResetUrl"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "resourceId", GoGetter: "ResourceId"},
 			_jsii_.MemberProperty{JsiiProperty: "resourceIdInput", GoGetter: "ResourceIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "roleArn", GoGetter: "RoleArn"},
 			_jsii_.MemberProperty{JsiiProperty: "roleArnInput", GoGetter: "RoleArnInput"},
+			_jsii_.MemberProperty{JsiiProperty: "spekeVersion", GoGetter: "SpekeVersion"},
+			_jsii_.MemberProperty{JsiiProperty: "spekeVersionInput", GoGetter: "SpekeVersionInput"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
