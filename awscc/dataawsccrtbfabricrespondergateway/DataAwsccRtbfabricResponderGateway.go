@@ -5,14 +5,14 @@ package dataawsccrtbfabricrespondergateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricrespondergateway/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricrespondergateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_responder_gateway awscc_rtbfabric_responder_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_responder_gateway awscc_rtbfabric_responder_gateway}.
 type DataAwsccRtbfabricResponderGateway interface {
 	cdktn.TerraformDataSource
 	AcmCertificateArn() *string
@@ -506,7 +506,7 @@ func (j *jsiiProxy_DataAwsccRtbfabricResponderGateway) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_responder_gateway awscc_rtbfabric_responder_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_responder_gateway awscc_rtbfabric_responder_gateway} Data Source.
 func NewDataAwsccRtbfabricResponderGateway(scope constructs.Construct, id *string, config *DataAwsccRtbfabricResponderGatewayConfig) DataAwsccRtbfabricResponderGateway {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewDataAwsccRtbfabricResponderGateway(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_responder_gateway awscc_rtbfabric_responder_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_responder_gateway awscc_rtbfabric_responder_gateway} Data Source.
 func NewDataAwsccRtbfabricResponderGateway_Override(d DataAwsccRtbfabricResponderGateway, scope constructs.Construct, id *string, config *DataAwsccRtbfabricResponderGatewayConfig) {
 	_init_.Initialize()
 

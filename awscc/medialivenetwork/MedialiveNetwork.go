@@ -5,14 +5,14 @@ package medialivenetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivenetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivenetwork/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_network awscc_medialive_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_network awscc_medialive_network}.
 type MedialiveNetwork interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -493,7 +493,7 @@ func (j *jsiiProxy_MedialiveNetwork) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_network awscc_medialive_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_network awscc_medialive_network} Resource.
 func NewMedialiveNetwork(scope constructs.Construct, id *string, config *MedialiveNetworkConfig) MedialiveNetwork {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewMedialiveNetwork(scope constructs.Construct, id *string, config *Mediali
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_network awscc_medialive_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_network awscc_medialive_network} Resource.
 func NewMedialiveNetwork_Override(m MedialiveNetwork, scope constructs.Construct, id *string, config *MedialiveNetworkConfig) {
 	_init_.Initialize()
 

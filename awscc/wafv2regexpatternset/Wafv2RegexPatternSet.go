@@ -5,14 +5,14 @@ package wafv2regexpatternset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wafv2regexpatternset/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wafv2regexpatternset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_regex_pattern_set awscc_wafv2_regex_pattern_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_regex_pattern_set awscc_wafv2_regex_pattern_set}.
 type Wafv2RegexPatternSet interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_Wafv2RegexPatternSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_regex_pattern_set awscc_wafv2_regex_pattern_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_regex_pattern_set awscc_wafv2_regex_pattern_set} Resource.
 func NewWafv2RegexPatternSet(scope constructs.Construct, id *string, config *Wafv2RegexPatternSetConfig) Wafv2RegexPatternSet {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewWafv2RegexPatternSet(scope constructs.Construct, id *string, config *Waf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_regex_pattern_set awscc_wafv2_regex_pattern_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_regex_pattern_set awscc_wafv2_regex_pattern_set} Resource.
 func NewWafv2RegexPatternSet_Override(w Wafv2RegexPatternSet, scope constructs.Construct, id *string, config *Wafv2RegexPatternSetConfig) {
 	_init_.Initialize()
 

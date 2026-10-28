@@ -5,14 +5,14 @@ package ec2securitygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2securitygroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2securitygroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_security_group awscc_ec2_security_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_security_group awscc_ec2_security_group}.
 type Ec2SecurityGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_Ec2SecurityGroup) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_security_group awscc_ec2_security_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_security_group awscc_ec2_security_group} Resource.
 func NewEc2SecurityGroup(scope constructs.Construct, id *string, config *Ec2SecurityGroupConfig) Ec2SecurityGroup {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewEc2SecurityGroup(scope constructs.Construct, id *string, config *Ec2Secu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_security_group awscc_ec2_security_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_security_group awscc_ec2_security_group} Resource.
 func NewEc2SecurityGroup_Override(e Ec2SecurityGroup, scope constructs.Construct, id *string, config *Ec2SecurityGroupConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawscccloudtraildashboard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraildashboard/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraildashboard/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudtrail_dashboard awscc_cloudtrail_dashboard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudtrail_dashboard awscc_cloudtrail_dashboard}.
 type DataAwsccCloudtrailDashboard interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccCloudtrailDashboard) Widgets() DataAwsccCloudtrailDa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudtrail_dashboard awscc_cloudtrail_dashboard} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudtrail_dashboard awscc_cloudtrail_dashboard} Data Source.
 func NewDataAwsccCloudtrailDashboard(scope constructs.Construct, id *string, config *DataAwsccCloudtrailDashboardConfig) DataAwsccCloudtrailDashboard {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccCloudtrailDashboard(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudtrail_dashboard awscc_cloudtrail_dashboard} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudtrail_dashboard awscc_cloudtrail_dashboard} Data Source.
 func NewDataAwsccCloudtrailDashboard_Override(d DataAwsccCloudtrailDashboard, scope constructs.Construct, id *string, config *DataAwsccCloudtrailDashboardConfig) {
 	_init_.Initialize()
 

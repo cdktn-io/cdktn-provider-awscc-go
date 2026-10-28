@@ -5,14 +5,14 @@ package connectemailaddress
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectemailaddress/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectemailaddress/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_email_address awscc_connect_email_address}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_email_address awscc_connect_email_address}.
 type ConnectEmailAddress interface {
 	cdktn.TerraformResource
 	AliasConfigurations() ConnectEmailAddressAliasConfigurationsList
@@ -508,7 +508,7 @@ func (j *jsiiProxy_ConnectEmailAddress) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_email_address awscc_connect_email_address} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_email_address awscc_connect_email_address} Resource.
 func NewConnectEmailAddress(scope constructs.Construct, id *string, config *ConnectEmailAddressConfig) ConnectEmailAddress {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewConnectEmailAddress(scope constructs.Construct, id *string, config *Conn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_email_address awscc_connect_email_address} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_email_address awscc_connect_email_address} Resource.
 func NewConnectEmailAddress_Override(c ConnectEmailAddress, scope constructs.Construct, id *string, config *ConnectEmailAddressConfig) {
 	_init_.Initialize()
 

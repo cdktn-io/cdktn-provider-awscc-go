@@ -5,14 +5,14 @@ package cognitoidentitypoolprincipaltag
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cognitoidentitypoolprincipaltag/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cognitoidentitypoolprincipaltag/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_identity_pool_principal_tag awscc_cognito_identity_pool_principal_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_identity_pool_principal_tag awscc_cognito_identity_pool_principal_tag}.
 type CognitoIdentityPoolPrincipalTag interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_CognitoIdentityPoolPrincipalTag) UseDefaultsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_identity_pool_principal_tag awscc_cognito_identity_pool_principal_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_identity_pool_principal_tag awscc_cognito_identity_pool_principal_tag} Resource.
 func NewCognitoIdentityPoolPrincipalTag(scope constructs.Construct, id *string, config *CognitoIdentityPoolPrincipalTagConfig) CognitoIdentityPoolPrincipalTag {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewCognitoIdentityPoolPrincipalTag(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_identity_pool_principal_tag awscc_cognito_identity_pool_principal_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_identity_pool_principal_tag awscc_cognito_identity_pool_principal_tag} Resource.
 func NewCognitoIdentityPoolPrincipalTag_Override(c CognitoIdentityPoolPrincipalTag, scope constructs.Construct, id *string, config *CognitoIdentityPoolPrincipalTagConfig) {
 	_init_.Initialize()
 

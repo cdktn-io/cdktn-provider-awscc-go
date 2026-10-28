@@ -16,6 +16,8 @@ func init() {
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "analyticsConfiguration", GoGetter: "AnalyticsConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "analyticsConfigurationInput", GoGetter: "AnalyticsConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
 			_jsii_.MemberProperty{JsiiProperty: "connection", GoGetter: "Connection"},
 			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
@@ -53,22 +55,32 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "moveFromId", GoMethod: "MoveFromId"},
 			_jsii_.MemberMethod{JsiiMethod: "moveTo", GoMethod: "MoveTo"},
 			_jsii_.MemberMethod{JsiiMethod: "moveToId", GoMethod: "MoveToId"},
+			_jsii_.MemberProperty{JsiiProperty: "nlpConfiguration", GoGetter: "NlpConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "nlpConfigurationInput", GoGetter: "NlpConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
 			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
 			_jsii_.MemberProperty{JsiiProperty: "preloadDataConfig", GoGetter: "PreloadDataConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "preloadDataConfigInput", GoGetter: "PreloadDataConfigInput"},
+			_jsii_.MemberProperty{JsiiProperty: "profileConfiguration", GoGetter: "ProfileConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "profileConfigurationInput", GoGetter: "ProfileConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
+			_jsii_.MemberMethod{JsiiMethod: "putAnalyticsConfiguration", GoMethod: "PutAnalyticsConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putIdentityProviderConfiguration", GoMethod: "PutIdentityProviderConfiguration"},
+			_jsii_.MemberMethod{JsiiMethod: "putNlpConfiguration", GoMethod: "PutNlpConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putPreloadDataConfig", GoMethod: "PutPreloadDataConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "putProfileConfiguration", GoMethod: "PutProfileConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putSseConfiguration", GoMethod: "PutSseConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putTags", GoMethod: "PutTags"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAnalyticsConfiguration", GoMethod: "ResetAnalyticsConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDatastoreName", GoMethod: "ResetDatastoreName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetIdentityProviderConfiguration", GoMethod: "ResetIdentityProviderConfiguration"},
+			_jsii_.MemberMethod{JsiiMethod: "resetNlpConfiguration", GoMethod: "ResetNlpConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPreloadDataConfig", GoMethod: "ResetPreloadDataConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "resetProfileConfiguration", GoMethod: "ResetProfileConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSseConfiguration", GoMethod: "ResetSseConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberProperty{JsiiProperty: "sseConfiguration", GoGetter: "SseConfiguration"},
@@ -89,6 +101,45 @@ func init() {
 		func() interface{} {
 			j := jsiiProxy_HealthlakeFhirDatastore{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.healthlakeFhirDatastore.HealthlakeFhirDatastoreAnalyticsConfiguration",
+		reflect.TypeOf((*HealthlakeFhirDatastoreAnalyticsConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.healthlakeFhirDatastore.HealthlakeFhirDatastoreAnalyticsConfigurationOutputReference",
+		reflect.TypeOf((*HealthlakeFhirDatastoreAnalyticsConfigurationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetStatus", GoMethod: "ResetStatus"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "status", GoGetter: "Status"},
+			_jsii_.MemberProperty{JsiiProperty: "statusInput", GoGetter: "StatusInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_HealthlakeFhirDatastoreAnalyticsConfigurationOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -183,6 +234,45 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.healthlakeFhirDatastore.HealthlakeFhirDatastoreNlpConfiguration",
+		reflect.TypeOf((*HealthlakeFhirDatastoreNlpConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.healthlakeFhirDatastore.HealthlakeFhirDatastoreNlpConfigurationOutputReference",
+		reflect.TypeOf((*HealthlakeFhirDatastoreNlpConfigurationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetStatus", GoMethod: "ResetStatus"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "status", GoGetter: "Status"},
+			_jsii_.MemberProperty{JsiiProperty: "statusInput", GoGetter: "StatusInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_HealthlakeFhirDatastoreNlpConfigurationOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-awscc.healthlakeFhirDatastore.HealthlakeFhirDatastorePreloadDataConfig",
 		reflect.TypeOf((*HealthlakeFhirDatastorePreloadDataConfig)(nil)).Elem(),
 	)
@@ -217,6 +307,45 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_HealthlakeFhirDatastorePreloadDataConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.healthlakeFhirDatastore.HealthlakeFhirDatastoreProfileConfiguration",
+		reflect.TypeOf((*HealthlakeFhirDatastoreProfileConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.healthlakeFhirDatastore.HealthlakeFhirDatastoreProfileConfigurationOutputReference",
+		reflect.TypeOf((*HealthlakeFhirDatastoreProfileConfigurationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "defaultProfiles", GoGetter: "DefaultProfiles"},
+			_jsii_.MemberProperty{JsiiProperty: "defaultProfilesInput", GoGetter: "DefaultProfilesInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDefaultProfiles", GoMethod: "ResetDefaultProfiles"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_HealthlakeFhirDatastoreProfileConfigurationOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

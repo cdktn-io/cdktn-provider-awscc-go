@@ -5,14 +5,14 @@ package deadlinequeuelimitassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinequeuelimitassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinequeuelimitassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_queue_limit_association awscc_deadline_queue_limit_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_queue_limit_association awscc_deadline_queue_limit_association}.
 type DeadlineQueueLimitAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_DeadlineQueueLimitAssociation) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_queue_limit_association awscc_deadline_queue_limit_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_queue_limit_association awscc_deadline_queue_limit_association} Resource.
 func NewDeadlineQueueLimitAssociation(scope constructs.Construct, id *string, config *DeadlineQueueLimitAssociationConfig) DeadlineQueueLimitAssociation {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewDeadlineQueueLimitAssociation(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_queue_limit_association awscc_deadline_queue_limit_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_queue_limit_association awscc_deadline_queue_limit_association} Resource.
 func NewDeadlineQueueLimitAssociation_Override(d DeadlineQueueLimitAssociation, scope constructs.Construct, id *string, config *DeadlineQueueLimitAssociationConfig) {
 	_init_.Initialize()
 

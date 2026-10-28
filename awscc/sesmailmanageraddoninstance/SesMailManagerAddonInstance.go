@@ -5,14 +5,14 @@ package sesmailmanageraddoninstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesmailmanageraddoninstance/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesmailmanageraddoninstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_mail_manager_addon_instance awscc_ses_mail_manager_addon_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_mail_manager_addon_instance awscc_ses_mail_manager_addon_instance}.
 type SesMailManagerAddonInstance interface {
 	cdktn.TerraformResource
 	AddonInstanceArn() *string
@@ -435,7 +435,7 @@ func (j *jsiiProxy_SesMailManagerAddonInstance) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_mail_manager_addon_instance awscc_ses_mail_manager_addon_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_mail_manager_addon_instance awscc_ses_mail_manager_addon_instance} Resource.
 func NewSesMailManagerAddonInstance(scope constructs.Construct, id *string, config *SesMailManagerAddonInstanceConfig) SesMailManagerAddonInstance {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewSesMailManagerAddonInstance(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_mail_manager_addon_instance awscc_ses_mail_manager_addon_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_mail_manager_addon_instance awscc_ses_mail_manager_addon_instance} Resource.
 func NewSesMailManagerAddonInstance_Override(s SesMailManagerAddonInstance, scope constructs.Construct, id *string, config *SesMailManagerAddonInstanceConfig) {
 	_init_.Initialize()
 

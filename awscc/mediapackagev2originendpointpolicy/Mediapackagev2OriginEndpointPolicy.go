@@ -5,14 +5,14 @@ package mediapackagev2originendpointpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediapackagev2originendpointpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediapackagev2originendpointpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediapackagev2_origin_endpoint_policy awscc_mediapackagev2_origin_endpoint_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediapackagev2_origin_endpoint_policy awscc_mediapackagev2_origin_endpoint_policy}.
 type Mediapackagev2OriginEndpointPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_Mediapackagev2OriginEndpointPolicy) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediapackagev2_origin_endpoint_policy awscc_mediapackagev2_origin_endpoint_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediapackagev2_origin_endpoint_policy awscc_mediapackagev2_origin_endpoint_policy} Resource.
 func NewMediapackagev2OriginEndpointPolicy(scope constructs.Construct, id *string, config *Mediapackagev2OriginEndpointPolicyConfig) Mediapackagev2OriginEndpointPolicy {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewMediapackagev2OriginEndpointPolicy(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediapackagev2_origin_endpoint_policy awscc_mediapackagev2_origin_endpoint_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediapackagev2_origin_endpoint_policy awscc_mediapackagev2_origin_endpoint_policy} Resource.
 func NewMediapackagev2OriginEndpointPolicy_Override(m Mediapackagev2OriginEndpointPolicy, scope constructs.Construct, id *string, config *Mediapackagev2OriginEndpointPolicyConfig) {
 	_init_.Initialize()
 

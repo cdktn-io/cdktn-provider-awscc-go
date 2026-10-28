@@ -5,14 +5,14 @@ package dataawsccapigatewayv2integration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2integration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2integration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_integration awscc_apigatewayv2_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_integration awscc_apigatewayv2_integration}.
 type DataAwsccApigatewayv2Integration interface {
 	cdktn.TerraformDataSource
 	ApiId() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_DataAwsccApigatewayv2Integration) TlsConfig() DataAwsccApigat
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_integration awscc_apigatewayv2_integration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_integration awscc_apigatewayv2_integration} Data Source.
 func NewDataAwsccApigatewayv2Integration(scope constructs.Construct, id *string, config *DataAwsccApigatewayv2IntegrationConfig) DataAwsccApigatewayv2Integration {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewDataAwsccApigatewayv2Integration(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_integration awscc_apigatewayv2_integration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_integration awscc_apigatewayv2_integration} Data Source.
 func NewDataAwsccApigatewayv2Integration_Override(d DataAwsccApigatewayv2Integration, scope constructs.Construct, id *string, config *DataAwsccApigatewayv2IntegrationConfig) {
 	_init_.Initialize()
 

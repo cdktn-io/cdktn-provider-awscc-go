@@ -5,14 +5,14 @@ package route53recoverycontrolsafetyrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoverycontrolsafetyrule/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoverycontrolsafetyrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoverycontrol_safety_rule awscc_route53recoverycontrol_safety_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoverycontrol_safety_rule awscc_route53recoverycontrol_safety_rule}.
 type Route53RecoverycontrolSafetyRule interface {
 	cdktn.TerraformResource
 	AssertionRule() Route53RecoverycontrolSafetyRuleAssertionRuleOutputReference
@@ -521,7 +521,7 @@ func (j *jsiiProxy_Route53RecoverycontrolSafetyRule) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoverycontrol_safety_rule awscc_route53recoverycontrol_safety_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoverycontrol_safety_rule awscc_route53recoverycontrol_safety_rule} Resource.
 func NewRoute53RecoverycontrolSafetyRule(scope constructs.Construct, id *string, config *Route53RecoverycontrolSafetyRuleConfig) Route53RecoverycontrolSafetyRule {
 	_init_.Initialize()
 
@@ -539,7 +539,7 @@ func NewRoute53RecoverycontrolSafetyRule(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoverycontrol_safety_rule awscc_route53recoverycontrol_safety_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoverycontrol_safety_rule awscc_route53recoverycontrol_safety_rule} Resource.
 func NewRoute53RecoverycontrolSafetyRule_Override(r Route53RecoverycontrolSafetyRule, scope constructs.Construct, id *string, config *Route53RecoverycontrolSafetyRuleConfig) {
 	_init_.Initialize()
 

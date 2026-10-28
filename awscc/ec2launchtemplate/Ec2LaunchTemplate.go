@@ -5,14 +5,14 @@ package ec2launchtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2launchtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2launchtemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_launch_template awscc_ec2_launch_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_launch_template awscc_ec2_launch_template}.
 type Ec2LaunchTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -483,7 +483,7 @@ func (j *jsiiProxy_Ec2LaunchTemplate) VersionDescriptionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_launch_template awscc_ec2_launch_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_launch_template awscc_ec2_launch_template} Resource.
 func NewEc2LaunchTemplate(scope constructs.Construct, id *string, config *Ec2LaunchTemplateConfig) Ec2LaunchTemplate {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewEc2LaunchTemplate(scope constructs.Construct, id *string, config *Ec2Lau
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_launch_template awscc_ec2_launch_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_launch_template awscc_ec2_launch_template} Resource.
 func NewEc2LaunchTemplate_Override(e Ec2LaunchTemplate, scope constructs.Construct, id *string, config *Ec2LaunchTemplateConfig) {
 	_init_.Initialize()
 

@@ -24,23 +24,23 @@ type AppfabricIngestionDestinationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The Amazon Resource Name (ARN) of the app bundle.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination#app_bundle_arn AppfabricIngestionDestination#app_bundle_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination#app_bundle_arn AppfabricIngestionDestination#app_bundle_arn}
 	AppBundleArn *string `field:"required" json:"appBundleArn" yaml:"appBundleArn"`
 	// Contains information about the destination of ingested data.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination#destination_configuration AppfabricIngestionDestination#destination_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination#destination_configuration AppfabricIngestionDestination#destination_configuration}
 	DestinationConfiguration *AppfabricIngestionDestinationDestinationConfiguration `field:"required" json:"destinationConfiguration" yaml:"destinationConfiguration"`
 	// The Amazon Resource Name (ARN) of the ingestion.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination#ingestion_arn AppfabricIngestionDestination#ingestion_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination#ingestion_arn AppfabricIngestionDestination#ingestion_arn}
 	IngestionArn *string `field:"required" json:"ingestionArn" yaml:"ingestionArn"`
 	// Contains information about how ingested data is processed.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination#processing_configuration AppfabricIngestionDestination#processing_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination#processing_configuration AppfabricIngestionDestination#processing_configuration}
 	ProcessingConfiguration *AppfabricIngestionDestinationProcessingConfiguration `field:"required" json:"processingConfiguration" yaml:"processingConfiguration"`
 	// A map of the key-value pairs of the tag or tags to assign to the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appfabric_ingestion_destination#tags AppfabricIngestionDestination#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appfabric_ingestion_destination#tags AppfabricIngestionDestination#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

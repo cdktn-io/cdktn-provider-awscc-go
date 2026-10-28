@@ -5,14 +5,14 @@ package dataawsccgreengrassv2deployments
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgreengrassv2deployments/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgreengrassv2deployments/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/greengrassv2_deployments awscc_greengrassv2_deployments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/greengrassv2_deployments awscc_greengrassv2_deployments}.
 type DataAwsccGreengrassv2Deployments interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGreengrassv2Deployments) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/greengrassv2_deployments awscc_greengrassv2_deployments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/greengrassv2_deployments awscc_greengrassv2_deployments} Data Source.
 func NewDataAwsccGreengrassv2Deployments(scope constructs.Construct, id *string, config *DataAwsccGreengrassv2DeploymentsConfig) DataAwsccGreengrassv2Deployments {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGreengrassv2Deployments(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/greengrassv2_deployments awscc_greengrassv2_deployments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/greengrassv2_deployments awscc_greengrassv2_deployments} Data Source.
 func NewDataAwsccGreengrassv2Deployments_Override(d DataAwsccGreengrassv2Deployments, scope constructs.Construct, id *string, config *DataAwsccGreengrassv2DeploymentsConfig) {
 	_init_.Initialize()
 

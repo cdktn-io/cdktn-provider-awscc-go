@@ -5,14 +5,14 @@ package dataawscciotwirelessdeviceprofiles
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessdeviceprofiles/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessdeviceprofiles/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_device_profiles awscc_iotwireless_device_profiles}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_device_profiles awscc_iotwireless_device_profiles}.
 type DataAwsccIotwirelessDeviceProfiles interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotwirelessDeviceProfiles) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_device_profiles awscc_iotwireless_device_profiles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_device_profiles awscc_iotwireless_device_profiles} Data Source.
 func NewDataAwsccIotwirelessDeviceProfiles(scope constructs.Construct, id *string, config *DataAwsccIotwirelessDeviceProfilesConfig) DataAwsccIotwirelessDeviceProfiles {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotwirelessDeviceProfiles(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_device_profiles awscc_iotwireless_device_profiles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_device_profiles awscc_iotwireless_device_profiles} Data Source.
 func NewDataAwsccIotwirelessDeviceProfiles_Override(d DataAwsccIotwirelessDeviceProfiles, scope constructs.Construct, id *string, config *DataAwsccIotwirelessDeviceProfilesConfig) {
 	_init_.Initialize()
 

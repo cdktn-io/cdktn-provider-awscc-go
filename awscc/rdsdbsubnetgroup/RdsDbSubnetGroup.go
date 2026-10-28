@@ -5,14 +5,14 @@ package rdsdbsubnetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbsubnetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbsubnetgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_subnet_group awscc_rds_db_subnet_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_subnet_group awscc_rds_db_subnet_group}.
 type RdsDbSubnetGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -460,7 +460,7 @@ func (j *jsiiProxy_RdsDbSubnetGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_subnet_group awscc_rds_db_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_subnet_group awscc_rds_db_subnet_group} Resource.
 func NewRdsDbSubnetGroup(scope constructs.Construct, id *string, config *RdsDbSubnetGroupConfig) RdsDbSubnetGroup {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewRdsDbSubnetGroup(scope constructs.Construct, id *string, config *RdsDbSu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_subnet_group awscc_rds_db_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_subnet_group awscc_rds_db_subnet_group} Resource.
 func NewRdsDbSubnetGroup_Override(r RdsDbSubnetGroup, scope constructs.Construct, id *string, config *RdsDbSubnetGroupConfig) {
 	_init_.Initialize()
 

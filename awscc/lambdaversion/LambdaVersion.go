@@ -5,14 +5,14 @@ package lambdaversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaversion/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_version awscc_lambda_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_version awscc_lambda_version}.
 type LambdaVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_LambdaVersion) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_version awscc_lambda_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_version awscc_lambda_version} Resource.
 func NewLambdaVersion(scope constructs.Construct, id *string, config *LambdaVersionConfig) LambdaVersion {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewLambdaVersion(scope constructs.Construct, id *string, config *LambdaVers
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_version awscc_lambda_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_version awscc_lambda_version} Resource.
 func NewLambdaVersion_Override(l LambdaVersion, scope constructs.Construct, id *string, config *LambdaVersionConfig) {
 	_init_.Initialize()
 

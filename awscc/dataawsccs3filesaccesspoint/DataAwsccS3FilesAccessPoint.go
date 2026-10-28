@@ -5,14 +5,14 @@ package dataawsccs3filesaccesspoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3filesaccesspoint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3filesaccesspoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3files_access_point awscc_s3files_access_point}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3files_access_point awscc_s3files_access_point}.
 type DataAwsccS3FilesAccessPoint interface {
 	cdktn.TerraformDataSource
 	AccessPointArn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccS3FilesAccessPoint) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3files_access_point awscc_s3files_access_point} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3files_access_point awscc_s3files_access_point} Data Source.
 func NewDataAwsccS3FilesAccessPoint(scope constructs.Construct, id *string, config *DataAwsccS3FilesAccessPointConfig) DataAwsccS3FilesAccessPoint {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccS3FilesAccessPoint(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3files_access_point awscc_s3files_access_point} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3files_access_point awscc_s3files_access_point} Data Source.
 func NewDataAwsccS3FilesAccessPoint_Override(d DataAwsccS3FilesAccessPoint, scope constructs.Construct, id *string, config *DataAwsccS3FilesAccessPointConfig) {
 	_init_.Initialize()
 

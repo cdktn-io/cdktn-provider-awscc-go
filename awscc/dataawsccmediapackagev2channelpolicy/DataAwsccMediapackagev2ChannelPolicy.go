@@ -5,14 +5,14 @@ package dataawsccmediapackagev2channelpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagev2channelpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagev2channelpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_channel_policy awscc_mediapackagev2_channel_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackagev2_channel_policy awscc_mediapackagev2_channel_policy}.
 type DataAwsccMediapackagev2ChannelPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccMediapackagev2ChannelPolicy) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_channel_policy awscc_mediapackagev2_channel_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackagev2_channel_policy awscc_mediapackagev2_channel_policy} Data Source.
 func NewDataAwsccMediapackagev2ChannelPolicy(scope constructs.Construct, id *string, config *DataAwsccMediapackagev2ChannelPolicyConfig) DataAwsccMediapackagev2ChannelPolicy {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccMediapackagev2ChannelPolicy(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_channel_policy awscc_mediapackagev2_channel_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackagev2_channel_policy awscc_mediapackagev2_channel_policy} Data Source.
 func NewDataAwsccMediapackagev2ChannelPolicy_Override(d DataAwsccMediapackagev2ChannelPolicy, scope constructs.Construct, id *string, config *DataAwsccMediapackagev2ChannelPolicyConfig) {
 	_init_.Initialize()
 

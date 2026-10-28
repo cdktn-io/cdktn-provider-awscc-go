@@ -5,14 +5,14 @@ package iotauthorizer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotauthorizer/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotauthorizer/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_authorizer awscc_iot_authorizer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_authorizer awscc_iot_authorizer}.
 type IotAuthorizer interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -557,7 +557,7 @@ func (j *jsiiProxy_IotAuthorizer) TokenSigningPublicKeysInput() *map[string]*str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_authorizer awscc_iot_authorizer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_authorizer awscc_iot_authorizer} Resource.
 func NewIotAuthorizer(scope constructs.Construct, id *string, config *IotAuthorizerConfig) IotAuthorizer {
 	_init_.Initialize()
 
@@ -575,7 +575,7 @@ func NewIotAuthorizer(scope constructs.Construct, id *string, config *IotAuthori
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_authorizer awscc_iot_authorizer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_authorizer awscc_iot_authorizer} Resource.
 func NewIotAuthorizer_Override(i IotAuthorizer, scope constructs.Construct, id *string, config *IotAuthorizerConfig) {
 	_init_.Initialize()
 

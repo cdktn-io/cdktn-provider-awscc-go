@@ -5,14 +5,14 @@ package apigatewayapikey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayapikey/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayapikey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_api_key awscc_apigateway_api_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_api_key awscc_apigateway_api_key}.
 type ApigatewayApiKey interface {
 	cdktn.TerraformResource
 	ApiKeyId() *string
@@ -558,7 +558,7 @@ func (j *jsiiProxy_ApigatewayApiKey) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_api_key awscc_apigateway_api_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_api_key awscc_apigateway_api_key} Resource.
 func NewApigatewayApiKey(scope constructs.Construct, id *string, config *ApigatewayApiKeyConfig) ApigatewayApiKey {
 	_init_.Initialize()
 
@@ -576,7 +576,7 @@ func NewApigatewayApiKey(scope constructs.Construct, id *string, config *Apigate
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_api_key awscc_apigateway_api_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_api_key awscc_apigateway_api_key} Resource.
 func NewApigatewayApiKey_Override(a ApigatewayApiKey, scope constructs.Construct, id *string, config *ApigatewayApiKeyConfig) {
 	_init_.Initialize()
 

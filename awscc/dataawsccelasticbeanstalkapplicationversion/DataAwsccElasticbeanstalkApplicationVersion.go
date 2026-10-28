@@ -5,14 +5,14 @@ package dataawsccelasticbeanstalkapplicationversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkapplicationversion/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkapplicationversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version}.
 type DataAwsccElasticbeanstalkApplicationVersion interface {
 	cdktn.TerraformDataSource
 	ApplicationName() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccElasticbeanstalkApplicationVersion) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version} Data Source.
 func NewDataAwsccElasticbeanstalkApplicationVersion(scope constructs.Construct, id *string, config *DataAwsccElasticbeanstalkApplicationVersionConfig) DataAwsccElasticbeanstalkApplicationVersion {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccElasticbeanstalkApplicationVersion(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version} Data Source.
 func NewDataAwsccElasticbeanstalkApplicationVersion_Override(d DataAwsccElasticbeanstalkApplicationVersion, scope constructs.Construct, id *string, config *DataAwsccElasticbeanstalkApplicationVersionConfig) {
 	_init_.Initialize()
 

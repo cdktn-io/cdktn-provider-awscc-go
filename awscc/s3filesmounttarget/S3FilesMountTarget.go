@@ -5,14 +5,14 @@ package s3filesmounttarget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3filesmounttarget/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3filesmounttarget/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3files_mount_target awscc_s3files_mount_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3files_mount_target awscc_s3files_mount_target}.
 type S3FilesMountTarget interface {
 	cdktn.TerraformResource
 	AvailabilityZoneId() *string
@@ -574,7 +574,7 @@ func (j *jsiiProxy_S3FilesMountTarget) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3files_mount_target awscc_s3files_mount_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3files_mount_target awscc_s3files_mount_target} Resource.
 func NewS3FilesMountTarget(scope constructs.Construct, id *string, config *S3FilesMountTargetConfig) S3FilesMountTarget {
 	_init_.Initialize()
 
@@ -592,7 +592,7 @@ func NewS3FilesMountTarget(scope constructs.Construct, id *string, config *S3Fil
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3files_mount_target awscc_s3files_mount_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3files_mount_target awscc_s3files_mount_target} Resource.
 func NewS3FilesMountTarget_Override(s S3FilesMountTarget, scope constructs.Construct, id *string, config *S3FilesMountTargetConfig) {
 	_init_.Initialize()
 

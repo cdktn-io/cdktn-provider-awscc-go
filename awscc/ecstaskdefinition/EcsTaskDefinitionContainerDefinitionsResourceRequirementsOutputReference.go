@@ -5,9 +5,9 @@ package ecstaskdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecstaskdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecstaskdefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,6 +32,8 @@ type EcsTaskDefinitionContainerDefinitionsResourceRequirementsOutputReference in
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	SharingStrategy() EcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference
+	SharingStrategyInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -70,6 +72,8 @@ type EcsTaskDefinitionContainerDefinitionsResourceRequirementsOutputReference in
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutSharingStrategy(value *EcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategy)
+	ResetSharingStrategy()
 	ResetType()
 	ResetValue()
 	// Produce the Token's value at resolution time.
@@ -132,6 +136,26 @@ func (j *jsiiProxy_EcsTaskDefinitionContainerDefinitionsResourceRequirementsOutp
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsTaskDefinitionContainerDefinitionsResourceRequirementsOutputReference) SharingStrategy() EcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference {
+	var returns EcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference
+	_jsii_.Get(
+		j,
+		"sharingStrategy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsTaskDefinitionContainerDefinitionsResourceRequirementsOutputReference) SharingStrategyInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sharingStrategyInput",
 		&returns,
 	)
 	return returns
@@ -486,6 +510,25 @@ func (e *jsiiProxy_EcsTaskDefinitionContainerDefinitionsResourceRequirementsOutp
 	)
 
 	return returns
+}
+
+func (e *jsiiProxy_EcsTaskDefinitionContainerDefinitionsResourceRequirementsOutputReference) PutSharingStrategy(value *EcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategy) {
+	if err := e.validatePutSharingStrategyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putSharingStrategy",
+		[]interface{}{value},
+	)
+}
+
+func (e *jsiiProxy_EcsTaskDefinitionContainerDefinitionsResourceRequirementsOutputReference) ResetSharingStrategy() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetSharingStrategy",
+		nil, // no parameters
+	)
 }
 
 func (e *jsiiProxy_EcsTaskDefinitionContainerDefinitionsResourceRequirementsOutputReference) ResetType() {

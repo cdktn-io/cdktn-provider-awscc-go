@@ -5,14 +5,14 @@ package datasynclocationnfs
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationnfs/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationnfs/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_nfs awscc_datasync_location_nfs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_nfs awscc_datasync_location_nfs}.
 type DatasyncLocationNfs interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_DatasyncLocationNfs) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_nfs awscc_datasync_location_nfs} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_nfs awscc_datasync_location_nfs} Resource.
 func NewDatasyncLocationNfs(scope constructs.Construct, id *string, config *DatasyncLocationNfsConfig) DatasyncLocationNfs {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewDatasyncLocationNfs(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_nfs awscc_datasync_location_nfs} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_nfs awscc_datasync_location_nfs} Resource.
 func NewDatasyncLocationNfs_Override(d DatasyncLocationNfs, scope constructs.Construct, id *string, config *DatasyncLocationNfsConfig) {
 	_init_.Initialize()
 

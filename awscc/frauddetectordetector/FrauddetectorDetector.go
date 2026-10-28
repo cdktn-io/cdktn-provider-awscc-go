@@ -5,14 +5,14 @@ package frauddetectordetector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/frauddetectordetector/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/frauddetectordetector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/frauddetector_detector awscc_frauddetector_detector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/frauddetector_detector awscc_frauddetector_detector}.
 type FrauddetectorDetector interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -588,7 +588,7 @@ func (j *jsiiProxy_FrauddetectorDetector) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/frauddetector_detector awscc_frauddetector_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/frauddetector_detector awscc_frauddetector_detector} Resource.
 func NewFrauddetectorDetector(scope constructs.Construct, id *string, config *FrauddetectorDetectorConfig) FrauddetectorDetector {
 	_init_.Initialize()
 
@@ -606,7 +606,7 @@ func NewFrauddetectorDetector(scope constructs.Construct, id *string, config *Fr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/frauddetector_detector awscc_frauddetector_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/frauddetector_detector awscc_frauddetector_detector} Resource.
 func NewFrauddetectorDetector_Override(f FrauddetectorDetector, scope constructs.Construct, id *string, config *FrauddetectorDetectorConfig) {
 	_init_.Initialize()
 

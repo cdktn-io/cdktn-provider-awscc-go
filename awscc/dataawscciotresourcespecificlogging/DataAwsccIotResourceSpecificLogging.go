@@ -5,14 +5,14 @@ package dataawscciotresourcespecificlogging
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotresourcespecificlogging/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotresourcespecificlogging/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_resource_specific_logging awscc_iot_resource_specific_logging}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_resource_specific_logging awscc_iot_resource_specific_logging}.
 type DataAwsccIotResourceSpecificLogging interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccIotResourceSpecificLogging) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_resource_specific_logging awscc_iot_resource_specific_logging} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_resource_specific_logging awscc_iot_resource_specific_logging} Data Source.
 func NewDataAwsccIotResourceSpecificLogging(scope constructs.Construct, id *string, config *DataAwsccIotResourceSpecificLoggingConfig) DataAwsccIotResourceSpecificLogging {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccIotResourceSpecificLogging(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_resource_specific_logging awscc_iot_resource_specific_logging} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_resource_specific_logging awscc_iot_resource_specific_logging} Data Source.
 func NewDataAwsccIotResourceSpecificLogging_Override(d DataAwsccIotResourceSpecificLogging, scope constructs.Construct, id *string, config *DataAwsccIotResourceSpecificLoggingConfig) {
 	_init_.Initialize()
 

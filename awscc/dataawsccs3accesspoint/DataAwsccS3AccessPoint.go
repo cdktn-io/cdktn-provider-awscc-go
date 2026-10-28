@@ -5,14 +5,14 @@ package dataawsccs3accesspoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3accesspoint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3accesspoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_access_point awscc_s3_access_point}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_access_point awscc_s3_access_point}.
 type DataAwsccS3AccessPoint interface {
 	cdktn.TerraformDataSource
 	Alias() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccS3AccessPoint) VpcConfiguration() DataAwsccS3AccessP
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_access_point awscc_s3_access_point} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_access_point awscc_s3_access_point} Data Source.
 func NewDataAwsccS3AccessPoint(scope constructs.Construct, id *string, config *DataAwsccS3AccessPointConfig) DataAwsccS3AccessPoint {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccS3AccessPoint(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_access_point awscc_s3_access_point} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_access_point awscc_s3_access_point} Data Source.
 func NewDataAwsccS3AccessPoint_Override(d DataAwsccS3AccessPoint, scope constructs.Construct, id *string, config *DataAwsccS3AccessPointConfig) {
 	_init_.Initialize()
 

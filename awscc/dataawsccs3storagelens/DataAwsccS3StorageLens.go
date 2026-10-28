@@ -5,14 +5,14 @@ package dataawsccs3storagelens
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelens/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelens/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_storage_lens awscc_s3_storage_lens}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_storage_lens awscc_s3_storage_lens}.
 type DataAwsccS3StorageLens interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccS3StorageLens) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_storage_lens awscc_s3_storage_lens} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_storage_lens awscc_s3_storage_lens} Data Source.
 func NewDataAwsccS3StorageLens(scope constructs.Construct, id *string, config *DataAwsccS3StorageLensConfig) DataAwsccS3StorageLens {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccS3StorageLens(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_storage_lens awscc_s3_storage_lens} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_storage_lens awscc_s3_storage_lens} Data Source.
 func NewDataAwsccS3StorageLens_Override(d DataAwsccS3StorageLens, scope constructs.Construct, id *string, config *DataAwsccS3StorageLensConfig) {
 	_init_.Initialize()
 

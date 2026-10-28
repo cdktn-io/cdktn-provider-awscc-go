@@ -5,14 +5,14 @@ package dataawsccservicecatalogtagoptionassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogtagoptionassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogtagoptionassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_tag_option_association awscc_servicecatalog_tag_option_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_tag_option_association awscc_servicecatalog_tag_option_association}.
 type DataAwsccServicecatalogTagOptionAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccServicecatalogTagOptionAssociation) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_tag_option_association awscc_servicecatalog_tag_option_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_tag_option_association awscc_servicecatalog_tag_option_association} Data Source.
 func NewDataAwsccServicecatalogTagOptionAssociation(scope constructs.Construct, id *string, config *DataAwsccServicecatalogTagOptionAssociationConfig) DataAwsccServicecatalogTagOptionAssociation {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccServicecatalogTagOptionAssociation(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_tag_option_association awscc_servicecatalog_tag_option_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_tag_option_association awscc_servicecatalog_tag_option_association} Data Source.
 func NewDataAwsccServicecatalogTagOptionAssociation_Override(d DataAwsccServicecatalogTagOptionAssociation, scope constructs.Construct, id *string, config *DataAwsccServicecatalogTagOptionAssociationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package b2bicapability
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/b2bicapability/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/b2bicapability/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability awscc_b2bi_capability}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability awscc_b2bi_capability}.
 type B2BiCapability interface {
 	cdktn.TerraformResource
 	CapabilityArn() *string
@@ -516,7 +516,7 @@ func (j *jsiiProxy_B2BiCapability) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability awscc_b2bi_capability} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability awscc_b2bi_capability} Resource.
 func NewB2BiCapability(scope constructs.Construct, id *string, config *B2BiCapabilityConfig) B2BiCapability {
 	_init_.Initialize()
 
@@ -534,7 +534,7 @@ func NewB2BiCapability(scope constructs.Construct, id *string, config *B2BiCapab
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/b2bi_capability awscc_b2bi_capability} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/b2bi_capability awscc_b2bi_capability} Resource.
 func NewB2BiCapability_Override(b B2BiCapability, scope constructs.Construct, id *string, config *B2BiCapabilityConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccroute53resolverresolverqueryloggingconfigassociations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverresolverqueryloggingconfigassociations/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverresolverqueryloggingconfigassociations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_resolver_query_logging_config_associations awscc_route53resolver_resolver_query_logging_config_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_resolver_query_logging_config_associations awscc_route53resolver_resolver_query_logging_config_associations}.
 type DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociation
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_resolver_query_logging_config_associations awscc_route53resolver_resolver_query_logging_config_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_resolver_query_logging_config_associations awscc_route53resolver_resolver_query_logging_config_associations} Data Source.
 func NewDataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations(scope constructs.Construct, id *string, config *DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociationsConfig) DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations(scope con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_resolver_query_logging_config_associations awscc_route53resolver_resolver_query_logging_config_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_resolver_query_logging_config_associations awscc_route53resolver_resolver_query_logging_config_associations} Data Source.
 func NewDataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations_Override(d DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociations, scope constructs.Construct, id *string, config *DataAwsccRoute53ResolverResolverQueryLoggingConfigAssociationsConfig) {
 	_init_.Initialize()
 

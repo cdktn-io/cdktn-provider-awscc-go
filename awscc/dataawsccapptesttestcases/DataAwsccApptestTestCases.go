@@ -5,14 +5,14 @@ package dataawsccapptesttestcases
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapptesttestcases/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapptesttestcases/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apptest_test_cases awscc_apptest_test_cases}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apptest_test_cases awscc_apptest_test_cases}.
 type DataAwsccApptestTestCases interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccApptestTestCases) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apptest_test_cases awscc_apptest_test_cases} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apptest_test_cases awscc_apptest_test_cases} Data Source.
 func NewDataAwsccApptestTestCases(scope constructs.Construct, id *string, config *DataAwsccApptestTestCasesConfig) DataAwsccApptestTestCases {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccApptestTestCases(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apptest_test_cases awscc_apptest_test_cases} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apptest_test_cases awscc_apptest_test_cases} Data Source.
 func NewDataAwsccApptestTestCases_Override(d DataAwsccApptestTestCases, scope constructs.Construct, id *string, config *DataAwsccApptestTestCasesConfig) {
 	_init_.Initialize()
 

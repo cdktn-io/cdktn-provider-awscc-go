@@ -5,14 +5,14 @@ package iamrolepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamrolepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamrolepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_role_policy awscc_iam_role_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_role_policy awscc_iam_role_policy}.
 type IamRolePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_IamRolePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_role_policy awscc_iam_role_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_role_policy awscc_iam_role_policy} Resource.
 func NewIamRolePolicy(scope constructs.Construct, id *string, config *IamRolePolicyConfig) IamRolePolicy {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewIamRolePolicy(scope constructs.Construct, id *string, config *IamRolePol
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_role_policy awscc_iam_role_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_role_policy awscc_iam_role_policy} Resource.
 func NewIamRolePolicy_Override(i IamRolePolicy, scope constructs.Construct, id *string, config *IamRolePolicyConfig) {
 	_init_.Initialize()
 

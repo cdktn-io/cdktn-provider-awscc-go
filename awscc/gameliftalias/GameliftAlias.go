@@ -5,14 +5,14 @@ package gameliftalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftalias/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftalias/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_alias awscc_gamelift_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_alias awscc_gamelift_alias}.
 type GameliftAlias interface {
 	cdktn.TerraformResource
 	AliasArn() *string
@@ -471,7 +471,7 @@ func (j *jsiiProxy_GameliftAlias) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_alias awscc_gamelift_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_alias awscc_gamelift_alias} Resource.
 func NewGameliftAlias(scope constructs.Construct, id *string, config *GameliftAliasConfig) GameliftAlias {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewGameliftAlias(scope constructs.Construct, id *string, config *GameliftAl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_alias awscc_gamelift_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_alias awscc_gamelift_alias} Resource.
 func NewGameliftAlias_Override(g GameliftAlias, scope constructs.Construct, id *string, config *GameliftAliasConfig) {
 	_init_.Initialize()
 

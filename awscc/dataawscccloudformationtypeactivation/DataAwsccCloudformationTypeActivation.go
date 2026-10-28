@@ -5,14 +5,14 @@ package dataawscccloudformationtypeactivation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationtypeactivation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationtypeactivation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudformation_type_activation awscc_cloudformation_type_activation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudformation_type_activation awscc_cloudformation_type_activation}.
 type DataAwsccCloudformationTypeActivation interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccCloudformationTypeActivation) VersionBump() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudformation_type_activation awscc_cloudformation_type_activation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudformation_type_activation awscc_cloudformation_type_activation} Data Source.
 func NewDataAwsccCloudformationTypeActivation(scope constructs.Construct, id *string, config *DataAwsccCloudformationTypeActivationConfig) DataAwsccCloudformationTypeActivation {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccCloudformationTypeActivation(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudformation_type_activation awscc_cloudformation_type_activation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudformation_type_activation awscc_cloudformation_type_activation} Data Source.
 func NewDataAwsccCloudformationTypeActivation_Override(d DataAwsccCloudformationTypeActivation, scope constructs.Construct, id *string, config *DataAwsccCloudformationTypeActivationConfig) {
 	_init_.Initialize()
 

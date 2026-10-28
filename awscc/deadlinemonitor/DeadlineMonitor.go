@@ -5,14 +5,14 @@ package deadlinemonitor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinemonitor/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinemonitor/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_monitor awscc_deadline_monitor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_monitor awscc_deadline_monitor}.
 type DeadlineMonitor interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -539,7 +539,7 @@ func (j *jsiiProxy_DeadlineMonitor) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_monitor awscc_deadline_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_monitor awscc_deadline_monitor} Resource.
 func NewDeadlineMonitor(scope constructs.Construct, id *string, config *DeadlineMonitorConfig) DeadlineMonitor {
 	_init_.Initialize()
 
@@ -557,7 +557,7 @@ func NewDeadlineMonitor(scope constructs.Construct, id *string, config *Deadline
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_monitor awscc_deadline_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_monitor awscc_deadline_monitor} Resource.
 func NewDeadlineMonitor_Override(d DeadlineMonitor, scope constructs.Construct, id *string, config *DeadlineMonitorConfig) {
 	_init_.Initialize()
 

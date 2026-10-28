@@ -5,14 +5,14 @@ package dataawsccgluesessions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluesessions/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluesessions/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_sessions awscc_glue_sessions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_sessions awscc_glue_sessions}.
 type DataAwsccGlueSessions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGlueSessions) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_sessions awscc_glue_sessions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_sessions awscc_glue_sessions} Data Source.
 func NewDataAwsccGlueSessions(scope constructs.Construct, id *string, config *DataAwsccGlueSessionsConfig) DataAwsccGlueSessions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGlueSessions(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_sessions awscc_glue_sessions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_sessions awscc_glue_sessions} Data Source.
 func NewDataAwsccGlueSessions_Override(d DataAwsccGlueSessions, scope constructs.Construct, id *string, config *DataAwsccGlueSessionsConfig) {
 	_init_.Initialize()
 

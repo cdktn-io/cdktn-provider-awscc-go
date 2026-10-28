@@ -5,14 +5,14 @@ package mediaconvertjobtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconvertjobtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconvertjobtemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconvert_job_template awscc_mediaconvert_job_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_job_template awscc_mediaconvert_job_template}.
 type MediaconvertJobTemplate interface {
 	cdktn.TerraformResource
 	AccelerationSettings() MediaconvertJobTemplateAccelerationSettingsOutputReference
@@ -605,7 +605,7 @@ func (j *jsiiProxy_MediaconvertJobTemplate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconvert_job_template awscc_mediaconvert_job_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_job_template awscc_mediaconvert_job_template} Resource.
 func NewMediaconvertJobTemplate(scope constructs.Construct, id *string, config *MediaconvertJobTemplateConfig) MediaconvertJobTemplate {
 	_init_.Initialize()
 
@@ -623,7 +623,7 @@ func NewMediaconvertJobTemplate(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconvert_job_template awscc_mediaconvert_job_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconvert_job_template awscc_mediaconvert_job_template} Resource.
 func NewMediaconvertJobTemplate_Override(m MediaconvertJobTemplate, scope constructs.Construct, id *string, config *MediaconvertJobTemplateConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package wafv2webaclassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wafv2webaclassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wafv2webaclassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_web_acl_association awscc_wafv2_web_acl_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_web_acl_association awscc_wafv2_web_acl_association}.
 type Wafv2WebAclAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_Wafv2WebAclAssociation) WebAclArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_web_acl_association awscc_wafv2_web_acl_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_web_acl_association awscc_wafv2_web_acl_association} Resource.
 func NewWafv2WebAclAssociation(scope constructs.Construct, id *string, config *Wafv2WebAclAssociationConfig) Wafv2WebAclAssociation {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewWafv2WebAclAssociation(scope constructs.Construct, id *string, config *W
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_web_acl_association awscc_wafv2_web_acl_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_web_acl_association awscc_wafv2_web_acl_association} Resource.
 func NewWafv2WebAclAssociation_Override(w Wafv2WebAclAssociation, scope constructs.Construct, id *string, config *Wafv2WebAclAssociationConfig) {
 	_init_.Initialize()
 

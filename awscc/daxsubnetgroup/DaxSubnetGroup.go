@@ -5,14 +5,14 @@ package daxsubnetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/daxsubnetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/daxsubnetgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dax_subnet_group awscc_dax_subnet_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dax_subnet_group awscc_dax_subnet_group}.
 type DaxSubnetGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -426,7 +426,7 @@ func (j *jsiiProxy_DaxSubnetGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dax_subnet_group awscc_dax_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dax_subnet_group awscc_dax_subnet_group} Resource.
 func NewDaxSubnetGroup(scope constructs.Construct, id *string, config *DaxSubnetGroupConfig) DaxSubnetGroup {
 	_init_.Initialize()
 
@@ -444,7 +444,7 @@ func NewDaxSubnetGroup(scope constructs.Construct, id *string, config *DaxSubnet
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dax_subnet_group awscc_dax_subnet_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dax_subnet_group awscc_dax_subnet_group} Resource.
 func NewDaxSubnetGroup_Override(d DaxSubnetGroup, scope constructs.Construct, id *string, config *DaxSubnetGroupConfig) {
 	_init_.Initialize()
 

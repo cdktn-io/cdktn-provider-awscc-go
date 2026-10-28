@@ -5,14 +5,14 @@ package dataawsccsagemakercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_cluster awscc_sagemaker_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_cluster awscc_sagemaker_cluster}.
 type DataAwsccSagemakerCluster interface {
 	cdktn.TerraformDataSource
 	AutoScaling() DataAwsccSagemakerClusterAutoScalingOutputReference
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataAwsccSagemakerCluster) VpcConfig() DataAwsccSagemakerClus
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_cluster awscc_sagemaker_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_cluster awscc_sagemaker_cluster} Data Source.
 func NewDataAwsccSagemakerCluster(scope constructs.Construct, id *string, config *DataAwsccSagemakerClusterConfig) DataAwsccSagemakerCluster {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataAwsccSagemakerCluster(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_cluster awscc_sagemaker_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_cluster awscc_sagemaker_cluster} Data Source.
 func NewDataAwsccSagemakerCluster_Override(d DataAwsccSagemakerCluster, scope constructs.Construct, id *string, config *DataAwsccSagemakerClusterConfig) {
 	_init_.Initialize()
 

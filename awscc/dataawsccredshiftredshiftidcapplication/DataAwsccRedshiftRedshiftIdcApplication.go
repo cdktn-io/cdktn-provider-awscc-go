@@ -5,14 +5,14 @@ package dataawsccredshiftredshiftidcapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftredshiftidcapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftredshiftidcapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_redshift_idc_application awscc_redshift_redshift_idc_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_redshift_idc_application awscc_redshift_redshift_idc_application}.
 type DataAwsccRedshiftRedshiftIdcApplication interface {
 	cdktn.TerraformDataSource
 	ApplicationType() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccRedshiftRedshiftIdcApplication) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_redshift_idc_application awscc_redshift_redshift_idc_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_redshift_idc_application awscc_redshift_redshift_idc_application} Data Source.
 func NewDataAwsccRedshiftRedshiftIdcApplication(scope constructs.Construct, id *string, config *DataAwsccRedshiftRedshiftIdcApplicationConfig) DataAwsccRedshiftRedshiftIdcApplication {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccRedshiftRedshiftIdcApplication(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_redshift_idc_application awscc_redshift_redshift_idc_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_redshift_idc_application awscc_redshift_redshift_idc_application} Data Source.
 func NewDataAwsccRedshiftRedshiftIdcApplication_Override(d DataAwsccRedshiftRedshiftIdcApplication, scope constructs.Construct, id *string, config *DataAwsccRedshiftRedshiftIdcApplicationConfig) {
 	_init_.Initialize()
 

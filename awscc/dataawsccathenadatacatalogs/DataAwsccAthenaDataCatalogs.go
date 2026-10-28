@@ -5,14 +5,14 @@ package dataawsccathenadatacatalogs
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenadatacatalogs/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenadatacatalogs/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/athena_data_catalogs awscc_athena_data_catalogs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/athena_data_catalogs awscc_athena_data_catalogs}.
 type DataAwsccAthenaDataCatalogs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccAthenaDataCatalogs) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/athena_data_catalogs awscc_athena_data_catalogs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/athena_data_catalogs awscc_athena_data_catalogs} Data Source.
 func NewDataAwsccAthenaDataCatalogs(scope constructs.Construct, id *string, config *DataAwsccAthenaDataCatalogsConfig) DataAwsccAthenaDataCatalogs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccAthenaDataCatalogs(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/athena_data_catalogs awscc_athena_data_catalogs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/athena_data_catalogs awscc_athena_data_catalogs} Data Source.
 func NewDataAwsccAthenaDataCatalogs_Override(d DataAwsccAthenaDataCatalogs, scope constructs.Construct, id *string, config *DataAwsccAthenaDataCatalogsConfig) {
 	_init_.Initialize()
 

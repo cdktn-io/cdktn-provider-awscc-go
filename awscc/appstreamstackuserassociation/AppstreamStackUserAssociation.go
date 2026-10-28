@@ -5,14 +5,14 @@ package appstreamstackuserassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appstreamstackuserassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appstreamstackuserassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_stack_user_association awscc_appstream_stack_user_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_stack_user_association awscc_appstream_stack_user_association}.
 type AppstreamStackUserAssociation interface {
 	cdktn.TerraformResource
 	AuthenticationType() *string
@@ -448,7 +448,7 @@ func (j *jsiiProxy_AppstreamStackUserAssociation) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_stack_user_association awscc_appstream_stack_user_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_stack_user_association awscc_appstream_stack_user_association} Resource.
 func NewAppstreamStackUserAssociation(scope constructs.Construct, id *string, config *AppstreamStackUserAssociationConfig) AppstreamStackUserAssociation {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewAppstreamStackUserAssociation(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_stack_user_association awscc_appstream_stack_user_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_stack_user_association awscc_appstream_stack_user_association} Resource.
 func NewAppstreamStackUserAssociation_Override(a AppstreamStackUserAssociation, scope constructs.Construct, id *string, config *AppstreamStackUserAssociationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccpaymentcryptographykeys
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpaymentcryptographykeys/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpaymentcryptographykeys/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/paymentcryptography_keys awscc_paymentcryptography_keys}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/paymentcryptography_keys awscc_paymentcryptography_keys}.
 type DataAwsccPaymentcryptographyKeys interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccPaymentcryptographyKeys) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/paymentcryptography_keys awscc_paymentcryptography_keys} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/paymentcryptography_keys awscc_paymentcryptography_keys} Data Source.
 func NewDataAwsccPaymentcryptographyKeys(scope constructs.Construct, id *string, config *DataAwsccPaymentcryptographyKeysConfig) DataAwsccPaymentcryptographyKeys {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccPaymentcryptographyKeys(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/paymentcryptography_keys awscc_paymentcryptography_keys} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/paymentcryptography_keys awscc_paymentcryptography_keys} Data Source.
 func NewDataAwsccPaymentcryptographyKeys_Override(d DataAwsccPaymentcryptographyKeys, scope constructs.Construct, id *string, config *DataAwsccPaymentcryptographyKeysConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawscclookoutvisionproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclookoutvisionproject/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclookoutvisionproject/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lookoutvision_project awscc_lookoutvision_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lookoutvision_project awscc_lookoutvision_project}.
 type DataAwsccLookoutvisionProject interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccLookoutvisionProject) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lookoutvision_project awscc_lookoutvision_project} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lookoutvision_project awscc_lookoutvision_project} Data Source.
 func NewDataAwsccLookoutvisionProject(scope constructs.Construct, id *string, config *DataAwsccLookoutvisionProjectConfig) DataAwsccLookoutvisionProject {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccLookoutvisionProject(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lookoutvision_project awscc_lookoutvision_project} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lookoutvision_project awscc_lookoutvision_project} Data Source.
 func NewDataAwsccLookoutvisionProject_Override(d DataAwsccLookoutvisionProject, scope constructs.Construct, id *string, config *DataAwsccLookoutvisionProjectConfig) {
 	_init_.Initialize()
 

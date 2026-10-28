@@ -5,14 +5,14 @@ package redshiftsnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftsnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftsnapshot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot awscc_redshift_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot awscc_redshift_snapshot}.
 type RedshiftSnapshot interface {
 	cdktn.TerraformResource
 	AvailabilityZone() *string
@@ -669,7 +669,7 @@ func (j *jsiiProxy_RedshiftSnapshot) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot awscc_redshift_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot awscc_redshift_snapshot} Resource.
 func NewRedshiftSnapshot(scope constructs.Construct, id *string, config *RedshiftSnapshotConfig) RedshiftSnapshot {
 	_init_.Initialize()
 
@@ -687,7 +687,7 @@ func NewRedshiftSnapshot(scope constructs.Construct, id *string, config *Redshif
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_snapshot awscc_redshift_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_snapshot awscc_redshift_snapshot} Resource.
 func NewRedshiftSnapshot_Override(r RedshiftSnapshot, scope constructs.Construct, id *string, config *RedshiftSnapshotConfig) {
 	_init_.Initialize()
 

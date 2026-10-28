@@ -5,14 +5,14 @@ package quicksightactionconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightactionconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightactionconnector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_action_connector awscc_quicksight_action_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_action_connector awscc_quicksight_action_connector}.
 type QuicksightActionConnector interface {
 	cdktn.TerraformResource
 	ActionConnectorId() *string
@@ -621,7 +621,7 @@ func (j *jsiiProxy_QuicksightActionConnector) VpcConnectionArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_action_connector awscc_quicksight_action_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_action_connector awscc_quicksight_action_connector} Resource.
 func NewQuicksightActionConnector(scope constructs.Construct, id *string, config *QuicksightActionConnectorConfig) QuicksightActionConnector {
 	_init_.Initialize()
 
@@ -639,7 +639,7 @@ func NewQuicksightActionConnector(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_action_connector awscc_quicksight_action_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_action_connector awscc_quicksight_action_connector} Resource.
 func NewQuicksightActionConnector_Override(q QuicksightActionConnector, scope constructs.Construct, id *string, config *QuicksightActionConnectorConfig) {
 	_init_.Initialize()
 

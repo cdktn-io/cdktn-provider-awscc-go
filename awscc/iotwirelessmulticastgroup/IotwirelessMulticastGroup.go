@@ -5,14 +5,14 @@ package iotwirelessmulticastgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessmulticastgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessmulticastgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_multicast_group awscc_iotwireless_multicast_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_multicast_group awscc_iotwireless_multicast_group}.
 type IotwirelessMulticastGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -531,7 +531,7 @@ func (j *jsiiProxy_IotwirelessMulticastGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_multicast_group awscc_iotwireless_multicast_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_multicast_group awscc_iotwireless_multicast_group} Resource.
 func NewIotwirelessMulticastGroup(scope constructs.Construct, id *string, config *IotwirelessMulticastGroupConfig) IotwirelessMulticastGroup {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewIotwirelessMulticastGroup(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_multicast_group awscc_iotwireless_multicast_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_multicast_group awscc_iotwireless_multicast_group} Resource.
 func NewIotwirelessMulticastGroup_Override(i IotwirelessMulticastGroup, scope constructs.Construct, id *string, config *IotwirelessMulticastGroupConfig) {
 	_init_.Initialize()
 

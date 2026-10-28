@@ -5,14 +5,14 @@ package ssmcontactsplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcontactsplan/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmcontactsplan/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmcontacts_plan awscc_ssmcontacts_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmcontacts_plan awscc_ssmcontacts_plan}.
 type SsmcontactsPlan interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -438,7 +438,7 @@ func (j *jsiiProxy_SsmcontactsPlan) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmcontacts_plan awscc_ssmcontacts_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmcontacts_plan awscc_ssmcontacts_plan} Resource.
 func NewSsmcontactsPlan(scope constructs.Construct, id *string, config *SsmcontactsPlanConfig) SsmcontactsPlan {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewSsmcontactsPlan(scope constructs.Construct, id *string, config *Ssmconta
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmcontacts_plan awscc_ssmcontacts_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmcontacts_plan awscc_ssmcontacts_plan} Resource.
 func NewSsmcontactsPlan_Override(s SsmcontactsPlan, scope constructs.Construct, id *string, config *SsmcontactsPlanConfig) {
 	_init_.Initialize()
 

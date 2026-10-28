@@ -5,14 +5,14 @@ package dataawsccmwaaenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaenvironment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mwaa_environment awscc_mwaa_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mwaa_environment awscc_mwaa_environment}.
 type DataAwsccMwaaEnvironment interface {
 	cdktn.TerraformDataSource
 	AirflowConfigurationOptions() *string
@@ -627,7 +627,7 @@ func (j *jsiiProxy_DataAwsccMwaaEnvironment) WorkerReplacementStrategy() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mwaa_environment awscc_mwaa_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mwaa_environment awscc_mwaa_environment} Data Source.
 func NewDataAwsccMwaaEnvironment(scope constructs.Construct, id *string, config *DataAwsccMwaaEnvironmentConfig) DataAwsccMwaaEnvironment {
 	_init_.Initialize()
 
@@ -645,7 +645,7 @@ func NewDataAwsccMwaaEnvironment(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mwaa_environment awscc_mwaa_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mwaa_environment awscc_mwaa_environment} Data Source.
 func NewDataAwsccMwaaEnvironment_Override(d DataAwsccMwaaEnvironment, scope constructs.Construct, id *string, config *DataAwsccMwaaEnvironmentConfig) {
 	_init_.Initialize()
 

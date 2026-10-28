@@ -5,14 +5,14 @@ package rtbfabriclinkroutingrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rtbfabriclinkroutingrule/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rtbfabriclinkroutingrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rtbfabric_link_routing_rule awscc_rtbfabric_link_routing_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rtbfabric_link_routing_rule awscc_rtbfabric_link_routing_rule}.
 type RtbfabricLinkRoutingRule interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -526,7 +526,7 @@ func (j *jsiiProxy_RtbfabricLinkRoutingRule) UpdatedTimestamp() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rtbfabric_link_routing_rule awscc_rtbfabric_link_routing_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rtbfabric_link_routing_rule awscc_rtbfabric_link_routing_rule} Resource.
 func NewRtbfabricLinkRoutingRule(scope constructs.Construct, id *string, config *RtbfabricLinkRoutingRuleConfig) RtbfabricLinkRoutingRule {
 	_init_.Initialize()
 
@@ -544,7 +544,7 @@ func NewRtbfabricLinkRoutingRule(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rtbfabric_link_routing_rule awscc_rtbfabric_link_routing_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rtbfabric_link_routing_rule awscc_rtbfabric_link_routing_rule} Resource.
 func NewRtbfabricLinkRoutingRule_Override(r RtbfabricLinkRoutingRule, scope constructs.Construct, id *string, config *RtbfabricLinkRoutingRuleConfig) {
 	_init_.Initialize()
 

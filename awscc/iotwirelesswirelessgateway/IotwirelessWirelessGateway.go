@@ -5,14 +5,14 @@ package iotwirelesswirelessgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelesswirelessgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelesswirelessgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_wireless_gateway awscc_iotwireless_wireless_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_wireless_gateway awscc_iotwireless_wireless_gateway}.
 type IotwirelessWirelessGateway interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -544,7 +544,7 @@ func (j *jsiiProxy_IotwirelessWirelessGateway) WirelessGatewayId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_wireless_gateway awscc_iotwireless_wireless_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_wireless_gateway awscc_iotwireless_wireless_gateway} Resource.
 func NewIotwirelessWirelessGateway(scope constructs.Construct, id *string, config *IotwirelessWirelessGatewayConfig) IotwirelessWirelessGateway {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewIotwirelessWirelessGateway(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_wireless_gateway awscc_iotwireless_wireless_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_wireless_gateway awscc_iotwireless_wireless_gateway} Resource.
 func NewIotwirelessWirelessGateway_Override(i IotwirelessWirelessGateway, scope constructs.Construct, id *string, config *IotwirelessWirelessGatewayConfig) {
 	_init_.Initialize()
 

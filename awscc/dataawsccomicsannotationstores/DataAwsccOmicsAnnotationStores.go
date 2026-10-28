@@ -5,14 +5,14 @@ package dataawsccomicsannotationstores
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsannotationstores/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsannotationstores/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_annotation_stores awscc_omics_annotation_stores}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_annotation_stores awscc_omics_annotation_stores}.
 type DataAwsccOmicsAnnotationStores interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccOmicsAnnotationStores) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_annotation_stores awscc_omics_annotation_stores} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_annotation_stores awscc_omics_annotation_stores} Data Source.
 func NewDataAwsccOmicsAnnotationStores(scope constructs.Construct, id *string, config *DataAwsccOmicsAnnotationStoresConfig) DataAwsccOmicsAnnotationStores {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccOmicsAnnotationStores(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_annotation_stores awscc_omics_annotation_stores} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_annotation_stores awscc_omics_annotation_stores} Data Source.
 func NewDataAwsccOmicsAnnotationStores_Override(d DataAwsccOmicsAnnotationStores, scope constructs.Construct, id *string, config *DataAwsccOmicsAnnotationStoresConfig) {
 	_init_.Initialize()
 

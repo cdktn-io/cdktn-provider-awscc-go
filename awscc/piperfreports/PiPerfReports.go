@@ -5,14 +5,14 @@ package piperfreports
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/piperfreports/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/piperfreports/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pi_perf_reports awscc_pi_perf_reports}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pi_perf_reports awscc_pi_perf_reports}.
 type PiPerfReports interface {
 	cdktn.TerraformResource
 	AnalysisReportId() *string
@@ -515,7 +515,7 @@ func (j *jsiiProxy_PiPerfReports) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pi_perf_reports awscc_pi_perf_reports} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pi_perf_reports awscc_pi_perf_reports} Resource.
 func NewPiPerfReports(scope constructs.Construct, id *string, config *PiPerfReportsConfig) PiPerfReports {
 	_init_.Initialize()
 
@@ -533,7 +533,7 @@ func NewPiPerfReports(scope constructs.Construct, id *string, config *PiPerfRepo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pi_perf_reports awscc_pi_perf_reports} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pi_perf_reports awscc_pi_perf_reports} Resource.
 func NewPiPerfReports_Override(p PiPerfReports, scope constructs.Construct, id *string, config *PiPerfReportsConfig) {
 	_init_.Initialize()
 

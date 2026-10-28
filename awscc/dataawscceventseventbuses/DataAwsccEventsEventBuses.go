@@ -5,14 +5,14 @@ package dataawscceventseventbuses
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventseventbuses/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventseventbuses/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_event_buses awscc_events_event_buses}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_event_buses awscc_events_event_buses}.
 type DataAwsccEventsEventBuses interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEventsEventBuses) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_event_buses awscc_events_event_buses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_event_buses awscc_events_event_buses} Data Source.
 func NewDataAwsccEventsEventBuses(scope constructs.Construct, id *string, config *DataAwsccEventsEventBusesConfig) DataAwsccEventsEventBuses {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEventsEventBuses(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_event_buses awscc_events_event_buses} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_event_buses awscc_events_event_buses} Data Source.
 func NewDataAwsccEventsEventBuses_Override(d DataAwsccEventsEventBuses, scope constructs.Construct, id *string, config *DataAwsccEventsEventBusesConfig) {
 	_init_.Initialize()
 

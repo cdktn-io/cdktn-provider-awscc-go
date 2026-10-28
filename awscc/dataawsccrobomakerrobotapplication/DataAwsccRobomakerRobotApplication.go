@@ -5,14 +5,14 @@ package dataawsccrobomakerrobotapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakerrobotapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakerrobotapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/robomaker_robot_application awscc_robomaker_robot_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/robomaker_robot_application awscc_robomaker_robot_application}.
 type DataAwsccRobomakerRobotApplication interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccRobomakerRobotApplication) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/robomaker_robot_application awscc_robomaker_robot_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/robomaker_robot_application awscc_robomaker_robot_application} Data Source.
 func NewDataAwsccRobomakerRobotApplication(scope constructs.Construct, id *string, config *DataAwsccRobomakerRobotApplicationConfig) DataAwsccRobomakerRobotApplication {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccRobomakerRobotApplication(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/robomaker_robot_application awscc_robomaker_robot_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/robomaker_robot_application awscc_robomaker_robot_application} Data Source.
 func NewDataAwsccRobomakerRobotApplication_Override(d DataAwsccRobomakerRobotApplication, scope constructs.Construct, id *string, config *DataAwsccRobomakerRobotApplicationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccnetworkfirewallloggingconfigurations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallloggingconfigurations/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallloggingconfigurations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkfirewall_logging_configurations awscc_networkfirewall_logging_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkfirewall_logging_configurations awscc_networkfirewall_logging_configurations}.
 type DataAwsccNetworkfirewallLoggingConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNetworkfirewallLoggingConfigurations) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkfirewall_logging_configurations awscc_networkfirewall_logging_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkfirewall_logging_configurations awscc_networkfirewall_logging_configurations} Data Source.
 func NewDataAwsccNetworkfirewallLoggingConfigurations(scope constructs.Construct, id *string, config *DataAwsccNetworkfirewallLoggingConfigurationsConfig) DataAwsccNetworkfirewallLoggingConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNetworkfirewallLoggingConfigurations(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkfirewall_logging_configurations awscc_networkfirewall_logging_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkfirewall_logging_configurations awscc_networkfirewall_logging_configurations} Data Source.
 func NewDataAwsccNetworkfirewallLoggingConfigurations_Override(d DataAwsccNetworkfirewallLoggingConfigurations, scope constructs.Construct, id *string, config *DataAwsccNetworkfirewallLoggingConfigurationsConfig) {
 	_init_.Initialize()
 

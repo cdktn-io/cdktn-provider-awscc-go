@@ -5,14 +5,14 @@ package datazonedomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazonedomain/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazonedomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_domain awscc_datazone_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_domain awscc_datazone_domain}.
 type DatazoneDomain interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -634,7 +634,7 @@ func (j *jsiiProxy_DatazoneDomain) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_domain awscc_datazone_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_domain awscc_datazone_domain} Resource.
 func NewDatazoneDomain(scope constructs.Construct, id *string, config *DatazoneDomainConfig) DatazoneDomain {
 	_init_.Initialize()
 
@@ -652,7 +652,7 @@ func NewDatazoneDomain(scope constructs.Construct, id *string, config *DatazoneD
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_domain awscc_datazone_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_domain awscc_datazone_domain} Resource.
 func NewDatazoneDomain_Override(d DatazoneDomain, scope constructs.Construct, id *string, config *DatazoneDomainConfig) {
 	_init_.Initialize()
 

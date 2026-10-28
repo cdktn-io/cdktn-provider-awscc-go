@@ -5,14 +5,14 @@ package dataawsccconnectsecuritykeys
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectsecuritykeys/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectsecuritykeys/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_security_keys awscc_connect_security_keys}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_security_keys awscc_connect_security_keys}.
 type DataAwsccConnectSecurityKeys interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccConnectSecurityKeys) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_security_keys awscc_connect_security_keys} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_security_keys awscc_connect_security_keys} Data Source.
 func NewDataAwsccConnectSecurityKeys(scope constructs.Construct, id *string, config *DataAwsccConnectSecurityKeysConfig) DataAwsccConnectSecurityKeys {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccConnectSecurityKeys(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_security_keys awscc_connect_security_keys} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_security_keys awscc_connect_security_keys} Data Source.
 func NewDataAwsccConnectSecurityKeys_Override(d DataAwsccConnectSecurityKeys, scope constructs.Construct, id *string, config *DataAwsccConnectSecurityKeysConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccworkspacesthinclientenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesthinclientenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesthinclientenvironment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesthinclient_environment awscc_workspacesthinclient_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesthinclient_environment awscc_workspacesthinclient_environment}.
 type DataAwsccWorkspacesthinclientEnvironment interface {
 	cdktn.TerraformDataSource
 	ActivationCode() *string
@@ -506,7 +506,7 @@ func (j *jsiiProxy_DataAwsccWorkspacesthinclientEnvironment) UpdatedAt() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesthinclient_environment awscc_workspacesthinclient_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesthinclient_environment awscc_workspacesthinclient_environment} Data Source.
 func NewDataAwsccWorkspacesthinclientEnvironment(scope constructs.Construct, id *string, config *DataAwsccWorkspacesthinclientEnvironmentConfig) DataAwsccWorkspacesthinclientEnvironment {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewDataAwsccWorkspacesthinclientEnvironment(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesthinclient_environment awscc_workspacesthinclient_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesthinclient_environment awscc_workspacesthinclient_environment} Data Source.
 func NewDataAwsccWorkspacesthinclientEnvironment_Override(d DataAwsccWorkspacesthinclientEnvironment, scope constructs.Construct, id *string, config *DataAwsccWorkspacesthinclientEnvironmentConfig) {
 	_init_.Initialize()
 

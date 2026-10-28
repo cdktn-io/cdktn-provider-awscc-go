@@ -5,14 +5,14 @@ package mwaaserverlessworkflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mwaaserverlessworkflow/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mwaaserverlessworkflow/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mwaaserverless_workflow awscc_mwaaserverless_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mwaaserverless_workflow awscc_mwaaserverless_workflow}.
 type MwaaserverlessWorkflow interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -670,7 +670,7 @@ func (j *jsiiProxy_MwaaserverlessWorkflow) WorkflowVersion() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mwaaserverless_workflow awscc_mwaaserverless_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mwaaserverless_workflow awscc_mwaaserverless_workflow} Resource.
 func NewMwaaserverlessWorkflow(scope constructs.Construct, id *string, config *MwaaserverlessWorkflowConfig) MwaaserverlessWorkflow {
 	_init_.Initialize()
 
@@ -688,7 +688,7 @@ func NewMwaaserverlessWorkflow(scope constructs.Construct, id *string, config *M
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mwaaserverless_workflow awscc_mwaaserverless_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mwaaserverless_workflow awscc_mwaaserverless_workflow} Resource.
 func NewMwaaserverlessWorkflow_Override(m MwaaserverlessWorkflow, scope constructs.Construct, id *string, config *MwaaserverlessWorkflowConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccdmsreplicationtasks
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsreplicationtasks/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsreplicationtasks/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dms_replication_tasks awscc_dms_replication_tasks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dms_replication_tasks awscc_dms_replication_tasks}.
 type DataAwsccDmsReplicationTasks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDmsReplicationTasks) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dms_replication_tasks awscc_dms_replication_tasks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dms_replication_tasks awscc_dms_replication_tasks} Data Source.
 func NewDataAwsccDmsReplicationTasks(scope constructs.Construct, id *string, config *DataAwsccDmsReplicationTasksConfig) DataAwsccDmsReplicationTasks {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDmsReplicationTasks(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dms_replication_tasks awscc_dms_replication_tasks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dms_replication_tasks awscc_dms_replication_tasks} Data Source.
 func NewDataAwsccDmsReplicationTasks_Override(d DataAwsccDmsReplicationTasks, scope constructs.Construct, id *string, config *DataAwsccDmsReplicationTasksConfig) {
 	_init_.Initialize()
 

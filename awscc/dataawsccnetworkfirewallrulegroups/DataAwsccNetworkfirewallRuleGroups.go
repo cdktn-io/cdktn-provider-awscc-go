@@ -5,14 +5,14 @@ package dataawsccnetworkfirewallrulegroups
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallrulegroups/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallrulegroups/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkfirewall_rule_groups awscc_networkfirewall_rule_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkfirewall_rule_groups awscc_networkfirewall_rule_groups}.
 type DataAwsccNetworkfirewallRuleGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNetworkfirewallRuleGroups) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkfirewall_rule_groups awscc_networkfirewall_rule_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkfirewall_rule_groups awscc_networkfirewall_rule_groups} Data Source.
 func NewDataAwsccNetworkfirewallRuleGroups(scope constructs.Construct, id *string, config *DataAwsccNetworkfirewallRuleGroupsConfig) DataAwsccNetworkfirewallRuleGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNetworkfirewallRuleGroups(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkfirewall_rule_groups awscc_networkfirewall_rule_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkfirewall_rule_groups awscc_networkfirewall_rule_groups} Data Source.
 func NewDataAwsccNetworkfirewallRuleGroups_Override(d DataAwsccNetworkfirewallRuleGroups, scope constructs.Construct, id *string, config *DataAwsccNetworkfirewallRuleGroupsConfig) {
 	_init_.Initialize()
 

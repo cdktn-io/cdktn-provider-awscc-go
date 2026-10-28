@@ -5,14 +5,14 @@ package chimechannelflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimechannelflow/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimechannelflow/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_channel_flow awscc_chime_channel_flow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_channel_flow awscc_chime_channel_flow}.
 type ChimeChannelFlow interface {
 	cdktn.TerraformResource
 	AppInstanceArn() *string
@@ -503,7 +503,7 @@ func (j *jsiiProxy_ChimeChannelFlow) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_channel_flow awscc_chime_channel_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_channel_flow awscc_chime_channel_flow} Resource.
 func NewChimeChannelFlow(scope constructs.Construct, id *string, config *ChimeChannelFlowConfig) ChimeChannelFlow {
 	_init_.Initialize()
 
@@ -521,7 +521,7 @@ func NewChimeChannelFlow(scope constructs.Construct, id *string, config *ChimeCh
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_channel_flow awscc_chime_channel_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_channel_flow awscc_chime_channel_flow} Resource.
 func NewChimeChannelFlow_Override(c ChimeChannelFlow, scope constructs.Construct, id *string, config *ChimeChannelFlowConfig) {
 	_init_.Initialize()
 

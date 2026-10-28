@@ -5,14 +5,14 @@ package dataawsccec2trafficmirrorsessions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2trafficmirrorsessions/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2trafficmirrorsessions/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_traffic_mirror_sessions awscc_ec2_traffic_mirror_sessions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_traffic_mirror_sessions awscc_ec2_traffic_mirror_sessions}.
 type DataAwsccEc2TrafficMirrorSessions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2TrafficMirrorSessions) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_traffic_mirror_sessions awscc_ec2_traffic_mirror_sessions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_traffic_mirror_sessions awscc_ec2_traffic_mirror_sessions} Data Source.
 func NewDataAwsccEc2TrafficMirrorSessions(scope constructs.Construct, id *string, config *DataAwsccEc2TrafficMirrorSessionsConfig) DataAwsccEc2TrafficMirrorSessions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2TrafficMirrorSessions(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_traffic_mirror_sessions awscc_ec2_traffic_mirror_sessions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_traffic_mirror_sessions awscc_ec2_traffic_mirror_sessions} Data Source.
 func NewDataAwsccEc2TrafficMirrorSessions_Override(d DataAwsccEc2TrafficMirrorSessions, scope constructs.Construct, id *string, config *DataAwsccEc2TrafficMirrorSessionsConfig) {
 	_init_.Initialize()
 

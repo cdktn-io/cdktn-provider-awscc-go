@@ -5,14 +5,14 @@ package dataawsccworkspaceswebnetworksettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebnetworksettings/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebnetworksettings/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_network_settings awscc_workspacesweb_network_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_network_settings awscc_workspacesweb_network_settings}.
 type DataAwsccWorkspaceswebNetworkSettings interface {
 	cdktn.TerraformDataSource
 	AssociatedPortalArns() *[]*string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccWorkspaceswebNetworkSettings) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_network_settings awscc_workspacesweb_network_settings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_network_settings awscc_workspacesweb_network_settings} Data Source.
 func NewDataAwsccWorkspaceswebNetworkSettings(scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebNetworkSettingsConfig) DataAwsccWorkspaceswebNetworkSettings {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccWorkspaceswebNetworkSettings(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_network_settings awscc_workspacesweb_network_settings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_network_settings awscc_workspacesweb_network_settings} Data Source.
 func NewDataAwsccWorkspaceswebNetworkSettings_Override(d DataAwsccWorkspaceswebNetworkSettings, scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebNetworkSettingsConfig) {
 	_init_.Initialize()
 

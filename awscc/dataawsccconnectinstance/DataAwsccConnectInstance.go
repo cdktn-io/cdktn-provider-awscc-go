@@ -5,14 +5,14 @@ package dataawsccconnectinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_instance awscc_connect_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_instance awscc_connect_instance}.
 type DataAwsccConnectInstance interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccConnectInstance) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_instance awscc_connect_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_instance awscc_connect_instance} Data Source.
 func NewDataAwsccConnectInstance(scope constructs.Construct, id *string, config *DataAwsccConnectInstanceConfig) DataAwsccConnectInstance {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccConnectInstance(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_instance awscc_connect_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_instance awscc_connect_instance} Data Source.
 func NewDataAwsccConnectInstance_Override(d DataAwsccConnectInstance, scope constructs.Construct, id *string, config *DataAwsccConnectInstanceConfig) {
 	_init_.Initialize()
 

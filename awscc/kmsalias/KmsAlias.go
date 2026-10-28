@@ -5,14 +5,14 @@ package kmsalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kmsalias/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kmsalias/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kms_alias awscc_kms_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kms_alias awscc_kms_alias}.
 type KmsAlias interface {
 	cdktn.TerraformResource
 	AliasName() *string
@@ -401,7 +401,7 @@ func (j *jsiiProxy_KmsAlias) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kms_alias awscc_kms_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kms_alias awscc_kms_alias} Resource.
 func NewKmsAlias(scope constructs.Construct, id *string, config *KmsAliasConfig) KmsAlias {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewKmsAlias(scope constructs.Construct, id *string, config *KmsAliasConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kms_alias awscc_kms_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kms_alias awscc_kms_alias} Resource.
 func NewKmsAlias_Override(k KmsAlias, scope constructs.Construct, id *string, config *KmsAliasConfig) {
 	_init_.Initialize()
 

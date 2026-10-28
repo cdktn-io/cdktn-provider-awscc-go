@@ -5,14 +5,14 @@ package logsaccountpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsaccountpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsaccountpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_account_policy awscc_logs_account_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_account_policy awscc_logs_account_policy}.
 type LogsAccountPolicy interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -483,7 +483,7 @@ func (j *jsiiProxy_LogsAccountPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_account_policy awscc_logs_account_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_account_policy awscc_logs_account_policy} Resource.
 func NewLogsAccountPolicy(scope constructs.Construct, id *string, config *LogsAccountPolicyConfig) LogsAccountPolicy {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewLogsAccountPolicy(scope constructs.Construct, id *string, config *LogsAc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_account_policy awscc_logs_account_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_account_policy awscc_logs_account_policy} Resource.
 func NewLogsAccountPolicy_Override(l LogsAccountPolicy, scope constructs.Construct, id *string, config *LogsAccountPolicyConfig) {
 	_init_.Initialize()
 

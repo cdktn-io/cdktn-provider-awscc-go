@@ -5,14 +5,14 @@ package dataawsccbedrockagentcoreonlineevaluationconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreonlineevaluationconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreonlineevaluationconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_online_evaluation_config awscc_bedrockagentcore_online_evaluation_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_online_evaluation_config awscc_bedrockagentcore_online_evaluation_config}.
 type DataAwsccBedrockagentcoreOnlineEvaluationConfig interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreOnlineEvaluationConfig) UpdatedAt() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_online_evaluation_config awscc_bedrockagentcore_online_evaluation_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_online_evaluation_config awscc_bedrockagentcore_online_evaluation_config} Data Source.
 func NewDataAwsccBedrockagentcoreOnlineEvaluationConfig(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreOnlineEvaluationConfigConfig) DataAwsccBedrockagentcoreOnlineEvaluationConfig {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataAwsccBedrockagentcoreOnlineEvaluationConfig(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_online_evaluation_config awscc_bedrockagentcore_online_evaluation_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_online_evaluation_config awscc_bedrockagentcore_online_evaluation_config} Data Source.
 func NewDataAwsccBedrockagentcoreOnlineEvaluationConfig_Override(d DataAwsccBedrockagentcoreOnlineEvaluationConfig, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreOnlineEvaluationConfigConfig) {
 	_init_.Initialize()
 

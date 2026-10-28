@@ -5,14 +5,14 @@ package dataawscciotsitewisepipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisepipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisepipeline/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_pipeline awscc_iotsitewise_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_pipeline awscc_iotsitewise_pipeline}.
 type DataAwsccIotsitewisePipeline interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccIotsitewisePipeline) WorkspaceName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_pipeline awscc_iotsitewise_pipeline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_pipeline awscc_iotsitewise_pipeline} Data Source.
 func NewDataAwsccIotsitewisePipeline(scope constructs.Construct, id *string, config *DataAwsccIotsitewisePipelineConfig) DataAwsccIotsitewisePipeline {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccIotsitewisePipeline(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_pipeline awscc_iotsitewise_pipeline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_pipeline awscc_iotsitewise_pipeline} Data Source.
 func NewDataAwsccIotsitewisePipeline_Override(d DataAwsccIotsitewisePipeline, scope constructs.Construct, id *string, config *DataAwsccIotsitewisePipelineConfig) {
 	_init_.Initialize()
 

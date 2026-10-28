@@ -5,14 +5,14 @@ package dataawscccomprehendflywheel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendflywheel/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendflywheel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/comprehend_flywheel awscc_comprehend_flywheel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/comprehend_flywheel awscc_comprehend_flywheel}.
 type DataAwsccComprehendFlywheel interface {
 	cdktn.TerraformDataSource
 	ActiveModelArn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccComprehendFlywheel) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/comprehend_flywheel awscc_comprehend_flywheel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/comprehend_flywheel awscc_comprehend_flywheel} Data Source.
 func NewDataAwsccComprehendFlywheel(scope constructs.Construct, id *string, config *DataAwsccComprehendFlywheelConfig) DataAwsccComprehendFlywheel {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccComprehendFlywheel(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/comprehend_flywheel awscc_comprehend_flywheel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/comprehend_flywheel awscc_comprehend_flywheel} Data Source.
 func NewDataAwsccComprehendFlywheel_Override(d DataAwsccComprehendFlywheel, scope constructs.Construct, id *string, config *DataAwsccComprehendFlywheelConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawscclocationplaceindices
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationplaceindices/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationplaceindices/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_place_indices awscc_location_place_indices}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_place_indices awscc_location_place_indices}.
 type DataAwsccLocationPlaceIndices interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLocationPlaceIndices) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_place_indices awscc_location_place_indices} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_place_indices awscc_location_place_indices} Data Source.
 func NewDataAwsccLocationPlaceIndices(scope constructs.Construct, id *string, config *DataAwsccLocationPlaceIndicesConfig) DataAwsccLocationPlaceIndices {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLocationPlaceIndices(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_place_indices awscc_location_place_indices} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_place_indices awscc_location_place_indices} Data Source.
 func NewDataAwsccLocationPlaceIndices_Override(d DataAwsccLocationPlaceIndices, scope constructs.Construct, id *string, config *DataAwsccLocationPlaceIndicesConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccneptunedbsubnetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbsubnetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbsubnetgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/neptune_db_subnet_group awscc_neptune_db_subnet_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/neptune_db_subnet_group awscc_neptune_db_subnet_group}.
 type DataAwsccNeptuneDbSubnetGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccNeptuneDbSubnetGroup) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/neptune_db_subnet_group awscc_neptune_db_subnet_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/neptune_db_subnet_group awscc_neptune_db_subnet_group} Data Source.
 func NewDataAwsccNeptuneDbSubnetGroup(scope constructs.Construct, id *string, config *DataAwsccNeptuneDbSubnetGroupConfig) DataAwsccNeptuneDbSubnetGroup {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccNeptuneDbSubnetGroup(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/neptune_db_subnet_group awscc_neptune_db_subnet_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/neptune_db_subnet_group awscc_neptune_db_subnet_group} Data Source.
 func NewDataAwsccNeptuneDbSubnetGroup_Override(d DataAwsccNeptuneDbSubnetGroup, scope constructs.Construct, id *string, config *DataAwsccNeptuneDbSubnetGroupConfig) {
 	_init_.Initialize()
 

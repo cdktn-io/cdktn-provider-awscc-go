@@ -5,14 +5,14 @@ package dataawsccsecurityagenttargetdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagenttargetdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagenttargetdomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityagent_target_domain awscc_securityagent_target_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityagent_target_domain awscc_securityagent_target_domain}.
 type DataAwsccSecurityagentTargetDomain interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccSecurityagentTargetDomain) VerifiedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityagent_target_domain awscc_securityagent_target_domain} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityagent_target_domain awscc_securityagent_target_domain} Data Source.
 func NewDataAwsccSecurityagentTargetDomain(scope constructs.Construct, id *string, config *DataAwsccSecurityagentTargetDomainConfig) DataAwsccSecurityagentTargetDomain {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccSecurityagentTargetDomain(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityagent_target_domain awscc_securityagent_target_domain} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityagent_target_domain awscc_securityagent_target_domain} Data Source.
 func NewDataAwsccSecurityagentTargetDomain_Override(d DataAwsccSecurityagentTargetDomain, scope constructs.Construct, id *string, config *DataAwsccSecurityagentTargetDomainConfig) {
 	_init_.Initialize()
 

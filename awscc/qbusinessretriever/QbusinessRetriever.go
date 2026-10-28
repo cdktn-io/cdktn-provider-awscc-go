@@ -5,14 +5,14 @@ package qbusinessretriever
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/qbusinessretriever/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/qbusinessretriever/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/qbusiness_retriever awscc_qbusiness_retriever}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/qbusiness_retriever awscc_qbusiness_retriever}.
 type QbusinessRetriever interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -550,7 +550,7 @@ func (j *jsiiProxy_QbusinessRetriever) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/qbusiness_retriever awscc_qbusiness_retriever} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/qbusiness_retriever awscc_qbusiness_retriever} Resource.
 func NewQbusinessRetriever(scope constructs.Construct, id *string, config *QbusinessRetrieverConfig) QbusinessRetriever {
 	_init_.Initialize()
 
@@ -568,7 +568,7 @@ func NewQbusinessRetriever(scope constructs.Construct, id *string, config *Qbusi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/qbusiness_retriever awscc_qbusiness_retriever} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/qbusiness_retriever awscc_qbusiness_retriever} Resource.
 func NewQbusinessRetriever_Override(q QbusinessRetriever, scope constructs.Construct, id *string, config *QbusinessRetrieverConfig) {
 	_init_.Initialize()
 

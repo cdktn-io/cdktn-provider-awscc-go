@@ -5,14 +5,14 @@ package dataawsccbedrockagentcoreoauth2credentialproviders
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreoauth2credentialproviders/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreoauth2credentialproviders/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers awscc_bedrockagentcore_o_auth_2_credential_providers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers awscc_bedrockagentcore_o_auth_2_credential_providers}.
 type DataAwsccBedrockagentcoreOAuth2CredentialProviders interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreOAuth2CredentialProviders) Terraform
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers awscc_bedrockagentcore_o_auth_2_credential_providers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers awscc_bedrockagentcore_o_auth_2_credential_providers} Data Source.
 func NewDataAwsccBedrockagentcoreOAuth2CredentialProviders(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreOAuth2CredentialProvidersConfig) DataAwsccBedrockagentcoreOAuth2CredentialProviders {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockagentcoreOAuth2CredentialProviders(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers awscc_bedrockagentcore_o_auth_2_credential_providers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_o_auth_2_credential_providers awscc_bedrockagentcore_o_auth_2_credential_providers} Data Source.
 func NewDataAwsccBedrockagentcoreOAuth2CredentialProviders_Override(d DataAwsccBedrockagentcoreOAuth2CredentialProviders, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreOAuth2CredentialProvidersConfig) {
 	_init_.Initialize()
 

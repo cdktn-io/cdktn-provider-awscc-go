@@ -5,14 +5,14 @@ package quicksightdatasource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdatasource/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdatasource/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_data_source awscc_quicksight_data_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_data_source awscc_quicksight_data_source}.
 type QuicksightDataSource interface {
 	cdktn.TerraformResource
 	AlternateDataSourceParameters() QuicksightDataSourceAlternateDataSourceParametersList
@@ -709,7 +709,7 @@ func (j *jsiiProxy_QuicksightDataSource) VpcConnectionPropertiesInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_data_source awscc_quicksight_data_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_data_source awscc_quicksight_data_source} Resource.
 func NewQuicksightDataSource(scope constructs.Construct, id *string, config *QuicksightDataSourceConfig) QuicksightDataSource {
 	_init_.Initialize()
 
@@ -727,7 +727,7 @@ func NewQuicksightDataSource(scope constructs.Construct, id *string, config *Qui
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_data_source awscc_quicksight_data_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_data_source awscc_quicksight_data_source} Resource.
 func NewQuicksightDataSource_Override(q QuicksightDataSource, scope constructs.Construct, id *string, config *QuicksightDataSourceConfig) {
 	_init_.Initialize()
 

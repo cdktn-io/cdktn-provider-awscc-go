@@ -5,14 +5,14 @@ package codeartifactdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codeartifactdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codeartifactdomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_domain awscc_codeartifact_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_domain awscc_codeartifact_domain}.
 type CodeartifactDomain interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -470,7 +470,7 @@ func (j *jsiiProxy_CodeartifactDomain) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_domain awscc_codeartifact_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_domain awscc_codeartifact_domain} Resource.
 func NewCodeartifactDomain(scope constructs.Construct, id *string, config *CodeartifactDomainConfig) CodeartifactDomain {
 	_init_.Initialize()
 
@@ -488,7 +488,7 @@ func NewCodeartifactDomain(scope constructs.Construct, id *string, config *Codea
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codeartifact_domain awscc_codeartifact_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codeartifact_domain awscc_codeartifact_domain} Resource.
 func NewCodeartifactDomain_Override(c CodeartifactDomain, scope constructs.Construct, id *string, config *CodeartifactDomainConfig) {
 	_init_.Initialize()
 

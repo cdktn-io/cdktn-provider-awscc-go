@@ -5,14 +5,14 @@ package outpostsoutpost
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/outpostsoutpost/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/outpostsoutpost/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/outposts_outpost awscc_outposts_outpost}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/outposts_outpost awscc_outposts_outpost}.
 type OutpostsOutpost interface {
 	cdktn.TerraformResource
 	AvailabilityZone() *string
@@ -576,7 +576,7 @@ func (j *jsiiProxy_OutpostsOutpost) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/outposts_outpost awscc_outposts_outpost} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/outposts_outpost awscc_outposts_outpost} Resource.
 func NewOutpostsOutpost(scope constructs.Construct, id *string, config *OutpostsOutpostConfig) OutpostsOutpost {
 	_init_.Initialize()
 
@@ -594,7 +594,7 @@ func NewOutpostsOutpost(scope constructs.Construct, id *string, config *Outposts
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/outposts_outpost awscc_outposts_outpost} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/outposts_outpost awscc_outposts_outpost} Resource.
 func NewOutpostsOutpost_Override(o OutpostsOutpost, scope constructs.Construct, id *string, config *OutpostsOutpostConfig) {
 	_init_.Initialize()
 

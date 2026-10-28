@@ -5,14 +5,14 @@ package iottwinmakerworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottwinmakerworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottwinmakerworkspace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iottwinmaker_workspace awscc_iottwinmaker_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iottwinmaker_workspace awscc_iottwinmaker_workspace}.
 type IottwinmakerWorkspace interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -505,7 +505,7 @@ func (j *jsiiProxy_IottwinmakerWorkspace) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iottwinmaker_workspace awscc_iottwinmaker_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iottwinmaker_workspace awscc_iottwinmaker_workspace} Resource.
 func NewIottwinmakerWorkspace(scope constructs.Construct, id *string, config *IottwinmakerWorkspaceConfig) IottwinmakerWorkspace {
 	_init_.Initialize()
 
@@ -523,7 +523,7 @@ func NewIottwinmakerWorkspace(scope constructs.Construct, id *string, config *Io
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iottwinmaker_workspace awscc_iottwinmaker_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iottwinmaker_workspace awscc_iottwinmaker_workspace} Resource.
 func NewIottwinmakerWorkspace_Override(i IottwinmakerWorkspace, scope constructs.Construct, id *string, config *IottwinmakerWorkspaceConfig) {
 	_init_.Initialize()
 

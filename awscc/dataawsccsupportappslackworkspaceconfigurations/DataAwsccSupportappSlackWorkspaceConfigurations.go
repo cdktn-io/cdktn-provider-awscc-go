@@ -5,14 +5,14 @@ package dataawsccsupportappslackworkspaceconfigurations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsupportappslackworkspaceconfigurations/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsupportappslackworkspaceconfigurations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/supportapp_slack_workspace_configurations awscc_supportapp_slack_workspace_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/supportapp_slack_workspace_configurations awscc_supportapp_slack_workspace_configurations}.
 type DataAwsccSupportappSlackWorkspaceConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSupportappSlackWorkspaceConfigurations) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/supportapp_slack_workspace_configurations awscc_supportapp_slack_workspace_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/supportapp_slack_workspace_configurations awscc_supportapp_slack_workspace_configurations} Data Source.
 func NewDataAwsccSupportappSlackWorkspaceConfigurations(scope constructs.Construct, id *string, config *DataAwsccSupportappSlackWorkspaceConfigurationsConfig) DataAwsccSupportappSlackWorkspaceConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSupportappSlackWorkspaceConfigurations(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/supportapp_slack_workspace_configurations awscc_supportapp_slack_workspace_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/supportapp_slack_workspace_configurations awscc_supportapp_slack_workspace_configurations} Data Source.
 func NewDataAwsccSupportappSlackWorkspaceConfigurations_Override(d DataAwsccSupportappSlackWorkspaceConfigurations, scope constructs.Construct, id *string, config *DataAwsccSupportappSlackWorkspaceConfigurationsConfig) {
 	_init_.Initialize()
 

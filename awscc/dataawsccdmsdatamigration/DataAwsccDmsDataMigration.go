@@ -5,14 +5,14 @@ package dataawsccdmsdatamigration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdatamigration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdatamigration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dms_data_migration awscc_dms_data_migration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dms_data_migration awscc_dms_data_migration}.
 type DataAwsccDmsDataMigration interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccDmsDataMigration) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dms_data_migration awscc_dms_data_migration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dms_data_migration awscc_dms_data_migration} Data Source.
 func NewDataAwsccDmsDataMigration(scope constructs.Construct, id *string, config *DataAwsccDmsDataMigrationConfig) DataAwsccDmsDataMigration {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccDmsDataMigration(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dms_data_migration awscc_dms_data_migration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dms_data_migration awscc_dms_data_migration} Data Source.
 func NewDataAwsccDmsDataMigration_Override(d DataAwsccDmsDataMigration, scope constructs.Construct, id *string, config *DataAwsccDmsDataMigrationConfig) {
 	_init_.Initialize()
 

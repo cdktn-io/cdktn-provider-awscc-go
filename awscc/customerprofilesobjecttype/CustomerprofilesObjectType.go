@@ -5,14 +5,14 @@ package customerprofilesobjecttype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilesobjecttype/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilesobjecttype/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_object_type awscc_customerprofiles_object_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_object_type awscc_customerprofiles_object_type}.
 type CustomerprofilesObjectType interface {
 	cdktn.TerraformResource
 	AllowProfileCreation() interface{}
@@ -697,7 +697,7 @@ func (j *jsiiProxy_CustomerprofilesObjectType) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_object_type awscc_customerprofiles_object_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_object_type awscc_customerprofiles_object_type} Resource.
 func NewCustomerprofilesObjectType(scope constructs.Construct, id *string, config *CustomerprofilesObjectTypeConfig) CustomerprofilesObjectType {
 	_init_.Initialize()
 
@@ -715,7 +715,7 @@ func NewCustomerprofilesObjectType(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_object_type awscc_customerprofiles_object_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_object_type awscc_customerprofiles_object_type} Resource.
 func NewCustomerprofilesObjectType_Override(c CustomerprofilesObjectType, scope constructs.Construct, id *string, config *CustomerprofilesObjectTypeConfig) {
 	_init_.Initialize()
 

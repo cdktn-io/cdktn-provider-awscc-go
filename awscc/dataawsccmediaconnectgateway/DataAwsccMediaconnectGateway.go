@@ -5,14 +5,14 @@ package dataawsccmediaconnectgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_gateway awscc_mediaconnect_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_gateway awscc_mediaconnect_gateway}.
 type DataAwsccMediaconnectGateway interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccMediaconnectGateway) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_gateway awscc_mediaconnect_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_gateway awscc_mediaconnect_gateway} Data Source.
 func NewDataAwsccMediaconnectGateway(scope constructs.Construct, id *string, config *DataAwsccMediaconnectGatewayConfig) DataAwsccMediaconnectGateway {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccMediaconnectGateway(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_gateway awscc_mediaconnect_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_gateway awscc_mediaconnect_gateway} Data Source.
 func NewDataAwsccMediaconnectGateway_Override(d DataAwsccMediaconnectGateway, scope constructs.Construct, id *string, config *DataAwsccMediaconnectGatewayConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccworkspaceswebuseraccessloggingsettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebuseraccessloggingsettings/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebuseraccessloggingsettings/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_user_access_logging_settings awscc_workspacesweb_user_access_logging_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_user_access_logging_settings awscc_workspacesweb_user_access_logging_settings}.
 type DataAwsccWorkspaceswebUserAccessLoggingSettings interface {
 	cdktn.TerraformDataSource
 	AssociatedPortalArns() *[]*string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccWorkspaceswebUserAccessLoggingSettings) UserAccessLo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_user_access_logging_settings awscc_workspacesweb_user_access_logging_settings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_user_access_logging_settings awscc_workspacesweb_user_access_logging_settings} Data Source.
 func NewDataAwsccWorkspaceswebUserAccessLoggingSettings(scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebUserAccessLoggingSettingsConfig) DataAwsccWorkspaceswebUserAccessLoggingSettings {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccWorkspaceswebUserAccessLoggingSettings(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_user_access_logging_settings awscc_workspacesweb_user_access_logging_settings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_user_access_logging_settings awscc_workspacesweb_user_access_logging_settings} Data Source.
 func NewDataAwsccWorkspaceswebUserAccessLoggingSettings_Override(d DataAwsccWorkspaceswebUserAccessLoggingSettings, scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebUserAccessLoggingSettingsConfig) {
 	_init_.Initialize()
 

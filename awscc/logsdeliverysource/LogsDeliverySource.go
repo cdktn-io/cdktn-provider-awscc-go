@@ -5,14 +5,14 @@ package logsdeliverysource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdeliverysource/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsdeliverysource/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery_source awscc_logs_delivery_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery_source awscc_logs_delivery_source}.
 type LogsDeliverySource interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -529,7 +529,7 @@ func (j *jsiiProxy_LogsDeliverySource) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery_source awscc_logs_delivery_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery_source awscc_logs_delivery_source} Resource.
 func NewLogsDeliverySource(scope constructs.Construct, id *string, config *LogsDeliverySourceConfig) LogsDeliverySource {
 	_init_.Initialize()
 
@@ -547,7 +547,7 @@ func NewLogsDeliverySource(scope constructs.Construct, id *string, config *LogsD
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery_source awscc_logs_delivery_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery_source awscc_logs_delivery_source} Resource.
 func NewLogsDeliverySource_Override(l LogsDeliverySource, scope constructs.Construct, id *string, config *LogsDeliverySourceConfig) {
 	_init_.Initialize()
 

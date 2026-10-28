@@ -24,23 +24,23 @@ type SesTenantConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the tenant.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#tenant_name SesTenant#tenant_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_tenant#tenant_name SesTenant#tenant_name}
 	TenantName *string `field:"required" json:"tenantName" yaml:"tenantName"`
 	// The reputation configuration for the tenant. Sending status remains managed by SES.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#reputation_entity SesTenant#reputation_entity}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_tenant#reputation_entity SesTenant#reputation_entity}
 	ReputationEntity *SesTenantReputationEntity `field:"optional" json:"reputationEntity" yaml:"reputationEntity"`
 	// The list of resources to associate with the tenant.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#resource_associations SesTenant#resource_associations}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_tenant#resource_associations SesTenant#resource_associations}
 	ResourceAssociations interface{} `field:"optional" json:"resourceAssociations" yaml:"resourceAssociations"`
 	// The suppression attributes for the tenant.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#suppression_attributes SesTenant#suppression_attributes}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_tenant#suppression_attributes SesTenant#suppression_attributes}
 	SuppressionAttributes *SesTenantSuppressionAttributes `field:"optional" json:"suppressionAttributes" yaml:"suppressionAttributes"`
 	// The tags (keys and values) associated with the tenant.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#tags SesTenant#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_tenant#tags SesTenant#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

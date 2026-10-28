@@ -5,14 +5,14 @@ package dataawsccdatabrewjobs
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewjobs/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewjobs/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_jobs awscc_databrew_jobs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_jobs awscc_databrew_jobs}.
 type DataAwsccDatabrewJobs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDatabrewJobs) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_jobs awscc_databrew_jobs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_jobs awscc_databrew_jobs} Data Source.
 func NewDataAwsccDatabrewJobs(scope constructs.Construct, id *string, config *DataAwsccDatabrewJobsConfig) DataAwsccDatabrewJobs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDatabrewJobs(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_jobs awscc_databrew_jobs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_jobs awscc_databrew_jobs} Data Source.
 func NewDataAwsccDatabrewJobs_Override(d DataAwsccDatabrewJobs, scope constructs.Construct, id *string, config *DataAwsccDatabrewJobsConfig) {
 	_init_.Initialize()
 

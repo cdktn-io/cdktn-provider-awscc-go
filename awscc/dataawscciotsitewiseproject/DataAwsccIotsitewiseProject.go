@@ -5,14 +5,14 @@ package dataawscciotsitewiseproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseproject/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseproject/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_project awscc_iotsitewise_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_project awscc_iotsitewise_project}.
 type DataAwsccIotsitewiseProject interface {
 	cdktn.TerraformDataSource
 	AssetIds() *[]*string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccIotsitewiseProject) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_project awscc_iotsitewise_project} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_project awscc_iotsitewise_project} Data Source.
 func NewDataAwsccIotsitewiseProject(scope constructs.Construct, id *string, config *DataAwsccIotsitewiseProjectConfig) DataAwsccIotsitewiseProject {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccIotsitewiseProject(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_project awscc_iotsitewise_project} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_project awscc_iotsitewise_project} Data Source.
 func NewDataAwsccIotsitewiseProject_Override(d DataAwsccIotsitewiseProject, scope constructs.Construct, id *string, config *DataAwsccIotsitewiseProjectConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccsecurityagentartifact
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentartifact/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentartifact/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityagent_artifact awscc_securityagent_artifact}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityagent_artifact awscc_securityagent_artifact}.
 type DataAwsccSecurityagentArtifact interface {
 	cdktn.TerraformDataSource
 	AgentSpaceId() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccSecurityagentArtifact) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityagent_artifact awscc_securityagent_artifact} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityagent_artifact awscc_securityagent_artifact} Data Source.
 func NewDataAwsccSecurityagentArtifact(scope constructs.Construct, id *string, config *DataAwsccSecurityagentArtifactConfig) DataAwsccSecurityagentArtifact {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccSecurityagentArtifact(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityagent_artifact awscc_securityagent_artifact} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityagent_artifact awscc_securityagent_artifact} Data Source.
 func NewDataAwsccSecurityagentArtifact_Override(d DataAwsccSecurityagentArtifact, scope constructs.Construct, id *string, config *DataAwsccSecurityagentArtifactConfig) {
 	_init_.Initialize()
 

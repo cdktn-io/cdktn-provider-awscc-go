@@ -215,6 +215,17 @@ func (h *jsiiProxy_HealthlakeFhirDatastore) validateOverrideLogicalIdParameters(
 	return nil
 }
 
+func (h *jsiiProxy_HealthlakeFhirDatastore) validatePutAnalyticsConfigurationParameters(value *HealthlakeFhirDatastoreAnalyticsConfiguration) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (h *jsiiProxy_HealthlakeFhirDatastore) validatePutIdentityProviderConfigurationParameters(value *HealthlakeFhirDatastoreIdentityProviderConfiguration) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -226,7 +237,29 @@ func (h *jsiiProxy_HealthlakeFhirDatastore) validatePutIdentityProviderConfigura
 	return nil
 }
 
+func (h *jsiiProxy_HealthlakeFhirDatastore) validatePutNlpConfigurationParameters(value *HealthlakeFhirDatastoreNlpConfiguration) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (h *jsiiProxy_HealthlakeFhirDatastore) validatePutPreloadDataConfigParameters(value *HealthlakeFhirDatastorePreloadDataConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (h *jsiiProxy_HealthlakeFhirDatastore) validatePutProfileConfigurationParameters(value *HealthlakeFhirDatastoreProfileConfiguration) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}

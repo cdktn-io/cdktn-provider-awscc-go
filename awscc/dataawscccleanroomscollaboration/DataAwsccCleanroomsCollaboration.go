@@ -5,14 +5,14 @@ package dataawscccleanroomscollaboration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomscollaboration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomscollaboration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_collaboration awscc_cleanrooms_collaboration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_collaboration awscc_cleanrooms_collaboration}.
 type DataAwsccCleanroomsCollaboration interface {
 	cdktn.TerraformDataSource
 	AllowedResultRegions() *[]*string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccCleanroomsCollaboration) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_collaboration awscc_cleanrooms_collaboration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_collaboration awscc_cleanrooms_collaboration} Data Source.
 func NewDataAwsccCleanroomsCollaboration(scope constructs.Construct, id *string, config *DataAwsccCleanroomsCollaborationConfig) DataAwsccCleanroomsCollaboration {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccCleanroomsCollaboration(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_collaboration awscc_cleanrooms_collaboration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_collaboration awscc_cleanrooms_collaboration} Data Source.
 func NewDataAwsccCleanroomsCollaboration_Override(d DataAwsccCleanroomsCollaboration, scope constructs.Construct, id *string, config *DataAwsccCleanroomsCollaborationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawscciamroles
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamroles/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamroles/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_roles awscc_iam_roles}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_roles awscc_iam_roles}.
 type DataAwsccIamRoles interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIamRoles) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_roles awscc_iam_roles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_roles awscc_iam_roles} Data Source.
 func NewDataAwsccIamRoles(scope constructs.Construct, id *string, config *DataAwsccIamRolesConfig) DataAwsccIamRoles {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIamRoles(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_roles awscc_iam_roles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_roles awscc_iam_roles} Data Source.
 func NewDataAwsccIamRoles_Override(d DataAwsccIamRoles, scope constructs.Construct, id *string, config *DataAwsccIamRolesConfig) {
 	_init_.Initialize()
 

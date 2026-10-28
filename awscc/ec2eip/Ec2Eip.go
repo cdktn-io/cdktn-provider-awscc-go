@@ -5,14 +5,14 @@ package ec2eip
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2eip/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2eip/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_eip awscc_ec2_eip}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_eip awscc_ec2_eip}.
 type Ec2Eip interface {
 	cdktn.TerraformResource
 	Address() *string
@@ -569,7 +569,7 @@ func (j *jsiiProxy_Ec2Eip) TransferAddressInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_eip awscc_ec2_eip} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_eip awscc_ec2_eip} Resource.
 func NewEc2Eip(scope constructs.Construct, id *string, config *Ec2EipConfig) Ec2Eip {
 	_init_.Initialize()
 
@@ -587,7 +587,7 @@ func NewEc2Eip(scope constructs.Construct, id *string, config *Ec2EipConfig) Ec2
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_eip awscc_ec2_eip} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_eip awscc_ec2_eip} Resource.
 func NewEc2Eip_Override(e Ec2Eip, scope constructs.Construct, id *string, config *Ec2EipConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawscccloudtrailchannels
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtrailchannels/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtrailchannels/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudtrail_channels awscc_cloudtrail_channels}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudtrail_channels awscc_cloudtrail_channels}.
 type DataAwsccCloudtrailChannels interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCloudtrailChannels) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudtrail_channels awscc_cloudtrail_channels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudtrail_channels awscc_cloudtrail_channels} Data Source.
 func NewDataAwsccCloudtrailChannels(scope constructs.Construct, id *string, config *DataAwsccCloudtrailChannelsConfig) DataAwsccCloudtrailChannels {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCloudtrailChannels(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudtrail_channels awscc_cloudtrail_channels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudtrail_channels awscc_cloudtrail_channels} Data Source.
 func NewDataAwsccCloudtrailChannels_Override(d DataAwsccCloudtrailChannels, scope constructs.Construct, id *string, config *DataAwsccCloudtrailChannelsConfig) {
 	_init_.Initialize()
 

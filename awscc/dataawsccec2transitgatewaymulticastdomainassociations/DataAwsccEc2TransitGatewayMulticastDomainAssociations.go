@@ -5,14 +5,14 @@ package dataawsccec2transitgatewaymulticastdomainassociations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewaymulticastdomainassociations/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewaymulticastdomainassociations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_transit_gateway_multicast_domain_associations awscc_ec2_transit_gateway_multicast_domain_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_transit_gateway_multicast_domain_associations awscc_ec2_transit_gateway_multicast_domain_associations}.
 type DataAwsccEc2TransitGatewayMulticastDomainAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2TransitGatewayMulticastDomainAssociations) Terraf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_transit_gateway_multicast_domain_associations awscc_ec2_transit_gateway_multicast_domain_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_transit_gateway_multicast_domain_associations awscc_ec2_transit_gateway_multicast_domain_associations} Data Source.
 func NewDataAwsccEc2TransitGatewayMulticastDomainAssociations(scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayMulticastDomainAssociationsConfig) DataAwsccEc2TransitGatewayMulticastDomainAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2TransitGatewayMulticastDomainAssociations(scope constructs.C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_transit_gateway_multicast_domain_associations awscc_ec2_transit_gateway_multicast_domain_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_transit_gateway_multicast_domain_associations awscc_ec2_transit_gateway_multicast_domain_associations} Data Source.
 func NewDataAwsccEc2TransitGatewayMulticastDomainAssociations_Override(d DataAwsccEc2TransitGatewayMulticastDomainAssociations, scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayMulticastDomainAssociationsConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package connectcontactflowmoduleversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcontactflowmoduleversion/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcontactflowmoduleversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow_module_version awscc_connect_contact_flow_module_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow_module_version awscc_connect_contact_flow_module_version}.
 type ConnectContactFlowModuleVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -435,7 +435,7 @@ func (j *jsiiProxy_ConnectContactFlowModuleVersion) Version() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow_module_version awscc_connect_contact_flow_module_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow_module_version awscc_connect_contact_flow_module_version} Resource.
 func NewConnectContactFlowModuleVersion(scope constructs.Construct, id *string, config *ConnectContactFlowModuleVersionConfig) ConnectContactFlowModuleVersion {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewConnectContactFlowModuleVersion(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow_module_version awscc_connect_contact_flow_module_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow_module_version awscc_connect_contact_flow_module_version} Resource.
 func NewConnectContactFlowModuleVersion_Override(c ConnectContactFlowModuleVersion, scope constructs.Construct, id *string, config *ConnectContactFlowModuleVersionConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccbedrockagentcoreresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreresourcepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreresourcepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_resource_policy awscc_bedrockagentcore_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_resource_policy awscc_bedrockagentcore_resource_policy}.
 type DataAwsccBedrockagentcoreResourcePolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreResourcePolicy) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_resource_policy awscc_bedrockagentcore_resource_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_resource_policy awscc_bedrockagentcore_resource_policy} Data Source.
 func NewDataAwsccBedrockagentcoreResourcePolicy(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreResourcePolicyConfig) DataAwsccBedrockagentcoreResourcePolicy {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccBedrockagentcoreResourcePolicy(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_resource_policy awscc_bedrockagentcore_resource_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_resource_policy awscc_bedrockagentcore_resource_policy} Data Source.
 func NewDataAwsccBedrockagentcoreResourcePolicy_Override(d DataAwsccBedrockagentcoreResourcePolicy, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreResourcePolicyConfig) {
 	_init_.Initialize()
 

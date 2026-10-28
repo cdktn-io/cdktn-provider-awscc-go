@@ -5,14 +5,14 @@ package securityhubstandard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubstandard/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubstandard/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_standard awscc_securityhub_standard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_standard awscc_securityhub_standard}.
 type SecurityhubStandard interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_SecurityhubStandard) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_standard awscc_securityhub_standard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_standard awscc_securityhub_standard} Resource.
 func NewSecurityhubStandard(scope constructs.Construct, id *string, config *SecurityhubStandardConfig) SecurityhubStandard {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewSecurityhubStandard(scope constructs.Construct, id *string, config *Secu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_standard awscc_securityhub_standard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_standard awscc_securityhub_standard} Resource.
 func NewSecurityhubStandard_Override(s SecurityhubStandard, scope constructs.Construct, id *string, config *SecurityhubStandardConfig) {
 	_init_.Initialize()
 

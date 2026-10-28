@@ -5,14 +5,14 @@ package dataawsccsagemakerdataqualityjobdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdataqualityjobdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdataqualityjobdefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_data_quality_job_definition awscc_sagemaker_data_quality_job_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_data_quality_job_definition awscc_sagemaker_data_quality_job_definition}.
 type DataAwsccSagemakerDataQualityJobDefinition interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccSagemakerDataQualityJobDefinition) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_data_quality_job_definition awscc_sagemaker_data_quality_job_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_data_quality_job_definition awscc_sagemaker_data_quality_job_definition} Data Source.
 func NewDataAwsccSagemakerDataQualityJobDefinition(scope constructs.Construct, id *string, config *DataAwsccSagemakerDataQualityJobDefinitionConfig) DataAwsccSagemakerDataQualityJobDefinition {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccSagemakerDataQualityJobDefinition(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_data_quality_job_definition awscc_sagemaker_data_quality_job_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_data_quality_job_definition awscc_sagemaker_data_quality_job_definition} Data Source.
 func NewDataAwsccSagemakerDataQualityJobDefinition_Override(d DataAwsccSagemakerDataQualityJobDefinition, scope constructs.Construct, id *string, config *DataAwsccSagemakerDataQualityJobDefinitionConfig) {
 	_init_.Initialize()
 

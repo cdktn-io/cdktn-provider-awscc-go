@@ -7,11 +7,11 @@ package gluetable
 type GlueTableOpenTableFormatInputIcebergInputIcebergTableInputWriteOrder struct {
 	// The sort fields.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#fields GlueTable#fields}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#fields GlueTable#fields}
 	Fields interface{} `field:"optional" json:"fields" yaml:"fields"`
 	// The order ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#order_id GlueTable#order_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#order_id GlueTable#order_id}
 	OrderId *float64 `field:"optional" json:"orderId" yaml:"orderId"`
 }
 

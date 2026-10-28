@@ -5,14 +5,14 @@ package dataawsccinspectorv2codesecurityintegration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2codesecurityintegration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2codesecurityintegration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_code_security_integration awscc_inspectorv2_code_security_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_code_security_integration awscc_inspectorv2_code_security_integration}.
 type DataAwsccInspectorv2CodeSecurityIntegration interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccInspectorv2CodeSecurityIntegration) UpdateIntegratio
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_code_security_integration awscc_inspectorv2_code_security_integration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_code_security_integration awscc_inspectorv2_code_security_integration} Data Source.
 func NewDataAwsccInspectorv2CodeSecurityIntegration(scope constructs.Construct, id *string, config *DataAwsccInspectorv2CodeSecurityIntegrationConfig) DataAwsccInspectorv2CodeSecurityIntegration {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccInspectorv2CodeSecurityIntegration(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_code_security_integration awscc_inspectorv2_code_security_integration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_code_security_integration awscc_inspectorv2_code_security_integration} Data Source.
 func NewDataAwsccInspectorv2CodeSecurityIntegration_Override(d DataAwsccInspectorv2CodeSecurityIntegration, scope constructs.Construct, id *string, config *DataAwsccInspectorv2CodeSecurityIntegrationConfig) {
 	_init_.Initialize()
 

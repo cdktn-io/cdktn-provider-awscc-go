@@ -5,14 +5,14 @@ package dataawsccodbcloudautonomousvmcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbcloudautonomousvmcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbcloudautonomousvmcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/odb_cloud_autonomous_vm_cluster awscc_odb_cloud_autonomous_vm_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/odb_cloud_autonomous_vm_cluster awscc_odb_cloud_autonomous_vm_cluster}.
 type DataAwsccOdbCloudAutonomousVmCluster interface {
 	cdktn.TerraformDataSource
 	AutonomousDataStoragePercentage() *float64
@@ -781,7 +781,7 @@ func (j *jsiiProxy_DataAwsccOdbCloudAutonomousVmCluster) TotalContainerDatabases
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/odb_cloud_autonomous_vm_cluster awscc_odb_cloud_autonomous_vm_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/odb_cloud_autonomous_vm_cluster awscc_odb_cloud_autonomous_vm_cluster} Data Source.
 func NewDataAwsccOdbCloudAutonomousVmCluster(scope constructs.Construct, id *string, config *DataAwsccOdbCloudAutonomousVmClusterConfig) DataAwsccOdbCloudAutonomousVmCluster {
 	_init_.Initialize()
 
@@ -799,7 +799,7 @@ func NewDataAwsccOdbCloudAutonomousVmCluster(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/odb_cloud_autonomous_vm_cluster awscc_odb_cloud_autonomous_vm_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/odb_cloud_autonomous_vm_cluster awscc_odb_cloud_autonomous_vm_cluster} Data Source.
 func NewDataAwsccOdbCloudAutonomousVmCluster_Override(d DataAwsccOdbCloudAutonomousVmCluster, scope constructs.Construct, id *string, config *DataAwsccOdbCloudAutonomousVmClusterConfig) {
 	_init_.Initialize()
 

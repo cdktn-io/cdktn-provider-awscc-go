@@ -5,14 +5,14 @@ package connectsecurityprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectsecurityprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectsecurityprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile awscc_connect_security_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile awscc_connect_security_profile}.
 type ConnectSecurityProfile interface {
 	cdktn.TerraformResource
 	AllowedAccessControlHierarchyGroupId() *string
@@ -674,7 +674,7 @@ func (j *jsiiProxy_ConnectSecurityProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile awscc_connect_security_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile awscc_connect_security_profile} Resource.
 func NewConnectSecurityProfile(scope constructs.Construct, id *string, config *ConnectSecurityProfileConfig) ConnectSecurityProfile {
 	_init_.Initialize()
 
@@ -692,7 +692,7 @@ func NewConnectSecurityProfile(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_security_profile awscc_connect_security_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_security_profile awscc_connect_security_profile} Resource.
 func NewConnectSecurityProfile_Override(c ConnectSecurityProfile, scope constructs.Construct, id *string, config *ConnectSecurityProfileConfig) {
 	_init_.Initialize()
 

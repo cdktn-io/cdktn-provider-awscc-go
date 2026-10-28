@@ -5,14 +5,14 @@ package pcaconnectorscepchallenge
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcaconnectorscepchallenge/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcaconnectorscepchallenge/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcaconnectorscep_challenge awscc_pcaconnectorscep_challenge}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcaconnectorscep_challenge awscc_pcaconnectorscep_challenge}.
 type PcaconnectorscepChallenge interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_PcaconnectorscepChallenge) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcaconnectorscep_challenge awscc_pcaconnectorscep_challenge} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcaconnectorscep_challenge awscc_pcaconnectorscep_challenge} Resource.
 func NewPcaconnectorscepChallenge(scope constructs.Construct, id *string, config *PcaconnectorscepChallengeConfig) PcaconnectorscepChallenge {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewPcaconnectorscepChallenge(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcaconnectorscep_challenge awscc_pcaconnectorscep_challenge} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcaconnectorscep_challenge awscc_pcaconnectorscep_challenge} Resource.
 func NewPcaconnectorscepChallenge_Override(p PcaconnectorscepChallenge, scope constructs.Construct, id *string, config *PcaconnectorscepChallengeConfig) {
 	_init_.Initialize()
 

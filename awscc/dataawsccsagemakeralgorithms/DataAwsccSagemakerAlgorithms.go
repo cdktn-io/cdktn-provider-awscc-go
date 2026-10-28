@@ -5,14 +5,14 @@ package dataawsccsagemakeralgorithms
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakeralgorithms/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakeralgorithms/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_algorithms awscc_sagemaker_algorithms}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_algorithms awscc_sagemaker_algorithms}.
 type DataAwsccSagemakerAlgorithms interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSagemakerAlgorithms) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_algorithms awscc_sagemaker_algorithms} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_algorithms awscc_sagemaker_algorithms} Data Source.
 func NewDataAwsccSagemakerAlgorithms(scope constructs.Construct, id *string, config *DataAwsccSagemakerAlgorithmsConfig) DataAwsccSagemakerAlgorithms {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSagemakerAlgorithms(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_algorithms awscc_sagemaker_algorithms} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_algorithms awscc_sagemaker_algorithms} Data Source.
 func NewDataAwsccSagemakerAlgorithms_Override(d DataAwsccSagemakerAlgorithms, scope constructs.Construct, id *string, config *DataAwsccSagemakerAlgorithmsConfig) {
 	_init_.Initialize()
 

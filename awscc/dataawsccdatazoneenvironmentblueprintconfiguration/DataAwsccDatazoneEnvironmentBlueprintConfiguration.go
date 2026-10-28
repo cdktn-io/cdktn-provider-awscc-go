@@ -5,14 +5,14 @@ package dataawsccdatazoneenvironmentblueprintconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneenvironmentblueprintconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneenvironmentblueprintconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_environment_blueprint_configuration awscc_datazone_environment_blueprint_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_environment_blueprint_configuration awscc_datazone_environment_blueprint_configuration}.
 type DataAwsccDatazoneEnvironmentBlueprintConfiguration interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccDatazoneEnvironmentBlueprintConfiguration) UpdatedAt
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_environment_blueprint_configuration awscc_datazone_environment_blueprint_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_environment_blueprint_configuration awscc_datazone_environment_blueprint_configuration} Data Source.
 func NewDataAwsccDatazoneEnvironmentBlueprintConfiguration(scope constructs.Construct, id *string, config *DataAwsccDatazoneEnvironmentBlueprintConfigurationConfig) DataAwsccDatazoneEnvironmentBlueprintConfiguration {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccDatazoneEnvironmentBlueprintConfiguration(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_environment_blueprint_configuration awscc_datazone_environment_blueprint_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_environment_blueprint_configuration awscc_datazone_environment_blueprint_configuration} Data Source.
 func NewDataAwsccDatazoneEnvironmentBlueprintConfiguration_Override(d DataAwsccDatazoneEnvironmentBlueprintConfiguration, scope constructs.Construct, id *string, config *DataAwsccDatazoneEnvironmentBlueprintConfigurationConfig) {
 	_init_.Initialize()
 

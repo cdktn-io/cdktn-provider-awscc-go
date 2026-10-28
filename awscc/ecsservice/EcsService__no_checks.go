@@ -95,6 +95,10 @@ func (e *jsiiProxy_EcsService) validatePutForceNewDeploymentParameters(value *Ec
 	return nil
 }
 
+func (e *jsiiProxy_EcsService) validatePutGatewayConnectorsParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EcsService) validatePutLoadBalancersParameters(value interface{}) error {
 	return nil
 }

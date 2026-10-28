@@ -5,14 +5,14 @@ package dataawsccmacieallowlists
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmacieallowlists/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmacieallowlists/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/macie_allow_lists awscc_macie_allow_lists}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/macie_allow_lists awscc_macie_allow_lists}.
 type DataAwsccMacieAllowLists interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMacieAllowLists) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/macie_allow_lists awscc_macie_allow_lists} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/macie_allow_lists awscc_macie_allow_lists} Data Source.
 func NewDataAwsccMacieAllowLists(scope constructs.Construct, id *string, config *DataAwsccMacieAllowListsConfig) DataAwsccMacieAllowLists {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMacieAllowLists(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/macie_allow_lists awscc_macie_allow_lists} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/macie_allow_lists awscc_macie_allow_lists} Data Source.
 func NewDataAwsccMacieAllowLists_Override(d DataAwsccMacieAllowLists, scope constructs.Construct, id *string, config *DataAwsccMacieAllowListsConfig) {
 	_init_.Initialize()
 

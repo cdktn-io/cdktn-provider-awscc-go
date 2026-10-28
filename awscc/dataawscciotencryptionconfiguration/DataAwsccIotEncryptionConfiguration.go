@@ -5,14 +5,14 @@ package dataawscciotencryptionconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotencryptionconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotencryptionconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_encryption_configuration awscc_iot_encryption_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_encryption_configuration awscc_iot_encryption_configuration}.
 type DataAwsccIotEncryptionConfiguration interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccIotEncryptionConfiguration) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_encryption_configuration awscc_iot_encryption_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_encryption_configuration awscc_iot_encryption_configuration} Data Source.
 func NewDataAwsccIotEncryptionConfiguration(scope constructs.Construct, id *string, config *DataAwsccIotEncryptionConfigurationConfig) DataAwsccIotEncryptionConfiguration {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccIotEncryptionConfiguration(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_encryption_configuration awscc_iot_encryption_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_encryption_configuration awscc_iot_encryption_configuration} Data Source.
 func NewDataAwsccIotEncryptionConfiguration_Override(d DataAwsccIotEncryptionConfiguration, scope constructs.Construct, id *string, config *DataAwsccIotEncryptionConfigurationConfig) {
 	_init_.Initialize()
 

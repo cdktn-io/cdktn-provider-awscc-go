@@ -5,14 +5,14 @@ package inspectorv2codesecurityintegration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/inspectorv2codesecurityintegration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/inspectorv2codesecurityintegration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_code_security_integration awscc_inspectorv2_code_security_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_code_security_integration awscc_inspectorv2_code_security_integration}.
 type Inspectorv2CodeSecurityIntegration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -541,7 +541,7 @@ func (j *jsiiProxy_Inspectorv2CodeSecurityIntegration) UpdateIntegrationDetailsI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_code_security_integration awscc_inspectorv2_code_security_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_code_security_integration awscc_inspectorv2_code_security_integration} Resource.
 func NewInspectorv2CodeSecurityIntegration(scope constructs.Construct, id *string, config *Inspectorv2CodeSecurityIntegrationConfig) Inspectorv2CodeSecurityIntegration {
 	_init_.Initialize()
 
@@ -559,7 +559,7 @@ func NewInspectorv2CodeSecurityIntegration(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_code_security_integration awscc_inspectorv2_code_security_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_code_security_integration awscc_inspectorv2_code_security_integration} Resource.
 func NewInspectorv2CodeSecurityIntegration_Override(i Inspectorv2CodeSecurityIntegration, scope constructs.Construct, id *string, config *Inspectorv2CodeSecurityIntegrationConfig) {
 	_init_.Initialize()
 

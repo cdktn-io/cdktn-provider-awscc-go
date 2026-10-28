@@ -5,14 +5,14 @@ package odbodbnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/odbodbnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/odbodbnetwork/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_network awscc_odb_odb_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_network awscc_odb_odb_network}.
 type OdbOdbNetwork interface {
 	cdktn.TerraformResource
 	AvailabilityZone() *string
@@ -840,7 +840,7 @@ func (j *jsiiProxy_OdbOdbNetwork) ZeroEtlAccessInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_network awscc_odb_odb_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_network awscc_odb_odb_network} Resource.
 func NewOdbOdbNetwork(scope constructs.Construct, id *string, config *OdbOdbNetworkConfig) OdbOdbNetwork {
 	_init_.Initialize()
 
@@ -858,7 +858,7 @@ func NewOdbOdbNetwork(scope constructs.Construct, id *string, config *OdbOdbNetw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/odb_odb_network awscc_odb_odb_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/odb_odb_network awscc_odb_odb_network} Resource.
 func NewOdbOdbNetwork_Override(o OdbOdbNetwork, scope constructs.Construct, id *string, config *OdbOdbNetworkConfig) {
 	_init_.Initialize()
 

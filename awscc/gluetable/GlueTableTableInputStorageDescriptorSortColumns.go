@@ -7,11 +7,11 @@ package gluetable
 type GlueTableTableInputStorageDescriptorSortColumns struct {
 	// The name of the column.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#column GlueTable#column}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#column GlueTable#column}
 	Column *string `field:"optional" json:"column" yaml:"column"`
 	// Indicates that the column is sorted in ascending order (==1), or in descending order (==0).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#sort_order GlueTable#sort_order}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#sort_order GlueTable#sort_order}
 	SortOrder *float64 `field:"optional" json:"sortOrder" yaml:"sortOrder"`
 }
 

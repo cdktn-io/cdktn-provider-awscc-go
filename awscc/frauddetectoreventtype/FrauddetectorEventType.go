@@ -5,14 +5,14 @@ package frauddetectoreventtype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/frauddetectoreventtype/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/frauddetectoreventtype/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/frauddetector_event_type awscc_frauddetector_event_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/frauddetector_event_type awscc_frauddetector_event_type}.
 type FrauddetectorEventType interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -528,7 +528,7 @@ func (j *jsiiProxy_FrauddetectorEventType) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/frauddetector_event_type awscc_frauddetector_event_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/frauddetector_event_type awscc_frauddetector_event_type} Resource.
 func NewFrauddetectorEventType(scope constructs.Construct, id *string, config *FrauddetectorEventTypeConfig) FrauddetectorEventType {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewFrauddetectorEventType(scope constructs.Construct, id *string, config *F
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/frauddetector_event_type awscc_frauddetector_event_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/frauddetector_event_type awscc_frauddetector_event_type} Resource.
 func NewFrauddetectorEventType_Override(f FrauddetectorEventType, scope constructs.Construct, id *string, config *FrauddetectorEventTypeConfig) {
 	_init_.Initialize()
 

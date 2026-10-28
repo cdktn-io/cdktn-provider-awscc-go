@@ -5,14 +5,14 @@ package dataawsccnetworksecuritymanagerdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworksecuritymanagerdeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworksecuritymanagerdeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networksecuritymanager_deployment awscc_networksecuritymanager_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networksecuritymanager_deployment awscc_networksecuritymanager_deployment}.
 type DataAwsccNetworksecuritymanagerDeployment interface {
 	cdktn.TerraformDataSource
 	AssociatedPolicyList() DataAwsccNetworksecuritymanagerDeploymentAssociatedPolicyListStructList
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccNetworksecuritymanagerDeployment) Version() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networksecuritymanager_deployment awscc_networksecuritymanager_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networksecuritymanager_deployment awscc_networksecuritymanager_deployment} Data Source.
 func NewDataAwsccNetworksecuritymanagerDeployment(scope constructs.Construct, id *string, config *DataAwsccNetworksecuritymanagerDeploymentConfig) DataAwsccNetworksecuritymanagerDeployment {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccNetworksecuritymanagerDeployment(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networksecuritymanager_deployment awscc_networksecuritymanager_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networksecuritymanager_deployment awscc_networksecuritymanager_deployment} Data Source.
 func NewDataAwsccNetworksecuritymanagerDeployment_Override(d DataAwsccNetworksecuritymanagerDeployment, scope constructs.Construct, id *string, config *DataAwsccNetworksecuritymanagerDeploymentConfig) {
 	_init_.Initialize()
 

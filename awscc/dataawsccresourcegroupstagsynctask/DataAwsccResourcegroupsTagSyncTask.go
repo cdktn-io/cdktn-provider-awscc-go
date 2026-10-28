@@ -5,14 +5,14 @@ package dataawsccresourcegroupstagsynctask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupstagsynctask/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupstagsynctask/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resourcegroups_tag_sync_task awscc_resourcegroups_tag_sync_task}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resourcegroups_tag_sync_task awscc_resourcegroups_tag_sync_task}.
 type DataAwsccResourcegroupsTagSyncTask interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccResourcegroupsTagSyncTask) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resourcegroups_tag_sync_task awscc_resourcegroups_tag_sync_task} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resourcegroups_tag_sync_task awscc_resourcegroups_tag_sync_task} Data Source.
 func NewDataAwsccResourcegroupsTagSyncTask(scope constructs.Construct, id *string, config *DataAwsccResourcegroupsTagSyncTaskConfig) DataAwsccResourcegroupsTagSyncTask {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccResourcegroupsTagSyncTask(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resourcegroups_tag_sync_task awscc_resourcegroups_tag_sync_task} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resourcegroups_tag_sync_task awscc_resourcegroups_tag_sync_task} Data Source.
 func NewDataAwsccResourcegroupsTagSyncTask_Override(d DataAwsccResourcegroupsTagSyncTask, scope constructs.Construct, id *string, config *DataAwsccResourcegroupsTagSyncTaskConfig) {
 	_init_.Initialize()
 

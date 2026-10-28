@@ -5,14 +5,14 @@ package dataawsccdmsdataproviders
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmsdataproviders/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmsdataproviders/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dms_data_providers awscc_dms_data_providers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dms_data_providers awscc_dms_data_providers}.
 type DataAwsccDmsDataProviders interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDmsDataProviders) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dms_data_providers awscc_dms_data_providers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dms_data_providers awscc_dms_data_providers} Data Source.
 func NewDataAwsccDmsDataProviders(scope constructs.Construct, id *string, config *DataAwsccDmsDataProvidersConfig) DataAwsccDmsDataProviders {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDmsDataProviders(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dms_data_providers awscc_dms_data_providers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dms_data_providers awscc_dms_data_providers} Data Source.
 func NewDataAwsccDmsDataProviders_Override(d DataAwsccDmsDataProviders, scope constructs.Construct, id *string, config *DataAwsccDmsDataProvidersConfig) {
 	_init_.Initialize()
 

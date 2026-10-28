@@ -5,14 +5,14 @@ package dataawsccgroundstationconfigs
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgroundstationconfigs/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgroundstationconfigs/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/groundstation_configs awscc_groundstation_configs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/groundstation_configs awscc_groundstation_configs}.
 type DataAwsccGroundstationConfigs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGroundstationConfigs) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/groundstation_configs awscc_groundstation_configs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/groundstation_configs awscc_groundstation_configs} Data Source.
 func NewDataAwsccGroundstationConfigs(scope constructs.Construct, id *string, config *DataAwsccGroundstationConfigsConfig) DataAwsccGroundstationConfigs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGroundstationConfigs(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/groundstation_configs awscc_groundstation_configs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/groundstation_configs awscc_groundstation_configs} Data Source.
 func NewDataAwsccGroundstationConfigs_Override(d DataAwsccGroundstationConfigs, scope constructs.Construct, id *string, config *DataAwsccGroundstationConfigsConfig) {
 	_init_.Initialize()
 

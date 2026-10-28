@@ -5,14 +5,14 @@ package sagemakernotebookinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakernotebookinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakernotebookinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_notebook_instance awscc_sagemaker_notebook_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_notebook_instance awscc_sagemaker_notebook_instance}.
 type SagemakerNotebookInstance interface {
 	cdktn.TerraformResource
 	AcceleratorTypes() *[]*string
@@ -748,7 +748,7 @@ func (j *jsiiProxy_SagemakerNotebookInstance) VolumeSizeInGbInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_notebook_instance awscc_sagemaker_notebook_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_notebook_instance awscc_sagemaker_notebook_instance} Resource.
 func NewSagemakerNotebookInstance(scope constructs.Construct, id *string, config *SagemakerNotebookInstanceConfig) SagemakerNotebookInstance {
 	_init_.Initialize()
 
@@ -766,7 +766,7 @@ func NewSagemakerNotebookInstance(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_notebook_instance awscc_sagemaker_notebook_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_notebook_instance awscc_sagemaker_notebook_instance} Resource.
 func NewSagemakerNotebookInstance_Override(s SagemakerNotebookInstance, scope constructs.Construct, id *string, config *SagemakerNotebookInstanceConfig) {
 	_init_.Initialize()
 

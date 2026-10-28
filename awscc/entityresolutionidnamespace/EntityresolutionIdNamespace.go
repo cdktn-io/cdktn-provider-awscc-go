@@ -5,14 +5,14 @@ package entityresolutionidnamespace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/entityresolutionidnamespace/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/entityresolutionidnamespace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/entityresolution_id_namespace awscc_entityresolution_id_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/entityresolution_id_namespace awscc_entityresolution_id_namespace}.
 type EntityresolutionIdNamespace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -554,7 +554,7 @@ func (j *jsiiProxy_EntityresolutionIdNamespace) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/entityresolution_id_namespace awscc_entityresolution_id_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/entityresolution_id_namespace awscc_entityresolution_id_namespace} Resource.
 func NewEntityresolutionIdNamespace(scope constructs.Construct, id *string, config *EntityresolutionIdNamespaceConfig) EntityresolutionIdNamespace {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewEntityresolutionIdNamespace(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/entityresolution_id_namespace awscc_entityresolution_id_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/entityresolution_id_namespace awscc_entityresolution_id_namespace} Resource.
 func NewEntityresolutionIdNamespace_Override(e EntityresolutionIdNamespace, scope constructs.Construct, id *string, config *EntityresolutionIdNamespaceConfig) {
 	_init_.Initialize()
 

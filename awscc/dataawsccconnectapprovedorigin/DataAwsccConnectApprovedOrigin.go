@@ -5,14 +5,14 @@ package dataawsccconnectapprovedorigin
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectapprovedorigin/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectapprovedorigin/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_approved_origin awscc_connect_approved_origin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_approved_origin awscc_connect_approved_origin}.
 type DataAwsccConnectApprovedOrigin interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccConnectApprovedOrigin) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_approved_origin awscc_connect_approved_origin} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_approved_origin awscc_connect_approved_origin} Data Source.
 func NewDataAwsccConnectApprovedOrigin(scope constructs.Construct, id *string, config *DataAwsccConnectApprovedOriginConfig) DataAwsccConnectApprovedOrigin {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccConnectApprovedOrigin(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_approved_origin awscc_connect_approved_origin} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_approved_origin awscc_connect_approved_origin} Data Source.
 func NewDataAwsccConnectApprovedOrigin_Override(d DataAwsccConnectApprovedOrigin, scope constructs.Construct, id *string, config *DataAwsccConnectApprovedOriginConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccsagemakertrialcomponent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakertrialcomponent/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakertrialcomponent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_trial_component awscc_sagemaker_trial_component}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_trial_component awscc_sagemaker_trial_component}.
 type DataAwsccSagemakerTrialComponent interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccSagemakerTrialComponent) TrialComponentName() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_trial_component awscc_sagemaker_trial_component} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_trial_component awscc_sagemaker_trial_component} Data Source.
 func NewDataAwsccSagemakerTrialComponent(scope constructs.Construct, id *string, config *DataAwsccSagemakerTrialComponentConfig) DataAwsccSagemakerTrialComponent {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccSagemakerTrialComponent(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_trial_component awscc_sagemaker_trial_component} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_trial_component awscc_sagemaker_trial_component} Data Source.
 func NewDataAwsccSagemakerTrialComponent_Override(d DataAwsccSagemakerTrialComponent, scope constructs.Construct, id *string, config *DataAwsccSagemakerTrialComponentConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package route53globalresolverglobalresolver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53globalresolverglobalresolver/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53globalresolverglobalresolver/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53globalresolver_global_resolver awscc_route53globalresolver_global_resolver}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53globalresolver_global_resolver awscc_route53globalresolver_global_resolver}.
 type Route53GlobalresolverGlobalResolver interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -609,7 +609,7 @@ func (j *jsiiProxy_Route53GlobalresolverGlobalResolver) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53globalresolver_global_resolver awscc_route53globalresolver_global_resolver} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53globalresolver_global_resolver awscc_route53globalresolver_global_resolver} Resource.
 func NewRoute53GlobalresolverGlobalResolver(scope constructs.Construct, id *string, config *Route53GlobalresolverGlobalResolverConfig) Route53GlobalresolverGlobalResolver {
 	_init_.Initialize()
 
@@ -627,7 +627,7 @@ func NewRoute53GlobalresolverGlobalResolver(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53globalresolver_global_resolver awscc_route53globalresolver_global_resolver} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53globalresolver_global_resolver awscc_route53globalresolver_global_resolver} Resource.
 func NewRoute53GlobalresolverGlobalResolver_Override(r Route53GlobalresolverGlobalResolver, scope constructs.Construct, id *string, config *Route53GlobalresolverGlobalResolverConfig) {
 	_init_.Initialize()
 

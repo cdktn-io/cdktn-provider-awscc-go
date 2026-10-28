@@ -5,16 +5,18 @@ package healthlakefhirdatastore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/healthlakefhirdatastore/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/healthlakefhirdatastore/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/healthlake_fhir_datastore awscc_healthlake_fhir_datastore}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/healthlake_fhir_datastore awscc_healthlake_fhir_datastore}.
 type HealthlakeFhirDatastore interface {
 	cdktn.TerraformResource
+	AnalyticsConfiguration() HealthlakeFhirDatastoreAnalyticsConfigurationOutputReference
+	AnalyticsConfigurationInput() interface{}
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -57,10 +59,14 @@ type HealthlakeFhirDatastore interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	NlpConfiguration() HealthlakeFhirDatastoreNlpConfigurationOutputReference
+	NlpConfigurationInput() interface{}
 	// The tree node.
 	Node() constructs.Node
 	PreloadDataConfig() HealthlakeFhirDatastorePreloadDataConfigOutputReference
 	PreloadDataConfigInput() interface{}
+	ProfileConfiguration() HealthlakeFhirDatastoreProfileConfigurationOutputReference
+	ProfileConfigurationInput() interface{}
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -160,8 +166,11 @@ type HealthlakeFhirDatastore interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutAnalyticsConfiguration(value *HealthlakeFhirDatastoreAnalyticsConfiguration)
 	PutIdentityProviderConfiguration(value *HealthlakeFhirDatastoreIdentityProviderConfiguration)
+	PutNlpConfiguration(value *HealthlakeFhirDatastoreNlpConfiguration)
 	PutPreloadDataConfig(value *HealthlakeFhirDatastorePreloadDataConfig)
+	PutProfileConfiguration(value *HealthlakeFhirDatastoreProfileConfiguration)
 	PutSseConfiguration(value *HealthlakeFhirDatastoreSseConfiguration)
 	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
@@ -177,12 +186,15 @@ type HealthlakeFhirDatastore interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetAnalyticsConfiguration()
 	ResetDatastoreName()
 	ResetIdentityProviderConfiguration()
+	ResetNlpConfiguration()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetPreloadDataConfig()
+	ResetProfileConfiguration()
 	ResetSseConfiguration()
 	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
@@ -210,6 +222,26 @@ type HealthlakeFhirDatastore interface {
 // The jsii proxy struct for HealthlakeFhirDatastore
 type jsiiProxy_HealthlakeFhirDatastore struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_HealthlakeFhirDatastore) AnalyticsConfiguration() HealthlakeFhirDatastoreAnalyticsConfigurationOutputReference {
+	var returns HealthlakeFhirDatastoreAnalyticsConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"analyticsConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_HealthlakeFhirDatastore) AnalyticsConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"analyticsConfigurationInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_HealthlakeFhirDatastore) CdktfStack() cdktn.TerraformStack {
@@ -422,6 +454,26 @@ func (j *jsiiProxy_HealthlakeFhirDatastore) Lifecycle() *cdktn.TerraformResource
 	return returns
 }
 
+func (j *jsiiProxy_HealthlakeFhirDatastore) NlpConfiguration() HealthlakeFhirDatastoreNlpConfigurationOutputReference {
+	var returns HealthlakeFhirDatastoreNlpConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"nlpConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_HealthlakeFhirDatastore) NlpConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"nlpConfigurationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_HealthlakeFhirDatastore) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -447,6 +499,26 @@ func (j *jsiiProxy_HealthlakeFhirDatastore) PreloadDataConfigInput() interface{}
 	_jsii_.Get(
 		j,
 		"preloadDataConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_HealthlakeFhirDatastore) ProfileConfiguration() HealthlakeFhirDatastoreProfileConfigurationOutputReference {
+	var returns HealthlakeFhirDatastoreProfileConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"profileConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_HealthlakeFhirDatastore) ProfileConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"profileConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -553,7 +625,7 @@ func (j *jsiiProxy_HealthlakeFhirDatastore) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/healthlake_fhir_datastore awscc_healthlake_fhir_datastore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/healthlake_fhir_datastore awscc_healthlake_fhir_datastore} Resource.
 func NewHealthlakeFhirDatastore(scope constructs.Construct, id *string, config *HealthlakeFhirDatastoreConfig) HealthlakeFhirDatastore {
 	_init_.Initialize()
 
@@ -571,7 +643,7 @@ func NewHealthlakeFhirDatastore(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/healthlake_fhir_datastore awscc_healthlake_fhir_datastore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/healthlake_fhir_datastore awscc_healthlake_fhir_datastore} Resource.
 func NewHealthlakeFhirDatastore_Override(h HealthlakeFhirDatastore, scope constructs.Construct, id *string, config *HealthlakeFhirDatastoreConfig) {
 	_init_.Initialize()
 
@@ -1041,6 +1113,17 @@ func (h *jsiiProxy_HealthlakeFhirDatastore) OverrideLogicalId(newLogicalId *stri
 	)
 }
 
+func (h *jsiiProxy_HealthlakeFhirDatastore) PutAnalyticsConfiguration(value *HealthlakeFhirDatastoreAnalyticsConfiguration) {
+	if err := h.validatePutAnalyticsConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		h,
+		"putAnalyticsConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (h *jsiiProxy_HealthlakeFhirDatastore) PutIdentityProviderConfiguration(value *HealthlakeFhirDatastoreIdentityProviderConfiguration) {
 	if err := h.validatePutIdentityProviderConfigurationParameters(value); err != nil {
 		panic(err)
@@ -1052,6 +1135,17 @@ func (h *jsiiProxy_HealthlakeFhirDatastore) PutIdentityProviderConfiguration(val
 	)
 }
 
+func (h *jsiiProxy_HealthlakeFhirDatastore) PutNlpConfiguration(value *HealthlakeFhirDatastoreNlpConfiguration) {
+	if err := h.validatePutNlpConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		h,
+		"putNlpConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (h *jsiiProxy_HealthlakeFhirDatastore) PutPreloadDataConfig(value *HealthlakeFhirDatastorePreloadDataConfig) {
 	if err := h.validatePutPreloadDataConfigParameters(value); err != nil {
 		panic(err)
@@ -1059,6 +1153,17 @@ func (h *jsiiProxy_HealthlakeFhirDatastore) PutPreloadDataConfig(value *Healthla
 	_jsii_.InvokeVoid(
 		h,
 		"putPreloadDataConfig",
+		[]interface{}{value},
+	)
+}
+
+func (h *jsiiProxy_HealthlakeFhirDatastore) PutProfileConfiguration(value *HealthlakeFhirDatastoreProfileConfiguration) {
+	if err := h.validatePutProfileConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		h,
+		"putProfileConfiguration",
 		[]interface{}{value},
 	)
 }
@@ -1096,6 +1201,14 @@ func (h *jsiiProxy_HealthlakeFhirDatastore) RegisterProviderFeatureUsage(feature
 	)
 }
 
+func (h *jsiiProxy_HealthlakeFhirDatastore) ResetAnalyticsConfiguration() {
+	_jsii_.InvokeVoid(
+		h,
+		"resetAnalyticsConfiguration",
+		nil, // no parameters
+	)
+}
+
 func (h *jsiiProxy_HealthlakeFhirDatastore) ResetDatastoreName() {
 	_jsii_.InvokeVoid(
 		h,
@@ -1112,6 +1225,14 @@ func (h *jsiiProxy_HealthlakeFhirDatastore) ResetIdentityProviderConfiguration()
 	)
 }
 
+func (h *jsiiProxy_HealthlakeFhirDatastore) ResetNlpConfiguration() {
+	_jsii_.InvokeVoid(
+		h,
+		"resetNlpConfiguration",
+		nil, // no parameters
+	)
+}
+
 func (h *jsiiProxy_HealthlakeFhirDatastore) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		h,
@@ -1124,6 +1245,14 @@ func (h *jsiiProxy_HealthlakeFhirDatastore) ResetPreloadDataConfig() {
 	_jsii_.InvokeVoid(
 		h,
 		"resetPreloadDataConfig",
+		nil, // no parameters
+	)
+}
+
+func (h *jsiiProxy_HealthlakeFhirDatastore) ResetProfileConfiguration() {
+	_jsii_.InvokeVoid(
+		h,
+		"resetProfileConfiguration",
 		nil, // no parameters
 	)
 }

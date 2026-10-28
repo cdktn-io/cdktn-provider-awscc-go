@@ -5,14 +5,14 @@ package dataawsccmpaidentitysources
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmpaidentitysources/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmpaidentitysources/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mpa_identity_sources awscc_mpa_identity_sources}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mpa_identity_sources awscc_mpa_identity_sources}.
 type DataAwsccMpaIdentitySources interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMpaIdentitySources) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mpa_identity_sources awscc_mpa_identity_sources} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mpa_identity_sources awscc_mpa_identity_sources} Data Source.
 func NewDataAwsccMpaIdentitySources(scope constructs.Construct, id *string, config *DataAwsccMpaIdentitySourcesConfig) DataAwsccMpaIdentitySources {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMpaIdentitySources(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mpa_identity_sources awscc_mpa_identity_sources} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mpa_identity_sources awscc_mpa_identity_sources} Data Source.
 func NewDataAwsccMpaIdentitySources_Override(d DataAwsccMpaIdentitySources, scope constructs.Construct, id *string, config *DataAwsccMpaIdentitySourcesConfig) {
 	_init_.Initialize()
 

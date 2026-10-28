@@ -5,14 +5,14 @@ package dataawsccelasticachecachecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachecachecluster/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachecachecluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_cache_cluster awscc_elasticache_cache_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_cache_cluster awscc_elasticache_cache_cluster}.
 type DataAwsccElasticacheCacheCluster interface {
 	cdktn.TerraformDataSource
 	AutoMinorVersionUpgrade() cdktn.IResolvable
@@ -583,7 +583,7 @@ func (j *jsiiProxy_DataAwsccElasticacheCacheCluster) VpcSecurityGroupIds() *[]*s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_cache_cluster awscc_elasticache_cache_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_cache_cluster awscc_elasticache_cache_cluster} Data Source.
 func NewDataAwsccElasticacheCacheCluster(scope constructs.Construct, id *string, config *DataAwsccElasticacheCacheClusterConfig) DataAwsccElasticacheCacheCluster {
 	_init_.Initialize()
 
@@ -601,7 +601,7 @@ func NewDataAwsccElasticacheCacheCluster(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_cache_cluster awscc_elasticache_cache_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_cache_cluster awscc_elasticache_cache_cluster} Data Source.
 func NewDataAwsccElasticacheCacheCluster_Override(d DataAwsccElasticacheCacheCluster, scope constructs.Construct, id *string, config *DataAwsccElasticacheCacheClusterConfig) {
 	_init_.Initialize()
 

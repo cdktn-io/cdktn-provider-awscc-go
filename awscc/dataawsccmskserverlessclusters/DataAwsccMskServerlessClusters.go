@@ -5,14 +5,14 @@ package dataawsccmskserverlessclusters
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskserverlessclusters/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskserverlessclusters/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_serverless_clusters awscc_msk_serverless_clusters}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_serverless_clusters awscc_msk_serverless_clusters}.
 type DataAwsccMskServerlessClusters interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMskServerlessClusters) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_serverless_clusters awscc_msk_serverless_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_serverless_clusters awscc_msk_serverless_clusters} Data Source.
 func NewDataAwsccMskServerlessClusters(scope constructs.Construct, id *string, config *DataAwsccMskServerlessClustersConfig) DataAwsccMskServerlessClusters {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMskServerlessClusters(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_serverless_clusters awscc_msk_serverless_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_serverless_clusters awscc_msk_serverless_clusters} Data Source.
 func NewDataAwsccMskServerlessClusters_Override(d DataAwsccMskServerlessClusters, scope constructs.Construct, id *string, config *DataAwsccMskServerlessClustersConfig) {
 	_init_.Initialize()
 

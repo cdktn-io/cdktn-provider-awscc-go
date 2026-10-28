@@ -5,14 +5,14 @@ package backuptieringconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backuptieringconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backuptieringconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_tiering_configuration awscc_backup_tiering_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_tiering_configuration awscc_backup_tiering_configuration}.
 type BackupTieringConfiguration interface {
 	cdktn.TerraformResource
 	BackupVaultName() *string
@@ -481,7 +481,7 @@ func (j *jsiiProxy_BackupTieringConfiguration) TieringConfigurationTagsInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_tiering_configuration awscc_backup_tiering_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_tiering_configuration awscc_backup_tiering_configuration} Resource.
 func NewBackupTieringConfiguration(scope constructs.Construct, id *string, config *BackupTieringConfigurationConfig) BackupTieringConfiguration {
 	_init_.Initialize()
 
@@ -499,7 +499,7 @@ func NewBackupTieringConfiguration(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_tiering_configuration awscc_backup_tiering_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_tiering_configuration awscc_backup_tiering_configuration} Resource.
 func NewBackupTieringConfiguration_Override(b BackupTieringConfiguration, scope constructs.Construct, id *string, config *BackupTieringConfigurationConfig) {
 	_init_.Initialize()
 

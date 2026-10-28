@@ -1,3 +1,3 @@
 # `awscc_inspectorv2_code_security_scan_configuration`
 
-Refer to the Terraform Registry for docs: [`awscc_inspectorv2_code_security_scan_configuration`](https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspectorv2_code_security_scan_configuration).
+Refer to the Terraform Registry for docs: [`awscc_inspectorv2_code_security_scan_configuration`](https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspectorv2_code_security_scan_configuration).

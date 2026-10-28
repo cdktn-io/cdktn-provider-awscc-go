@@ -5,14 +5,14 @@ package logssubscriptionfilter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logssubscriptionfilter/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logssubscriptionfilter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_subscription_filter awscc_logs_subscription_filter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_subscription_filter awscc_logs_subscription_filter}.
 type LogsSubscriptionFilter interface {
 	cdktn.TerraformResource
 	ApplyOnTransformedLogs() interface{}
@@ -568,7 +568,7 @@ func (j *jsiiProxy_LogsSubscriptionFilter) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_subscription_filter awscc_logs_subscription_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_subscription_filter awscc_logs_subscription_filter} Resource.
 func NewLogsSubscriptionFilter(scope constructs.Construct, id *string, config *LogsSubscriptionFilterConfig) LogsSubscriptionFilter {
 	_init_.Initialize()
 
@@ -586,7 +586,7 @@ func NewLogsSubscriptionFilter(scope constructs.Construct, id *string, config *L
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_subscription_filter awscc_logs_subscription_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_subscription_filter awscc_logs_subscription_filter} Resource.
 func NewLogsSubscriptionFilter_Override(l LogsSubscriptionFilter, scope constructs.Construct, id *string, config *LogsSubscriptionFilterConfig) {
 	_init_.Initialize()
 

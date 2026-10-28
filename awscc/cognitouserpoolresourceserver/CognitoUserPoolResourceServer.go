@@ -5,14 +5,14 @@ package cognitouserpoolresourceserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cognitouserpoolresourceserver/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cognitouserpoolresourceserver/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_user_pool_resource_server awscc_cognito_user_pool_resource_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_user_pool_resource_server awscc_cognito_user_pool_resource_server}.
 type CognitoUserPoolResourceServer interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -448,7 +448,7 @@ func (j *jsiiProxy_CognitoUserPoolResourceServer) UserPoolIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_user_pool_resource_server awscc_cognito_user_pool_resource_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_user_pool_resource_server awscc_cognito_user_pool_resource_server} Resource.
 func NewCognitoUserPoolResourceServer(scope constructs.Construct, id *string, config *CognitoUserPoolResourceServerConfig) CognitoUserPoolResourceServer {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewCognitoUserPoolResourceServer(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_user_pool_resource_server awscc_cognito_user_pool_resource_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_user_pool_resource_server awscc_cognito_user_pool_resource_server} Resource.
 func NewCognitoUserPoolResourceServer_Override(c CognitoUserPoolResourceServer, scope constructs.Construct, id *string, config *CognitoUserPoolResourceServerConfig) {
 	_init_.Initialize()
 

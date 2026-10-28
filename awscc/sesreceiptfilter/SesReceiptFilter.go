@@ -5,14 +5,14 @@ package sesreceiptfilter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesreceiptfilter/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesreceiptfilter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_receipt_filter awscc_ses_receipt_filter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_receipt_filter awscc_ses_receipt_filter}.
 type SesReceiptFilter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_SesReceiptFilter) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_receipt_filter awscc_ses_receipt_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_receipt_filter awscc_ses_receipt_filter} Resource.
 func NewSesReceiptFilter(scope constructs.Construct, id *string, config *SesReceiptFilterConfig) SesReceiptFilter {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewSesReceiptFilter(scope constructs.Construct, id *string, config *SesRece
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_receipt_filter awscc_ses_receipt_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_receipt_filter awscc_ses_receipt_filter} Resource.
 func NewSesReceiptFilter_Override(s SesReceiptFilter, scope constructs.Construct, id *string, config *SesReceiptFilterConfig) {
 	_init_.Initialize()
 

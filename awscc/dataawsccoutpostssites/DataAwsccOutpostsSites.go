@@ -5,14 +5,14 @@ package dataawsccoutpostssites
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoutpostssites/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoutpostssites/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/outposts_sites awscc_outposts_sites}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/outposts_sites awscc_outposts_sites}.
 type DataAwsccOutpostsSites interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccOutpostsSites) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/outposts_sites awscc_outposts_sites} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/outposts_sites awscc_outposts_sites} Data Source.
 func NewDataAwsccOutpostsSites(scope constructs.Construct, id *string, config *DataAwsccOutpostsSitesConfig) DataAwsccOutpostsSites {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccOutpostsSites(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/outposts_sites awscc_outposts_sites} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/outposts_sites awscc_outposts_sites} Data Source.
 func NewDataAwsccOutpostsSites_Override(d DataAwsccOutpostsSites, scope constructs.Construct, id *string, config *DataAwsccOutpostsSitesConfig) {
 	_init_.Initialize()
 

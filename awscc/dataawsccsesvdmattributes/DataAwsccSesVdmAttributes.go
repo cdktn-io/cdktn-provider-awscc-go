@@ -5,14 +5,14 @@ package dataawsccsesvdmattributes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesvdmattributes/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesvdmattributes/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_vdm_attributes awscc_ses_vdm_attributes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_vdm_attributes awscc_ses_vdm_attributes}.
 type DataAwsccSesVdmAttributes interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccSesVdmAttributes) VdmAttributesResourceId() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_vdm_attributes awscc_ses_vdm_attributes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_vdm_attributes awscc_ses_vdm_attributes} Data Source.
 func NewDataAwsccSesVdmAttributes(scope constructs.Construct, id *string, config *DataAwsccSesVdmAttributesConfig) DataAwsccSesVdmAttributes {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccSesVdmAttributes(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_vdm_attributes awscc_ses_vdm_attributes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_vdm_attributes awscc_ses_vdm_attributes} Data Source.
 func NewDataAwsccSesVdmAttributes_Override(d DataAwsccSesVdmAttributes, scope constructs.Construct, id *string, config *DataAwsccSesVdmAttributesConfig) {
 	_init_.Initialize()
 

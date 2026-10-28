@@ -5,14 +5,14 @@ package casesrelateditem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casesrelateditem/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casesrelateditem/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_related_item awscc_cases_related_item}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_related_item awscc_cases_related_item}.
 type CasesRelatedItem interface {
 	cdktn.TerraformResource
 	CaseId() *string
@@ -493,7 +493,7 @@ func (j *jsiiProxy_CasesRelatedItem) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_related_item awscc_cases_related_item} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_related_item awscc_cases_related_item} Resource.
 func NewCasesRelatedItem(scope constructs.Construct, id *string, config *CasesRelatedItemConfig) CasesRelatedItem {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewCasesRelatedItem(scope constructs.Construct, id *string, config *CasesRe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_related_item awscc_cases_related_item} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_related_item awscc_cases_related_item} Resource.
 func NewCasesRelatedItem_Override(c CasesRelatedItem, scope constructs.Construct, id *string, config *CasesRelatedItemConfig) {
 	_init_.Initialize()
 

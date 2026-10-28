@@ -24,11 +24,11 @@ type IotPolicyPrincipalAttachmentConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the AWS IoT policy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy_principal_attachment#policy_name IotPolicyPrincipalAttachment#policy_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy_principal_attachment#policy_name IotPolicyPrincipalAttachment#policy_name}
 	PolicyName *string `field:"required" json:"policyName" yaml:"policyName"`
 	// The principal, which can be a certificate ARN (as returned from the CreateCertificate operation) or an Amazon Cognito ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_policy_principal_attachment#principal IotPolicyPrincipalAttachment#principal}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_policy_principal_attachment#principal IotPolicyPrincipalAttachment#principal}
 	Principal *string `field:"required" json:"principal" yaml:"principal"`
 }
 

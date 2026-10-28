@@ -5,14 +5,14 @@ package iotcommand
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotcommand/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotcommand/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_command awscc_iot_command}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_command awscc_iot_command}.
 type IotCommand interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -701,7 +701,7 @@ func (j *jsiiProxy_IotCommand) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_command awscc_iot_command} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_command awscc_iot_command} Resource.
 func NewIotCommand(scope constructs.Construct, id *string, config *IotCommandConfig) IotCommand {
 	_init_.Initialize()
 
@@ -719,7 +719,7 @@ func NewIotCommand(scope constructs.Construct, id *string, config *IotCommandCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_command awscc_iot_command} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_command awscc_iot_command} Resource.
 func NewIotCommand_Override(i IotCommand, scope constructs.Construct, id *string, config *IotCommandConfig) {
 	_init_.Initialize()
 

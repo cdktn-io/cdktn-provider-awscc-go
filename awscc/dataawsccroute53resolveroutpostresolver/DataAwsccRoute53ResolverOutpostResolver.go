@@ -5,14 +5,14 @@ package dataawsccroute53resolveroutpostresolver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolveroutpostresolver/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolveroutpostresolver/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver}.
 type DataAwsccRoute53ResolverOutpostResolver interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccRoute53ResolverOutpostResolver) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver} Data Source.
 func NewDataAwsccRoute53ResolverOutpostResolver(scope constructs.Construct, id *string, config *DataAwsccRoute53ResolverOutpostResolverConfig) DataAwsccRoute53ResolverOutpostResolver {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccRoute53ResolverOutpostResolver(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver} Data Source.
 func NewDataAwsccRoute53ResolverOutpostResolver_Override(d DataAwsccRoute53ResolverOutpostResolver, scope constructs.Construct, id *string, config *DataAwsccRoute53ResolverOutpostResolverConfig) {
 	_init_.Initialize()
 

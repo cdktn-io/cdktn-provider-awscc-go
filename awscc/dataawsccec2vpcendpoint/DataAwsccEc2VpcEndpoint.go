@@ -5,14 +5,14 @@ package dataawsccec2vpcendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpc_endpoint awscc_ec2_vpc_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpc_endpoint awscc_ec2_vpc_endpoint}.
 type DataAwsccEc2VpcEndpoint interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_DataAwsccEc2VpcEndpoint) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpc_endpoint awscc_ec2_vpc_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpc_endpoint awscc_ec2_vpc_endpoint} Data Source.
 func NewDataAwsccEc2VpcEndpoint(scope constructs.Construct, id *string, config *DataAwsccEc2VpcEndpointConfig) DataAwsccEc2VpcEndpoint {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewDataAwsccEc2VpcEndpoint(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpc_endpoint awscc_ec2_vpc_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpc_endpoint awscc_ec2_vpc_endpoint} Data Source.
 func NewDataAwsccEc2VpcEndpoint_Override(d DataAwsccEc2VpcEndpoint, scope constructs.Construct, id *string, config *DataAwsccEc2VpcEndpointConfig) {
 	_init_.Initialize()
 

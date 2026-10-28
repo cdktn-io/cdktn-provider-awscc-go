@@ -5,14 +5,14 @@ package sagemakertrialcomponent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakertrialcomponent/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakertrialcomponent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_trial_component awscc_sagemaker_trial_component}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_trial_component awscc_sagemaker_trial_component}.
 type SagemakerTrialComponent interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -590,7 +590,7 @@ func (j *jsiiProxy_SagemakerTrialComponent) TrialComponentNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_trial_component awscc_sagemaker_trial_component} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_trial_component awscc_sagemaker_trial_component} Resource.
 func NewSagemakerTrialComponent(scope constructs.Construct, id *string, config *SagemakerTrialComponentConfig) SagemakerTrialComponent {
 	_init_.Initialize()
 
@@ -608,7 +608,7 @@ func NewSagemakerTrialComponent(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_trial_component awscc_sagemaker_trial_component} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_trial_component awscc_sagemaker_trial_component} Resource.
 func NewSagemakerTrialComponent_Override(s SagemakerTrialComponent, scope constructs.Construct, id *string, config *SagemakerTrialComponentConfig) {
 	_init_.Initialize()
 

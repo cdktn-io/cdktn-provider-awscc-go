@@ -5,14 +5,14 @@ package dataawsccqbusinessplugin
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessplugin/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessplugin/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/qbusiness_plugin awscc_qbusiness_plugin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/qbusiness_plugin awscc_qbusiness_plugin}.
 type DataAwsccQbusinessPlugin interface {
 	cdktn.TerraformDataSource
 	ApplicationId() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccQbusinessPlugin) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/qbusiness_plugin awscc_qbusiness_plugin} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/qbusiness_plugin awscc_qbusiness_plugin} Data Source.
 func NewDataAwsccQbusinessPlugin(scope constructs.Construct, id *string, config *DataAwsccQbusinessPluginConfig) DataAwsccQbusinessPlugin {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccQbusinessPlugin(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/qbusiness_plugin awscc_qbusiness_plugin} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/qbusiness_plugin awscc_qbusiness_plugin} Data Source.
 func NewDataAwsccQbusinessPlugin_Override(d DataAwsccQbusinessPlugin, scope constructs.Construct, id *string, config *DataAwsccQbusinessPluginConfig) {
 	_init_.Initialize()
 

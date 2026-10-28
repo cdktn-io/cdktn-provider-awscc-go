@@ -5,14 +5,14 @@ package dmsreplicationconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmsreplicationconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmsreplicationconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_replication_config awscc_dms_replication_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_replication_config awscc_dms_replication_config}.
 type DmsReplicationConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -600,7 +600,7 @@ func (j *jsiiProxy_DmsReplicationConfig) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_replication_config awscc_dms_replication_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_replication_config awscc_dms_replication_config} Resource.
 func NewDmsReplicationConfig(scope constructs.Construct, id *string, config *DmsReplicationConfigConfig) DmsReplicationConfig {
 	_init_.Initialize()
 
@@ -618,7 +618,7 @@ func NewDmsReplicationConfig(scope constructs.Construct, id *string, config *Dms
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_replication_config awscc_dms_replication_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_replication_config awscc_dms_replication_config} Resource.
 func NewDmsReplicationConfig_Override(d DmsReplicationConfig, scope constructs.Construct, id *string, config *DmsReplicationConfigConfig) {
 	_init_.Initialize()
 

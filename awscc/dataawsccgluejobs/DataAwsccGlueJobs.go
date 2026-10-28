@@ -5,14 +5,14 @@ package dataawsccgluejobs
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluejobs/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluejobs/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_jobs awscc_glue_jobs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_jobs awscc_glue_jobs}.
 type DataAwsccGlueJobs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGlueJobs) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_jobs awscc_glue_jobs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_jobs awscc_glue_jobs} Data Source.
 func NewDataAwsccGlueJobs(scope constructs.Construct, id *string, config *DataAwsccGlueJobsConfig) DataAwsccGlueJobs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGlueJobs(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_jobs awscc_glue_jobs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_jobs awscc_glue_jobs} Data Source.
 func NewDataAwsccGlueJobs_Override(d DataAwsccGlueJobs, scope constructs.Construct, id *string, config *DataAwsccGlueJobsConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccconnectpredefinedattribute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectpredefinedattribute/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectpredefinedattribute/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_predefined_attribute awscc_connect_predefined_attribute}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_predefined_attribute awscc_connect_predefined_attribute}.
 type DataAwsccConnectPredefinedAttribute interface {
 	cdktn.TerraformDataSource
 	AttributeConfiguration() DataAwsccConnectPredefinedAttributeAttributeConfigurationOutputReference
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccConnectPredefinedAttribute) Values() DataAwsccConnec
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_predefined_attribute awscc_connect_predefined_attribute} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_predefined_attribute awscc_connect_predefined_attribute} Data Source.
 func NewDataAwsccConnectPredefinedAttribute(scope constructs.Construct, id *string, config *DataAwsccConnectPredefinedAttributeConfig) DataAwsccConnectPredefinedAttribute {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccConnectPredefinedAttribute(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_predefined_attribute awscc_connect_predefined_attribute} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_predefined_attribute awscc_connect_predefined_attribute} Data Source.
 func NewDataAwsccConnectPredefinedAttribute_Override(d DataAwsccConnectPredefinedAttribute, scope constructs.Construct, id *string, config *DataAwsccConnectPredefinedAttributeConfig) {
 	_init_.Initialize()
 

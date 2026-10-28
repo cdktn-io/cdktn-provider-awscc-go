@@ -5,14 +5,14 @@ package dataawsccprotonservicetemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccprotonservicetemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccprotonservicetemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/proton_service_template awscc_proton_service_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/proton_service_template awscc_proton_service_template}.
 type DataAwsccProtonServiceTemplate interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccProtonServiceTemplate) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/proton_service_template awscc_proton_service_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/proton_service_template awscc_proton_service_template} Data Source.
 func NewDataAwsccProtonServiceTemplate(scope constructs.Construct, id *string, config *DataAwsccProtonServiceTemplateConfig) DataAwsccProtonServiceTemplate {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccProtonServiceTemplate(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/proton_service_template awscc_proton_service_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/proton_service_template awscc_proton_service_template} Data Source.
 func NewDataAwsccProtonServiceTemplate_Override(d DataAwsccProtonServiceTemplate, scope constructs.Construct, id *string, config *DataAwsccProtonServiceTemplateConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccbackuplogicallyairgappedbackupvault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuplogicallyairgappedbackupvault/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuplogicallyairgappedbackupvault/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_logically_air_gapped_backup_vault awscc_backup_logically_air_gapped_backup_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_logically_air_gapped_backup_vault awscc_backup_logically_air_gapped_backup_vault}.
 type DataAwsccBackupLogicallyAirGappedBackupVault interface {
 	cdktn.TerraformDataSource
 	AccessPolicy() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccBackupLogicallyAirGappedBackupVault) VaultType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_logically_air_gapped_backup_vault awscc_backup_logically_air_gapped_backup_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_logically_air_gapped_backup_vault awscc_backup_logically_air_gapped_backup_vault} Data Source.
 func NewDataAwsccBackupLogicallyAirGappedBackupVault(scope constructs.Construct, id *string, config *DataAwsccBackupLogicallyAirGappedBackupVaultConfig) DataAwsccBackupLogicallyAirGappedBackupVault {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccBackupLogicallyAirGappedBackupVault(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_logically_air_gapped_backup_vault awscc_backup_logically_air_gapped_backup_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_logically_air_gapped_backup_vault awscc_backup_logically_air_gapped_backup_vault} Data Source.
 func NewDataAwsccBackupLogicallyAirGappedBackupVault_Override(d DataAwsccBackupLogicallyAirGappedBackupVault, scope constructs.Construct, id *string, config *DataAwsccBackupLogicallyAirGappedBackupVaultConfig) {
 	_init_.Initialize()
 

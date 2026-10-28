@@ -5,14 +5,14 @@ package personalizemetricattribution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizemetricattribution/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizemetricattribution/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_metric_attribution awscc_personalize_metric_attribution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_metric_attribution awscc_personalize_metric_attribution}.
 type PersonalizeMetricAttribution interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -469,7 +469,7 @@ func (j *jsiiProxy_PersonalizeMetricAttribution) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_metric_attribution awscc_personalize_metric_attribution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_metric_attribution awscc_personalize_metric_attribution} Resource.
 func NewPersonalizeMetricAttribution(scope constructs.Construct, id *string, config *PersonalizeMetricAttributionConfig) PersonalizeMetricAttribution {
 	_init_.Initialize()
 
@@ -487,7 +487,7 @@ func NewPersonalizeMetricAttribution(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_metric_attribution awscc_personalize_metric_attribution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_metric_attribution awscc_personalize_metric_attribution} Resource.
 func NewPersonalizeMetricAttribution_Override(p PersonalizeMetricAttribution, scope constructs.Construct, id *string, config *PersonalizeMetricAttributionConfig) {
 	_init_.Initialize()
 

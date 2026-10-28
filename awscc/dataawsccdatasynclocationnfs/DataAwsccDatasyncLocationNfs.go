@@ -5,14 +5,14 @@ package dataawsccdatasynclocationnfs
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationnfs/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationnfs/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_nfs awscc_datasync_location_nfs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_nfs awscc_datasync_location_nfs}.
 type DataAwsccDatasyncLocationNfs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccDatasyncLocationNfs) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_nfs awscc_datasync_location_nfs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_nfs awscc_datasync_location_nfs} Data Source.
 func NewDataAwsccDatasyncLocationNfs(scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationNfsConfig) DataAwsccDatasyncLocationNfs {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccDatasyncLocationNfs(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_nfs awscc_datasync_location_nfs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_nfs awscc_datasync_location_nfs} Data Source.
 func NewDataAwsccDatasyncLocationNfs_Override(d DataAwsccDatasyncLocationNfs, scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationNfsConfig) {
 	_init_.Initialize()
 

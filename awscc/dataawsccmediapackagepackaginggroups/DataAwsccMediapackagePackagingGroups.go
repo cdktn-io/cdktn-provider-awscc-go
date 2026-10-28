@@ -5,14 +5,14 @@ package dataawsccmediapackagepackaginggroups
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackaginggroups/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackaginggroups/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackage_packaging_groups awscc_mediapackage_packaging_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackage_packaging_groups awscc_mediapackage_packaging_groups}.
 type DataAwsccMediapackagePackagingGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMediapackagePackagingGroups) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackage_packaging_groups awscc_mediapackage_packaging_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackage_packaging_groups awscc_mediapackage_packaging_groups} Data Source.
 func NewDataAwsccMediapackagePackagingGroups(scope constructs.Construct, id *string, config *DataAwsccMediapackagePackagingGroupsConfig) DataAwsccMediapackagePackagingGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMediapackagePackagingGroups(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackage_packaging_groups awscc_mediapackage_packaging_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackage_packaging_groups awscc_mediapackage_packaging_groups} Data Source.
 func NewDataAwsccMediapackagePackagingGroups_Override(d DataAwsccMediapackagePackagingGroups, scope constructs.Construct, id *string, config *DataAwsccMediapackagePackagingGroupsConfig) {
 	_init_.Initialize()
 

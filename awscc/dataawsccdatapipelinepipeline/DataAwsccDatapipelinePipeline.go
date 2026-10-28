@@ -5,14 +5,14 @@ package dataawsccdatapipelinepipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatapipelinepipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatapipelinepipeline/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datapipeline_pipeline awscc_datapipeline_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datapipeline_pipeline awscc_datapipeline_pipeline}.
 type DataAwsccDatapipelinePipeline interface {
 	cdktn.TerraformDataSource
 	Activate() cdktn.IResolvable
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccDatapipelinePipeline) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datapipeline_pipeline awscc_datapipeline_pipeline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datapipeline_pipeline awscc_datapipeline_pipeline} Data Source.
 func NewDataAwsccDatapipelinePipeline(scope constructs.Construct, id *string, config *DataAwsccDatapipelinePipelineConfig) DataAwsccDatapipelinePipeline {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccDatapipelinePipeline(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datapipeline_pipeline awscc_datapipeline_pipeline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datapipeline_pipeline awscc_datapipeline_pipeline} Data Source.
 func NewDataAwsccDatapipelinePipeline_Override(d DataAwsccDatapipelinePipeline, scope constructs.Construct, id *string, config *DataAwsccDatapipelinePipelineConfig) {
 	_init_.Initialize()
 

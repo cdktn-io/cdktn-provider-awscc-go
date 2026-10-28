@@ -5,14 +5,14 @@ package dataawsccdatasyncagents
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasyncagents/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasyncagents/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_agents awscc_datasync_agents}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_agents awscc_datasync_agents}.
 type DataAwsccDatasyncAgents interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDatasyncAgents) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_agents awscc_datasync_agents} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_agents awscc_datasync_agents} Data Source.
 func NewDataAwsccDatasyncAgents(scope constructs.Construct, id *string, config *DataAwsccDatasyncAgentsConfig) DataAwsccDatasyncAgents {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDatasyncAgents(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_agents awscc_datasync_agents} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_agents awscc_datasync_agents} Data Source.
 func NewDataAwsccDatasyncAgents_Override(d DataAwsccDatasyncAgents, scope constructs.Construct, id *string, config *DataAwsccDatasyncAgentsConfig) {
 	_init_.Initialize()
 

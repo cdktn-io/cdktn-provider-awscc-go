@@ -5,14 +5,14 @@ package deadlinefarm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinefarm/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinefarm/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_farm awscc_deadline_farm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_farm awscc_deadline_farm}.
 type DeadlineFarm interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -496,7 +496,7 @@ func (j *jsiiProxy_DeadlineFarm) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_farm awscc_deadline_farm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_farm awscc_deadline_farm} Resource.
 func NewDeadlineFarm(scope constructs.Construct, id *string, config *DeadlineFarmConfig) DeadlineFarm {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewDeadlineFarm(scope constructs.Construct, id *string, config *DeadlineFar
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_farm awscc_deadline_farm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_farm awscc_deadline_farm} Resource.
 func NewDeadlineFarm_Override(d DeadlineFarm, scope constructs.Construct, id *string, config *DeadlineFarmConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package cloudfrontmonitoringsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontmonitoringsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontmonitoringsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_monitoring_subscription awscc_cloudfront_monitoring_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_monitoring_subscription awscc_cloudfront_monitoring_subscription}.
 type CloudfrontMonitoringSubscription interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_CloudfrontMonitoringSubscription) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_monitoring_subscription awscc_cloudfront_monitoring_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_monitoring_subscription awscc_cloudfront_monitoring_subscription} Resource.
 func NewCloudfrontMonitoringSubscription(scope constructs.Construct, id *string, config *CloudfrontMonitoringSubscriptionConfig) CloudfrontMonitoringSubscription {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewCloudfrontMonitoringSubscription(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_monitoring_subscription awscc_cloudfront_monitoring_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_monitoring_subscription awscc_cloudfront_monitoring_subscription} Resource.
 func NewCloudfrontMonitoringSubscription_Override(c CloudfrontMonitoringSubscription, scope constructs.Construct, id *string, config *CloudfrontMonitoringSubscriptionConfig) {
 	_init_.Initialize()
 

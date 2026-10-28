@@ -5,14 +5,14 @@ package dataawscclightsaildomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildomain/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_domain awscc_lightsail_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_domain awscc_lightsail_domain}.
 type DataAwsccLightsailDomain interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccLightsailDomain) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_domain awscc_lightsail_domain} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_domain awscc_lightsail_domain} Data Source.
 func NewDataAwsccLightsailDomain(scope constructs.Construct, id *string, config *DataAwsccLightsailDomainConfig) DataAwsccLightsailDomain {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccLightsailDomain(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_domain awscc_lightsail_domain} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_domain awscc_lightsail_domain} Data Source.
 func NewDataAwsccLightsailDomain_Override(d DataAwsccLightsailDomain, scope constructs.Construct, id *string, config *DataAwsccLightsailDomainConfig) {
 	_init_.Initialize()
 

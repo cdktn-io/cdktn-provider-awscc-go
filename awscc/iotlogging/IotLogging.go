@@ -5,14 +5,14 @@ package iotlogging
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotlogging/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotlogging/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_logging awscc_iot_logging}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_logging awscc_iot_logging}.
 type IotLogging interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -448,7 +448,7 @@ func (j *jsiiProxy_IotLogging) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_logging awscc_iot_logging} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_logging awscc_iot_logging} Resource.
 func NewIotLogging(scope constructs.Construct, id *string, config *IotLoggingConfig) IotLogging {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewIotLogging(scope constructs.Construct, id *string, config *IotLoggingCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_logging awscc_iot_logging} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_logging awscc_iot_logging} Resource.
 func NewIotLogging_Override(i IotLogging, scope constructs.Construct, id *string, config *IotLoggingConfig) {
 	_init_.Initialize()
 

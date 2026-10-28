@@ -5,14 +5,14 @@ package dataawsccdrsrecoveryplans
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdrsrecoveryplans/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdrsrecoveryplans/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/drs_recovery_plans awscc_drs_recovery_plans}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/drs_recovery_plans awscc_drs_recovery_plans}.
 type DataAwsccDrsRecoveryPlans interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDrsRecoveryPlans) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/drs_recovery_plans awscc_drs_recovery_plans} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/drs_recovery_plans awscc_drs_recovery_plans} Data Source.
 func NewDataAwsccDrsRecoveryPlans(scope constructs.Construct, id *string, config *DataAwsccDrsRecoveryPlansConfig) DataAwsccDrsRecoveryPlans {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDrsRecoveryPlans(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/drs_recovery_plans awscc_drs_recovery_plans} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/drs_recovery_plans awscc_drs_recovery_plans} Data Source.
 func NewDataAwsccDrsRecoveryPlans_Override(d DataAwsccDrsRecoveryPlans, scope constructs.Construct, id *string, config *DataAwsccDrsRecoveryPlansConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccinvoicinginvoiceunit
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicinginvoiceunit/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicinginvoiceunit/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/invoicing_invoice_unit awscc_invoicing_invoice_unit}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/invoicing_invoice_unit awscc_invoicing_invoice_unit}.
 type DataAwsccInvoicingInvoiceUnit interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccInvoicingInvoiceUnit) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/invoicing_invoice_unit awscc_invoicing_invoice_unit} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/invoicing_invoice_unit awscc_invoicing_invoice_unit} Data Source.
 func NewDataAwsccInvoicingInvoiceUnit(scope constructs.Construct, id *string, config *DataAwsccInvoicingInvoiceUnitConfig) DataAwsccInvoicingInvoiceUnit {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccInvoicingInvoiceUnit(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/invoicing_invoice_unit awscc_invoicing_invoice_unit} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/invoicing_invoice_unit awscc_invoicing_invoice_unit} Data Source.
 func NewDataAwsccInvoicingInvoiceUnit_Override(d DataAwsccInvoicingInvoiceUnit, scope constructs.Construct, id *string, config *DataAwsccInvoicingInvoiceUnitConfig) {
 	_init_.Initialize()
 

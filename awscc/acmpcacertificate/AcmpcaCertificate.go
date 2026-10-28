@@ -5,14 +5,14 @@ package acmpcacertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/acmpcacertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/acmpcacertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/acmpca_certificate awscc_acmpca_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/acmpca_certificate awscc_acmpca_certificate}.
 type AcmpcaCertificate interface {
 	cdktn.TerraformResource
 	ApiPassthrough() AcmpcaCertificateApiPassthroughOutputReference
@@ -541,7 +541,7 @@ func (j *jsiiProxy_AcmpcaCertificate) ValidityNotBeforeInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/acmpca_certificate awscc_acmpca_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/acmpca_certificate awscc_acmpca_certificate} Resource.
 func NewAcmpcaCertificate(scope constructs.Construct, id *string, config *AcmpcaCertificateConfig) AcmpcaCertificate {
 	_init_.Initialize()
 
@@ -559,7 +559,7 @@ func NewAcmpcaCertificate(scope constructs.Construct, id *string, config *Acmpca
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/acmpca_certificate awscc_acmpca_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/acmpca_certificate awscc_acmpca_certificate} Resource.
 func NewAcmpcaCertificate_Override(a AcmpcaCertificate, scope constructs.Construct, id *string, config *AcmpcaCertificateConfig) {
 	_init_.Initialize()
 

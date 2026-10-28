@@ -5,14 +5,14 @@ package dataawsccqbusinessdatasource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccqbusinessdatasource/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccqbusinessdatasource/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/qbusiness_data_source awscc_qbusiness_data_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/qbusiness_data_source awscc_qbusiness_data_source}.
 type DataAwsccQbusinessDataSource interface {
 	cdktn.TerraformDataSource
 	ApplicationId() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccQbusinessDataSource) VpcConfiguration() DataAwsccQbu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/qbusiness_data_source awscc_qbusiness_data_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/qbusiness_data_source awscc_qbusiness_data_source} Data Source.
 func NewDataAwsccQbusinessDataSource(scope constructs.Construct, id *string, config *DataAwsccQbusinessDataSourceConfig) DataAwsccQbusinessDataSource {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccQbusinessDataSource(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/qbusiness_data_source awscc_qbusiness_data_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/qbusiness_data_source awscc_qbusiness_data_source} Data Source.
 func NewDataAwsccQbusinessDataSource_Override(d DataAwsccQbusinessDataSource, scope constructs.Construct, id *string, config *DataAwsccQbusinessDataSourceConfig) {
 	_init_.Initialize()
 

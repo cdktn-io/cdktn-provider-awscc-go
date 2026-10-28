@@ -5,14 +5,14 @@ package dataawsccresiliencehubv2userjourney
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2userjourney/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2userjourney/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resiliencehubv2_user_journey awscc_resiliencehubv2_user_journey}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resiliencehubv2_user_journey awscc_resiliencehubv2_user_journey}.
 type DataAwsccResiliencehubv2UserJourney interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccResiliencehubv2UserJourney) UserJourneyId() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resiliencehubv2_user_journey awscc_resiliencehubv2_user_journey} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resiliencehubv2_user_journey awscc_resiliencehubv2_user_journey} Data Source.
 func NewDataAwsccResiliencehubv2UserJourney(scope constructs.Construct, id *string, config *DataAwsccResiliencehubv2UserJourneyConfig) DataAwsccResiliencehubv2UserJourney {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccResiliencehubv2UserJourney(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resiliencehubv2_user_journey awscc_resiliencehubv2_user_journey} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resiliencehubv2_user_journey awscc_resiliencehubv2_user_journey} Data Source.
 func NewDataAwsccResiliencehubv2UserJourney_Override(d DataAwsccResiliencehubv2UserJourney, scope constructs.Construct, id *string, config *DataAwsccResiliencehubv2UserJourneyConfig) {
 	_init_.Initialize()
 

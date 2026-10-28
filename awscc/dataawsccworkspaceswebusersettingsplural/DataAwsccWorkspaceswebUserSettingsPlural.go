@@ -5,14 +5,14 @@ package dataawsccworkspaceswebusersettingsplural
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettingsplural/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettingsplural/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_user_settings_plural awscc_workspacesweb_user_settings_plural}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_user_settings_plural awscc_workspacesweb_user_settings_plural}.
 type DataAwsccWorkspaceswebUserSettingsPlural interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccWorkspaceswebUserSettingsPlural) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_user_settings_plural awscc_workspacesweb_user_settings_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_user_settings_plural awscc_workspacesweb_user_settings_plural} Data Source.
 func NewDataAwsccWorkspaceswebUserSettingsPlural(scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebUserSettingsPluralConfig) DataAwsccWorkspaceswebUserSettingsPlural {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccWorkspaceswebUserSettingsPlural(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_user_settings_plural awscc_workspacesweb_user_settings_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_user_settings_plural awscc_workspacesweb_user_settings_plural} Data Source.
 func NewDataAwsccWorkspaceswebUserSettingsPlural_Override(d DataAwsccWorkspaceswebUserSettingsPlural, scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebUserSettingsPluralConfig) {
 	_init_.Initialize()
 

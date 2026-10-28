@@ -5,14 +5,14 @@ package gameliftfleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftfleet/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftfleet/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_fleet awscc_gamelift_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_fleet awscc_gamelift_fleet}.
 type GameliftFleet interface {
 	cdktn.TerraformResource
 	AnywhereConfiguration() GameliftFleetAnywhereConfigurationOutputReference
@@ -1096,7 +1096,7 @@ func (j *jsiiProxy_GameliftFleet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_fleet awscc_gamelift_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_fleet awscc_gamelift_fleet} Resource.
 func NewGameliftFleet(scope constructs.Construct, id *string, config *GameliftFleetConfig) GameliftFleet {
 	_init_.Initialize()
 
@@ -1114,7 +1114,7 @@ func NewGameliftFleet(scope constructs.Construct, id *string, config *GameliftFl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_fleet awscc_gamelift_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_fleet awscc_gamelift_fleet} Resource.
 func NewGameliftFleet_Override(g GameliftFleet, scope constructs.Construct, id *string, config *GameliftFleetConfig) {
 	_init_.Initialize()
 

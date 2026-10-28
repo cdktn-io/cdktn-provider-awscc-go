@@ -5,14 +5,14 @@ package dataawsccrdsdbinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_instance awscc_rds_db_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_instance awscc_rds_db_instance}.
 type DataAwsccRdsDbInstance interface {
 	cdktn.TerraformDataSource
 	AdditionalStorageVolumes() DataAwsccRdsDbInstanceAdditionalStorageVolumesList
@@ -1397,7 +1397,7 @@ func (j *jsiiProxy_DataAwsccRdsDbInstance) VpcSecurityGroups() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_instance awscc_rds_db_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_instance awscc_rds_db_instance} Data Source.
 func NewDataAwsccRdsDbInstance(scope constructs.Construct, id *string, config *DataAwsccRdsDbInstanceConfig) DataAwsccRdsDbInstance {
 	_init_.Initialize()
 
@@ -1415,7 +1415,7 @@ func NewDataAwsccRdsDbInstance(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_instance awscc_rds_db_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_instance awscc_rds_db_instance} Data Source.
 func NewDataAwsccRdsDbInstance_Override(d DataAwsccRdsDbInstance, scope constructs.Construct, id *string, config *DataAwsccRdsDbInstanceConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package bedrockagentcoreevaluator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcoreevaluator/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcoreevaluator/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,6 +34,8 @@ type BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleOutputReferen
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	MultiDimensional() BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalList
+	MultiDimensionalInput() interface{}
 	Numerical() BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleNumericalList
 	NumericalInput() interface{}
 	// Experimental.
@@ -69,8 +71,10 @@ type BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleOutputReferen
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCategorical(value interface{})
+	PutMultiDimensional(value interface{})
 	PutNumerical(value interface{})
 	ResetCategorical()
+	ResetMultiDimensional()
 	ResetNumerical()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -152,6 +156,26 @@ func (j *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScal
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleOutputReference) MultiDimensional() BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalList {
+	var returns BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalList
+	_jsii_.Get(
+		j,
+		"multiDimensional",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleOutputReference) MultiDimensionalInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"multiDimensionalInput",
 		&returns,
 	)
 	return returns
@@ -477,6 +501,17 @@ func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScal
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleOutputReference) PutMultiDimensional(value interface{}) {
+	if err := b.validatePutMultiDimensionalParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putMultiDimensional",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleOutputReference) PutNumerical(value interface{}) {
 	if err := b.validatePutNumericalParameters(value); err != nil {
 		panic(err)
@@ -492,6 +527,14 @@ func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScal
 	_jsii_.InvokeVoid(
 		b,
 		"resetCategorical",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleOutputReference) ResetMultiDimensional() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetMultiDimensional",
 		nil, // no parameters
 	)
 }

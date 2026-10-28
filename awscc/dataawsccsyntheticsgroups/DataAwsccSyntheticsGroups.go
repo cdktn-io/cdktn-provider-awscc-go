@@ -5,14 +5,14 @@ package dataawsccsyntheticsgroups
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsyntheticsgroups/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsyntheticsgroups/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/synthetics_groups awscc_synthetics_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/synthetics_groups awscc_synthetics_groups}.
 type DataAwsccSyntheticsGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSyntheticsGroups) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/synthetics_groups awscc_synthetics_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/synthetics_groups awscc_synthetics_groups} Data Source.
 func NewDataAwsccSyntheticsGroups(scope constructs.Construct, id *string, config *DataAwsccSyntheticsGroupsConfig) DataAwsccSyntheticsGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSyntheticsGroups(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/synthetics_groups awscc_synthetics_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/synthetics_groups awscc_synthetics_groups} Data Source.
 func NewDataAwsccSyntheticsGroups_Override(d DataAwsccSyntheticsGroups, scope constructs.Construct, id *string, config *DataAwsccSyntheticsGroupsConfig) {
 	_init_.Initialize()
 

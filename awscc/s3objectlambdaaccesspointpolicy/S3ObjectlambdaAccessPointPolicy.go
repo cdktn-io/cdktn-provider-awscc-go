@@ -5,14 +5,14 @@ package s3objectlambdaaccesspointpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3objectlambdaaccesspointpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3objectlambdaaccesspointpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3objectlambda_access_point_policy awscc_s3objectlambda_access_point_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3objectlambda_access_point_policy awscc_s3objectlambda_access_point_policy}.
 type S3ObjectlambdaAccessPointPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_S3ObjectlambdaAccessPointPolicy) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3objectlambda_access_point_policy awscc_s3objectlambda_access_point_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3objectlambda_access_point_policy awscc_s3objectlambda_access_point_policy} Resource.
 func NewS3ObjectlambdaAccessPointPolicy(scope constructs.Construct, id *string, config *S3ObjectlambdaAccessPointPolicyConfig) S3ObjectlambdaAccessPointPolicy {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewS3ObjectlambdaAccessPointPolicy(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3objectlambda_access_point_policy awscc_s3objectlambda_access_point_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3objectlambda_access_point_policy awscc_s3objectlambda_access_point_policy} Resource.
 func NewS3ObjectlambdaAccessPointPolicy_Override(s S3ObjectlambdaAccessPointPolicy, scope constructs.Construct, id *string, config *S3ObjectlambdaAccessPointPolicyConfig) {
 	_init_.Initialize()
 

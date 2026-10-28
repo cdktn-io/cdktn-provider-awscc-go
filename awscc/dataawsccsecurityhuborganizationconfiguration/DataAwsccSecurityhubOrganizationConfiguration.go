@@ -5,14 +5,14 @@ package dataawsccsecurityhuborganizationconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhuborganizationconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhuborganizationconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_organization_configuration awscc_securityhub_organization_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_organization_configuration awscc_securityhub_organization_configuration}.
 type DataAwsccSecurityhubOrganizationConfiguration interface {
 	cdktn.TerraformDataSource
 	AutoEnable() cdktn.IResolvable
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccSecurityhubOrganizationConfiguration) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_organization_configuration awscc_securityhub_organization_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_organization_configuration awscc_securityhub_organization_configuration} Data Source.
 func NewDataAwsccSecurityhubOrganizationConfiguration(scope constructs.Construct, id *string, config *DataAwsccSecurityhubOrganizationConfigurationConfig) DataAwsccSecurityhubOrganizationConfiguration {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccSecurityhubOrganizationConfiguration(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_organization_configuration awscc_securityhub_organization_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_organization_configuration awscc_securityhub_organization_configuration} Data Source.
 func NewDataAwsccSecurityhubOrganizationConfiguration_Override(d DataAwsccSecurityhubOrganizationConfiguration, scope constructs.Construct, id *string, config *DataAwsccSecurityhubOrganizationConfigurationConfig) {
 	_init_.Initialize()
 

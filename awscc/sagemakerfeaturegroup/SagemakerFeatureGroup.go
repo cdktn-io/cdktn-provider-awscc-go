@@ -5,14 +5,14 @@ package sagemakerfeaturegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerfeaturegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerfeaturegroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_feature_group awscc_sagemaker_feature_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_feature_group awscc_sagemaker_feature_group}.
 type SagemakerFeatureGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -613,7 +613,7 @@ func (j *jsiiProxy_SagemakerFeatureGroup) ThroughputConfigInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_feature_group awscc_sagemaker_feature_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_feature_group awscc_sagemaker_feature_group} Resource.
 func NewSagemakerFeatureGroup(scope constructs.Construct, id *string, config *SagemakerFeatureGroupConfig) SagemakerFeatureGroup {
 	_init_.Initialize()
 
@@ -631,7 +631,7 @@ func NewSagemakerFeatureGroup(scope constructs.Construct, id *string, config *Sa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_feature_group awscc_sagemaker_feature_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_feature_group awscc_sagemaker_feature_group} Resource.
 func NewSagemakerFeatureGroup_Override(s SagemakerFeatureGroup, scope constructs.Construct, id *string, config *SagemakerFeatureGroupConfig) {
 	_init_.Initialize()
 

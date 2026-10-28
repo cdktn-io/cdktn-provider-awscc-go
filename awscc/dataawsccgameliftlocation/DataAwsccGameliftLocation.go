@@ -5,14 +5,14 @@ package dataawsccgameliftlocation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftlocation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftlocation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_location awscc_gamelift_location}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_location awscc_gamelift_location}.
 type DataAwsccGameliftLocation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccGameliftLocation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_location awscc_gamelift_location} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_location awscc_gamelift_location} Data Source.
 func NewDataAwsccGameliftLocation(scope constructs.Construct, id *string, config *DataAwsccGameliftLocationConfig) DataAwsccGameliftLocation {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccGameliftLocation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_location awscc_gamelift_location} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_location awscc_gamelift_location} Data Source.
 func NewDataAwsccGameliftLocation_Override(d DataAwsccGameliftLocation, scope constructs.Construct, id *string, config *DataAwsccGameliftLocationConfig) {
 	_init_.Initialize()
 

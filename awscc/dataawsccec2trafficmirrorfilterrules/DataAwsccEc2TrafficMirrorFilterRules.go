@@ -5,14 +5,14 @@ package dataawsccec2trafficmirrorfilterrules
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2trafficmirrorfilterrules/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2trafficmirrorfilterrules/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_traffic_mirror_filter_rules awscc_ec2_traffic_mirror_filter_rules}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_traffic_mirror_filter_rules awscc_ec2_traffic_mirror_filter_rules}.
 type DataAwsccEc2TrafficMirrorFilterRules interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2TrafficMirrorFilterRules) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_traffic_mirror_filter_rules awscc_ec2_traffic_mirror_filter_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_traffic_mirror_filter_rules awscc_ec2_traffic_mirror_filter_rules} Data Source.
 func NewDataAwsccEc2TrafficMirrorFilterRules(scope constructs.Construct, id *string, config *DataAwsccEc2TrafficMirrorFilterRulesConfig) DataAwsccEc2TrafficMirrorFilterRules {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2TrafficMirrorFilterRules(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_traffic_mirror_filter_rules awscc_ec2_traffic_mirror_filter_rules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_traffic_mirror_filter_rules awscc_ec2_traffic_mirror_filter_rules} Data Source.
 func NewDataAwsccEc2TrafficMirrorFilterRules_Override(d DataAwsccEc2TrafficMirrorFilterRules, scope constructs.Construct, id *string, config *DataAwsccEc2TrafficMirrorFilterRulesConfig) {
 	_init_.Initialize()
 

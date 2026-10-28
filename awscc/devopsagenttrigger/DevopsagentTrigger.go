@@ -5,14 +5,14 @@ package devopsagenttrigger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagenttrigger/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagenttrigger/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_trigger awscc_devopsagent_trigger}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_trigger awscc_devopsagent_trigger}.
 type DevopsagentTrigger interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -515,7 +515,7 @@ func (j *jsiiProxy_DevopsagentTrigger) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_trigger awscc_devopsagent_trigger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_trigger awscc_devopsagent_trigger} Resource.
 func NewDevopsagentTrigger(scope constructs.Construct, id *string, config *DevopsagentTriggerConfig) DevopsagentTrigger {
 	_init_.Initialize()
 
@@ -533,7 +533,7 @@ func NewDevopsagentTrigger(scope constructs.Construct, id *string, config *Devop
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_trigger awscc_devopsagent_trigger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_trigger awscc_devopsagent_trigger} Resource.
 func NewDevopsagentTrigger_Override(d DevopsagentTrigger, scope constructs.Construct, id *string, config *DevopsagentTriggerConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccssmmaintenancewindows
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindows/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindows/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_maintenance_windows awscc_ssm_maintenance_windows}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_maintenance_windows awscc_ssm_maintenance_windows}.
 type DataAwsccSsmMaintenanceWindows interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSsmMaintenanceWindows) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_maintenance_windows awscc_ssm_maintenance_windows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_maintenance_windows awscc_ssm_maintenance_windows} Data Source.
 func NewDataAwsccSsmMaintenanceWindows(scope constructs.Construct, id *string, config *DataAwsccSsmMaintenanceWindowsConfig) DataAwsccSsmMaintenanceWindows {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSsmMaintenanceWindows(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_maintenance_windows awscc_ssm_maintenance_windows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_maintenance_windows awscc_ssm_maintenance_windows} Data Source.
 func NewDataAwsccSsmMaintenanceWindows_Override(d DataAwsccSsmMaintenanceWindows, scope constructs.Construct, id *string, config *DataAwsccSsmMaintenanceWindowsConfig) {
 	_init_.Initialize()
 

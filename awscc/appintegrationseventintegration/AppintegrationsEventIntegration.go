@@ -5,14 +5,14 @@ package appintegrationseventintegration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appintegrationseventintegration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appintegrationseventintegration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appintegrations_event_integration awscc_appintegrations_event_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appintegrations_event_integration awscc_appintegrations_event_integration}.
 type AppintegrationsEventIntegration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -483,7 +483,7 @@ func (j *jsiiProxy_AppintegrationsEventIntegration) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appintegrations_event_integration awscc_appintegrations_event_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appintegrations_event_integration awscc_appintegrations_event_integration} Resource.
 func NewAppintegrationsEventIntegration(scope constructs.Construct, id *string, config *AppintegrationsEventIntegrationConfig) AppintegrationsEventIntegration {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewAppintegrationsEventIntegration(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appintegrations_event_integration awscc_appintegrations_event_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appintegrations_event_integration awscc_appintegrations_event_integration} Resource.
 func NewAppintegrationsEventIntegration_Override(a AppintegrationsEventIntegration, scope constructs.Construct, id *string, config *AppintegrationsEventIntegrationConfig) {
 	_init_.Initialize()
 

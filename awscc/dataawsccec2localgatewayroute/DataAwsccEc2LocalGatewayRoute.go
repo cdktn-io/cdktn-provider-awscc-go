@@ -5,14 +5,14 @@ package dataawsccec2localgatewayroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayroute/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayroute/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_local_gateway_route awscc_ec2_local_gateway_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_local_gateway_route awscc_ec2_local_gateway_route}.
 type DataAwsccEc2LocalGatewayRoute interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccEc2LocalGatewayRoute) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_local_gateway_route awscc_ec2_local_gateway_route} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_local_gateway_route awscc_ec2_local_gateway_route} Data Source.
 func NewDataAwsccEc2LocalGatewayRoute(scope constructs.Construct, id *string, config *DataAwsccEc2LocalGatewayRouteConfig) DataAwsccEc2LocalGatewayRoute {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccEc2LocalGatewayRoute(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_local_gateway_route awscc_ec2_local_gateway_route} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_local_gateway_route awscc_ec2_local_gateway_route} Data Source.
 func NewDataAwsccEc2LocalGatewayRoute_Override(d DataAwsccEc2LocalGatewayRoute, scope constructs.Construct, id *string, config *DataAwsccEc2LocalGatewayRouteConfig) {
 	_init_.Initialize()
 

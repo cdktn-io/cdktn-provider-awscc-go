@@ -5,14 +5,14 @@ package dataawsccredshiftsnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftsnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftsnapshot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_snapshot awscc_redshift_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_snapshot awscc_redshift_snapshot}.
 type DataAwsccRedshiftSnapshot interface {
 	cdktn.TerraformDataSource
 	AvailabilityZone() *string
@@ -550,7 +550,7 @@ func (j *jsiiProxy_DataAwsccRedshiftSnapshot) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_snapshot awscc_redshift_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_snapshot awscc_redshift_snapshot} Data Source.
 func NewDataAwsccRedshiftSnapshot(scope constructs.Construct, id *string, config *DataAwsccRedshiftSnapshotConfig) DataAwsccRedshiftSnapshot {
 	_init_.Initialize()
 
@@ -568,7 +568,7 @@ func NewDataAwsccRedshiftSnapshot(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_snapshot awscc_redshift_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_snapshot awscc_redshift_snapshot} Data Source.
 func NewDataAwsccRedshiftSnapshot_Override(d DataAwsccRedshiftSnapshot, scope constructs.Construct, id *string, config *DataAwsccRedshiftSnapshotConfig) {
 	_init_.Initialize()
 

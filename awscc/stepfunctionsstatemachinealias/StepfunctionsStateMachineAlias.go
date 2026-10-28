@@ -5,14 +5,14 @@ package stepfunctionsstatemachinealias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/stepfunctionsstatemachinealias/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/stepfunctionsstatemachinealias/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias}.
 type StepfunctionsStateMachineAlias interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -486,7 +486,7 @@ func (j *jsiiProxy_StepfunctionsStateMachineAlias) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias} Resource.
 func NewStepfunctionsStateMachineAlias(scope constructs.Construct, id *string, config *StepfunctionsStateMachineAliasConfig) StepfunctionsStateMachineAlias {
 	_init_.Initialize()
 
@@ -504,7 +504,7 @@ func NewStepfunctionsStateMachineAlias(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias} Resource.
 func NewStepfunctionsStateMachineAlias_Override(s StepfunctionsStateMachineAlias, scope constructs.Construct, id *string, config *StepfunctionsStateMachineAliasConfig) {
 	_init_.Initialize()
 

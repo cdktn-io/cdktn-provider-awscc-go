@@ -5,14 +5,14 @@ package fmsresourceset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsresourceset/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsresourceset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_resource_set awscc_fms_resource_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_resource_set awscc_fms_resource_set}.
 type FmsResourceSet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_FmsResourceSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_resource_set awscc_fms_resource_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_resource_set awscc_fms_resource_set} Resource.
 func NewFmsResourceSet(scope constructs.Construct, id *string, config *FmsResourceSetConfig) FmsResourceSet {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewFmsResourceSet(scope constructs.Construct, id *string, config *FmsResour
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_resource_set awscc_fms_resource_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_resource_set awscc_fms_resource_set} Resource.
 func NewFmsResourceSet_Override(f FmsResourceSet, scope constructs.Construct, id *string, config *FmsResourceSetConfig) {
 	_init_.Initialize()
 

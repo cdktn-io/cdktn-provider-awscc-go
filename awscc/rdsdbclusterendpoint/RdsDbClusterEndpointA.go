@@ -5,14 +5,14 @@ package rdsdbclusterendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbclusterendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbclusterendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint awscc_rds_db_cluster_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint awscc_rds_db_cluster_endpoint}.
 type RdsDbClusterEndpointA interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -551,7 +551,7 @@ func (j *jsiiProxy_RdsDbClusterEndpointA) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint awscc_rds_db_cluster_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint awscc_rds_db_cluster_endpoint} Resource.
 func NewRdsDbClusterEndpointA(scope constructs.Construct, id *string, config *RdsDbClusterEndpointAConfig) RdsDbClusterEndpointA {
 	_init_.Initialize()
 
@@ -569,7 +569,7 @@ func NewRdsDbClusterEndpointA(scope constructs.Construct, id *string, config *Rd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_cluster_endpoint awscc_rds_db_cluster_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_cluster_endpoint awscc_rds_db_cluster_endpoint} Resource.
 func NewRdsDbClusterEndpointA_Override(r RdsDbClusterEndpointA, scope constructs.Construct, id *string, config *RdsDbClusterEndpointAConfig) {
 	_init_.Initialize()
 

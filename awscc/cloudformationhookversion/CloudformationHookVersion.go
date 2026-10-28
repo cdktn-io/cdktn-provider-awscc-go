@@ -5,14 +5,14 @@ package cloudformationhookversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationhookversion/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationhookversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_version awscc_cloudformation_hook_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_version awscc_cloudformation_hook_version}.
 type CloudformationHookVersion interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -504,7 +504,7 @@ func (j *jsiiProxy_CloudformationHookVersion) Visibility() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_version awscc_cloudformation_hook_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_version awscc_cloudformation_hook_version} Resource.
 func NewCloudformationHookVersion(scope constructs.Construct, id *string, config *CloudformationHookVersionConfig) CloudformationHookVersion {
 	_init_.Initialize()
 
@@ -522,7 +522,7 @@ func NewCloudformationHookVersion(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_version awscc_cloudformation_hook_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_version awscc_cloudformation_hook_version} Resource.
 func NewCloudformationHookVersion_Override(c CloudformationHookVersion, scope constructs.Construct, id *string, config *CloudformationHookVersionConfig) {
 	_init_.Initialize()
 

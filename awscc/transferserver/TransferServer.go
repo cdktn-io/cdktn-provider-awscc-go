@@ -5,14 +5,14 @@ package transferserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferserver/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferserver/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_server awscc_transfer_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_server awscc_transfer_server}.
 type TransferServer interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -831,7 +831,7 @@ func (j *jsiiProxy_TransferServer) WorkflowDetailsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_server awscc_transfer_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_server awscc_transfer_server} Resource.
 func NewTransferServer(scope constructs.Construct, id *string, config *TransferServerConfig) TransferServer {
 	_init_.Initialize()
 
@@ -849,7 +849,7 @@ func NewTransferServer(scope constructs.Construct, id *string, config *TransferS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_server awscc_transfer_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_server awscc_transfer_server} Resource.
 func NewTransferServer_Override(t TransferServer, scope constructs.Construct, id *string, config *TransferServerConfig) {
 	_init_.Initialize()
 

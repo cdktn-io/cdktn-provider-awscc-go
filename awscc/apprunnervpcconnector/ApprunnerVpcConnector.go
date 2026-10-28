@@ -5,14 +5,14 @@ package apprunnervpcconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apprunnervpcconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apprunnervpcconnector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_vpc_connector awscc_apprunner_vpc_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_vpc_connector awscc_apprunner_vpc_connector}.
 type ApprunnerVpcConnector interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_ApprunnerVpcConnector) VpcConnectorRevision() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_vpc_connector awscc_apprunner_vpc_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_vpc_connector awscc_apprunner_vpc_connector} Resource.
 func NewApprunnerVpcConnector(scope constructs.Construct, id *string, config *ApprunnerVpcConnectorConfig) ApprunnerVpcConnector {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewApprunnerVpcConnector(scope constructs.Construct, id *string, config *Ap
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apprunner_vpc_connector awscc_apprunner_vpc_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apprunner_vpc_connector awscc_apprunner_vpc_connector} Resource.
 func NewApprunnerVpcConnector_Override(a ApprunnerVpcConnector, scope constructs.Construct, id *string, config *ApprunnerVpcConnectorConfig) {
 	_init_.Initialize()
 

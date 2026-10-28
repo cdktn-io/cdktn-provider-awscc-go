@@ -5,14 +5,14 @@ package mediaconnectbridgeoutput
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridgeoutput/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridgeoutput/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge_output awscc_mediaconnect_bridge_output}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge_output awscc_mediaconnect_bridge_output}.
 type MediaconnectBridgeOutput interface {
 	cdktn.TerraformResource
 	BridgeArn() *string
@@ -424,7 +424,7 @@ func (j *jsiiProxy_MediaconnectBridgeOutput) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge_output awscc_mediaconnect_bridge_output} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge_output awscc_mediaconnect_bridge_output} Resource.
 func NewMediaconnectBridgeOutput(scope constructs.Construct, id *string, config *MediaconnectBridgeOutputConfig) MediaconnectBridgeOutput {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewMediaconnectBridgeOutput(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge_output awscc_mediaconnect_bridge_output} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge_output awscc_mediaconnect_bridge_output} Resource.
 func NewMediaconnectBridgeOutput_Override(m MediaconnectBridgeOutput, scope constructs.Construct, id *string, config *MediaconnectBridgeOutputConfig) {
 	_init_.Initialize()
 

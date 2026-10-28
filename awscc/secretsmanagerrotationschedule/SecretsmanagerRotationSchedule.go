@@ -5,14 +5,14 @@ package secretsmanagerrotationschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/secretsmanagerrotationschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/secretsmanagerrotationschedule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/secretsmanager_rotation_schedule awscc_secretsmanager_rotation_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/secretsmanager_rotation_schedule awscc_secretsmanager_rotation_schedule}.
 type SecretsmanagerRotationSchedule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -533,7 +533,7 @@ func (j *jsiiProxy_SecretsmanagerRotationSchedule) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/secretsmanager_rotation_schedule awscc_secretsmanager_rotation_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/secretsmanager_rotation_schedule awscc_secretsmanager_rotation_schedule} Resource.
 func NewSecretsmanagerRotationSchedule(scope constructs.Construct, id *string, config *SecretsmanagerRotationScheduleConfig) SecretsmanagerRotationSchedule {
 	_init_.Initialize()
 
@@ -551,7 +551,7 @@ func NewSecretsmanagerRotationSchedule(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/secretsmanager_rotation_schedule awscc_secretsmanager_rotation_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/secretsmanager_rotation_schedule awscc_secretsmanager_rotation_schedule} Resource.
 func NewSecretsmanagerRotationSchedule_Override(s SecretsmanagerRotationSchedule, scope constructs.Construct, id *string, config *SecretsmanagerRotationScheduleConfig) {
 	_init_.Initialize()
 

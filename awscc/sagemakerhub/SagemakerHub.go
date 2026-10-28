@@ -5,14 +5,14 @@ package sagemakerhub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerhub/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerhub/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_hub awscc_sagemaker_hub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_hub awscc_sagemaker_hub}.
 type SagemakerHub interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -541,7 +541,7 @@ func (j *jsiiProxy_SagemakerHub) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_hub awscc_sagemaker_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_hub awscc_sagemaker_hub} Resource.
 func NewSagemakerHub(scope constructs.Construct, id *string, config *SagemakerHubConfig) SagemakerHub {
 	_init_.Initialize()
 
@@ -559,7 +559,7 @@ func NewSagemakerHub(scope constructs.Construct, id *string, config *SagemakerHu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_hub awscc_sagemaker_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_hub awscc_sagemaker_hub} Resource.
 func NewSagemakerHub_Override(s SagemakerHub, scope constructs.Construct, id *string, config *SagemakerHubConfig) {
 	_init_.Initialize()
 

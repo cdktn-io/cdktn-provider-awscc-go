@@ -5,14 +5,14 @@ package ec2transitgatewayattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewayattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewayattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway_attachment awscc_ec2_transit_gateway_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway_attachment awscc_ec2_transit_gateway_attachment}.
 type Ec2TransitGatewayAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -483,7 +483,7 @@ func (j *jsiiProxy_Ec2TransitGatewayAttachment) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway_attachment awscc_ec2_transit_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway_attachment awscc_ec2_transit_gateway_attachment} Resource.
 func NewEc2TransitGatewayAttachment(scope constructs.Construct, id *string, config *Ec2TransitGatewayAttachmentConfig) Ec2TransitGatewayAttachment {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewEc2TransitGatewayAttachment(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway_attachment awscc_ec2_transit_gateway_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway_attachment awscc_ec2_transit_gateway_attachment} Resource.
 func NewEc2TransitGatewayAttachment_Override(e Ec2TransitGatewayAttachment, scope constructs.Construct, id *string, config *Ec2TransitGatewayAttachmentConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package cleanroomsintermediatetable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cleanroomsintermediatetable/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cleanroomsintermediatetable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 

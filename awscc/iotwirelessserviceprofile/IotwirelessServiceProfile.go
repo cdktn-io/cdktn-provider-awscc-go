@@ -5,14 +5,14 @@ package iotwirelessserviceprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessserviceprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessserviceprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_service_profile awscc_iotwireless_service_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_service_profile awscc_iotwireless_service_profile}.
 type IotwirelessServiceProfile interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -449,7 +449,7 @@ func (j *jsiiProxy_IotwirelessServiceProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_service_profile awscc_iotwireless_service_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_service_profile awscc_iotwireless_service_profile} Resource.
 func NewIotwirelessServiceProfile(scope constructs.Construct, id *string, config *IotwirelessServiceProfileConfig) IotwirelessServiceProfile {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewIotwirelessServiceProfile(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_service_profile awscc_iotwireless_service_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_service_profile awscc_iotwireless_service_profile} Resource.
 func NewIotwirelessServiceProfile_Override(i IotwirelessServiceProfile, scope constructs.Construct, id *string, config *IotwirelessServiceProfileConfig) {
 	_init_.Initialize()
 

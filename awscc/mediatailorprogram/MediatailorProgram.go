@@ -5,14 +5,14 @@ package mediatailorprogram
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorprogram/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorprogram/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program awscc_mediatailor_program}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program awscc_mediatailor_program}.
 type MediatailorProgram interface {
 	cdktn.TerraformResource
 	AdBreaks() MediatailorProgramAdBreaksList
@@ -599,7 +599,7 @@ func (j *jsiiProxy_MediatailorProgram) VodSourceNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program awscc_mediatailor_program} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program awscc_mediatailor_program} Resource.
 func NewMediatailorProgram(scope constructs.Construct, id *string, config *MediatailorProgramConfig) MediatailorProgram {
 	_init_.Initialize()
 
@@ -617,7 +617,7 @@ func NewMediatailorProgram(scope constructs.Construct, id *string, config *Media
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program awscc_mediatailor_program} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program awscc_mediatailor_program} Resource.
 func NewMediatailorProgram_Override(m MediatailorProgram, scope constructs.Construct, id *string, config *MediatailorProgramConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccecsclustercapacityproviderassociationsplural
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsclustercapacityproviderassociationsplural/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsclustercapacityproviderassociationsplural/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_cluster_capacity_provider_associations_plural awscc_ecs_cluster_capacity_provider_associations_plural}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_cluster_capacity_provider_associations_plural awscc_ecs_cluster_capacity_provider_associations_plural}.
 type DataAwsccEcsClusterCapacityProviderAssociationsPlural interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEcsClusterCapacityProviderAssociationsPlural) Terraf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_cluster_capacity_provider_associations_plural awscc_ecs_cluster_capacity_provider_associations_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_cluster_capacity_provider_associations_plural awscc_ecs_cluster_capacity_provider_associations_plural} Data Source.
 func NewDataAwsccEcsClusterCapacityProviderAssociationsPlural(scope constructs.Construct, id *string, config *DataAwsccEcsClusterCapacityProviderAssociationsPluralConfig) DataAwsccEcsClusterCapacityProviderAssociationsPlural {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEcsClusterCapacityProviderAssociationsPlural(scope constructs.C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_cluster_capacity_provider_associations_plural awscc_ecs_cluster_capacity_provider_associations_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_cluster_capacity_provider_associations_plural awscc_ecs_cluster_capacity_provider_associations_plural} Data Source.
 func NewDataAwsccEcsClusterCapacityProviderAssociationsPlural_Override(d DataAwsccEcsClusterCapacityProviderAssociationsPlural, scope constructs.Construct, id *string, config *DataAwsccEcsClusterCapacityProviderAssociationsPluralConfig) {
 	_init_.Initialize()
 

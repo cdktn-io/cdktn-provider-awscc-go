@@ -5,14 +5,14 @@ package transferhostkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferhostkey/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferhostkey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key awscc_transfer_host_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key awscc_transfer_host_key}.
 type TransferHostKey interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -50,6 +50,9 @@ type TransferHostKey interface {
 	HostKeyFingerprint() *string
 	HostKeyId() *string
 	Id() *string
+	KmsKey() *string
+	SetKmsKey(val *string)
+	KmsKeyInput() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -66,9 +69,13 @@ type TransferHostKey interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	SecretId() *string
 	ServerId() *string
 	SetServerId(val *string)
 	ServerIdInput() *string
+	StorageType() *string
+	SetStorageType(val *string)
+	StorageTypeInput() *string
 	Tags() TransferHostKeyTagsList
 	TagsInput() interface{}
 	// Experimental.
@@ -173,9 +180,11 @@ type TransferHostKey interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetDescription()
 	ResetHostKeyBody()
+	ResetKmsKey()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetStorageType()
 	ResetTags()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -374,6 +383,26 @@ func (j *jsiiProxy_TransferHostKey) Id() *string {
 	return returns
 }
 
+func (j *jsiiProxy_TransferHostKey) KmsKey() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKey",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TransferHostKey) KmsKeyInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kmsKeyInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_TransferHostKey) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -424,6 +453,16 @@ func (j *jsiiProxy_TransferHostKey) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_TransferHostKey) SecretId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"secretId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_TransferHostKey) ServerId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -439,6 +478,26 @@ func (j *jsiiProxy_TransferHostKey) ServerIdInput() *string {
 	_jsii_.Get(
 		j,
 		"serverIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TransferHostKey) StorageType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TransferHostKey) StorageTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageTypeInput",
 		&returns,
 	)
 	return returns
@@ -505,7 +564,7 @@ func (j *jsiiProxy_TransferHostKey) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key awscc_transfer_host_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key awscc_transfer_host_key} Resource.
 func NewTransferHostKey(scope constructs.Construct, id *string, config *TransferHostKeyConfig) TransferHostKey {
 	_init_.Initialize()
 
@@ -523,7 +582,7 @@ func NewTransferHostKey(scope constructs.Construct, id *string, config *Transfer
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key awscc_transfer_host_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key awscc_transfer_host_key} Resource.
 func NewTransferHostKey_Override(t TransferHostKey, scope constructs.Construct, id *string, config *TransferHostKeyConfig) {
 	_init_.Initialize()
 
@@ -594,6 +653,17 @@ func (j *jsiiProxy_TransferHostKey)SetHostKeyBody(val *string) {
 	)
 }
 
+func (j *jsiiProxy_TransferHostKey)SetKmsKey(val *string) {
+	if err := j.validateSetKmsKeyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"kmsKey",
+		val,
+	)
+}
+
 func (j *jsiiProxy_TransferHostKey)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
@@ -631,6 +701,17 @@ func (j *jsiiProxy_TransferHostKey)SetServerId(val *string) {
 	_jsii_.Set(
 		j,
 		"serverId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TransferHostKey)SetStorageType(val *string) {
+	if err := j.validateSetStorageTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"storageType",
 		val,
 	)
 }
@@ -1042,10 +1123,26 @@ func (t *jsiiProxy_TransferHostKey) ResetHostKeyBody() {
 	)
 }
 
+func (t *jsiiProxy_TransferHostKey) ResetKmsKey() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetKmsKey",
+		nil, // no parameters
+	)
+}
+
 func (t *jsiiProxy_TransferHostKey) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		t,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TransferHostKey) ResetStorageType() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetStorageType",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package ec2flowlog
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2flowlog/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2flowlog/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_flow_log awscc_ec2_flow_log}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_flow_log awscc_ec2_flow_log}.
 type Ec2FlowLog interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -676,7 +676,7 @@ func (j *jsiiProxy_Ec2FlowLog) TrafficTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_flow_log awscc_ec2_flow_log} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_flow_log awscc_ec2_flow_log} Resource.
 func NewEc2FlowLog(scope constructs.Construct, id *string, config *Ec2FlowLogConfig) Ec2FlowLog {
 	_init_.Initialize()
 
@@ -694,7 +694,7 @@ func NewEc2FlowLog(scope constructs.Construct, id *string, config *Ec2FlowLogCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_flow_log awscc_ec2_flow_log} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_flow_log awscc_ec2_flow_log} Resource.
 func NewEc2FlowLog_Override(e Ec2FlowLog, scope constructs.Construct, id *string, config *Ec2FlowLogConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccchatbotslackchannelconfigurations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotslackchannelconfigurations/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotslackchannelconfigurations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chatbot_slack_channel_configurations awscc_chatbot_slack_channel_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chatbot_slack_channel_configurations awscc_chatbot_slack_channel_configurations}.
 type DataAwsccChatbotSlackChannelConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccChatbotSlackChannelConfigurations) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chatbot_slack_channel_configurations awscc_chatbot_slack_channel_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chatbot_slack_channel_configurations awscc_chatbot_slack_channel_configurations} Data Source.
 func NewDataAwsccChatbotSlackChannelConfigurations(scope constructs.Construct, id *string, config *DataAwsccChatbotSlackChannelConfigurationsConfig) DataAwsccChatbotSlackChannelConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccChatbotSlackChannelConfigurations(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chatbot_slack_channel_configurations awscc_chatbot_slack_channel_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chatbot_slack_channel_configurations awscc_chatbot_slack_channel_configurations} Data Source.
 func NewDataAwsccChatbotSlackChannelConfigurations_Override(d DataAwsccChatbotSlackChannelConfigurations, scope constructs.Construct, id *string, config *DataAwsccChatbotSlackChannelConfigurationsConfig) {
 	_init_.Initialize()
 

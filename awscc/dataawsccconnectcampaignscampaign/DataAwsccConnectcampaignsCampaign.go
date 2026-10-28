@@ -5,14 +5,14 @@ package dataawsccconnectcampaignscampaign
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectcampaignscampaign/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectcampaignscampaign/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connectcampaigns_campaign awscc_connectcampaigns_campaign}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connectcampaigns_campaign awscc_connectcampaigns_campaign}.
 type DataAwsccConnectcampaignsCampaign interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccConnectcampaignsCampaign) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connectcampaigns_campaign awscc_connectcampaigns_campaign} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connectcampaigns_campaign awscc_connectcampaigns_campaign} Data Source.
 func NewDataAwsccConnectcampaignsCampaign(scope constructs.Construct, id *string, config *DataAwsccConnectcampaignsCampaignConfig) DataAwsccConnectcampaignsCampaign {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccConnectcampaignsCampaign(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connectcampaigns_campaign awscc_connectcampaigns_campaign} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connectcampaigns_campaign awscc_connectcampaigns_campaign} Data Source.
 func NewDataAwsccConnectcampaignsCampaign_Override(d DataAwsccConnectcampaignsCampaign, scope constructs.Construct, id *string, config *DataAwsccConnectcampaignsCampaignConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawscccodedeploydeploymentgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodedeploydeploymentgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodedeploydeploymentgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codedeploy_deployment_group awscc_codedeploy_deployment_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codedeploy_deployment_group awscc_codedeploy_deployment_group}.
 type DataAwsccCodedeployDeploymentGroup interface {
 	cdktn.TerraformDataSource
 	AlarmConfiguration() DataAwsccCodedeployDeploymentGroupAlarmConfigurationOutputReference
@@ -506,7 +506,7 @@ func (j *jsiiProxy_DataAwsccCodedeployDeploymentGroup) TriggerConfigurations() D
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codedeploy_deployment_group awscc_codedeploy_deployment_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codedeploy_deployment_group awscc_codedeploy_deployment_group} Data Source.
 func NewDataAwsccCodedeployDeploymentGroup(scope constructs.Construct, id *string, config *DataAwsccCodedeployDeploymentGroupConfig) DataAwsccCodedeployDeploymentGroup {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewDataAwsccCodedeployDeploymentGroup(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codedeploy_deployment_group awscc_codedeploy_deployment_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codedeploy_deployment_group awscc_codedeploy_deployment_group} Data Source.
 func NewDataAwsccCodedeployDeploymentGroup_Override(d DataAwsccCodedeployDeploymentGroup, scope constructs.Construct, id *string, config *DataAwsccCodedeployDeploymentGroupConfig) {
 	_init_.Initialize()
 

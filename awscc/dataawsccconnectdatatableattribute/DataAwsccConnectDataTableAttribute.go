@@ -5,14 +5,14 @@ package dataawsccconnectdatatableattribute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatableattribute/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatableattribute/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_data_table_attribute awscc_connect_data_table_attribute}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_data_table_attribute awscc_connect_data_table_attribute}.
 type DataAwsccConnectDataTableAttribute interface {
 	cdktn.TerraformDataSource
 	AttributeId() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccConnectDataTableAttribute) ValueType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_data_table_attribute awscc_connect_data_table_attribute} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_data_table_attribute awscc_connect_data_table_attribute} Data Source.
 func NewDataAwsccConnectDataTableAttribute(scope constructs.Construct, id *string, config *DataAwsccConnectDataTableAttributeConfig) DataAwsccConnectDataTableAttribute {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccConnectDataTableAttribute(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_data_table_attribute awscc_connect_data_table_attribute} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_data_table_attribute awscc_connect_data_table_attribute} Data Source.
 func NewDataAwsccConnectDataTableAttribute_Override(d DataAwsccConnectDataTableAttribute, scope constructs.Construct, id *string, config *DataAwsccConnectDataTableAttributeConfig) {
 	_init_.Initialize()
 

@@ -24,27 +24,27 @@ type TranslateTerminologyConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the custom terminology.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology#name TranslateTerminology#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#name TranslateTerminology#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The description of the custom terminology.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology#description TranslateTerminology#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#description TranslateTerminology#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The encryption key for the custom terminology.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology#encryption_key TranslateTerminology#encryption_key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#encryption_key TranslateTerminology#encryption_key}
 	EncryptionKey *TranslateTerminologyEncryptionKey `field:"optional" json:"encryptionKey" yaml:"encryptionKey"`
 	// The merge strategy for the custom terminology. Currently only OVERWRITE is supported.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology#merge_strategy TranslateTerminology#merge_strategy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#merge_strategy TranslateTerminology#merge_strategy}
 	MergeStrategy *string `field:"optional" json:"mergeStrategy" yaml:"mergeStrategy"`
 	// Tags associated with the terminology.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology#tags TranslateTerminology#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#tags TranslateTerminology#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// The terminology data for the custom terminology being imported.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_terminology#terminology_data TranslateTerminology#terminology_data}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_terminology#terminology_data TranslateTerminology#terminology_data}
 	TerminologyData *TranslateTerminologyTerminologyData `field:"optional" json:"terminologyData" yaml:"terminologyData"`
 }
 

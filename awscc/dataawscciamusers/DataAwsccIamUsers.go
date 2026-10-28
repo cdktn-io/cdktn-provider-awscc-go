@@ -5,14 +5,14 @@ package dataawscciamusers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamusers/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamusers/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_users awscc_iam_users}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_users awscc_iam_users}.
 type DataAwsccIamUsers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIamUsers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_users awscc_iam_users} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_users awscc_iam_users} Data Source.
 func NewDataAwsccIamUsers(scope constructs.Construct, id *string, config *DataAwsccIamUsersConfig) DataAwsccIamUsers {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIamUsers(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_users awscc_iam_users} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_users awscc_iam_users} Data Source.
 func NewDataAwsccIamUsers_Override(d DataAwsccIamUsers, scope constructs.Construct, id *string, config *DataAwsccIamUsersConfig) {
 	_init_.Initialize()
 

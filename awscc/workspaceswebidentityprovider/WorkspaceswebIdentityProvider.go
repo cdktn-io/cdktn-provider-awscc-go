@@ -5,14 +5,14 @@ package workspaceswebidentityprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspaceswebidentityprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspaceswebidentityprovider/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesweb_identity_provider awscc_workspacesweb_identity_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesweb_identity_provider awscc_workspacesweb_identity_provider}.
 type WorkspaceswebIdentityProvider interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -483,7 +483,7 @@ func (j *jsiiProxy_WorkspaceswebIdentityProvider) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesweb_identity_provider awscc_workspacesweb_identity_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesweb_identity_provider awscc_workspacesweb_identity_provider} Resource.
 func NewWorkspaceswebIdentityProvider(scope constructs.Construct, id *string, config *WorkspaceswebIdentityProviderConfig) WorkspaceswebIdentityProvider {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewWorkspaceswebIdentityProvider(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesweb_identity_provider awscc_workspacesweb_identity_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesweb_identity_provider awscc_workspacesweb_identity_provider} Resource.
 func NewWorkspaceswebIdentityProvider_Override(w WorkspaceswebIdentityProvider, scope constructs.Construct, id *string, config *WorkspaceswebIdentityProviderConfig) {
 	_init_.Initialize()
 

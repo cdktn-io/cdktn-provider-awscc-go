@@ -5,14 +5,14 @@ package dataawsccapplicationsignalsservicelevelobjective
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsservicelevelobjective/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsservicelevelobjective/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationsignals_service_level_objective awscc_applicationsignals_service_level_objective}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationsignals_service_level_objective awscc_applicationsignals_service_level_objective}.
 type DataAwsccApplicationsignalsServiceLevelObjective interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccApplicationsignalsServiceLevelObjective) TerraformRe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationsignals_service_level_objective awscc_applicationsignals_service_level_objective} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationsignals_service_level_objective awscc_applicationsignals_service_level_objective} Data Source.
 func NewDataAwsccApplicationsignalsServiceLevelObjective(scope constructs.Construct, id *string, config *DataAwsccApplicationsignalsServiceLevelObjectiveConfig) DataAwsccApplicationsignalsServiceLevelObjective {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccApplicationsignalsServiceLevelObjective(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationsignals_service_level_objective awscc_applicationsignals_service_level_objective} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationsignals_service_level_objective awscc_applicationsignals_service_level_objective} Data Source.
 func NewDataAwsccApplicationsignalsServiceLevelObjective_Override(d DataAwsccApplicationsignalsServiceLevelObjective, scope constructs.Construct, id *string, config *DataAwsccApplicationsignalsServiceLevelObjectiveConfig) {
 	_init_.Initialize()
 

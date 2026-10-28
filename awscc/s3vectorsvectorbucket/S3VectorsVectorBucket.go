@@ -5,14 +5,14 @@ package s3vectorsvectorbucket
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3vectorsvectorbucket/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3vectorsvectorbucket/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3vectors_vector_bucket awscc_s3vectors_vector_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3vectors_vector_bucket awscc_s3vectors_vector_bucket}.
 type S3VectorsVectorBucket interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_S3VectorsVectorBucket) VectorBucketNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3vectors_vector_bucket awscc_s3vectors_vector_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3vectors_vector_bucket awscc_s3vectors_vector_bucket} Resource.
 func NewS3VectorsVectorBucket(scope constructs.Construct, id *string, config *S3VectorsVectorBucketConfig) S3VectorsVectorBucket {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewS3VectorsVectorBucket(scope constructs.Construct, id *string, config *S3
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3vectors_vector_bucket awscc_s3vectors_vector_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3vectors_vector_bucket awscc_s3vectors_vector_bucket} Resource.
 func NewS3VectorsVectorBucket_Override(s S3VectorsVectorBucket, scope constructs.Construct, id *string, config *S3VectorsVectorBucketConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package lightsailalarm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailalarm/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailalarm/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_alarm awscc_lightsail_alarm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_alarm awscc_lightsail_alarm}.
 type LightsailAlarm interface {
 	cdktn.TerraformResource
 	AlarmArn() *string
@@ -635,7 +635,7 @@ func (j *jsiiProxy_LightsailAlarm) TreatMissingDataInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_alarm awscc_lightsail_alarm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_alarm awscc_lightsail_alarm} Resource.
 func NewLightsailAlarm(scope constructs.Construct, id *string, config *LightsailAlarmConfig) LightsailAlarm {
 	_init_.Initialize()
 
@@ -653,7 +653,7 @@ func NewLightsailAlarm(scope constructs.Construct, id *string, config *Lightsail
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_alarm awscc_lightsail_alarm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_alarm awscc_lightsail_alarm} Resource.
 func NewLightsailAlarm_Override(l LightsailAlarm, scope constructs.Construct, id *string, config *LightsailAlarmConfig) {
 	_init_.Initialize()
 

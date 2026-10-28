@@ -5,14 +5,14 @@ package iotsitewiseworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseworkspace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_workspace awscc_iotsitewise_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_workspace awscc_iotsitewise_workspace}.
 type IotsitewiseWorkspace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -517,7 +517,7 @@ func (j *jsiiProxy_IotsitewiseWorkspace) WorkspaceNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_workspace awscc_iotsitewise_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_workspace awscc_iotsitewise_workspace} Resource.
 func NewIotsitewiseWorkspace(scope constructs.Construct, id *string, config *IotsitewiseWorkspaceConfig) IotsitewiseWorkspace {
 	_init_.Initialize()
 
@@ -535,7 +535,7 @@ func NewIotsitewiseWorkspace(scope constructs.Construct, id *string, config *Iot
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_workspace awscc_iotsitewise_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_workspace awscc_iotsitewise_workspace} Resource.
 func NewIotsitewiseWorkspace_Override(i IotsitewiseWorkspace, scope constructs.Construct, id *string, config *IotsitewiseWorkspaceConfig) {
 	_init_.Initialize()
 

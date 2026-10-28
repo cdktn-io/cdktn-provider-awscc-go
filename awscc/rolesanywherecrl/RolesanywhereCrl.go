@@ -5,14 +5,14 @@ package rolesanywherecrl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rolesanywherecrl/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rolesanywherecrl/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rolesanywhere_crl awscc_rolesanywhere_crl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rolesanywhere_crl awscc_rolesanywhere_crl}.
 type RolesanywhereCrl interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_RolesanywhereCrl) TrustAnchorArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rolesanywhere_crl awscc_rolesanywhere_crl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rolesanywhere_crl awscc_rolesanywhere_crl} Resource.
 func NewRolesanywhereCrl(scope constructs.Construct, id *string, config *RolesanywhereCrlConfig) RolesanywhereCrl {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewRolesanywhereCrl(scope constructs.Construct, id *string, config *Rolesan
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rolesanywhere_crl awscc_rolesanywhere_crl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rolesanywhere_crl awscc_rolesanywhere_crl} Resource.
 func NewRolesanywhereCrl_Override(r RolesanywhereCrl, scope constructs.Construct, id *string, config *RolesanywhereCrlConfig) {
 	_init_.Initialize()
 

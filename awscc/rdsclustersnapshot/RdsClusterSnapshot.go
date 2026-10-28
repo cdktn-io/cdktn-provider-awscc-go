@@ -5,14 +5,14 @@ package rdsclustersnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsclustersnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsclustersnapshot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_cluster_snapshot awscc_rds_cluster_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_cluster_snapshot awscc_rds_cluster_snapshot}.
 type RdsClusterSnapshot interface {
 	cdktn.TerraformResource
 	AllocatedStorage() *float64
@@ -623,7 +623,7 @@ func (j *jsiiProxy_RdsClusterSnapshot) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_cluster_snapshot awscc_rds_cluster_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_cluster_snapshot awscc_rds_cluster_snapshot} Resource.
 func NewRdsClusterSnapshot(scope constructs.Construct, id *string, config *RdsClusterSnapshotConfig) RdsClusterSnapshot {
 	_init_.Initialize()
 
@@ -641,7 +641,7 @@ func NewRdsClusterSnapshot(scope constructs.Construct, id *string, config *RdsCl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_cluster_snapshot awscc_rds_cluster_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_cluster_snapshot awscc_rds_cluster_snapshot} Resource.
 func NewRdsClusterSnapshot_Override(r RdsClusterSnapshot, scope constructs.Construct, id *string, config *RdsClusterSnapshotConfig) {
 	_init_.Initialize()
 

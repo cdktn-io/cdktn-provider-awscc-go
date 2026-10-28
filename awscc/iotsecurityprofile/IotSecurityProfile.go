@@ -5,14 +5,14 @@ package iotsecurityprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsecurityprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsecurityprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_security_profile awscc_iot_security_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_security_profile awscc_iot_security_profile}.
 type IotSecurityProfile interface {
 	cdktn.TerraformResource
 	AdditionalMetricsToRetainV2() IotSecurityProfileAdditionalMetricsToRetainV2List
@@ -558,7 +558,7 @@ func (j *jsiiProxy_IotSecurityProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_security_profile awscc_iot_security_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_security_profile awscc_iot_security_profile} Resource.
 func NewIotSecurityProfile(scope constructs.Construct, id *string, config *IotSecurityProfileConfig) IotSecurityProfile {
 	_init_.Initialize()
 
@@ -576,7 +576,7 @@ func NewIotSecurityProfile(scope constructs.Construct, id *string, config *IotSe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_security_profile awscc_iot_security_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_security_profile awscc_iot_security_profile} Resource.
 func NewIotSecurityProfile_Override(i IotSecurityProfile, scope constructs.Construct, id *string, config *IotSecurityProfileConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package iamuserpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamuserpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamuserpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_user_policy awscc_iam_user_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_user_policy awscc_iam_user_policy}.
 type IamUserPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_IamUserPolicy) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_user_policy awscc_iam_user_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_user_policy awscc_iam_user_policy} Resource.
 func NewIamUserPolicy(scope constructs.Construct, id *string, config *IamUserPolicyConfig) IamUserPolicy {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewIamUserPolicy(scope constructs.Construct, id *string, config *IamUserPol
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_user_policy awscc_iam_user_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_user_policy awscc_iam_user_policy} Resource.
 func NewIamUserPolicy_Override(i IamUserPolicy, scope constructs.Construct, id *string, config *IamUserPolicyConfig) {
 	_init_.Initialize()
 

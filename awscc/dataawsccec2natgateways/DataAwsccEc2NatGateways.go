@@ -5,14 +5,14 @@ package dataawsccec2natgateways
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2natgateways/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2natgateways/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_nat_gateways awscc_ec2_nat_gateways}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_nat_gateways awscc_ec2_nat_gateways}.
 type DataAwsccEc2NatGateways interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2NatGateways) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_nat_gateways awscc_ec2_nat_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_nat_gateways awscc_ec2_nat_gateways} Data Source.
 func NewDataAwsccEc2NatGateways(scope constructs.Construct, id *string, config *DataAwsccEc2NatGatewaysConfig) DataAwsccEc2NatGateways {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2NatGateways(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_nat_gateways awscc_ec2_nat_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_nat_gateways awscc_ec2_nat_gateways} Data Source.
 func NewDataAwsccEc2NatGateways_Override(d DataAwsccEc2NatGateways, scope constructs.Construct, id *string, config *DataAwsccEc2NatGatewaysConfig) {
 	_init_.Initialize()
 

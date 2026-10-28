@@ -5,14 +5,14 @@ package casescaserule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casescaserule/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casescaserule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule awscc_cases_case_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule awscc_cases_case_rule}.
 type CasesCaseRule interface {
 	cdktn.TerraformResource
 	CaseRuleArn() *string
@@ -517,7 +517,7 @@ func (j *jsiiProxy_CasesCaseRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule awscc_cases_case_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule awscc_cases_case_rule} Resource.
 func NewCasesCaseRule(scope constructs.Construct, id *string, config *CasesCaseRuleConfig) CasesCaseRule {
 	_init_.Initialize()
 
@@ -535,7 +535,7 @@ func NewCasesCaseRule(scope constructs.Construct, id *string, config *CasesCaseR
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_case_rule awscc_cases_case_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_case_rule awscc_cases_case_rule} Resource.
 func NewCasesCaseRule_Override(c CasesCaseRule, scope constructs.Construct, id *string, config *CasesCaseRuleConfig) {
 	_init_.Initialize()
 

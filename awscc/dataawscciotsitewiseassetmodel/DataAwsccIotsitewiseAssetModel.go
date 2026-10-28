@@ -5,14 +5,14 @@ package dataawscciotsitewiseassetmodel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseassetmodel/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseassetmodel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_asset_model awscc_iotsitewise_asset_model}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_asset_model awscc_iotsitewise_asset_model}.
 type DataAwsccIotsitewiseAssetModel interface {
 	cdktn.TerraformDataSource
 	AssetModelArn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccIotsitewiseAssetModel) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_asset_model awscc_iotsitewise_asset_model} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_asset_model awscc_iotsitewise_asset_model} Data Source.
 func NewDataAwsccIotsitewiseAssetModel(scope constructs.Construct, id *string, config *DataAwsccIotsitewiseAssetModelConfig) DataAwsccIotsitewiseAssetModel {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccIotsitewiseAssetModel(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_asset_model awscc_iotsitewise_asset_model} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_asset_model awscc_iotsitewise_asset_model} Data Source.
 func NewDataAwsccIotsitewiseAssetModel_Override(d DataAwsccIotsitewiseAssetModel, scope constructs.Construct, id *string, config *DataAwsccIotsitewiseAssetModelConfig) {
 	_init_.Initialize()
 

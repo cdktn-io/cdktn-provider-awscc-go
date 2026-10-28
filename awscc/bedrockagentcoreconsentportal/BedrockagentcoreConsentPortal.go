@@ -5,14 +5,14 @@ package bedrockagentcoreconsentportal
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcoreconsentportal/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcoreconsentportal/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_consent_portal awscc_bedrockagentcore_consent_portal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_consent_portal awscc_bedrockagentcore_consent_portal}.
 type BedrockagentcoreConsentPortal interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -561,7 +561,7 @@ func (j *jsiiProxy_BedrockagentcoreConsentPortal) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_consent_portal awscc_bedrockagentcore_consent_portal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_consent_portal awscc_bedrockagentcore_consent_portal} Resource.
 func NewBedrockagentcoreConsentPortal(scope constructs.Construct, id *string, config *BedrockagentcoreConsentPortalConfig) BedrockagentcoreConsentPortal {
 	_init_.Initialize()
 
@@ -579,7 +579,7 @@ func NewBedrockagentcoreConsentPortal(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_consent_portal awscc_bedrockagentcore_consent_portal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_consent_portal awscc_bedrockagentcore_consent_portal} Resource.
 func NewBedrockagentcoreConsentPortal_Override(b BedrockagentcoreConsentPortal, scope constructs.Construct, id *string, config *BedrockagentcoreConsentPortalConfig) {
 	_init_.Initialize()
 

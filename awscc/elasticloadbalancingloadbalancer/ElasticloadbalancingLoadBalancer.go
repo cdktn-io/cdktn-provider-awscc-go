@@ -5,14 +5,14 @@ package elasticloadbalancingloadbalancer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingloadbalancer/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingloadbalancer/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancing_load_balancer awscc_elasticloadbalancing_load_balancer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancing_load_balancer awscc_elasticloadbalancing_load_balancer}.
 type ElasticloadbalancingLoadBalancer interface {
 	cdktn.TerraformResource
 	AccessLoggingPolicy() ElasticloadbalancingLoadBalancerAccessLoggingPolicyOutputReference
@@ -782,7 +782,7 @@ func (j *jsiiProxy_ElasticloadbalancingLoadBalancer) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancing_load_balancer awscc_elasticloadbalancing_load_balancer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancing_load_balancer awscc_elasticloadbalancing_load_balancer} Resource.
 func NewElasticloadbalancingLoadBalancer(scope constructs.Construct, id *string, config *ElasticloadbalancingLoadBalancerConfig) ElasticloadbalancingLoadBalancer {
 	_init_.Initialize()
 
@@ -800,7 +800,7 @@ func NewElasticloadbalancingLoadBalancer(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancing_load_balancer awscc_elasticloadbalancing_load_balancer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancing_load_balancer awscc_elasticloadbalancing_load_balancer} Resource.
 func NewElasticloadbalancingLoadBalancer_Override(e ElasticloadbalancingLoadBalancer, scope constructs.Construct, id *string, config *ElasticloadbalancingLoadBalancerConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package appconfigexperimentrun
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigexperimentrun/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigexperimentrun/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_experiment_run awscc_appconfig_experiment_run}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_experiment_run awscc_appconfig_experiment_run}.
 type AppconfigExperimentRun interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -562,7 +562,7 @@ func (j *jsiiProxy_AppconfigExperimentRun) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_experiment_run awscc_appconfig_experiment_run} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_experiment_run awscc_appconfig_experiment_run} Resource.
 func NewAppconfigExperimentRun(scope constructs.Construct, id *string, config *AppconfigExperimentRunConfig) AppconfigExperimentRun {
 	_init_.Initialize()
 
@@ -580,7 +580,7 @@ func NewAppconfigExperimentRun(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_experiment_run awscc_appconfig_experiment_run} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_experiment_run awscc_appconfig_experiment_run} Resource.
 func NewAppconfigExperimentRun_Override(a AppconfigExperimentRun, scope constructs.Construct, id *string, config *AppconfigExperimentRunConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package fmsapplicationslist
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsapplicationslist/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsapplicationslist/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_applications_list awscc_fms_applications_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_applications_list awscc_fms_applications_list}.
 type FmsApplicationsList interface {
 	cdktn.TerraformResource
 	AppsList() FmsApplicationsListAppsListStructList
@@ -469,7 +469,7 @@ func (j *jsiiProxy_FmsApplicationsList) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_applications_list awscc_fms_applications_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_applications_list awscc_fms_applications_list} Resource.
 func NewFmsApplicationsList(scope constructs.Construct, id *string, config *FmsApplicationsListConfig) FmsApplicationsList {
 	_init_.Initialize()
 
@@ -487,7 +487,7 @@ func NewFmsApplicationsList(scope constructs.Construct, id *string, config *FmsA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_applications_list awscc_fms_applications_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_applications_list awscc_fms_applications_list} Resource.
 func NewFmsApplicationsList_Override(f FmsApplicationsList, scope constructs.Construct, id *string, config *FmsApplicationsListConfig) {
 	_init_.Initialize()
 

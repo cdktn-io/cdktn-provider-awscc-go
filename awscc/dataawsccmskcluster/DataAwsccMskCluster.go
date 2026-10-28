@@ -5,14 +5,14 @@ package dataawsccmskcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_cluster awscc_msk_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_cluster awscc_msk_cluster}.
 type DataAwsccMskCluster interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataAwsccMskCluster) ZookeeperAccess() DataAwsccMskClusterZoo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_cluster awscc_msk_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_cluster awscc_msk_cluster} Data Source.
 func NewDataAwsccMskCluster(scope constructs.Construct, id *string, config *DataAwsccMskClusterConfig) DataAwsccMskCluster {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataAwsccMskCluster(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_cluster awscc_msk_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_cluster awscc_msk_cluster} Data Source.
 func NewDataAwsccMskCluster_Override(d DataAwsccMskCluster, scope constructs.Construct, id *string, config *DataAwsccMskClusterConfig) {
 	_init_.Initialize()
 

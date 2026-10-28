@@ -5,14 +5,14 @@ package appstreamuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appstreamuser/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appstreamuser/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_user awscc_appstream_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_user awscc_appstream_user}.
 type AppstreamUser interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_AppstreamUser) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_user awscc_appstream_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_user awscc_appstream_user} Resource.
 func NewAppstreamUser(scope constructs.Construct, id *string, config *AppstreamUserConfig) AppstreamUser {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewAppstreamUser(scope constructs.Construct, id *string, config *AppstreamU
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_user awscc_appstream_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_user awscc_appstream_user} Resource.
 func NewAppstreamUser_Override(a AppstreamUser, scope constructs.Construct, id *string, config *AppstreamUserConfig) {
 	_init_.Initialize()
 

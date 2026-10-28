@@ -5,14 +5,14 @@ package resourceexplorer2view
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resourceexplorer2view/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resourceexplorer2view/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_view awscc_resourceexplorer2_view}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_view awscc_resourceexplorer2_view}.
 type Resourceexplorer2View interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -485,7 +485,7 @@ func (j *jsiiProxy_Resourceexplorer2View) ViewNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_view awscc_resourceexplorer2_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_view awscc_resourceexplorer2_view} Resource.
 func NewResourceexplorer2View(scope constructs.Construct, id *string, config *Resourceexplorer2ViewConfig) Resourceexplorer2View {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewResourceexplorer2View(scope constructs.Construct, id *string, config *Re
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resourceexplorer2_view awscc_resourceexplorer2_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resourceexplorer2_view awscc_resourceexplorer2_view} Resource.
 func NewResourceexplorer2View_Override(r Resourceexplorer2View, scope constructs.Construct, id *string, config *Resourceexplorer2ViewConfig) {
 	_init_.Initialize()
 

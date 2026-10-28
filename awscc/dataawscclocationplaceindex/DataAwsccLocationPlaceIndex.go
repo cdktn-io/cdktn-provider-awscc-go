@@ -5,14 +5,14 @@ package dataawscclocationplaceindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationplaceindex/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationplaceindex/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_place_index awscc_location_place_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_place_index awscc_location_place_index}.
 type DataAwsccLocationPlaceIndex interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccLocationPlaceIndex) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_place_index awscc_location_place_index} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_place_index awscc_location_place_index} Data Source.
 func NewDataAwsccLocationPlaceIndex(scope constructs.Construct, id *string, config *DataAwsccLocationPlaceIndexConfig) DataAwsccLocationPlaceIndex {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccLocationPlaceIndex(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_place_index awscc_location_place_index} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_place_index awscc_location_place_index} Data Source.
 func NewDataAwsccLocationPlaceIndex_Override(d DataAwsccLocationPlaceIndex, scope constructs.Construct, id *string, config *DataAwsccLocationPlaceIndexConfig) {
 	_init_.Initialize()
 

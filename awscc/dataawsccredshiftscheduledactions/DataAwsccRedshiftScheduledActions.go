@@ -5,14 +5,14 @@ package dataawsccredshiftscheduledactions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftscheduledactions/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftscheduledactions/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_scheduled_actions awscc_redshift_scheduled_actions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_scheduled_actions awscc_redshift_scheduled_actions}.
 type DataAwsccRedshiftScheduledActions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRedshiftScheduledActions) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_scheduled_actions awscc_redshift_scheduled_actions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_scheduled_actions awscc_redshift_scheduled_actions} Data Source.
 func NewDataAwsccRedshiftScheduledActions(scope constructs.Construct, id *string, config *DataAwsccRedshiftScheduledActionsConfig) DataAwsccRedshiftScheduledActions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRedshiftScheduledActions(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_scheduled_actions awscc_redshift_scheduled_actions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_scheduled_actions awscc_redshift_scheduled_actions} Data Source.
 func NewDataAwsccRedshiftScheduledActions_Override(d DataAwsccRedshiftScheduledActions, scope constructs.Construct, id *string, config *DataAwsccRedshiftScheduledActionsConfig) {
 	_init_.Initialize()
 

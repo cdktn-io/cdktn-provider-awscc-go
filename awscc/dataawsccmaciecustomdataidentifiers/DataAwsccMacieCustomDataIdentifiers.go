@@ -5,14 +5,14 @@ package dataawsccmaciecustomdataidentifiers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciecustomdataidentifiers/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciecustomdataidentifiers/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/macie_custom_data_identifiers awscc_macie_custom_data_identifiers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/macie_custom_data_identifiers awscc_macie_custom_data_identifiers}.
 type DataAwsccMacieCustomDataIdentifiers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMacieCustomDataIdentifiers) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/macie_custom_data_identifiers awscc_macie_custom_data_identifiers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/macie_custom_data_identifiers awscc_macie_custom_data_identifiers} Data Source.
 func NewDataAwsccMacieCustomDataIdentifiers(scope constructs.Construct, id *string, config *DataAwsccMacieCustomDataIdentifiersConfig) DataAwsccMacieCustomDataIdentifiers {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMacieCustomDataIdentifiers(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/macie_custom_data_identifiers awscc_macie_custom_data_identifiers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/macie_custom_data_identifiers awscc_macie_custom_data_identifiers} Data Source.
 func NewDataAwsccMacieCustomDataIdentifiers_Override(d DataAwsccMacieCustomDataIdentifiers, scope constructs.Construct, id *string, config *DataAwsccMacieCustomDataIdentifiersConfig) {
 	_init_.Initialize()
 

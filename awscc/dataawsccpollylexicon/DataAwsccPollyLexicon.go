@@ -5,14 +5,14 @@ package dataawsccpollylexicon
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpollylexicon/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpollylexicon/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/polly_lexicon awscc_polly_lexicon}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/polly_lexicon awscc_polly_lexicon}.
 type DataAwsccPollyLexicon interface {
 	cdktn.TerraformDataSource
 	Alphabet() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccPollyLexicon) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/polly_lexicon awscc_polly_lexicon} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/polly_lexicon awscc_polly_lexicon} Data Source.
 func NewDataAwsccPollyLexicon(scope constructs.Construct, id *string, config *DataAwsccPollyLexiconConfig) DataAwsccPollyLexicon {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccPollyLexicon(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/polly_lexicon awscc_polly_lexicon} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/polly_lexicon awscc_polly_lexicon} Data Source.
 func NewDataAwsccPollyLexicon_Override(d DataAwsccPollyLexicon, scope constructs.Construct, id *string, config *DataAwsccPollyLexiconConfig) {
 	_init_.Initialize()
 

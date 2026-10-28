@@ -5,14 +5,14 @@ package dataawsccquicksightassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightassignment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_assignment awscc_quicksight_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_assignment awscc_quicksight_assignment}.
 type DataAwsccQuicksightAssignment interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccQuicksightAssignment) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_assignment awscc_quicksight_assignment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_assignment awscc_quicksight_assignment} Data Source.
 func NewDataAwsccQuicksightAssignment(scope constructs.Construct, id *string, config *DataAwsccQuicksightAssignmentConfig) DataAwsccQuicksightAssignment {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccQuicksightAssignment(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_assignment awscc_quicksight_assignment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_assignment awscc_quicksight_assignment} Data Source.
 func NewDataAwsccQuicksightAssignment_Override(d DataAwsccQuicksightAssignment, scope constructs.Construct, id *string, config *DataAwsccQuicksightAssignmentConfig) {
 	_init_.Initialize()
 

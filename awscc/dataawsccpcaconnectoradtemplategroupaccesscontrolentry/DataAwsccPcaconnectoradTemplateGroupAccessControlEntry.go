@@ -5,14 +5,14 @@ package dataawsccpcaconnectoradtemplategroupaccesscontrolentry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradtemplategroupaccesscontrolentry/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradtemplategroupaccesscontrolentry/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorad_template_group_access_control_entry awscc_pcaconnectorad_template_group_access_control_entry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorad_template_group_access_control_entry awscc_pcaconnectorad_template_group_access_control_entry}.
 type DataAwsccPcaconnectoradTemplateGroupAccessControlEntry interface {
 	cdktn.TerraformDataSource
 	AccessRights() DataAwsccPcaconnectoradTemplateGroupAccessControlEntryAccessRightsOutputReference
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccPcaconnectoradTemplateGroupAccessControlEntry) Terra
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorad_template_group_access_control_entry awscc_pcaconnectorad_template_group_access_control_entry} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorad_template_group_access_control_entry awscc_pcaconnectorad_template_group_access_control_entry} Data Source.
 func NewDataAwsccPcaconnectoradTemplateGroupAccessControlEntry(scope constructs.Construct, id *string, config *DataAwsccPcaconnectoradTemplateGroupAccessControlEntryConfig) DataAwsccPcaconnectoradTemplateGroupAccessControlEntry {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccPcaconnectoradTemplateGroupAccessControlEntry(scope constructs.
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorad_template_group_access_control_entry awscc_pcaconnectorad_template_group_access_control_entry} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorad_template_group_access_control_entry awscc_pcaconnectorad_template_group_access_control_entry} Data Source.
 func NewDataAwsccPcaconnectoradTemplateGroupAccessControlEntry_Override(d DataAwsccPcaconnectoradTemplateGroupAccessControlEntry, scope constructs.Construct, id *string, config *DataAwsccPcaconnectoradTemplateGroupAccessControlEntryConfig) {
 	_init_.Initialize()
 

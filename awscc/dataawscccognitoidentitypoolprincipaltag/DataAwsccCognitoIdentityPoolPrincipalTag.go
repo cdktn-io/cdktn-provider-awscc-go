@@ -5,14 +5,14 @@ package dataawscccognitoidentitypoolprincipaltag
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitoidentitypoolprincipaltag/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitoidentitypoolprincipaltag/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_identity_pool_principal_tag awscc_cognito_identity_pool_principal_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_identity_pool_principal_tag awscc_cognito_identity_pool_principal_tag}.
 type DataAwsccCognitoIdentityPoolPrincipalTag interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccCognitoIdentityPoolPrincipalTag) UseDefaults() cdktn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_identity_pool_principal_tag awscc_cognito_identity_pool_principal_tag} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_identity_pool_principal_tag awscc_cognito_identity_pool_principal_tag} Data Source.
 func NewDataAwsccCognitoIdentityPoolPrincipalTag(scope constructs.Construct, id *string, config *DataAwsccCognitoIdentityPoolPrincipalTagConfig) DataAwsccCognitoIdentityPoolPrincipalTag {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccCognitoIdentityPoolPrincipalTag(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_identity_pool_principal_tag awscc_cognito_identity_pool_principal_tag} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_identity_pool_principal_tag awscc_cognito_identity_pool_principal_tag} Data Source.
 func NewDataAwsccCognitoIdentityPoolPrincipalTag_Override(d DataAwsccCognitoIdentityPoolPrincipalTag, scope constructs.Construct, id *string, config *DataAwsccCognitoIdentityPoolPrincipalTagConfig) {
 	_init_.Initialize()
 

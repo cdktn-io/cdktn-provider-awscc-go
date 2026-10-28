@@ -5,14 +5,14 @@ package dataawsccb2biprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2biprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2biprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_profile awscc_b2bi_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_profile awscc_b2bi_profile}.
 type DataAwsccB2BiProfile interface {
 	cdktn.TerraformDataSource
 	BusinessName() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccB2BiProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_profile awscc_b2bi_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_profile awscc_b2bi_profile} Data Source.
 func NewDataAwsccB2BiProfile(scope constructs.Construct, id *string, config *DataAwsccB2BiProfileConfig) DataAwsccB2BiProfile {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccB2BiProfile(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_profile awscc_b2bi_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_profile awscc_b2bi_profile} Data Source.
 func NewDataAwsccB2BiProfile_Override(d DataAwsccB2BiProfile, scope constructs.Construct, id *string, config *DataAwsccB2BiProfileConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawscclicensemanagerreportgenerators
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerreportgenerators/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerreportgenerators/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/licensemanager_report_generators awscc_licensemanager_report_generators}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanager_report_generators awscc_licensemanager_report_generators}.
 type DataAwsccLicensemanagerReportGenerators interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLicensemanagerReportGenerators) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/licensemanager_report_generators awscc_licensemanager_report_generators} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanager_report_generators awscc_licensemanager_report_generators} Data Source.
 func NewDataAwsccLicensemanagerReportGenerators(scope constructs.Construct, id *string, config *DataAwsccLicensemanagerReportGeneratorsConfig) DataAwsccLicensemanagerReportGenerators {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLicensemanagerReportGenerators(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/licensemanager_report_generators awscc_licensemanager_report_generators} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanager_report_generators awscc_licensemanager_report_generators} Data Source.
 func NewDataAwsccLicensemanagerReportGenerators_Override(d DataAwsccLicensemanagerReportGenerators, scope constructs.Construct, id *string, config *DataAwsccLicensemanagerReportGeneratorsConfig) {
 	_init_.Initialize()
 

@@ -24,25 +24,25 @@ type QuicksightAssignmentConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The name of the assignment, also called a rule. The name must be unique within the AWS account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_assignment#assignment_name QuicksightAssignment#assignment_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#assignment_name QuicksightAssignment#assignment_name}
 	AssignmentName *string `field:"required" json:"assignmentName" yaml:"assignmentName"`
 	// The status of the assignment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_assignment#assignment_status QuicksightAssignment#assignment_status}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#assignment_status QuicksightAssignment#assignment_status}
 	AssignmentStatus *string `field:"required" json:"assignmentStatus" yaml:"assignmentStatus"`
 	// The namespace that contains the assignment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_assignment#namespace QuicksightAssignment#namespace}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#namespace QuicksightAssignment#namespace}
 	Namespace *string `field:"required" json:"namespace" yaml:"namespace"`
 	// The QuickSight users, groups, or both that you want to assign the policy to.
 	//
 	// This maps identity type to a list of identity names.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_assignment#identities QuicksightAssignment#identities}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#identities QuicksightAssignment#identities}
 	Identities interface{} `field:"optional" json:"identities" yaml:"identities"`
 	// The ARN for the IAM policy to apply to the QuickSight users and groups specified in this assignment.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_assignment#policy_arn QuicksightAssignment#policy_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_assignment#policy_arn QuicksightAssignment#policy_arn}
 	PolicyArn *string `field:"optional" json:"policyArn" yaml:"policyArn"`
 }
 

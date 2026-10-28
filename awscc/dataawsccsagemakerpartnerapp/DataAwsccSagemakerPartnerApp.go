@@ -5,14 +5,14 @@ package dataawsccsagemakerpartnerapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerpartnerapp/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerpartnerapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_partner_app awscc_sagemaker_partner_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_partner_app awscc_sagemaker_partner_app}.
 type DataAwsccSagemakerPartnerApp interface {
 	cdktn.TerraformDataSource
 	ApplicationConfig() DataAwsccSagemakerPartnerAppApplicationConfigOutputReference
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataAwsccSagemakerPartnerApp) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_partner_app awscc_sagemaker_partner_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_partner_app awscc_sagemaker_partner_app} Data Source.
 func NewDataAwsccSagemakerPartnerApp(scope constructs.Construct, id *string, config *DataAwsccSagemakerPartnerAppConfig) DataAwsccSagemakerPartnerApp {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataAwsccSagemakerPartnerApp(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_partner_app awscc_sagemaker_partner_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_partner_app awscc_sagemaker_partner_app} Data Source.
 func NewDataAwsccSagemakerPartnerApp_Override(d DataAwsccSagemakerPartnerApp, scope constructs.Construct, id *string, config *DataAwsccSagemakerPartnerAppConfig) {
 	_init_.Initialize()
 

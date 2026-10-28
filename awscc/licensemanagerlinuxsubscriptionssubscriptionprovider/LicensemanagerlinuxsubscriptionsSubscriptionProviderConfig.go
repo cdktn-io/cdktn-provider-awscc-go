@@ -24,15 +24,15 @@ type LicensemanagerlinuxsubscriptionsSubscriptionProviderConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The Amazon Resource Name (ARN) of the Secrets Manager secret that contains the access token for the third-party Linux subscription provider.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider#secret_arn LicensemanagerlinuxsubscriptionsSubscriptionProvider#secret_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider#secret_arn LicensemanagerlinuxsubscriptionsSubscriptionProvider#secret_arn}
 	SecretArn *string `field:"required" json:"secretArn" yaml:"secretArn"`
 	// The Linux subscription provider that the registration is for.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider#subscription_provider_source LicensemanagerlinuxsubscriptionsSubscriptionProvider#subscription_provider_source}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider#subscription_provider_source LicensemanagerlinuxsubscriptionsSubscriptionProvider#subscription_provider_source}
 	SubscriptionProviderSource *string `field:"required" json:"subscriptionProviderSource" yaml:"subscriptionProviderSource"`
 	// The metadata tags assigned to the registered subscription provider.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider#tags LicensemanagerlinuxsubscriptionsSubscriptionProvider#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider#tags LicensemanagerlinuxsubscriptionsSubscriptionProvider#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

@@ -9,13 +9,13 @@ type AgentregistryRegistryCustomMetadataSchemaConfiguration struct {
 	//
 	// Supported property types are string, string with an enum constraint, string with a uri format, and boolean.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#default_schema AgentregistryRegistry#default_schema}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/agentregistry_registry#default_schema AgentregistryRegistry#default_schema}
 	DefaultSchema *string `field:"optional" json:"defaultSchema" yaml:"defaultSchema"`
 	// A list of per-record-type schema overrides.
 	//
 	// When a record's type matches an override, that override's schema is used instead of the default schema for validation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#record_type_schema_overrides AgentregistryRegistry#record_type_schema_overrides}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/agentregistry_registry#record_type_schema_overrides AgentregistryRegistry#record_type_schema_overrides}
 	RecordTypeSchemaOverrides interface{} `field:"optional" json:"recordTypeSchemaOverrides" yaml:"recordTypeSchemaOverrides"`
 }
 

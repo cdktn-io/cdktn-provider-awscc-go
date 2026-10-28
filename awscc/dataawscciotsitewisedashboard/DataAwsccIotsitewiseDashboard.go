@@ -5,14 +5,14 @@ package dataawscciotsitewisedashboard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisedashboard/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisedashboard/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_dashboard awscc_iotsitewise_dashboard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_dashboard awscc_iotsitewise_dashboard}.
 type DataAwsccIotsitewiseDashboard interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccIotsitewiseDashboard) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_dashboard awscc_iotsitewise_dashboard} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_dashboard awscc_iotsitewise_dashboard} Data Source.
 func NewDataAwsccIotsitewiseDashboard(scope constructs.Construct, id *string, config *DataAwsccIotsitewiseDashboardConfig) DataAwsccIotsitewiseDashboard {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccIotsitewiseDashboard(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_dashboard awscc_iotsitewise_dashboard} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_dashboard awscc_iotsitewise_dashboard} Data Source.
 func NewDataAwsccIotsitewiseDashboard_Override(d DataAwsccIotsitewiseDashboard, scope constructs.Construct, id *string, config *DataAwsccIotsitewiseDashboardConfig) {
 	_init_.Initialize()
 

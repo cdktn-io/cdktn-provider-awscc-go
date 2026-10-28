@@ -5,14 +5,14 @@ package batchjobdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchjobdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchjobdefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_job_definition awscc_batch_job_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_job_definition awscc_batch_job_definition}.
 type BatchJobDefinition interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -725,7 +725,7 @@ func (j *jsiiProxy_BatchJobDefinition) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_job_definition awscc_batch_job_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_job_definition awscc_batch_job_definition} Resource.
 func NewBatchJobDefinition(scope constructs.Construct, id *string, config *BatchJobDefinitionConfig) BatchJobDefinition {
 	_init_.Initialize()
 
@@ -743,7 +743,7 @@ func NewBatchJobDefinition(scope constructs.Construct, id *string, config *Batch
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_job_definition awscc_batch_job_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_job_definition awscc_batch_job_definition} Resource.
 func NewBatchJobDefinition_Override(b BatchJobDefinition, scope constructs.Construct, id *string, config *BatchJobDefinitionConfig) {
 	_init_.Initialize()
 

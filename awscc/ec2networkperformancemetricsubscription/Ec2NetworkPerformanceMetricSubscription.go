@@ -5,14 +5,14 @@ package ec2networkperformancemetricsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkperformancemetricsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkperformancemetricsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_performance_metric_subscription awscc_ec2_network_performance_metric_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_performance_metric_subscription awscc_ec2_network_performance_metric_subscription}.
 type Ec2NetworkPerformanceMetricSubscription interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_Ec2NetworkPerformanceMetricSubscription) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_performance_metric_subscription awscc_ec2_network_performance_metric_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_performance_metric_subscription awscc_ec2_network_performance_metric_subscription} Resource.
 func NewEc2NetworkPerformanceMetricSubscription(scope constructs.Construct, id *string, config *Ec2NetworkPerformanceMetricSubscriptionConfig) Ec2NetworkPerformanceMetricSubscription {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewEc2NetworkPerformanceMetricSubscription(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_performance_metric_subscription awscc_ec2_network_performance_metric_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_performance_metric_subscription awscc_ec2_network_performance_metric_subscription} Resource.
 func NewEc2NetworkPerformanceMetricSubscription_Override(e Ec2NetworkPerformanceMetricSubscription, scope constructs.Construct, id *string, config *Ec2NetworkPerformanceMetricSubscriptionConfig) {
 	_init_.Initialize()
 

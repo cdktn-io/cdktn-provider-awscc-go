@@ -5,9 +5,9 @@ package dataawsccecsservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsservice/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -24,6 +24,7 @@ type DataAwsccEcsServiceServiceConnectConfigurationOutputReference interface {
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ContainerConfigurations() DataAwsccEcsServiceServiceConnectConfigurationContainerConfigurationsList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -109,6 +110,16 @@ func (j *jsiiProxy_DataAwsccEcsServiceServiceConnectConfigurationOutputReference
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccEcsServiceServiceConnectConfigurationOutputReference) ContainerConfigurations() DataAwsccEcsServiceServiceConnectConfigurationContainerConfigurationsList {
+	var returns DataAwsccEcsServiceServiceConnectConfigurationContainerConfigurationsList
+	_jsii_.Get(
+		j,
+		"containerConfigurations",
 		&returns,
 	)
 	return returns

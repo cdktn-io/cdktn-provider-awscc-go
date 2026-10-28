@@ -5,14 +5,14 @@ package dataawscclightsailkeypair
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailkeypair/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailkeypair/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_key_pair awscc_lightsail_key_pair}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_key_pair awscc_lightsail_key_pair}.
 type DataAwsccLightsailKeyPair interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccLightsailKeyPair) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_key_pair awscc_lightsail_key_pair} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_key_pair awscc_lightsail_key_pair} Data Source.
 func NewDataAwsccLightsailKeyPair(scope constructs.Construct, id *string, config *DataAwsccLightsailKeyPairConfig) DataAwsccLightsailKeyPair {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccLightsailKeyPair(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_key_pair awscc_lightsail_key_pair} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_key_pair awscc_lightsail_key_pair} Data Source.
 func NewDataAwsccLightsailKeyPair_Override(d DataAwsccLightsailKeyPair, scope constructs.Construct, id *string, config *DataAwsccLightsailKeyPairConfig) {
 	_init_.Initialize()
 

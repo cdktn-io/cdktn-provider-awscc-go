@@ -5,14 +5,14 @@ package sesemailidentitycertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesemailidentitycertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesemailidentitycertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity_certificate awscc_ses_email_identity_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity_certificate awscc_ses_email_identity_certificate}.
 type SesEmailIdentityCertificate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_SesEmailIdentityCertificate) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity_certificate awscc_ses_email_identity_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity_certificate awscc_ses_email_identity_certificate} Resource.
 func NewSesEmailIdentityCertificate(scope constructs.Construct, id *string, config *SesEmailIdentityCertificateConfig) SesEmailIdentityCertificate {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewSesEmailIdentityCertificate(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_email_identity_certificate awscc_ses_email_identity_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_email_identity_certificate awscc_ses_email_identity_certificate} Resource.
 func NewSesEmailIdentityCertificate_Override(s SesEmailIdentityCertificate, scope constructs.Construct, id *string, config *SesEmailIdentityCertificateConfig) {
 	_init_.Initialize()
 

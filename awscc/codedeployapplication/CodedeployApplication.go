@@ -5,14 +5,14 @@ package codedeployapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codedeployapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codedeployapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_application awscc_codedeploy_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_application awscc_codedeploy_application}.
 type CodedeployApplication interface {
 	cdktn.TerraformResource
 	ApplicationName() *string
@@ -427,7 +427,7 @@ func (j *jsiiProxy_CodedeployApplication) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_application awscc_codedeploy_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_application awscc_codedeploy_application} Resource.
 func NewCodedeployApplication(scope constructs.Construct, id *string, config *CodedeployApplicationConfig) CodedeployApplication {
 	_init_.Initialize()
 
@@ -445,7 +445,7 @@ func NewCodedeployApplication(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codedeploy_application awscc_codedeploy_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_application awscc_codedeploy_application} Resource.
 func NewCodedeployApplication_Override(c CodedeployApplication, scope constructs.Construct, id *string, config *CodedeployApplicationConfig) {
 	_init_.Initialize()
 

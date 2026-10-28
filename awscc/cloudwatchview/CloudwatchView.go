@@ -5,14 +5,14 @@ package cloudwatchview
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchview/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchview/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_view awscc_cloudwatch_view}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_view awscc_cloudwatch_view}.
 type CloudwatchView interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -494,7 +494,7 @@ func (j *jsiiProxy_CloudwatchView) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_view awscc_cloudwatch_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_view awscc_cloudwatch_view} Resource.
 func NewCloudwatchView(scope constructs.Construct, id *string, config *CloudwatchViewConfig) CloudwatchView {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewCloudwatchView(scope constructs.Construct, id *string, config *Cloudwatc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_view awscc_cloudwatch_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_view awscc_cloudwatch_view} Resource.
 func NewCloudwatchView_Override(c CloudwatchView, scope constructs.Construct, id *string, config *CloudwatchViewConfig) {
 	_init_.Initialize()
 

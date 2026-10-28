@@ -5,14 +5,14 @@ package elasticloadbalancingv2listener
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listener/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listener/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener awscc_elasticloadbalancingv2_listener}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener awscc_elasticloadbalancingv2_listener}.
 type Elasticloadbalancingv2Listener interface {
 	cdktn.TerraformResource
 	AlpnPolicy() *[]*string
@@ -604,7 +604,7 @@ func (j *jsiiProxy_Elasticloadbalancingv2Listener) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener awscc_elasticloadbalancingv2_listener} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener awscc_elasticloadbalancingv2_listener} Resource.
 func NewElasticloadbalancingv2Listener(scope constructs.Construct, id *string, config *Elasticloadbalancingv2ListenerConfig) Elasticloadbalancingv2Listener {
 	_init_.Initialize()
 
@@ -622,7 +622,7 @@ func NewElasticloadbalancingv2Listener(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener awscc_elasticloadbalancingv2_listener} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener awscc_elasticloadbalancingv2_listener} Resource.
 func NewElasticloadbalancingv2Listener_Override(e Elasticloadbalancingv2Listener, scope constructs.Construct, id *string, config *Elasticloadbalancingv2ListenerConfig) {
 	_init_.Initialize()
 

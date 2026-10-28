@@ -5,14 +5,14 @@ package cognitouserpoolidentityprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cognitouserpoolidentityprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cognitouserpoolidentityprovider/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_user_pool_identity_provider awscc_cognito_user_pool_identity_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_user_pool_identity_provider awscc_cognito_user_pool_identity_provider}.
 type CognitoUserPoolIdentityProvider interface {
 	cdktn.TerraformResource
 	AttributeMapping() *map[string]*string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_CognitoUserPoolIdentityProvider) UserPoolIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_user_pool_identity_provider awscc_cognito_user_pool_identity_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_user_pool_identity_provider awscc_cognito_user_pool_identity_provider} Resource.
 func NewCognitoUserPoolIdentityProvider(scope constructs.Construct, id *string, config *CognitoUserPoolIdentityProviderConfig) CognitoUserPoolIdentityProvider {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewCognitoUserPoolIdentityProvider(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_user_pool_identity_provider awscc_cognito_user_pool_identity_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_user_pool_identity_provider awscc_cognito_user_pool_identity_provider} Resource.
 func NewCognitoUserPoolIdentityProvider_Override(c CognitoUserPoolIdentityProvider, scope constructs.Construct, id *string, config *CognitoUserPoolIdentityProviderConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package timestreaminfluxdbinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreaminfluxdbinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreaminfluxdbinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_influx_db_instance awscc_timestream_influx_db_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_influx_db_instance awscc_timestream_influx_db_instance}.
 type TimestreamInfluxDbInstance interface {
 	cdktn.TerraformResource
 	AllocatedStorage() *float64
@@ -875,7 +875,7 @@ func (j *jsiiProxy_TimestreamInfluxDbInstance) VpcSubnetIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_influx_db_instance awscc_timestream_influx_db_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_influx_db_instance awscc_timestream_influx_db_instance} Resource.
 func NewTimestreamInfluxDbInstance(scope constructs.Construct, id *string, config *TimestreamInfluxDbInstanceConfig) TimestreamInfluxDbInstance {
 	_init_.Initialize()
 
@@ -893,7 +893,7 @@ func NewTimestreamInfluxDbInstance(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_influx_db_instance awscc_timestream_influx_db_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_influx_db_instance awscc_timestream_influx_db_instance} Resource.
 func NewTimestreamInfluxDbInstance_Override(t TimestreamInfluxDbInstance, scope constructs.Construct, id *string, config *TimestreamInfluxDbInstanceConfig) {
 	_init_.Initialize()
 

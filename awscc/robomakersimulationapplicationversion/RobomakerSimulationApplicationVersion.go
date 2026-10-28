@@ -5,14 +5,14 @@ package robomakersimulationapplicationversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/robomakersimulationapplicationversion/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/robomakersimulationapplicationversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_simulation_application_version awscc_robomaker_simulation_application_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_simulation_application_version awscc_robomaker_simulation_application_version}.
 type RobomakerSimulationApplicationVersion interface {
 	cdktn.TerraformResource
 	Application() *string
@@ -424,7 +424,7 @@ func (j *jsiiProxy_RobomakerSimulationApplicationVersion) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_simulation_application_version awscc_robomaker_simulation_application_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_simulation_application_version awscc_robomaker_simulation_application_version} Resource.
 func NewRobomakerSimulationApplicationVersion(scope constructs.Construct, id *string, config *RobomakerSimulationApplicationVersionConfig) RobomakerSimulationApplicationVersion {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewRobomakerSimulationApplicationVersion(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/robomaker_simulation_application_version awscc_robomaker_simulation_application_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/robomaker_simulation_application_version awscc_robomaker_simulation_application_version} Resource.
 func NewRobomakerSimulationApplicationVersion_Override(r RobomakerSimulationApplicationVersion, scope constructs.Construct, id *string, config *RobomakerSimulationApplicationVersionConfig) {
 	_init_.Initialize()
 

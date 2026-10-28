@@ -5,14 +5,14 @@ package dataawsccroute53recoverycontrolclusters
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recoverycontrolclusters/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recoverycontrolclusters/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53recoverycontrol_clusters awscc_route53recoverycontrol_clusters}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53recoverycontrol_clusters awscc_route53recoverycontrol_clusters}.
 type DataAwsccRoute53RecoverycontrolClusters interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRoute53RecoverycontrolClusters) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53recoverycontrol_clusters awscc_route53recoverycontrol_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53recoverycontrol_clusters awscc_route53recoverycontrol_clusters} Data Source.
 func NewDataAwsccRoute53RecoverycontrolClusters(scope constructs.Construct, id *string, config *DataAwsccRoute53RecoverycontrolClustersConfig) DataAwsccRoute53RecoverycontrolClusters {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRoute53RecoverycontrolClusters(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53recoverycontrol_clusters awscc_route53recoverycontrol_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53recoverycontrol_clusters awscc_route53recoverycontrol_clusters} Data Source.
 func NewDataAwsccRoute53RecoverycontrolClusters_Override(d DataAwsccRoute53RecoverycontrolClusters, scope constructs.Construct, id *string, config *DataAwsccRoute53RecoverycontrolClustersConfig) {
 	_init_.Initialize()
 

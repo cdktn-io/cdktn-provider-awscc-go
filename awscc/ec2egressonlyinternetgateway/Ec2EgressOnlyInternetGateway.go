@@ -5,14 +5,14 @@ package ec2egressonlyinternetgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2egressonlyinternetgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2egressonlyinternetgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_egress_only_internet_gateway awscc_ec2_egress_only_internet_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_egress_only_internet_gateway awscc_ec2_egress_only_internet_gateway}.
 type Ec2EgressOnlyInternetGateway interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_Ec2EgressOnlyInternetGateway) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_egress_only_internet_gateway awscc_ec2_egress_only_internet_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_egress_only_internet_gateway awscc_ec2_egress_only_internet_gateway} Resource.
 func NewEc2EgressOnlyInternetGateway(scope constructs.Construct, id *string, config *Ec2EgressOnlyInternetGatewayConfig) Ec2EgressOnlyInternetGateway {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewEc2EgressOnlyInternetGateway(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_egress_only_internet_gateway awscc_ec2_egress_only_internet_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_egress_only_internet_gateway awscc_ec2_egress_only_internet_gateway} Resource.
 func NewEc2EgressOnlyInternetGateway_Override(e Ec2EgressOnlyInternetGateway, scope constructs.Construct, id *string, config *Ec2EgressOnlyInternetGatewayConfig) {
 	_init_.Initialize()
 

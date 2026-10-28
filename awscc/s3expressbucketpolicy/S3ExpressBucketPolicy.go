@@ -5,14 +5,14 @@ package s3expressbucketpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3expressbucketpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3expressbucketpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_bucket_policy awscc_s3express_bucket_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_bucket_policy awscc_s3express_bucket_policy}.
 type S3ExpressBucketPolicy interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -401,7 +401,7 @@ func (j *jsiiProxy_S3ExpressBucketPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_bucket_policy awscc_s3express_bucket_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_bucket_policy awscc_s3express_bucket_policy} Resource.
 func NewS3ExpressBucketPolicy(scope constructs.Construct, id *string, config *S3ExpressBucketPolicyConfig) S3ExpressBucketPolicy {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewS3ExpressBucketPolicy(scope constructs.Construct, id *string, config *S3
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_bucket_policy awscc_s3express_bucket_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_bucket_policy awscc_s3express_bucket_policy} Resource.
 func NewS3ExpressBucketPolicy_Override(s S3ExpressBucketPolicy, scope constructs.Construct, id *string, config *S3ExpressBucketPolicyConfig) {
 	_init_.Initialize()
 

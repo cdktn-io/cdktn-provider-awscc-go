@@ -5,14 +5,14 @@ package timestreaminfluxdbcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreaminfluxdbcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreaminfluxdbcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster}.
 type TimestreamInfluxDbCluster interface {
 	cdktn.TerraformResource
 	AllocatedStorage() *float64
@@ -899,7 +899,7 @@ func (j *jsiiProxy_TimestreamInfluxDbCluster) VpcSubnetIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster} Resource.
 func NewTimestreamInfluxDbCluster(scope constructs.Construct, id *string, config *TimestreamInfluxDbClusterConfig) TimestreamInfluxDbCluster {
 	_init_.Initialize()
 
@@ -917,7 +917,7 @@ func NewTimestreamInfluxDbCluster(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_influx_db_cluster awscc_timestream_influx_db_cluster} Resource.
 func NewTimestreamInfluxDbCluster_Override(t TimestreamInfluxDbCluster, scope constructs.Construct, id *string, config *TimestreamInfluxDbClusterConfig) {
 	_init_.Initialize()
 

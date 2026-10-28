@@ -24,29 +24,29 @@ type BedrockagentcoreEvaluatorConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The configuration for the evaluator, including LLM-as-a-Judge, code-based, or derived settings.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#evaluator_config BedrockagentcoreEvaluator#evaluator_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#evaluator_config BedrockagentcoreEvaluator#evaluator_config}
 	EvaluatorConfig *BedrockagentcoreEvaluatorEvaluatorConfig `field:"required" json:"evaluatorConfig" yaml:"evaluatorConfig"`
 	// The name of the evaluator. Must be unique within your account.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#evaluator_name BedrockagentcoreEvaluator#evaluator_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#evaluator_name BedrockagentcoreEvaluator#evaluator_name}
 	EvaluatorName *string `field:"required" json:"evaluatorName" yaml:"evaluatorName"`
 	// The evaluation level that determines the scope of evaluation.
 	//
 	// Required for all evaluator configuration types. For Derived evaluators it must match the level of the base evaluator identified by BaseEvaluatorId.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#level BedrockagentcoreEvaluator#level}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#level BedrockagentcoreEvaluator#level}
 	Level *string `field:"required" json:"level" yaml:"level"`
 	// The description of the evaluator.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#description BedrockagentcoreEvaluator#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#description BedrockagentcoreEvaluator#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The ARN of the KMS key used to encrypt evaluator data.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#kms_key_arn BedrockagentcoreEvaluator#kms_key_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#kms_key_arn BedrockagentcoreEvaluator#kms_key_arn}
 	KmsKeyArn *string `field:"optional" json:"kmsKeyArn" yaml:"kmsKeyArn"`
 	// A list of tags to assign to the evaluator.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_evaluator#tags BedrockagentcoreEvaluator#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_evaluator#tags BedrockagentcoreEvaluator#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

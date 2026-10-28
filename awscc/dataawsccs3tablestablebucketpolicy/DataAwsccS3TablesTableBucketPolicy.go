@@ -5,14 +5,14 @@ package dataawsccs3tablestablebucketpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucketpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucketpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3tables_table_bucket_policy awscc_s3tables_table_bucket_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3tables_table_bucket_policy awscc_s3tables_table_bucket_policy}.
 type DataAwsccS3TablesTableBucketPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccS3TablesTableBucketPolicy) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3tables_table_bucket_policy awscc_s3tables_table_bucket_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3tables_table_bucket_policy awscc_s3tables_table_bucket_policy} Data Source.
 func NewDataAwsccS3TablesTableBucketPolicy(scope constructs.Construct, id *string, config *DataAwsccS3TablesTableBucketPolicyConfig) DataAwsccS3TablesTableBucketPolicy {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccS3TablesTableBucketPolicy(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3tables_table_bucket_policy awscc_s3tables_table_bucket_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3tables_table_bucket_policy awscc_s3tables_table_bucket_policy} Data Source.
 func NewDataAwsccS3TablesTableBucketPolicy_Override(d DataAwsccS3TablesTableBucketPolicy, scope constructs.Construct, id *string, config *DataAwsccS3TablesTableBucketPolicyConfig) {
 	_init_.Initialize()
 

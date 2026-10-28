@@ -5,9 +5,9 @@ package dataawsccecstaskdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,6 +32,7 @@ type DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsOutputRef
 	Fqn() *string
 	InternalValue() *DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirements
 	SetInternalValue(val *DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirements)
+	SharingStrategy() DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -126,6 +127,16 @@ func (j *jsiiProxy_DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequire
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsOutputReference) SharingStrategy() DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference {
+	var returns DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyOutputReference
+	_jsii_.Get(
+		j,
+		"sharingStrategy",
 		&returns,
 	)
 	return returns

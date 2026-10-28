@@ -5,14 +5,14 @@ package connectdatatableattribute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectdatatableattribute/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectdatatableattribute/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_table_attribute awscc_connect_data_table_attribute}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_table_attribute awscc_connect_data_table_attribute}.
 type ConnectDataTableAttribute interface {
 	cdktn.TerraformResource
 	AttributeId() *string
@@ -563,7 +563,7 @@ func (j *jsiiProxy_ConnectDataTableAttribute) ValueTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_table_attribute awscc_connect_data_table_attribute} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_table_attribute awscc_connect_data_table_attribute} Resource.
 func NewConnectDataTableAttribute(scope constructs.Construct, id *string, config *ConnectDataTableAttributeConfig) ConnectDataTableAttribute {
 	_init_.Initialize()
 
@@ -581,7 +581,7 @@ func NewConnectDataTableAttribute(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_table_attribute awscc_connect_data_table_attribute} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_table_attribute awscc_connect_data_table_attribute} Resource.
 func NewConnectDataTableAttribute_Override(c ConnectDataTableAttribute, scope constructs.Construct, id *string, config *ConnectDataTableAttributeConfig) {
 	_init_.Initialize()
 

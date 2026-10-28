@@ -5,14 +5,14 @@ package dataawsccconnectmetric
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectmetric/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectmetric/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_metric awscc_connect_metric}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_metric awscc_connect_metric}.
 type DataAwsccConnectMetric interface {
 	cdktn.TerraformDataSource
 	Category() *string
@@ -572,7 +572,7 @@ func (j *jsiiProxy_DataAwsccConnectMetric) Unit() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_metric awscc_connect_metric} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_metric awscc_connect_metric} Data Source.
 func NewDataAwsccConnectMetric(scope constructs.Construct, id *string, config *DataAwsccConnectMetricConfig) DataAwsccConnectMetric {
 	_init_.Initialize()
 
@@ -590,7 +590,7 @@ func NewDataAwsccConnectMetric(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_metric awscc_connect_metric} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_metric awscc_connect_metric} Data Source.
 func NewDataAwsccConnectMetric_Override(d DataAwsccConnectMetric, scope constructs.Construct, id *string, config *DataAwsccConnectMetricConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package cognitouserpooldomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cognitouserpooldomain/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cognitouserpooldomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_user_pool_domain awscc_cognito_user_pool_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_user_pool_domain awscc_cognito_user_pool_domain}.
 type CognitoUserPoolDomain interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_CognitoUserPoolDomain) UserPoolIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_user_pool_domain awscc_cognito_user_pool_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_user_pool_domain awscc_cognito_user_pool_domain} Resource.
 func NewCognitoUserPoolDomain(scope constructs.Construct, id *string, config *CognitoUserPoolDomainConfig) CognitoUserPoolDomain {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewCognitoUserPoolDomain(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_user_pool_domain awscc_cognito_user_pool_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_user_pool_domain awscc_cognito_user_pool_domain} Resource.
 func NewCognitoUserPoolDomain_Override(c CognitoUserPoolDomain, scope constructs.Construct, id *string, config *CognitoUserPoolDomainConfig) {
 	_init_.Initialize()
 

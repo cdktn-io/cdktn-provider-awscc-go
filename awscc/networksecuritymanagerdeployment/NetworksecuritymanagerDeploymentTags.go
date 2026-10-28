@@ -5,9 +5,9 @@ package networksecuritymanagerdeployment
 
 
 type NetworksecuritymanagerDeploymentTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_deployment#key NetworksecuritymanagerDeployment#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#key NetworksecuritymanagerDeployment#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_deployment#value NetworksecuritymanagerDeployment#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#value NetworksecuritymanagerDeployment#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

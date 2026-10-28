@@ -5,14 +5,14 @@ package dataawsccsecurityhubstandard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubstandard/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubstandard/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_standard awscc_securityhub_standard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_standard awscc_securityhub_standard}.
 type DataAwsccSecurityhubStandard interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccSecurityhubStandard) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_standard awscc_securityhub_standard} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_standard awscc_securityhub_standard} Data Source.
 func NewDataAwsccSecurityhubStandard(scope constructs.Construct, id *string, config *DataAwsccSecurityhubStandardConfig) DataAwsccSecurityhubStandard {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccSecurityhubStandard(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_standard awscc_securityhub_standard} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_standard awscc_securityhub_standard} Data Source.
 func NewDataAwsccSecurityhubStandard_Override(d DataAwsccSecurityhubStandard, scope constructs.Construct, id *string, config *DataAwsccSecurityhubStandardConfig) {
 	_init_.Initialize()
 

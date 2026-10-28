@@ -5,14 +5,14 @@ package dataawsccquicksightbrand
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightbrand/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightbrand/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_brand awscc_quicksight_brand}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_brand awscc_quicksight_brand}.
 type DataAwsccQuicksightBrand interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccQuicksightBrand) VersionStatus() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_brand awscc_quicksight_brand} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_brand awscc_quicksight_brand} Data Source.
 func NewDataAwsccQuicksightBrand(scope constructs.Construct, id *string, config *DataAwsccQuicksightBrandConfig) DataAwsccQuicksightBrand {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccQuicksightBrand(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_brand awscc_quicksight_brand} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_brand awscc_quicksight_brand} Data Source.
 func NewDataAwsccQuicksightBrand_Override(d DataAwsccQuicksightBrand, scope constructs.Construct, id *string, config *DataAwsccQuicksightBrandConfig) {
 	_init_.Initialize()
 

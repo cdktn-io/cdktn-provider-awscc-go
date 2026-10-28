@@ -5,14 +5,14 @@ package dataawsccec2routetables
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2routetables/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2routetables/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_route_tables awscc_ec2_route_tables}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_route_tables awscc_ec2_route_tables}.
 type DataAwsccEc2RouteTables interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2RouteTables) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_route_tables awscc_ec2_route_tables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_route_tables awscc_ec2_route_tables} Data Source.
 func NewDataAwsccEc2RouteTables(scope constructs.Construct, id *string, config *DataAwsccEc2RouteTablesConfig) DataAwsccEc2RouteTables {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2RouteTables(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_route_tables awscc_ec2_route_tables} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_route_tables awscc_ec2_route_tables} Data Source.
 func NewDataAwsccEc2RouteTables_Override(d DataAwsccEc2RouteTables, scope constructs.Construct, id *string, config *DataAwsccEc2RouteTablesConfig) {
 	_init_.Initialize()
 

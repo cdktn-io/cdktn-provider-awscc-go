@@ -5,14 +5,14 @@ package iaminstanceprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iaminstanceprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iaminstanceprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_instance_profile awscc_iam_instance_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_instance_profile awscc_iam_instance_profile}.
 type IamInstanceProfile interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -437,7 +437,7 @@ func (j *jsiiProxy_IamInstanceProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_instance_profile awscc_iam_instance_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_instance_profile awscc_iam_instance_profile} Resource.
 func NewIamInstanceProfile(scope constructs.Construct, id *string, config *IamInstanceProfileConfig) IamInstanceProfile {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewIamInstanceProfile(scope constructs.Construct, id *string, config *IamIn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_instance_profile awscc_iam_instance_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_instance_profile awscc_iam_instance_profile} Resource.
 func NewIamInstanceProfile_Override(i IamInstanceProfile, scope constructs.Construct, id *string, config *IamInstanceProfileConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccec2instance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2instance/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2instance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_instance awscc_ec2_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_instance awscc_ec2_instance}.
 type DataAwsccEc2Instance interface {
 	cdktn.TerraformDataSource
 	AdditionalInfo() *string
@@ -814,7 +814,7 @@ func (j *jsiiProxy_DataAwsccEc2Instance) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_instance awscc_ec2_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_instance awscc_ec2_instance} Data Source.
 func NewDataAwsccEc2Instance(scope constructs.Construct, id *string, config *DataAwsccEc2InstanceConfig) DataAwsccEc2Instance {
 	_init_.Initialize()
 
@@ -832,7 +832,7 @@ func NewDataAwsccEc2Instance(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_instance awscc_ec2_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_instance awscc_ec2_instance} Data Source.
 func NewDataAwsccEc2Instance_Override(d DataAwsccEc2Instance, scope constructs.Construct, id *string, config *DataAwsccEc2InstanceConfig) {
 	_init_.Initialize()
 

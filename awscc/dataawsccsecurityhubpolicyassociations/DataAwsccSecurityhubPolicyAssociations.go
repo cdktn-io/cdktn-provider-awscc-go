@@ -5,14 +5,14 @@ package dataawsccsecurityhubpolicyassociations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubpolicyassociations/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubpolicyassociations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_policy_associations awscc_securityhub_policy_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_policy_associations awscc_securityhub_policy_associations}.
 type DataAwsccSecurityhubPolicyAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSecurityhubPolicyAssociations) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_policy_associations awscc_securityhub_policy_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_policy_associations awscc_securityhub_policy_associations} Data Source.
 func NewDataAwsccSecurityhubPolicyAssociations(scope constructs.Construct, id *string, config *DataAwsccSecurityhubPolicyAssociationsConfig) DataAwsccSecurityhubPolicyAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSecurityhubPolicyAssociations(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_policy_associations awscc_securityhub_policy_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_policy_associations awscc_securityhub_policy_associations} Data Source.
 func NewDataAwsccSecurityhubPolicyAssociations_Override(d DataAwsccSecurityhubPolicyAssociations, scope constructs.Construct, id *string, config *DataAwsccSecurityhubPolicyAssociationsConfig) {
 	_init_.Initialize()
 

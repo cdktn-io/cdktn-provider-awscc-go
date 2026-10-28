@@ -5,14 +5,14 @@ package dataawsccwisdomaiagentversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagentversion/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagentversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_ai_agent_version awscc_wisdom_ai_agent_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_ai_agent_version awscc_wisdom_ai_agent_version}.
 type DataAwsccWisdomAiAgentVersion interface {
 	cdktn.TerraformDataSource
 	AiAgentArn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccWisdomAiAgentVersion) VersionNumber() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_ai_agent_version awscc_wisdom_ai_agent_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_ai_agent_version awscc_wisdom_ai_agent_version} Data Source.
 func NewDataAwsccWisdomAiAgentVersion(scope constructs.Construct, id *string, config *DataAwsccWisdomAiAgentVersionConfig) DataAwsccWisdomAiAgentVersion {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccWisdomAiAgentVersion(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_ai_agent_version awscc_wisdom_ai_agent_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_ai_agent_version awscc_wisdom_ai_agent_version} Data Source.
 func NewDataAwsccWisdomAiAgentVersion_Override(d DataAwsccWisdomAiAgentVersion, scope constructs.Construct, id *string, config *DataAwsccWisdomAiAgentVersionConfig) {
 	_init_.Initialize()
 

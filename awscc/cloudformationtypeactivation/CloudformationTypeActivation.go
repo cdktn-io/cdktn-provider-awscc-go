@@ -5,14 +5,14 @@ package cloudformationtypeactivation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationtypeactivation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationtypeactivation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_type_activation awscc_cloudformation_type_activation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_type_activation awscc_cloudformation_type_activation}.
 type CloudformationTypeActivation interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -606,7 +606,7 @@ func (j *jsiiProxy_CloudformationTypeActivation) VersionBumpInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_type_activation awscc_cloudformation_type_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_type_activation awscc_cloudformation_type_activation} Resource.
 func NewCloudformationTypeActivation(scope constructs.Construct, id *string, config *CloudformationTypeActivationConfig) CloudformationTypeActivation {
 	_init_.Initialize()
 
@@ -624,7 +624,7 @@ func NewCloudformationTypeActivation(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_type_activation awscc_cloudformation_type_activation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_type_activation awscc_cloudformation_type_activation} Resource.
 func NewCloudformationTypeActivation_Override(c CloudformationTypeActivation, scope constructs.Construct, id *string, config *CloudformationTypeActivationConfig) {
 	_init_.Initialize()
 

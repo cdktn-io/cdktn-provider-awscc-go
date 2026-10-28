@@ -5,14 +5,14 @@ package dataawsccpcaconnectoradconnectors
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpcaconnectoradconnectors/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpcaconnectoradconnectors/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorad_connectors awscc_pcaconnectorad_connectors}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorad_connectors awscc_pcaconnectorad_connectors}.
 type DataAwsccPcaconnectoradConnectors interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccPcaconnectoradConnectors) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorad_connectors awscc_pcaconnectorad_connectors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorad_connectors awscc_pcaconnectorad_connectors} Data Source.
 func NewDataAwsccPcaconnectoradConnectors(scope constructs.Construct, id *string, config *DataAwsccPcaconnectoradConnectorsConfig) DataAwsccPcaconnectoradConnectors {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccPcaconnectoradConnectors(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pcaconnectorad_connectors awscc_pcaconnectorad_connectors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pcaconnectorad_connectors awscc_pcaconnectorad_connectors} Data Source.
 func NewDataAwsccPcaconnectoradConnectors_Override(d DataAwsccPcaconnectoradConnectors, scope constructs.Construct, id *string, config *DataAwsccPcaconnectoradConnectorsConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccec2ipamresourcediscoveries
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamresourcediscoveries/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamresourcediscoveries/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ipam_resource_discoveries awscc_ec2_ipam_resource_discoveries}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_resource_discoveries awscc_ec2_ipam_resource_discoveries}.
 type DataAwsccEc2IpamResourceDiscoveries interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2IpamResourceDiscoveries) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ipam_resource_discoveries awscc_ec2_ipam_resource_discoveries} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_resource_discoveries awscc_ec2_ipam_resource_discoveries} Data Source.
 func NewDataAwsccEc2IpamResourceDiscoveries(scope constructs.Construct, id *string, config *DataAwsccEc2IpamResourceDiscoveriesConfig) DataAwsccEc2IpamResourceDiscoveries {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2IpamResourceDiscoveries(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ipam_resource_discoveries awscc_ec2_ipam_resource_discoveries} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_resource_discoveries awscc_ec2_ipam_resource_discoveries} Data Source.
 func NewDataAwsccEc2IpamResourceDiscoveries_Override(d DataAwsccEc2IpamResourceDiscoveries, scope constructs.Construct, id *string, config *DataAwsccEc2IpamResourceDiscoveriesConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package ec2fpgaimage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2fpgaimage/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2fpgaimage/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_fpga_image awscc_ec2_fpga_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_fpga_image awscc_ec2_fpga_image}.
 type Ec2FpgaImage interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -574,7 +574,7 @@ func (j *jsiiProxy_Ec2FpgaImage) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_fpga_image awscc_ec2_fpga_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_fpga_image awscc_ec2_fpga_image} Resource.
 func NewEc2FpgaImage(scope constructs.Construct, id *string, config *Ec2FpgaImageConfig) Ec2FpgaImage {
 	_init_.Initialize()
 
@@ -592,7 +592,7 @@ func NewEc2FpgaImage(scope constructs.Construct, id *string, config *Ec2FpgaImag
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_fpga_image awscc_ec2_fpga_image} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_fpga_image awscc_ec2_fpga_image} Resource.
 func NewEc2FpgaImage_Override(e Ec2FpgaImage, scope constructs.Construct, id *string, config *Ec2FpgaImageConfig) {
 	_init_.Initialize()
 

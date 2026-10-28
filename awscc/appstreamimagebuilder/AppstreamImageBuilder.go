@@ -5,14 +5,14 @@ package appstreamimagebuilder
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appstreamimagebuilder/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appstreamimagebuilder/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_image_builder awscc_appstream_image_builder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_image_builder awscc_appstream_image_builder}.
 type AppstreamImageBuilder interface {
 	cdktn.TerraformResource
 	AccessEndpoints() AppstreamImageBuilderAccessEndpointsList
@@ -772,7 +772,7 @@ func (j *jsiiProxy_AppstreamImageBuilder) VpcConfigInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_image_builder awscc_appstream_image_builder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_image_builder awscc_appstream_image_builder} Resource.
 func NewAppstreamImageBuilder(scope constructs.Construct, id *string, config *AppstreamImageBuilderConfig) AppstreamImageBuilder {
 	_init_.Initialize()
 
@@ -790,7 +790,7 @@ func NewAppstreamImageBuilder(scope constructs.Construct, id *string, config *Ap
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_image_builder awscc_appstream_image_builder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_image_builder awscc_appstream_image_builder} Resource.
 func NewAppstreamImageBuilder_Override(a AppstreamImageBuilder, scope constructs.Construct, id *string, config *AppstreamImageBuilderConfig) {
 	_init_.Initialize()
 

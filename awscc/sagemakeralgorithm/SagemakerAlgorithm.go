@@ -5,14 +5,14 @@ package sagemakeralgorithm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakeralgorithm/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakeralgorithm/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_algorithm awscc_sagemaker_algorithm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_algorithm awscc_sagemaker_algorithm}.
 type SagemakerAlgorithm interface {
 	cdktn.TerraformResource
 	AlgorithmArn() *string
@@ -519,7 +519,7 @@ func (j *jsiiProxy_SagemakerAlgorithm) TrainingSpecificationInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_algorithm awscc_sagemaker_algorithm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_algorithm awscc_sagemaker_algorithm} Resource.
 func NewSagemakerAlgorithm(scope constructs.Construct, id *string, config *SagemakerAlgorithmConfig) SagemakerAlgorithm {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewSagemakerAlgorithm(scope constructs.Construct, id *string, config *Sagem
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_algorithm awscc_sagemaker_algorithm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_algorithm awscc_sagemaker_algorithm} Resource.
 func NewSagemakerAlgorithm_Override(s SagemakerAlgorithm, scope constructs.Construct, id *string, config *SagemakerAlgorithmConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawscccloudtraileventdatastores
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudtraileventdatastores/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudtraileventdatastores/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudtrail_event_data_stores awscc_cloudtrail_event_data_stores}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudtrail_event_data_stores awscc_cloudtrail_event_data_stores}.
 type DataAwsccCloudtrailEventDataStores interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCloudtrailEventDataStores) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudtrail_event_data_stores awscc_cloudtrail_event_data_stores} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudtrail_event_data_stores awscc_cloudtrail_event_data_stores} Data Source.
 func NewDataAwsccCloudtrailEventDataStores(scope constructs.Construct, id *string, config *DataAwsccCloudtrailEventDataStoresConfig) DataAwsccCloudtrailEventDataStores {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCloudtrailEventDataStores(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudtrail_event_data_stores awscc_cloudtrail_event_data_stores} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudtrail_event_data_stores awscc_cloudtrail_event_data_stores} Data Source.
 func NewDataAwsccCloudtrailEventDataStores_Override(d DataAwsccCloudtrailEventDataStores, scope constructs.Construct, id *string, config *DataAwsccCloudtrailEventDataStoresConfig) {
 	_init_.Initialize()
 

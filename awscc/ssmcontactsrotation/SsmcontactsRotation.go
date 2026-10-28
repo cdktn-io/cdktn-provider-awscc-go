@@ -5,14 +5,14 @@ package ssmcontactsrotation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcontactsrotation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmcontactsrotation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmcontacts_rotation awscc_ssmcontacts_rotation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmcontacts_rotation awscc_ssmcontacts_rotation}.
 type SsmcontactsRotation interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -505,7 +505,7 @@ func (j *jsiiProxy_SsmcontactsRotation) TimeZoneIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmcontacts_rotation awscc_ssmcontacts_rotation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmcontacts_rotation awscc_ssmcontacts_rotation} Resource.
 func NewSsmcontactsRotation(scope constructs.Construct, id *string, config *SsmcontactsRotationConfig) SsmcontactsRotation {
 	_init_.Initialize()
 
@@ -523,7 +523,7 @@ func NewSsmcontactsRotation(scope constructs.Construct, id *string, config *Ssmc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmcontacts_rotation awscc_ssmcontacts_rotation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmcontacts_rotation awscc_ssmcontacts_rotation} Resource.
 func NewSsmcontactsRotation_Override(s SsmcontactsRotation, scope constructs.Construct, id *string, config *SsmcontactsRotationConfig) {
 	_init_.Initialize()
 

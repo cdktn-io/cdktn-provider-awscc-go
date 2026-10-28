@@ -5,14 +5,14 @@ package sesmailmanageringresspoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesmailmanageringresspoint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesmailmanageringresspoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point}.
 type SesMailManagerIngressPoint interface {
 	cdktn.TerraformResource
 	ARecord() *string
@@ -612,7 +612,7 @@ func (j *jsiiProxy_SesMailManagerIngressPoint) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point} Resource.
 func NewSesMailManagerIngressPoint(scope constructs.Construct, id *string, config *SesMailManagerIngressPointConfig) SesMailManagerIngressPoint {
 	_init_.Initialize()
 
@@ -630,7 +630,7 @@ func NewSesMailManagerIngressPoint(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point} Resource.
 func NewSesMailManagerIngressPoint_Override(s SesMailManagerIngressPoint, scope constructs.Construct, id *string, config *SesMailManagerIngressPointConfig) {
 	_init_.Initialize()
 

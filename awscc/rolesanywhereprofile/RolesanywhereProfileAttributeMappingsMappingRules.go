@@ -5,7 +5,7 @@ package rolesanywhereprofile
 
 
 type RolesanywhereProfileAttributeMappingsMappingRules struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rolesanywhere_profile#specifier RolesanywhereProfile#specifier}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rolesanywhere_profile#specifier RolesanywhereProfile#specifier}.
 	Specifier *string `field:"optional" json:"specifier" yaml:"specifier"`
 }
 

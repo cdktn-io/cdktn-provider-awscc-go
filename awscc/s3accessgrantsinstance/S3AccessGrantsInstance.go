@@ -5,14 +5,14 @@ package s3accessgrantsinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3accessgrantsinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3accessgrantsinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grants_instance awscc_s3_access_grants_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grants_instance awscc_s3_access_grants_instance}.
 type S3AccessGrantsInstance interface {
 	cdktn.TerraformResource
 	AccessGrantsInstanceArn() *string
@@ -425,7 +425,7 @@ func (j *jsiiProxy_S3AccessGrantsInstance) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grants_instance awscc_s3_access_grants_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grants_instance awscc_s3_access_grants_instance} Resource.
 func NewS3AccessGrantsInstance(scope constructs.Construct, id *string, config *S3AccessGrantsInstanceConfig) S3AccessGrantsInstance {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewS3AccessGrantsInstance(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_access_grants_instance awscc_s3_access_grants_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_access_grants_instance awscc_s3_access_grants_instance} Resource.
 func NewS3AccessGrantsInstance_Override(s S3AccessGrantsInstance, scope constructs.Construct, id *string, config *S3AccessGrantsInstanceConfig) {
 	_init_.Initialize()
 

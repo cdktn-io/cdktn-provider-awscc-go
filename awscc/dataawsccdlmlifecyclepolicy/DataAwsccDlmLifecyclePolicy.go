@@ -5,14 +5,14 @@ package dataawsccdlmlifecyclepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdlmlifecyclepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdlmlifecyclepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dlm_lifecycle_policy awscc_dlm_lifecycle_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dlm_lifecycle_policy awscc_dlm_lifecycle_policy}.
 type DataAwsccDlmLifecyclePolicy interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccDlmLifecyclePolicy) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dlm_lifecycle_policy awscc_dlm_lifecycle_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dlm_lifecycle_policy awscc_dlm_lifecycle_policy} Data Source.
 func NewDataAwsccDlmLifecyclePolicy(scope constructs.Construct, id *string, config *DataAwsccDlmLifecyclePolicyConfig) DataAwsccDlmLifecyclePolicy {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccDlmLifecyclePolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dlm_lifecycle_policy awscc_dlm_lifecycle_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dlm_lifecycle_policy awscc_dlm_lifecycle_policy} Data Source.
 func NewDataAwsccDlmLifecyclePolicy_Override(d DataAwsccDlmLifecyclePolicy, scope constructs.Construct, id *string, config *DataAwsccDlmLifecyclePolicyConfig) {
 	_init_.Initialize()
 

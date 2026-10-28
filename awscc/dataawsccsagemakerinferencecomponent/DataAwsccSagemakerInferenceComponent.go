@@ -5,14 +5,14 @@ package dataawsccsagemakerinferencecomponent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerinferencecomponent/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerinferencecomponent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_inference_component awscc_sagemaker_inference_component}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_inference_component awscc_sagemaker_inference_component}.
 type DataAwsccSagemakerInferenceComponent interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccSagemakerInferenceComponent) VariantName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_inference_component awscc_sagemaker_inference_component} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_inference_component awscc_sagemaker_inference_component} Data Source.
 func NewDataAwsccSagemakerInferenceComponent(scope constructs.Construct, id *string, config *DataAwsccSagemakerInferenceComponentConfig) DataAwsccSagemakerInferenceComponent {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccSagemakerInferenceComponent(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_inference_component awscc_sagemaker_inference_component} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_inference_component awscc_sagemaker_inference_component} Data Source.
 func NewDataAwsccSagemakerInferenceComponent_Override(d DataAwsccSagemakerInferenceComponent, scope constructs.Construct, id *string, config *DataAwsccSagemakerInferenceComponentConfig) {
 	_init_.Initialize()
 

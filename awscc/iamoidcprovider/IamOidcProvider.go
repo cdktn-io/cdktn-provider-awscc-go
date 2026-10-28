@@ -5,14 +5,14 @@ package iamoidcprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iamoidcprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iamoidcprovider/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_oidc_provider awscc_iam_oidc_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_oidc_provider awscc_iam_oidc_provider}.
 type IamOidcProvider interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_IamOidcProvider) UrlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_oidc_provider awscc_iam_oidc_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_oidc_provider awscc_iam_oidc_provider} Resource.
 func NewIamOidcProvider(scope constructs.Construct, id *string, config *IamOidcProviderConfig) IamOidcProvider {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewIamOidcProvider(scope constructs.Construct, id *string, config *IamOidcP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_oidc_provider awscc_iam_oidc_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_oidc_provider awscc_iam_oidc_provider} Resource.
 func NewIamOidcProvider_Override(i IamOidcProvider, scope constructs.Construct, id *string, config *IamOidcProviderConfig) {
 	_init_.Initialize()
 

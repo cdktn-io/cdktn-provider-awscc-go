@@ -5,14 +5,14 @@ package dataawsccapigatewayv2integrationresponse
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2integrationresponse/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2integrationresponse/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_integration_response awscc_apigatewayv2_integration_response}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_integration_response awscc_apigatewayv2_integration_response}.
 type DataAwsccApigatewayv2IntegrationResponse interface {
 	cdktn.TerraformDataSource
 	ApiId() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccApigatewayv2IntegrationResponse) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_integration_response awscc_apigatewayv2_integration_response} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_integration_response awscc_apigatewayv2_integration_response} Data Source.
 func NewDataAwsccApigatewayv2IntegrationResponse(scope constructs.Construct, id *string, config *DataAwsccApigatewayv2IntegrationResponseConfig) DataAwsccApigatewayv2IntegrationResponse {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccApigatewayv2IntegrationResponse(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_integration_response awscc_apigatewayv2_integration_response} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_integration_response awscc_apigatewayv2_integration_response} Data Source.
 func NewDataAwsccApigatewayv2IntegrationResponse_Override(d DataAwsccApigatewayv2IntegrationResponse, scope constructs.Construct, id *string, config *DataAwsccApigatewayv2IntegrationResponseConfig) {
 	_init_.Initialize()
 

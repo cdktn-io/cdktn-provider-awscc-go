@@ -5,14 +5,14 @@ package dataawscccodebuildfleets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildfleets/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildfleets/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codebuild_fleets awscc_codebuild_fleets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codebuild_fleets awscc_codebuild_fleets}.
 type DataAwsccCodebuildFleets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCodebuildFleets) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codebuild_fleets awscc_codebuild_fleets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codebuild_fleets awscc_codebuild_fleets} Data Source.
 func NewDataAwsccCodebuildFleets(scope constructs.Construct, id *string, config *DataAwsccCodebuildFleetsConfig) DataAwsccCodebuildFleets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCodebuildFleets(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codebuild_fleets awscc_codebuild_fleets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codebuild_fleets awscc_codebuild_fleets} Data Source.
 func NewDataAwsccCodebuildFleets_Override(d DataAwsccCodebuildFleets, scope constructs.Construct, id *string, config *DataAwsccCodebuildFleetsConfig) {
 	_init_.Initialize()
 

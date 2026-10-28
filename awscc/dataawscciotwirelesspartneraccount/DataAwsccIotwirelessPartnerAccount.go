@@ -5,14 +5,14 @@ package dataawscciotwirelesspartneraccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesspartneraccount/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesspartneraccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_partner_account awscc_iotwireless_partner_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_partner_account awscc_iotwireless_partner_account}.
 type DataAwsccIotwirelessPartnerAccount interface {
 	cdktn.TerraformDataSource
 	AccountLinked() cdktn.IResolvable
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccIotwirelessPartnerAccount) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_partner_account awscc_iotwireless_partner_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_partner_account awscc_iotwireless_partner_account} Data Source.
 func NewDataAwsccIotwirelessPartnerAccount(scope constructs.Construct, id *string, config *DataAwsccIotwirelessPartnerAccountConfig) DataAwsccIotwirelessPartnerAccount {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccIotwirelessPartnerAccount(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_partner_account awscc_iotwireless_partner_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_partner_account awscc_iotwireless_partner_account} Data Source.
 func NewDataAwsccIotwirelessPartnerAccount_Override(d DataAwsccIotwirelessPartnerAccount, scope constructs.Construct, id *string, config *DataAwsccIotwirelessPartnerAccountConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package logsquerydefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsquerydefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsquerydefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_query_definition awscc_logs_query_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_query_definition awscc_logs_query_definition}.
 type LogsQueryDefinition interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_LogsQueryDefinition) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_query_definition awscc_logs_query_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_query_definition awscc_logs_query_definition} Resource.
 func NewLogsQueryDefinition(scope constructs.Construct, id *string, config *LogsQueryDefinitionConfig) LogsQueryDefinition {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewLogsQueryDefinition(scope constructs.Construct, id *string, config *Logs
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_query_definition awscc_logs_query_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_query_definition awscc_logs_query_definition} Resource.
 func NewLogsQueryDefinition_Override(l LogsQueryDefinition, scope constructs.Construct, id *string, config *LogsQueryDefinitionConfig) {
 	_init_.Initialize()
 

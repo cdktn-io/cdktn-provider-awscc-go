@@ -5,14 +5,14 @@ package dataawsccecsservices
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsservices/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsservices/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_services awscc_ecs_services}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_services awscc_ecs_services}.
 type DataAwsccEcsServices interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEcsServices) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_services awscc_ecs_services} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_services awscc_ecs_services} Data Source.
 func NewDataAwsccEcsServices(scope constructs.Construct, id *string, config *DataAwsccEcsServicesConfig) DataAwsccEcsServices {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEcsServices(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_services awscc_ecs_services} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_services awscc_ecs_services} Data Source.
 func NewDataAwsccEcsServices_Override(d DataAwsccEcsServices, scope constructs.Construct, id *string, config *DataAwsccEcsServicesConfig) {
 	_init_.Initialize()
 

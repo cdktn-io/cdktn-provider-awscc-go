@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccecstaskdefinition
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference) validateSetInternalValueParameters(val *DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMps) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccEcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategyNvidiaMpsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

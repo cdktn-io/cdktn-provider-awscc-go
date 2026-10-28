@@ -51,6 +51,10 @@ func (b *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyO
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyOutputReference) validatePutRecordExpirySpecificationParameters(value *BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecification) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (j *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyO
 }
 
 func (j *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyOutputReference) validateSetNamespaceTemplatesParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyOutputReference) validateSetRecordExpiryDurationDaysParameters(val *float64) error {
 	return nil
 }
 

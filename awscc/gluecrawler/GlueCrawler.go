@@ -5,14 +5,14 @@ package gluecrawler
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluecrawler/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluecrawler/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_crawler awscc_glue_crawler}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_crawler awscc_glue_crawler}.
 type GlueCrawler interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -689,7 +689,7 @@ func (j *jsiiProxy_GlueCrawler) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_crawler awscc_glue_crawler} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_crawler awscc_glue_crawler} Resource.
 func NewGlueCrawler(scope constructs.Construct, id *string, config *GlueCrawlerConfig) GlueCrawler {
 	_init_.Initialize()
 
@@ -707,7 +707,7 @@ func NewGlueCrawler(scope constructs.Construct, id *string, config *GlueCrawlerC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_crawler awscc_glue_crawler} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_crawler awscc_glue_crawler} Resource.
 func NewGlueCrawler_Override(g GlueCrawler, scope constructs.Construct, id *string, config *GlueCrawlerConfig) {
 	_init_.Initialize()
 

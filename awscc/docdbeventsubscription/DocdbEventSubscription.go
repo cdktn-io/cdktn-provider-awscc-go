@@ -5,14 +5,14 @@ package docdbeventsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/docdbeventsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/docdbeventsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_event_subscription awscc_docdb_event_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_event_subscription awscc_docdb_event_subscription}.
 type DocdbEventSubscription interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -498,7 +498,7 @@ func (j *jsiiProxy_DocdbEventSubscription) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_event_subscription awscc_docdb_event_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_event_subscription awscc_docdb_event_subscription} Resource.
 func NewDocdbEventSubscription(scope constructs.Construct, id *string, config *DocdbEventSubscriptionConfig) DocdbEventSubscription {
 	_init_.Initialize()
 
@@ -516,7 +516,7 @@ func NewDocdbEventSubscription(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_event_subscription awscc_docdb_event_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_event_subscription awscc_docdb_event_subscription} Resource.
 func NewDocdbEventSubscription_Override(d DocdbEventSubscription, scope constructs.Construct, id *string, config *DocdbEventSubscriptionConfig) {
 	_init_.Initialize()
 

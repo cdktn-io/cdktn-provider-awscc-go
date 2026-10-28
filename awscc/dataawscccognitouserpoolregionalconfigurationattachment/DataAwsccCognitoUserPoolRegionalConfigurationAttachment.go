@@ -5,14 +5,14 @@ package dataawscccognitouserpoolregionalconfigurationattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpoolregionalconfigurationattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpoolregionalconfigurationattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_user_pool_regional_configuration_attachment awscc_cognito_user_pool_regional_configuration_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_user_pool_regional_configuration_attachment awscc_cognito_user_pool_regional_configuration_attachment}.
 type DataAwsccCognitoUserPoolRegionalConfigurationAttachment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccCognitoUserPoolRegionalConfigurationAttachment) User
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_user_pool_regional_configuration_attachment awscc_cognito_user_pool_regional_configuration_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_user_pool_regional_configuration_attachment awscc_cognito_user_pool_regional_configuration_attachment} Data Source.
 func NewDataAwsccCognitoUserPoolRegionalConfigurationAttachment(scope constructs.Construct, id *string, config *DataAwsccCognitoUserPoolRegionalConfigurationAttachmentConfig) DataAwsccCognitoUserPoolRegionalConfigurationAttachment {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccCognitoUserPoolRegionalConfigurationAttachment(scope constructs
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_user_pool_regional_configuration_attachment awscc_cognito_user_pool_regional_configuration_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_user_pool_regional_configuration_attachment awscc_cognito_user_pool_regional_configuration_attachment} Data Source.
 func NewDataAwsccCognitoUserPoolRegionalConfigurationAttachment_Override(d DataAwsccCognitoUserPoolRegionalConfigurationAttachment, scope constructs.Construct, id *string, config *DataAwsccCognitoUserPoolRegionalConfigurationAttachmentConfig) {
 	_init_.Initialize()
 

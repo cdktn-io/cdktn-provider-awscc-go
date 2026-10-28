@@ -5,14 +5,14 @@ package appstreamappblock
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appstreamappblock/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appstreamappblock/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_app_block awscc_appstream_app_block}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_app_block awscc_appstream_app_block}.
 type AppstreamAppBlock interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -567,7 +567,7 @@ func (j *jsiiProxy_AppstreamAppBlock) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_app_block awscc_appstream_app_block} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_app_block awscc_appstream_app_block} Resource.
 func NewAppstreamAppBlock(scope constructs.Construct, id *string, config *AppstreamAppBlockConfig) AppstreamAppBlock {
 	_init_.Initialize()
 
@@ -585,7 +585,7 @@ func NewAppstreamAppBlock(scope constructs.Construct, id *string, config *Appstr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_app_block awscc_appstream_app_block} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_app_block awscc_appstream_app_block} Resource.
 func NewAppstreamAppBlock_Override(a AppstreamAppBlock, scope constructs.Construct, id *string, config *AppstreamAppBlockConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccglueblueprints
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueblueprints/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueblueprints/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_blueprints awscc_glue_blueprints}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_blueprints awscc_glue_blueprints}.
 type DataAwsccGlueBlueprints interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGlueBlueprints) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_blueprints awscc_glue_blueprints} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_blueprints awscc_glue_blueprints} Data Source.
 func NewDataAwsccGlueBlueprints(scope constructs.Construct, id *string, config *DataAwsccGlueBlueprintsConfig) DataAwsccGlueBlueprints {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGlueBlueprints(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_blueprints awscc_glue_blueprints} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_blueprints awscc_glue_blueprints} Data Source.
 func NewDataAwsccGlueBlueprints_Override(d DataAwsccGlueBlueprints, scope constructs.Construct, id *string, config *DataAwsccGlueBlueprintsConfig) {
 	_init_.Initialize()
 

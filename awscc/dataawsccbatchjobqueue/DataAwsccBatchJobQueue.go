@@ -5,14 +5,14 @@ package dataawsccbatchjobqueue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchjobqueue/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchjobqueue/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_job_queue awscc_batch_job_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_job_queue awscc_batch_job_queue}.
 type DataAwsccBatchJobQueue interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccBatchJobQueue) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_job_queue awscc_batch_job_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_job_queue awscc_batch_job_queue} Data Source.
 func NewDataAwsccBatchJobQueue(scope constructs.Construct, id *string, config *DataAwsccBatchJobQueueConfig) DataAwsccBatchJobQueue {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccBatchJobQueue(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_job_queue awscc_batch_job_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_job_queue awscc_batch_job_queue} Data Source.
 func NewDataAwsccBatchJobQueue_Override(d DataAwsccBatchJobQueue, scope constructs.Construct, id *string, config *DataAwsccBatchJobQueueConfig) {
 	_init_.Initialize()
 

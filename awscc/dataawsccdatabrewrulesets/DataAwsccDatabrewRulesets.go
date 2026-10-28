@@ -5,14 +5,14 @@ package dataawsccdatabrewrulesets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewrulesets/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewrulesets/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_rulesets awscc_databrew_rulesets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_rulesets awscc_databrew_rulesets}.
 type DataAwsccDatabrewRulesets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDatabrewRulesets) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_rulesets awscc_databrew_rulesets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_rulesets awscc_databrew_rulesets} Data Source.
 func NewDataAwsccDatabrewRulesets(scope constructs.Construct, id *string, config *DataAwsccDatabrewRulesetsConfig) DataAwsccDatabrewRulesets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDatabrewRulesets(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_rulesets awscc_databrew_rulesets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_rulesets awscc_databrew_rulesets} Data Source.
 func NewDataAwsccDatabrewRulesets_Override(d DataAwsccDatabrewRulesets, scope constructs.Construct, id *string, config *DataAwsccDatabrewRulesetsConfig) {
 	_init_.Initialize()
 

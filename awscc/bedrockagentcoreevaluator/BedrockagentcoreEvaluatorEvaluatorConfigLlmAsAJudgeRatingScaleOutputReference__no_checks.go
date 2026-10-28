@@ -51,6 +51,10 @@ func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScal
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleOutputReference) validatePutMultiDimensionalParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleOutputReference) validatePutNumericalParameters(value interface{}) error {
 	return nil
 }

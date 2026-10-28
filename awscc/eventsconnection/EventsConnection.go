@@ -5,14 +5,14 @@ package eventsconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection awscc_events_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection awscc_events_connection}.
 type EventsConnection interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_EventsConnection) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection awscc_events_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection awscc_events_connection} Resource.
 func NewEventsConnection(scope constructs.Construct, id *string, config *EventsConnectionConfig) EventsConnection {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewEventsConnection(scope constructs.Construct, id *string, config *EventsC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/events_connection awscc_events_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/events_connection awscc_events_connection} Resource.
 func NewEventsConnection_Override(e EventsConnection, scope constructs.Construct, id *string, config *EventsConnectionConfig) {
 	_init_.Initialize()
 

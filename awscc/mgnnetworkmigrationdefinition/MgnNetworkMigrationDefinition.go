@@ -5,14 +5,14 @@ package mgnnetworkmigrationdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mgnnetworkmigrationdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mgnnetworkmigrationdefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition awscc_mgn_network_migration_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition awscc_mgn_network_migration_definition}.
 type MgnNetworkMigrationDefinition interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -587,7 +587,7 @@ func (j *jsiiProxy_MgnNetworkMigrationDefinition) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition awscc_mgn_network_migration_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition awscc_mgn_network_migration_definition} Resource.
 func NewMgnNetworkMigrationDefinition(scope constructs.Construct, id *string, config *MgnNetworkMigrationDefinitionConfig) MgnNetworkMigrationDefinition {
 	_init_.Initialize()
 
@@ -605,7 +605,7 @@ func NewMgnNetworkMigrationDefinition(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mgn_network_migration_definition awscc_mgn_network_migration_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mgn_network_migration_definition awscc_mgn_network_migration_definition} Resource.
 func NewMgnNetworkMigrationDefinition_Override(m MgnNetworkMigrationDefinition, scope constructs.Construct, id *string, config *MgnNetworkMigrationDefinitionConfig) {
 	_init_.Initialize()
 

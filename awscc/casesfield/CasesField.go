@@ -5,14 +5,14 @@ package casesfield
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/casesfield/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/casesfield/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_field awscc_cases_field}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_field awscc_cases_field}.
 type CasesField interface {
 	cdktn.TerraformResource
 	Attributes() CasesFieldAttributesOutputReference
@@ -552,7 +552,7 @@ func (j *jsiiProxy_CasesField) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_field awscc_cases_field} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_field awscc_cases_field} Resource.
 func NewCasesField(scope constructs.Construct, id *string, config *CasesFieldConfig) CasesField {
 	_init_.Initialize()
 
@@ -570,7 +570,7 @@ func NewCasesField(scope constructs.Construct, id *string, config *CasesFieldCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cases_field awscc_cases_field} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cases_field awscc_cases_field} Resource.
 func NewCasesField_Override(c CasesField, scope constructs.Construct, id *string, config *CasesFieldConfig) {
 	_init_.Initialize()
 

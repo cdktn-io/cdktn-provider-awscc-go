@@ -5,14 +5,14 @@ package iotfleethubapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotfleethubapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotfleethubapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotfleethub_application awscc_iotfleethub_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotfleethub_application awscc_iotfleethub_application}.
 type IotfleethubApplication interface {
 	cdktn.TerraformResource
 	ApplicationArn() *string
@@ -537,7 +537,7 @@ func (j *jsiiProxy_IotfleethubApplication) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotfleethub_application awscc_iotfleethub_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotfleethub_application awscc_iotfleethub_application} Resource.
 func NewIotfleethubApplication(scope constructs.Construct, id *string, config *IotfleethubApplicationConfig) IotfleethubApplication {
 	_init_.Initialize()
 
@@ -555,7 +555,7 @@ func NewIotfleethubApplication(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotfleethub_application awscc_iotfleethub_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotfleethub_application awscc_iotfleethub_application} Resource.
 func NewIotfleethubApplication_Override(i IotfleethubApplication, scope constructs.Construct, id *string, config *IotfleethubApplicationConfig) {
 	_init_.Initialize()
 

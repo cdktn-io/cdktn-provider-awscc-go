@@ -5,14 +5,14 @@ package transferprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/transferprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/transferprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_profile awscc_transfer_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_profile awscc_transfer_profile}.
 type TransferProfile interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -471,7 +471,7 @@ func (j *jsiiProxy_TransferProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_profile awscc_transfer_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_profile awscc_transfer_profile} Resource.
 func NewTransferProfile(scope constructs.Construct, id *string, config *TransferProfileConfig) TransferProfile {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewTransferProfile(scope constructs.Construct, id *string, config *Transfer
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_profile awscc_transfer_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_profile awscc_transfer_profile} Resource.
 func NewTransferProfile_Override(t TransferProfile, scope constructs.Construct, id *string, config *TransferProfileConfig) {
 	_init_.Initialize()
 

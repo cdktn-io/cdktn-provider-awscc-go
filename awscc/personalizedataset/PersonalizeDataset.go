@@ -5,14 +5,14 @@ package personalizedataset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizedataset/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizedataset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_dataset awscc_personalize_dataset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_dataset awscc_personalize_dataset}.
 type PersonalizeDataset interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -506,7 +506,7 @@ func (j *jsiiProxy_PersonalizeDataset) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_dataset awscc_personalize_dataset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_dataset awscc_personalize_dataset} Resource.
 func NewPersonalizeDataset(scope constructs.Construct, id *string, config *PersonalizeDatasetConfig) PersonalizeDataset {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewPersonalizeDataset(scope constructs.Construct, id *string, config *Perso
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_dataset awscc_personalize_dataset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_dataset awscc_personalize_dataset} Resource.
 func NewPersonalizeDataset_Override(p PersonalizeDataset, scope constructs.Construct, id *string, config *PersonalizeDatasetConfig) {
 	_init_.Initialize()
 

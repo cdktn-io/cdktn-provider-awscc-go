@@ -5,14 +5,14 @@ package dataawsccsagemakerexperiment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerexperiment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerexperiment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_experiment awscc_sagemaker_experiment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_experiment awscc_sagemaker_experiment}.
 type DataAwsccSagemakerExperiment interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccSagemakerExperiment) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_experiment awscc_sagemaker_experiment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_experiment awscc_sagemaker_experiment} Data Source.
 func NewDataAwsccSagemakerExperiment(scope constructs.Construct, id *string, config *DataAwsccSagemakerExperimentConfig) DataAwsccSagemakerExperiment {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccSagemakerExperiment(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_experiment awscc_sagemaker_experiment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_experiment awscc_sagemaker_experiment} Data Source.
 func NewDataAwsccSagemakerExperiment_Override(d DataAwsccSagemakerExperiment, scope constructs.Construct, id *string, config *DataAwsccSagemakerExperimentConfig) {
 	_init_.Initialize()
 

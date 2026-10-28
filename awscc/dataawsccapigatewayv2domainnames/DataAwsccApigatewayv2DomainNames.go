@@ -5,14 +5,14 @@ package dataawsccapigatewayv2domainnames
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2domainnames/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2domainnames/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_domain_names awscc_apigatewayv2_domain_names}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_domain_names awscc_apigatewayv2_domain_names}.
 type DataAwsccApigatewayv2DomainNames interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccApigatewayv2DomainNames) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_domain_names awscc_apigatewayv2_domain_names} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_domain_names awscc_apigatewayv2_domain_names} Data Source.
 func NewDataAwsccApigatewayv2DomainNames(scope constructs.Construct, id *string, config *DataAwsccApigatewayv2DomainNamesConfig) DataAwsccApigatewayv2DomainNames {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccApigatewayv2DomainNames(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_domain_names awscc_apigatewayv2_domain_names} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_domain_names awscc_apigatewayv2_domain_names} Data Source.
 func NewDataAwsccApigatewayv2DomainNames_Override(d DataAwsccApigatewayv2DomainNames, scope constructs.Construct, id *string, config *DataAwsccApigatewayv2DomainNamesConfig) {
 	_init_.Initialize()
 

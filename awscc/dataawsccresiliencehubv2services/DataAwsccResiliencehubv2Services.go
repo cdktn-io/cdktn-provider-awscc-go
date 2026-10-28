@@ -5,14 +5,14 @@ package dataawsccresiliencehubv2services
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2services/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2services/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resiliencehubv2_services awscc_resiliencehubv2_services}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resiliencehubv2_services awscc_resiliencehubv2_services}.
 type DataAwsccResiliencehubv2Services interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccResiliencehubv2Services) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resiliencehubv2_services awscc_resiliencehubv2_services} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resiliencehubv2_services awscc_resiliencehubv2_services} Data Source.
 func NewDataAwsccResiliencehubv2Services(scope constructs.Construct, id *string, config *DataAwsccResiliencehubv2ServicesConfig) DataAwsccResiliencehubv2Services {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccResiliencehubv2Services(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resiliencehubv2_services awscc_resiliencehubv2_services} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resiliencehubv2_services awscc_resiliencehubv2_services} Data Source.
 func NewDataAwsccResiliencehubv2Services_Override(d DataAwsccResiliencehubv2Services, scope constructs.Construct, id *string, config *DataAwsccResiliencehubv2ServicesConfig) {
 	_init_.Initialize()
 

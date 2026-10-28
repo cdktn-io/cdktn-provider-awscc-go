@@ -5,14 +5,14 @@ package route53recoverycontrolcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoverycontrolcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoverycontrolcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoverycontrol_cluster awscc_route53recoverycontrol_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoverycontrol_cluster awscc_route53recoverycontrol_cluster}.
 type Route53RecoverycontrolCluster interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -459,7 +459,7 @@ func (j *jsiiProxy_Route53RecoverycontrolCluster) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoverycontrol_cluster awscc_route53recoverycontrol_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoverycontrol_cluster awscc_route53recoverycontrol_cluster} Resource.
 func NewRoute53RecoverycontrolCluster(scope constructs.Construct, id *string, config *Route53RecoverycontrolClusterConfig) Route53RecoverycontrolCluster {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewRoute53RecoverycontrolCluster(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoverycontrol_cluster awscc_route53recoverycontrol_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoverycontrol_cluster awscc_route53recoverycontrol_cluster} Resource.
 func NewRoute53RecoverycontrolCluster_Override(r Route53RecoverycontrolCluster, scope constructs.Construct, id *string, config *Route53RecoverycontrolClusterConfig) {
 	_init_.Initialize()
 

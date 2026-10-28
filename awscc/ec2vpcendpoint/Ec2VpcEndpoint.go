@@ -5,14 +5,14 @@ package ec2vpcendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpcendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpcendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc_endpoint awscc_ec2_vpc_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc_endpoint awscc_ec2_vpc_endpoint}.
 type Ec2VpcEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -734,7 +734,7 @@ func (j *jsiiProxy_Ec2VpcEndpoint) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc_endpoint awscc_ec2_vpc_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc_endpoint awscc_ec2_vpc_endpoint} Resource.
 func NewEc2VpcEndpoint(scope constructs.Construct, id *string, config *Ec2VpcEndpointConfig) Ec2VpcEndpoint {
 	_init_.Initialize()
 
@@ -752,7 +752,7 @@ func NewEc2VpcEndpoint(scope constructs.Construct, id *string, config *Ec2VpcEnd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc_endpoint awscc_ec2_vpc_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc_endpoint awscc_ec2_vpc_endpoint} Resource.
 func NewEc2VpcEndpoint_Override(e Ec2VpcEndpoint, scope constructs.Construct, id *string, config *Ec2VpcEndpointConfig) {
 	_init_.Initialize()
 

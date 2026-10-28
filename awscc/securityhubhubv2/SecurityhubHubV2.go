@@ -5,14 +5,14 @@ package securityhubhubv2
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubhubv2/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubhubv2/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_hub_v2 awscc_securityhub_hub_v2}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_hub_v2 awscc_securityhub_hub_v2}.
 type SecurityhubHubV2 interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_SecurityhubHubV2) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_hub_v2 awscc_securityhub_hub_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_hub_v2 awscc_securityhub_hub_v2} Resource.
 func NewSecurityhubHubV2(scope constructs.Construct, id *string, config *SecurityhubHubV2Config) SecurityhubHubV2 {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewSecurityhubHubV2(scope constructs.Construct, id *string, config *Securit
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_hub_v2 awscc_securityhub_hub_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_hub_v2 awscc_securityhub_hub_v2} Resource.
 func NewSecurityhubHubV2_Override(s SecurityhubHubV2, scope constructs.Construct, id *string, config *SecurityhubHubV2Config) {
 	_init_.Initialize()
 

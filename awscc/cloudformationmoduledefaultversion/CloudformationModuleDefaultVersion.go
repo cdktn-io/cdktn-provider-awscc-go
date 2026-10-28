@@ -5,14 +5,14 @@ package cloudformationmoduledefaultversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationmoduledefaultversion/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationmoduledefaultversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_module_default_version awscc_cloudformation_module_default_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_module_default_version awscc_cloudformation_module_default_version}.
 type CloudformationModuleDefaultVersion interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -427,7 +427,7 @@ func (j *jsiiProxy_CloudformationModuleDefaultVersion) VersionIdInput() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_module_default_version awscc_cloudformation_module_default_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_module_default_version awscc_cloudformation_module_default_version} Resource.
 func NewCloudformationModuleDefaultVersion(scope constructs.Construct, id *string, config *CloudformationModuleDefaultVersionConfig) CloudformationModuleDefaultVersion {
 	_init_.Initialize()
 
@@ -445,7 +445,7 @@ func NewCloudformationModuleDefaultVersion(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_module_default_version awscc_cloudformation_module_default_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_module_default_version awscc_cloudformation_module_default_version} Resource.
 func NewCloudformationModuleDefaultVersion_Override(c CloudformationModuleDefaultVersion, scope constructs.Construct, id *string, config *CloudformationModuleDefaultVersionConfig) {
 	_init_.Initialize()
 

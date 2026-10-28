@@ -5,14 +5,14 @@ package dataawsccec2vpcdhcpoptionsassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcdhcpoptionsassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcdhcpoptionsassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpcdhcp_options_association awscc_ec2_vpcdhcp_options_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpcdhcp_options_association awscc_ec2_vpcdhcp_options_association}.
 type DataAwsccEc2VpcdhcpOptionsAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccEc2VpcdhcpOptionsAssociation) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpcdhcp_options_association awscc_ec2_vpcdhcp_options_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpcdhcp_options_association awscc_ec2_vpcdhcp_options_association} Data Source.
 func NewDataAwsccEc2VpcdhcpOptionsAssociation(scope constructs.Construct, id *string, config *DataAwsccEc2VpcdhcpOptionsAssociationConfig) DataAwsccEc2VpcdhcpOptionsAssociation {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccEc2VpcdhcpOptionsAssociation(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpcdhcp_options_association awscc_ec2_vpcdhcp_options_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpcdhcp_options_association awscc_ec2_vpcdhcp_options_association} Data Source.
 func NewDataAwsccEc2VpcdhcpOptionsAssociation_Override(d DataAwsccEc2VpcdhcpOptionsAssociation, scope constructs.Construct, id *string, config *DataAwsccEc2VpcdhcpOptionsAssociationConfig) {
 	_init_.Initialize()
 

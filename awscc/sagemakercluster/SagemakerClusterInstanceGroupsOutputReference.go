@@ -5,9 +5,9 @@ package sagemakercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -43,6 +43,9 @@ type SagemakerClusterInstanceGroupsOutputReference interface {
 	ImageId() *string
 	SetImageId(val *string)
 	ImageIdInput() *string
+	ImageReleaseVersion() *string
+	SetImageReleaseVersion(val *string)
+	ImageReleaseVersionInput() *string
 	InstanceCount() *float64
 	SetInstanceCount(val *float64)
 	InstanceCountInput() *float64
@@ -129,6 +132,7 @@ type SagemakerClusterInstanceGroupsOutputReference interface {
 	ResetCurrentCount()
 	ResetExecutionRole()
 	ResetImageId()
+	ResetImageReleaseVersion()
 	ResetInstanceCount()
 	ResetInstanceGroupName()
 	ResetInstanceRequirements()
@@ -294,6 +298,26 @@ func (j *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) ImageIdInput()
 	_jsii_.Get(
 		j,
 		"imageIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) ImageReleaseVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"imageReleaseVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) ImageReleaseVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"imageReleaseVersionInput",
 		&returns,
 	)
 	return returns
@@ -708,6 +732,17 @@ func (j *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference)SetImageId(val 
 	_jsii_.Set(
 		j,
 		"imageId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference)SetImageReleaseVersion(val *string) {
+	if err := j.validateSetImageReleaseVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"imageReleaseVersion",
 		val,
 	)
 }
@@ -1154,6 +1189,14 @@ func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) ResetImageId()
 	_jsii_.InvokeVoid(
 		s,
 		"resetImageId",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SagemakerClusterInstanceGroupsOutputReference) ResetImageReleaseVersion() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetImageReleaseVersion",
 		nil, // no parameters
 	)
 }

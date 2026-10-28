@@ -5,14 +5,14 @@ package sagemakerproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerproject/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerproject/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_project awscc_sagemaker_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_project awscc_sagemaker_project}.
 type SagemakerProject interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -542,7 +542,7 @@ func (j *jsiiProxy_SagemakerProject) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_project awscc_sagemaker_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_project awscc_sagemaker_project} Resource.
 func NewSagemakerProject(scope constructs.Construct, id *string, config *SagemakerProjectConfig) SagemakerProject {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewSagemakerProject(scope constructs.Construct, id *string, config *Sagemak
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_project awscc_sagemaker_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_project awscc_sagemaker_project} Resource.
 func NewSagemakerProject_Override(s SagemakerProject, scope constructs.Construct, id *string, config *SagemakerProjectConfig) {
 	_init_.Initialize()
 

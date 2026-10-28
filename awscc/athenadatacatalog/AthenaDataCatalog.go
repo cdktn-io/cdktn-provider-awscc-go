@@ -5,14 +5,14 @@ package athenadatacatalog
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenadatacatalog/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenadatacatalog/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_data_catalog awscc_athena_data_catalog}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_data_catalog awscc_athena_data_catalog}.
 type AthenaDataCatalog interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -545,7 +545,7 @@ func (j *jsiiProxy_AthenaDataCatalog) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_data_catalog awscc_athena_data_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_data_catalog awscc_athena_data_catalog} Resource.
 func NewAthenaDataCatalog(scope constructs.Construct, id *string, config *AthenaDataCatalogConfig) AthenaDataCatalog {
 	_init_.Initialize()
 
@@ -563,7 +563,7 @@ func NewAthenaDataCatalog(scope constructs.Construct, id *string, config *Athena
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_data_catalog awscc_athena_data_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_data_catalog awscc_athena_data_catalog} Resource.
 func NewAthenaDataCatalog_Override(a AthenaDataCatalog, scope constructs.Construct, id *string, config *AthenaDataCatalogConfig) {
 	_init_.Initialize()
 

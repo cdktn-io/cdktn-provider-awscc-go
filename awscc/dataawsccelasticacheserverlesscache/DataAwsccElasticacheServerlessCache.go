@@ -5,14 +5,14 @@ package dataawsccelasticacheserverlesscache
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticacheserverlesscache/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticacheserverlesscache/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_serverless_cache awscc_elasticache_serverless_cache}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_serverless_cache awscc_elasticache_serverless_cache}.
 type DataAwsccElasticacheServerlessCache interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -528,7 +528,7 @@ func (j *jsiiProxy_DataAwsccElasticacheServerlessCache) UserGroupId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_serverless_cache awscc_elasticache_serverless_cache} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_serverless_cache awscc_elasticache_serverless_cache} Data Source.
 func NewDataAwsccElasticacheServerlessCache(scope constructs.Construct, id *string, config *DataAwsccElasticacheServerlessCacheConfig) DataAwsccElasticacheServerlessCache {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewDataAwsccElasticacheServerlessCache(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_serverless_cache awscc_elasticache_serverless_cache} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_serverless_cache awscc_elasticache_serverless_cache} Data Source.
 func NewDataAwsccElasticacheServerlessCache_Override(d DataAwsccElasticacheServerlessCache, scope constructs.Construct, id *string, config *DataAwsccElasticacheServerlessCacheConfig) {
 	_init_.Initialize()
 

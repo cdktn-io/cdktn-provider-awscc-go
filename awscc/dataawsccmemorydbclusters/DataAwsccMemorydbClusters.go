@@ -5,14 +5,14 @@ package dataawsccmemorydbclusters
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbclusters/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbclusters/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/memorydb_clusters awscc_memorydb_clusters}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/memorydb_clusters awscc_memorydb_clusters}.
 type DataAwsccMemorydbClusters interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMemorydbClusters) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/memorydb_clusters awscc_memorydb_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/memorydb_clusters awscc_memorydb_clusters} Data Source.
 func NewDataAwsccMemorydbClusters(scope constructs.Construct, id *string, config *DataAwsccMemorydbClustersConfig) DataAwsccMemorydbClusters {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMemorydbClusters(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/memorydb_clusters awscc_memorydb_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/memorydb_clusters awscc_memorydb_clusters} Data Source.
 func NewDataAwsccMemorydbClusters_Override(d DataAwsccMemorydbClusters, scope constructs.Construct, id *string, config *DataAwsccMemorydbClustersConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccchatbotmicrosoftteamschannelconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchatbotmicrosoftteamschannelconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchatbotmicrosoftteamschannelconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chatbot_microsoft_teams_channel_configuration awscc_chatbot_microsoft_teams_channel_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chatbot_microsoft_teams_channel_configuration awscc_chatbot_microsoft_teams_channel_configuration}.
 type DataAwsccChatbotMicrosoftTeamsChannelConfiguration interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccChatbotMicrosoftTeamsChannelConfiguration) UserRoleR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chatbot_microsoft_teams_channel_configuration awscc_chatbot_microsoft_teams_channel_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chatbot_microsoft_teams_channel_configuration awscc_chatbot_microsoft_teams_channel_configuration} Data Source.
 func NewDataAwsccChatbotMicrosoftTeamsChannelConfiguration(scope constructs.Construct, id *string, config *DataAwsccChatbotMicrosoftTeamsChannelConfigurationConfig) DataAwsccChatbotMicrosoftTeamsChannelConfiguration {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccChatbotMicrosoftTeamsChannelConfiguration(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chatbot_microsoft_teams_channel_configuration awscc_chatbot_microsoft_teams_channel_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chatbot_microsoft_teams_channel_configuration awscc_chatbot_microsoft_teams_channel_configuration} Data Source.
 func NewDataAwsccChatbotMicrosoftTeamsChannelConfiguration_Override(d DataAwsccChatbotMicrosoftTeamsChannelConfiguration, scope constructs.Construct, id *string, config *DataAwsccChatbotMicrosoftTeamsChannelConfigurationConfig) {
 	_init_.Initialize()
 

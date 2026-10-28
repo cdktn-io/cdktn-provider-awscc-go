@@ -5,14 +5,14 @@ package codestarconnectionssyncconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codestarconnectionssyncconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codestarconnectionssyncconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_sync_configuration awscc_codestarconnections_sync_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_sync_configuration awscc_codestarconnections_sync_configuration}.
 type CodestarconnectionsSyncConfiguration interface {
 	cdktn.TerraformResource
 	Branch() *string
@@ -574,7 +574,7 @@ func (j *jsiiProxy_CodestarconnectionsSyncConfiguration) TriggerResourceUpdateOn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_sync_configuration awscc_codestarconnections_sync_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_sync_configuration awscc_codestarconnections_sync_configuration} Resource.
 func NewCodestarconnectionsSyncConfiguration(scope constructs.Construct, id *string, config *CodestarconnectionsSyncConfigurationConfig) CodestarconnectionsSyncConfiguration {
 	_init_.Initialize()
 
@@ -592,7 +592,7 @@ func NewCodestarconnectionsSyncConfiguration(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_sync_configuration awscc_codestarconnections_sync_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_sync_configuration awscc_codestarconnections_sync_configuration} Resource.
 func NewCodestarconnectionsSyncConfiguration_Override(c CodestarconnectionsSyncConfiguration, scope constructs.Construct, id *string, config *CodestarconnectionsSyncConfigurationConfig) {
 	_init_.Initialize()
 

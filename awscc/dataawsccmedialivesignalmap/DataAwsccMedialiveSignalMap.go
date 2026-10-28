@@ -5,14 +5,14 @@ package dataawsccmedialivesignalmap
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivesignalmap/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivesignalmap/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_signal_map awscc_medialive_signal_map}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_signal_map awscc_medialive_signal_map}.
 type DataAwsccMedialiveSignalMap interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -528,7 +528,7 @@ func (j *jsiiProxy_DataAwsccMedialiveSignalMap) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_signal_map awscc_medialive_signal_map} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_signal_map awscc_medialive_signal_map} Data Source.
 func NewDataAwsccMedialiveSignalMap(scope constructs.Construct, id *string, config *DataAwsccMedialiveSignalMapConfig) DataAwsccMedialiveSignalMap {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewDataAwsccMedialiveSignalMap(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_signal_map awscc_medialive_signal_map} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_signal_map awscc_medialive_signal_map} Data Source.
 func NewDataAwsccMedialiveSignalMap_Override(d DataAwsccMedialiveSignalMap, scope constructs.Construct, id *string, config *DataAwsccMedialiveSignalMapConfig) {
 	_init_.Initialize()
 

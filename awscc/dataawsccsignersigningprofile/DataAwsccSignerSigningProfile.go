@@ -5,14 +5,14 @@ package dataawsccsignersigningprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsignersigningprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsignersigningprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/signer_signing_profile awscc_signer_signing_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/signer_signing_profile awscc_signer_signing_profile}.
 type DataAwsccSignerSigningProfile interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccSignerSigningProfile) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/signer_signing_profile awscc_signer_signing_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/signer_signing_profile awscc_signer_signing_profile} Data Source.
 func NewDataAwsccSignerSigningProfile(scope constructs.Construct, id *string, config *DataAwsccSignerSigningProfileConfig) DataAwsccSignerSigningProfile {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccSignerSigningProfile(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/signer_signing_profile awscc_signer_signing_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/signer_signing_profile awscc_signer_signing_profile} Data Source.
 func NewDataAwsccSignerSigningProfile_Override(d DataAwsccSignerSigningProfile, scope constructs.Construct, id *string, config *DataAwsccSignerSigningProfileConfig) {
 	_init_.Initialize()
 

@@ -5,16 +5,18 @@ package cloudwatchlogalarm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchlogalarm/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchlogalarm/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm}.
 type CloudwatchLogAlarm interface {
 	cdktn.TerraformResource
+	ActionConfiguration() CloudwatchLogAlarmActionConfigurationOutputReference
+	ActionConfigurationInput() interface{}
 	ActionLogLineCount() *float64
 	SetActionLogLineCount(val *float64)
 	ActionLogLineCountInput() *float64
@@ -187,6 +189,7 @@ type CloudwatchLogAlarm interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutActionConfiguration(value *CloudwatchLogAlarmActionConfiguration)
 	PutScheduledQueryConfiguration(value *CloudwatchLogAlarmScheduledQueryConfiguration)
 	PutTags(value interface{})
 	PutWarmUpConfiguration(value *CloudwatchLogAlarmWarmUpConfiguration)
@@ -203,6 +206,7 @@ type CloudwatchLogAlarm interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetActionConfiguration()
 	ResetActionLogLineCount()
 	ResetActionLogLineRoleArn()
 	ResetActionsEnabled()
@@ -242,6 +246,26 @@ type CloudwatchLogAlarm interface {
 // The jsii proxy struct for CloudwatchLogAlarm
 type jsiiProxy_CloudwatchLogAlarm struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_CloudwatchLogAlarm) ActionConfiguration() CloudwatchLogAlarmActionConfigurationOutputReference {
+	var returns CloudwatchLogAlarmActionConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"actionConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudwatchLogAlarm) ActionConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"actionConfigurationInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_CloudwatchLogAlarm) ActionLogLineCount() *float64 {
@@ -745,7 +769,7 @@ func (j *jsiiProxy_CloudwatchLogAlarm) WarmUpConfigurationInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm} Resource.
 func NewCloudwatchLogAlarm(scope constructs.Construct, id *string, config *CloudwatchLogAlarmConfig) CloudwatchLogAlarm {
 	_init_.Initialize()
 
@@ -763,7 +787,7 @@ func NewCloudwatchLogAlarm(scope constructs.Construct, id *string, config *Cloud
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_log_alarm awscc_cloudwatch_log_alarm} Resource.
 func NewCloudwatchLogAlarm_Override(c CloudwatchLogAlarm, scope constructs.Construct, id *string, config *CloudwatchLogAlarmConfig) {
 	_init_.Initialize()
 
@@ -1354,6 +1378,17 @@ func (c *jsiiProxy_CloudwatchLogAlarm) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (c *jsiiProxy_CloudwatchLogAlarm) PutActionConfiguration(value *CloudwatchLogAlarmActionConfiguration) {
+	if err := c.validatePutActionConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putActionConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CloudwatchLogAlarm) PutScheduledQueryConfiguration(value *CloudwatchLogAlarmScheduledQueryConfiguration) {
 	if err := c.validatePutScheduledQueryConfigurationParameters(value); err != nil {
 		panic(err)
@@ -1395,6 +1430,14 @@ func (c *jsiiProxy_CloudwatchLogAlarm) RegisterProviderFeatureUsage(feature cdkt
 		c,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (c *jsiiProxy_CloudwatchLogAlarm) ResetActionConfiguration() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetActionConfiguration",
+		nil, // no parameters
 	)
 }
 

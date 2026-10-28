@@ -26,15 +26,15 @@ type LicensemanagerusersubscriptionsLicenseServerEndpointConfig struct {
 	//
 	// For Active Directory, that can be a self-managed Active Directory or an AWS Managed Microsoft AD.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#identity_provider_arn LicensemanagerusersubscriptionsLicenseServerEndpoint#identity_provider_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#identity_provider_arn LicensemanagerusersubscriptionsLicenseServerEndpoint#identity_provider_arn}
 	IdentityProviderArn *string `field:"required" json:"identityProviderArn" yaml:"identityProviderArn"`
 	// The settings of the RDS license server to create the endpoint for.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#license_server_settings LicensemanagerusersubscriptionsLicenseServerEndpoint#license_server_settings}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#license_server_settings LicensemanagerusersubscriptionsLicenseServerEndpoint#license_server_settings}
 	LicenseServerSettings *LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettings `field:"optional" json:"licenseServerSettings" yaml:"licenseServerSettings"`
 	// The tags that apply for the license server endpoint. A maximum of 50 tags.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#tags LicensemanagerusersubscriptionsLicenseServerEndpoint#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#tags LicensemanagerusersubscriptionsLicenseServerEndpoint#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

@@ -5,14 +5,14 @@ package frauddetectoroutcome
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/frauddetectoroutcome/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/frauddetectoroutcome/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/frauddetector_outcome awscc_frauddetector_outcome}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/frauddetector_outcome awscc_frauddetector_outcome}.
 type FrauddetectorOutcome interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -459,7 +459,7 @@ func (j *jsiiProxy_FrauddetectorOutcome) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/frauddetector_outcome awscc_frauddetector_outcome} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/frauddetector_outcome awscc_frauddetector_outcome} Resource.
 func NewFrauddetectorOutcome(scope constructs.Construct, id *string, config *FrauddetectorOutcomeConfig) FrauddetectorOutcome {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewFrauddetectorOutcome(scope constructs.Construct, id *string, config *Fra
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/frauddetector_outcome awscc_frauddetector_outcome} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/frauddetector_outcome awscc_frauddetector_outcome} Resource.
 func NewFrauddetectorOutcome_Override(f FrauddetectorOutcome, scope constructs.Construct, id *string, config *FrauddetectorOutcomeConfig) {
 	_init_.Initialize()
 

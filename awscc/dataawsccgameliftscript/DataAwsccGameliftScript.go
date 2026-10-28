@@ -5,14 +5,14 @@ package dataawsccgameliftscript
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftscript/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftscript/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_script awscc_gamelift_script}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_script awscc_gamelift_script}.
 type DataAwsccGameliftScript interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccGameliftScript) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_script awscc_gamelift_script} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_script awscc_gamelift_script} Data Source.
 func NewDataAwsccGameliftScript(scope constructs.Construct, id *string, config *DataAwsccGameliftScriptConfig) DataAwsccGameliftScript {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccGameliftScript(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_script awscc_gamelift_script} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_script awscc_gamelift_script} Data Source.
 func NewDataAwsccGameliftScript_Override(d DataAwsccGameliftScript, scope constructs.Construct, id *string, config *DataAwsccGameliftScriptConfig) {
 	_init_.Initialize()
 

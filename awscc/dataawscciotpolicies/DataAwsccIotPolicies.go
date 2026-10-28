@@ -5,14 +5,14 @@ package dataawscciotpolicies
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotpolicies/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotpolicies/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_policies awscc_iot_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_policies awscc_iot_policies}.
 type DataAwsccIotPolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotPolicies) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_policies awscc_iot_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_policies awscc_iot_policies} Data Source.
 func NewDataAwsccIotPolicies(scope constructs.Construct, id *string, config *DataAwsccIotPoliciesConfig) DataAwsccIotPolicies {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotPolicies(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_policies awscc_iot_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_policies awscc_iot_policies} Data Source.
 func NewDataAwsccIotPolicies_Override(d DataAwsccIotPolicies, scope constructs.Construct, id *string, config *DataAwsccIotPoliciesConfig) {
 	_init_.Initialize()
 

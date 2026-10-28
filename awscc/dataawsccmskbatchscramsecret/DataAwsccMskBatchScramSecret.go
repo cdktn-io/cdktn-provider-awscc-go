@@ -5,14 +5,14 @@ package dataawsccmskbatchscramsecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskbatchscramsecret/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskbatchscramsecret/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_batch_scram_secret awscc_msk_batch_scram_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_batch_scram_secret awscc_msk_batch_scram_secret}.
 type DataAwsccMskBatchScramSecret interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccMskBatchScramSecret) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_batch_scram_secret awscc_msk_batch_scram_secret} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_batch_scram_secret awscc_msk_batch_scram_secret} Data Source.
 func NewDataAwsccMskBatchScramSecret(scope constructs.Construct, id *string, config *DataAwsccMskBatchScramSecretConfig) DataAwsccMskBatchScramSecret {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccMskBatchScramSecret(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_batch_scram_secret awscc_msk_batch_scram_secret} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_batch_scram_secret awscc_msk_batch_scram_secret} Data Source.
 func NewDataAwsccMskBatchScramSecret_Override(d DataAwsccMskBatchScramSecret, scope constructs.Construct, id *string, config *DataAwsccMskBatchScramSecretConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccivsstages
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstages/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstages/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_stages awscc_ivs_stages}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_stages awscc_ivs_stages}.
 type DataAwsccIvsStages interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIvsStages) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_stages awscc_ivs_stages} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_stages awscc_ivs_stages} Data Source.
 func NewDataAwsccIvsStages(scope constructs.Construct, id *string, config *DataAwsccIvsStagesConfig) DataAwsccIvsStages {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIvsStages(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_stages awscc_ivs_stages} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_stages awscc_ivs_stages} Data Source.
 func NewDataAwsccIvsStages_Override(d DataAwsccIvsStages, scope constructs.Construct, id *string, config *DataAwsccIvsStagesConfig) {
 	_init_.Initialize()
 

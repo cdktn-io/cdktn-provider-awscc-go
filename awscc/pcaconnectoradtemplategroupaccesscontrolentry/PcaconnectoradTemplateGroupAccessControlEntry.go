@@ -5,14 +5,14 @@ package pcaconnectoradtemplategroupaccesscontrolentry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcaconnectoradtemplategroupaccesscontrolentry/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcaconnectoradtemplategroupaccesscontrolentry/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcaconnectorad_template_group_access_control_entry awscc_pcaconnectorad_template_group_access_control_entry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcaconnectorad_template_group_access_control_entry awscc_pcaconnectorad_template_group_access_control_entry}.
 type PcaconnectoradTemplateGroupAccessControlEntry interface {
 	cdktn.TerraformResource
 	AccessRights() PcaconnectoradTemplateGroupAccessControlEntryAccessRightsOutputReference
@@ -447,7 +447,7 @@ func (j *jsiiProxy_PcaconnectoradTemplateGroupAccessControlEntry) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcaconnectorad_template_group_access_control_entry awscc_pcaconnectorad_template_group_access_control_entry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcaconnectorad_template_group_access_control_entry awscc_pcaconnectorad_template_group_access_control_entry} Resource.
 func NewPcaconnectoradTemplateGroupAccessControlEntry(scope constructs.Construct, id *string, config *PcaconnectoradTemplateGroupAccessControlEntryConfig) PcaconnectoradTemplateGroupAccessControlEntry {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewPcaconnectoradTemplateGroupAccessControlEntry(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcaconnectorad_template_group_access_control_entry awscc_pcaconnectorad_template_group_access_control_entry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcaconnectorad_template_group_access_control_entry awscc_pcaconnectorad_template_group_access_control_entry} Resource.
 func NewPcaconnectoradTemplateGroupAccessControlEntry_Override(p PcaconnectoradTemplateGroupAccessControlEntry, scope constructs.Construct, id *string, config *PcaconnectoradTemplateGroupAccessControlEntryConfig) {
 	_init_.Initialize()
 

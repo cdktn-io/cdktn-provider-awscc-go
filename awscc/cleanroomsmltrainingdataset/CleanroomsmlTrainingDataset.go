@@ -5,14 +5,14 @@ package cleanroomsmltrainingdataset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cleanroomsmltrainingdataset/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cleanroomsmltrainingdataset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cleanroomsml_training_dataset awscc_cleanroomsml_training_dataset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cleanroomsml_training_dataset awscc_cleanroomsml_training_dataset}.
 type CleanroomsmlTrainingDataset interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -494,7 +494,7 @@ func (j *jsiiProxy_CleanroomsmlTrainingDataset) TrainingDatasetArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cleanroomsml_training_dataset awscc_cleanroomsml_training_dataset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cleanroomsml_training_dataset awscc_cleanroomsml_training_dataset} Resource.
 func NewCleanroomsmlTrainingDataset(scope constructs.Construct, id *string, config *CleanroomsmlTrainingDatasetConfig) CleanroomsmlTrainingDataset {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewCleanroomsmlTrainingDataset(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cleanroomsml_training_dataset awscc_cleanroomsml_training_dataset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cleanroomsml_training_dataset awscc_cleanroomsml_training_dataset} Resource.
 func NewCleanroomsmlTrainingDataset_Override(c CleanroomsmlTrainingDataset, scope constructs.Construct, id *string, config *CleanroomsmlTrainingDatasetConfig) {
 	_init_.Initialize()
 

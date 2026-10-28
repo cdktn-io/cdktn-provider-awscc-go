@@ -5,14 +5,14 @@ package ecsservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecsservice/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecsservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service awscc_ecs_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service awscc_ecs_service}.
 type EcsService interface {
 	cdktn.TerraformResource
 	AvailabilityZoneRebalancing() *string
@@ -62,6 +62,8 @@ type EcsService interface {
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
+	GatewayConnectors() EcsServiceGatewayConnectorsList
+	GatewayConnectorsInput() interface{}
 	HealthCheckGracePeriodSeconds() *float64
 	SetHealthCheckGracePeriodSeconds(val *float64)
 	HealthCheckGracePeriodSecondsInput() *float64
@@ -214,6 +216,7 @@ type EcsService interface {
 	PutDeploymentConfiguration(value *EcsServiceDeploymentConfiguration)
 	PutDeploymentController(value *EcsServiceDeploymentController)
 	PutForceNewDeployment(value *EcsServiceForceNewDeployment)
+	PutGatewayConnectors(value interface{})
 	PutLoadBalancers(value interface{})
 	PutMonitoring(value *EcsServiceMonitoring)
 	PutNetworkConfiguration(value *EcsServiceNetworkConfiguration)
@@ -246,6 +249,7 @@ type EcsService interface {
 	ResetEnableEcsManagedTags()
 	ResetEnableExecuteCommand()
 	ResetForceNewDeployment()
+	ResetGatewayConnectors()
 	ResetHealthCheckGracePeriodSeconds()
 	ResetLaunchType()
 	ResetLoadBalancers()
@@ -549,6 +553,26 @@ func (j *jsiiProxy_EcsService) FriendlyUniqueId() *string {
 	_jsii_.Get(
 		j,
 		"friendlyUniqueId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsService) GatewayConnectors() EcsServiceGatewayConnectorsList {
+	var returns EcsServiceGatewayConnectorsList
+	_jsii_.Get(
+		j,
+		"gatewayConnectors",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsService) GatewayConnectorsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"gatewayConnectorsInput",
 		&returns,
 	)
 	return returns
@@ -1025,7 +1049,7 @@ func (j *jsiiProxy_EcsService) VpcLatticeConfigurationsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service awscc_ecs_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service awscc_ecs_service} Resource.
 func NewEcsService(scope constructs.Construct, id *string, config *EcsServiceConfig) EcsService {
 	_init_.Initialize()
 
@@ -1043,7 +1067,7 @@ func NewEcsService(scope constructs.Construct, id *string, config *EcsServiceCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_service awscc_ecs_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service awscc_ecs_service} Resource.
 func NewEcsService_Override(e EcsService, scope constructs.Construct, id *string, config *EcsServiceConfig) {
 	_init_.Initialize()
 
@@ -1678,6 +1702,17 @@ func (e *jsiiProxy_EcsService) PutForceNewDeployment(value *EcsServiceForceNewDe
 	)
 }
 
+func (e *jsiiProxy_EcsService) PutGatewayConnectors(value interface{}) {
+	if err := e.validatePutGatewayConnectorsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putGatewayConnectors",
+		[]interface{}{value},
+	)
+}
+
 func (e *jsiiProxy_EcsService) PutLoadBalancers(value interface{}) {
 	if err := e.validatePutLoadBalancersParameters(value); err != nil {
 		panic(err)
@@ -1867,6 +1902,14 @@ func (e *jsiiProxy_EcsService) ResetForceNewDeployment() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetForceNewDeployment",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EcsService) ResetGatewayConnectors() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetGatewayConnectors",
 		nil, // no parameters
 	)
 }

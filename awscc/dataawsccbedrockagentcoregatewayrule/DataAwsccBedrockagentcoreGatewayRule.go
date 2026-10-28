@@ -5,14 +5,14 @@ package dataawsccbedrockagentcoregatewayrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoregatewayrule/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoregatewayrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_gateway_rule awscc_bedrockagentcore_gateway_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_gateway_rule awscc_bedrockagentcore_gateway_rule}.
 type DataAwsccBedrockagentcoreGatewayRule interface {
 	cdktn.TerraformDataSource
 	Actions() DataAwsccBedrockagentcoreGatewayRuleActionsList
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreGatewayRule) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_gateway_rule awscc_bedrockagentcore_gateway_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_gateway_rule awscc_bedrockagentcore_gateway_rule} Data Source.
 func NewDataAwsccBedrockagentcoreGatewayRule(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreGatewayRuleConfig) DataAwsccBedrockagentcoreGatewayRule {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccBedrockagentcoreGatewayRule(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_gateway_rule awscc_bedrockagentcore_gateway_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_gateway_rule awscc_bedrockagentcore_gateway_rule} Data Source.
 func NewDataAwsccBedrockagentcoreGatewayRule_Override(d DataAwsccBedrockagentcoreGatewayRule, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreGatewayRuleConfig) {
 	_init_.Initialize()
 

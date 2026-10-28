@@ -5,14 +5,14 @@ package ec2verifiedaccessinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance awscc_ec2_verified_access_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance awscc_ec2_verified_access_instance}.
 type Ec2VerifiedAccessInstance interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -567,7 +567,7 @@ func (j *jsiiProxy_Ec2VerifiedAccessInstance) VerifiedAccessTrustProvidersInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance awscc_ec2_verified_access_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance awscc_ec2_verified_access_instance} Resource.
 func NewEc2VerifiedAccessInstance(scope constructs.Construct, id *string, config *Ec2VerifiedAccessInstanceConfig) Ec2VerifiedAccessInstance {
 	_init_.Initialize()
 
@@ -585,7 +585,7 @@ func NewEc2VerifiedAccessInstance(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_instance awscc_ec2_verified_access_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_instance awscc_ec2_verified_access_instance} Resource.
 func NewEc2VerifiedAccessInstance_Override(e Ec2VerifiedAccessInstance, scope constructs.Construct, id *string, config *Ec2VerifiedAccessInstanceConfig) {
 	_init_.Initialize()
 

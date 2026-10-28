@@ -5,14 +5,14 @@ package dataawscclogsquerydefinitions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsquerydefinitions/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsquerydefinitions/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_query_definitions awscc_logs_query_definitions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_query_definitions awscc_logs_query_definitions}.
 type DataAwsccLogsQueryDefinitions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLogsQueryDefinitions) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_query_definitions awscc_logs_query_definitions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_query_definitions awscc_logs_query_definitions} Data Source.
 func NewDataAwsccLogsQueryDefinitions(scope constructs.Construct, id *string, config *DataAwsccLogsQueryDefinitionsConfig) DataAwsccLogsQueryDefinitions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLogsQueryDefinitions(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_query_definitions awscc_logs_query_definitions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_query_definitions awscc_logs_query_definitions} Data Source.
 func NewDataAwsccLogsQueryDefinitions_Override(d DataAwsccLogsQueryDefinitions, scope constructs.Construct, id *string, config *DataAwsccLogsQueryDefinitionsConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccprotonenvironmentaccountconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccprotonenvironmentaccountconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccprotonenvironmentaccountconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/proton_environment_account_connection awscc_proton_environment_account_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/proton_environment_account_connection awscc_proton_environment_account_connection}.
 type DataAwsccProtonEnvironmentAccountConnection interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccProtonEnvironmentAccountConnection) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/proton_environment_account_connection awscc_proton_environment_account_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/proton_environment_account_connection awscc_proton_environment_account_connection} Data Source.
 func NewDataAwsccProtonEnvironmentAccountConnection(scope constructs.Construct, id *string, config *DataAwsccProtonEnvironmentAccountConnectionConfig) DataAwsccProtonEnvironmentAccountConnection {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccProtonEnvironmentAccountConnection(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/proton_environment_account_connection awscc_proton_environment_account_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/proton_environment_account_connection awscc_proton_environment_account_connection} Data Source.
 func NewDataAwsccProtonEnvironmentAccountConnection_Override(d DataAwsccProtonEnvironmentAccountConnection, scope constructs.Construct, id *string, config *DataAwsccProtonEnvironmentAccountConnectionConfig) {
 	_init_.Initialize()
 

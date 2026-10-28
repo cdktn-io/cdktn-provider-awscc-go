@@ -5,14 +5,14 @@ package directconnecttransitvirtualinterface
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnecttransitvirtualinterface/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnecttransitvirtualinterface/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_transit_virtual_interface awscc_directconnect_transit_virtual_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_transit_virtual_interface awscc_directconnect_transit_virtual_interface}.
 type DirectconnectTransitVirtualInterface interface {
 	cdktn.TerraformResource
 	AllocateTransitVirtualInterfaceRoleArn() *string
@@ -612,7 +612,7 @@ func (j *jsiiProxy_DirectconnectTransitVirtualInterface) VlanInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_transit_virtual_interface awscc_directconnect_transit_virtual_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_transit_virtual_interface awscc_directconnect_transit_virtual_interface} Resource.
 func NewDirectconnectTransitVirtualInterface(scope constructs.Construct, id *string, config *DirectconnectTransitVirtualInterfaceConfig) DirectconnectTransitVirtualInterface {
 	_init_.Initialize()
 
@@ -630,7 +630,7 @@ func NewDirectconnectTransitVirtualInterface(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_transit_virtual_interface awscc_directconnect_transit_virtual_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_transit_virtual_interface awscc_directconnect_transit_virtual_interface} Resource.
 func NewDirectconnectTransitVirtualInterface_Override(d DirectconnectTransitVirtualInterface, scope constructs.Construct, id *string, config *DirectconnectTransitVirtualInterfaceConfig) {
 	_init_.Initialize()
 

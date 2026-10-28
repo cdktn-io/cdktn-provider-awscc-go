@@ -5,14 +5,14 @@ package dataawsccsecretsmanagerresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagerresourcepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagerresourcepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/secretsmanager_resource_policy awscc_secretsmanager_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/secretsmanager_resource_policy awscc_secretsmanager_resource_policy}.
 type DataAwsccSecretsmanagerResourcePolicy interface {
 	cdktn.TerraformDataSource
 	BlockPublicPolicy() cdktn.IResolvable
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccSecretsmanagerResourcePolicy) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/secretsmanager_resource_policy awscc_secretsmanager_resource_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/secretsmanager_resource_policy awscc_secretsmanager_resource_policy} Data Source.
 func NewDataAwsccSecretsmanagerResourcePolicy(scope constructs.Construct, id *string, config *DataAwsccSecretsmanagerResourcePolicyConfig) DataAwsccSecretsmanagerResourcePolicy {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccSecretsmanagerResourcePolicy(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/secretsmanager_resource_policy awscc_secretsmanager_resource_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/secretsmanager_resource_policy awscc_secretsmanager_resource_policy} Data Source.
 func NewDataAwsccSecretsmanagerResourcePolicy_Override(d DataAwsccSecretsmanagerResourcePolicy, scope constructs.Construct, id *string, config *DataAwsccSecretsmanagerResourcePolicyConfig) {
 	_init_.Initialize()
 

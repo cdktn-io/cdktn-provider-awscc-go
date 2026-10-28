@@ -5,14 +5,14 @@ package sestenant
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sestenant/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sestenant/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant awscc_ses_tenant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_tenant awscc_ses_tenant}.
 type SesTenant interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -485,7 +485,7 @@ func (j *jsiiProxy_SesTenant) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant awscc_ses_tenant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_tenant awscc_ses_tenant} Resource.
 func NewSesTenant(scope constructs.Construct, id *string, config *SesTenantConfig) SesTenant {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewSesTenant(scope constructs.Construct, id *string, config *SesTenantConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant awscc_ses_tenant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_tenant awscc_ses_tenant} Resource.
 func NewSesTenant_Override(s SesTenant, scope constructs.Construct, id *string, config *SesTenantConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package ssoassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoassignment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_assignment awscc_sso_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_assignment awscc_sso_assignment}.
 type SsoAssignment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -493,7 +493,7 @@ func (j *jsiiProxy_SsoAssignment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_assignment awscc_sso_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_assignment awscc_sso_assignment} Resource.
 func NewSsoAssignment(scope constructs.Construct, id *string, config *SsoAssignmentConfig) SsoAssignment {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewSsoAssignment(scope constructs.Construct, id *string, config *SsoAssignm
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_assignment awscc_sso_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_assignment awscc_sso_assignment} Resource.
 func NewSsoAssignment_Override(s SsoAssignment, scope constructs.Construct, id *string, config *SsoAssignmentConfig) {
 	_init_.Initialize()
 

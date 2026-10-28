@@ -5,14 +5,14 @@ package licensemanagerlicense
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlicense/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlicense/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license awscc_licensemanager_license}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license awscc_licensemanager_license}.
 type LicensemanagerLicense interface {
 	cdktn.TerraformResource
 	Beneficiary() *string
@@ -656,7 +656,7 @@ func (j *jsiiProxy_LicensemanagerLicense) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license awscc_licensemanager_license} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license awscc_licensemanager_license} Resource.
 func NewLicensemanagerLicense(scope constructs.Construct, id *string, config *LicensemanagerLicenseConfig) LicensemanagerLicense {
 	_init_.Initialize()
 
@@ -674,7 +674,7 @@ func NewLicensemanagerLicense(scope constructs.Construct, id *string, config *Li
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license awscc_licensemanager_license} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license awscc_licensemanager_license} Resource.
 func NewLicensemanagerLicense_Override(l LicensemanagerLicense, scope constructs.Construct, id *string, config *LicensemanagerLicenseConfig) {
 	_init_.Initialize()
 

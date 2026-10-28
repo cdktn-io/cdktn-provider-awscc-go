@@ -5,14 +5,14 @@ package dataawscckinesisstream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckinesisstream/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckinesisstream/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesis_stream awscc_kinesis_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesis_stream awscc_kinesis_stream}.
 type DataAwsccKinesisStream interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccKinesisStream) WarmThroughputObject() DataAwsccKines
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesis_stream awscc_kinesis_stream} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesis_stream awscc_kinesis_stream} Data Source.
 func NewDataAwsccKinesisStream(scope constructs.Construct, id *string, config *DataAwsccKinesisStreamConfig) DataAwsccKinesisStream {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccKinesisStream(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kinesis_stream awscc_kinesis_stream} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kinesis_stream awscc_kinesis_stream} Data Source.
 func NewDataAwsccKinesisStream_Override(d DataAwsccKinesisStream, scope constructs.Construct, id *string, config *DataAwsccKinesisStreamConfig) {
 	_init_.Initialize()
 

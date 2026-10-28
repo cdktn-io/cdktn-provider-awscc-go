@@ -5,14 +5,14 @@ package dataawscciamservicelinkedrole
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamservicelinkedrole/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamservicelinkedrole/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_service_linked_role awscc_iam_service_linked_role}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_service_linked_role awscc_iam_service_linked_role}.
 type DataAwsccIamServiceLinkedRole interface {
 	cdktn.TerraformDataSource
 	AwsServiceName() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccIamServiceLinkedRole) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_service_linked_role awscc_iam_service_linked_role} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_service_linked_role awscc_iam_service_linked_role} Data Source.
 func NewDataAwsccIamServiceLinkedRole(scope constructs.Construct, id *string, config *DataAwsccIamServiceLinkedRoleConfig) DataAwsccIamServiceLinkedRole {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccIamServiceLinkedRole(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_service_linked_role awscc_iam_service_linked_role} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_service_linked_role awscc_iam_service_linked_role} Data Source.
 func NewDataAwsccIamServiceLinkedRole_Override(d DataAwsccIamServiceLinkedRole, scope constructs.Construct, id *string, config *DataAwsccIamServiceLinkedRoleConfig) {
 	_init_.Initialize()
 

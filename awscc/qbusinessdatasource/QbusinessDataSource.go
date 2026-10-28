@@ -5,14 +5,14 @@ package qbusinessdatasource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/qbusinessdatasource/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/qbusinessdatasource/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/qbusiness_data_source awscc_qbusiness_data_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/qbusiness_data_source awscc_qbusiness_data_source}.
 type QbusinessDataSource interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -681,7 +681,7 @@ func (j *jsiiProxy_QbusinessDataSource) VpcConfigurationInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/qbusiness_data_source awscc_qbusiness_data_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/qbusiness_data_source awscc_qbusiness_data_source} Resource.
 func NewQbusinessDataSource(scope constructs.Construct, id *string, config *QbusinessDataSourceConfig) QbusinessDataSource {
 	_init_.Initialize()
 
@@ -699,7 +699,7 @@ func NewQbusinessDataSource(scope constructs.Construct, id *string, config *Qbus
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/qbusiness_data_source awscc_qbusiness_data_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/qbusiness_data_source awscc_qbusiness_data_source} Resource.
 func NewQbusinessDataSource_Override(q QbusinessDataSource, scope constructs.Construct, id *string, config *QbusinessDataSourceConfig) {
 	_init_.Initialize()
 

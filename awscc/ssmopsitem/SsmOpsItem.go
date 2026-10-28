@@ -5,14 +5,14 @@ package ssmopsitem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmopsitem/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmopsitem/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_ops_item awscc_ssm_ops_item}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_ops_item awscc_ssm_ops_item}.
 type SsmOpsItem interface {
 	cdktn.TerraformResource
 	Category() *string
@@ -619,7 +619,7 @@ func (j *jsiiProxy_SsmOpsItem) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_ops_item awscc_ssm_ops_item} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_ops_item awscc_ssm_ops_item} Resource.
 func NewSsmOpsItem(scope constructs.Construct, id *string, config *SsmOpsItemConfig) SsmOpsItem {
 	_init_.Initialize()
 
@@ -637,7 +637,7 @@ func NewSsmOpsItem(scope constructs.Construct, id *string, config *SsmOpsItemCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_ops_item awscc_ssm_ops_item} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_ops_item awscc_ssm_ops_item} Resource.
 func NewSsmOpsItem_Override(s SsmOpsItem, scope constructs.Construct, id *string, config *SsmOpsItemConfig) {
 	_init_.Initialize()
 

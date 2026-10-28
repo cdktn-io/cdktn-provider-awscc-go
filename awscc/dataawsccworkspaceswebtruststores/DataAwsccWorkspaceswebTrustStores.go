@@ -5,14 +5,14 @@ package dataawsccworkspaceswebtruststores
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebtruststores/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebtruststores/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_trust_stores awscc_workspacesweb_trust_stores}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_trust_stores awscc_workspacesweb_trust_stores}.
 type DataAwsccWorkspaceswebTrustStores interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccWorkspaceswebTrustStores) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_trust_stores awscc_workspacesweb_trust_stores} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_trust_stores awscc_workspacesweb_trust_stores} Data Source.
 func NewDataAwsccWorkspaceswebTrustStores(scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebTrustStoresConfig) DataAwsccWorkspaceswebTrustStores {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccWorkspaceswebTrustStores(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_trust_stores awscc_workspacesweb_trust_stores} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_trust_stores awscc_workspacesweb_trust_stores} Data Source.
 func NewDataAwsccWorkspaceswebTrustStores_Override(d DataAwsccWorkspaceswebTrustStores, scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebTrustStoresConfig) {
 	_init_.Initialize()
 

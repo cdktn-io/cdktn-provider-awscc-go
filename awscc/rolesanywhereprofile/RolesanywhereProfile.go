@@ -5,14 +5,14 @@ package rolesanywhereprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rolesanywhereprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rolesanywhereprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rolesanywhere_profile awscc_rolesanywhere_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rolesanywhere_profile awscc_rolesanywhere_profile}.
 type RolesanywhereProfile interface {
 	cdktn.TerraformResource
 	AcceptRoleSessionName() interface{}
@@ -615,7 +615,7 @@ func (j *jsiiProxy_RolesanywhereProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rolesanywhere_profile awscc_rolesanywhere_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rolesanywhere_profile awscc_rolesanywhere_profile} Resource.
 func NewRolesanywhereProfile(scope constructs.Construct, id *string, config *RolesanywhereProfileConfig) RolesanywhereProfile {
 	_init_.Initialize()
 
@@ -633,7 +633,7 @@ func NewRolesanywhereProfile(scope constructs.Construct, id *string, config *Rol
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rolesanywhere_profile awscc_rolesanywhere_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rolesanywhere_profile awscc_rolesanywhere_profile} Resource.
 func NewRolesanywhereProfile_Override(r RolesanywhereProfile, scope constructs.Construct, id *string, config *RolesanywhereProfileConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccinspectorv2codesecurityscanconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2codesecurityscanconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2codesecurityscanconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_code_security_scan_configuration awscc_inspectorv2_code_security_scan_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_code_security_scan_configuration awscc_inspectorv2_code_security_scan_configuration}.
 type DataAwsccInspectorv2CodeSecurityScanConfiguration interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccInspectorv2CodeSecurityScanConfiguration) TerraformR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_code_security_scan_configuration awscc_inspectorv2_code_security_scan_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_code_security_scan_configuration awscc_inspectorv2_code_security_scan_configuration} Data Source.
 func NewDataAwsccInspectorv2CodeSecurityScanConfiguration(scope constructs.Construct, id *string, config *DataAwsccInspectorv2CodeSecurityScanConfigurationConfig) DataAwsccInspectorv2CodeSecurityScanConfiguration {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccInspectorv2CodeSecurityScanConfiguration(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_code_security_scan_configuration awscc_inspectorv2_code_security_scan_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_code_security_scan_configuration awscc_inspectorv2_code_security_scan_configuration} Data Source.
 func NewDataAwsccInspectorv2CodeSecurityScanConfiguration_Override(d DataAwsccInspectorv2CodeSecurityScanConfiguration, scope constructs.Construct, id *string, config *DataAwsccInspectorv2CodeSecurityScanConfigurationConfig) {
 	_init_.Initialize()
 

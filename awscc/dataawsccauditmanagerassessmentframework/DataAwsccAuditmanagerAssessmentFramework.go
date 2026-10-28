@@ -5,14 +5,14 @@ package dataawsccauditmanagerassessmentframework
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccauditmanagerassessmentframework/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccauditmanagerassessmentframework/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/auditmanager_assessment_framework awscc_auditmanager_assessment_framework}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/auditmanager_assessment_framework awscc_auditmanager_assessment_framework}.
 type DataAwsccAuditmanagerAssessmentFramework interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccAuditmanagerAssessmentFramework) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/auditmanager_assessment_framework awscc_auditmanager_assessment_framework} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/auditmanager_assessment_framework awscc_auditmanager_assessment_framework} Data Source.
 func NewDataAwsccAuditmanagerAssessmentFramework(scope constructs.Construct, id *string, config *DataAwsccAuditmanagerAssessmentFrameworkConfig) DataAwsccAuditmanagerAssessmentFramework {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccAuditmanagerAssessmentFramework(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/auditmanager_assessment_framework awscc_auditmanager_assessment_framework} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/auditmanager_assessment_framework awscc_auditmanager_assessment_framework} Data Source.
 func NewDataAwsccAuditmanagerAssessmentFramework_Override(d DataAwsccAuditmanagerAssessmentFramework, scope constructs.Construct, id *string, config *DataAwsccAuditmanagerAssessmentFrameworkConfig) {
 	_init_.Initialize()
 

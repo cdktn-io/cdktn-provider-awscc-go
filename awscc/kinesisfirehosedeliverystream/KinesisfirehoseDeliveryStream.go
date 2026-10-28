@@ -5,14 +5,14 @@ package kinesisfirehosedeliverystream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisfirehosedeliverystream/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisfirehosedeliverystream/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisfirehose_delivery_stream awscc_kinesisfirehose_delivery_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisfirehose_delivery_stream awscc_kinesisfirehose_delivery_stream}.
 type KinesisfirehoseDeliveryStream interface {
 	cdktn.TerraformResource
 	AmazonOpenSearchServerlessDestinationConfiguration() KinesisfirehoseDeliveryStreamAmazonOpenSearchServerlessDestinationConfigurationOutputReference
@@ -798,7 +798,7 @@ func (j *jsiiProxy_KinesisfirehoseDeliveryStream) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisfirehose_delivery_stream awscc_kinesisfirehose_delivery_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisfirehose_delivery_stream awscc_kinesisfirehose_delivery_stream} Resource.
 func NewKinesisfirehoseDeliveryStream(scope constructs.Construct, id *string, config *KinesisfirehoseDeliveryStreamConfig) KinesisfirehoseDeliveryStream {
 	_init_.Initialize()
 
@@ -816,7 +816,7 @@ func NewKinesisfirehoseDeliveryStream(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisfirehose_delivery_stream awscc_kinesisfirehose_delivery_stream} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisfirehose_delivery_stream awscc_kinesisfirehose_delivery_stream} Resource.
 func NewKinesisfirehoseDeliveryStream_Override(k KinesisfirehoseDeliveryStream, scope constructs.Construct, id *string, config *KinesisfirehoseDeliveryStreamConfig) {
 	_init_.Initialize()
 

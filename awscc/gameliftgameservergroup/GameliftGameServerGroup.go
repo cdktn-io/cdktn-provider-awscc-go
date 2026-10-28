@@ -5,14 +5,14 @@ package gameliftgameservergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftgameservergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftgameservergroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_game_server_group awscc_gamelift_game_server_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_game_server_group awscc_gamelift_game_server_group}.
 type GameliftGameServerGroup interface {
 	cdktn.TerraformResource
 	AutoScalingGroupArn() *string
@@ -662,7 +662,7 @@ func (j *jsiiProxy_GameliftGameServerGroup) VpcSubnetsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_game_server_group awscc_gamelift_game_server_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_game_server_group awscc_gamelift_game_server_group} Resource.
 func NewGameliftGameServerGroup(scope constructs.Construct, id *string, config *GameliftGameServerGroupConfig) GameliftGameServerGroup {
 	_init_.Initialize()
 
@@ -680,7 +680,7 @@ func NewGameliftGameServerGroup(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_game_server_group awscc_gamelift_game_server_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_game_server_group awscc_gamelift_game_server_group} Resource.
 func NewGameliftGameServerGroup_Override(g GameliftGameServerGroup, scope constructs.Construct, id *string, config *GameliftGameServerGroupConfig) {
 	_init_.Initialize()
 

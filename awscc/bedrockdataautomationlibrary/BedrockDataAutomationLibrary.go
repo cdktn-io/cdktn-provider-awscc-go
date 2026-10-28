@@ -5,14 +5,14 @@ package bedrockdataautomationlibrary
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockdataautomationlibrary/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockdataautomationlibrary/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_data_automation_library awscc_bedrock_data_automation_library}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_data_automation_library awscc_bedrock_data_automation_library}.
 type BedrockDataAutomationLibrary interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -494,7 +494,7 @@ func (j *jsiiProxy_BedrockDataAutomationLibrary) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_data_automation_library awscc_bedrock_data_automation_library} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_data_automation_library awscc_bedrock_data_automation_library} Resource.
 func NewBedrockDataAutomationLibrary(scope constructs.Construct, id *string, config *BedrockDataAutomationLibraryConfig) BedrockDataAutomationLibrary {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewBedrockDataAutomationLibrary(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_data_automation_library awscc_bedrock_data_automation_library} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_data_automation_library awscc_bedrock_data_automation_library} Resource.
 func NewBedrockDataAutomationLibrary_Override(b BedrockDataAutomationLibrary, scope constructs.Construct, id *string, config *BedrockDataAutomationLibraryConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccapprunnerobservabilityconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerobservabilityconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerobservabilityconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apprunner_observability_configuration awscc_apprunner_observability_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apprunner_observability_configuration awscc_apprunner_observability_configuration}.
 type DataAwsccApprunnerObservabilityConfiguration interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccApprunnerObservabilityConfiguration) TraceConfigurat
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apprunner_observability_configuration awscc_apprunner_observability_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apprunner_observability_configuration awscc_apprunner_observability_configuration} Data Source.
 func NewDataAwsccApprunnerObservabilityConfiguration(scope constructs.Construct, id *string, config *DataAwsccApprunnerObservabilityConfigurationConfig) DataAwsccApprunnerObservabilityConfiguration {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccApprunnerObservabilityConfiguration(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apprunner_observability_configuration awscc_apprunner_observability_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apprunner_observability_configuration awscc_apprunner_observability_configuration} Data Source.
 func NewDataAwsccApprunnerObservabilityConfiguration_Override(d DataAwsccApprunnerObservabilityConfiguration, scope constructs.Construct, id *string, config *DataAwsccApprunnerObservabilityConfigurationConfig) {
 	_init_.Initialize()
 

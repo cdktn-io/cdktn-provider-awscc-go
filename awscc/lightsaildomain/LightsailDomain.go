@@ -5,14 +5,14 @@ package lightsaildomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildomain/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_domain awscc_lightsail_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_domain awscc_lightsail_domain}.
 type LightsailDomain interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -481,7 +481,7 @@ func (j *jsiiProxy_LightsailDomain) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_domain awscc_lightsail_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_domain awscc_lightsail_domain} Resource.
 func NewLightsailDomain(scope constructs.Construct, id *string, config *LightsailDomainConfig) LightsailDomain {
 	_init_.Initialize()
 
@@ -499,7 +499,7 @@ func NewLightsailDomain(scope constructs.Construct, id *string, config *Lightsai
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_domain awscc_lightsail_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_domain awscc_lightsail_domain} Resource.
 func NewLightsailDomain_Override(l LightsailDomain, scope constructs.Construct, id *string, config *LightsailDomainConfig) {
 	_init_.Initialize()
 

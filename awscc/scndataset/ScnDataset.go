@@ -5,14 +5,14 @@ package scndataset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scndataset/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scndataset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset awscc_scn_dataset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset awscc_scn_dataset}.
 type ScnDataset interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -553,7 +553,7 @@ func (j *jsiiProxy_ScnDataset) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset awscc_scn_dataset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset awscc_scn_dataset} Resource.
 func NewScnDataset(scope constructs.Construct, id *string, config *ScnDatasetConfig) ScnDataset {
 	_init_.Initialize()
 
@@ -571,7 +571,7 @@ func NewScnDataset(scope constructs.Construct, id *string, config *ScnDatasetCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_dataset awscc_scn_dataset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_dataset awscc_scn_dataset} Resource.
 func NewScnDataset_Override(s ScnDataset, scope constructs.Construct, id *string, config *ScnDatasetConfig) {
 	_init_.Initialize()
 

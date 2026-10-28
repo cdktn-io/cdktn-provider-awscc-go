@@ -5,14 +5,14 @@ package sesreceiptruleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesreceiptruleset/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesreceiptruleset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_receipt_rule_set awscc_ses_receipt_rule_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_receipt_rule_set awscc_ses_receipt_rule_set}.
 type SesReceiptRuleSet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -379,7 +379,7 @@ func (j *jsiiProxy_SesReceiptRuleSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_receipt_rule_set awscc_ses_receipt_rule_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_receipt_rule_set awscc_ses_receipt_rule_set} Resource.
 func NewSesReceiptRuleSet(scope constructs.Construct, id *string, config *SesReceiptRuleSetConfig) SesReceiptRuleSet {
 	_init_.Initialize()
 
@@ -397,7 +397,7 @@ func NewSesReceiptRuleSet(scope constructs.Construct, id *string, config *SesRec
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_receipt_rule_set awscc_ses_receipt_rule_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_receipt_rule_set awscc_ses_receipt_rule_set} Resource.
 func NewSesReceiptRuleSet_Override(s SesReceiptRuleSet, scope constructs.Construct, id *string, config *SesReceiptRuleSetConfig) {
 	_init_.Initialize()
 

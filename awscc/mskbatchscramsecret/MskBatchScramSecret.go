@@ -5,14 +5,14 @@ package mskbatchscramsecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mskbatchscramsecret/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mskbatchscramsecret/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/msk_batch_scram_secret awscc_msk_batch_scram_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/msk_batch_scram_secret awscc_msk_batch_scram_secret}.
 type MskBatchScramSecret interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -402,7 +402,7 @@ func (j *jsiiProxy_MskBatchScramSecret) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/msk_batch_scram_secret awscc_msk_batch_scram_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/msk_batch_scram_secret awscc_msk_batch_scram_secret} Resource.
 func NewMskBatchScramSecret(scope constructs.Construct, id *string, config *MskBatchScramSecretConfig) MskBatchScramSecret {
 	_init_.Initialize()
 
@@ -420,7 +420,7 @@ func NewMskBatchScramSecret(scope constructs.Construct, id *string, config *MskB
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/msk_batch_scram_secret awscc_msk_batch_scram_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/msk_batch_scram_secret awscc_msk_batch_scram_secret} Resource.
 func NewMskBatchScramSecret_Override(m MskBatchScramSecret, scope constructs.Construct, id *string, config *MskBatchScramSecretConfig) {
 	_init_.Initialize()
 

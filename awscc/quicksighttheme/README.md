@@ -1,3 +1,3 @@
 # `awscc_quicksight_theme`
 
-Refer to the Terraform Registry for docs: [`awscc_quicksight_theme`](https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_theme).
+Refer to the Terraform Registry for docs: [`awscc_quicksight_theme`](https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_theme).

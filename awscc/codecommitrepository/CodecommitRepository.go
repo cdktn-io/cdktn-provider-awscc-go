@@ -5,14 +5,14 @@ package codecommitrepository
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codecommitrepository/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codecommitrepository/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codecommit_repository awscc_codecommit_repository}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codecommit_repository awscc_codecommit_repository}.
 type CodecommitRepository interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -553,7 +553,7 @@ func (j *jsiiProxy_CodecommitRepository) TriggersInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codecommit_repository awscc_codecommit_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codecommit_repository awscc_codecommit_repository} Resource.
 func NewCodecommitRepository(scope constructs.Construct, id *string, config *CodecommitRepositoryConfig) CodecommitRepository {
 	_init_.Initialize()
 
@@ -571,7 +571,7 @@ func NewCodecommitRepository(scope constructs.Construct, id *string, config *Cod
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codecommit_repository awscc_codecommit_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codecommit_repository awscc_codecommit_repository} Resource.
 func NewCodecommitRepository_Override(c CodecommitRepository, scope constructs.Construct, id *string, config *CodecommitRepositoryConfig) {
 	_init_.Initialize()
 

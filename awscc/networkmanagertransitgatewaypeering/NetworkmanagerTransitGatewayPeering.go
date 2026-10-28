@@ -5,14 +5,14 @@ package networkmanagertransitgatewaypeering
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagertransitgatewaypeering/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagertransitgatewaypeering/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_transit_gateway_peering awscc_networkmanager_transit_gateway_peering}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_transit_gateway_peering awscc_networkmanager_transit_gateway_peering}.
 type NetworkmanagerTransitGatewayPeering interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -535,7 +535,7 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayPeering) TransitGatewayPeeringAtt
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_transit_gateway_peering awscc_networkmanager_transit_gateway_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_transit_gateway_peering awscc_networkmanager_transit_gateway_peering} Resource.
 func NewNetworkmanagerTransitGatewayPeering(scope constructs.Construct, id *string, config *NetworkmanagerTransitGatewayPeeringConfig) NetworkmanagerTransitGatewayPeering {
 	_init_.Initialize()
 
@@ -553,7 +553,7 @@ func NewNetworkmanagerTransitGatewayPeering(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_transit_gateway_peering awscc_networkmanager_transit_gateway_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_transit_gateway_peering awscc_networkmanager_transit_gateway_peering} Resource.
 func NewNetworkmanagerTransitGatewayPeering_Override(n NetworkmanagerTransitGatewayPeering, scope constructs.Construct, id *string, config *NetworkmanagerTransitGatewayPeeringConfig) {
 	_init_.Initialize()
 

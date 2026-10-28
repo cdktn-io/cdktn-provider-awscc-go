@@ -5,14 +5,14 @@ package dataawsccecrsigningconfigurations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrsigningconfigurations/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrsigningconfigurations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecr_signing_configurations awscc_ecr_signing_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecr_signing_configurations awscc_ecr_signing_configurations}.
 type DataAwsccEcrSigningConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEcrSigningConfigurations) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecr_signing_configurations awscc_ecr_signing_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecr_signing_configurations awscc_ecr_signing_configurations} Data Source.
 func NewDataAwsccEcrSigningConfigurations(scope constructs.Construct, id *string, config *DataAwsccEcrSigningConfigurationsConfig) DataAwsccEcrSigningConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEcrSigningConfigurations(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecr_signing_configurations awscc_ecr_signing_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecr_signing_configurations awscc_ecr_signing_configurations} Data Source.
 func NewDataAwsccEcrSigningConfigurations_Override(d DataAwsccEcrSigningConfigurations, scope constructs.Construct, id *string, config *DataAwsccEcrSigningConfigurationsConfig) {
 	_init_.Initialize()
 

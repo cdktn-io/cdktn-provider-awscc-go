@@ -5,14 +5,14 @@ package dataawscclogsdestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsdestination/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsdestination/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_destination awscc_logs_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_destination awscc_logs_destination}.
 type DataAwsccLogsDestination interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccLogsDestination) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_destination awscc_logs_destination} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_destination awscc_logs_destination} Data Source.
 func NewDataAwsccLogsDestination(scope constructs.Construct, id *string, config *DataAwsccLogsDestinationConfig) DataAwsccLogsDestination {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccLogsDestination(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_destination awscc_logs_destination} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_destination awscc_logs_destination} Data Source.
 func NewDataAwsccLogsDestination_Override(d DataAwsccLogsDestination, scope constructs.Construct, id *string, config *DataAwsccLogsDestinationConfig) {
 	_init_.Initialize()
 

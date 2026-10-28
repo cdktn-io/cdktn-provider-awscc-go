@@ -5,14 +5,14 @@ package dataawsccsmsvoicercsagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicercsagent/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicercsagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_rcs_agent awscc_smsvoice_rcs_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_rcs_agent awscc_smsvoice_rcs_agent}.
 type DataAwsccSmsvoiceRcsAgent interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccSmsvoiceRcsAgent) TwoWayRcsEventsEnabled() *[]*strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_rcs_agent awscc_smsvoice_rcs_agent} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_rcs_agent awscc_smsvoice_rcs_agent} Data Source.
 func NewDataAwsccSmsvoiceRcsAgent(scope constructs.Construct, id *string, config *DataAwsccSmsvoiceRcsAgentConfig) DataAwsccSmsvoiceRcsAgent {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccSmsvoiceRcsAgent(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_rcs_agent awscc_smsvoice_rcs_agent} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_rcs_agent awscc_smsvoice_rcs_agent} Data Source.
 func NewDataAwsccSmsvoiceRcsAgent_Override(d DataAwsccSmsvoiceRcsAgent, scope constructs.Construct, id *string, config *DataAwsccSmsvoiceRcsAgentConfig) {
 	_init_.Initialize()
 

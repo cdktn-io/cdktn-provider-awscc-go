@@ -5,14 +5,14 @@ package dataawsccquicksightfolders
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightfolders/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightfolders/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_folders awscc_quicksight_folders}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_folders awscc_quicksight_folders}.
 type DataAwsccQuicksightFolders interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccQuicksightFolders) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_folders awscc_quicksight_folders} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_folders awscc_quicksight_folders} Data Source.
 func NewDataAwsccQuicksightFolders(scope constructs.Construct, id *string, config *DataAwsccQuicksightFoldersConfig) DataAwsccQuicksightFolders {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccQuicksightFolders(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_folders awscc_quicksight_folders} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_folders awscc_quicksight_folders} Data Source.
 func NewDataAwsccQuicksightFolders_Override(d DataAwsccQuicksightFolders, scope constructs.Construct, id *string, config *DataAwsccQuicksightFoldersConfig) {
 	_init_.Initialize()
 

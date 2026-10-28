@@ -5,14 +5,14 @@ package dataawsccivsplaybackkeypairs
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsplaybackkeypairs/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsplaybackkeypairs/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_playback_key_pairs awscc_ivs_playback_key_pairs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_playback_key_pairs awscc_ivs_playback_key_pairs}.
 type DataAwsccIvsPlaybackKeyPairs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIvsPlaybackKeyPairs) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_playback_key_pairs awscc_ivs_playback_key_pairs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_playback_key_pairs awscc_ivs_playback_key_pairs} Data Source.
 func NewDataAwsccIvsPlaybackKeyPairs(scope constructs.Construct, id *string, config *DataAwsccIvsPlaybackKeyPairsConfig) DataAwsccIvsPlaybackKeyPairs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIvsPlaybackKeyPairs(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_playback_key_pairs awscc_ivs_playback_key_pairs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_playback_key_pairs awscc_ivs_playback_key_pairs} Data Source.
 func NewDataAwsccIvsPlaybackKeyPairs_Override(d DataAwsccIvsPlaybackKeyPairs, scope constructs.Construct, id *string, config *DataAwsccIvsPlaybackKeyPairsConfig) {
 	_init_.Initialize()
 

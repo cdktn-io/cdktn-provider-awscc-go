@@ -5,14 +5,14 @@ package qbusinessapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/qbusinessapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/qbusinessapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/qbusiness_application awscc_qbusiness_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/qbusiness_application awscc_qbusiness_application}.
 type QbusinessApplication interface {
 	cdktn.TerraformResource
 	ApplicationArn() *string
@@ -756,7 +756,7 @@ func (j *jsiiProxy_QbusinessApplication) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/qbusiness_application awscc_qbusiness_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/qbusiness_application awscc_qbusiness_application} Resource.
 func NewQbusinessApplication(scope constructs.Construct, id *string, config *QbusinessApplicationConfig) QbusinessApplication {
 	_init_.Initialize()
 
@@ -774,7 +774,7 @@ func NewQbusinessApplication(scope constructs.Construct, id *string, config *Qbu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/qbusiness_application awscc_qbusiness_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/qbusiness_application awscc_qbusiness_application} Resource.
 func NewQbusinessApplication_Override(q QbusinessApplication, scope constructs.Construct, id *string, config *QbusinessApplicationConfig) {
 	_init_.Initialize()
 

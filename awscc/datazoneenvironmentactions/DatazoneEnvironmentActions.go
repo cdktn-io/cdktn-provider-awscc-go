@@ -5,14 +5,14 @@ package datazoneenvironmentactions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneenvironmentactions/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneenvironmentactions/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_environment_actions awscc_datazone_environment_actions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_environment_actions awscc_datazone_environment_actions}.
 type DatazoneEnvironmentActions interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -531,7 +531,7 @@ func (j *jsiiProxy_DatazoneEnvironmentActions) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_environment_actions awscc_datazone_environment_actions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_environment_actions awscc_datazone_environment_actions} Resource.
 func NewDatazoneEnvironmentActions(scope constructs.Construct, id *string, config *DatazoneEnvironmentActionsConfig) DatazoneEnvironmentActions {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewDatazoneEnvironmentActions(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_environment_actions awscc_datazone_environment_actions} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_environment_actions awscc_datazone_environment_actions} Resource.
 func NewDatazoneEnvironmentActions_Override(d DatazoneEnvironmentActions, scope constructs.Construct, id *string, config *DatazoneEnvironmentActionsConfig) {
 	_init_.Initialize()
 

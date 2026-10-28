@@ -5,14 +5,14 @@ package iammanagedpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iammanagedpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iammanagedpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_managed_policy awscc_iam_managed_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_managed_policy awscc_iam_managed_policy}.
 type IamManagedPolicy interface {
 	cdktn.TerraformResource
 	AttachmentCount() *float64
@@ -610,7 +610,7 @@ func (j *jsiiProxy_IamManagedPolicy) UsersInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_managed_policy awscc_iam_managed_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_managed_policy awscc_iam_managed_policy} Resource.
 func NewIamManagedPolicy(scope constructs.Construct, id *string, config *IamManagedPolicyConfig) IamManagedPolicy {
 	_init_.Initialize()
 
@@ -628,7 +628,7 @@ func NewIamManagedPolicy(scope constructs.Construct, id *string, config *IamMana
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iam_managed_policy awscc_iam_managed_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iam_managed_policy awscc_iam_managed_policy} Resource.
 func NewIamManagedPolicy_Override(i IamManagedPolicy, scope constructs.Construct, id *string, config *IamManagedPolicyConfig) {
 	_init_.Initialize()
 

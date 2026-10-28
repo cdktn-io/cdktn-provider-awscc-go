@@ -5,14 +5,14 @@ package daxparametergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/daxparametergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/daxparametergroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dax_parameter_group awscc_dax_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dax_parameter_group awscc_dax_parameter_group}.
 type DaxParameterGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -427,7 +427,7 @@ func (j *jsiiProxy_DaxParameterGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dax_parameter_group awscc_dax_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dax_parameter_group awscc_dax_parameter_group} Resource.
 func NewDaxParameterGroup(scope constructs.Construct, id *string, config *DaxParameterGroupConfig) DaxParameterGroup {
 	_init_.Initialize()
 
@@ -445,7 +445,7 @@ func NewDaxParameterGroup(scope constructs.Construct, id *string, config *DaxPar
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dax_parameter_group awscc_dax_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dax_parameter_group awscc_dax_parameter_group} Resource.
 func NewDaxParameterGroup_Override(d DaxParameterGroup, scope constructs.Construct, id *string, config *DaxParameterGroupConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccnotificationschannelassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationschannelassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationschannelassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/notifications_channel_association awscc_notifications_channel_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/notifications_channel_association awscc_notifications_channel_association}.
 type DataAwsccNotificationsChannelAssociation interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccNotificationsChannelAssociation) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/notifications_channel_association awscc_notifications_channel_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/notifications_channel_association awscc_notifications_channel_association} Data Source.
 func NewDataAwsccNotificationsChannelAssociation(scope constructs.Construct, id *string, config *DataAwsccNotificationsChannelAssociationConfig) DataAwsccNotificationsChannelAssociation {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccNotificationsChannelAssociation(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/notifications_channel_association awscc_notifications_channel_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/notifications_channel_association awscc_notifications_channel_association} Data Source.
 func NewDataAwsccNotificationsChannelAssociation_Override(d DataAwsccNotificationsChannelAssociation, scope constructs.Construct, id *string, config *DataAwsccNotificationsChannelAssociationConfig) {
 	_init_.Initialize()
 

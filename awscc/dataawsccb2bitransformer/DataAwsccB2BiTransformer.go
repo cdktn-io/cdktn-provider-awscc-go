@@ -5,14 +5,14 @@ package dataawsccb2bitransformer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformer/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformer/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_transformer awscc_b2bi_transformer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_transformer awscc_b2bi_transformer}.
 type DataAwsccB2BiTransformer interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccB2BiTransformer) TransformerId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_transformer awscc_b2bi_transformer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_transformer awscc_b2bi_transformer} Data Source.
 func NewDataAwsccB2BiTransformer(scope constructs.Construct, id *string, config *DataAwsccB2BiTransformerConfig) DataAwsccB2BiTransformer {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccB2BiTransformer(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_transformer awscc_b2bi_transformer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_transformer awscc_b2bi_transformer} Data Source.
 func NewDataAwsccB2BiTransformer_Override(d DataAwsccB2BiTransformer, scope constructs.Construct, id *string, config *DataAwsccB2BiTransformerConfig) {
 	_init_.Initialize()
 

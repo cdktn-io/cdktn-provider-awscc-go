@@ -5,14 +5,14 @@ package dataawsccworkspaceswebusersettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebusersettings/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebusersettings/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_user_settings awscc_workspacesweb_user_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_user_settings awscc_workspacesweb_user_settings}.
 type DataAwsccWorkspaceswebUserSettings interface {
 	cdktn.TerraformDataSource
 	AdditionalEncryptionContext() cdktn.StringMap
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccWorkspaceswebUserSettings) WebAuthnAllowed() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_user_settings awscc_workspacesweb_user_settings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_user_settings awscc_workspacesweb_user_settings} Data Source.
 func NewDataAwsccWorkspaceswebUserSettings(scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebUserSettingsConfig) DataAwsccWorkspaceswebUserSettings {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccWorkspaceswebUserSettings(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_user_settings awscc_workspacesweb_user_settings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_user_settings awscc_workspacesweb_user_settings} Data Source.
 func NewDataAwsccWorkspaceswebUserSettings_Override(d DataAwsccWorkspaceswebUserSettings, scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebUserSettingsConfig) {
 	_init_.Initialize()
 

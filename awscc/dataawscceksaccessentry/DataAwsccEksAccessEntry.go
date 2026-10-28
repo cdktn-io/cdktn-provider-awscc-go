@@ -5,14 +5,14 @@ package dataawscceksaccessentry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceksaccessentry/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceksaccessentry/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eks_access_entry awscc_eks_access_entry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eks_access_entry awscc_eks_access_entry}.
 type DataAwsccEksAccessEntry interface {
 	cdktn.TerraformDataSource
 	AccessEntryArn() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccEksAccessEntry) Username() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eks_access_entry awscc_eks_access_entry} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eks_access_entry awscc_eks_access_entry} Data Source.
 func NewDataAwsccEksAccessEntry(scope constructs.Construct, id *string, config *DataAwsccEksAccessEntryConfig) DataAwsccEksAccessEntry {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccEksAccessEntry(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eks_access_entry awscc_eks_access_entry} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eks_access_entry awscc_eks_access_entry} Data Source.
 func NewDataAwsccEksAccessEntry_Override(d DataAwsccEksAccessEntry, scope constructs.Construct, id *string, config *DataAwsccEksAccessEntryConfig) {
 	_init_.Initialize()
 

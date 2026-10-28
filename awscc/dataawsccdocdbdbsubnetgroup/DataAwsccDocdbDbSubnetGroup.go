@@ -5,14 +5,14 @@ package dataawsccdocdbdbsubnetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdocdbdbsubnetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdocdbdbsubnetgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/docdb_db_subnet_group awscc_docdb_db_subnet_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/docdb_db_subnet_group awscc_docdb_db_subnet_group}.
 type DataAwsccDocdbDbSubnetGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccDocdbDbSubnetGroup) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/docdb_db_subnet_group awscc_docdb_db_subnet_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/docdb_db_subnet_group awscc_docdb_db_subnet_group} Data Source.
 func NewDataAwsccDocdbDbSubnetGroup(scope constructs.Construct, id *string, config *DataAwsccDocdbDbSubnetGroupConfig) DataAwsccDocdbDbSubnetGroup {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccDocdbDbSubnetGroup(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/docdb_db_subnet_group awscc_docdb_db_subnet_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/docdb_db_subnet_group awscc_docdb_db_subnet_group} Data Source.
 func NewDataAwsccDocdbDbSubnetGroup_Override(d DataAwsccDocdbDbSubnetGroup, scope constructs.Construct, id *string, config *DataAwsccDocdbDbSubnetGroupConfig) {
 	_init_.Initialize()
 

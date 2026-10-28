@@ -5,14 +5,14 @@ package dataawscctranslateparalleldataplural
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateparalleldataplural/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateparalleldataplural/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/translate_parallel_data_plural awscc_translate_parallel_data_plural}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/translate_parallel_data_plural awscc_translate_parallel_data_plural}.
 type DataAwsccTranslateParallelDataPlural interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccTranslateParallelDataPlural) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/translate_parallel_data_plural awscc_translate_parallel_data_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/translate_parallel_data_plural awscc_translate_parallel_data_plural} Data Source.
 func NewDataAwsccTranslateParallelDataPlural(scope constructs.Construct, id *string, config *DataAwsccTranslateParallelDataPluralConfig) DataAwsccTranslateParallelDataPlural {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccTranslateParallelDataPlural(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/translate_parallel_data_plural awscc_translate_parallel_data_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/translate_parallel_data_plural awscc_translate_parallel_data_plural} Data Source.
 func NewDataAwsccTranslateParallelDataPlural_Override(d DataAwsccTranslateParallelDataPlural, scope constructs.Construct, id *string, config *DataAwsccTranslateParallelDataPluralConfig) {
 	_init_.Initialize()
 

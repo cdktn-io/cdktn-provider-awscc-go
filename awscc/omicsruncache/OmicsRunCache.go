@@ -5,14 +5,14 @@ package omicsruncache
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsruncache/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsruncache/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_run_cache awscc_omics_run_cache}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_run_cache awscc_omics_run_cache}.
 type OmicsRunCache interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -543,7 +543,7 @@ func (j *jsiiProxy_OmicsRunCache) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_run_cache awscc_omics_run_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_run_cache awscc_omics_run_cache} Resource.
 func NewOmicsRunCache(scope constructs.Construct, id *string, config *OmicsRunCacheConfig) OmicsRunCache {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewOmicsRunCache(scope constructs.Construct, id *string, config *OmicsRunCa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_run_cache awscc_omics_run_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_run_cache awscc_omics_run_cache} Resource.
 func NewOmicsRunCache_Override(o OmicsRunCache, scope constructs.Construct, id *string, config *OmicsRunCacheConfig) {
 	_init_.Initialize()
 

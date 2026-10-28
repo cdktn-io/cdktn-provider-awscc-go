@@ -5,9 +5,9 @@ package dataawsccbedrockagentcoreevaluator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreevaluator/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreevaluator/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -33,6 +33,7 @@ type DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleOutp
 	Fqn() *string
 	InternalValue() *DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScale
 	SetInternalValue(val *DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScale)
+	MultiDimensional() DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalList
 	Numerical() DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleNumericalList
 	// Experimental.
 	TerraformAttribute() *string
@@ -136,6 +137,16 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeR
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleOutputReference) MultiDimensional() DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalList {
+	var returns DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeRatingScaleMultiDimensionalList
+	_jsii_.Get(
+		j,
+		"multiDimensional",
 		&returns,
 	)
 	return returns

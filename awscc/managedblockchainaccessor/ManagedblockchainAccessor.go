@@ -5,14 +5,14 @@ package managedblockchainaccessor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/managedblockchainaccessor/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/managedblockchainaccessor/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/managedblockchain_accessor awscc_managedblockchain_accessor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/managedblockchain_accessor awscc_managedblockchain_accessor}.
 type ManagedblockchainAccessor interface {
 	cdktn.TerraformResource
 	AccessorId() *string
@@ -481,7 +481,7 @@ func (j *jsiiProxy_ManagedblockchainAccessor) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/managedblockchain_accessor awscc_managedblockchain_accessor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/managedblockchain_accessor awscc_managedblockchain_accessor} Resource.
 func NewManagedblockchainAccessor(scope constructs.Construct, id *string, config *ManagedblockchainAccessorConfig) ManagedblockchainAccessor {
 	_init_.Initialize()
 
@@ -499,7 +499,7 @@ func NewManagedblockchainAccessor(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/managedblockchain_accessor awscc_managedblockchain_accessor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/managedblockchain_accessor awscc_managedblockchain_accessor} Resource.
 func NewManagedblockchainAccessor_Override(m ManagedblockchainAccessor, scope constructs.Construct, id *string, config *ManagedblockchainAccessorConfig) {
 	_init_.Initialize()
 

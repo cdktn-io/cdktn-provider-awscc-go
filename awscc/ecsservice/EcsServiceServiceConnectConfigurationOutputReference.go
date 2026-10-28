@@ -5,9 +5,9 @@ package ecsservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecsservice/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecsservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -25,6 +25,8 @@ type EcsServiceServiceConnectConfigurationOutputReference interface {
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ContainerConfigurations() EcsServiceServiceConnectConfigurationContainerConfigurationsList
+	ContainerConfigurationsInput() interface{}
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -77,9 +79,11 @@ type EcsServiceServiceConnectConfigurationOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAccessLogConfiguration(value *EcsServiceServiceConnectConfigurationAccessLogConfiguration)
+	PutContainerConfigurations(value interface{})
 	PutLogConfiguration(value *EcsServiceServiceConnectConfigurationLogConfiguration)
 	PutServices(value interface{})
 	ResetAccessLogConfiguration()
+	ResetContainerConfigurations()
 	ResetEnabled()
 	ResetLogConfiguration()
 	ResetNamespace()
@@ -134,6 +138,26 @@ func (j *jsiiProxy_EcsServiceServiceConnectConfigurationOutputReference) Complex
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsServiceServiceConnectConfigurationOutputReference) ContainerConfigurations() EcsServiceServiceConnectConfigurationContainerConfigurationsList {
+	var returns EcsServiceServiceConnectConfigurationContainerConfigurationsList
+	_jsii_.Get(
+		j,
+		"containerConfigurations",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EcsServiceServiceConnectConfigurationOutputReference) ContainerConfigurationsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"containerConfigurationsInput",
 		&returns,
 	)
 	return returns
@@ -571,6 +595,17 @@ func (e *jsiiProxy_EcsServiceServiceConnectConfigurationOutputReference) PutAcce
 	)
 }
 
+func (e *jsiiProxy_EcsServiceServiceConnectConfigurationOutputReference) PutContainerConfigurations(value interface{}) {
+	if err := e.validatePutContainerConfigurationsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putContainerConfigurations",
+		[]interface{}{value},
+	)
+}
+
 func (e *jsiiProxy_EcsServiceServiceConnectConfigurationOutputReference) PutLogConfiguration(value *EcsServiceServiceConnectConfigurationLogConfiguration) {
 	if err := e.validatePutLogConfigurationParameters(value); err != nil {
 		panic(err)
@@ -597,6 +632,14 @@ func (e *jsiiProxy_EcsServiceServiceConnectConfigurationOutputReference) ResetAc
 	_jsii_.InvokeVoid(
 		e,
 		"resetAccessLogConfiguration",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EcsServiceServiceConnectConfigurationOutputReference) ResetContainerConfigurations() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetContainerConfigurations",
 		nil, // no parameters
 	)
 }

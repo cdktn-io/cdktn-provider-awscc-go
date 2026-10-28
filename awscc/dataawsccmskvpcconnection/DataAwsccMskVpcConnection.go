@@ -5,14 +5,14 @@ package dataawsccmskvpcconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmskvpcconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmskvpcconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_vpc_connection awscc_msk_vpc_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_vpc_connection awscc_msk_vpc_connection}.
 type DataAwsccMskVpcConnection interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccMskVpcConnection) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_vpc_connection awscc_msk_vpc_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_vpc_connection awscc_msk_vpc_connection} Data Source.
 func NewDataAwsccMskVpcConnection(scope constructs.Construct, id *string, config *DataAwsccMskVpcConnectionConfig) DataAwsccMskVpcConnection {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccMskVpcConnection(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_vpc_connection awscc_msk_vpc_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_vpc_connection awscc_msk_vpc_connection} Data Source.
 func NewDataAwsccMskVpcConnection_Override(d DataAwsccMskVpcConnection, scope constructs.Construct, id *string, config *DataAwsccMskVpcConnectionConfig) {
 	_init_.Initialize()
 

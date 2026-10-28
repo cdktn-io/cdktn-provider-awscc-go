@@ -5,14 +5,14 @@ package rampermission
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rampermission/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rampermission/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_permission awscc_ram_permission}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_permission awscc_ram_permission}.
 type RamPermission interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -492,7 +492,7 @@ func (j *jsiiProxy_RamPermission) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_permission awscc_ram_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_permission awscc_ram_permission} Resource.
 func NewRamPermission(scope constructs.Construct, id *string, config *RamPermissionConfig) RamPermission {
 	_init_.Initialize()
 
@@ -510,7 +510,7 @@ func NewRamPermission(scope constructs.Construct, id *string, config *RamPermiss
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ram_permission awscc_ram_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ram_permission awscc_ram_permission} Resource.
 func NewRamPermission_Override(r RamPermission, scope constructs.Construct, id *string, config *RamPermissionConfig) {
 	_init_.Initialize()
 

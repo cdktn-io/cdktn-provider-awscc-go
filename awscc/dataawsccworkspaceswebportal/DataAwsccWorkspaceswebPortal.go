@@ -5,14 +5,14 @@ package dataawsccworkspaceswebportal
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebportal/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebportal/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_portal awscc_workspacesweb_portal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_portal awscc_workspacesweb_portal}.
 type DataAwsccWorkspaceswebPortal interface {
 	cdktn.TerraformDataSource
 	AdditionalEncryptionContext() cdktn.StringMap
@@ -550,7 +550,7 @@ func (j *jsiiProxy_DataAwsccWorkspaceswebPortal) UserSettingsArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_portal awscc_workspacesweb_portal} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_portal awscc_workspacesweb_portal} Data Source.
 func NewDataAwsccWorkspaceswebPortal(scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebPortalConfig) DataAwsccWorkspaceswebPortal {
 	_init_.Initialize()
 
@@ -568,7 +568,7 @@ func NewDataAwsccWorkspaceswebPortal(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_portal awscc_workspacesweb_portal} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_portal awscc_workspacesweb_portal} Data Source.
 func NewDataAwsccWorkspaceswebPortal_Override(d DataAwsccWorkspaceswebPortal, scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebPortalConfig) {
 	_init_.Initialize()
 

@@ -119,6 +119,10 @@ func (j *jsiiProxy_TransferHostKey) validateSetHostKeyBodyParameters(val *string
 	return nil
 }
 
+func (j *jsiiProxy_TransferHostKey) validateSetKmsKeyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_TransferHostKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
@@ -128,6 +132,10 @@ func (j *jsiiProxy_TransferHostKey) validateSetProvisionersParameters(val *[]int
 }
 
 func (j *jsiiProxy_TransferHostKey) validateSetServerIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TransferHostKey) validateSetStorageTypeParameters(val *string) error {
 	return nil
 }
 

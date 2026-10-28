@@ -5,14 +5,14 @@ package dataawsccmaciesession
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciesession/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciesession/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/macie_session awscc_macie_session}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/macie_session awscc_macie_session}.
 type DataAwsccMacieSession interface {
 	cdktn.TerraformDataSource
 	AutomatedDiscoveryStatus() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccMacieSession) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/macie_session awscc_macie_session} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/macie_session awscc_macie_session} Data Source.
 func NewDataAwsccMacieSession(scope constructs.Construct, id *string, config *DataAwsccMacieSessionConfig) DataAwsccMacieSession {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccMacieSession(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/macie_session awscc_macie_session} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/macie_session awscc_macie_session} Data Source.
 func NewDataAwsccMacieSession_Override(d DataAwsccMacieSession, scope constructs.Construct, id *string, config *DataAwsccMacieSessionConfig) {
 	_init_.Initialize()
 

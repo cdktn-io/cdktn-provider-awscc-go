@@ -5,14 +5,14 @@ package eventsv2subscriber
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsv2subscriber/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsv2subscriber/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventsv2_subscriber awscc_eventsv2_subscriber}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventsv2_subscriber awscc_eventsv2_subscriber}.
 type Eventsv2Subscriber interface {
 	cdktn.TerraformResource
 	BatchConfiguration() Eventsv2SubscriberBatchConfigurationOutputReference
@@ -780,7 +780,7 @@ func (j *jsiiProxy_Eventsv2Subscriber) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventsv2_subscriber awscc_eventsv2_subscriber} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventsv2_subscriber awscc_eventsv2_subscriber} Resource.
 func NewEventsv2Subscriber(scope constructs.Construct, id *string, config *Eventsv2SubscriberConfig) Eventsv2Subscriber {
 	_init_.Initialize()
 
@@ -798,7 +798,7 @@ func NewEventsv2Subscriber(scope constructs.Construct, id *string, config *Event
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventsv2_subscriber awscc_eventsv2_subscriber} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventsv2_subscriber awscc_eventsv2_subscriber} Resource.
 func NewEventsv2Subscriber_Override(e Eventsv2Subscriber, scope constructs.Construct, id *string, config *Eventsv2SubscriberConfig) {
 	_init_.Initialize()
 

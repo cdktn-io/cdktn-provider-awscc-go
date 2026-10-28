@@ -5,14 +5,14 @@ package dataawscciotwirelessnetworkanalyzerconfigurations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessnetworkanalyzerconfigurations/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessnetworkanalyzerconfigurations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_network_analyzer_configurations awscc_iotwireless_network_analyzer_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_network_analyzer_configurations awscc_iotwireless_network_analyzer_configurations}.
 type DataAwsccIotwirelessNetworkAnalyzerConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotwirelessNetworkAnalyzerConfigurations) TerraformR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_network_analyzer_configurations awscc_iotwireless_network_analyzer_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_network_analyzer_configurations awscc_iotwireless_network_analyzer_configurations} Data Source.
 func NewDataAwsccIotwirelessNetworkAnalyzerConfigurations(scope constructs.Construct, id *string, config *DataAwsccIotwirelessNetworkAnalyzerConfigurationsConfig) DataAwsccIotwirelessNetworkAnalyzerConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotwirelessNetworkAnalyzerConfigurations(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_network_analyzer_configurations awscc_iotwireless_network_analyzer_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_network_analyzer_configurations awscc_iotwireless_network_analyzer_configurations} Data Source.
 func NewDataAwsccIotwirelessNetworkAnalyzerConfigurations_Override(d DataAwsccIotwirelessNetworkAnalyzerConfigurations, scope constructs.Construct, id *string, config *DataAwsccIotwirelessNetworkAnalyzerConfigurationsConfig) {
 	_init_.Initialize()
 

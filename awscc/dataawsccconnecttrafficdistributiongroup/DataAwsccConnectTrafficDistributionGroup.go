@@ -5,14 +5,14 @@ package dataawsccconnecttrafficdistributiongroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnecttrafficdistributiongroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnecttrafficdistributiongroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_traffic_distribution_group awscc_connect_traffic_distribution_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_traffic_distribution_group awscc_connect_traffic_distribution_group}.
 type DataAwsccConnectTrafficDistributionGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccConnectTrafficDistributionGroup) TrafficDistribution
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_traffic_distribution_group awscc_connect_traffic_distribution_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_traffic_distribution_group awscc_connect_traffic_distribution_group} Data Source.
 func NewDataAwsccConnectTrafficDistributionGroup(scope constructs.Construct, id *string, config *DataAwsccConnectTrafficDistributionGroupConfig) DataAwsccConnectTrafficDistributionGroup {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccConnectTrafficDistributionGroup(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_traffic_distribution_group awscc_connect_traffic_distribution_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_traffic_distribution_group awscc_connect_traffic_distribution_group} Data Source.
 func NewDataAwsccConnectTrafficDistributionGroup_Override(d DataAwsccConnectTrafficDistributionGroup, scope constructs.Construct, id *string, config *DataAwsccConnectTrafficDistributionGroupConfig) {
 	_init_.Initialize()
 

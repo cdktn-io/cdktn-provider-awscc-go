@@ -5,14 +5,14 @@ package dataawscccertificatemanagercertificates
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccertificatemanagercertificates/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccertificatemanagercertificates/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/certificatemanager_certificates awscc_certificatemanager_certificates}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/certificatemanager_certificates awscc_certificatemanager_certificates}.
 type DataAwsccCertificatemanagerCertificates interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCertificatemanagerCertificates) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/certificatemanager_certificates awscc_certificatemanager_certificates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/certificatemanager_certificates awscc_certificatemanager_certificates} Data Source.
 func NewDataAwsccCertificatemanagerCertificates(scope constructs.Construct, id *string, config *DataAwsccCertificatemanagerCertificatesConfig) DataAwsccCertificatemanagerCertificates {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCertificatemanagerCertificates(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/certificatemanager_certificates awscc_certificatemanager_certificates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/certificatemanager_certificates awscc_certificatemanager_certificates} Data Source.
 func NewDataAwsccCertificatemanagerCertificates_Override(d DataAwsccCertificatemanagerCertificates, scope constructs.Construct, id *string, config *DataAwsccCertificatemanagerCertificatesConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawscciamgrouppolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamgrouppolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamgrouppolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_group_policy awscc_iam_group_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_group_policy awscc_iam_group_policy}.
 type DataAwsccIamGroupPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccIamGroupPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_group_policy awscc_iam_group_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_group_policy awscc_iam_group_policy} Data Source.
 func NewDataAwsccIamGroupPolicy(scope constructs.Construct, id *string, config *DataAwsccIamGroupPolicyConfig) DataAwsccIamGroupPolicy {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccIamGroupPolicy(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_group_policy awscc_iam_group_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_group_policy awscc_iam_group_policy} Data Source.
 func NewDataAwsccIamGroupPolicy_Override(d DataAwsccIamGroupPolicy, scope constructs.Construct, id *string, config *DataAwsccIamGroupPolicyConfig) {
 	_init_.Initialize()
 

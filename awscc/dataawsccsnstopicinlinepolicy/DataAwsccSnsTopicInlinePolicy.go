@@ -5,14 +5,14 @@ package dataawsccsnstopicinlinepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopicinlinepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnstopicinlinepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sns_topic_inline_policy awscc_sns_topic_inline_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sns_topic_inline_policy awscc_sns_topic_inline_policy}.
 type DataAwsccSnsTopicInlinePolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccSnsTopicInlinePolicy) TopicArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sns_topic_inline_policy awscc_sns_topic_inline_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sns_topic_inline_policy awscc_sns_topic_inline_policy} Data Source.
 func NewDataAwsccSnsTopicInlinePolicy(scope constructs.Construct, id *string, config *DataAwsccSnsTopicInlinePolicyConfig) DataAwsccSnsTopicInlinePolicy {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccSnsTopicInlinePolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sns_topic_inline_policy awscc_sns_topic_inline_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sns_topic_inline_policy awscc_sns_topic_inline_policy} Data Source.
 func NewDataAwsccSnsTopicInlinePolicy_Override(d DataAwsccSnsTopicInlinePolicy, scope constructs.Construct, id *string, config *DataAwsccSnsTopicInlinePolicyConfig) {
 	_init_.Initialize()
 

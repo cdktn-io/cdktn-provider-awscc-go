@@ -5,14 +5,14 @@ package dataawscciotsecuretunnelingtunnels
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecuretunnelingtunnels/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecuretunnelingtunnels/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsecuretunneling_tunnels awscc_iotsecuretunneling_tunnels}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsecuretunneling_tunnels awscc_iotsecuretunneling_tunnels}.
 type DataAwsccIotsecuretunnelingTunnels interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotsecuretunnelingTunnels) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsecuretunneling_tunnels awscc_iotsecuretunneling_tunnels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsecuretunneling_tunnels awscc_iotsecuretunneling_tunnels} Data Source.
 func NewDataAwsccIotsecuretunnelingTunnels(scope constructs.Construct, id *string, config *DataAwsccIotsecuretunnelingTunnelsConfig) DataAwsccIotsecuretunnelingTunnels {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotsecuretunnelingTunnels(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsecuretunneling_tunnels awscc_iotsecuretunneling_tunnels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsecuretunneling_tunnels awscc_iotsecuretunneling_tunnels} Data Source.
 func NewDataAwsccIotsecuretunnelingTunnels_Override(d DataAwsccIotsecuretunnelingTunnels, scope constructs.Construct, id *string, config *DataAwsccIotsecuretunnelingTunnelsConfig) {
 	_init_.Initialize()
 

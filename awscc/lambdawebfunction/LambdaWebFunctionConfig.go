@@ -26,11 +26,11 @@ type LambdaWebFunctionConfig struct {
 	//
 	// The name can contain letters, numbers, hyphens (-), and underscores (_), and cannot begin or end with a hyphen or an underscore. The length constraint applies only to the full ARN. If you specify only the function name, it is limited to 64 characters in length.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function#function_name LambdaWebFunction#function_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function#function_name LambdaWebFunction#function_name}
 	FunctionName *string `field:"required" json:"functionName" yaml:"functionName"`
 	// A list of tags to apply to the function.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function#tags LambdaWebFunction#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_web_function#tags LambdaWebFunction#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

@@ -5,14 +5,14 @@ package dataawsccworkspaceswebportals
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebportals/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebportals/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_portals awscc_workspacesweb_portals}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_portals awscc_workspacesweb_portals}.
 type DataAwsccWorkspaceswebPortals interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccWorkspaceswebPortals) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_portals awscc_workspacesweb_portals} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_portals awscc_workspacesweb_portals} Data Source.
 func NewDataAwsccWorkspaceswebPortals(scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebPortalsConfig) DataAwsccWorkspaceswebPortals {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccWorkspaceswebPortals(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_portals awscc_workspacesweb_portals} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_portals awscc_workspacesweb_portals} Data Source.
 func NewDataAwsccWorkspaceswebPortals_Override(d DataAwsccWorkspaceswebPortals, scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebPortalsConfig) {
 	_init_.Initialize()
 

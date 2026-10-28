@@ -5,14 +5,14 @@ package dataawsccec2placementgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2placementgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2placementgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_placement_group awscc_ec2_placement_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_placement_group awscc_ec2_placement_group}.
 type DataAwsccEc2PlacementGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccEc2PlacementGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_placement_group awscc_ec2_placement_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_placement_group awscc_ec2_placement_group} Data Source.
 func NewDataAwsccEc2PlacementGroup(scope constructs.Construct, id *string, config *DataAwsccEc2PlacementGroupConfig) DataAwsccEc2PlacementGroup {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccEc2PlacementGroup(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_placement_group awscc_ec2_placement_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_placement_group awscc_ec2_placement_group} Data Source.
 func NewDataAwsccEc2PlacementGroup_Override(d DataAwsccEc2PlacementGroup, scope constructs.Construct, id *string, config *DataAwsccEc2PlacementGroupConfig) {
 	_init_.Initialize()
 

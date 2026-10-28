@@ -5,14 +5,14 @@ package glueschemaversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueschemaversion/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueschemaversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema_version awscc_glue_schema_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema_version awscc_glue_schema_version}.
 type GlueSchemaVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -412,7 +412,7 @@ func (j *jsiiProxy_GlueSchemaVersion) VersionId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema_version awscc_glue_schema_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema_version awscc_glue_schema_version} Resource.
 func NewGlueSchemaVersion(scope constructs.Construct, id *string, config *GlueSchemaVersionConfig) GlueSchemaVersion {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewGlueSchemaVersion(scope constructs.Construct, id *string, config *GlueSc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_schema_version awscc_glue_schema_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_schema_version awscc_glue_schema_version} Resource.
 func NewGlueSchemaVersion_Override(g GlueSchemaVersion, scope constructs.Construct, id *string, config *GlueSchemaVersionConfig) {
 	_init_.Initialize()
 

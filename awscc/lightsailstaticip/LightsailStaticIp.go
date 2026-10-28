@@ -5,14 +5,14 @@ package lightsailstaticip
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsailstaticip/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsailstaticip/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_static_ip awscc_lightsail_static_ip}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_static_ip awscc_lightsail_static_ip}.
 type LightsailStaticIp interface {
 	cdktn.TerraformResource
 	AttachedTo() *string
@@ -435,7 +435,7 @@ func (j *jsiiProxy_LightsailStaticIp) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_static_ip awscc_lightsail_static_ip} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_static_ip awscc_lightsail_static_ip} Resource.
 func NewLightsailStaticIp(scope constructs.Construct, id *string, config *LightsailStaticIpConfig) LightsailStaticIp {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewLightsailStaticIp(scope constructs.Construct, id *string, config *Lights
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_static_ip awscc_lightsail_static_ip} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_static_ip awscc_lightsail_static_ip} Resource.
 func NewLightsailStaticIp_Override(l LightsailStaticIp, scope constructs.Construct, id *string, config *LightsailStaticIpConfig) {
 	_init_.Initialize()
 

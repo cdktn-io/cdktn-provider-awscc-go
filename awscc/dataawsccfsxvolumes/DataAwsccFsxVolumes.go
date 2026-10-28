@@ -5,14 +5,14 @@ package dataawsccfsxvolumes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxvolumes/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxvolumes/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fsx_volumes awscc_fsx_volumes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_volumes awscc_fsx_volumes}.
 type DataAwsccFsxVolumes interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccFsxVolumes) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fsx_volumes awscc_fsx_volumes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_volumes awscc_fsx_volumes} Data Source.
 func NewDataAwsccFsxVolumes(scope constructs.Construct, id *string, config *DataAwsccFsxVolumesConfig) DataAwsccFsxVolumes {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccFsxVolumes(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fsx_volumes awscc_fsx_volumes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_volumes awscc_fsx_volumes} Data Source.
 func NewDataAwsccFsxVolumes_Override(d DataAwsccFsxVolumes, scope constructs.Construct, id *string, config *DataAwsccFsxVolumesConfig) {
 	_init_.Initialize()
 

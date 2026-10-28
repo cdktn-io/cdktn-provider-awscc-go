@@ -5,14 +5,14 @@ package dataawsccfrauddetectorvariable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectorvariable/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectorvariable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/frauddetector_variable awscc_frauddetector_variable}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/frauddetector_variable awscc_frauddetector_variable}.
 type DataAwsccFrauddetectorVariable interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccFrauddetectorVariable) VariableType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/frauddetector_variable awscc_frauddetector_variable} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/frauddetector_variable awscc_frauddetector_variable} Data Source.
 func NewDataAwsccFrauddetectorVariable(scope constructs.Construct, id *string, config *DataAwsccFrauddetectorVariableConfig) DataAwsccFrauddetectorVariable {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccFrauddetectorVariable(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/frauddetector_variable awscc_frauddetector_variable} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/frauddetector_variable awscc_frauddetector_variable} Data Source.
 func NewDataAwsccFrauddetectorVariable_Override(d DataAwsccFrauddetectorVariable, scope constructs.Construct, id *string, config *DataAwsccFrauddetectorVariableConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package lookoutmetricsanomalydetector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutmetricsanomalydetector/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutmetricsanomalydetector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutmetrics_anomaly_detector awscc_lookoutmetrics_anomaly_detector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutmetrics_anomaly_detector awscc_lookoutmetrics_anomaly_detector}.
 type LookoutmetricsAnomalyDetector interface {
 	cdktn.TerraformResource
 	AnomalyDetectorConfig() LookoutmetricsAnomalyDetectorAnomalyDetectorConfigOutputReference
@@ -484,7 +484,7 @@ func (j *jsiiProxy_LookoutmetricsAnomalyDetector) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutmetrics_anomaly_detector awscc_lookoutmetrics_anomaly_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutmetrics_anomaly_detector awscc_lookoutmetrics_anomaly_detector} Resource.
 func NewLookoutmetricsAnomalyDetector(scope constructs.Construct, id *string, config *LookoutmetricsAnomalyDetectorConfig) LookoutmetricsAnomalyDetector {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewLookoutmetricsAnomalyDetector(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutmetrics_anomaly_detector awscc_lookoutmetrics_anomaly_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutmetrics_anomaly_detector awscc_lookoutmetrics_anomaly_detector} Resource.
 func NewLookoutmetricsAnomalyDetector_Override(l LookoutmetricsAnomalyDetector, scope constructs.Construct, id *string, config *LookoutmetricsAnomalyDetectorConfig) {
 	_init_.Initialize()
 

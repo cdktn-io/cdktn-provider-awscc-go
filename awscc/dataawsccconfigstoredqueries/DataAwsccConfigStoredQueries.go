@@ -5,14 +5,14 @@ package dataawsccconfigstoredqueries
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigstoredqueries/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigstoredqueries/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_stored_queries awscc_config_stored_queries}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_stored_queries awscc_config_stored_queries}.
 type DataAwsccConfigStoredQueries interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccConfigStoredQueries) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_stored_queries awscc_config_stored_queries} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_stored_queries awscc_config_stored_queries} Data Source.
 func NewDataAwsccConfigStoredQueries(scope constructs.Construct, id *string, config *DataAwsccConfigStoredQueriesConfig) DataAwsccConfigStoredQueries {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccConfigStoredQueries(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_stored_queries awscc_config_stored_queries} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_stored_queries awscc_config_stored_queries} Data Source.
 func NewDataAwsccConfigStoredQueries_Override(d DataAwsccConfigStoredQueries, scope constructs.Construct, id *string, config *DataAwsccConfigStoredQueriesConfig) {
 	_init_.Initialize()
 

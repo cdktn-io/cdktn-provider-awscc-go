@@ -5,14 +5,14 @@ package dataawsccappflowconnectors
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappflowconnectors/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappflowconnectors/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appflow_connectors awscc_appflow_connectors}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appflow_connectors awscc_appflow_connectors}.
 type DataAwsccAppflowConnectors interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccAppflowConnectors) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appflow_connectors awscc_appflow_connectors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appflow_connectors awscc_appflow_connectors} Data Source.
 func NewDataAwsccAppflowConnectors(scope constructs.Construct, id *string, config *DataAwsccAppflowConnectorsConfig) DataAwsccAppflowConnectors {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccAppflowConnectors(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appflow_connectors awscc_appflow_connectors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appflow_connectors awscc_appflow_connectors} Data Source.
 func NewDataAwsccAppflowConnectors_Override(d DataAwsccAppflowConnectors, scope constructs.Construct, id *string, config *DataAwsccAppflowConnectorsConfig) {
 	_init_.Initialize()
 

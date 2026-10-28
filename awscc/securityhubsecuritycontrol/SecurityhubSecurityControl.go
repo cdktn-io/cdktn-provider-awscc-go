@@ -5,14 +5,14 @@ package securityhubsecuritycontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubsecuritycontrol/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubsecuritycontrol/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_security_control awscc_securityhub_security_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_security_control awscc_securityhub_security_control}.
 type SecurityhubSecurityControl interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -450,7 +450,7 @@ func (j *jsiiProxy_SecurityhubSecurityControl) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_security_control awscc_securityhub_security_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_security_control awscc_securityhub_security_control} Resource.
 func NewSecurityhubSecurityControl(scope constructs.Construct, id *string, config *SecurityhubSecurityControlConfig) SecurityhubSecurityControl {
 	_init_.Initialize()
 
@@ -468,7 +468,7 @@ func NewSecurityhubSecurityControl(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_security_control awscc_securityhub_security_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_security_control awscc_securityhub_security_control} Resource.
 func NewSecurityhubSecurityControl_Override(s SecurityhubSecurityControl, scope constructs.Construct, id *string, config *SecurityhubSecurityControlConfig) {
 	_init_.Initialize()
 

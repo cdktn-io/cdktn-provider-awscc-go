@@ -5,14 +5,14 @@ package dataawsccpanoramaapplicationinstances
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpanoramaapplicationinstances/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpanoramaapplicationinstances/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/panorama_application_instances awscc_panorama_application_instances}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/panorama_application_instances awscc_panorama_application_instances}.
 type DataAwsccPanoramaApplicationInstances interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccPanoramaApplicationInstances) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/panorama_application_instances awscc_panorama_application_instances} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/panorama_application_instances awscc_panorama_application_instances} Data Source.
 func NewDataAwsccPanoramaApplicationInstances(scope constructs.Construct, id *string, config *DataAwsccPanoramaApplicationInstancesConfig) DataAwsccPanoramaApplicationInstances {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccPanoramaApplicationInstances(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/panorama_application_instances awscc_panorama_application_instances} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/panorama_application_instances awscc_panorama_application_instances} Data Source.
 func NewDataAwsccPanoramaApplicationInstances_Override(d DataAwsccPanoramaApplicationInstances, scope constructs.Construct, id *string, config *DataAwsccPanoramaApplicationInstancesConfig) {
 	_init_.Initialize()
 

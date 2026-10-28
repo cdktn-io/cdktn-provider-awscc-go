@@ -5,14 +5,14 @@ package iotfleetwisefleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotfleetwisefleet/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotfleetwisefleet/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotfleetwise_fleet awscc_iotfleetwise_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotfleetwise_fleet awscc_iotfleetwise_fleet}.
 type IotfleetwiseFleet interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -482,7 +482,7 @@ func (j *jsiiProxy_IotfleetwiseFleet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotfleetwise_fleet awscc_iotfleetwise_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotfleetwise_fleet awscc_iotfleetwise_fleet} Resource.
 func NewIotfleetwiseFleet(scope constructs.Construct, id *string, config *IotfleetwiseFleetConfig) IotfleetwiseFleet {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewIotfleetwiseFleet(scope constructs.Construct, id *string, config *Iotfle
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotfleetwise_fleet awscc_iotfleetwise_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotfleetwise_fleet awscc_iotfleetwise_fleet} Resource.
 func NewIotfleetwiseFleet_Override(i IotfleetwiseFleet, scope constructs.Construct, id *string, config *IotfleetwiseFleetConfig) {
 	_init_.Initialize()
 

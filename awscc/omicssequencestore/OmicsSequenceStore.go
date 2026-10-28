@@ -5,14 +5,14 @@ package omicssequencestore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicssequencestore/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicssequencestore/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_sequence_store awscc_omics_sequence_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_sequence_store awscc_omics_sequence_store}.
 type OmicsSequenceStore interface {
 	cdktn.TerraformResource
 	AccessLogLocation() *string
@@ -658,7 +658,7 @@ func (j *jsiiProxy_OmicsSequenceStore) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_sequence_store awscc_omics_sequence_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_sequence_store awscc_omics_sequence_store} Resource.
 func NewOmicsSequenceStore(scope constructs.Construct, id *string, config *OmicsSequenceStoreConfig) OmicsSequenceStore {
 	_init_.Initialize()
 
@@ -676,7 +676,7 @@ func NewOmicsSequenceStore(scope constructs.Construct, id *string, config *Omics
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_sequence_store awscc_omics_sequence_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_sequence_store awscc_omics_sequence_store} Resource.
 func NewOmicsSequenceStore_Override(o OmicsSequenceStore, scope constructs.Construct, id *string, config *OmicsSequenceStoreConfig) {
 	_init_.Initialize()
 

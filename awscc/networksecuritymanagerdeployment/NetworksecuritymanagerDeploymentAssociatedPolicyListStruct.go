@@ -7,7 +7,7 @@ package networksecuritymanagerdeployment
 type NetworksecuritymanagerDeploymentAssociatedPolicyListStruct struct {
 	// ARN of the associated policy.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_deployment#policy_arn NetworksecuritymanagerDeployment#policy_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networksecuritymanager_deployment#policy_arn NetworksecuritymanagerDeployment#policy_arn}
 	PolicyArn *string `field:"optional" json:"policyArn" yaml:"policyArn"`
 }
 

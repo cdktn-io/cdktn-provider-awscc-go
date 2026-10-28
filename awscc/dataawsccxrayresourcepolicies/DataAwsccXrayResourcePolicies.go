@@ -5,14 +5,14 @@ package dataawsccxrayresourcepolicies
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccxrayresourcepolicies/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccxrayresourcepolicies/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/xray_resource_policies awscc_xray_resource_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/xray_resource_policies awscc_xray_resource_policies}.
 type DataAwsccXrayResourcePolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccXrayResourcePolicies) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/xray_resource_policies awscc_xray_resource_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/xray_resource_policies awscc_xray_resource_policies} Data Source.
 func NewDataAwsccXrayResourcePolicies(scope constructs.Construct, id *string, config *DataAwsccXrayResourcePoliciesConfig) DataAwsccXrayResourcePolicies {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccXrayResourcePolicies(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/xray_resource_policies awscc_xray_resource_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/xray_resource_policies awscc_xray_resource_policies} Data Source.
 func NewDataAwsccXrayResourcePolicies_Override(d DataAwsccXrayResourcePolicies, scope constructs.Construct, id *string, config *DataAwsccXrayResourcePoliciesConfig) {
 	_init_.Initialize()
 

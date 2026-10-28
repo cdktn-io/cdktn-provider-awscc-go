@@ -5,14 +5,14 @@ package cloudwatchinsightrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchinsightrule/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchinsightrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule}.
 type CloudwatchInsightRule interface {
 	cdktn.TerraformResource
 	ApplyOnTransformedLogs() interface{}
@@ -483,7 +483,7 @@ func (j *jsiiProxy_CloudwatchInsightRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule} Resource.
 func NewCloudwatchInsightRule(scope constructs.Construct, id *string, config *CloudwatchInsightRuleConfig) CloudwatchInsightRule {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewCloudwatchInsightRule(scope constructs.Construct, id *string, config *Cl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule} Resource.
 func NewCloudwatchInsightRule_Override(c CloudwatchInsightRule, scope constructs.Construct, id *string, config *CloudwatchInsightRuleConfig) {
 	_init_.Initialize()
 

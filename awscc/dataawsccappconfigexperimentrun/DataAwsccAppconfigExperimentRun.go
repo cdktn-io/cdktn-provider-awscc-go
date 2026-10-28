@@ -5,14 +5,14 @@ package dataawsccappconfigexperimentrun
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigexperimentrun/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigexperimentrun/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appconfig_experiment_run awscc_appconfig_experiment_run}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appconfig_experiment_run awscc_appconfig_experiment_run}.
 type DataAwsccAppconfigExperimentRun interface {
 	cdktn.TerraformDataSource
 	ApplicationId() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccAppconfigExperimentRun) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appconfig_experiment_run awscc_appconfig_experiment_run} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appconfig_experiment_run awscc_appconfig_experiment_run} Data Source.
 func NewDataAwsccAppconfigExperimentRun(scope constructs.Construct, id *string, config *DataAwsccAppconfigExperimentRunConfig) DataAwsccAppconfigExperimentRun {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccAppconfigExperimentRun(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appconfig_experiment_run awscc_appconfig_experiment_run} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appconfig_experiment_run awscc_appconfig_experiment_run} Data Source.
 func NewDataAwsccAppconfigExperimentRun_Override(d DataAwsccAppconfigExperimentRun, scope constructs.Construct, id *string, config *DataAwsccAppconfigExperimentRunConfig) {
 	_init_.Initialize()
 

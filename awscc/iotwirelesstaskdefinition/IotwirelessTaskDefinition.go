@@ -5,14 +5,14 @@ package iotwirelesstaskdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelesstaskdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelesstaskdefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_task_definition awscc_iotwireless_task_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_task_definition awscc_iotwireless_task_definition}.
 type IotwirelessTaskDefinition interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -520,7 +520,7 @@ func (j *jsiiProxy_IotwirelessTaskDefinition) UpdateInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_task_definition awscc_iotwireless_task_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_task_definition awscc_iotwireless_task_definition} Resource.
 func NewIotwirelessTaskDefinition(scope constructs.Construct, id *string, config *IotwirelessTaskDefinitionConfig) IotwirelessTaskDefinition {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewIotwirelessTaskDefinition(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_task_definition awscc_iotwireless_task_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_task_definition awscc_iotwireless_task_definition} Resource.
 func NewIotwirelessTaskDefinition_Override(i IotwirelessTaskDefinition, scope constructs.Construct, id *string, config *IotwirelessTaskDefinitionConfig) {
 	_init_.Initialize()
 

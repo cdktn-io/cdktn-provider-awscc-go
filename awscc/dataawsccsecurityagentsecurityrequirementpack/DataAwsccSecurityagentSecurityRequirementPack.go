@@ -5,14 +5,14 @@ package dataawsccsecurityagentsecurityrequirementpack
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentsecurityrequirementpack/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentsecurityrequirementpack/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityagent_security_requirement_pack awscc_securityagent_security_requirement_pack}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityagent_security_requirement_pack awscc_securityagent_security_requirement_pack}.
 type DataAwsccSecurityagentSecurityRequirementPack interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccSecurityagentSecurityRequirementPack) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityagent_security_requirement_pack awscc_securityagent_security_requirement_pack} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityagent_security_requirement_pack awscc_securityagent_security_requirement_pack} Data Source.
 func NewDataAwsccSecurityagentSecurityRequirementPack(scope constructs.Construct, id *string, config *DataAwsccSecurityagentSecurityRequirementPackConfig) DataAwsccSecurityagentSecurityRequirementPack {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccSecurityagentSecurityRequirementPack(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityagent_security_requirement_pack awscc_securityagent_security_requirement_pack} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityagent_security_requirement_pack awscc_securityagent_security_requirement_pack} Data Source.
 func NewDataAwsccSecurityagentSecurityRequirementPack_Override(d DataAwsccSecurityagentSecurityRequirementPack, scope constructs.Construct, id *string, config *DataAwsccSecurityagentSecurityRequirementPackConfig) {
 	_init_.Initialize()
 

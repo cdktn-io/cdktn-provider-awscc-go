@@ -5,14 +5,14 @@ package dataawsccssopermissionset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssopermissionset/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssopermissionset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sso_permission_set awscc_sso_permission_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sso_permission_set awscc_sso_permission_set}.
 type DataAwsccSsoPermissionSet interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccSsoPermissionSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sso_permission_set awscc_sso_permission_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sso_permission_set awscc_sso_permission_set} Data Source.
 func NewDataAwsccSsoPermissionSet(scope constructs.Construct, id *string, config *DataAwsccSsoPermissionSetConfig) DataAwsccSsoPermissionSet {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccSsoPermissionSet(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sso_permission_set awscc_sso_permission_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sso_permission_set awscc_sso_permission_set} Data Source.
 func NewDataAwsccSsoPermissionSet_Override(d DataAwsccSsoPermissionSet, scope constructs.Construct, id *string, config *DataAwsccSsoPermissionSetConfig) {
 	_init_.Initialize()
 

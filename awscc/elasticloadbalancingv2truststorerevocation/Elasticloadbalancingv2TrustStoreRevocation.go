@@ -5,14 +5,14 @@ package elasticloadbalancingv2truststorerevocation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2truststorerevocation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2truststorerevocation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_trust_store_revocation awscc_elasticloadbalancingv2_trust_store_revocation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_trust_store_revocation awscc_elasticloadbalancingv2_trust_store_revocation}.
 type Elasticloadbalancingv2TrustStoreRevocation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_Elasticloadbalancingv2TrustStoreRevocation) TrustStoreRevocat
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_trust_store_revocation awscc_elasticloadbalancingv2_trust_store_revocation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_trust_store_revocation awscc_elasticloadbalancingv2_trust_store_revocation} Resource.
 func NewElasticloadbalancingv2TrustStoreRevocation(scope constructs.Construct, id *string, config *Elasticloadbalancingv2TrustStoreRevocationConfig) Elasticloadbalancingv2TrustStoreRevocation {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewElasticloadbalancingv2TrustStoreRevocation(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_trust_store_revocation awscc_elasticloadbalancingv2_trust_store_revocation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_trust_store_revocation awscc_elasticloadbalancingv2_trust_store_revocation} Resource.
 func NewElasticloadbalancingv2TrustStoreRevocation_Override(e Elasticloadbalancingv2TrustStoreRevocation, scope constructs.Construct, id *string, config *Elasticloadbalancingv2TrustStoreRevocationConfig) {
 	_init_.Initialize()
 

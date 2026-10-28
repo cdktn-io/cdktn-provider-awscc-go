@@ -5,14 +5,14 @@ package quicksightlimitsprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightlimitsprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightlimitsprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_limits_profile awscc_quicksight_limits_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_limits_profile awscc_quicksight_limits_profile}.
 type QuicksightLimitsProfile interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -492,7 +492,7 @@ func (j *jsiiProxy_QuicksightLimitsProfile) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_limits_profile awscc_quicksight_limits_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_limits_profile awscc_quicksight_limits_profile} Resource.
 func NewQuicksightLimitsProfile(scope constructs.Construct, id *string, config *QuicksightLimitsProfileConfig) QuicksightLimitsProfile {
 	_init_.Initialize()
 
@@ -510,7 +510,7 @@ func NewQuicksightLimitsProfile(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_limits_profile awscc_quicksight_limits_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_limits_profile awscc_quicksight_limits_profile} Resource.
 func NewQuicksightLimitsProfile_Override(q QuicksightLimitsProfile, scope constructs.Construct, id *string, config *QuicksightLimitsProfileConfig) {
 	_init_.Initialize()
 

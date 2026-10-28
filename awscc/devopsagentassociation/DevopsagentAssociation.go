@@ -5,14 +5,14 @@ package devopsagentassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association awscc_devopsagent_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association awscc_devopsagent_association}.
 type DevopsagentAssociation interface {
 	cdktn.TerraformResource
 	AgentSpaceId() *string
@@ -481,7 +481,7 @@ func (j *jsiiProxy_DevopsagentAssociation) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association awscc_devopsagent_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association awscc_devopsagent_association} Resource.
 func NewDevopsagentAssociation(scope constructs.Construct, id *string, config *DevopsagentAssociationConfig) DevopsagentAssociation {
 	_init_.Initialize()
 
@@ -499,7 +499,7 @@ func NewDevopsagentAssociation(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association awscc_devopsagent_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_association awscc_devopsagent_association} Resource.
 func NewDevopsagentAssociation_Override(d DevopsagentAssociation, scope constructs.Construct, id *string, config *DevopsagentAssociationConfig) {
 	_init_.Initialize()
 

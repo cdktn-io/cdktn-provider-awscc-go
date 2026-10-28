@@ -5,14 +5,14 @@ package dataawsccservicecatalogcloudformationproducts
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationproducts/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationproducts/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_cloudformation_products awscc_servicecatalog_cloudformation_products}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_cloudformation_products awscc_servicecatalog_cloudformation_products}.
 type DataAwsccServicecatalogCloudformationProducts interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccServicecatalogCloudformationProducts) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_cloudformation_products awscc_servicecatalog_cloudformation_products} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_cloudformation_products awscc_servicecatalog_cloudformation_products} Data Source.
 func NewDataAwsccServicecatalogCloudformationProducts(scope constructs.Construct, id *string, config *DataAwsccServicecatalogCloudformationProductsConfig) DataAwsccServicecatalogCloudformationProducts {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccServicecatalogCloudformationProducts(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_cloudformation_products awscc_servicecatalog_cloudformation_products} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_cloudformation_products awscc_servicecatalog_cloudformation_products} Data Source.
 func NewDataAwsccServicecatalogCloudformationProducts_Override(d DataAwsccServicecatalogCloudformationProducts, scope constructs.Construct, id *string, config *DataAwsccServicecatalogCloudformationProductsConfig) {
 	_init_.Initialize()
 

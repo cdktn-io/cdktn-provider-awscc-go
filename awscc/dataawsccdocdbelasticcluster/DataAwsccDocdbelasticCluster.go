@@ -5,14 +5,14 @@ package dataawsccdocdbelasticcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdocdbelasticcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdocdbelasticcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/docdbelastic_cluster awscc_docdbelastic_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/docdbelastic_cluster awscc_docdbelastic_cluster}.
 type DataAwsccDocdbelasticCluster interface {
 	cdktn.TerraformDataSource
 	AdminUserName() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataAwsccDocdbelasticCluster) VpcSecurityGroupIds() *[]*strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/docdbelastic_cluster awscc_docdbelastic_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/docdbelastic_cluster awscc_docdbelastic_cluster} Data Source.
 func NewDataAwsccDocdbelasticCluster(scope constructs.Construct, id *string, config *DataAwsccDocdbelasticClusterConfig) DataAwsccDocdbelasticCluster {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataAwsccDocdbelasticCluster(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/docdbelastic_cluster awscc_docdbelastic_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/docdbelastic_cluster awscc_docdbelastic_cluster} Data Source.
 func NewDataAwsccDocdbelasticCluster_Override(d DataAwsccDocdbelasticCluster, scope constructs.Construct, id *string, config *DataAwsccDocdbelasticClusterConfig) {
 	_init_.Initialize()
 

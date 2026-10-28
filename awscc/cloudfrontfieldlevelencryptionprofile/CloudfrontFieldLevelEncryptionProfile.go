@@ -5,14 +5,14 @@ package cloudfrontfieldlevelencryptionprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontfieldlevelencryptionprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontfieldlevelencryptionprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_field_level_encryption_profile awscc_cloudfront_field_level_encryption_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_field_level_encryption_profile awscc_cloudfront_field_level_encryption_profile}.
 type CloudfrontFieldLevelEncryptionProfile interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -411,7 +411,7 @@ func (j *jsiiProxy_CloudfrontFieldLevelEncryptionProfile) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_field_level_encryption_profile awscc_cloudfront_field_level_encryption_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_field_level_encryption_profile awscc_cloudfront_field_level_encryption_profile} Resource.
 func NewCloudfrontFieldLevelEncryptionProfile(scope constructs.Construct, id *string, config *CloudfrontFieldLevelEncryptionProfileConfig) CloudfrontFieldLevelEncryptionProfile {
 	_init_.Initialize()
 
@@ -429,7 +429,7 @@ func NewCloudfrontFieldLevelEncryptionProfile(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_field_level_encryption_profile awscc_cloudfront_field_level_encryption_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_field_level_encryption_profile awscc_cloudfront_field_level_encryption_profile} Resource.
 func NewCloudfrontFieldLevelEncryptionProfile_Override(c CloudfrontFieldLevelEncryptionProfile, scope constructs.Construct, id *string, config *CloudfrontFieldLevelEncryptionProfileConfig) {
 	_init_.Initialize()
 

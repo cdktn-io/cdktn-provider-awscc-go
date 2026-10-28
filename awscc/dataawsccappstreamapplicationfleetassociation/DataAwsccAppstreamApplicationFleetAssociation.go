@@ -5,14 +5,14 @@ package dataawsccappstreamapplicationfleetassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamapplicationfleetassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamapplicationfleetassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_application_fleet_association awscc_appstream_application_fleet_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_application_fleet_association awscc_appstream_application_fleet_association}.
 type DataAwsccAppstreamApplicationFleetAssociation interface {
 	cdktn.TerraformDataSource
 	ApplicationArn() *string
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccAppstreamApplicationFleetAssociation) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_application_fleet_association awscc_appstream_application_fleet_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_application_fleet_association awscc_appstream_application_fleet_association} Data Source.
 func NewDataAwsccAppstreamApplicationFleetAssociation(scope constructs.Construct, id *string, config *DataAwsccAppstreamApplicationFleetAssociationConfig) DataAwsccAppstreamApplicationFleetAssociation {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccAppstreamApplicationFleetAssociation(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_application_fleet_association awscc_appstream_application_fleet_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_application_fleet_association awscc_appstream_application_fleet_association} Data Source.
 func NewDataAwsccAppstreamApplicationFleetAssociation_Override(d DataAwsccAppstreamApplicationFleetAssociation, scope constructs.Construct, id *string, config *DataAwsccAppstreamApplicationFleetAssociationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawscciotthinggroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthinggroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthinggroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_thing_group awscc_iot_thing_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_thing_group awscc_iot_thing_group}.
 type DataAwsccIotThingGroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccIotThingGroup) ThingGroupProperties() DataAwsccIotTh
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_thing_group awscc_iot_thing_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_thing_group awscc_iot_thing_group} Data Source.
 func NewDataAwsccIotThingGroup(scope constructs.Construct, id *string, config *DataAwsccIotThingGroupConfig) DataAwsccIotThingGroup {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccIotThingGroup(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_thing_group awscc_iot_thing_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_thing_group awscc_iot_thing_group} Data Source.
 func NewDataAwsccIotThingGroup_Override(d DataAwsccIotThingGroup, scope constructs.Construct, id *string, config *DataAwsccIotThingGroupConfig) {
 	_init_.Initialize()
 

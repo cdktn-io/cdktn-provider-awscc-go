@@ -5,14 +5,14 @@ package dataawsccdatazoneprojectprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatazoneprojectprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatazoneprojectprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_project_profile awscc_datazone_project_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_project_profile awscc_datazone_project_profile}.
 type DataAwsccDatazoneProjectProfile interface {
 	cdktn.TerraformDataSource
 	AllowCustomProjectResourceTags() cdktn.IResolvable
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccDatazoneProjectProfile) UseDefaultConfigurations() c
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_project_profile awscc_datazone_project_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_project_profile awscc_datazone_project_profile} Data Source.
 func NewDataAwsccDatazoneProjectProfile(scope constructs.Construct, id *string, config *DataAwsccDatazoneProjectProfileConfig) DataAwsccDatazoneProjectProfile {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccDatazoneProjectProfile(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datazone_project_profile awscc_datazone_project_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datazone_project_profile awscc_datazone_project_profile} Data Source.
 func NewDataAwsccDatazoneProjectProfile_Override(d DataAwsccDatazoneProjectProfile, scope constructs.Construct, id *string, config *DataAwsccDatazoneProjectProfileConfig) {
 	_init_.Initialize()
 

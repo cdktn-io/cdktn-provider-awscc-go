@@ -5,14 +5,14 @@ package directconnectconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_connection awscc_directconnect_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_connection awscc_directconnect_connection}.
 type DirectconnectConnection interface {
 	cdktn.TerraformResource
 	Bandwidth() *string
@@ -553,7 +553,7 @@ func (j *jsiiProxy_DirectconnectConnection) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_connection awscc_directconnect_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_connection awscc_directconnect_connection} Resource.
 func NewDirectconnectConnection(scope constructs.Construct, id *string, config *DirectconnectConnectionConfig) DirectconnectConnection {
 	_init_.Initialize()
 
@@ -571,7 +571,7 @@ func NewDirectconnectConnection(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_connection awscc_directconnect_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_connection awscc_directconnect_connection} Resource.
 func NewDirectconnectConnection_Override(d DirectconnectConnection, scope constructs.Construct, id *string, config *DirectconnectConnectionConfig) {
 	_init_.Initialize()
 

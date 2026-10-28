@@ -5,14 +5,14 @@ package dataawsccopsworkscmserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopsworkscmserver/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopsworkscmserver/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opsworkscm_server awscc_opsworkscm_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opsworkscm_server awscc_opsworkscm_server}.
 type DataAwsccOpsworkscmServer interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -550,7 +550,7 @@ func (j *jsiiProxy_DataAwsccOpsworkscmServer) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opsworkscm_server awscc_opsworkscm_server} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opsworkscm_server awscc_opsworkscm_server} Data Source.
 func NewDataAwsccOpsworkscmServer(scope constructs.Construct, id *string, config *DataAwsccOpsworkscmServerConfig) DataAwsccOpsworkscmServer {
 	_init_.Initialize()
 
@@ -568,7 +568,7 @@ func NewDataAwsccOpsworkscmServer(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opsworkscm_server awscc_opsworkscm_server} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opsworkscm_server awscc_opsworkscm_server} Data Source.
 func NewDataAwsccOpsworkscmServer_Override(d DataAwsccOpsworkscmServer, scope constructs.Construct, id *string, config *DataAwsccOpsworkscmServerConfig) {
 	_init_.Initialize()
 

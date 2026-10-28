@@ -5,14 +5,14 @@ package dataawsccsecurityhubdelegatedadmin
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubdelegatedadmin/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubdelegatedadmin/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_delegated_admin awscc_securityhub_delegated_admin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_delegated_admin awscc_securityhub_delegated_admin}.
 type DataAwsccSecurityhubDelegatedAdmin interface {
 	cdktn.TerraformDataSource
 	AdminAccountId() *string
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccSecurityhubDelegatedAdmin) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_delegated_admin awscc_securityhub_delegated_admin} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_delegated_admin awscc_securityhub_delegated_admin} Data Source.
 func NewDataAwsccSecurityhubDelegatedAdmin(scope constructs.Construct, id *string, config *DataAwsccSecurityhubDelegatedAdminConfig) DataAwsccSecurityhubDelegatedAdmin {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccSecurityhubDelegatedAdmin(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_delegated_admin awscc_securityhub_delegated_admin} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_delegated_admin awscc_securityhub_delegated_admin} Data Source.
 func NewDataAwsccSecurityhubDelegatedAdmin_Override(d DataAwsccSecurityhubDelegatedAdmin, scope constructs.Construct, id *string, config *DataAwsccSecurityhubDelegatedAdminConfig) {
 	_init_.Initialize()
 

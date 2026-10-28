@@ -5,14 +5,14 @@ package cloudfrontoriginrequestpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontoriginrequestpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontoriginrequestpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_request_policy awscc_cloudfront_origin_request_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_request_policy awscc_cloudfront_origin_request_policy}.
 type CloudfrontOriginRequestPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -400,7 +400,7 @@ func (j *jsiiProxy_CloudfrontOriginRequestPolicy) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_request_policy awscc_cloudfront_origin_request_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_request_policy awscc_cloudfront_origin_request_policy} Resource.
 func NewCloudfrontOriginRequestPolicy(scope constructs.Construct, id *string, config *CloudfrontOriginRequestPolicyConfig) CloudfrontOriginRequestPolicy {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewCloudfrontOriginRequestPolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_origin_request_policy awscc_cloudfront_origin_request_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_origin_request_policy awscc_cloudfront_origin_request_policy} Resource.
 func NewCloudfrontOriginRequestPolicy_Override(c CloudfrontOriginRequestPolicy, scope constructs.Construct, id *string, config *CloudfrontOriginRequestPolicyConfig) {
 	_init_.Initialize()
 

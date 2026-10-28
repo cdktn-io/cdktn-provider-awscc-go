@@ -5,14 +5,14 @@ package dataawsccsagemakeraiworkloadconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakeraiworkloadconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakeraiworkloadconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_ai_workload_config awscc_sagemaker_ai_workload_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_ai_workload_config awscc_sagemaker_ai_workload_config}.
 type DataAwsccSagemakerAiWorkloadConfig interface {
 	cdktn.TerraformDataSource
 	AiWorkloadConfigArn() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccSagemakerAiWorkloadConfig) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_ai_workload_config awscc_sagemaker_ai_workload_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_ai_workload_config awscc_sagemaker_ai_workload_config} Data Source.
 func NewDataAwsccSagemakerAiWorkloadConfig(scope constructs.Construct, id *string, config *DataAwsccSagemakerAiWorkloadConfigConfig) DataAwsccSagemakerAiWorkloadConfig {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccSagemakerAiWorkloadConfig(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_ai_workload_config awscc_sagemaker_ai_workload_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_ai_workload_config awscc_sagemaker_ai_workload_config} Data Source.
 func NewDataAwsccSagemakerAiWorkloadConfig_Override(d DataAwsccSagemakerAiWorkloadConfig, scope constructs.Construct, id *string, config *DataAwsccSagemakerAiWorkloadConfigConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package vpclatticeresourceconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/vpclatticeresourceconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/vpclatticeresourceconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/vpclattice_resource_configuration awscc_vpclattice_resource_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/vpclattice_resource_configuration awscc_vpclattice_resource_configuration}.
 type VpclatticeResourceConfiguration interface {
 	cdktn.TerraformResource
 	AllowAssociationToSharableServiceNetwork() interface{}
@@ -687,7 +687,7 @@ func (j *jsiiProxy_VpclatticeResourceConfiguration) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/vpclattice_resource_configuration awscc_vpclattice_resource_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/vpclattice_resource_configuration awscc_vpclattice_resource_configuration} Resource.
 func NewVpclatticeResourceConfiguration(scope constructs.Construct, id *string, config *VpclatticeResourceConfigurationConfig) VpclatticeResourceConfiguration {
 	_init_.Initialize()
 
@@ -705,7 +705,7 @@ func NewVpclatticeResourceConfiguration(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/vpclattice_resource_configuration awscc_vpclattice_resource_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/vpclattice_resource_configuration awscc_vpclattice_resource_configuration} Resource.
 func NewVpclatticeResourceConfiguration_Override(v VpclatticeResourceConfiguration, scope constructs.Construct, id *string, config *VpclatticeResourceConfigurationConfig) {
 	_init_.Initialize()
 

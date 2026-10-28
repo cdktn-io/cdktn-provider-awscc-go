@@ -5,14 +5,14 @@ package bcmdataexportsexport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmdataexportsexport/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmdataexportsexport/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmdataexports_export awscc_bcmdataexports_export}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmdataexports_export awscc_bcmdataexports_export}.
 type BcmdataexportsExport interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_BcmdataexportsExport) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmdataexports_export awscc_bcmdataexports_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmdataexports_export awscc_bcmdataexports_export} Resource.
 func NewBcmdataexportsExport(scope constructs.Construct, id *string, config *BcmdataexportsExportConfig) BcmdataexportsExport {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewBcmdataexportsExport(scope constructs.Construct, id *string, config *Bcm
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmdataexports_export awscc_bcmdataexports_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmdataexports_export awscc_bcmdataexports_export} Resource.
 func NewBcmdataexportsExport_Override(b BcmdataexportsExport, scope constructs.Construct, id *string, config *BcmdataexportsExportConfig) {
 	_init_.Initialize()
 

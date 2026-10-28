@@ -5,14 +5,14 @@ package dataawsccshieldprotections
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccshieldprotections/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccshieldprotections/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/shield_protections awscc_shield_protections}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/shield_protections awscc_shield_protections}.
 type DataAwsccShieldProtections interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccShieldProtections) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/shield_protections awscc_shield_protections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/shield_protections awscc_shield_protections} Data Source.
 func NewDataAwsccShieldProtections(scope constructs.Construct, id *string, config *DataAwsccShieldProtectionsConfig) DataAwsccShieldProtections {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccShieldProtections(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/shield_protections awscc_shield_protections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/shield_protections awscc_shield_protections} Data Source.
 func NewDataAwsccShieldProtections_Override(d DataAwsccShieldProtections, scope constructs.Construct, id *string, config *DataAwsccShieldProtectionsConfig) {
 	_init_.Initialize()
 

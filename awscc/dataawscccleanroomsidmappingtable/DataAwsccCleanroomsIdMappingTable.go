@@ -5,14 +5,14 @@ package dataawscccleanroomsidmappingtable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsidmappingtable/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsidmappingtable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_id_mapping_table awscc_cleanrooms_id_mapping_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_id_mapping_table awscc_cleanrooms_id_mapping_table}.
 type DataAwsccCleanroomsIdMappingTable interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccCleanroomsIdMappingTable) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_id_mapping_table awscc_cleanrooms_id_mapping_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_id_mapping_table awscc_cleanrooms_id_mapping_table} Data Source.
 func NewDataAwsccCleanroomsIdMappingTable(scope constructs.Construct, id *string, config *DataAwsccCleanroomsIdMappingTableConfig) DataAwsccCleanroomsIdMappingTable {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccCleanroomsIdMappingTable(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_id_mapping_table awscc_cleanrooms_id_mapping_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_id_mapping_table awscc_cleanrooms_id_mapping_table} Data Source.
 func NewDataAwsccCleanroomsIdMappingTable_Override(d DataAwsccCleanroomsIdMappingTable, scope constructs.Construct, id *string, config *DataAwsccCleanroomsIdMappingTableConfig) {
 	_init_.Initialize()
 

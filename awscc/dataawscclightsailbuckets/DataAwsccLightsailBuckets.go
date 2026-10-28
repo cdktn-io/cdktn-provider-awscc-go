@@ -5,14 +5,14 @@ package dataawscclightsailbuckets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailbuckets/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailbuckets/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_buckets awscc_lightsail_buckets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_buckets awscc_lightsail_buckets}.
 type DataAwsccLightsailBuckets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLightsailBuckets) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_buckets awscc_lightsail_buckets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_buckets awscc_lightsail_buckets} Data Source.
 func NewDataAwsccLightsailBuckets(scope constructs.Construct, id *string, config *DataAwsccLightsailBucketsConfig) DataAwsccLightsailBuckets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLightsailBuckets(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_buckets awscc_lightsail_buckets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_buckets awscc_lightsail_buckets} Data Source.
 func NewDataAwsccLightsailBuckets_Override(d DataAwsccLightsailBuckets, scope constructs.Construct, id *string, config *DataAwsccLightsailBucketsConfig) {
 	_init_.Initialize()
 

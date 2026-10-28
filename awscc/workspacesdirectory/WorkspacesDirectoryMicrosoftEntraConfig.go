@@ -7,11 +7,11 @@ package workspacesdirectory
 type WorkspacesDirectoryMicrosoftEntraConfig struct {
 	// The Amazon Resource Name (ARN) of the application config.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#application_config_secret_arn WorkspacesDirectory#application_config_secret_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#application_config_secret_arn WorkspacesDirectory#application_config_secret_arn}
 	ApplicationConfigSecretArn *string `field:"optional" json:"applicationConfigSecretArn" yaml:"applicationConfigSecretArn"`
 	// The identifier of the tenant.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#tenant_id WorkspacesDirectory#tenant_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#tenant_id WorkspacesDirectory#tenant_id}
 	TenantId *string `field:"optional" json:"tenantId" yaml:"tenantId"`
 }
 

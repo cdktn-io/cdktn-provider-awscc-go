@@ -79,11 +79,23 @@ func (h *jsiiProxy_HealthlakeFhirDatastore) validateOverrideLogicalIdParameters(
 	return nil
 }
 
+func (h *jsiiProxy_HealthlakeFhirDatastore) validatePutAnalyticsConfigurationParameters(value *HealthlakeFhirDatastoreAnalyticsConfiguration) error {
+	return nil
+}
+
 func (h *jsiiProxy_HealthlakeFhirDatastore) validatePutIdentityProviderConfigurationParameters(value *HealthlakeFhirDatastoreIdentityProviderConfiguration) error {
 	return nil
 }
 
+func (h *jsiiProxy_HealthlakeFhirDatastore) validatePutNlpConfigurationParameters(value *HealthlakeFhirDatastoreNlpConfiguration) error {
+	return nil
+}
+
 func (h *jsiiProxy_HealthlakeFhirDatastore) validatePutPreloadDataConfigParameters(value *HealthlakeFhirDatastorePreloadDataConfig) error {
+	return nil
+}
+
+func (h *jsiiProxy_HealthlakeFhirDatastore) validatePutProfileConfigurationParameters(value *HealthlakeFhirDatastoreProfileConfiguration) error {
 	return nil
 }
 

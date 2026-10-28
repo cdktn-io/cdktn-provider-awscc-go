@@ -5,14 +5,14 @@ package globalacceleratorcrossaccountattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/globalacceleratorcrossaccountattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/globalacceleratorcrossaccountattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/globalaccelerator_cross_account_attachment awscc_globalaccelerator_cross_account_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/globalaccelerator_cross_account_attachment awscc_globalaccelerator_cross_account_attachment}.
 type GlobalacceleratorCrossAccountAttachment interface {
 	cdktn.TerraformResource
 	AttachmentArn() *string
@@ -461,7 +461,7 @@ func (j *jsiiProxy_GlobalacceleratorCrossAccountAttachment) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/globalaccelerator_cross_account_attachment awscc_globalaccelerator_cross_account_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/globalaccelerator_cross_account_attachment awscc_globalaccelerator_cross_account_attachment} Resource.
 func NewGlobalacceleratorCrossAccountAttachment(scope constructs.Construct, id *string, config *GlobalacceleratorCrossAccountAttachmentConfig) GlobalacceleratorCrossAccountAttachment {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewGlobalacceleratorCrossAccountAttachment(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/globalaccelerator_cross_account_attachment awscc_globalaccelerator_cross_account_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/globalaccelerator_cross_account_attachment awscc_globalaccelerator_cross_account_attachment} Resource.
 func NewGlobalacceleratorCrossAccountAttachment_Override(g GlobalacceleratorCrossAccountAttachment, scope constructs.Construct, id *string, config *GlobalacceleratorCrossAccountAttachmentConfig) {
 	_init_.Initialize()
 

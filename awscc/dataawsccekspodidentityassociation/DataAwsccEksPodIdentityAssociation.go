@@ -5,14 +5,14 @@ package dataawsccekspodidentityassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccekspodidentityassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccekspodidentityassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eks_pod_identity_association awscc_eks_pod_identity_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eks_pod_identity_association awscc_eks_pod_identity_association}.
 type DataAwsccEksPodIdentityAssociation interface {
 	cdktn.TerraformDataSource
 	AssociationArn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccEksPodIdentityAssociation) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eks_pod_identity_association awscc_eks_pod_identity_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eks_pod_identity_association awscc_eks_pod_identity_association} Data Source.
 func NewDataAwsccEksPodIdentityAssociation(scope constructs.Construct, id *string, config *DataAwsccEksPodIdentityAssociationConfig) DataAwsccEksPodIdentityAssociation {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccEksPodIdentityAssociation(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eks_pod_identity_association awscc_eks_pod_identity_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eks_pod_identity_association awscc_eks_pod_identity_association} Data Source.
 func NewDataAwsccEksPodIdentityAssociation_Override(d DataAwsccEksPodIdentityAssociation, scope constructs.Construct, id *string, config *DataAwsccEksPodIdentityAssociationConfig) {
 	_init_.Initialize()
 

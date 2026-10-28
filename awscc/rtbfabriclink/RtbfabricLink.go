@@ -5,14 +5,14 @@ package rtbfabriclink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rtbfabriclink/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rtbfabriclink/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rtbfabric_link awscc_rtbfabric_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rtbfabric_link awscc_rtbfabric_link}.
 type RtbfabricLink interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -586,7 +586,7 @@ func (j *jsiiProxy_RtbfabricLink) UpdatedTimestamp() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rtbfabric_link awscc_rtbfabric_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rtbfabric_link awscc_rtbfabric_link} Resource.
 func NewRtbfabricLink(scope constructs.Construct, id *string, config *RtbfabricLinkConfig) RtbfabricLink {
 	_init_.Initialize()
 
@@ -604,7 +604,7 @@ func NewRtbfabricLink(scope constructs.Construct, id *string, config *RtbfabricL
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rtbfabric_link awscc_rtbfabric_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rtbfabric_link awscc_rtbfabric_link} Resource.
 func NewRtbfabricLink_Override(r RtbfabricLink, scope constructs.Construct, id *string, config *RtbfabricLinkConfig) {
 	_init_.Initialize()
 

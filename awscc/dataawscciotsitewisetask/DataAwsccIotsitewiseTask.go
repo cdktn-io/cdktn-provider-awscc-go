@@ -5,14 +5,14 @@ package dataawscciotsitewisetask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewisetask/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewisetask/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_task awscc_iotsitewise_task}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_task awscc_iotsitewise_task}.
 type DataAwsccIotsitewiseTask interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccIotsitewiseTask) WorkspaceName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_task awscc_iotsitewise_task} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_task awscc_iotsitewise_task} Data Source.
 func NewDataAwsccIotsitewiseTask(scope constructs.Construct, id *string, config *DataAwsccIotsitewiseTaskConfig) DataAwsccIotsitewiseTask {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccIotsitewiseTask(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_task awscc_iotsitewise_task} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_task awscc_iotsitewise_task} Data Source.
 func NewDataAwsccIotsitewiseTask_Override(d DataAwsccIotsitewiseTask, scope constructs.Construct, id *string, config *DataAwsccIotsitewiseTaskConfig) {
 	_init_.Initialize()
 

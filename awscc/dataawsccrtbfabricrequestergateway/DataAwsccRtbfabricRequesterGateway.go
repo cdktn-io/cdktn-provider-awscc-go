@@ -5,14 +5,14 @@ package dataawsccrtbfabricrequestergateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricrequestergateway/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricrequestergateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_requester_gateway awscc_rtbfabric_requester_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_requester_gateway awscc_rtbfabric_requester_gateway}.
 type DataAwsccRtbfabricRequesterGateway interface {
 	cdktn.TerraformDataSource
 	ActiveLinksCount() *float64
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccRtbfabricRequesterGateway) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_requester_gateway awscc_rtbfabric_requester_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_requester_gateway awscc_rtbfabric_requester_gateway} Data Source.
 func NewDataAwsccRtbfabricRequesterGateway(scope constructs.Construct, id *string, config *DataAwsccRtbfabricRequesterGatewayConfig) DataAwsccRtbfabricRequesterGateway {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccRtbfabricRequesterGateway(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_requester_gateway awscc_rtbfabric_requester_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_requester_gateway awscc_rtbfabric_requester_gateway} Data Source.
 func NewDataAwsccRtbfabricRequesterGateway_Override(d DataAwsccRtbfabricRequesterGateway, scope constructs.Construct, id *string, config *DataAwsccRtbfabricRequesterGatewayConfig) {
 	_init_.Initialize()
 

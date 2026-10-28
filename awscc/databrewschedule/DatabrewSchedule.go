@@ -5,14 +5,14 @@ package databrewschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/databrewschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/databrewschedule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_schedule awscc_databrew_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_schedule awscc_databrew_schedule}.
 type DatabrewSchedule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_DatabrewSchedule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_schedule awscc_databrew_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_schedule awscc_databrew_schedule} Resource.
 func NewDatabrewSchedule(scope constructs.Construct, id *string, config *DatabrewScheduleConfig) DatabrewSchedule {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewDatabrewSchedule(scope constructs.Construct, id *string, config *Databre
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/databrew_schedule awscc_databrew_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/databrew_schedule awscc_databrew_schedule} Resource.
 func NewDatabrewSchedule_Override(d DatabrewSchedule, scope constructs.Construct, id *string, config *DatabrewScheduleConfig) {
 	_init_.Initialize()
 

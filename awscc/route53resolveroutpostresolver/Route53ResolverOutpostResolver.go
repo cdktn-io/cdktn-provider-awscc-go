@@ -5,14 +5,14 @@ package route53resolveroutpostresolver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53resolveroutpostresolver/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53resolveroutpostresolver/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver}.
 type Route53ResolverOutpostResolver interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -549,7 +549,7 @@ func (j *jsiiProxy_Route53ResolverOutpostResolver) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver} Resource.
 func NewRoute53ResolverOutpostResolver(scope constructs.Construct, id *string, config *Route53ResolverOutpostResolverConfig) Route53ResolverOutpostResolver {
 	_init_.Initialize()
 
@@ -567,7 +567,7 @@ func NewRoute53ResolverOutpostResolver(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_outpost_resolver awscc_route53resolver_outpost_resolver} Resource.
 func NewRoute53ResolverOutpostResolver_Override(r Route53ResolverOutpostResolver, scope constructs.Construct, id *string, config *Route53ResolverOutpostResolverConfig) {
 	_init_.Initialize()
 

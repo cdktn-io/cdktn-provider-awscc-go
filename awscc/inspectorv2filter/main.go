@@ -793,6 +793,70 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCount",
+		reflect.TypeOf((*Inspectorv2FilterFilterCriteriaEcrImageInUseCount)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountList",
+		reflect.TypeOf((*Inspectorv2FilterFilterCriteriaEcrImageInUseCountList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_Inspectorv2FilterFilterCriteriaEcrImageInUseCountList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference",
+		reflect.TypeOf((*Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lowerInclusive", GoGetter: "LowerInclusive"},
+			_jsii_.MemberProperty{JsiiProperty: "lowerInclusiveInput", GoGetter: "LowerInclusiveInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetLowerInclusive", GoMethod: "ResetLowerInclusive"},
+			_jsii_.MemberMethod{JsiiMethod: "resetUpperInclusive", GoMethod: "ResetUpperInclusive"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "upperInclusive", GoGetter: "UpperInclusive"},
+			_jsii_.MemberProperty{JsiiProperty: "upperInclusiveInput", GoGetter: "UpperInclusiveInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_Inspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-awscc.inspectorv2Filter.Inspectorv2FilterFilterCriteriaEcrImagePushedAt",
 		reflect.TypeOf((*Inspectorv2FilterFilterCriteriaEcrImagePushedAt)(nil)).Elem(),
 	)
@@ -2038,6 +2102,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ecrImageArchitectureInput", GoGetter: "EcrImageArchitectureInput"},
 			_jsii_.MemberProperty{JsiiProperty: "ecrImageHash", GoGetter: "EcrImageHash"},
 			_jsii_.MemberProperty{JsiiProperty: "ecrImageHashInput", GoGetter: "EcrImageHashInput"},
+			_jsii_.MemberProperty{JsiiProperty: "ecrImageInUseCount", GoGetter: "EcrImageInUseCount"},
+			_jsii_.MemberProperty{JsiiProperty: "ecrImageInUseCountInput", GoGetter: "EcrImageInUseCountInput"},
 			_jsii_.MemberProperty{JsiiProperty: "ecrImagePushedAt", GoGetter: "EcrImagePushedAt"},
 			_jsii_.MemberProperty{JsiiProperty: "ecrImagePushedAtInput", GoGetter: "EcrImagePushedAtInput"},
 			_jsii_.MemberProperty{JsiiProperty: "ecrImageRegistry", GoGetter: "EcrImageRegistry"},
@@ -2102,6 +2168,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putEc2InstanceVpcId", GoMethod: "PutEc2InstanceVpcId"},
 			_jsii_.MemberMethod{JsiiMethod: "putEcrImageArchitecture", GoMethod: "PutEcrImageArchitecture"},
 			_jsii_.MemberMethod{JsiiMethod: "putEcrImageHash", GoMethod: "PutEcrImageHash"},
+			_jsii_.MemberMethod{JsiiMethod: "putEcrImageInUseCount", GoMethod: "PutEcrImageInUseCount"},
 			_jsii_.MemberMethod{JsiiMethod: "putEcrImagePushedAt", GoMethod: "PutEcrImagePushedAt"},
 			_jsii_.MemberMethod{JsiiMethod: "putEcrImageRegistry", GoMethod: "PutEcrImageRegistry"},
 			_jsii_.MemberMethod{JsiiMethod: "putEcrImageRepositoryName", GoMethod: "PutEcrImageRepositoryName"},
@@ -2146,6 +2213,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetEc2InstanceVpcId", GoMethod: "ResetEc2InstanceVpcId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEcrImageArchitecture", GoMethod: "ResetEcrImageArchitecture"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEcrImageHash", GoMethod: "ResetEcrImageHash"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEcrImageInUseCount", GoMethod: "ResetEcrImageInUseCount"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEcrImagePushedAt", GoMethod: "ResetEcrImagePushedAt"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEcrImageRegistry", GoMethod: "ResetEcrImageRegistry"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEcrImageRepositoryName", GoMethod: "ResetEcrImageRepositoryName"},

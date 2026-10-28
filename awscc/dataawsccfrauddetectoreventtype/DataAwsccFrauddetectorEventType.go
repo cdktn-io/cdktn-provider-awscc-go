@@ -5,14 +5,14 @@ package dataawsccfrauddetectoreventtype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectoreventtype/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectoreventtype/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/frauddetector_event_type awscc_frauddetector_event_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/frauddetector_event_type awscc_frauddetector_event_type}.
 type DataAwsccFrauddetectorEventType interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccFrauddetectorEventType) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/frauddetector_event_type awscc_frauddetector_event_type} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/frauddetector_event_type awscc_frauddetector_event_type} Data Source.
 func NewDataAwsccFrauddetectorEventType(scope constructs.Construct, id *string, config *DataAwsccFrauddetectorEventTypeConfig) DataAwsccFrauddetectorEventType {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccFrauddetectorEventType(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/frauddetector_event_type awscc_frauddetector_event_type} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/frauddetector_event_type awscc_frauddetector_event_type} Data Source.
 func NewDataAwsccFrauddetectorEventType_Override(d DataAwsccFrauddetectorEventType, scope constructs.Construct, id *string, config *DataAwsccFrauddetectorEventTypeConfig) {
 	_init_.Initialize()
 

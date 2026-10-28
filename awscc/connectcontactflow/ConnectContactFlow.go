@@ -5,14 +5,14 @@ package connectcontactflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcontactflow/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcontactflow/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow awscc_connect_contact_flow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow awscc_connect_contact_flow}.
 type ConnectContactFlow interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -530,7 +530,7 @@ func (j *jsiiProxy_ConnectContactFlow) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow awscc_connect_contact_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow awscc_connect_contact_flow} Resource.
 func NewConnectContactFlow(scope constructs.Construct, id *string, config *ConnectContactFlowConfig) ConnectContactFlow {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewConnectContactFlow(scope constructs.Construct, id *string, config *Conne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow awscc_connect_contact_flow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow awscc_connect_contact_flow} Resource.
 func NewConnectContactFlow_Override(c ConnectContactFlow, scope constructs.Construct, id *string, config *ConnectContactFlowConfig) {
 	_init_.Initialize()
 

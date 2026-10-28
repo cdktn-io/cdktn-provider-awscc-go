@@ -5,14 +5,14 @@ package dataawsccb2bitransformers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bitransformers/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bitransformers/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_transformers awscc_b2bi_transformers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_transformers awscc_b2bi_transformers}.
 type DataAwsccB2BiTransformers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccB2BiTransformers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_transformers awscc_b2bi_transformers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_transformers awscc_b2bi_transformers} Data Source.
 func NewDataAwsccB2BiTransformers(scope constructs.Construct, id *string, config *DataAwsccB2BiTransformersConfig) DataAwsccB2BiTransformers {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccB2BiTransformers(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_transformers awscc_b2bi_transformers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_transformers awscc_b2bi_transformers} Data Source.
 func NewDataAwsccB2BiTransformers_Override(d DataAwsccB2BiTransformers, scope constructs.Construct, id *string, config *DataAwsccB2BiTransformersConfig) {
 	_init_.Initialize()
 

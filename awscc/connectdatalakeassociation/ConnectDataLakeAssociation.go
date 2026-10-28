@@ -5,14 +5,14 @@ package connectdatalakeassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectdatalakeassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectdatalakeassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_lake_association awscc_connect_data_lake_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_lake_association awscc_connect_data_lake_association}.
 type ConnectDataLakeAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_ConnectDataLakeAssociation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_lake_association awscc_connect_data_lake_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_lake_association awscc_connect_data_lake_association} Resource.
 func NewConnectDataLakeAssociation(scope constructs.Construct, id *string, config *ConnectDataLakeAssociationConfig) ConnectDataLakeAssociation {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewConnectDataLakeAssociation(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_lake_association awscc_connect_data_lake_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_lake_association awscc_connect_data_lake_association} Resource.
 func NewConnectDataLakeAssociation_Override(c ConnectDataLakeAssociation, scope constructs.Construct, id *string, config *ConnectDataLakeAssociationConfig) {
 	_init_.Initialize()
 

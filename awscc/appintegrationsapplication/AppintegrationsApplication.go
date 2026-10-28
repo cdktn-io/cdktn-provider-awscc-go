@@ -5,14 +5,14 @@ package appintegrationsapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appintegrationsapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appintegrationsapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appintegrations_application awscc_appintegrations_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appintegrations_application awscc_appintegrations_application}.
 type AppintegrationsApplication interface {
 	cdktn.TerraformResource
 	ApplicationArn() *string
@@ -638,7 +638,7 @@ func (j *jsiiProxy_AppintegrationsApplication) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appintegrations_application awscc_appintegrations_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appintegrations_application awscc_appintegrations_application} Resource.
 func NewAppintegrationsApplication(scope constructs.Construct, id *string, config *AppintegrationsApplicationConfig) AppintegrationsApplication {
 	_init_.Initialize()
 
@@ -656,7 +656,7 @@ func NewAppintegrationsApplication(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appintegrations_application awscc_appintegrations_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appintegrations_application awscc_appintegrations_application} Resource.
 func NewAppintegrationsApplication_Override(a AppintegrationsApplication, scope constructs.Construct, id *string, config *AppintegrationsApplicationConfig) {
 	_init_.Initialize()
 

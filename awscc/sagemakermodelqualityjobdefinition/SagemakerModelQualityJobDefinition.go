@@ -5,14 +5,14 @@ package sagemakermodelqualityjobdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakermodelqualityjobdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakermodelqualityjobdefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_model_quality_job_definition awscc_sagemaker_model_quality_job_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_model_quality_job_definition awscc_sagemaker_model_quality_job_definition}.
 type SagemakerModelQualityJobDefinition interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -636,7 +636,7 @@ func (j *jsiiProxy_SagemakerModelQualityJobDefinition) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_model_quality_job_definition awscc_sagemaker_model_quality_job_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_model_quality_job_definition awscc_sagemaker_model_quality_job_definition} Resource.
 func NewSagemakerModelQualityJobDefinition(scope constructs.Construct, id *string, config *SagemakerModelQualityJobDefinitionConfig) SagemakerModelQualityJobDefinition {
 	_init_.Initialize()
 
@@ -654,7 +654,7 @@ func NewSagemakerModelQualityJobDefinition(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_model_quality_job_definition awscc_sagemaker_model_quality_job_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_model_quality_job_definition awscc_sagemaker_model_quality_job_definition} Resource.
 func NewSagemakerModelQualityJobDefinition_Override(s SagemakerModelQualityJobDefinition, scope constructs.Construct, id *string, config *SagemakerModelQualityJobDefinitionConfig) {
 	_init_.Initialize()
 

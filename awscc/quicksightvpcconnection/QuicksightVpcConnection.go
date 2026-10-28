@@ -5,14 +5,14 @@ package quicksightvpcconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightvpcconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightvpcconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_vpc_connection awscc_quicksight_vpc_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_vpc_connection awscc_quicksight_vpc_connection}.
 type QuicksightVpcConnection interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -637,7 +637,7 @@ func (j *jsiiProxy_QuicksightVpcConnection) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_vpc_connection awscc_quicksight_vpc_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_vpc_connection awscc_quicksight_vpc_connection} Resource.
 func NewQuicksightVpcConnection(scope constructs.Construct, id *string, config *QuicksightVpcConnectionConfig) QuicksightVpcConnection {
 	_init_.Initialize()
 
@@ -655,7 +655,7 @@ func NewQuicksightVpcConnection(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_vpc_connection awscc_quicksight_vpc_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_vpc_connection awscc_quicksight_vpc_connection} Resource.
 func NewQuicksightVpcConnection_Override(q QuicksightVpcConnection, scope constructs.Construct, id *string, config *QuicksightVpcConnectionConfig) {
 	_init_.Initialize()
 

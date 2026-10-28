@@ -5,14 +5,14 @@ package dataawscciotjobs
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotjobs/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotjobs/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_jobs awscc_iot_jobs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_jobs awscc_iot_jobs}.
 type DataAwsccIotJobs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotJobs) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_jobs awscc_iot_jobs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_jobs awscc_iot_jobs} Data Source.
 func NewDataAwsccIotJobs(scope constructs.Construct, id *string, config *DataAwsccIotJobsConfig) DataAwsccIotJobs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotJobs(scope constructs.Construct, id *string, config *DataAws
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_jobs awscc_iot_jobs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_jobs awscc_iot_jobs} Data Source.
 func NewDataAwsccIotJobs_Override(d DataAwsccIotJobs, scope constructs.Construct, id *string, config *DataAwsccIotJobsConfig) {
 	_init_.Initialize()
 

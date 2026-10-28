@@ -5,14 +5,14 @@ package bedrockknowledgebase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebase/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebase/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base awscc_bedrock_knowledge_base}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base awscc_bedrock_knowledge_base}.
 type BedrockKnowledgeBase interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -562,7 +562,7 @@ func (j *jsiiProxy_BedrockKnowledgeBase) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base awscc_bedrock_knowledge_base} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base awscc_bedrock_knowledge_base} Resource.
 func NewBedrockKnowledgeBase(scope constructs.Construct, id *string, config *BedrockKnowledgeBaseConfig) BedrockKnowledgeBase {
 	_init_.Initialize()
 
@@ -580,7 +580,7 @@ func NewBedrockKnowledgeBase(scope constructs.Construct, id *string, config *Bed
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base awscc_bedrock_knowledge_base} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base awscc_bedrock_knowledge_base} Resource.
 func NewBedrockKnowledgeBase_Override(b BedrockKnowledgeBase, scope constructs.Construct, id *string, config *BedrockKnowledgeBaseConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package networkfirewallloggingconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkfirewallloggingconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkfirewallloggingconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_logging_configuration awscc_networkfirewall_logging_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_logging_configuration awscc_networkfirewall_logging_configuration}.
 type NetworkfirewallLoggingConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_NetworkfirewallLoggingConfiguration) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_logging_configuration awscc_networkfirewall_logging_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_logging_configuration awscc_networkfirewall_logging_configuration} Resource.
 func NewNetworkfirewallLoggingConfiguration(scope constructs.Construct, id *string, config *NetworkfirewallLoggingConfigurationConfig) NetworkfirewallLoggingConfiguration {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewNetworkfirewallLoggingConfiguration(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_logging_configuration awscc_networkfirewall_logging_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_logging_configuration awscc_networkfirewall_logging_configuration} Resource.
 func NewNetworkfirewallLoggingConfiguration_Override(n NetworkfirewallLoggingConfiguration, scope constructs.Construct, id *string, config *NetworkfirewallLoggingConfigurationConfig) {
 	_init_.Initialize()
 

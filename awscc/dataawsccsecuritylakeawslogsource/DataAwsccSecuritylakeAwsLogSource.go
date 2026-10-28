@@ -5,14 +5,14 @@ package dataawsccsecuritylakeawslogsource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakeawslogsource/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakeawslogsource/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securitylake_aws_log_source awscc_securitylake_aws_log_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securitylake_aws_log_source awscc_securitylake_aws_log_source}.
 type DataAwsccSecuritylakeAwsLogSource interface {
 	cdktn.TerraformDataSource
 	Accounts() *[]*string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccSecuritylakeAwsLogSource) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securitylake_aws_log_source awscc_securitylake_aws_log_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securitylake_aws_log_source awscc_securitylake_aws_log_source} Data Source.
 func NewDataAwsccSecuritylakeAwsLogSource(scope constructs.Construct, id *string, config *DataAwsccSecuritylakeAwsLogSourceConfig) DataAwsccSecuritylakeAwsLogSource {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccSecuritylakeAwsLogSource(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securitylake_aws_log_source awscc_securitylake_aws_log_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securitylake_aws_log_source awscc_securitylake_aws_log_source} Data Source.
 func NewDataAwsccSecuritylakeAwsLogSource_Override(d DataAwsccSecuritylakeAwsLogSource, scope constructs.Construct, id *string, config *DataAwsccSecuritylakeAwsLogSourceConfig) {
 	_init_.Initialize()
 

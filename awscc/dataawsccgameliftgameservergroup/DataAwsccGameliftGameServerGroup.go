@@ -5,14 +5,14 @@ package dataawsccgameliftgameservergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftgameservergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftgameservergroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_game_server_group awscc_gamelift_game_server_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_game_server_group awscc_gamelift_game_server_group}.
 type DataAwsccGameliftGameServerGroup interface {
 	cdktn.TerraformDataSource
 	AutoScalingGroupArn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccGameliftGameServerGroup) VpcSubnets() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_game_server_group awscc_gamelift_game_server_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_game_server_group awscc_gamelift_game_server_group} Data Source.
 func NewDataAwsccGameliftGameServerGroup(scope constructs.Construct, id *string, config *DataAwsccGameliftGameServerGroupConfig) DataAwsccGameliftGameServerGroup {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccGameliftGameServerGroup(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_game_server_group awscc_gamelift_game_server_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_game_server_group awscc_gamelift_game_server_group} Data Source.
 func NewDataAwsccGameliftGameServerGroup_Override(d DataAwsccGameliftGameServerGroup, scope constructs.Construct, id *string, config *DataAwsccGameliftGameServerGroupConfig) {
 	_init_.Initialize()
 

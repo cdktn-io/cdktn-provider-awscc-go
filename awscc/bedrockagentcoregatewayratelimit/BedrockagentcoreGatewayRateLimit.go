@@ -5,14 +5,14 @@ package bedrockagentcoregatewayratelimit
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcoregatewayratelimit/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcoregatewayratelimit/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_gateway_rate_limit awscc_bedrockagentcore_gateway_rate_limit}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_gateway_rate_limit awscc_bedrockagentcore_gateway_rate_limit}.
 type BedrockagentcoreGatewayRateLimit interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -506,7 +506,7 @@ func (j *jsiiProxy_BedrockagentcoreGatewayRateLimit) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_gateway_rate_limit awscc_bedrockagentcore_gateway_rate_limit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_gateway_rate_limit awscc_bedrockagentcore_gateway_rate_limit} Resource.
 func NewBedrockagentcoreGatewayRateLimit(scope constructs.Construct, id *string, config *BedrockagentcoreGatewayRateLimitConfig) BedrockagentcoreGatewayRateLimit {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewBedrockagentcoreGatewayRateLimit(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_gateway_rate_limit awscc_bedrockagentcore_gateway_rate_limit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_gateway_rate_limit awscc_bedrockagentcore_gateway_rate_limit} Resource.
 func NewBedrockagentcoreGatewayRateLimit_Override(b BedrockagentcoreGatewayRateLimit, scope constructs.Construct, id *string, config *BedrockagentcoreGatewayRateLimitConfig) {
 	_init_.Initialize()
 

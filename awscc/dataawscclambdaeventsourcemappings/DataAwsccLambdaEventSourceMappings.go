@@ -5,14 +5,14 @@ package dataawscclambdaeventsourcemappings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdaeventsourcemappings/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdaeventsourcemappings/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_event_source_mappings awscc_lambda_event_source_mappings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_event_source_mappings awscc_lambda_event_source_mappings}.
 type DataAwsccLambdaEventSourceMappings interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLambdaEventSourceMappings) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_event_source_mappings awscc_lambda_event_source_mappings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_event_source_mappings awscc_lambda_event_source_mappings} Data Source.
 func NewDataAwsccLambdaEventSourceMappings(scope constructs.Construct, id *string, config *DataAwsccLambdaEventSourceMappingsConfig) DataAwsccLambdaEventSourceMappings {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLambdaEventSourceMappings(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_event_source_mappings awscc_lambda_event_source_mappings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_event_source_mappings awscc_lambda_event_source_mappings} Data Source.
 func NewDataAwsccLambdaEventSourceMappings_Override(d DataAwsccLambdaEventSourceMappings, scope constructs.Construct, id *string, config *DataAwsccLambdaEventSourceMappingsConfig) {
 	_init_.Initialize()
 

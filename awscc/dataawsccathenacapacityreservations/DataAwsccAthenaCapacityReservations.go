@@ -5,14 +5,14 @@ package dataawsccathenacapacityreservations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenacapacityreservations/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenacapacityreservations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/athena_capacity_reservations awscc_athena_capacity_reservations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/athena_capacity_reservations awscc_athena_capacity_reservations}.
 type DataAwsccAthenaCapacityReservations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccAthenaCapacityReservations) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/athena_capacity_reservations awscc_athena_capacity_reservations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/athena_capacity_reservations awscc_athena_capacity_reservations} Data Source.
 func NewDataAwsccAthenaCapacityReservations(scope constructs.Construct, id *string, config *DataAwsccAthenaCapacityReservationsConfig) DataAwsccAthenaCapacityReservations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccAthenaCapacityReservations(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/athena_capacity_reservations awscc_athena_capacity_reservations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/athena_capacity_reservations awscc_athena_capacity_reservations} Data Source.
 func NewDataAwsccAthenaCapacityReservations_Override(d DataAwsccAthenaCapacityReservations, scope constructs.Construct, id *string, config *DataAwsccAthenaCapacityReservationsConfig) {
 	_init_.Initialize()
 

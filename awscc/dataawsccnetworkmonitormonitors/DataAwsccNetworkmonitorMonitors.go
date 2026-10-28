@@ -5,14 +5,14 @@ package dataawsccnetworkmonitormonitors
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmonitormonitors/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmonitormonitors/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmonitor_monitors awscc_networkmonitor_monitors}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmonitor_monitors awscc_networkmonitor_monitors}.
 type DataAwsccNetworkmonitorMonitors interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNetworkmonitorMonitors) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmonitor_monitors awscc_networkmonitor_monitors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmonitor_monitors awscc_networkmonitor_monitors} Data Source.
 func NewDataAwsccNetworkmonitorMonitors(scope constructs.Construct, id *string, config *DataAwsccNetworkmonitorMonitorsConfig) DataAwsccNetworkmonitorMonitors {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNetworkmonitorMonitors(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmonitor_monitors awscc_networkmonitor_monitors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmonitor_monitors awscc_networkmonitor_monitors} Data Source.
 func NewDataAwsccNetworkmonitorMonitors_Override(d DataAwsccNetworkmonitorMonitors, scope constructs.Construct, id *string, config *DataAwsccNetworkmonitorMonitorsConfig) {
 	_init_.Initialize()
 

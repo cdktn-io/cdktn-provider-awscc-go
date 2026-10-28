@@ -5,14 +5,14 @@ package apsanomalydetector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsanomalydetector/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsanomalydetector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_anomaly_detector awscc_aps_anomaly_detector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_anomaly_detector awscc_aps_anomaly_detector}.
 type ApsAnomalyDetector interface {
 	cdktn.TerraformResource
 	Alias() *string
@@ -531,7 +531,7 @@ func (j *jsiiProxy_ApsAnomalyDetector) WorkspaceInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_anomaly_detector awscc_aps_anomaly_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_anomaly_detector awscc_aps_anomaly_detector} Resource.
 func NewApsAnomalyDetector(scope constructs.Construct, id *string, config *ApsAnomalyDetectorConfig) ApsAnomalyDetector {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewApsAnomalyDetector(scope constructs.Construct, id *string, config *ApsAn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_anomaly_detector awscc_aps_anomaly_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_anomaly_detector awscc_aps_anomaly_detector} Resource.
 func NewApsAnomalyDetector_Override(a ApsAnomalyDetector, scope constructs.Construct, id *string, config *ApsAnomalyDetectorConfig) {
 	_init_.Initialize()
 

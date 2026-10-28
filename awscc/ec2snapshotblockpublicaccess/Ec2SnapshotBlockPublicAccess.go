@@ -5,14 +5,14 @@ package ec2snapshotblockpublicaccess
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2snapshotblockpublicaccess/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2snapshotblockpublicaccess/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_snapshot_block_public_access awscc_ec2_snapshot_block_public_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_snapshot_block_public_access awscc_ec2_snapshot_block_public_access}.
 type Ec2SnapshotBlockPublicAccess interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -389,7 +389,7 @@ func (j *jsiiProxy_Ec2SnapshotBlockPublicAccess) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_snapshot_block_public_access awscc_ec2_snapshot_block_public_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_snapshot_block_public_access awscc_ec2_snapshot_block_public_access} Resource.
 func NewEc2SnapshotBlockPublicAccess(scope constructs.Construct, id *string, config *Ec2SnapshotBlockPublicAccessConfig) Ec2SnapshotBlockPublicAccess {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewEc2SnapshotBlockPublicAccess(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_snapshot_block_public_access awscc_ec2_snapshot_block_public_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_snapshot_block_public_access awscc_ec2_snapshot_block_public_access} Resource.
 func NewEc2SnapshotBlockPublicAccess_Override(e Ec2SnapshotBlockPublicAccess, scope constructs.Construct, id *string, config *Ec2SnapshotBlockPublicAccessConfig) {
 	_init_.Initialize()
 

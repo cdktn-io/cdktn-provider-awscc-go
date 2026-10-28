@@ -5,14 +5,14 @@ package datazonepolicygrant
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazonepolicygrant/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazonepolicygrant/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_policy_grant awscc_datazone_policy_grant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_policy_grant awscc_datazone_policy_grant}.
 type DatazonePolicyGrant interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -526,7 +526,7 @@ func (j *jsiiProxy_DatazonePolicyGrant) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_policy_grant awscc_datazone_policy_grant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_policy_grant awscc_datazone_policy_grant} Resource.
 func NewDatazonePolicyGrant(scope constructs.Construct, id *string, config *DatazonePolicyGrantConfig) DatazonePolicyGrant {
 	_init_.Initialize()
 
@@ -544,7 +544,7 @@ func NewDatazonePolicyGrant(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_policy_grant awscc_datazone_policy_grant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_policy_grant awscc_datazone_policy_grant} Resource.
 func NewDatazonePolicyGrant_Override(d DatazonePolicyGrant, scope constructs.Construct, id *string, config *DatazonePolicyGrantConfig) {
 	_init_.Initialize()
 

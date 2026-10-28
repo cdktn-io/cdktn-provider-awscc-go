@@ -5,14 +5,14 @@ package apigatewayusageplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayusageplan/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayusageplan/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_usage_plan awscc_apigateway_usage_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_usage_plan awscc_apigateway_usage_plan}.
 type ApigatewayUsagePlan interface {
 	cdktn.TerraformResource
 	ApiStages() ApigatewayUsagePlanApiStagesList
@@ -510,7 +510,7 @@ func (j *jsiiProxy_ApigatewayUsagePlan) UsagePlanNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_usage_plan awscc_apigateway_usage_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_usage_plan awscc_apigateway_usage_plan} Resource.
 func NewApigatewayUsagePlan(scope constructs.Construct, id *string, config *ApigatewayUsagePlanConfig) ApigatewayUsagePlan {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewApigatewayUsagePlan(scope constructs.Construct, id *string, config *Apig
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_usage_plan awscc_apigateway_usage_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_usage_plan awscc_apigateway_usage_plan} Resource.
 func NewApigatewayUsagePlan_Override(a ApigatewayUsagePlan, scope constructs.Construct, id *string, config *ApigatewayUsagePlanConfig) {
 	_init_.Initialize()
 

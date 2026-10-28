@@ -5,14 +5,14 @@ package batchconsumableresource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchconsumableresource/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchconsumableresource/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_consumable_resource awscc_batch_consumable_resource}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_consumable_resource awscc_batch_consumable_resource}.
 type BatchConsumableResource interface {
 	cdktn.TerraformResource
 	AvailableQuantity() *float64
@@ -493,7 +493,7 @@ func (j *jsiiProxy_BatchConsumableResource) TotalQuantityInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_consumable_resource awscc_batch_consumable_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_consumable_resource awscc_batch_consumable_resource} Resource.
 func NewBatchConsumableResource(scope constructs.Construct, id *string, config *BatchConsumableResourceConfig) BatchConsumableResource {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewBatchConsumableResource(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_consumable_resource awscc_batch_consumable_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_consumable_resource awscc_batch_consumable_resource} Resource.
 func NewBatchConsumableResource_Override(b BatchConsumableResource, scope constructs.Construct, id *string, config *BatchConsumableResourceConfig) {
 	_init_.Initialize()
 

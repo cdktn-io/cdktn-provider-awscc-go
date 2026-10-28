@@ -5,14 +5,14 @@ package inspectorassessmenttemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/inspectorassessmenttemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/inspectorassessmenttemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspector_assessment_template awscc_inspector_assessment_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspector_assessment_template awscc_inspector_assessment_template}.
 type InspectorAssessmentTemplate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -483,7 +483,7 @@ func (j *jsiiProxy_InspectorAssessmentTemplate) UserAttributesForFindingsInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspector_assessment_template awscc_inspector_assessment_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspector_assessment_template awscc_inspector_assessment_template} Resource.
 func NewInspectorAssessmentTemplate(scope constructs.Construct, id *string, config *InspectorAssessmentTemplateConfig) InspectorAssessmentTemplate {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewInspectorAssessmentTemplate(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/inspector_assessment_template awscc_inspector_assessment_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/inspector_assessment_template awscc_inspector_assessment_template} Resource.
 func NewInspectorAssessmentTemplate_Override(i InspectorAssessmentTemplate, scope constructs.Construct, id *string, config *InspectorAssessmentTemplateConfig) {
 	_init_.Initialize()
 

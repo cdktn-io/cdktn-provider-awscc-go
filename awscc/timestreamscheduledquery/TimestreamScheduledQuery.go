@@ -5,14 +5,14 @@ package timestreamscheduledquery
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/timestreamscheduledquery/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/timestreamscheduledquery/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query awscc_timestream_scheduled_query}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query awscc_timestream_scheduled_query}.
 type TimestreamScheduledQuery interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -689,7 +689,7 @@ func (j *jsiiProxy_TimestreamScheduledQuery) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query awscc_timestream_scheduled_query} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query awscc_timestream_scheduled_query} Resource.
 func NewTimestreamScheduledQuery(scope constructs.Construct, id *string, config *TimestreamScheduledQueryConfig) TimestreamScheduledQuery {
 	_init_.Initialize()
 
@@ -707,7 +707,7 @@ func NewTimestreamScheduledQuery(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/timestream_scheduled_query awscc_timestream_scheduled_query} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/timestream_scheduled_query awscc_timestream_scheduled_query} Resource.
 func NewTimestreamScheduledQuery_Override(t TimestreamScheduledQuery, scope constructs.Construct, id *string, config *TimestreamScheduledQueryConfig) {
 	_init_.Initialize()
 

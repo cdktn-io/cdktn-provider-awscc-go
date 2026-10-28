@@ -5,14 +5,14 @@ package guarddutyfilter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/guarddutyfilter/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/guarddutyfilter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/guardduty_filter awscc_guardduty_filter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_filter awscc_guardduty_filter}.
 type GuarddutyFilter interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GuarddutyFilter) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/guardduty_filter awscc_guardduty_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_filter awscc_guardduty_filter} Resource.
 func NewGuarddutyFilter(scope constructs.Construct, id *string, config *GuarddutyFilterConfig) GuarddutyFilter {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGuarddutyFilter(scope constructs.Construct, id *string, config *Guarddut
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/guardduty_filter awscc_guardduty_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_filter awscc_guardduty_filter} Resource.
 func NewGuarddutyFilter_Override(g GuarddutyFilter, scope constructs.Construct, id *string, config *GuarddutyFilterConfig) {
 	_init_.Initialize()
 

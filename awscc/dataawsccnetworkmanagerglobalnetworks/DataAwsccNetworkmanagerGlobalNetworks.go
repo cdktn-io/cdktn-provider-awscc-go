@@ -5,14 +5,14 @@ package dataawsccnetworkmanagerglobalnetworks
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagerglobalnetworks/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagerglobalnetworks/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_global_networks awscc_networkmanager_global_networks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_global_networks awscc_networkmanager_global_networks}.
 type DataAwsccNetworkmanagerGlobalNetworks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNetworkmanagerGlobalNetworks) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_global_networks awscc_networkmanager_global_networks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_global_networks awscc_networkmanager_global_networks} Data Source.
 func NewDataAwsccNetworkmanagerGlobalNetworks(scope constructs.Construct, id *string, config *DataAwsccNetworkmanagerGlobalNetworksConfig) DataAwsccNetworkmanagerGlobalNetworks {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNetworkmanagerGlobalNetworks(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_global_networks awscc_networkmanager_global_networks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_global_networks awscc_networkmanager_global_networks} Data Source.
 func NewDataAwsccNetworkmanagerGlobalNetworks_Override(d DataAwsccNetworkmanagerGlobalNetworks, scope constructs.Construct, id *string, config *DataAwsccNetworkmanagerGlobalNetworksConfig) {
 	_init_.Initialize()
 

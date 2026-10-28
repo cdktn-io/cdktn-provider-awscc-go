@@ -5,14 +5,14 @@ package dataawsccramresourceassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccramresourceassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccramresourceassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ram_resource_association awscc_ram_resource_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ram_resource_association awscc_ram_resource_association}.
 type DataAwsccRamResourceAssociation interface {
 	cdktn.TerraformDataSource
 	AssociationType() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccRamResourceAssociation) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ram_resource_association awscc_ram_resource_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ram_resource_association awscc_ram_resource_association} Data Source.
 func NewDataAwsccRamResourceAssociation(scope constructs.Construct, id *string, config *DataAwsccRamResourceAssociationConfig) DataAwsccRamResourceAssociation {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccRamResourceAssociation(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ram_resource_association awscc_ram_resource_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ram_resource_association awscc_ram_resource_association} Data Source.
 func NewDataAwsccRamResourceAssociation_Override(d DataAwsccRamResourceAssociation, scope constructs.Construct, id *string, config *DataAwsccRamResourceAssociationConfig) {
 	_init_.Initialize()
 

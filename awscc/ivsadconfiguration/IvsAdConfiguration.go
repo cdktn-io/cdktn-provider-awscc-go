@@ -5,14 +5,14 @@ package ivsadconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsadconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsadconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration awscc_ivs_ad_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration awscc_ivs_ad_configuration}.
 type IvsAdConfiguration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -461,7 +461,7 @@ func (j *jsiiProxy_IvsAdConfiguration) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration awscc_ivs_ad_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration awscc_ivs_ad_configuration} Resource.
 func NewIvsAdConfiguration(scope constructs.Construct, id *string, config *IvsAdConfigurationConfig) IvsAdConfiguration {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewIvsAdConfiguration(scope constructs.Construct, id *string, config *IvsAd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration awscc_ivs_ad_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration awscc_ivs_ad_configuration} Resource.
 func NewIvsAdConfiguration_Override(i IvsAdConfiguration, scope constructs.Construct, id *string, config *IvsAdConfigurationConfig) {
 	_init_.Initialize()
 

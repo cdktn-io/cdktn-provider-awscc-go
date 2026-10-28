@@ -5,14 +5,14 @@ package dataawsccconfigorganizationconfigrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconfigorganizationconfigrule/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconfigorganizationconfigrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_organization_config_rule awscc_config_organization_config_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_organization_config_rule awscc_config_organization_config_rule}.
 type DataAwsccConfigOrganizationConfigRule interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccConfigOrganizationConfigRule) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_organization_config_rule awscc_config_organization_config_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_organization_config_rule awscc_config_organization_config_rule} Data Source.
 func NewDataAwsccConfigOrganizationConfigRule(scope constructs.Construct, id *string, config *DataAwsccConfigOrganizationConfigRuleConfig) DataAwsccConfigOrganizationConfigRule {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccConfigOrganizationConfigRule(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_organization_config_rule awscc_config_organization_config_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/config_organization_config_rule awscc_config_organization_config_rule} Data Source.
 func NewDataAwsccConfigOrganizationConfigRule_Override(d DataAwsccConfigOrganizationConfigRule, scope constructs.Construct, id *string, config *DataAwsccConfigOrganizationConfigRuleConfig) {
 	_init_.Initialize()
 

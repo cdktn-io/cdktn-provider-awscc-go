@@ -5,14 +5,14 @@ package vpclatticelistener
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/vpclatticelistener/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/vpclatticelistener/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/vpclattice_listener awscc_vpclattice_listener}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/vpclattice_listener awscc_vpclattice_listener}.
 type VpclatticeListener interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -541,7 +541,7 @@ func (j *jsiiProxy_VpclatticeListener) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/vpclattice_listener awscc_vpclattice_listener} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/vpclattice_listener awscc_vpclattice_listener} Resource.
 func NewVpclatticeListener(scope constructs.Construct, id *string, config *VpclatticeListenerConfig) VpclatticeListener {
 	_init_.Initialize()
 
@@ -559,7 +559,7 @@ func NewVpclatticeListener(scope constructs.Construct, id *string, config *Vpcla
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/vpclattice_listener awscc_vpclattice_listener} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/vpclattice_listener awscc_vpclattice_listener} Resource.
 func NewVpclatticeListener_Override(v VpclatticeListener, scope constructs.Construct, id *string, config *VpclatticeListenerConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package iotsecuretunnelingtunnel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsecuretunnelingtunnel/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsecuretunnelingtunnel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsecuretunneling_tunnel awscc_iotsecuretunneling_tunnel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsecuretunneling_tunnel awscc_iotsecuretunneling_tunnel}.
 type IotsecuretunnelingTunnel interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_IotsecuretunnelingTunnel) TunnelId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsecuretunneling_tunnel awscc_iotsecuretunneling_tunnel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsecuretunneling_tunnel awscc_iotsecuretunneling_tunnel} Resource.
 func NewIotsecuretunnelingTunnel(scope constructs.Construct, id *string, config *IotsecuretunnelingTunnelConfig) IotsecuretunnelingTunnel {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewIotsecuretunnelingTunnel(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsecuretunneling_tunnel awscc_iotsecuretunneling_tunnel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsecuretunneling_tunnel awscc_iotsecuretunneling_tunnel} Resource.
 func NewIotsecuretunnelingTunnel_Override(i IotsecuretunnelingTunnel, scope constructs.Construct, id *string, config *IotsecuretunnelingTunnelConfig) {
 	_init_.Initialize()
 

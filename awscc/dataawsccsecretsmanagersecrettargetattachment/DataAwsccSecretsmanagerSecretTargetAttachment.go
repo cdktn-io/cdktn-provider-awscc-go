@@ -5,14 +5,14 @@ package dataawsccsecretsmanagersecrettargetattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecretsmanagersecrettargetattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecretsmanagersecrettargetattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/secretsmanager_secret_target_attachment awscc_secretsmanager_secret_target_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/secretsmanager_secret_target_attachment awscc_secretsmanager_secret_target_attachment}.
 type DataAwsccSecretsmanagerSecretTargetAttachment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccSecretsmanagerSecretTargetAttachment) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/secretsmanager_secret_target_attachment awscc_secretsmanager_secret_target_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/secretsmanager_secret_target_attachment awscc_secretsmanager_secret_target_attachment} Data Source.
 func NewDataAwsccSecretsmanagerSecretTargetAttachment(scope constructs.Construct, id *string, config *DataAwsccSecretsmanagerSecretTargetAttachmentConfig) DataAwsccSecretsmanagerSecretTargetAttachment {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccSecretsmanagerSecretTargetAttachment(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/secretsmanager_secret_target_attachment awscc_secretsmanager_secret_target_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/secretsmanager_secret_target_attachment awscc_secretsmanager_secret_target_attachment} Data Source.
 func NewDataAwsccSecretsmanagerSecretTargetAttachment_Override(d DataAwsccSecretsmanagerSecretTargetAttachment, scope constructs.Construct, id *string, config *DataAwsccSecretsmanagerSecretTargetAttachmentConfig) {
 	_init_.Initialize()
 

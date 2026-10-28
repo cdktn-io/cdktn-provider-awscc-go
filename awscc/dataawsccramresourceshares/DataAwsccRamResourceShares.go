@@ -5,14 +5,14 @@ package dataawsccramresourceshares
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccramresourceshares/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccramresourceshares/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ram_resource_shares awscc_ram_resource_shares}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ram_resource_shares awscc_ram_resource_shares}.
 type DataAwsccRamResourceShares interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRamResourceShares) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ram_resource_shares awscc_ram_resource_shares} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ram_resource_shares awscc_ram_resource_shares} Data Source.
 func NewDataAwsccRamResourceShares(scope constructs.Construct, id *string, config *DataAwsccRamResourceSharesConfig) DataAwsccRamResourceShares {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRamResourceShares(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ram_resource_shares awscc_ram_resource_shares} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ram_resource_shares awscc_ram_resource_shares} Data Source.
 func NewDataAwsccRamResourceShares_Override(d DataAwsccRamResourceShares, scope constructs.Construct, id *string, config *DataAwsccRamResourceSharesConfig) {
 	_init_.Initialize()
 

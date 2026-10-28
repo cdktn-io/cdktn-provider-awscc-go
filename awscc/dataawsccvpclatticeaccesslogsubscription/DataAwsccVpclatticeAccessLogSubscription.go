@@ -5,14 +5,14 @@ package dataawsccvpclatticeaccesslogsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeaccesslogsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeaccesslogsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_access_log_subscription awscc_vpclattice_access_log_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_access_log_subscription awscc_vpclattice_access_log_subscription}.
 type DataAwsccVpclatticeAccessLogSubscription interface {
 	cdktn.TerraformDataSource
 	AccessLogSubscriptionId() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccVpclatticeAccessLogSubscription) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_access_log_subscription awscc_vpclattice_access_log_subscription} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_access_log_subscription awscc_vpclattice_access_log_subscription} Data Source.
 func NewDataAwsccVpclatticeAccessLogSubscription(scope constructs.Construct, id *string, config *DataAwsccVpclatticeAccessLogSubscriptionConfig) DataAwsccVpclatticeAccessLogSubscription {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccVpclatticeAccessLogSubscription(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_access_log_subscription awscc_vpclattice_access_log_subscription} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_access_log_subscription awscc_vpclattice_access_log_subscription} Data Source.
 func NewDataAwsccVpclatticeAccessLogSubscription_Override(d DataAwsccVpclatticeAccessLogSubscription, scope constructs.Construct, id *string, config *DataAwsccVpclatticeAccessLogSubscriptionConfig) {
 	_init_.Initialize()
 

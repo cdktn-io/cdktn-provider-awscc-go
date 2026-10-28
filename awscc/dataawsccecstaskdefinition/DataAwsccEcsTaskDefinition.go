@@ -5,14 +5,14 @@ package dataawsccecstaskdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecstaskdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecstaskdefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_task_definition awscc_ecs_task_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_task_definition awscc_ecs_task_definition}.
 type DataAwsccEcsTaskDefinition interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -495,7 +495,7 @@ func (j *jsiiProxy_DataAwsccEcsTaskDefinition) Volumes() DataAwsccEcsTaskDefinit
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_task_definition awscc_ecs_task_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_task_definition awscc_ecs_task_definition} Data Source.
 func NewDataAwsccEcsTaskDefinition(scope constructs.Construct, id *string, config *DataAwsccEcsTaskDefinitionConfig) DataAwsccEcsTaskDefinition {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewDataAwsccEcsTaskDefinition(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_task_definition awscc_ecs_task_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_task_definition awscc_ecs_task_definition} Data Source.
 func NewDataAwsccEcsTaskDefinition_Override(d DataAwsccEcsTaskDefinition, scope constructs.Construct, id *string, config *DataAwsccEcsTaskDefinitionConfig) {
 	_init_.Initialize()
 

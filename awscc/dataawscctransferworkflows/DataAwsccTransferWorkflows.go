@@ -5,14 +5,14 @@ package dataawscctransferworkflows
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferworkflows/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferworkflows/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_workflows awscc_transfer_workflows}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_workflows awscc_transfer_workflows}.
 type DataAwsccTransferWorkflows interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccTransferWorkflows) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_workflows awscc_transfer_workflows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_workflows awscc_transfer_workflows} Data Source.
 func NewDataAwsccTransferWorkflows(scope constructs.Construct, id *string, config *DataAwsccTransferWorkflowsConfig) DataAwsccTransferWorkflows {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccTransferWorkflows(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_workflows awscc_transfer_workflows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_workflows awscc_transfer_workflows} Data Source.
 func NewDataAwsccTransferWorkflows_Override(d DataAwsccTransferWorkflows, scope constructs.Construct, id *string, config *DataAwsccTransferWorkflowsConfig) {
 	_init_.Initialize()
 

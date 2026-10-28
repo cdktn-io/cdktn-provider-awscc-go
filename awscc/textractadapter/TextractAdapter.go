@@ -5,14 +5,14 @@ package textractadapter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/textractadapter/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/textractadapter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/textract_adapter awscc_textract_adapter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/textract_adapter awscc_textract_adapter}.
 type TextractAdapter interface {
 	cdktn.TerraformResource
 	AdapterId() *string
@@ -506,7 +506,7 @@ func (j *jsiiProxy_TextractAdapter) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/textract_adapter awscc_textract_adapter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/textract_adapter awscc_textract_adapter} Resource.
 func NewTextractAdapter(scope constructs.Construct, id *string, config *TextractAdapterConfig) TextractAdapter {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewTextractAdapter(scope constructs.Construct, id *string, config *Textract
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/textract_adapter awscc_textract_adapter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/textract_adapter awscc_textract_adapter} Resource.
 func NewTextractAdapter_Override(t TextractAdapter, scope constructs.Construct, id *string, config *TextractAdapterConfig) {
 	_init_.Initialize()
 

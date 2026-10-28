@@ -5,14 +5,14 @@ package connectdatatablerecord
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectdatatablerecord/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectdatatablerecord/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_table_record awscc_connect_data_table_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_table_record awscc_connect_data_table_record}.
 type ConnectDataTableRecord interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -435,7 +435,7 @@ func (j *jsiiProxy_ConnectDataTableRecord) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_table_record awscc_connect_data_table_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_table_record awscc_connect_data_table_record} Resource.
 func NewConnectDataTableRecord(scope constructs.Construct, id *string, config *ConnectDataTableRecordConfig) ConnectDataTableRecord {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewConnectDataTableRecord(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_table_record awscc_connect_data_table_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_table_record awscc_connect_data_table_record} Resource.
 func NewConnectDataTableRecord_Override(c ConnectDataTableRecord, scope constructs.Construct, id *string, config *ConnectDataTableRecordConfig) {
 	_init_.Initialize()
 

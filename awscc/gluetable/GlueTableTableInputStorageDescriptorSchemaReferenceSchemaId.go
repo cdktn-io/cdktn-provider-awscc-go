@@ -7,15 +7,15 @@ package gluetable
 type GlueTableTableInputStorageDescriptorSchemaReferenceSchemaId struct {
 	// The name of the schema registry that contains the schema.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#registry_name GlueTable#registry_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#registry_name GlueTable#registry_name}
 	RegistryName *string `field:"optional" json:"registryName" yaml:"registryName"`
 	// The Amazon Resource Name (ARN) of the schema. One of SchemaArn or SchemaName has to be provided.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#schema_arn GlueTable#schema_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#schema_arn GlueTable#schema_arn}
 	SchemaArn *string `field:"optional" json:"schemaArn" yaml:"schemaArn"`
 	// The name of the schema. One of SchemaArn or SchemaName has to be provided.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#schema_name GlueTable#schema_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#schema_name GlueTable#schema_name}
 	SchemaName *string `field:"optional" json:"schemaName" yaml:"schemaName"`
 }
 

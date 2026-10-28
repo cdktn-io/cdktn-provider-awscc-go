@@ -5,14 +5,14 @@ package dataawsccdynamodbglobaltable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbglobaltable/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbglobaltable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dynamodb_global_table awscc_dynamodb_global_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dynamodb_global_table awscc_dynamodb_global_table}.
 type DataAwsccDynamodbGlobalTable interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -67,6 +67,7 @@ type DataAwsccDynamodbGlobalTable interface {
 	StreamSpecification() DataAwsccDynamodbGlobalTableStreamSpecificationOutputReference
 	TableId() *string
 	TableName() *string
+	TableType() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -447,6 +448,16 @@ func (j *jsiiProxy_DataAwsccDynamodbGlobalTable) TableName() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccDynamodbGlobalTable) TableType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"tableType",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccDynamodbGlobalTable) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -528,7 +539,7 @@ func (j *jsiiProxy_DataAwsccDynamodbGlobalTable) WriteProvisionedThroughputSetti
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dynamodb_global_table awscc_dynamodb_global_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dynamodb_global_table awscc_dynamodb_global_table} Data Source.
 func NewDataAwsccDynamodbGlobalTable(scope constructs.Construct, id *string, config *DataAwsccDynamodbGlobalTableConfig) DataAwsccDynamodbGlobalTable {
 	_init_.Initialize()
 
@@ -546,7 +557,7 @@ func NewDataAwsccDynamodbGlobalTable(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dynamodb_global_table awscc_dynamodb_global_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dynamodb_global_table awscc_dynamodb_global_table} Data Source.
 func NewDataAwsccDynamodbGlobalTable_Override(d DataAwsccDynamodbGlobalTable, scope constructs.Construct, id *string, config *DataAwsccDynamodbGlobalTableConfig) {
 	_init_.Initialize()
 

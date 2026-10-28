@@ -5,14 +5,14 @@ package dataawscclightsaildisks
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildisks/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildisks/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_disks awscc_lightsail_disks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_disks awscc_lightsail_disks}.
 type DataAwsccLightsailDisks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLightsailDisks) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_disks awscc_lightsail_disks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_disks awscc_lightsail_disks} Data Source.
 func NewDataAwsccLightsailDisks(scope constructs.Construct, id *string, config *DataAwsccLightsailDisksConfig) DataAwsccLightsailDisks {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLightsailDisks(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_disks awscc_lightsail_disks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_disks awscc_lightsail_disks} Data Source.
 func NewDataAwsccLightsailDisks_Override(d DataAwsccLightsailDisks, scope constructs.Construct, id *string, config *DataAwsccLightsailDisksConfig) {
 	_init_.Initialize()
 

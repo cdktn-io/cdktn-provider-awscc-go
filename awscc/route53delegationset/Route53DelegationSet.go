@@ -5,14 +5,14 @@ package route53delegationset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53delegationset/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53delegationset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_delegation_set awscc_route53_delegation_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_delegation_set awscc_route53_delegation_set}.
 type Route53DelegationSet interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -399,7 +399,7 @@ func (j *jsiiProxy_Route53DelegationSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_delegation_set awscc_route53_delegation_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_delegation_set awscc_route53_delegation_set} Resource.
 func NewRoute53DelegationSet(scope constructs.Construct, id *string, config *Route53DelegationSetConfig) Route53DelegationSet {
 	_init_.Initialize()
 
@@ -417,7 +417,7 @@ func NewRoute53DelegationSet(scope constructs.Construct, id *string, config *Rou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_delegation_set awscc_route53_delegation_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_delegation_set awscc_route53_delegation_set} Resource.
 func NewRoute53DelegationSet_Override(r Route53DelegationSet, scope constructs.Construct, id *string, config *Route53DelegationSetConfig) {
 	_init_.Initialize()
 

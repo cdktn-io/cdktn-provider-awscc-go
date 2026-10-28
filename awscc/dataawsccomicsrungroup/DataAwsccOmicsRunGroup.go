@@ -5,14 +5,14 @@ package dataawsccomicsrungroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsrungroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsrungroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_run_group awscc_omics_run_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_run_group awscc_omics_run_group}.
 type DataAwsccOmicsRunGroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccOmicsRunGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_run_group awscc_omics_run_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_run_group awscc_omics_run_group} Data Source.
 func NewDataAwsccOmicsRunGroup(scope constructs.Construct, id *string, config *DataAwsccOmicsRunGroupConfig) DataAwsccOmicsRunGroup {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccOmicsRunGroup(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_run_group awscc_omics_run_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_run_group awscc_omics_run_group} Data Source.
 func NewDataAwsccOmicsRunGroup_Override(d DataAwsccOmicsRunGroup, scope constructs.Construct, id *string, config *DataAwsccOmicsRunGroupConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package lambdaeventinvokeconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdaeventinvokeconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdaeventinvokeconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_event_invoke_config awscc_lambda_event_invoke_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_event_invoke_config awscc_lambda_event_invoke_config}.
 type LambdaEventInvokeConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_LambdaEventInvokeConfig) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_event_invoke_config awscc_lambda_event_invoke_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_event_invoke_config awscc_lambda_event_invoke_config} Resource.
 func NewLambdaEventInvokeConfig(scope constructs.Construct, id *string, config *LambdaEventInvokeConfigConfig) LambdaEventInvokeConfig {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewLambdaEventInvokeConfig(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_event_invoke_config awscc_lambda_event_invoke_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_event_invoke_config awscc_lambda_event_invoke_config} Resource.
 func NewLambdaEventInvokeConfig_Override(l LambdaEventInvokeConfig, scope constructs.Construct, id *string, config *LambdaEventInvokeConfigConfig) {
 	_init_.Initialize()
 

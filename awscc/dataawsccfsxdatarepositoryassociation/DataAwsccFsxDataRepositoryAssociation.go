@@ -5,14 +5,14 @@ package dataawsccfsxdatarepositoryassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfsxdatarepositoryassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfsxdatarepositoryassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fsx_data_repository_association awscc_fsx_data_repository_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_data_repository_association awscc_fsx_data_repository_association}.
 type DataAwsccFsxDataRepositoryAssociation interface {
 	cdktn.TerraformDataSource
 	AssociationId() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccFsxDataRepositoryAssociation) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fsx_data_repository_association awscc_fsx_data_repository_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_data_repository_association awscc_fsx_data_repository_association} Data Source.
 func NewDataAwsccFsxDataRepositoryAssociation(scope constructs.Construct, id *string, config *DataAwsccFsxDataRepositoryAssociationConfig) DataAwsccFsxDataRepositoryAssociation {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccFsxDataRepositoryAssociation(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fsx_data_repository_association awscc_fsx_data_repository_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_data_repository_association awscc_fsx_data_repository_association} Data Source.
 func NewDataAwsccFsxDataRepositoryAssociation_Override(d DataAwsccFsxDataRepositoryAssociation, scope constructs.Construct, id *string, config *DataAwsccFsxDataRepositoryAssociationConfig) {
 	_init_.Initialize()
 

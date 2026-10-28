@@ -47,6 +47,10 @@ func (e *jsiiProxy_EcsTaskDefinitionContainerDefinitionsResourceRequirementsOutp
 	return nil
 }
 
+func (e *jsiiProxy_EcsTaskDefinitionContainerDefinitionsResourceRequirementsOutputReference) validatePutSharingStrategyParameters(value *EcsTaskDefinitionContainerDefinitionsResourceRequirementsSharingStrategy) error {
+	return nil
+}
+
 func (e *jsiiProxy_EcsTaskDefinitionContainerDefinitionsResourceRequirementsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

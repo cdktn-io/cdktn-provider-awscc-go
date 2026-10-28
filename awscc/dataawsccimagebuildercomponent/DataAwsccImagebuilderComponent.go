@@ -5,14 +5,14 @@ package dataawsccimagebuildercomponent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuildercomponent/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuildercomponent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_component awscc_imagebuilder_component}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_component awscc_imagebuilder_component}.
 type DataAwsccImagebuilderComponent interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccImagebuilderComponent) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_component awscc_imagebuilder_component} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_component awscc_imagebuilder_component} Data Source.
 func NewDataAwsccImagebuilderComponent(scope constructs.Construct, id *string, config *DataAwsccImagebuilderComponentConfig) DataAwsccImagebuilderComponent {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccImagebuilderComponent(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_component awscc_imagebuilder_component} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_component awscc_imagebuilder_component} Data Source.
 func NewDataAwsccImagebuilderComponent_Override(d DataAwsccImagebuilderComponent, scope constructs.Construct, id *string, config *DataAwsccImagebuilderComponentConfig) {
 	_init_.Initialize()
 

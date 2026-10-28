@@ -5,14 +5,14 @@ package dataawsccapigatewayv2authorizer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2authorizer/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2authorizer/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_authorizer awscc_apigatewayv2_authorizer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_authorizer awscc_apigatewayv2_authorizer}.
 type DataAwsccApigatewayv2Authorizer interface {
 	cdktn.TerraformDataSource
 	ApiId() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccApigatewayv2Authorizer) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_authorizer awscc_apigatewayv2_authorizer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_authorizer awscc_apigatewayv2_authorizer} Data Source.
 func NewDataAwsccApigatewayv2Authorizer(scope constructs.Construct, id *string, config *DataAwsccApigatewayv2AuthorizerConfig) DataAwsccApigatewayv2Authorizer {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccApigatewayv2Authorizer(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_authorizer awscc_apigatewayv2_authorizer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_authorizer awscc_apigatewayv2_authorizer} Data Source.
 func NewDataAwsccApigatewayv2Authorizer_Override(d DataAwsccApigatewayv2Authorizer, scope constructs.Construct, id *string, config *DataAwsccApigatewayv2AuthorizerConfig) {
 	_init_.Initialize()
 

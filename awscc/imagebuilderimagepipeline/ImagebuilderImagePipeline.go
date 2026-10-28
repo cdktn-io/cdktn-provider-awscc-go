@@ -5,14 +5,14 @@ package imagebuilderimagepipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderimagepipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderimagepipeline/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline}.
 type ImagebuilderImagePipeline interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -761,7 +761,7 @@ func (j *jsiiProxy_ImagebuilderImagePipeline) WorkflowsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline} Resource.
 func NewImagebuilderImagePipeline(scope constructs.Construct, id *string, config *ImagebuilderImagePipelineConfig) ImagebuilderImagePipeline {
 	_init_.Initialize()
 
@@ -779,7 +779,7 @@ func NewImagebuilderImagePipeline(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_image_pipeline awscc_imagebuilder_image_pipeline} Resource.
 func NewImagebuilderImagePipeline_Override(i ImagebuilderImagePipeline, scope constructs.Construct, id *string, config *ImagebuilderImagePipelineConfig) {
 	_init_.Initialize()
 

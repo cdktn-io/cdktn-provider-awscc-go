@@ -395,6 +395,48 @@ func init() {
 		"@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsFilterConfiguration",
 		reflect.TypeOf((*Mediapackagev2OriginEndpointDashManifestsFilterConfiguration)(nil)).Elem(),
 	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsFilterConfigurationMultiview",
+		reflect.TypeOf((*Mediapackagev2OriginEndpointDashManifestsFilterConfigurationMultiview)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsFilterConfigurationMultiviewOutputReference",
+		reflect.TypeOf((*Mediapackagev2OriginEndpointDashManifestsFilterConfigurationMultiviewOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "layout", GoGetter: "Layout"},
+			_jsii_.MemberProperty{JsiiProperty: "layoutInput", GoGetter: "LayoutInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetLayout", GoMethod: "ResetLayout"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSources", GoMethod: "ResetSources"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "sources", GoGetter: "Sources"},
+			_jsii_.MemberProperty{JsiiProperty: "sourcesInput", GoGetter: "SourcesInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_Mediapackagev2OriginEndpointDashManifestsFilterConfigurationMultiviewOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
 	_jsii_.RegisterClass(
 		"@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointDashManifestsFilterConfigurationOutputReference",
 		reflect.TypeOf((*Mediapackagev2OriginEndpointDashManifestsFilterConfigurationOutputReference)(nil)).Elem(),
@@ -424,10 +466,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "manifestFilter", GoGetter: "ManifestFilter"},
 			_jsii_.MemberProperty{JsiiProperty: "manifestFilterInput", GoGetter: "ManifestFilterInput"},
+			_jsii_.MemberProperty{JsiiProperty: "multiview", GoGetter: "Multiview"},
+			_jsii_.MemberProperty{JsiiProperty: "multiviewInput", GoGetter: "MultiviewInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putMultiview", GoMethod: "PutMultiview"},
 			_jsii_.MemberMethod{JsiiMethod: "resetClipStartTime", GoMethod: "ResetClipStartTime"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDrmSettings", GoMethod: "ResetDrmSettings"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEnd", GoMethod: "ResetEnd"},
 			_jsii_.MemberMethod{JsiiMethod: "resetManifestFilter", GoMethod: "ResetManifestFilter"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMultiview", GoMethod: "ResetMultiview"},
 			_jsii_.MemberMethod{JsiiMethod: "resetStart", GoMethod: "ResetStart"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeDelaySeconds", GoMethod: "ResetTimeDelaySeconds"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
@@ -828,6 +874,48 @@ func init() {
 		"@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointHlsManifestsFilterConfiguration",
 		reflect.TypeOf((*Mediapackagev2OriginEndpointHlsManifestsFilterConfiguration)(nil)).Elem(),
 	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationMultiview",
+		reflect.TypeOf((*Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationMultiview)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationMultiviewOutputReference",
+		reflect.TypeOf((*Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationMultiviewOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "layout", GoGetter: "Layout"},
+			_jsii_.MemberProperty{JsiiProperty: "layoutInput", GoGetter: "LayoutInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetLayout", GoMethod: "ResetLayout"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSources", GoMethod: "ResetSources"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "sources", GoGetter: "Sources"},
+			_jsii_.MemberProperty{JsiiProperty: "sourcesInput", GoGetter: "SourcesInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationMultiviewOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
 	_jsii_.RegisterClass(
 		"@cdktn/provider-awscc.mediapackagev2OriginEndpoint.Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationOutputReference",
 		reflect.TypeOf((*Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationOutputReference)(nil)).Elem(),
@@ -857,10 +945,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "manifestFilter", GoGetter: "ManifestFilter"},
 			_jsii_.MemberProperty{JsiiProperty: "manifestFilterInput", GoGetter: "ManifestFilterInput"},
+			_jsii_.MemberProperty{JsiiProperty: "multiview", GoGetter: "Multiview"},
+			_jsii_.MemberProperty{JsiiProperty: "multiviewInput", GoGetter: "MultiviewInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putMultiview", GoMethod: "PutMultiview"},
 			_jsii_.MemberMethod{JsiiMethod: "resetClipStartTime", GoMethod: "ResetClipStartTime"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDrmSettings", GoMethod: "ResetDrmSettings"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEnd", GoMethod: "ResetEnd"},
 			_jsii_.MemberMethod{JsiiMethod: "resetManifestFilter", GoMethod: "ResetManifestFilter"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMultiview", GoMethod: "ResetMultiview"},
 			_jsii_.MemberMethod{JsiiMethod: "resetStart", GoMethod: "ResetStart"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeDelaySeconds", GoMethod: "ResetTimeDelaySeconds"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},

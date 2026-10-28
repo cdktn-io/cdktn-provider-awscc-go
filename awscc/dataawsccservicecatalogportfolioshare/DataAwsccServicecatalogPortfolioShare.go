@@ -5,14 +5,14 @@ package dataawsccservicecatalogportfolioshare
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogportfolioshare/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogportfolioshare/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_portfolio_share awscc_servicecatalog_portfolio_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_portfolio_share awscc_servicecatalog_portfolio_share}.
 type DataAwsccServicecatalogPortfolioShare interface {
 	cdktn.TerraformDataSource
 	AcceptLanguage() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccServicecatalogPortfolioShare) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_portfolio_share awscc_servicecatalog_portfolio_share} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_portfolio_share awscc_servicecatalog_portfolio_share} Data Source.
 func NewDataAwsccServicecatalogPortfolioShare(scope constructs.Construct, id *string, config *DataAwsccServicecatalogPortfolioShareConfig) DataAwsccServicecatalogPortfolioShare {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccServicecatalogPortfolioShare(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_portfolio_share awscc_servicecatalog_portfolio_share} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_portfolio_share awscc_servicecatalog_portfolio_share} Data Source.
 func NewDataAwsccServicecatalogPortfolioShare_Override(d DataAwsccServicecatalogPortfolioShare, scope constructs.Construct, id *string, config *DataAwsccServicecatalogPortfolioShareConfig) {
 	_init_.Initialize()
 

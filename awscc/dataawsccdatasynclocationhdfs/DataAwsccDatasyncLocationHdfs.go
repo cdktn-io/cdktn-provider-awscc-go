@@ -5,14 +5,14 @@ package dataawsccdatasynclocationhdfs
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationhdfs/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationhdfs/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_hdfs awscc_datasync_location_hdfs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_hdfs awscc_datasync_location_hdfs}.
 type DataAwsccDatasyncLocationHdfs interface {
 	cdktn.TerraformDataSource
 	AgentArns() *[]*string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_DataAwsccDatasyncLocationHdfs) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_hdfs awscc_datasync_location_hdfs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_hdfs awscc_datasync_location_hdfs} Data Source.
 func NewDataAwsccDatasyncLocationHdfs(scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationHdfsConfig) DataAwsccDatasyncLocationHdfs {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewDataAwsccDatasyncLocationHdfs(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_hdfs awscc_datasync_location_hdfs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_hdfs awscc_datasync_location_hdfs} Data Source.
 func NewDataAwsccDatasyncLocationHdfs_Override(d DataAwsccDatasyncLocationHdfs, scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationHdfsConfig) {
 	_init_.Initialize()
 

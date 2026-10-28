@@ -5,14 +5,14 @@ package dataawscccodebuildsourcecredentials
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccodebuildsourcecredentials/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccodebuildsourcecredentials/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codebuild_source_credentials awscc_codebuild_source_credentials}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codebuild_source_credentials awscc_codebuild_source_credentials}.
 type DataAwsccCodebuildSourceCredentials interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCodebuildSourceCredentials) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codebuild_source_credentials awscc_codebuild_source_credentials} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codebuild_source_credentials awscc_codebuild_source_credentials} Data Source.
 func NewDataAwsccCodebuildSourceCredentials(scope constructs.Construct, id *string, config *DataAwsccCodebuildSourceCredentialsConfig) DataAwsccCodebuildSourceCredentials {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCodebuildSourceCredentials(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/codebuild_source_credentials awscc_codebuild_source_credentials} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codebuild_source_credentials awscc_codebuild_source_credentials} Data Source.
 func NewDataAwsccCodebuildSourceCredentials_Override(d DataAwsccCodebuildSourceCredentials, scope constructs.Construct, id *string, config *DataAwsccCodebuildSourceCredentialsConfig) {
 	_init_.Initialize()
 

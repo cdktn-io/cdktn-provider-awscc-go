@@ -5,14 +5,14 @@ package dataawsccsesmultiregionendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmultiregionendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmultiregionendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_multi_region_endpoint awscc_ses_multi_region_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_multi_region_endpoint awscc_ses_multi_region_endpoint}.
 type DataAwsccSesMultiRegionEndpoint interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccSesMultiRegionEndpoint) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_multi_region_endpoint awscc_ses_multi_region_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_multi_region_endpoint awscc_ses_multi_region_endpoint} Data Source.
 func NewDataAwsccSesMultiRegionEndpoint(scope constructs.Construct, id *string, config *DataAwsccSesMultiRegionEndpointConfig) DataAwsccSesMultiRegionEndpoint {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccSesMultiRegionEndpoint(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_multi_region_endpoint awscc_ses_multi_region_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_multi_region_endpoint awscc_ses_multi_region_endpoint} Data Source.
 func NewDataAwsccSesMultiRegionEndpoint_Override(d DataAwsccSesMultiRegionEndpoint, scope constructs.Construct, id *string, config *DataAwsccSesMultiRegionEndpointConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package apigatewayv2model
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2model/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2model/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_model awscc_apigatewayv2_model}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_model awscc_apigatewayv2_model}.
 type Apigatewayv2Model interface {
 	cdktn.TerraformResource
 	ApiId() *string
@@ -483,7 +483,7 @@ func (j *jsiiProxy_Apigatewayv2Model) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_model awscc_apigatewayv2_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_model awscc_apigatewayv2_model} Resource.
 func NewApigatewayv2Model(scope constructs.Construct, id *string, config *Apigatewayv2ModelConfig) Apigatewayv2Model {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewApigatewayv2Model(scope constructs.Construct, id *string, config *Apigat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_model awscc_apigatewayv2_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_model awscc_apigatewayv2_model} Resource.
 func NewApigatewayv2Model_Override(a Apigatewayv2Model, scope constructs.Construct, id *string, config *Apigatewayv2ModelConfig) {
 	_init_.Initialize()
 

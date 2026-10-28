@@ -5,14 +5,14 @@ package cloudfrontkeyvaluestore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontkeyvaluestore/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontkeyvaluestore/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_key_value_store awscc_cloudfront_key_value_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_key_value_store awscc_cloudfront_key_value_store}.
 type CloudfrontKeyValueStore interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -483,7 +483,7 @@ func (j *jsiiProxy_CloudfrontKeyValueStore) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_key_value_store awscc_cloudfront_key_value_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_key_value_store awscc_cloudfront_key_value_store} Resource.
 func NewCloudfrontKeyValueStore(scope constructs.Construct, id *string, config *CloudfrontKeyValueStoreConfig) CloudfrontKeyValueStore {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewCloudfrontKeyValueStore(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_key_value_store awscc_cloudfront_key_value_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_key_value_store awscc_cloudfront_key_value_store} Resource.
 func NewCloudfrontKeyValueStore_Override(c CloudfrontKeyValueStore, scope constructs.Construct, id *string, config *CloudfrontKeyValueStoreConfig) {
 	_init_.Initialize()
 

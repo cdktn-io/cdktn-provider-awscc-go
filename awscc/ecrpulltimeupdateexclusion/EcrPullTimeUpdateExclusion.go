@@ -5,14 +5,14 @@ package ecrpulltimeupdateexclusion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecrpulltimeupdateexclusion/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecrpulltimeupdateexclusion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecr_pull_time_update_exclusion awscc_ecr_pull_time_update_exclusion}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecr_pull_time_update_exclusion awscc_ecr_pull_time_update_exclusion}.
 type EcrPullTimeUpdateExclusion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -378,7 +378,7 @@ func (j *jsiiProxy_EcrPullTimeUpdateExclusion) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecr_pull_time_update_exclusion awscc_ecr_pull_time_update_exclusion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecr_pull_time_update_exclusion awscc_ecr_pull_time_update_exclusion} Resource.
 func NewEcrPullTimeUpdateExclusion(scope constructs.Construct, id *string, config *EcrPullTimeUpdateExclusionConfig) EcrPullTimeUpdateExclusion {
 	_init_.Initialize()
 
@@ -396,7 +396,7 @@ func NewEcrPullTimeUpdateExclusion(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecr_pull_time_update_exclusion awscc_ecr_pull_time_update_exclusion} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecr_pull_time_update_exclusion awscc_ecr_pull_time_update_exclusion} Resource.
 func NewEcrPullTimeUpdateExclusion_Override(e EcrPullTimeUpdateExclusion, scope constructs.Construct, id *string, config *EcrPullTimeUpdateExclusionConfig) {
 	_init_.Initialize()
 

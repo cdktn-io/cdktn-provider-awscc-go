@@ -5,14 +5,14 @@ package dataawscclightsailcontainer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailcontainer/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailcontainer/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_container awscc_lightsail_container}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_container awscc_lightsail_container}.
 type DataAwsccLightsailContainer interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccLightsailContainer) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_container awscc_lightsail_container} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_container awscc_lightsail_container} Data Source.
 func NewDataAwsccLightsailContainer(scope constructs.Construct, id *string, config *DataAwsccLightsailContainerConfig) DataAwsccLightsailContainer {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccLightsailContainer(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_container awscc_lightsail_container} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_container awscc_lightsail_container} Data Source.
 func NewDataAwsccLightsailContainer_Override(d DataAwsccLightsailContainer, scope constructs.Construct, id *string, config *DataAwsccLightsailContainerConfig) {
 	_init_.Initialize()
 

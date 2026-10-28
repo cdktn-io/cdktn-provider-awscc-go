@@ -5,14 +5,14 @@ package guarddutytrustedentityset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/guarddutytrustedentityset/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/guarddutytrustedentityset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/guardduty_trusted_entity_set awscc_guardduty_trusted_entity_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_trusted_entity_set awscc_guardduty_trusted_entity_set}.
 type GuarddutyTrustedEntitySet interface {
 	cdktn.TerraformResource
 	Activate() interface{}
@@ -576,7 +576,7 @@ func (j *jsiiProxy_GuarddutyTrustedEntitySet) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/guardduty_trusted_entity_set awscc_guardduty_trusted_entity_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_trusted_entity_set awscc_guardduty_trusted_entity_set} Resource.
 func NewGuarddutyTrustedEntitySet(scope constructs.Construct, id *string, config *GuarddutyTrustedEntitySetConfig) GuarddutyTrustedEntitySet {
 	_init_.Initialize()
 
@@ -594,7 +594,7 @@ func NewGuarddutyTrustedEntitySet(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/guardduty_trusted_entity_set awscc_guardduty_trusted_entity_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_trusted_entity_set awscc_guardduty_trusted_entity_set} Resource.
 func NewGuarddutyTrustedEntitySet_Override(g GuarddutyTrustedEntitySet, scope constructs.Construct, id *string, config *GuarddutyTrustedEntitySetConfig) {
 	_init_.Initialize()
 

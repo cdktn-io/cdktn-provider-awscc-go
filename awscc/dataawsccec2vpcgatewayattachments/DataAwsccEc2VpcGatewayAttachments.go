@@ -5,14 +5,14 @@ package dataawsccec2vpcgatewayattachments
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcgatewayattachments/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcgatewayattachments/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpc_gateway_attachments awscc_ec2_vpc_gateway_attachments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpc_gateway_attachments awscc_ec2_vpc_gateway_attachments}.
 type DataAwsccEc2VpcGatewayAttachments interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2VpcGatewayAttachments) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpc_gateway_attachments awscc_ec2_vpc_gateway_attachments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpc_gateway_attachments awscc_ec2_vpc_gateway_attachments} Data Source.
 func NewDataAwsccEc2VpcGatewayAttachments(scope constructs.Construct, id *string, config *DataAwsccEc2VpcGatewayAttachmentsConfig) DataAwsccEc2VpcGatewayAttachments {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2VpcGatewayAttachments(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpc_gateway_attachments awscc_ec2_vpc_gateway_attachments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpc_gateway_attachments awscc_ec2_vpc_gateway_attachments} Data Source.
 func NewDataAwsccEc2VpcGatewayAttachments_Override(d DataAwsccEc2VpcGatewayAttachments, scope constructs.Construct, id *string, config *DataAwsccEc2VpcGatewayAttachmentsConfig) {
 	_init_.Initialize()
 

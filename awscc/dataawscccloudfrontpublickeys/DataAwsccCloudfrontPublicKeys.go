@@ -5,14 +5,14 @@ package dataawscccloudfrontpublickeys
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontpublickeys/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontpublickeys/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_public_keys awscc_cloudfront_public_keys}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_public_keys awscc_cloudfront_public_keys}.
 type DataAwsccCloudfrontPublicKeys interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCloudfrontPublicKeys) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_public_keys awscc_cloudfront_public_keys} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_public_keys awscc_cloudfront_public_keys} Data Source.
 func NewDataAwsccCloudfrontPublicKeys(scope constructs.Construct, id *string, config *DataAwsccCloudfrontPublicKeysConfig) DataAwsccCloudfrontPublicKeys {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCloudfrontPublicKeys(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_public_keys awscc_cloudfront_public_keys} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_public_keys awscc_cloudfront_public_keys} Data Source.
 func NewDataAwsccCloudfrontPublicKeys_Override(d DataAwsccCloudfrontPublicKeys, scope constructs.Construct, id *string, config *DataAwsccCloudfrontPublicKeysConfig) {
 	_init_.Initialize()
 

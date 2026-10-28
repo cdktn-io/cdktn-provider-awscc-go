@@ -5,14 +5,14 @@ package chimevoiceconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimevoiceconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimevoiceconnector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_voice_connector awscc_chime_voice_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_voice_connector awscc_chime_voice_connector}.
 type ChimeVoiceConnector interface {
 	cdktn.TerraformResource
 	AwsRegion() *string
@@ -528,7 +528,7 @@ func (j *jsiiProxy_ChimeVoiceConnector) VoiceConnectorId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_voice_connector awscc_chime_voice_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_voice_connector awscc_chime_voice_connector} Resource.
 func NewChimeVoiceConnector(scope constructs.Construct, id *string, config *ChimeVoiceConnectorConfig) ChimeVoiceConnector {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewChimeVoiceConnector(scope constructs.Construct, id *string, config *Chim
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_voice_connector awscc_chime_voice_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_voice_connector awscc_chime_voice_connector} Resource.
 func NewChimeVoiceConnector_Override(c ChimeVoiceConnector, scope constructs.Construct, id *string, config *ChimeVoiceConnectorConfig) {
 	_init_.Initialize()
 

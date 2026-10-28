@@ -5,14 +5,14 @@ package dataawsccefsmounttarget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccefsmounttarget/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccefsmounttarget/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/efs_mount_target awscc_efs_mount_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/efs_mount_target awscc_efs_mount_target}.
 type DataAwsccEfsMountTarget interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccEfsMountTarget) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/efs_mount_target awscc_efs_mount_target} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/efs_mount_target awscc_efs_mount_target} Data Source.
 func NewDataAwsccEfsMountTarget(scope constructs.Construct, id *string, config *DataAwsccEfsMountTargetConfig) DataAwsccEfsMountTarget {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccEfsMountTarget(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/efs_mount_target awscc_efs_mount_target} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/efs_mount_target awscc_efs_mount_target} Data Source.
 func NewDataAwsccEfsMountTarget_Override(d DataAwsccEfsMountTarget, scope constructs.Construct, id *string, config *DataAwsccEfsMountTargetConfig) {
 	_init_.Initialize()
 

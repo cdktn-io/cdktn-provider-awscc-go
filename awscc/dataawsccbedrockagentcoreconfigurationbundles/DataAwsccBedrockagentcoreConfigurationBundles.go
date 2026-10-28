@@ -5,14 +5,14 @@ package dataawsccbedrockagentcoreconfigurationbundles
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreconfigurationbundles/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreconfigurationbundles/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_configuration_bundles awscc_bedrockagentcore_configuration_bundles}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_configuration_bundles awscc_bedrockagentcore_configuration_bundles}.
 type DataAwsccBedrockagentcoreConfigurationBundles interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreConfigurationBundles) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_configuration_bundles awscc_bedrockagentcore_configuration_bundles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_configuration_bundles awscc_bedrockagentcore_configuration_bundles} Data Source.
 func NewDataAwsccBedrockagentcoreConfigurationBundles(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreConfigurationBundlesConfig) DataAwsccBedrockagentcoreConfigurationBundles {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockagentcoreConfigurationBundles(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_configuration_bundles awscc_bedrockagentcore_configuration_bundles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_configuration_bundles awscc_bedrockagentcore_configuration_bundles} Data Source.
 func NewDataAwsccBedrockagentcoreConfigurationBundles_Override(d DataAwsccBedrockagentcoreConfigurationBundles, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreConfigurationBundlesConfig) {
 	_init_.Initialize()
 

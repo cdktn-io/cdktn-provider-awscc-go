@@ -5,14 +5,14 @@ package apigatewaydomainname
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewaydomainname/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewaydomainname/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_domain_name awscc_apigateway_domain_name}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_domain_name awscc_apigateway_domain_name}.
 type ApigatewayDomainName interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -650,7 +650,7 @@ func (j *jsiiProxy_ApigatewayDomainName) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_domain_name awscc_apigateway_domain_name} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_domain_name awscc_apigateway_domain_name} Resource.
 func NewApigatewayDomainName(scope constructs.Construct, id *string, config *ApigatewayDomainNameConfig) ApigatewayDomainName {
 	_init_.Initialize()
 
@@ -668,7 +668,7 @@ func NewApigatewayDomainName(scope constructs.Construct, id *string, config *Api
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_domain_name awscc_apigateway_domain_name} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_domain_name awscc_apigateway_domain_name} Resource.
 func NewApigatewayDomainName_Override(a ApigatewayDomainName, scope constructs.Construct, id *string, config *ApigatewayDomainNameConfig) {
 	_init_.Initialize()
 

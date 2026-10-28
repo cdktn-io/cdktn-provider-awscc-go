@@ -5,14 +5,14 @@ package configconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configconnector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_connector awscc_config_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_connector awscc_config_connector}.
 type ConfigConnector interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -435,7 +435,7 @@ func (j *jsiiProxy_ConfigConnector) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_connector awscc_config_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_connector awscc_config_connector} Resource.
 func NewConfigConnector(scope constructs.Construct, id *string, config *ConfigConnectorConfig) ConfigConnector {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewConfigConnector(scope constructs.Construct, id *string, config *ConfigCo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_connector awscc_config_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_connector awscc_config_connector} Resource.
 func NewConfigConnector_Override(c ConfigConnector, scope constructs.Construct, id *string, config *ConfigConnectorConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package smsvoiceverifieddestinationnumber
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceverifieddestinationnumber/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceverifieddestinationnumber/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_verified_destination_number awscc_smsvoice_verified_destination_number}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_verified_destination_number awscc_smsvoice_verified_destination_number}.
 type SmsvoiceVerifiedDestinationNumber interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -446,7 +446,7 @@ func (j *jsiiProxy_SmsvoiceVerifiedDestinationNumber) VerifiedDestinationNumberI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_verified_destination_number awscc_smsvoice_verified_destination_number} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_verified_destination_number awscc_smsvoice_verified_destination_number} Resource.
 func NewSmsvoiceVerifiedDestinationNumber(scope constructs.Construct, id *string, config *SmsvoiceVerifiedDestinationNumberConfig) SmsvoiceVerifiedDestinationNumber {
 	_init_.Initialize()
 
@@ -464,7 +464,7 @@ func NewSmsvoiceVerifiedDestinationNumber(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_verified_destination_number awscc_smsvoice_verified_destination_number} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_verified_destination_number awscc_smsvoice_verified_destination_number} Resource.
 func NewSmsvoiceVerifiedDestinationNumber_Override(s SmsvoiceVerifiedDestinationNumber, scope constructs.Construct, id *string, config *SmsvoiceVerifiedDestinationNumberConfig) {
 	_init_.Initialize()
 

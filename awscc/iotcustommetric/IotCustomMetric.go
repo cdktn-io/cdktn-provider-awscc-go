@@ -5,14 +5,14 @@ package iotcustommetric
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotcustommetric/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotcustommetric/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_custom_metric awscc_iot_custom_metric}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_custom_metric awscc_iot_custom_metric}.
 type IotCustomMetric interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_IotCustomMetric) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_custom_metric awscc_iot_custom_metric} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_custom_metric awscc_iot_custom_metric} Resource.
 func NewIotCustomMetric(scope constructs.Construct, id *string, config *IotCustomMetricConfig) IotCustomMetric {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewIotCustomMetric(scope constructs.Construct, id *string, config *IotCusto
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_custom_metric awscc_iot_custom_metric} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_custom_metric awscc_iot_custom_metric} Resource.
 func NewIotCustomMetric_Override(i IotCustomMetric, scope constructs.Construct, id *string, config *IotCustomMetricConfig) {
 	_init_.Initialize()
 

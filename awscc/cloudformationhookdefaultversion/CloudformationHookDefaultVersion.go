@@ -5,14 +5,14 @@ package cloudformationhookdefaultversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationhookdefaultversion/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationhookdefaultversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_default_version awscc_cloudformation_hook_default_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_default_version awscc_cloudformation_hook_default_version}.
 type CloudformationHookDefaultVersion interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -438,7 +438,7 @@ func (j *jsiiProxy_CloudformationHookDefaultVersion) VersionIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_default_version awscc_cloudformation_hook_default_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_default_version awscc_cloudformation_hook_default_version} Resource.
 func NewCloudformationHookDefaultVersion(scope constructs.Construct, id *string, config *CloudformationHookDefaultVersionConfig) CloudformationHookDefaultVersion {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewCloudformationHookDefaultVersion(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_hook_default_version awscc_cloudformation_hook_default_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_hook_default_version awscc_cloudformation_hook_default_version} Resource.
 func NewCloudformationHookDefaultVersion_Override(c CloudformationHookDefaultVersion, scope constructs.Construct, id *string, config *CloudformationHookDefaultVersionConfig) {
 	_init_.Initialize()
 

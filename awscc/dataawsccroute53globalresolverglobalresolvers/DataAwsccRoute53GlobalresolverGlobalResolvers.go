@@ -5,14 +5,14 @@ package dataawsccroute53globalresolverglobalresolvers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolverglobalresolvers/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolverglobalresolvers/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53globalresolver_global_resolvers awscc_route53globalresolver_global_resolvers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53globalresolver_global_resolvers awscc_route53globalresolver_global_resolvers}.
 type DataAwsccRoute53GlobalresolverGlobalResolvers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRoute53GlobalresolverGlobalResolvers) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53globalresolver_global_resolvers awscc_route53globalresolver_global_resolvers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53globalresolver_global_resolvers awscc_route53globalresolver_global_resolvers} Data Source.
 func NewDataAwsccRoute53GlobalresolverGlobalResolvers(scope constructs.Construct, id *string, config *DataAwsccRoute53GlobalresolverGlobalResolversConfig) DataAwsccRoute53GlobalresolverGlobalResolvers {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRoute53GlobalresolverGlobalResolvers(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53globalresolver_global_resolvers awscc_route53globalresolver_global_resolvers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53globalresolver_global_resolvers awscc_route53globalresolver_global_resolvers} Data Source.
 func NewDataAwsccRoute53GlobalresolverGlobalResolvers_Override(d DataAwsccRoute53GlobalresolverGlobalResolvers, scope constructs.Construct, id *string, config *DataAwsccRoute53GlobalresolverGlobalResolversConfig) {
 	_init_.Initialize()
 

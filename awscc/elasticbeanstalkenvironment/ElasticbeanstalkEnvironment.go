@@ -5,14 +5,14 @@ package elasticbeanstalkenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkenvironment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_environment awscc_elasticbeanstalk_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_environment awscc_elasticbeanstalk_environment}.
 type ElasticbeanstalkEnvironment interface {
 	cdktn.TerraformResource
 	ApplicationName() *string
@@ -653,7 +653,7 @@ func (j *jsiiProxy_ElasticbeanstalkEnvironment) VersionLabelInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_environment awscc_elasticbeanstalk_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_environment awscc_elasticbeanstalk_environment} Resource.
 func NewElasticbeanstalkEnvironment(scope constructs.Construct, id *string, config *ElasticbeanstalkEnvironmentConfig) ElasticbeanstalkEnvironment {
 	_init_.Initialize()
 
@@ -671,7 +671,7 @@ func NewElasticbeanstalkEnvironment(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_environment awscc_elasticbeanstalk_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_environment awscc_elasticbeanstalk_environment} Resource.
 func NewElasticbeanstalkEnvironment_Override(e ElasticbeanstalkEnvironment, scope constructs.Construct, id *string, config *ElasticbeanstalkEnvironmentConfig) {
 	_init_.Initialize()
 

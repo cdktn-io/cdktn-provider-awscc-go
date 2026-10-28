@@ -5,14 +5,14 @@ package codestarconnectionsrepositorylink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codestarconnectionsrepositorylink/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codestarconnectionsrepositorylink/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_repository_link awscc_codestarconnections_repository_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_repository_link awscc_codestarconnections_repository_link}.
 type CodestarconnectionsRepositoryLink interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -505,7 +505,7 @@ func (j *jsiiProxy_CodestarconnectionsRepositoryLink) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_repository_link awscc_codestarconnections_repository_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_repository_link awscc_codestarconnections_repository_link} Resource.
 func NewCodestarconnectionsRepositoryLink(scope constructs.Construct, id *string, config *CodestarconnectionsRepositoryLinkConfig) CodestarconnectionsRepositoryLink {
 	_init_.Initialize()
 
@@ -523,7 +523,7 @@ func NewCodestarconnectionsRepositoryLink(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codestarconnections_repository_link awscc_codestarconnections_repository_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codestarconnections_repository_link awscc_codestarconnections_repository_link} Resource.
 func NewCodestarconnectionsRepositoryLink_Override(c CodestarconnectionsRepositoryLink, scope constructs.Construct, id *string, config *CodestarconnectionsRepositoryLinkConfig) {
 	_init_.Initialize()
 

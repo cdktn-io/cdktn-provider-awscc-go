@@ -7,11 +7,11 @@ package workspacesdirectory
 type WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfig struct {
 	// Indicates a list of access endpoints associated with this directory.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#access_endpoints WorkspacesDirectory#access_endpoints}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#access_endpoints WorkspacesDirectory#access_endpoints}
 	AccessEndpoints interface{} `field:"optional" json:"accessEndpoints" yaml:"accessEndpoints"`
 	// Indicates a list of protocols that fallback to using the public Internet when streaming over a VPC endpoint is not available.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_directory#internet_fallback_protocols WorkspacesDirectory#internet_fallback_protocols}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_directory#internet_fallback_protocols WorkspacesDirectory#internet_fallback_protocols}
 	InternetFallbackProtocols *[]*string `field:"optional" json:"internetFallbackProtocols" yaml:"internetFallbackProtocols"`
 }
 

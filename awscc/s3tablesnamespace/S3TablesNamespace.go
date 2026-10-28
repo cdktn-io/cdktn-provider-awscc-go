@@ -5,14 +5,14 @@ package s3tablesnamespace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3tablesnamespace/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3tablesnamespace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3tables_namespace awscc_s3tables_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3tables_namespace awscc_s3tables_namespace}.
 type S3TablesNamespace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_S3TablesNamespace) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3tables_namespace awscc_s3tables_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3tables_namespace awscc_s3tables_namespace} Resource.
 func NewS3TablesNamespace(scope constructs.Construct, id *string, config *S3TablesNamespaceConfig) S3TablesNamespace {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewS3TablesNamespace(scope constructs.Construct, id *string, config *S3Tabl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3tables_namespace awscc_s3tables_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3tables_namespace awscc_s3tables_namespace} Resource.
 func NewS3TablesNamespace_Override(s S3TablesNamespace, scope constructs.Construct, id *string, config *S3TablesNamespaceConfig) {
 	_init_.Initialize()
 

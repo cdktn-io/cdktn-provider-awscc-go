@@ -5,14 +5,14 @@ package imagebuilderinfrastructureconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/imagebuilderinfrastructureconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/imagebuilderinfrastructureconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration}.
 type ImagebuilderInfrastructureConfiguration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -66,6 +66,8 @@ type ImagebuilderInfrastructureConfiguration interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	ParentInstance() ImagebuilderInfrastructureConfigurationParentInstanceOutputReference
+	ParentInstanceInput() interface{}
 	Placement() ImagebuilderInfrastructureConfigurationPlacementOutputReference
 	PlacementInput() interface{}
 	// Experimental.
@@ -93,6 +95,9 @@ type ImagebuilderInfrastructureConfiguration interface {
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
+	TerminateInstanceOnCompletion() interface{}
+	SetTerminateInstanceOnCompletion(val interface{})
+	TerminateInstanceOnCompletionInput() interface{}
 	TerminateInstanceOnFailure() interface{}
 	SetTerminateInstanceOnFailure(val interface{})
 	TerminateInstanceOnFailureInput() interface{}
@@ -183,6 +188,7 @@ type ImagebuilderInfrastructureConfiguration interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutInstanceMetadataOptions(value *ImagebuilderInfrastructureConfigurationInstanceMetadataOptions)
 	PutLogging(value *ImagebuilderInfrastructureConfigurationLogging)
+	PutParentInstance(value *ImagebuilderInfrastructureConfigurationParentInstance)
 	PutPlacement(value *ImagebuilderInfrastructureConfigurationPlacement)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -205,12 +211,14 @@ type ImagebuilderInfrastructureConfiguration interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetParentInstance()
 	ResetPlacement()
 	ResetResourceTags()
 	ResetSecurityGroupIds()
 	ResetSnsTopicArn()
 	ResetSubnetId()
 	ResetTags()
+	ResetTerminateInstanceOnCompletion()
 	ResetTerminateInstanceOnFailure()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -499,6 +507,26 @@ func (j *jsiiProxy_ImagebuilderInfrastructureConfiguration) Node() constructs.No
 	return returns
 }
 
+func (j *jsiiProxy_ImagebuilderInfrastructureConfiguration) ParentInstance() ImagebuilderInfrastructureConfigurationParentInstanceOutputReference {
+	var returns ImagebuilderInfrastructureConfigurationParentInstanceOutputReference
+	_jsii_.Get(
+		j,
+		"parentInstance",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ImagebuilderInfrastructureConfiguration) ParentInstanceInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"parentInstanceInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ImagebuilderInfrastructureConfiguration) Placement() ImagebuilderInfrastructureConfigurationPlacementOutputReference {
 	var returns ImagebuilderInfrastructureConfigurationPlacementOutputReference
 	_jsii_.Get(
@@ -649,6 +677,26 @@ func (j *jsiiProxy_ImagebuilderInfrastructureConfiguration) TagsInput() *map[str
 	return returns
 }
 
+func (j *jsiiProxy_ImagebuilderInfrastructureConfiguration) TerminateInstanceOnCompletion() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"terminateInstanceOnCompletion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ImagebuilderInfrastructureConfiguration) TerminateInstanceOnCompletionInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"terminateInstanceOnCompletionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ImagebuilderInfrastructureConfiguration) TerminateInstanceOnFailure() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -700,7 +748,7 @@ func (j *jsiiProxy_ImagebuilderInfrastructureConfiguration) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration} Resource.
 func NewImagebuilderInfrastructureConfiguration(scope constructs.Construct, id *string, config *ImagebuilderInfrastructureConfigurationConfig) ImagebuilderInfrastructureConfiguration {
 	_init_.Initialize()
 
@@ -718,7 +766,7 @@ func NewImagebuilderInfrastructureConfiguration(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration} Resource.
 func NewImagebuilderInfrastructureConfiguration_Override(i ImagebuilderInfrastructureConfiguration, scope constructs.Construct, id *string, config *ImagebuilderInfrastructureConfigurationConfig) {
 	_init_.Initialize()
 
@@ -903,6 +951,17 @@ func (j *jsiiProxy_ImagebuilderInfrastructureConfiguration)SetTags(val *map[stri
 	_jsii_.Set(
 		j,
 		"tags",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ImagebuilderInfrastructureConfiguration)SetTerminateInstanceOnCompletion(val interface{}) {
+	if err := j.validateSetTerminateInstanceOnCompletionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terminateInstanceOnCompletion",
 		val,
 	)
 }
@@ -1309,6 +1368,17 @@ func (i *jsiiProxy_ImagebuilderInfrastructureConfiguration) PutLogging(value *Im
 	)
 }
 
+func (i *jsiiProxy_ImagebuilderInfrastructureConfiguration) PutParentInstance(value *ImagebuilderInfrastructureConfigurationParentInstance) {
+	if err := i.validatePutParentInstanceParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		i,
+		"putParentInstance",
+		[]interface{}{value},
+	)
+}
+
 func (i *jsiiProxy_ImagebuilderInfrastructureConfiguration) PutPlacement(value *ImagebuilderInfrastructureConfigurationPlacement) {
 	if err := i.validatePutPlacementParameters(value); err != nil {
 		panic(err)
@@ -1379,6 +1449,14 @@ func (i *jsiiProxy_ImagebuilderInfrastructureConfiguration) ResetOverrideLogical
 	)
 }
 
+func (i *jsiiProxy_ImagebuilderInfrastructureConfiguration) ResetParentInstance() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetParentInstance",
+		nil, // no parameters
+	)
+}
+
 func (i *jsiiProxy_ImagebuilderInfrastructureConfiguration) ResetPlacement() {
 	_jsii_.InvokeVoid(
 		i,
@@ -1423,6 +1501,14 @@ func (i *jsiiProxy_ImagebuilderInfrastructureConfiguration) ResetTags() {
 	_jsii_.InvokeVoid(
 		i,
 		"resetTags",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_ImagebuilderInfrastructureConfiguration) ResetTerminateInstanceOnCompletion() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetTerminateInstanceOnCompletion",
 		nil, // no parameters
 	)
 }

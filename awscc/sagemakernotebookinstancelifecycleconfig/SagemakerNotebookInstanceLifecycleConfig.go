@@ -5,14 +5,14 @@ package sagemakernotebookinstancelifecycleconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakernotebookinstancelifecycleconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakernotebookinstancelifecycleconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_notebook_instance_lifecycle_config awscc_sagemaker_notebook_instance_lifecycle_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_notebook_instance_lifecycle_config awscc_sagemaker_notebook_instance_lifecycle_config}.
 type SagemakerNotebookInstanceLifecycleConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_SagemakerNotebookInstanceLifecycleConfig) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_notebook_instance_lifecycle_config awscc_sagemaker_notebook_instance_lifecycle_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_notebook_instance_lifecycle_config awscc_sagemaker_notebook_instance_lifecycle_config} Resource.
 func NewSagemakerNotebookInstanceLifecycleConfig(scope constructs.Construct, id *string, config *SagemakerNotebookInstanceLifecycleConfigConfig) SagemakerNotebookInstanceLifecycleConfig {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewSagemakerNotebookInstanceLifecycleConfig(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_notebook_instance_lifecycle_config awscc_sagemaker_notebook_instance_lifecycle_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_notebook_instance_lifecycle_config awscc_sagemaker_notebook_instance_lifecycle_config} Resource.
 func NewSagemakerNotebookInstanceLifecycleConfig_Override(s SagemakerNotebookInstanceLifecycleConfig, scope constructs.Construct, id *string, config *SagemakerNotebookInstanceLifecycleConfigConfig) {
 	_init_.Initialize()
 

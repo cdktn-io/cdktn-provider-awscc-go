@@ -5,14 +5,14 @@ package dataawsccm2application
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccm2application/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccm2application/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/m2_application awscc_m2_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/m2_application awscc_m2_application}.
 type DataAwsccM2Application interface {
 	cdktn.TerraformDataSource
 	ApplicationArn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccM2Application) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/m2_application awscc_m2_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/m2_application awscc_m2_application} Data Source.
 func NewDataAwsccM2Application(scope constructs.Construct, id *string, config *DataAwsccM2ApplicationConfig) DataAwsccM2Application {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccM2Application(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/m2_application awscc_m2_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/m2_application awscc_m2_application} Data Source.
 func NewDataAwsccM2Application_Override(d DataAwsccM2Application, scope constructs.Construct, id *string, config *DataAwsccM2ApplicationConfig) {
 	_init_.Initialize()
 

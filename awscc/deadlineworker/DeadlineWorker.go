@@ -5,14 +5,14 @@ package deadlineworker
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlineworker/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlineworker/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_worker awscc_deadline_worker}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_worker awscc_deadline_worker}.
 type DeadlineWorker interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -504,7 +504,7 @@ func (j *jsiiProxy_DeadlineWorker) WorkerId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_worker awscc_deadline_worker} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_worker awscc_deadline_worker} Resource.
 func NewDeadlineWorker(scope constructs.Construct, id *string, config *DeadlineWorkerConfig) DeadlineWorker {
 	_init_.Initialize()
 
@@ -522,7 +522,7 @@ func NewDeadlineWorker(scope constructs.Construct, id *string, config *DeadlineW
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_worker awscc_deadline_worker} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_worker awscc_deadline_worker} Resource.
 func NewDeadlineWorker_Override(d DeadlineWorker, scope constructs.Construct, id *string, config *DeadlineWorkerConfig) {
 	_init_.Initialize()
 

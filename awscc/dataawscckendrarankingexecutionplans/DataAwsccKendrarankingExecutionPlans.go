@@ -5,14 +5,14 @@ package dataawscckendrarankingexecutionplans
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrarankingexecutionplans/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrarankingexecutionplans/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kendraranking_execution_plans awscc_kendraranking_execution_plans}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kendraranking_execution_plans awscc_kendraranking_execution_plans}.
 type DataAwsccKendrarankingExecutionPlans interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccKendrarankingExecutionPlans) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kendraranking_execution_plans awscc_kendraranking_execution_plans} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kendraranking_execution_plans awscc_kendraranking_execution_plans} Data Source.
 func NewDataAwsccKendrarankingExecutionPlans(scope constructs.Construct, id *string, config *DataAwsccKendrarankingExecutionPlansConfig) DataAwsccKendrarankingExecutionPlans {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccKendrarankingExecutionPlans(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kendraranking_execution_plans awscc_kendraranking_execution_plans} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kendraranking_execution_plans awscc_kendraranking_execution_plans} Data Source.
 func NewDataAwsccKendrarankingExecutionPlans_Override(d DataAwsccKendrarankingExecutionPlans, scope constructs.Construct, id *string, config *DataAwsccKendrarankingExecutionPlansConfig) {
 	_init_.Initialize()
 

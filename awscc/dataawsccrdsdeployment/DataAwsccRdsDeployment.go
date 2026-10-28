@@ -5,14 +5,14 @@ package dataawsccrdsdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_deployment awscc_rds_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_deployment awscc_rds_deployment}.
 type DataAwsccRdsDeployment interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_DataAwsccRdsDeployment) UpgradeTargetStorageConfig() cdktn.IR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_deployment awscc_rds_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_deployment awscc_rds_deployment} Data Source.
 func NewDataAwsccRdsDeployment(scope constructs.Construct, id *string, config *DataAwsccRdsDeploymentConfig) DataAwsccRdsDeployment {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewDataAwsccRdsDeployment(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_deployment awscc_rds_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_deployment awscc_rds_deployment} Data Source.
 func NewDataAwsccRdsDeployment_Override(d DataAwsccRdsDeployment, scope constructs.Construct, id *string, config *DataAwsccRdsDeploymentConfig) {
 	_init_.Initialize()
 

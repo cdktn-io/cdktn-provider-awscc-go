@@ -5,14 +5,14 @@ package dataawsccnimblestudiostudio
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnimblestudiostudio/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnimblestudiostudio/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/nimblestudio_studio awscc_nimblestudio_studio}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/nimblestudio_studio awscc_nimblestudio_studio}.
 type DataAwsccNimblestudioStudio interface {
 	cdktn.TerraformDataSource
 	AdminRoleArn() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccNimblestudioStudio) UserRoleArn() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/nimblestudio_studio awscc_nimblestudio_studio} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/nimblestudio_studio awscc_nimblestudio_studio} Data Source.
 func NewDataAwsccNimblestudioStudio(scope constructs.Construct, id *string, config *DataAwsccNimblestudioStudioConfig) DataAwsccNimblestudioStudio {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccNimblestudioStudio(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/nimblestudio_studio awscc_nimblestudio_studio} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/nimblestudio_studio awscc_nimblestudio_studio} Data Source.
 func NewDataAwsccNimblestudioStudio_Override(d DataAwsccNimblestudioStudio, scope constructs.Construct, id *string, config *DataAwsccNimblestudioStudioConfig) {
 	_init_.Initialize()
 

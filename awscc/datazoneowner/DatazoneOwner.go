@@ -5,14 +5,14 @@ package datazoneowner
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneowner/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneowner/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_owner awscc_datazone_owner}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_owner awscc_datazone_owner}.
 type DatazoneOwner interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -469,7 +469,7 @@ func (j *jsiiProxy_DatazoneOwner) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_owner awscc_datazone_owner} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_owner awscc_datazone_owner} Resource.
 func NewDatazoneOwner(scope constructs.Construct, id *string, config *DatazoneOwnerConfig) DatazoneOwner {
 	_init_.Initialize()
 
@@ -487,7 +487,7 @@ func NewDatazoneOwner(scope constructs.Construct, id *string, config *DatazoneOw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_owner awscc_datazone_owner} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_owner awscc_datazone_owner} Resource.
 func NewDatazoneOwner_Override(d DatazoneOwner, scope constructs.Construct, id *string, config *DatazoneOwnerConfig) {
 	_init_.Initialize()
 

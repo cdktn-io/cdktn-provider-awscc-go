@@ -5,14 +5,14 @@ package redshiftredshiftidcapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftredshiftidcapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftredshiftidcapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application awscc_redshift_redshift_idc_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application awscc_redshift_redshift_idc_application}.
 type RedshiftRedshiftIdcApplication interface {
 	cdktn.TerraformResource
 	ApplicationType() *string
@@ -624,7 +624,7 @@ func (j *jsiiProxy_RedshiftRedshiftIdcApplication) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application awscc_redshift_redshift_idc_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application awscc_redshift_redshift_idc_application} Resource.
 func NewRedshiftRedshiftIdcApplication(scope constructs.Construct, id *string, config *RedshiftRedshiftIdcApplicationConfig) RedshiftRedshiftIdcApplication {
 	_init_.Initialize()
 
@@ -642,7 +642,7 @@ func NewRedshiftRedshiftIdcApplication(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_redshift_idc_application awscc_redshift_redshift_idc_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_redshift_idc_application awscc_redshift_redshift_idc_application} Resource.
 func NewRedshiftRedshiftIdcApplication_Override(r RedshiftRedshiftIdcApplication, scope constructs.Construct, id *string, config *RedshiftRedshiftIdcApplicationConfig) {
 	_init_.Initialize()
 

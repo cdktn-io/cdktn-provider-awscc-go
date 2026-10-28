@@ -5,14 +5,14 @@ package applicationsignalsdiscovery
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsdiscovery/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsdiscovery/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_discovery awscc_applicationsignals_discovery}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_discovery awscc_applicationsignals_discovery}.
 type ApplicationsignalsDiscovery interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -366,7 +366,7 @@ func (j *jsiiProxy_ApplicationsignalsDiscovery) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_discovery awscc_applicationsignals_discovery} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_discovery awscc_applicationsignals_discovery} Resource.
 func NewApplicationsignalsDiscovery(scope constructs.Construct, id *string, config *ApplicationsignalsDiscoveryConfig) ApplicationsignalsDiscovery {
 	_init_.Initialize()
 
@@ -384,7 +384,7 @@ func NewApplicationsignalsDiscovery(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_discovery awscc_applicationsignals_discovery} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_discovery awscc_applicationsignals_discovery} Resource.
 func NewApplicationsignalsDiscovery_Override(a ApplicationsignalsDiscovery, scope constructs.Construct, id *string, config *ApplicationsignalsDiscoveryConfig) {
 	_init_.Initialize()
 

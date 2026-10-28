@@ -5,14 +5,14 @@ package directconnectprivatevirtualinterface
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectprivatevirtualinterface/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectprivatevirtualinterface/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface}.
 type DirectconnectPrivateVirtualInterface interface {
 	cdktn.TerraformResource
 	AllocatePrivateVirtualInterfaceRoleArn() *string
@@ -637,7 +637,7 @@ func (j *jsiiProxy_DirectconnectPrivateVirtualInterface) VlanInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface} Resource.
 func NewDirectconnectPrivateVirtualInterface(scope constructs.Construct, id *string, config *DirectconnectPrivateVirtualInterfaceConfig) DirectconnectPrivateVirtualInterface {
 	_init_.Initialize()
 
@@ -655,7 +655,7 @@ func NewDirectconnectPrivateVirtualInterface(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_private_virtual_interface awscc_directconnect_private_virtual_interface} Resource.
 func NewDirectconnectPrivateVirtualInterface_Override(d DirectconnectPrivateVirtualInterface, scope constructs.Construct, id *string, config *DirectconnectPrivateVirtualInterfaceConfig) {
 	_init_.Initialize()
 

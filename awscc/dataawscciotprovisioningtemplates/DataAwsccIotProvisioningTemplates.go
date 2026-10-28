@@ -5,14 +5,14 @@ package dataawscciotprovisioningtemplates
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotprovisioningtemplates/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotprovisioningtemplates/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_provisioning_templates awscc_iot_provisioning_templates}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_provisioning_templates awscc_iot_provisioning_templates}.
 type DataAwsccIotProvisioningTemplates interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotProvisioningTemplates) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_provisioning_templates awscc_iot_provisioning_templates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_provisioning_templates awscc_iot_provisioning_templates} Data Source.
 func NewDataAwsccIotProvisioningTemplates(scope constructs.Construct, id *string, config *DataAwsccIotProvisioningTemplatesConfig) DataAwsccIotProvisioningTemplates {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotProvisioningTemplates(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_provisioning_templates awscc_iot_provisioning_templates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_provisioning_templates awscc_iot_provisioning_templates} Data Source.
 func NewDataAwsccIotProvisioningTemplates_Override(d DataAwsccIotProvisioningTemplates, scope constructs.Construct, id *string, config *DataAwsccIotProvisioningTemplatesConfig) {
 	_init_.Initialize()
 

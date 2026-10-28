@@ -5,14 +5,14 @@ package redshiftclusterparametergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/redshiftclusterparametergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/redshiftclusterparametergroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_cluster_parameter_group awscc_redshift_cluster_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_cluster_parameter_group awscc_redshift_cluster_parameter_group}.
 type RedshiftClusterParameterGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_RedshiftClusterParameterGroup) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_cluster_parameter_group awscc_redshift_cluster_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_cluster_parameter_group awscc_redshift_cluster_parameter_group} Resource.
 func NewRedshiftClusterParameterGroup(scope constructs.Construct, id *string, config *RedshiftClusterParameterGroupConfig) RedshiftClusterParameterGroup {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewRedshiftClusterParameterGroup(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/redshift_cluster_parameter_group awscc_redshift_cluster_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/redshift_cluster_parameter_group awscc_redshift_cluster_parameter_group} Resource.
 func NewRedshiftClusterParameterGroup_Override(r RedshiftClusterParameterGroup, scope constructs.Construct, id *string, config *RedshiftClusterParameterGroupConfig) {
 	_init_.Initialize()
 

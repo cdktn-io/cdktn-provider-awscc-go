@@ -103,6 +103,10 @@ func (j *jsiiProxy_DynamodbGlobalTableReplicasOutputReference) validateSetDeleti
 	return nil
 }
 
+func (j *jsiiProxy_DynamodbGlobalTableReplicasOutputReference) validateSetDisassociationProtectionEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_DynamodbGlobalTableReplicasOutputReference) validateSetGlobalTableSettingsReplicationModeParameters(val *string) error {
 	return nil
 }

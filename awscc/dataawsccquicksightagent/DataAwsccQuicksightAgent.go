@@ -5,14 +5,14 @@ package dataawsccquicksightagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightagent/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_agent awscc_quicksight_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_agent awscc_quicksight_agent}.
 type DataAwsccQuicksightAgent interface {
 	cdktn.TerraformDataSource
 	ActionConnectors() *[]*string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_DataAwsccQuicksightAgent) WelcomeMessage() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_agent awscc_quicksight_agent} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_agent awscc_quicksight_agent} Data Source.
 func NewDataAwsccQuicksightAgent(scope constructs.Construct, id *string, config *DataAwsccQuicksightAgentConfig) DataAwsccQuicksightAgent {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewDataAwsccQuicksightAgent(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_agent awscc_quicksight_agent} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_agent awscc_quicksight_agent} Data Source.
 func NewDataAwsccQuicksightAgent_Override(d DataAwsccQuicksightAgent, scope constructs.Construct, id *string, config *DataAwsccQuicksightAgentConfig) {
 	_init_.Initialize()
 

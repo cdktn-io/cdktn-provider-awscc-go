@@ -26,19 +26,19 @@ type IvsAdConfigurationConfig struct {
 	//
 	// The first item in the list is the default playback configuration used for the ad configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#media_tailor_playback_configurations IvsAdConfiguration#media_tailor_playback_configurations}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#media_tailor_playback_configurations IvsAdConfiguration#media_tailor_playback_configurations}
 	MediaTailorPlaybackConfigurations interface{} `field:"required" json:"mediaTailorPlaybackConfigurations" yaml:"mediaTailorPlaybackConfigurations"`
 	// Ad configuration name. The value does not need to be unique.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#name IvsAdConfiguration#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#name IvsAdConfiguration#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// Configuration for the post-roll ad break to use for this ad configuration.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#post_roll_configuration IvsAdConfiguration#post_roll_configuration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#post_roll_configuration IvsAdConfiguration#post_roll_configuration}
 	PostRollConfiguration *IvsAdConfigurationPostRollConfiguration `field:"optional" json:"postRollConfiguration" yaml:"postRollConfiguration"`
 	// Tags attached to the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_ad_configuration#tags IvsAdConfiguration#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_ad_configuration#tags IvsAdConfiguration#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

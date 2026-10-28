@@ -5,14 +5,14 @@ package dataawsccdatasyncstoragesystems
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasyncstoragesystems/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasyncstoragesystems/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_storage_systems awscc_datasync_storage_systems}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_storage_systems awscc_datasync_storage_systems}.
 type DataAwsccDatasyncStorageSystems interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDatasyncStorageSystems) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_storage_systems awscc_datasync_storage_systems} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_storage_systems awscc_datasync_storage_systems} Data Source.
 func NewDataAwsccDatasyncStorageSystems(scope constructs.Construct, id *string, config *DataAwsccDatasyncStorageSystemsConfig) DataAwsccDatasyncStorageSystems {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDatasyncStorageSystems(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_storage_systems awscc_datasync_storage_systems} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_storage_systems awscc_datasync_storage_systems} Data Source.
 func NewDataAwsccDatasyncStorageSystems_Override(d DataAwsccDatasyncStorageSystems, scope constructs.Construct, id *string, config *DataAwsccDatasyncStorageSystemsConfig) {
 	_init_.Initialize()
 

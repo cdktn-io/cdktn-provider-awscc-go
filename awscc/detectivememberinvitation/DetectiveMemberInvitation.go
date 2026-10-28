@@ -5,14 +5,14 @@ package detectivememberinvitation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/detectivememberinvitation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/detectivememberinvitation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/detective_member_invitation awscc_detective_member_invitation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/detective_member_invitation awscc_detective_member_invitation}.
 type DetectiveMemberInvitation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_DetectiveMemberInvitation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/detective_member_invitation awscc_detective_member_invitation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/detective_member_invitation awscc_detective_member_invitation} Resource.
 func NewDetectiveMemberInvitation(scope constructs.Construct, id *string, config *DetectiveMemberInvitationConfig) DetectiveMemberInvitation {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewDetectiveMemberInvitation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/detective_member_invitation awscc_detective_member_invitation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/detective_member_invitation awscc_detective_member_invitation} Resource.
 func NewDetectiveMemberInvitation_Override(d DetectiveMemberInvitation, scope constructs.Construct, id *string, config *DetectiveMemberInvitationConfig) {
 	_init_.Initialize()
 

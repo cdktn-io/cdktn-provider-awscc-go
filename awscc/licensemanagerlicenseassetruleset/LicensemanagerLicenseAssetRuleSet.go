@@ -5,14 +5,14 @@ package licensemanagerlicenseassetruleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlicenseassetruleset/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlicenseassetruleset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_asset_rule_set awscc_licensemanager_license_asset_rule_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_asset_rule_set awscc_licensemanager_license_asset_rule_set}.
 type LicensemanagerLicenseAssetRuleSet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -460,7 +460,7 @@ func (j *jsiiProxy_LicensemanagerLicenseAssetRuleSet) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_asset_rule_set awscc_licensemanager_license_asset_rule_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_asset_rule_set awscc_licensemanager_license_asset_rule_set} Resource.
 func NewLicensemanagerLicenseAssetRuleSet(scope constructs.Construct, id *string, config *LicensemanagerLicenseAssetRuleSetConfig) LicensemanagerLicenseAssetRuleSet {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewLicensemanagerLicenseAssetRuleSet(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_asset_rule_set awscc_licensemanager_license_asset_rule_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_asset_rule_set awscc_licensemanager_license_asset_rule_set} Resource.
 func NewLicensemanagerLicenseAssetRuleSet_Override(l LicensemanagerLicenseAssetRuleSet, scope constructs.Construct, id *string, config *LicensemanagerLicenseAssetRuleSetConfig) {
 	_init_.Initialize()
 

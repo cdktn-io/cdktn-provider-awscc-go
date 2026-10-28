@@ -5,14 +5,14 @@ package dataawsccapigatewaydeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaydeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaydeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_deployment awscc_apigateway_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_deployment awscc_apigateway_deployment}.
 type DataAwsccApigatewayDeployment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccApigatewayDeployment) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_deployment awscc_apigateway_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_deployment awscc_apigateway_deployment} Data Source.
 func NewDataAwsccApigatewayDeployment(scope constructs.Construct, id *string, config *DataAwsccApigatewayDeploymentConfig) DataAwsccApigatewayDeployment {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccApigatewayDeployment(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_deployment awscc_apigateway_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_deployment awscc_apigateway_deployment} Data Source.
 func NewDataAwsccApigatewayDeployment_Override(d DataAwsccApigatewayDeployment, scope constructs.Construct, id *string, config *DataAwsccApigatewayDeploymentConfig) {
 	_init_.Initialize()
 

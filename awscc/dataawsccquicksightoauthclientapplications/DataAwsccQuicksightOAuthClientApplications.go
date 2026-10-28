@@ -5,14 +5,14 @@ package dataawsccquicksightoauthclientapplications
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightoauthclientapplications/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightoauthclientapplications/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_o_auth_client_applications awscc_quicksight_o_auth_client_applications}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_o_auth_client_applications awscc_quicksight_o_auth_client_applications}.
 type DataAwsccQuicksightOAuthClientApplications interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccQuicksightOAuthClientApplications) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_o_auth_client_applications awscc_quicksight_o_auth_client_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_o_auth_client_applications awscc_quicksight_o_auth_client_applications} Data Source.
 func NewDataAwsccQuicksightOAuthClientApplications(scope constructs.Construct, id *string, config *DataAwsccQuicksightOAuthClientApplicationsConfig) DataAwsccQuicksightOAuthClientApplications {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccQuicksightOAuthClientApplications(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_o_auth_client_applications awscc_quicksight_o_auth_client_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_o_auth_client_applications awscc_quicksight_o_auth_client_applications} Data Source.
 func NewDataAwsccQuicksightOAuthClientApplications_Override(d DataAwsccQuicksightOAuthClientApplications, scope constructs.Construct, id *string, config *DataAwsccQuicksightOAuthClientApplicationsConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package servicecataloglaunchnotificationconstraint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecataloglaunchnotificationconstraint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecataloglaunchnotificationconstraint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_notification_constraint awscc_servicecatalog_launch_notification_constraint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_notification_constraint awscc_servicecatalog_launch_notification_constraint}.
 type ServicecatalogLaunchNotificationConstraint interface {
 	cdktn.TerraformResource
 	AcceptLanguage() *string
@@ -483,7 +483,7 @@ func (j *jsiiProxy_ServicecatalogLaunchNotificationConstraint) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_notification_constraint awscc_servicecatalog_launch_notification_constraint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_notification_constraint awscc_servicecatalog_launch_notification_constraint} Resource.
 func NewServicecatalogLaunchNotificationConstraint(scope constructs.Construct, id *string, config *ServicecatalogLaunchNotificationConstraintConfig) ServicecatalogLaunchNotificationConstraint {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewServicecatalogLaunchNotificationConstraint(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_notification_constraint awscc_servicecatalog_launch_notification_constraint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_notification_constraint awscc_servicecatalog_launch_notification_constraint} Resource.
 func NewServicecatalogLaunchNotificationConstraint_Override(s ServicecatalogLaunchNotificationConstraint, scope constructs.Construct, id *string, config *ServicecatalogLaunchNotificationConstraintConfig) {
 	_init_.Initialize()
 

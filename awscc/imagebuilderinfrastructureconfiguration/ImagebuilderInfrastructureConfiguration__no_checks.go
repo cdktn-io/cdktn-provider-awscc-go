@@ -87,6 +87,10 @@ func (i *jsiiProxy_ImagebuilderInfrastructureConfiguration) validatePutLoggingPa
 	return nil
 }
 
+func (i *jsiiProxy_ImagebuilderInfrastructureConfiguration) validatePutParentInstanceParameters(value *ImagebuilderInfrastructureConfigurationParentInstance) error {
+	return nil
+}
+
 func (i *jsiiProxy_ImagebuilderInfrastructureConfiguration) validatePutPlacementParameters(value *ImagebuilderInfrastructureConfigurationPlacement) error {
 	return nil
 }
@@ -164,6 +168,10 @@ func (j *jsiiProxy_ImagebuilderInfrastructureConfiguration) validateSetSubnetIdP
 }
 
 func (j *jsiiProxy_ImagebuilderInfrastructureConfiguration) validateSetTagsParameters(val *map[string]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ImagebuilderInfrastructureConfiguration) validateSetTerminateInstanceOnCompletionParameters(val interface{}) error {
 	return nil
 }
 

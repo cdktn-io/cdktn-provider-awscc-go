@@ -5,14 +5,14 @@ package dataawsccguarddutytrustedentitysets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutytrustedentitysets/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutytrustedentitysets/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_trusted_entity_sets awscc_guardduty_trusted_entity_sets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_trusted_entity_sets awscc_guardduty_trusted_entity_sets}.
 type DataAwsccGuarddutyTrustedEntitySets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGuarddutyTrustedEntitySets) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_trusted_entity_sets awscc_guardduty_trusted_entity_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_trusted_entity_sets awscc_guardduty_trusted_entity_sets} Data Source.
 func NewDataAwsccGuarddutyTrustedEntitySets(scope constructs.Construct, id *string, config *DataAwsccGuarddutyTrustedEntitySetsConfig) DataAwsccGuarddutyTrustedEntitySets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGuarddutyTrustedEntitySets(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_trusted_entity_sets awscc_guardduty_trusted_entity_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_trusted_entity_sets awscc_guardduty_trusted_entity_sets} Data Source.
 func NewDataAwsccGuarddutyTrustedEntitySets_Override(d DataAwsccGuarddutyTrustedEntitySets, scope constructs.Construct, id *string, config *DataAwsccGuarddutyTrustedEntitySetsConfig) {
 	_init_.Initialize()
 

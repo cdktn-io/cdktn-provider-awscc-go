@@ -5,14 +5,14 @@ package bedrockpromptversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockpromptversion/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockpromptversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt_version awscc_bedrock_prompt_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt_version awscc_bedrock_prompt_version}.
 type BedrockPromptVersion interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -525,7 +525,7 @@ func (j *jsiiProxy_BedrockPromptVersion) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt_version awscc_bedrock_prompt_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt_version awscc_bedrock_prompt_version} Resource.
 func NewBedrockPromptVersion(scope constructs.Construct, id *string, config *BedrockPromptVersionConfig) BedrockPromptVersion {
 	_init_.Initialize()
 
@@ -543,7 +543,7 @@ func NewBedrockPromptVersion(scope constructs.Construct, id *string, config *Bed
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_prompt_version awscc_bedrock_prompt_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_prompt_version awscc_bedrock_prompt_version} Resource.
 func NewBedrockPromptVersion_Override(b BedrockPromptVersion, scope constructs.Construct, id *string, config *BedrockPromptVersionConfig) {
 	_init_.Initialize()
 

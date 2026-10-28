@@ -5,14 +5,14 @@ package cleanroomsconfiguredtableassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cleanroomsconfiguredtableassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cleanroomsconfiguredtableassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cleanrooms_configured_table_association awscc_cleanrooms_configured_table_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cleanrooms_configured_table_association awscc_cleanrooms_configured_table_association}.
 type CleanroomsConfiguredTableAssociation interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -541,7 +541,7 @@ func (j *jsiiProxy_CleanroomsConfiguredTableAssociation) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cleanrooms_configured_table_association awscc_cleanrooms_configured_table_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cleanrooms_configured_table_association awscc_cleanrooms_configured_table_association} Resource.
 func NewCleanroomsConfiguredTableAssociation(scope constructs.Construct, id *string, config *CleanroomsConfiguredTableAssociationConfig) CleanroomsConfiguredTableAssociation {
 	_init_.Initialize()
 
@@ -559,7 +559,7 @@ func NewCleanroomsConfiguredTableAssociation(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cleanrooms_configured_table_association awscc_cleanrooms_configured_table_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cleanrooms_configured_table_association awscc_cleanrooms_configured_table_association} Resource.
 func NewCleanroomsConfiguredTableAssociation_Override(c CleanroomsConfiguredTableAssociation, scope constructs.Construct, id *string, config *CleanroomsConfiguredTableAssociationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package eventsv2eventsource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsv2eventsource/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsv2eventsource/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventsv2_event_source awscc_eventsv2_event_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventsv2_event_source awscc_eventsv2_event_source}.
 type Eventsv2EventSource interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -527,7 +527,7 @@ func (j *jsiiProxy_Eventsv2EventSource) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventsv2_event_source awscc_eventsv2_event_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventsv2_event_source awscc_eventsv2_event_source} Resource.
 func NewEventsv2EventSource(scope constructs.Construct, id *string, config *Eventsv2EventSourceConfig) Eventsv2EventSource {
 	_init_.Initialize()
 
@@ -545,7 +545,7 @@ func NewEventsv2EventSource(scope constructs.Construct, id *string, config *Even
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventsv2_event_source awscc_eventsv2_event_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventsv2_event_source awscc_eventsv2_event_source} Resource.
 func NewEventsv2EventSource_Override(e Eventsv2EventSource, scope constructs.Construct, id *string, config *Eventsv2EventSourceConfig) {
 	_init_.Initialize()
 

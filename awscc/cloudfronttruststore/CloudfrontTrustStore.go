@@ -5,14 +5,14 @@ package cloudfronttruststore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfronttruststore/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfronttruststore/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_trust_store awscc_cloudfront_trust_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_trust_store awscc_cloudfront_trust_store}.
 type CloudfrontTrustStore interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -516,7 +516,7 @@ func (j *jsiiProxy_CloudfrontTrustStore) UseClientCertificateOcspEndpointInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_trust_store awscc_cloudfront_trust_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_trust_store awscc_cloudfront_trust_store} Resource.
 func NewCloudfrontTrustStore(scope constructs.Construct, id *string, config *CloudfrontTrustStoreConfig) CloudfrontTrustStore {
 	_init_.Initialize()
 
@@ -534,7 +534,7 @@ func NewCloudfrontTrustStore(scope constructs.Construct, id *string, config *Clo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_trust_store awscc_cloudfront_trust_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_trust_store awscc_cloudfront_trust_store} Resource.
 func NewCloudfrontTrustStore_Override(c CloudfrontTrustStore, scope constructs.Construct, id *string, config *CloudfrontTrustStoreConfig) {
 	_init_.Initialize()
 

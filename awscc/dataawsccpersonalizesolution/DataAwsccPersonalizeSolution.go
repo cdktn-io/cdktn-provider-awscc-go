@@ -5,14 +5,14 @@ package dataawsccpersonalizesolution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpersonalizesolution/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpersonalizesolution/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/personalize_solution awscc_personalize_solution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/personalize_solution awscc_personalize_solution}.
 type DataAwsccPersonalizeSolution interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccPersonalizeSolution) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/personalize_solution awscc_personalize_solution} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/personalize_solution awscc_personalize_solution} Data Source.
 func NewDataAwsccPersonalizeSolution(scope constructs.Construct, id *string, config *DataAwsccPersonalizeSolutionConfig) DataAwsccPersonalizeSolution {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccPersonalizeSolution(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/personalize_solution awscc_personalize_solution} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/personalize_solution awscc_personalize_solution} Data Source.
 func NewDataAwsccPersonalizeSolution_Override(d DataAwsccPersonalizeSolution, scope constructs.Construct, id *string, config *DataAwsccPersonalizeSolutionConfig) {
 	_init_.Initialize()
 

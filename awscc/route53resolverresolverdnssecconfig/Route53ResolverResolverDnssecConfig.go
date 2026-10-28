@@ -5,14 +5,14 @@ package route53resolverresolverdnssecconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53resolverresolverdnssecconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53resolverresolverdnssecconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config}.
 type Route53ResolverResolverDnssecConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -412,7 +412,7 @@ func (j *jsiiProxy_Route53ResolverResolverDnssecConfig) ValidationStatus() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config} Resource.
 func NewRoute53ResolverResolverDnssecConfig(scope constructs.Construct, id *string, config *Route53ResolverResolverDnssecConfigConfig) Route53ResolverResolverDnssecConfig {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewRoute53ResolverResolverDnssecConfig(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_resolver_dnssec_config awscc_route53resolver_resolver_dnssec_config} Resource.
 func NewRoute53ResolverResolverDnssecConfig_Override(r Route53ResolverResolverDnssecConfig, scope constructs.Construct, id *string, config *Route53ResolverResolverDnssecConfigConfig) {
 	_init_.Initialize()
 

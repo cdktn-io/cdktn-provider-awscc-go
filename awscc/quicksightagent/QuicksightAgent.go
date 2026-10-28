@@ -5,14 +5,14 @@ package quicksightagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightagent/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_agent awscc_quicksight_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_agent awscc_quicksight_agent}.
 type QuicksightAgent interface {
 	cdktn.TerraformResource
 	ActionConnectors() *[]*string
@@ -717,7 +717,7 @@ func (j *jsiiProxy_QuicksightAgent) WelcomeMessageInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_agent awscc_quicksight_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_agent awscc_quicksight_agent} Resource.
 func NewQuicksightAgent(scope constructs.Construct, id *string, config *QuicksightAgentConfig) QuicksightAgent {
 	_init_.Initialize()
 
@@ -735,7 +735,7 @@ func NewQuicksightAgent(scope constructs.Construct, id *string, config *Quicksig
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_agent awscc_quicksight_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_agent awscc_quicksight_agent} Resource.
 func NewQuicksightAgent_Override(q QuicksightAgent, scope constructs.Construct, id *string, config *QuicksightAgentConfig) {
 	_init_.Initialize()
 

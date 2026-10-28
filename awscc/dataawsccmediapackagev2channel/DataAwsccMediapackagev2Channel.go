@@ -5,14 +5,14 @@ package dataawsccmediapackagev2channel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagev2channel/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagev2channel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_channel awscc_mediapackagev2_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackagev2_channel awscc_mediapackagev2_channel}.
 type DataAwsccMediapackagev2Channel interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccMediapackagev2Channel) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_channel awscc_mediapackagev2_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackagev2_channel awscc_mediapackagev2_channel} Data Source.
 func NewDataAwsccMediapackagev2Channel(scope constructs.Construct, id *string, config *DataAwsccMediapackagev2ChannelConfig) DataAwsccMediapackagev2Channel {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccMediapackagev2Channel(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_channel awscc_mediapackagev2_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackagev2_channel awscc_mediapackagev2_channel} Data Source.
 func NewDataAwsccMediapackagev2Channel_Override(d DataAwsccMediapackagev2Channel, scope constructs.Construct, id *string, config *DataAwsccMediapackagev2ChannelConfig) {
 	_init_.Initialize()
 

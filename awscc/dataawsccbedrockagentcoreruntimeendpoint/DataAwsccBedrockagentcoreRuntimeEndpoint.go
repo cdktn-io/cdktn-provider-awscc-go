@@ -5,14 +5,14 @@ package dataawsccbedrockagentcoreruntimeendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreruntimeendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreruntimeendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_runtime_endpoint awscc_bedrockagentcore_runtime_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_runtime_endpoint awscc_bedrockagentcore_runtime_endpoint}.
 type DataAwsccBedrockagentcoreRuntimeEndpoint interface {
 	cdktn.TerraformDataSource
 	AgentRuntimeArn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreRuntimeEndpoint) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_runtime_endpoint awscc_bedrockagentcore_runtime_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_runtime_endpoint awscc_bedrockagentcore_runtime_endpoint} Data Source.
 func NewDataAwsccBedrockagentcoreRuntimeEndpoint(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreRuntimeEndpointConfig) DataAwsccBedrockagentcoreRuntimeEndpoint {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccBedrockagentcoreRuntimeEndpoint(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_runtime_endpoint awscc_bedrockagentcore_runtime_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_runtime_endpoint awscc_bedrockagentcore_runtime_endpoint} Data Source.
 func NewDataAwsccBedrockagentcoreRuntimeEndpoint_Override(d DataAwsccBedrockagentcoreRuntimeEndpoint, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreRuntimeEndpointConfig) {
 	_init_.Initialize()
 

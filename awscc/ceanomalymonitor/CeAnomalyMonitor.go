@@ -5,14 +5,14 @@ package ceanomalymonitor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ceanomalymonitor/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ceanomalymonitor/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ce_anomaly_monitor awscc_ce_anomaly_monitor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ce_anomaly_monitor awscc_ce_anomaly_monitor}.
 type CeAnomalyMonitor interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -528,7 +528,7 @@ func (j *jsiiProxy_CeAnomalyMonitor) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ce_anomaly_monitor awscc_ce_anomaly_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ce_anomaly_monitor awscc_ce_anomaly_monitor} Resource.
 func NewCeAnomalyMonitor(scope constructs.Construct, id *string, config *CeAnomalyMonitorConfig) CeAnomalyMonitor {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewCeAnomalyMonitor(scope constructs.Construct, id *string, config *CeAnoma
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ce_anomaly_monitor awscc_ce_anomaly_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ce_anomaly_monitor awscc_ce_anomaly_monitor} Resource.
 func NewCeAnomalyMonitor_Override(c CeAnomalyMonitor, scope constructs.Construct, id *string, config *CeAnomalyMonitorConfig) {
 	_init_.Initialize()
 

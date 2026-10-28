@@ -5,14 +5,14 @@ package dataawsccelasticachesubnetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachesubnetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachesubnetgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_subnet_group awscc_elasticache_subnet_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_subnet_group awscc_elasticache_subnet_group}.
 type DataAwsccElasticacheSubnetGroup interface {
 	cdktn.TerraformDataSource
 	CacheSubnetGroupName() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccElasticacheSubnetGroup) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_subnet_group awscc_elasticache_subnet_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_subnet_group awscc_elasticache_subnet_group} Data Source.
 func NewDataAwsccElasticacheSubnetGroup(scope constructs.Construct, id *string, config *DataAwsccElasticacheSubnetGroupConfig) DataAwsccElasticacheSubnetGroup {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccElasticacheSubnetGroup(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_subnet_group awscc_elasticache_subnet_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_subnet_group awscc_elasticache_subnet_group} Data Source.
 func NewDataAwsccElasticacheSubnetGroup_Override(d DataAwsccElasticacheSubnetGroup, scope constructs.Construct, id *string, config *DataAwsccElasticacheSubnetGroupConfig) {
 	_init_.Initialize()
 

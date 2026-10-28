@@ -5,14 +5,14 @@ package dataawsccmediaconnectflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflow/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflow/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_flow awscc_mediaconnect_flow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_flow awscc_mediaconnect_flow}.
 type DataAwsccMediaconnectFlow interface {
 	cdktn.TerraformDataSource
 	AvailabilityZone() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataAwsccMediaconnectFlow) VpcInterfaces() DataAwsccMediaconn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_flow awscc_mediaconnect_flow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_flow awscc_mediaconnect_flow} Data Source.
 func NewDataAwsccMediaconnectFlow(scope constructs.Construct, id *string, config *DataAwsccMediaconnectFlowConfig) DataAwsccMediaconnectFlow {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataAwsccMediaconnectFlow(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_flow awscc_mediaconnect_flow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_flow awscc_mediaconnect_flow} Data Source.
 func NewDataAwsccMediaconnectFlow_Override(d DataAwsccMediaconnectFlow, scope constructs.Construct, id *string, config *DataAwsccMediaconnectFlowConfig) {
 	_init_.Initialize()
 

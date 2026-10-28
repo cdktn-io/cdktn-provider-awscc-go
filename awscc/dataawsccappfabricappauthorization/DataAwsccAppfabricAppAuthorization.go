@@ -5,14 +5,14 @@ package dataawsccappfabricappauthorization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricappauthorization/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappfabricappauthorization/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appfabric_app_authorization awscc_appfabric_app_authorization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appfabric_app_authorization awscc_appfabric_app_authorization}.
 type DataAwsccAppfabricAppAuthorization interface {
 	cdktn.TerraformDataSource
 	App() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccAppfabricAppAuthorization) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appfabric_app_authorization awscc_appfabric_app_authorization} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appfabric_app_authorization awscc_appfabric_app_authorization} Data Source.
 func NewDataAwsccAppfabricAppAuthorization(scope constructs.Construct, id *string, config *DataAwsccAppfabricAppAuthorizationConfig) DataAwsccAppfabricAppAuthorization {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccAppfabricAppAuthorization(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appfabric_app_authorization awscc_appfabric_app_authorization} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appfabric_app_authorization awscc_appfabric_app_authorization} Data Source.
 func NewDataAwsccAppfabricAppAuthorization_Override(d DataAwsccAppfabricAppAuthorization, scope constructs.Construct, id *string, config *DataAwsccAppfabricAppAuthorizationConfig) {
 	_init_.Initialize()
 

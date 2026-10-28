@@ -5,14 +5,14 @@ package dataawsccec2securitygroupegress
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2securitygroupegress/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2securitygroupegress/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_security_group_egress awscc_ec2_security_group_egress}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_security_group_egress awscc_ec2_security_group_egress}.
 type DataAwsccEc2SecurityGroupEgress interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccEc2SecurityGroupEgress) ToPort() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_security_group_egress awscc_ec2_security_group_egress} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_security_group_egress awscc_ec2_security_group_egress} Data Source.
 func NewDataAwsccEc2SecurityGroupEgress(scope constructs.Construct, id *string, config *DataAwsccEc2SecurityGroupEgressConfig) DataAwsccEc2SecurityGroupEgress {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccEc2SecurityGroupEgress(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_security_group_egress awscc_ec2_security_group_egress} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_security_group_egress awscc_ec2_security_group_egress} Data Source.
 func NewDataAwsccEc2SecurityGroupEgress_Override(d DataAwsccEc2SecurityGroupEgress, scope constructs.Construct, id *string, config *DataAwsccEc2SecurityGroupEgressConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccguarddutyipsets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutyipsets/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutyipsets/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_ip_sets awscc_guardduty_ip_sets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_ip_sets awscc_guardduty_ip_sets}.
 type DataAwsccGuarddutyIpSets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGuarddutyIpSets) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_ip_sets awscc_guardduty_ip_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_ip_sets awscc_guardduty_ip_sets} Data Source.
 func NewDataAwsccGuarddutyIpSets(scope constructs.Construct, id *string, config *DataAwsccGuarddutyIpSetsConfig) DataAwsccGuarddutyIpSets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGuarddutyIpSets(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_ip_sets awscc_guardduty_ip_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_ip_sets awscc_guardduty_ip_sets} Data Source.
 func NewDataAwsccGuarddutyIpSets_Override(d DataAwsccGuarddutyIpSets, scope constructs.Construct, id *string, config *DataAwsccGuarddutyIpSetsConfig) {
 	_init_.Initialize()
 

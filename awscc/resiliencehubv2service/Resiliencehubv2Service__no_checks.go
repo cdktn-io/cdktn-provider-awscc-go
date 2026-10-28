@@ -87,6 +87,10 @@ func (r *jsiiProxy_Resiliencehubv2Service) validatePutAssociatedSystemsParameter
 	return nil
 }
 
+func (r *jsiiProxy_Resiliencehubv2Service) validatePutDevOpsAgentConfigurationParameters(value *Resiliencehubv2ServiceDevOpsAgentConfiguration) error {
+	return nil
+}
+
 func (r *jsiiProxy_Resiliencehubv2Service) validatePutInputSourcesParameters(value interface{}) error {
 	return nil
 }

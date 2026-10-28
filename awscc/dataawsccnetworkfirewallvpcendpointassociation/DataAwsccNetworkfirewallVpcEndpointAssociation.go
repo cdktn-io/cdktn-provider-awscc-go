@@ -5,14 +5,14 @@ package dataawsccnetworkfirewallvpcendpointassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallvpcendpointassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallvpcendpointassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkfirewall_vpc_endpoint_association awscc_networkfirewall_vpc_endpoint_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkfirewall_vpc_endpoint_association awscc_networkfirewall_vpc_endpoint_association}.
 type DataAwsccNetworkfirewallVpcEndpointAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccNetworkfirewallVpcEndpointAssociation) VpcId() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkfirewall_vpc_endpoint_association awscc_networkfirewall_vpc_endpoint_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkfirewall_vpc_endpoint_association awscc_networkfirewall_vpc_endpoint_association} Data Source.
 func NewDataAwsccNetworkfirewallVpcEndpointAssociation(scope constructs.Construct, id *string, config *DataAwsccNetworkfirewallVpcEndpointAssociationConfig) DataAwsccNetworkfirewallVpcEndpointAssociation {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccNetworkfirewallVpcEndpointAssociation(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkfirewall_vpc_endpoint_association awscc_networkfirewall_vpc_endpoint_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkfirewall_vpc_endpoint_association awscc_networkfirewall_vpc_endpoint_association} Data Source.
 func NewDataAwsccNetworkfirewallVpcEndpointAssociation_Override(d DataAwsccNetworkfirewallVpcEndpointAssociation, scope constructs.Construct, id *string, config *DataAwsccNetworkfirewallVpcEndpointAssociationConfig) {
 	_init_.Initialize()
 

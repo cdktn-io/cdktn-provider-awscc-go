@@ -5,14 +5,14 @@ package ec2transitgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway awscc_ec2_transit_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway awscc_ec2_transit_gateway}.
 type Ec2TransitGateway interface {
 	cdktn.TerraformResource
 	AmazonSideAsn() *float64
@@ -724,7 +724,7 @@ func (j *jsiiProxy_Ec2TransitGateway) VpnEcmpSupportInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway awscc_ec2_transit_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway awscc_ec2_transit_gateway} Resource.
 func NewEc2TransitGateway(scope constructs.Construct, id *string, config *Ec2TransitGatewayConfig) Ec2TransitGateway {
 	_init_.Initialize()
 
@@ -742,7 +742,7 @@ func NewEc2TransitGateway(scope constructs.Construct, id *string, config *Ec2Tra
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway awscc_ec2_transit_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway awscc_ec2_transit_gateway} Resource.
 func NewEc2TransitGateway_Override(e Ec2TransitGateway, scope constructs.Construct, id *string, config *Ec2TransitGatewayConfig) {
 	_init_.Initialize()
 

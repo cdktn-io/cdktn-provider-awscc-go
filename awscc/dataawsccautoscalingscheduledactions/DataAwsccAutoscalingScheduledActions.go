@@ -5,14 +5,14 @@ package dataawsccautoscalingscheduledactions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalingscheduledactions/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalingscheduledactions/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/autoscaling_scheduled_actions awscc_autoscaling_scheduled_actions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/autoscaling_scheduled_actions awscc_autoscaling_scheduled_actions}.
 type DataAwsccAutoscalingScheduledActions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccAutoscalingScheduledActions) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/autoscaling_scheduled_actions awscc_autoscaling_scheduled_actions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/autoscaling_scheduled_actions awscc_autoscaling_scheduled_actions} Data Source.
 func NewDataAwsccAutoscalingScheduledActions(scope constructs.Construct, id *string, config *DataAwsccAutoscalingScheduledActionsConfig) DataAwsccAutoscalingScheduledActions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccAutoscalingScheduledActions(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/autoscaling_scheduled_actions awscc_autoscaling_scheduled_actions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/autoscaling_scheduled_actions awscc_autoscaling_scheduled_actions} Data Source.
 func NewDataAwsccAutoscalingScheduledActions_Override(d DataAwsccAutoscalingScheduledActions, scope constructs.Construct, id *string, config *DataAwsccAutoscalingScheduledActionsConfig) {
 	_init_.Initialize()
 

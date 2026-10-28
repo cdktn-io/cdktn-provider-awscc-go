@@ -24,15 +24,15 @@ type Ec2SecondaryNetworkConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The IPv4 CIDR block for the secondary network. The CIDR block size must be between /12 and /28.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_secondary_network#ipv_4_cidr_block Ec2SecondaryNetwork#ipv_4_cidr_block}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_secondary_network#ipv_4_cidr_block Ec2SecondaryNetwork#ipv_4_cidr_block}
 	Ipv4CidrBlock *string `field:"required" json:"ipv4CidrBlock" yaml:"ipv4CidrBlock"`
 	// The type of secondary network.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_secondary_network#network_type Ec2SecondaryNetwork#network_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_secondary_network#network_type Ec2SecondaryNetwork#network_type}
 	NetworkType *string `field:"required" json:"networkType" yaml:"networkType"`
 	// The tags for the secondary network.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_secondary_network#tags Ec2SecondaryNetwork#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_secondary_network#tags Ec2SecondaryNetwork#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

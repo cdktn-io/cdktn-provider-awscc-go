@@ -5,14 +5,14 @@ package paymentcryptographyalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/paymentcryptographyalias/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/paymentcryptographyalias/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/paymentcryptography_alias awscc_paymentcryptography_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/paymentcryptography_alias awscc_paymentcryptography_alias}.
 type PaymentcryptographyAlias interface {
 	cdktn.TerraformResource
 	AliasName() *string
@@ -402,7 +402,7 @@ func (j *jsiiProxy_PaymentcryptographyAlias) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/paymentcryptography_alias awscc_paymentcryptography_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/paymentcryptography_alias awscc_paymentcryptography_alias} Resource.
 func NewPaymentcryptographyAlias(scope constructs.Construct, id *string, config *PaymentcryptographyAliasConfig) PaymentcryptographyAlias {
 	_init_.Initialize()
 
@@ -420,7 +420,7 @@ func NewPaymentcryptographyAlias(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/paymentcryptography_alias awscc_paymentcryptography_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/paymentcryptography_alias awscc_paymentcryptography_alias} Resource.
 func NewPaymentcryptographyAlias_Override(p PaymentcryptographyAlias, scope constructs.Construct, id *string, config *PaymentcryptographyAliasConfig) {
 	_init_.Initialize()
 

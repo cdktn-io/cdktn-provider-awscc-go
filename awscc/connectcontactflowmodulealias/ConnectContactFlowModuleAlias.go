@@ -5,14 +5,14 @@ package connectcontactflowmodulealias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectcontactflowmodulealias/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectcontactflowmodulealias/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow_module_alias awscc_connect_contact_flow_module_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow_module_alias awscc_connect_contact_flow_module_alias}.
 type ConnectContactFlowModuleAlias interface {
 	cdktn.TerraformResource
 	AliasId() *string
@@ -470,7 +470,7 @@ func (j *jsiiProxy_ConnectContactFlowModuleAlias) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow_module_alias awscc_connect_contact_flow_module_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow_module_alias awscc_connect_contact_flow_module_alias} Resource.
 func NewConnectContactFlowModuleAlias(scope constructs.Construct, id *string, config *ConnectContactFlowModuleAliasConfig) ConnectContactFlowModuleAlias {
 	_init_.Initialize()
 
@@ -488,7 +488,7 @@ func NewConnectContactFlowModuleAlias(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_contact_flow_module_alias awscc_connect_contact_flow_module_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_contact_flow_module_alias awscc_connect_contact_flow_module_alias} Resource.
 func NewConnectContactFlowModuleAlias_Override(c ConnectContactFlowModuleAlias, scope constructs.Construct, id *string, config *ConnectContactFlowModuleAliasConfig) {
 	_init_.Initialize()
 

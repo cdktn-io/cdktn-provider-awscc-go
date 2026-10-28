@@ -5,14 +5,14 @@ package ec2routeserverpeer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2routeserverpeer/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2routeserverpeer/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_server_peer awscc_ec2_route_server_peer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_server_peer awscc_ec2_route_server_peer}.
 type Ec2RouteServerPeer interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -525,7 +525,7 @@ func (j *jsiiProxy_Ec2RouteServerPeer) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_server_peer awscc_ec2_route_server_peer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_server_peer awscc_ec2_route_server_peer} Resource.
 func NewEc2RouteServerPeer(scope constructs.Construct, id *string, config *Ec2RouteServerPeerConfig) Ec2RouteServerPeer {
 	_init_.Initialize()
 
@@ -543,7 +543,7 @@ func NewEc2RouteServerPeer(scope constructs.Construct, id *string, config *Ec2Ro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_route_server_peer awscc_ec2_route_server_peer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_route_server_peer awscc_ec2_route_server_peer} Resource.
 func NewEc2RouteServerPeer_Override(e Ec2RouteServerPeer, scope constructs.Construct, id *string, config *Ec2RouteServerPeerConfig) {
 	_init_.Initialize()
 

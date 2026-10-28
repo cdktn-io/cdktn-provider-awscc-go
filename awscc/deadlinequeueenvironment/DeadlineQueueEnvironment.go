@@ -5,14 +5,14 @@ package deadlinequeueenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinequeueenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinequeueenvironment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_queue_environment awscc_deadline_queue_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_queue_environment awscc_deadline_queue_environment}.
 type DeadlineQueueEnvironment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -492,7 +492,7 @@ func (j *jsiiProxy_DeadlineQueueEnvironment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_queue_environment awscc_deadline_queue_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_queue_environment awscc_deadline_queue_environment} Resource.
 func NewDeadlineQueueEnvironment(scope constructs.Construct, id *string, config *DeadlineQueueEnvironmentConfig) DeadlineQueueEnvironment {
 	_init_.Initialize()
 
@@ -510,7 +510,7 @@ func NewDeadlineQueueEnvironment(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_queue_environment awscc_deadline_queue_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_queue_environment awscc_deadline_queue_environment} Resource.
 func NewDeadlineQueueEnvironment_Override(d DeadlineQueueEnvironment, scope constructs.Construct, id *string, config *DeadlineQueueEnvironmentConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccroute53recordset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53recordset/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53recordset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_record_set awscc_route53_record_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_record_set awscc_route53_record_set}.
 type DataAwsccRoute53RecordSet interface {
 	cdktn.TerraformDataSource
 	AliasTarget() DataAwsccRoute53RecordSetAliasTargetOutputReference
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataAwsccRoute53RecordSet) Weight() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_record_set awscc_route53_record_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_record_set awscc_route53_record_set} Data Source.
 func NewDataAwsccRoute53RecordSet(scope constructs.Construct, id *string, config *DataAwsccRoute53RecordSetConfig) DataAwsccRoute53RecordSet {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataAwsccRoute53RecordSet(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_record_set awscc_route53_record_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_record_set awscc_route53_record_set} Data Source.
 func NewDataAwsccRoute53RecordSet_Override(d DataAwsccRoute53RecordSet, scope constructs.Construct, id *string, config *DataAwsccRoute53RecordSetConfig) {
 	_init_.Initialize()
 

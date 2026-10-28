@@ -5,14 +5,14 @@ package omicsreferencestore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsreferencestore/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsreferencestore/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_reference_store awscc_omics_reference_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_reference_store awscc_omics_reference_store}.
 type OmicsReferenceStore interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -483,7 +483,7 @@ func (j *jsiiProxy_OmicsReferenceStore) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_reference_store awscc_omics_reference_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_reference_store awscc_omics_reference_store} Resource.
 func NewOmicsReferenceStore(scope constructs.Construct, id *string, config *OmicsReferenceStoreConfig) OmicsReferenceStore {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewOmicsReferenceStore(scope constructs.Construct, id *string, config *Omic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_reference_store awscc_omics_reference_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_reference_store awscc_omics_reference_store} Resource.
 func NewOmicsReferenceStore_Override(o OmicsReferenceStore, scope constructs.Construct, id *string, config *OmicsReferenceStoreConfig) {
 	_init_.Initialize()
 

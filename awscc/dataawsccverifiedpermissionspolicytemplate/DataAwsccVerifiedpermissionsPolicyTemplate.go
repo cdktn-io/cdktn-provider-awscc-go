@@ -5,14 +5,14 @@ package dataawsccverifiedpermissionspolicytemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccverifiedpermissionspolicytemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccverifiedpermissionspolicytemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/verifiedpermissions_policy_template awscc_verifiedpermissions_policy_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/verifiedpermissions_policy_template awscc_verifiedpermissions_policy_template}.
 type DataAwsccVerifiedpermissionsPolicyTemplate interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccVerifiedpermissionsPolicyTemplate) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/verifiedpermissions_policy_template awscc_verifiedpermissions_policy_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/verifiedpermissions_policy_template awscc_verifiedpermissions_policy_template} Data Source.
 func NewDataAwsccVerifiedpermissionsPolicyTemplate(scope constructs.Construct, id *string, config *DataAwsccVerifiedpermissionsPolicyTemplateConfig) DataAwsccVerifiedpermissionsPolicyTemplate {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccVerifiedpermissionsPolicyTemplate(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/verifiedpermissions_policy_template awscc_verifiedpermissions_policy_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/verifiedpermissions_policy_template awscc_verifiedpermissions_policy_template} Data Source.
 func NewDataAwsccVerifiedpermissionsPolicyTemplate_Override(d DataAwsccVerifiedpermissionsPolicyTemplate, scope constructs.Construct, id *string, config *DataAwsccVerifiedpermissionsPolicyTemplateConfig) {
 	_init_.Initialize()
 

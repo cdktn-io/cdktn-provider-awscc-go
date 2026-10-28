@@ -5,14 +5,14 @@ package dataawscceventsarchives
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsarchives/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsarchives/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_archives awscc_events_archives}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_archives awscc_events_archives}.
 type DataAwsccEventsArchives interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEventsArchives) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_archives awscc_events_archives} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_archives awscc_events_archives} Data Source.
 func NewDataAwsccEventsArchives(scope constructs.Construct, id *string, config *DataAwsccEventsArchivesConfig) DataAwsccEventsArchives {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEventsArchives(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_archives awscc_events_archives} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_archives awscc_events_archives} Data Source.
 func NewDataAwsccEventsArchives_Override(d DataAwsccEventsArchives, scope constructs.Construct, id *string, config *DataAwsccEventsArchivesConfig) {
 	_init_.Initialize()
 

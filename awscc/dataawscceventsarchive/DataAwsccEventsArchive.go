@@ -5,14 +5,14 @@ package dataawscceventsarchive
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsarchive/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsarchive/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_archive awscc_events_archive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_archive awscc_events_archive}.
 type DataAwsccEventsArchive interface {
 	cdktn.TerraformDataSource
 	ArchiveName() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccEventsArchive) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_archive awscc_events_archive} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_archive awscc_events_archive} Data Source.
 func NewDataAwsccEventsArchive(scope constructs.Construct, id *string, config *DataAwsccEventsArchiveConfig) DataAwsccEventsArchive {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccEventsArchive(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_archive awscc_events_archive} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_archive awscc_events_archive} Data Source.
 func NewDataAwsccEventsArchive_Override(d DataAwsccEventsArchive, scope constructs.Construct, id *string, config *DataAwsccEventsArchiveConfig) {
 	_init_.Initialize()
 

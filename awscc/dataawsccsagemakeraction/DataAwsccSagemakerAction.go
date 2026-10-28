@@ -5,14 +5,14 @@ package dataawsccsagemakeraction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakeraction/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakeraction/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_action awscc_sagemaker_action}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_action awscc_sagemaker_action}.
 type DataAwsccSagemakerAction interface {
 	cdktn.TerraformDataSource
 	ActionName() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccSagemakerAction) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_action awscc_sagemaker_action} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_action awscc_sagemaker_action} Data Source.
 func NewDataAwsccSagemakerAction(scope constructs.Construct, id *string, config *DataAwsccSagemakerActionConfig) DataAwsccSagemakerAction {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccSagemakerAction(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_action awscc_sagemaker_action} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_action awscc_sagemaker_action} Data Source.
 func NewDataAwsccSagemakerAction_Override(d DataAwsccSagemakerAction, scope constructs.Construct, id *string, config *DataAwsccSagemakerActionConfig) {
 	_init_.Initialize()
 

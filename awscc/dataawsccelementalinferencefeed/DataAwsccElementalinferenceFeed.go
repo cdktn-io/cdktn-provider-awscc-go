@@ -5,14 +5,14 @@ package dataawsccelementalinferencefeed
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelementalinferencefeed/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelementalinferencefeed/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elementalinference_feed awscc_elementalinference_feed}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elementalinference_feed awscc_elementalinference_feed}.
 type DataAwsccElementalinferenceFeed interface {
 	cdktn.TerraformDataSource
 	AccessRoleArn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccElementalinferenceFeed) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elementalinference_feed awscc_elementalinference_feed} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elementalinference_feed awscc_elementalinference_feed} Data Source.
 func NewDataAwsccElementalinferenceFeed(scope constructs.Construct, id *string, config *DataAwsccElementalinferenceFeedConfig) DataAwsccElementalinferenceFeed {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccElementalinferenceFeed(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elementalinference_feed awscc_elementalinference_feed} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elementalinference_feed awscc_elementalinference_feed} Data Source.
 func NewDataAwsccElementalinferenceFeed_Override(d DataAwsccElementalinferenceFeed, scope constructs.Construct, id *string, config *DataAwsccElementalinferenceFeedConfig) {
 	_init_.Initialize()
 

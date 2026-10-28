@@ -5,14 +5,14 @@ package dataawsccmemorydbacls
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbacls/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbacls/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/memorydb_acls awscc_memorydb_acls}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/memorydb_acls awscc_memorydb_acls}.
 type DataAwsccMemorydbAcls interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMemorydbAcls) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/memorydb_acls awscc_memorydb_acls} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/memorydb_acls awscc_memorydb_acls} Data Source.
 func NewDataAwsccMemorydbAcls(scope constructs.Construct, id *string, config *DataAwsccMemorydbAclsConfig) DataAwsccMemorydbAcls {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMemorydbAcls(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/memorydb_acls awscc_memorydb_acls} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/memorydb_acls awscc_memorydb_acls} Data Source.
 func NewDataAwsccMemorydbAcls_Override(d DataAwsccMemorydbAcls, scope constructs.Construct, id *string, config *DataAwsccMemorydbAclsConfig) {
 	_init_.Initialize()
 

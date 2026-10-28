@@ -5,14 +5,14 @@ package resiliencehubv2service
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2service/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2service/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service awscc_resiliencehubv2_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service awscc_resiliencehubv2_service}.
 type Resiliencehubv2Service interface {
 	cdktn.TerraformResource
 	Assertions() Resiliencehubv2ServiceAssertionsList
@@ -42,6 +42,8 @@ type Resiliencehubv2Service interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
+	DevOpsAgentConfiguration() Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference
+	DevOpsAgentConfigurationInput() interface{}
 	EffectivePolicyValues() Resiliencehubv2ServiceEffectivePolicyValuesOutputReference
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
@@ -177,6 +179,7 @@ type Resiliencehubv2Service interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutAssertions(value interface{})
 	PutAssociatedSystems(value interface{})
+	PutDevOpsAgentConfiguration(value *Resiliencehubv2ServiceDevOpsAgentConfiguration)
 	PutInputSources(value interface{})
 	PutPermissionModel(value *Resiliencehubv2ServicePermissionModel)
 	PutReportConfiguration(value *Resiliencehubv2ServiceReportConfiguration)
@@ -198,6 +201,7 @@ type Resiliencehubv2Service interface {
 	ResetAssociatedSystems()
 	ResetDependencyDiscovery()
 	ResetDescription()
+	ResetDevOpsAgentConfiguration()
 	ResetInputSources()
 	ResetKmsKeyId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -369,6 +373,26 @@ func (j *jsiiProxy_Resiliencehubv2Service) DescriptionInput() *string {
 	_jsii_.Get(
 		j,
 		"descriptionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Resiliencehubv2Service) DevOpsAgentConfiguration() Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference {
+	var returns Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"devOpsAgentConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Resiliencehubv2Service) DevOpsAgentConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"devOpsAgentConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -685,7 +709,7 @@ func (j *jsiiProxy_Resiliencehubv2Service) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service awscc_resiliencehubv2_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service awscc_resiliencehubv2_service} Resource.
 func NewResiliencehubv2Service(scope constructs.Construct, id *string, config *Resiliencehubv2ServiceConfig) Resiliencehubv2Service {
 	_init_.Initialize()
 
@@ -703,7 +727,7 @@ func NewResiliencehubv2Service(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_service awscc_resiliencehubv2_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_service awscc_resiliencehubv2_service} Resource.
 func NewResiliencehubv2Service_Override(r Resiliencehubv2Service, scope constructs.Construct, id *string, config *Resiliencehubv2ServiceConfig) {
 	_init_.Initialize()
 
@@ -1239,6 +1263,17 @@ func (r *jsiiProxy_Resiliencehubv2Service) PutAssociatedSystems(value interface{
 	)
 }
 
+func (r *jsiiProxy_Resiliencehubv2Service) PutDevOpsAgentConfiguration(value *Resiliencehubv2ServiceDevOpsAgentConfiguration) {
+	if err := r.validatePutDevOpsAgentConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		r,
+		"putDevOpsAgentConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (r *jsiiProxy_Resiliencehubv2Service) PutInputSources(value interface{}) {
 	if err := r.validatePutInputSourcesParameters(value); err != nil {
 		panic(err)
@@ -1322,6 +1357,14 @@ func (r *jsiiProxy_Resiliencehubv2Service) ResetDescription() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_Resiliencehubv2Service) ResetDevOpsAgentConfiguration() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetDevOpsAgentConfiguration",
 		nil, // no parameters
 	)
 }

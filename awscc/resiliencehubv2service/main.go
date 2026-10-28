@@ -30,6 +30,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
 			_jsii_.MemberProperty{JsiiProperty: "descriptionInput", GoGetter: "DescriptionInput"},
+			_jsii_.MemberProperty{JsiiProperty: "devOpsAgentConfiguration", GoGetter: "DevOpsAgentConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "devOpsAgentConfigurationInput", GoGetter: "DevOpsAgentConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "effectivePolicyValues", GoGetter: "EffectivePolicyValues"},
 			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
@@ -68,6 +70,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
 			_jsii_.MemberMethod{JsiiMethod: "putAssertions", GoMethod: "PutAssertions"},
 			_jsii_.MemberMethod{JsiiMethod: "putAssociatedSystems", GoMethod: "PutAssociatedSystems"},
+			_jsii_.MemberMethod{JsiiMethod: "putDevOpsAgentConfiguration", GoMethod: "PutDevOpsAgentConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putInputSources", GoMethod: "PutInputSources"},
 			_jsii_.MemberMethod{JsiiMethod: "putPermissionModel", GoMethod: "PutPermissionModel"},
 			_jsii_.MemberMethod{JsiiMethod: "putReportConfiguration", GoMethod: "PutReportConfiguration"},
@@ -82,6 +85,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetAssociatedSystems", GoMethod: "ResetAssociatedSystems"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDependencyDiscovery", GoMethod: "ResetDependencyDiscovery"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDevOpsAgentConfiguration", GoMethod: "ResetDevOpsAgentConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetInputSources", GoMethod: "ResetInputSources"},
 			_jsii_.MemberMethod{JsiiMethod: "resetKmsKeyId", GoMethod: "ResetKmsKeyId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
@@ -238,6 +242,45 @@ func init() {
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceConfig",
 		reflect.TypeOf((*Resiliencehubv2ServiceConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfiguration",
+		reflect.TypeOf((*Resiliencehubv2ServiceDevOpsAgentConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference",
+		reflect.TypeOf((*Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "agentSpaceArn", GoGetter: "AgentSpaceArn"},
+			_jsii_.MemberProperty{JsiiProperty: "agentSpaceArnInput", GoGetter: "AgentSpaceArnInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAgentSpaceArn", GoMethod: "ResetAgentSpaceArn"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_Resiliencehubv2ServiceDevOpsAgentConfigurationOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
 	)
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-awscc.resiliencehubv2Service.Resiliencehubv2ServiceEffectivePolicyValues",

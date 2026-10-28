@@ -5,14 +5,14 @@ package cleanroomsmlconfiguredmodelalgorithm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cleanroomsmlconfiguredmodelalgorithm/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cleanroomsmlconfiguredmodelalgorithm/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cleanroomsml_configured_model_algorithm awscc_cleanroomsml_configured_model_algorithm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cleanroomsml_configured_model_algorithm awscc_cleanroomsml_configured_model_algorithm}.
 type CleanroomsmlConfiguredModelAlgorithm interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -532,7 +532,7 @@ func (j *jsiiProxy_CleanroomsmlConfiguredModelAlgorithm) TrainingContainerConfig
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cleanroomsml_configured_model_algorithm awscc_cleanroomsml_configured_model_algorithm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cleanroomsml_configured_model_algorithm awscc_cleanroomsml_configured_model_algorithm} Resource.
 func NewCleanroomsmlConfiguredModelAlgorithm(scope constructs.Construct, id *string, config *CleanroomsmlConfiguredModelAlgorithmConfig) CleanroomsmlConfiguredModelAlgorithm {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewCleanroomsmlConfiguredModelAlgorithm(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cleanroomsml_configured_model_algorithm awscc_cleanroomsml_configured_model_algorithm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cleanroomsml_configured_model_algorithm awscc_cleanroomsml_configured_model_algorithm} Resource.
 func NewCleanroomsmlConfiguredModelAlgorithm_Override(c CleanroomsmlConfiguredModelAlgorithm, scope constructs.Construct, id *string, config *CleanroomsmlConfiguredModelAlgorithmConfig) {
 	_init_.Initialize()
 

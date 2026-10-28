@@ -5,14 +5,14 @@ package dataawscciotwirelesstaskdefinitions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesstaskdefinitions/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesstaskdefinitions/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_task_definitions awscc_iotwireless_task_definitions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_task_definitions awscc_iotwireless_task_definitions}.
 type DataAwsccIotwirelessTaskDefinitions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotwirelessTaskDefinitions) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_task_definitions awscc_iotwireless_task_definitions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_task_definitions awscc_iotwireless_task_definitions} Data Source.
 func NewDataAwsccIotwirelessTaskDefinitions(scope constructs.Construct, id *string, config *DataAwsccIotwirelessTaskDefinitionsConfig) DataAwsccIotwirelessTaskDefinitions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotwirelessTaskDefinitions(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_task_definitions awscc_iotwireless_task_definitions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_task_definitions awscc_iotwireless_task_definitions} Data Source.
 func NewDataAwsccIotwirelessTaskDefinitions_Override(d DataAwsccIotwirelessTaskDefinitions, scope constructs.Construct, id *string, config *DataAwsccIotwirelessTaskDefinitionsConfig) {
 	_init_.Initialize()
 

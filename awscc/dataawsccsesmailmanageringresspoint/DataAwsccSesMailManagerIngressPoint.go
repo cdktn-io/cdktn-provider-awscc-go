@@ -5,14 +5,14 @@ package dataawsccsesmailmanageringresspoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageringresspoint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageringresspoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point}.
 type DataAwsccSesMailManagerIngressPoint interface {
 	cdktn.TerraformDataSource
 	ARecord() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccSesMailManagerIngressPoint) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point} Data Source.
 func NewDataAwsccSesMailManagerIngressPoint(scope constructs.Construct, id *string, config *DataAwsccSesMailManagerIngressPointConfig) DataAwsccSesMailManagerIngressPoint {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccSesMailManagerIngressPoint(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_mail_manager_ingress_point awscc_ses_mail_manager_ingress_point} Data Source.
 func NewDataAwsccSesMailManagerIngressPoint_Override(d DataAwsccSesMailManagerIngressPoint, scope constructs.Construct, id *string, config *DataAwsccSesMailManagerIngressPointConfig) {
 	_init_.Initialize()
 

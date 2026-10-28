@@ -5,14 +5,14 @@ package s3vectorsindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3vectorsindex/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3vectorsindex/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3vectors_index awscc_s3vectors_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3vectors_index awscc_s3vectors_index}.
 type S3VectorsIndex interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -590,7 +590,7 @@ func (j *jsiiProxy_S3VectorsIndex) VectorBucketNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3vectors_index awscc_s3vectors_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3vectors_index awscc_s3vectors_index} Resource.
 func NewS3VectorsIndex(scope constructs.Construct, id *string, config *S3VectorsIndexConfig) S3VectorsIndex {
 	_init_.Initialize()
 
@@ -608,7 +608,7 @@ func NewS3VectorsIndex(scope constructs.Construct, id *string, config *S3Vectors
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3vectors_index awscc_s3vectors_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3vectors_index awscc_s3vectors_index} Resource.
 func NewS3VectorsIndex_Override(s S3VectorsIndex, scope constructs.Construct, id *string, config *S3VectorsIndexConfig) {
 	_init_.Initialize()
 

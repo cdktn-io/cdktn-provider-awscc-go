@@ -5,9 +5,9 @@ package storagegatewaysmbfileshare
 
 
 type StoragegatewaySmbFileShareTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#key StoragegatewaySmbFileShare#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_smb_file_share#key StoragegatewaySmbFileShare#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#value StoragegatewaySmbFileShare#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/storagegateway_smb_file_share#value StoragegatewaySmbFileShare#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

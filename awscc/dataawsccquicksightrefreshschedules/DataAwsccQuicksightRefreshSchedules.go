@@ -5,14 +5,14 @@ package dataawsccquicksightrefreshschedules
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightrefreshschedules/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightrefreshschedules/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_refresh_schedules awscc_quicksight_refresh_schedules}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_refresh_schedules awscc_quicksight_refresh_schedules}.
 type DataAwsccQuicksightRefreshSchedules interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccQuicksightRefreshSchedules) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_refresh_schedules awscc_quicksight_refresh_schedules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_refresh_schedules awscc_quicksight_refresh_schedules} Data Source.
 func NewDataAwsccQuicksightRefreshSchedules(scope constructs.Construct, id *string, config *DataAwsccQuicksightRefreshSchedulesConfig) DataAwsccQuicksightRefreshSchedules {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccQuicksightRefreshSchedules(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_refresh_schedules awscc_quicksight_refresh_schedules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_refresh_schedules awscc_quicksight_refresh_schedules} Data Source.
 func NewDataAwsccQuicksightRefreshSchedules_Override(d DataAwsccQuicksightRefreshSchedules, scope constructs.Construct, id *string, config *DataAwsccQuicksightRefreshSchedulesConfig) {
 	_init_.Initialize()
 

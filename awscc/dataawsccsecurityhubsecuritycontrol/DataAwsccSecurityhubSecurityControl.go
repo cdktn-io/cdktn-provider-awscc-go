@@ -5,14 +5,14 @@ package dataawsccsecurityhubsecuritycontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubsecuritycontrol/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubsecuritycontrol/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_security_control awscc_securityhub_security_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_security_control awscc_securityhub_security_control}.
 type DataAwsccSecurityhubSecurityControl interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccSecurityhubSecurityControl) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_security_control awscc_securityhub_security_control} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_security_control awscc_securityhub_security_control} Data Source.
 func NewDataAwsccSecurityhubSecurityControl(scope constructs.Construct, id *string, config *DataAwsccSecurityhubSecurityControlConfig) DataAwsccSecurityhubSecurityControl {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccSecurityhubSecurityControl(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_security_control awscc_securityhub_security_control} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_security_control awscc_securityhub_security_control} Data Source.
 func NewDataAwsccSecurityhubSecurityControl_Override(d DataAwsccSecurityhubSecurityControl, scope constructs.Construct, id *string, config *DataAwsccSecurityhubSecurityControlConfig) {
 	_init_.Initialize()
 

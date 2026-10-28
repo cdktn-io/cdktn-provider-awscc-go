@@ -5,14 +5,14 @@ package dataawsccs3outpostsbucketpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3outpostsbucketpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3outpostsbucketpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3outposts_bucket_policy awscc_s3outposts_bucket_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3outposts_bucket_policy awscc_s3outposts_bucket_policy}.
 type DataAwsccS3OutpostsBucketPolicy interface {
 	cdktn.TerraformDataSource
 	Bucket() *string
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccS3OutpostsBucketPolicy) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3outposts_bucket_policy awscc_s3outposts_bucket_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3outposts_bucket_policy awscc_s3outposts_bucket_policy} Data Source.
 func NewDataAwsccS3OutpostsBucketPolicy(scope constructs.Construct, id *string, config *DataAwsccS3OutpostsBucketPolicyConfig) DataAwsccS3OutpostsBucketPolicy {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccS3OutpostsBucketPolicy(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3outposts_bucket_policy awscc_s3outposts_bucket_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3outposts_bucket_policy awscc_s3outposts_bucket_policy} Data Source.
 func NewDataAwsccS3OutpostsBucketPolicy_Override(d DataAwsccS3OutpostsBucketPolicy, scope constructs.Construct, id *string, config *DataAwsccS3OutpostsBucketPolicyConfig) {
 	_init_.Initialize()
 

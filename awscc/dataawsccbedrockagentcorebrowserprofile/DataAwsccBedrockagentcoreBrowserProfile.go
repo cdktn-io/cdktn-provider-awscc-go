@@ -5,14 +5,14 @@ package dataawsccbedrockagentcorebrowserprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorebrowserprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorebrowserprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_browser_profile awscc_bedrockagentcore_browser_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_browser_profile awscc_bedrockagentcore_browser_profile}.
 type DataAwsccBedrockagentcoreBrowserProfile interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreBrowserProfile) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_browser_profile awscc_bedrockagentcore_browser_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_browser_profile awscc_bedrockagentcore_browser_profile} Data Source.
 func NewDataAwsccBedrockagentcoreBrowserProfile(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreBrowserProfileConfig) DataAwsccBedrockagentcoreBrowserProfile {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccBedrockagentcoreBrowserProfile(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_browser_profile awscc_bedrockagentcore_browser_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_browser_profile awscc_bedrockagentcore_browser_profile} Data Source.
 func NewDataAwsccBedrockagentcoreBrowserProfile_Override(d DataAwsccBedrockagentcoreBrowserProfile, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreBrowserProfileConfig) {
 	_init_.Initialize()
 

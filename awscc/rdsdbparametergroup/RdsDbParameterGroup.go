@@ -5,14 +5,14 @@ package rdsdbparametergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbparametergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbparametergroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_parameter_group awscc_rds_db_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_parameter_group awscc_rds_db_parameter_group}.
 type RdsDbParameterGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_RdsDbParameterGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_parameter_group awscc_rds_db_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_parameter_group awscc_rds_db_parameter_group} Resource.
 func NewRdsDbParameterGroup(scope constructs.Construct, id *string, config *RdsDbParameterGroupConfig) RdsDbParameterGroup {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewRdsDbParameterGroup(scope constructs.Construct, id *string, config *RdsD
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_parameter_group awscc_rds_db_parameter_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_parameter_group awscc_rds_db_parameter_group} Resource.
 func NewRdsDbParameterGroup_Override(r RdsDbParameterGroup, scope constructs.Construct, id *string, config *RdsDbParameterGroupConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dmsdatamigration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmsdatamigration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmsdatamigration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration awscc_dms_data_migration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration awscc_dms_data_migration}.
 type DmsDataMigration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -566,7 +566,7 @@ func (j *jsiiProxy_DmsDataMigration) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration awscc_dms_data_migration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration awscc_dms_data_migration} Resource.
 func NewDmsDataMigration(scope constructs.Construct, id *string, config *DmsDataMigrationConfig) DmsDataMigration {
 	_init_.Initialize()
 
@@ -584,7 +584,7 @@ func NewDmsDataMigration(scope constructs.Construct, id *string, config *DmsData
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_migration awscc_dms_data_migration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_migration awscc_dms_data_migration} Resource.
 func NewDmsDataMigration_Override(d DmsDataMigration, scope constructs.Construct, id *string, config *DmsDataMigrationConfig) {
 	_init_.Initialize()
 

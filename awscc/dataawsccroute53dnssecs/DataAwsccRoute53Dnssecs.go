@@ -5,14 +5,14 @@ package dataawsccroute53dnssecs
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53dnssecs/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53dnssecs/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_dnssecs awscc_route53_dnssecs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_dnssecs awscc_route53_dnssecs}.
 type DataAwsccRoute53Dnssecs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRoute53Dnssecs) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_dnssecs awscc_route53_dnssecs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_dnssecs awscc_route53_dnssecs} Data Source.
 func NewDataAwsccRoute53Dnssecs(scope constructs.Construct, id *string, config *DataAwsccRoute53DnssecsConfig) DataAwsccRoute53Dnssecs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRoute53Dnssecs(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_dnssecs awscc_route53_dnssecs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_dnssecs awscc_route53_dnssecs} Data Source.
 func NewDataAwsccRoute53Dnssecs_Override(d DataAwsccRoute53Dnssecs, scope constructs.Construct, id *string, config *DataAwsccRoute53DnssecsConfig) {
 	_init_.Initialize()
 

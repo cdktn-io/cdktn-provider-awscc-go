@@ -5,14 +5,14 @@ package servicecataloglaunchtemplateconstraint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecataloglaunchtemplateconstraint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecataloglaunchtemplateconstraint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_template_constraint awscc_servicecatalog_launch_template_constraint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_template_constraint awscc_servicecatalog_launch_template_constraint}.
 type ServicecatalogLaunchTemplateConstraint interface {
 	cdktn.TerraformResource
 	AcceptLanguage() *string
@@ -483,7 +483,7 @@ func (j *jsiiProxy_ServicecatalogLaunchTemplateConstraint) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_template_constraint awscc_servicecatalog_launch_template_constraint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_template_constraint awscc_servicecatalog_launch_template_constraint} Resource.
 func NewServicecatalogLaunchTemplateConstraint(scope constructs.Construct, id *string, config *ServicecatalogLaunchTemplateConstraintConfig) ServicecatalogLaunchTemplateConstraint {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewServicecatalogLaunchTemplateConstraint(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_template_constraint awscc_servicecatalog_launch_template_constraint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_template_constraint awscc_servicecatalog_launch_template_constraint} Resource.
 func NewServicecatalogLaunchTemplateConstraint_Override(s ServicecatalogLaunchTemplateConstraint, scope constructs.Construct, id *string, config *ServicecatalogLaunchTemplateConstraintConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawscciotrolealias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotrolealias/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotrolealias/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_role_alias awscc_iot_role_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_role_alias awscc_iot_role_alias}.
 type DataAwsccIotRoleAlias interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccIotRoleAlias) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_role_alias awscc_iot_role_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_role_alias awscc_iot_role_alias} Data Source.
 func NewDataAwsccIotRoleAlias(scope constructs.Construct, id *string, config *DataAwsccIotRoleAliasConfig) DataAwsccIotRoleAlias {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccIotRoleAlias(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_role_alias awscc_iot_role_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_role_alias awscc_iot_role_alias} Data Source.
 func NewDataAwsccIotRoleAlias_Override(d DataAwsccIotRoleAlias, scope constructs.Construct, id *string, config *DataAwsccIotRoleAliasConfig) {
 	_init_.Initialize()
 

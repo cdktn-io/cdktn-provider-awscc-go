@@ -5,14 +5,14 @@ package dataawsccsesdedicatedippool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesdedicatedippool/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesdedicatedippool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_dedicated_ip_pool awscc_ses_dedicated_ip_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_dedicated_ip_pool awscc_ses_dedicated_ip_pool}.
 type DataAwsccSesDedicatedIpPool interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccSesDedicatedIpPool) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_dedicated_ip_pool awscc_ses_dedicated_ip_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_dedicated_ip_pool awscc_ses_dedicated_ip_pool} Data Source.
 func NewDataAwsccSesDedicatedIpPool(scope constructs.Construct, id *string, config *DataAwsccSesDedicatedIpPoolConfig) DataAwsccSesDedicatedIpPool {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccSesDedicatedIpPool(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_dedicated_ip_pool awscc_ses_dedicated_ip_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_dedicated_ip_pool awscc_ses_dedicated_ip_pool} Data Source.
 func NewDataAwsccSesDedicatedIpPool_Override(d DataAwsccSesDedicatedIpPool, scope constructs.Construct, id *string, config *DataAwsccSesDedicatedIpPoolConfig) {
 	_init_.Initialize()
 

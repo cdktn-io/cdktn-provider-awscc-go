@@ -5,14 +5,14 @@ package dataawsccapprunnerautoscalingconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerautoscalingconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerautoscalingconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apprunner_auto_scaling_configuration awscc_apprunner_auto_scaling_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apprunner_auto_scaling_configuration awscc_apprunner_auto_scaling_configuration}.
 type DataAwsccApprunnerAutoScalingConfiguration interface {
 	cdktn.TerraformDataSource
 	AutoScalingConfigurationArn() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccApprunnerAutoScalingConfiguration) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apprunner_auto_scaling_configuration awscc_apprunner_auto_scaling_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apprunner_auto_scaling_configuration awscc_apprunner_auto_scaling_configuration} Data Source.
 func NewDataAwsccApprunnerAutoScalingConfiguration(scope constructs.Construct, id *string, config *DataAwsccApprunnerAutoScalingConfigurationConfig) DataAwsccApprunnerAutoScalingConfiguration {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccApprunnerAutoScalingConfiguration(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apprunner_auto_scaling_configuration awscc_apprunner_auto_scaling_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apprunner_auto_scaling_configuration awscc_apprunner_auto_scaling_configuration} Data Source.
 func NewDataAwsccApprunnerAutoScalingConfiguration_Override(d DataAwsccApprunnerAutoScalingConfiguration, scope constructs.Construct, id *string, config *DataAwsccApprunnerAutoScalingConfigurationConfig) {
 	_init_.Initialize()
 

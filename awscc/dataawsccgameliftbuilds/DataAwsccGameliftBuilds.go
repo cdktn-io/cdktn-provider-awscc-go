@@ -5,14 +5,14 @@ package dataawsccgameliftbuilds
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgameliftbuilds/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgameliftbuilds/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_builds awscc_gamelift_builds}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_builds awscc_gamelift_builds}.
 type DataAwsccGameliftBuilds interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGameliftBuilds) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_builds awscc_gamelift_builds} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_builds awscc_gamelift_builds} Data Source.
 func NewDataAwsccGameliftBuilds(scope constructs.Construct, id *string, config *DataAwsccGameliftBuildsConfig) DataAwsccGameliftBuilds {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGameliftBuilds(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/gamelift_builds awscc_gamelift_builds} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/gamelift_builds awscc_gamelift_builds} Data Source.
 func NewDataAwsccGameliftBuilds_Override(d DataAwsccGameliftBuilds, scope constructs.Construct, id *string, config *DataAwsccGameliftBuildsConfig) {
 	_init_.Initialize()
 

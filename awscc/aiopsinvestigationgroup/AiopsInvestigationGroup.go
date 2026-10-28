@@ -5,14 +5,14 @@ package aiopsinvestigationgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/aiopsinvestigationgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/aiopsinvestigationgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aiops_investigation_group awscc_aiops_investigation_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aiops_investigation_group awscc_aiops_investigation_group}.
 type AiopsInvestigationGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -649,7 +649,7 @@ func (j *jsiiProxy_AiopsInvestigationGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aiops_investigation_group awscc_aiops_investigation_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aiops_investigation_group awscc_aiops_investigation_group} Resource.
 func NewAiopsInvestigationGroup(scope constructs.Construct, id *string, config *AiopsInvestigationGroupConfig) AiopsInvestigationGroup {
 	_init_.Initialize()
 
@@ -667,7 +667,7 @@ func NewAiopsInvestigationGroup(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aiops_investigation_group awscc_aiops_investigation_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aiops_investigation_group awscc_aiops_investigation_group} Resource.
 func NewAiopsInvestigationGroup_Override(a AiopsInvestigationGroup, scope constructs.Construct, id *string, config *AiopsInvestigationGroupConfig) {
 	_init_.Initialize()
 

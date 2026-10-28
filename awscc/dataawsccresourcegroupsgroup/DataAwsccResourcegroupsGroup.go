@@ -5,14 +5,14 @@ package dataawsccresourcegroupsgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourcegroupsgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourcegroupsgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resourcegroups_group awscc_resourcegroups_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resourcegroups_group awscc_resourcegroups_group}.
 type DataAwsccResourcegroupsGroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccResourcegroupsGroup) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resourcegroups_group awscc_resourcegroups_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resourcegroups_group awscc_resourcegroups_group} Data Source.
 func NewDataAwsccResourcegroupsGroup(scope constructs.Construct, id *string, config *DataAwsccResourcegroupsGroupConfig) DataAwsccResourcegroupsGroup {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccResourcegroupsGroup(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resourcegroups_group awscc_resourcegroups_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resourcegroups_group awscc_resourcegroups_group} Data Source.
 func NewDataAwsccResourcegroupsGroup_Override(d DataAwsccResourcegroupsGroup, scope constructs.Construct, id *string, config *DataAwsccResourcegroupsGroupConfig) {
 	_init_.Initialize()
 

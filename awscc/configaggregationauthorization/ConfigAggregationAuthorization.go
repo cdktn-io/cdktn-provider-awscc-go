@@ -5,14 +5,14 @@ package configaggregationauthorization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configaggregationauthorization/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configaggregationauthorization/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_aggregation_authorization awscc_config_aggregation_authorization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_aggregation_authorization awscc_config_aggregation_authorization}.
 type ConfigAggregationAuthorization interface {
 	cdktn.TerraformResource
 	AggregationAuthorizationArn() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_ConfigAggregationAuthorization) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_aggregation_authorization awscc_config_aggregation_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_aggregation_authorization awscc_config_aggregation_authorization} Resource.
 func NewConfigAggregationAuthorization(scope constructs.Construct, id *string, config *ConfigAggregationAuthorizationConfig) ConfigAggregationAuthorization {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewConfigAggregationAuthorization(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_aggregation_authorization awscc_config_aggregation_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_aggregation_authorization awscc_config_aggregation_authorization} Resource.
 func NewConfigAggregationAuthorization_Override(c ConfigAggregationAuthorization, scope constructs.Construct, id *string, config *ConfigAggregationAuthorizationConfig) {
 	_init_.Initialize()
 

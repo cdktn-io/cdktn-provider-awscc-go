@@ -5,14 +5,14 @@ package dataawsccscninstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccscninstance/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccscninstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/scn_instance awscc_scn_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/scn_instance awscc_scn_instance}.
 type DataAwsccScnInstance interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccScnInstance) WebAppDnsDomain() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/scn_instance awscc_scn_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/scn_instance awscc_scn_instance} Data Source.
 func NewDataAwsccScnInstance(scope constructs.Construct, id *string, config *DataAwsccScnInstanceConfig) DataAwsccScnInstance {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccScnInstance(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/scn_instance awscc_scn_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/scn_instance awscc_scn_instance} Data Source.
 func NewDataAwsccScnInstance_Override(d DataAwsccScnInstance, scope constructs.Construct, id *string, config *DataAwsccScnInstanceConfig) {
 	_init_.Initialize()
 

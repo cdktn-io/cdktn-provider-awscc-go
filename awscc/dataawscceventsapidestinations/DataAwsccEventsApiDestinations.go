@@ -5,14 +5,14 @@ package dataawscceventsapidestinations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsapidestinations/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsapidestinations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_api_destinations awscc_events_api_destinations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_api_destinations awscc_events_api_destinations}.
 type DataAwsccEventsApiDestinations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEventsApiDestinations) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_api_destinations awscc_events_api_destinations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_api_destinations awscc_events_api_destinations} Data Source.
 func NewDataAwsccEventsApiDestinations(scope constructs.Construct, id *string, config *DataAwsccEventsApiDestinationsConfig) DataAwsccEventsApiDestinations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEventsApiDestinations(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_api_destinations awscc_events_api_destinations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_api_destinations awscc_events_api_destinations} Data Source.
 func NewDataAwsccEventsApiDestinations_Override(d DataAwsccEventsApiDestinations, scope constructs.Construct, id *string, config *DataAwsccEventsApiDestinationsConfig) {
 	_init_.Initialize()
 

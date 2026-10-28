@@ -5,14 +5,14 @@ package quicksightdlpsetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightdlpsetting/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightdlpsetting/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dlp_setting awscc_quicksight_dlp_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dlp_setting awscc_quicksight_dlp_setting}.
 type QuicksightDlpSetting interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -586,7 +586,7 @@ func (j *jsiiProxy_QuicksightDlpSetting) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dlp_setting awscc_quicksight_dlp_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dlp_setting awscc_quicksight_dlp_setting} Resource.
 func NewQuicksightDlpSetting(scope constructs.Construct, id *string, config *QuicksightDlpSettingConfig) QuicksightDlpSetting {
 	_init_.Initialize()
 
@@ -604,7 +604,7 @@ func NewQuicksightDlpSetting(scope constructs.Construct, id *string, config *Qui
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_dlp_setting awscc_quicksight_dlp_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_dlp_setting awscc_quicksight_dlp_setting} Resource.
 func NewQuicksightDlpSetting_Override(q QuicksightDlpSetting, scope constructs.Construct, id *string, config *QuicksightDlpSettingConfig) {
 	_init_.Initialize()
 

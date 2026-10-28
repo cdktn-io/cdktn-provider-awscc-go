@@ -5,14 +5,14 @@ package certificatemanageracmeexternalaccountbinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanageracmeexternalaccountbinding/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanageracmeexternalaccountbinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_external_account_binding awscc_certificatemanager_acme_external_account_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_external_account_binding awscc_certificatemanager_acme_external_account_binding}.
 type CertificatemanagerAcmeExternalAccountBinding interface {
 	cdktn.TerraformResource
 	AcmeEndpointArn() *string
@@ -460,7 +460,7 @@ func (j *jsiiProxy_CertificatemanagerAcmeExternalAccountBinding) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_external_account_binding awscc_certificatemanager_acme_external_account_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_external_account_binding awscc_certificatemanager_acme_external_account_binding} Resource.
 func NewCertificatemanagerAcmeExternalAccountBinding(scope constructs.Construct, id *string, config *CertificatemanagerAcmeExternalAccountBindingConfig) CertificatemanagerAcmeExternalAccountBinding {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewCertificatemanagerAcmeExternalAccountBinding(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_acme_external_account_binding awscc_certificatemanager_acme_external_account_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_acme_external_account_binding awscc_certificatemanager_acme_external_account_binding} Resource.
 func NewCertificatemanagerAcmeExternalAccountBinding_Override(c CertificatemanagerAcmeExternalAccountBinding, scope constructs.Construct, id *string, config *CertificatemanagerAcmeExternalAccountBindingConfig) {
 	_init_.Initialize()
 

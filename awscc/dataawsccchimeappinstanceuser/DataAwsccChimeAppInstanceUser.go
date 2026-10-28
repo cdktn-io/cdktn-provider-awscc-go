@@ -5,14 +5,14 @@ package dataawsccchimeappinstanceuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimeappinstanceuser/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimeappinstanceuser/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_app_instance_user awscc_chime_app_instance_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_app_instance_user awscc_chime_app_instance_user}.
 type DataAwsccChimeAppInstanceUser interface {
 	cdktn.TerraformDataSource
 	AppInstanceArn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccChimeAppInstanceUser) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_app_instance_user awscc_chime_app_instance_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_app_instance_user awscc_chime_app_instance_user} Data Source.
 func NewDataAwsccChimeAppInstanceUser(scope constructs.Construct, id *string, config *DataAwsccChimeAppInstanceUserConfig) DataAwsccChimeAppInstanceUser {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccChimeAppInstanceUser(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_app_instance_user awscc_chime_app_instance_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_app_instance_user awscc_chime_app_instance_user} Data Source.
 func NewDataAwsccChimeAppInstanceUser_Override(d DataAwsccChimeAppInstanceUser, scope constructs.Construct, id *string, config *DataAwsccChimeAppInstanceUserConfig) {
 	_init_.Initialize()
 

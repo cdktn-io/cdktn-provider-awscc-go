@@ -5,14 +5,14 @@ package dataawsccapplicationautoscalingscalabletarget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationautoscalingscalabletarget/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationautoscalingscalabletarget/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target}.
 type DataAwsccApplicationautoscalingScalableTarget interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccApplicationautoscalingScalableTarget) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target} Data Source.
 func NewDataAwsccApplicationautoscalingScalableTarget(scope constructs.Construct, id *string, config *DataAwsccApplicationautoscalingScalableTargetConfig) DataAwsccApplicationautoscalingScalableTarget {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccApplicationautoscalingScalableTarget(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target} Data Source.
 func NewDataAwsccApplicationautoscalingScalableTarget_Override(d DataAwsccApplicationautoscalingScalableTarget, scope constructs.Construct, id *string, config *DataAwsccApplicationautoscalingScalableTargetConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package elasticbeanstalkapplicationversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticbeanstalkapplicationversion/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticbeanstalkapplicationversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version}.
 type ElasticbeanstalkApplicationVersion interface {
 	cdktn.TerraformResource
 	ApplicationName() *string
@@ -509,7 +509,7 @@ func (j *jsiiProxy_ElasticbeanstalkApplicationVersion) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version} Resource.
 func NewElasticbeanstalkApplicationVersion(scope constructs.Construct, id *string, config *ElasticbeanstalkApplicationVersionConfig) ElasticbeanstalkApplicationVersion {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewElasticbeanstalkApplicationVersion(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticbeanstalk_application_version awscc_elasticbeanstalk_application_version} Resource.
 func NewElasticbeanstalkApplicationVersion_Override(e ElasticbeanstalkApplicationVersion, scope constructs.Construct, id *string, config *ElasticbeanstalkApplicationVersionConfig) {
 	_init_.Initialize()
 

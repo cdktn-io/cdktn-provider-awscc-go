@@ -7,11 +7,11 @@ package quicksightbrand
 type QuicksightBrandBrandDefinitionApplicationThemeBrandColorPaletteDanger struct {
 	// The background color.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#background QuicksightBrand#background}
 	Background *string `field:"optional" json:"background" yaml:"background"`
 	// The foreground color.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#foreground QuicksightBrand#foreground}
 	Foreground *string `field:"optional" json:"foreground" yaml:"foreground"`
 }
 

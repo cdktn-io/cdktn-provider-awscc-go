@@ -5,14 +5,14 @@ package rdsdbproxy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbproxy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbproxy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy awscc_rds_db_proxy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy awscc_rds_db_proxy}.
 type RdsDbProxy interface {
 	cdktn.TerraformResource
 	Auth() RdsDbProxyAuthList
@@ -696,7 +696,7 @@ func (j *jsiiProxy_RdsDbProxy) VpcSubnetIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy awscc_rds_db_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy awscc_rds_db_proxy} Resource.
 func NewRdsDbProxy(scope constructs.Construct, id *string, config *RdsDbProxyConfig) RdsDbProxy {
 	_init_.Initialize()
 
@@ -714,7 +714,7 @@ func NewRdsDbProxy(scope constructs.Construct, id *string, config *RdsDbProxyCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_proxy awscc_rds_db_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_proxy awscc_rds_db_proxy} Resource.
 func NewRdsDbProxy_Override(r RdsDbProxy, scope constructs.Construct, id *string, config *RdsDbProxyConfig) {
 	_init_.Initialize()
 

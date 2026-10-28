@@ -5,14 +5,14 @@ package appflowconnectorprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appflowconnectorprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appflowconnectorprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appflow_connector_profile awscc_appflow_connector_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appflow_connector_profile awscc_appflow_connector_profile}.
 type AppflowConnectorProfile interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -518,7 +518,7 @@ func (j *jsiiProxy_AppflowConnectorProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appflow_connector_profile awscc_appflow_connector_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appflow_connector_profile awscc_appflow_connector_profile} Resource.
 func NewAppflowConnectorProfile(scope constructs.Construct, id *string, config *AppflowConnectorProfileConfig) AppflowConnectorProfile {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewAppflowConnectorProfile(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appflow_connector_profile awscc_appflow_connector_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appflow_connector_profile awscc_appflow_connector_profile} Resource.
 func NewAppflowConnectorProfile_Override(a AppflowConnectorProfile, scope constructs.Construct, id *string, config *AppflowConnectorProfileConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package networkfirewalltlsinspectionconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkfirewalltlsinspectionconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkfirewalltlsinspectionconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_tls_inspection_configuration awscc_networkfirewall_tls_inspection_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_tls_inspection_configuration awscc_networkfirewall_tls_inspection_configuration}.
 type NetworkfirewallTlsInspectionConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_NetworkfirewallTlsInspectionConfiguration) TlsInspectionConfi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_tls_inspection_configuration awscc_networkfirewall_tls_inspection_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_tls_inspection_configuration awscc_networkfirewall_tls_inspection_configuration} Resource.
 func NewNetworkfirewallTlsInspectionConfiguration(scope constructs.Construct, id *string, config *NetworkfirewallTlsInspectionConfigurationConfig) NetworkfirewallTlsInspectionConfiguration {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewNetworkfirewallTlsInspectionConfiguration(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_tls_inspection_configuration awscc_networkfirewall_tls_inspection_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_tls_inspection_configuration awscc_networkfirewall_tls_inspection_configuration} Resource.
 func NewNetworkfirewallTlsInspectionConfiguration_Override(n NetworkfirewallTlsInspectionConfiguration, scope constructs.Construct, id *string, config *NetworkfirewallTlsInspectionConfigurationConfig) {
 	_init_.Initialize()
 

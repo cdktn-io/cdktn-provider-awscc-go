@@ -5,14 +5,14 @@ package route53recoverycontrolcontrolpanel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53recoverycontrolcontrolpanel/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53recoverycontrolcontrolpanel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoverycontrol_control_panel awscc_route53recoverycontrol_control_panel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoverycontrol_control_panel awscc_route53recoverycontrol_control_panel}.
 type Route53RecoverycontrolControlPanel interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -470,7 +470,7 @@ func (j *jsiiProxy_Route53RecoverycontrolControlPanel) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoverycontrol_control_panel awscc_route53recoverycontrol_control_panel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoverycontrol_control_panel awscc_route53recoverycontrol_control_panel} Resource.
 func NewRoute53RecoverycontrolControlPanel(scope constructs.Construct, id *string, config *Route53RecoverycontrolControlPanelConfig) Route53RecoverycontrolControlPanel {
 	_init_.Initialize()
 
@@ -488,7 +488,7 @@ func NewRoute53RecoverycontrolControlPanel(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53recoverycontrol_control_panel awscc_route53recoverycontrol_control_panel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53recoverycontrol_control_panel awscc_route53recoverycontrol_control_panel} Resource.
 func NewRoute53RecoverycontrolControlPanel_Override(r Route53RecoverycontrolControlPanel, scope constructs.Construct, id *string, config *Route53RecoverycontrolControlPanelConfig) {
 	_init_.Initialize()
 

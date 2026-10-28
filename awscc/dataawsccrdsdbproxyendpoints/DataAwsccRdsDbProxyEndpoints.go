@@ -5,14 +5,14 @@ package dataawsccrdsdbproxyendpoints
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbproxyendpoints/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbproxyendpoints/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_proxy_endpoints awscc_rds_db_proxy_endpoints}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_proxy_endpoints awscc_rds_db_proxy_endpoints}.
 type DataAwsccRdsDbProxyEndpoints interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRdsDbProxyEndpoints) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_proxy_endpoints awscc_rds_db_proxy_endpoints} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_proxy_endpoints awscc_rds_db_proxy_endpoints} Data Source.
 func NewDataAwsccRdsDbProxyEndpoints(scope constructs.Construct, id *string, config *DataAwsccRdsDbProxyEndpointsConfig) DataAwsccRdsDbProxyEndpoints {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRdsDbProxyEndpoints(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_proxy_endpoints awscc_rds_db_proxy_endpoints} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_proxy_endpoints awscc_rds_db_proxy_endpoints} Data Source.
 func NewDataAwsccRdsDbProxyEndpoints_Override(d DataAwsccRdsDbProxyEndpoints, scope constructs.Construct, id *string, config *DataAwsccRdsDbProxyEndpointsConfig) {
 	_init_.Initialize()
 

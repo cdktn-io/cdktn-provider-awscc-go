@@ -5,14 +5,14 @@ package dataawsccsesmailmanageraddonsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageraddonsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageraddonsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_mail_manager_addon_subscription awscc_ses_mail_manager_addon_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_mail_manager_addon_subscription awscc_ses_mail_manager_addon_subscription}.
 type DataAwsccSesMailManagerAddonSubscription interface {
 	cdktn.TerraformDataSource
 	AddonName() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccSesMailManagerAddonSubscription) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_mail_manager_addon_subscription awscc_ses_mail_manager_addon_subscription} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_mail_manager_addon_subscription awscc_ses_mail_manager_addon_subscription} Data Source.
 func NewDataAwsccSesMailManagerAddonSubscription(scope constructs.Construct, id *string, config *DataAwsccSesMailManagerAddonSubscriptionConfig) DataAwsccSesMailManagerAddonSubscription {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccSesMailManagerAddonSubscription(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_mail_manager_addon_subscription awscc_ses_mail_manager_addon_subscription} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_mail_manager_addon_subscription awscc_ses_mail_manager_addon_subscription} Data Source.
 func NewDataAwsccSesMailManagerAddonSubscription_Override(d DataAwsccSesMailManagerAddonSubscription, scope constructs.Construct, id *string, config *DataAwsccSesMailManagerAddonSubscriptionConfig) {
 	_init_.Initialize()
 

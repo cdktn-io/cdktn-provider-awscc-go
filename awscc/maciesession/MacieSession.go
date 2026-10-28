@@ -5,14 +5,14 @@ package maciesession
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciesession/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciesession/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_session awscc_macie_session}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_session awscc_macie_session}.
 type MacieSession interface {
 	cdktn.TerraformResource
 	AutomatedDiscoveryStatus() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_MacieSession) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_session awscc_macie_session} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_session awscc_macie_session} Resource.
 func NewMacieSession(scope constructs.Construct, id *string, config *MacieSessionConfig) MacieSession {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewMacieSession(scope constructs.Construct, id *string, config *MacieSessio
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_session awscc_macie_session} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_session awscc_macie_session} Resource.
 func NewMacieSession_Override(m MacieSession, scope constructs.Construct, id *string, config *MacieSessionConfig) {
 	_init_.Initialize()
 

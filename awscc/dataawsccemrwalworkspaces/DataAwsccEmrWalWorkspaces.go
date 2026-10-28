@@ -5,14 +5,14 @@ package dataawsccemrwalworkspaces
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrwalworkspaces/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrwalworkspaces/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emr_wal_workspaces awscc_emr_wal_workspaces}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emr_wal_workspaces awscc_emr_wal_workspaces}.
 type DataAwsccEmrWalWorkspaces interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEmrWalWorkspaces) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emr_wal_workspaces awscc_emr_wal_workspaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emr_wal_workspaces awscc_emr_wal_workspaces} Data Source.
 func NewDataAwsccEmrWalWorkspaces(scope constructs.Construct, id *string, config *DataAwsccEmrWalWorkspacesConfig) DataAwsccEmrWalWorkspaces {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEmrWalWorkspaces(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emr_wal_workspaces awscc_emr_wal_workspaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emr_wal_workspaces awscc_emr_wal_workspaces} Data Source.
 func NewDataAwsccEmrWalWorkspaces_Override(d DataAwsccEmrWalWorkspaces, scope constructs.Construct, id *string, config *DataAwsccEmrWalWorkspacesConfig) {
 	_init_.Initialize()
 

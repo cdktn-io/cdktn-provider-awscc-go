@@ -5,14 +5,14 @@ package dataawsccappsyncdatasource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdatasource/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdatasource/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_data_source awscc_appsync_data_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_data_source awscc_appsync_data_source}.
 type DataAwsccAppsyncDataSource interface {
 	cdktn.TerraformDataSource
 	ApiId() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccAppsyncDataSource) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_data_source awscc_appsync_data_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_data_source awscc_appsync_data_source} Data Source.
 func NewDataAwsccAppsyncDataSource(scope constructs.Construct, id *string, config *DataAwsccAppsyncDataSourceConfig) DataAwsccAppsyncDataSource {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccAppsyncDataSource(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_data_source awscc_appsync_data_source} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_data_source awscc_appsync_data_source} Data Source.
 func NewDataAwsccAppsyncDataSource_Override(d DataAwsccAppsyncDataSource, scope constructs.Construct, id *string, config *DataAwsccAppsyncDataSourceConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package quicksightknowledgebase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksightknowledgebase/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/quicksightknowledgebase/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_knowledge_base awscc_quicksight_knowledge_base}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_knowledge_base awscc_quicksight_knowledge_base}.
 type QuicksightKnowledgeBase interface {
 	cdktn.TerraformResource
 	AccessControlConfiguration() QuicksightKnowledgeBaseAccessControlConfigurationOutputReference
@@ -726,7 +726,7 @@ func (j *jsiiProxy_QuicksightKnowledgeBase) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_knowledge_base awscc_quicksight_knowledge_base} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_knowledge_base awscc_quicksight_knowledge_base} Resource.
 func NewQuicksightKnowledgeBase(scope constructs.Construct, id *string, config *QuicksightKnowledgeBaseConfig) QuicksightKnowledgeBase {
 	_init_.Initialize()
 
@@ -744,7 +744,7 @@ func NewQuicksightKnowledgeBase(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_knowledge_base awscc_quicksight_knowledge_base} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_knowledge_base awscc_quicksight_knowledge_base} Resource.
 func NewQuicksightKnowledgeBase_Override(q QuicksightKnowledgeBase, scope constructs.Construct, id *string, config *QuicksightKnowledgeBaseConfig) {
 	_init_.Initialize()
 

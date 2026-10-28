@@ -5,14 +5,14 @@ package dataawsccssmparameters
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmparameters/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmparameters/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_parameters awscc_ssm_parameters}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_parameters awscc_ssm_parameters}.
 type DataAwsccSsmParameters interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSsmParameters) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_parameters awscc_ssm_parameters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_parameters awscc_ssm_parameters} Data Source.
 func NewDataAwsccSsmParameters(scope constructs.Construct, id *string, config *DataAwsccSsmParametersConfig) DataAwsccSsmParameters {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSsmParameters(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_parameters awscc_ssm_parameters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_parameters awscc_ssm_parameters} Data Source.
 func NewDataAwsccSsmParameters_Override(d DataAwsccSsmParameters, scope constructs.Construct, id *string, config *DataAwsccSsmParametersConfig) {
 	_init_.Initialize()
 

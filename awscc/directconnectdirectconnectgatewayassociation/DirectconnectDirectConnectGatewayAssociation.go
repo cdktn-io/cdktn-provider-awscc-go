@@ -5,14 +5,14 @@ package directconnectdirectconnectgatewayassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/directconnectdirectconnectgatewayassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/directconnectdirectconnectgatewayassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association}.
 type DirectconnectDirectConnectGatewayAssociation interface {
 	cdktn.TerraformResource
 	AcceptDirectConnectGatewayAssociationProposalRoleArn() *string
@@ -460,7 +460,7 @@ func (j *jsiiProxy_DirectconnectDirectConnectGatewayAssociation) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association} Resource.
 func NewDirectconnectDirectConnectGatewayAssociation(scope constructs.Construct, id *string, config *DirectconnectDirectConnectGatewayAssociationConfig) DirectconnectDirectConnectGatewayAssociation {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewDirectconnectDirectConnectGatewayAssociation(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/directconnect_direct_connect_gateway_association awscc_directconnect_direct_connect_gateway_association} Resource.
 func NewDirectconnectDirectConnectGatewayAssociation_Override(d DirectconnectDirectConnectGatewayAssociation, scope constructs.Construct, id *string, config *DirectconnectDirectConnectGatewayAssociationConfig) {
 	_init_.Initialize()
 

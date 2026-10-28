@@ -5,14 +5,14 @@ package dataawsccredshiftsnapshotschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftsnapshotschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftsnapshotschedule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_snapshot_schedule awscc_redshift_snapshot_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_snapshot_schedule awscc_redshift_snapshot_schedule}.
 type DataAwsccRedshiftSnapshotSchedule interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccRedshiftSnapshotSchedule) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_snapshot_schedule awscc_redshift_snapshot_schedule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_snapshot_schedule awscc_redshift_snapshot_schedule} Data Source.
 func NewDataAwsccRedshiftSnapshotSchedule(scope constructs.Construct, id *string, config *DataAwsccRedshiftSnapshotScheduleConfig) DataAwsccRedshiftSnapshotSchedule {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccRedshiftSnapshotSchedule(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_snapshot_schedule awscc_redshift_snapshot_schedule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_snapshot_schedule awscc_redshift_snapshot_schedule} Data Source.
 func NewDataAwsccRedshiftSnapshotSchedule_Override(d DataAwsccRedshiftSnapshotSchedule, scope constructs.Construct, id *string, config *DataAwsccRedshiftSnapshotScheduleConfig) {
 	_init_.Initialize()
 

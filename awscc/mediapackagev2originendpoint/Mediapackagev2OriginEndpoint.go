@@ -5,14 +5,14 @@ package mediapackagev2originendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediapackagev2originendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediapackagev2originendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint}.
 type Mediapackagev2OriginEndpoint interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -788,7 +788,7 @@ func (j *jsiiProxy_Mediapackagev2OriginEndpoint) UriSeparatorInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint} Resource.
 func NewMediapackagev2OriginEndpoint(scope constructs.Construct, id *string, config *Mediapackagev2OriginEndpointConfig) Mediapackagev2OriginEndpoint {
 	_init_.Initialize()
 
@@ -806,7 +806,7 @@ func NewMediapackagev2OriginEndpoint(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint} Resource.
 func NewMediapackagev2OriginEndpoint_Override(m Mediapackagev2OriginEndpoint, scope constructs.Construct, id *string, config *Mediapackagev2OriginEndpointConfig) {
 	_init_.Initialize()
 

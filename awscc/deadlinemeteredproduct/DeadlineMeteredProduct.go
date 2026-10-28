@@ -5,14 +5,14 @@ package deadlinemeteredproduct
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinemeteredproduct/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinemeteredproduct/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_metered_product awscc_deadline_metered_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_metered_product awscc_deadline_metered_product}.
 type DeadlineMeteredProduct interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -447,7 +447,7 @@ func (j *jsiiProxy_DeadlineMeteredProduct) Vendor() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_metered_product awscc_deadline_metered_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_metered_product awscc_deadline_metered_product} Resource.
 func NewDeadlineMeteredProduct(scope constructs.Construct, id *string, config *DeadlineMeteredProductConfig) DeadlineMeteredProduct {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewDeadlineMeteredProduct(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_metered_product awscc_deadline_metered_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_metered_product awscc_deadline_metered_product} Resource.
 func NewDeadlineMeteredProduct_Override(d DeadlineMeteredProduct, scope constructs.Construct, id *string, config *DeadlineMeteredProductConfig) {
 	_init_.Initialize()
 

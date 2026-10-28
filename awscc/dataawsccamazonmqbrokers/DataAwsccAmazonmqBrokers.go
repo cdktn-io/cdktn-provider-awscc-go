@@ -5,14 +5,14 @@ package dataawsccamazonmqbrokers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamazonmqbrokers/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamazonmqbrokers/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/amazonmq_brokers awscc_amazonmq_brokers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/amazonmq_brokers awscc_amazonmq_brokers}.
 type DataAwsccAmazonmqBrokers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccAmazonmqBrokers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/amazonmq_brokers awscc_amazonmq_brokers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/amazonmq_brokers awscc_amazonmq_brokers} Data Source.
 func NewDataAwsccAmazonmqBrokers(scope constructs.Construct, id *string, config *DataAwsccAmazonmqBrokersConfig) DataAwsccAmazonmqBrokers {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccAmazonmqBrokers(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/amazonmq_brokers awscc_amazonmq_brokers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/amazonmq_brokers awscc_amazonmq_brokers} Data Source.
 func NewDataAwsccAmazonmqBrokers_Override(d DataAwsccAmazonmqBrokers, scope constructs.Construct, id *string, config *DataAwsccAmazonmqBrokersConfig) {
 	_init_.Initialize()
 

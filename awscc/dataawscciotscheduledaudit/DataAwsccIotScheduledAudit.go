@@ -5,14 +5,14 @@ package dataawscciotscheduledaudit
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotscheduledaudit/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotscheduledaudit/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_scheduled_audit awscc_iot_scheduled_audit}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_scheduled_audit awscc_iot_scheduled_audit}.
 type DataAwsccIotScheduledAudit interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccIotScheduledAudit) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_scheduled_audit awscc_iot_scheduled_audit} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_scheduled_audit awscc_iot_scheduled_audit} Data Source.
 func NewDataAwsccIotScheduledAudit(scope constructs.Construct, id *string, config *DataAwsccIotScheduledAuditConfig) DataAwsccIotScheduledAudit {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccIotScheduledAudit(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_scheduled_audit awscc_iot_scheduled_audit} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_scheduled_audit awscc_iot_scheduled_audit} Data Source.
 func NewDataAwsccIotScheduledAudit_Override(d DataAwsccIotScheduledAudit, scope constructs.Construct, id *string, config *DataAwsccIotScheduledAuditConfig) {
 	_init_.Initialize()
 

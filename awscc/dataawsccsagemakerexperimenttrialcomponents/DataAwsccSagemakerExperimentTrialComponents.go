@@ -5,14 +5,14 @@ package dataawsccsagemakerexperimenttrialcomponents
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerexperimenttrialcomponents/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerexperimenttrialcomponents/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_experiment_trial_components awscc_sagemaker_experiment_trial_components}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_experiment_trial_components awscc_sagemaker_experiment_trial_components}.
 type DataAwsccSagemakerExperimentTrialComponents interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSagemakerExperimentTrialComponents) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_experiment_trial_components awscc_sagemaker_experiment_trial_components} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_experiment_trial_components awscc_sagemaker_experiment_trial_components} Data Source.
 func NewDataAwsccSagemakerExperimentTrialComponents(scope constructs.Construct, id *string, config *DataAwsccSagemakerExperimentTrialComponentsConfig) DataAwsccSagemakerExperimentTrialComponents {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSagemakerExperimentTrialComponents(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_experiment_trial_components awscc_sagemaker_experiment_trial_components} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_experiment_trial_components awscc_sagemaker_experiment_trial_components} Data Source.
 func NewDataAwsccSagemakerExperimentTrialComponents_Override(d DataAwsccSagemakerExperimentTrialComponents, scope constructs.Construct, id *string, config *DataAwsccSagemakerExperimentTrialComponentsConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawscciotrolealiases
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotrolealiases/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotrolealiases/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_role_aliases awscc_iot_role_aliases}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_role_aliases awscc_iot_role_aliases}.
 type DataAwsccIotRoleAliases interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotRoleAliases) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_role_aliases awscc_iot_role_aliases} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_role_aliases awscc_iot_role_aliases} Data Source.
 func NewDataAwsccIotRoleAliases(scope constructs.Construct, id *string, config *DataAwsccIotRoleAliasesConfig) DataAwsccIotRoleAliases {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotRoleAliases(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_role_aliases awscc_iot_role_aliases} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_role_aliases awscc_iot_role_aliases} Data Source.
 func NewDataAwsccIotRoleAliases_Override(d DataAwsccIotRoleAliases, scope constructs.Construct, id *string, config *DataAwsccIotRoleAliasesConfig) {
 	_init_.Initialize()
 

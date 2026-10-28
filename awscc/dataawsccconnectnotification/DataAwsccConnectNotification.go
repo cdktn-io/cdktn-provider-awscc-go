@@ -5,14 +5,14 @@ package dataawsccconnectnotification
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectnotification/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectnotification/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_notification awscc_connect_notification}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_notification awscc_connect_notification}.
 type DataAwsccConnectNotification interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccConnectNotification) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_notification awscc_connect_notification} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_notification awscc_connect_notification} Data Source.
 func NewDataAwsccConnectNotification(scope constructs.Construct, id *string, config *DataAwsccConnectNotificationConfig) DataAwsccConnectNotification {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccConnectNotification(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_notification awscc_connect_notification} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_notification awscc_connect_notification} Data Source.
 func NewDataAwsccConnectNotification_Override(d DataAwsccConnectNotification, scope constructs.Construct, id *string, config *DataAwsccConnectNotificationConfig) {
 	_init_.Initialize()
 

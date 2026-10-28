@@ -5,14 +5,14 @@ package dataawscclambdawebfunctionendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclambdawebfunctionendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclambdawebfunctionendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_function_endpoint awscc_lambda_web_function_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_web_function_endpoint awscc_lambda_web_function_endpoint}.
 type DataAwsccLambdaWebFunctionEndpoint interface {
 	cdktn.TerraformDataSource
 	AuthType() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_DataAwsccLambdaWebFunctionEndpoint) UpdateStatusReason() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_function_endpoint awscc_lambda_web_function_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_web_function_endpoint awscc_lambda_web_function_endpoint} Data Source.
 func NewDataAwsccLambdaWebFunctionEndpoint(scope constructs.Construct, id *string, config *DataAwsccLambdaWebFunctionEndpointConfig) DataAwsccLambdaWebFunctionEndpoint {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewDataAwsccLambdaWebFunctionEndpoint(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_function_endpoint awscc_lambda_web_function_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lambda_web_function_endpoint awscc_lambda_web_function_endpoint} Data Source.
 func NewDataAwsccLambdaWebFunctionEndpoint_Override(d DataAwsccLambdaWebFunctionEndpoint, scope constructs.Construct, id *string, config *DataAwsccLambdaWebFunctionEndpointConfig) {
 	_init_.Initialize()
 

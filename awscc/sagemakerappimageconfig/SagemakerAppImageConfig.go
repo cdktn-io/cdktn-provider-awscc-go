@@ -5,14 +5,14 @@ package sagemakerappimageconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerappimageconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerappimageconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_app_image_config awscc_sagemaker_app_image_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_app_image_config awscc_sagemaker_app_image_config}.
 type SagemakerAppImageConfig interface {
 	cdktn.TerraformResource
 	AppImageConfigArn() *string
@@ -485,7 +485,7 @@ func (j *jsiiProxy_SagemakerAppImageConfig) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_app_image_config awscc_sagemaker_app_image_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_app_image_config awscc_sagemaker_app_image_config} Resource.
 func NewSagemakerAppImageConfig(scope constructs.Construct, id *string, config *SagemakerAppImageConfigConfig) SagemakerAppImageConfig {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewSagemakerAppImageConfig(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_app_image_config awscc_sagemaker_app_image_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_app_image_config awscc_sagemaker_app_image_config} Resource.
 func NewSagemakerAppImageConfig_Override(s SagemakerAppImageConfig, scope constructs.Construct, id *string, config *SagemakerAppImageConfigConfig) {
 	_init_.Initialize()
 

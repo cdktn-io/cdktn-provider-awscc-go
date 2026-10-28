@@ -5,14 +5,14 @@ package dataawsccgluetableoptimizer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgluetableoptimizer/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgluetableoptimizer/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_table_optimizer awscc_glue_table_optimizer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_table_optimizer awscc_glue_table_optimizer}.
 type DataAwsccGlueTableOptimizer interface {
 	cdktn.TerraformDataSource
 	CatalogId() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccGlueTableOptimizer) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_table_optimizer awscc_glue_table_optimizer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_table_optimizer awscc_glue_table_optimizer} Data Source.
 func NewDataAwsccGlueTableOptimizer(scope constructs.Construct, id *string, config *DataAwsccGlueTableOptimizerConfig) DataAwsccGlueTableOptimizer {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccGlueTableOptimizer(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_table_optimizer awscc_glue_table_optimizer} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_table_optimizer awscc_glue_table_optimizer} Data Source.
 func NewDataAwsccGlueTableOptimizer_Override(d DataAwsccGlueTableOptimizer, scope constructs.Construct, id *string, config *DataAwsccGlueTableOptimizerConfig) {
 	_init_.Initialize()
 

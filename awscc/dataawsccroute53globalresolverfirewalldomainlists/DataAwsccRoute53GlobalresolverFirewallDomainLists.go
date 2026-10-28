@@ -5,14 +5,14 @@ package dataawsccroute53globalresolverfirewalldomainlists
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53globalresolverfirewalldomainlists/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53globalresolverfirewalldomainlists/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53globalresolver_firewall_domain_lists awscc_route53globalresolver_firewall_domain_lists}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53globalresolver_firewall_domain_lists awscc_route53globalresolver_firewall_domain_lists}.
 type DataAwsccRoute53GlobalresolverFirewallDomainLists interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRoute53GlobalresolverFirewallDomainLists) TerraformR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53globalresolver_firewall_domain_lists awscc_route53globalresolver_firewall_domain_lists} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53globalresolver_firewall_domain_lists awscc_route53globalresolver_firewall_domain_lists} Data Source.
 func NewDataAwsccRoute53GlobalresolverFirewallDomainLists(scope constructs.Construct, id *string, config *DataAwsccRoute53GlobalresolverFirewallDomainListsConfig) DataAwsccRoute53GlobalresolverFirewallDomainLists {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRoute53GlobalresolverFirewallDomainLists(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53globalresolver_firewall_domain_lists awscc_route53globalresolver_firewall_domain_lists} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53globalresolver_firewall_domain_lists awscc_route53globalresolver_firewall_domain_lists} Data Source.
 func NewDataAwsccRoute53GlobalresolverFirewallDomainLists_Override(d DataAwsccRoute53GlobalresolverFirewallDomainLists, scope constructs.Construct, id *string, config *DataAwsccRoute53GlobalresolverFirewallDomainListsConfig) {
 	_init_.Initialize()
 

@@ -7,7 +7,7 @@ package sestenant
 type SesTenantReputationEntity struct {
 	// The reputation policy for the tenant.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#policy SesTenant#policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_tenant#policy SesTenant#policy}
 	Policy *SesTenantReputationEntityPolicy `field:"optional" json:"policy" yaml:"policy"`
 }
 

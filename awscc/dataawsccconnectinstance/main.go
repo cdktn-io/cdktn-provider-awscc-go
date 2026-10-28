@@ -76,6 +76,7 @@ func init() {
 		"@cdktn/provider-awscc.dataAwsccConnectInstance.DataAwsccConnectInstanceAttributesOutputReference",
 		reflect.TypeOf((*DataAwsccConnectInstanceAttributesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "autoMuteAgentOnHold", GoGetter: "AutoMuteAgentOnHold"},
 			_jsii_.MemberProperty{JsiiProperty: "autoResolveBestVoices", GoGetter: "AutoResolveBestVoices"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},

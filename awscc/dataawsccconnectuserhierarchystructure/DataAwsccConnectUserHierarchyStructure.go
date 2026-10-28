@@ -5,14 +5,14 @@ package dataawsccconnectuserhierarchystructure
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuserhierarchystructure/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectuserhierarchystructure/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_user_hierarchy_structure awscc_connect_user_hierarchy_structure}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_user_hierarchy_structure awscc_connect_user_hierarchy_structure}.
 type DataAwsccConnectUserHierarchyStructure interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccConnectUserHierarchyStructure) UserHierarchyStructur
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_user_hierarchy_structure awscc_connect_user_hierarchy_structure} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_user_hierarchy_structure awscc_connect_user_hierarchy_structure} Data Source.
 func NewDataAwsccConnectUserHierarchyStructure(scope constructs.Construct, id *string, config *DataAwsccConnectUserHierarchyStructureConfig) DataAwsccConnectUserHierarchyStructure {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccConnectUserHierarchyStructure(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_user_hierarchy_structure awscc_connect_user_hierarchy_structure} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_user_hierarchy_structure awscc_connect_user_hierarchy_structure} Data Source.
 func NewDataAwsccConnectUserHierarchyStructure_Override(d DataAwsccConnectUserHierarchyStructure, scope constructs.Construct, id *string, config *DataAwsccConnectUserHierarchyStructureConfig) {
 	_init_.Initialize()
 

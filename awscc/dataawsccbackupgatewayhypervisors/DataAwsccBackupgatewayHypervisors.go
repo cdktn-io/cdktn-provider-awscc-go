@@ -5,14 +5,14 @@ package dataawsccbackupgatewayhypervisors
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupgatewayhypervisors/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupgatewayhypervisors/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backupgateway_hypervisors awscc_backupgateway_hypervisors}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backupgateway_hypervisors awscc_backupgateway_hypervisors}.
 type DataAwsccBackupgatewayHypervisors interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBackupgatewayHypervisors) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backupgateway_hypervisors awscc_backupgateway_hypervisors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backupgateway_hypervisors awscc_backupgateway_hypervisors} Data Source.
 func NewDataAwsccBackupgatewayHypervisors(scope constructs.Construct, id *string, config *DataAwsccBackupgatewayHypervisorsConfig) DataAwsccBackupgatewayHypervisors {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBackupgatewayHypervisors(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backupgateway_hypervisors awscc_backupgateway_hypervisors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backupgateway_hypervisors awscc_backupgateway_hypervisors} Data Source.
 func NewDataAwsccBackupgatewayHypervisors_Override(d DataAwsccBackupgatewayHypervisors, scope constructs.Construct, id *string, config *DataAwsccBackupgatewayHypervisorsConfig) {
 	_init_.Initialize()
 

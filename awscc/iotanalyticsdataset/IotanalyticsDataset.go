@@ -5,14 +5,14 @@ package iotanalyticsdataset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotanalyticsdataset/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotanalyticsdataset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset awscc_iotanalytics_dataset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset awscc_iotanalytics_dataset}.
 type IotanalyticsDataset interface {
 	cdktn.TerraformResource
 	Actions() IotanalyticsDatasetActionsList
@@ -557,7 +557,7 @@ func (j *jsiiProxy_IotanalyticsDataset) VersioningConfigurationInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset awscc_iotanalytics_dataset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset awscc_iotanalytics_dataset} Resource.
 func NewIotanalyticsDataset(scope constructs.Construct, id *string, config *IotanalyticsDatasetConfig) IotanalyticsDataset {
 	_init_.Initialize()
 
@@ -575,7 +575,7 @@ func NewIotanalyticsDataset(scope constructs.Construct, id *string, config *Iota
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotanalytics_dataset awscc_iotanalytics_dataset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotanalytics_dataset awscc_iotanalytics_dataset} Resource.
 func NewIotanalyticsDataset_Override(i IotanalyticsDataset, scope constructs.Construct, id *string, config *IotanalyticsDatasetConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccs3multiregionaccesspointpolicies
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3multiregionaccesspointpolicies/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3multiregionaccesspointpolicies/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_multi_region_access_point_policies awscc_s3_multi_region_access_point_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_multi_region_access_point_policies awscc_s3_multi_region_access_point_policies}.
 type DataAwsccS3MultiRegionAccessPointPolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccS3MultiRegionAccessPointPolicies) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_multi_region_access_point_policies awscc_s3_multi_region_access_point_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_multi_region_access_point_policies awscc_s3_multi_region_access_point_policies} Data Source.
 func NewDataAwsccS3MultiRegionAccessPointPolicies(scope constructs.Construct, id *string, config *DataAwsccS3MultiRegionAccessPointPoliciesConfig) DataAwsccS3MultiRegionAccessPointPolicies {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccS3MultiRegionAccessPointPolicies(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_multi_region_access_point_policies awscc_s3_multi_region_access_point_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_multi_region_access_point_policies awscc_s3_multi_region_access_point_policies} Data Source.
 func NewDataAwsccS3MultiRegionAccessPointPolicies_Override(d DataAwsccS3MultiRegionAccessPointPolicies, scope constructs.Construct, id *string, config *DataAwsccS3MultiRegionAccessPointPoliciesConfig) {
 	_init_.Initialize()
 

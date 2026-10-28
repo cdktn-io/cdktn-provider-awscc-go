@@ -5,14 +5,14 @@ package dataawsccec2vpnconnections
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpnconnections/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpnconnections/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpn_connections awscc_ec2_vpn_connections}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpn_connections awscc_ec2_vpn_connections}.
 type DataAwsccEc2VpnConnections interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2VpnConnections) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpn_connections awscc_ec2_vpn_connections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpn_connections awscc_ec2_vpn_connections} Data Source.
 func NewDataAwsccEc2VpnConnections(scope constructs.Construct, id *string, config *DataAwsccEc2VpnConnectionsConfig) DataAwsccEc2VpnConnections {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2VpnConnections(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpn_connections awscc_ec2_vpn_connections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpn_connections awscc_ec2_vpn_connections} Data Source.
 func NewDataAwsccEc2VpnConnections_Override(d DataAwsccEc2VpnConnections, scope constructs.Construct, id *string, config *DataAwsccEc2VpnConnectionsConfig) {
 	_init_.Initialize()
 

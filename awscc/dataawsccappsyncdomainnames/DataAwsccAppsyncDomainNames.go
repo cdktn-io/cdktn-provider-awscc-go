@@ -5,14 +5,14 @@ package dataawsccappsyncdomainnames
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdomainnames/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdomainnames/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_domain_names awscc_appsync_domain_names}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_domain_names awscc_appsync_domain_names}.
 type DataAwsccAppsyncDomainNames interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccAppsyncDomainNames) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_domain_names awscc_appsync_domain_names} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_domain_names awscc_appsync_domain_names} Data Source.
 func NewDataAwsccAppsyncDomainNames(scope constructs.Construct, id *string, config *DataAwsccAppsyncDomainNamesConfig) DataAwsccAppsyncDomainNames {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccAppsyncDomainNames(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_domain_names awscc_appsync_domain_names} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_domain_names awscc_appsync_domain_names} Data Source.
 func NewDataAwsccAppsyncDomainNames_Override(d DataAwsccAppsyncDomainNames, scope constructs.Construct, id *string, config *DataAwsccAppsyncDomainNamesConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package braketspendinglimit
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/braketspendinglimit/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/braketspendinglimit/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/braket_spending_limit awscc_braket_spending_limit}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/braket_spending_limit awscc_braket_spending_limit}.
 type BraketSpendingLimit interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -504,7 +504,7 @@ func (j *jsiiProxy_BraketSpendingLimit) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/braket_spending_limit awscc_braket_spending_limit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/braket_spending_limit awscc_braket_spending_limit} Resource.
 func NewBraketSpendingLimit(scope constructs.Construct, id *string, config *BraketSpendingLimitConfig) BraketSpendingLimit {
 	_init_.Initialize()
 
@@ -522,7 +522,7 @@ func NewBraketSpendingLimit(scope constructs.Construct, id *string, config *Brak
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/braket_spending_limit awscc_braket_spending_limit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/braket_spending_limit awscc_braket_spending_limit} Resource.
 func NewBraketSpendingLimit_Override(b BraketSpendingLimit, scope constructs.Construct, id *string, config *BraketSpendingLimitConfig) {
 	_init_.Initialize()
 

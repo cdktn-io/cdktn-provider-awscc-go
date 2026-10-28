@@ -5,14 +5,14 @@ package fmsnotificationchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fmsnotificationchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fmsnotificationchannel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_notification_channel awscc_fms_notification_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_notification_channel awscc_fms_notification_channel}.
 type FmsNotificationChannel interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_FmsNotificationChannel) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_notification_channel awscc_fms_notification_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_notification_channel awscc_fms_notification_channel} Resource.
 func NewFmsNotificationChannel(scope constructs.Construct, id *string, config *FmsNotificationChannelConfig) FmsNotificationChannel {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewFmsNotificationChannel(scope constructs.Construct, id *string, config *F
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fms_notification_channel awscc_fms_notification_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fms_notification_channel awscc_fms_notification_channel} Resource.
 func NewFmsNotificationChannel_Override(f FmsNotificationChannel, scope constructs.Construct, id *string, config *FmsNotificationChannelConfig) {
 	_init_.Initialize()
 

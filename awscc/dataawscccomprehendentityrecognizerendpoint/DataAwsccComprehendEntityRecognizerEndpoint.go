@@ -5,14 +5,14 @@ package dataawscccomprehendentityrecognizerendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehendentityrecognizerendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehendentityrecognizerendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/comprehend_entity_recognizer_endpoint awscc_comprehend_entity_recognizer_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/comprehend_entity_recognizer_endpoint awscc_comprehend_entity_recognizer_endpoint}.
 type DataAwsccComprehendEntityRecognizerEndpoint interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccComprehendEntityRecognizerEndpoint) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/comprehend_entity_recognizer_endpoint awscc_comprehend_entity_recognizer_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/comprehend_entity_recognizer_endpoint awscc_comprehend_entity_recognizer_endpoint} Data Source.
 func NewDataAwsccComprehendEntityRecognizerEndpoint(scope constructs.Construct, id *string, config *DataAwsccComprehendEntityRecognizerEndpointConfig) DataAwsccComprehendEntityRecognizerEndpoint {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccComprehendEntityRecognizerEndpoint(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/comprehend_entity_recognizer_endpoint awscc_comprehend_entity_recognizer_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/comprehend_entity_recognizer_endpoint awscc_comprehend_entity_recognizer_endpoint} Data Source.
 func NewDataAwsccComprehendEntityRecognizerEndpoint_Override(d DataAwsccComprehendEntityRecognizerEndpoint, scope constructs.Construct, id *string, config *DataAwsccComprehendEntityRecognizerEndpointConfig) {
 	_init_.Initialize()
 

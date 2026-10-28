@@ -1,3 +1,3 @@
 # `awscc_xray_resource_policy`
 
-Refer to the Terraform Registry for docs: [`awscc_xray_resource_policy`](https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/xray_resource_policy).
+Refer to the Terraform Registry for docs: [`awscc_xray_resource_policy`](https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_resource_policy).

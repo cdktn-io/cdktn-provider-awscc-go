@@ -5,14 +5,14 @@ package ssmservicesetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmservicesetting/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmservicesetting/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_service_setting awscc_ssm_service_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_service_setting awscc_ssm_service_setting}.
 type SsmServiceSetting interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -445,7 +445,7 @@ func (j *jsiiProxy_SsmServiceSetting) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_service_setting awscc_ssm_service_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_service_setting awscc_ssm_service_setting} Resource.
 func NewSsmServiceSetting(scope constructs.Construct, id *string, config *SsmServiceSettingConfig) SsmServiceSetting {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewSsmServiceSetting(scope constructs.Construct, id *string, config *SsmSer
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_service_setting awscc_ssm_service_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_service_setting awscc_ssm_service_setting} Resource.
 func NewSsmServiceSetting_Override(s SsmServiceSetting, scope constructs.Construct, id *string, config *SsmServiceSettingConfig) {
 	_init_.Initialize()
 

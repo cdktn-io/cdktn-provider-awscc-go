@@ -5,14 +5,14 @@ package iotsitewiseassetmodel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseassetmodel/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseassetmodel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model awscc_iotsitewise_asset_model}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model awscc_iotsitewise_asset_model}.
 type IotsitewiseAssetModel interface {
 	cdktn.TerraformResource
 	AssetModelArn() *string
@@ -592,7 +592,7 @@ func (j *jsiiProxy_IotsitewiseAssetModel) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model awscc_iotsitewise_asset_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model awscc_iotsitewise_asset_model} Resource.
 func NewIotsitewiseAssetModel(scope constructs.Construct, id *string, config *IotsitewiseAssetModelConfig) IotsitewiseAssetModel {
 	_init_.Initialize()
 
@@ -610,7 +610,7 @@ func NewIotsitewiseAssetModel(scope constructs.Construct, id *string, config *Io
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_asset_model awscc_iotsitewise_asset_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_asset_model awscc_iotsitewise_asset_model} Resource.
 func NewIotsitewiseAssetModel_Override(i IotsitewiseAssetModel, scope constructs.Construct, id *string, config *IotsitewiseAssetModelConfig) {
 	_init_.Initialize()
 

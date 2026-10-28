@@ -5,14 +5,14 @@ package dataawsccguarddutypublishingdestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccguarddutypublishingdestination/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccguarddutypublishingdestination/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_publishing_destination awscc_guardduty_publishing_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_publishing_destination awscc_guardduty_publishing_destination}.
 type DataAwsccGuarddutyPublishingDestination interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccGuarddutyPublishingDestination) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_publishing_destination awscc_guardduty_publishing_destination} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_publishing_destination awscc_guardduty_publishing_destination} Data Source.
 func NewDataAwsccGuarddutyPublishingDestination(scope constructs.Construct, id *string, config *DataAwsccGuarddutyPublishingDestinationConfig) DataAwsccGuarddutyPublishingDestination {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccGuarddutyPublishingDestination(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/guardduty_publishing_destination awscc_guardduty_publishing_destination} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/guardduty_publishing_destination awscc_guardduty_publishing_destination} Data Source.
 func NewDataAwsccGuarddutyPublishingDestination_Override(d DataAwsccGuarddutyPublishingDestination, scope constructs.Construct, id *string, config *DataAwsccGuarddutyPublishingDestinationConfig) {
 	_init_.Initialize()
 

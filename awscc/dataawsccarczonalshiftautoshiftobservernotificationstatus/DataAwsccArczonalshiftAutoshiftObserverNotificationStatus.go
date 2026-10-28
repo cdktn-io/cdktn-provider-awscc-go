@@ -5,14 +5,14 @@ package dataawsccarczonalshiftautoshiftobservernotificationstatus
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccarczonalshiftautoshiftobservernotificationstatus/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccarczonalshiftautoshiftobservernotificationstatus/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/arczonalshift_autoshift_observer_notification_status awscc_arczonalshift_autoshift_observer_notification_status}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/arczonalshift_autoshift_observer_notification_status awscc_arczonalshift_autoshift_observer_notification_status}.
 type DataAwsccArczonalshiftAutoshiftObserverNotificationStatus interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccArczonalshiftAutoshiftObserverNotificationStatus) Te
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/arczonalshift_autoshift_observer_notification_status awscc_arczonalshift_autoshift_observer_notification_status} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/arczonalshift_autoshift_observer_notification_status awscc_arczonalshift_autoshift_observer_notification_status} Data Source.
 func NewDataAwsccArczonalshiftAutoshiftObserverNotificationStatus(scope constructs.Construct, id *string, config *DataAwsccArczonalshiftAutoshiftObserverNotificationStatusConfig) DataAwsccArczonalshiftAutoshiftObserverNotificationStatus {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccArczonalshiftAutoshiftObserverNotificationStatus(scope construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/arczonalshift_autoshift_observer_notification_status awscc_arczonalshift_autoshift_observer_notification_status} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/arczonalshift_autoshift_observer_notification_status awscc_arczonalshift_autoshift_observer_notification_status} Data Source.
 func NewDataAwsccArczonalshiftAutoshiftObserverNotificationStatus_Override(d DataAwsccArczonalshiftAutoshiftObserverNotificationStatus, scope constructs.Construct, id *string, config *DataAwsccArczonalshiftAutoshiftObserverNotificationStatusConfig) {
 	_init_.Initialize()
 

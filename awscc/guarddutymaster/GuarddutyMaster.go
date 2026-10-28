@@ -5,14 +5,14 @@ package guarddutymaster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/guarddutymaster/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/guarddutymaster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/guardduty_master awscc_guardduty_master}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_master awscc_guardduty_master}.
 type GuarddutyMaster interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_GuarddutyMaster) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/guardduty_master awscc_guardduty_master} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_master awscc_guardduty_master} Resource.
 func NewGuarddutyMaster(scope constructs.Construct, id *string, config *GuarddutyMasterConfig) GuarddutyMaster {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewGuarddutyMaster(scope constructs.Construct, id *string, config *Guarddut
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/guardduty_master awscc_guardduty_master} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/guardduty_master awscc_guardduty_master} Resource.
 func NewGuarddutyMaster_Override(g GuarddutyMaster, scope constructs.Construct, id *string, config *GuarddutyMasterConfig) {
 	_init_.Initialize()
 

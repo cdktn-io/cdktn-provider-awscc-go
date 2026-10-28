@@ -5,14 +5,15 @@ package dataawsccconnectinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAwsccConnectInstanceAttributesOutputReference interface {
 	cdktn.ComplexObject
+	AutoMuteAgentOnHold() cdktn.IResolvable
 	AutoResolveBestVoices() cdktn.IResolvable
 	// the index of the complex object in a list.
 	// Experimental.
@@ -90,6 +91,16 @@ type DataAwsccConnectInstanceAttributesOutputReference interface {
 // The jsii proxy struct for DataAwsccConnectInstanceAttributesOutputReference
 type jsiiProxy_DataAwsccConnectInstanceAttributesOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataAwsccConnectInstanceAttributesOutputReference) AutoMuteAgentOnHold() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"autoMuteAgentOnHold",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAwsccConnectInstanceAttributesOutputReference) AutoResolveBestVoices() cdktn.IResolvable {

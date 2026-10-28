@@ -5,14 +5,14 @@ package dataawsccredshiftendpointaccess
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftendpointaccess/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftendpointaccess/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_endpoint_access awscc_redshift_endpoint_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_endpoint_access awscc_redshift_endpoint_access}.
 type DataAwsccRedshiftEndpointAccess interface {
 	cdktn.TerraformDataSource
 	Address() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccRedshiftEndpointAccess) VpcSecurityGroups() DataAwsc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_endpoint_access awscc_redshift_endpoint_access} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_endpoint_access awscc_redshift_endpoint_access} Data Source.
 func NewDataAwsccRedshiftEndpointAccess(scope constructs.Construct, id *string, config *DataAwsccRedshiftEndpointAccessConfig) DataAwsccRedshiftEndpointAccess {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccRedshiftEndpointAccess(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_endpoint_access awscc_redshift_endpoint_access} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_endpoint_access awscc_redshift_endpoint_access} Data Source.
 func NewDataAwsccRedshiftEndpointAccess_Override(d DataAwsccRedshiftEndpointAccess, scope constructs.Construct, id *string, config *DataAwsccRedshiftEndpointAccessConfig) {
 	_init_.Initialize()
 

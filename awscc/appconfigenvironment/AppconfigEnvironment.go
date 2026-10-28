@@ -5,14 +5,14 @@ package appconfigenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigenvironment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_environment awscc_appconfig_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_environment awscc_appconfig_environment}.
 type AppconfigEnvironment interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -508,7 +508,7 @@ func (j *jsiiProxy_AppconfigEnvironment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_environment awscc_appconfig_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_environment awscc_appconfig_environment} Resource.
 func NewAppconfigEnvironment(scope constructs.Construct, id *string, config *AppconfigEnvironmentConfig) AppconfigEnvironment {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewAppconfigEnvironment(scope constructs.Construct, id *string, config *App
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_environment awscc_appconfig_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_environment awscc_appconfig_environment} Resource.
 func NewAppconfigEnvironment_Override(a AppconfigEnvironment, scope constructs.Construct, id *string, config *AppconfigEnvironmentConfig) {
 	_init_.Initialize()
 

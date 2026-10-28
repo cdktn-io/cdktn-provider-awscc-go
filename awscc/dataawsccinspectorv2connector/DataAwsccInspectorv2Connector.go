@@ -5,14 +5,14 @@ package dataawsccinspectorv2connector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2connector/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2connector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_connector awscc_inspectorv2_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_connector awscc_inspectorv2_connector}.
 type DataAwsccInspectorv2Connector interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccInspectorv2Connector) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_connector awscc_inspectorv2_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_connector awscc_inspectorv2_connector} Data Source.
 func NewDataAwsccInspectorv2Connector(scope constructs.Construct, id *string, config *DataAwsccInspectorv2ConnectorConfig) DataAwsccInspectorv2Connector {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccInspectorv2Connector(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/inspectorv2_connector awscc_inspectorv2_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/inspectorv2_connector awscc_inspectorv2_connector} Data Source.
 func NewDataAwsccInspectorv2Connector_Override(d DataAwsccInspectorv2Connector, scope constructs.Construct, id *string, config *DataAwsccInspectorv2ConnectorConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package appconfigconfigurationprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appconfigconfigurationprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appconfigconfigurationprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_configuration_profile awscc_appconfig_configuration_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_configuration_profile awscc_appconfig_configuration_profile}.
 type AppconfigConfigurationProfile interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -614,7 +614,7 @@ func (j *jsiiProxy_AppconfigConfigurationProfile) ValidatorsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_configuration_profile awscc_appconfig_configuration_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_configuration_profile awscc_appconfig_configuration_profile} Resource.
 func NewAppconfigConfigurationProfile(scope constructs.Construct, id *string, config *AppconfigConfigurationProfileConfig) AppconfigConfigurationProfile {
 	_init_.Initialize()
 
@@ -632,7 +632,7 @@ func NewAppconfigConfigurationProfile(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appconfig_configuration_profile awscc_appconfig_configuration_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appconfig_configuration_profile awscc_appconfig_configuration_profile} Resource.
 func NewAppconfigConfigurationProfile_Override(a AppconfigConfigurationProfile, scope constructs.Construct, id *string, config *AppconfigConfigurationProfileConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package elasticloadbalancingv2targetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2targetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2targetgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_target_group awscc_elasticloadbalancingv2_target_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_target_group awscc_elasticloadbalancingv2_target_group}.
 type Elasticloadbalancingv2TargetGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -879,7 +879,7 @@ func (j *jsiiProxy_Elasticloadbalancingv2TargetGroup) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_target_group awscc_elasticloadbalancingv2_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_target_group awscc_elasticloadbalancingv2_target_group} Resource.
 func NewElasticloadbalancingv2TargetGroup(scope constructs.Construct, id *string, config *Elasticloadbalancingv2TargetGroupConfig) Elasticloadbalancingv2TargetGroup {
 	_init_.Initialize()
 
@@ -897,7 +897,7 @@ func NewElasticloadbalancingv2TargetGroup(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_target_group awscc_elasticloadbalancingv2_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_target_group awscc_elasticloadbalancingv2_target_group} Resource.
 func NewElasticloadbalancingv2TargetGroup_Override(e Elasticloadbalancingv2TargetGroup, scope constructs.Construct, id *string, config *Elasticloadbalancingv2TargetGroupConfig) {
 	_init_.Initialize()
 

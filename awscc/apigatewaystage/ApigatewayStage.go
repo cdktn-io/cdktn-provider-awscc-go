@@ -5,14 +5,14 @@ package apigatewaystage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewaystage/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewaystage/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_stage awscc_apigateway_stage}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_stage awscc_apigateway_stage}.
 type ApigatewayStage interface {
 	cdktn.TerraformResource
 	AccessLogSetting() ApigatewayStageAccessLogSettingOutputReference
@@ -690,7 +690,7 @@ func (j *jsiiProxy_ApigatewayStage) VariablesInput() *map[string]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_stage awscc_apigateway_stage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_stage awscc_apigateway_stage} Resource.
 func NewApigatewayStage(scope constructs.Construct, id *string, config *ApigatewayStageConfig) ApigatewayStage {
 	_init_.Initialize()
 
@@ -708,7 +708,7 @@ func NewApigatewayStage(scope constructs.Construct, id *string, config *Apigatew
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_stage awscc_apigateway_stage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_stage awscc_apigateway_stage} Resource.
 func NewApigatewayStage_Override(a ApigatewayStage, scope constructs.Construct, id *string, config *ApigatewayStageConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package observabilityadmindatasetintegration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/observabilityadmindatasetintegration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/observabilityadmindatasetintegration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_dataset_integration awscc_observabilityadmin_dataset_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_dataset_integration awscc_observabilityadmin_dataset_integration}.
 type ObservabilityadminDatasetIntegration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -435,7 +435,7 @@ func (j *jsiiProxy_ObservabilityadminDatasetIntegration) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_dataset_integration awscc_observabilityadmin_dataset_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_dataset_integration awscc_observabilityadmin_dataset_integration} Resource.
 func NewObservabilityadminDatasetIntegration(scope constructs.Construct, id *string, config *ObservabilityadminDatasetIntegrationConfig) ObservabilityadminDatasetIntegration {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewObservabilityadminDatasetIntegration(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/observabilityadmin_dataset_integration awscc_observabilityadmin_dataset_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/observabilityadmin_dataset_integration awscc_observabilityadmin_dataset_integration} Resource.
 func NewObservabilityadminDatasetIntegration_Override(o ObservabilityadminDatasetIntegration, scope constructs.Construct, id *string, config *ObservabilityadminDatasetIntegrationConfig) {
 	_init_.Initialize()
 

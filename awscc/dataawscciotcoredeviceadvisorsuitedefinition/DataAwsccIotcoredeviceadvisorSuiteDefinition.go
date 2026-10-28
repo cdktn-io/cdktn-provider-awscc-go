@@ -5,14 +5,14 @@ package dataawscciotcoredeviceadvisorsuitedefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcoredeviceadvisorsuitedefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcoredeviceadvisorsuitedefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotcoredeviceadvisor_suite_definition awscc_iotcoredeviceadvisor_suite_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotcoredeviceadvisor_suite_definition awscc_iotcoredeviceadvisor_suite_definition}.
 type DataAwsccIotcoredeviceadvisorSuiteDefinition interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccIotcoredeviceadvisorSuiteDefinition) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotcoredeviceadvisor_suite_definition awscc_iotcoredeviceadvisor_suite_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotcoredeviceadvisor_suite_definition awscc_iotcoredeviceadvisor_suite_definition} Data Source.
 func NewDataAwsccIotcoredeviceadvisorSuiteDefinition(scope constructs.Construct, id *string, config *DataAwsccIotcoredeviceadvisorSuiteDefinitionConfig) DataAwsccIotcoredeviceadvisorSuiteDefinition {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccIotcoredeviceadvisorSuiteDefinition(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotcoredeviceadvisor_suite_definition awscc_iotcoredeviceadvisor_suite_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotcoredeviceadvisor_suite_definition awscc_iotcoredeviceadvisor_suite_definition} Data Source.
 func NewDataAwsccIotcoredeviceadvisorSuiteDefinition_Override(d DataAwsccIotcoredeviceadvisorSuiteDefinition, scope constructs.Construct, id *string, config *DataAwsccIotcoredeviceadvisorSuiteDefinitionConfig) {
 	_init_.Initialize()
 

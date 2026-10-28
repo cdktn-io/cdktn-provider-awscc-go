@@ -5,14 +5,14 @@ package mediapackagepackaginggroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediapackagepackaginggroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediapackagepackaginggroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediapackage_packaging_group awscc_mediapackage_packaging_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediapackage_packaging_group awscc_mediapackage_packaging_group}.
 type MediapackagePackagingGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -472,7 +472,7 @@ func (j *jsiiProxy_MediapackagePackagingGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediapackage_packaging_group awscc_mediapackage_packaging_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediapackage_packaging_group awscc_mediapackage_packaging_group} Resource.
 func NewMediapackagePackagingGroup(scope constructs.Construct, id *string, config *MediapackagePackagingGroupConfig) MediapackagePackagingGroup {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewMediapackagePackagingGroup(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediapackage_packaging_group awscc_mediapackage_packaging_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediapackage_packaging_group awscc_mediapackage_packaging_group} Resource.
 func NewMediapackagePackagingGroup_Override(m MediapackagePackagingGroup, scope constructs.Construct, id *string, config *MediapackagePackagingGroupConfig) {
 	_init_.Initialize()
 

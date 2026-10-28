@@ -5,14 +5,14 @@ package amplifywebhook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/amplifywebhook/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/amplifywebhook/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/amplify_webhook awscc_amplify_webhook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/amplify_webhook awscc_amplify_webhook}.
 type AmplifyWebhook interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -483,7 +483,7 @@ func (j *jsiiProxy_AmplifyWebhook) WebhookUrl() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/amplify_webhook awscc_amplify_webhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/amplify_webhook awscc_amplify_webhook} Resource.
 func NewAmplifyWebhook(scope constructs.Construct, id *string, config *AmplifyWebhookConfig) AmplifyWebhook {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewAmplifyWebhook(scope constructs.Construct, id *string, config *AmplifyWe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/amplify_webhook awscc_amplify_webhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/amplify_webhook awscc_amplify_webhook} Resource.
 func NewAmplifyWebhook_Override(a AmplifyWebhook, scope constructs.Construct, id *string, config *AmplifyWebhookConfig) {
 	_init_.Initialize()
 

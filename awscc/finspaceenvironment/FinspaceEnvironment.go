@@ -5,14 +5,14 @@ package finspaceenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/finspaceenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/finspaceenvironment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment awscc_finspace_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment awscc_finspace_environment}.
 type FinspaceEnvironment interface {
 	cdktn.TerraformResource
 	AwsAccountId() *string
@@ -623,7 +623,7 @@ func (j *jsiiProxy_FinspaceEnvironment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment awscc_finspace_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment awscc_finspace_environment} Resource.
 func NewFinspaceEnvironment(scope constructs.Construct, id *string, config *FinspaceEnvironmentConfig) FinspaceEnvironment {
 	_init_.Initialize()
 
@@ -641,7 +641,7 @@ func NewFinspaceEnvironment(scope constructs.Construct, id *string, config *Fins
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/finspace_environment awscc_finspace_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/finspace_environment awscc_finspace_environment} Resource.
 func NewFinspaceEnvironment_Override(f FinspaceEnvironment, scope constructs.Construct, id *string, config *FinspaceEnvironmentConfig) {
 	_init_.Initialize()
 

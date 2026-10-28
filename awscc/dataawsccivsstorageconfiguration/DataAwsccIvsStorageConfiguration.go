@@ -5,14 +5,14 @@ package dataawsccivsstorageconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivsstorageconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivsstorageconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_storage_configuration awscc_ivs_storage_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_storage_configuration awscc_ivs_storage_configuration}.
 type DataAwsccIvsStorageConfiguration interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccIvsStorageConfiguration) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_storage_configuration awscc_ivs_storage_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_storage_configuration awscc_ivs_storage_configuration} Data Source.
 func NewDataAwsccIvsStorageConfiguration(scope constructs.Construct, id *string, config *DataAwsccIvsStorageConfigurationConfig) DataAwsccIvsStorageConfiguration {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccIvsStorageConfiguration(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_storage_configuration awscc_ivs_storage_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_storage_configuration awscc_ivs_storage_configuration} Data Source.
 func NewDataAwsccIvsStorageConfiguration_Override(d DataAwsccIvsStorageConfiguration, scope constructs.Construct, id *string, config *DataAwsccIvsStorageConfigurationConfig) {
 	_init_.Initialize()
 

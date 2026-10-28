@@ -5,14 +5,14 @@ package athenaworkgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/athenaworkgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/athenaworkgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group awscc_athena_work_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group awscc_athena_work_group}.
 type AthenaWorkGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -533,7 +533,7 @@ func (j *jsiiProxy_AthenaWorkGroup) WorkGroupConfigurationUpdatesInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group awscc_athena_work_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group awscc_athena_work_group} Resource.
 func NewAthenaWorkGroup(scope constructs.Construct, id *string, config *AthenaWorkGroupConfig) AthenaWorkGroup {
 	_init_.Initialize()
 
@@ -551,7 +551,7 @@ func NewAthenaWorkGroup(scope constructs.Construct, id *string, config *AthenaWo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/athena_work_group awscc_athena_work_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/athena_work_group awscc_athena_work_group} Resource.
 func NewAthenaWorkGroup_Override(a AthenaWorkGroup, scope constructs.Construct, id *string, config *AthenaWorkGroupConfig) {
 	_init_.Initialize()
 

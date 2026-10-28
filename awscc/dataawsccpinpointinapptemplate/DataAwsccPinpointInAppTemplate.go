@@ -5,14 +5,14 @@ package dataawsccpinpointinapptemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccpinpointinapptemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccpinpointinapptemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pinpoint_in_app_template awscc_pinpoint_in_app_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pinpoint_in_app_template awscc_pinpoint_in_app_template}.
 type DataAwsccPinpointInAppTemplate interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccPinpointInAppTemplate) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pinpoint_in_app_template awscc_pinpoint_in_app_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pinpoint_in_app_template awscc_pinpoint_in_app_template} Data Source.
 func NewDataAwsccPinpointInAppTemplate(scope constructs.Construct, id *string, config *DataAwsccPinpointInAppTemplateConfig) DataAwsccPinpointInAppTemplate {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccPinpointInAppTemplate(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/pinpoint_in_app_template awscc_pinpoint_in_app_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/pinpoint_in_app_template awscc_pinpoint_in_app_template} Data Source.
 func NewDataAwsccPinpointInAppTemplate_Override(d DataAwsccPinpointInAppTemplate, scope constructs.Construct, id *string, config *DataAwsccPinpointInAppTemplateConfig) {
 	_init_.Initialize()
 

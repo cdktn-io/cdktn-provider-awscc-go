@@ -5,14 +5,14 @@ package batchjobqueue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchjobqueue/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchjobqueue/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_job_queue awscc_batch_job_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_job_queue awscc_batch_job_queue}.
 type BatchJobQueue interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -581,7 +581,7 @@ func (j *jsiiProxy_BatchJobQueue) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_job_queue awscc_batch_job_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_job_queue awscc_batch_job_queue} Resource.
 func NewBatchJobQueue(scope constructs.Construct, id *string, config *BatchJobQueueConfig) BatchJobQueue {
 	_init_.Initialize()
 
@@ -599,7 +599,7 @@ func NewBatchJobQueue(scope constructs.Construct, id *string, config *BatchJobQu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_job_queue awscc_batch_job_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_job_queue awscc_batch_job_queue} Resource.
 func NewBatchJobQueue_Override(b BatchJobQueue, scope constructs.Construct, id *string, config *BatchJobQueueConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawscckendrafaqs
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscckendrafaqs/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscckendrafaqs/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kendra_faqs awscc_kendra_faqs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kendra_faqs awscc_kendra_faqs}.
 type DataAwsccKendraFaqs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccKendraFaqs) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kendra_faqs awscc_kendra_faqs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kendra_faqs awscc_kendra_faqs} Data Source.
 func NewDataAwsccKendraFaqs(scope constructs.Construct, id *string, config *DataAwsccKendraFaqsConfig) DataAwsccKendraFaqs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccKendraFaqs(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/kendra_faqs awscc_kendra_faqs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/kendra_faqs awscc_kendra_faqs} Data Source.
 func NewDataAwsccKendraFaqs_Override(d DataAwsccKendraFaqs, scope constructs.Construct, id *string, config *DataAwsccKendraFaqsConfig) {
 	_init_.Initialize()
 

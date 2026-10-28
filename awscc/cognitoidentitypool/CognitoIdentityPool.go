@@ -5,14 +5,14 @@ package cognitoidentitypool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cognitoidentitypool/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cognitoidentitypool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_identity_pool awscc_cognito_identity_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_identity_pool awscc_cognito_identity_pool}.
 type CognitoIdentityPool interface {
 	cdktn.TerraformResource
 	AllowClassicFlow() interface{}
@@ -664,7 +664,7 @@ func (j *jsiiProxy_CognitoIdentityPool) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_identity_pool awscc_cognito_identity_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_identity_pool awscc_cognito_identity_pool} Resource.
 func NewCognitoIdentityPool(scope constructs.Construct, id *string, config *CognitoIdentityPoolConfig) CognitoIdentityPool {
 	_init_.Initialize()
 
@@ -682,7 +682,7 @@ func NewCognitoIdentityPool(scope constructs.Construct, id *string, config *Cogn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_identity_pool awscc_cognito_identity_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_identity_pool awscc_cognito_identity_pool} Resource.
 func NewCognitoIdentityPool_Override(c CognitoIdentityPool, scope constructs.Construct, id *string, config *CognitoIdentityPoolConfig) {
 	_init_.Initialize()
 

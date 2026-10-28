@@ -5,14 +5,14 @@ package dataawsccathenanamedquery
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccathenanamedquery/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccathenanamedquery/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/athena_named_query awscc_athena_named_query}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/athena_named_query awscc_athena_named_query}.
 type DataAwsccAthenaNamedQuery interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccAthenaNamedQuery) WorkGroup() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/athena_named_query awscc_athena_named_query} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/athena_named_query awscc_athena_named_query} Data Source.
 func NewDataAwsccAthenaNamedQuery(scope constructs.Construct, id *string, config *DataAwsccAthenaNamedQueryConfig) DataAwsccAthenaNamedQuery {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccAthenaNamedQuery(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/athena_named_query awscc_athena_named_query} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/athena_named_query awscc_athena_named_query} Data Source.
 func NewDataAwsccAthenaNamedQuery_Override(d DataAwsccAthenaNamedQuery, scope constructs.Construct, id *string, config *DataAwsccAthenaNamedQueryConfig) {
 	_init_.Initialize()
 

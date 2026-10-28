@@ -5,14 +5,14 @@ package iotbillinggroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotbillinggroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotbillinggroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_billing_group awscc_iot_billing_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_billing_group awscc_iot_billing_group}.
 type IotBillingGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -449,7 +449,7 @@ func (j *jsiiProxy_IotBillingGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_billing_group awscc_iot_billing_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_billing_group awscc_iot_billing_group} Resource.
 func NewIotBillingGroup(scope constructs.Construct, id *string, config *IotBillingGroupConfig) IotBillingGroup {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewIotBillingGroup(scope constructs.Construct, id *string, config *IotBilli
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_billing_group awscc_iot_billing_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_billing_group awscc_iot_billing_group} Resource.
 func NewIotBillingGroup_Override(i IotBillingGroup, scope constructs.Construct, id *string, config *IotBillingGroupConfig) {
 	_init_.Initialize()
 

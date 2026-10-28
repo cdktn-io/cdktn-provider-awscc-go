@@ -5,14 +5,14 @@ package rdseventsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdseventsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdseventsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_event_subscription awscc_rds_event_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_event_subscription awscc_rds_event_subscription}.
 type RdsEventSubscription interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -522,7 +522,7 @@ func (j *jsiiProxy_RdsEventSubscription) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_event_subscription awscc_rds_event_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_event_subscription awscc_rds_event_subscription} Resource.
 func NewRdsEventSubscription(scope constructs.Construct, id *string, config *RdsEventSubscriptionConfig) RdsEventSubscription {
 	_init_.Initialize()
 
@@ -540,7 +540,7 @@ func NewRdsEventSubscription(scope constructs.Construct, id *string, config *Rds
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_event_subscription awscc_rds_event_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_event_subscription awscc_rds_event_subscription} Resource.
 func NewRdsEventSubscription_Override(r RdsEventSubscription, scope constructs.Construct, id *string, config *RdsEventSubscriptionConfig) {
 	_init_.Initialize()
 

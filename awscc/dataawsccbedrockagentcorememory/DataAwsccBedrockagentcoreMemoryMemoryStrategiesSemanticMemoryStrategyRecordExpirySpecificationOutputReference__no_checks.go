@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccbedrockagentcorememory
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationOutputReference) validateSetInternalValueParameters(val *DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecification) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccBedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

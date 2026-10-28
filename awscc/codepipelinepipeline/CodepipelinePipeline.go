@@ -5,14 +5,14 @@ package codepipelinepipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinepipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinepipeline/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline awscc_codepipeline_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline awscc_codepipeline_pipeline}.
 type CodepipelinePipeline interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -663,7 +663,7 @@ func (j *jsiiProxy_CodepipelinePipeline) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline awscc_codepipeline_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline awscc_codepipeline_pipeline} Resource.
 func NewCodepipelinePipeline(scope constructs.Construct, id *string, config *CodepipelinePipelineConfig) CodepipelinePipeline {
 	_init_.Initialize()
 
@@ -681,7 +681,7 @@ func NewCodepipelinePipeline(scope constructs.Construct, id *string, config *Cod
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_pipeline awscc_codepipeline_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_pipeline awscc_codepipeline_pipeline} Resource.
 func NewCodepipelinePipeline_Override(c CodepipelinePipeline, scope constructs.Construct, id *string, config *CodepipelinePipelineConfig) {
 	_init_.Initialize()
 

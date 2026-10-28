@@ -5,14 +5,14 @@ package wisdomassistant
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomassistant/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomassistant/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_assistant awscc_wisdom_assistant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_assistant awscc_wisdom_assistant}.
 type WisdomAssistant interface {
 	cdktn.TerraformResource
 	AssistantArn() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_WisdomAssistant) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_assistant awscc_wisdom_assistant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_assistant awscc_wisdom_assistant} Resource.
 func NewWisdomAssistant(scope constructs.Construct, id *string, config *WisdomAssistantConfig) WisdomAssistant {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewWisdomAssistant(scope constructs.Construct, id *string, config *WisdomAs
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_assistant awscc_wisdom_assistant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_assistant awscc_wisdom_assistant} Resource.
 func NewWisdomAssistant_Override(w WisdomAssistant, scope constructs.Construct, id *string, config *WisdomAssistantConfig) {
 	_init_.Initialize()
 

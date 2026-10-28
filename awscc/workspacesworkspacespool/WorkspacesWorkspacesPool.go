@@ -5,14 +5,14 @@ package workspacesworkspacespool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspacesworkspacespool/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspacesworkspacespool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_workspaces_pool awscc_workspaces_workspaces_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_workspaces_pool awscc_workspaces_workspaces_pool}.
 type WorkspacesWorkspacesPool interface {
 	cdktn.TerraformResource
 	ApplicationSettings() WorkspacesWorkspacesPoolApplicationSettingsOutputReference
@@ -600,7 +600,7 @@ func (j *jsiiProxy_WorkspacesWorkspacesPool) TimeoutSettingsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_workspaces_pool awscc_workspaces_workspaces_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_workspaces_pool awscc_workspaces_workspaces_pool} Resource.
 func NewWorkspacesWorkspacesPool(scope constructs.Construct, id *string, config *WorkspacesWorkspacesPoolConfig) WorkspacesWorkspacesPool {
 	_init_.Initialize()
 
@@ -618,7 +618,7 @@ func NewWorkspacesWorkspacesPool(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspaces_workspaces_pool awscc_workspaces_workspaces_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspaces_workspaces_pool awscc_workspaces_workspaces_pool} Resource.
 func NewWorkspacesWorkspacesPool_Override(w WorkspacesWorkspacesPool, scope constructs.Construct, id *string, config *WorkspacesWorkspacesPoolConfig) {
 	_init_.Initialize()
 

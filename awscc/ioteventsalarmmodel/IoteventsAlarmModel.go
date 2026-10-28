@@ -5,14 +5,14 @@ package ioteventsalarmmodel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ioteventsalarmmodel/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ioteventsalarmmodel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_alarm_model awscc_iotevents_alarm_model}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_alarm_model awscc_iotevents_alarm_model}.
 type IoteventsAlarmModel interface {
 	cdktn.TerraformResource
 	AlarmCapabilities() IoteventsAlarmModelAlarmCapabilitiesOutputReference
@@ -569,7 +569,7 @@ func (j *jsiiProxy_IoteventsAlarmModel) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_alarm_model awscc_iotevents_alarm_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_alarm_model awscc_iotevents_alarm_model} Resource.
 func NewIoteventsAlarmModel(scope constructs.Construct, id *string, config *IoteventsAlarmModelConfig) IoteventsAlarmModel {
 	_init_.Initialize()
 
@@ -587,7 +587,7 @@ func NewIoteventsAlarmModel(scope constructs.Construct, id *string, config *Iote
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotevents_alarm_model awscc_iotevents_alarm_model} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotevents_alarm_model awscc_iotevents_alarm_model} Resource.
 func NewIoteventsAlarmModel_Override(i IoteventsAlarmModel, scope constructs.Construct, id *string, config *IoteventsAlarmModelConfig) {
 	_init_.Initialize()
 

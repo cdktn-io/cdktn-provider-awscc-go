@@ -5,14 +5,14 @@ package dynamodbtable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbtable/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbtable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table awscc_dynamodb_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table awscc_dynamodb_table}.
 type DynamodbTable interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -880,7 +880,7 @@ func (j *jsiiProxy_DynamodbTable) WarmThroughputInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table awscc_dynamodb_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table awscc_dynamodb_table} Resource.
 func NewDynamodbTable(scope constructs.Construct, id *string, config *DynamodbTableConfig) DynamodbTable {
 	_init_.Initialize()
 
@@ -898,7 +898,7 @@ func NewDynamodbTable(scope constructs.Construct, id *string, config *DynamodbTa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_table awscc_dynamodb_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_table awscc_dynamodb_table} Resource.
 func NewDynamodbTable_Override(d DynamodbTable, scope constructs.Construct, id *string, config *DynamodbTableConfig) {
 	_init_.Initialize()
 

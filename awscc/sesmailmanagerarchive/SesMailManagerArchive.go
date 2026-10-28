@@ -5,14 +5,14 @@ package sesmailmanagerarchive
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesmailmanagerarchive/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesmailmanagerarchive/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_mail_manager_archive awscc_ses_mail_manager_archive}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_mail_manager_archive awscc_ses_mail_manager_archive}.
 type SesMailManagerArchive interface {
 	cdktn.TerraformResource
 	ArchiveArn() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_SesMailManagerArchive) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_mail_manager_archive awscc_ses_mail_manager_archive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_mail_manager_archive awscc_ses_mail_manager_archive} Resource.
 func NewSesMailManagerArchive(scope constructs.Construct, id *string, config *SesMailManagerArchiveConfig) SesMailManagerArchive {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewSesMailManagerArchive(scope constructs.Construct, id *string, config *Se
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_mail_manager_archive awscc_ses_mail_manager_archive} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_mail_manager_archive awscc_ses_mail_manager_archive} Resource.
 func NewSesMailManagerArchive_Override(s SesMailManagerArchive, scope constructs.Construct, id *string, config *SesMailManagerArchiveConfig) {
 	_init_.Initialize()
 

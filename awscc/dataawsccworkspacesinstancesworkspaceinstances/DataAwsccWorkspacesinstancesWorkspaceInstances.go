@@ -5,14 +5,14 @@ package dataawsccworkspacesinstancesworkspaceinstances
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesinstancesworkspaceinstances/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesinstancesworkspaceinstances/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesinstances_workspace_instances awscc_workspacesinstances_workspace_instances}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesinstances_workspace_instances awscc_workspacesinstances_workspace_instances}.
 type DataAwsccWorkspacesinstancesWorkspaceInstances interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccWorkspacesinstancesWorkspaceInstances) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesinstances_workspace_instances awscc_workspacesinstances_workspace_instances} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesinstances_workspace_instances awscc_workspacesinstances_workspace_instances} Data Source.
 func NewDataAwsccWorkspacesinstancesWorkspaceInstances(scope constructs.Construct, id *string, config *DataAwsccWorkspacesinstancesWorkspaceInstancesConfig) DataAwsccWorkspacesinstancesWorkspaceInstances {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccWorkspacesinstancesWorkspaceInstances(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesinstances_workspace_instances awscc_workspacesinstances_workspace_instances} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesinstances_workspace_instances awscc_workspacesinstances_workspace_instances} Data Source.
 func NewDataAwsccWorkspacesinstancesWorkspaceInstances_Override(d DataAwsccWorkspacesinstancesWorkspaceInstances, scope constructs.Construct, id *string, config *DataAwsccWorkspacesinstancesWorkspaceInstancesConfig) {
 	_init_.Initialize()
 

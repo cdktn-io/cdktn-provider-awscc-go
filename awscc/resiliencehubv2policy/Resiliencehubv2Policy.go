@@ -5,14 +5,14 @@ package resiliencehubv2policy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2policy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2policy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy awscc_resiliencehubv2_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy awscc_resiliencehubv2_policy}.
 type Resiliencehubv2Policy interface {
 	cdktn.TerraformResource
 	AssociatedServiceCount() *float64
@@ -614,7 +614,7 @@ func (j *jsiiProxy_Resiliencehubv2Policy) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy awscc_resiliencehubv2_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy awscc_resiliencehubv2_policy} Resource.
 func NewResiliencehubv2Policy(scope constructs.Construct, id *string, config *Resiliencehubv2PolicyConfig) Resiliencehubv2Policy {
 	_init_.Initialize()
 
@@ -632,7 +632,7 @@ func NewResiliencehubv2Policy(scope constructs.Construct, id *string, config *Re
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_policy awscc_resiliencehubv2_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_policy awscc_resiliencehubv2_policy} Resource.
 func NewResiliencehubv2Policy_Override(r Resiliencehubv2Policy, scope constructs.Construct, id *string, config *Resiliencehubv2PolicyConfig) {
 	_init_.Initialize()
 

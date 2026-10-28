@@ -5,14 +5,14 @@ package appsyncfunctionconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appsyncfunctionconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appsyncfunctionconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration awscc_appsync_function_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration awscc_appsync_function_configuration}.
 type AppsyncFunctionConfiguration interface {
 	cdktn.TerraformResource
 	ApiId() *string
@@ -710,7 +710,7 @@ func (j *jsiiProxy_AppsyncFunctionConfiguration) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration awscc_appsync_function_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration awscc_appsync_function_configuration} Resource.
 func NewAppsyncFunctionConfiguration(scope constructs.Construct, id *string, config *AppsyncFunctionConfigurationConfig) AppsyncFunctionConfiguration {
 	_init_.Initialize()
 
@@ -728,7 +728,7 @@ func NewAppsyncFunctionConfiguration(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appsync_function_configuration awscc_appsync_function_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appsync_function_configuration awscc_appsync_function_configuration} Resource.
 func NewAppsyncFunctionConfiguration_Override(a AppsyncFunctionConfiguration, scope constructs.Construct, id *string, config *AppsyncFunctionConfigurationConfig) {
 	_init_.Initialize()
 

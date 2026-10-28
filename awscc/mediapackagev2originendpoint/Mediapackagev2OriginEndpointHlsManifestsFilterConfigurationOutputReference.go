@@ -5,9 +5,9 @@ package mediapackagev2originendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediapackagev2originendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediapackagev2originendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -44,6 +44,8 @@ type Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationOutputReference 
 	ManifestFilter() *string
 	SetManifestFilter(val *string)
 	ManifestFilterInput() *string
+	Multiview() Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationMultiviewOutputReference
+	MultiviewInput() interface{}
 	Start() *string
 	SetStart(val *string)
 	StartInput() *string
@@ -82,10 +84,12 @@ type Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationOutputReference 
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutMultiview(value *Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationMultiview)
 	ResetClipStartTime()
 	ResetDrmSettings()
 	ResetEnd()
 	ResetManifestFilter()
+	ResetMultiview()
 	ResetStart()
 	ResetTimeDelaySeconds()
 	// Produce the Token's value at resolution time.
@@ -228,6 +232,26 @@ func (j *jsiiProxy_Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationOu
 	_jsii_.Get(
 		j,
 		"manifestFilterInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationOutputReference) Multiview() Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationMultiviewOutputReference {
+	var returns Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationMultiviewOutputReference
+	_jsii_.Get(
+		j,
+		"multiview",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationOutputReference) MultiviewInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"multiviewInput",
 		&returns,
 	)
 	return returns
@@ -628,6 +652,17 @@ func (m *jsiiProxy_Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationOu
 	return returns
 }
 
+func (m *jsiiProxy_Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationOutputReference) PutMultiview(value *Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationMultiview) {
+	if err := m.validatePutMultiviewParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putMultiview",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationOutputReference) ResetClipStartTime() {
 	_jsii_.InvokeVoid(
 		m,
@@ -656,6 +691,14 @@ func (m *jsiiProxy_Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationOu
 	_jsii_.InvokeVoid(
 		m,
 		"resetManifestFilter",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationOutputReference) ResetMultiview() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetMultiview",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package dataawsccec2natgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2natgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2natgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_nat_gateway awscc_ec2_nat_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_nat_gateway awscc_ec2_nat_gateway}.
 type DataAwsccEc2NatGateway interface {
 	cdktn.TerraformDataSource
 	AllocationId() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccEc2NatGateway) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_nat_gateway awscc_ec2_nat_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_nat_gateway awscc_ec2_nat_gateway} Data Source.
 func NewDataAwsccEc2NatGateway(scope constructs.Construct, id *string, config *DataAwsccEc2NatGatewayConfig) DataAwsccEc2NatGateway {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccEc2NatGateway(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_nat_gateway awscc_ec2_nat_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_nat_gateway awscc_ec2_nat_gateway} Data Source.
 func NewDataAwsccEc2NatGateway_Override(d DataAwsccEc2NatGateway, scope constructs.Construct, id *string, config *DataAwsccEc2NatGatewayConfig) {
 	_init_.Initialize()
 

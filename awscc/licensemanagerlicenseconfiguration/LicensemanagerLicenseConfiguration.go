@@ -5,14 +5,14 @@ package licensemanagerlicenseconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlicenseconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlicenseconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_configuration awscc_licensemanager_license_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_configuration awscc_licensemanager_license_configuration}.
 type LicensemanagerLicenseConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -637,7 +637,7 @@ func (j *jsiiProxy_LicensemanagerLicenseConfiguration) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_configuration awscc_licensemanager_license_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_configuration awscc_licensemanager_license_configuration} Resource.
 func NewLicensemanagerLicenseConfiguration(scope constructs.Construct, id *string, config *LicensemanagerLicenseConfigurationConfig) LicensemanagerLicenseConfiguration {
 	_init_.Initialize()
 
@@ -655,7 +655,7 @@ func NewLicensemanagerLicenseConfiguration(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanager_license_configuration awscc_licensemanager_license_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanager_license_configuration awscc_licensemanager_license_configuration} Resource.
 func NewLicensemanagerLicenseConfiguration_Override(l LicensemanagerLicenseConfiguration, scope constructs.Construct, id *string, config *LicensemanagerLicenseConfigurationConfig) {
 	_init_.Initialize()
 

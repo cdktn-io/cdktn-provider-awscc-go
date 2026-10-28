@@ -5,14 +5,14 @@ package dataawsccstepfunctionsstatemachinealias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsstatemachinealias/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsstatemachinealias/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias}.
 type DataAwsccStepfunctionsStateMachineAlias interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccStepfunctionsStateMachineAlias) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias} Data Source.
 func NewDataAwsccStepfunctionsStateMachineAlias(scope constructs.Construct, id *string, config *DataAwsccStepfunctionsStateMachineAliasConfig) DataAwsccStepfunctionsStateMachineAlias {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccStepfunctionsStateMachineAlias(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/stepfunctions_state_machine_alias awscc_stepfunctions_state_machine_alias} Data Source.
 func NewDataAwsccStepfunctionsStateMachineAlias_Override(d DataAwsccStepfunctionsStateMachineAlias, scope constructs.Construct, id *string, config *DataAwsccStepfunctionsStateMachineAliasConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package connectapprovedorigin
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectapprovedorigin/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectapprovedorigin/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_approved_origin awscc_connect_approved_origin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_approved_origin awscc_connect_approved_origin}.
 type ConnectApprovedOrigin interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_ConnectApprovedOrigin) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_approved_origin awscc_connect_approved_origin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_approved_origin awscc_connect_approved_origin} Resource.
 func NewConnectApprovedOrigin(scope constructs.Construct, id *string, config *ConnectApprovedOriginConfig) ConnectApprovedOrigin {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewConnectApprovedOrigin(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_approved_origin awscc_connect_approved_origin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_approved_origin awscc_connect_approved_origin} Resource.
 func NewConnectApprovedOrigin_Override(c ConnectApprovedOrigin, scope constructs.Construct, id *string, config *ConnectApprovedOriginConfig) {
 	_init_.Initialize()
 

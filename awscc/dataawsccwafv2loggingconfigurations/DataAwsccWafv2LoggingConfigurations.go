@@ -5,14 +5,14 @@ package dataawsccwafv2loggingconfigurations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwafv2loggingconfigurations/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwafv2loggingconfigurations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wafv2_logging_configurations awscc_wafv2_logging_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wafv2_logging_configurations awscc_wafv2_logging_configurations}.
 type DataAwsccWafv2LoggingConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccWafv2LoggingConfigurations) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wafv2_logging_configurations awscc_wafv2_logging_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wafv2_logging_configurations awscc_wafv2_logging_configurations} Data Source.
 func NewDataAwsccWafv2LoggingConfigurations(scope constructs.Construct, id *string, config *DataAwsccWafv2LoggingConfigurationsConfig) DataAwsccWafv2LoggingConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccWafv2LoggingConfigurations(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wafv2_logging_configurations awscc_wafv2_logging_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wafv2_logging_configurations awscc_wafv2_logging_configurations} Data Source.
 func NewDataAwsccWafv2LoggingConfigurations_Override(d DataAwsccWafv2LoggingConfigurations, scope constructs.Construct, id *string, config *DataAwsccWafv2LoggingConfigurationsConfig) {
 	_init_.Initialize()
 

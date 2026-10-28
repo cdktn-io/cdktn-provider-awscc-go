@@ -5,14 +5,14 @@ package dmscertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmscertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmscertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_certificate awscc_dms_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_certificate awscc_dms_certificate}.
 type DmsCertificate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_DmsCertificate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_certificate awscc_dms_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_certificate awscc_dms_certificate} Resource.
 func NewDmsCertificate(scope constructs.Construct, id *string, config *DmsCertificateConfig) DmsCertificate {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewDmsCertificate(scope constructs.Construct, id *string, config *DmsCertif
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_certificate awscc_dms_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_certificate awscc_dms_certificate} Resource.
 func NewDmsCertificate_Override(d DmsCertificate, scope constructs.Construct, id *string, config *DmsCertificateConfig) {
 	_init_.Initialize()
 

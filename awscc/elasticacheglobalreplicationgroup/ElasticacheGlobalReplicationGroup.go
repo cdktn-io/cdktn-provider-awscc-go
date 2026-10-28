@@ -5,14 +5,14 @@ package elasticacheglobalreplicationgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheglobalreplicationgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticacheglobalreplicationgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_global_replication_group awscc_elasticache_global_replication_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_global_replication_group awscc_elasticache_global_replication_group}.
 type ElasticacheGlobalReplicationGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -651,7 +651,7 @@ func (j *jsiiProxy_ElasticacheGlobalReplicationGroup) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_global_replication_group awscc_elasticache_global_replication_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_global_replication_group awscc_elasticache_global_replication_group} Resource.
 func NewElasticacheGlobalReplicationGroup(scope constructs.Construct, id *string, config *ElasticacheGlobalReplicationGroupConfig) ElasticacheGlobalReplicationGroup {
 	_init_.Initialize()
 
@@ -669,7 +669,7 @@ func NewElasticacheGlobalReplicationGroup(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_global_replication_group awscc_elasticache_global_replication_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_global_replication_group awscc_elasticache_global_replication_group} Resource.
 func NewElasticacheGlobalReplicationGroup_Override(e ElasticacheGlobalReplicationGroup, scope constructs.Construct, id *string, config *ElasticacheGlobalReplicationGroupConfig) {
 	_init_.Initialize()
 

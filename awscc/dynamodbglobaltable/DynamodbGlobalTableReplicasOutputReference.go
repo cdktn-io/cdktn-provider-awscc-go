@@ -5,9 +5,9 @@ package dynamodbglobaltable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbglobaltable/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbglobaltable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -33,6 +33,9 @@ type DynamodbGlobalTableReplicasOutputReference interface {
 	DeletionProtectionEnabled() interface{}
 	SetDeletionProtectionEnabled(val interface{})
 	DeletionProtectionEnabledInput() interface{}
+	DisassociationProtectionEnabled() interface{}
+	SetDisassociationProtectionEnabled(val interface{})
+	DisassociationProtectionEnabledInput() interface{}
 	// Experimental.
 	Fqn() *string
 	GlobalSecondaryIndexes() DynamodbGlobalTableReplicasGlobalSecondaryIndexesList
@@ -108,6 +111,7 @@ type DynamodbGlobalTableReplicasOutputReference interface {
 	PutTags(value interface{})
 	ResetContributorInsightsSpecification()
 	ResetDeletionProtectionEnabled()
+	ResetDisassociationProtectionEnabled()
 	ResetGlobalSecondaryIndexes()
 	ResetGlobalTableSettingsReplicationMode()
 	ResetKinesisStreamSpecification()
@@ -199,6 +203,26 @@ func (j *jsiiProxy_DynamodbGlobalTableReplicasOutputReference) DeletionProtectio
 	_jsii_.Get(
 		j,
 		"deletionProtectionEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DynamodbGlobalTableReplicasOutputReference) DisassociationProtectionEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disassociationProtectionEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DynamodbGlobalTableReplicasOutputReference) DisassociationProtectionEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disassociationProtectionEnabledInput",
 		&returns,
 	)
 	return returns
@@ -541,6 +565,17 @@ func (j *jsiiProxy_DynamodbGlobalTableReplicasOutputReference)SetDeletionProtect
 	_jsii_.Set(
 		j,
 		"deletionProtectionEnabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DynamodbGlobalTableReplicasOutputReference)SetDisassociationProtectionEnabled(val interface{}) {
+	if err := j.validateSetDisassociationProtectionEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"disassociationProtectionEnabled",
 		val,
 	)
 }
@@ -919,6 +954,14 @@ func (d *jsiiProxy_DynamodbGlobalTableReplicasOutputReference) ResetDeletionProt
 	_jsii_.InvokeVoid(
 		d,
 		"resetDeletionProtectionEnabled",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DynamodbGlobalTableReplicasOutputReference) ResetDisassociationProtectionEnabled() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDisassociationProtectionEnabled",
 		nil, // no parameters
 	)
 }

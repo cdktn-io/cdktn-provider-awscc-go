@@ -5,14 +5,14 @@ package globalacceleratorlistener
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/globalacceleratorlistener/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/globalacceleratorlistener/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/globalaccelerator_listener awscc_globalaccelerator_listener}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/globalaccelerator_listener awscc_globalaccelerator_listener}.
 type GlobalacceleratorListener interface {
 	cdktn.TerraformResource
 	AcceleratorArn() *string
@@ -460,7 +460,7 @@ func (j *jsiiProxy_GlobalacceleratorListener) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/globalaccelerator_listener awscc_globalaccelerator_listener} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/globalaccelerator_listener awscc_globalaccelerator_listener} Resource.
 func NewGlobalacceleratorListener(scope constructs.Construct, id *string, config *GlobalacceleratorListenerConfig) GlobalacceleratorListener {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewGlobalacceleratorListener(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/globalaccelerator_listener awscc_globalaccelerator_listener} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/globalaccelerator_listener awscc_globalaccelerator_listener} Resource.
 func NewGlobalacceleratorListener_Override(g GlobalacceleratorListener, scope constructs.Construct, id *string, config *GlobalacceleratorListenerConfig) {
 	_init_.Initialize()
 

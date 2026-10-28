@@ -5,14 +5,14 @@ package ec2prefixlist
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2prefixlist/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2prefixlist/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_prefix_list awscc_ec2_prefix_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_prefix_list awscc_ec2_prefix_list}.
 type Ec2PrefixList interface {
 	cdktn.TerraformResource
 	AddressFamily() *string
@@ -517,7 +517,7 @@ func (j *jsiiProxy_Ec2PrefixList) Version() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_prefix_list awscc_ec2_prefix_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_prefix_list awscc_ec2_prefix_list} Resource.
 func NewEc2PrefixList(scope constructs.Construct, id *string, config *Ec2PrefixListConfig) Ec2PrefixList {
 	_init_.Initialize()
 
@@ -535,7 +535,7 @@ func NewEc2PrefixList(scope constructs.Construct, id *string, config *Ec2PrefixL
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_prefix_list awscc_ec2_prefix_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_prefix_list awscc_ec2_prefix_list} Resource.
 func NewEc2PrefixList_Override(e Ec2PrefixList, scope constructs.Construct, id *string, config *Ec2PrefixListConfig) {
 	_init_.Initialize()
 

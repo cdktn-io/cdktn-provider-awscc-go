@@ -5,14 +5,14 @@ package dataawsccrdsintegrations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsintegrations/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsintegrations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_integrations awscc_rds_integrations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_integrations awscc_rds_integrations}.
 type DataAwsccRdsIntegrations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRdsIntegrations) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_integrations awscc_rds_integrations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_integrations awscc_rds_integrations} Data Source.
 func NewDataAwsccRdsIntegrations(scope constructs.Construct, id *string, config *DataAwsccRdsIntegrationsConfig) DataAwsccRdsIntegrations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRdsIntegrations(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_integrations awscc_rds_integrations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_integrations awscc_rds_integrations} Data Source.
 func NewDataAwsccRdsIntegrations_Override(d DataAwsccRdsIntegrations, scope constructs.Construct, id *string, config *DataAwsccRdsIntegrationsConfig) {
 	_init_.Initialize()
 

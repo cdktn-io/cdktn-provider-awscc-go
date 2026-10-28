@@ -5,14 +5,14 @@ package dataawsccsagemakernotebookinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakernotebookinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakernotebookinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_notebook_instance awscc_sagemaker_notebook_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_notebook_instance awscc_sagemaker_notebook_instance}.
 type DataAwsccSagemakerNotebookInstance interface {
 	cdktn.TerraformDataSource
 	AcceleratorTypes() *[]*string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccSagemakerNotebookInstance) VolumeSizeInGb() *float64
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_notebook_instance awscc_sagemaker_notebook_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_notebook_instance awscc_sagemaker_notebook_instance} Data Source.
 func NewDataAwsccSagemakerNotebookInstance(scope constructs.Construct, id *string, config *DataAwsccSagemakerNotebookInstanceConfig) DataAwsccSagemakerNotebookInstance {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccSagemakerNotebookInstance(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_notebook_instance awscc_sagemaker_notebook_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_notebook_instance awscc_sagemaker_notebook_instance} Data Source.
 func NewDataAwsccSagemakerNotebookInstance_Override(d DataAwsccSagemakerNotebookInstance, scope constructs.Construct, id *string, config *DataAwsccSagemakerNotebookInstanceConfig) {
 	_init_.Initialize()
 

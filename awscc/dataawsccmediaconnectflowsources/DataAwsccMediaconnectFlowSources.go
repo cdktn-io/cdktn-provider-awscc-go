@@ -5,14 +5,14 @@ package dataawsccmediaconnectflowsources
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowsources/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowsources/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_flow_sources awscc_mediaconnect_flow_sources}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_flow_sources awscc_mediaconnect_flow_sources}.
 type DataAwsccMediaconnectFlowSources interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMediaconnectFlowSources) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_flow_sources awscc_mediaconnect_flow_sources} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_flow_sources awscc_mediaconnect_flow_sources} Data Source.
 func NewDataAwsccMediaconnectFlowSources(scope constructs.Construct, id *string, config *DataAwsccMediaconnectFlowSourcesConfig) DataAwsccMediaconnectFlowSources {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMediaconnectFlowSources(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_flow_sources awscc_mediaconnect_flow_sources} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_flow_sources awscc_mediaconnect_flow_sources} Data Source.
 func NewDataAwsccMediaconnectFlowSources_Override(d DataAwsccMediaconnectFlowSources, scope constructs.Construct, id *string, config *DataAwsccMediaconnectFlowSourcesConfig) {
 	_init_.Initialize()
 

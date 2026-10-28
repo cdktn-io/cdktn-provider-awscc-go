@@ -5,14 +5,14 @@ package dataawscccloudwatchinsightrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchinsightrule/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchinsightrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule}.
 type DataAwsccCloudwatchInsightRule interface {
 	cdktn.TerraformDataSource
 	ApplyOnTransformedLogs() cdktn.IResolvable
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccCloudwatchInsightRule) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule} Data Source.
 func NewDataAwsccCloudwatchInsightRule(scope constructs.Construct, id *string, config *DataAwsccCloudwatchInsightRuleConfig) DataAwsccCloudwatchInsightRule {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccCloudwatchInsightRule(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_insight_rule awscc_cloudwatch_insight_rule} Data Source.
 func NewDataAwsccCloudwatchInsightRule_Override(d DataAwsccCloudwatchInsightRule, scope constructs.Construct, id *string, config *DataAwsccCloudwatchInsightRuleConfig) {
 	_init_.Initialize()
 

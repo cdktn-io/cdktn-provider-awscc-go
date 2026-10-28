@@ -5,14 +5,14 @@ package dataawscciotsitewiseasset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseasset/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseasset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_asset awscc_iotsitewise_asset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_asset awscc_iotsitewise_asset}.
 type DataAwsccIotsitewiseAsset interface {
 	cdktn.TerraformDataSource
 	AssetArn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccIotsitewiseAsset) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_asset awscc_iotsitewise_asset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_asset awscc_iotsitewise_asset} Data Source.
 func NewDataAwsccIotsitewiseAsset(scope constructs.Construct, id *string, config *DataAwsccIotsitewiseAssetConfig) DataAwsccIotsitewiseAsset {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccIotsitewiseAsset(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_asset awscc_iotsitewise_asset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_asset awscc_iotsitewise_asset} Data Source.
 func NewDataAwsccIotsitewiseAsset_Override(d DataAwsccIotsitewiseAsset, scope constructs.Construct, id *string, config *DataAwsccIotsitewiseAssetConfig) {
 	_init_.Initialize()
 

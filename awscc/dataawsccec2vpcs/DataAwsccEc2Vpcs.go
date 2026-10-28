@@ -5,14 +5,14 @@ package dataawsccec2vpcs
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpcs/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpcs/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpcs awscc_ec2_vpcs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpcs awscc_ec2_vpcs}.
 type DataAwsccEc2Vpcs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2Vpcs) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpcs awscc_ec2_vpcs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpcs awscc_ec2_vpcs} Data Source.
 func NewDataAwsccEc2Vpcs(scope constructs.Construct, id *string, config *DataAwsccEc2VpcsConfig) DataAwsccEc2Vpcs {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2Vpcs(scope constructs.Construct, id *string, config *DataAws
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpcs awscc_ec2_vpcs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpcs awscc_ec2_vpcs} Data Source.
 func NewDataAwsccEc2Vpcs_Override(d DataAwsccEc2Vpcs, scope constructs.Construct, id *string, config *DataAwsccEc2VpcsConfig) {
 	_init_.Initialize()
 

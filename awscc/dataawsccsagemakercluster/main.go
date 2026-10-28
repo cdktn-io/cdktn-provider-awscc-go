@@ -876,6 +876,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "imageId", GoGetter: "ImageId"},
+			_jsii_.MemberProperty{JsiiProperty: "imageReleaseVersion", GoGetter: "ImageReleaseVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "instanceCount", GoGetter: "InstanceCount"},
 			_jsii_.MemberProperty{JsiiProperty: "instanceGroupName", GoGetter: "InstanceGroupName"},
 			_jsii_.MemberProperty{JsiiProperty: "instanceRequirements", GoGetter: "InstanceRequirements"},

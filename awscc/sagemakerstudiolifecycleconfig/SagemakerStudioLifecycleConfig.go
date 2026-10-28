@@ -5,14 +5,14 @@ package sagemakerstudiolifecycleconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerstudiolifecycleconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerstudiolifecycleconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_studio_lifecycle_config awscc_sagemaker_studio_lifecycle_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_studio_lifecycle_config awscc_sagemaker_studio_lifecycle_config}.
 type SagemakerStudioLifecycleConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -459,7 +459,7 @@ func (j *jsiiProxy_SagemakerStudioLifecycleConfig) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_studio_lifecycle_config awscc_sagemaker_studio_lifecycle_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_studio_lifecycle_config awscc_sagemaker_studio_lifecycle_config} Resource.
 func NewSagemakerStudioLifecycleConfig(scope constructs.Construct, id *string, config *SagemakerStudioLifecycleConfigConfig) SagemakerStudioLifecycleConfig {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewSagemakerStudioLifecycleConfig(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_studio_lifecycle_config awscc_sagemaker_studio_lifecycle_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_studio_lifecycle_config awscc_sagemaker_studio_lifecycle_config} Resource.
 func NewSagemakerStudioLifecycleConfig_Override(s SagemakerStudioLifecycleConfig, scope constructs.Construct, id *string, config *SagemakerStudioLifecycleConfigConfig) {
 	_init_.Initialize()
 

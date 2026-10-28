@@ -5,14 +5,14 @@ package forecastdatasetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/forecastdatasetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/forecastdatasetgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/forecast_dataset_group awscc_forecast_dataset_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/forecast_dataset_group awscc_forecast_dataset_group}.
 type ForecastDatasetGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -460,7 +460,7 @@ func (j *jsiiProxy_ForecastDatasetGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/forecast_dataset_group awscc_forecast_dataset_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/forecast_dataset_group awscc_forecast_dataset_group} Resource.
 func NewForecastDatasetGroup(scope constructs.Construct, id *string, config *ForecastDatasetGroupConfig) ForecastDatasetGroup {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewForecastDatasetGroup(scope constructs.Construct, id *string, config *For
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/forecast_dataset_group awscc_forecast_dataset_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/forecast_dataset_group awscc_forecast_dataset_group} Resource.
 func NewForecastDatasetGroup_Override(f ForecastDatasetGroup, scope constructs.Construct, id *string, config *ForecastDatasetGroupConfig) {
 	_init_.Initialize()
 

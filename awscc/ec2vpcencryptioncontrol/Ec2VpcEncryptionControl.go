@@ -5,14 +5,14 @@ package ec2vpcencryptioncontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpcencryptioncontrol/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpcencryptioncontrol/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc_encryption_control awscc_ec2_vpc_encryption_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc_encryption_control awscc_ec2_vpc_encryption_control}.
 type Ec2VpcEncryptionControl interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -663,7 +663,7 @@ func (j *jsiiProxy_Ec2VpcEncryptionControl) VpcPeeringExclusionInputInput() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc_encryption_control awscc_ec2_vpc_encryption_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc_encryption_control awscc_ec2_vpc_encryption_control} Resource.
 func NewEc2VpcEncryptionControl(scope constructs.Construct, id *string, config *Ec2VpcEncryptionControlConfig) Ec2VpcEncryptionControl {
 	_init_.Initialize()
 
@@ -681,7 +681,7 @@ func NewEc2VpcEncryptionControl(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc_encryption_control awscc_ec2_vpc_encryption_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc_encryption_control awscc_ec2_vpc_encryption_control} Resource.
 func NewEc2VpcEncryptionControl_Override(e Ec2VpcEncryptionControl, scope constructs.Construct, id *string, config *Ec2VpcEncryptionControlConfig) {
 	_init_.Initialize()
 

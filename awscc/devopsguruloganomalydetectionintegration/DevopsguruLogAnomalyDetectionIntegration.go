@@ -5,14 +5,14 @@ package devopsguruloganomalydetectionintegration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsguruloganomalydetectionintegration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsguruloganomalydetectionintegration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsguru_log_anomaly_detection_integration awscc_devopsguru_log_anomaly_detection_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsguru_log_anomaly_detection_integration awscc_devopsguru_log_anomaly_detection_integration}.
 type DevopsguruLogAnomalyDetectionIntegration interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -366,7 +366,7 @@ func (j *jsiiProxy_DevopsguruLogAnomalyDetectionIntegration) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsguru_log_anomaly_detection_integration awscc_devopsguru_log_anomaly_detection_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsguru_log_anomaly_detection_integration awscc_devopsguru_log_anomaly_detection_integration} Resource.
 func NewDevopsguruLogAnomalyDetectionIntegration(scope constructs.Construct, id *string, config *DevopsguruLogAnomalyDetectionIntegrationConfig) DevopsguruLogAnomalyDetectionIntegration {
 	_init_.Initialize()
 
@@ -384,7 +384,7 @@ func NewDevopsguruLogAnomalyDetectionIntegration(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsguru_log_anomaly_detection_integration awscc_devopsguru_log_anomaly_detection_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsguru_log_anomaly_detection_integration awscc_devopsguru_log_anomaly_detection_integration} Resource.
 func NewDevopsguruLogAnomalyDetectionIntegration_Override(d DevopsguruLogAnomalyDetectionIntegration, scope constructs.Construct, id *string, config *DevopsguruLogAnomalyDetectionIntegrationConfig) {
 	_init_.Initialize()
 

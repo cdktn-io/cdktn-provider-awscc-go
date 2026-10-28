@@ -5,14 +5,14 @@ package networkfirewallfirewall
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkfirewallfirewall/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkfirewallfirewall/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_firewall awscc_networkfirewall_firewall}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_firewall awscc_networkfirewall_firewall}.
 type NetworkfirewallFirewall interface {
 	cdktn.TerraformResource
 	AvailabilityZoneChangeProtection() interface{}
@@ -70,8 +70,14 @@ type NetworkfirewallFirewall interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	NatGatewayMappings() NetworkfirewallFirewallNatGatewayMappingsList
+	NatGatewayMappingsInput() interface{}
 	// The tree node.
 	Node() constructs.Node
+	NoSourcePreservation() interface{}
+	SetNoSourcePreservation(val interface{})
+	NoSourcePreservationInput() interface{}
+	NumberOfAssociations() *float64
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -80,6 +86,8 @@ type NetworkfirewallFirewall interface {
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
+	ProxySettings() NetworkfirewallFirewallProxySettingsOutputReference
+	ProxySettingsInput() interface{}
 	// Experimental.
 	RawOverrides() interface{}
 	SubnetChangeProtection() interface{}
@@ -99,6 +107,8 @@ type NetworkfirewallFirewall interface {
 	TransitGatewayId() *string
 	SetTransitGatewayId(val *string)
 	TransitGatewayIdInput() *string
+	VpcEndpoint() NetworkfirewallFirewallVpcEndpointOutputReference
+	VpcEndpointInput() interface{}
 	VpcId() *string
 	SetVpcId(val *string)
 	VpcIdInput() *string
@@ -182,8 +192,11 @@ type NetworkfirewallFirewall interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutAvailabilityZoneMappings(value interface{})
+	PutNatGatewayMappings(value interface{})
+	PutProxySettings(value *NetworkfirewallFirewallProxySettings)
 	PutSubnetMappings(value interface{})
 	PutTags(value interface{})
+	PutVpcEndpoint(value *NetworkfirewallFirewallVpcEndpoint)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -203,13 +216,17 @@ type NetworkfirewallFirewall interface {
 	ResetDescription()
 	ResetEnabledAnalysisTypes()
 	ResetFirewallPolicyChangeProtection()
+	ResetNatGatewayMappings()
+	ResetNoSourcePreservation()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetProxySettings()
 	ResetSubnetChangeProtection()
 	ResetSubnetMappings()
 	ResetTags()
 	ResetTransitGatewayId()
+	ResetVpcEndpoint()
 	ResetVpcId()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -528,11 +545,61 @@ func (j *jsiiProxy_NetworkfirewallFirewall) Lifecycle() *cdktn.TerraformResource
 	return returns
 }
 
+func (j *jsiiProxy_NetworkfirewallFirewall) NatGatewayMappings() NetworkfirewallFirewallNatGatewayMappingsList {
+	var returns NetworkfirewallFirewallNatGatewayMappingsList
+	_jsii_.Get(
+		j,
+		"natGatewayMappings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewall) NatGatewayMappingsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"natGatewayMappingsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetworkfirewallFirewall) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
 		j,
 		"node",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewall) NoSourcePreservation() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"noSourcePreservation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewall) NoSourcePreservationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"noSourcePreservationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewall) NumberOfAssociations() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"numberOfAssociations",
 		&returns,
 	)
 	return returns
@@ -553,6 +620,26 @@ func (j *jsiiProxy_NetworkfirewallFirewall) Provisioners() *[]interface{} {
 	_jsii_.Get(
 		j,
 		"provisioners",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewall) ProxySettings() NetworkfirewallFirewallProxySettingsOutputReference {
+	var returns NetworkfirewallFirewallProxySettingsOutputReference
+	_jsii_.Get(
+		j,
+		"proxySettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewall) ProxySettingsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"proxySettingsInput",
 		&returns,
 	)
 	return returns
@@ -688,6 +775,26 @@ func (j *jsiiProxy_NetworkfirewallFirewall) TransitGatewayIdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_NetworkfirewallFirewall) VpcEndpoint() NetworkfirewallFirewallVpcEndpointOutputReference {
+	var returns NetworkfirewallFirewallVpcEndpointOutputReference
+	_jsii_.Get(
+		j,
+		"vpcEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewall) VpcEndpointInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"vpcEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetworkfirewallFirewall) VpcId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -709,7 +816,7 @@ func (j *jsiiProxy_NetworkfirewallFirewall) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_firewall awscc_networkfirewall_firewall} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_firewall awscc_networkfirewall_firewall} Resource.
 func NewNetworkfirewallFirewall(scope constructs.Construct, id *string, config *NetworkfirewallFirewallConfig) NetworkfirewallFirewall {
 	_init_.Initialize()
 
@@ -727,7 +834,7 @@ func NewNetworkfirewallFirewall(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_firewall awscc_networkfirewall_firewall} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_firewall awscc_networkfirewall_firewall} Resource.
 func NewNetworkfirewallFirewall_Override(n NetworkfirewallFirewall, scope constructs.Construct, id *string, config *NetworkfirewallFirewallConfig) {
 	_init_.Initialize()
 
@@ -860,6 +967,17 @@ func (j *jsiiProxy_NetworkfirewallFirewall)SetLifecycle(val *cdktn.TerraformReso
 	_jsii_.Set(
 		j,
 		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewall)SetNoSourcePreservation(val interface{}) {
+	if err := j.validateSetNoSourcePreservationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"noSourcePreservation",
 		val,
 	)
 }
@@ -1296,6 +1414,28 @@ func (n *jsiiProxy_NetworkfirewallFirewall) PutAvailabilityZoneMappings(value in
 	)
 }
 
+func (n *jsiiProxy_NetworkfirewallFirewall) PutNatGatewayMappings(value interface{}) {
+	if err := n.validatePutNatGatewayMappingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putNatGatewayMappings",
+		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewall) PutProxySettings(value *NetworkfirewallFirewallProxySettings) {
+	if err := n.validatePutProxySettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putProxySettings",
+		[]interface{}{value},
+	)
+}
+
 func (n *jsiiProxy_NetworkfirewallFirewall) PutSubnetMappings(value interface{}) {
 	if err := n.validatePutSubnetMappingsParameters(value); err != nil {
 		panic(err)
@@ -1314,6 +1454,17 @@ func (n *jsiiProxy_NetworkfirewallFirewall) PutTags(value interface{}) {
 	_jsii_.InvokeVoid(
 		n,
 		"putTags",
+		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewall) PutVpcEndpoint(value *NetworkfirewallFirewallVpcEndpoint) {
+	if err := n.validatePutVpcEndpointParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putVpcEndpoint",
 		[]interface{}{value},
 	)
 }
@@ -1377,10 +1528,34 @@ func (n *jsiiProxy_NetworkfirewallFirewall) ResetFirewallPolicyChangeProtection(
 	)
 }
 
+func (n *jsiiProxy_NetworkfirewallFirewall) ResetNatGatewayMappings() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetNatGatewayMappings",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewall) ResetNoSourcePreservation() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetNoSourcePreservation",
+		nil, // no parameters
+	)
+}
+
 func (n *jsiiProxy_NetworkfirewallFirewall) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewall) ResetProxySettings() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetProxySettings",
 		nil, // no parameters
 	)
 }
@@ -1413,6 +1588,14 @@ func (n *jsiiProxy_NetworkfirewallFirewall) ResetTransitGatewayId() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetTransitGatewayId",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewall) ResetVpcEndpoint() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetVpcEndpoint",
 		nil, // no parameters
 	)
 }

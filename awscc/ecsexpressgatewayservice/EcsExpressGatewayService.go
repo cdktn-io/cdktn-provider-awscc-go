@@ -5,14 +5,14 @@ package ecsexpressgatewayservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecsexpressgatewayservice/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecsexpressgatewayservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_express_gateway_service awscc_ecs_express_gateway_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_express_gateway_service awscc_ecs_express_gateway_service}.
 type EcsExpressGatewayService interface {
 	cdktn.TerraformResource
 	ActiveConfigurations() EcsExpressGatewayServiceActiveConfigurationsList
@@ -743,7 +743,7 @@ func (j *jsiiProxy_EcsExpressGatewayService) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_express_gateway_service awscc_ecs_express_gateway_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_express_gateway_service awscc_ecs_express_gateway_service} Resource.
 func NewEcsExpressGatewayService(scope constructs.Construct, id *string, config *EcsExpressGatewayServiceConfig) EcsExpressGatewayService {
 	_init_.Initialize()
 
@@ -761,7 +761,7 @@ func NewEcsExpressGatewayService(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_express_gateway_service awscc_ecs_express_gateway_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_express_gateway_service awscc_ecs_express_gateway_service} Resource.
 func NewEcsExpressGatewayService_Override(e EcsExpressGatewayService, scope constructs.Construct, id *string, config *EcsExpressGatewayServiceConfig) {
 	_init_.Initialize()
 

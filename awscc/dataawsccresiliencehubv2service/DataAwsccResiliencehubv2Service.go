@@ -5,14 +5,14 @@ package dataawsccresiliencehubv2service
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubv2service/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubv2service/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resiliencehubv2_service awscc_resiliencehubv2_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resiliencehubv2_service awscc_resiliencehubv2_service}.
 type DataAwsccResiliencehubv2Service interface {
 	cdktn.TerraformDataSource
 	Assertions() DataAwsccResiliencehubv2ServiceAssertionsList
@@ -32,6 +32,7 @@ type DataAwsccResiliencehubv2Service interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	Description() *string
+	DevOpsAgentConfiguration() DataAwsccResiliencehubv2ServiceDevOpsAgentConfigurationOutputReference
 	EffectivePolicyValues() DataAwsccResiliencehubv2ServiceEffectivePolicyValuesOutputReference
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
@@ -226,6 +227,16 @@ func (j *jsiiProxy_DataAwsccResiliencehubv2Service) Description() *string {
 	_jsii_.Get(
 		j,
 		"description",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccResiliencehubv2Service) DevOpsAgentConfiguration() DataAwsccResiliencehubv2ServiceDevOpsAgentConfigurationOutputReference {
+	var returns DataAwsccResiliencehubv2ServiceDevOpsAgentConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"devOpsAgentConfiguration",
 		&returns,
 	)
 	return returns
@@ -462,7 +473,7 @@ func (j *jsiiProxy_DataAwsccResiliencehubv2Service) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resiliencehubv2_service awscc_resiliencehubv2_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resiliencehubv2_service awscc_resiliencehubv2_service} Data Source.
 func NewDataAwsccResiliencehubv2Service(scope constructs.Construct, id *string, config *DataAwsccResiliencehubv2ServiceConfig) DataAwsccResiliencehubv2Service {
 	_init_.Initialize()
 
@@ -480,7 +491,7 @@ func NewDataAwsccResiliencehubv2Service(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resiliencehubv2_service awscc_resiliencehubv2_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resiliencehubv2_service awscc_resiliencehubv2_service} Data Source.
 func NewDataAwsccResiliencehubv2Service_Override(d DataAwsccResiliencehubv2Service, scope constructs.Construct, id *string, config *DataAwsccResiliencehubv2ServiceConfig) {
 	_init_.Initialize()
 

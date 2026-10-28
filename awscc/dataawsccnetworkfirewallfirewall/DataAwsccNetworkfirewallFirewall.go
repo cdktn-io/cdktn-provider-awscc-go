@@ -5,14 +5,14 @@ package dataawsccnetworkfirewallfirewall
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkfirewallfirewall/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkfirewallfirewall/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkfirewall_firewall awscc_networkfirewall_firewall}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkfirewall_firewall awscc_networkfirewall_firewall}.
 type DataAwsccNetworkfirewallFirewall interface {
 	cdktn.TerraformDataSource
 	AvailabilityZoneChangeProtection() cdktn.IResolvable
@@ -53,12 +53,16 @@ type DataAwsccNetworkfirewallFirewall interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	NatGatewayMappings() DataAwsccNetworkfirewallFirewallNatGatewayMappingsList
 	// The tree node.
 	Node() constructs.Node
+	NoSourcePreservation() cdktn.IResolvable
+	NumberOfAssociations() *float64
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
 	SetProvider(val cdktn.TerraformProvider)
+	ProxySettings() DataAwsccNetworkfirewallFirewallProxySettingsOutputReference
 	// Experimental.
 	RawOverrides() interface{}
 	SubnetChangeProtection() cdktn.IResolvable
@@ -72,6 +76,7 @@ type DataAwsccNetworkfirewallFirewall interface {
 	TerraformResourceType() *string
 	TransitGatewayAttachmentId() *string
 	TransitGatewayId() *string
+	VpcEndpoint() DataAwsccNetworkfirewallFirewallVpcEndpointOutputReference
 	VpcId() *string
 	// Experimental.
 	AddOverride(path *string, value interface{})
@@ -352,6 +357,16 @@ func (j *jsiiProxy_DataAwsccNetworkfirewallFirewall) Lifecycle() *cdktn.Terrafor
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccNetworkfirewallFirewall) NatGatewayMappings() DataAwsccNetworkfirewallFirewallNatGatewayMappingsList {
+	var returns DataAwsccNetworkfirewallFirewallNatGatewayMappingsList
+	_jsii_.Get(
+		j,
+		"natGatewayMappings",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccNetworkfirewallFirewall) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -362,11 +377,41 @@ func (j *jsiiProxy_DataAwsccNetworkfirewallFirewall) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccNetworkfirewallFirewall) NoSourcePreservation() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"noSourcePreservation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccNetworkfirewallFirewall) NumberOfAssociations() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"numberOfAssociations",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccNetworkfirewallFirewall) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccNetworkfirewallFirewall) ProxySettings() DataAwsccNetworkfirewallFirewallProxySettingsOutputReference {
+	var returns DataAwsccNetworkfirewallFirewallProxySettingsOutputReference
+	_jsii_.Get(
+		j,
+		"proxySettings",
 		&returns,
 	)
 	return returns
@@ -462,6 +507,16 @@ func (j *jsiiProxy_DataAwsccNetworkfirewallFirewall) TransitGatewayId() *string 
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccNetworkfirewallFirewall) VpcEndpoint() DataAwsccNetworkfirewallFirewallVpcEndpointOutputReference {
+	var returns DataAwsccNetworkfirewallFirewallVpcEndpointOutputReference
+	_jsii_.Get(
+		j,
+		"vpcEndpoint",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccNetworkfirewallFirewall) VpcId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -473,7 +528,7 @@ func (j *jsiiProxy_DataAwsccNetworkfirewallFirewall) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkfirewall_firewall awscc_networkfirewall_firewall} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkfirewall_firewall awscc_networkfirewall_firewall} Data Source.
 func NewDataAwsccNetworkfirewallFirewall(scope constructs.Construct, id *string, config *DataAwsccNetworkfirewallFirewallConfig) DataAwsccNetworkfirewallFirewall {
 	_init_.Initialize()
 
@@ -491,7 +546,7 @@ func NewDataAwsccNetworkfirewallFirewall(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkfirewall_firewall awscc_networkfirewall_firewall} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkfirewall_firewall awscc_networkfirewall_firewall} Data Source.
 func NewDataAwsccNetworkfirewallFirewall_Override(d DataAwsccNetworkfirewallFirewall, scope constructs.Construct, id *string, config *DataAwsccNetworkfirewallFirewallConfig) {
 	_init_.Initialize()
 

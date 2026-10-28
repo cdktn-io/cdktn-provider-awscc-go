@@ -5,14 +5,14 @@ package dataawsccmedialivechannelplacementgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivechannelplacementgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivechannelplacementgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_channel_placement_group awscc_medialive_channel_placement_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_channel_placement_group awscc_medialive_channel_placement_group}.
 type DataAwsccMedialiveChannelPlacementGroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccMedialiveChannelPlacementGroup) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_channel_placement_group awscc_medialive_channel_placement_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_channel_placement_group awscc_medialive_channel_placement_group} Data Source.
 func NewDataAwsccMedialiveChannelPlacementGroup(scope constructs.Construct, id *string, config *DataAwsccMedialiveChannelPlacementGroupConfig) DataAwsccMedialiveChannelPlacementGroup {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccMedialiveChannelPlacementGroup(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_channel_placement_group awscc_medialive_channel_placement_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_channel_placement_group awscc_medialive_channel_placement_group} Data Source.
 func NewDataAwsccMedialiveChannelPlacementGroup_Override(d DataAwsccMedialiveChannelPlacementGroup, scope constructs.Construct, id *string, config *DataAwsccMedialiveChannelPlacementGroupConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccdmscertificates
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdmscertificates/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdmscertificates/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dms_certificates awscc_dms_certificates}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dms_certificates awscc_dms_certificates}.
 type DataAwsccDmsCertificates interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDmsCertificates) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dms_certificates awscc_dms_certificates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dms_certificates awscc_dms_certificates} Data Source.
 func NewDataAwsccDmsCertificates(scope constructs.Construct, id *string, config *DataAwsccDmsCertificatesConfig) DataAwsccDmsCertificates {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDmsCertificates(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dms_certificates awscc_dms_certificates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dms_certificates awscc_dms_certificates} Data Source.
 func NewDataAwsccDmsCertificates_Override(d DataAwsccDmsCertificates, scope constructs.Construct, id *string, config *DataAwsccDmsCertificatesConfig) {
 	_init_.Initialize()
 

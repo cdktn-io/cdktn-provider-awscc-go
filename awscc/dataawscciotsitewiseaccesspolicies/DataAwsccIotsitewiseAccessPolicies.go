@@ -5,14 +5,14 @@ package dataawscciotsitewiseaccesspolicies
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsitewiseaccesspolicies/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsitewiseaccesspolicies/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_access_policies awscc_iotsitewise_access_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_access_policies awscc_iotsitewise_access_policies}.
 type DataAwsccIotsitewiseAccessPolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotsitewiseAccessPolicies) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_access_policies awscc_iotsitewise_access_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_access_policies awscc_iotsitewise_access_policies} Data Source.
 func NewDataAwsccIotsitewiseAccessPolicies(scope constructs.Construct, id *string, config *DataAwsccIotsitewiseAccessPoliciesConfig) DataAwsccIotsitewiseAccessPolicies {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotsitewiseAccessPolicies(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotsitewise_access_policies awscc_iotsitewise_access_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotsitewise_access_policies awscc_iotsitewise_access_policies} Data Source.
 func NewDataAwsccIotsitewiseAccessPolicies_Override(d DataAwsccIotsitewiseAccessPolicies, scope constructs.Construct, id *string, config *DataAwsccIotsitewiseAccessPoliciesConfig) {
 	_init_.Initialize()
 

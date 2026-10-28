@@ -5,14 +5,14 @@ package wisdomaiagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiagent/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_agent awscc_wisdom_ai_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_agent awscc_wisdom_ai_agent}.
 type WisdomAiAgent interface {
 	cdktn.TerraformResource
 	AiAgentArn() *string
@@ -540,7 +540,7 @@ func (j *jsiiProxy_WisdomAiAgent) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_agent awscc_wisdom_ai_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_agent awscc_wisdom_ai_agent} Resource.
 func NewWisdomAiAgent(scope constructs.Construct, id *string, config *WisdomAiAgentConfig) WisdomAiAgent {
 	_init_.Initialize()
 
@@ -558,7 +558,7 @@ func NewWisdomAiAgent(scope constructs.Construct, id *string, config *WisdomAiAg
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_agent awscc_wisdom_ai_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_agent awscc_wisdom_ai_agent} Resource.
 func NewWisdomAiAgent_Override(w WisdomAiAgent, scope constructs.Construct, id *string, config *WisdomAiAgentConfig) {
 	_init_.Initialize()
 

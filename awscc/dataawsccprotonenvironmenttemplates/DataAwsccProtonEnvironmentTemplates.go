@@ -5,14 +5,14 @@ package dataawsccprotonenvironmenttemplates
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccprotonenvironmenttemplates/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccprotonenvironmenttemplates/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/proton_environment_templates awscc_proton_environment_templates}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/proton_environment_templates awscc_proton_environment_templates}.
 type DataAwsccProtonEnvironmentTemplates interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccProtonEnvironmentTemplates) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/proton_environment_templates awscc_proton_environment_templates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/proton_environment_templates awscc_proton_environment_templates} Data Source.
 func NewDataAwsccProtonEnvironmentTemplates(scope constructs.Construct, id *string, config *DataAwsccProtonEnvironmentTemplatesConfig) DataAwsccProtonEnvironmentTemplates {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccProtonEnvironmentTemplates(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/proton_environment_templates awscc_proton_environment_templates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/proton_environment_templates awscc_proton_environment_templates} Data Source.
 func NewDataAwsccProtonEnvironmentTemplates_Override(d DataAwsccProtonEnvironmentTemplates, scope constructs.Construct, id *string, config *DataAwsccProtonEnvironmentTemplatesConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccdeadlinequeueenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinequeueenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinequeueenvironment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_queue_environment awscc_deadline_queue_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_queue_environment awscc_deadline_queue_environment}.
 type DataAwsccDeadlineQueueEnvironment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccDeadlineQueueEnvironment) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_queue_environment awscc_deadline_queue_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_queue_environment awscc_deadline_queue_environment} Data Source.
 func NewDataAwsccDeadlineQueueEnvironment(scope constructs.Construct, id *string, config *DataAwsccDeadlineQueueEnvironmentConfig) DataAwsccDeadlineQueueEnvironment {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccDeadlineQueueEnvironment(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_queue_environment awscc_deadline_queue_environment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_queue_environment awscc_deadline_queue_environment} Data Source.
 func NewDataAwsccDeadlineQueueEnvironment_Override(d DataAwsccDeadlineQueueEnvironment, scope constructs.Construct, id *string, config *DataAwsccDeadlineQueueEnvironmentConfig) {
 	_init_.Initialize()
 

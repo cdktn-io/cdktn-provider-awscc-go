@@ -5,14 +5,14 @@ package dataawsccelasticacheparametergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticacheparametergroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticacheparametergroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_parameter_group awscc_elasticache_parameter_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_parameter_group awscc_elasticache_parameter_group}.
 type DataAwsccElasticacheParameterGroup interface {
 	cdktn.TerraformDataSource
 	CacheParameterGroupFamily() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccElasticacheParameterGroup) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_parameter_group awscc_elasticache_parameter_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_parameter_group awscc_elasticache_parameter_group} Data Source.
 func NewDataAwsccElasticacheParameterGroup(scope constructs.Construct, id *string, config *DataAwsccElasticacheParameterGroupConfig) DataAwsccElasticacheParameterGroup {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccElasticacheParameterGroup(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_parameter_group awscc_elasticache_parameter_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_parameter_group awscc_elasticache_parameter_group} Data Source.
 func NewDataAwsccElasticacheParameterGroup_Override(d DataAwsccElasticacheParameterGroup, scope constructs.Construct, id *string, config *DataAwsccElasticacheParameterGroupConfig) {
 	_init_.Initialize()
 

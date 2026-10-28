@@ -5,14 +5,14 @@ package mediaconnectgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_gateway awscc_mediaconnect_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_gateway awscc_mediaconnect_gateway}.
 type MediaconnectGateway interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -446,7 +446,7 @@ func (j *jsiiProxy_MediaconnectGateway) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_gateway awscc_mediaconnect_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_gateway awscc_mediaconnect_gateway} Resource.
 func NewMediaconnectGateway(scope constructs.Construct, id *string, config *MediaconnectGatewayConfig) MediaconnectGateway {
 	_init_.Initialize()
 
@@ -464,7 +464,7 @@ func NewMediaconnectGateway(scope constructs.Construct, id *string, config *Medi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_gateway awscc_mediaconnect_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_gateway awscc_mediaconnect_gateway} Resource.
 func NewMediaconnectGateway_Override(m MediaconnectGateway, scope constructs.Construct, id *string, config *MediaconnectGatewayConfig) {
 	_init_.Initialize()
 

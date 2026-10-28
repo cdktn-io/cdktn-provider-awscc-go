@@ -5,14 +5,14 @@ package dataawscccloudwatchviews
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudwatchviews/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudwatchviews/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_views awscc_cloudwatch_views}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_views awscc_cloudwatch_views}.
 type DataAwsccCloudwatchViews interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCloudwatchViews) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_views awscc_cloudwatch_views} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_views awscc_cloudwatch_views} Data Source.
 func NewDataAwsccCloudwatchViews(scope constructs.Construct, id *string, config *DataAwsccCloudwatchViewsConfig) DataAwsccCloudwatchViews {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCloudwatchViews(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_views awscc_cloudwatch_views} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_views awscc_cloudwatch_views} Data Source.
 func NewDataAwsccCloudwatchViews_Override(d DataAwsccCloudwatchViews, scope constructs.Construct, id *string, config *DataAwsccCloudwatchViewsConfig) {
 	_init_.Initialize()
 

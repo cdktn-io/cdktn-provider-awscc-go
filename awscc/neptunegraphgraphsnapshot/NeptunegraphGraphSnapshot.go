@@ -5,14 +5,14 @@ package neptunegraphgraphsnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/neptunegraphgraphsnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/neptunegraphgraphsnapshot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptunegraph_graph_snapshot awscc_neptunegraph_graph_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptunegraph_graph_snapshot awscc_neptunegraph_graph_snapshot}.
 type NeptunegraphGraphSnapshot interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -480,7 +480,7 @@ func (j *jsiiProxy_NeptunegraphGraphSnapshot) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptunegraph_graph_snapshot awscc_neptunegraph_graph_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptunegraph_graph_snapshot awscc_neptunegraph_graph_snapshot} Resource.
 func NewNeptunegraphGraphSnapshot(scope constructs.Construct, id *string, config *NeptunegraphGraphSnapshotConfig) NeptunegraphGraphSnapshot {
 	_init_.Initialize()
 
@@ -498,7 +498,7 @@ func NewNeptunegraphGraphSnapshot(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/neptunegraph_graph_snapshot awscc_neptunegraph_graph_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptunegraph_graph_snapshot awscc_neptunegraph_graph_snapshot} Resource.
 func NewNeptunegraphGraphSnapshot_Override(n NeptunegraphGraphSnapshot, scope constructs.Construct, id *string, config *NeptunegraphGraphSnapshotConfig) {
 	_init_.Initialize()
 

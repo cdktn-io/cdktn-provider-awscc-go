@@ -5,14 +5,14 @@ package dataawscciotcustommetric
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotcustommetric/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotcustommetric/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_custom_metric awscc_iot_custom_metric}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_custom_metric awscc_iot_custom_metric}.
 type DataAwsccIotCustomMetric interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccIotCustomMetric) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_custom_metric awscc_iot_custom_metric} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_custom_metric awscc_iot_custom_metric} Data Source.
 func NewDataAwsccIotCustomMetric(scope constructs.Construct, id *string, config *DataAwsccIotCustomMetricConfig) DataAwsccIotCustomMetric {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccIotCustomMetric(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_custom_metric awscc_iot_custom_metric} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_custom_metric awscc_iot_custom_metric} Data Source.
 func NewDataAwsccIotCustomMetric_Override(d DataAwsccIotCustomMetric, scope constructs.Construct, id *string, config *DataAwsccIotCustomMetricConfig) {
 	_init_.Initialize()
 

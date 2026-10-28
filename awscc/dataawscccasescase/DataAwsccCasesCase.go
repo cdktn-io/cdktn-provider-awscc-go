@@ -5,14 +5,14 @@ package dataawscccasescase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasescase/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasescase/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cases_case awscc_cases_case}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cases_case awscc_cases_case}.
 type DataAwsccCasesCase interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccCasesCase) Title() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cases_case awscc_cases_case} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cases_case awscc_cases_case} Data Source.
 func NewDataAwsccCasesCase(scope constructs.Construct, id *string, config *DataAwsccCasesCaseConfig) DataAwsccCasesCase {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccCasesCase(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cases_case awscc_cases_case} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cases_case awscc_cases_case} Data Source.
 func NewDataAwsccCasesCase_Override(d DataAwsccCasesCase, scope constructs.Construct, id *string, config *DataAwsccCasesCaseConfig) {
 	_init_.Initialize()
 

@@ -127,23 +127,11 @@ func (j *jsiiProxy_DmsMigrationProject) validateSetDescriptionParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_DmsMigrationProject) validateSetInstanceProfileArnParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_DmsMigrationProject) validateSetInstanceProfileIdentifierParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_DmsMigrationProject) validateSetInstanceProfileNameParameters(val *string) error {
-	return nil
-}
-
 func (j *jsiiProxy_DmsMigrationProject) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
-	return nil
-}
-
-func (j *jsiiProxy_DmsMigrationProject) validateSetMigrationProjectCreationTimeParameters(val *string) error {
 	return nil
 }
 

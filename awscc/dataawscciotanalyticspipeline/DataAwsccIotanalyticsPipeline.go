@@ -5,14 +5,14 @@ package dataawscciotanalyticspipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticspipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticspipeline/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_pipeline awscc_iotanalytics_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_pipeline awscc_iotanalytics_pipeline}.
 type DataAwsccIotanalyticsPipeline interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccIotanalyticsPipeline) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_pipeline awscc_iotanalytics_pipeline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_pipeline awscc_iotanalytics_pipeline} Data Source.
 func NewDataAwsccIotanalyticsPipeline(scope constructs.Construct, id *string, config *DataAwsccIotanalyticsPipelineConfig) DataAwsccIotanalyticsPipeline {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccIotanalyticsPipeline(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_pipeline awscc_iotanalytics_pipeline} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_pipeline awscc_iotanalytics_pipeline} Data Source.
 func NewDataAwsccIotanalyticsPipeline_Override(d DataAwsccIotanalyticsPipeline, scope constructs.Construct, id *string, config *DataAwsccIotanalyticsPipelineConfig) {
 	_init_.Initialize()
 

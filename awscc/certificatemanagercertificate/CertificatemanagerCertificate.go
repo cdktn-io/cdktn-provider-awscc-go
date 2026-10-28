@@ -5,14 +5,14 @@ package certificatemanagercertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/certificatemanagercertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/certificatemanagercertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_certificate awscc_certificatemanager_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_certificate awscc_certificatemanager_certificate}.
 type CertificatemanagerCertificate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -581,7 +581,7 @@ func (j *jsiiProxy_CertificatemanagerCertificate) ValidationMethodInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_certificate awscc_certificatemanager_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_certificate awscc_certificatemanager_certificate} Resource.
 func NewCertificatemanagerCertificate(scope constructs.Construct, id *string, config *CertificatemanagerCertificateConfig) CertificatemanagerCertificate {
 	_init_.Initialize()
 
@@ -599,7 +599,7 @@ func NewCertificatemanagerCertificate(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/certificatemanager_certificate awscc_certificatemanager_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/certificatemanager_certificate awscc_certificatemanager_certificate} Resource.
 func NewCertificatemanagerCertificate_Override(c CertificatemanagerCertificate, scope constructs.Construct, id *string, config *CertificatemanagerCertificateConfig) {
 	_init_.Initialize()
 

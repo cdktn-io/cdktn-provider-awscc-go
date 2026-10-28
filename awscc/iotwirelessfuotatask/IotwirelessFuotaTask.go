@@ -5,14 +5,14 @@ package iotwirelessfuotatask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelessfuotatask/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelessfuotatask/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_fuota_task awscc_iotwireless_fuota_task}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_fuota_task awscc_iotwireless_fuota_task}.
 type IotwirelessFuotaTask interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -625,7 +625,7 @@ func (j *jsiiProxy_IotwirelessFuotaTask) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_fuota_task awscc_iotwireless_fuota_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_fuota_task awscc_iotwireless_fuota_task} Resource.
 func NewIotwirelessFuotaTask(scope constructs.Construct, id *string, config *IotwirelessFuotaTaskConfig) IotwirelessFuotaTask {
 	_init_.Initialize()
 
@@ -643,7 +643,7 @@ func NewIotwirelessFuotaTask(scope constructs.Construct, id *string, config *Iot
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_fuota_task awscc_iotwireless_fuota_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_fuota_task awscc_iotwireless_fuota_task} Resource.
 func NewIotwirelessFuotaTask_Override(i IotwirelessFuotaTask, scope constructs.Construct, id *string, config *IotwirelessFuotaTaskConfig) {
 	_init_.Initialize()
 

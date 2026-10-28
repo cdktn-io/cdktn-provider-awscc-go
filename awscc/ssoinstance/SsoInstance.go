@@ -5,14 +5,14 @@ package ssoinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_instance awscc_sso_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_instance awscc_sso_instance}.
 type SsoInstance interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_SsoInstance) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_instance awscc_sso_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_instance awscc_sso_instance} Resource.
 func NewSsoInstance(scope constructs.Construct, id *string, config *SsoInstanceConfig) SsoInstance {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewSsoInstance(scope constructs.Construct, id *string, config *SsoInstanceC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_instance awscc_sso_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_instance awscc_sso_instance} Resource.
 func NewSsoInstance_Override(s SsoInstance, scope constructs.Construct, id *string, config *SsoInstanceConfig) {
 	_init_.Initialize()
 

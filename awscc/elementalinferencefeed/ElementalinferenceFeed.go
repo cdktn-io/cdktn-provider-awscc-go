@@ -5,14 +5,14 @@ package elementalinferencefeed
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elementalinferencefeed/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elementalinferencefeed/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elementalinference_feed awscc_elementalinference_feed}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elementalinference_feed awscc_elementalinference_feed}.
 type ElementalinferenceFeed interface {
 	cdktn.TerraformResource
 	AccessRoleArn() *string
@@ -482,7 +482,7 @@ func (j *jsiiProxy_ElementalinferenceFeed) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elementalinference_feed awscc_elementalinference_feed} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elementalinference_feed awscc_elementalinference_feed} Resource.
 func NewElementalinferenceFeed(scope constructs.Construct, id *string, config *ElementalinferenceFeedConfig) ElementalinferenceFeed {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewElementalinferenceFeed(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elementalinference_feed awscc_elementalinference_feed} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elementalinference_feed awscc_elementalinference_feed} Resource.
 func NewElementalinferenceFeed_Override(e ElementalinferenceFeed, scope constructs.Construct, id *string, config *ElementalinferenceFeedConfig) {
 	_init_.Initialize()
 

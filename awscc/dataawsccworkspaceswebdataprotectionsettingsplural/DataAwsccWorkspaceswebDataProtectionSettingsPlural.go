@@ -5,14 +5,14 @@ package dataawsccworkspaceswebdataprotectionsettingsplural
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebdataprotectionsettingsplural/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebdataprotectionsettingsplural/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_data_protection_settings_plural awscc_workspacesweb_data_protection_settings_plural}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_data_protection_settings_plural awscc_workspacesweb_data_protection_settings_plural}.
 type DataAwsccWorkspaceswebDataProtectionSettingsPlural interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccWorkspaceswebDataProtectionSettingsPlural) Terraform
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_data_protection_settings_plural awscc_workspacesweb_data_protection_settings_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_data_protection_settings_plural awscc_workspacesweb_data_protection_settings_plural} Data Source.
 func NewDataAwsccWorkspaceswebDataProtectionSettingsPlural(scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebDataProtectionSettingsPluralConfig) DataAwsccWorkspaceswebDataProtectionSettingsPlural {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccWorkspaceswebDataProtectionSettingsPlural(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_data_protection_settings_plural awscc_workspacesweb_data_protection_settings_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_data_protection_settings_plural awscc_workspacesweb_data_protection_settings_plural} Data Source.
 func NewDataAwsccWorkspaceswebDataProtectionSettingsPlural_Override(d DataAwsccWorkspaceswebDataProtectionSettingsPlural, scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebDataProtectionSettingsPluralConfig) {
 	_init_.Initialize()
 

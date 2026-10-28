@@ -5,14 +5,14 @@ package cloudhsmcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudhsmcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudhsmcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudhsm_cluster awscc_cloudhsm_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudhsm_cluster awscc_cloudhsm_cluster}.
 type CloudhsmCluster interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -575,7 +575,7 @@ func (j *jsiiProxy_CloudhsmCluster) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudhsm_cluster awscc_cloudhsm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudhsm_cluster awscc_cloudhsm_cluster} Resource.
 func NewCloudhsmCluster(scope constructs.Construct, id *string, config *CloudhsmClusterConfig) CloudhsmCluster {
 	_init_.Initialize()
 
@@ -593,7 +593,7 @@ func NewCloudhsmCluster(scope constructs.Construct, id *string, config *Cloudhsm
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudhsm_cluster awscc_cloudhsm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudhsm_cluster awscc_cloudhsm_cluster} Resource.
 func NewCloudhsmCluster_Override(c CloudhsmCluster, scope constructs.Construct, id *string, config *CloudhsmClusterConfig) {
 	_init_.Initialize()
 

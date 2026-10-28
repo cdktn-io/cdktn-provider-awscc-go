@@ -5,14 +5,14 @@ package emrstudio
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrstudio/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrstudio/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_studio awscc_emr_studio}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_studio awscc_emr_studio}.
 type EmrStudio interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -788,7 +788,7 @@ func (j *jsiiProxy_EmrStudio) WorkspaceSecurityGroupIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_studio awscc_emr_studio} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_studio awscc_emr_studio} Resource.
 func NewEmrStudio(scope constructs.Construct, id *string, config *EmrStudioConfig) EmrStudio {
 	_init_.Initialize()
 
@@ -806,7 +806,7 @@ func NewEmrStudio(scope constructs.Construct, id *string, config *EmrStudioConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_studio awscc_emr_studio} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_studio awscc_emr_studio} Resource.
 func NewEmrStudio_Override(e EmrStudio, scope constructs.Construct, id *string, config *EmrStudioConfig) {
 	_init_.Initialize()
 

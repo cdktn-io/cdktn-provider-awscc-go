@@ -5,14 +5,14 @@ package s3expressaccesspoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3expressaccesspoint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3expressaccesspoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point awscc_s3express_access_point}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point awscc_s3express_access_point}.
 type S3ExpressAccessPoint interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -568,7 +568,7 @@ func (j *jsiiProxy_S3ExpressAccessPoint) VpcConfigurationInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point awscc_s3express_access_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point awscc_s3express_access_point} Resource.
 func NewS3ExpressAccessPoint(scope constructs.Construct, id *string, config *S3ExpressAccessPointConfig) S3ExpressAccessPoint {
 	_init_.Initialize()
 
@@ -586,7 +586,7 @@ func NewS3ExpressAccessPoint(scope constructs.Construct, id *string, config *S3E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_access_point awscc_s3express_access_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_access_point awscc_s3express_access_point} Resource.
 func NewS3ExpressAccessPoint_Override(s S3ExpressAccessPoint, scope constructs.Construct, id *string, config *S3ExpressAccessPointConfig) {
 	_init_.Initialize()
 

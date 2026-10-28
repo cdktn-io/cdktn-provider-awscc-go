@@ -5,14 +5,14 @@ package ssoinstanceaccesscontrolattributeconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssoinstanceaccesscontrolattributeconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssoinstanceaccesscontrolattributeconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_instance_access_control_attribute_configuration awscc_sso_instance_access_control_attribute_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_instance_access_control_attribute_configuration awscc_sso_instance_access_control_attribute_configuration}.
 type SsoInstanceAccessControlAttributeConfiguration interface {
 	cdktn.TerraformResource
 	AccessControlAttributes() SsoInstanceAccessControlAttributeConfigurationAccessControlAttributesList
@@ -426,7 +426,7 @@ func (j *jsiiProxy_SsoInstanceAccessControlAttributeConfiguration) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_instance_access_control_attribute_configuration awscc_sso_instance_access_control_attribute_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_instance_access_control_attribute_configuration awscc_sso_instance_access_control_attribute_configuration} Resource.
 func NewSsoInstanceAccessControlAttributeConfiguration(scope constructs.Construct, id *string, config *SsoInstanceAccessControlAttributeConfigurationConfig) SsoInstanceAccessControlAttributeConfiguration {
 	_init_.Initialize()
 
@@ -444,7 +444,7 @@ func NewSsoInstanceAccessControlAttributeConfiguration(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sso_instance_access_control_attribute_configuration awscc_sso_instance_access_control_attribute_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sso_instance_access_control_attribute_configuration awscc_sso_instance_access_control_attribute_configuration} Resource.
 func NewSsoInstanceAccessControlAttributeConfiguration_Override(s SsoInstanceAccessControlAttributeConfiguration, scope constructs.Construct, id *string, config *SsoInstanceAccessControlAttributeConfigurationConfig) {
 	_init_.Initialize()
 

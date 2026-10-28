@@ -5,14 +5,14 @@ package dataawsccbedrockagentcorememories
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorememories/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorememories/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_memories awscc_bedrockagentcore_memories}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_memories awscc_bedrockagentcore_memories}.
 type DataAwsccBedrockagentcoreMemories interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreMemories) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_memories awscc_bedrockagentcore_memories} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_memories awscc_bedrockagentcore_memories} Data Source.
 func NewDataAwsccBedrockagentcoreMemories(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreMemoriesConfig) DataAwsccBedrockagentcoreMemories {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockagentcoreMemories(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_memories awscc_bedrockagentcore_memories} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_memories awscc_bedrockagentcore_memories} Data Source.
 func NewDataAwsccBedrockagentcoreMemories_Override(d DataAwsccBedrockagentcoreMemories, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreMemoriesConfig) {
 	_init_.Initialize()
 

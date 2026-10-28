@@ -5,9 +5,9 @@ package cloudwatchintegration
 
 
 type CloudwatchIntegrationTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_integration#key CloudwatchIntegration#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#key CloudwatchIntegration#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_integration#value CloudwatchIntegration#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_integration#value CloudwatchIntegration#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

@@ -5,14 +5,14 @@ package locationgeofencecollection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/locationgeofencecollection/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/locationgeofencecollection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_geofence_collection awscc_location_geofence_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_geofence_collection awscc_location_geofence_collection}.
 type LocationGeofenceCollection interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -542,7 +542,7 @@ func (j *jsiiProxy_LocationGeofenceCollection) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_geofence_collection awscc_location_geofence_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_geofence_collection awscc_location_geofence_collection} Resource.
 func NewLocationGeofenceCollection(scope constructs.Construct, id *string, config *LocationGeofenceCollectionConfig) LocationGeofenceCollection {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewLocationGeofenceCollection(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_geofence_collection awscc_location_geofence_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_geofence_collection awscc_location_geofence_collection} Resource.
 func NewLocationGeofenceCollection_Override(l LocationGeofenceCollection, scope constructs.Construct, id *string, config *LocationGeofenceCollectionConfig) {
 	_init_.Initialize()
 

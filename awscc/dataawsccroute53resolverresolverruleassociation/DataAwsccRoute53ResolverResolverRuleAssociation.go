@@ -5,14 +5,14 @@ package dataawsccroute53resolverresolverruleassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverresolverruleassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverresolverruleassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_resolver_rule_association awscc_route53resolver_resolver_rule_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_resolver_rule_association awscc_route53resolver_resolver_rule_association}.
 type DataAwsccRoute53ResolverResolverRuleAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccRoute53ResolverResolverRuleAssociation) VpcId() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_resolver_rule_association awscc_route53resolver_resolver_rule_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_resolver_rule_association awscc_route53resolver_resolver_rule_association} Data Source.
 func NewDataAwsccRoute53ResolverResolverRuleAssociation(scope constructs.Construct, id *string, config *DataAwsccRoute53ResolverResolverRuleAssociationConfig) DataAwsccRoute53ResolverResolverRuleAssociation {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccRoute53ResolverResolverRuleAssociation(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_resolver_rule_association awscc_route53resolver_resolver_rule_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_resolver_rule_association awscc_route53resolver_resolver_rule_association} Data Source.
 func NewDataAwsccRoute53ResolverResolverRuleAssociation_Override(d DataAwsccRoute53ResolverResolverRuleAssociation, scope constructs.Construct, id *string, config *DataAwsccRoute53ResolverResolverRuleAssociationConfig) {
 	_init_.Initialize()
 

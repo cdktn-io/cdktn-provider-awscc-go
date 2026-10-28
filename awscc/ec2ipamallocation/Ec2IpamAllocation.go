@@ -5,14 +5,14 @@ package ec2ipamallocation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipamallocation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ipamallocation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ipam_allocation awscc_ec2_ipam_allocation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_allocation awscc_ec2_ipam_allocation}.
 type Ec2IpamAllocation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_Ec2IpamAllocation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ipam_allocation awscc_ec2_ipam_allocation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_allocation awscc_ec2_ipam_allocation} Resource.
 func NewEc2IpamAllocation(scope constructs.Construct, id *string, config *Ec2IpamAllocationConfig) Ec2IpamAllocation {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewEc2IpamAllocation(scope constructs.Construct, id *string, config *Ec2Ipa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ipam_allocation awscc_ec2_ipam_allocation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_allocation awscc_ec2_ipam_allocation} Resource.
 func NewEc2IpamAllocation_Override(e Ec2IpamAllocation, scope constructs.Construct, id *string, config *Ec2IpamAllocationConfig) {
 	_init_.Initialize()
 

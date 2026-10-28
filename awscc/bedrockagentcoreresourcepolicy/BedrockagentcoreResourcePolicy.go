@@ -5,14 +5,14 @@ package bedrockagentcoreresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcoreresourcepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcoreresourcepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_resource_policy awscc_bedrockagentcore_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_resource_policy awscc_bedrockagentcore_resource_policy}.
 type BedrockagentcoreResourcePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_BedrockagentcoreResourcePolicy) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_resource_policy awscc_bedrockagentcore_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_resource_policy awscc_bedrockagentcore_resource_policy} Resource.
 func NewBedrockagentcoreResourcePolicy(scope constructs.Construct, id *string, config *BedrockagentcoreResourcePolicyConfig) BedrockagentcoreResourcePolicy {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewBedrockagentcoreResourcePolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_resource_policy awscc_bedrockagentcore_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_resource_policy awscc_bedrockagentcore_resource_policy} Resource.
 func NewBedrockagentcoreResourcePolicy_Override(b BedrockagentcoreResourcePolicy, scope constructs.Construct, id *string, config *BedrockagentcoreResourcePolicyConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccdeadlinelimit
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinelimit/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinelimit/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_limit awscc_deadline_limit}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_limit awscc_deadline_limit}.
 type DataAwsccDeadlineLimit interface {
 	cdktn.TerraformDataSource
 	AmountRequirementName() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccDeadlineLimit) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_limit awscc_deadline_limit} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_limit awscc_deadline_limit} Data Source.
 func NewDataAwsccDeadlineLimit(scope constructs.Construct, id *string, config *DataAwsccDeadlineLimitConfig) DataAwsccDeadlineLimit {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccDeadlineLimit(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_limit awscc_deadline_limit} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_limit awscc_deadline_limit} Data Source.
 func NewDataAwsccDeadlineLimit_Override(d DataAwsccDeadlineLimit, scope constructs.Construct, id *string, config *DataAwsccDeadlineLimitConfig) {
 	_init_.Initialize()
 

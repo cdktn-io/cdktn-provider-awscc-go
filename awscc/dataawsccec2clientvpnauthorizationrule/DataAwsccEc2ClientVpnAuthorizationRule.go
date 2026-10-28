@@ -5,14 +5,14 @@ package dataawsccec2clientvpnauthorizationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2clientvpnauthorizationrule/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2clientvpnauthorizationrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_client_vpn_authorization_rule awscc_ec2_client_vpn_authorization_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_client_vpn_authorization_rule awscc_ec2_client_vpn_authorization_rule}.
 type DataAwsccEc2ClientVpnAuthorizationRule interface {
 	cdktn.TerraformDataSource
 	AccessGroupId() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccEc2ClientVpnAuthorizationRule) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_client_vpn_authorization_rule awscc_ec2_client_vpn_authorization_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_client_vpn_authorization_rule awscc_ec2_client_vpn_authorization_rule} Data Source.
 func NewDataAwsccEc2ClientVpnAuthorizationRule(scope constructs.Construct, id *string, config *DataAwsccEc2ClientVpnAuthorizationRuleConfig) DataAwsccEc2ClientVpnAuthorizationRule {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccEc2ClientVpnAuthorizationRule(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_client_vpn_authorization_rule awscc_ec2_client_vpn_authorization_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_client_vpn_authorization_rule awscc_ec2_client_vpn_authorization_rule} Data Source.
 func NewDataAwsccEc2ClientVpnAuthorizationRule_Override(d DataAwsccEc2ClientVpnAuthorizationRule, scope constructs.Construct, id *string, config *DataAwsccEc2ClientVpnAuthorizationRuleConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccsesemailidentity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesemailidentity/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesemailidentity/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_email_identity awscc_ses_email_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_email_identity awscc_ses_email_identity}.
 type DataAwsccSesEmailIdentity interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccSesEmailIdentity) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_email_identity awscc_ses_email_identity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_email_identity awscc_ses_email_identity} Data Source.
 func NewDataAwsccSesEmailIdentity(scope constructs.Construct, id *string, config *DataAwsccSesEmailIdentityConfig) DataAwsccSesEmailIdentity {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccSesEmailIdentity(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_email_identity awscc_ses_email_identity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_email_identity awscc_ses_email_identity} Data Source.
 func NewDataAwsccSesEmailIdentity_Override(d DataAwsccSesEmailIdentity, scope constructs.Construct, id *string, config *DataAwsccSesEmailIdentityConfig) {
 	_init_.Initialize()
 

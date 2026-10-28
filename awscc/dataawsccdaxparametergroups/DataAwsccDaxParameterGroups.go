@@ -5,14 +5,14 @@ package dataawsccdaxparametergroups
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdaxparametergroups/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdaxparametergroups/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dax_parameter_groups awscc_dax_parameter_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dax_parameter_groups awscc_dax_parameter_groups}.
 type DataAwsccDaxParameterGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDaxParameterGroups) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dax_parameter_groups awscc_dax_parameter_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dax_parameter_groups awscc_dax_parameter_groups} Data Source.
 func NewDataAwsccDaxParameterGroups(scope constructs.Construct, id *string, config *DataAwsccDaxParameterGroupsConfig) DataAwsccDaxParameterGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDaxParameterGroups(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dax_parameter_groups awscc_dax_parameter_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dax_parameter_groups awscc_dax_parameter_groups} Data Source.
 func NewDataAwsccDaxParameterGroups_Override(d DataAwsccDaxParameterGroups, scope constructs.Construct, id *string, config *DataAwsccDaxParameterGroupsConfig) {
 	_init_.Initialize()
 

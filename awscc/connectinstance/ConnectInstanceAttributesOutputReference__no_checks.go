@@ -51,6 +51,10 @@ func (c *jsiiProxy_ConnectInstanceAttributesOutputReference) validateResolvePara
 	return nil
 }
 
+func (j *jsiiProxy_ConnectInstanceAttributesOutputReference) validateSetAutoMuteAgentOnHoldParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_ConnectInstanceAttributesOutputReference) validateSetAutoResolveBestVoicesParameters(val interface{}) error {
 	return nil
 }

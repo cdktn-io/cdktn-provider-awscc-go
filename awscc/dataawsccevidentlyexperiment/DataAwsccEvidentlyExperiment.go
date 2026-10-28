@@ -5,14 +5,14 @@ package dataawsccevidentlyexperiment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyexperiment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyexperiment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/evidently_experiment awscc_evidently_experiment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/evidently_experiment awscc_evidently_experiment}.
 type DataAwsccEvidentlyExperiment interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccEvidentlyExperiment) Treatments() DataAwsccEvidently
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/evidently_experiment awscc_evidently_experiment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/evidently_experiment awscc_evidently_experiment} Data Source.
 func NewDataAwsccEvidentlyExperiment(scope constructs.Construct, id *string, config *DataAwsccEvidentlyExperimentConfig) DataAwsccEvidentlyExperiment {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccEvidentlyExperiment(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/evidently_experiment awscc_evidently_experiment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/evidently_experiment awscc_evidently_experiment} Data Source.
 func NewDataAwsccEvidentlyExperiment_Override(d DataAwsccEvidentlyExperiment, scope constructs.Construct, id *string, config *DataAwsccEvidentlyExperimentConfig) {
 	_init_.Initialize()
 

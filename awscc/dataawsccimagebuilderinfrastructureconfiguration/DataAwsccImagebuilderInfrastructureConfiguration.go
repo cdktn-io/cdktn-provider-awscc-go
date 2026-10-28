@@ -5,14 +5,14 @@ package dataawsccimagebuilderinfrastructureconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderinfrastructureconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderinfrastructureconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration}.
 type DataAwsccImagebuilderInfrastructureConfiguration interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -52,6 +52,7 @@ type DataAwsccImagebuilderInfrastructureConfiguration interface {
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
+	ParentInstance() DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference
 	Placement() DataAwsccImagebuilderInfrastructureConfigurationPlacementOutputReference
 	// Experimental.
 	Provider() cdktn.TerraformProvider
@@ -64,6 +65,7 @@ type DataAwsccImagebuilderInfrastructureConfiguration interface {
 	SnsTopicArn() *string
 	SubnetId() *string
 	Tags() cdktn.StringMap
+	TerminateInstanceOnCompletion() cdktn.IResolvable
 	TerminateInstanceOnFailure() cdktn.IResolvable
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -330,6 +332,16 @@ func (j *jsiiProxy_DataAwsccImagebuilderInfrastructureConfiguration) Node() cons
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccImagebuilderInfrastructureConfiguration) ParentInstance() DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference {
+	var returns DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference
+	_jsii_.Get(
+		j,
+		"parentInstance",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccImagebuilderInfrastructureConfiguration) Placement() DataAwsccImagebuilderInfrastructureConfigurationPlacementOutputReference {
 	var returns DataAwsccImagebuilderInfrastructureConfigurationPlacementOutputReference
 	_jsii_.Get(
@@ -410,6 +422,16 @@ func (j *jsiiProxy_DataAwsccImagebuilderInfrastructureConfiguration) Tags() cdkt
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccImagebuilderInfrastructureConfiguration) TerminateInstanceOnCompletion() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"terminateInstanceOnCompletion",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccImagebuilderInfrastructureConfiguration) TerminateInstanceOnFailure() cdktn.IResolvable {
 	var returns cdktn.IResolvable
 	_jsii_.Get(
@@ -451,7 +473,7 @@ func (j *jsiiProxy_DataAwsccImagebuilderInfrastructureConfiguration) TerraformRe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration} Data Source.
 func NewDataAwsccImagebuilderInfrastructureConfiguration(scope constructs.Construct, id *string, config *DataAwsccImagebuilderInfrastructureConfigurationConfig) DataAwsccImagebuilderInfrastructureConfiguration {
 	_init_.Initialize()
 
@@ -469,7 +491,7 @@ func NewDataAwsccImagebuilderInfrastructureConfiguration(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration} Data Source.
 func NewDataAwsccImagebuilderInfrastructureConfiguration_Override(d DataAwsccImagebuilderInfrastructureConfiguration, scope constructs.Construct, id *string, config *DataAwsccImagebuilderInfrastructureConfigurationConfig) {
 	_init_.Initialize()
 

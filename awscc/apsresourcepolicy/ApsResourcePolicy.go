@@ -5,14 +5,14 @@ package apsresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsresourcepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsresourcepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_resource_policy awscc_aps_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_resource_policy awscc_aps_resource_policy}.
 type ApsResourcePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_ApsResourcePolicy) WorkspaceArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_resource_policy awscc_aps_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_resource_policy awscc_aps_resource_policy} Resource.
 func NewApsResourcePolicy(scope constructs.Construct, id *string, config *ApsResourcePolicyConfig) ApsResourcePolicy {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewApsResourcePolicy(scope constructs.Construct, id *string, config *ApsRes
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_resource_policy awscc_aps_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_resource_policy awscc_aps_resource_policy} Resource.
 func NewApsResourcePolicy_Override(a ApsResourcePolicy, scope constructs.Construct, id *string, config *ApsResourcePolicyConfig) {
 	_init_.Initialize()
 

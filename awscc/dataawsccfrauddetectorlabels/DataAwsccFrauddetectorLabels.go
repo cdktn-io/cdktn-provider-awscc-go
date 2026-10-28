@@ -5,14 +5,14 @@ package dataawsccfrauddetectorlabels
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfrauddetectorlabels/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfrauddetectorlabels/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/frauddetector_labels awscc_frauddetector_labels}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/frauddetector_labels awscc_frauddetector_labels}.
 type DataAwsccFrauddetectorLabels interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccFrauddetectorLabels) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/frauddetector_labels awscc_frauddetector_labels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/frauddetector_labels awscc_frauddetector_labels} Data Source.
 func NewDataAwsccFrauddetectorLabels(scope constructs.Construct, id *string, config *DataAwsccFrauddetectorLabelsConfig) DataAwsccFrauddetectorLabels {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccFrauddetectorLabels(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/frauddetector_labels awscc_frauddetector_labels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/frauddetector_labels awscc_frauddetector_labels} Data Source.
 func NewDataAwsccFrauddetectorLabels_Override(d DataAwsccFrauddetectorLabels, scope constructs.Construct, id *string, config *DataAwsccFrauddetectorLabelsConfig) {
 	_init_.Initialize()
 

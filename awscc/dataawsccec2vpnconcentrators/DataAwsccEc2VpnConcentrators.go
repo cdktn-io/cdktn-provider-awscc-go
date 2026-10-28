@@ -5,14 +5,14 @@ package dataawsccec2vpnconcentrators
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2vpnconcentrators/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2vpnconcentrators/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpn_concentrators awscc_ec2_vpn_concentrators}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpn_concentrators awscc_ec2_vpn_concentrators}.
 type DataAwsccEc2VpnConcentrators interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2VpnConcentrators) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpn_concentrators awscc_ec2_vpn_concentrators} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpn_concentrators awscc_ec2_vpn_concentrators} Data Source.
 func NewDataAwsccEc2VpnConcentrators(scope constructs.Construct, id *string, config *DataAwsccEc2VpnConcentratorsConfig) DataAwsccEc2VpnConcentrators {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2VpnConcentrators(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_vpn_concentrators awscc_ec2_vpn_concentrators} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_vpn_concentrators awscc_ec2_vpn_concentrators} Data Source.
 func NewDataAwsccEc2VpnConcentrators_Override(d DataAwsccEc2VpnConcentrators, scope constructs.Construct, id *string, config *DataAwsccEc2VpnConcentratorsConfig) {
 	_init_.Initialize()
 

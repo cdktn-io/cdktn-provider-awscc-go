@@ -5,14 +5,14 @@ package dataawscclightsaildatabasesnapshots
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildatabasesnapshots/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildatabasesnapshots/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_database_snapshots awscc_lightsail_database_snapshots}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_database_snapshots awscc_lightsail_database_snapshots}.
 type DataAwsccLightsailDatabaseSnapshots interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLightsailDatabaseSnapshots) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_database_snapshots awscc_lightsail_database_snapshots} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_database_snapshots awscc_lightsail_database_snapshots} Data Source.
 func NewDataAwsccLightsailDatabaseSnapshots(scope constructs.Construct, id *string, config *DataAwsccLightsailDatabaseSnapshotsConfig) DataAwsccLightsailDatabaseSnapshots {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLightsailDatabaseSnapshots(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_database_snapshots awscc_lightsail_database_snapshots} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_database_snapshots awscc_lightsail_database_snapshots} Data Source.
 func NewDataAwsccLightsailDatabaseSnapshots_Override(d DataAwsccLightsailDatabaseSnapshots, scope constructs.Construct, id *string, config *DataAwsccLightsailDatabaseSnapshotsConfig) {
 	_init_.Initialize()
 

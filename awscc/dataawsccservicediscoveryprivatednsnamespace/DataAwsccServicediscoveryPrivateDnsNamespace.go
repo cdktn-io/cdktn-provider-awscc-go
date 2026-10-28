@@ -5,14 +5,14 @@ package dataawsccservicediscoveryprivatednsnamespace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicediscoveryprivatednsnamespace/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicediscoveryprivatednsnamespace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicediscovery_private_dns_namespace awscc_servicediscovery_private_dns_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicediscovery_private_dns_namespace awscc_servicediscovery_private_dns_namespace}.
 type DataAwsccServicediscoveryPrivateDnsNamespace interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccServicediscoveryPrivateDnsNamespace) Vpc() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicediscovery_private_dns_namespace awscc_servicediscovery_private_dns_namespace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicediscovery_private_dns_namespace awscc_servicediscovery_private_dns_namespace} Data Source.
 func NewDataAwsccServicediscoveryPrivateDnsNamespace(scope constructs.Construct, id *string, config *DataAwsccServicediscoveryPrivateDnsNamespaceConfig) DataAwsccServicediscoveryPrivateDnsNamespace {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccServicediscoveryPrivateDnsNamespace(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicediscovery_private_dns_namespace awscc_servicediscovery_private_dns_namespace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicediscovery_private_dns_namespace awscc_servicediscovery_private_dns_namespace} Data Source.
 func NewDataAwsccServicediscoveryPrivateDnsNamespace_Override(d DataAwsccServicediscoveryPrivateDnsNamespace, scope constructs.Construct, id *string, config *DataAwsccServicediscoveryPrivateDnsNamespaceConfig) {
 	_init_.Initialize()
 

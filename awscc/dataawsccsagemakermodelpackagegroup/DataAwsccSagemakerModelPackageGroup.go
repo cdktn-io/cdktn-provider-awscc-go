@@ -5,14 +5,14 @@ package dataawsccsagemakermodelpackagegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelpackagegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelpackagegroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_model_package_group awscc_sagemaker_model_package_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_model_package_group awscc_sagemaker_model_package_group}.
 type DataAwsccSagemakerModelPackageGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccSagemakerModelPackageGroup) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_model_package_group awscc_sagemaker_model_package_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_model_package_group awscc_sagemaker_model_package_group} Data Source.
 func NewDataAwsccSagemakerModelPackageGroup(scope constructs.Construct, id *string, config *DataAwsccSagemakerModelPackageGroupConfig) DataAwsccSagemakerModelPackageGroup {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccSagemakerModelPackageGroup(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_model_package_group awscc_sagemaker_model_package_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_model_package_group awscc_sagemaker_model_package_group} Data Source.
 func NewDataAwsccSagemakerModelPackageGroup_Override(d DataAwsccSagemakerModelPackageGroup, scope constructs.Construct, id *string, config *DataAwsccSagemakerModelPackageGroupConfig) {
 	_init_.Initialize()
 

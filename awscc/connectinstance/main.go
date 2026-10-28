@@ -94,6 +94,8 @@ func init() {
 		"@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference",
 		reflect.TypeOf((*ConnectInstanceAttributesOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "autoMuteAgentOnHold", GoGetter: "AutoMuteAgentOnHold"},
+			_jsii_.MemberProperty{JsiiProperty: "autoMuteAgentOnHoldInput", GoGetter: "AutoMuteAgentOnHoldInput"},
 			_jsii_.MemberProperty{JsiiProperty: "autoResolveBestVoices", GoGetter: "AutoResolveBestVoices"},
 			_jsii_.MemberProperty{JsiiProperty: "autoResolveBestVoicesInput", GoGetter: "AutoResolveBestVoicesInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -135,6 +137,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "multiPartyConferenceInput", GoGetter: "MultiPartyConferenceInput"},
 			_jsii_.MemberProperty{JsiiProperty: "outboundCalls", GoGetter: "OutboundCalls"},
 			_jsii_.MemberProperty{JsiiProperty: "outboundCallsInput", GoGetter: "OutboundCallsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAutoMuteAgentOnHold", GoMethod: "ResetAutoMuteAgentOnHold"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAutoResolveBestVoices", GoMethod: "ResetAutoResolveBestVoices"},
 			_jsii_.MemberMethod{JsiiMethod: "resetContactflowLogs", GoMethod: "ResetContactflowLogs"},
 			_jsii_.MemberMethod{JsiiMethod: "resetContactLens", GoMethod: "ResetContactLens"},

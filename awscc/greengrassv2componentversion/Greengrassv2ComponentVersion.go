@@ -5,14 +5,14 @@ package greengrassv2componentversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/greengrassv2componentversion/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/greengrassv2componentversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/greengrassv2_component_version awscc_greengrassv2_component_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/greengrassv2_component_version awscc_greengrassv2_component_version}.
 type Greengrassv2ComponentVersion interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -460,7 +460,7 @@ func (j *jsiiProxy_Greengrassv2ComponentVersion) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/greengrassv2_component_version awscc_greengrassv2_component_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/greengrassv2_component_version awscc_greengrassv2_component_version} Resource.
 func NewGreengrassv2ComponentVersion(scope constructs.Construct, id *string, config *Greengrassv2ComponentVersionConfig) Greengrassv2ComponentVersion {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewGreengrassv2ComponentVersion(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/greengrassv2_component_version awscc_greengrassv2_component_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/greengrassv2_component_version awscc_greengrassv2_component_version} Resource.
 func NewGreengrassv2ComponentVersion_Override(g Greengrassv2ComponentVersion, scope constructs.Construct, id *string, config *Greengrassv2ComponentVersionConfig) {
 	_init_.Initialize()
 

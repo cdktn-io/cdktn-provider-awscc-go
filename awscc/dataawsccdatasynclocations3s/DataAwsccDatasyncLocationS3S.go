@@ -5,14 +5,14 @@ package dataawsccdatasynclocations3s
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocations3s/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocations3s/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_s3s awscc_datasync_location_s3s}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_s3s awscc_datasync_location_s3s}.
 type DataAwsccDatasyncLocationS3S interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDatasyncLocationS3S) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_s3s awscc_datasync_location_s3s} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_s3s awscc_datasync_location_s3s} Data Source.
 func NewDataAwsccDatasyncLocationS3S(scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationS3SConfig) DataAwsccDatasyncLocationS3S {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDatasyncLocationS3S(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_s3s awscc_datasync_location_s3s} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_s3s awscc_datasync_location_s3s} Data Source.
 func NewDataAwsccDatasyncLocationS3S_Override(d DataAwsccDatasyncLocationS3S, scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationS3SConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawscccleanroomsmltrainingdatasets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsmltrainingdatasets/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsmltrainingdatasets/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanroomsml_training_datasets awscc_cleanroomsml_training_datasets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanroomsml_training_datasets awscc_cleanroomsml_training_datasets}.
 type DataAwsccCleanroomsmlTrainingDatasets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCleanroomsmlTrainingDatasets) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanroomsml_training_datasets awscc_cleanroomsml_training_datasets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanroomsml_training_datasets awscc_cleanroomsml_training_datasets} Data Source.
 func NewDataAwsccCleanroomsmlTrainingDatasets(scope constructs.Construct, id *string, config *DataAwsccCleanroomsmlTrainingDatasetsConfig) DataAwsccCleanroomsmlTrainingDatasets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCleanroomsmlTrainingDatasets(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanroomsml_training_datasets awscc_cleanroomsml_training_datasets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanroomsml_training_datasets awscc_cleanroomsml_training_datasets} Data Source.
 func NewDataAwsccCleanroomsmlTrainingDatasets_Override(d DataAwsccCleanroomsmlTrainingDatasets, scope constructs.Construct, id *string, config *DataAwsccCleanroomsmlTrainingDatasetsConfig) {
 	_init_.Initialize()
 

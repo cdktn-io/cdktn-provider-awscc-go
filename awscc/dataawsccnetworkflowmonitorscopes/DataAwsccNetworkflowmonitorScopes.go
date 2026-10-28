@@ -5,14 +5,14 @@ package dataawsccnetworkflowmonitorscopes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkflowmonitorscopes/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkflowmonitorscopes/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkflowmonitor_scopes awscc_networkflowmonitor_scopes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkflowmonitor_scopes awscc_networkflowmonitor_scopes}.
 type DataAwsccNetworkflowmonitorScopes interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNetworkflowmonitorScopes) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkflowmonitor_scopes awscc_networkflowmonitor_scopes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkflowmonitor_scopes awscc_networkflowmonitor_scopes} Data Source.
 func NewDataAwsccNetworkflowmonitorScopes(scope constructs.Construct, id *string, config *DataAwsccNetworkflowmonitorScopesConfig) DataAwsccNetworkflowmonitorScopes {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNetworkflowmonitorScopes(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkflowmonitor_scopes awscc_networkflowmonitor_scopes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkflowmonitor_scopes awscc_networkflowmonitor_scopes} Data Source.
 func NewDataAwsccNetworkflowmonitorScopes_Override(d DataAwsccNetworkflowmonitorScopes, scope constructs.Construct, id *string, config *DataAwsccNetworkflowmonitorScopesConfig) {
 	_init_.Initialize()
 

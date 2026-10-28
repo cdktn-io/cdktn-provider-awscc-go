@@ -5,14 +5,14 @@ package autoscalinglaunchconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/autoscalinglaunchconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/autoscalinglaunchconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration awscc_autoscaling_launch_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration awscc_autoscaling_launch_configuration}.
 type AutoscalingLaunchConfiguration interface {
 	cdktn.TerraformResource
 	AssociatePublicIpAddress() interface{}
@@ -809,7 +809,7 @@ func (j *jsiiProxy_AutoscalingLaunchConfiguration) UserDataInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration awscc_autoscaling_launch_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration awscc_autoscaling_launch_configuration} Resource.
 func NewAutoscalingLaunchConfiguration(scope constructs.Construct, id *string, config *AutoscalingLaunchConfigurationConfig) AutoscalingLaunchConfiguration {
 	_init_.Initialize()
 
@@ -827,7 +827,7 @@ func NewAutoscalingLaunchConfiguration(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_launch_configuration awscc_autoscaling_launch_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_launch_configuration awscc_autoscaling_launch_configuration} Resource.
 func NewAutoscalingLaunchConfiguration_Override(a AutoscalingLaunchConfiguration, scope constructs.Construct, id *string, config *AutoscalingLaunchConfigurationConfig) {
 	_init_.Initialize()
 

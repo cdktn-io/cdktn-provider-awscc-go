@@ -5,14 +5,14 @@ package lambdacodesigningconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdacodesigningconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdacodesigningconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_code_signing_config awscc_lambda_code_signing_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_code_signing_config awscc_lambda_code_signing_config}.
 type LambdaCodeSigningConfig interface {
 	cdktn.TerraformResource
 	AllowedPublishers() LambdaCodeSigningConfigAllowedPublishersOutputReference
@@ -472,7 +472,7 @@ func (j *jsiiProxy_LambdaCodeSigningConfig) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_code_signing_config awscc_lambda_code_signing_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_code_signing_config awscc_lambda_code_signing_config} Resource.
 func NewLambdaCodeSigningConfig(scope constructs.Construct, id *string, config *LambdaCodeSigningConfigConfig) LambdaCodeSigningConfig {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewLambdaCodeSigningConfig(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_code_signing_config awscc_lambda_code_signing_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_code_signing_config awscc_lambda_code_signing_config} Resource.
 func NewLambdaCodeSigningConfig_Override(l LambdaCodeSigningConfig, scope constructs.Construct, id *string, config *LambdaCodeSigningConfigConfig) {
 	_init_.Initialize()
 

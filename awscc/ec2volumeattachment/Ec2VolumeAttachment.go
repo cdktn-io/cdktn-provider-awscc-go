@@ -5,14 +5,14 @@ package ec2volumeattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2volumeattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2volumeattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_volume_attachment awscc_ec2_volume_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_volume_attachment awscc_ec2_volume_attachment}.
 type Ec2VolumeAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_Ec2VolumeAttachment) VolumeIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_volume_attachment awscc_ec2_volume_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_volume_attachment awscc_ec2_volume_attachment} Resource.
 func NewEc2VolumeAttachment(scope constructs.Construct, id *string, config *Ec2VolumeAttachmentConfig) Ec2VolumeAttachment {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewEc2VolumeAttachment(scope constructs.Construct, id *string, config *Ec2V
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_volume_attachment awscc_ec2_volume_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_volume_attachment awscc_ec2_volume_attachment} Resource.
 func NewEc2VolumeAttachment_Override(e Ec2VolumeAttachment, scope constructs.Construct, id *string, config *Ec2VolumeAttachmentConfig) {
 	_init_.Initialize()
 

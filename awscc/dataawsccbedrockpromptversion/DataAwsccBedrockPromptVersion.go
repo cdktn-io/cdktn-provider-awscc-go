@@ -5,14 +5,14 @@ package dataawsccbedrockpromptversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockpromptversion/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockpromptversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_prompt_version awscc_bedrock_prompt_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_prompt_version awscc_bedrock_prompt_version}.
 type DataAwsccBedrockPromptVersion interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccBedrockPromptVersion) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_prompt_version awscc_bedrock_prompt_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_prompt_version awscc_bedrock_prompt_version} Data Source.
 func NewDataAwsccBedrockPromptVersion(scope constructs.Construct, id *string, config *DataAwsccBedrockPromptVersionConfig) DataAwsccBedrockPromptVersion {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccBedrockPromptVersion(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_prompt_version awscc_bedrock_prompt_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_prompt_version awscc_bedrock_prompt_version} Data Source.
 func NewDataAwsccBedrockPromptVersion_Override(d DataAwsccBedrockPromptVersion, scope constructs.Construct, id *string, config *DataAwsccBedrockPromptVersionConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dynamodbglobaltable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dynamodbglobaltable/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dynamodbglobaltable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_global_table awscc_dynamodb_global_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_global_table awscc_dynamodb_global_table}.
 type DynamodbGlobalTable interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -91,6 +91,9 @@ type DynamodbGlobalTable interface {
 	TableName() *string
 	SetTableName(val *string)
 	TableNameInput() *string
+	TableType() *string
+	SetTableType(val *string)
+	TableTypeInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -230,6 +233,7 @@ type DynamodbGlobalTable interface {
 	ResetSseSpecification()
 	ResetStreamSpecification()
 	ResetTableName()
+	ResetTableType()
 	ResetTimeToLiveSpecification()
 	ResetVectorIndexes()
 	ResetWarmThroughput()
@@ -712,6 +716,26 @@ func (j *jsiiProxy_DynamodbGlobalTable) TableNameInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DynamodbGlobalTable) TableType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"tableType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DynamodbGlobalTable) TableTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"tableTypeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DynamodbGlobalTable) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -843,7 +867,7 @@ func (j *jsiiProxy_DynamodbGlobalTable) WriteProvisionedThroughputSettingsInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_global_table awscc_dynamodb_global_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_global_table awscc_dynamodb_global_table} Resource.
 func NewDynamodbGlobalTable(scope constructs.Construct, id *string, config *DynamodbGlobalTableConfig) DynamodbGlobalTable {
 	_init_.Initialize()
 
@@ -861,7 +885,7 @@ func NewDynamodbGlobalTable(scope constructs.Construct, id *string, config *Dyna
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dynamodb_global_table awscc_dynamodb_global_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dynamodb_global_table awscc_dynamodb_global_table} Resource.
 func NewDynamodbGlobalTable_Override(d DynamodbGlobalTable, scope constructs.Construct, id *string, config *DynamodbGlobalTableConfig) {
 	_init_.Initialize()
 
@@ -980,6 +1004,17 @@ func (j *jsiiProxy_DynamodbGlobalTable)SetTableName(val *string) {
 	_jsii_.Set(
 		j,
 		"tableName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DynamodbGlobalTable)SetTableType(val *string) {
+	if err := j.validateSetTableTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tableType",
 		val,
 	)
 }
@@ -1637,6 +1672,14 @@ func (d *jsiiProxy_DynamodbGlobalTable) ResetTableName() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetTableName",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DynamodbGlobalTable) ResetTableType() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetTableType",
 		nil, // no parameters
 	)
 }

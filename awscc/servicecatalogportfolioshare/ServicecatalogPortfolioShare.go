@@ -5,14 +5,14 @@ package servicecatalogportfolioshare
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogportfolioshare/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogportfolioshare/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_portfolio_share awscc_servicecatalog_portfolio_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_portfolio_share awscc_servicecatalog_portfolio_share}.
 type ServicecatalogPortfolioShare interface {
 	cdktn.TerraformResource
 	AcceptLanguage() *string
@@ -449,7 +449,7 @@ func (j *jsiiProxy_ServicecatalogPortfolioShare) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_portfolio_share awscc_servicecatalog_portfolio_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_portfolio_share awscc_servicecatalog_portfolio_share} Resource.
 func NewServicecatalogPortfolioShare(scope constructs.Construct, id *string, config *ServicecatalogPortfolioShareConfig) ServicecatalogPortfolioShare {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewServicecatalogPortfolioShare(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_portfolio_share awscc_servicecatalog_portfolio_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_portfolio_share awscc_servicecatalog_portfolio_share} Resource.
 func NewServicecatalogPortfolioShare_Override(s ServicecatalogPortfolioShare, scope constructs.Construct, id *string, config *ServicecatalogPortfolioShareConfig) {
 	_init_.Initialize()
 

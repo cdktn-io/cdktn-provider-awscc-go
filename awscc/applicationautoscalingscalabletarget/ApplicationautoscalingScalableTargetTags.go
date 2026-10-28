@@ -5,9 +5,9 @@ package applicationautoscalingscalabletarget
 
 
 type ApplicationautoscalingScalableTargetTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scalable_target#key ApplicationautoscalingScalableTarget#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scalable_target#key ApplicationautoscalingScalableTarget#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scalable_target#value ApplicationautoscalingScalableTarget#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scalable_target#value ApplicationautoscalingScalableTarget#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

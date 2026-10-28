@@ -5,14 +5,14 @@ package mediaconnectbridge
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectbridge/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectbridge/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge awscc_mediaconnect_bridge}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge awscc_mediaconnect_bridge}.
 type MediaconnectBridge interface {
 	cdktn.TerraformResource
 	BridgeArn() *string
@@ -542,7 +542,7 @@ func (j *jsiiProxy_MediaconnectBridge) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge awscc_mediaconnect_bridge} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge awscc_mediaconnect_bridge} Resource.
 func NewMediaconnectBridge(scope constructs.Construct, id *string, config *MediaconnectBridgeConfig) MediaconnectBridge {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewMediaconnectBridge(scope constructs.Construct, id *string, config *Media
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_bridge awscc_mediaconnect_bridge} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_bridge awscc_mediaconnect_bridge} Resource.
 func NewMediaconnectBridge_Override(m MediaconnectBridge, scope constructs.Construct, id *string, config *MediaconnectBridgeConfig) {
 	_init_.Initialize()
 

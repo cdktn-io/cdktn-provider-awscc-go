@@ -5,14 +5,14 @@ package dataawsccresiliencehubapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresiliencehubapp/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresiliencehubapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resiliencehub_app awscc_resiliencehub_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resiliencehub_app awscc_resiliencehub_app}.
 type DataAwsccResiliencehubApp interface {
 	cdktn.TerraformDataSource
 	AppArn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccResiliencehubApp) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resiliencehub_app awscc_resiliencehub_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resiliencehub_app awscc_resiliencehub_app} Data Source.
 func NewDataAwsccResiliencehubApp(scope constructs.Construct, id *string, config *DataAwsccResiliencehubAppConfig) DataAwsccResiliencehubApp {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccResiliencehubApp(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resiliencehub_app awscc_resiliencehub_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resiliencehub_app awscc_resiliencehub_app} Data Source.
 func NewDataAwsccResiliencehubApp_Override(d DataAwsccResiliencehubApp, scope constructs.Construct, id *string, config *DataAwsccResiliencehubAppConfig) {
 	_init_.Initialize()
 

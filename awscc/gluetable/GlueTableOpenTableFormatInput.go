@@ -7,7 +7,7 @@ package gluetable
 type GlueTableOpenTableFormatInput struct {
 	// Specifies an IcebergInput structure that defines an Apache Iceberg metadata table.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#iceberg_input GlueTable#iceberg_input}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#iceberg_input GlueTable#iceberg_input}
 	IcebergInput *GlueTableOpenTableFormatInputIcebergInput `field:"optional" json:"icebergInput" yaml:"icebergInput"`
 }
 

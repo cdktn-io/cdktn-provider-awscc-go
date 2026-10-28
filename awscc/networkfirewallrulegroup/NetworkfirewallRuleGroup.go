@@ -5,14 +5,14 @@ package networkfirewallrulegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkfirewallrulegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkfirewallrulegroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_rule_group awscc_networkfirewall_rule_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_rule_group awscc_networkfirewall_rule_group}.
 type NetworkfirewallRuleGroup interface {
 	cdktn.TerraformResource
 	Capacity() *float64
@@ -542,7 +542,7 @@ func (j *jsiiProxy_NetworkfirewallRuleGroup) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_rule_group awscc_networkfirewall_rule_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_rule_group awscc_networkfirewall_rule_group} Resource.
 func NewNetworkfirewallRuleGroup(scope constructs.Construct, id *string, config *NetworkfirewallRuleGroupConfig) NetworkfirewallRuleGroup {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewNetworkfirewallRuleGroup(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkfirewall_rule_group awscc_networkfirewall_rule_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkfirewall_rule_group awscc_networkfirewall_rule_group} Resource.
 func NewNetworkfirewallRuleGroup_Override(n NetworkfirewallRuleGroup, scope constructs.Construct, id *string, config *NetworkfirewallRuleGroupConfig) {
 	_init_.Initialize()
 

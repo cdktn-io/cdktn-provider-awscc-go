@@ -5,14 +5,14 @@ package dataawscccloudfrontmonitoringsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudfrontmonitoringsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudfrontmonitoringsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_monitoring_subscription awscc_cloudfront_monitoring_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_monitoring_subscription awscc_cloudfront_monitoring_subscription}.
 type DataAwsccCloudfrontMonitoringSubscription interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccCloudfrontMonitoringSubscription) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_monitoring_subscription awscc_cloudfront_monitoring_subscription} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_monitoring_subscription awscc_cloudfront_monitoring_subscription} Data Source.
 func NewDataAwsccCloudfrontMonitoringSubscription(scope constructs.Construct, id *string, config *DataAwsccCloudfrontMonitoringSubscriptionConfig) DataAwsccCloudfrontMonitoringSubscription {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccCloudfrontMonitoringSubscription(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudfront_monitoring_subscription awscc_cloudfront_monitoring_subscription} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudfront_monitoring_subscription awscc_cloudfront_monitoring_subscription} Data Source.
 func NewDataAwsccCloudfrontMonitoringSubscription_Override(d DataAwsccCloudfrontMonitoringSubscription, scope constructs.Construct, id *string, config *DataAwsccCloudfrontMonitoringSubscriptionConfig) {
 	_init_.Initialize()
 

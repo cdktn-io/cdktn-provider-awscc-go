@@ -5,14 +5,14 @@ package connectpredefinedattribute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectpredefinedattribute/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectpredefinedattribute/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_predefined_attribute awscc_connect_predefined_attribute}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_predefined_attribute awscc_connect_predefined_attribute}.
 type ConnectPredefinedAttribute interface {
 	cdktn.TerraformResource
 	AttributeConfiguration() ConnectPredefinedAttributeAttributeConfigurationOutputReference
@@ -495,7 +495,7 @@ func (j *jsiiProxy_ConnectPredefinedAttribute) ValuesInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_predefined_attribute awscc_connect_predefined_attribute} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_predefined_attribute awscc_connect_predefined_attribute} Resource.
 func NewConnectPredefinedAttribute(scope constructs.Construct, id *string, config *ConnectPredefinedAttributeConfig) ConnectPredefinedAttribute {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewConnectPredefinedAttribute(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_predefined_attribute awscc_connect_predefined_attribute} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_predefined_attribute awscc_connect_predefined_attribute} Resource.
 func NewConnectPredefinedAttribute_Override(c ConnectPredefinedAttribute, scope constructs.Construct, id *string, config *ConnectPredefinedAttributeConfig) {
 	_init_.Initialize()
 

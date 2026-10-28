@@ -5,14 +5,14 @@ package dataawscciotwirelesswirelessdeviceimporttask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesswirelessdeviceimporttask/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesswirelessdeviceimporttask/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_wireless_device_import_task awscc_iotwireless_wireless_device_import_task}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_wireless_device_import_task awscc_iotwireless_wireless_device_import_task}.
 type DataAwsccIotwirelessWirelessDeviceImportTask interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccIotwirelessWirelessDeviceImportTask) WirelessDeviceI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_wireless_device_import_task awscc_iotwireless_wireless_device_import_task} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_wireless_device_import_task awscc_iotwireless_wireless_device_import_task} Data Source.
 func NewDataAwsccIotwirelessWirelessDeviceImportTask(scope constructs.Construct, id *string, config *DataAwsccIotwirelessWirelessDeviceImportTaskConfig) DataAwsccIotwirelessWirelessDeviceImportTask {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccIotwirelessWirelessDeviceImportTask(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_wireless_device_import_task awscc_iotwireless_wireless_device_import_task} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_wireless_device_import_task awscc_iotwireless_wireless_device_import_task} Data Source.
 func NewDataAwsccIotwirelessWirelessDeviceImportTask_Override(d DataAwsccIotwirelessWirelessDeviceImportTask, scope constructs.Construct, id *string, config *DataAwsccIotwirelessWirelessDeviceImportTaskConfig) {
 	_init_.Initialize()
 

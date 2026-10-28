@@ -5,14 +5,14 @@ package computeoptimizerautomationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/computeoptimizerautomationrule/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/computeoptimizerautomationrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/computeoptimizer_automation_rule awscc_computeoptimizer_automation_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/computeoptimizer_automation_rule awscc_computeoptimizer_automation_rule}.
 type ComputeoptimizerAutomationRule interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -656,7 +656,7 @@ func (j *jsiiProxy_ComputeoptimizerAutomationRule) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/computeoptimizer_automation_rule awscc_computeoptimizer_automation_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/computeoptimizer_automation_rule awscc_computeoptimizer_automation_rule} Resource.
 func NewComputeoptimizerAutomationRule(scope constructs.Construct, id *string, config *ComputeoptimizerAutomationRuleConfig) ComputeoptimizerAutomationRule {
 	_init_.Initialize()
 
@@ -674,7 +674,7 @@ func NewComputeoptimizerAutomationRule(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/computeoptimizer_automation_rule awscc_computeoptimizer_automation_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/computeoptimizer_automation_rule awscc_computeoptimizer_automation_rule} Resource.
 func NewComputeoptimizerAutomationRule_Override(c ComputeoptimizerAutomationRule, scope constructs.Construct, id *string, config *ComputeoptimizerAutomationRuleConfig) {
 	_init_.Initialize()
 

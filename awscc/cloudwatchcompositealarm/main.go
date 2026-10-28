@@ -14,6 +14,8 @@ func init() {
 		"@cdktn/provider-awscc.cloudwatchCompositeAlarm.CloudwatchCompositeAlarm",
 		reflect.TypeOf((*CloudwatchCompositeAlarm)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "actionConfiguration", GoGetter: "ActionConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "actionConfigurationInput", GoGetter: "ActionConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "actionsEnabled", GoGetter: "ActionsEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "actionsEnabledInput", GoGetter: "ActionsEnabledInput"},
 			_jsii_.MemberProperty{JsiiProperty: "actionsSuppressor", GoGetter: "ActionsSuppressor"},
@@ -67,9 +69,11 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
+			_jsii_.MemberMethod{JsiiMethod: "putActionConfiguration", GoMethod: "PutActionConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putTags", GoMethod: "PutTags"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetActionConfiguration", GoMethod: "ResetActionConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetActionsEnabled", GoMethod: "ResetActionsEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetActionsSuppressor", GoMethod: "ResetActionsSuppressor"},
 			_jsii_.MemberMethod{JsiiMethod: "resetActionsSuppressorExtensionPeriod", GoMethod: "ResetActionsSuppressorExtensionPeriod"},
@@ -97,6 +101,91 @@ func init() {
 		func() interface{} {
 			j := jsiiProxy_CloudwatchCompositeAlarm{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.cloudwatchCompositeAlarm.CloudwatchCompositeAlarmActionConfiguration",
+		reflect.TypeOf((*CloudwatchCompositeAlarmActionConfiguration)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.cloudwatchCompositeAlarm.CloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagation",
+		reflect.TypeOf((*CloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagation)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.cloudwatchCompositeAlarm.CloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference",
+		reflect.TypeOf((*CloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "enabled", GoGetter: "Enabled"},
+			_jsii_.MemberProperty{JsiiProperty: "enabledInput", GoGetter: "EnabledInput"},
+			_jsii_.MemberProperty{JsiiProperty: "excludedTagKeys", GoGetter: "ExcludedTagKeys"},
+			_jsii_.MemberProperty{JsiiProperty: "excludedTagKeysInput", GoGetter: "ExcludedTagKeysInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "includedTagKeys", GoGetter: "IncludedTagKeys"},
+			_jsii_.MemberProperty{JsiiProperty: "includedTagKeysInput", GoGetter: "IncludedTagKeysInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEnabled", GoMethod: "ResetEnabled"},
+			_jsii_.MemberMethod{JsiiMethod: "resetExcludedTagKeys", GoMethod: "ResetExcludedTagKeys"},
+			_jsii_.MemberMethod{JsiiMethod: "resetIncludedTagKeys", GoMethod: "ResetIncludedTagKeys"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_CloudwatchCompositeAlarmActionConfigurationAlarmTagsPropagationOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.cloudwatchCompositeAlarm.CloudwatchCompositeAlarmActionConfigurationOutputReference",
+		reflect.TypeOf((*CloudwatchCompositeAlarmActionConfigurationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "alarmTagsPropagation", GoGetter: "AlarmTagsPropagation"},
+			_jsii_.MemberProperty{JsiiProperty: "alarmTagsPropagationInput", GoGetter: "AlarmTagsPropagationInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "putAlarmTagsPropagation", GoMethod: "PutAlarmTagsPropagation"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAlarmTagsPropagation", GoMethod: "ResetAlarmTagsPropagation"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_CloudwatchCompositeAlarmActionConfigurationOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)

@@ -5,14 +5,14 @@ package dataawscccustomerprofilesrecommenders
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofilesrecommenders/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofilesrecommenders/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_recommenders awscc_customerprofiles_recommenders}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_recommenders awscc_customerprofiles_recommenders}.
 type DataAwsccCustomerprofilesRecommenders interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCustomerprofilesRecommenders) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_recommenders awscc_customerprofiles_recommenders} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_recommenders awscc_customerprofiles_recommenders} Data Source.
 func NewDataAwsccCustomerprofilesRecommenders(scope constructs.Construct, id *string, config *DataAwsccCustomerprofilesRecommendersConfig) DataAwsccCustomerprofilesRecommenders {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCustomerprofilesRecommenders(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_recommenders awscc_customerprofiles_recommenders} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_recommenders awscc_customerprofiles_recommenders} Data Source.
 func NewDataAwsccCustomerprofilesRecommenders_Override(d DataAwsccCustomerprofilesRecommenders, scope constructs.Construct, id *string, config *DataAwsccCustomerprofilesRecommendersConfig) {
 	_init_.Initialize()
 

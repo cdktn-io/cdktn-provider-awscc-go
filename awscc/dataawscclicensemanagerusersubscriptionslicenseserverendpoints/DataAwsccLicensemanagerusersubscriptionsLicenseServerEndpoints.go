@@ -5,14 +5,14 @@ package dataawscclicensemanagerusersubscriptionslicenseserverendpoints
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerusersubscriptionslicenseserverendpoints/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerusersubscriptionslicenseserverendpoints/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/licensemanagerusersubscriptions_license_server_endpoints awscc_licensemanagerusersubscriptions_license_server_endpoints}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanagerusersubscriptions_license_server_endpoints awscc_licensemanagerusersubscriptions_license_server_endpoints}.
 type DataAwsccLicensemanagerusersubscriptionsLicenseServerEndpoints interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLicensemanagerusersubscriptionsLicenseServerEndpoint
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/licensemanagerusersubscriptions_license_server_endpoints awscc_licensemanagerusersubscriptions_license_server_endpoints} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanagerusersubscriptions_license_server_endpoints awscc_licensemanagerusersubscriptions_license_server_endpoints} Data Source.
 func NewDataAwsccLicensemanagerusersubscriptionsLicenseServerEndpoints(scope constructs.Construct, id *string, config *DataAwsccLicensemanagerusersubscriptionsLicenseServerEndpointsConfig) DataAwsccLicensemanagerusersubscriptionsLicenseServerEndpoints {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLicensemanagerusersubscriptionsLicenseServerEndpoints(scope con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/licensemanagerusersubscriptions_license_server_endpoints awscc_licensemanagerusersubscriptions_license_server_endpoints} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanagerusersubscriptions_license_server_endpoints awscc_licensemanagerusersubscriptions_license_server_endpoints} Data Source.
 func NewDataAwsccLicensemanagerusersubscriptionsLicenseServerEndpoints_Override(d DataAwsccLicensemanagerusersubscriptionsLicenseServerEndpoints, scope constructs.Construct, id *string, config *DataAwsccLicensemanagerusersubscriptionsLicenseServerEndpointsConfig) {
 	_init_.Initialize()
 

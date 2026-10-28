@@ -5,14 +5,14 @@ package ec2spotfleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2spotfleet/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2spotfleet/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_spot_fleet awscc_ec2_spot_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_spot_fleet awscc_ec2_spot_fleet}.
 type Ec2SpotFleet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_Ec2SpotFleet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_spot_fleet awscc_ec2_spot_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_spot_fleet awscc_ec2_spot_fleet} Resource.
 func NewEc2SpotFleet(scope constructs.Construct, id *string, config *Ec2SpotFleetConfig) Ec2SpotFleet {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewEc2SpotFleet(scope constructs.Construct, id *string, config *Ec2SpotFlee
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_spot_fleet awscc_ec2_spot_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_spot_fleet awscc_ec2_spot_fleet} Resource.
 func NewEc2SpotFleet_Override(e Ec2SpotFleet, scope constructs.Construct, id *string, config *Ec2SpotFleetConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccbackupbackupselection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackupbackupselection/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackupbackupselection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_backup_selection awscc_backup_backup_selection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_backup_selection awscc_backup_backup_selection}.
 type DataAwsccBackupBackupSelection interface {
 	cdktn.TerraformDataSource
 	BackupPlanId() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccBackupBackupSelection) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_backup_selection awscc_backup_backup_selection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_backup_selection awscc_backup_backup_selection} Data Source.
 func NewDataAwsccBackupBackupSelection(scope constructs.Construct, id *string, config *DataAwsccBackupBackupSelectionConfig) DataAwsccBackupBackupSelection {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccBackupBackupSelection(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_backup_selection awscc_backup_backup_selection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_backup_selection awscc_backup_backup_selection} Data Source.
 func NewDataAwsccBackupBackupSelection_Override(d DataAwsccBackupBackupSelection, scope constructs.Construct, id *string, config *DataAwsccBackupBackupSelectionConfig) {
 	_init_.Initialize()
 

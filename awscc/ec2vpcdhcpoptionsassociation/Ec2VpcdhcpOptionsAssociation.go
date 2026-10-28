@@ -5,14 +5,14 @@ package ec2vpcdhcpoptionsassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpcdhcpoptionsassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpcdhcpoptionsassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpcdhcp_options_association awscc_ec2_vpcdhcp_options_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpcdhcp_options_association awscc_ec2_vpcdhcp_options_association}.
 type Ec2VpcdhcpOptionsAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_Ec2VpcdhcpOptionsAssociation) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpcdhcp_options_association awscc_ec2_vpcdhcp_options_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpcdhcp_options_association awscc_ec2_vpcdhcp_options_association} Resource.
 func NewEc2VpcdhcpOptionsAssociation(scope constructs.Construct, id *string, config *Ec2VpcdhcpOptionsAssociationConfig) Ec2VpcdhcpOptionsAssociation {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewEc2VpcdhcpOptionsAssociation(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpcdhcp_options_association awscc_ec2_vpcdhcp_options_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpcdhcp_options_association awscc_ec2_vpcdhcp_options_association} Resource.
 func NewEc2VpcdhcpOptionsAssociation_Override(e Ec2VpcdhcpOptionsAssociation, scope constructs.Construct, id *string, config *Ec2VpcdhcpOptionsAssociationConfig) {
 	_init_.Initialize()
 

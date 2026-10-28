@@ -5,14 +5,14 @@ package dataawsccmedialivecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivecluster/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivecluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_cluster awscc_medialive_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_cluster awscc_medialive_cluster}.
 type DataAwsccMedialiveCluster interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccMedialiveCluster) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_cluster awscc_medialive_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_cluster awscc_medialive_cluster} Data Source.
 func NewDataAwsccMedialiveCluster(scope constructs.Construct, id *string, config *DataAwsccMedialiveClusterConfig) DataAwsccMedialiveCluster {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccMedialiveCluster(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_cluster awscc_medialive_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_cluster awscc_medialive_cluster} Data Source.
 func NewDataAwsccMedialiveCluster_Override(d DataAwsccMedialiveCluster, scope constructs.Construct, id *string, config *DataAwsccMedialiveClusterConfig) {
 	_init_.Initialize()
 

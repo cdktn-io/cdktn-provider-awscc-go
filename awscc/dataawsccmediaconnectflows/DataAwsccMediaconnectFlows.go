@@ -5,14 +5,14 @@ package dataawsccmediaconnectflows
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflows/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflows/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_flows awscc_mediaconnect_flows}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_flows awscc_mediaconnect_flows}.
 type DataAwsccMediaconnectFlows interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMediaconnectFlows) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_flows awscc_mediaconnect_flows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_flows awscc_mediaconnect_flows} Data Source.
 func NewDataAwsccMediaconnectFlows(scope constructs.Construct, id *string, config *DataAwsccMediaconnectFlowsConfig) DataAwsccMediaconnectFlows {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMediaconnectFlows(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_flows awscc_mediaconnect_flows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_flows awscc_mediaconnect_flows} Data Source.
 func NewDataAwsccMediaconnectFlows_Override(d DataAwsccMediaconnectFlows, scope constructs.Construct, id *string, config *DataAwsccMediaconnectFlowsConfig) {
 	_init_.Initialize()
 

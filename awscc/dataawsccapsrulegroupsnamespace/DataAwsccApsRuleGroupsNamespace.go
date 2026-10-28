@@ -5,14 +5,14 @@ package dataawsccapsrulegroupsnamespace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapsrulegroupsnamespace/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapsrulegroupsnamespace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/aps_rule_groups_namespace awscc_aps_rule_groups_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/aps_rule_groups_namespace awscc_aps_rule_groups_namespace}.
 type DataAwsccApsRuleGroupsNamespace interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccApsRuleGroupsNamespace) Workspace() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/aps_rule_groups_namespace awscc_aps_rule_groups_namespace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/aps_rule_groups_namespace awscc_aps_rule_groups_namespace} Data Source.
 func NewDataAwsccApsRuleGroupsNamespace(scope constructs.Construct, id *string, config *DataAwsccApsRuleGroupsNamespaceConfig) DataAwsccApsRuleGroupsNamespace {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccApsRuleGroupsNamespace(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/aps_rule_groups_namespace awscc_aps_rule_groups_namespace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/aps_rule_groups_namespace awscc_aps_rule_groups_namespace} Data Source.
 func NewDataAwsccApsRuleGroupsNamespace_Override(d DataAwsccApsRuleGroupsNamespace, scope constructs.Construct, id *string, config *DataAwsccApsRuleGroupsNamespaceConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccservicecatalogappregistryapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogappregistryapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogappregistryapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalogappregistry_application awscc_servicecatalogappregistry_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalogappregistry_application awscc_servicecatalogappregistry_application}.
 type DataAwsccServicecatalogappregistryApplication interface {
 	cdktn.TerraformDataSource
 	ApplicationId() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccServicecatalogappregistryApplication) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalogappregistry_application awscc_servicecatalogappregistry_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalogappregistry_application awscc_servicecatalogappregistry_application} Data Source.
 func NewDataAwsccServicecatalogappregistryApplication(scope constructs.Construct, id *string, config *DataAwsccServicecatalogappregistryApplicationConfig) DataAwsccServicecatalogappregistryApplication {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccServicecatalogappregistryApplication(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalogappregistry_application awscc_servicecatalogappregistry_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalogappregistry_application awscc_servicecatalogappregistry_application} Data Source.
 func NewDataAwsccServicecatalogappregistryApplication_Override(d DataAwsccServicecatalogappregistryApplication, scope constructs.Construct, id *string, config *DataAwsccServicecatalogappregistryApplicationConfig) {
 	_init_.Initialize()
 

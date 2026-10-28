@@ -5,14 +5,14 @@ package dmsmigrationproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmsmigrationproject/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmsmigrationproject/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_migration_project awscc_dms_migration_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_migration_project awscc_dms_migration_project}.
 type DmsMigrationProject interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -44,22 +44,16 @@ type DmsMigrationProject interface {
 	FriendlyUniqueId() *string
 	Id() *string
 	InstanceProfileArn() *string
-	SetInstanceProfileArn(val *string)
-	InstanceProfileArnInput() *string
 	InstanceProfileIdentifier() *string
 	SetInstanceProfileIdentifier(val *string)
 	InstanceProfileIdentifierInput() *string
 	InstanceProfileName() *string
-	SetInstanceProfileName(val *string)
-	InstanceProfileNameInput() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MigrationProjectArn() *string
 	MigrationProjectCreationTime() *string
-	SetMigrationProjectCreationTime(val *string)
-	MigrationProjectCreationTimeInput() *string
 	MigrationProjectIdentifier() *string
 	SetMigrationProjectIdentifier(val *string)
 	MigrationProjectIdentifierInput() *string
@@ -192,10 +186,7 @@ type DmsMigrationProject interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetDescription()
-	ResetInstanceProfileArn()
 	ResetInstanceProfileIdentifier()
-	ResetInstanceProfileName()
-	ResetMigrationProjectCreationTime()
 	ResetMigrationProjectIdentifier()
 	ResetMigrationProjectName()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -353,16 +344,6 @@ func (j *jsiiProxy_DmsMigrationProject) InstanceProfileArn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DmsMigrationProject) InstanceProfileArnInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"instanceProfileArnInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_DmsMigrationProject) InstanceProfileIdentifier() *string {
 	var returns *string
 	_jsii_.Get(
@@ -393,16 +374,6 @@ func (j *jsiiProxy_DmsMigrationProject) InstanceProfileName() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DmsMigrationProject) InstanceProfileNameInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"instanceProfileNameInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_DmsMigrationProject) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -428,16 +399,6 @@ func (j *jsiiProxy_DmsMigrationProject) MigrationProjectCreationTime() *string {
 	_jsii_.Get(
 		j,
 		"migrationProjectCreationTime",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DmsMigrationProject) MigrationProjectCreationTimeInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"migrationProjectCreationTimeInput",
 		&returns,
 	)
 	return returns
@@ -654,7 +615,7 @@ func (j *jsiiProxy_DmsMigrationProject) TransformationRulesInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_migration_project awscc_dms_migration_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_migration_project awscc_dms_migration_project} Resource.
 func NewDmsMigrationProject(scope constructs.Construct, id *string, config *DmsMigrationProjectConfig) DmsMigrationProject {
 	_init_.Initialize()
 
@@ -672,7 +633,7 @@ func NewDmsMigrationProject(scope constructs.Construct, id *string, config *DmsM
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_migration_project awscc_dms_migration_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_migration_project awscc_dms_migration_project} Resource.
 func NewDmsMigrationProject_Override(d DmsMigrationProject, scope constructs.Construct, id *string, config *DmsMigrationProjectConfig) {
 	_init_.Initialize()
 
@@ -732,17 +693,6 @@ func (j *jsiiProxy_DmsMigrationProject)SetForEach(val cdktn.ITerraformIterator) 
 	)
 }
 
-func (j *jsiiProxy_DmsMigrationProject)SetInstanceProfileArn(val *string) {
-	if err := j.validateSetInstanceProfileArnParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"instanceProfileArn",
-		val,
-	)
-}
-
 func (j *jsiiProxy_DmsMigrationProject)SetInstanceProfileIdentifier(val *string) {
 	if err := j.validateSetInstanceProfileIdentifierParameters(val); err != nil {
 		panic(err)
@@ -754,17 +704,6 @@ func (j *jsiiProxy_DmsMigrationProject)SetInstanceProfileIdentifier(val *string)
 	)
 }
 
-func (j *jsiiProxy_DmsMigrationProject)SetInstanceProfileName(val *string) {
-	if err := j.validateSetInstanceProfileNameParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"instanceProfileName",
-		val,
-	)
-}
-
 func (j *jsiiProxy_DmsMigrationProject)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
@@ -772,17 +711,6 @@ func (j *jsiiProxy_DmsMigrationProject)SetLifecycle(val *cdktn.TerraformResource
 	_jsii_.Set(
 		j,
 		"lifecycle",
-		val,
-	)
-}
-
-func (j *jsiiProxy_DmsMigrationProject)SetMigrationProjectCreationTime(val *string) {
-	if err := j.validateSetMigrationProjectCreationTimeParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"migrationProjectCreationTime",
 		val,
 	)
 }
@@ -1271,34 +1199,10 @@ func (d *jsiiProxy_DmsMigrationProject) ResetDescription() {
 	)
 }
 
-func (d *jsiiProxy_DmsMigrationProject) ResetInstanceProfileArn() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetInstanceProfileArn",
-		nil, // no parameters
-	)
-}
-
 func (d *jsiiProxy_DmsMigrationProject) ResetInstanceProfileIdentifier() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetInstanceProfileIdentifier",
-		nil, // no parameters
-	)
-}
-
-func (d *jsiiProxy_DmsMigrationProject) ResetInstanceProfileName() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetInstanceProfileName",
-		nil, // no parameters
-	)
-}
-
-func (d *jsiiProxy_DmsMigrationProject) ResetMigrationProjectCreationTime() {
-	_jsii_.InvokeVoid(
-		d,
-		"resetMigrationProjectCreationTime",
 		nil, // no parameters
 	)
 }

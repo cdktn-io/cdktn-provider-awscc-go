@@ -5,14 +5,14 @@ package dataawsccapigatewayv2portalproduct
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2portalproduct/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2portalproduct/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_portal_product awscc_apigatewayv2_portal_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_portal_product awscc_apigatewayv2_portal_product}.
 type DataAwsccApigatewayv2PortalProduct interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccApigatewayv2PortalProduct) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_portal_product awscc_apigatewayv2_portal_product} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_portal_product awscc_apigatewayv2_portal_product} Data Source.
 func NewDataAwsccApigatewayv2PortalProduct(scope constructs.Construct, id *string, config *DataAwsccApigatewayv2PortalProductConfig) DataAwsccApigatewayv2PortalProduct {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccApigatewayv2PortalProduct(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_portal_product awscc_apigatewayv2_portal_product} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_portal_product awscc_apigatewayv2_portal_product} Data Source.
 func NewDataAwsccApigatewayv2PortalProduct_Override(d DataAwsccApigatewayv2PortalProduct, scope constructs.Construct, id *string, config *DataAwsccApigatewayv2PortalProductConfig) {
 	_init_.Initialize()
 

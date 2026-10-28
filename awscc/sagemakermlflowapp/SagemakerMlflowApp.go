@@ -5,14 +5,14 @@ package sagemakermlflowapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakermlflowapp/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakermlflowapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_mlflow_app awscc_sagemaker_mlflow_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_mlflow_app awscc_sagemaker_mlflow_app}.
 type SagemakerMlflowApp interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -562,7 +562,7 @@ func (j *jsiiProxy_SagemakerMlflowApp) WeeklyMaintenanceWindowStartInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_mlflow_app awscc_sagemaker_mlflow_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_mlflow_app awscc_sagemaker_mlflow_app} Resource.
 func NewSagemakerMlflowApp(scope constructs.Construct, id *string, config *SagemakerMlflowAppConfig) SagemakerMlflowApp {
 	_init_.Initialize()
 
@@ -580,7 +580,7 @@ func NewSagemakerMlflowApp(scope constructs.Construct, id *string, config *Sagem
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_mlflow_app awscc_sagemaker_mlflow_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_mlflow_app awscc_sagemaker_mlflow_app} Resource.
 func NewSagemakerMlflowApp_Override(s SagemakerMlflowApp, scope constructs.Construct, id *string, config *SagemakerMlflowAppConfig) {
 	_init_.Initialize()
 

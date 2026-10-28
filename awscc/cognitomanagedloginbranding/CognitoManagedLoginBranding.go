@@ -5,14 +5,14 @@ package cognitomanagedloginbranding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cognitomanagedloginbranding/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cognitomanagedloginbranding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_managed_login_branding awscc_cognito_managed_login_branding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_managed_login_branding awscc_cognito_managed_login_branding}.
 type CognitoManagedLoginBranding interface {
 	cdktn.TerraformResource
 	Assets() CognitoManagedLoginBrandingAssetsList
@@ -509,7 +509,7 @@ func (j *jsiiProxy_CognitoManagedLoginBranding) UserPoolIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_managed_login_branding awscc_cognito_managed_login_branding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_managed_login_branding awscc_cognito_managed_login_branding} Resource.
 func NewCognitoManagedLoginBranding(scope constructs.Construct, id *string, config *CognitoManagedLoginBrandingConfig) CognitoManagedLoginBranding {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewCognitoManagedLoginBranding(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_managed_login_branding awscc_cognito_managed_login_branding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_managed_login_branding awscc_cognito_managed_login_branding} Resource.
 func NewCognitoManagedLoginBranding_Override(c CognitoManagedLoginBranding, scope constructs.Construct, id *string, config *CognitoManagedLoginBrandingConfig) {
 	_init_.Initialize()
 

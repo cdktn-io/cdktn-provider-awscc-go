@@ -5,14 +5,14 @@ package dataawsccsecuritylakedatalake
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecuritylakedatalake/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecuritylakedatalake/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securitylake_data_lake awscc_securitylake_data_lake}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securitylake_data_lake awscc_securitylake_data_lake}.
 type DataAwsccSecuritylakeDataLake interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccSecuritylakeDataLake) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securitylake_data_lake awscc_securitylake_data_lake} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securitylake_data_lake awscc_securitylake_data_lake} Data Source.
 func NewDataAwsccSecuritylakeDataLake(scope constructs.Construct, id *string, config *DataAwsccSecuritylakeDataLakeConfig) DataAwsccSecuritylakeDataLake {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccSecuritylakeDataLake(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securitylake_data_lake awscc_securitylake_data_lake} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securitylake_data_lake awscc_securitylake_data_lake} Data Source.
 func NewDataAwsccSecuritylakeDataLake_Override(d DataAwsccSecuritylakeDataLake, scope constructs.Construct, id *string, config *DataAwsccSecuritylakeDataLakeConfig) {
 	_init_.Initialize()
 

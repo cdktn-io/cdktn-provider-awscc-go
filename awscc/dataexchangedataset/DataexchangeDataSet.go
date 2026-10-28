@@ -5,14 +5,14 @@ package dataexchangedataset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataexchangedataset/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataexchangedataset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dataexchange_data_set awscc_dataexchange_data_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dataexchange_data_set awscc_dataexchange_data_set}.
 type DataexchangeDataSet interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -503,7 +503,7 @@ func (j *jsiiProxy_DataexchangeDataSet) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dataexchange_data_set awscc_dataexchange_data_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dataexchange_data_set awscc_dataexchange_data_set} Resource.
 func NewDataexchangeDataSet(scope constructs.Construct, id *string, config *DataexchangeDataSetConfig) DataexchangeDataSet {
 	_init_.Initialize()
 
@@ -521,7 +521,7 @@ func NewDataexchangeDataSet(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dataexchange_data_set awscc_dataexchange_data_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dataexchange_data_set awscc_dataexchange_data_set} Resource.
 func NewDataexchangeDataSet_Override(d DataexchangeDataSet, scope constructs.Construct, id *string, config *DataexchangeDataSetConfig) {
 	_init_.Initialize()
 

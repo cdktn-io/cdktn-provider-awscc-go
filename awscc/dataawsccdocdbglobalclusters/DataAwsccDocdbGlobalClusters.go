@@ -5,14 +5,14 @@ package dataawsccdocdbglobalclusters
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdocdbglobalclusters/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdocdbglobalclusters/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/docdb_global_clusters awscc_docdb_global_clusters}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/docdb_global_clusters awscc_docdb_global_clusters}.
 type DataAwsccDocdbGlobalClusters interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDocdbGlobalClusters) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/docdb_global_clusters awscc_docdb_global_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/docdb_global_clusters awscc_docdb_global_clusters} Data Source.
 func NewDataAwsccDocdbGlobalClusters(scope constructs.Construct, id *string, config *DataAwsccDocdbGlobalClustersConfig) DataAwsccDocdbGlobalClusters {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDocdbGlobalClusters(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/docdb_global_clusters awscc_docdb_global_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/docdb_global_clusters awscc_docdb_global_clusters} Data Source.
 func NewDataAwsccDocdbGlobalClusters_Override(d DataAwsccDocdbGlobalClusters, scope constructs.Construct, id *string, config *DataAwsccDocdbGlobalClustersConfig) {
 	_init_.Initialize()
 

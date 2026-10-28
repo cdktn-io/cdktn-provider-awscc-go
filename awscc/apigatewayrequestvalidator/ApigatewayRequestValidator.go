@@ -5,14 +5,14 @@ package apigatewayrequestvalidator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayrequestvalidator/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayrequestvalidator/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_request_validator awscc_apigateway_request_validator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_request_validator awscc_apigateway_request_validator}.
 type ApigatewayRequestValidator interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_ApigatewayRequestValidator) ValidateRequestParametersInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_request_validator awscc_apigateway_request_validator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_request_validator awscc_apigateway_request_validator} Resource.
 func NewApigatewayRequestValidator(scope constructs.Construct, id *string, config *ApigatewayRequestValidatorConfig) ApigatewayRequestValidator {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewApigatewayRequestValidator(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_request_validator awscc_apigateway_request_validator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_request_validator awscc_apigateway_request_validator} Resource.
 func NewApigatewayRequestValidator_Override(a ApigatewayRequestValidator, scope constructs.Construct, id *string, config *ApigatewayRequestValidatorConfig) {
 	_init_.Initialize()
 

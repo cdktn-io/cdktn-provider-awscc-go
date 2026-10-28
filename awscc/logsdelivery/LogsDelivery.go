@@ -5,14 +5,14 @@ package logsdelivery
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdelivery/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsdelivery/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery awscc_logs_delivery}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery awscc_logs_delivery}.
 type LogsDelivery interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -554,7 +554,7 @@ func (j *jsiiProxy_LogsDelivery) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery awscc_logs_delivery} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery awscc_logs_delivery} Resource.
 func NewLogsDelivery(scope constructs.Construct, id *string, config *LogsDeliveryConfig) LogsDelivery {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewLogsDelivery(scope constructs.Construct, id *string, config *LogsDeliver
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_delivery awscc_logs_delivery} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_delivery awscc_logs_delivery} Resource.
 func NewLogsDelivery_Override(l LogsDelivery, scope constructs.Construct, id *string, config *LogsDeliveryConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package opensearchserverlesscollectiongroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlesscollectiongroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlesscollectiongroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection_group awscc_opensearchserverless_collection_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection_group awscc_opensearchserverless_collection_group}.
 type OpensearchserverlessCollectionGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -519,7 +519,7 @@ func (j *jsiiProxy_OpensearchserverlessCollectionGroup) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection_group awscc_opensearchserverless_collection_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection_group awscc_opensearchserverless_collection_group} Resource.
 func NewOpensearchserverlessCollectionGroup(scope constructs.Construct, id *string, config *OpensearchserverlessCollectionGroupConfig) OpensearchserverlessCollectionGroup {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewOpensearchserverlessCollectionGroup(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_collection_group awscc_opensearchserverless_collection_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_collection_group awscc_opensearchserverless_collection_group} Resource.
 func NewOpensearchserverlessCollectionGroup_Override(o OpensearchserverlessCollectionGroup, scope constructs.Construct, id *string, config *OpensearchserverlessCollectionGroupConfig) {
 	_init_.Initialize()
 

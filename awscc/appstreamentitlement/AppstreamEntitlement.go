@@ -5,14 +5,14 @@ package appstreamentitlement
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appstreamentitlement/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appstreamentitlement/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_entitlement awscc_appstream_entitlement}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_entitlement awscc_appstream_entitlement}.
 type AppstreamEntitlement interface {
 	cdktn.TerraformResource
 	AppVisibility() *string
@@ -493,7 +493,7 @@ func (j *jsiiProxy_AppstreamEntitlement) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_entitlement awscc_appstream_entitlement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_entitlement awscc_appstream_entitlement} Resource.
 func NewAppstreamEntitlement(scope constructs.Construct, id *string, config *AppstreamEntitlementConfig) AppstreamEntitlement {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewAppstreamEntitlement(scope constructs.Construct, id *string, config *App
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_entitlement awscc_appstream_entitlement} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_entitlement awscc_appstream_entitlement} Resource.
 func NewAppstreamEntitlement_Override(a AppstreamEntitlement, scope constructs.Construct, id *string, config *AppstreamEntitlementConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccssmresourcedatasync
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmresourcedatasync/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmresourcedatasync/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_resource_data_sync awscc_ssm_resource_data_sync}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_resource_data_sync awscc_ssm_resource_data_sync}.
 type DataAwsccSsmResourceDataSync interface {
 	cdktn.TerraformDataSource
 	BucketName() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccSsmResourceDataSync) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_resource_data_sync awscc_ssm_resource_data_sync} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_resource_data_sync awscc_ssm_resource_data_sync} Data Source.
 func NewDataAwsccSsmResourceDataSync(scope constructs.Construct, id *string, config *DataAwsccSsmResourceDataSyncConfig) DataAwsccSsmResourceDataSync {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccSsmResourceDataSync(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_resource_data_sync awscc_ssm_resource_data_sync} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_resource_data_sync awscc_ssm_resource_data_sync} Data Source.
 func NewDataAwsccSsmResourceDataSync_Override(d DataAwsccSsmResourceDataSync, scope constructs.Construct, id *string, config *DataAwsccSsmResourceDataSyncConfig) {
 	_init_.Initialize()
 

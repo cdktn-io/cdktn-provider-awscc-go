@@ -5,14 +5,14 @@ package route53dnssec
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53dnssec/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53dnssec/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_dnssec awscc_route53_dnssec}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_dnssec awscc_route53_dnssec}.
 type Route53Dnssec interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -378,7 +378,7 @@ func (j *jsiiProxy_Route53Dnssec) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_dnssec awscc_route53_dnssec} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_dnssec awscc_route53_dnssec} Resource.
 func NewRoute53Dnssec(scope constructs.Construct, id *string, config *Route53DnssecConfig) Route53Dnssec {
 	_init_.Initialize()
 
@@ -396,7 +396,7 @@ func NewRoute53Dnssec(scope constructs.Construct, id *string, config *Route53Dns
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53_dnssec awscc_route53_dnssec} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_dnssec awscc_route53_dnssec} Resource.
 func NewRoute53Dnssec_Override(r Route53Dnssec, scope constructs.Construct, id *string, config *Route53DnssecConfig) {
 	_init_.Initialize()
 

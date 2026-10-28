@@ -5,14 +5,14 @@ package dataawsccvpclatticeservicenetworks
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservicenetworks/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservicenetworks/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_service_networks awscc_vpclattice_service_networks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_service_networks awscc_vpclattice_service_networks}.
 type DataAwsccVpclatticeServiceNetworks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccVpclatticeServiceNetworks) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_service_networks awscc_vpclattice_service_networks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_service_networks awscc_vpclattice_service_networks} Data Source.
 func NewDataAwsccVpclatticeServiceNetworks(scope constructs.Construct, id *string, config *DataAwsccVpclatticeServiceNetworksConfig) DataAwsccVpclatticeServiceNetworks {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccVpclatticeServiceNetworks(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_service_networks awscc_vpclattice_service_networks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_service_networks awscc_vpclattice_service_networks} Data Source.
 func NewDataAwsccVpclatticeServiceNetworks_Override(d DataAwsccVpclatticeServiceNetworks, scope constructs.Construct, id *string, config *DataAwsccVpclatticeServiceNetworksConfig) {
 	_init_.Initialize()
 

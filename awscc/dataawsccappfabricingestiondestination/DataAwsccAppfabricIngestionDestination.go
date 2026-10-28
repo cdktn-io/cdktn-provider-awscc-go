@@ -5,14 +5,14 @@ package dataawsccappfabricingestiondestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappfabricingestiondestination/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappfabricingestiondestination/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appfabric_ingestion_destination awscc_appfabric_ingestion_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appfabric_ingestion_destination awscc_appfabric_ingestion_destination}.
 type DataAwsccAppfabricIngestionDestination interface {
 	cdktn.TerraformDataSource
 	AppBundleArn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccAppfabricIngestionDestination) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appfabric_ingestion_destination awscc_appfabric_ingestion_destination} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appfabric_ingestion_destination awscc_appfabric_ingestion_destination} Data Source.
 func NewDataAwsccAppfabricIngestionDestination(scope constructs.Construct, id *string, config *DataAwsccAppfabricIngestionDestinationConfig) DataAwsccAppfabricIngestionDestination {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccAppfabricIngestionDestination(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appfabric_ingestion_destination awscc_appfabric_ingestion_destination} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appfabric_ingestion_destination awscc_appfabric_ingestion_destination} Data Source.
 func NewDataAwsccAppfabricIngestionDestination_Override(d DataAwsccAppfabricIngestionDestination, scope constructs.Construct, id *string, config *DataAwsccAppfabricIngestionDestinationConfig) {
 	_init_.Initialize()
 

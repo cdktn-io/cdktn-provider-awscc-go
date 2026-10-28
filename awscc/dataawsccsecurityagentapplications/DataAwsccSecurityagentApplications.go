@@ -5,14 +5,14 @@ package dataawsccsecurityagentapplications
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityagentapplications/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityagentapplications/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityagent_applications awscc_securityagent_applications}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityagent_applications awscc_securityagent_applications}.
 type DataAwsccSecurityagentApplications interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSecurityagentApplications) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityagent_applications awscc_securityagent_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityagent_applications awscc_securityagent_applications} Data Source.
 func NewDataAwsccSecurityagentApplications(scope constructs.Construct, id *string, config *DataAwsccSecurityagentApplicationsConfig) DataAwsccSecurityagentApplications {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSecurityagentApplications(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityagent_applications awscc_securityagent_applications} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityagent_applications awscc_securityagent_applications} Data Source.
 func NewDataAwsccSecurityagentApplications_Override(d DataAwsccSecurityagentApplications, scope constructs.Construct, id *string, config *DataAwsccSecurityagentApplicationsConfig) {
 	_init_.Initialize()
 

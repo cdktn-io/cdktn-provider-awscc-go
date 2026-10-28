@@ -5,14 +5,14 @@ package dataawscctimestreaminfluxdbinstances
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctimestreaminfluxdbinstances/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctimestreaminfluxdbinstances/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/timestream_influx_db_instances awscc_timestream_influx_db_instances}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/timestream_influx_db_instances awscc_timestream_influx_db_instances}.
 type DataAwsccTimestreamInfluxDbInstances interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccTimestreamInfluxDbInstances) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/timestream_influx_db_instances awscc_timestream_influx_db_instances} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/timestream_influx_db_instances awscc_timestream_influx_db_instances} Data Source.
 func NewDataAwsccTimestreamInfluxDbInstances(scope constructs.Construct, id *string, config *DataAwsccTimestreamInfluxDbInstancesConfig) DataAwsccTimestreamInfluxDbInstances {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccTimestreamInfluxDbInstances(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/timestream_influx_db_instances awscc_timestream_influx_db_instances} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/timestream_influx_db_instances awscc_timestream_influx_db_instances} Data Source.
 func NewDataAwsccTimestreamInfluxDbInstances_Override(d DataAwsccTimestreamInfluxDbInstances, scope constructs.Construct, id *string, config *DataAwsccTimestreamInfluxDbInstancesConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccworkspaceswebbrowsersettingsplural
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspaceswebbrowsersettingsplural/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspaceswebbrowsersettingsplural/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_browser_settings_plural awscc_workspacesweb_browser_settings_plural}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_browser_settings_plural awscc_workspacesweb_browser_settings_plural}.
 type DataAwsccWorkspaceswebBrowserSettingsPlural interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccWorkspaceswebBrowserSettingsPlural) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_browser_settings_plural awscc_workspacesweb_browser_settings_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_browser_settings_plural awscc_workspacesweb_browser_settings_plural} Data Source.
 func NewDataAwsccWorkspaceswebBrowserSettingsPlural(scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebBrowserSettingsPluralConfig) DataAwsccWorkspaceswebBrowserSettingsPlural {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccWorkspaceswebBrowserSettingsPlural(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspacesweb_browser_settings_plural awscc_workspacesweb_browser_settings_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspacesweb_browser_settings_plural awscc_workspacesweb_browser_settings_plural} Data Source.
 func NewDataAwsccWorkspaceswebBrowserSettingsPlural_Override(d DataAwsccWorkspaceswebBrowserSettingsPlural, scope constructs.Construct, id *string, config *DataAwsccWorkspaceswebBrowserSettingsPluralConfig) {
 	_init_.Initialize()
 

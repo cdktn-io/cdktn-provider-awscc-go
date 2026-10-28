@@ -5,14 +5,14 @@ package organizationsorganization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/organizationsorganization/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/organizationsorganization/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/organizations_organization awscc_organizations_organization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/organizations_organization awscc_organizations_organization}.
 type OrganizationsOrganization interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -445,7 +445,7 @@ func (j *jsiiProxy_OrganizationsOrganization) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/organizations_organization awscc_organizations_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/organizations_organization awscc_organizations_organization} Resource.
 func NewOrganizationsOrganization(scope constructs.Construct, id *string, config *OrganizationsOrganizationConfig) OrganizationsOrganization {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewOrganizationsOrganization(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/organizations_organization awscc_organizations_organization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/organizations_organization awscc_organizations_organization} Resource.
 func NewOrganizationsOrganization_Override(o OrganizationsOrganization, scope constructs.Construct, id *string, config *OrganizationsOrganizationConfig) {
 	_init_.Initialize()
 

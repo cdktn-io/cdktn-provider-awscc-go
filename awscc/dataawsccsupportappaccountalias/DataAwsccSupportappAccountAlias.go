@@ -5,14 +5,14 @@ package dataawsccsupportappaccountalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsupportappaccountalias/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsupportappaccountalias/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/supportapp_account_alias awscc_supportapp_account_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/supportapp_account_alias awscc_supportapp_account_alias}.
 type DataAwsccSupportappAccountAlias interface {
 	cdktn.TerraformDataSource
 	AccountAlias() *string
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccSupportappAccountAlias) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/supportapp_account_alias awscc_supportapp_account_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/supportapp_account_alias awscc_supportapp_account_alias} Data Source.
 func NewDataAwsccSupportappAccountAlias(scope constructs.Construct, id *string, config *DataAwsccSupportappAccountAliasConfig) DataAwsccSupportappAccountAlias {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccSupportappAccountAlias(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/supportapp_account_alias awscc_supportapp_account_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/supportapp_account_alias awscc_supportapp_account_alias} Data Source.
 func NewDataAwsccSupportappAccountAlias_Override(d DataAwsccSupportappAccountAlias, scope constructs.Construct, id *string, config *DataAwsccSupportappAccountAliasConfig) {
 	_init_.Initialize()
 

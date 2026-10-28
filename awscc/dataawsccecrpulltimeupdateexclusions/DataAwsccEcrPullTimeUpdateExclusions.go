@@ -5,14 +5,14 @@ package dataawsccecrpulltimeupdateexclusions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrpulltimeupdateexclusions/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrpulltimeupdateexclusions/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecr_pull_time_update_exclusions awscc_ecr_pull_time_update_exclusions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecr_pull_time_update_exclusions awscc_ecr_pull_time_update_exclusions}.
 type DataAwsccEcrPullTimeUpdateExclusions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEcrPullTimeUpdateExclusions) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecr_pull_time_update_exclusions awscc_ecr_pull_time_update_exclusions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecr_pull_time_update_exclusions awscc_ecr_pull_time_update_exclusions} Data Source.
 func NewDataAwsccEcrPullTimeUpdateExclusions(scope constructs.Construct, id *string, config *DataAwsccEcrPullTimeUpdateExclusionsConfig) DataAwsccEcrPullTimeUpdateExclusions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEcrPullTimeUpdateExclusions(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecr_pull_time_update_exclusions awscc_ecr_pull_time_update_exclusions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecr_pull_time_update_exclusions awscc_ecr_pull_time_update_exclusions} Data Source.
 func NewDataAwsccEcrPullTimeUpdateExclusions_Override(d DataAwsccEcrPullTimeUpdateExclusions, scope constructs.Construct, id *string, config *DataAwsccEcrPullTimeUpdateExclusionsConfig) {
 	_init_.Initialize()
 

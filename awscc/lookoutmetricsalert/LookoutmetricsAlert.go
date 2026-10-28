@@ -5,14 +5,14 @@ package lookoutmetricsalert
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutmetricsalert/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutmetricsalert/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutmetrics_alert awscc_lookoutmetrics_alert}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutmetrics_alert awscc_lookoutmetrics_alert}.
 type LookoutmetricsAlert interface {
 	cdktn.TerraformResource
 	Action() LookoutmetricsAlertActionOutputReference
@@ -483,7 +483,7 @@ func (j *jsiiProxy_LookoutmetricsAlert) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutmetrics_alert awscc_lookoutmetrics_alert} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutmetrics_alert awscc_lookoutmetrics_alert} Resource.
 func NewLookoutmetricsAlert(scope constructs.Construct, id *string, config *LookoutmetricsAlertConfig) LookoutmetricsAlert {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewLookoutmetricsAlert(scope constructs.Construct, id *string, config *Look
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutmetrics_alert awscc_lookoutmetrics_alert} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutmetrics_alert awscc_lookoutmetrics_alert} Resource.
 func NewLookoutmetricsAlert_Override(l LookoutmetricsAlert, scope constructs.Construct, id *string, config *LookoutmetricsAlertConfig) {
 	_init_.Initialize()
 

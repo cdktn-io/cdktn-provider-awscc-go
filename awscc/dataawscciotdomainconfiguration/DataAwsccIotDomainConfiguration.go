@@ -5,14 +5,14 @@ package dataawscciotdomainconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotdomainconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotdomainconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_domain_configuration awscc_iot_domain_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_domain_configuration awscc_iot_domain_configuration}.
 type DataAwsccIotDomainConfiguration interface {
 	cdktn.TerraformDataSource
 	ApplicationProtocol() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataAwsccIotDomainConfiguration) ValidationCertificateArn() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_domain_configuration awscc_iot_domain_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_domain_configuration awscc_iot_domain_configuration} Data Source.
 func NewDataAwsccIotDomainConfiguration(scope constructs.Construct, id *string, config *DataAwsccIotDomainConfigurationConfig) DataAwsccIotDomainConfiguration {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataAwsccIotDomainConfiguration(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_domain_configuration awscc_iot_domain_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_domain_configuration awscc_iot_domain_configuration} Data Source.
 func NewDataAwsccIotDomainConfiguration_Override(d DataAwsccIotDomainConfiguration, scope constructs.Construct, id *string, config *DataAwsccIotDomainConfigurationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccsmsvoicepools
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoicepools/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoicepools/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_pools awscc_smsvoice_pools}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_pools awscc_smsvoice_pools}.
 type DataAwsccSmsvoicePools interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSmsvoicePools) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_pools awscc_smsvoice_pools} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_pools awscc_smsvoice_pools} Data Source.
 func NewDataAwsccSmsvoicePools(scope constructs.Construct, id *string, config *DataAwsccSmsvoicePoolsConfig) DataAwsccSmsvoicePools {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSmsvoicePools(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_pools awscc_smsvoice_pools} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_pools awscc_smsvoice_pools} Data Source.
 func NewDataAwsccSmsvoicePools_Override(d DataAwsccSmsvoicePools, scope constructs.Construct, id *string, config *DataAwsccSmsvoicePoolsConfig) {
 	_init_.Initialize()
 

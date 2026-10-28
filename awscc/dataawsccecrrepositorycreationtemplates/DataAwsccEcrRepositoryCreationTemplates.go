@@ -5,14 +5,14 @@ package dataawsccecrrepositorycreationtemplates
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecrrepositorycreationtemplates/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecrrepositorycreationtemplates/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecr_repository_creation_templates awscc_ecr_repository_creation_templates}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecr_repository_creation_templates awscc_ecr_repository_creation_templates}.
 type DataAwsccEcrRepositoryCreationTemplates interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEcrRepositoryCreationTemplates) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecr_repository_creation_templates awscc_ecr_repository_creation_templates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecr_repository_creation_templates awscc_ecr_repository_creation_templates} Data Source.
 func NewDataAwsccEcrRepositoryCreationTemplates(scope constructs.Construct, id *string, config *DataAwsccEcrRepositoryCreationTemplatesConfig) DataAwsccEcrRepositoryCreationTemplates {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEcrRepositoryCreationTemplates(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecr_repository_creation_templates awscc_ecr_repository_creation_templates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecr_repository_creation_templates awscc_ecr_repository_creation_templates} Data Source.
 func NewDataAwsccEcrRepositoryCreationTemplates_Override(d DataAwsccEcrRepositoryCreationTemplates, scope constructs.Construct, id *string, config *DataAwsccEcrRepositoryCreationTemplatesConfig) {
 	_init_.Initialize()
 

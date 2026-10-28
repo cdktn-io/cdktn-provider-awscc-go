@@ -5,14 +5,14 @@ package dataawsccsagemakerhub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerhub/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerhub/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_hub awscc_sagemaker_hub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_hub awscc_sagemaker_hub}.
 type DataAwsccSagemakerHub interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccSagemakerHub) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_hub awscc_sagemaker_hub} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_hub awscc_sagemaker_hub} Data Source.
 func NewDataAwsccSagemakerHub(scope constructs.Construct, id *string, config *DataAwsccSagemakerHubConfig) DataAwsccSagemakerHub {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccSagemakerHub(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_hub awscc_sagemaker_hub} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_hub awscc_sagemaker_hub} Data Source.
 func NewDataAwsccSagemakerHub_Override(d DataAwsccSagemakerHub, scope constructs.Construct, id *string, config *DataAwsccSagemakerHubConfig) {
 	_init_.Initialize()
 

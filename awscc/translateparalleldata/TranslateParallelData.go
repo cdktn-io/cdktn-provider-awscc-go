@@ -5,14 +5,14 @@ package translateparalleldata
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/translateparalleldata/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/translateparalleldata/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_parallel_data awscc_translate_parallel_data}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_parallel_data awscc_translate_parallel_data}.
 type TranslateParallelData interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -583,7 +583,7 @@ func (j *jsiiProxy_TranslateParallelData) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_parallel_data awscc_translate_parallel_data} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_parallel_data awscc_translate_parallel_data} Resource.
 func NewTranslateParallelData(scope constructs.Construct, id *string, config *TranslateParallelDataConfig) TranslateParallelData {
 	_init_.Initialize()
 
@@ -601,7 +601,7 @@ func NewTranslateParallelData(scope constructs.Construct, id *string, config *Tr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/translate_parallel_data awscc_translate_parallel_data} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/translate_parallel_data awscc_translate_parallel_data} Resource.
 func NewTranslateParallelData_Override(t TranslateParallelData, scope constructs.Construct, id *string, config *TranslateParallelDataConfig) {
 	_init_.Initialize()
 

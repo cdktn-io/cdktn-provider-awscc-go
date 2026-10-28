@@ -5,14 +5,14 @@ package dataawsccaccessanalyzeranalyzers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzeranalyzers/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzeranalyzers/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/accessanalyzer_analyzers awscc_accessanalyzer_analyzers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/accessanalyzer_analyzers awscc_accessanalyzer_analyzers}.
 type DataAwsccAccessanalyzerAnalyzers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccAccessanalyzerAnalyzers) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/accessanalyzer_analyzers awscc_accessanalyzer_analyzers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/accessanalyzer_analyzers awscc_accessanalyzer_analyzers} Data Source.
 func NewDataAwsccAccessanalyzerAnalyzers(scope constructs.Construct, id *string, config *DataAwsccAccessanalyzerAnalyzersConfig) DataAwsccAccessanalyzerAnalyzers {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccAccessanalyzerAnalyzers(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/accessanalyzer_analyzers awscc_accessanalyzer_analyzers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/accessanalyzer_analyzers awscc_accessanalyzer_analyzers} Data Source.
 func NewDataAwsccAccessanalyzerAnalyzers_Override(d DataAwsccAccessanalyzerAnalyzers, scope constructs.Construct, id *string, config *DataAwsccAccessanalyzerAnalyzersConfig) {
 	_init_.Initialize()
 

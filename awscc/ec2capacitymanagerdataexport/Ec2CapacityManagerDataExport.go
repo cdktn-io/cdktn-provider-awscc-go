@@ -5,14 +5,14 @@ package ec2capacitymanagerdataexport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2capacitymanagerdataexport/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2capacitymanagerdataexport/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_capacity_manager_data_export awscc_ec2_capacity_manager_data_export}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_capacity_manager_data_export awscc_ec2_capacity_manager_data_export}.
 type Ec2CapacityManagerDataExport interface {
 	cdktn.TerraformResource
 	CapacityManagerDataExportId() *string
@@ -483,7 +483,7 @@ func (j *jsiiProxy_Ec2CapacityManagerDataExport) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_capacity_manager_data_export awscc_ec2_capacity_manager_data_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_capacity_manager_data_export awscc_ec2_capacity_manager_data_export} Resource.
 func NewEc2CapacityManagerDataExport(scope constructs.Construct, id *string, config *Ec2CapacityManagerDataExportConfig) Ec2CapacityManagerDataExport {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewEc2CapacityManagerDataExport(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_capacity_manager_data_export awscc_ec2_capacity_manager_data_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_capacity_manager_data_export awscc_ec2_capacity_manager_data_export} Resource.
 func NewEc2CapacityManagerDataExport_Override(e Ec2CapacityManagerDataExport, scope constructs.Construct, id *string, config *Ec2CapacityManagerDataExportConfig) {
 	_init_.Initialize()
 

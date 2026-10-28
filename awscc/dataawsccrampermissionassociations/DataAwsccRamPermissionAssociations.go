@@ -5,14 +5,14 @@ package dataawsccrampermissionassociations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrampermissionassociations/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrampermissionassociations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ram_permission_associations awscc_ram_permission_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ram_permission_associations awscc_ram_permission_associations}.
 type DataAwsccRamPermissionAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRamPermissionAssociations) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ram_permission_associations awscc_ram_permission_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ram_permission_associations awscc_ram_permission_associations} Data Source.
 func NewDataAwsccRamPermissionAssociations(scope constructs.Construct, id *string, config *DataAwsccRamPermissionAssociationsConfig) DataAwsccRamPermissionAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRamPermissionAssociations(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ram_permission_associations awscc_ram_permission_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ram_permission_associations awscc_ram_permission_associations} Data Source.
 func NewDataAwsccRamPermissionAssociations_Override(d DataAwsccRamPermissionAssociations, scope constructs.Construct, id *string, config *DataAwsccRamPermissionAssociationsConfig) {
 	_init_.Initialize()
 

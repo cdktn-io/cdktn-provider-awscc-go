@@ -5,14 +5,14 @@ package servicediscoveryservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicediscoveryservice/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicediscoveryservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicediscovery_service awscc_servicediscovery_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicediscovery_service awscc_servicediscovery_service}.
 type ServicediscoveryService interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -593,7 +593,7 @@ func (j *jsiiProxy_ServicediscoveryService) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicediscovery_service awscc_servicediscovery_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicediscovery_service awscc_servicediscovery_service} Resource.
 func NewServicediscoveryService(scope constructs.Construct, id *string, config *ServicediscoveryServiceConfig) ServicediscoveryService {
 	_init_.Initialize()
 
@@ -611,7 +611,7 @@ func NewServicediscoveryService(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicediscovery_service awscc_servicediscovery_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicediscovery_service awscc_servicediscovery_service} Resource.
 func NewServicediscoveryService_Override(s ServicediscoveryService, scope constructs.Construct, id *string, config *ServicediscoveryServiceConfig) {
 	_init_.Initialize()
 

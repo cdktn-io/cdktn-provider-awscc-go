@@ -5,14 +5,14 @@ package networkmonitormonitor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmonitormonitor/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmonitormonitor/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmonitor_monitor awscc_networkmonitor_monitor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmonitor_monitor awscc_networkmonitor_monitor}.
 type NetworkmonitorMonitor interface {
 	cdktn.TerraformResource
 	AggregationPeriod() *float64
@@ -470,7 +470,7 @@ func (j *jsiiProxy_NetworkmonitorMonitor) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmonitor_monitor awscc_networkmonitor_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmonitor_monitor awscc_networkmonitor_monitor} Resource.
 func NewNetworkmonitorMonitor(scope constructs.Construct, id *string, config *NetworkmonitorMonitorConfig) NetworkmonitorMonitor {
 	_init_.Initialize()
 
@@ -488,7 +488,7 @@ func NewNetworkmonitorMonitor(scope constructs.Construct, id *string, config *Ne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmonitor_monitor awscc_networkmonitor_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmonitor_monitor awscc_networkmonitor_monitor} Resource.
 func NewNetworkmonitorMonitor_Override(n NetworkmonitorMonitor, scope constructs.Construct, id *string, config *NetworkmonitorMonitorConfig) {
 	_init_.Initialize()
 

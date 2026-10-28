@@ -5,14 +5,14 @@ package bedrockagentcorememory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorememory/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorememory/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_memory awscc_bedrockagentcore_memory}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_memory awscc_bedrockagentcore_memory}.
 type BedrockagentcoreMemory interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -659,7 +659,7 @@ func (j *jsiiProxy_BedrockagentcoreMemory) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_memory awscc_bedrockagentcore_memory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_memory awscc_bedrockagentcore_memory} Resource.
 func NewBedrockagentcoreMemory(scope constructs.Construct, id *string, config *BedrockagentcoreMemoryConfig) BedrockagentcoreMemory {
 	_init_.Initialize()
 
@@ -677,7 +677,7 @@ func NewBedrockagentcoreMemory(scope constructs.Construct, id *string, config *B
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_memory awscc_bedrockagentcore_memory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_memory awscc_bedrockagentcore_memory} Resource.
 func NewBedrockagentcoreMemory_Override(b BedrockagentcoreMemory, scope constructs.Construct, id *string, config *BedrockagentcoreMemoryConfig) {
 	_init_.Initialize()
 

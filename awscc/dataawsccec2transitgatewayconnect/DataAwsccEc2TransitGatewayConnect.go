@@ -5,14 +5,14 @@ package dataawsccec2transitgatewayconnect
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgatewayconnect/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgatewayconnect/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_transit_gateway_connect awscc_ec2_transit_gateway_connect}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_transit_gateway_connect awscc_ec2_transit_gateway_connect}.
 type DataAwsccEc2TransitGatewayConnect interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccEc2TransitGatewayConnect) TransportTransitGatewayAtt
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_transit_gateway_connect awscc_ec2_transit_gateway_connect} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_transit_gateway_connect awscc_ec2_transit_gateway_connect} Data Source.
 func NewDataAwsccEc2TransitGatewayConnect(scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayConnectConfig) DataAwsccEc2TransitGatewayConnect {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccEc2TransitGatewayConnect(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_transit_gateway_connect awscc_ec2_transit_gateway_connect} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_transit_gateway_connect awscc_ec2_transit_gateway_connect} Data Source.
 func NewDataAwsccEc2TransitGatewayConnect_Override(d DataAwsccEc2TransitGatewayConnect, scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewayConnectConfig) {
 	_init_.Initialize()
 

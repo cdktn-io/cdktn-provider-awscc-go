@@ -5,14 +5,14 @@ package dataawscccloudformationmoduleversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationmoduleversion/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationmoduleversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudformation_module_version awscc_cloudformation_module_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudformation_module_version awscc_cloudformation_module_version}.
 type DataAwsccCloudformationModuleVersion interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccCloudformationModuleVersion) Visibility() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudformation_module_version awscc_cloudformation_module_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudformation_module_version awscc_cloudformation_module_version} Data Source.
 func NewDataAwsccCloudformationModuleVersion(scope constructs.Construct, id *string, config *DataAwsccCloudformationModuleVersionConfig) DataAwsccCloudformationModuleVersion {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccCloudformationModuleVersion(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudformation_module_version awscc_cloudformation_module_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudformation_module_version awscc_cloudformation_module_version} Data Source.
 func NewDataAwsccCloudformationModuleVersion_Override(d DataAwsccCloudformationModuleVersion, scope constructs.Construct, id *string, config *DataAwsccCloudformationModuleVersionConfig) {
 	_init_.Initialize()
 

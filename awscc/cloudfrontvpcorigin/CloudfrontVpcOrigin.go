@@ -5,14 +5,14 @@ package cloudfrontvpcorigin
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontvpcorigin/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontvpcorigin/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_vpc_origin awscc_cloudfront_vpc_origin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_vpc_origin awscc_cloudfront_vpc_origin}.
 type CloudfrontVpcOrigin interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -468,7 +468,7 @@ func (j *jsiiProxy_CloudfrontVpcOrigin) VpcOriginId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_vpc_origin awscc_cloudfront_vpc_origin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_vpc_origin awscc_cloudfront_vpc_origin} Resource.
 func NewCloudfrontVpcOrigin(scope constructs.Construct, id *string, config *CloudfrontVpcOriginConfig) CloudfrontVpcOrigin {
 	_init_.Initialize()
 
@@ -486,7 +486,7 @@ func NewCloudfrontVpcOrigin(scope constructs.Construct, id *string, config *Clou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_vpc_origin awscc_cloudfront_vpc_origin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_vpc_origin awscc_cloudfront_vpc_origin} Resource.
 func NewCloudfrontVpcOrigin_Override(c CloudfrontVpcOrigin, scope constructs.Construct, id *string, config *CloudfrontVpcOriginConfig) {
 	_init_.Initialize()
 

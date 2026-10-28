@@ -5,14 +5,14 @@ package iotresourcespecificlogging
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotresourcespecificlogging/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotresourcespecificlogging/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_resource_specific_logging awscc_iot_resource_specific_logging}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_resource_specific_logging awscc_iot_resource_specific_logging}.
 type IotResourceSpecificLogging interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -435,7 +435,7 @@ func (j *jsiiProxy_IotResourceSpecificLogging) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_resource_specific_logging awscc_iot_resource_specific_logging} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_resource_specific_logging awscc_iot_resource_specific_logging} Resource.
 func NewIotResourceSpecificLogging(scope constructs.Construct, id *string, config *IotResourceSpecificLoggingConfig) IotResourceSpecificLogging {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewIotResourceSpecificLogging(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_resource_specific_logging awscc_iot_resource_specific_logging} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_resource_specific_logging awscc_iot_resource_specific_logging} Resource.
 func NewIotResourceSpecificLogging_Override(i IotResourceSpecificLogging, scope constructs.Construct, id *string, config *IotResourceSpecificLoggingConfig) {
 	_init_.Initialize()
 

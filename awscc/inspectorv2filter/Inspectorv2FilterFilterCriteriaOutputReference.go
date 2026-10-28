@@ -5,9 +5,9 @@ package inspectorv2filter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/inspectorv2filter/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/inspectorv2filter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -50,6 +50,8 @@ type Inspectorv2FilterFilterCriteriaOutputReference interface {
 	EcrImageArchitectureInput() interface{}
 	EcrImageHash() Inspectorv2FilterFilterCriteriaEcrImageHashList
 	EcrImageHashInput() interface{}
+	EcrImageInUseCount() Inspectorv2FilterFilterCriteriaEcrImageInUseCountList
+	EcrImageInUseCountInput() interface{}
 	EcrImagePushedAt() Inspectorv2FilterFilterCriteriaEcrImagePushedAtList
 	EcrImagePushedAtInput() interface{}
 	EcrImageRegistry() Inspectorv2FilterFilterCriteriaEcrImageRegistryList
@@ -159,6 +161,7 @@ type Inspectorv2FilterFilterCriteriaOutputReference interface {
 	PutEc2InstanceVpcId(value interface{})
 	PutEcrImageArchitecture(value interface{})
 	PutEcrImageHash(value interface{})
+	PutEcrImageInUseCount(value interface{})
 	PutEcrImagePushedAt(value interface{})
 	PutEcrImageRegistry(value interface{})
 	PutEcrImageRepositoryName(value interface{})
@@ -201,6 +204,7 @@ type Inspectorv2FilterFilterCriteriaOutputReference interface {
 	ResetEc2InstanceVpcId()
 	ResetEcrImageArchitecture()
 	ResetEcrImageHash()
+	ResetEcrImageInUseCount()
 	ResetEcrImagePushedAt()
 	ResetEcrImageRegistry()
 	ResetEcrImageRepositoryName()
@@ -492,6 +496,26 @@ func (j *jsiiProxy_Inspectorv2FilterFilterCriteriaOutputReference) EcrImageHashI
 	_jsii_.Get(
 		j,
 		"ecrImageHashInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Inspectorv2FilterFilterCriteriaOutputReference) EcrImageInUseCount() Inspectorv2FilterFilterCriteriaEcrImageInUseCountList {
+	var returns Inspectorv2FilterFilterCriteriaEcrImageInUseCountList
+	_jsii_.Get(
+		j,
+		"ecrImageInUseCount",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_Inspectorv2FilterFilterCriteriaOutputReference) EcrImageInUseCountInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ecrImageInUseCountInput",
 		&returns,
 	)
 	return returns
@@ -1547,6 +1571,17 @@ func (i *jsiiProxy_Inspectorv2FilterFilterCriteriaOutputReference) PutEcrImageHa
 	)
 }
 
+func (i *jsiiProxy_Inspectorv2FilterFilterCriteriaOutputReference) PutEcrImageInUseCount(value interface{}) {
+	if err := i.validatePutEcrImageInUseCountParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		i,
+		"putEcrImageInUseCount",
+		[]interface{}{value},
+	)
+}
+
 func (i *jsiiProxy_Inspectorv2FilterFilterCriteriaOutputReference) PutEcrImagePushedAt(value interface{}) {
 	if err := i.validatePutEcrImagePushedAtParameters(value); err != nil {
 		panic(err)
@@ -1972,6 +2007,14 @@ func (i *jsiiProxy_Inspectorv2FilterFilterCriteriaOutputReference) ResetEcrImage
 	_jsii_.InvokeVoid(
 		i,
 		"resetEcrImageHash",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_Inspectorv2FilterFilterCriteriaOutputReference) ResetEcrImageInUseCount() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetEcrImageInUseCount",
 		nil, // no parameters
 	)
 }

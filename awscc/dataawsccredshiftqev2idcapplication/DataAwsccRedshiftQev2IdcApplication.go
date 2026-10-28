@@ -5,14 +5,14 @@ package dataawsccredshiftqev2idcapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccredshiftqev2idcapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccredshiftqev2idcapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_qev2_idc_application awscc_redshift_qev2_idc_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_qev2_idc_application awscc_redshift_qev2_idc_application}.
 type DataAwsccRedshiftQev2IdcApplication interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccRedshiftQev2IdcApplication) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_qev2_idc_application awscc_redshift_qev2_idc_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_qev2_idc_application awscc_redshift_qev2_idc_application} Data Source.
 func NewDataAwsccRedshiftQev2IdcApplication(scope constructs.Construct, id *string, config *DataAwsccRedshiftQev2IdcApplicationConfig) DataAwsccRedshiftQev2IdcApplication {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccRedshiftQev2IdcApplication(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/redshift_qev2_idc_application awscc_redshift_qev2_idc_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/redshift_qev2_idc_application awscc_redshift_qev2_idc_application} Data Source.
 func NewDataAwsccRedshiftQev2IdcApplication_Override(d DataAwsccRedshiftQev2IdcApplication, scope constructs.Construct, id *string, config *DataAwsccRedshiftQev2IdcApplicationConfig) {
 	_init_.Initialize()
 

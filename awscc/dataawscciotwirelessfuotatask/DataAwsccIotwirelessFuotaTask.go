@@ -5,14 +5,14 @@ package dataawscciotwirelessfuotatask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelessfuotatask/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelessfuotatask/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_fuota_task awscc_iotwireless_fuota_task}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_fuota_task awscc_iotwireless_fuota_task}.
 type DataAwsccIotwirelessFuotaTask interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccIotwirelessFuotaTask) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_fuota_task awscc_iotwireless_fuota_task} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_fuota_task awscc_iotwireless_fuota_task} Data Source.
 func NewDataAwsccIotwirelessFuotaTask(scope constructs.Construct, id *string, config *DataAwsccIotwirelessFuotaTaskConfig) DataAwsccIotwirelessFuotaTask {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccIotwirelessFuotaTask(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_fuota_task awscc_iotwireless_fuota_task} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_fuota_task awscc_iotwireless_fuota_task} Data Source.
 func NewDataAwsccIotwirelessFuotaTask_Override(d DataAwsccIotwirelessFuotaTask, scope constructs.Construct, id *string, config *DataAwsccIotwirelessFuotaTaskConfig) {
 	_init_.Initialize()
 

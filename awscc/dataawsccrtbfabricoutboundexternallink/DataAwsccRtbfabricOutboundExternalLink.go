@@ -5,14 +5,14 @@ package dataawsccrtbfabricoutboundexternallink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabricoutboundexternallink/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabricoutboundexternallink/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_outbound_external_link awscc_rtbfabric_outbound_external_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_outbound_external_link awscc_rtbfabric_outbound_external_link}.
 type DataAwsccRtbfabricOutboundExternalLink interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccRtbfabricOutboundExternalLink) UpdatedTimestamp() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_outbound_external_link awscc_rtbfabric_outbound_external_link} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_outbound_external_link awscc_rtbfabric_outbound_external_link} Data Source.
 func NewDataAwsccRtbfabricOutboundExternalLink(scope constructs.Construct, id *string, config *DataAwsccRtbfabricOutboundExternalLinkConfig) DataAwsccRtbfabricOutboundExternalLink {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccRtbfabricOutboundExternalLink(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_outbound_external_link awscc_rtbfabric_outbound_external_link} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_outbound_external_link awscc_rtbfabric_outbound_external_link} Data Source.
 func NewDataAwsccRtbfabricOutboundExternalLink_Override(d DataAwsccRtbfabricOutboundExternalLink, scope constructs.Construct, id *string, config *DataAwsccRtbfabricOutboundExternalLinkConfig) {
 	_init_.Initialize()
 

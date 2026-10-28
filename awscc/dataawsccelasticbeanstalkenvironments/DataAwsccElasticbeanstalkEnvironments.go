@@ -5,14 +5,14 @@ package dataawsccelasticbeanstalkenvironments
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticbeanstalkenvironments/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticbeanstalkenvironments/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticbeanstalk_environments awscc_elasticbeanstalk_environments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticbeanstalk_environments awscc_elasticbeanstalk_environments}.
 type DataAwsccElasticbeanstalkEnvironments interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccElasticbeanstalkEnvironments) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticbeanstalk_environments awscc_elasticbeanstalk_environments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticbeanstalk_environments awscc_elasticbeanstalk_environments} Data Source.
 func NewDataAwsccElasticbeanstalkEnvironments(scope constructs.Construct, id *string, config *DataAwsccElasticbeanstalkEnvironmentsConfig) DataAwsccElasticbeanstalkEnvironments {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccElasticbeanstalkEnvironments(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticbeanstalk_environments awscc_elasticbeanstalk_environments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticbeanstalk_environments awscc_elasticbeanstalk_environments} Data Source.
 func NewDataAwsccElasticbeanstalkEnvironments_Override(d DataAwsccElasticbeanstalkEnvironments, scope constructs.Construct, id *string, config *DataAwsccElasticbeanstalkEnvironmentsConfig) {
 	_init_.Initialize()
 

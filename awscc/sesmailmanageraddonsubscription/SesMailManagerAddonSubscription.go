@@ -5,14 +5,14 @@ package sesmailmanageraddonsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sesmailmanageraddonsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sesmailmanageraddonsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_mail_manager_addon_subscription awscc_ses_mail_manager_addon_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_mail_manager_addon_subscription awscc_ses_mail_manager_addon_subscription}.
 type SesMailManagerAddonSubscription interface {
 	cdktn.TerraformResource
 	AddonName() *string
@@ -424,7 +424,7 @@ func (j *jsiiProxy_SesMailManagerAddonSubscription) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_mail_manager_addon_subscription awscc_ses_mail_manager_addon_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_mail_manager_addon_subscription awscc_ses_mail_manager_addon_subscription} Resource.
 func NewSesMailManagerAddonSubscription(scope constructs.Construct, id *string, config *SesMailManagerAddonSubscriptionConfig) SesMailManagerAddonSubscription {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewSesMailManagerAddonSubscription(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_mail_manager_addon_subscription awscc_ses_mail_manager_addon_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ses_mail_manager_addon_subscription awscc_ses_mail_manager_addon_subscription} Resource.
 func NewSesMailManagerAddonSubscription_Override(s SesMailManagerAddonSubscription, scope constructs.Construct, id *string, config *SesMailManagerAddonSubscriptionConfig) {
 	_init_.Initialize()
 

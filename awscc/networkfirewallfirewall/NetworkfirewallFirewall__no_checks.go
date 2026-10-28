@@ -83,11 +83,23 @@ func (n *jsiiProxy_NetworkfirewallFirewall) validatePutAvailabilityZoneMappingsP
 	return nil
 }
 
+func (n *jsiiProxy_NetworkfirewallFirewall) validatePutNatGatewayMappingsParameters(value interface{}) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewall) validatePutProxySettingsParameters(value *NetworkfirewallFirewallProxySettings) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkfirewallFirewall) validatePutSubnetMappingsParameters(value interface{}) error {
 	return nil
 }
 
 func (n *jsiiProxy_NetworkfirewallFirewall) validatePutTagsParameters(value interface{}) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkfirewallFirewall) validatePutVpcEndpointParameters(value *NetworkfirewallFirewallVpcEndpoint) error {
 	return nil
 }
 
@@ -148,6 +160,10 @@ func (j *jsiiProxy_NetworkfirewallFirewall) validateSetFirewallPolicyChangeProte
 }
 
 func (j *jsiiProxy_NetworkfirewallFirewall) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkfirewallFirewall) validateSetNoSourcePreservationParameters(val interface{}) error {
 	return nil
 }
 

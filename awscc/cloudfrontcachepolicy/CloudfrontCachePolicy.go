@@ -5,14 +5,14 @@ package cloudfrontcachepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontcachepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontcachepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_cache_policy awscc_cloudfront_cache_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_cache_policy awscc_cloudfront_cache_policy}.
 type CloudfrontCachePolicy interface {
 	cdktn.TerraformResource
 	CachePolicyConfig() CloudfrontCachePolicyCachePolicyConfigOutputReference
@@ -400,7 +400,7 @@ func (j *jsiiProxy_CloudfrontCachePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_cache_policy awscc_cloudfront_cache_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_cache_policy awscc_cloudfront_cache_policy} Resource.
 func NewCloudfrontCachePolicy(scope constructs.Construct, id *string, config *CloudfrontCachePolicyConfig) CloudfrontCachePolicy {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewCloudfrontCachePolicy(scope constructs.Construct, id *string, config *Cl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_cache_policy awscc_cloudfront_cache_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_cache_policy awscc_cloudfront_cache_policy} Resource.
 func NewCloudfrontCachePolicy_Override(c CloudfrontCachePolicy, scope constructs.Construct, id *string, config *CloudfrontCachePolicyConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccdataexchangeeventaction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdataexchangeeventaction/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdataexchangeeventaction/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dataexchange_event_action awscc_dataexchange_event_action}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dataexchange_event_action awscc_dataexchange_event_action}.
 type DataAwsccDataexchangeEventAction interface {
 	cdktn.TerraformDataSource
 	Action() DataAwsccDataexchangeEventActionActionOutputReference
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccDataexchangeEventAction) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dataexchange_event_action awscc_dataexchange_event_action} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dataexchange_event_action awscc_dataexchange_event_action} Data Source.
 func NewDataAwsccDataexchangeEventAction(scope constructs.Construct, id *string, config *DataAwsccDataexchangeEventActionConfig) DataAwsccDataexchangeEventAction {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccDataexchangeEventAction(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/dataexchange_event_action awscc_dataexchange_event_action} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dataexchange_event_action awscc_dataexchange_event_action} Data Source.
 func NewDataAwsccDataexchangeEventAction_Override(d DataAwsccDataexchangeEventAction, scope constructs.Construct, id *string, config *DataAwsccDataexchangeEventActionConfig) {
 	_init_.Initialize()
 

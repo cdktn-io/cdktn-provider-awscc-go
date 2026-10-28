@@ -5,14 +5,14 @@ package dataawsccoamsinks
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccoamsinks/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccoamsinks/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/oam_sinks awscc_oam_sinks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/oam_sinks awscc_oam_sinks}.
 type DataAwsccOamSinks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccOamSinks) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/oam_sinks awscc_oam_sinks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/oam_sinks awscc_oam_sinks} Data Source.
 func NewDataAwsccOamSinks(scope constructs.Construct, id *string, config *DataAwsccOamSinksConfig) DataAwsccOamSinks {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccOamSinks(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/oam_sinks awscc_oam_sinks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/oam_sinks awscc_oam_sinks} Data Source.
 func NewDataAwsccOamSinks_Override(d DataAwsccOamSinks, scope constructs.Construct, id *string, config *DataAwsccOamSinksConfig) {
 	_init_.Initialize()
 

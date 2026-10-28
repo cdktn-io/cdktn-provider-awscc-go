@@ -5,14 +5,14 @@ package sagemakerartifact
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerartifact/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerartifact/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_artifact awscc_sagemaker_artifact}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_artifact awscc_sagemaker_artifact}.
 type SagemakerArtifact interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -530,7 +530,7 @@ func (j *jsiiProxy_SagemakerArtifact) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_artifact awscc_sagemaker_artifact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_artifact awscc_sagemaker_artifact} Resource.
 func NewSagemakerArtifact(scope constructs.Construct, id *string, config *SagemakerArtifactConfig) SagemakerArtifact {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewSagemakerArtifact(scope constructs.Construct, id *string, config *Sagema
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_artifact awscc_sagemaker_artifact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_artifact awscc_sagemaker_artifact} Resource.
 func NewSagemakerArtifact_Override(s SagemakerArtifact, scope constructs.Construct, id *string, config *SagemakerArtifactConfig) {
 	_init_.Initialize()
 

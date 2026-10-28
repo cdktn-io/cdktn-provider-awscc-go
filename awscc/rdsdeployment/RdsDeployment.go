@@ -5,14 +5,14 @@ package rdsdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_deployment awscc_rds_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_deployment awscc_rds_deployment}.
 type RdsDeployment interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -718,7 +718,7 @@ func (j *jsiiProxy_RdsDeployment) UpgradeTargetStorageConfigInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_deployment awscc_rds_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_deployment awscc_rds_deployment} Resource.
 func NewRdsDeployment(scope constructs.Construct, id *string, config *RdsDeploymentConfig) RdsDeployment {
 	_init_.Initialize()
 
@@ -736,7 +736,7 @@ func NewRdsDeployment(scope constructs.Construct, id *string, config *RdsDeploym
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_deployment awscc_rds_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_deployment awscc_rds_deployment} Resource.
 func NewRdsDeployment_Override(r RdsDeployment, scope constructs.Construct, id *string, config *RdsDeploymentConfig) {
 	_init_.Initialize()
 

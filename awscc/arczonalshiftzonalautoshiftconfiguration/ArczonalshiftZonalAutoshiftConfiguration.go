@@ -5,14 +5,14 @@ package arczonalshiftzonalautoshiftconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/arczonalshiftzonalautoshiftconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/arczonalshiftzonalautoshiftconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/arczonalshift_zonal_autoshift_configuration awscc_arczonalshift_zonal_autoshift_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/arczonalshift_zonal_autoshift_configuration awscc_arczonalshift_zonal_autoshift_configuration}.
 type ArczonalshiftZonalAutoshiftConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -427,7 +427,7 @@ func (j *jsiiProxy_ArczonalshiftZonalAutoshiftConfiguration) ZonalAutoshiftStatu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/arczonalshift_zonal_autoshift_configuration awscc_arczonalshift_zonal_autoshift_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/arczonalshift_zonal_autoshift_configuration awscc_arczonalshift_zonal_autoshift_configuration} Resource.
 func NewArczonalshiftZonalAutoshiftConfiguration(scope constructs.Construct, id *string, config *ArczonalshiftZonalAutoshiftConfigurationConfig) ArczonalshiftZonalAutoshiftConfiguration {
 	_init_.Initialize()
 
@@ -445,7 +445,7 @@ func NewArczonalshiftZonalAutoshiftConfiguration(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/arczonalshift_zonal_autoshift_configuration awscc_arczonalshift_zonal_autoshift_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/arczonalshift_zonal_autoshift_configuration awscc_arczonalshift_zonal_autoshift_configuration} Resource.
 func NewArczonalshiftZonalAutoshiftConfiguration_Override(a ArczonalshiftZonalAutoshiftConfiguration, scope constructs.Construct, id *string, config *ArczonalshiftZonalAutoshiftConfigurationConfig) {
 	_init_.Initialize()
 

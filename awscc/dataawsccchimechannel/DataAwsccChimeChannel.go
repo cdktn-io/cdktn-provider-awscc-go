@@ -5,14 +5,14 @@ package dataawsccchimechannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimechannel/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimechannel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_channel awscc_chime_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_channel awscc_chime_channel}.
 type DataAwsccChimeChannel interface {
 	cdktn.TerraformDataSource
 	AppInstanceArn() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_DataAwsccChimeChannel) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_channel awscc_chime_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_channel awscc_chime_channel} Data Source.
 func NewDataAwsccChimeChannel(scope constructs.Construct, id *string, config *DataAwsccChimeChannelConfig) DataAwsccChimeChannel {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewDataAwsccChimeChannel(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_channel awscc_chime_channel} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_channel awscc_chime_channel} Data Source.
 func NewDataAwsccChimeChannel_Override(d DataAwsccChimeChannel, scope constructs.Construct, id *string, config *DataAwsccChimeChannelConfig) {
 	_init_.Initialize()
 

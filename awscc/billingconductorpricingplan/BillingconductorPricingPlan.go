@@ -5,14 +5,14 @@ package billingconductorpricingplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/billingconductorpricingplan/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/billingconductorpricingplan/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_plan awscc_billingconductor_pricing_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_plan awscc_billingconductor_pricing_plan}.
 type BillingconductorPricingPlan interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -494,7 +494,7 @@ func (j *jsiiProxy_BillingconductorPricingPlan) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_plan awscc_billingconductor_pricing_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_plan awscc_billingconductor_pricing_plan} Resource.
 func NewBillingconductorPricingPlan(scope constructs.Construct, id *string, config *BillingconductorPricingPlanConfig) BillingconductorPricingPlan {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewBillingconductorPricingPlan(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/billingconductor_pricing_plan awscc_billingconductor_pricing_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/billingconductor_pricing_plan awscc_billingconductor_pricing_plan} Resource.
 func NewBillingconductorPricingPlan_Override(b BillingconductorPricingPlan, scope constructs.Construct, id *string, config *BillingconductorPricingPlanConfig) {
 	_init_.Initialize()
 

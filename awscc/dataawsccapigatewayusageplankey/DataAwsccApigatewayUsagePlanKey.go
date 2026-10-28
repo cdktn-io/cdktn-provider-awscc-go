@@ -5,14 +5,14 @@ package dataawsccapigatewayusageplankey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayusageplankey/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayusageplankey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_usage_plan_key awscc_apigateway_usage_plan_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_usage_plan_key awscc_apigateway_usage_plan_key}.
 type DataAwsccApigatewayUsagePlanKey interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccApigatewayUsagePlanKey) UsagePlanKeyId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_usage_plan_key awscc_apigateway_usage_plan_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_usage_plan_key awscc_apigateway_usage_plan_key} Data Source.
 func NewDataAwsccApigatewayUsagePlanKey(scope constructs.Construct, id *string, config *DataAwsccApigatewayUsagePlanKeyConfig) DataAwsccApigatewayUsagePlanKey {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccApigatewayUsagePlanKey(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_usage_plan_key awscc_apigateway_usage_plan_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_usage_plan_key awscc_apigateway_usage_plan_key} Data Source.
 func NewDataAwsccApigatewayUsagePlanKey_Override(d DataAwsccApigatewayUsagePlanKey, scope constructs.Construct, id *string, config *DataAwsccApigatewayUsagePlanKeyConfig) {
 	_init_.Initialize()
 

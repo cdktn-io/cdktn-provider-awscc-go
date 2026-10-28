@@ -5,9 +5,9 @@ package healthlakefhirdatastore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/healthlakefhirdatastore/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/healthlakefhirdatastore/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 

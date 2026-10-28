@@ -5,14 +5,14 @@ package kafkaconnectcustomplugin
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kafkaconnectcustomplugin/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kafkaconnectcustomplugin/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_custom_plugin awscc_kafkaconnect_custom_plugin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_custom_plugin awscc_kafkaconnect_custom_plugin}.
 type KafkaconnectCustomPlugin interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -505,7 +505,7 @@ func (j *jsiiProxy_KafkaconnectCustomPlugin) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_custom_plugin awscc_kafkaconnect_custom_plugin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_custom_plugin awscc_kafkaconnect_custom_plugin} Resource.
 func NewKafkaconnectCustomPlugin(scope constructs.Construct, id *string, config *KafkaconnectCustomPluginConfig) KafkaconnectCustomPlugin {
 	_init_.Initialize()
 
@@ -523,7 +523,7 @@ func NewKafkaconnectCustomPlugin(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kafkaconnect_custom_plugin awscc_kafkaconnect_custom_plugin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kafkaconnect_custom_plugin awscc_kafkaconnect_custom_plugin} Resource.
 func NewKafkaconnectCustomPlugin_Override(k KafkaconnectCustomPlugin, scope constructs.Construct, id *string, config *KafkaconnectCustomPluginConfig) {
 	_init_.Initialize()
 

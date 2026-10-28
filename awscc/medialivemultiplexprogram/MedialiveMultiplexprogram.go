@@ -5,14 +5,14 @@ package medialivemultiplexprogram
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivemultiplexprogram/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivemultiplexprogram/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_multiplexprogram awscc_medialive_multiplexprogram}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_multiplexprogram awscc_medialive_multiplexprogram}.
 type MedialiveMultiplexprogram interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -510,7 +510,7 @@ func (j *jsiiProxy_MedialiveMultiplexprogram) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_multiplexprogram awscc_medialive_multiplexprogram} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_multiplexprogram awscc_medialive_multiplexprogram} Resource.
 func NewMedialiveMultiplexprogram(scope constructs.Construct, id *string, config *MedialiveMultiplexprogramConfig) MedialiveMultiplexprogram {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewMedialiveMultiplexprogram(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_multiplexprogram awscc_medialive_multiplexprogram} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_multiplexprogram awscc_medialive_multiplexprogram} Resource.
 func NewMedialiveMultiplexprogram_Override(m MedialiveMultiplexprogram, scope constructs.Construct, id *string, config *MedialiveMultiplexprogramConfig) {
 	_init_.Initialize()
 

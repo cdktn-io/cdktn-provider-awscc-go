@@ -5,14 +5,14 @@ package drsrecoveryplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/drsrecoveryplan/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/drsrecoveryplan/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_recovery_plan awscc_drs_recovery_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_recovery_plan awscc_drs_recovery_plan}.
 type DrsRecoveryPlan interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -481,7 +481,7 @@ func (j *jsiiProxy_DrsRecoveryPlan) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_recovery_plan awscc_drs_recovery_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_recovery_plan awscc_drs_recovery_plan} Resource.
 func NewDrsRecoveryPlan(scope constructs.Construct, id *string, config *DrsRecoveryPlanConfig) DrsRecoveryPlan {
 	_init_.Initialize()
 
@@ -499,7 +499,7 @@ func NewDrsRecoveryPlan(scope constructs.Construct, id *string, config *DrsRecov
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_recovery_plan awscc_drs_recovery_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_recovery_plan awscc_drs_recovery_plan} Resource.
 func NewDrsRecoveryPlan_Override(d DrsRecoveryPlan, scope constructs.Construct, id *string, config *DrsRecoveryPlanConfig) {
 	_init_.Initialize()
 

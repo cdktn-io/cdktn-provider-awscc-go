@@ -5,14 +5,14 @@ package dataawsccaccessanalyzerarchiverule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccaccessanalyzerarchiverule/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccaccessanalyzerarchiverule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/accessanalyzer_archive_rule awscc_accessanalyzer_archive_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/accessanalyzer_archive_rule awscc_accessanalyzer_archive_rule}.
 type DataAwsccAccessanalyzerArchiveRule interface {
 	cdktn.TerraformDataSource
 	AnalyzerName() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccAccessanalyzerArchiveRule) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/accessanalyzer_archive_rule awscc_accessanalyzer_archive_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/accessanalyzer_archive_rule awscc_accessanalyzer_archive_rule} Data Source.
 func NewDataAwsccAccessanalyzerArchiveRule(scope constructs.Construct, id *string, config *DataAwsccAccessanalyzerArchiveRuleConfig) DataAwsccAccessanalyzerArchiveRule {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccAccessanalyzerArchiveRule(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/accessanalyzer_archive_rule awscc_accessanalyzer_archive_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/accessanalyzer_archive_rule awscc_accessanalyzer_archive_rule} Data Source.
 func NewDataAwsccAccessanalyzerArchiveRule_Override(d DataAwsccAccessanalyzerArchiveRule, scope constructs.Construct, id *string, config *DataAwsccAccessanalyzerArchiveRuleConfig) {
 	_init_.Initialize()
 

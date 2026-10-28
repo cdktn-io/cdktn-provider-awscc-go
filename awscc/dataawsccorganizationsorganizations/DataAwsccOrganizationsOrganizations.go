@@ -5,14 +5,14 @@ package dataawsccorganizationsorganizations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccorganizationsorganizations/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccorganizationsorganizations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/organizations_organizations awscc_organizations_organizations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/organizations_organizations awscc_organizations_organizations}.
 type DataAwsccOrganizationsOrganizations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccOrganizationsOrganizations) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/organizations_organizations awscc_organizations_organizations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/organizations_organizations awscc_organizations_organizations} Data Source.
 func NewDataAwsccOrganizationsOrganizations(scope constructs.Construct, id *string, config *DataAwsccOrganizationsOrganizationsConfig) DataAwsccOrganizationsOrganizations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccOrganizationsOrganizations(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/organizations_organizations awscc_organizations_organizations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/organizations_organizations awscc_organizations_organizations} Data Source.
 func NewDataAwsccOrganizationsOrganizations_Override(d DataAwsccOrganizationsOrganizations, scope constructs.Construct, id *string, config *DataAwsccOrganizationsOrganizationsConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccneptuneglobalclusters
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptuneglobalclusters/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptuneglobalclusters/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/neptune_global_clusters awscc_neptune_global_clusters}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/neptune_global_clusters awscc_neptune_global_clusters}.
 type DataAwsccNeptuneGlobalClusters interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNeptuneGlobalClusters) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/neptune_global_clusters awscc_neptune_global_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/neptune_global_clusters awscc_neptune_global_clusters} Data Source.
 func NewDataAwsccNeptuneGlobalClusters(scope constructs.Construct, id *string, config *DataAwsccNeptuneGlobalClustersConfig) DataAwsccNeptuneGlobalClusters {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNeptuneGlobalClusters(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/neptune_global_clusters awscc_neptune_global_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/neptune_global_clusters awscc_neptune_global_clusters} Data Source.
 func NewDataAwsccNeptuneGlobalClusters_Override(d DataAwsccNeptuneGlobalClusters, scope constructs.Construct, id *string, config *DataAwsccNeptuneGlobalClustersConfig) {
 	_init_.Initialize()
 

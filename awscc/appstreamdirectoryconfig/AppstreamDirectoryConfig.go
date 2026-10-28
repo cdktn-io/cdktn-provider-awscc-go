@@ -5,14 +5,14 @@ package appstreamdirectoryconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appstreamdirectoryconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appstreamdirectoryconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_directory_config awscc_appstream_directory_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_directory_config awscc_appstream_directory_config}.
 type AppstreamDirectoryConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -448,7 +448,7 @@ func (j *jsiiProxy_AppstreamDirectoryConfig) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_directory_config awscc_appstream_directory_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_directory_config awscc_appstream_directory_config} Resource.
 func NewAppstreamDirectoryConfig(scope constructs.Construct, id *string, config *AppstreamDirectoryConfigConfig) AppstreamDirectoryConfig {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewAppstreamDirectoryConfig(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_directory_config awscc_appstream_directory_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_directory_config awscc_appstream_directory_config} Resource.
 func NewAppstreamDirectoryConfig_Override(a AppstreamDirectoryConfig, scope constructs.Construct, id *string, config *AppstreamDirectoryConfigConfig) {
 	_init_.Initialize()
 

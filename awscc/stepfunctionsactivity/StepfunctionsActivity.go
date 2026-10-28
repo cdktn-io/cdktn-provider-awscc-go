@@ -5,14 +5,14 @@ package stepfunctionsactivity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/stepfunctionsactivity/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/stepfunctionsactivity/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/stepfunctions_activity awscc_stepfunctions_activity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/stepfunctions_activity awscc_stepfunctions_activity}.
 type StepfunctionsActivity interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -437,7 +437,7 @@ func (j *jsiiProxy_StepfunctionsActivity) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/stepfunctions_activity awscc_stepfunctions_activity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/stepfunctions_activity awscc_stepfunctions_activity} Resource.
 func NewStepfunctionsActivity(scope constructs.Construct, id *string, config *StepfunctionsActivityConfig) StepfunctionsActivity {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewStepfunctionsActivity(scope constructs.Construct, id *string, config *St
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/stepfunctions_activity awscc_stepfunctions_activity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/stepfunctions_activity awscc_stepfunctions_activity} Resource.
 func NewStepfunctionsActivity_Override(s StepfunctionsActivity, scope constructs.Construct, id *string, config *StepfunctionsActivityConfig) {
 	_init_.Initialize()
 

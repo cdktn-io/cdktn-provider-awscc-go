@@ -5,14 +5,14 @@ package shieldprotectiongroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/shieldprotectiongroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/shieldprotectiongroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/shield_protection_group awscc_shield_protection_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/shield_protection_group awscc_shield_protection_group}.
 type ShieldProtectionGroup interface {
 	cdktn.TerraformResource
 	Aggregation() *string
@@ -507,7 +507,7 @@ func (j *jsiiProxy_ShieldProtectionGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/shield_protection_group awscc_shield_protection_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/shield_protection_group awscc_shield_protection_group} Resource.
 func NewShieldProtectionGroup(scope constructs.Construct, id *string, config *ShieldProtectionGroupConfig) ShieldProtectionGroup {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewShieldProtectionGroup(scope constructs.Construct, id *string, config *Sh
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/shield_protection_group awscc_shield_protection_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/shield_protection_group awscc_shield_protection_group} Resource.
 func NewShieldProtectionGroup_Override(s ShieldProtectionGroup, scope constructs.Construct, id *string, config *ShieldProtectionGroupConfig) {
 	_init_.Initialize()
 

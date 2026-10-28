@@ -5,14 +5,14 @@ package dataawsccec2networkinsightsanalysis
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2networkinsightsanalysis/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2networkinsightsanalysis/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_network_insights_analysis awscc_ec2_network_insights_analysis}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_network_insights_analysis awscc_ec2_network_insights_analysis}.
 type DataAwsccEc2NetworkInsightsAnalysis interface {
 	cdktn.TerraformDataSource
 	AlternatePathHints() DataAwsccEc2NetworkInsightsAnalysisAlternatePathHintsList
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccEc2NetworkInsightsAnalysis) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_network_insights_analysis awscc_ec2_network_insights_analysis} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_network_insights_analysis awscc_ec2_network_insights_analysis} Data Source.
 func NewDataAwsccEc2NetworkInsightsAnalysis(scope constructs.Construct, id *string, config *DataAwsccEc2NetworkInsightsAnalysisConfig) DataAwsccEc2NetworkInsightsAnalysis {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccEc2NetworkInsightsAnalysis(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_network_insights_analysis awscc_ec2_network_insights_analysis} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_network_insights_analysis awscc_ec2_network_insights_analysis} Data Source.
 func NewDataAwsccEc2NetworkInsightsAnalysis_Override(d DataAwsccEc2NetworkInsightsAnalysis, scope constructs.Construct, id *string, config *DataAwsccEc2NetworkInsightsAnalysisConfig) {
 	_init_.Initialize()
 

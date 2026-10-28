@@ -5,14 +5,14 @@ package s3outpostsendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3outpostsendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3outpostsendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3outposts_endpoint awscc_s3outposts_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3outposts_endpoint awscc_s3outposts_endpoint}.
 type S3OutpostsEndpoint interface {
 	cdktn.TerraformResource
 	AccessType() *string
@@ -562,7 +562,7 @@ func (j *jsiiProxy_S3OutpostsEndpoint) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3outposts_endpoint awscc_s3outposts_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3outposts_endpoint awscc_s3outposts_endpoint} Resource.
 func NewS3OutpostsEndpoint(scope constructs.Construct, id *string, config *S3OutpostsEndpointConfig) S3OutpostsEndpoint {
 	_init_.Initialize()
 
@@ -580,7 +580,7 @@ func NewS3OutpostsEndpoint(scope constructs.Construct, id *string, config *S3Out
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3outposts_endpoint awscc_s3outposts_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3outposts_endpoint awscc_s3outposts_endpoint} Resource.
 func NewS3OutpostsEndpoint_Override(s S3OutpostsEndpoint, scope constructs.Construct, id *string, config *S3OutpostsEndpointConfig) {
 	_init_.Initialize()
 

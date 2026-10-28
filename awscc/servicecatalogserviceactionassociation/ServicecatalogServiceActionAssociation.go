@@ -5,14 +5,14 @@ package servicecatalogserviceactionassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogserviceactionassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogserviceactionassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_service_action_association awscc_servicecatalog_service_action_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_service_action_association awscc_servicecatalog_service_action_association}.
 type ServicecatalogServiceActionAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_ServicecatalogServiceActionAssociation) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_service_action_association awscc_servicecatalog_service_action_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_service_action_association awscc_servicecatalog_service_action_association} Resource.
 func NewServicecatalogServiceActionAssociation(scope constructs.Construct, id *string, config *ServicecatalogServiceActionAssociationConfig) ServicecatalogServiceActionAssociation {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewServicecatalogServiceActionAssociation(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_service_action_association awscc_servicecatalog_service_action_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_service_action_association awscc_servicecatalog_service_action_association} Resource.
 func NewServicecatalogServiceActionAssociation_Override(s ServicecatalogServiceActionAssociation, scope constructs.Construct, id *string, config *ServicecatalogServiceActionAssociationConfig) {
 	_init_.Initialize()
 

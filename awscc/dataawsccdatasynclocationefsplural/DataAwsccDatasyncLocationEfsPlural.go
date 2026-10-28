@@ -5,14 +5,14 @@ package dataawsccdatasynclocationefsplural
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationefsplural/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationefsplural/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_efs_plural awscc_datasync_location_efs_plural}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_efs_plural awscc_datasync_location_efs_plural}.
 type DataAwsccDatasyncLocationEfsPlural interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDatasyncLocationEfsPlural) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_efs_plural awscc_datasync_location_efs_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_efs_plural awscc_datasync_location_efs_plural} Data Source.
 func NewDataAwsccDatasyncLocationEfsPlural(scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationEfsPluralConfig) DataAwsccDatasyncLocationEfsPlural {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDatasyncLocationEfsPlural(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_efs_plural awscc_datasync_location_efs_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_efs_plural awscc_datasync_location_efs_plural} Data Source.
 func NewDataAwsccDatasyncLocationEfsPlural_Override(d DataAwsccDatasyncLocationEfsPlural, scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationEfsPluralConfig) {
 	_init_.Initialize()
 

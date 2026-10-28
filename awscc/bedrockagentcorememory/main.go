@@ -1807,6 +1807,11 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "namespaceTemplatesInput", GoGetter: "NamespaceTemplatesInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putConfiguration", GoMethod: "PutConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putMemoryRecordSchema", GoMethod: "PutMemoryRecordSchema"},
+			_jsii_.MemberMethod{JsiiMethod: "putRecordExpirySpecification", GoMethod: "PutRecordExpirySpecification"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpiryDurationDays", GoGetter: "RecordExpiryDurationDays"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpiryDurationDaysInput", GoGetter: "RecordExpiryDurationDaysInput"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpirySpecification", GoGetter: "RecordExpirySpecification"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpirySpecificationInput", GoGetter: "RecordExpirySpecificationInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetConfiguration", GoMethod: "ResetConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCreatedAt", GoMethod: "ResetCreatedAt"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
@@ -1814,6 +1819,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetName", GoMethod: "ResetName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNamespaces", GoMethod: "ResetNamespaces"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNamespaceTemplates", GoMethod: "ResetNamespaceTemplates"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRecordExpiryDurationDays", GoMethod: "ResetRecordExpiryDurationDays"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRecordExpirySpecification", GoMethod: "ResetRecordExpirySpecification"},
 			_jsii_.MemberMethod{JsiiMethod: "resetStatus", GoMethod: "ResetStatus"},
 			_jsii_.MemberMethod{JsiiMethod: "resetStrategyId", GoMethod: "ResetStrategyId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetType", GoMethod: "ResetType"},
@@ -1833,6 +1840,45 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.bedrockagentcoreMemory.BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyRecordExpirySpecification",
+		reflect.TypeOf((*BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyRecordExpirySpecification)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.bedrockagentcoreMemory.BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyRecordExpirySpecificationOutputReference",
+		reflect.TypeOf((*BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyRecordExpirySpecificationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpiryDurationDays", GoGetter: "RecordExpiryDurationDays"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpiryDurationDaysInput", GoGetter: "RecordExpiryDurationDaysInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRecordExpiryDurationDays", GoMethod: "ResetRecordExpiryDurationDays"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyRecordExpirySpecificationOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
@@ -2243,7 +2289,12 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "namespaceTemplates", GoGetter: "NamespaceTemplates"},
 			_jsii_.MemberProperty{JsiiProperty: "namespaceTemplatesInput", GoGetter: "NamespaceTemplatesInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putMemoryRecordSchema", GoMethod: "PutMemoryRecordSchema"},
+			_jsii_.MemberMethod{JsiiMethod: "putRecordExpirySpecification", GoMethod: "PutRecordExpirySpecification"},
 			_jsii_.MemberMethod{JsiiMethod: "putReflectionConfiguration", GoMethod: "PutReflectionConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpiryDurationDays", GoGetter: "RecordExpiryDurationDays"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpiryDurationDaysInput", GoGetter: "RecordExpiryDurationDaysInput"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpirySpecification", GoGetter: "RecordExpirySpecification"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpirySpecificationInput", GoGetter: "RecordExpirySpecificationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "reflectionConfiguration", GoGetter: "ReflectionConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "reflectionConfigurationInput", GoGetter: "ReflectionConfigurationInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCreatedAt", GoMethod: "ResetCreatedAt"},
@@ -2252,6 +2303,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetName", GoMethod: "ResetName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNamespaces", GoMethod: "ResetNamespaces"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNamespaceTemplates", GoMethod: "ResetNamespaceTemplates"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRecordExpiryDurationDays", GoMethod: "ResetRecordExpiryDurationDays"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRecordExpirySpecification", GoMethod: "ResetRecordExpirySpecification"},
 			_jsii_.MemberMethod{JsiiMethod: "resetReflectionConfiguration", GoMethod: "ResetReflectionConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetStatus", GoMethod: "ResetStatus"},
 			_jsii_.MemberMethod{JsiiMethod: "resetStrategyId", GoMethod: "ResetStrategyId"},
@@ -2272,6 +2325,45 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.bedrockagentcoreMemory.BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyRecordExpirySpecification",
+		reflect.TypeOf((*BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyRecordExpirySpecification)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.bedrockagentcoreMemory.BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyRecordExpirySpecificationOutputReference",
+		reflect.TypeOf((*BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyRecordExpirySpecificationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpiryDurationDays", GoGetter: "RecordExpiryDurationDays"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpiryDurationDaysInput", GoGetter: "RecordExpiryDurationDaysInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRecordExpiryDurationDays", GoMethod: "ResetRecordExpiryDurationDays"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesEpisodicMemoryStrategyRecordExpirySpecificationOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
@@ -3170,12 +3262,19 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "namespaceTemplates", GoGetter: "NamespaceTemplates"},
 			_jsii_.MemberProperty{JsiiProperty: "namespaceTemplatesInput", GoGetter: "NamespaceTemplatesInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putMemoryRecordSchema", GoMethod: "PutMemoryRecordSchema"},
+			_jsii_.MemberMethod{JsiiMethod: "putRecordExpirySpecification", GoMethod: "PutRecordExpirySpecification"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpiryDurationDays", GoGetter: "RecordExpiryDurationDays"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpiryDurationDaysInput", GoGetter: "RecordExpiryDurationDaysInput"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpirySpecification", GoGetter: "RecordExpirySpecification"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpirySpecificationInput", GoGetter: "RecordExpirySpecificationInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCreatedAt", GoMethod: "ResetCreatedAt"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMemoryRecordSchema", GoMethod: "ResetMemoryRecordSchema"},
 			_jsii_.MemberMethod{JsiiMethod: "resetName", GoMethod: "ResetName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNamespaces", GoMethod: "ResetNamespaces"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNamespaceTemplates", GoMethod: "ResetNamespaceTemplates"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRecordExpiryDurationDays", GoMethod: "ResetRecordExpiryDurationDays"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRecordExpirySpecification", GoMethod: "ResetRecordExpirySpecification"},
 			_jsii_.MemberMethod{JsiiMethod: "resetStatus", GoMethod: "ResetStatus"},
 			_jsii_.MemberMethod{JsiiMethod: "resetStrategyId", GoMethod: "ResetStrategyId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetType", GoMethod: "ResetType"},
@@ -3195,6 +3294,45 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.bedrockagentcoreMemory.BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecification",
+		reflect.TypeOf((*BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecification)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.bedrockagentcoreMemory.BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationOutputReference",
+		reflect.TypeOf((*BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpiryDurationDays", GoGetter: "RecordExpiryDurationDays"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpiryDurationDaysInput", GoGetter: "RecordExpiryDurationDaysInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRecordExpiryDurationDays", GoMethod: "ResetRecordExpiryDurationDays"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesSemanticMemoryStrategyRecordExpirySpecificationOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
@@ -3605,12 +3743,19 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "namespaceTemplates", GoGetter: "NamespaceTemplates"},
 			_jsii_.MemberProperty{JsiiProperty: "namespaceTemplatesInput", GoGetter: "NamespaceTemplatesInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putMemoryRecordSchema", GoMethod: "PutMemoryRecordSchema"},
+			_jsii_.MemberMethod{JsiiMethod: "putRecordExpirySpecification", GoMethod: "PutRecordExpirySpecification"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpiryDurationDays", GoGetter: "RecordExpiryDurationDays"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpiryDurationDaysInput", GoGetter: "RecordExpiryDurationDaysInput"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpirySpecification", GoGetter: "RecordExpirySpecification"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpirySpecificationInput", GoGetter: "RecordExpirySpecificationInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCreatedAt", GoMethod: "ResetCreatedAt"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMemoryRecordSchema", GoMethod: "ResetMemoryRecordSchema"},
 			_jsii_.MemberMethod{JsiiMethod: "resetName", GoMethod: "ResetName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNamespaces", GoMethod: "ResetNamespaces"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNamespaceTemplates", GoMethod: "ResetNamespaceTemplates"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRecordExpiryDurationDays", GoMethod: "ResetRecordExpiryDurationDays"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRecordExpirySpecification", GoMethod: "ResetRecordExpirySpecification"},
 			_jsii_.MemberMethod{JsiiMethod: "resetStatus", GoMethod: "ResetStatus"},
 			_jsii_.MemberMethod{JsiiMethod: "resetStrategyId", GoMethod: "ResetStrategyId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetType", GoMethod: "ResetType"},
@@ -3630,6 +3775,45 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.bedrockagentcoreMemory.BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecification",
+		reflect.TypeOf((*BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecification)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.bedrockagentcoreMemory.BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationOutputReference",
+		reflect.TypeOf((*BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpiryDurationDays", GoGetter: "RecordExpiryDurationDays"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpiryDurationDaysInput", GoGetter: "RecordExpiryDurationDaysInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRecordExpiryDurationDays", GoMethod: "ResetRecordExpiryDurationDays"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
@@ -4040,12 +4224,19 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "namespaceTemplates", GoGetter: "NamespaceTemplates"},
 			_jsii_.MemberProperty{JsiiProperty: "namespaceTemplatesInput", GoGetter: "NamespaceTemplatesInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putMemoryRecordSchema", GoMethod: "PutMemoryRecordSchema"},
+			_jsii_.MemberMethod{JsiiMethod: "putRecordExpirySpecification", GoMethod: "PutRecordExpirySpecification"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpiryDurationDays", GoGetter: "RecordExpiryDurationDays"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpiryDurationDaysInput", GoGetter: "RecordExpiryDurationDaysInput"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpirySpecification", GoGetter: "RecordExpirySpecification"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpirySpecificationInput", GoGetter: "RecordExpirySpecificationInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCreatedAt", GoMethod: "ResetCreatedAt"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMemoryRecordSchema", GoMethod: "ResetMemoryRecordSchema"},
 			_jsii_.MemberMethod{JsiiMethod: "resetName", GoMethod: "ResetName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNamespaces", GoMethod: "ResetNamespaces"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNamespaceTemplates", GoMethod: "ResetNamespaceTemplates"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRecordExpiryDurationDays", GoMethod: "ResetRecordExpiryDurationDays"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRecordExpirySpecification", GoMethod: "ResetRecordExpirySpecification"},
 			_jsii_.MemberMethod{JsiiMethod: "resetStatus", GoMethod: "ResetStatus"},
 			_jsii_.MemberMethod{JsiiMethod: "resetStrategyId", GoMethod: "ResetStrategyId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetType", GoMethod: "ResetType"},
@@ -4065,6 +4256,45 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.bedrockagentcoreMemory.BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecification",
+		reflect.TypeOf((*BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecification)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.bedrockagentcoreMemory.BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference",
+		reflect.TypeOf((*BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpiryDurationDays", GoGetter: "RecordExpiryDurationDays"},
+			_jsii_.MemberProperty{JsiiProperty: "recordExpiryDurationDaysInput", GoGetter: "RecordExpiryDurationDaysInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRecordExpiryDurationDays", GoMethod: "ResetRecordExpiryDurationDays"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

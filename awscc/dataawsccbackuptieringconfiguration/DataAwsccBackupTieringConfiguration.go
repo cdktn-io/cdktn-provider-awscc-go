@@ -5,14 +5,14 @@ package dataawsccbackuptieringconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuptieringconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuptieringconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_tiering_configuration awscc_backup_tiering_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_tiering_configuration awscc_backup_tiering_configuration}.
 type DataAwsccBackupTieringConfiguration interface {
 	cdktn.TerraformDataSource
 	BackupVaultName() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccBackupTieringConfiguration) TieringConfigurationTags
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_tiering_configuration awscc_backup_tiering_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_tiering_configuration awscc_backup_tiering_configuration} Data Source.
 func NewDataAwsccBackupTieringConfiguration(scope constructs.Construct, id *string, config *DataAwsccBackupTieringConfigurationConfig) DataAwsccBackupTieringConfiguration {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccBackupTieringConfiguration(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_tiering_configuration awscc_backup_tiering_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_tiering_configuration awscc_backup_tiering_configuration} Data Source.
 func NewDataAwsccBackupTieringConfiguration_Override(d DataAwsccBackupTieringConfiguration, scope constructs.Construct, id *string, config *DataAwsccBackupTieringConfigurationConfig) {
 	_init_.Initialize()
 

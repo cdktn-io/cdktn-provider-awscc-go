@@ -5,14 +5,14 @@ package smsvoicephonenumber
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicephonenumber/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicephonenumber/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number awscc_smsvoice_phone_number}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number awscc_smsvoice_phone_number}.
 type SmsvoicePhoneNumber interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -624,7 +624,7 @@ func (j *jsiiProxy_SmsvoicePhoneNumber) TwoWayInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number awscc_smsvoice_phone_number} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number awscc_smsvoice_phone_number} Resource.
 func NewSmsvoicePhoneNumber(scope constructs.Construct, id *string, config *SmsvoicePhoneNumberConfig) SmsvoicePhoneNumber {
 	_init_.Initialize()
 
@@ -642,7 +642,7 @@ func NewSmsvoicePhoneNumber(scope constructs.Construct, id *string, config *Smsv
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_phone_number awscc_smsvoice_phone_number} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_phone_number awscc_smsvoice_phone_number} Resource.
 func NewSmsvoicePhoneNumber_Override(s SmsvoicePhoneNumber, scope constructs.Construct, id *string, config *SmsvoicePhoneNumberConfig) {
 	_init_.Initialize()
 

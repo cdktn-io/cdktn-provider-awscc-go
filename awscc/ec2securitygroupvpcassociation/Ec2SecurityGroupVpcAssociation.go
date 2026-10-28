@@ -5,14 +5,14 @@ package ec2securitygroupvpcassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2securitygroupvpcassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2securitygroupvpcassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_security_group_vpc_association awscc_ec2_security_group_vpc_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_security_group_vpc_association awscc_ec2_security_group_vpc_association}.
 type Ec2SecurityGroupVpcAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -434,7 +434,7 @@ func (j *jsiiProxy_Ec2SecurityGroupVpcAssociation) VpcOwnerId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_security_group_vpc_association awscc_ec2_security_group_vpc_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_security_group_vpc_association awscc_ec2_security_group_vpc_association} Resource.
 func NewEc2SecurityGroupVpcAssociation(scope constructs.Construct, id *string, config *Ec2SecurityGroupVpcAssociationConfig) Ec2SecurityGroupVpcAssociation {
 	_init_.Initialize()
 
@@ -452,7 +452,7 @@ func NewEc2SecurityGroupVpcAssociation(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_security_group_vpc_association awscc_ec2_security_group_vpc_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_security_group_vpc_association awscc_ec2_security_group_vpc_association} Resource.
 func NewEc2SecurityGroupVpcAssociation_Override(e Ec2SecurityGroupVpcAssociation, scope constructs.Construct, id *string, config *Ec2SecurityGroupVpcAssociationConfig) {
 	_init_.Initialize()
 

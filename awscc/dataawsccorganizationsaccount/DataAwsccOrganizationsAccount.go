@@ -5,14 +5,14 @@ package dataawsccorganizationsaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccorganizationsaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccorganizationsaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/organizations_account awscc_organizations_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/organizations_account awscc_organizations_account}.
 type DataAwsccOrganizationsAccount interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccOrganizationsAccount) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/organizations_account awscc_organizations_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/organizations_account awscc_organizations_account} Data Source.
 func NewDataAwsccOrganizationsAccount(scope constructs.Construct, id *string, config *DataAwsccOrganizationsAccountConfig) DataAwsccOrganizationsAccount {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccOrganizationsAccount(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/organizations_account awscc_organizations_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/organizations_account awscc_organizations_account} Data Source.
 func NewDataAwsccOrganizationsAccount_Override(d DataAwsccOrganizationsAccount, scope constructs.Construct, id *string, config *DataAwsccOrganizationsAccountConfig) {
 	_init_.Initialize()
 

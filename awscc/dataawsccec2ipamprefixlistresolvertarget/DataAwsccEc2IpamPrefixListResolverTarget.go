@@ -5,14 +5,14 @@ package dataawsccec2ipamprefixlistresolvertarget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ipamprefixlistresolvertarget/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ipamprefixlistresolvertarget/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ipam_prefix_list_resolver_target awscc_ec2_ipam_prefix_list_resolver_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_prefix_list_resolver_target awscc_ec2_ipam_prefix_list_resolver_target}.
 type DataAwsccEc2IpamPrefixListResolverTarget interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccEc2IpamPrefixListResolverTarget) TrackLatestVersion(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ipam_prefix_list_resolver_target awscc_ec2_ipam_prefix_list_resolver_target} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_prefix_list_resolver_target awscc_ec2_ipam_prefix_list_resolver_target} Data Source.
 func NewDataAwsccEc2IpamPrefixListResolverTarget(scope constructs.Construct, id *string, config *DataAwsccEc2IpamPrefixListResolverTargetConfig) DataAwsccEc2IpamPrefixListResolverTarget {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccEc2IpamPrefixListResolverTarget(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ipam_prefix_list_resolver_target awscc_ec2_ipam_prefix_list_resolver_target} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_prefix_list_resolver_target awscc_ec2_ipam_prefix_list_resolver_target} Data Source.
 func NewDataAwsccEc2IpamPrefixListResolverTarget_Override(d DataAwsccEc2IpamPrefixListResolverTarget, scope constructs.Construct, id *string, config *DataAwsccEc2IpamPrefixListResolverTargetConfig) {
 	_init_.Initialize()
 

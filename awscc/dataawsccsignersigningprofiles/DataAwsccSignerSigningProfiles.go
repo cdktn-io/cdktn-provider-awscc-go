@@ -5,14 +5,14 @@ package dataawsccsignersigningprofiles
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsignersigningprofiles/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsignersigningprofiles/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/signer_signing_profiles awscc_signer_signing_profiles}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/signer_signing_profiles awscc_signer_signing_profiles}.
 type DataAwsccSignerSigningProfiles interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSignerSigningProfiles) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/signer_signing_profiles awscc_signer_signing_profiles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/signer_signing_profiles awscc_signer_signing_profiles} Data Source.
 func NewDataAwsccSignerSigningProfiles(scope constructs.Construct, id *string, config *DataAwsccSignerSigningProfilesConfig) DataAwsccSignerSigningProfiles {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSignerSigningProfiles(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/signer_signing_profiles awscc_signer_signing_profiles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/signer_signing_profiles awscc_signer_signing_profiles} Data Source.
 func NewDataAwsccSignerSigningProfiles_Override(d DataAwsccSignerSigningProfiles, scope constructs.Construct, id *string, config *DataAwsccSignerSigningProfilesConfig) {
 	_init_.Initialize()
 

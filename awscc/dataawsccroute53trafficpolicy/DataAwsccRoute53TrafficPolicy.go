@@ -5,14 +5,14 @@ package dataawsccroute53trafficpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53trafficpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53trafficpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_traffic_policy awscc_route53_traffic_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_traffic_policy awscc_route53_traffic_policy}.
 type DataAwsccRoute53TrafficPolicy interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccRoute53TrafficPolicy) Version() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_traffic_policy awscc_route53_traffic_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_traffic_policy awscc_route53_traffic_policy} Data Source.
 func NewDataAwsccRoute53TrafficPolicy(scope constructs.Construct, id *string, config *DataAwsccRoute53TrafficPolicyConfig) DataAwsccRoute53TrafficPolicy {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccRoute53TrafficPolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_traffic_policy awscc_route53_traffic_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_traffic_policy awscc_route53_traffic_policy} Data Source.
 func NewDataAwsccRoute53TrafficPolicy_Override(d DataAwsccRoute53TrafficPolicy, scope constructs.Construct, id *string, config *DataAwsccRoute53TrafficPolicyConfig) {
 	_init_.Initialize()
 

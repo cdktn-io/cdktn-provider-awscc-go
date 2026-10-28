@@ -5,9 +5,9 @@ package fsxstoragevirtualmachine
 
 
 type FsxStorageVirtualMachineTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_storage_virtual_machine#key FsxStorageVirtualMachine#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_storage_virtual_machine#key FsxStorageVirtualMachine#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_storage_virtual_machine#value FsxStorageVirtualMachine#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_storage_virtual_machine#value FsxStorageVirtualMachine#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

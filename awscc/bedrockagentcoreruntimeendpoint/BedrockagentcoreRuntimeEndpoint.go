@@ -5,14 +5,14 @@ package bedrockagentcoreruntimeendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcoreruntimeendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcoreruntimeendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_runtime_endpoint awscc_bedrockagentcore_runtime_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_runtime_endpoint awscc_bedrockagentcore_runtime_endpoint}.
 type BedrockagentcoreRuntimeEndpoint interface {
 	cdktn.TerraformResource
 	AgentRuntimeArn() *string
@@ -572,7 +572,7 @@ func (j *jsiiProxy_BedrockagentcoreRuntimeEndpoint) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_runtime_endpoint awscc_bedrockagentcore_runtime_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_runtime_endpoint awscc_bedrockagentcore_runtime_endpoint} Resource.
 func NewBedrockagentcoreRuntimeEndpoint(scope constructs.Construct, id *string, config *BedrockagentcoreRuntimeEndpointConfig) BedrockagentcoreRuntimeEndpoint {
 	_init_.Initialize()
 
@@ -590,7 +590,7 @@ func NewBedrockagentcoreRuntimeEndpoint(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_runtime_endpoint awscc_bedrockagentcore_runtime_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_runtime_endpoint awscc_bedrockagentcore_runtime_endpoint} Resource.
 func NewBedrockagentcoreRuntimeEndpoint_Override(b BedrockagentcoreRuntimeEndpoint, scope constructs.Construct, id *string, config *BedrockagentcoreRuntimeEndpointConfig) {
 	_init_.Initialize()
 

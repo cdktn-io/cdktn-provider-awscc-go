@@ -5,14 +5,14 @@ package dataawscciamvirtualmfadevices
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciamvirtualmfadevices/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciamvirtualmfadevices/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_virtual_mfa_devices awscc_iam_virtual_mfa_devices}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_virtual_mfa_devices awscc_iam_virtual_mfa_devices}.
 type DataAwsccIamVirtualMfaDevices interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIamVirtualMfaDevices) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_virtual_mfa_devices awscc_iam_virtual_mfa_devices} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_virtual_mfa_devices awscc_iam_virtual_mfa_devices} Data Source.
 func NewDataAwsccIamVirtualMfaDevices(scope constructs.Construct, id *string, config *DataAwsccIamVirtualMfaDevicesConfig) DataAwsccIamVirtualMfaDevices {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIamVirtualMfaDevices(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iam_virtual_mfa_devices awscc_iam_virtual_mfa_devices} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iam_virtual_mfa_devices awscc_iam_virtual_mfa_devices} Data Source.
 func NewDataAwsccIamVirtualMfaDevices_Override(d DataAwsccIamVirtualMfaDevices, scope constructs.Construct, id *string, config *DataAwsccIamVirtualMfaDevicesConfig) {
 	_init_.Initialize()
 

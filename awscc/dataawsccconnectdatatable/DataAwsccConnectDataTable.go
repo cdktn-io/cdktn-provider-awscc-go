@@ -5,14 +5,14 @@ package dataawsccconnectdatatable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectdatatable/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectdatatable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_data_table awscc_connect_data_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_data_table awscc_connect_data_table}.
 type DataAwsccConnectDataTable interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccConnectDataTable) ValueLockLevel() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_data_table awscc_connect_data_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_data_table awscc_connect_data_table} Data Source.
 func NewDataAwsccConnectDataTable(scope constructs.Construct, id *string, config *DataAwsccConnectDataTableConfig) DataAwsccConnectDataTable {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccConnectDataTable(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_data_table awscc_connect_data_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_data_table awscc_connect_data_table} Data Source.
 func NewDataAwsccConnectDataTable_Override(d DataAwsccConnectDataTable, scope constructs.Construct, id *string, config *DataAwsccConnectDataTableConfig) {
 	_init_.Initialize()
 

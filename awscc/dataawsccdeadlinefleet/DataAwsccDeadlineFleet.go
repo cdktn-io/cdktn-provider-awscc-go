@@ -5,14 +5,14 @@ package dataawsccdeadlinefleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinefleet/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinefleet/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_fleet awscc_deadline_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_fleet awscc_deadline_fleet}.
 type DataAwsccDeadlineFleet interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccDeadlineFleet) WorkerCount() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_fleet awscc_deadline_fleet} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_fleet awscc_deadline_fleet} Data Source.
 func NewDataAwsccDeadlineFleet(scope constructs.Construct, id *string, config *DataAwsccDeadlineFleetConfig) DataAwsccDeadlineFleet {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccDeadlineFleet(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_fleet awscc_deadline_fleet} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_fleet awscc_deadline_fleet} Data Source.
 func NewDataAwsccDeadlineFleet_Override(d DataAwsccDeadlineFleet, scope constructs.Construct, id *string, config *DataAwsccDeadlineFleetConfig) {
 	_init_.Initialize()
 

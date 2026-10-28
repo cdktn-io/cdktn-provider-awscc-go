@@ -5,14 +5,14 @@ package deadlinebudget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinebudget/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinebudget/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_budget awscc_deadline_budget}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_budget awscc_deadline_budget}.
 type DeadlineBudget interface {
 	cdktn.TerraformResource
 	Actions() DeadlineBudgetActionsList
@@ -574,7 +574,7 @@ func (j *jsiiProxy_DeadlineBudget) UsageTrackingResourceInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_budget awscc_deadline_budget} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_budget awscc_deadline_budget} Resource.
 func NewDeadlineBudget(scope constructs.Construct, id *string, config *DeadlineBudgetConfig) DeadlineBudget {
 	_init_.Initialize()
 
@@ -592,7 +592,7 @@ func NewDeadlineBudget(scope constructs.Construct, id *string, config *DeadlineB
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_budget awscc_deadline_budget} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_budget awscc_deadline_budget} Resource.
 func NewDeadlineBudget_Override(d DeadlineBudget, scope constructs.Construct, id *string, config *DeadlineBudgetConfig) {
 	_init_.Initialize()
 

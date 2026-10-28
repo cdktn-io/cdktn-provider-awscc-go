@@ -5,14 +5,14 @@ package applicationautoscalingscalabletarget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationautoscalingscalabletarget/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationautoscalingscalabletarget/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target}.
 type ApplicationautoscalingScalableTarget interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -577,7 +577,7 @@ func (j *jsiiProxy_ApplicationautoscalingScalableTarget) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target} Resource.
 func NewApplicationautoscalingScalableTarget(scope constructs.Construct, id *string, config *ApplicationautoscalingScalableTargetConfig) ApplicationautoscalingScalableTarget {
 	_init_.Initialize()
 
@@ -595,7 +595,7 @@ func NewApplicationautoscalingScalableTarget(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target} Resource.
 func NewApplicationautoscalingScalableTarget_Override(a ApplicationautoscalingScalableTarget, scope constructs.Construct, id *string, config *ApplicationautoscalingScalableTargetConfig) {
 	_init_.Initialize()
 

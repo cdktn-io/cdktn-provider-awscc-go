@@ -5,14 +5,14 @@ package cloudfrontresponseheaderspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudfrontresponseheaderspolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudfrontresponseheaderspolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_response_headers_policy awscc_cloudfront_response_headers_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_response_headers_policy awscc_cloudfront_response_headers_policy}.
 type CloudfrontResponseHeadersPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -400,7 +400,7 @@ func (j *jsiiProxy_CloudfrontResponseHeadersPolicy) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_response_headers_policy awscc_cloudfront_response_headers_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_response_headers_policy awscc_cloudfront_response_headers_policy} Resource.
 func NewCloudfrontResponseHeadersPolicy(scope constructs.Construct, id *string, config *CloudfrontResponseHeadersPolicyConfig) CloudfrontResponseHeadersPolicy {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewCloudfrontResponseHeadersPolicy(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudfront_response_headers_policy awscc_cloudfront_response_headers_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_response_headers_policy awscc_cloudfront_response_headers_policy} Resource.
 func NewCloudfrontResponseHeadersPolicy_Override(c CloudfrontResponseHeadersPolicy, scope constructs.Construct, id *string, config *CloudfrontResponseHeadersPolicyConfig) {
 	_init_.Initialize()
 

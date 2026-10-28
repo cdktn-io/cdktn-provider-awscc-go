@@ -5,14 +5,14 @@ package networkmanagertransitgatewayregistration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagertransitgatewayregistration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagertransitgatewayregistration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_transit_gateway_registration awscc_networkmanager_transit_gateway_registration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_transit_gateway_registration awscc_networkmanager_transit_gateway_registration}.
 type NetworkmanagerTransitGatewayRegistration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_NetworkmanagerTransitGatewayRegistration) TransitGatewayArnIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_transit_gateway_registration awscc_networkmanager_transit_gateway_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_transit_gateway_registration awscc_networkmanager_transit_gateway_registration} Resource.
 func NewNetworkmanagerTransitGatewayRegistration(scope constructs.Construct, id *string, config *NetworkmanagerTransitGatewayRegistrationConfig) NetworkmanagerTransitGatewayRegistration {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewNetworkmanagerTransitGatewayRegistration(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_transit_gateway_registration awscc_networkmanager_transit_gateway_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_transit_gateway_registration awscc_networkmanager_transit_gateway_registration} Resource.
 func NewNetworkmanagerTransitGatewayRegistration_Override(n NetworkmanagerTransitGatewayRegistration, scope constructs.Construct, id *string, config *NetworkmanagerTransitGatewayRegistrationConfig) {
 	_init_.Initialize()
 

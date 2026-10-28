@@ -5,14 +5,14 @@ package apigatewayv2routeresponse
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2routeresponse/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2routeresponse/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route_response awscc_apigatewayv2_route_response}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route_response awscc_apigatewayv2_route_response}.
 type Apigatewayv2RouteResponse interface {
 	cdktn.TerraformResource
 	ApiId() *string
@@ -507,7 +507,7 @@ func (j *jsiiProxy_Apigatewayv2RouteResponse) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route_response awscc_apigatewayv2_route_response} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route_response awscc_apigatewayv2_route_response} Resource.
 func NewApigatewayv2RouteResponse(scope constructs.Construct, id *string, config *Apigatewayv2RouteResponseConfig) Apigatewayv2RouteResponse {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewApigatewayv2RouteResponse(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_route_response awscc_apigatewayv2_route_response} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_route_response awscc_apigatewayv2_route_response} Resource.
 func NewApigatewayv2RouteResponse_Override(a Apigatewayv2RouteResponse, scope constructs.Construct, id *string, config *Apigatewayv2RouteResponseConfig) {
 	_init_.Initialize()
 

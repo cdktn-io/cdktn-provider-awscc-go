@@ -5,14 +5,14 @@ package dataawsccrtbfabriclinkroutingrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrtbfabriclinkroutingrule/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrtbfabriclinkroutingrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_link_routing_rule awscc_rtbfabric_link_routing_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_link_routing_rule awscc_rtbfabric_link_routing_rule}.
 type DataAwsccRtbfabricLinkRoutingRule interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccRtbfabricLinkRoutingRule) UpdatedTimestamp() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_link_routing_rule awscc_rtbfabric_link_routing_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_link_routing_rule awscc_rtbfabric_link_routing_rule} Data Source.
 func NewDataAwsccRtbfabricLinkRoutingRule(scope constructs.Construct, id *string, config *DataAwsccRtbfabricLinkRoutingRuleConfig) DataAwsccRtbfabricLinkRoutingRule {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccRtbfabricLinkRoutingRule(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rtbfabric_link_routing_rule awscc_rtbfabric_link_routing_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rtbfabric_link_routing_rule awscc_rtbfabric_link_routing_rule} Data Source.
 func NewDataAwsccRtbfabricLinkRoutingRule_Override(d DataAwsccRtbfabricLinkRoutingRule, scope constructs.Construct, id *string, config *DataAwsccRtbfabricLinkRoutingRuleConfig) {
 	_init_.Initialize()
 

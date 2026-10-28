@@ -5,14 +5,14 @@ package bedrockintelligentpromptrouter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockintelligentpromptrouter/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockintelligentpromptrouter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_intelligent_prompt_router awscc_bedrock_intelligent_prompt_router}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_intelligent_prompt_router awscc_bedrock_intelligent_prompt_router}.
 type BedrockIntelligentPromptRouter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -550,7 +550,7 @@ func (j *jsiiProxy_BedrockIntelligentPromptRouter) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_intelligent_prompt_router awscc_bedrock_intelligent_prompt_router} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_intelligent_prompt_router awscc_bedrock_intelligent_prompt_router} Resource.
 func NewBedrockIntelligentPromptRouter(scope constructs.Construct, id *string, config *BedrockIntelligentPromptRouterConfig) BedrockIntelligentPromptRouter {
 	_init_.Initialize()
 
@@ -568,7 +568,7 @@ func NewBedrockIntelligentPromptRouter(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_intelligent_prompt_router awscc_bedrock_intelligent_prompt_router} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_intelligent_prompt_router awscc_bedrock_intelligent_prompt_router} Resource.
 func NewBedrockIntelligentPromptRouter_Override(b BedrockIntelligentPromptRouter, scope constructs.Construct, id *string, config *BedrockIntelligentPromptRouterConfig) {
 	_init_.Initialize()
 

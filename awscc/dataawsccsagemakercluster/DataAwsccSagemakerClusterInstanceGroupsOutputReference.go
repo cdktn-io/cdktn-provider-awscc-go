@@ -5,9 +5,9 @@ package dataawsccsagemakercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,7 @@ type DataAwsccSagemakerClusterInstanceGroupsOutputReference interface {
 	// Experimental.
 	Fqn() *string
 	ImageId() *string
+	ImageReleaseVersion() *string
 	InstanceCount() *float64
 	InstanceGroupName() *string
 	InstanceRequirements() DataAwsccSagemakerClusterInstanceGroupsInstanceRequirementsOutputReference
@@ -184,6 +185,16 @@ func (j *jsiiProxy_DataAwsccSagemakerClusterInstanceGroupsOutputReference) Image
 	_jsii_.Get(
 		j,
 		"imageId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccSagemakerClusterInstanceGroupsOutputReference) ImageReleaseVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"imageReleaseVersion",
 		&returns,
 	)
 	return returns

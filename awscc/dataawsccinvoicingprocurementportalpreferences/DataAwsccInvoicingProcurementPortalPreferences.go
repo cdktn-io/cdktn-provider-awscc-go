@@ -5,14 +5,14 @@ package dataawsccinvoicingprocurementportalpreferences
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinvoicingprocurementportalpreferences/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinvoicingprocurementportalpreferences/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/invoicing_procurement_portal_preferences awscc_invoicing_procurement_portal_preferences}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/invoicing_procurement_portal_preferences awscc_invoicing_procurement_portal_preferences}.
 type DataAwsccInvoicingProcurementPortalPreferences interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccInvoicingProcurementPortalPreferences) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/invoicing_procurement_portal_preferences awscc_invoicing_procurement_portal_preferences} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/invoicing_procurement_portal_preferences awscc_invoicing_procurement_portal_preferences} Data Source.
 func NewDataAwsccInvoicingProcurementPortalPreferences(scope constructs.Construct, id *string, config *DataAwsccInvoicingProcurementPortalPreferencesConfig) DataAwsccInvoicingProcurementPortalPreferences {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccInvoicingProcurementPortalPreferences(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/invoicing_procurement_portal_preferences awscc_invoicing_procurement_portal_preferences} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/invoicing_procurement_portal_preferences awscc_invoicing_procurement_portal_preferences} Data Source.
 func NewDataAwsccInvoicingProcurementPortalPreferences_Override(d DataAwsccInvoicingProcurementPortalPreferences, scope constructs.Construct, id *string, config *DataAwsccInvoicingProcurementPortalPreferencesConfig) {
 	_init_.Initialize()
 

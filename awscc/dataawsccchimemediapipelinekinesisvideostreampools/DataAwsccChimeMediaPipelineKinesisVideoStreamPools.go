@@ -5,14 +5,14 @@ package dataawsccchimemediapipelinekinesisvideostreampools
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimemediapipelinekinesisvideostreampools/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimemediapipelinekinesisvideostreampools/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pools awscc_chime_media_pipeline_kinesis_video_stream_pools}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pools awscc_chime_media_pipeline_kinesis_video_stream_pools}.
 type DataAwsccChimeMediaPipelineKinesisVideoStreamPools interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccChimeMediaPipelineKinesisVideoStreamPools) Terraform
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pools awscc_chime_media_pipeline_kinesis_video_stream_pools} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pools awscc_chime_media_pipeline_kinesis_video_stream_pools} Data Source.
 func NewDataAwsccChimeMediaPipelineKinesisVideoStreamPools(scope constructs.Construct, id *string, config *DataAwsccChimeMediaPipelineKinesisVideoStreamPoolsConfig) DataAwsccChimeMediaPipelineKinesisVideoStreamPools {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccChimeMediaPipelineKinesisVideoStreamPools(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pools awscc_chime_media_pipeline_kinesis_video_stream_pools} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_media_pipeline_kinesis_video_stream_pools awscc_chime_media_pipeline_kinesis_video_stream_pools} Data Source.
 func NewDataAwsccChimeMediaPipelineKinesisVideoStreamPools_Override(d DataAwsccChimeMediaPipelineKinesisVideoStreamPools, scope constructs.Construct, id *string, config *DataAwsccChimeMediaPipelineKinesisVideoStreamPoolsConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccapplicationsignalsinstrumentationconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsinstrumentationconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsinstrumentationconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationsignals_instrumentation_config awscc_applicationsignals_instrumentation_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationsignals_instrumentation_config awscc_applicationsignals_instrumentation_config}.
 type DataAwsccApplicationsignalsInstrumentationConfig interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccApplicationsignalsInstrumentationConfig) TerraformRe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationsignals_instrumentation_config awscc_applicationsignals_instrumentation_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationsignals_instrumentation_config awscc_applicationsignals_instrumentation_config} Data Source.
 func NewDataAwsccApplicationsignalsInstrumentationConfig(scope constructs.Construct, id *string, config *DataAwsccApplicationsignalsInstrumentationConfigConfig) DataAwsccApplicationsignalsInstrumentationConfig {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccApplicationsignalsInstrumentationConfig(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationsignals_instrumentation_config awscc_applicationsignals_instrumentation_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationsignals_instrumentation_config awscc_applicationsignals_instrumentation_config} Data Source.
 func NewDataAwsccApplicationsignalsInstrumentationConfig_Override(d DataAwsccApplicationsignalsInstrumentationConfig, scope constructs.Construct, id *string, config *DataAwsccApplicationsignalsInstrumentationConfigConfig) {
 	_init_.Initialize()
 

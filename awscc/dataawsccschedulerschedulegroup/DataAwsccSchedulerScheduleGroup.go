@@ -5,14 +5,14 @@ package dataawsccschedulerschedulegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccschedulerschedulegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccschedulerschedulegroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/scheduler_schedule_group awscc_scheduler_schedule_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/scheduler_schedule_group awscc_scheduler_schedule_group}.
 type DataAwsccSchedulerScheduleGroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccSchedulerScheduleGroup) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/scheduler_schedule_group awscc_scheduler_schedule_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/scheduler_schedule_group awscc_scheduler_schedule_group} Data Source.
 func NewDataAwsccSchedulerScheduleGroup(scope constructs.Construct, id *string, config *DataAwsccSchedulerScheduleGroupConfig) DataAwsccSchedulerScheduleGroup {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccSchedulerScheduleGroup(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/scheduler_schedule_group awscc_scheduler_schedule_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/scheduler_schedule_group awscc_scheduler_schedule_group} Data Source.
 func NewDataAwsccSchedulerScheduleGroup_Override(d DataAwsccSchedulerScheduleGroup, scope constructs.Construct, id *string, config *DataAwsccSchedulerScheduleGroupConfig) {
 	_init_.Initialize()
 

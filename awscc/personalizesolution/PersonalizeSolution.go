@@ -5,14 +5,14 @@ package personalizesolution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizesolution/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizesolution/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_solution awscc_personalize_solution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_solution awscc_personalize_solution}.
 type PersonalizeSolution interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -556,7 +556,7 @@ func (j *jsiiProxy_PersonalizeSolution) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_solution awscc_personalize_solution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_solution awscc_personalize_solution} Resource.
 func NewPersonalizeSolution(scope constructs.Construct, id *string, config *PersonalizeSolutionConfig) PersonalizeSolution {
 	_init_.Initialize()
 
@@ -574,7 +574,7 @@ func NewPersonalizeSolution(scope constructs.Construct, id *string, config *Pers
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_solution awscc_personalize_solution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_solution awscc_personalize_solution} Resource.
 func NewPersonalizeSolution_Override(p PersonalizeSolution, scope constructs.Construct, id *string, config *PersonalizeSolutionConfig) {
 	_init_.Initialize()
 

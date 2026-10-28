@@ -5,14 +5,14 @@ package dataawsccautoscalingwarmpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccautoscalingwarmpool/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccautoscalingwarmpool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/autoscaling_warm_pool awscc_autoscaling_warm_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/autoscaling_warm_pool awscc_autoscaling_warm_pool}.
 type DataAwsccAutoscalingWarmPool interface {
 	cdktn.TerraformDataSource
 	AutoScalingGroupName() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccAutoscalingWarmPool) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/autoscaling_warm_pool awscc_autoscaling_warm_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/autoscaling_warm_pool awscc_autoscaling_warm_pool} Data Source.
 func NewDataAwsccAutoscalingWarmPool(scope constructs.Construct, id *string, config *DataAwsccAutoscalingWarmPoolConfig) DataAwsccAutoscalingWarmPool {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccAutoscalingWarmPool(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/autoscaling_warm_pool awscc_autoscaling_warm_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/autoscaling_warm_pool awscc_autoscaling_warm_pool} Data Source.
 func NewDataAwsccAutoscalingWarmPool_Override(d DataAwsccAutoscalingWarmPool, scope constructs.Construct, id *string, config *DataAwsccAutoscalingWarmPoolConfig) {
 	_init_.Initialize()
 

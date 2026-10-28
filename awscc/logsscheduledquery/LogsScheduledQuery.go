@@ -5,14 +5,14 @@ package logsscheduledquery
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsscheduledquery/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsscheduledquery/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_scheduled_query awscc_logs_scheduled_query}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_scheduled_query awscc_logs_scheduled_query}.
 type LogsScheduledQuery interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -741,7 +741,7 @@ func (j *jsiiProxy_LogsScheduledQuery) TimezoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_scheduled_query awscc_logs_scheduled_query} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_scheduled_query awscc_logs_scheduled_query} Resource.
 func NewLogsScheduledQuery(scope constructs.Construct, id *string, config *LogsScheduledQueryConfig) LogsScheduledQuery {
 	_init_.Initialize()
 
@@ -759,7 +759,7 @@ func NewLogsScheduledQuery(scope constructs.Construct, id *string, config *LogsS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_scheduled_query awscc_logs_scheduled_query} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_scheduled_query awscc_logs_scheduled_query} Resource.
 func NewLogsScheduledQuery_Override(l LogsScheduledQuery, scope constructs.Construct, id *string, config *LogsScheduledQueryConfig) {
 	_init_.Initialize()
 

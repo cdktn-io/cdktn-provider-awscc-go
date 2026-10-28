@@ -5,14 +5,14 @@ package gluetable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluetable/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluetable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table awscc_glue_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table awscc_glue_table}.
 type GlueTable interface {
 	cdktn.TerraformResource
 	CatalogId() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_GlueTable) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table awscc_glue_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table awscc_glue_table} Resource.
 func NewGlueTable(scope constructs.Construct, id *string, config *GlueTableConfig) GlueTable {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewGlueTable(scope constructs.Construct, id *string, config *GlueTableConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table awscc_glue_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table awscc_glue_table} Resource.
 func NewGlueTable_Override(g GlueTable, scope constructs.Construct, id *string, config *GlueTableConfig) {
 	_init_.Initialize()
 

@@ -24,13 +24,13 @@ type QuicksightBrandConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID of the QuickSight brand.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#brand_id QuicksightBrand#brand_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#brand_id QuicksightBrand#brand_id}
 	BrandId *string `field:"required" json:"brandId" yaml:"brandId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#brand_definition QuicksightBrand#brand_definition}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#brand_definition QuicksightBrand#brand_definition}.
 	BrandDefinition *QuicksightBrandBrandDefinition `field:"optional" json:"brandDefinition" yaml:"brandDefinition"`
 	// The tags for the brand.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#tags QuicksightBrand#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#tags QuicksightBrand#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

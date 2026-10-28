@@ -5,9 +5,9 @@ package bedrockagentcorememory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorememory/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorememory/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -49,6 +49,11 @@ type BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyOutputRef
 	NamespaceTemplates() *[]*string
 	SetNamespaceTemplates(val *[]*string)
 	NamespaceTemplatesInput() *[]*string
+	RecordExpiryDurationDays() *float64
+	SetRecordExpiryDurationDays(val *float64)
+	RecordExpiryDurationDaysInput() *float64
+	RecordExpirySpecification() BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference
+	RecordExpirySpecificationInput() interface{}
 	Status() *string
 	SetStatus(val *string)
 	StatusInput() *string
@@ -94,12 +99,15 @@ type BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyOutputRef
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutMemoryRecordSchema(value *BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyMemoryRecordSchema)
+	PutRecordExpirySpecification(value *BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecification)
 	ResetCreatedAt()
 	ResetDescription()
 	ResetMemoryRecordSchema()
 	ResetName()
 	ResetNamespaces()
 	ResetNamespaceTemplates()
+	ResetRecordExpiryDurationDays()
+	ResetRecordExpirySpecification()
 	ResetStatus()
 	ResetStrategyId()
 	ResetType()
@@ -284,6 +292,46 @@ func (j *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStr
 	_jsii_.Get(
 		j,
 		"namespaceTemplatesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyOutputReference) RecordExpiryDurationDays() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"recordExpiryDurationDays",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyOutputReference) RecordExpiryDurationDaysInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"recordExpiryDurationDaysInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyOutputReference) RecordExpirySpecification() BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference {
+	var returns BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference
+	_jsii_.Get(
+		j,
+		"recordExpirySpecification",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyOutputReference) RecordExpirySpecificationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"recordExpirySpecificationInput",
 		&returns,
 	)
 	return returns
@@ -501,6 +549,17 @@ func (j *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStr
 	_jsii_.Set(
 		j,
 		"namespaceTemplates",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyOutputReference)SetRecordExpiryDurationDays(val *float64) {
+	if err := j.validateSetRecordExpiryDurationDaysParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"recordExpiryDurationDays",
 		val,
 	)
 }
@@ -768,6 +827,17 @@ func (b *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStr
 	)
 }
 
+func (b *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyOutputReference) PutRecordExpirySpecification(value *BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecification) {
+	if err := b.validatePutRecordExpirySpecificationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putRecordExpirySpecification",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyOutputReference) ResetCreatedAt() {
 	_jsii_.InvokeVoid(
 		b,
@@ -812,6 +882,22 @@ func (b *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStr
 	_jsii_.InvokeVoid(
 		b,
 		"resetNamespaceTemplates",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyOutputReference) ResetRecordExpiryDurationDays() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetRecordExpiryDurationDays",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyOutputReference) ResetRecordExpirySpecification() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetRecordExpirySpecification",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package smsvoiceprotectconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoiceprotectconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoiceprotectconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_protect_configuration awscc_smsvoice_protect_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_protect_configuration awscc_smsvoice_protect_configuration}.
 type SmsvoiceProtectConfiguration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -449,7 +449,7 @@ func (j *jsiiProxy_SmsvoiceProtectConfiguration) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_protect_configuration awscc_smsvoice_protect_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_protect_configuration awscc_smsvoice_protect_configuration} Resource.
 func NewSmsvoiceProtectConfiguration(scope constructs.Construct, id *string, config *SmsvoiceProtectConfigurationConfig) SmsvoiceProtectConfiguration {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewSmsvoiceProtectConfiguration(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_protect_configuration awscc_smsvoice_protect_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_protect_configuration awscc_smsvoice_protect_configuration} Resource.
 func NewSmsvoiceProtectConfiguration_Override(s SmsvoiceProtectConfiguration, scope constructs.Construct, id *string, config *SmsvoiceProtectConfigurationConfig) {
 	_init_.Initialize()
 

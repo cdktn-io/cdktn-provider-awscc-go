@@ -27,9 +27,9 @@ type LambdaResourcePolicyConfig struct {
 	// This is formatted as a JSON string.
 	//  For more information, see [Working with resource-based policies in](https://docs.aws.amazon.com/lambda/latest/dg/access-control-resource-based.html) in the *Developer Guide*.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_resource_policy#policy_document LambdaResourcePolicy#policy_document}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_resource_policy#policy_document LambdaResourcePolicy#policy_document}
 	PolicyDocument *string `field:"required" json:"policyDocument" yaml:"policyDocument"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_resource_policy#resource_arn LambdaResourcePolicy#resource_arn}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_resource_policy#resource_arn LambdaResourcePolicy#resource_arn}.
 	ResourceArn *string `field:"required" json:"resourceArn" yaml:"resourceArn"`
 }
 

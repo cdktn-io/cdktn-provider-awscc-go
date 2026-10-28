@@ -5,14 +5,14 @@ package dataawsccomicsrungroups
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsrungroups/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsrungroups/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_run_groups awscc_omics_run_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_run_groups awscc_omics_run_groups}.
 type DataAwsccOmicsRunGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccOmicsRunGroups) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_run_groups awscc_omics_run_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_run_groups awscc_omics_run_groups} Data Source.
 func NewDataAwsccOmicsRunGroups(scope constructs.Construct, id *string, config *DataAwsccOmicsRunGroupsConfig) DataAwsccOmicsRunGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccOmicsRunGroups(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_run_groups awscc_omics_run_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_run_groups awscc_omics_run_groups} Data Source.
 func NewDataAwsccOmicsRunGroups_Override(d DataAwsccOmicsRunGroups, scope constructs.Construct, id *string, config *DataAwsccOmicsRunGroupsConfig) {
 	_init_.Initialize()
 

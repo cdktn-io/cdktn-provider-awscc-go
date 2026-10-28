@@ -5,14 +5,14 @@ package dataawscccomputeoptimizerautomationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomputeoptimizerautomationrule/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomputeoptimizerautomationrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/computeoptimizer_automation_rule awscc_computeoptimizer_automation_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/computeoptimizer_automation_rule awscc_computeoptimizer_automation_rule}.
 type DataAwsccComputeoptimizerAutomationRule interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataAwsccComputeoptimizerAutomationRule) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/computeoptimizer_automation_rule awscc_computeoptimizer_automation_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/computeoptimizer_automation_rule awscc_computeoptimizer_automation_rule} Data Source.
 func NewDataAwsccComputeoptimizerAutomationRule(scope constructs.Construct, id *string, config *DataAwsccComputeoptimizerAutomationRuleConfig) DataAwsccComputeoptimizerAutomationRule {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataAwsccComputeoptimizerAutomationRule(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/computeoptimizer_automation_rule awscc_computeoptimizer_automation_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/computeoptimizer_automation_rule awscc_computeoptimizer_automation_rule} Data Source.
 func NewDataAwsccComputeoptimizerAutomationRule_Override(d DataAwsccComputeoptimizerAutomationRule, scope constructs.Construct, id *string, config *DataAwsccComputeoptimizerAutomationRuleConfig) {
 	_init_.Initialize()
 

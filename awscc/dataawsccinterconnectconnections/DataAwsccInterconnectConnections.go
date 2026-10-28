@@ -5,14 +5,14 @@ package dataawsccinterconnectconnections
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinterconnectconnections/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinterconnectconnections/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/interconnect_connections awscc_interconnect_connections}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/interconnect_connections awscc_interconnect_connections}.
 type DataAwsccInterconnectConnections interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccInterconnectConnections) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/interconnect_connections awscc_interconnect_connections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/interconnect_connections awscc_interconnect_connections} Data Source.
 func NewDataAwsccInterconnectConnections(scope constructs.Construct, id *string, config *DataAwsccInterconnectConnectionsConfig) DataAwsccInterconnectConnections {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccInterconnectConnections(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/interconnect_connections awscc_interconnect_connections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/interconnect_connections awscc_interconnect_connections} Data Source.
 func NewDataAwsccInterconnectConnections_Override(d DataAwsccInterconnectConnections, scope constructs.Construct, id *string, config *DataAwsccInterconnectConnectionsConfig) {
 	_init_.Initialize()
 

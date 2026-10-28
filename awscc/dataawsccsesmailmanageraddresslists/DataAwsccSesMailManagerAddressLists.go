@@ -5,14 +5,14 @@ package dataawsccsesmailmanageraddresslists
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesmailmanageraddresslists/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesmailmanageraddresslists/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_mail_manager_address_lists awscc_ses_mail_manager_address_lists}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_mail_manager_address_lists awscc_ses_mail_manager_address_lists}.
 type DataAwsccSesMailManagerAddressLists interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSesMailManagerAddressLists) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_mail_manager_address_lists awscc_ses_mail_manager_address_lists} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_mail_manager_address_lists awscc_ses_mail_manager_address_lists} Data Source.
 func NewDataAwsccSesMailManagerAddressLists(scope constructs.Construct, id *string, config *DataAwsccSesMailManagerAddressListsConfig) DataAwsccSesMailManagerAddressLists {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSesMailManagerAddressLists(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_mail_manager_address_lists awscc_ses_mail_manager_address_lists} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_mail_manager_address_lists awscc_ses_mail_manager_address_lists} Data Source.
 func NewDataAwsccSesMailManagerAddressLists_Override(d DataAwsccSesMailManagerAddressLists, scope constructs.Construct, id *string, config *DataAwsccSesMailManagerAddressListsConfig) {
 	_init_.Initialize()
 

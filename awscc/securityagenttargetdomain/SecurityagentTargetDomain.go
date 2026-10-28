@@ -5,14 +5,14 @@ package securityagenttargetdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagenttargetdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagenttargetdomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_target_domain awscc_securityagent_target_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_target_domain awscc_securityagent_target_domain}.
 type SecurityagentTargetDomain interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -491,7 +491,7 @@ func (j *jsiiProxy_SecurityagentTargetDomain) VerifiedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_target_domain awscc_securityagent_target_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_target_domain awscc_securityagent_target_domain} Resource.
 func NewSecurityagentTargetDomain(scope constructs.Construct, id *string, config *SecurityagentTargetDomainConfig) SecurityagentTargetDomain {
 	_init_.Initialize()
 
@@ -509,7 +509,7 @@ func NewSecurityagentTargetDomain(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_target_domain awscc_securityagent_target_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_target_domain awscc_securityagent_target_domain} Resource.
 func NewSecurityagentTargetDomain_Override(s SecurityagentTargetDomain, scope constructs.Construct, id *string, config *SecurityagentTargetDomainConfig) {
 	_init_.Initialize()
 

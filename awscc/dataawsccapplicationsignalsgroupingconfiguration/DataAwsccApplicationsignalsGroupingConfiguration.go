@@ -5,14 +5,14 @@ package dataawsccapplicationsignalsgroupingconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapplicationsignalsgroupingconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapplicationsignalsgroupingconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationsignals_grouping_configuration awscc_applicationsignals_grouping_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationsignals_grouping_configuration awscc_applicationsignals_grouping_configuration}.
 type DataAwsccApplicationsignalsGroupingConfiguration interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccApplicationsignalsGroupingConfiguration) UpdatedAt()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationsignals_grouping_configuration awscc_applicationsignals_grouping_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationsignals_grouping_configuration awscc_applicationsignals_grouping_configuration} Data Source.
 func NewDataAwsccApplicationsignalsGroupingConfiguration(scope constructs.Construct, id *string, config *DataAwsccApplicationsignalsGroupingConfigurationConfig) DataAwsccApplicationsignalsGroupingConfiguration {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccApplicationsignalsGroupingConfiguration(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/applicationsignals_grouping_configuration awscc_applicationsignals_grouping_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/applicationsignals_grouping_configuration awscc_applicationsignals_grouping_configuration} Data Source.
 func NewDataAwsccApplicationsignalsGroupingConfiguration_Override(d DataAwsccApplicationsignalsGroupingConfiguration, scope constructs.Construct, id *string, config *DataAwsccApplicationsignalsGroupingConfigurationConfig) {
 	_init_.Initialize()
 

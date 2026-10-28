@@ -5,14 +5,14 @@ package ec2transitgatewaypeeringattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2transitgatewaypeeringattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2transitgatewaypeeringattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway_peering_attachment awscc_ec2_transit_gateway_peering_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway_peering_attachment awscc_ec2_transit_gateway_peering_attachment}.
 type Ec2TransitGatewayPeeringAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -515,7 +515,7 @@ func (j *jsiiProxy_Ec2TransitGatewayPeeringAttachment) TransitGatewayIdInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway_peering_attachment awscc_ec2_transit_gateway_peering_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway_peering_attachment awscc_ec2_transit_gateway_peering_attachment} Resource.
 func NewEc2TransitGatewayPeeringAttachment(scope constructs.Construct, id *string, config *Ec2TransitGatewayPeeringAttachmentConfig) Ec2TransitGatewayPeeringAttachment {
 	_init_.Initialize()
 
@@ -533,7 +533,7 @@ func NewEc2TransitGatewayPeeringAttachment(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_transit_gateway_peering_attachment awscc_ec2_transit_gateway_peering_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_transit_gateway_peering_attachment awscc_ec2_transit_gateway_peering_attachment} Resource.
 func NewEc2TransitGatewayPeeringAttachment_Override(e Ec2TransitGatewayPeeringAttachment, scope constructs.Construct, id *string, config *Ec2TransitGatewayPeeringAttachmentConfig) {
 	_init_.Initialize()
 

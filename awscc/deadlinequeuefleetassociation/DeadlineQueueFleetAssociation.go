@@ -5,14 +5,14 @@ package deadlinequeuefleetassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/deadlinequeuefleetassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/deadlinequeuefleetassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_queue_fleet_association awscc_deadline_queue_fleet_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_queue_fleet_association awscc_deadline_queue_fleet_association}.
 type DeadlineQueueFleetAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_DeadlineQueueFleetAssociation) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_queue_fleet_association awscc_deadline_queue_fleet_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_queue_fleet_association awscc_deadline_queue_fleet_association} Resource.
 func NewDeadlineQueueFleetAssociation(scope constructs.Construct, id *string, config *DeadlineQueueFleetAssociationConfig) DeadlineQueueFleetAssociation {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewDeadlineQueueFleetAssociation(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_queue_fleet_association awscc_deadline_queue_fleet_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_queue_fleet_association awscc_deadline_queue_fleet_association} Resource.
 func NewDeadlineQueueFleetAssociation_Override(d DeadlineQueueFleetAssociation, scope constructs.Construct, id *string, config *DeadlineQueueFleetAssociationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package groundstationdataflowendpointgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/groundstationdataflowendpointgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/groundstationdataflowendpointgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/groundstation_dataflow_endpoint_group awscc_groundstation_dataflow_endpoint_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/groundstation_dataflow_endpoint_group awscc_groundstation_dataflow_endpoint_group}.
 type GroundstationDataflowEndpointGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -472,7 +472,7 @@ func (j *jsiiProxy_GroundstationDataflowEndpointGroup) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/groundstation_dataflow_endpoint_group awscc_groundstation_dataflow_endpoint_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/groundstation_dataflow_endpoint_group awscc_groundstation_dataflow_endpoint_group} Resource.
 func NewGroundstationDataflowEndpointGroup(scope constructs.Construct, id *string, config *GroundstationDataflowEndpointGroupConfig) GroundstationDataflowEndpointGroup {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewGroundstationDataflowEndpointGroup(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/groundstation_dataflow_endpoint_group awscc_groundstation_dataflow_endpoint_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/groundstation_dataflow_endpoint_group awscc_groundstation_dataflow_endpoint_group} Resource.
 func NewGroundstationDataflowEndpointGroup_Override(g GroundstationDataflowEndpointGroup, scope constructs.Construct, id *string, config *GroundstationDataflowEndpointGroupConfig) {
 	_init_.Initialize()
 

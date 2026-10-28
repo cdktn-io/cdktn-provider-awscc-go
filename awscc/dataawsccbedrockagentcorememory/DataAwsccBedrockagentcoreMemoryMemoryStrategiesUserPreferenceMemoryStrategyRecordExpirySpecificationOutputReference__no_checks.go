@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccbedrockagentcorememory
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference) validateSetInternalValueParameters(val *DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecification) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

@@ -5,14 +5,14 @@ package datasynclocationobjectstorage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationobjectstorage/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage}.
 type DatasyncLocationObjectStorage interface {
 	cdktn.TerraformResource
 	AccessKey() *string
@@ -700,7 +700,7 @@ func (j *jsiiProxy_DatasyncLocationObjectStorage) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage} Resource.
 func NewDatasyncLocationObjectStorage(scope constructs.Construct, id *string, config *DatasyncLocationObjectStorageConfig) DatasyncLocationObjectStorage {
 	_init_.Initialize()
 
@@ -718,7 +718,7 @@ func NewDatasyncLocationObjectStorage(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage} Resource.
 func NewDatasyncLocationObjectStorage_Override(d DatasyncLocationObjectStorage, scope constructs.Construct, id *string, config *DatasyncLocationObjectStorageConfig) {
 	_init_.Initialize()
 

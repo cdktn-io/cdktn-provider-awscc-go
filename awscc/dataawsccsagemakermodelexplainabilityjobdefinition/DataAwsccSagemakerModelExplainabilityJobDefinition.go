@@ -5,14 +5,14 @@ package dataawsccsagemakermodelexplainabilityjobdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermodelexplainabilityjobdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermodelexplainabilityjobdefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_model_explainability_job_definition awscc_sagemaker_model_explainability_job_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_model_explainability_job_definition awscc_sagemaker_model_explainability_job_definition}.
 type DataAwsccSagemakerModelExplainabilityJobDefinition interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccSagemakerModelExplainabilityJobDefinition) Terraform
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_model_explainability_job_definition awscc_sagemaker_model_explainability_job_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_model_explainability_job_definition awscc_sagemaker_model_explainability_job_definition} Data Source.
 func NewDataAwsccSagemakerModelExplainabilityJobDefinition(scope constructs.Construct, id *string, config *DataAwsccSagemakerModelExplainabilityJobDefinitionConfig) DataAwsccSagemakerModelExplainabilityJobDefinition {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccSagemakerModelExplainabilityJobDefinition(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_model_explainability_job_definition awscc_sagemaker_model_explainability_job_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_model_explainability_job_definition awscc_sagemaker_model_explainability_job_definition} Data Source.
 func NewDataAwsccSagemakerModelExplainabilityJobDefinition_Override(d DataAwsccSagemakerModelExplainabilityJobDefinition, scope constructs.Construct, id *string, config *DataAwsccSagemakerModelExplainabilityJobDefinitionConfig) {
 	_init_.Initialize()
 

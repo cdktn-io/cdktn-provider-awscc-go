@@ -5,14 +5,14 @@ package dataawsccevidentlyproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccevidentlyproject/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccevidentlyproject/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/evidently_project awscc_evidently_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/evidently_project awscc_evidently_project}.
 type DataAwsccEvidentlyProject interface {
 	cdktn.TerraformDataSource
 	AppConfigResource() DataAwsccEvidentlyProjectAppConfigResourceOutputReference
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccEvidentlyProject) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/evidently_project awscc_evidently_project} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/evidently_project awscc_evidently_project} Data Source.
 func NewDataAwsccEvidentlyProject(scope constructs.Construct, id *string, config *DataAwsccEvidentlyProjectConfig) DataAwsccEvidentlyProject {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccEvidentlyProject(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/evidently_project awscc_evidently_project} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/evidently_project awscc_evidently_project} Data Source.
 func NewDataAwsccEvidentlyProject_Override(d DataAwsccEvidentlyProject, scope constructs.Construct, id *string, config *DataAwsccEvidentlyProjectConfig) {
 	_init_.Initialize()
 

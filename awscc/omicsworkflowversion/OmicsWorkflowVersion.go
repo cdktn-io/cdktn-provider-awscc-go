@@ -5,14 +5,14 @@ package omicsworkflowversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsworkflowversion/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsworkflowversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_workflow_version awscc_omics_workflow_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_workflow_version awscc_omics_workflow_version}.
 type OmicsWorkflowVersion interface {
 	cdktn.TerraformResource
 	Accelerators() *string
@@ -696,7 +696,7 @@ func (j *jsiiProxy_OmicsWorkflowVersion) WorkflowIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_workflow_version awscc_omics_workflow_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_workflow_version awscc_omics_workflow_version} Resource.
 func NewOmicsWorkflowVersion(scope constructs.Construct, id *string, config *OmicsWorkflowVersionConfig) OmicsWorkflowVersion {
 	_init_.Initialize()
 
@@ -714,7 +714,7 @@ func NewOmicsWorkflowVersion(scope constructs.Construct, id *string, config *Omi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_workflow_version awscc_omics_workflow_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_workflow_version awscc_omics_workflow_version} Resource.
 func NewOmicsWorkflowVersion_Override(o OmicsWorkflowVersion, scope constructs.Construct, id *string, config *OmicsWorkflowVersionConfig) {
 	_init_.Initialize()
 

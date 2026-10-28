@@ -5,14 +5,14 @@ package scnnamespace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/scnnamespace/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/scnnamespace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_namespace awscc_scn_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_namespace awscc_scn_namespace}.
 type ScnNamespace interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -482,7 +482,7 @@ func (j *jsiiProxy_ScnNamespace) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_namespace awscc_scn_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_namespace awscc_scn_namespace} Resource.
 func NewScnNamespace(scope constructs.Construct, id *string, config *ScnNamespaceConfig) ScnNamespace {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewScnNamespace(scope constructs.Construct, id *string, config *ScnNamespac
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_namespace awscc_scn_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_namespace awscc_scn_namespace} Resource.
 func NewScnNamespace_Override(s ScnNamespace, scope constructs.Construct, id *string, config *ScnNamespaceConfig) {
 	_init_.Initialize()
 

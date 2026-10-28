@@ -5,14 +5,14 @@ package amplifybranch
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/amplifybranch/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/amplifybranch/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/amplify_branch awscc_amplify_branch}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/amplify_branch awscc_amplify_branch}.
 type AmplifyBranch interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -748,7 +748,7 @@ func (j *jsiiProxy_AmplifyBranch) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/amplify_branch awscc_amplify_branch} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/amplify_branch awscc_amplify_branch} Resource.
 func NewAmplifyBranch(scope constructs.Construct, id *string, config *AmplifyBranchConfig) AmplifyBranch {
 	_init_.Initialize()
 
@@ -766,7 +766,7 @@ func NewAmplifyBranch(scope constructs.Construct, id *string, config *AmplifyBra
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/amplify_branch awscc_amplify_branch} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/amplify_branch awscc_amplify_branch} Resource.
 func NewAmplifyBranch_Override(a AmplifyBranch, scope constructs.Construct, id *string, config *AmplifyBranchConfig) {
 	_init_.Initialize()
 

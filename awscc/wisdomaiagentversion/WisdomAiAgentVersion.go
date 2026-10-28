@@ -5,14 +5,14 @@ package wisdomaiagentversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiagentversion/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiagentversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_agent_version awscc_wisdom_ai_agent_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_agent_version awscc_wisdom_ai_agent_version}.
 type WisdomAiAgentVersion interface {
 	cdktn.TerraformResource
 	AiAgentArn() *string
@@ -469,7 +469,7 @@ func (j *jsiiProxy_WisdomAiAgentVersion) VersionNumber() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_agent_version awscc_wisdom_ai_agent_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_agent_version awscc_wisdom_ai_agent_version} Resource.
 func NewWisdomAiAgentVersion(scope constructs.Construct, id *string, config *WisdomAiAgentVersionConfig) WisdomAiAgentVersion {
 	_init_.Initialize()
 
@@ -487,7 +487,7 @@ func NewWisdomAiAgentVersion(scope constructs.Construct, id *string, config *Wis
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_agent_version awscc_wisdom_ai_agent_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_agent_version awscc_wisdom_ai_agent_version} Resource.
 func NewWisdomAiAgentVersion_Override(w WisdomAiAgentVersion, scope constructs.Construct, id *string, config *WisdomAiAgentVersionConfig) {
 	_init_.Initialize()
 

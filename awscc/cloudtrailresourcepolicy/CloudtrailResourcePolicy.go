@@ -5,14 +5,14 @@ package cloudtrailresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtrailresourcepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtrailresourcepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_resource_policy awscc_cloudtrail_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_resource_policy awscc_cloudtrail_resource_policy}.
 type CloudtrailResourcePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_CloudtrailResourcePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_resource_policy awscc_cloudtrail_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_resource_policy awscc_cloudtrail_resource_policy} Resource.
 func NewCloudtrailResourcePolicy(scope constructs.Construct, id *string, config *CloudtrailResourcePolicyConfig) CloudtrailResourcePolicy {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewCloudtrailResourcePolicy(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_resource_policy awscc_cloudtrail_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_resource_policy awscc_cloudtrail_resource_policy} Resource.
 func NewCloudtrailResourcePolicy_Override(c CloudtrailResourcePolicy, scope constructs.Construct, id *string, config *CloudtrailResourcePolicyConfig) {
 	_init_.Initialize()
 

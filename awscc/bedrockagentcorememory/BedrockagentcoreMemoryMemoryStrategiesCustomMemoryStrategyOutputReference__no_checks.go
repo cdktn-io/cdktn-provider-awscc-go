@@ -55,6 +55,10 @@ func (b *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyOut
 	return nil
 }
 
+func (b *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyOutputReference) validatePutRecordExpirySpecificationParameters(value *BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyRecordExpirySpecification) error {
+	return nil
+}
+
 func (b *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (j *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyOut
 }
 
 func (j *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyOutputReference) validateSetNamespaceTemplatesParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BedrockagentcoreMemoryMemoryStrategiesCustomMemoryStrategyOutputReference) validateSetRecordExpiryDurationDaysParameters(val *float64) error {
 	return nil
 }
 

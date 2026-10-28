@@ -5,14 +5,14 @@ package locationapikey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/locationapikey/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/locationapikey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_api_key awscc_location_api_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_api_key awscc_location_api_key}.
 type LocationApiKey interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -589,7 +589,7 @@ func (j *jsiiProxy_LocationApiKey) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_api_key awscc_location_api_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_api_key awscc_location_api_key} Resource.
 func NewLocationApiKey(scope constructs.Construct, id *string, config *LocationApiKeyConfig) LocationApiKey {
 	_init_.Initialize()
 
@@ -607,7 +607,7 @@ func NewLocationApiKey(scope constructs.Construct, id *string, config *LocationA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_api_key awscc_location_api_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_api_key awscc_location_api_key} Resource.
 func NewLocationApiKey_Override(l LocationApiKey, scope constructs.Construct, id *string, config *LocationApiKeyConfig) {
 	_init_.Initialize()
 

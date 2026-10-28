@@ -5,14 +5,14 @@ package dataawscceventsv2subscriber
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsv2subscriber/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsv2subscriber/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eventsv2_subscriber awscc_eventsv2_subscriber}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eventsv2_subscriber awscc_eventsv2_subscriber}.
 type DataAwsccEventsv2Subscriber interface {
 	cdktn.TerraformDataSource
 	BatchConfiguration() DataAwsccEventsv2SubscriberBatchConfigurationOutputReference
@@ -506,7 +506,7 @@ func (j *jsiiProxy_DataAwsccEventsv2Subscriber) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eventsv2_subscriber awscc_eventsv2_subscriber} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eventsv2_subscriber awscc_eventsv2_subscriber} Data Source.
 func NewDataAwsccEventsv2Subscriber(scope constructs.Construct, id *string, config *DataAwsccEventsv2SubscriberConfig) DataAwsccEventsv2Subscriber {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewDataAwsccEventsv2Subscriber(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/eventsv2_subscriber awscc_eventsv2_subscriber} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/eventsv2_subscriber awscc_eventsv2_subscriber} Data Source.
 func NewDataAwsccEventsv2Subscriber_Override(d DataAwsccEventsv2Subscriber, scope constructs.Construct, id *string, config *DataAwsccEventsv2SubscriberConfig) {
 	_init_.Initialize()
 

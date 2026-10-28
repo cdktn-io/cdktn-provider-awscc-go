@@ -5,14 +5,14 @@ package iotsitewisegateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisegateway/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisegateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_gateway awscc_iotsitewise_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_gateway awscc_iotsitewise_gateway}.
 type IotsitewiseGateway interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_IotsitewiseGateway) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_gateway awscc_iotsitewise_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_gateway awscc_iotsitewise_gateway} Resource.
 func NewIotsitewiseGateway(scope constructs.Construct, id *string, config *IotsitewiseGatewayConfig) IotsitewiseGateway {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewIotsitewiseGateway(scope constructs.Construct, id *string, config *Iotsi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_gateway awscc_iotsitewise_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_gateway awscc_iotsitewise_gateway} Resource.
 func NewIotsitewiseGateway_Override(i IotsitewiseGateway, scope constructs.Construct, id *string, config *IotsitewiseGatewayConfig) {
 	_init_.Initialize()
 

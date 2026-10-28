@@ -5,14 +5,14 @@ package dataawsccec2ec2fleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2ec2fleet/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2ec2fleet/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ec2_fleet awscc_ec2_ec2_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ec2_fleet awscc_ec2_ec2_fleet}.
 type DataAwsccEc2Ec2Fleet interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccEc2Ec2Fleet) ValidUntil() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ec2_fleet awscc_ec2_ec2_fleet} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ec2_fleet awscc_ec2_ec2_fleet} Data Source.
 func NewDataAwsccEc2Ec2Fleet(scope constructs.Construct, id *string, config *DataAwsccEc2Ec2FleetConfig) DataAwsccEc2Ec2Fleet {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccEc2Ec2Fleet(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_ec2_fleet awscc_ec2_ec2_fleet} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ec2_fleet awscc_ec2_ec2_fleet} Data Source.
 func NewDataAwsccEc2Ec2Fleet_Override(d DataAwsccEc2Ec2Fleet, scope constructs.Construct, id *string, config *DataAwsccEc2Ec2FleetConfig) {
 	_init_.Initialize()
 

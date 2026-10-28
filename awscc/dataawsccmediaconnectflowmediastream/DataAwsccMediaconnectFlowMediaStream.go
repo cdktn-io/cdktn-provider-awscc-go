@@ -5,14 +5,14 @@ package dataawsccmediaconnectflowmediastream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectflowmediastream/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectflowmediastream/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_flow_media_stream awscc_mediaconnect_flow_media_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_flow_media_stream awscc_mediaconnect_flow_media_stream}.
 type DataAwsccMediaconnectFlowMediaStream interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccMediaconnectFlowMediaStream) VideoFormat() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_flow_media_stream awscc_mediaconnect_flow_media_stream} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_flow_media_stream awscc_mediaconnect_flow_media_stream} Data Source.
 func NewDataAwsccMediaconnectFlowMediaStream(scope constructs.Construct, id *string, config *DataAwsccMediaconnectFlowMediaStreamConfig) DataAwsccMediaconnectFlowMediaStream {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccMediaconnectFlowMediaStream(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_flow_media_stream awscc_mediaconnect_flow_media_stream} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_flow_media_stream awscc_mediaconnect_flow_media_stream} Data Source.
 func NewDataAwsccMediaconnectFlowMediaStream_Override(d DataAwsccMediaconnectFlowMediaStream, scope constructs.Construct, id *string, config *DataAwsccMediaconnectFlowMediaStreamConfig) {
 	_init_.Initialize()
 

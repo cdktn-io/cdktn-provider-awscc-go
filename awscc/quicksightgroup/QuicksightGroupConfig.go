@@ -24,15 +24,15 @@ type QuicksightGroupConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A name for the group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_group#group_name QuicksightGroup#group_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_group#group_name QuicksightGroup#group_name}
 	GroupName *string `field:"required" json:"groupName" yaml:"groupName"`
 	// The namespace that you want the group to be a part of.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_group#namespace QuicksightGroup#namespace}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_group#namespace QuicksightGroup#namespace}
 	Namespace *string `field:"required" json:"namespace" yaml:"namespace"`
 	// A description for the group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_group#description QuicksightGroup#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_group#description QuicksightGroup#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 }
 

@@ -5,14 +5,14 @@ package dataawsccec2transitgateways
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2transitgateways/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2transitgateways/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_transit_gateways awscc_ec2_transit_gateways}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_transit_gateways awscc_ec2_transit_gateways}.
 type DataAwsccEc2TransitGateways interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2TransitGateways) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_transit_gateways awscc_ec2_transit_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_transit_gateways awscc_ec2_transit_gateways} Data Source.
 func NewDataAwsccEc2TransitGateways(scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewaysConfig) DataAwsccEc2TransitGateways {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2TransitGateways(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_transit_gateways awscc_ec2_transit_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_transit_gateways awscc_ec2_transit_gateways} Data Source.
 func NewDataAwsccEc2TransitGateways_Override(d DataAwsccEc2TransitGateways, scope constructs.Construct, id *string, config *DataAwsccEc2TransitGatewaysConfig) {
 	_init_.Initialize()
 

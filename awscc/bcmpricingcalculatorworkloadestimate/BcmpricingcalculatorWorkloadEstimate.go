@@ -5,14 +5,14 @@ package bcmpricingcalculatorworkloadestimate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bcmpricingcalculatorworkloadestimate/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bcmpricingcalculatorworkloadestimate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_workload_estimate awscc_bcmpricingcalculator_workload_estimate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_workload_estimate awscc_bcmpricingcalculator_workload_estimate}.
 type BcmpricingcalculatorWorkloadEstimate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -538,7 +538,7 @@ func (j *jsiiProxy_BcmpricingcalculatorWorkloadEstimate) WorkloadEstimateId() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_workload_estimate awscc_bcmpricingcalculator_workload_estimate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_workload_estimate awscc_bcmpricingcalculator_workload_estimate} Resource.
 func NewBcmpricingcalculatorWorkloadEstimate(scope constructs.Construct, id *string, config *BcmpricingcalculatorWorkloadEstimateConfig) BcmpricingcalculatorWorkloadEstimate {
 	_init_.Initialize()
 
@@ -556,7 +556,7 @@ func NewBcmpricingcalculatorWorkloadEstimate(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bcmpricingcalculator_workload_estimate awscc_bcmpricingcalculator_workload_estimate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bcmpricingcalculator_workload_estimate awscc_bcmpricingcalculator_workload_estimate} Resource.
 func NewBcmpricingcalculatorWorkloadEstimate_Override(b BcmpricingcalculatorWorkloadEstimate, scope constructs.Construct, id *string, config *BcmpricingcalculatorWorkloadEstimateConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package wellarchitectedagentgoal
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedagentgoal/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedagentgoal/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_agent_goal awscc_wellarchitected_agent_goal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_agent_goal awscc_wellarchitected_agent_goal}.
 type WellarchitectedAgentGoal interface {
 	cdktn.TerraformResource
 	AgentGoalId() *string
@@ -514,7 +514,7 @@ func (j *jsiiProxy_WellarchitectedAgentGoal) TitleInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_agent_goal awscc_wellarchitected_agent_goal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_agent_goal awscc_wellarchitected_agent_goal} Resource.
 func NewWellarchitectedAgentGoal(scope constructs.Construct, id *string, config *WellarchitectedAgentGoalConfig) WellarchitectedAgentGoal {
 	_init_.Initialize()
 
@@ -532,7 +532,7 @@ func NewWellarchitectedAgentGoal(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_agent_goal awscc_wellarchitected_agent_goal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_agent_goal awscc_wellarchitected_agent_goal} Resource.
 func NewWellarchitectedAgentGoal_Override(w WellarchitectedAgentGoal, scope constructs.Construct, id *string, config *WellarchitectedAgentGoalConfig) {
 	_init_.Initialize()
 

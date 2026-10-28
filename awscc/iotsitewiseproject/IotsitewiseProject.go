@@ -5,14 +5,14 @@ package iotsitewiseproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewiseproject/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewiseproject/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_project awscc_iotsitewise_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_project awscc_iotsitewise_project}.
 type IotsitewiseProject interface {
 	cdktn.TerraformResource
 	AssetIds() *[]*string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_IotsitewiseProject) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_project awscc_iotsitewise_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_project awscc_iotsitewise_project} Resource.
 func NewIotsitewiseProject(scope constructs.Construct, id *string, config *IotsitewiseProjectConfig) IotsitewiseProject {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewIotsitewiseProject(scope constructs.Construct, id *string, config *Iotsi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_project awscc_iotsitewise_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_project awscc_iotsitewise_project} Resource.
 func NewIotsitewiseProject_Override(i IotsitewiseProject, scope constructs.Construct, id *string, config *IotsitewiseProjectConfig) {
 	_init_.Initialize()
 

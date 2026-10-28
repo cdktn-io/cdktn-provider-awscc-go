@@ -5,14 +5,14 @@ package gameliftmatchmakingconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftmatchmakingconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftmatchmakingconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_matchmaking_configuration awscc_gamelift_matchmaking_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_matchmaking_configuration awscc_gamelift_matchmaking_configuration}.
 type GameliftMatchmakingConfiguration interface {
 	cdktn.TerraformResource
 	AcceptanceRequired() interface{}
@@ -770,7 +770,7 @@ func (j *jsiiProxy_GameliftMatchmakingConfiguration) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_matchmaking_configuration awscc_gamelift_matchmaking_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_matchmaking_configuration awscc_gamelift_matchmaking_configuration} Resource.
 func NewGameliftMatchmakingConfiguration(scope constructs.Construct, id *string, config *GameliftMatchmakingConfigurationConfig) GameliftMatchmakingConfiguration {
 	_init_.Initialize()
 
@@ -788,7 +788,7 @@ func NewGameliftMatchmakingConfiguration(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_matchmaking_configuration awscc_gamelift_matchmaking_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_matchmaking_configuration awscc_gamelift_matchmaking_configuration} Resource.
 func NewGameliftMatchmakingConfiguration_Override(g GameliftMatchmakingConfiguration, scope constructs.Construct, id *string, config *GameliftMatchmakingConfigurationConfig) {
 	_init_.Initialize()
 

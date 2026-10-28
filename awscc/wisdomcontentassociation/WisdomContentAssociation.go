@@ -5,14 +5,14 @@ package wisdomcontentassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomcontentassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomcontentassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_content_association awscc_wisdom_content_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_content_association awscc_wisdom_content_association}.
 type WisdomContentAssociation interface {
 	cdktn.TerraformResource
 	Association() WisdomContentAssociationAssociationOutputReference
@@ -515,7 +515,7 @@ func (j *jsiiProxy_WisdomContentAssociation) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_content_association awscc_wisdom_content_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_content_association awscc_wisdom_content_association} Resource.
 func NewWisdomContentAssociation(scope constructs.Construct, id *string, config *WisdomContentAssociationConfig) WisdomContentAssociation {
 	_init_.Initialize()
 
@@ -533,7 +533,7 @@ func NewWisdomContentAssociation(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_content_association awscc_wisdom_content_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_content_association awscc_wisdom_content_association} Resource.
 func NewWisdomContentAssociation_Override(w WisdomContentAssociation, scope constructs.Construct, id *string, config *WisdomContentAssociationConfig) {
 	_init_.Initialize()
 

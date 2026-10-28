@@ -5,14 +5,14 @@ package ssmcontactscontact
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmcontactscontact/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmcontactscontact/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmcontacts_contact awscc_ssmcontacts_contact}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmcontacts_contact awscc_ssmcontacts_contact}.
 type SsmcontactsContact interface {
 	cdktn.TerraformResource
 	Alias() *string
@@ -483,7 +483,7 @@ func (j *jsiiProxy_SsmcontactsContact) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmcontacts_contact awscc_ssmcontacts_contact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmcontacts_contact awscc_ssmcontacts_contact} Resource.
 func NewSsmcontactsContact(scope constructs.Construct, id *string, config *SsmcontactsContactConfig) SsmcontactsContact {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewSsmcontactsContact(scope constructs.Construct, id *string, config *Ssmco
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmcontacts_contact awscc_ssmcontacts_contact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmcontacts_contact awscc_ssmcontacts_contact} Resource.
 func NewSsmcontactsContact_Override(s SsmcontactsContact, scope constructs.Construct, id *string, config *SsmcontactsContactConfig) {
 	_init_.Initialize()
 

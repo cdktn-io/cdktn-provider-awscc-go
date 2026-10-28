@@ -91,6 +91,10 @@ func (i *jsiiProxy_Inspectorv2FilterFilterCriteriaOutputReference) validatePutEc
 	return nil
 }
 
+func (i *jsiiProxy_Inspectorv2FilterFilterCriteriaOutputReference) validatePutEcrImageInUseCountParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_Inspectorv2FilterFilterCriteriaOutputReference) validatePutEcrImagePushedAtParameters(value interface{}) error {
 	return nil
 }

@@ -5,9 +5,9 @@ package dataawsccinspectorv2filter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccinspectorv2filter/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccinspectorv2filter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -39,6 +39,7 @@ type DataAwsccInspectorv2FilterFilterCriteriaOutputReference interface {
 	Ec2InstanceVpcId() DataAwsccInspectorv2FilterFilterCriteriaEc2InstanceVpcIdList
 	EcrImageArchitecture() DataAwsccInspectorv2FilterFilterCriteriaEcrImageArchitectureList
 	EcrImageHash() DataAwsccInspectorv2FilterFilterCriteriaEcrImageHashList
+	EcrImageInUseCount() DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList
 	EcrImagePushedAt() DataAwsccInspectorv2FilterFilterCriteriaEcrImagePushedAtList
 	EcrImageRegistry() DataAwsccInspectorv2FilterFilterCriteriaEcrImageRegistryList
 	EcrImageRepositoryName() DataAwsccInspectorv2FilterFilterCriteriaEcrImageRepositoryNameList
@@ -256,6 +257,16 @@ func (j *jsiiProxy_DataAwsccInspectorv2FilterFilterCriteriaOutputReference) EcrI
 	_jsii_.Get(
 		j,
 		"ecrImageHash",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccInspectorv2FilterFilterCriteriaOutputReference) EcrImageInUseCount() DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList {
+	var returns DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList
+	_jsii_.Get(
+		j,
+		"ecrImageInUseCount",
 		&returns,
 	)
 	return returns

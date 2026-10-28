@@ -5,14 +5,14 @@ package dataawsccb2bicapabilities
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccb2bicapabilities/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccb2bicapabilities/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_capabilities awscc_b2bi_capabilities}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_capabilities awscc_b2bi_capabilities}.
 type DataAwsccB2BiCapabilities interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccB2BiCapabilities) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_capabilities awscc_b2bi_capabilities} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_capabilities awscc_b2bi_capabilities} Data Source.
 func NewDataAwsccB2BiCapabilities(scope constructs.Construct, id *string, config *DataAwsccB2BiCapabilitiesConfig) DataAwsccB2BiCapabilities {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccB2BiCapabilities(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/b2bi_capabilities awscc_b2bi_capabilities} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/b2bi_capabilities awscc_b2bi_capabilities} Data Source.
 func NewDataAwsccB2BiCapabilities_Override(d DataAwsccB2BiCapabilities, scope constructs.Construct, id *string, config *DataAwsccB2BiCapabilitiesConfig) {
 	_init_.Initialize()
 

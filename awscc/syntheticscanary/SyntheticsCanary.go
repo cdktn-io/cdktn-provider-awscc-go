@@ -5,14 +5,14 @@ package syntheticscanary
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/syntheticscanary/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/syntheticscanary/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/synthetics_canary awscc_synthetics_canary}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/synthetics_canary awscc_synthetics_canary}.
 type SyntheticsCanary interface {
 	cdktn.TerraformResource
 	ArtifactConfig() SyntheticsCanaryArtifactConfigOutputReference
@@ -851,7 +851,7 @@ func (j *jsiiProxy_SyntheticsCanary) VpcConfigInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/synthetics_canary awscc_synthetics_canary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/synthetics_canary awscc_synthetics_canary} Resource.
 func NewSyntheticsCanary(scope constructs.Construct, id *string, config *SyntheticsCanaryConfig) SyntheticsCanary {
 	_init_.Initialize()
 
@@ -869,7 +869,7 @@ func NewSyntheticsCanary(scope constructs.Construct, id *string, config *Synthet
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/synthetics_canary awscc_synthetics_canary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/synthetics_canary awscc_synthetics_canary} Resource.
 func NewSyntheticsCanary_Override(s SyntheticsCanary, scope constructs.Construct, id *string, config *SyntheticsCanaryConfig) {
 	_init_.Initialize()
 

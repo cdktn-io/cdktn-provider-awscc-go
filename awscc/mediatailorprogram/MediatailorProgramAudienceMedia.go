@@ -7,11 +7,11 @@ package mediatailorprogram
 type MediatailorProgramAudienceMedia struct {
 	// The list of AlternateMedia defined in AudienceMedia.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#alternate_media MediatailorProgram#alternate_media}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#alternate_media MediatailorProgram#alternate_media}
 	AlternateMedia interface{} `field:"optional" json:"alternateMedia" yaml:"alternateMedia"`
 	// The Audience defined in AudienceMedia.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_program#audience MediatailorProgram#audience}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_program#audience MediatailorProgram#audience}
 	Audience *string `field:"optional" json:"audience" yaml:"audience"`
 }
 

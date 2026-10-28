@@ -5,14 +5,14 @@ package dataawsccdocdbelasticclustersnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdocdbelasticclustersnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdocdbelasticclustersnapshot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/docdbelastic_cluster_snapshot awscc_docdbelastic_cluster_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/docdbelastic_cluster_snapshot awscc_docdbelastic_cluster_snapshot}.
 type DataAwsccDocdbelasticClusterSnapshot interface {
 	cdktn.TerraformDataSource
 	AdminUserName() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccDocdbelasticClusterSnapshot) VpcSecurityGroupIds() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/docdbelastic_cluster_snapshot awscc_docdbelastic_cluster_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/docdbelastic_cluster_snapshot awscc_docdbelastic_cluster_snapshot} Data Source.
 func NewDataAwsccDocdbelasticClusterSnapshot(scope constructs.Construct, id *string, config *DataAwsccDocdbelasticClusterSnapshotConfig) DataAwsccDocdbelasticClusterSnapshot {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccDocdbelasticClusterSnapshot(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/docdbelastic_cluster_snapshot awscc_docdbelastic_cluster_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/docdbelastic_cluster_snapshot awscc_docdbelastic_cluster_snapshot} Data Source.
 func NewDataAwsccDocdbelasticClusterSnapshot_Override(d DataAwsccDocdbelasticClusterSnapshot, scope constructs.Construct, id *string, config *DataAwsccDocdbelasticClusterSnapshotConfig) {
 	_init_.Initialize()
 

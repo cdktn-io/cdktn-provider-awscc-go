@@ -5,14 +5,14 @@ package dataawsccssmmaintenancewindowtarget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmmaintenancewindowtarget/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmmaintenancewindowtarget/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_maintenance_window_target awscc_ssm_maintenance_window_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_maintenance_window_target awscc_ssm_maintenance_window_target}.
 type DataAwsccSsmMaintenanceWindowTarget interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccSsmMaintenanceWindowTarget) WindowTargetId() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_maintenance_window_target awscc_ssm_maintenance_window_target} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_maintenance_window_target awscc_ssm_maintenance_window_target} Data Source.
 func NewDataAwsccSsmMaintenanceWindowTarget(scope constructs.Construct, id *string, config *DataAwsccSsmMaintenanceWindowTargetConfig) DataAwsccSsmMaintenanceWindowTarget {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccSsmMaintenanceWindowTarget(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssm_maintenance_window_target awscc_ssm_maintenance_window_target} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssm_maintenance_window_target awscc_ssm_maintenance_window_target} Data Source.
 func NewDataAwsccSsmMaintenanceWindowTarget_Override(d DataAwsccSsmMaintenanceWindowTarget, scope constructs.Construct, id *string, config *DataAwsccSsmMaintenanceWindowTargetConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package lightsaildatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lightsaildatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lightsaildatabase/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_database awscc_lightsail_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_database awscc_lightsail_database}.
 type LightsailDatabase interface {
 	cdktn.TerraformResource
 	AvailabilityZone() *string
@@ -721,7 +721,7 @@ func (j *jsiiProxy_LightsailDatabase) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_database awscc_lightsail_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_database awscc_lightsail_database} Resource.
 func NewLightsailDatabase(scope constructs.Construct, id *string, config *LightsailDatabaseConfig) LightsailDatabase {
 	_init_.Initialize()
 
@@ -739,7 +739,7 @@ func NewLightsailDatabase(scope constructs.Construct, id *string, config *Lights
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lightsail_database awscc_lightsail_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lightsail_database awscc_lightsail_database} Resource.
 func NewLightsailDatabase_Override(l LightsailDatabase, scope constructs.Construct, id *string, config *LightsailDatabaseConfig) {
 	_init_.Initialize()
 

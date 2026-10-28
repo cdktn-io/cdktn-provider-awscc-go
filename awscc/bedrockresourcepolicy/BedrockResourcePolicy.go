@@ -5,14 +5,14 @@ package bedrockresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockresourcepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockresourcepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_resource_policy awscc_bedrock_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_resource_policy awscc_bedrock_resource_policy}.
 type BedrockResourcePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_BedrockResourcePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_resource_policy awscc_bedrock_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_resource_policy awscc_bedrock_resource_policy} Resource.
 func NewBedrockResourcePolicy(scope constructs.Construct, id *string, config *BedrockResourcePolicyConfig) BedrockResourcePolicy {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewBedrockResourcePolicy(scope constructs.Construct, id *string, config *Be
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_resource_policy awscc_bedrock_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_resource_policy awscc_bedrock_resource_policy} Resource.
 func NewBedrockResourcePolicy_Override(b BedrockResourcePolicy, scope constructs.Construct, id *string, config *BedrockResourcePolicyConfig) {
 	_init_.Initialize()
 

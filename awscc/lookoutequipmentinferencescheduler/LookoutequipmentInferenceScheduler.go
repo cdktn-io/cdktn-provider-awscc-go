@@ -5,14 +5,14 @@ package lookoutequipmentinferencescheduler
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lookoutequipmentinferencescheduler/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lookoutequipmentinferencescheduler/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler awscc_lookoutequipment_inference_scheduler}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler awscc_lookoutequipment_inference_scheduler}.
 type LookoutequipmentInferenceScheduler interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -577,7 +577,7 @@ func (j *jsiiProxy_LookoutequipmentInferenceScheduler) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler awscc_lookoutequipment_inference_scheduler} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler awscc_lookoutequipment_inference_scheduler} Resource.
 func NewLookoutequipmentInferenceScheduler(scope constructs.Construct, id *string, config *LookoutequipmentInferenceSchedulerConfig) LookoutequipmentInferenceScheduler {
 	_init_.Initialize()
 
@@ -595,7 +595,7 @@ func NewLookoutequipmentInferenceScheduler(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lookoutequipment_inference_scheduler awscc_lookoutequipment_inference_scheduler} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lookoutequipment_inference_scheduler awscc_lookoutequipment_inference_scheduler} Resource.
 func NewLookoutequipmentInferenceScheduler_Override(l LookoutequipmentInferenceScheduler, scope constructs.Construct, id *string, config *LookoutequipmentInferenceSchedulerConfig) {
 	_init_.Initialize()
 

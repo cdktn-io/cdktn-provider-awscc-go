@@ -5,14 +5,14 @@ package dataawsccneptunedbclusters
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunedbclusters/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunedbclusters/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/neptune_db_clusters awscc_neptune_db_clusters}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/neptune_db_clusters awscc_neptune_db_clusters}.
 type DataAwsccNeptuneDbClusters interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNeptuneDbClusters) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/neptune_db_clusters awscc_neptune_db_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/neptune_db_clusters awscc_neptune_db_clusters} Data Source.
 func NewDataAwsccNeptuneDbClusters(scope constructs.Construct, id *string, config *DataAwsccNeptuneDbClustersConfig) DataAwsccNeptuneDbClusters {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNeptuneDbClusters(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/neptune_db_clusters awscc_neptune_db_clusters} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/neptune_db_clusters awscc_neptune_db_clusters} Data Source.
 func NewDataAwsccNeptuneDbClusters_Override(d DataAwsccNeptuneDbClusters, scope constructs.Construct, id *string, config *DataAwsccNeptuneDbClustersConfig) {
 	_init_.Initialize()
 

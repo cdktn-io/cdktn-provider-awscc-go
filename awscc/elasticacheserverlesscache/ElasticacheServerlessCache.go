@@ -5,14 +5,14 @@ package elasticacheserverlesscache
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticacheserverlesscache/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticacheserverlesscache/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache}.
 type ElasticacheServerlessCache interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -829,7 +829,7 @@ func (j *jsiiProxy_ElasticacheServerlessCache) UserGroupIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache} Resource.
 func NewElasticacheServerlessCache(scope constructs.Construct, id *string, config *ElasticacheServerlessCacheConfig) ElasticacheServerlessCache {
 	_init_.Initialize()
 
@@ -847,7 +847,7 @@ func NewElasticacheServerlessCache(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache} Resource.
 func NewElasticacheServerlessCache_Override(e ElasticacheServerlessCache, scope constructs.Construct, id *string, config *ElasticacheServerlessCacheConfig) {
 	_init_.Initialize()
 

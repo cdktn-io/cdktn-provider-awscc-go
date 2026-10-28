@@ -5,14 +5,14 @@ package dataawsccglueworkflows
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueworkflows/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueworkflows/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_workflows awscc_glue_workflows}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_workflows awscc_glue_workflows}.
 type DataAwsccGlueWorkflows interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGlueWorkflows) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_workflows awscc_glue_workflows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_workflows awscc_glue_workflows} Data Source.
 func NewDataAwsccGlueWorkflows(scope constructs.Construct, id *string, config *DataAwsccGlueWorkflowsConfig) DataAwsccGlueWorkflows {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGlueWorkflows(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_workflows awscc_glue_workflows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_workflows awscc_glue_workflows} Data Source.
 func NewDataAwsccGlueWorkflows_Override(d DataAwsccGlueWorkflows, scope constructs.Construct, id *string, config *DataAwsccGlueWorkflowsConfig) {
 	_init_.Initialize()
 

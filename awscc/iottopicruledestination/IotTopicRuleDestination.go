@@ -5,14 +5,14 @@ package iottopicruledestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iottopicruledestination/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iottopicruledestination/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination awscc_iot_topic_rule_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination awscc_iot_topic_rule_destination}.
 type IotTopicRuleDestination interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_IotTopicRuleDestination) VpcPropertiesInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination awscc_iot_topic_rule_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination awscc_iot_topic_rule_destination} Resource.
 func NewIotTopicRuleDestination(scope constructs.Construct, id *string, config *IotTopicRuleDestinationConfig) IotTopicRuleDestination {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewIotTopicRuleDestination(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_topic_rule_destination awscc_iot_topic_rule_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_topic_rule_destination awscc_iot_topic_rule_destination} Resource.
 func NewIotTopicRuleDestination_Override(i IotTopicRuleDestination, scope constructs.Construct, id *string, config *IotTopicRuleDestinationConfig) {
 	_init_.Initialize()
 

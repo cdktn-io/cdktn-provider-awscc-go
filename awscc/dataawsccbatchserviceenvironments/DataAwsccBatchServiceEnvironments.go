@@ -5,14 +5,14 @@ package dataawsccbatchserviceenvironments
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbatchserviceenvironments/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbatchserviceenvironments/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_service_environments awscc_batch_service_environments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_service_environments awscc_batch_service_environments}.
 type DataAwsccBatchServiceEnvironments interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBatchServiceEnvironments) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_service_environments awscc_batch_service_environments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_service_environments awscc_batch_service_environments} Data Source.
 func NewDataAwsccBatchServiceEnvironments(scope constructs.Construct, id *string, config *DataAwsccBatchServiceEnvironmentsConfig) DataAwsccBatchServiceEnvironments {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBatchServiceEnvironments(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/batch_service_environments awscc_batch_service_environments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/batch_service_environments awscc_batch_service_environments} Data Source.
 func NewDataAwsccBatchServiceEnvironments_Override(d DataAwsccBatchServiceEnvironments, scope constructs.Construct, id *string, config *DataAwsccBatchServiceEnvironmentsConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package medialivesdisource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/medialivesdisource/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/medialivesdisource/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_sdi_source awscc_medialive_sdi_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_sdi_source awscc_medialive_sdi_source}.
 type MedialiveSdiSource interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -493,7 +493,7 @@ func (j *jsiiProxy_MedialiveSdiSource) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_sdi_source awscc_medialive_sdi_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_sdi_source awscc_medialive_sdi_source} Resource.
 func NewMedialiveSdiSource(scope constructs.Construct, id *string, config *MedialiveSdiSourceConfig) MedialiveSdiSource {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewMedialiveSdiSource(scope constructs.Construct, id *string, config *Media
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/medialive_sdi_source awscc_medialive_sdi_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_sdi_source awscc_medialive_sdi_source} Resource.
 func NewMedialiveSdiSource_Override(m MedialiveSdiSource, scope constructs.Construct, id *string, config *MedialiveSdiSourceConfig) {
 	_init_.Initialize()
 

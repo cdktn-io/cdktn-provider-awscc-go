@@ -5,14 +5,14 @@ package cloudformationguardhook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationguardhook/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationguardhook/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook awscc_cloudformation_guard_hook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook awscc_cloudformation_guard_hook}.
 type CloudformationGuardHook interface {
 	cdktn.TerraformResource
 	Alias() *string
@@ -602,7 +602,7 @@ func (j *jsiiProxy_CloudformationGuardHook) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook awscc_cloudformation_guard_hook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook awscc_cloudformation_guard_hook} Resource.
 func NewCloudformationGuardHook(scope constructs.Construct, id *string, config *CloudformationGuardHookConfig) CloudformationGuardHook {
 	_init_.Initialize()
 
@@ -620,7 +620,7 @@ func NewCloudformationGuardHook(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_guard_hook awscc_cloudformation_guard_hook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_guard_hook awscc_cloudformation_guard_hook} Resource.
 func NewCloudformationGuardHook_Override(c CloudformationGuardHook, scope constructs.Construct, id *string, config *CloudformationGuardHookConfig) {
 	_init_.Initialize()
 

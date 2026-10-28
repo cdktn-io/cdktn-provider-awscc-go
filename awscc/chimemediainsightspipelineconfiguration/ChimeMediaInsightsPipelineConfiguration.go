@@ -5,14 +5,14 @@ package chimemediainsightspipelineconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chimemediainsightspipelineconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chimemediainsightspipelineconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_media_insights_pipeline_configuration awscc_chime_media_insights_pipeline_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_media_insights_pipeline_configuration awscc_chime_media_insights_pipeline_configuration}.
 type ChimeMediaInsightsPipelineConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -516,7 +516,7 @@ func (j *jsiiProxy_ChimeMediaInsightsPipelineConfiguration) UpdatedTimestamp() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_media_insights_pipeline_configuration awscc_chime_media_insights_pipeline_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_media_insights_pipeline_configuration awscc_chime_media_insights_pipeline_configuration} Resource.
 func NewChimeMediaInsightsPipelineConfiguration(scope constructs.Construct, id *string, config *ChimeMediaInsightsPipelineConfigurationConfig) ChimeMediaInsightsPipelineConfiguration {
 	_init_.Initialize()
 
@@ -534,7 +534,7 @@ func NewChimeMediaInsightsPipelineConfiguration(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chime_media_insights_pipeline_configuration awscc_chime_media_insights_pipeline_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chime_media_insights_pipeline_configuration awscc_chime_media_insights_pipeline_configuration} Resource.
 func NewChimeMediaInsightsPipelineConfiguration_Override(c ChimeMediaInsightsPipelineConfiguration, scope constructs.Construct, id *string, config *ChimeMediaInsightsPipelineConfigurationConfig) {
 	_init_.Initialize()
 

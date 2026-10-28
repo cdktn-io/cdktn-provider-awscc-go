@@ -5,14 +5,14 @@ package dataawsccstepfunctionsactivity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccstepfunctionsactivity/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccstepfunctionsactivity/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/stepfunctions_activity awscc_stepfunctions_activity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/stepfunctions_activity awscc_stepfunctions_activity}.
 type DataAwsccStepfunctionsActivity interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccStepfunctionsActivity) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/stepfunctions_activity awscc_stepfunctions_activity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/stepfunctions_activity awscc_stepfunctions_activity} Data Source.
 func NewDataAwsccStepfunctionsActivity(scope constructs.Construct, id *string, config *DataAwsccStepfunctionsActivityConfig) DataAwsccStepfunctionsActivity {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccStepfunctionsActivity(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/stepfunctions_activity awscc_stepfunctions_activity} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/stepfunctions_activity awscc_stepfunctions_activity} Data Source.
 func NewDataAwsccStepfunctionsActivity_Override(d DataAwsccStepfunctionsActivity, scope constructs.Construct, id *string, config *DataAwsccStepfunctionsActivityConfig) {
 	_init_.Initialize()
 

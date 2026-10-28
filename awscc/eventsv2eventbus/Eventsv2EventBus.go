@@ -5,14 +5,14 @@ package eventsv2eventbus
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventsv2eventbus/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventsv2eventbus/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventsv2_event_bus awscc_eventsv2_event_bus}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventsv2_event_bus awscc_eventsv2_event_bus}.
 type Eventsv2EventBus interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -518,7 +518,7 @@ func (j *jsiiProxy_Eventsv2EventBus) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventsv2_event_bus awscc_eventsv2_event_bus} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventsv2_event_bus awscc_eventsv2_event_bus} Resource.
 func NewEventsv2EventBus(scope constructs.Construct, id *string, config *Eventsv2EventBusConfig) Eventsv2EventBus {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewEventsv2EventBus(scope constructs.Construct, id *string, config *Eventsv
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventsv2_event_bus awscc_eventsv2_event_bus} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventsv2_event_bus awscc_eventsv2_event_bus} Resource.
 func NewEventsv2EventBus_Override(e Eventsv2EventBus, scope constructs.Construct, id *string, config *Eventsv2EventBusConfig) {
 	_init_.Initialize()
 

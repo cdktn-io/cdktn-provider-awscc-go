@@ -5,14 +5,14 @@ package cloudformationresourceversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationresourceversion/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationresourceversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_resource_version awscc_cloudformation_resource_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_resource_version awscc_cloudformation_resource_version}.
 type CloudformationResourceVersion interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -515,7 +515,7 @@ func (j *jsiiProxy_CloudformationResourceVersion) Visibility() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_resource_version awscc_cloudformation_resource_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_resource_version awscc_cloudformation_resource_version} Resource.
 func NewCloudformationResourceVersion(scope constructs.Construct, id *string, config *CloudformationResourceVersionConfig) CloudformationResourceVersion {
 	_init_.Initialize()
 
@@ -533,7 +533,7 @@ func NewCloudformationResourceVersion(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_resource_version awscc_cloudformation_resource_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_resource_version awscc_cloudformation_resource_version} Resource.
 func NewCloudformationResourceVersion_Override(c CloudformationResourceVersion, scope constructs.Construct, id *string, config *CloudformationResourceVersionConfig) {
 	_init_.Initialize()
 

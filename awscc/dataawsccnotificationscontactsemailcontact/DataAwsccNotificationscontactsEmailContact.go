@@ -5,14 +5,14 @@ package dataawsccnotificationscontactsemailcontact
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnotificationscontactsemailcontact/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnotificationscontactsemailcontact/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/notificationscontacts_email_contact awscc_notificationscontacts_email_contact}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/notificationscontacts_email_contact awscc_notificationscontacts_email_contact}.
 type DataAwsccNotificationscontactsEmailContact interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccNotificationscontactsEmailContact) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/notificationscontacts_email_contact awscc_notificationscontacts_email_contact} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/notificationscontacts_email_contact awscc_notificationscontacts_email_contact} Data Source.
 func NewDataAwsccNotificationscontactsEmailContact(scope constructs.Construct, id *string, config *DataAwsccNotificationscontactsEmailContactConfig) DataAwsccNotificationscontactsEmailContact {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccNotificationscontactsEmailContact(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/notificationscontacts_email_contact awscc_notificationscontacts_email_contact} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/notificationscontacts_email_contact awscc_notificationscontacts_email_contact} Data Source.
 func NewDataAwsccNotificationscontactsEmailContact_Override(d DataAwsccNotificationscontactsEmailContact, scope constructs.Construct, id *string, config *DataAwsccNotificationscontactsEmailContactConfig) {
 	_init_.Initialize()
 

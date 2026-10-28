@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawsccbedrockagentcorememory
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationOutputReference) validateSetInternalValueParameters(val *DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecification) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccBedrockagentcoreMemoryMemoryStrategiesSummaryMemoryStrategyRecordExpirySpecificationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

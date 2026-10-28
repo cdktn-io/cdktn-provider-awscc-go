@@ -5,14 +5,14 @@ package dataawsccecsclustercapacityproviderassociations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccecsclustercapacityproviderassociations/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccecsclustercapacityproviderassociations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_cluster_capacity_provider_associations awscc_ecs_cluster_capacity_provider_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_cluster_capacity_provider_associations awscc_ecs_cluster_capacity_provider_associations}.
 type DataAwsccEcsClusterCapacityProviderAssociations interface {
 	cdktn.TerraformDataSource
 	CapacityProviders() *[]*string
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccEcsClusterCapacityProviderAssociations) TerraformRes
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_cluster_capacity_provider_associations awscc_ecs_cluster_capacity_provider_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_cluster_capacity_provider_associations awscc_ecs_cluster_capacity_provider_associations} Data Source.
 func NewDataAwsccEcsClusterCapacityProviderAssociations(scope constructs.Construct, id *string, config *DataAwsccEcsClusterCapacityProviderAssociationsConfig) DataAwsccEcsClusterCapacityProviderAssociations {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccEcsClusterCapacityProviderAssociations(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ecs_cluster_capacity_provider_associations awscc_ecs_cluster_capacity_provider_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_cluster_capacity_provider_associations awscc_ecs_cluster_capacity_provider_associations} Data Source.
 func NewDataAwsccEcsClusterCapacityProviderAssociations_Override(d DataAwsccEcsClusterCapacityProviderAssociations, scope constructs.Construct, id *string, config *DataAwsccEcsClusterCapacityProviderAssociationsConfig) {
 	_init_.Initialize()
 

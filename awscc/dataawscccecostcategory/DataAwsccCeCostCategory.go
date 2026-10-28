@@ -5,14 +5,14 @@ package dataawscccecostcategory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccecostcategory/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccecostcategory/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ce_cost_category awscc_ce_cost_category}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ce_cost_category awscc_ce_cost_category}.
 type DataAwsccCeCostCategory interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccCeCostCategory) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ce_cost_category awscc_ce_cost_category} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ce_cost_category awscc_ce_cost_category} Data Source.
 func NewDataAwsccCeCostCategory(scope constructs.Construct, id *string, config *DataAwsccCeCostCategoryConfig) DataAwsccCeCostCategory {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccCeCostCategory(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ce_cost_category awscc_ce_cost_category} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ce_cost_category awscc_ce_cost_category} Data Source.
 func NewDataAwsccCeCostCategory_Override(d DataAwsccCeCostCategory, scope constructs.Construct, id *string, config *DataAwsccCeCostCategoryConfig) {
 	_init_.Initialize()
 

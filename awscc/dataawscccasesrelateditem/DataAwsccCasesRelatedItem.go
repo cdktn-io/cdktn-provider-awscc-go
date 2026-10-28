@@ -5,14 +5,14 @@ package dataawscccasesrelateditem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccasesrelateditem/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccasesrelateditem/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cases_related_item awscc_cases_related_item}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cases_related_item awscc_cases_related_item}.
 type DataAwsccCasesRelatedItem interface {
 	cdktn.TerraformDataSource
 	CaseId() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccCasesRelatedItem) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cases_related_item awscc_cases_related_item} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cases_related_item awscc_cases_related_item} Data Source.
 func NewDataAwsccCasesRelatedItem(scope constructs.Construct, id *string, config *DataAwsccCasesRelatedItemConfig) DataAwsccCasesRelatedItem {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccCasesRelatedItem(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cases_related_item awscc_cases_related_item} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cases_related_item awscc_cases_related_item} Data Source.
 func NewDataAwsccCasesRelatedItem_Override(d DataAwsccCasesRelatedItem, scope constructs.Construct, id *string, config *DataAwsccCasesRelatedItemConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package eventschemasregistry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eventschemasregistry/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eventschemasregistry/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventschemas_registry awscc_eventschemas_registry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventschemas_registry awscc_eventschemas_registry}.
 type EventschemasRegistry interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_EventschemasRegistry) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventschemas_registry awscc_eventschemas_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventschemas_registry awscc_eventschemas_registry} Resource.
 func NewEventschemasRegistry(scope constructs.Construct, id *string, config *EventschemasRegistryConfig) EventschemasRegistry {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewEventschemasRegistry(scope constructs.Construct, id *string, config *Eve
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eventschemas_registry awscc_eventschemas_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eventschemas_registry awscc_eventschemas_registry} Resource.
 func NewEventschemasRegistry_Override(e EventschemasRegistry, scope constructs.Construct, id *string, config *EventschemasRegistryConfig) {
 	_init_.Initialize()
 

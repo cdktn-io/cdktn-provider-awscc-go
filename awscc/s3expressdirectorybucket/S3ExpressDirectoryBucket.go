@@ -5,14 +5,14 @@ package s3expressdirectorybucket
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3expressdirectorybucket/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3expressdirectorybucket/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_directory_bucket awscc_s3express_directory_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_directory_bucket awscc_s3express_directory_bucket}.
 type S3ExpressDirectoryBucket interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -567,7 +567,7 @@ func (j *jsiiProxy_S3ExpressDirectoryBucket) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_directory_bucket awscc_s3express_directory_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_directory_bucket awscc_s3express_directory_bucket} Resource.
 func NewS3ExpressDirectoryBucket(scope constructs.Construct, id *string, config *S3ExpressDirectoryBucketConfig) S3ExpressDirectoryBucket {
 	_init_.Initialize()
 
@@ -585,7 +585,7 @@ func NewS3ExpressDirectoryBucket(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3express_directory_bucket awscc_s3express_directory_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3express_directory_bucket awscc_s3express_directory_bucket} Resource.
 func NewS3ExpressDirectoryBucket_Override(s S3ExpressDirectoryBucket, scope constructs.Construct, id *string, config *S3ExpressDirectoryBucketConfig) {
 	_init_.Initialize()
 

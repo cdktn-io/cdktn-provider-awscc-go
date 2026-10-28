@@ -5,14 +5,14 @@ package dataawscciotwirelesswirelessgateways
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotwirelesswirelessgateways/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotwirelesswirelessgateways/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_wireless_gateways awscc_iotwireless_wireless_gateways}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_wireless_gateways awscc_iotwireless_wireless_gateways}.
 type DataAwsccIotwirelessWirelessGateways interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotwirelessWirelessGateways) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_wireless_gateways awscc_iotwireless_wireless_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_wireless_gateways awscc_iotwireless_wireless_gateways} Data Source.
 func NewDataAwsccIotwirelessWirelessGateways(scope constructs.Construct, id *string, config *DataAwsccIotwirelessWirelessGatewaysConfig) DataAwsccIotwirelessWirelessGateways {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotwirelessWirelessGateways(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotwireless_wireless_gateways awscc_iotwireless_wireless_gateways} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotwireless_wireless_gateways awscc_iotwireless_wireless_gateways} Data Source.
 func NewDataAwsccIotwirelessWirelessGateways_Override(d DataAwsccIotwirelessWirelessGateways, scope constructs.Construct, id *string, config *DataAwsccIotwirelessWirelessGatewaysConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccs3storagelensgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3storagelensgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3storagelensgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_storage_lens_group awscc_s3_storage_lens_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_storage_lens_group awscc_s3_storage_lens_group}.
 type DataAwsccS3StorageLensGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccS3StorageLensGroup) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_storage_lens_group awscc_s3_storage_lens_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_storage_lens_group awscc_s3_storage_lens_group} Data Source.
 func NewDataAwsccS3StorageLensGroup(scope constructs.Construct, id *string, config *DataAwsccS3StorageLensGroupConfig) DataAwsccS3StorageLensGroup {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccS3StorageLensGroup(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3_storage_lens_group awscc_s3_storage_lens_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3_storage_lens_group awscc_s3_storage_lens_group} Data Source.
 func NewDataAwsccS3StorageLensGroup_Override(d DataAwsccS3StorageLensGroup, scope constructs.Construct, id *string, config *DataAwsccS3StorageLensGroupConfig) {
 	_init_.Initialize()
 

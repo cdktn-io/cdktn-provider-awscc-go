@@ -5,14 +5,14 @@ package dataawsccmediaconnectbridges
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectbridges/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectbridges/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_bridges awscc_mediaconnect_bridges}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_bridges awscc_mediaconnect_bridges}.
 type DataAwsccMediaconnectBridges interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMediaconnectBridges) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_bridges awscc_mediaconnect_bridges} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_bridges awscc_mediaconnect_bridges} Data Source.
 func NewDataAwsccMediaconnectBridges(scope constructs.Construct, id *string, config *DataAwsccMediaconnectBridgesConfig) DataAwsccMediaconnectBridges {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMediaconnectBridges(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_bridges awscc_mediaconnect_bridges} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_bridges awscc_mediaconnect_bridges} Data Source.
 func NewDataAwsccMediaconnectBridges_Override(d DataAwsccMediaconnectBridges, scope constructs.Construct, id *string, config *DataAwsccMediaconnectBridgesConfig) {
 	_init_.Initialize()
 

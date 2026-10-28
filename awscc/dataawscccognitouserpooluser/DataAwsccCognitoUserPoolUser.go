@@ -5,14 +5,14 @@ package dataawscccognitouserpooluser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitouserpooluser/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitouserpooluser/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_user_pool_user awscc_cognito_user_pool_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_user_pool_user awscc_cognito_user_pool_user}.
 type DataAwsccCognitoUserPoolUser interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccCognitoUserPoolUser) ValidationData() DataAwsccCogni
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_user_pool_user awscc_cognito_user_pool_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_user_pool_user awscc_cognito_user_pool_user} Data Source.
 func NewDataAwsccCognitoUserPoolUser(scope constructs.Construct, id *string, config *DataAwsccCognitoUserPoolUserConfig) DataAwsccCognitoUserPoolUser {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccCognitoUserPoolUser(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_user_pool_user awscc_cognito_user_pool_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_user_pool_user awscc_cognito_user_pool_user} Data Source.
 func NewDataAwsccCognitoUserPoolUser_Override(d DataAwsccCognitoUserPoolUser, scope constructs.Construct, id *string, config *DataAwsccCognitoUserPoolUserConfig) {
 	_init_.Initialize()
 

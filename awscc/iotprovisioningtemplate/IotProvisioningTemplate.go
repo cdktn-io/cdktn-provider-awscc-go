@@ -5,14 +5,14 @@ package iotprovisioningtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotprovisioningtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotprovisioningtemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_provisioning_template awscc_iot_provisioning_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_provisioning_template awscc_iot_provisioning_template}.
 type IotProvisioningTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -556,7 +556,7 @@ func (j *jsiiProxy_IotProvisioningTemplate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_provisioning_template awscc_iot_provisioning_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_provisioning_template awscc_iot_provisioning_template} Resource.
 func NewIotProvisioningTemplate(scope constructs.Construct, id *string, config *IotProvisioningTemplateConfig) IotProvisioningTemplate {
 	_init_.Initialize()
 
@@ -574,7 +574,7 @@ func NewIotProvisioningTemplate(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_provisioning_template awscc_iot_provisioning_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_provisioning_template awscc_iot_provisioning_template} Resource.
 func NewIotProvisioningTemplate_Override(i IotProvisioningTemplate, scope constructs.Construct, id *string, config *IotProvisioningTemplateConfig) {
 	_init_.Initialize()
 

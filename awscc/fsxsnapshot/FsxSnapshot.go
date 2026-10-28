@@ -5,14 +5,14 @@ package fsxsnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/fsxsnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/fsxsnapshot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_snapshot awscc_fsx_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_snapshot awscc_fsx_snapshot}.
 type FsxSnapshot interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_FsxSnapshot) VolumeIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_snapshot awscc_fsx_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_snapshot awscc_fsx_snapshot} Resource.
 func NewFsxSnapshot(scope constructs.Construct, id *string, config *FsxSnapshotConfig) FsxSnapshot {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewFsxSnapshot(scope constructs.Construct, id *string, config *FsxSnapshotC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/fsx_snapshot awscc_fsx_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/fsx_snapshot awscc_fsx_snapshot} Resource.
 func NewFsxSnapshot_Override(f FsxSnapshot, scope constructs.Construct, id *string, config *FsxSnapshotConfig) {
 	_init_.Initialize()
 

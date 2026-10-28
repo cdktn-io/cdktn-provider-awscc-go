@@ -5,14 +5,14 @@ package dataawsccmgnnetworkmigrationdefinitions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmgnnetworkmigrationdefinitions/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmgnnetworkmigrationdefinitions/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mgn_network_migration_definitions awscc_mgn_network_migration_definitions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mgn_network_migration_definitions awscc_mgn_network_migration_definitions}.
 type DataAwsccMgnNetworkMigrationDefinitions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMgnNetworkMigrationDefinitions) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mgn_network_migration_definitions awscc_mgn_network_migration_definitions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mgn_network_migration_definitions awscc_mgn_network_migration_definitions} Data Source.
 func NewDataAwsccMgnNetworkMigrationDefinitions(scope constructs.Construct, id *string, config *DataAwsccMgnNetworkMigrationDefinitionsConfig) DataAwsccMgnNetworkMigrationDefinitions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMgnNetworkMigrationDefinitions(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mgn_network_migration_definitions awscc_mgn_network_migration_definitions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mgn_network_migration_definitions awscc_mgn_network_migration_definitions} Data Source.
 func NewDataAwsccMgnNetworkMigrationDefinitions_Override(d DataAwsccMgnNetworkMigrationDefinitions, scope constructs.Construct, id *string, config *DataAwsccMgnNetworkMigrationDefinitionsConfig) {
 	_init_.Initialize()
 

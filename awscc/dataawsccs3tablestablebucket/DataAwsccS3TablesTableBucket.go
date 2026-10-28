@@ -5,14 +5,14 @@ package dataawsccs3tablestablebucket
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3tablestablebucket/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3tablestablebucket/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3tables_table_bucket awscc_s3tables_table_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3tables_table_bucket awscc_s3tables_table_bucket}.
 type DataAwsccS3TablesTableBucket interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccS3TablesTableBucket) UnreferencedFileRemoval() DataA
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3tables_table_bucket awscc_s3tables_table_bucket} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3tables_table_bucket awscc_s3tables_table_bucket} Data Source.
 func NewDataAwsccS3TablesTableBucket(scope constructs.Construct, id *string, config *DataAwsccS3TablesTableBucketConfig) DataAwsccS3TablesTableBucket {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccS3TablesTableBucket(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3tables_table_bucket awscc_s3tables_table_bucket} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3tables_table_bucket awscc_s3tables_table_bucket} Data Source.
 func NewDataAwsccS3TablesTableBucket_Override(d DataAwsccS3TablesTableBucket, scope constructs.Construct, id *string, config *DataAwsccS3TablesTableBucketConfig) {
 	_init_.Initialize()
 

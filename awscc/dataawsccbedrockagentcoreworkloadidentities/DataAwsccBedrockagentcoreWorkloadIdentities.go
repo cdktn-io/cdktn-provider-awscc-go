@@ -5,14 +5,14 @@ package dataawsccbedrockagentcoreworkloadidentities
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreworkloadidentities/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreworkloadidentities/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_workload_identities awscc_bedrockagentcore_workload_identities}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_workload_identities awscc_bedrockagentcore_workload_identities}.
 type DataAwsccBedrockagentcoreWorkloadIdentities interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreWorkloadIdentities) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_workload_identities awscc_bedrockagentcore_workload_identities} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_workload_identities awscc_bedrockagentcore_workload_identities} Data Source.
 func NewDataAwsccBedrockagentcoreWorkloadIdentities(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreWorkloadIdentitiesConfig) DataAwsccBedrockagentcoreWorkloadIdentities {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockagentcoreWorkloadIdentities(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_workload_identities awscc_bedrockagentcore_workload_identities} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_workload_identities awscc_bedrockagentcore_workload_identities} Data Source.
 func NewDataAwsccBedrockagentcoreWorkloadIdentities_Override(d DataAwsccBedrockagentcoreWorkloadIdentities, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreWorkloadIdentitiesConfig) {
 	_init_.Initialize()
 

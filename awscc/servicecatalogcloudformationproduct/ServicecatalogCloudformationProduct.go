@@ -5,14 +5,14 @@ package servicecatalogcloudformationproduct
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecatalogcloudformationproduct/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecatalogcloudformationproduct/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_cloudformation_product awscc_servicecatalog_cloudformation_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_cloudformation_product awscc_servicecatalog_cloudformation_product}.
 type ServicecatalogCloudformationProduct interface {
 	cdktn.TerraformResource
 	AcceptLanguage() *string
@@ -709,7 +709,7 @@ func (j *jsiiProxy_ServicecatalogCloudformationProduct) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_cloudformation_product awscc_servicecatalog_cloudformation_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_cloudformation_product awscc_servicecatalog_cloudformation_product} Resource.
 func NewServicecatalogCloudformationProduct(scope constructs.Construct, id *string, config *ServicecatalogCloudformationProductConfig) ServicecatalogCloudformationProduct {
 	_init_.Initialize()
 
@@ -727,7 +727,7 @@ func NewServicecatalogCloudformationProduct(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_cloudformation_product awscc_servicecatalog_cloudformation_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_cloudformation_product awscc_servicecatalog_cloudformation_product} Resource.
 func NewServicecatalogCloudformationProduct_Override(s ServicecatalogCloudformationProduct, scope constructs.Construct, id *string, config *ServicecatalogCloudformationProductConfig) {
 	_init_.Initialize()
 

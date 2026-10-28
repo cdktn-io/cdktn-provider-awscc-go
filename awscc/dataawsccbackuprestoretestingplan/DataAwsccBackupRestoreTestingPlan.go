@@ -5,14 +5,14 @@ package dataawsccbackuprestoretestingplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbackuprestoretestingplan/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbackuprestoretestingplan/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_restore_testing_plan awscc_backup_restore_testing_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_restore_testing_plan awscc_backup_restore_testing_plan}.
 type DataAwsccBackupRestoreTestingPlan interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccBackupRestoreTestingPlan) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_restore_testing_plan awscc_backup_restore_testing_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_restore_testing_plan awscc_backup_restore_testing_plan} Data Source.
 func NewDataAwsccBackupRestoreTestingPlan(scope constructs.Construct, id *string, config *DataAwsccBackupRestoreTestingPlanConfig) DataAwsccBackupRestoreTestingPlan {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccBackupRestoreTestingPlan(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/backup_restore_testing_plan awscc_backup_restore_testing_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/backup_restore_testing_plan awscc_backup_restore_testing_plan} Data Source.
 func NewDataAwsccBackupRestoreTestingPlan_Override(d DataAwsccBackupRestoreTestingPlan, scope constructs.Construct, id *string, config *DataAwsccBackupRestoreTestingPlanConfig) {
 	_init_.Initialize()
 

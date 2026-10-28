@@ -5,14 +5,14 @@ package logsloganomalydetector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsloganomalydetector/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsloganomalydetector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_log_anomaly_detector awscc_logs_log_anomaly_detector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_log_anomaly_detector awscc_logs_log_anomaly_detector}.
 type LogsLogAnomalyDetector interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -567,7 +567,7 @@ func (j *jsiiProxy_LogsLogAnomalyDetector) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_log_anomaly_detector awscc_logs_log_anomaly_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_log_anomaly_detector awscc_logs_log_anomaly_detector} Resource.
 func NewLogsLogAnomalyDetector(scope constructs.Construct, id *string, config *LogsLogAnomalyDetectorConfig) LogsLogAnomalyDetector {
 	_init_.Initialize()
 
@@ -585,7 +585,7 @@ func NewLogsLogAnomalyDetector(scope constructs.Construct, id *string, config *L
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_log_anomaly_detector awscc_logs_log_anomaly_detector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_log_anomaly_detector awscc_logs_log_anomaly_detector} Resource.
 func NewLogsLogAnomalyDetector_Override(l LogsLogAnomalyDetector, scope constructs.Construct, id *string, config *LogsLogAnomalyDetectorConfig) {
 	_init_.Initialize()
 

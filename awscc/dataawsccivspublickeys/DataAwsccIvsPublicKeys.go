@@ -5,14 +5,14 @@ package dataawsccivspublickeys
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccivspublickeys/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccivspublickeys/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_public_keys awscc_ivs_public_keys}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_public_keys awscc_ivs_public_keys}.
 type DataAwsccIvsPublicKeys interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIvsPublicKeys) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_public_keys awscc_ivs_public_keys} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_public_keys awscc_ivs_public_keys} Data Source.
 func NewDataAwsccIvsPublicKeys(scope constructs.Construct, id *string, config *DataAwsccIvsPublicKeysConfig) DataAwsccIvsPublicKeys {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIvsPublicKeys(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ivs_public_keys awscc_ivs_public_keys} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ivs_public_keys awscc_ivs_public_keys} Data Source.
 func NewDataAwsccIvsPublicKeys_Override(d DataAwsccIvsPublicKeys, scope constructs.Construct, id *string, config *DataAwsccIvsPublicKeysConfig) {
 	_init_.Initialize()
 

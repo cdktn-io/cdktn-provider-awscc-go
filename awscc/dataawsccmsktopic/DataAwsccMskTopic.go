@@ -5,14 +5,14 @@ package dataawsccmsktopic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmsktopic/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmsktopic/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_topic awscc_msk_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_topic awscc_msk_topic}.
 type DataAwsccMskTopic interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccMskTopic) TopicName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_topic awscc_msk_topic} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_topic awscc_msk_topic} Data Source.
 func NewDataAwsccMskTopic(scope constructs.Construct, id *string, config *DataAwsccMskTopicConfig) DataAwsccMskTopic {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccMskTopic(scope constructs.Construct, id *string, config *DataAw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/msk_topic awscc_msk_topic} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/msk_topic awscc_msk_topic} Data Source.
 func NewDataAwsccMskTopic_Override(d DataAwsccMskTopic, scope constructs.Construct, id *string, config *DataAwsccMskTopicConfig) {
 	_init_.Initialize()
 

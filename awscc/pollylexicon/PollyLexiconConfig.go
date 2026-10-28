@@ -24,11 +24,11 @@ type PollyLexiconConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The content of the PLS lexicon in string format.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/polly_lexicon#content PollyLexicon#content}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/polly_lexicon#content PollyLexicon#content}
 	Content *string `field:"required" json:"content" yaml:"content"`
 	// The name of the lexicon. Must be an alphanumeric string up to 20 characters long.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/polly_lexicon#name PollyLexicon#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/polly_lexicon#name PollyLexicon#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 }
 

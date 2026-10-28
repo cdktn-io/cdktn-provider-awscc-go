@@ -5,14 +5,14 @@ package dataawsccglobalacceleratorcrossaccountattachments
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglobalacceleratorcrossaccountattachments/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglobalacceleratorcrossaccountattachments/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/globalaccelerator_cross_account_attachments awscc_globalaccelerator_cross_account_attachments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/globalaccelerator_cross_account_attachments awscc_globalaccelerator_cross_account_attachments}.
 type DataAwsccGlobalacceleratorCrossAccountAttachments interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGlobalacceleratorCrossAccountAttachments) TerraformR
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/globalaccelerator_cross_account_attachments awscc_globalaccelerator_cross_account_attachments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/globalaccelerator_cross_account_attachments awscc_globalaccelerator_cross_account_attachments} Data Source.
 func NewDataAwsccGlobalacceleratorCrossAccountAttachments(scope constructs.Construct, id *string, config *DataAwsccGlobalacceleratorCrossAccountAttachmentsConfig) DataAwsccGlobalacceleratorCrossAccountAttachments {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGlobalacceleratorCrossAccountAttachments(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/globalaccelerator_cross_account_attachments awscc_globalaccelerator_cross_account_attachments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/globalaccelerator_cross_account_attachments awscc_globalaccelerator_cross_account_attachments} Data Source.
 func NewDataAwsccGlobalacceleratorCrossAccountAttachments_Override(d DataAwsccGlobalacceleratorCrossAccountAttachments, scope constructs.Construct, id *string, config *DataAwsccGlobalacceleratorCrossAccountAttachmentsConfig) {
 	_init_.Initialize()
 

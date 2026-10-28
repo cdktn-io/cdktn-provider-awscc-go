@@ -5,14 +5,14 @@ package datazoneprojectmembership
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneprojectmembership/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneprojectmembership/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_project_membership awscc_datazone_project_membership}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_project_membership awscc_datazone_project_membership}.
 type DatazoneProjectMembership interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -469,7 +469,7 @@ func (j *jsiiProxy_DatazoneProjectMembership) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_project_membership awscc_datazone_project_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_project_membership awscc_datazone_project_membership} Resource.
 func NewDatazoneProjectMembership(scope constructs.Construct, id *string, config *DatazoneProjectMembershipConfig) DatazoneProjectMembership {
 	_init_.Initialize()
 
@@ -487,7 +487,7 @@ func NewDatazoneProjectMembership(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_project_membership awscc_datazone_project_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_project_membership awscc_datazone_project_membership} Resource.
 func NewDatazoneProjectMembership_Override(d DatazoneProjectMembership, scope constructs.Construct, id *string, config *DatazoneProjectMembershipConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccrdsdbparametergroups
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbparametergroups/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbparametergroups/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_parameter_groups awscc_rds_db_parameter_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_parameter_groups awscc_rds_db_parameter_groups}.
 type DataAwsccRdsDbParameterGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRdsDbParameterGroups) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_parameter_groups awscc_rds_db_parameter_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_parameter_groups awscc_rds_db_parameter_groups} Data Source.
 func NewDataAwsccRdsDbParameterGroups(scope constructs.Construct, id *string, config *DataAwsccRdsDbParameterGroupsConfig) DataAwsccRdsDbParameterGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRdsDbParameterGroups(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_parameter_groups awscc_rds_db_parameter_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_parameter_groups awscc_rds_db_parameter_groups} Data Source.
 func NewDataAwsccRdsDbParameterGroups_Override(d DataAwsccRdsDbParameterGroups, scope constructs.Construct, id *string, config *DataAwsccRdsDbParameterGroupsConfig) {
 	_init_.Initialize()
 

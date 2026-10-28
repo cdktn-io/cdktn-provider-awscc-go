@@ -5,14 +5,14 @@ package dataawscccleanroomsprivacybudgettemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccleanroomsprivacybudgettemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccleanroomsprivacybudgettemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_privacy_budget_template awscc_cleanrooms_privacy_budget_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_privacy_budget_template awscc_cleanrooms_privacy_budget_template}.
 type DataAwsccCleanroomsPrivacyBudgetTemplate interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccCleanroomsPrivacyBudgetTemplate) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_privacy_budget_template awscc_cleanrooms_privacy_budget_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_privacy_budget_template awscc_cleanrooms_privacy_budget_template} Data Source.
 func NewDataAwsccCleanroomsPrivacyBudgetTemplate(scope constructs.Construct, id *string, config *DataAwsccCleanroomsPrivacyBudgetTemplateConfig) DataAwsccCleanroomsPrivacyBudgetTemplate {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccCleanroomsPrivacyBudgetTemplate(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cleanrooms_privacy_budget_template awscc_cleanrooms_privacy_budget_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cleanrooms_privacy_budget_template awscc_cleanrooms_privacy_budget_template} Data Source.
 func NewDataAwsccCleanroomsPrivacyBudgetTemplate_Override(d DataAwsccCleanroomsPrivacyBudgetTemplate, scope constructs.Construct, id *string, config *DataAwsccCleanroomsPrivacyBudgetTemplateConfig) {
 	_init_.Initialize()
 

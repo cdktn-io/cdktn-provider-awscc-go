@@ -5,14 +5,14 @@ package dataawsccmediaconnectrouternetworkinterface
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconnectrouternetworkinterface/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconnectrouternetworkinterface/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_router_network_interface awscc_mediaconnect_router_network_interface}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_router_network_interface awscc_mediaconnect_router_network_interface}.
 type DataAwsccMediaconnectRouterNetworkInterface interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccMediaconnectRouterNetworkInterface) UpdatedAt() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_router_network_interface awscc_mediaconnect_router_network_interface} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_router_network_interface awscc_mediaconnect_router_network_interface} Data Source.
 func NewDataAwsccMediaconnectRouterNetworkInterface(scope constructs.Construct, id *string, config *DataAwsccMediaconnectRouterNetworkInterfaceConfig) DataAwsccMediaconnectRouterNetworkInterface {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccMediaconnectRouterNetworkInterface(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconnect_router_network_interface awscc_mediaconnect_router_network_interface} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconnect_router_network_interface awscc_mediaconnect_router_network_interface} Data Source.
 func NewDataAwsccMediaconnectRouterNetworkInterface_Override(d DataAwsccMediaconnectRouterNetworkInterface, scope constructs.Construct, id *string, config *DataAwsccMediaconnectRouterNetworkInterfaceConfig) {
 	_init_.Initialize()
 

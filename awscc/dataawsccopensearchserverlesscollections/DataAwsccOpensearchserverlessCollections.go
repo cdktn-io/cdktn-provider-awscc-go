@@ -5,14 +5,14 @@ package dataawsccopensearchserverlesscollections
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccopensearchserverlesscollections/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccopensearchserverlesscollections/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opensearchserverless_collections awscc_opensearchserverless_collections}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opensearchserverless_collections awscc_opensearchserverless_collections}.
 type DataAwsccOpensearchserverlessCollections interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccOpensearchserverlessCollections) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opensearchserverless_collections awscc_opensearchserverless_collections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opensearchserverless_collections awscc_opensearchserverless_collections} Data Source.
 func NewDataAwsccOpensearchserverlessCollections(scope constructs.Construct, id *string, config *DataAwsccOpensearchserverlessCollectionsConfig) DataAwsccOpensearchserverlessCollections {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccOpensearchserverlessCollections(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/opensearchserverless_collections awscc_opensearchserverless_collections} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opensearchserverless_collections awscc_opensearchserverless_collections} Data Source.
 func NewDataAwsccOpensearchserverlessCollections_Override(d DataAwsccOpensearchserverlessCollections, scope constructs.Construct, id *string, config *DataAwsccOpensearchserverlessCollectionsConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccsagemakermonitoringschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakermonitoringschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakermonitoringschedule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_monitoring_schedule awscc_sagemaker_monitoring_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_monitoring_schedule awscc_sagemaker_monitoring_schedule}.
 type DataAwsccSagemakerMonitoringSchedule interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccSagemakerMonitoringSchedule) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_monitoring_schedule awscc_sagemaker_monitoring_schedule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_monitoring_schedule awscc_sagemaker_monitoring_schedule} Data Source.
 func NewDataAwsccSagemakerMonitoringSchedule(scope constructs.Construct, id *string, config *DataAwsccSagemakerMonitoringScheduleConfig) DataAwsccSagemakerMonitoringSchedule {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccSagemakerMonitoringSchedule(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_monitoring_schedule awscc_sagemaker_monitoring_schedule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_monitoring_schedule awscc_sagemaker_monitoring_schedule} Data Source.
 func NewDataAwsccSagemakerMonitoringSchedule_Override(d DataAwsccSagemakerMonitoringSchedule, scope constructs.Construct, id *string, config *DataAwsccSagemakerMonitoringScheduleConfig) {
 	_init_.Initialize()
 

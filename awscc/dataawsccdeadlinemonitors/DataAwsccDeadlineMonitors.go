@@ -5,14 +5,14 @@ package dataawsccdeadlinemonitors
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinemonitors/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinemonitors/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_monitors awscc_deadline_monitors}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_monitors awscc_deadline_monitors}.
 type DataAwsccDeadlineMonitors interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDeadlineMonitors) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_monitors awscc_deadline_monitors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_monitors awscc_deadline_monitors} Data Source.
 func NewDataAwsccDeadlineMonitors(scope constructs.Construct, id *string, config *DataAwsccDeadlineMonitorsConfig) DataAwsccDeadlineMonitors {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDeadlineMonitors(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_monitors awscc_deadline_monitors} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_monitors awscc_deadline_monitors} Data Source.
 func NewDataAwsccDeadlineMonitors_Override(d DataAwsccDeadlineMonitors, scope constructs.Construct, id *string, config *DataAwsccDeadlineMonitorsConfig) {
 	_init_.Initialize()
 

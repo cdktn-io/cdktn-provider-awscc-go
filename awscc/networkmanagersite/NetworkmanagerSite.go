@@ -5,14 +5,14 @@ package networkmanagersite
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagersite/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagersite/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_site awscc_networkmanager_site}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_site awscc_networkmanager_site}.
 type NetworkmanagerSite interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -494,7 +494,7 @@ func (j *jsiiProxy_NetworkmanagerSite) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_site awscc_networkmanager_site} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_site awscc_networkmanager_site} Resource.
 func NewNetworkmanagerSite(scope constructs.Construct, id *string, config *NetworkmanagerSiteConfig) NetworkmanagerSite {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewNetworkmanagerSite(scope constructs.Construct, id *string, config *Netwo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_site awscc_networkmanager_site} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_site awscc_networkmanager_site} Resource.
 func NewNetworkmanagerSite_Override(n NetworkmanagerSite, scope constructs.Construct, id *string, config *NetworkmanagerSiteConfig) {
 	_init_.Initialize()
 

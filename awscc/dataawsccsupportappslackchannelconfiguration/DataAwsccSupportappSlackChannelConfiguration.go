@@ -5,14 +5,14 @@ package dataawsccsupportappslackchannelconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsupportappslackchannelconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsupportappslackchannelconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/supportapp_slack_channel_configuration awscc_supportapp_slack_channel_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/supportapp_slack_channel_configuration awscc_supportapp_slack_channel_configuration}.
 type DataAwsccSupportappSlackChannelConfiguration interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccSupportappSlackChannelConfiguration) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/supportapp_slack_channel_configuration awscc_supportapp_slack_channel_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/supportapp_slack_channel_configuration awscc_supportapp_slack_channel_configuration} Data Source.
 func NewDataAwsccSupportappSlackChannelConfiguration(scope constructs.Construct, id *string, config *DataAwsccSupportappSlackChannelConfigurationConfig) DataAwsccSupportappSlackChannelConfiguration {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccSupportappSlackChannelConfiguration(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/supportapp_slack_channel_configuration awscc_supportapp_slack_channel_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/supportapp_slack_channel_configuration awscc_supportapp_slack_channel_configuration} Data Source.
 func NewDataAwsccSupportappSlackChannelConfiguration_Override(d DataAwsccSupportappSlackChannelConfiguration, scope constructs.Construct, id *string, config *DataAwsccSupportappSlackChannelConfigurationConfig) {
 	_init_.Initialize()
 

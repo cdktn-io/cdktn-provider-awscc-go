@@ -5,14 +5,14 @@ package interconnectconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/interconnectconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/interconnectconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/interconnect_connection awscc_interconnect_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/interconnect_connection awscc_interconnect_connection}.
 type InterconnectConnection interface {
 	cdktn.TerraformResource
 	ActivationKey() *string
@@ -634,7 +634,7 @@ func (j *jsiiProxy_InterconnectConnection) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/interconnect_connection awscc_interconnect_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/interconnect_connection awscc_interconnect_connection} Resource.
 func NewInterconnectConnection(scope constructs.Construct, id *string, config *InterconnectConnectionConfig) InterconnectConnection {
 	_init_.Initialize()
 
@@ -652,7 +652,7 @@ func NewInterconnectConnection(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/interconnect_connection awscc_interconnect_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/interconnect_connection awscc_interconnect_connection} Resource.
 func NewInterconnectConnection_Override(i InterconnectConnection, scope constructs.Construct, id *string, config *InterconnectConnectionConfig) {
 	_init_.Initialize()
 

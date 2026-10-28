@@ -5,14 +5,14 @@ package docdbelasticclustersnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/docdbelasticclustersnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/docdbelasticclustersnapshot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdbelastic_cluster_snapshot awscc_docdbelastic_cluster_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdbelastic_cluster_snapshot awscc_docdbelastic_cluster_snapshot}.
 type DocdbelasticClusterSnapshot interface {
 	cdktn.TerraformResource
 	AdminUserName() *string
@@ -524,7 +524,7 @@ func (j *jsiiProxy_DocdbelasticClusterSnapshot) VpcSecurityGroupIds() *[]*string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdbelastic_cluster_snapshot awscc_docdbelastic_cluster_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdbelastic_cluster_snapshot awscc_docdbelastic_cluster_snapshot} Resource.
 func NewDocdbelasticClusterSnapshot(scope constructs.Construct, id *string, config *DocdbelasticClusterSnapshotConfig) DocdbelasticClusterSnapshot {
 	_init_.Initialize()
 
@@ -542,7 +542,7 @@ func NewDocdbelasticClusterSnapshot(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdbelastic_cluster_snapshot awscc_docdbelastic_cluster_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdbelastic_cluster_snapshot awscc_docdbelastic_cluster_snapshot} Resource.
 func NewDocdbelasticClusterSnapshot_Override(d DocdbelasticClusterSnapshot, scope constructs.Construct, id *string, config *DocdbelasticClusterSnapshotConfig) {
 	_init_.Initialize()
 

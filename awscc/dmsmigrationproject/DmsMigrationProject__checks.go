@@ -465,23 +465,7 @@ func (j *jsiiProxy_DmsMigrationProject) validateSetDescriptionParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_DmsMigrationProject) validateSetInstanceProfileArnParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
 func (j *jsiiProxy_DmsMigrationProject) validateSetInstanceProfileIdentifierParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_DmsMigrationProject) validateSetInstanceProfileNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -492,14 +476,6 @@ func (j *jsiiProxy_DmsMigrationProject) validateSetInstanceProfileNameParameters
 func (j *jsiiProxy_DmsMigrationProject) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err
-	}
-
-	return nil
-}
-
-func (j *jsiiProxy_DmsMigrationProject) validateSetMigrationProjectCreationTimeParameters(val *string) error {
-	if val == nil {
-		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil

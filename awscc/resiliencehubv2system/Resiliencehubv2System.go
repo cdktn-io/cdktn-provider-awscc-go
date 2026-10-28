@@ -5,14 +5,14 @@ package resiliencehubv2system
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2system/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2system/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_system awscc_resiliencehubv2_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_system awscc_resiliencehubv2_system}.
 type Resiliencehubv2System interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -518,7 +518,7 @@ func (j *jsiiProxy_Resiliencehubv2System) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_system awscc_resiliencehubv2_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_system awscc_resiliencehubv2_system} Resource.
 func NewResiliencehubv2System(scope constructs.Construct, id *string, config *Resiliencehubv2SystemConfig) Resiliencehubv2System {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewResiliencehubv2System(scope constructs.Construct, id *string, config *Re
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_system awscc_resiliencehubv2_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_system awscc_resiliencehubv2_system} Resource.
 func NewResiliencehubv2System_Override(r Resiliencehubv2System, scope constructs.Construct, id *string, config *Resiliencehubv2SystemConfig) {
 	_init_.Initialize()
 

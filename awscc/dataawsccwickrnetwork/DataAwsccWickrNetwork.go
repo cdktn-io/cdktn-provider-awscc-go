@@ -5,14 +5,14 @@ package dataawsccwickrnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwickrnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwickrnetwork/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wickr_network awscc_wickr_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wickr_network awscc_wickr_network}.
 type DataAwsccWickrNetwork interface {
 	cdktn.TerraformDataSource
 	AccessLevel() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccWickrNetwork) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wickr_network awscc_wickr_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wickr_network awscc_wickr_network} Data Source.
 func NewDataAwsccWickrNetwork(scope constructs.Construct, id *string, config *DataAwsccWickrNetworkConfig) DataAwsccWickrNetwork {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccWickrNetwork(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wickr_network awscc_wickr_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wickr_network awscc_wickr_network} Data Source.
 func NewDataAwsccWickrNetwork_Override(d DataAwsccWickrNetwork, scope constructs.Construct, id *string, config *DataAwsccWickrNetworkConfig) {
 	_init_.Initialize()
 

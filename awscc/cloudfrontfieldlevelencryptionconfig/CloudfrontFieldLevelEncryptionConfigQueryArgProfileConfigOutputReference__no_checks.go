@@ -1,0 +1,85 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package cloudfrontfieldlevelencryptionconfig
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (c *jsiiProxy_CloudfrontFieldLevelEncryptionConfigQueryArgProfileConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontFieldLevelEncryptionConfigQueryArgProfileConfigOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontFieldLevelEncryptionConfigQueryArgProfileConfigOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontFieldLevelEncryptionConfigQueryArgProfileConfigOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontFieldLevelEncryptionConfigQueryArgProfileConfigOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontFieldLevelEncryptionConfigQueryArgProfileConfigOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontFieldLevelEncryptionConfigQueryArgProfileConfigOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontFieldLevelEncryptionConfigQueryArgProfileConfigOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontFieldLevelEncryptionConfigQueryArgProfileConfigOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontFieldLevelEncryptionConfigQueryArgProfileConfigOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontFieldLevelEncryptionConfigQueryArgProfileConfigOutputReference) validatePutQueryArgProfilesParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudfrontFieldLevelEncryptionConfigQueryArgProfileConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudfrontFieldLevelEncryptionConfigQueryArgProfileConfigOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudfrontFieldLevelEncryptionConfigQueryArgProfileConfigOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudfrontFieldLevelEncryptionConfigQueryArgProfileConfigOutputReference) validateSetForwardWhenQueryArgProfileIsUnknownParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudfrontFieldLevelEncryptionConfigQueryArgProfileConfigOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudfrontFieldLevelEncryptionConfigQueryArgProfileConfigOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudfrontFieldLevelEncryptionConfigQueryArgProfileConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewCloudfrontFieldLevelEncryptionConfigQueryArgProfileConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

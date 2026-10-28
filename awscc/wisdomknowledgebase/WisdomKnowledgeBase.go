@@ -5,14 +5,14 @@ package wisdomknowledgebase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomknowledgebase/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomknowledgebase/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_knowledge_base awscc_wisdom_knowledge_base}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_knowledge_base awscc_wisdom_knowledge_base}.
 type WisdomKnowledgeBase interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -567,7 +567,7 @@ func (j *jsiiProxy_WisdomKnowledgeBase) VectorIngestionConfigurationInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_knowledge_base awscc_wisdom_knowledge_base} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_knowledge_base awscc_wisdom_knowledge_base} Resource.
 func NewWisdomKnowledgeBase(scope constructs.Construct, id *string, config *WisdomKnowledgeBaseConfig) WisdomKnowledgeBase {
 	_init_.Initialize()
 
@@ -585,7 +585,7 @@ func NewWisdomKnowledgeBase(scope constructs.Construct, id *string, config *Wisd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_knowledge_base awscc_wisdom_knowledge_base} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_knowledge_base awscc_wisdom_knowledge_base} Resource.
 func NewWisdomKnowledgeBase_Override(w WisdomKnowledgeBase, scope constructs.Construct, id *string, config *WisdomKnowledgeBaseConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package cloudtrailtrail
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtrailtrail/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtrailtrail/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_trail awscc_cloudtrail_trail}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_trail awscc_cloudtrail_trail}.
 type CloudtrailTrail interface {
 	cdktn.TerraformResource
 	AdvancedEventSelectors() CloudtrailTrailAdvancedEventSelectorsList
@@ -783,7 +783,7 @@ func (j *jsiiProxy_CloudtrailTrail) TrailNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_trail awscc_cloudtrail_trail} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_trail awscc_cloudtrail_trail} Resource.
 func NewCloudtrailTrail(scope constructs.Construct, id *string, config *CloudtrailTrailConfig) CloudtrailTrail {
 	_init_.Initialize()
 
@@ -801,7 +801,7 @@ func NewCloudtrailTrail(scope constructs.Construct, id *string, config *Cloudtra
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_trail awscc_cloudtrail_trail} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_trail awscc_cloudtrail_trail} Resource.
 func NewCloudtrailTrail_Override(c CloudtrailTrail, scope constructs.Construct, id *string, config *CloudtrailTrailConfig) {
 	_init_.Initialize()
 

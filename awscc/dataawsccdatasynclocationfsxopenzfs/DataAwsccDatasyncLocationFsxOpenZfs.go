@@ -5,14 +5,14 @@ package dataawsccdatasynclocationfsxopenzfs
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxopenzfs/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxopenzfs/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_fsx_open_zfs awscc_datasync_location_fsx_open_zfs}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_fsx_open_zfs awscc_datasync_location_fsx_open_zfs}.
 type DataAwsccDatasyncLocationFsxOpenZfs interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccDatasyncLocationFsxOpenZfs) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_fsx_open_zfs awscc_datasync_location_fsx_open_zfs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_fsx_open_zfs awscc_datasync_location_fsx_open_zfs} Data Source.
 func NewDataAwsccDatasyncLocationFsxOpenZfs(scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationFsxOpenZfsConfig) DataAwsccDatasyncLocationFsxOpenZfs {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccDatasyncLocationFsxOpenZfs(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_fsx_open_zfs awscc_datasync_location_fsx_open_zfs} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_fsx_open_zfs awscc_datasync_location_fsx_open_zfs} Data Source.
 func NewDataAwsccDatasyncLocationFsxOpenZfs_Override(d DataAwsccDatasyncLocationFsxOpenZfs, scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationFsxOpenZfsConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package route53globalresolveraccesstoken
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53globalresolveraccesstoken/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53globalresolveraccesstoken/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53globalresolver_access_token awscc_route53globalresolver_access_token}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53globalresolver_access_token awscc_route53globalresolver_access_token}.
 type Route53GlobalresolverAccessToken interface {
 	cdktn.TerraformResource
 	AccessTokenId() *string
@@ -551,7 +551,7 @@ func (j *jsiiProxy_Route53GlobalresolverAccessToken) Value() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53globalresolver_access_token awscc_route53globalresolver_access_token} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53globalresolver_access_token awscc_route53globalresolver_access_token} Resource.
 func NewRoute53GlobalresolverAccessToken(scope constructs.Construct, id *string, config *Route53GlobalresolverAccessTokenConfig) Route53GlobalresolverAccessToken {
 	_init_.Initialize()
 
@@ -569,7 +569,7 @@ func NewRoute53GlobalresolverAccessToken(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53globalresolver_access_token awscc_route53globalresolver_access_token} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53globalresolver_access_token awscc_route53globalresolver_access_token} Resource.
 func NewRoute53GlobalresolverAccessToken_Override(r Route53GlobalresolverAccessToken, scope constructs.Construct, id *string, config *Route53GlobalresolverAccessTokenConfig) {
 	_init_.Initialize()
 

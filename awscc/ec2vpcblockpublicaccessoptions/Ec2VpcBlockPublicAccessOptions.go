@@ -5,14 +5,14 @@ package ec2vpcblockpublicaccessoptions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2vpcblockpublicaccessoptions/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2vpcblockpublicaccessoptions/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc_block_public_access_options awscc_ec2_vpc_block_public_access_options}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc_block_public_access_options awscc_ec2_vpc_block_public_access_options}.
 type Ec2VpcBlockPublicAccessOptions interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -400,7 +400,7 @@ func (j *jsiiProxy_Ec2VpcBlockPublicAccessOptions) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc_block_public_access_options awscc_ec2_vpc_block_public_access_options} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc_block_public_access_options awscc_ec2_vpc_block_public_access_options} Resource.
 func NewEc2VpcBlockPublicAccessOptions(scope constructs.Construct, id *string, config *Ec2VpcBlockPublicAccessOptionsConfig) Ec2VpcBlockPublicAccessOptions {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewEc2VpcBlockPublicAccessOptions(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_vpc_block_public_access_options awscc_ec2_vpc_block_public_access_options} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_vpc_block_public_access_options awscc_ec2_vpc_block_public_access_options} Resource.
 func NewEc2VpcBlockPublicAccessOptions_Override(e Ec2VpcBlockPublicAccessOptions, scope constructs.Construct, id *string, config *Ec2VpcBlockPublicAccessOptionsConfig) {
 	_init_.Initialize()
 

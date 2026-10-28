@@ -5,14 +5,14 @@ package dataawscccassandratable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccassandratable/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccassandratable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cassandra_table awscc_cassandra_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cassandra_table awscc_cassandra_table}.
 type DataAwsccCassandraTable interface {
 	cdktn.TerraformDataSource
 	AutoScalingSpecifications() DataAwsccCassandraTableAutoScalingSpecificationsOutputReference
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccCassandraTable) WarmThroughput() DataAwsccCassandraT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cassandra_table awscc_cassandra_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cassandra_table awscc_cassandra_table} Data Source.
 func NewDataAwsccCassandraTable(scope constructs.Construct, id *string, config *DataAwsccCassandraTableConfig) DataAwsccCassandraTable {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccCassandraTable(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cassandra_table awscc_cassandra_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cassandra_table awscc_cassandra_table} Data Source.
 func NewDataAwsccCassandraTable_Override(d DataAwsccCassandraTable, scope constructs.Construct, id *string, config *DataAwsccCassandraTableConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package mskchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mskchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mskchannel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/msk_channel awscc_msk_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/msk_channel awscc_msk_channel}.
 type MskChannel interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -578,7 +578,7 @@ func (j *jsiiProxy_MskChannel) TopicConfigurationListInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/msk_channel awscc_msk_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/msk_channel awscc_msk_channel} Resource.
 func NewMskChannel(scope constructs.Construct, id *string, config *MskChannelConfig) MskChannel {
 	_init_.Initialize()
 
@@ -596,7 +596,7 @@ func NewMskChannel(scope constructs.Construct, id *string, config *MskChannelCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/msk_channel awscc_msk_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/msk_channel awscc_msk_channel} Resource.
 func NewMskChannel_Override(m MskChannel, scope constructs.Construct, id *string, config *MskChannelConfig) {
 	_init_.Initialize()
 

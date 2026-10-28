@@ -5,14 +5,14 @@ package dataawsccappconfigapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appconfig_application awscc_appconfig_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appconfig_application awscc_appconfig_application}.
 type DataAwsccAppconfigApplication interface {
 	cdktn.TerraformDataSource
 	ApplicationId() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccAppconfigApplication) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appconfig_application awscc_appconfig_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appconfig_application awscc_appconfig_application} Data Source.
 func NewDataAwsccAppconfigApplication(scope constructs.Construct, id *string, config *DataAwsccAppconfigApplicationConfig) DataAwsccAppconfigApplication {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccAppconfigApplication(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appconfig_application awscc_appconfig_application} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appconfig_application awscc_appconfig_application} Data Source.
 func NewDataAwsccAppconfigApplication_Override(d DataAwsccAppconfigApplication, scope constructs.Construct, id *string, config *DataAwsccAppconfigApplicationConfig) {
 	_init_.Initialize()
 

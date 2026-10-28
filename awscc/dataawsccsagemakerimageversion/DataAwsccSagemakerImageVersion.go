@@ -5,14 +5,14 @@ package dataawsccsagemakerimageversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerimageversion/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerimageversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_image_version awscc_sagemaker_image_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_image_version awscc_sagemaker_image_version}.
 type DataAwsccSagemakerImageVersion interface {
 	cdktn.TerraformDataSource
 	Alias() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccSagemakerImageVersion) Version() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_image_version awscc_sagemaker_image_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_image_version awscc_sagemaker_image_version} Data Source.
 func NewDataAwsccSagemakerImageVersion(scope constructs.Construct, id *string, config *DataAwsccSagemakerImageVersionConfig) DataAwsccSagemakerImageVersion {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccSagemakerImageVersion(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_image_version awscc_sagemaker_image_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_image_version awscc_sagemaker_image_version} Data Source.
 func NewDataAwsccSagemakerImageVersion_Override(d DataAwsccSagemakerImageVersion, scope constructs.Construct, id *string, config *DataAwsccSagemakerImageVersionConfig) {
 	_init_.Initialize()
 

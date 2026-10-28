@@ -5,14 +5,14 @@ package secretsmanagerresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/secretsmanagerresourcepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/secretsmanagerresourcepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/secretsmanager_resource_policy awscc_secretsmanager_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/secretsmanager_resource_policy awscc_secretsmanager_resource_policy}.
 type SecretsmanagerResourcePolicy interface {
 	cdktn.TerraformResource
 	BlockPublicPolicy() interface{}
@@ -436,7 +436,7 @@ func (j *jsiiProxy_SecretsmanagerResourcePolicy) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/secretsmanager_resource_policy awscc_secretsmanager_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/secretsmanager_resource_policy awscc_secretsmanager_resource_policy} Resource.
 func NewSecretsmanagerResourcePolicy(scope constructs.Construct, id *string, config *SecretsmanagerResourcePolicyConfig) SecretsmanagerResourcePolicy {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewSecretsmanagerResourcePolicy(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/secretsmanager_resource_policy awscc_secretsmanager_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/secretsmanager_resource_policy awscc_secretsmanager_resource_policy} Resource.
 func NewSecretsmanagerResourcePolicy_Override(s SecretsmanagerResourcePolicy, scope constructs.Construct, id *string, config *SecretsmanagerResourcePolicyConfig) {
 	_init_.Initialize()
 

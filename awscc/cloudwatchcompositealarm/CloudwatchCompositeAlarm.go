@@ -5,16 +5,18 @@ package cloudwatchcompositealarm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudwatchcompositealarm/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudwatchcompositealarm/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_composite_alarm awscc_cloudwatch_composite_alarm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_composite_alarm awscc_cloudwatch_composite_alarm}.
 type CloudwatchCompositeAlarm interface {
 	cdktn.TerraformResource
+	ActionConfiguration() CloudwatchCompositeAlarmActionConfigurationOutputReference
+	ActionConfigurationInput() interface{}
 	ActionsEnabled() interface{}
 	SetActionsEnabled(val interface{})
 	ActionsEnabledInput() interface{}
@@ -174,6 +176,7 @@ type CloudwatchCompositeAlarm interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutActionConfiguration(value *CloudwatchCompositeAlarmActionConfiguration)
 	PutTags(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -188,6 +191,7 @@ type CloudwatchCompositeAlarm interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetActionConfiguration()
 	ResetActionsEnabled()
 	ResetActionsSuppressor()
 	ResetActionsSuppressorExtensionPeriod()
@@ -226,6 +230,26 @@ type CloudwatchCompositeAlarm interface {
 // The jsii proxy struct for CloudwatchCompositeAlarm
 type jsiiProxy_CloudwatchCompositeAlarm struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_CloudwatchCompositeAlarm) ActionConfiguration() CloudwatchCompositeAlarmActionConfigurationOutputReference {
+	var returns CloudwatchCompositeAlarmActionConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"actionConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudwatchCompositeAlarm) ActionConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"actionConfigurationInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_CloudwatchCompositeAlarm) ActionsEnabled() interface{} {
@@ -629,7 +653,7 @@ func (j *jsiiProxy_CloudwatchCompositeAlarm) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_composite_alarm awscc_cloudwatch_composite_alarm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_composite_alarm awscc_cloudwatch_composite_alarm} Resource.
 func NewCloudwatchCompositeAlarm(scope constructs.Construct, id *string, config *CloudwatchCompositeAlarmConfig) CloudwatchCompositeAlarm {
 	_init_.Initialize()
 
@@ -647,7 +671,7 @@ func NewCloudwatchCompositeAlarm(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_composite_alarm awscc_cloudwatch_composite_alarm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_composite_alarm awscc_cloudwatch_composite_alarm} Resource.
 func NewCloudwatchCompositeAlarm_Override(c CloudwatchCompositeAlarm, scope constructs.Construct, id *string, config *CloudwatchCompositeAlarmConfig) {
 	_init_.Initialize()
 
@@ -1205,6 +1229,17 @@ func (c *jsiiProxy_CloudwatchCompositeAlarm) OverrideLogicalId(newLogicalId *str
 	)
 }
 
+func (c *jsiiProxy_CloudwatchCompositeAlarm) PutActionConfiguration(value *CloudwatchCompositeAlarmActionConfiguration) {
+	if err := c.validatePutActionConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putActionConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CloudwatchCompositeAlarm) PutTags(value interface{}) {
 	if err := c.validatePutTagsParameters(value); err != nil {
 		panic(err)
@@ -1224,6 +1259,14 @@ func (c *jsiiProxy_CloudwatchCompositeAlarm) RegisterProviderFeatureUsage(featur
 		c,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (c *jsiiProxy_CloudwatchCompositeAlarm) ResetActionConfiguration() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetActionConfiguration",
+		nil, // no parameters
 	)
 }
 

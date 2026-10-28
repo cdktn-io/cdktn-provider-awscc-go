@@ -5,14 +5,14 @@ package dataawsccssoapplicationassignments
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssoapplicationassignments/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssoapplicationassignments/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sso_application_assignments awscc_sso_application_assignments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sso_application_assignments awscc_sso_application_assignments}.
 type DataAwsccSsoApplicationAssignments interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSsoApplicationAssignments) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sso_application_assignments awscc_sso_application_assignments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sso_application_assignments awscc_sso_application_assignments} Data Source.
 func NewDataAwsccSsoApplicationAssignments(scope constructs.Construct, id *string, config *DataAwsccSsoApplicationAssignmentsConfig) DataAwsccSsoApplicationAssignments {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSsoApplicationAssignments(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sso_application_assignments awscc_sso_application_assignments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sso_application_assignments awscc_sso_application_assignments} Data Source.
 func NewDataAwsccSsoApplicationAssignments_Override(d DataAwsccSsoApplicationAssignments, scope constructs.Construct, id *string, config *DataAwsccSsoApplicationAssignmentsConfig) {
 	_init_.Initialize()
 

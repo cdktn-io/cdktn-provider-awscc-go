@@ -5,14 +5,14 @@ package dataawscciottwinmakersyncjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciottwinmakersyncjob/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciottwinmakersyncjob/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iottwinmaker_sync_job awscc_iottwinmaker_sync_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iottwinmaker_sync_job awscc_iottwinmaker_sync_job}.
 type DataAwsccIottwinmakerSyncJob interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccIottwinmakerSyncJob) WorkspaceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iottwinmaker_sync_job awscc_iottwinmaker_sync_job} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iottwinmaker_sync_job awscc_iottwinmaker_sync_job} Data Source.
 func NewDataAwsccIottwinmakerSyncJob(scope constructs.Construct, id *string, config *DataAwsccIottwinmakerSyncJobConfig) DataAwsccIottwinmakerSyncJob {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccIottwinmakerSyncJob(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iottwinmaker_sync_job awscc_iottwinmaker_sync_job} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iottwinmaker_sync_job awscc_iottwinmaker_sync_job} Data Source.
 func NewDataAwsccIottwinmakerSyncJob_Override(d DataAwsccIottwinmakerSyncJob, scope constructs.Construct, id *string, config *DataAwsccIottwinmakerSyncJobConfig) {
 	_init_.Initialize()
 

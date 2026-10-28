@@ -5,14 +5,14 @@ package dataawsccbedrockagentalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentalias/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentalias/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_agent_alias awscc_bedrock_agent_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_agent_alias awscc_bedrock_agent_alias}.
 type DataAwsccBedrockAgentAlias interface {
 	cdktn.TerraformDataSource
 	AgentAliasArn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccBedrockAgentAlias) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_agent_alias awscc_bedrock_agent_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_agent_alias awscc_bedrock_agent_alias} Data Source.
 func NewDataAwsccBedrockAgentAlias(scope constructs.Construct, id *string, config *DataAwsccBedrockAgentAliasConfig) DataAwsccBedrockAgentAlias {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccBedrockAgentAlias(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_agent_alias awscc_bedrock_agent_alias} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_agent_alias awscc_bedrock_agent_alias} Data Source.
 func NewDataAwsccBedrockAgentAlias_Override(d DataAwsccBedrockAgentAlias, scope constructs.Construct, id *string, config *DataAwsccBedrockAgentAliasConfig) {
 	_init_.Initialize()
 

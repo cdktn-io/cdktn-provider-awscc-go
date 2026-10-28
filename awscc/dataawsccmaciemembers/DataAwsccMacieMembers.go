@@ -5,14 +5,14 @@ package dataawsccmaciemembers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmaciemembers/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmaciemembers/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/macie_members awscc_macie_members}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/macie_members awscc_macie_members}.
 type DataAwsccMacieMembers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMacieMembers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/macie_members awscc_macie_members} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/macie_members awscc_macie_members} Data Source.
 func NewDataAwsccMacieMembers(scope constructs.Construct, id *string, config *DataAwsccMacieMembersConfig) DataAwsccMacieMembers {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMacieMembers(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/macie_members awscc_macie_members} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/macie_members awscc_macie_members} Data Source.
 func NewDataAwsccMacieMembers_Override(d DataAwsccMacieMembers, scope constructs.Construct, id *string, config *DataAwsccMacieMembersConfig) {
 	_init_.Initialize()
 

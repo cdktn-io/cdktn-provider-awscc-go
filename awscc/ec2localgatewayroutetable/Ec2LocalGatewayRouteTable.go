@@ -5,14 +5,14 @@ package ec2localgatewayroutetable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2localgatewayroutetable/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2localgatewayroutetable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_local_gateway_route_table awscc_ec2_local_gateway_route_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_local_gateway_route_table awscc_ec2_local_gateway_route_table}.
 type Ec2LocalGatewayRouteTable interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -481,7 +481,7 @@ func (j *jsiiProxy_Ec2LocalGatewayRouteTable) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_local_gateway_route_table awscc_ec2_local_gateway_route_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_local_gateway_route_table awscc_ec2_local_gateway_route_table} Resource.
 func NewEc2LocalGatewayRouteTable(scope constructs.Construct, id *string, config *Ec2LocalGatewayRouteTableConfig) Ec2LocalGatewayRouteTable {
 	_init_.Initialize()
 
@@ -499,7 +499,7 @@ func NewEc2LocalGatewayRouteTable(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_local_gateway_route_table awscc_ec2_local_gateway_route_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_local_gateway_route_table awscc_ec2_local_gateway_route_table} Resource.
 func NewEc2LocalGatewayRouteTable_Override(e Ec2LocalGatewayRouteTable, scope constructs.Construct, id *string, config *Ec2LocalGatewayRouteTableConfig) {
 	_init_.Initialize()
 

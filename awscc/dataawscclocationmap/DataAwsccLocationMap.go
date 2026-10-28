@@ -5,14 +5,14 @@ package dataawscclocationmap
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationmap/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationmap/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_map awscc_location_map}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_map awscc_location_map}.
 type DataAwsccLocationMap interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccLocationMap) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_map awscc_location_map} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_map awscc_location_map} Data Source.
 func NewDataAwsccLocationMap(scope constructs.Construct, id *string, config *DataAwsccLocationMapConfig) DataAwsccLocationMap {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccLocationMap(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_map awscc_location_map} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_map awscc_location_map} Data Source.
 func NewDataAwsccLocationMap_Override(d DataAwsccLocationMap, scope constructs.Construct, id *string, config *DataAwsccLocationMapConfig) {
 	_init_.Initialize()
 

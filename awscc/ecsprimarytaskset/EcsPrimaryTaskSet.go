@@ -5,14 +5,14 @@ package ecsprimarytaskset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecsprimarytaskset/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecsprimarytaskset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_primary_task_set awscc_ecs_primary_task_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_primary_task_set awscc_ecs_primary_task_set}.
 type EcsPrimaryTaskSet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_EcsPrimaryTaskSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_primary_task_set awscc_ecs_primary_task_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_primary_task_set awscc_ecs_primary_task_set} Resource.
 func NewEcsPrimaryTaskSet(scope constructs.Construct, id *string, config *EcsPrimaryTaskSetConfig) EcsPrimaryTaskSet {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewEcsPrimaryTaskSet(scope constructs.Construct, id *string, config *EcsPri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_primary_task_set awscc_ecs_primary_task_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_primary_task_set awscc_ecs_primary_task_set} Resource.
 func NewEcsPrimaryTaskSet_Override(e EcsPrimaryTaskSet, scope constructs.Construct, id *string, config *EcsPrimaryTaskSetConfig) {
 	_init_.Initialize()
 

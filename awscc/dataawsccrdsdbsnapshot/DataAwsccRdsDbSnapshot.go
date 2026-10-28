@@ -5,14 +5,14 @@ package dataawsccrdsdbsnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbsnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbsnapshot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_snapshot awscc_rds_db_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_snapshot awscc_rds_db_snapshot}.
 type DataAwsccRdsDbSnapshot interface {
 	cdktn.TerraformDataSource
 	AllocatedStorage() *float64
@@ -561,7 +561,7 @@ func (j *jsiiProxy_DataAwsccRdsDbSnapshot) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_snapshot awscc_rds_db_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_snapshot awscc_rds_db_snapshot} Data Source.
 func NewDataAwsccRdsDbSnapshot(scope constructs.Construct, id *string, config *DataAwsccRdsDbSnapshotConfig) DataAwsccRdsDbSnapshot {
 	_init_.Initialize()
 
@@ -579,7 +579,7 @@ func NewDataAwsccRdsDbSnapshot(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_snapshot awscc_rds_db_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_snapshot awscc_rds_db_snapshot} Data Source.
 func NewDataAwsccRdsDbSnapshot_Override(d DataAwsccRdsDbSnapshot, scope constructs.Construct, id *string, config *DataAwsccRdsDbSnapshotConfig) {
 	_init_.Initialize()
 

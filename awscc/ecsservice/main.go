@@ -42,6 +42,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
 			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberProperty{JsiiProperty: "gatewayConnectors", GoGetter: "GatewayConnectors"},
+			_jsii_.MemberProperty{JsiiProperty: "gatewayConnectorsInput", GoGetter: "GatewayConnectorsInput"},
 			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
@@ -87,6 +89,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putDeploymentConfiguration", GoMethod: "PutDeploymentConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putDeploymentController", GoMethod: "PutDeploymentController"},
 			_jsii_.MemberMethod{JsiiMethod: "putForceNewDeployment", GoMethod: "PutForceNewDeployment"},
+			_jsii_.MemberMethod{JsiiMethod: "putGatewayConnectors", GoMethod: "PutGatewayConnectors"},
 			_jsii_.MemberMethod{JsiiMethod: "putLoadBalancers", GoMethod: "PutLoadBalancers"},
 			_jsii_.MemberMethod{JsiiMethod: "putMonitoring", GoMethod: "PutMonitoring"},
 			_jsii_.MemberMethod{JsiiMethod: "putNetworkConfiguration", GoMethod: "PutNetworkConfiguration"},
@@ -108,6 +111,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetEnableEcsManagedTags", GoMethod: "ResetEnableEcsManagedTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEnableExecuteCommand", GoMethod: "ResetEnableExecuteCommand"},
 			_jsii_.MemberMethod{JsiiMethod: "resetForceNewDeployment", GoMethod: "ResetForceNewDeployment"},
+			_jsii_.MemberMethod{JsiiMethod: "resetGatewayConnectors", GoMethod: "ResetGatewayConnectors"},
 			_jsii_.MemberMethod{JsiiMethod: "resetHealthCheckGracePeriodSeconds", GoMethod: "ResetHealthCheckGracePeriodSeconds"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLaunchType", GoMethod: "ResetLaunchType"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLoadBalancers", GoMethod: "ResetLoadBalancers"},
@@ -772,6 +776,217 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectors",
+		reflect.TypeOf((*EcsServiceGatewayConnectors)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFilters",
+		reflect.TypeOf((*EcsServiceGatewayConnectorsFilters)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsFiltersOutputReference",
+		reflect.TypeOf((*EcsServiceGatewayConnectorsFiltersOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "accessTypes", GoGetter: "AccessTypes"},
+			_jsii_.MemberProperty{JsiiProperty: "accessTypesInput", GoGetter: "AccessTypesInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAccessTypes", GoMethod: "ResetAccessTypes"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_EcsServiceGatewayConnectorsFiltersOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheck",
+		reflect.TypeOf((*EcsServiceGatewayConnectorsHealthCheck)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcher",
+		reflect.TypeOf((*EcsServiceGatewayConnectorsHealthCheckMatcher)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference",
+		reflect.TypeOf((*EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "grpcCode", GoGetter: "GrpcCode"},
+			_jsii_.MemberProperty{JsiiProperty: "grpcCodeInput", GoGetter: "GrpcCodeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "httpCode", GoGetter: "HttpCode"},
+			_jsii_.MemberProperty{JsiiProperty: "httpCodeInput", GoGetter: "HttpCodeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetGrpcCode", GoMethod: "ResetGrpcCode"},
+			_jsii_.MemberMethod{JsiiMethod: "resetHttpCode", GoMethod: "ResetHttpCode"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_EcsServiceGatewayConnectorsHealthCheckMatcherOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsHealthCheckOutputReference",
+		reflect.TypeOf((*EcsServiceGatewayConnectorsHealthCheckOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "healthCheckIntervalSeconds", GoGetter: "HealthCheckIntervalSeconds"},
+			_jsii_.MemberProperty{JsiiProperty: "healthCheckIntervalSecondsInput", GoGetter: "HealthCheckIntervalSecondsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "healthCheckPath", GoGetter: "HealthCheckPath"},
+			_jsii_.MemberProperty{JsiiProperty: "healthCheckPathInput", GoGetter: "HealthCheckPathInput"},
+			_jsii_.MemberProperty{JsiiProperty: "healthCheckPort", GoGetter: "HealthCheckPort"},
+			_jsii_.MemberProperty{JsiiProperty: "healthCheckPortInput", GoGetter: "HealthCheckPortInput"},
+			_jsii_.MemberProperty{JsiiProperty: "healthCheckProtocol", GoGetter: "HealthCheckProtocol"},
+			_jsii_.MemberProperty{JsiiProperty: "healthCheckProtocolInput", GoGetter: "HealthCheckProtocolInput"},
+			_jsii_.MemberProperty{JsiiProperty: "healthCheckTimeoutSeconds", GoGetter: "HealthCheckTimeoutSeconds"},
+			_jsii_.MemberProperty{JsiiProperty: "healthCheckTimeoutSecondsInput", GoGetter: "HealthCheckTimeoutSecondsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "healthyThresholdCount", GoGetter: "HealthyThresholdCount"},
+			_jsii_.MemberProperty{JsiiProperty: "healthyThresholdCountInput", GoGetter: "HealthyThresholdCountInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "matcher", GoGetter: "Matcher"},
+			_jsii_.MemberProperty{JsiiProperty: "matcherInput", GoGetter: "MatcherInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putMatcher", GoMethod: "PutMatcher"},
+			_jsii_.MemberMethod{JsiiMethod: "resetHealthCheckIntervalSeconds", GoMethod: "ResetHealthCheckIntervalSeconds"},
+			_jsii_.MemberMethod{JsiiMethod: "resetHealthCheckPath", GoMethod: "ResetHealthCheckPath"},
+			_jsii_.MemberMethod{JsiiMethod: "resetHealthCheckPort", GoMethod: "ResetHealthCheckPort"},
+			_jsii_.MemberMethod{JsiiMethod: "resetHealthCheckProtocol", GoMethod: "ResetHealthCheckProtocol"},
+			_jsii_.MemberMethod{JsiiMethod: "resetHealthCheckTimeoutSeconds", GoMethod: "ResetHealthCheckTimeoutSeconds"},
+			_jsii_.MemberMethod{JsiiMethod: "resetHealthyThresholdCount", GoMethod: "ResetHealthyThresholdCount"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMatcher", GoMethod: "ResetMatcher"},
+			_jsii_.MemberMethod{JsiiMethod: "resetUnhealthyThresholdCount", GoMethod: "ResetUnhealthyThresholdCount"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "unhealthyThresholdCount", GoGetter: "UnhealthyThresholdCount"},
+			_jsii_.MemberProperty{JsiiProperty: "unhealthyThresholdCountInput", GoGetter: "UnhealthyThresholdCountInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_EcsServiceGatewayConnectorsHealthCheckOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsList",
+		reflect.TypeOf((*EcsServiceGatewayConnectorsList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_EcsServiceGatewayConnectorsList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.ecsService.EcsServiceGatewayConnectorsOutputReference",
+		reflect.TypeOf((*EcsServiceGatewayConnectorsOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "filters", GoGetter: "Filters"},
+			_jsii_.MemberProperty{JsiiProperty: "filtersInput", GoGetter: "FiltersInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "healthCheck", GoGetter: "HealthCheck"},
+			_jsii_.MemberProperty{JsiiProperty: "healthCheckInput", GoGetter: "HealthCheckInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "portName", GoGetter: "PortName"},
+			_jsii_.MemberProperty{JsiiProperty: "portNameInput", GoGetter: "PortNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putFilters", GoMethod: "PutFilters"},
+			_jsii_.MemberMethod{JsiiMethod: "putHealthCheck", GoMethod: "PutHealthCheck"},
+			_jsii_.MemberMethod{JsiiMethod: "resetFilters", GoMethod: "ResetFilters"},
+			_jsii_.MemberMethod{JsiiMethod: "resetHealthCheck", GoMethod: "ResetHealthCheck"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPortName", GoMethod: "ResetPortName"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_EcsServiceGatewayConnectorsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-awscc.ecsService.EcsServiceLoadBalancers",
 		reflect.TypeOf((*EcsServiceLoadBalancers)(nil)).Elem(),
 	)
@@ -1257,6 +1472,67 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurations",
+		reflect.TypeOf((*EcsServiceServiceConnectConfigurationContainerConfigurations)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsList",
+		reflect.TypeOf((*EcsServiceServiceConnectConfigurationContainerConfigurationsList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_EcsServiceServiceConnectConfigurationContainerConfigurationsList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference",
+		reflect.TypeOf((*EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "logLevel", GoGetter: "LogLevel"},
+			_jsii_.MemberProperty{JsiiProperty: "logLevelInput", GoGetter: "LogLevelInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetLogLevel", GoMethod: "ResetLogLevel"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_EcsServiceServiceConnectConfigurationContainerConfigurationsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-awscc.ecsService.EcsServiceServiceConnectConfigurationLogConfiguration",
 		reflect.TypeOf((*EcsServiceServiceConnectConfigurationLogConfiguration)(nil)).Elem(),
 	)
@@ -1375,6 +1651,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "containerConfigurations", GoGetter: "ContainerConfigurations"},
+			_jsii_.MemberProperty{JsiiProperty: "containerConfigurationsInput", GoGetter: "ContainerConfigurationsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
 			_jsii_.MemberProperty{JsiiProperty: "enabled", GoGetter: "Enabled"},
 			_jsii_.MemberProperty{JsiiProperty: "enabledInput", GoGetter: "EnabledInput"},
@@ -1396,9 +1674,11 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "namespace", GoGetter: "Namespace"},
 			_jsii_.MemberProperty{JsiiProperty: "namespaceInput", GoGetter: "NamespaceInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putAccessLogConfiguration", GoMethod: "PutAccessLogConfiguration"},
+			_jsii_.MemberMethod{JsiiMethod: "putContainerConfigurations", GoMethod: "PutContainerConfigurations"},
 			_jsii_.MemberMethod{JsiiMethod: "putLogConfiguration", GoMethod: "PutLogConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putServices", GoMethod: "PutServices"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAccessLogConfiguration", GoMethod: "ResetAccessLogConfiguration"},
+			_jsii_.MemberMethod{JsiiMethod: "resetContainerConfigurations", GoMethod: "ResetContainerConfigurations"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEnabled", GoMethod: "ResetEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLogConfiguration", GoMethod: "ResetLogConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNamespace", GoMethod: "ResetNamespace"},

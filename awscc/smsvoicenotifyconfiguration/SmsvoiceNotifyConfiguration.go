@@ -5,14 +5,14 @@ package smsvoicenotifyconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/smsvoicenotifyconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/smsvoicenotifyconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_notify_configuration awscc_smsvoice_notify_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_notify_configuration awscc_smsvoice_notify_configuration}.
 type SmsvoiceNotifyConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -610,7 +610,7 @@ func (j *jsiiProxy_SmsvoiceNotifyConfiguration) UseCaseInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_notify_configuration awscc_smsvoice_notify_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_notify_configuration awscc_smsvoice_notify_configuration} Resource.
 func NewSmsvoiceNotifyConfiguration(scope constructs.Construct, id *string, config *SmsvoiceNotifyConfigurationConfig) SmsvoiceNotifyConfiguration {
 	_init_.Initialize()
 
@@ -628,7 +628,7 @@ func NewSmsvoiceNotifyConfiguration(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/smsvoice_notify_configuration awscc_smsvoice_notify_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/smsvoice_notify_configuration awscc_smsvoice_notify_configuration} Resource.
 func NewSmsvoiceNotifyConfiguration_Override(s SmsvoiceNotifyConfiguration, scope constructs.Construct, id *string, config *SmsvoiceNotifyConfigurationConfig) {
 	_init_.Initialize()
 

@@ -9,11 +9,11 @@ type S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration stru
 	//
 	// Journal table records must be retained for a minimum of 7 days. To set this value, specify any whole number from ``7`` to ``2147483647``. For example, to retain your journal table records for one year, set this value to ``365``.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#days S3Bucket#days}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_bucket#days S3Bucket#days}
 	Days *float64 `field:"optional" json:"days" yaml:"days"`
 	// Specifies whether journal table record expiration is enabled or disabled.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#expiration S3Bucket#expiration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3_bucket#expiration S3Bucket#expiration}
 	Expiration *string `field:"optional" json:"expiration" yaml:"expiration"`
 }
 

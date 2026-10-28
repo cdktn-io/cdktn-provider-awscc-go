@@ -5,14 +5,14 @@ package wisdomaipromptversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaipromptversion/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaipromptversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_prompt_version awscc_wisdom_ai_prompt_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_prompt_version awscc_wisdom_ai_prompt_version}.
 type WisdomAiPromptVersion interface {
 	cdktn.TerraformResource
 	AiPromptArn() *string
@@ -469,7 +469,7 @@ func (j *jsiiProxy_WisdomAiPromptVersion) VersionNumber() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_prompt_version awscc_wisdom_ai_prompt_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_prompt_version awscc_wisdom_ai_prompt_version} Resource.
 func NewWisdomAiPromptVersion(scope constructs.Construct, id *string, config *WisdomAiPromptVersionConfig) WisdomAiPromptVersion {
 	_init_.Initialize()
 
@@ -487,7 +487,7 @@ func NewWisdomAiPromptVersion(scope constructs.Construct, id *string, config *Wi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_prompt_version awscc_wisdom_ai_prompt_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_prompt_version awscc_wisdom_ai_prompt_version} Resource.
 func NewWisdomAiPromptVersion_Override(w WisdomAiPromptVersion, scope constructs.Construct, id *string, config *WisdomAiPromptVersionConfig) {
 	_init_.Initialize()
 

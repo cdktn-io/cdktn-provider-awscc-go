@@ -5,14 +5,14 @@ package dataawsccdirectconnectprivatevirtualinterfaces
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectprivatevirtualinterfaces/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectprivatevirtualinterfaces/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directconnect_private_virtual_interfaces awscc_directconnect_private_virtual_interfaces}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/directconnect_private_virtual_interfaces awscc_directconnect_private_virtual_interfaces}.
 type DataAwsccDirectconnectPrivateVirtualInterfaces interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDirectconnectPrivateVirtualInterfaces) TerraformReso
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directconnect_private_virtual_interfaces awscc_directconnect_private_virtual_interfaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/directconnect_private_virtual_interfaces awscc_directconnect_private_virtual_interfaces} Data Source.
 func NewDataAwsccDirectconnectPrivateVirtualInterfaces(scope constructs.Construct, id *string, config *DataAwsccDirectconnectPrivateVirtualInterfacesConfig) DataAwsccDirectconnectPrivateVirtualInterfaces {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDirectconnectPrivateVirtualInterfaces(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directconnect_private_virtual_interfaces awscc_directconnect_private_virtual_interfaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/directconnect_private_virtual_interfaces awscc_directconnect_private_virtual_interfaces} Data Source.
 func NewDataAwsccDirectconnectPrivateVirtualInterfaces_Override(d DataAwsccDirectconnectPrivateVirtualInterfaces, scope constructs.Construct, id *string, config *DataAwsccDirectconnectPrivateVirtualInterfacesConfig) {
 	_init_.Initialize()
 

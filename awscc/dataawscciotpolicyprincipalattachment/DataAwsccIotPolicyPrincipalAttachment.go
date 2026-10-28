@@ -5,14 +5,14 @@ package dataawscciotpolicyprincipalattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotpolicyprincipalattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotpolicyprincipalattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_policy_principal_attachment awscc_iot_policy_principal_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_policy_principal_attachment awscc_iot_policy_principal_attachment}.
 type DataAwsccIotPolicyPrincipalAttachment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccIotPolicyPrincipalAttachment) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_policy_principal_attachment awscc_iot_policy_principal_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_policy_principal_attachment awscc_iot_policy_principal_attachment} Data Source.
 func NewDataAwsccIotPolicyPrincipalAttachment(scope constructs.Construct, id *string, config *DataAwsccIotPolicyPrincipalAttachmentConfig) DataAwsccIotPolicyPrincipalAttachment {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccIotPolicyPrincipalAttachment(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_policy_principal_attachment awscc_iot_policy_principal_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_policy_principal_attachment awscc_iot_policy_principal_attachment} Data Source.
 func NewDataAwsccIotPolicyPrincipalAttachment_Override(d DataAwsccIotPolicyPrincipalAttachment, scope constructs.Construct, id *string, config *DataAwsccIotPolicyPrincipalAttachmentConfig) {
 	_init_.Initialize()
 

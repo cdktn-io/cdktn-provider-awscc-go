@@ -5,14 +5,14 @@ package ssmguiconnectpreferences
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmguiconnectpreferences/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmguiconnectpreferences/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmguiconnect_preferences awscc_ssmguiconnect_preferences}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmguiconnect_preferences awscc_ssmguiconnect_preferences}.
 type SsmguiconnectPreferences interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -390,7 +390,7 @@ func (j *jsiiProxy_SsmguiconnectPreferences) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmguiconnect_preferences awscc_ssmguiconnect_preferences} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmguiconnect_preferences awscc_ssmguiconnect_preferences} Resource.
 func NewSsmguiconnectPreferences(scope constructs.Construct, id *string, config *SsmguiconnectPreferencesConfig) SsmguiconnectPreferences {
 	_init_.Initialize()
 
@@ -408,7 +408,7 @@ func NewSsmguiconnectPreferences(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssmguiconnect_preferences awscc_ssmguiconnect_preferences} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssmguiconnect_preferences awscc_ssmguiconnect_preferences} Resource.
 func NewSsmguiconnectPreferences_Override(s SsmguiconnectPreferences, scope constructs.Construct, id *string, config *SsmguiconnectPreferencesConfig) {
 	_init_.Initialize()
 

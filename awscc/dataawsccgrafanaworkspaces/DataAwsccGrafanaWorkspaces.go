@@ -5,14 +5,14 @@ package dataawsccgrafanaworkspaces
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccgrafanaworkspaces/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccgrafanaworkspaces/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/grafana_workspaces awscc_grafana_workspaces}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/grafana_workspaces awscc_grafana_workspaces}.
 type DataAwsccGrafanaWorkspaces interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccGrafanaWorkspaces) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/grafana_workspaces awscc_grafana_workspaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/grafana_workspaces awscc_grafana_workspaces} Data Source.
 func NewDataAwsccGrafanaWorkspaces(scope constructs.Construct, id *string, config *DataAwsccGrafanaWorkspacesConfig) DataAwsccGrafanaWorkspaces {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccGrafanaWorkspaces(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/grafana_workspaces awscc_grafana_workspaces} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/grafana_workspaces awscc_grafana_workspaces} Data Source.
 func NewDataAwsccGrafanaWorkspaces_Override(d DataAwsccGrafanaWorkspaces, scope constructs.Construct, id *string, config *DataAwsccGrafanaWorkspacesConfig) {
 	_init_.Initialize()
 

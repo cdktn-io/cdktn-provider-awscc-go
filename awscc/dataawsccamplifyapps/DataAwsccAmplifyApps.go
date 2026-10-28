@@ -5,14 +5,14 @@ package dataawsccamplifyapps
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccamplifyapps/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccamplifyapps/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/amplify_apps awscc_amplify_apps}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/amplify_apps awscc_amplify_apps}.
 type DataAwsccAmplifyApps interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccAmplifyApps) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/amplify_apps awscc_amplify_apps} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/amplify_apps awscc_amplify_apps} Data Source.
 func NewDataAwsccAmplifyApps(scope constructs.Construct, id *string, config *DataAwsccAmplifyAppsConfig) DataAwsccAmplifyApps {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccAmplifyApps(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/amplify_apps awscc_amplify_apps} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/amplify_apps awscc_amplify_apps} Data Source.
 func NewDataAwsccAmplifyApps_Override(d DataAwsccAmplifyApps, scope constructs.Construct, id *string, config *DataAwsccAmplifyAppsConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccvpclatticeservicenetworkserviceassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticeservicenetworkserviceassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticeservicenetworkserviceassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_service_network_service_association awscc_vpclattice_service_network_service_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_service_network_service_association awscc_vpclattice_service_network_service_association}.
 type DataAwsccVpclatticeServiceNetworkServiceAssociation interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccVpclatticeServiceNetworkServiceAssociation) Terrafor
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_service_network_service_association awscc_vpclattice_service_network_service_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_service_network_service_association awscc_vpclattice_service_network_service_association} Data Source.
 func NewDataAwsccVpclatticeServiceNetworkServiceAssociation(scope constructs.Construct, id *string, config *DataAwsccVpclatticeServiceNetworkServiceAssociationConfig) DataAwsccVpclatticeServiceNetworkServiceAssociation {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccVpclatticeServiceNetworkServiceAssociation(scope constructs.Con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_service_network_service_association awscc_vpclattice_service_network_service_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_service_network_service_association awscc_vpclattice_service_network_service_association} Data Source.
 func NewDataAwsccVpclatticeServiceNetworkServiceAssociation_Override(d DataAwsccVpclatticeServiceNetworkServiceAssociation, scope constructs.Construct, id *string, config *DataAwsccVpclatticeServiceNetworkServiceAssociationConfig) {
 	_init_.Initialize()
 

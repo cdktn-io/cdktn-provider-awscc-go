@@ -5,14 +5,14 @@ package securityagentsecurityrequirementpack
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityagentsecurityrequirementpack/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityagentsecurityrequirementpack/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_security_requirement_pack awscc_securityagent_security_requirement_pack}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_security_requirement_pack awscc_securityagent_security_requirement_pack}.
 type SecurityagentSecurityRequirementPack interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -509,7 +509,7 @@ func (j *jsiiProxy_SecurityagentSecurityRequirementPack) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_security_requirement_pack awscc_securityagent_security_requirement_pack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_security_requirement_pack awscc_securityagent_security_requirement_pack} Resource.
 func NewSecurityagentSecurityRequirementPack(scope constructs.Construct, id *string, config *SecurityagentSecurityRequirementPackConfig) SecurityagentSecurityRequirementPack {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewSecurityagentSecurityRequirementPack(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_security_requirement_pack awscc_securityagent_security_requirement_pack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_security_requirement_pack awscc_securityagent_security_requirement_pack} Resource.
 func NewSecurityagentSecurityRequirementPack_Override(s SecurityagentSecurityRequirementPack, scope constructs.Construct, id *string, config *SecurityagentSecurityRequirementPackConfig) {
 	_init_.Initialize()
 

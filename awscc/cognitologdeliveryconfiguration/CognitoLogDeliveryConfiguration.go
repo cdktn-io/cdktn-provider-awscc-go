@@ -5,14 +5,14 @@ package cognitologdeliveryconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cognitologdeliveryconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cognitologdeliveryconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_log_delivery_configuration awscc_cognito_log_delivery_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_log_delivery_configuration awscc_cognito_log_delivery_configuration}.
 type CognitoLogDeliveryConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_CognitoLogDeliveryConfiguration) UserPoolIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_log_delivery_configuration awscc_cognito_log_delivery_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_log_delivery_configuration awscc_cognito_log_delivery_configuration} Resource.
 func NewCognitoLogDeliveryConfiguration(scope constructs.Construct, id *string, config *CognitoLogDeliveryConfigurationConfig) CognitoLogDeliveryConfiguration {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewCognitoLogDeliveryConfiguration(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_log_delivery_configuration awscc_cognito_log_delivery_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_log_delivery_configuration awscc_cognito_log_delivery_configuration} Resource.
 func NewCognitoLogDeliveryConfiguration_Override(c CognitoLogDeliveryConfiguration, scope constructs.Construct, id *string, config *CognitoLogDeliveryConfigurationConfig) {
 	_init_.Initialize()
 

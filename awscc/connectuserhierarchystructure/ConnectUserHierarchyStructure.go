@@ -5,14 +5,14 @@ package connectuserhierarchystructure
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectuserhierarchystructure/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectuserhierarchystructure/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure awscc_connect_user_hierarchy_structure}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure awscc_connect_user_hierarchy_structure}.
 type ConnectUserHierarchyStructure interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_ConnectUserHierarchyStructure) UserHierarchyStructureInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure awscc_connect_user_hierarchy_structure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure awscc_connect_user_hierarchy_structure} Resource.
 func NewConnectUserHierarchyStructure(scope constructs.Construct, id *string, config *ConnectUserHierarchyStructureConfig) ConnectUserHierarchyStructure {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewConnectUserHierarchyStructure(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_user_hierarchy_structure awscc_connect_user_hierarchy_structure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_user_hierarchy_structure awscc_connect_user_hierarchy_structure} Resource.
 func NewConnectUserHierarchyStructure_Override(c ConnectUserHierarchyStructure, scope constructs.Construct, id *string, config *ConnectUserHierarchyStructureConfig) {
 	_init_.Initialize()
 

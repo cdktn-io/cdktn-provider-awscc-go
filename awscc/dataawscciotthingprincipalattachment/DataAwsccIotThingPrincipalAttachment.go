@@ -5,14 +5,14 @@ package dataawscciotthingprincipalattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotthingprincipalattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotthingprincipalattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_thing_principal_attachment awscc_iot_thing_principal_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_thing_principal_attachment awscc_iot_thing_principal_attachment}.
 type DataAwsccIotThingPrincipalAttachment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccIotThingPrincipalAttachment) ThingPrincipalType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_thing_principal_attachment awscc_iot_thing_principal_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_thing_principal_attachment awscc_iot_thing_principal_attachment} Data Source.
 func NewDataAwsccIotThingPrincipalAttachment(scope constructs.Construct, id *string, config *DataAwsccIotThingPrincipalAttachmentConfig) DataAwsccIotThingPrincipalAttachment {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccIotThingPrincipalAttachment(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_thing_principal_attachment awscc_iot_thing_principal_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_thing_principal_attachment awscc_iot_thing_principal_attachment} Data Source.
 func NewDataAwsccIotThingPrincipalAttachment_Override(d DataAwsccIotThingPrincipalAttachment, scope constructs.Construct, id *string, config *DataAwsccIotThingPrincipalAttachmentConfig) {
 	_init_.Initialize()
 

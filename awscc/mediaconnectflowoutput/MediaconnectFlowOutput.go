@@ -5,14 +5,14 @@ package mediaconnectflowoutput
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectflowoutput/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectflowoutput/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output awscc_mediaconnect_flow_output}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_flow_output awscc_mediaconnect_flow_output}.
 type MediaconnectFlowOutput interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -917,7 +917,7 @@ func (j *jsiiProxy_MediaconnectFlowOutput) VpcInterfaceAttachmentInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output awscc_mediaconnect_flow_output} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_flow_output awscc_mediaconnect_flow_output} Resource.
 func NewMediaconnectFlowOutput(scope constructs.Construct, id *string, config *MediaconnectFlowOutputConfig) MediaconnectFlowOutput {
 	_init_.Initialize()
 
@@ -935,7 +935,7 @@ func NewMediaconnectFlowOutput(scope constructs.Construct, id *string, config *M
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output awscc_mediaconnect_flow_output} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_flow_output awscc_mediaconnect_flow_output} Resource.
 func NewMediaconnectFlowOutput_Override(m MediaconnectFlowOutput, scope constructs.Construct, id *string, config *MediaconnectFlowOutputConfig) {
 	_init_.Initialize()
 

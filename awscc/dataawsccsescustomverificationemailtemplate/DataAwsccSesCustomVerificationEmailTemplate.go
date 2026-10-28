@@ -5,14 +5,14 @@ package dataawsccsescustomverificationemailtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsescustomverificationemailtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsescustomverificationemailtemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_custom_verification_email_template awscc_ses_custom_verification_email_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_custom_verification_email_template awscc_ses_custom_verification_email_template}.
 type DataAwsccSesCustomVerificationEmailTemplate interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccSesCustomVerificationEmailTemplate) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_custom_verification_email_template awscc_ses_custom_verification_email_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_custom_verification_email_template awscc_ses_custom_verification_email_template} Data Source.
 func NewDataAwsccSesCustomVerificationEmailTemplate(scope constructs.Construct, id *string, config *DataAwsccSesCustomVerificationEmailTemplateConfig) DataAwsccSesCustomVerificationEmailTemplate {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccSesCustomVerificationEmailTemplate(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_custom_verification_email_template awscc_ses_custom_verification_email_template} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_custom_verification_email_template awscc_ses_custom_verification_email_template} Data Source.
 func NewDataAwsccSesCustomVerificationEmailTemplate_Override(d DataAwsccSesCustomVerificationEmailTemplate, scope constructs.Construct, id *string, config *DataAwsccSesCustomVerificationEmailTemplateConfig) {
 	_init_.Initialize()
 

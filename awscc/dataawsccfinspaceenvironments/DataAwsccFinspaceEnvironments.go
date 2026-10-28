@@ -5,14 +5,14 @@ package dataawsccfinspaceenvironments
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfinspaceenvironments/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfinspaceenvironments/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/finspace_environments awscc_finspace_environments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/finspace_environments awscc_finspace_environments}.
 type DataAwsccFinspaceEnvironments interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccFinspaceEnvironments) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/finspace_environments awscc_finspace_environments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/finspace_environments awscc_finspace_environments} Data Source.
 func NewDataAwsccFinspaceEnvironments(scope constructs.Construct, id *string, config *DataAwsccFinspaceEnvironmentsConfig) DataAwsccFinspaceEnvironments {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccFinspaceEnvironments(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/finspace_environments awscc_finspace_environments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/finspace_environments awscc_finspace_environments} Data Source.
 func NewDataAwsccFinspaceEnvironments_Override(d DataAwsccFinspaceEnvironments, scope constructs.Construct, id *string, config *DataAwsccFinspaceEnvironmentsConfig) {
 	_init_.Initialize()
 

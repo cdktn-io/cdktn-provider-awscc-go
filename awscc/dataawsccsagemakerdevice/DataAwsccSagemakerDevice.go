@@ -5,14 +5,14 @@ package dataawsccsagemakerdevice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerdevice/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerdevice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_device awscc_sagemaker_device}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_device awscc_sagemaker_device}.
 type DataAwsccSagemakerDevice interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccSagemakerDevice) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_device awscc_sagemaker_device} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_device awscc_sagemaker_device} Data Source.
 func NewDataAwsccSagemakerDevice(scope constructs.Construct, id *string, config *DataAwsccSagemakerDeviceConfig) DataAwsccSagemakerDevice {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccSagemakerDevice(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_device awscc_sagemaker_device} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_device awscc_sagemaker_device} Data Source.
 func NewDataAwsccSagemakerDevice_Override(d DataAwsccSagemakerDevice, scope constructs.Construct, id *string, config *DataAwsccSagemakerDeviceConfig) {
 	_init_.Initialize()
 

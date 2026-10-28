@@ -5,14 +5,14 @@ package vpclatticeresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/vpclatticeresourcepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/vpclatticeresourcepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/vpclattice_resource_policy awscc_vpclattice_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/vpclattice_resource_policy awscc_vpclattice_resource_policy}.
 type VpclatticeResourcePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_VpclatticeResourcePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/vpclattice_resource_policy awscc_vpclattice_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/vpclattice_resource_policy awscc_vpclattice_resource_policy} Resource.
 func NewVpclatticeResourcePolicy(scope constructs.Construct, id *string, config *VpclatticeResourcePolicyConfig) VpclatticeResourcePolicy {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewVpclatticeResourcePolicy(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/vpclattice_resource_policy awscc_vpclattice_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/vpclattice_resource_policy awscc_vpclattice_resource_policy} Resource.
 func NewVpclatticeResourcePolicy_Override(v VpclatticeResourcePolicy, scope constructs.Construct, id *string, config *VpclatticeResourcePolicyConfig) {
 	_init_.Initialize()
 

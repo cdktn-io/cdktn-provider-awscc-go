@@ -5,14 +5,14 @@ package dataawscctranscribevocabulary
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranscribevocabulary/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranscribevocabulary/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transcribe_vocabulary awscc_transcribe_vocabulary}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transcribe_vocabulary awscc_transcribe_vocabulary}.
 type DataAwsccTranscribeVocabulary interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccTranscribeVocabulary) VocabularyState() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transcribe_vocabulary awscc_transcribe_vocabulary} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transcribe_vocabulary awscc_transcribe_vocabulary} Data Source.
 func NewDataAwsccTranscribeVocabulary(scope constructs.Construct, id *string, config *DataAwsccTranscribeVocabularyConfig) DataAwsccTranscribeVocabulary {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccTranscribeVocabulary(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transcribe_vocabulary awscc_transcribe_vocabulary} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transcribe_vocabulary awscc_transcribe_vocabulary} Data Source.
 func NewDataAwsccTranscribeVocabulary_Override(d DataAwsccTranscribeVocabulary, scope constructs.Construct, id *string, config *DataAwsccTranscribeVocabularyConfig) {
 	_init_.Initialize()
 

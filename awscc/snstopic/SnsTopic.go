@@ -5,14 +5,14 @@ package snstopic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/snstopic/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/snstopic/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sns_topic awscc_sns_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sns_topic awscc_sns_topic}.
 type SnsTopic interface {
 	cdktn.TerraformResource
 	ArchivePolicy() *string
@@ -702,7 +702,7 @@ func (j *jsiiProxy_SnsTopic) TracingConfigInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sns_topic awscc_sns_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sns_topic awscc_sns_topic} Resource.
 func NewSnsTopic(scope constructs.Construct, id *string, config *SnsTopicConfig) SnsTopic {
 	_init_.Initialize()
 
@@ -720,7 +720,7 @@ func NewSnsTopic(scope constructs.Construct, id *string, config *SnsTopicConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sns_topic awscc_sns_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sns_topic awscc_sns_topic} Resource.
 func NewSnsTopic_Override(s SnsTopic, scope constructs.Construct, id *string, config *SnsTopicConfig) {
 	_init_.Initialize()
 

@@ -79,6 +79,10 @@ func (c *jsiiProxy_CloudwatchLogAlarm) validateOverrideLogicalIdParameters(newLo
 	return nil
 }
 
+func (c *jsiiProxy_CloudwatchLogAlarm) validatePutActionConfigurationParameters(value *CloudwatchLogAlarmActionConfiguration) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudwatchLogAlarm) validatePutScheduledQueryConfigurationParameters(value *CloudwatchLogAlarmScheduledQueryConfiguration) error {
 	return nil
 }

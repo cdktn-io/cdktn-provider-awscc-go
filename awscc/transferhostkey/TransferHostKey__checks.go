@@ -400,6 +400,14 @@ func (j *jsiiProxy_TransferHostKey) validateSetHostKeyBodyParameters(val *string
 	return nil
 }
 
+func (j *jsiiProxy_TransferHostKey) validateSetKmsKeyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_TransferHostKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err
@@ -455,6 +463,14 @@ func (j *jsiiProxy_TransferHostKey) validateSetProvisionersParameters(val *[]int
 }
 
 func (j *jsiiProxy_TransferHostKey) validateSetServerIdParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_TransferHostKey) validateSetStorageTypeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

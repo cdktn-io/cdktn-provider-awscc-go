@@ -5,14 +5,14 @@ package wisdomaiguardrail
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wisdomaiguardrail/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wisdomaiguardrail/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail awscc_wisdom_ai_guardrail}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail awscc_wisdom_ai_guardrail}.
 type WisdomAiGuardrail interface {
 	cdktn.TerraformResource
 	AiGuardrailArn() *string
@@ -660,7 +660,7 @@ func (j *jsiiProxy_WisdomAiGuardrail) WordPolicyConfigInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail awscc_wisdom_ai_guardrail} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail awscc_wisdom_ai_guardrail} Resource.
 func NewWisdomAiGuardrail(scope constructs.Construct, id *string, config *WisdomAiGuardrailConfig) WisdomAiGuardrail {
 	_init_.Initialize()
 
@@ -678,7 +678,7 @@ func NewWisdomAiGuardrail(scope constructs.Construct, id *string, config *Wisdom
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_ai_guardrail awscc_wisdom_ai_guardrail} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_ai_guardrail awscc_wisdom_ai_guardrail} Resource.
 func NewWisdomAiGuardrail_Override(w WisdomAiGuardrail, scope constructs.Construct, id *string, config *WisdomAiGuardrailConfig) {
 	_init_.Initialize()
 

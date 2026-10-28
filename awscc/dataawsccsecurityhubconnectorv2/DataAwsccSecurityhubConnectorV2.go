@@ -5,14 +5,14 @@ package dataawsccsecurityhubconnectorv2
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsecurityhubconnectorv2/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsecurityhubconnectorv2/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_connector_v2 awscc_securityhub_connector_v2}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_connector_v2 awscc_securityhub_connector_v2}.
 type DataAwsccSecurityhubConnectorV2 interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccSecurityhubConnectorV2) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_connector_v2 awscc_securityhub_connector_v2} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_connector_v2 awscc_securityhub_connector_v2} Data Source.
 func NewDataAwsccSecurityhubConnectorV2(scope constructs.Construct, id *string, config *DataAwsccSecurityhubConnectorV2Config) DataAwsccSecurityhubConnectorV2 {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccSecurityhubConnectorV2(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/securityhub_connector_v2 awscc_securityhub_connector_v2} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/securityhub_connector_v2 awscc_securityhub_connector_v2} Data Source.
 func NewDataAwsccSecurityhubConnectorV2_Override(d DataAwsccSecurityhubConnectorV2, scope constructs.Construct, id *string, config *DataAwsccSecurityhubConnectorV2Config) {
 	_init_.Initialize()
 

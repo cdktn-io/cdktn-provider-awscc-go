@@ -5,14 +5,14 @@ package dataawsccentityresolutionmatchingworkflows
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccentityresolutionmatchingworkflows/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccentityresolutionmatchingworkflows/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/entityresolution_matching_workflows awscc_entityresolution_matching_workflows}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/entityresolution_matching_workflows awscc_entityresolution_matching_workflows}.
 type DataAwsccEntityresolutionMatchingWorkflows interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEntityresolutionMatchingWorkflows) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/entityresolution_matching_workflows awscc_entityresolution_matching_workflows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/entityresolution_matching_workflows awscc_entityresolution_matching_workflows} Data Source.
 func NewDataAwsccEntityresolutionMatchingWorkflows(scope constructs.Construct, id *string, config *DataAwsccEntityresolutionMatchingWorkflowsConfig) DataAwsccEntityresolutionMatchingWorkflows {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEntityresolutionMatchingWorkflows(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/entityresolution_matching_workflows awscc_entityresolution_matching_workflows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/entityresolution_matching_workflows awscc_entityresolution_matching_workflows} Data Source.
 func NewDataAwsccEntityresolutionMatchingWorkflows_Override(d DataAwsccEntityresolutionMatchingWorkflows, scope constructs.Construct, id *string, config *DataAwsccEntityresolutionMatchingWorkflowsConfig) {
 	_init_.Initialize()
 

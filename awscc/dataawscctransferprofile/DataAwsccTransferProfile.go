@@ -5,14 +5,14 @@ package dataawscctransferprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctransferprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctransferprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_profile awscc_transfer_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_profile awscc_transfer_profile}.
 type DataAwsccTransferProfile interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccTransferProfile) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_profile awscc_transfer_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_profile awscc_transfer_profile} Data Source.
 func NewDataAwsccTransferProfile(scope constructs.Construct, id *string, config *DataAwsccTransferProfileConfig) DataAwsccTransferProfile {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccTransferProfile(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/transfer_profile awscc_transfer_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/transfer_profile awscc_transfer_profile} Data Source.
 func NewDataAwsccTransferProfile_Override(d DataAwsccTransferProfile, scope constructs.Construct, id *string, config *DataAwsccTransferProfileConfig) {
 	_init_.Initialize()
 

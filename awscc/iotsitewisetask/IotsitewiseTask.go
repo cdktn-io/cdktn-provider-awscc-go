@@ -5,14 +5,14 @@ package iotsitewisetask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsitewisetask/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsitewisetask/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task awscc_iotsitewise_task}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task awscc_iotsitewise_task}.
 type IotsitewiseTask interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -494,7 +494,7 @@ func (j *jsiiProxy_IotsitewiseTask) WorkspaceNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task awscc_iotsitewise_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task awscc_iotsitewise_task} Resource.
 func NewIotsitewiseTask(scope constructs.Construct, id *string, config *IotsitewiseTaskConfig) IotsitewiseTask {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewIotsitewiseTask(scope constructs.Construct, id *string, config *Iotsitew
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotsitewise_task awscc_iotsitewise_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotsitewise_task awscc_iotsitewise_task} Resource.
 func NewIotsitewiseTask_Override(i IotsitewiseTask, scope constructs.Construct, id *string, config *IotsitewiseTaskConfig) {
 	_init_.Initialize()
 

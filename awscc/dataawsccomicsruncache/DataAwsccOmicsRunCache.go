@@ -5,14 +5,14 @@ package dataawsccomicsruncache
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicsruncache/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicsruncache/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_run_cache awscc_omics_run_cache}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_run_cache awscc_omics_run_cache}.
 type DataAwsccOmicsRunCache interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccOmicsRunCache) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_run_cache awscc_omics_run_cache} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_run_cache awscc_omics_run_cache} Data Source.
 func NewDataAwsccOmicsRunCache(scope constructs.Construct, id *string, config *DataAwsccOmicsRunCacheConfig) DataAwsccOmicsRunCache {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccOmicsRunCache(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_run_cache awscc_omics_run_cache} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_run_cache awscc_omics_run_cache} Data Source.
 func NewDataAwsccOmicsRunCache_Override(d DataAwsccOmicsRunCache, scope constructs.Construct, id *string, config *DataAwsccOmicsRunCacheConfig) {
 	_init_.Initialize()
 

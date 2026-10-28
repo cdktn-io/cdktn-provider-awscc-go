@@ -5,14 +5,14 @@ package datasyncagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasyncagent/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasyncagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_agent awscc_datasync_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_agent awscc_datasync_agent}.
 type DatasyncAgent interface {
 	cdktn.TerraformResource
 	ActivationKey() *string
@@ -521,7 +521,7 @@ func (j *jsiiProxy_DatasyncAgent) VpcEndpointIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_agent awscc_datasync_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_agent awscc_datasync_agent} Resource.
 func NewDatasyncAgent(scope constructs.Construct, id *string, config *DatasyncAgentConfig) DatasyncAgent {
 	_init_.Initialize()
 
@@ -539,7 +539,7 @@ func NewDatasyncAgent(scope constructs.Construct, id *string, config *DatasyncAg
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_agent awscc_datasync_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_agent awscc_datasync_agent} Resource.
 func NewDatasyncAgent_Override(d DatasyncAgent, scope constructs.Construct, id *string, config *DatasyncAgentConfig) {
 	_init_.Initialize()
 

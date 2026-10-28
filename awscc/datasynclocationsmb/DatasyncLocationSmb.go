@@ -5,14 +5,14 @@ package datasynclocationsmb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationsmb/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationsmb/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_smb awscc_datasync_location_smb}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_smb awscc_datasync_location_smb}.
 type DatasyncLocationSmb interface {
 	cdktn.TerraformResource
 	AgentArns() *[]*string
@@ -747,7 +747,7 @@ func (j *jsiiProxy_DatasyncLocationSmb) UserInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_smb awscc_datasync_location_smb} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_smb awscc_datasync_location_smb} Resource.
 func NewDatasyncLocationSmb(scope constructs.Construct, id *string, config *DatasyncLocationSmbConfig) DatasyncLocationSmb {
 	_init_.Initialize()
 
@@ -765,7 +765,7 @@ func NewDatasyncLocationSmb(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_smb awscc_datasync_location_smb} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_smb awscc_datasync_location_smb} Resource.
 func NewDatasyncLocationSmb_Override(d DatasyncLocationSmb, scope constructs.Construct, id *string, config *DatasyncLocationSmbConfig) {
 	_init_.Initialize()
 

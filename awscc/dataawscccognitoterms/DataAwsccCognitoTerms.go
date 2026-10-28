@@ -5,14 +5,14 @@ package dataawscccognitoterms
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitoterms/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitoterms/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_terms awscc_cognito_terms}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_terms awscc_cognito_terms}.
 type DataAwsccCognitoTerms interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccCognitoTerms) UserPoolId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_terms awscc_cognito_terms} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_terms awscc_cognito_terms} Data Source.
 func NewDataAwsccCognitoTerms(scope constructs.Construct, id *string, config *DataAwsccCognitoTermsConfig) DataAwsccCognitoTerms {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccCognitoTerms(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_terms awscc_cognito_terms} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_terms awscc_cognito_terms} Data Source.
 func NewDataAwsccCognitoTerms_Override(d DataAwsccCognitoTerms, scope constructs.Construct, id *string, config *DataAwsccCognitoTermsConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package drsreplicationconfigurationtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/drsreplicationconfigurationtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/drsreplicationconfigurationtemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_replication_configuration_template awscc_drs_replication_configuration_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_replication_configuration_template awscc_drs_replication_configuration_template}.
 type DrsReplicationConfigurationTemplate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -755,7 +755,7 @@ func (j *jsiiProxy_DrsReplicationConfigurationTemplate) UseDedicatedReplicationS
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_replication_configuration_template awscc_drs_replication_configuration_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_replication_configuration_template awscc_drs_replication_configuration_template} Resource.
 func NewDrsReplicationConfigurationTemplate(scope constructs.Construct, id *string, config *DrsReplicationConfigurationTemplateConfig) DrsReplicationConfigurationTemplate {
 	_init_.Initialize()
 
@@ -773,7 +773,7 @@ func NewDrsReplicationConfigurationTemplate(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/drs_replication_configuration_template awscc_drs_replication_configuration_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/drs_replication_configuration_template awscc_drs_replication_configuration_template} Resource.
 func NewDrsReplicationConfigurationTemplate_Override(d DrsReplicationConfigurationTemplate, scope constructs.Construct, id *string, config *DrsReplicationConfigurationTemplateConfig) {
 	_init_.Initialize()
 

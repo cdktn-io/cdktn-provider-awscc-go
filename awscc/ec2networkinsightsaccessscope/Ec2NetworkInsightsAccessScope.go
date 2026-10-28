@@ -5,14 +5,14 @@ package ec2networkinsightsaccessscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2networkinsightsaccessscope/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2networkinsightsaccessscope/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_insights_access_scope awscc_ec2_network_insights_access_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_insights_access_scope awscc_ec2_network_insights_access_scope}.
 type Ec2NetworkInsightsAccessScope interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_Ec2NetworkInsightsAccessScope) UpdatedDate() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_insights_access_scope awscc_ec2_network_insights_access_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_insights_access_scope awscc_ec2_network_insights_access_scope} Resource.
 func NewEc2NetworkInsightsAccessScope(scope constructs.Construct, id *string, config *Ec2NetworkInsightsAccessScopeConfig) Ec2NetworkInsightsAccessScope {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewEc2NetworkInsightsAccessScope(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_network_insights_access_scope awscc_ec2_network_insights_access_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_network_insights_access_scope awscc_ec2_network_insights_access_scope} Resource.
 func NewEc2NetworkInsightsAccessScope_Override(e Ec2NetworkInsightsAccessScope, scope constructs.Construct, id *string, config *Ec2NetworkInsightsAccessScopeConfig) {
 	_init_.Initialize()
 

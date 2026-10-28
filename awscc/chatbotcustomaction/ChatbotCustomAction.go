@@ -5,14 +5,14 @@ package chatbotcustomaction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/chatbotcustomaction/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/chatbotcustomaction/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chatbot_custom_action awscc_chatbot_custom_action}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chatbot_custom_action awscc_chatbot_custom_action}.
 type ChatbotCustomAction interface {
 	cdktn.TerraformResource
 	ActionName() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_ChatbotCustomAction) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chatbot_custom_action awscc_chatbot_custom_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chatbot_custom_action awscc_chatbot_custom_action} Resource.
 func NewChatbotCustomAction(scope constructs.Construct, id *string, config *ChatbotCustomActionConfig) ChatbotCustomAction {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewChatbotCustomAction(scope constructs.Construct, id *string, config *Chat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/chatbot_custom_action awscc_chatbot_custom_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/chatbot_custom_action awscc_chatbot_custom_action} Resource.
 func NewChatbotCustomAction_Override(c ChatbotCustomAction, scope constructs.Construct, id *string, config *ChatbotCustomActionConfig) {
 	_init_.Initialize()
 

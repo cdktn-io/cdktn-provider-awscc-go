@@ -5,14 +5,14 @@ package resiliencehubv2userjourney
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/resiliencehubv2userjourney/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/resiliencehubv2userjourney/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_user_journey awscc_resiliencehubv2_user_journey}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_user_journey awscc_resiliencehubv2_user_journey}.
 type Resiliencehubv2UserJourney interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -482,7 +482,7 @@ func (j *jsiiProxy_Resiliencehubv2UserJourney) UserJourneyId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_user_journey awscc_resiliencehubv2_user_journey} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_user_journey awscc_resiliencehubv2_user_journey} Resource.
 func NewResiliencehubv2UserJourney(scope constructs.Construct, id *string, config *Resiliencehubv2UserJourneyConfig) Resiliencehubv2UserJourney {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewResiliencehubv2UserJourney(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/resiliencehubv2_user_journey awscc_resiliencehubv2_user_journey} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/resiliencehubv2_user_journey awscc_resiliencehubv2_user_journey} Resource.
 func NewResiliencehubv2UserJourney_Override(r Resiliencehubv2UserJourney, scope constructs.Construct, id *string, config *Resiliencehubv2UserJourneyConfig) {
 	_init_.Initialize()
 

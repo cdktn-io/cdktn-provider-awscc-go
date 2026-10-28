@@ -5,14 +5,14 @@ package dataawsccfmsresourceset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccfmsresourceset/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccfmsresourceset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fms_resource_set awscc_fms_resource_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fms_resource_set awscc_fms_resource_set}.
 type DataAwsccFmsResourceSet interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccFmsResourceSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fms_resource_set awscc_fms_resource_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fms_resource_set awscc_fms_resource_set} Data Source.
 func NewDataAwsccFmsResourceSet(scope constructs.Construct, id *string, config *DataAwsccFmsResourceSetConfig) DataAwsccFmsResourceSet {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccFmsResourceSet(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/fms_resource_set awscc_fms_resource_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fms_resource_set awscc_fms_resource_set} Data Source.
 func NewDataAwsccFmsResourceSet_Override(d DataAwsccFmsResourceSet, scope constructs.Construct, id *string, config *DataAwsccFmsResourceSetConfig) {
 	_init_.Initialize()
 

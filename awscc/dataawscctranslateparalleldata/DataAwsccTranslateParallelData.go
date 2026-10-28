@@ -5,14 +5,14 @@ package dataawscctranslateparalleldata
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscctranslateparalleldata/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscctranslateparalleldata/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/translate_parallel_data awscc_translate_parallel_data}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/translate_parallel_data awscc_translate_parallel_data}.
 type DataAwsccTranslateParallelData interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccTranslateParallelData) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/translate_parallel_data awscc_translate_parallel_data} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/translate_parallel_data awscc_translate_parallel_data} Data Source.
 func NewDataAwsccTranslateParallelData(scope constructs.Construct, id *string, config *DataAwsccTranslateParallelDataConfig) DataAwsccTranslateParallelData {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccTranslateParallelData(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/translate_parallel_data awscc_translate_parallel_data} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/translate_parallel_data awscc_translate_parallel_data} Data Source.
 func NewDataAwsccTranslateParallelData_Override(d DataAwsccTranslateParallelData, scope constructs.Construct, id *string, config *DataAwsccTranslateParallelDataConfig) {
 	_init_.Initialize()
 

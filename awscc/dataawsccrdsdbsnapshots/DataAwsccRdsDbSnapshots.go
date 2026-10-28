@@ -5,14 +5,14 @@ package dataawsccrdsdbsnapshots
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbsnapshots/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbsnapshots/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_snapshots awscc_rds_db_snapshots}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_snapshots awscc_rds_db_snapshots}.
 type DataAwsccRdsDbSnapshots interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRdsDbSnapshots) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_snapshots awscc_rds_db_snapshots} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_snapshots awscc_rds_db_snapshots} Data Source.
 func NewDataAwsccRdsDbSnapshots(scope constructs.Construct, id *string, config *DataAwsccRdsDbSnapshotsConfig) DataAwsccRdsDbSnapshots {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRdsDbSnapshots(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_snapshots awscc_rds_db_snapshots} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_snapshots awscc_rds_db_snapshots} Data Source.
 func NewDataAwsccRdsDbSnapshots_Override(d DataAwsccRdsDbSnapshots, scope constructs.Construct, id *string, config *DataAwsccRdsDbSnapshotsConfig) {
 	_init_.Initialize()
 

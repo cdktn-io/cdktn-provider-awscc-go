@@ -5,14 +5,14 @@ package dataawsccioteventsdetectormodel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccioteventsdetectormodel/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccioteventsdetectormodel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotevents_detector_model awscc_iotevents_detector_model}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotevents_detector_model awscc_iotevents_detector_model}.
 type DataAwsccIoteventsDetectorModel interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccIoteventsDetectorModel) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotevents_detector_model awscc_iotevents_detector_model} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotevents_detector_model awscc_iotevents_detector_model} Data Source.
 func NewDataAwsccIoteventsDetectorModel(scope constructs.Construct, id *string, config *DataAwsccIoteventsDetectorModelConfig) DataAwsccIoteventsDetectorModel {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccIoteventsDetectorModel(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotevents_detector_model awscc_iotevents_detector_model} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotevents_detector_model awscc_iotevents_detector_model} Data Source.
 func NewDataAwsccIoteventsDetectorModel_Override(d DataAwsccIoteventsDetectorModel, scope constructs.Construct, id *string, config *DataAwsccIoteventsDetectorModelConfig) {
 	_init_.Initialize()
 

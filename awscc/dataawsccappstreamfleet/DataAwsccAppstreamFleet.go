@@ -5,14 +5,14 @@ package dataawsccappstreamfleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamfleet/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamfleet/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_fleet awscc_appstream_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_fleet awscc_appstream_fleet}.
 type DataAwsccAppstreamFleet interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -572,7 +572,7 @@ func (j *jsiiProxy_DataAwsccAppstreamFleet) VpcConfig() DataAwsccAppstreamFleetV
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_fleet awscc_appstream_fleet} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_fleet awscc_appstream_fleet} Data Source.
 func NewDataAwsccAppstreamFleet(scope constructs.Construct, id *string, config *DataAwsccAppstreamFleetConfig) DataAwsccAppstreamFleet {
 	_init_.Initialize()
 
@@ -590,7 +590,7 @@ func NewDataAwsccAppstreamFleet(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_fleet awscc_appstream_fleet} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_fleet awscc_appstream_fleet} Data Source.
 func NewDataAwsccAppstreamFleet_Override(d DataAwsccAppstreamFleet, scope constructs.Construct, id *string, config *DataAwsccAppstreamFleetConfig) {
 	_init_.Initialize()
 

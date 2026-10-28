@@ -5,14 +5,14 @@ package dataawsccsesreceiptfilter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsesreceiptfilter/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsesreceiptfilter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_receipt_filter awscc_ses_receipt_filter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_receipt_filter awscc_ses_receipt_filter}.
 type DataAwsccSesReceiptFilter interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccSesReceiptFilter) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_receipt_filter awscc_ses_receipt_filter} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_receipt_filter awscc_ses_receipt_filter} Data Source.
 func NewDataAwsccSesReceiptFilter(scope constructs.Construct, id *string, config *DataAwsccSesReceiptFilterConfig) DataAwsccSesReceiptFilter {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccSesReceiptFilter(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_receipt_filter awscc_ses_receipt_filter} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_receipt_filter awscc_ses_receipt_filter} Data Source.
 func NewDataAwsccSesReceiptFilter_Override(d DataAwsccSesReceiptFilter, scope constructs.Construct, id *string, config *DataAwsccSesReceiptFilterConfig) {
 	_init_.Initialize()
 

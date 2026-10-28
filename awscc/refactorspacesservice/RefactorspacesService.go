@@ -5,14 +5,14 @@ package refactorspacesservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/refactorspacesservice/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/refactorspacesservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service awscc_refactorspaces_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service awscc_refactorspaces_service}.
 type RefactorspacesService interface {
 	cdktn.TerraformResource
 	ApplicationIdentifier() *string
@@ -589,7 +589,7 @@ func (j *jsiiProxy_RefactorspacesService) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service awscc_refactorspaces_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service awscc_refactorspaces_service} Resource.
 func NewRefactorspacesService(scope constructs.Construct, id *string, config *RefactorspacesServiceConfig) RefactorspacesService {
 	_init_.Initialize()
 
@@ -607,7 +607,7 @@ func NewRefactorspacesService(scope constructs.Construct, id *string, config *Re
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/refactorspaces_service awscc_refactorspaces_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/refactorspaces_service awscc_refactorspaces_service} Resource.
 func NewRefactorspacesService_Override(r RefactorspacesService, scope constructs.Construct, id *string, config *RefactorspacesServiceConfig) {
 	_init_.Initialize()
 

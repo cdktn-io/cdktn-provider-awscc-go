@@ -5,14 +5,14 @@ package kinesisanalyticsv2application
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kinesisanalyticsv2application/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kinesisanalyticsv2application/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisanalyticsv2_application awscc_kinesisanalyticsv2_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisanalyticsv2_application awscc_kinesisanalyticsv2_application}.
 type Kinesisanalyticsv2Application interface {
 	cdktn.TerraformResource
 	ApplicationConfiguration() Kinesisanalyticsv2ApplicationApplicationConfigurationOutputReference
@@ -569,7 +569,7 @@ func (j *jsiiProxy_Kinesisanalyticsv2Application) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisanalyticsv2_application awscc_kinesisanalyticsv2_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisanalyticsv2_application awscc_kinesisanalyticsv2_application} Resource.
 func NewKinesisanalyticsv2Application(scope constructs.Construct, id *string, config *Kinesisanalyticsv2ApplicationConfig) Kinesisanalyticsv2Application {
 	_init_.Initialize()
 
@@ -587,7 +587,7 @@ func NewKinesisanalyticsv2Application(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kinesisanalyticsv2_application awscc_kinesisanalyticsv2_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kinesisanalyticsv2_application awscc_kinesisanalyticsv2_application} Resource.
 func NewKinesisanalyticsv2Application_Override(k Kinesisanalyticsv2Application, scope constructs.Construct, id *string, config *Kinesisanalyticsv2ApplicationConfig) {
 	_init_.Initialize()
 

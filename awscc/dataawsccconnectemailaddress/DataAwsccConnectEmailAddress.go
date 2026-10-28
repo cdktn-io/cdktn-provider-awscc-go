@@ -5,14 +5,14 @@ package dataawsccconnectemailaddress
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectemailaddress/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectemailaddress/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_email_address awscc_connect_email_address}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_email_address awscc_connect_email_address}.
 type DataAwsccConnectEmailAddress interface {
 	cdktn.TerraformDataSource
 	AliasConfigurations() DataAwsccConnectEmailAddressAliasConfigurationsList
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccConnectEmailAddress) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_email_address awscc_connect_email_address} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_email_address awscc_connect_email_address} Data Source.
 func NewDataAwsccConnectEmailAddress(scope constructs.Construct, id *string, config *DataAwsccConnectEmailAddressConfig) DataAwsccConnectEmailAddress {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccConnectEmailAddress(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_email_address awscc_connect_email_address} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_email_address awscc_connect_email_address} Data Source.
 func NewDataAwsccConnectEmailAddress_Override(d DataAwsccConnectEmailAddress, scope constructs.Construct, id *string, config *DataAwsccConnectEmailAddressConfig) {
 	_init_.Initialize()
 

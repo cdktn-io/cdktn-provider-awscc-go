@@ -5,14 +5,14 @@ package datasynclocationfsxlustre
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationfsxlustre/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datasynclocationfsxlustre/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_lustre awscc_datasync_location_fsx_lustre}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_lustre awscc_datasync_location_fsx_lustre}.
 type DatasyncLocationFsxLustre interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_DatasyncLocationFsxLustre) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_lustre awscc_datasync_location_fsx_lustre} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_lustre awscc_datasync_location_fsx_lustre} Resource.
 func NewDatasyncLocationFsxLustre(scope constructs.Construct, id *string, config *DatasyncLocationFsxLustreConfig) DatasyncLocationFsxLustre {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewDatasyncLocationFsxLustre(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datasync_location_fsx_lustre awscc_datasync_location_fsx_lustre} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datasync_location_fsx_lustre awscc_datasync_location_fsx_lustre} Resource.
 func NewDatasyncLocationFsxLustre_Override(d DatasyncLocationFsxLustre, scope constructs.Construct, id *string, config *DatasyncLocationFsxLustreConfig) {
 	_init_.Initialize()
 

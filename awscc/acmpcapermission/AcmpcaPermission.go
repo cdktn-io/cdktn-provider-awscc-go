@@ -5,14 +5,14 @@ package acmpcapermission
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/acmpcapermission/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/acmpcapermission/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/acmpca_permission awscc_acmpca_permission}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/acmpca_permission awscc_acmpca_permission}.
 type AcmpcaPermission interface {
 	cdktn.TerraformResource
 	Actions() *[]*string
@@ -448,7 +448,7 @@ func (j *jsiiProxy_AcmpcaPermission) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/acmpca_permission awscc_acmpca_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/acmpca_permission awscc_acmpca_permission} Resource.
 func NewAcmpcaPermission(scope constructs.Construct, id *string, config *AcmpcaPermissionConfig) AcmpcaPermission {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewAcmpcaPermission(scope constructs.Construct, id *string, config *AcmpcaP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/acmpca_permission awscc_acmpca_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/acmpca_permission awscc_acmpca_permission} Resource.
 func NewAcmpcaPermission_Override(a AcmpcaPermission, scope constructs.Construct, id *string, config *AcmpcaPermissionConfig) {
 	_init_.Initialize()
 

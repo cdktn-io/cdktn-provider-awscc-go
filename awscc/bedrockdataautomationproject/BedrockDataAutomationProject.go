@@ -5,14 +5,14 @@ package bedrockdataautomationproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockdataautomationproject/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockdataautomationproject/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_data_automation_project awscc_bedrock_data_automation_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_data_automation_project awscc_bedrock_data_automation_project}.
 type BedrockDataAutomationProject interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -625,7 +625,7 @@ func (j *jsiiProxy_BedrockDataAutomationProject) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_data_automation_project awscc_bedrock_data_automation_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_data_automation_project awscc_bedrock_data_automation_project} Resource.
 func NewBedrockDataAutomationProject(scope constructs.Construct, id *string, config *BedrockDataAutomationProjectConfig) BedrockDataAutomationProject {
 	_init_.Initialize()
 
@@ -643,7 +643,7 @@ func NewBedrockDataAutomationProject(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_data_automation_project awscc_bedrock_data_automation_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_data_automation_project awscc_bedrock_data_automation_project} Resource.
 func NewBedrockDataAutomationProject_Override(b BedrockDataAutomationProject, scope constructs.Construct, id *string, config *BedrockDataAutomationProjectConfig) {
 	_init_.Initialize()
 

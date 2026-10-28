@@ -5,14 +5,14 @@ package wafv2loggingconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wafv2loggingconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wafv2loggingconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_logging_configuration awscc_wafv2_logging_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_logging_configuration awscc_wafv2_logging_configuration}.
 type Wafv2LoggingConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -460,7 +460,7 @@ func (j *jsiiProxy_Wafv2LoggingConfiguration) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_logging_configuration awscc_wafv2_logging_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_logging_configuration awscc_wafv2_logging_configuration} Resource.
 func NewWafv2LoggingConfiguration(scope constructs.Construct, id *string, config *Wafv2LoggingConfigurationConfig) Wafv2LoggingConfiguration {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewWafv2LoggingConfiguration(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wafv2_logging_configuration awscc_wafv2_logging_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wafv2_logging_configuration awscc_wafv2_logging_configuration} Resource.
 func NewWafv2LoggingConfiguration_Override(w Wafv2LoggingConfiguration, scope constructs.Construct, id *string, config *Wafv2LoggingConfigurationConfig) {
 	_init_.Initialize()
 

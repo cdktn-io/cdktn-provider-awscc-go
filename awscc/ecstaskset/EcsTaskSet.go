@@ -5,14 +5,14 @@ package ecstaskset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecstaskset/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecstaskset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_task_set awscc_ecs_task_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_task_set awscc_ecs_task_set}.
 type EcsTaskSet interface {
 	cdktn.TerraformResource
 	CapacityProviderStrategy() EcsTaskSetCapacityProviderStrategyList
@@ -651,7 +651,7 @@ func (j *jsiiProxy_EcsTaskSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_task_set awscc_ecs_task_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_task_set awscc_ecs_task_set} Resource.
 func NewEcsTaskSet(scope constructs.Construct, id *string, config *EcsTaskSetConfig) EcsTaskSet {
 	_init_.Initialize()
 
@@ -669,7 +669,7 @@ func NewEcsTaskSet(scope constructs.Construct, id *string, config *EcsTaskSetCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_task_set awscc_ecs_task_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_task_set awscc_ecs_task_set} Resource.
 func NewEcsTaskSet_Override(e EcsTaskSet, scope constructs.Construct, id *string, config *EcsTaskSetConfig) {
 	_init_.Initialize()
 

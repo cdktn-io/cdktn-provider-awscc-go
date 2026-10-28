@@ -5,14 +5,14 @@ package workspaceswebportal
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/workspaceswebportal/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/workspaceswebportal/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesweb_portal awscc_workspacesweb_portal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesweb_portal awscc_workspacesweb_portal}.
 type WorkspaceswebPortal interface {
 	cdktn.TerraformResource
 	AdditionalEncryptionContext() *map[string]*string
@@ -827,7 +827,7 @@ func (j *jsiiProxy_WorkspaceswebPortal) UserSettingsArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesweb_portal awscc_workspacesweb_portal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesweb_portal awscc_workspacesweb_portal} Resource.
 func NewWorkspaceswebPortal(scope constructs.Construct, id *string, config *WorkspaceswebPortalConfig) WorkspaceswebPortal {
 	_init_.Initialize()
 
@@ -845,7 +845,7 @@ func NewWorkspaceswebPortal(scope constructs.Construct, id *string, config *Work
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/workspacesweb_portal awscc_workspacesweb_portal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/workspacesweb_portal awscc_workspacesweb_portal} Resource.
 func NewWorkspaceswebPortal_Override(w WorkspaceswebPortal, scope constructs.Construct, id *string, config *WorkspaceswebPortalConfig) {
 	_init_.Initialize()
 

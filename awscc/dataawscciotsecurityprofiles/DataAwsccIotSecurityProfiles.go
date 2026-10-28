@@ -5,14 +5,14 @@ package dataawscciotsecurityprofiles
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsecurityprofiles/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsecurityprofiles/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_security_profiles awscc_iot_security_profiles}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_security_profiles awscc_iot_security_profiles}.
 type DataAwsccIotSecurityProfiles interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotSecurityProfiles) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_security_profiles awscc_iot_security_profiles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_security_profiles awscc_iot_security_profiles} Data Source.
 func NewDataAwsccIotSecurityProfiles(scope constructs.Construct, id *string, config *DataAwsccIotSecurityProfilesConfig) DataAwsccIotSecurityProfiles {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotSecurityProfiles(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_security_profiles awscc_iot_security_profiles} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_security_profiles awscc_iot_security_profiles} Data Source.
 func NewDataAwsccIotSecurityProfiles_Override(d DataAwsccIotSecurityProfiles, scope constructs.Construct, id *string, config *DataAwsccIotSecurityProfilesConfig) {
 	_init_.Initialize()
 

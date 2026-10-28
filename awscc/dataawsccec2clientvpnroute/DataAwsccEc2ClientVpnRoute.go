@@ -5,14 +5,14 @@ package dataawsccec2clientvpnroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2clientvpnroute/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2clientvpnroute/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_client_vpn_route awscc_ec2_client_vpn_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_client_vpn_route awscc_ec2_client_vpn_route}.
 type DataAwsccEc2ClientVpnRoute interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccEc2ClientVpnRoute) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_client_vpn_route awscc_ec2_client_vpn_route} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_client_vpn_route awscc_ec2_client_vpn_route} Data Source.
 func NewDataAwsccEc2ClientVpnRoute(scope constructs.Construct, id *string, config *DataAwsccEc2ClientVpnRouteConfig) DataAwsccEc2ClientVpnRoute {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccEc2ClientVpnRoute(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_client_vpn_route awscc_ec2_client_vpn_route} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_client_vpn_route awscc_ec2_client_vpn_route} Data Source.
 func NewDataAwsccEc2ClientVpnRoute_Override(d DataAwsccEc2ClientVpnRoute, scope constructs.Construct, id *string, config *DataAwsccEc2ClientVpnRouteConfig) {
 	_init_.Initialize()
 

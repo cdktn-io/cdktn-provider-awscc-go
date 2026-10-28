@@ -5,14 +5,14 @@ package devopsagentservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/devopsagentservice/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/devopsagentservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service awscc_devopsagent_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service awscc_devopsagent_service}.
 type DevopsagentService interface {
 	cdktn.TerraformResource
 	AccessibleResources() cdktn.StringMapList
@@ -590,7 +590,7 @@ func (j *jsiiProxy_DevopsagentService) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service awscc_devopsagent_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service awscc_devopsagent_service} Resource.
 func NewDevopsagentService(scope constructs.Construct, id *string, config *DevopsagentServiceConfig) DevopsagentService {
 	_init_.Initialize()
 
@@ -608,7 +608,7 @@ func NewDevopsagentService(scope constructs.Construct, id *string, config *Devop
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service awscc_devopsagent_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/devopsagent_service awscc_devopsagent_service} Resource.
 func NewDevopsagentService_Override(d DevopsagentService, scope constructs.Construct, id *string, config *DevopsagentServiceConfig) {
 	_init_.Initialize()
 

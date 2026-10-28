@@ -5,14 +5,14 @@ package dataawsccs3expressaccesspoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3expressaccesspoint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccs3expressaccesspoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3express_access_point awscc_s3express_access_point}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3express_access_point awscc_s3express_access_point}.
 type DataAwsccS3ExpressAccessPoint interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccS3ExpressAccessPoint) VpcConfiguration() DataAwsccS3
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3express_access_point awscc_s3express_access_point} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3express_access_point awscc_s3express_access_point} Data Source.
 func NewDataAwsccS3ExpressAccessPoint(scope constructs.Construct, id *string, config *DataAwsccS3ExpressAccessPointConfig) DataAwsccS3ExpressAccessPoint {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccS3ExpressAccessPoint(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/s3express_access_point awscc_s3express_access_point} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/s3express_access_point awscc_s3express_access_point} Data Source.
 func NewDataAwsccS3ExpressAccessPoint_Override(d DataAwsccS3ExpressAccessPoint, scope constructs.Construct, id *string, config *DataAwsccS3ExpressAccessPointConfig) {
 	_init_.Initialize()
 

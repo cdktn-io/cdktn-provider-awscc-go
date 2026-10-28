@@ -5,14 +5,14 @@ package mpaidentitysource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mpaidentitysource/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mpaidentitysource/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mpa_identity_source awscc_mpa_identity_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mpa_identity_source awscc_mpa_identity_source}.
 type MpaIdentitySource interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -468,7 +468,7 @@ func (j *jsiiProxy_MpaIdentitySource) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mpa_identity_source awscc_mpa_identity_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mpa_identity_source awscc_mpa_identity_source} Resource.
 func NewMpaIdentitySource(scope constructs.Construct, id *string, config *MpaIdentitySourceConfig) MpaIdentitySource {
 	_init_.Initialize()
 
@@ -486,7 +486,7 @@ func NewMpaIdentitySource(scope constructs.Construct, id *string, config *MpaIde
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mpa_identity_source awscc_mpa_identity_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mpa_identity_source awscc_mpa_identity_source} Resource.
 func NewMpaIdentitySource_Override(m MpaIdentitySource, scope constructs.Construct, id *string, config *MpaIdentitySourceConfig) {
 	_init_.Initialize()
 

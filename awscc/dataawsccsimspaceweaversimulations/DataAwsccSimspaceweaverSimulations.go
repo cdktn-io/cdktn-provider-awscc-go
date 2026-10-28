@@ -5,14 +5,14 @@ package dataawsccsimspaceweaversimulations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsimspaceweaversimulations/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsimspaceweaversimulations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/simspaceweaver_simulations awscc_simspaceweaver_simulations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/simspaceweaver_simulations awscc_simspaceweaver_simulations}.
 type DataAwsccSimspaceweaverSimulations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSimspaceweaverSimulations) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/simspaceweaver_simulations awscc_simspaceweaver_simulations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/simspaceweaver_simulations awscc_simspaceweaver_simulations} Data Source.
 func NewDataAwsccSimspaceweaverSimulations(scope constructs.Construct, id *string, config *DataAwsccSimspaceweaverSimulationsConfig) DataAwsccSimspaceweaverSimulations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSimspaceweaverSimulations(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/simspaceweaver_simulations awscc_simspaceweaver_simulations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/simspaceweaver_simulations awscc_simspaceweaver_simulations} Data Source.
 func NewDataAwsccSimspaceweaverSimulations_Override(d DataAwsccSimspaceweaverSimulations, scope constructs.Construct, id *string, config *DataAwsccSimspaceweaverSimulationsConfig) {
 	_init_.Initialize()
 

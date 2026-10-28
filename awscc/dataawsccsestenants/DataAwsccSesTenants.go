@@ -5,14 +5,14 @@ package dataawsccsestenants
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenants/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsestenants/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_tenants awscc_ses_tenants}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_tenants awscc_ses_tenants}.
 type DataAwsccSesTenants interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSesTenants) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_tenants awscc_ses_tenants} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_tenants awscc_ses_tenants} Data Source.
 func NewDataAwsccSesTenants(scope constructs.Construct, id *string, config *DataAwsccSesTenantsConfig) DataAwsccSesTenants {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSesTenants(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_tenants awscc_ses_tenants} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ses_tenants awscc_ses_tenants} Data Source.
 func NewDataAwsccSesTenants_Override(d DataAwsccSesTenants, scope constructs.Construct, id *string, config *DataAwsccSesTenantsConfig) {
 	_init_.Initialize()
 

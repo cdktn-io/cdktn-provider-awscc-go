@@ -5,14 +5,14 @@ package dataawsccsnstopics
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsnstopics/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsnstopics/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sns_topics awscc_sns_topics}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sns_topics awscc_sns_topics}.
 type DataAwsccSnsTopics interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSnsTopics) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sns_topics awscc_sns_topics} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sns_topics awscc_sns_topics} Data Source.
 func NewDataAwsccSnsTopics(scope constructs.Construct, id *string, config *DataAwsccSnsTopicsConfig) DataAwsccSnsTopics {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSnsTopics(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sns_topics awscc_sns_topics} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sns_topics awscc_sns_topics} Data Source.
 func NewDataAwsccSnsTopics_Override(d DataAwsccSnsTopics, scope constructs.Construct, id *string, config *DataAwsccSnsTopicsConfig) {
 	_init_.Initialize()
 

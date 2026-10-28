@@ -5,14 +5,14 @@ package dataawsccquicksightspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightspace/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightspace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_space awscc_quicksight_space}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_space awscc_quicksight_space}.
 type DataAwsccQuicksightSpace interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccQuicksightSpace) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_space awscc_quicksight_space} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_space awscc_quicksight_space} Data Source.
 func NewDataAwsccQuicksightSpace(scope constructs.Construct, id *string, config *DataAwsccQuicksightSpaceConfig) DataAwsccQuicksightSpace {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccQuicksightSpace(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_space awscc_quicksight_space} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_space awscc_quicksight_space} Data Source.
 func NewDataAwsccQuicksightSpace_Override(d DataAwsccQuicksightSpace, scope constructs.Construct, id *string, config *DataAwsccQuicksightSpaceConfig) {
 	_init_.Initialize()
 

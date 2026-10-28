@@ -5,14 +5,14 @@ package bedrockagentcorepaymentconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorepaymentconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorepaymentconnector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector}.
 type BedrockagentcorePaymentConnector interface {
 	cdktn.TerraformResource
 	AuthorizationUrl() *string
@@ -562,7 +562,7 @@ func (j *jsiiProxy_BedrockagentcorePaymentConnector) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector} Resource.
 func NewBedrockagentcorePaymentConnector(scope constructs.Construct, id *string, config *BedrockagentcorePaymentConnectorConfig) BedrockagentcorePaymentConnector {
 	_init_.Initialize()
 
@@ -580,7 +580,7 @@ func NewBedrockagentcorePaymentConnector(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_payment_connector awscc_bedrockagentcore_payment_connector} Resource.
 func NewBedrockagentcorePaymentConnector_Override(b BedrockagentcorePaymentConnector, scope constructs.Construct, id *string, config *BedrockagentcorePaymentConnectorConfig) {
 	_init_.Initialize()
 

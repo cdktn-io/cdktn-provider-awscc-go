@@ -5,14 +5,14 @@ package accessanalyzerarchiverule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/accessanalyzerarchiverule/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/accessanalyzerarchiverule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accessanalyzer_archive_rule awscc_accessanalyzer_archive_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accessanalyzer_archive_rule awscc_accessanalyzer_archive_rule}.
 type AccessanalyzerArchiveRule interface {
 	cdktn.TerraformResource
 	AnalyzerName() *string
@@ -457,7 +457,7 @@ func (j *jsiiProxy_AccessanalyzerArchiveRule) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accessanalyzer_archive_rule awscc_accessanalyzer_archive_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accessanalyzer_archive_rule awscc_accessanalyzer_archive_rule} Resource.
 func NewAccessanalyzerArchiveRule(scope constructs.Construct, id *string, config *AccessanalyzerArchiveRuleConfig) AccessanalyzerArchiveRule {
 	_init_.Initialize()
 
@@ -475,7 +475,7 @@ func NewAccessanalyzerArchiveRule(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/accessanalyzer_archive_rule awscc_accessanalyzer_archive_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/accessanalyzer_archive_rule awscc_accessanalyzer_archive_rule} Resource.
 func NewAccessanalyzerArchiveRule_Override(a AccessanalyzerArchiveRule, scope constructs.Construct, id *string, config *AccessanalyzerArchiveRuleConfig) {
 	_init_.Initialize()
 

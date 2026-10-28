@@ -5,14 +5,14 @@ package gluedataqualityruleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gluedataqualityruleset/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gluedataqualityruleset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_data_quality_ruleset awscc_glue_data_quality_ruleset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_data_quality_ruleset awscc_glue_data_quality_ruleset}.
 type GlueDataQualityRuleset interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -498,7 +498,7 @@ func (j *jsiiProxy_GlueDataQualityRuleset) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_data_quality_ruleset awscc_glue_data_quality_ruleset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_data_quality_ruleset awscc_glue_data_quality_ruleset} Resource.
 func NewGlueDataQualityRuleset(scope constructs.Construct, id *string, config *GlueDataQualityRulesetConfig) GlueDataQualityRuleset {
 	_init_.Initialize()
 
@@ -516,7 +516,7 @@ func NewGlueDataQualityRuleset(scope constructs.Construct, id *string, config *G
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_data_quality_ruleset awscc_glue_data_quality_ruleset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_data_quality_ruleset awscc_glue_data_quality_ruleset} Resource.
 func NewGlueDataQualityRuleset_Override(g GlueDataQualityRuleset, scope constructs.Construct, id *string, config *GlueDataQualityRulesetConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccmemorydbacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbacl/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbacl/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/memorydb_acl awscc_memorydb_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/memorydb_acl awscc_memorydb_acl}.
 type DataAwsccMemorydbAcl interface {
 	cdktn.TerraformDataSource
 	AclName() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccMemorydbAcl) UserNames() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/memorydb_acl awscc_memorydb_acl} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/memorydb_acl awscc_memorydb_acl} Data Source.
 func NewDataAwsccMemorydbAcl(scope constructs.Construct, id *string, config *DataAwsccMemorydbAclConfig) DataAwsccMemorydbAcl {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccMemorydbAcl(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/memorydb_acl awscc_memorydb_acl} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/memorydb_acl awscc_memorydb_acl} Data Source.
 func NewDataAwsccMemorydbAcl_Override(d DataAwsccMemorydbAcl, scope constructs.Construct, id *string, config *DataAwsccMemorydbAclConfig) {
 	_init_.Initialize()
 

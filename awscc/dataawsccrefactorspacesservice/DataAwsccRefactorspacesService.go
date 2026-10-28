@@ -5,14 +5,14 @@ package dataawsccrefactorspacesservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrefactorspacesservice/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrefactorspacesservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/refactorspaces_service awscc_refactorspaces_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/refactorspaces_service awscc_refactorspaces_service}.
 type DataAwsccRefactorspacesService interface {
 	cdktn.TerraformDataSource
 	ApplicationIdentifier() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccRefactorspacesService) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/refactorspaces_service awscc_refactorspaces_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/refactorspaces_service awscc_refactorspaces_service} Data Source.
 func NewDataAwsccRefactorspacesService(scope constructs.Construct, id *string, config *DataAwsccRefactorspacesServiceConfig) DataAwsccRefactorspacesService {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccRefactorspacesService(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/refactorspaces_service awscc_refactorspaces_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/refactorspaces_service awscc_refactorspaces_service} Data Source.
 func NewDataAwsccRefactorspacesService_Override(d DataAwsccRefactorspacesService, scope constructs.Construct, id *string, config *DataAwsccRefactorspacesServiceConfig) {
 	_init_.Initialize()
 

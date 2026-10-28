@@ -5,14 +5,14 @@ package qbusinesspermission
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/qbusinesspermission/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/qbusinesspermission/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/qbusiness_permission awscc_qbusiness_permission}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/qbusiness_permission awscc_qbusiness_permission}.
 type QbusinessPermission interface {
 	cdktn.TerraformResource
 	Actions() *[]*string
@@ -471,7 +471,7 @@ func (j *jsiiProxy_QbusinessPermission) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/qbusiness_permission awscc_qbusiness_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/qbusiness_permission awscc_qbusiness_permission} Resource.
 func NewQbusinessPermission(scope constructs.Construct, id *string, config *QbusinessPermissionConfig) QbusinessPermission {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewQbusinessPermission(scope constructs.Construct, id *string, config *Qbus
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/qbusiness_permission awscc_qbusiness_permission} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/qbusiness_permission awscc_qbusiness_permission} Resource.
 func NewQbusinessPermission_Override(q QbusinessPermission, scope constructs.Construct, id *string, config *QbusinessPermissionConfig) {
 	_init_.Initialize()
 

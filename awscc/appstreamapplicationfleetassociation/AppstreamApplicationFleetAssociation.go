@@ -5,14 +5,14 @@ package appstreamapplicationfleetassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/appstreamapplicationfleetassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/appstreamapplicationfleetassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_application_fleet_association awscc_appstream_application_fleet_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_application_fleet_association awscc_appstream_application_fleet_association}.
 type AppstreamApplicationFleetAssociation interface {
 	cdktn.TerraformResource
 	ApplicationArn() *string
@@ -401,7 +401,7 @@ func (j *jsiiProxy_AppstreamApplicationFleetAssociation) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_application_fleet_association awscc_appstream_application_fleet_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_application_fleet_association awscc_appstream_application_fleet_association} Resource.
 func NewAppstreamApplicationFleetAssociation(scope constructs.Construct, id *string, config *AppstreamApplicationFleetAssociationConfig) AppstreamApplicationFleetAssociation {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewAppstreamApplicationFleetAssociation(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/appstream_application_fleet_association awscc_appstream_application_fleet_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_application_fleet_association awscc_appstream_application_fleet_association} Resource.
 func NewAppstreamApplicationFleetAssociation_Override(a AppstreamApplicationFleetAssociation, scope constructs.Construct, id *string, config *AppstreamApplicationFleetAssociationConfig) {
 	_init_.Initialize()
 

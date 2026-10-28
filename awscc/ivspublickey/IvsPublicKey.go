@@ -5,14 +5,14 @@ package ivspublickey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivspublickey/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivspublickey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_public_key awscc_ivs_public_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_public_key awscc_ivs_public_key}.
 type IvsPublicKey interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -449,7 +449,7 @@ func (j *jsiiProxy_IvsPublicKey) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_public_key awscc_ivs_public_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_public_key awscc_ivs_public_key} Resource.
 func NewIvsPublicKey(scope constructs.Construct, id *string, config *IvsPublicKeyConfig) IvsPublicKey {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewIvsPublicKey(scope constructs.Construct, id *string, config *IvsPublicKe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_public_key awscc_ivs_public_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_public_key awscc_ivs_public_key} Resource.
 func NewIvsPublicKey_Override(i IvsPublicKey, scope constructs.Construct, id *string, config *IvsPublicKeyConfig) {
 	_init_.Initialize()
 

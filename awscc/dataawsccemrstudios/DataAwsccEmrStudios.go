@@ -5,14 +5,14 @@ package dataawsccemrstudios
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrstudios/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrstudios/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emr_studios awscc_emr_studios}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emr_studios awscc_emr_studios}.
 type DataAwsccEmrStudios interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEmrStudios) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emr_studios awscc_emr_studios} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emr_studios awscc_emr_studios} Data Source.
 func NewDataAwsccEmrStudios(scope constructs.Construct, id *string, config *DataAwsccEmrStudiosConfig) DataAwsccEmrStudios {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEmrStudios(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emr_studios awscc_emr_studios} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emr_studios awscc_emr_studios} Data Source.
 func NewDataAwsccEmrStudios_Override(d DataAwsccEmrStudios, scope constructs.Construct, id *string, config *DataAwsccEmrStudiosConfig) {
 	_init_.Initialize()
 

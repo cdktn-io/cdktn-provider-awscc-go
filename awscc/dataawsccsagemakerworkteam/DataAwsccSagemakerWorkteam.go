@@ -5,14 +5,14 @@ package dataawsccsagemakerworkteam
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerworkteam/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerworkteam/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_workteam awscc_sagemaker_workteam}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_workteam awscc_sagemaker_workteam}.
 type DataAwsccSagemakerWorkteam interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccSagemakerWorkteam) WorkteamName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_workteam awscc_sagemaker_workteam} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_workteam awscc_sagemaker_workteam} Data Source.
 func NewDataAwsccSagemakerWorkteam(scope constructs.Construct, id *string, config *DataAwsccSagemakerWorkteamConfig) DataAwsccSagemakerWorkteam {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccSagemakerWorkteam(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_workteam awscc_sagemaker_workteam} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_workteam awscc_sagemaker_workteam} Data Source.
 func NewDataAwsccSagemakerWorkteam_Override(d DataAwsccSagemakerWorkteam, scope constructs.Construct, id *string, config *DataAwsccSagemakerWorkteamConfig) {
 	_init_.Initialize()
 

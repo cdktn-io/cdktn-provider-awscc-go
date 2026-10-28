@@ -5,14 +5,14 @@ package dataawsccsagemakerhumantaskui
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsagemakerhumantaskui/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsagemakerhumantaskui/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_human_task_ui awscc_sagemaker_human_task_ui}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_human_task_ui awscc_sagemaker_human_task_ui}.
 type DataAwsccSagemakerHumanTaskUi interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccSagemakerHumanTaskUi) UiTemplate() DataAwsccSagemake
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_human_task_ui awscc_sagemaker_human_task_ui} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_human_task_ui awscc_sagemaker_human_task_ui} Data Source.
 func NewDataAwsccSagemakerHumanTaskUi(scope constructs.Construct, id *string, config *DataAwsccSagemakerHumanTaskUiConfig) DataAwsccSagemakerHumanTaskUi {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccSagemakerHumanTaskUi(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/sagemaker_human_task_ui awscc_sagemaker_human_task_ui} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_human_task_ui awscc_sagemaker_human_task_ui} Data Source.
 func NewDataAwsccSagemakerHumanTaskUi_Override(d DataAwsccSagemakerHumanTaskUi, scope constructs.Construct, id *string, config *DataAwsccSagemakerHumanTaskUiConfig) {
 	_init_.Initialize()
 

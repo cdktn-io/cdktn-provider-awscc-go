@@ -5,14 +5,14 @@ package protonservicetemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/protonservicetemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/protonservicetemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_service_template awscc_proton_service_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_service_template awscc_proton_service_template}.
 type ProtonServiceTemplate interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -510,7 +510,7 @@ func (j *jsiiProxy_ProtonServiceTemplate) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_service_template awscc_proton_service_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_service_template awscc_proton_service_template} Resource.
 func NewProtonServiceTemplate(scope constructs.Construct, id *string, config *ProtonServiceTemplateConfig) ProtonServiceTemplate {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewProtonServiceTemplate(scope constructs.Construct, id *string, config *Pr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/proton_service_template awscc_proton_service_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/proton_service_template awscc_proton_service_template} Resource.
 func NewProtonServiceTemplate_Override(p ProtonServiceTemplate, scope constructs.Construct, id *string, config *ProtonServiceTemplateConfig) {
 	_init_.Initialize()
 

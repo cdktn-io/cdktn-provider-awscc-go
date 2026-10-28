@@ -9,7 +9,7 @@ type LicensemanagerusersubscriptionsLicenseServerEndpointLicenseServerSettingsSe
 	//
 	// The name of the secret must begin with the prefix license-manager-user-.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#secret_id LicensemanagerusersubscriptionsLicenseServerEndpoint#secret_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint#secret_id LicensemanagerusersubscriptionsLicenseServerEndpoint#secret_id}
 	SecretId *string `field:"optional" json:"secretId" yaml:"secretId"`
 }
 

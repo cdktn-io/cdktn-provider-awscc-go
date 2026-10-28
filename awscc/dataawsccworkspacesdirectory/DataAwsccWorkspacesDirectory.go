@@ -5,14 +5,14 @@ package dataawsccworkspacesdirectory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccworkspacesdirectory/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccworkspacesdirectory/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspaces_directory awscc_workspaces_directory}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspaces_directory awscc_workspaces_directory}.
 type DataAwsccWorkspacesDirectory interface {
 	cdktn.TerraformDataSource
 	ActiveDirectoryConfig() DataAwsccWorkspacesDirectoryActiveDirectoryConfigOutputReference
@@ -638,7 +638,7 @@ func (j *jsiiProxy_DataAwsccWorkspacesDirectory) WorkspaceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspaces_directory awscc_workspaces_directory} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspaces_directory awscc_workspaces_directory} Data Source.
 func NewDataAwsccWorkspacesDirectory(scope constructs.Construct, id *string, config *DataAwsccWorkspacesDirectoryConfig) DataAwsccWorkspacesDirectory {
 	_init_.Initialize()
 
@@ -656,7 +656,7 @@ func NewDataAwsccWorkspacesDirectory(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/workspaces_directory awscc_workspaces_directory} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/workspaces_directory awscc_workspaces_directory} Data Source.
 func NewDataAwsccWorkspacesDirectory_Override(d DataAwsccWorkspacesDirectory, scope constructs.Construct, id *string, config *DataAwsccWorkspacesDirectoryConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccbedrockagentcoreevaluator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcoreevaluator/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcoreevaluator/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_evaluator awscc_bedrockagentcore_evaluator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_evaluator awscc_bedrockagentcore_evaluator}.
 type DataAwsccBedrockagentcoreEvaluator interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreEvaluator) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_evaluator awscc_bedrockagentcore_evaluator} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_evaluator awscc_bedrockagentcore_evaluator} Data Source.
 func NewDataAwsccBedrockagentcoreEvaluator(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreEvaluatorConfig) DataAwsccBedrockagentcoreEvaluator {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccBedrockagentcoreEvaluator(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_evaluator awscc_bedrockagentcore_evaluator} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_evaluator awscc_bedrockagentcore_evaluator} Data Source.
 func NewDataAwsccBedrockagentcoreEvaluator_Override(d DataAwsccBedrockagentcoreEvaluator, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreEvaluatorConfig) {
 	_init_.Initialize()
 

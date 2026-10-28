@@ -5,14 +5,14 @@ package dataawsccnetworkmanagertransitgatewayroutetableattachments
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagertransitgatewayroutetableattachments/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagertransitgatewayroutetableattachments/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_transit_gateway_route_table_attachments awscc_networkmanager_transit_gateway_route_table_attachments}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_transit_gateway_route_table_attachments awscc_networkmanager_transit_gateway_route_table_attachments}.
 type DataAwsccNetworkmanagerTransitGatewayRouteTableAttachments interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNetworkmanagerTransitGatewayRouteTableAttachments) T
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_transit_gateway_route_table_attachments awscc_networkmanager_transit_gateway_route_table_attachments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_transit_gateway_route_table_attachments awscc_networkmanager_transit_gateway_route_table_attachments} Data Source.
 func NewDataAwsccNetworkmanagerTransitGatewayRouteTableAttachments(scope constructs.Construct, id *string, config *DataAwsccNetworkmanagerTransitGatewayRouteTableAttachmentsConfig) DataAwsccNetworkmanagerTransitGatewayRouteTableAttachments {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNetworkmanagerTransitGatewayRouteTableAttachments(scope constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_transit_gateway_route_table_attachments awscc_networkmanager_transit_gateway_route_table_attachments} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_transit_gateway_route_table_attachments awscc_networkmanager_transit_gateway_route_table_attachments} Data Source.
 func NewDataAwsccNetworkmanagerTransitGatewayRouteTableAttachments_Override(d DataAwsccNetworkmanagerTransitGatewayRouteTableAttachments, scope constructs.Construct, id *string, config *DataAwsccNetworkmanagerTransitGatewayRouteTableAttachmentsConfig) {
 	_init_.Initialize()
 

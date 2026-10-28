@@ -5,14 +5,14 @@ package dataawscccustomerprofileseventstream
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccustomerprofileseventstream/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccustomerprofileseventstream/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_event_stream awscc_customerprofiles_event_stream}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_event_stream awscc_customerprofiles_event_stream}.
 type DataAwsccCustomerprofilesEventStream interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccCustomerprofilesEventStream) Uri() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_event_stream awscc_customerprofiles_event_stream} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_event_stream awscc_customerprofiles_event_stream} Data Source.
 func NewDataAwsccCustomerprofilesEventStream(scope constructs.Construct, id *string, config *DataAwsccCustomerprofilesEventStreamConfig) DataAwsccCustomerprofilesEventStream {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccCustomerprofilesEventStream(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/customerprofiles_event_stream awscc_customerprofiles_event_stream} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/customerprofiles_event_stream awscc_customerprofiles_event_stream} Data Source.
 func NewDataAwsccCustomerprofilesEventStream_Override(d DataAwsccCustomerprofilesEventStream, scope constructs.Construct, id *string, config *DataAwsccCustomerprofilesEventStreamConfig) {
 	_init_.Initialize()
 

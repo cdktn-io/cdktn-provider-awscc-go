@@ -5,14 +5,14 @@ package dataawscceventseventbus
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventseventbus/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventseventbus/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_event_bus awscc_events_event_bus}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_event_bus awscc_events_event_bus}.
 type DataAwsccEventsEventBus interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccEventsEventBus) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_event_bus awscc_events_event_bus} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_event_bus awscc_events_event_bus} Data Source.
 func NewDataAwsccEventsEventBus(scope constructs.Construct, id *string, config *DataAwsccEventsEventBusConfig) DataAwsccEventsEventBus {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccEventsEventBus(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_event_bus awscc_events_event_bus} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_event_bus awscc_events_event_bus} Data Source.
 func NewDataAwsccEventsEventBus_Override(d DataAwsccEventsEventBus, scope constructs.Construct, id *string, config *DataAwsccEventsEventBusConfig) {
 	_init_.Initialize()
 

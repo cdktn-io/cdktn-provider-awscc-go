@@ -5,14 +5,14 @@ package connectdatatable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectdatatable/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectdatatable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_table awscc_connect_data_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_table awscc_connect_data_table}.
 type ConnectDataTable interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -573,7 +573,7 @@ func (j *jsiiProxy_ConnectDataTable) ValueLockLevelInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_table awscc_connect_data_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_table awscc_connect_data_table} Resource.
 func NewConnectDataTable(scope constructs.Construct, id *string, config *ConnectDataTableConfig) ConnectDataTable {
 	_init_.Initialize()
 
@@ -591,7 +591,7 @@ func NewConnectDataTable(scope constructs.Construct, id *string, config *Connect
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_data_table awscc_connect_data_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_data_table awscc_connect_data_table} Resource.
 func NewConnectDataTable_Override(c ConnectDataTable, scope constructs.Construct, id *string, config *ConnectDataTableConfig) {
 	_init_.Initialize()
 

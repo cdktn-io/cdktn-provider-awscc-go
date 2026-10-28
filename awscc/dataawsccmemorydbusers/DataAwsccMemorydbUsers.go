@@ -5,14 +5,14 @@ package dataawsccmemorydbusers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbusers/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbusers/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/memorydb_users awscc_memorydb_users}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/memorydb_users awscc_memorydb_users}.
 type DataAwsccMemorydbUsers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMemorydbUsers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/memorydb_users awscc_memorydb_users} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/memorydb_users awscc_memorydb_users} Data Source.
 func NewDataAwsccMemorydbUsers(scope constructs.Construct, id *string, config *DataAwsccMemorydbUsersConfig) DataAwsccMemorydbUsers {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMemorydbUsers(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/memorydb_users awscc_memorydb_users} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/memorydb_users awscc_memorydb_users} Data Source.
 func NewDataAwsccMemorydbUsers_Override(d DataAwsccMemorydbUsers, scope constructs.Construct, id *string, config *DataAwsccMemorydbUsersConfig) {
 	_init_.Initialize()
 

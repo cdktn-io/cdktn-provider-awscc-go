@@ -5,14 +5,14 @@ package dataawscciotsoftwarepackages
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotsoftwarepackages/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotsoftwarepackages/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_software_packages awscc_iot_software_packages}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_software_packages awscc_iot_software_packages}.
 type DataAwsccIotSoftwarePackages interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotSoftwarePackages) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_software_packages awscc_iot_software_packages} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_software_packages awscc_iot_software_packages} Data Source.
 func NewDataAwsccIotSoftwarePackages(scope constructs.Construct, id *string, config *DataAwsccIotSoftwarePackagesConfig) DataAwsccIotSoftwarePackages {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotSoftwarePackages(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iot_software_packages awscc_iot_software_packages} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iot_software_packages awscc_iot_software_packages} Data Source.
 func NewDataAwsccIotSoftwarePackages_Override(d DataAwsccIotSoftwarePackages, scope constructs.Construct, id *string, config *DataAwsccIotSoftwarePackagesConfig) {
 	_init_.Initialize()
 

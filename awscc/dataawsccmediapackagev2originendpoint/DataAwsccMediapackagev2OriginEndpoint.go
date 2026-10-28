@@ -5,14 +5,14 @@ package dataawsccmediapackagev2originendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagev2originendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagev2originendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint}.
 type DataAwsccMediapackagev2OriginEndpoint interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -528,7 +528,7 @@ func (j *jsiiProxy_DataAwsccMediapackagev2OriginEndpoint) UriSeparator() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint} Data Source.
 func NewDataAwsccMediapackagev2OriginEndpoint(scope constructs.Construct, id *string, config *DataAwsccMediapackagev2OriginEndpointConfig) DataAwsccMediapackagev2OriginEndpoint {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewDataAwsccMediapackagev2OriginEndpoint(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint} Data Source.
 func NewDataAwsccMediapackagev2OriginEndpoint_Override(d DataAwsccMediapackagev2OriginEndpoint, scope constructs.Construct, id *string, config *DataAwsccMediapackagev2OriginEndpointConfig) {
 	_init_.Initialize()
 

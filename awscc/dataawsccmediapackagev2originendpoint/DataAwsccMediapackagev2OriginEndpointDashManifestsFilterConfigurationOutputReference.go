@@ -5,9 +5,9 @@ package dataawsccmediapackagev2originendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagev2originendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagev2originendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -36,6 +36,7 @@ type DataAwsccMediapackagev2OriginEndpointDashManifestsFilterConfigurationOutput
 	InternalValue() *DataAwsccMediapackagev2OriginEndpointDashManifestsFilterConfiguration
 	SetInternalValue(val *DataAwsccMediapackagev2OriginEndpointDashManifestsFilterConfiguration)
 	ManifestFilter() *string
+	Multiview() DataAwsccMediapackagev2OriginEndpointDashManifestsFilterConfigurationMultiviewOutputReference
 	Start() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -170,6 +171,16 @@ func (j *jsiiProxy_DataAwsccMediapackagev2OriginEndpointDashManifestsFilterConfi
 	_jsii_.Get(
 		j,
 		"manifestFilter",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccMediapackagev2OriginEndpointDashManifestsFilterConfigurationOutputReference) Multiview() DataAwsccMediapackagev2OriginEndpointDashManifestsFilterConfigurationMultiviewOutputReference {
+	var returns DataAwsccMediapackagev2OriginEndpointDashManifestsFilterConfigurationMultiviewOutputReference
+	_jsii_.Get(
+		j,
+		"multiview",
 		&returns,
 	)
 	return returns

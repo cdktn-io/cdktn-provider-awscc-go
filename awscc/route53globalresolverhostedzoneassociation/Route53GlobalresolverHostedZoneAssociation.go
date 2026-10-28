@@ -5,14 +5,14 @@ package route53globalresolverhostedzoneassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53globalresolverhostedzoneassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53globalresolverhostedzoneassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53globalresolver_hosted_zone_association awscc_route53globalresolver_hosted_zone_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53globalresolver_hosted_zone_association awscc_route53globalresolver_hosted_zone_association}.
 type Route53GlobalresolverHostedZoneAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -479,7 +479,7 @@ func (j *jsiiProxy_Route53GlobalresolverHostedZoneAssociation) UpdatedAt() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53globalresolver_hosted_zone_association awscc_route53globalresolver_hosted_zone_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53globalresolver_hosted_zone_association awscc_route53globalresolver_hosted_zone_association} Resource.
 func NewRoute53GlobalresolverHostedZoneAssociation(scope constructs.Construct, id *string, config *Route53GlobalresolverHostedZoneAssociationConfig) Route53GlobalresolverHostedZoneAssociation {
 	_init_.Initialize()
 
@@ -497,7 +497,7 @@ func NewRoute53GlobalresolverHostedZoneAssociation(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53globalresolver_hosted_zone_association awscc_route53globalresolver_hosted_zone_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53globalresolver_hosted_zone_association awscc_route53globalresolver_hosted_zone_association} Resource.
 func NewRoute53GlobalresolverHostedZoneAssociation_Override(r Route53GlobalresolverHostedZoneAssociation, scope constructs.Construct, id *string, config *Route53GlobalresolverHostedZoneAssociationConfig) {
 	_init_.Initialize()
 

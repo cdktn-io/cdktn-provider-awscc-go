@@ -5,14 +5,14 @@ package ivsstorageconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ivsstorageconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ivsstorageconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_storage_configuration awscc_ivs_storage_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_storage_configuration awscc_ivs_storage_configuration}.
 type IvsStorageConfiguration interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -437,7 +437,7 @@ func (j *jsiiProxy_IvsStorageConfiguration) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_storage_configuration awscc_ivs_storage_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_storage_configuration awscc_ivs_storage_configuration} Resource.
 func NewIvsStorageConfiguration(scope constructs.Construct, id *string, config *IvsStorageConfigurationConfig) IvsStorageConfiguration {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewIvsStorageConfiguration(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ivs_storage_configuration awscc_ivs_storage_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ivs_storage_configuration awscc_ivs_storage_configuration} Resource.
 func NewIvsStorageConfiguration_Override(i IvsStorageConfiguration, scope constructs.Construct, id *string, config *IvsStorageConfigurationConfig) {
 	_init_.Initialize()
 

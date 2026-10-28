@@ -5,14 +5,14 @@ package logsdestination
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/logsdestination/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/logsdestination/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_destination awscc_logs_destination}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_destination awscc_logs_destination}.
 type LogsDestination interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -483,7 +483,7 @@ func (j *jsiiProxy_LogsDestination) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_destination awscc_logs_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_destination awscc_logs_destination} Resource.
 func NewLogsDestination(scope constructs.Construct, id *string, config *LogsDestinationConfig) LogsDestination {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewLogsDestination(scope constructs.Construct, id *string, config *LogsDest
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/logs_destination awscc_logs_destination} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/logs_destination awscc_logs_destination} Resource.
 func NewLogsDestination_Override(l LogsDestination, scope constructs.Construct, id *string, config *LogsDestinationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccchimeappinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccchimeappinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccchimeappinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_app_instance awscc_chime_app_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_app_instance awscc_chime_app_instance}.
 type DataAwsccChimeAppInstance interface {
 	cdktn.TerraformDataSource
 	AppInstanceArn() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccChimeAppInstance) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_app_instance awscc_chime_app_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_app_instance awscc_chime_app_instance} Data Source.
 func NewDataAwsccChimeAppInstance(scope constructs.Construct, id *string, config *DataAwsccChimeAppInstanceConfig) DataAwsccChimeAppInstance {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccChimeAppInstance(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/chime_app_instance awscc_chime_app_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/chime_app_instance awscc_chime_app_instance} Data Source.
 func NewDataAwsccChimeAppInstance_Override(d DataAwsccChimeAppInstance, scope constructs.Construct, id *string, config *DataAwsccChimeAppInstanceConfig) {
 	_init_.Initialize()
 

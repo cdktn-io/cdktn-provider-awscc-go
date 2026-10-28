@@ -5,14 +5,14 @@ package opensearchserverlessaccesspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/opensearchserverlessaccesspolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/opensearchserverlessaccesspolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_access_policy awscc_opensearchserverless_access_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_access_policy awscc_opensearchserverless_access_policy}.
 type OpensearchserverlessAccessPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -448,7 +448,7 @@ func (j *jsiiProxy_OpensearchserverlessAccessPolicy) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_access_policy awscc_opensearchserverless_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_access_policy awscc_opensearchserverless_access_policy} Resource.
 func NewOpensearchserverlessAccessPolicy(scope constructs.Construct, id *string, config *OpensearchserverlessAccessPolicyConfig) OpensearchserverlessAccessPolicy {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewOpensearchserverlessAccessPolicy(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/opensearchserverless_access_policy awscc_opensearchserverless_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchserverless_access_policy awscc_opensearchserverless_access_policy} Resource.
 func NewOpensearchserverlessAccessPolicy_Override(o OpensearchserverlessAccessPolicy, scope constructs.Construct, id *string, config *OpensearchserverlessAccessPolicyConfig) {
 	_init_.Initialize()
 

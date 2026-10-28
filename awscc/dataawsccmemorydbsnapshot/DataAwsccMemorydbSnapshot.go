@@ -5,14 +5,14 @@ package dataawsccmemorydbsnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmemorydbsnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmemorydbsnapshot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/memorydb_snapshot awscc_memorydb_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/memorydb_snapshot awscc_memorydb_snapshot}.
 type DataAwsccMemorydbSnapshot interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccMemorydbSnapshot) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/memorydb_snapshot awscc_memorydb_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/memorydb_snapshot awscc_memorydb_snapshot} Data Source.
 func NewDataAwsccMemorydbSnapshot(scope constructs.Construct, id *string, config *DataAwsccMemorydbSnapshotConfig) DataAwsccMemorydbSnapshot {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccMemorydbSnapshot(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/memorydb_snapshot awscc_memorydb_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/memorydb_snapshot awscc_memorydb_snapshot} Data Source.
 func NewDataAwsccMemorydbSnapshot_Override(d DataAwsccMemorydbSnapshot, scope constructs.Construct, id *string, config *DataAwsccMemorydbSnapshotConfig) {
 	_init_.Initialize()
 

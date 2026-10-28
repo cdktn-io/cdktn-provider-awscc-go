@@ -5,14 +5,14 @@ package dataawsccapigatewayv2apimapping
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewayv2apimapping/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewayv2apimapping/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_api_mapping awscc_apigatewayv2_api_mapping}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_api_mapping awscc_apigatewayv2_api_mapping}.
 type DataAwsccApigatewayv2ApiMapping interface {
 	cdktn.TerraformDataSource
 	ApiId() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccApigatewayv2ApiMapping) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_api_mapping awscc_apigatewayv2_api_mapping} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_api_mapping awscc_apigatewayv2_api_mapping} Data Source.
 func NewDataAwsccApigatewayv2ApiMapping(scope constructs.Construct, id *string, config *DataAwsccApigatewayv2ApiMappingConfig) DataAwsccApigatewayv2ApiMapping {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccApigatewayv2ApiMapping(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigatewayv2_api_mapping awscc_apigatewayv2_api_mapping} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigatewayv2_api_mapping awscc_apigatewayv2_api_mapping} Data Source.
 func NewDataAwsccApigatewayv2ApiMapping_Override(d DataAwsccApigatewayv2ApiMapping, scope constructs.Construct, id *string, config *DataAwsccApigatewayv2ApiMappingConfig) {
 	_init_.Initialize()
 

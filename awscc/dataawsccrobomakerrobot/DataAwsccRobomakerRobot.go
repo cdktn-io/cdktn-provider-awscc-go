@@ -5,14 +5,14 @@ package dataawsccrobomakerrobot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrobomakerrobot/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrobomakerrobot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/robomaker_robot awscc_robomaker_robot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/robomaker_robot awscc_robomaker_robot}.
 type DataAwsccRobomakerRobot interface {
 	cdktn.TerraformDataSource
 	Architecture() *string
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccRobomakerRobot) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/robomaker_robot awscc_robomaker_robot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/robomaker_robot awscc_robomaker_robot} Data Source.
 func NewDataAwsccRobomakerRobot(scope constructs.Construct, id *string, config *DataAwsccRobomakerRobotConfig) DataAwsccRobomakerRobot {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccRobomakerRobot(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/robomaker_robot awscc_robomaker_robot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/robomaker_robot awscc_robomaker_robot} Data Source.
 func NewDataAwsccRobomakerRobot_Override(d DataAwsccRobomakerRobot, scope constructs.Construct, id *string, config *DataAwsccRobomakerRobotConfig) {
 	_init_.Initialize()
 

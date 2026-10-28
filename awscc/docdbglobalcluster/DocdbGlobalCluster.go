@@ -5,14 +5,14 @@ package docdbglobalcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/docdbglobalcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/docdbglobalcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_global_cluster awscc_docdb_global_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_global_cluster awscc_docdb_global_cluster}.
 type DocdbGlobalCluster interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -544,7 +544,7 @@ func (j *jsiiProxy_DocdbGlobalCluster) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_global_cluster awscc_docdb_global_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_global_cluster awscc_docdb_global_cluster} Resource.
 func NewDocdbGlobalCluster(scope constructs.Construct, id *string, config *DocdbGlobalClusterConfig) DocdbGlobalCluster {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewDocdbGlobalCluster(scope constructs.Construct, id *string, config *Docdb
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/docdb_global_cluster awscc_docdb_global_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/docdb_global_cluster awscc_docdb_global_cluster} Resource.
 func NewDocdbGlobalCluster_Override(d DocdbGlobalCluster, scope constructs.Construct, id *string, config *DocdbGlobalClusterConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package ssmmaintenancewindowtask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ssmmaintenancewindowtask/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ssmmaintenancewindowtask/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_maintenance_window_task awscc_ssm_maintenance_window_task}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_maintenance_window_task awscc_ssm_maintenance_window_task}.
 type SsmMaintenanceWindowTask interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -698,7 +698,7 @@ func (j *jsiiProxy_SsmMaintenanceWindowTask) WindowTaskId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_maintenance_window_task awscc_ssm_maintenance_window_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_maintenance_window_task awscc_ssm_maintenance_window_task} Resource.
 func NewSsmMaintenanceWindowTask(scope constructs.Construct, id *string, config *SsmMaintenanceWindowTaskConfig) SsmMaintenanceWindowTask {
 	_init_.Initialize()
 
@@ -716,7 +716,7 @@ func NewSsmMaintenanceWindowTask(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ssm_maintenance_window_task awscc_ssm_maintenance_window_task} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ssm_maintenance_window_task awscc_ssm_maintenance_window_task} Resource.
 func NewSsmMaintenanceWindowTask_Override(s SsmMaintenanceWindowTask, scope constructs.Construct, id *string, config *SsmMaintenanceWindowTaskConfig) {
 	_init_.Initialize()
 

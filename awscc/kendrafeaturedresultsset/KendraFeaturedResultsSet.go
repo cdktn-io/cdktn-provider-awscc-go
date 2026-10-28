@@ -5,14 +5,14 @@ package kendrafeaturedresultsset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/kendrafeaturedresultsset/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/kendrafeaturedresultsset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_featured_results_set awscc_kendra_featured_results_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_featured_results_set awscc_kendra_featured_results_set}.
 type KendraFeaturedResultsSet interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -543,7 +543,7 @@ func (j *jsiiProxy_KendraFeaturedResultsSet) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_featured_results_set awscc_kendra_featured_results_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_featured_results_set awscc_kendra_featured_results_set} Resource.
 func NewKendraFeaturedResultsSet(scope constructs.Construct, id *string, config *KendraFeaturedResultsSetConfig) KendraFeaturedResultsSet {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewKendraFeaturedResultsSet(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/kendra_featured_results_set awscc_kendra_featured_results_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/kendra_featured_results_set awscc_kendra_featured_results_set} Resource.
 func NewKendraFeaturedResultsSet_Override(k KendraFeaturedResultsSet, scope constructs.Construct, id *string, config *KendraFeaturedResultsSetConfig) {
 	_init_.Initialize()
 

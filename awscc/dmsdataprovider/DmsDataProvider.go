@@ -5,14 +5,14 @@ package dmsdataprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dmsdataprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dmsdataprovider/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_provider awscc_dms_data_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_provider awscc_dms_data_provider}.
 type DmsDataProvider interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -568,7 +568,7 @@ func (j *jsiiProxy_DmsDataProvider) VirtualInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_provider awscc_dms_data_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_provider awscc_dms_data_provider} Resource.
 func NewDmsDataProvider(scope constructs.Construct, id *string, config *DmsDataProviderConfig) DmsDataProvider {
 	_init_.Initialize()
 
@@ -586,7 +586,7 @@ func NewDmsDataProvider(scope constructs.Construct, id *string, config *DmsDataP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/dms_data_provider awscc_dms_data_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/dms_data_provider awscc_dms_data_provider} Resource.
 func NewDmsDataProvider_Override(d DmsDataProvider, scope constructs.Construct, id *string, config *DmsDataProviderConfig) {
 	_init_.Initialize()
 

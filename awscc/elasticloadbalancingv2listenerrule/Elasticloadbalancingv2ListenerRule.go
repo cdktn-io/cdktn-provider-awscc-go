@@ -5,14 +5,14 @@ package elasticloadbalancingv2listenerrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticloadbalancingv2listenerrule/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticloadbalancingv2listenerrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener_rule awscc_elasticloadbalancingv2_listener_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener_rule awscc_elasticloadbalancingv2_listener_rule}.
 type Elasticloadbalancingv2ListenerRule interface {
 	cdktn.TerraformResource
 	Actions() Elasticloadbalancingv2ListenerRuleActionsList
@@ -518,7 +518,7 @@ func (j *jsiiProxy_Elasticloadbalancingv2ListenerRule) TransformsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener_rule awscc_elasticloadbalancingv2_listener_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener_rule awscc_elasticloadbalancingv2_listener_rule} Resource.
 func NewElasticloadbalancingv2ListenerRule(scope constructs.Construct, id *string, config *Elasticloadbalancingv2ListenerRuleConfig) Elasticloadbalancingv2ListenerRule {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewElasticloadbalancingv2ListenerRule(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticloadbalancingv2_listener_rule awscc_elasticloadbalancingv2_listener_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticloadbalancingv2_listener_rule awscc_elasticloadbalancingv2_listener_rule} Resource.
 func NewElasticloadbalancingv2ListenerRule_Override(e Elasticloadbalancingv2ListenerRule, scope constructs.Construct, id *string, config *Elasticloadbalancingv2ListenerRuleConfig) {
 	_init_.Initialize()
 

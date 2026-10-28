@@ -5,14 +5,14 @@ package securityhubdelegatedadmin
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/securityhubdelegatedadmin/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/securityhubdelegatedadmin/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_delegated_admin awscc_securityhub_delegated_admin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_delegated_admin awscc_securityhub_delegated_admin}.
 type SecurityhubDelegatedAdmin interface {
 	cdktn.TerraformResource
 	AdminAccountId() *string
@@ -400,7 +400,7 @@ func (j *jsiiProxy_SecurityhubDelegatedAdmin) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_delegated_admin awscc_securityhub_delegated_admin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_delegated_admin awscc_securityhub_delegated_admin} Resource.
 func NewSecurityhubDelegatedAdmin(scope constructs.Construct, id *string, config *SecurityhubDelegatedAdminConfig) SecurityhubDelegatedAdmin {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewSecurityhubDelegatedAdmin(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityhub_delegated_admin awscc_securityhub_delegated_admin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityhub_delegated_admin awscc_securityhub_delegated_admin} Resource.
 func NewSecurityhubDelegatedAdmin_Override(s SecurityhubDelegatedAdmin, scope constructs.Construct, id *string, config *SecurityhubDelegatedAdminConfig) {
 	_init_.Initialize()
 

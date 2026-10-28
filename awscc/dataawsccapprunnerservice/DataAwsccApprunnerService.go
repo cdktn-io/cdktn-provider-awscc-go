@@ -5,14 +5,14 @@ package dataawsccapprunnerservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapprunnerservice/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapprunnerservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apprunner_service awscc_apprunner_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apprunner_service awscc_apprunner_service}.
 type DataAwsccApprunnerService interface {
 	cdktn.TerraformDataSource
 	AutoScalingConfigurationArn() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccApprunnerService) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apprunner_service awscc_apprunner_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apprunner_service awscc_apprunner_service} Data Source.
 func NewDataAwsccApprunnerService(scope constructs.Construct, id *string, config *DataAwsccApprunnerServiceConfig) DataAwsccApprunnerService {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccApprunnerService(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apprunner_service awscc_apprunner_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apprunner_service awscc_apprunner_service} Data Source.
 func NewDataAwsccApprunnerService_Override(d DataAwsccApprunnerService, scope constructs.Construct, id *string, config *DataAwsccApprunnerServiceConfig) {
 	_init_.Initialize()
 

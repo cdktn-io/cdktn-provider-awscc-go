@@ -5,14 +5,14 @@ package pcscomputenodegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/pcscomputenodegroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/pcscomputenodegroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group}.
 type PcsComputeNodeGroup interface {
 	cdktn.TerraformResource
 	AmiId() *string
@@ -706,7 +706,7 @@ func (j *jsiiProxy_PcsComputeNodeGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group} Resource.
 func NewPcsComputeNodeGroup(scope constructs.Construct, id *string, config *PcsComputeNodeGroupConfig) PcsComputeNodeGroup {
 	_init_.Initialize()
 
@@ -724,7 +724,7 @@ func NewPcsComputeNodeGroup(scope constructs.Construct, id *string, config *PcsC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group} Resource.
 func NewPcsComputeNodeGroup_Override(p PcsComputeNodeGroup, scope constructs.Construct, id *string, config *PcsComputeNodeGroupConfig) {
 	_init_.Initialize()
 

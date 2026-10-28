@@ -5,14 +5,14 @@ package dataawscciotanalyticsdatastore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticsdatastore/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticsdatastore/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_datastore awscc_iotanalytics_datastore}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_datastore awscc_iotanalytics_datastore}.
 type DataAwsccIotanalyticsDatastore interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccIotanalyticsDatastore) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_datastore awscc_iotanalytics_datastore} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_datastore awscc_iotanalytics_datastore} Data Source.
 func NewDataAwsccIotanalyticsDatastore(scope constructs.Construct, id *string, config *DataAwsccIotanalyticsDatastoreConfig) DataAwsccIotanalyticsDatastore {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccIotanalyticsDatastore(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_datastore awscc_iotanalytics_datastore} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_datastore awscc_iotanalytics_datastore} Data Source.
 func NewDataAwsccIotanalyticsDatastore_Override(d DataAwsccIotanalyticsDatastore, scope constructs.Construct, id *string, config *DataAwsccIotanalyticsDatastoreConfig) {
 	_init_.Initialize()
 

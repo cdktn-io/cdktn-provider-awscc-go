@@ -5,14 +5,14 @@ package dataawsccdatabrewschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatabrewschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatabrewschedule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_schedule awscc_databrew_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_schedule awscc_databrew_schedule}.
 type DataAwsccDatabrewSchedule interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccDatabrewSchedule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_schedule awscc_databrew_schedule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_schedule awscc_databrew_schedule} Data Source.
 func NewDataAwsccDatabrewSchedule(scope constructs.Construct, id *string, config *DataAwsccDatabrewScheduleConfig) DataAwsccDatabrewSchedule {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccDatabrewSchedule(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/databrew_schedule awscc_databrew_schedule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/databrew_schedule awscc_databrew_schedule} Data Source.
 func NewDataAwsccDatabrewSchedule_Override(d DataAwsccDatabrewSchedule, scope constructs.Construct, id *string, config *DataAwsccDatabrewScheduleConfig) {
 	_init_.Initialize()
 

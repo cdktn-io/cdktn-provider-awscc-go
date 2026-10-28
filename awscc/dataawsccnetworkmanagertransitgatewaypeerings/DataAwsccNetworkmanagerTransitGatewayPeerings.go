@@ -5,14 +5,14 @@ package dataawsccnetworkmanagertransitgatewaypeerings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccnetworkmanagertransitgatewaypeerings/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccnetworkmanagertransitgatewaypeerings/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_transit_gateway_peerings awscc_networkmanager_transit_gateway_peerings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_transit_gateway_peerings awscc_networkmanager_transit_gateway_peerings}.
 type DataAwsccNetworkmanagerTransitGatewayPeerings interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNetworkmanagerTransitGatewayPeerings) TerraformResou
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_transit_gateway_peerings awscc_networkmanager_transit_gateway_peerings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_transit_gateway_peerings awscc_networkmanager_transit_gateway_peerings} Data Source.
 func NewDataAwsccNetworkmanagerTransitGatewayPeerings(scope constructs.Construct, id *string, config *DataAwsccNetworkmanagerTransitGatewayPeeringsConfig) DataAwsccNetworkmanagerTransitGatewayPeerings {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNetworkmanagerTransitGatewayPeerings(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/networkmanager_transit_gateway_peerings awscc_networkmanager_transit_gateway_peerings} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/networkmanager_transit_gateway_peerings awscc_networkmanager_transit_gateway_peerings} Data Source.
 func NewDataAwsccNetworkmanagerTransitGatewayPeerings_Override(d DataAwsccNetworkmanagerTransitGatewayPeerings, scope constructs.Construct, id *string, config *DataAwsccNetworkmanagerTransitGatewayPeeringsConfig) {
 	_init_.Initialize()
 

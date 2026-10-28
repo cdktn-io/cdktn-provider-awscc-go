@@ -5,14 +5,14 @@ package apigatewayv2portalproduct
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayv2portalproduct/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayv2portalproduct/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_portal_product awscc_apigatewayv2_portal_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_portal_product awscc_apigatewayv2_portal_product}.
 type Apigatewayv2PortalProduct interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -459,7 +459,7 @@ func (j *jsiiProxy_Apigatewayv2PortalProduct) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_portal_product awscc_apigatewayv2_portal_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_portal_product awscc_apigatewayv2_portal_product} Resource.
 func NewApigatewayv2PortalProduct(scope constructs.Construct, id *string, config *Apigatewayv2PortalProductConfig) Apigatewayv2PortalProduct {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewApigatewayv2PortalProduct(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigatewayv2_portal_product awscc_apigatewayv2_portal_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigatewayv2_portal_product awscc_apigatewayv2_portal_product} Resource.
 func NewApigatewayv2PortalProduct_Override(a Apigatewayv2PortalProduct, scope constructs.Construct, id *string, config *Apigatewayv2PortalProductConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package connectagentstatus
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectagentstatus/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectagentstatus/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_agent_status awscc_connect_agent_status}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_agent_status awscc_connect_agent_status}.
 type ConnectAgentStatus interface {
 	cdktn.TerraformResource
 	AgentStatusArn() *string
@@ -577,7 +577,7 @@ func (j *jsiiProxy_ConnectAgentStatus) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_agent_status awscc_connect_agent_status} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_agent_status awscc_connect_agent_status} Resource.
 func NewConnectAgentStatus(scope constructs.Construct, id *string, config *ConnectAgentStatusConfig) ConnectAgentStatus {
 	_init_.Initialize()
 
@@ -595,7 +595,7 @@ func NewConnectAgentStatus(scope constructs.Construct, id *string, config *Conne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_agent_status awscc_connect_agent_status} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_agent_status awscc_connect_agent_status} Resource.
 func NewConnectAgentStatus_Override(c ConnectAgentStatus, scope constructs.Construct, id *string, config *ConnectAgentStatusConfig) {
 	_init_.Initialize()
 

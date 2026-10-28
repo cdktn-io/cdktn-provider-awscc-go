@@ -5,14 +5,14 @@ package glueintegration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueintegration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueintegration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_integration awscc_glue_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_integration awscc_glue_integration}.
 type GlueIntegration interface {
 	cdktn.TerraformResource
 	AdditionalEncryptionContext() *map[string]*string
@@ -601,7 +601,7 @@ func (j *jsiiProxy_GlueIntegration) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_integration awscc_glue_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_integration awscc_glue_integration} Resource.
 func NewGlueIntegration(scope constructs.Construct, id *string, config *GlueIntegrationConfig) GlueIntegration {
 	_init_.Initialize()
 
@@ -619,7 +619,7 @@ func NewGlueIntegration(scope constructs.Construct, id *string, config *GlueInte
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_integration awscc_glue_integration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_integration awscc_glue_integration} Resource.
 func NewGlueIntegration_Override(g GlueIntegration, scope constructs.Construct, id *string, config *GlueIntegrationConfig) {
 	_init_.Initialize()
 

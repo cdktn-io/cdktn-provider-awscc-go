@@ -5,14 +5,14 @@ package dataawsccbedrockdataautomationlibrary
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockdataautomationlibrary/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockdataautomationlibrary/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_data_automation_library awscc_bedrock_data_automation_library}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_data_automation_library awscc_bedrock_data_automation_library}.
 type DataAwsccBedrockDataAutomationLibrary interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccBedrockDataAutomationLibrary) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_data_automation_library awscc_bedrock_data_automation_library} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_data_automation_library awscc_bedrock_data_automation_library} Data Source.
 func NewDataAwsccBedrockDataAutomationLibrary(scope constructs.Construct, id *string, config *DataAwsccBedrockDataAutomationLibraryConfig) DataAwsccBedrockDataAutomationLibrary {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccBedrockDataAutomationLibrary(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrock_data_automation_library awscc_bedrock_data_automation_library} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrock_data_automation_library awscc_bedrock_data_automation_library} Data Source.
 func NewDataAwsccBedrockDataAutomationLibrary_Override(d DataAwsccBedrockDataAutomationLibrary, scope constructs.Construct, id *string, config *DataAwsccBedrockDataAutomationLibraryConfig) {
 	_init_.Initialize()
 

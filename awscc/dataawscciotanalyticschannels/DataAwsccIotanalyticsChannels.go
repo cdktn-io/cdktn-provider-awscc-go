@@ -5,14 +5,14 @@ package dataawscciotanalyticschannels
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscciotanalyticschannels/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscciotanalyticschannels/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_channels awscc_iotanalytics_channels}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_channels awscc_iotanalytics_channels}.
 type DataAwsccIotanalyticsChannels interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccIotanalyticsChannels) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_channels awscc_iotanalytics_channels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_channels awscc_iotanalytics_channels} Data Source.
 func NewDataAwsccIotanalyticsChannels(scope constructs.Construct, id *string, config *DataAwsccIotanalyticsChannelsConfig) DataAwsccIotanalyticsChannels {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccIotanalyticsChannels(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/iotanalytics_channels awscc_iotanalytics_channels} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/iotanalytics_channels awscc_iotanalytics_channels} Data Source.
 func NewDataAwsccIotanalyticsChannels_Override(d DataAwsccIotanalyticsChannels, scope constructs.Construct, id *string, config *DataAwsccIotanalyticsChannelsConfig) {
 	_init_.Initialize()
 

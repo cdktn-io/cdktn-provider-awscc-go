@@ -5,14 +5,14 @@ package dataawsccvpclatticetargetgroups
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticetargetgroups/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticetargetgroups/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_target_groups awscc_vpclattice_target_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_target_groups awscc_vpclattice_target_groups}.
 type DataAwsccVpclatticeTargetGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccVpclatticeTargetGroups) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_target_groups awscc_vpclattice_target_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_target_groups awscc_vpclattice_target_groups} Data Source.
 func NewDataAwsccVpclatticeTargetGroups(scope constructs.Construct, id *string, config *DataAwsccVpclatticeTargetGroupsConfig) DataAwsccVpclatticeTargetGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccVpclatticeTargetGroups(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_target_groups awscc_vpclattice_target_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_target_groups awscc_vpclattice_target_groups} Data Source.
 func NewDataAwsccVpclatticeTargetGroups_Override(d DataAwsccVpclatticeTargetGroups, scope constructs.Construct, id *string, config *DataAwsccVpclatticeTargetGroupsConfig) {
 	_init_.Initialize()
 

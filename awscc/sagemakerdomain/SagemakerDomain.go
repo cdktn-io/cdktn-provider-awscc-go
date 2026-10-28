@@ -5,14 +5,14 @@ package sagemakerdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/sagemakerdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/sagemakerdomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_domain awscc_sagemaker_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_domain awscc_sagemaker_domain}.
 type SagemakerDomain interface {
 	cdktn.TerraformResource
 	AppNetworkAccessType() *string
@@ -741,7 +741,7 @@ func (j *jsiiProxy_SagemakerDomain) VpcIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_domain awscc_sagemaker_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_domain awscc_sagemaker_domain} Resource.
 func NewSagemakerDomain(scope constructs.Construct, id *string, config *SagemakerDomainConfig) SagemakerDomain {
 	_init_.Initialize()
 
@@ -759,7 +759,7 @@ func NewSagemakerDomain(scope constructs.Construct, id *string, config *Sagemake
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sagemaker_domain awscc_sagemaker_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sagemaker_domain awscc_sagemaker_domain} Resource.
 func NewSagemakerDomain_Override(s SagemakerDomain, scope constructs.Construct, id *string, config *SagemakerDomainConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawscccomprehenddocumentclassifiers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccomprehenddocumentclassifiers/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccomprehenddocumentclassifiers/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/comprehend_document_classifiers awscc_comprehend_document_classifiers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/comprehend_document_classifiers awscc_comprehend_document_classifiers}.
 type DataAwsccComprehendDocumentClassifiers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccComprehendDocumentClassifiers) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/comprehend_document_classifiers awscc_comprehend_document_classifiers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/comprehend_document_classifiers awscc_comprehend_document_classifiers} Data Source.
 func NewDataAwsccComprehendDocumentClassifiers(scope constructs.Construct, id *string, config *DataAwsccComprehendDocumentClassifiersConfig) DataAwsccComprehendDocumentClassifiers {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccComprehendDocumentClassifiers(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/comprehend_document_classifiers awscc_comprehend_document_classifiers} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/comprehend_document_classifiers awscc_comprehend_document_classifiers} Data Source.
 func NewDataAwsccComprehendDocumentClassifiers_Override(d DataAwsccComprehendDocumentClassifiers, scope constructs.Construct, id *string, config *DataAwsccComprehendDocumentClassifiersConfig) {
 	_init_.Initialize()
 

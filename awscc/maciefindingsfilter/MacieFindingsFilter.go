@@ -5,14 +5,14 @@ package maciefindingsfilter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/maciefindingsfilter/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/maciefindingsfilter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_findings_filter awscc_macie_findings_filter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_findings_filter awscc_macie_findings_filter}.
 type MacieFindingsFilter interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -519,7 +519,7 @@ func (j *jsiiProxy_MacieFindingsFilter) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_findings_filter awscc_macie_findings_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_findings_filter awscc_macie_findings_filter} Resource.
 func NewMacieFindingsFilter(scope constructs.Construct, id *string, config *MacieFindingsFilterConfig) MacieFindingsFilter {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewMacieFindingsFilter(scope constructs.Construct, id *string, config *Maci
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/macie_findings_filter awscc_macie_findings_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/macie_findings_filter awscc_macie_findings_filter} Resource.
 func NewMacieFindingsFilter_Override(m MacieFindingsFilter, scope constructs.Construct, id *string, config *MacieFindingsFilterConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccservicecatalogcloudformationprovisionedproduct
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccservicecatalogcloudformationprovisionedproduct/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccservicecatalogcloudformationprovisionedproduct/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_cloudformation_provisioned_product awscc_servicecatalog_cloudformation_provisioned_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_cloudformation_provisioned_product awscc_servicecatalog_cloudformation_provisioned_product}.
 type DataAwsccServicecatalogCloudformationProvisionedProduct interface {
 	cdktn.TerraformDataSource
 	AcceptLanguage() *string
@@ -462,7 +462,7 @@ func (j *jsiiProxy_DataAwsccServicecatalogCloudformationProvisionedProduct) Terr
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_cloudformation_provisioned_product awscc_servicecatalog_cloudformation_provisioned_product} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_cloudformation_provisioned_product awscc_servicecatalog_cloudformation_provisioned_product} Data Source.
 func NewDataAwsccServicecatalogCloudformationProvisionedProduct(scope constructs.Construct, id *string, config *DataAwsccServicecatalogCloudformationProvisionedProductConfig) DataAwsccServicecatalogCloudformationProvisionedProduct {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewDataAwsccServicecatalogCloudformationProvisionedProduct(scope constructs
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/servicecatalog_cloudformation_provisioned_product awscc_servicecatalog_cloudformation_provisioned_product} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/servicecatalog_cloudformation_provisioned_product awscc_servicecatalog_cloudformation_provisioned_product} Data Source.
 func NewDataAwsccServicecatalogCloudformationProvisionedProduct_Override(d DataAwsccServicecatalogCloudformationProvisionedProduct, scope constructs.Construct, id *string, config *DataAwsccServicecatalogCloudformationProvisionedProductConfig) {
 	_init_.Initialize()
 

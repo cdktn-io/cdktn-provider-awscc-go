@@ -5,14 +5,14 @@ package dataawsccconnectuser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectuser/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectuser/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_user awscc_connect_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_user awscc_connect_user}.
 type DataAwsccConnectUser interface {
 	cdktn.TerraformDataSource
 	AfterContactWorkConfigs() DataAwsccConnectUserAfterContactWorkConfigsList
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccConnectUser) VoiceEnhancementConfigs() DataAwsccConn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_user awscc_connect_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_user awscc_connect_user} Data Source.
 func NewDataAwsccConnectUser(scope constructs.Construct, id *string, config *DataAwsccConnectUserConfig) DataAwsccConnectUser {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccConnectUser(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_user awscc_connect_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_user awscc_connect_user} Data Source.
 func NewDataAwsccConnectUser_Override(d DataAwsccConnectUser, scope constructs.Construct, id *string, config *DataAwsccConnectUserConfig) {
 	_init_.Initialize()
 

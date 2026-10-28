@@ -5,14 +5,14 @@ package elasticachesnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/elasticachesnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/elasticachesnapshot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_snapshot awscc_elasticache_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_snapshot awscc_elasticache_snapshot}.
 type ElasticacheSnapshot interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -727,7 +727,7 @@ func (j *jsiiProxy_ElasticacheSnapshot) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_snapshot awscc_elasticache_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_snapshot awscc_elasticache_snapshot} Resource.
 func NewElasticacheSnapshot(scope constructs.Construct, id *string, config *ElasticacheSnapshotConfig) ElasticacheSnapshot {
 	_init_.Initialize()
 
@@ -745,7 +745,7 @@ func NewElasticacheSnapshot(scope constructs.Construct, id *string, config *Elas
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/elasticache_snapshot awscc_elasticache_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/elasticache_snapshot awscc_elasticache_snapshot} Resource.
 func NewElasticacheSnapshot_Override(e ElasticacheSnapshot, scope constructs.Construct, id *string, config *ElasticacheSnapshotConfig) {
 	_init_.Initialize()
 

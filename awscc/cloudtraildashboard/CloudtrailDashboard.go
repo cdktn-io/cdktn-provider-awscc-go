@@ -5,14 +5,14 @@ package cloudtraildashboard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudtraildashboard/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudtraildashboard/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_dashboard awscc_cloudtrail_dashboard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_dashboard awscc_cloudtrail_dashboard}.
 type CloudtrailDashboard interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -530,7 +530,7 @@ func (j *jsiiProxy_CloudtrailDashboard) WidgetsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_dashboard awscc_cloudtrail_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_dashboard awscc_cloudtrail_dashboard} Resource.
 func NewCloudtrailDashboard(scope constructs.Construct, id *string, config *CloudtrailDashboardConfig) CloudtrailDashboard {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewCloudtrailDashboard(scope constructs.Construct, id *string, config *Clou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudtrail_dashboard awscc_cloudtrail_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudtrail_dashboard awscc_cloudtrail_dashboard} Resource.
 func NewCloudtrailDashboard_Override(c CloudtrailDashboard, scope constructs.Construct, id *string, config *CloudtrailDashboardConfig) {
 	_init_.Initialize()
 

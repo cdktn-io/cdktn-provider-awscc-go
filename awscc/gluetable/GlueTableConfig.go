@@ -24,23 +24,23 @@ type GlueTableConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID of the Data Catalog in which to create the Table.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#catalog_id GlueTable#catalog_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#catalog_id GlueTable#catalog_id}
 	CatalogId *string `field:"required" json:"catalogId" yaml:"catalogId"`
 	// The name of the database where the table metadata resides. For Hive compatibility, this must be all lowercase.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#database_name GlueTable#database_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#database_name GlueTable#database_name}
 	DatabaseName *string `field:"required" json:"databaseName" yaml:"databaseName"`
 	// The table name. For Hive compatibility, this is folded to lowercase when it is stored.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#name GlueTable#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#name GlueTable#name}
 	Name *string `field:"optional" json:"name" yaml:"name"`
 	// Specifies an OpenTableFormatInput structure when creating an open format table.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#open_table_format_input GlueTable#open_table_format_input}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#open_table_format_input GlueTable#open_table_format_input}
 	OpenTableFormatInput *GlueTableOpenTableFormatInput `field:"optional" json:"openTableFormatInput" yaml:"openTableFormatInput"`
 	// A structure used to define a table.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_table#table_input GlueTable#table_input}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_table#table_input GlueTable#table_input}
 	TableInput *GlueTableTableInput `field:"optional" json:"tableInput" yaml:"tableInput"`
 }
 

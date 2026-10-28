@@ -5,14 +5,14 @@ package batchserviceenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchserviceenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchserviceenvironment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_service_environment awscc_batch_service_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_service_environment awscc_batch_service_environment}.
 type BatchServiceEnvironment interface {
 	cdktn.TerraformResource
 	CapacityLimits() BatchServiceEnvironmentCapacityLimitsList
@@ -484,7 +484,7 @@ func (j *jsiiProxy_BatchServiceEnvironment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_service_environment awscc_batch_service_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_service_environment awscc_batch_service_environment} Resource.
 func NewBatchServiceEnvironment(scope constructs.Construct, id *string, config *BatchServiceEnvironmentConfig) BatchServiceEnvironment {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewBatchServiceEnvironment(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_service_environment awscc_batch_service_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_service_environment awscc_batch_service_environment} Resource.
 func NewBatchServiceEnvironment_Override(b BatchServiceEnvironment, scope constructs.Construct, id *string, config *BatchServiceEnvironmentConfig) {
 	_init_.Initialize()
 

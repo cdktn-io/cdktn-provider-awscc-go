@@ -5,14 +5,14 @@ package ec2localgatewayroutetablevpcassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2localgatewayroutetablevpcassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2localgatewayroutetablevpcassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_local_gateway_route_table_vpc_association awscc_ec2_local_gateway_route_table_vpc_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_local_gateway_route_table_vpc_association awscc_ec2_local_gateway_route_table_vpc_association}.
 type Ec2LocalGatewayRouteTableVpcAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -458,7 +458,7 @@ func (j *jsiiProxy_Ec2LocalGatewayRouteTableVpcAssociation) VpcIdInput() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_local_gateway_route_table_vpc_association awscc_ec2_local_gateway_route_table_vpc_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_local_gateway_route_table_vpc_association awscc_ec2_local_gateway_route_table_vpc_association} Resource.
 func NewEc2LocalGatewayRouteTableVpcAssociation(scope constructs.Construct, id *string, config *Ec2LocalGatewayRouteTableVpcAssociationConfig) Ec2LocalGatewayRouteTableVpcAssociation {
 	_init_.Initialize()
 
@@ -476,7 +476,7 @@ func NewEc2LocalGatewayRouteTableVpcAssociation(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_local_gateway_route_table_vpc_association awscc_ec2_local_gateway_route_table_vpc_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_local_gateway_route_table_vpc_association awscc_ec2_local_gateway_route_table_vpc_association} Resource.
 func NewEc2LocalGatewayRouteTableVpcAssociation_Override(e Ec2LocalGatewayRouteTableVpcAssociation, scope constructs.Construct, id *string, config *Ec2LocalGatewayRouteTableVpcAssociationConfig) {
 	_init_.Initialize()
 

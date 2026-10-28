@@ -5,14 +5,14 @@ package dataawsccrdsdbproxytargetgroups
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccrdsdbproxytargetgroups/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccrdsdbproxytargetgroups/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_proxy_target_groups awscc_rds_db_proxy_target_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_proxy_target_groups awscc_rds_db_proxy_target_groups}.
 type DataAwsccRdsDbProxyTargetGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRdsDbProxyTargetGroups) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_proxy_target_groups awscc_rds_db_proxy_target_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_proxy_target_groups awscc_rds_db_proxy_target_groups} Data Source.
 func NewDataAwsccRdsDbProxyTargetGroups(scope constructs.Construct, id *string, config *DataAwsccRdsDbProxyTargetGroupsConfig) DataAwsccRdsDbProxyTargetGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRdsDbProxyTargetGroups(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/rds_db_proxy_target_groups awscc_rds_db_proxy_target_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/rds_db_proxy_target_groups awscc_rds_db_proxy_target_groups} Data Source.
 func NewDataAwsccRdsDbProxyTargetGroups_Override(d DataAwsccRdsDbProxyTargetGroups, scope constructs.Construct, id *string, config *DataAwsccRdsDbProxyTargetGroupsConfig) {
 	_init_.Initialize()
 

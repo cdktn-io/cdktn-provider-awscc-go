@@ -5,9 +5,9 @@ package dataawsccdynamodbglobaltable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdynamodbglobaltable/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdynamodbglobaltable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -30,6 +30,7 @@ type DataAwsccDynamodbGlobalTableReplicasOutputReference interface {
 	// Experimental.
 	CreationStack() *[]*string
 	DeletionProtectionEnabled() cdktn.IResolvable
+	DisassociationProtectionEnabled() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
 	GlobalSecondaryIndexes() DataAwsccDynamodbGlobalTableReplicasGlobalSecondaryIndexesList
@@ -138,6 +139,16 @@ func (j *jsiiProxy_DataAwsccDynamodbGlobalTableReplicasOutputReference) Deletion
 	_jsii_.Get(
 		j,
 		"deletionProtectionEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccDynamodbGlobalTableReplicasOutputReference) DisassociationProtectionEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"disassociationProtectionEnabled",
 		&returns,
 	)
 	return returns

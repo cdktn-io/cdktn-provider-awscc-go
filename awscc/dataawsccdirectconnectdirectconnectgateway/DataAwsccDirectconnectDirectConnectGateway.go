@@ -5,14 +5,14 @@ package dataawsccdirectconnectdirectconnectgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdirectconnectdirectconnectgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdirectconnectdirectconnectgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directconnect_direct_connect_gateway awscc_directconnect_direct_connect_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/directconnect_direct_connect_gateway awscc_directconnect_direct_connect_gateway}.
 type DataAwsccDirectconnectDirectConnectGateway interface {
 	cdktn.TerraformDataSource
 	AmazonSideAsn() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccDirectconnectDirectConnectGateway) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directconnect_direct_connect_gateway awscc_directconnect_direct_connect_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/directconnect_direct_connect_gateway awscc_directconnect_direct_connect_gateway} Data Source.
 func NewDataAwsccDirectconnectDirectConnectGateway(scope constructs.Construct, id *string, config *DataAwsccDirectconnectDirectConnectGatewayConfig) DataAwsccDirectconnectDirectConnectGateway {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccDirectconnectDirectConnectGateway(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/directconnect_direct_connect_gateway awscc_directconnect_direct_connect_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/directconnect_direct_connect_gateway awscc_directconnect_direct_connect_gateway} Data Source.
 func NewDataAwsccDirectconnectDirectConnectGateway_Override(d DataAwsccDirectconnectDirectConnectGateway, scope constructs.Construct, id *string, config *DataAwsccDirectconnectDirectConnectGatewayConfig) {
 	_init_.Initialize()
 

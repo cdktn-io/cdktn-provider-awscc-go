@@ -5,14 +5,14 @@ package cloudformationstack
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cloudformationstack/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cloudformationstack/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_stack awscc_cloudformation_stack}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_stack awscc_cloudformation_stack}.
 type CloudformationStack interface {
 	cdktn.TerraformResource
 	Capabilities() *[]*string
@@ -802,7 +802,7 @@ func (j *jsiiProxy_CloudformationStack) TimeoutInMinutesInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_stack awscc_cloudformation_stack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_stack awscc_cloudformation_stack} Resource.
 func NewCloudformationStack(scope constructs.Construct, id *string, config *CloudformationStackConfig) CloudformationStack {
 	_init_.Initialize()
 
@@ -820,7 +820,7 @@ func NewCloudformationStack(scope constructs.Construct, id *string, config *Clou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudformation_stack awscc_cloudformation_stack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudformation_stack awscc_cloudformation_stack} Resource.
 func NewCloudformationStack_Override(c CloudformationStack, scope constructs.Construct, id *string, config *CloudformationStackConfig) {
 	_init_.Initialize()
 

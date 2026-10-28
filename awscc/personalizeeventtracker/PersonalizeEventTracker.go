@@ -5,14 +5,14 @@ package personalizeeventtracker
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizeeventtracker/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizeeventtracker/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_event_tracker awscc_personalize_event_tracker}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_event_tracker awscc_personalize_event_tracker}.
 type PersonalizeEventTracker interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_PersonalizeEventTracker) TrackingId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_event_tracker awscc_personalize_event_tracker} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_event_tracker awscc_personalize_event_tracker} Resource.
 func NewPersonalizeEventTracker(scope constructs.Construct, id *string, config *PersonalizeEventTrackerConfig) PersonalizeEventTracker {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewPersonalizeEventTracker(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_event_tracker awscc_personalize_event_tracker} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_event_tracker awscc_personalize_event_tracker} Resource.
 func NewPersonalizeEventTracker_Override(p PersonalizeEventTracker, scope constructs.Construct, id *string, config *PersonalizeEventTrackerConfig) {
 	_init_.Initialize()
 

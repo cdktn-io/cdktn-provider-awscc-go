@@ -5,14 +5,14 @@ package bedrockagentcorebrowsercustom
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockagentcorebrowsercustom/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockagentcorebrowsercustom/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_browser_custom awscc_bedrockagentcore_browser_custom}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_browser_custom awscc_bedrockagentcore_browser_custom}.
 type BedrockagentcoreBrowserCustom interface {
 	cdktn.TerraformResource
 	BrowserArn() *string
@@ -635,7 +635,7 @@ func (j *jsiiProxy_BedrockagentcoreBrowserCustom) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_browser_custom awscc_bedrockagentcore_browser_custom} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_browser_custom awscc_bedrockagentcore_browser_custom} Resource.
 func NewBedrockagentcoreBrowserCustom(scope constructs.Construct, id *string, config *BedrockagentcoreBrowserCustomConfig) BedrockagentcoreBrowserCustom {
 	_init_.Initialize()
 
@@ -653,7 +653,7 @@ func NewBedrockagentcoreBrowserCustom(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrockagentcore_browser_custom awscc_bedrockagentcore_browser_custom} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrockagentcore_browser_custom awscc_bedrockagentcore_browser_custom} Resource.
 func NewBedrockagentcoreBrowserCustom_Override(b BedrockagentcoreBrowserCustom, scope constructs.Construct, id *string, config *BedrockagentcoreBrowserCustomConfig) {
 	_init_.Initialize()
 

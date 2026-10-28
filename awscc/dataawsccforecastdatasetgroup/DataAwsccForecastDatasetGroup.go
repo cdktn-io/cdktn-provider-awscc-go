@@ -5,14 +5,14 @@ package dataawsccforecastdatasetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccforecastdatasetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccforecastdatasetgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/forecast_dataset_group awscc_forecast_dataset_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/forecast_dataset_group awscc_forecast_dataset_group}.
 type DataAwsccForecastDatasetGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccForecastDatasetGroup) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/forecast_dataset_group awscc_forecast_dataset_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/forecast_dataset_group awscc_forecast_dataset_group} Data Source.
 func NewDataAwsccForecastDatasetGroup(scope constructs.Construct, id *string, config *DataAwsccForecastDatasetGroupConfig) DataAwsccForecastDatasetGroup {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccForecastDatasetGroup(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/forecast_dataset_group awscc_forecast_dataset_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/forecast_dataset_group awscc_forecast_dataset_group} Data Source.
 func NewDataAwsccForecastDatasetGroup_Override(d DataAwsccForecastDatasetGroup, scope constructs.Construct, id *string, config *DataAwsccForecastDatasetGroupConfig) {
 	_init_.Initialize()
 

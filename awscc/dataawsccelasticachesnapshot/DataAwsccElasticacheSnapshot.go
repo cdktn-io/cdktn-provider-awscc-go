@@ -5,14 +5,14 @@ package dataawsccelasticachesnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccelasticachesnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccelasticachesnapshot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_snapshot awscc_elasticache_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_snapshot awscc_elasticache_snapshot}.
 type DataAwsccElasticacheSnapshot interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -594,7 +594,7 @@ func (j *jsiiProxy_DataAwsccElasticacheSnapshot) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_snapshot awscc_elasticache_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_snapshot awscc_elasticache_snapshot} Data Source.
 func NewDataAwsccElasticacheSnapshot(scope constructs.Construct, id *string, config *DataAwsccElasticacheSnapshotConfig) DataAwsccElasticacheSnapshot {
 	_init_.Initialize()
 
@@ -612,7 +612,7 @@ func NewDataAwsccElasticacheSnapshot(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/elasticache_snapshot awscc_elasticache_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/elasticache_snapshot awscc_elasticache_snapshot} Data Source.
 func NewDataAwsccElasticacheSnapshot_Override(d DataAwsccElasticacheSnapshot, scope constructs.Construct, id *string, config *DataAwsccElasticacheSnapshotConfig) {
 	_init_.Initialize()
 

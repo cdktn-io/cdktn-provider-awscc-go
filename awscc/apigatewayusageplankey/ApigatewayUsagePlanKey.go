@@ -5,14 +5,14 @@ package apigatewayusageplankey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayusageplankey/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayusageplankey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_usage_plan_key awscc_apigateway_usage_plan_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_usage_plan_key awscc_apigateway_usage_plan_key}.
 type ApigatewayUsagePlanKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -435,7 +435,7 @@ func (j *jsiiProxy_ApigatewayUsagePlanKey) UsagePlanKeyId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_usage_plan_key awscc_apigateway_usage_plan_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_usage_plan_key awscc_apigateway_usage_plan_key} Resource.
 func NewApigatewayUsagePlanKey(scope constructs.Construct, id *string, config *ApigatewayUsagePlanKeyConfig) ApigatewayUsagePlanKey {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewApigatewayUsagePlanKey(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_usage_plan_key awscc_apigateway_usage_plan_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_usage_plan_key awscc_apigateway_usage_plan_key} Resource.
 func NewApigatewayUsagePlanKey_Override(a ApigatewayUsagePlanKey, scope constructs.Construct, id *string, config *ApigatewayUsagePlanKeyConfig) {
 	_init_.Initialize()
 

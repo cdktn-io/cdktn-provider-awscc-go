@@ -5,14 +5,14 @@ package dataawsccmediapackagepackagingconfigurations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediapackagepackagingconfigurations/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediapackagepackagingconfigurations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackage_packaging_configurations awscc_mediapackage_packaging_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackage_packaging_configurations awscc_mediapackage_packaging_configurations}.
 type DataAwsccMediapackagePackagingConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMediapackagePackagingConfigurations) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackage_packaging_configurations awscc_mediapackage_packaging_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackage_packaging_configurations awscc_mediapackage_packaging_configurations} Data Source.
 func NewDataAwsccMediapackagePackagingConfigurations(scope constructs.Construct, id *string, config *DataAwsccMediapackagePackagingConfigurationsConfig) DataAwsccMediapackagePackagingConfigurations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMediapackagePackagingConfigurations(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackage_packaging_configurations awscc_mediapackage_packaging_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediapackage_packaging_configurations awscc_mediapackage_packaging_configurations} Data Source.
 func NewDataAwsccMediapackagePackagingConfigurations_Override(d DataAwsccMediapackagePackagingConfigurations, scope constructs.Construct, id *string, config *DataAwsccMediapackagePackagingConfigurationsConfig) {
 	_init_.Initialize()
 

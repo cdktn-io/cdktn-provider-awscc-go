@@ -5,14 +5,14 @@ package cognitouserpooluser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/cognitouserpooluser/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/cognitouserpooluser/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_user_pool_user awscc_cognito_user_pool_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_user_pool_user awscc_cognito_user_pool_user}.
 type CognitoUserPoolUser interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -546,7 +546,7 @@ func (j *jsiiProxy_CognitoUserPoolUser) ValidationDataInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_user_pool_user awscc_cognito_user_pool_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_user_pool_user awscc_cognito_user_pool_user} Resource.
 func NewCognitoUserPoolUser(scope constructs.Construct, id *string, config *CognitoUserPoolUserConfig) CognitoUserPoolUser {
 	_init_.Initialize()
 
@@ -564,7 +564,7 @@ func NewCognitoUserPoolUser(scope constructs.Construct, id *string, config *Cogn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cognito_user_pool_user awscc_cognito_user_pool_user} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cognito_user_pool_user awscc_cognito_user_pool_user} Resource.
 func NewCognitoUserPoolUser_Override(c CognitoUserPoolUser, scope constructs.Construct, id *string, config *CognitoUserPoolUserConfig) {
 	_init_.Initialize()
 

@@ -26,13 +26,13 @@ type CloudwatchOtelEnrichmentConfig struct {
 	//
 	// Absent or empty means nothing is removed. Evaluated after IncludeFilters, so ExcludeFilters always wins.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_otel_enrichment#exclude_filters CloudwatchOtelEnrichment#exclude_filters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_otel_enrichment#exclude_filters CloudwatchOtelEnrichment#exclude_filters}
 	ExcludeFilters interface{} `field:"optional" json:"excludeFilters" yaml:"excludeFilters"`
 	// Scopes enrichment to a subset of the account's telemetry.
 	//
 	// Absent or empty means all namespaces are in scope. Present means only these are. The service enforces a combined cap of 100 selectors across IncludeFilters and ExcludeFilters, and rejects more than one selector for the same namespace within a direction.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_otel_enrichment#include_filters CloudwatchOtelEnrichment#include_filters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_otel_enrichment#include_filters CloudwatchOtelEnrichment#include_filters}
 	IncludeFilters interface{} `field:"optional" json:"includeFilters" yaml:"includeFilters"`
 }
 

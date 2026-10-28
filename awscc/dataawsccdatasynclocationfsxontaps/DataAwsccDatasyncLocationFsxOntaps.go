@@ -5,14 +5,14 @@ package dataawsccdatasynclocationfsxontaps
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxontaps/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxontaps/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_fsx_ontaps awscc_datasync_location_fsx_ontaps}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_fsx_ontaps awscc_datasync_location_fsx_ontaps}.
 type DataAwsccDatasyncLocationFsxOntaps interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccDatasyncLocationFsxOntaps) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_fsx_ontaps awscc_datasync_location_fsx_ontaps} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_fsx_ontaps awscc_datasync_location_fsx_ontaps} Data Source.
 func NewDataAwsccDatasyncLocationFsxOntaps(scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationFsxOntapsConfig) DataAwsccDatasyncLocationFsxOntaps {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccDatasyncLocationFsxOntaps(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_fsx_ontaps awscc_datasync_location_fsx_ontaps} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_fsx_ontaps awscc_datasync_location_fsx_ontaps} Data Source.
 func NewDataAwsccDatasyncLocationFsxOntaps_Override(d DataAwsccDatasyncLocationFsxOntaps, scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationFsxOntapsConfig) {
 	_init_.Initialize()
 

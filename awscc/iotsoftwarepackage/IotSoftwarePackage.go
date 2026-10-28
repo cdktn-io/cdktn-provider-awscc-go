@@ -5,14 +5,14 @@ package iotsoftwarepackage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotsoftwarepackage/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotsoftwarepackage/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package awscc_iot_software_package}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package awscc_iot_software_package}.
 type IotSoftwarePackage interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -438,7 +438,7 @@ func (j *jsiiProxy_IotSoftwarePackage) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package awscc_iot_software_package} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package awscc_iot_software_package} Resource.
 func NewIotSoftwarePackage(scope constructs.Construct, id *string, config *IotSoftwarePackageConfig) IotSoftwarePackage {
 	_init_.Initialize()
 
@@ -456,7 +456,7 @@ func NewIotSoftwarePackage(scope constructs.Construct, id *string, config *IotSo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iot_software_package awscc_iot_software_package} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iot_software_package awscc_iot_software_package} Resource.
 func NewIotSoftwarePackage_Override(i IotSoftwarePackage, scope constructs.Construct, id *string, config *IotSoftwarePackageConfig) {
 	_init_.Initialize()
 

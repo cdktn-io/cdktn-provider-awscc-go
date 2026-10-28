@@ -5,14 +5,14 @@ package dataawscclightsailloadbalancertlscertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsailloadbalancertlscertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsailloadbalancertlscertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_load_balancer_tls_certificate awscc_lightsail_load_balancer_tls_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_load_balancer_tls_certificate awscc_lightsail_load_balancer_tls_certificate}.
 type DataAwsccLightsailLoadBalancerTlsCertificate interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccLightsailLoadBalancerTlsCertificate) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_load_balancer_tls_certificate awscc_lightsail_load_balancer_tls_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_load_balancer_tls_certificate awscc_lightsail_load_balancer_tls_certificate} Data Source.
 func NewDataAwsccLightsailLoadBalancerTlsCertificate(scope constructs.Construct, id *string, config *DataAwsccLightsailLoadBalancerTlsCertificateConfig) DataAwsccLightsailLoadBalancerTlsCertificate {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccLightsailLoadBalancerTlsCertificate(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_load_balancer_tls_certificate awscc_lightsail_load_balancer_tls_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_load_balancer_tls_certificate awscc_lightsail_load_balancer_tls_certificate} Data Source.
 func NewDataAwsccLightsailLoadBalancerTlsCertificate_Override(d DataAwsccLightsailLoadBalancerTlsCertificate, scope constructs.Construct, id *string, config *DataAwsccLightsailLoadBalancerTlsCertificateConfig) {
 	_init_.Initialize()
 

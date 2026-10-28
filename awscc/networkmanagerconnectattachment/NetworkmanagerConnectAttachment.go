@@ -5,14 +5,14 @@ package networkmanagerconnectattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/networkmanagerconnectattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/networkmanagerconnectattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment}.
 type NetworkmanagerConnectAttachment interface {
 	cdktn.TerraformResource
 	AttachmentId() *string
@@ -662,7 +662,7 @@ func (j *jsiiProxy_NetworkmanagerConnectAttachment) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment} Resource.
 func NewNetworkmanagerConnectAttachment(scope constructs.Construct, id *string, config *NetworkmanagerConnectAttachmentConfig) NetworkmanagerConnectAttachment {
 	_init_.Initialize()
 
@@ -680,7 +680,7 @@ func NewNetworkmanagerConnectAttachment(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/networkmanager_connect_attachment awscc_networkmanager_connect_attachment} Resource.
 func NewNetworkmanagerConnectAttachment_Override(n NetworkmanagerConnectAttachment, scope constructs.Construct, id *string, config *NetworkmanagerConnectAttachmentConfig) {
 	_init_.Initialize()
 

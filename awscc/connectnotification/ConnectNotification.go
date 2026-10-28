@@ -5,14 +5,14 @@ package connectnotification
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectnotification/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectnotification/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_notification awscc_connect_notification}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_notification awscc_connect_notification}.
 type ConnectNotification interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -530,7 +530,7 @@ func (j *jsiiProxy_ConnectNotification) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_notification awscc_connect_notification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_notification awscc_connect_notification} Resource.
 func NewConnectNotification(scope constructs.Construct, id *string, config *ConnectNotificationConfig) ConnectNotification {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewConnectNotification(scope constructs.Construct, id *string, config *Conn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/connect_notification awscc_connect_notification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/connect_notification awscc_connect_notification} Resource.
 func NewConnectNotification_Override(c ConnectNotification, scope constructs.Construct, id *string, config *ConnectNotificationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package iotfleetwisesignalcatalog
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotfleetwisesignalcatalog/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotfleetwisesignalcatalog/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotfleetwise_signal_catalog awscc_iotfleetwise_signal_catalog}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotfleetwise_signal_catalog awscc_iotfleetwise_signal_catalog}.
 type IotfleetwiseSignalCatalog interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -508,7 +508,7 @@ func (j *jsiiProxy_IotfleetwiseSignalCatalog) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotfleetwise_signal_catalog awscc_iotfleetwise_signal_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotfleetwise_signal_catalog awscc_iotfleetwise_signal_catalog} Resource.
 func NewIotfleetwiseSignalCatalog(scope constructs.Construct, id *string, config *IotfleetwiseSignalCatalogConfig) IotfleetwiseSignalCatalog {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewIotfleetwiseSignalCatalog(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotfleetwise_signal_catalog awscc_iotfleetwise_signal_catalog} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotfleetwise_signal_catalog awscc_iotfleetwise_signal_catalog} Resource.
 func NewIotfleetwiseSignalCatalog_Override(i IotfleetwiseSignalCatalog, scope constructs.Construct, id *string, config *IotfleetwiseSignalCatalogConfig) {
 	_init_.Initialize()
 

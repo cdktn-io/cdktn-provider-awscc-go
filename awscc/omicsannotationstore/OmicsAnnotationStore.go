@@ -5,14 +5,14 @@ package omicsannotationstore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/omicsannotationstore/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/omicsannotationstore/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store awscc_omics_annotation_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store awscc_omics_annotation_store}.
 type OmicsAnnotationStore interface {
 	cdktn.TerraformResource
 	AnnotationStoreId() *string
@@ -598,7 +598,7 @@ func (j *jsiiProxy_OmicsAnnotationStore) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store awscc_omics_annotation_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store awscc_omics_annotation_store} Resource.
 func NewOmicsAnnotationStore(scope constructs.Construct, id *string, config *OmicsAnnotationStoreConfig) OmicsAnnotationStore {
 	_init_.Initialize()
 
@@ -616,7 +616,7 @@ func NewOmicsAnnotationStore(scope constructs.Construct, id *string, config *Omi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/omics_annotation_store awscc_omics_annotation_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/omics_annotation_store awscc_omics_annotation_store} Resource.
 func NewOmicsAnnotationStore_Override(o OmicsAnnotationStore, scope constructs.Construct, id *string, config *OmicsAnnotationStoreConfig) {
 	_init_.Initialize()
 

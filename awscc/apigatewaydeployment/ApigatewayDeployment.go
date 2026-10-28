@@ -5,14 +5,14 @@ package apigatewaydeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewaydeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewaydeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_deployment awscc_apigateway_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_deployment awscc_apigateway_deployment}.
 type ApigatewayDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -485,7 +485,7 @@ func (j *jsiiProxy_ApigatewayDeployment) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_deployment awscc_apigateway_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_deployment awscc_apigateway_deployment} Resource.
 func NewApigatewayDeployment(scope constructs.Construct, id *string, config *ApigatewayDeploymentConfig) ApigatewayDeployment {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewApigatewayDeployment(scope constructs.Construct, id *string, config *Api
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_deployment awscc_apigateway_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_deployment awscc_apigateway_deployment} Resource.
 func NewApigatewayDeployment_Override(a ApigatewayDeployment, scope constructs.Construct, id *string, config *ApigatewayDeploymentConfig) {
 	_init_.Initialize()
 

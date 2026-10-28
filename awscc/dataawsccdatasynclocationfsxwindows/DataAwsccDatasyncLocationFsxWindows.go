@@ -5,14 +5,14 @@ package dataawsccdatasynclocationfsxwindows
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdatasynclocationfsxwindows/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdatasynclocationfsxwindows/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_fsx_windows awscc_datasync_location_fsx_windows}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_fsx_windows awscc_datasync_location_fsx_windows}.
 type DataAwsccDatasyncLocationFsxWindows interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccDatasyncLocationFsxWindows) User() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_fsx_windows awscc_datasync_location_fsx_windows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_fsx_windows awscc_datasync_location_fsx_windows} Data Source.
 func NewDataAwsccDatasyncLocationFsxWindows(scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationFsxWindowsConfig) DataAwsccDatasyncLocationFsxWindows {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccDatasyncLocationFsxWindows(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/datasync_location_fsx_windows awscc_datasync_location_fsx_windows} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/datasync_location_fsx_windows awscc_datasync_location_fsx_windows} Data Source.
 func NewDataAwsccDatasyncLocationFsxWindows_Override(d DataAwsccDatasyncLocationFsxWindows, scope constructs.Construct, id *string, config *DataAwsccDatasyncLocationFsxWindowsConfig) {
 	_init_.Initialize()
 

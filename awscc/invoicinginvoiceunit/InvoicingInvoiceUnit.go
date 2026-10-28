@@ -5,14 +5,14 @@ package invoicinginvoiceunit
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/invoicinginvoiceunit/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/invoicinginvoiceunit/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/invoicing_invoice_unit awscc_invoicing_invoice_unit}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/invoicing_invoice_unit awscc_invoicing_invoice_unit}.
 type InvoicingInvoiceUnit interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -518,7 +518,7 @@ func (j *jsiiProxy_InvoicingInvoiceUnit) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/invoicing_invoice_unit awscc_invoicing_invoice_unit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/invoicing_invoice_unit awscc_invoicing_invoice_unit} Resource.
 func NewInvoicingInvoiceUnit(scope constructs.Construct, id *string, config *InvoicingInvoiceUnitConfig) InvoicingInvoiceUnit {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewInvoicingInvoiceUnit(scope constructs.Construct, id *string, config *Inv
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/invoicing_invoice_unit awscc_invoicing_invoice_unit} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/invoicing_invoice_unit awscc_invoicing_invoice_unit} Resource.
 func NewInvoicingInvoiceUnit_Override(i InvoicingInvoiceUnit, scope constructs.Construct, id *string, config *InvoicingInvoiceUnitConfig) {
 	_init_.Initialize()
 

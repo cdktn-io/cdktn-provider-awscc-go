@@ -5,14 +5,14 @@ package dataawscclexbotaliases
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclexbotaliases/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclexbotaliases/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lex_bot_aliases awscc_lex_bot_aliases}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lex_bot_aliases awscc_lex_bot_aliases}.
 type DataAwsccLexBotAliases interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLexBotAliases) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lex_bot_aliases awscc_lex_bot_aliases} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lex_bot_aliases awscc_lex_bot_aliases} Data Source.
 func NewDataAwsccLexBotAliases(scope constructs.Construct, id *string, config *DataAwsccLexBotAliasesConfig) DataAwsccLexBotAliases {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLexBotAliases(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lex_bot_aliases awscc_lex_bot_aliases} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lex_bot_aliases awscc_lex_bot_aliases} Data Source.
 func NewDataAwsccLexBotAliases_Override(d DataAwsccLexBotAliases, scope constructs.Construct, id *string, config *DataAwsccLexBotAliasesConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccemrsecurityconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccemrsecurityconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccemrsecurityconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emr_security_configuration awscc_emr_security_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emr_security_configuration awscc_emr_security_configuration}.
 type DataAwsccEmrSecurityConfiguration interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -308,7 +308,7 @@ func (j *jsiiProxy_DataAwsccEmrSecurityConfiguration) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emr_security_configuration awscc_emr_security_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emr_security_configuration awscc_emr_security_configuration} Data Source.
 func NewDataAwsccEmrSecurityConfiguration(scope constructs.Construct, id *string, config *DataAwsccEmrSecurityConfigurationConfig) DataAwsccEmrSecurityConfiguration {
 	_init_.Initialize()
 
@@ -326,7 +326,7 @@ func NewDataAwsccEmrSecurityConfiguration(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/emr_security_configuration awscc_emr_security_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/emr_security_configuration awscc_emr_security_configuration} Data Source.
 func NewDataAwsccEmrSecurityConfiguration_Override(d DataAwsccEmrSecurityConfiguration, scope constructs.Construct, id *string, config *DataAwsccEmrSecurityConfigurationConfig) {
 	_init_.Initialize()
 

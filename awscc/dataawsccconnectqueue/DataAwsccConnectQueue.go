@@ -5,14 +5,14 @@ package dataawsccconnectqueue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccconnectqueue/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccconnectqueue/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_queue awscc_connect_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_queue awscc_connect_queue}.
 type DataAwsccConnectQueue interface {
 	cdktn.TerraformDataSource
 	AdditionalEmailAddresses() DataAwsccConnectQueueAdditionalEmailAddressesList
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccConnectQueue) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_queue awscc_connect_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_queue awscc_connect_queue} Data Source.
 func NewDataAwsccConnectQueue(scope constructs.Construct, id *string, config *DataAwsccConnectQueueConfig) DataAwsccConnectQueue {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccConnectQueue(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/connect_queue awscc_connect_queue} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/connect_queue awscc_connect_queue} Data Source.
 func NewDataAwsccConnectQueue_Override(d DataAwsccConnectQueue, scope constructs.Construct, id *string, config *DataAwsccConnectQueueConfig) {
 	_init_.Initialize()
 

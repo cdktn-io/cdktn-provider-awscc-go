@@ -24,19 +24,19 @@ type ScnInstanceConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The instance description.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_instance#instance_description ScnInstance#instance_description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_instance#instance_description ScnInstance#instance_description}
 	InstanceDescription *string `field:"optional" json:"instanceDescription" yaml:"instanceDescription"`
 	// The instance name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_instance#instance_name ScnInstance#instance_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_instance#instance_name ScnInstance#instance_name}
 	InstanceName *string `field:"optional" json:"instanceName" yaml:"instanceName"`
 	// Tags for the instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_instance#tags ScnInstance#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_instance#tags ScnInstance#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 	// The WebApp DNS domain name of the instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/scn_instance#web_app_dns_domain ScnInstance#web_app_dns_domain}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/scn_instance#web_app_dns_domain ScnInstance#web_app_dns_domain}
 	WebAppDnsDomain *string `field:"optional" json:"webAppDnsDomain" yaml:"webAppDnsDomain"`
 }
 

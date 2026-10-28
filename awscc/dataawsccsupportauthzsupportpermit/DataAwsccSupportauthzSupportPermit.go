@@ -5,14 +5,14 @@ package dataawsccsupportauthzsupportpermit
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsupportauthzsupportpermit/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsupportauthzsupportpermit/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/supportauthz_support_permit awscc_supportauthz_support_permit}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/supportauthz_support_permit awscc_supportauthz_support_permit}.
 type DataAwsccSupportauthzSupportPermit interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccSupportauthzSupportPermit) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/supportauthz_support_permit awscc_supportauthz_support_permit} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/supportauthz_support_permit awscc_supportauthz_support_permit} Data Source.
 func NewDataAwsccSupportauthzSupportPermit(scope constructs.Construct, id *string, config *DataAwsccSupportauthzSupportPermitConfig) DataAwsccSupportauthzSupportPermit {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccSupportauthzSupportPermit(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/supportauthz_support_permit awscc_supportauthz_support_permit} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/supportauthz_support_permit awscc_supportauthz_support_permit} Data Source.
 func NewDataAwsccSupportauthzSupportPermit_Override(d DataAwsccSupportauthzSupportPermit, scope constructs.Construct, id *string, config *DataAwsccSupportauthzSupportPermitConfig) {
 	_init_.Initialize()
 

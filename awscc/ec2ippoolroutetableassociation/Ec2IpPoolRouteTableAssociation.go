@@ -5,14 +5,14 @@ package ec2ippoolroutetableassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ippoolroutetableassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ippoolroutetableassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ip_pool_route_table_association awscc_ec2_ip_pool_route_table_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ip_pool_route_table_association awscc_ec2_ip_pool_route_table_association}.
 type Ec2IpPoolRouteTableAssociation interface {
 	cdktn.TerraformResource
 	AssociationId() *string
@@ -412,7 +412,7 @@ func (j *jsiiProxy_Ec2IpPoolRouteTableAssociation) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ip_pool_route_table_association awscc_ec2_ip_pool_route_table_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ip_pool_route_table_association awscc_ec2_ip_pool_route_table_association} Resource.
 func NewEc2IpPoolRouteTableAssociation(scope constructs.Construct, id *string, config *Ec2IpPoolRouteTableAssociationConfig) Ec2IpPoolRouteTableAssociation {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewEc2IpPoolRouteTableAssociation(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ip_pool_route_table_association awscc_ec2_ip_pool_route_table_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ip_pool_route_table_association awscc_ec2_ip_pool_route_table_association} Resource.
 func NewEc2IpPoolRouteTableAssociation_Override(e Ec2IpPoolRouteTableAssociation, scope constructs.Construct, id *string, config *Ec2IpPoolRouteTableAssociationConfig) {
 	_init_.Initialize()
 

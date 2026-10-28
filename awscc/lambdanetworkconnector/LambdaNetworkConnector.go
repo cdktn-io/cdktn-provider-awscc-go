@@ -5,14 +5,14 @@ package lambdanetworkconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lambdanetworkconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lambdanetworkconnector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_network_connector awscc_lambda_network_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_network_connector awscc_lambda_network_connector}.
 type LambdaNetworkConnector interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -494,7 +494,7 @@ func (j *jsiiProxy_LambdaNetworkConnector) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_network_connector awscc_lambda_network_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_network_connector awscc_lambda_network_connector} Resource.
 func NewLambdaNetworkConnector(scope constructs.Construct, id *string, config *LambdaNetworkConnectorConfig) LambdaNetworkConnector {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewLambdaNetworkConnector(scope constructs.Construct, id *string, config *L
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_network_connector awscc_lambda_network_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lambda_network_connector awscc_lambda_network_connector} Resource.
 func NewLambdaNetworkConnector_Override(l LambdaNetworkConnector, scope constructs.Construct, id *string, config *LambdaNetworkConnectorConfig) {
 	_init_.Initialize()
 

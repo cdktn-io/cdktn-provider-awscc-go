@@ -5,14 +5,14 @@ package dataawsccwisdomaiagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccwisdomaiagent/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccwisdomaiagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_ai_agent awscc_wisdom_ai_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_ai_agent awscc_wisdom_ai_agent}.
 type DataAwsccWisdomAiAgent interface {
 	cdktn.TerraformDataSource
 	AiAgentArn() *string
@@ -396,7 +396,7 @@ func (j *jsiiProxy_DataAwsccWisdomAiAgent) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_ai_agent awscc_wisdom_ai_agent} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_ai_agent awscc_wisdom_ai_agent} Data Source.
 func NewDataAwsccWisdomAiAgent(scope constructs.Construct, id *string, config *DataAwsccWisdomAiAgentConfig) DataAwsccWisdomAiAgent {
 	_init_.Initialize()
 
@@ -414,7 +414,7 @@ func NewDataAwsccWisdomAiAgent(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/wisdom_ai_agent awscc_wisdom_ai_agent} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/wisdom_ai_agent awscc_wisdom_ai_agent} Data Source.
 func NewDataAwsccWisdomAiAgent_Override(d DataAwsccWisdomAiAgent, scope constructs.Construct, id *string, config *DataAwsccWisdomAiAgentConfig) {
 	_init_.Initialize()
 

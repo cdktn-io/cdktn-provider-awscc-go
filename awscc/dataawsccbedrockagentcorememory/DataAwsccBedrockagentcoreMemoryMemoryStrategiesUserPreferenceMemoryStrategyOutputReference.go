@@ -5,9 +5,9 @@ package dataawsccbedrockagentcorememory
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccbedrockagentcorememory/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccbedrockagentcorememory/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -38,6 +38,8 @@ type DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategy
 	Name() *string
 	Namespaces() *[]*string
 	NamespaceTemplates() *[]*string
+	RecordExpiryDurationDays() *float64
+	RecordExpirySpecification() DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference
 	Status() *string
 	StrategyId() *string
 	// Experimental.
@@ -194,6 +196,26 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreference
 	_jsii_.Get(
 		j,
 		"namespaceTemplates",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyOutputReference) RecordExpiryDurationDays() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"recordExpiryDurationDays",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyOutputReference) RecordExpirySpecification() DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference {
+	var returns DataAwsccBedrockagentcoreMemoryMemoryStrategiesUserPreferenceMemoryStrategyRecordExpirySpecificationOutputReference
+	_jsii_.Get(
+		j,
+		"recordExpirySpecification",
 		&returns,
 	)
 	return returns

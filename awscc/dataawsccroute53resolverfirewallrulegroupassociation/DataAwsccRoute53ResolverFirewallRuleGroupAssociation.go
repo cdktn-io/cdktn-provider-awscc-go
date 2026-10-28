@@ -5,14 +5,14 @@ package dataawsccroute53resolverfirewallrulegroupassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53resolverfirewallrulegroupassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53resolverfirewallrulegroupassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_firewall_rule_group_association awscc_route53resolver_firewall_rule_group_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_firewall_rule_group_association awscc_route53resolver_firewall_rule_group_association}.
 type DataAwsccRoute53ResolverFirewallRuleGroupAssociation interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccRoute53ResolverFirewallRuleGroupAssociation) VpcId()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_firewall_rule_group_association awscc_route53resolver_firewall_rule_group_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_firewall_rule_group_association awscc_route53resolver_firewall_rule_group_association} Data Source.
 func NewDataAwsccRoute53ResolverFirewallRuleGroupAssociation(scope constructs.Construct, id *string, config *DataAwsccRoute53ResolverFirewallRuleGroupAssociationConfig) DataAwsccRoute53ResolverFirewallRuleGroupAssociation {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccRoute53ResolverFirewallRuleGroupAssociation(scope constructs.Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53resolver_firewall_rule_group_association awscc_route53resolver_firewall_rule_group_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53resolver_firewall_rule_group_association awscc_route53resolver_firewall_rule_group_association} Data Source.
 func NewDataAwsccRoute53ResolverFirewallRuleGroupAssociation_Override(d DataAwsccRoute53ResolverFirewallRuleGroupAssociation, scope constructs.Construct, id *string, config *DataAwsccRoute53ResolverFirewallRuleGroupAssociationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package autoscalingscalingpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/autoscalingscalingpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/autoscalingscalingpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_scaling_policy awscc_autoscaling_scaling_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_scaling_policy awscc_autoscaling_scaling_policy}.
 type AutoscalingScalingPolicy interface {
 	cdktn.TerraformResource
 	AdjustmentType() *string
@@ -640,7 +640,7 @@ func (j *jsiiProxy_AutoscalingScalingPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_scaling_policy awscc_autoscaling_scaling_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_scaling_policy awscc_autoscaling_scaling_policy} Resource.
 func NewAutoscalingScalingPolicy(scope constructs.Construct, id *string, config *AutoscalingScalingPolicyConfig) AutoscalingScalingPolicy {
 	_init_.Initialize()
 
@@ -658,7 +658,7 @@ func NewAutoscalingScalingPolicy(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/autoscaling_scaling_policy awscc_autoscaling_scaling_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/autoscaling_scaling_policy awscc_autoscaling_scaling_policy} Resource.
 func NewAutoscalingScalingPolicy_Override(a AutoscalingScalingPolicy, scope constructs.Construct, id *string, config *AutoscalingScalingPolicyConfig) {
 	_init_.Initialize()
 

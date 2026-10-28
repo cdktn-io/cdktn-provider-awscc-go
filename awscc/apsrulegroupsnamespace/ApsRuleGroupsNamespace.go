@@ -5,14 +5,14 @@ package apsrulegroupsnamespace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apsrulegroupsnamespace/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apsrulegroupsnamespace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_rule_groups_namespace awscc_aps_rule_groups_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_rule_groups_namespace awscc_aps_rule_groups_namespace}.
 type ApsRuleGroupsNamespace interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -459,7 +459,7 @@ func (j *jsiiProxy_ApsRuleGroupsNamespace) WorkspaceInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_rule_groups_namespace awscc_aps_rule_groups_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_rule_groups_namespace awscc_aps_rule_groups_namespace} Resource.
 func NewApsRuleGroupsNamespace(scope constructs.Construct, id *string, config *ApsRuleGroupsNamespaceConfig) ApsRuleGroupsNamespace {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewApsRuleGroupsNamespace(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/aps_rule_groups_namespace awscc_aps_rule_groups_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/aps_rule_groups_namespace awscc_aps_rule_groups_namespace} Resource.
 func NewApsRuleGroupsNamespace_Override(a ApsRuleGroupsNamespace, scope constructs.Construct, id *string, config *ApsRuleGroupsNamespaceConfig) {
 	_init_.Initialize()
 

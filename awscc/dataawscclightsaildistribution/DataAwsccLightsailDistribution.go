@@ -5,14 +5,14 @@ package dataawscclightsaildistribution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclightsaildistribution/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclightsaildistribution/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_distribution awscc_lightsail_distribution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_distribution awscc_lightsail_distribution}.
 type DataAwsccLightsailDistribution interface {
 	cdktn.TerraformDataSource
 	AbleToUpdateBundle() cdktn.IResolvable
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccLightsailDistribution) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_distribution awscc_lightsail_distribution} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_distribution awscc_lightsail_distribution} Data Source.
 func NewDataAwsccLightsailDistribution(scope constructs.Construct, id *string, config *DataAwsccLightsailDistributionConfig) DataAwsccLightsailDistribution {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccLightsailDistribution(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lightsail_distribution awscc_lightsail_distribution} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/lightsail_distribution awscc_lightsail_distribution} Data Source.
 func NewDataAwsccLightsailDistribution_Override(d DataAwsccLightsailDistribution, scope constructs.Construct, id *string, config *DataAwsccLightsailDistributionConfig) {
 	_init_.Initialize()
 

@@ -47,6 +47,10 @@ func (m *jsiiProxy_Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationOu
 	return nil
 }
 
+func (m *jsiiProxy_Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationOutputReference) validatePutMultiviewParameters(value *Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationMultiview) error {
+	return nil
+}
+
 func (m *jsiiProxy_Mediapackagev2OriginEndpointHlsManifestsFilterConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

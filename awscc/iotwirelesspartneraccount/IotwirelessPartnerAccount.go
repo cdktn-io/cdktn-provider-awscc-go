@@ -5,14 +5,14 @@ package iotwirelesspartneraccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/iotwirelesspartneraccount/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/iotwirelesspartneraccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account awscc_iotwireless_partner_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account awscc_iotwireless_partner_account}.
 type IotwirelessPartnerAccount interface {
 	cdktn.TerraformResource
 	AccountLinked() interface{}
@@ -545,7 +545,7 @@ func (j *jsiiProxy_IotwirelessPartnerAccount) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account awscc_iotwireless_partner_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account awscc_iotwireless_partner_account} Resource.
 func NewIotwirelessPartnerAccount(scope constructs.Construct, id *string, config *IotwirelessPartnerAccountConfig) IotwirelessPartnerAccount {
 	_init_.Initialize()
 
@@ -563,7 +563,7 @@ func NewIotwirelessPartnerAccount(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/iotwireless_partner_account awscc_iotwireless_partner_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/iotwireless_partner_account awscc_iotwireless_partner_account} Resource.
 func NewIotwirelessPartnerAccount_Override(i IotwirelessPartnerAccount, scope constructs.Construct, id *string, config *IotwirelessPartnerAccountConfig) {
 	_init_.Initialize()
 

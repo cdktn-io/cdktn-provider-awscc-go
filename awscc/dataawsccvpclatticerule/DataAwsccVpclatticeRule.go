@@ -5,14 +5,14 @@ package dataawsccvpclatticerule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvpclatticerule/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvpclatticerule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_rule awscc_vpclattice_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_rule awscc_vpclattice_rule}.
 type DataAwsccVpclatticeRule interface {
 	cdktn.TerraformDataSource
 	Action() DataAwsccVpclatticeRuleActionOutputReference
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccVpclatticeRule) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_rule awscc_vpclattice_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_rule awscc_vpclattice_rule} Data Source.
 func NewDataAwsccVpclatticeRule(scope constructs.Construct, id *string, config *DataAwsccVpclatticeRuleConfig) DataAwsccVpclatticeRule {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccVpclatticeRule(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/vpclattice_rule awscc_vpclattice_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/vpclattice_rule awscc_vpclattice_rule} Data Source.
 func NewDataAwsccVpclatticeRule_Override(d DataAwsccVpclatticeRule, scope constructs.Construct, id *string, config *DataAwsccVpclatticeRuleConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package customerprofilesrecommenderfilter
 
 
 type CustomerprofilesRecommenderFilterTags struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_recommender_filter#key CustomerprofilesRecommenderFilter#key}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_recommender_filter#key CustomerprofilesRecommenderFilter#key}.
 	Key *string `field:"optional" json:"key" yaml:"key"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_recommender_filter#value CustomerprofilesRecommenderFilter#value}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_recommender_filter#value CustomerprofilesRecommenderFilter#value}.
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

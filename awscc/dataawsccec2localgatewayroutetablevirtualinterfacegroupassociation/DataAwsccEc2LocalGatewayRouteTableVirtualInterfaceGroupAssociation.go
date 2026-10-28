@@ -5,14 +5,14 @@ package dataawsccec2localgatewayroutetablevirtualinterfacegroupassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2localgatewayroutetablevirtualinterfacegroupassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2localgatewayroutetablevirtualinterfacegroupassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_local_gateway_route_table_virtual_interface_group_association awscc_ec2_local_gateway_route_table_virtual_interface_group_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_local_gateway_route_table_virtual_interface_group_association awscc_ec2_local_gateway_route_table_virtual_interface_group_association}.
 type DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -374,7 +374,7 @@ func (j *jsiiProxy_DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssoci
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_local_gateway_route_table_virtual_interface_group_association awscc_ec2_local_gateway_route_table_virtual_interface_group_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_local_gateway_route_table_virtual_interface_group_association awscc_ec2_local_gateway_route_table_virtual_interface_group_association} Data Source.
 func NewDataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociation(scope constructs.Construct, id *string, config *DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociationConfig) DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociation {
 	_init_.Initialize()
 
@@ -392,7 +392,7 @@ func NewDataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociation(scope
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_local_gateway_route_table_virtual_interface_group_association awscc_ec2_local_gateway_route_table_virtual_interface_group_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_local_gateway_route_table_virtual_interface_group_association awscc_ec2_local_gateway_route_table_virtual_interface_group_association} Data Source.
 func NewDataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociation_Override(d DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociation, scope constructs.Construct, id *string, config *DataAwsccEc2LocalGatewayRouteTableVirtualInterfaceGroupAssociationConfig) {
 	_init_.Initialize()
 

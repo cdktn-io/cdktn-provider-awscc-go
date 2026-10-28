@@ -5,14 +5,14 @@ package dataawsccmediaconvertpresets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmediaconvertpresets/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmediaconvertpresets/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconvert_presets awscc_mediaconvert_presets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconvert_presets awscc_mediaconvert_presets}.
 type DataAwsccMediaconvertPresets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMediaconvertPresets) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconvert_presets awscc_mediaconvert_presets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconvert_presets awscc_mediaconvert_presets} Data Source.
 func NewDataAwsccMediaconvertPresets(scope constructs.Construct, id *string, config *DataAwsccMediaconvertPresetsConfig) DataAwsccMediaconvertPresets {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMediaconvertPresets(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediaconvert_presets awscc_mediaconvert_presets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconvert_presets awscc_mediaconvert_presets} Data Source.
 func NewDataAwsccMediaconvertPresets_Override(d DataAwsccMediaconvertPresets, scope constructs.Construct, id *string, config *DataAwsccMediaconvertPresetsConfig) {
 	_init_.Initialize()
 

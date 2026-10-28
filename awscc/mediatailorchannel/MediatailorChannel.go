@@ -5,14 +5,14 @@ package mediatailorchannel
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediatailorchannel/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediatailorchannel/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel awscc_mediatailor_channel}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel awscc_mediatailor_channel}.
 type MediatailorChannel interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -579,7 +579,7 @@ func (j *jsiiProxy_MediatailorChannel) TimeShiftConfigurationInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel awscc_mediatailor_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel awscc_mediatailor_channel} Resource.
 func NewMediatailorChannel(scope constructs.Construct, id *string, config *MediatailorChannelConfig) MediatailorChannel {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewMediatailorChannel(scope constructs.Construct, id *string, config *Media
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediatailor_channel awscc_mediatailor_channel} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediatailor_channel awscc_mediatailor_channel} Resource.
 func NewMediatailorChannel_Override(m MediatailorChannel, scope constructs.Construct, id *string, config *MediatailorChannelConfig) {
 	_init_.Initialize()
 

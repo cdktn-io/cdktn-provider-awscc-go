@@ -5,14 +5,14 @@ package dataawsccappsynctype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsynctype/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsynctype/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_type awscc_appsync_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_type awscc_appsync_type}.
 type DataAwsccAppsyncType interface {
 	cdktn.TerraformDataSource
 	ApiId() *string
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccAppsyncType) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_type awscc_appsync_type} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_type awscc_appsync_type} Data Source.
 func NewDataAwsccAppsyncType(scope constructs.Construct, id *string, config *DataAwsccAppsyncTypeConfig) DataAwsccAppsyncType {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccAppsyncType(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_type awscc_appsync_type} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_type awscc_appsync_type} Data Source.
 func NewDataAwsccAppsyncType_Override(d DataAwsccAppsyncType, scope constructs.Construct, id *string, config *DataAwsccAppsyncTypeConfig) {
 	_init_.Initialize()
 

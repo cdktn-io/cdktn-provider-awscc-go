@@ -5,14 +5,14 @@ package dataawsccomicssequencestore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccomicssequencestore/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccomicssequencestore/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_sequence_store awscc_omics_sequence_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_sequence_store awscc_omics_sequence_store}.
 type DataAwsccOmicsSequenceStore interface {
 	cdktn.TerraformDataSource
 	AccessLogLocation() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccOmicsSequenceStore) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_sequence_store awscc_omics_sequence_store} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_sequence_store awscc_omics_sequence_store} Data Source.
 func NewDataAwsccOmicsSequenceStore(scope constructs.Construct, id *string, config *DataAwsccOmicsSequenceStoreConfig) DataAwsccOmicsSequenceStore {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccOmicsSequenceStore(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/omics_sequence_store awscc_omics_sequence_store} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/omics_sequence_store awscc_omics_sequence_store} Data Source.
 func NewDataAwsccOmicsSequenceStore_Override(d DataAwsccOmicsSequenceStore, scope constructs.Construct, id *string, config *DataAwsccOmicsSequenceStoreConfig) {
 	_init_.Initialize()
 

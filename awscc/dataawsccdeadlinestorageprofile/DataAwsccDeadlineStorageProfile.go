@@ -5,14 +5,14 @@ package dataawsccdeadlinestorageprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccdeadlinestorageprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccdeadlinestorageprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_storage_profile awscc_deadline_storage_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_storage_profile awscc_deadline_storage_profile}.
 type DataAwsccDeadlineStorageProfile interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccDeadlineStorageProfile) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_storage_profile awscc_deadline_storage_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_storage_profile awscc_deadline_storage_profile} Data Source.
 func NewDataAwsccDeadlineStorageProfile(scope constructs.Construct, id *string, config *DataAwsccDeadlineStorageProfileConfig) DataAwsccDeadlineStorageProfile {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccDeadlineStorageProfile(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/deadline_storage_profile awscc_deadline_storage_profile} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/deadline_storage_profile awscc_deadline_storage_profile} Data Source.
 func NewDataAwsccDeadlineStorageProfile_Override(d DataAwsccDeadlineStorageProfile, scope constructs.Construct, id *string, config *DataAwsccDeadlineStorageProfileConfig) {
 	_init_.Initialize()
 

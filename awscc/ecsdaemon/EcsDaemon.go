@@ -5,14 +5,14 @@ package ecsdaemon
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ecsdaemon/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ecsdaemon/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_daemon awscc_ecs_daemon}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon awscc_ecs_daemon}.
 type EcsDaemon interface {
 	cdktn.TerraformResource
 	CapacityProviderArns() *[]*string
@@ -650,7 +650,7 @@ func (j *jsiiProxy_EcsDaemon) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_daemon awscc_ecs_daemon} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon awscc_ecs_daemon} Resource.
 func NewEcsDaemon(scope constructs.Construct, id *string, config *EcsDaemonConfig) EcsDaemon {
 	_init_.Initialize()
 
@@ -668,7 +668,7 @@ func NewEcsDaemon(scope constructs.Construct, id *string, config *EcsDaemonConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ecs_daemon awscc_ecs_daemon} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_daemon awscc_ecs_daemon} Resource.
 func NewEcsDaemon_Override(e EcsDaemon, scope constructs.Construct, id *string, config *EcsDaemonConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package glueconnectiontype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/glueconnectiontype/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/glueconnectiontype/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type awscc_glue_connection_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type awscc_glue_connection_type}.
 type GlueConnectionType interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -532,7 +532,7 @@ func (j *jsiiProxy_GlueConnectionType) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type awscc_glue_connection_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type awscc_glue_connection_type} Resource.
 func NewGlueConnectionType(scope constructs.Construct, id *string, config *GlueConnectionTypeConfig) GlueConnectionType {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewGlueConnectionType(scope constructs.Construct, id *string, config *GlueC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/glue_connection_type awscc_glue_connection_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/glue_connection_type awscc_glue_connection_type} Resource.
 func NewGlueConnectionType_Override(g GlueConnectionType, scope constructs.Construct, id *string, config *GlueConnectionTypeConfig) {
 	_init_.Initialize()
 

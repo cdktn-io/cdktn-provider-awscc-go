@@ -5,14 +5,14 @@ package dataawsccimagebuilderimagerecipe
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccimagebuilderimagerecipe/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccimagebuilderimagerecipe/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_image_recipe awscc_imagebuilder_image_recipe}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_image_recipe awscc_imagebuilder_image_recipe}.
 type DataAwsccImagebuilderImageRecipe interface {
 	cdktn.TerraformDataSource
 	AdditionalInstanceConfiguration() DataAwsccImagebuilderImageRecipeAdditionalInstanceConfigurationOutputReference
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccImagebuilderImageRecipe) WorkingDirectory() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_image_recipe awscc_imagebuilder_image_recipe} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_image_recipe awscc_imagebuilder_image_recipe} Data Source.
 func NewDataAwsccImagebuilderImageRecipe(scope constructs.Construct, id *string, config *DataAwsccImagebuilderImageRecipeConfig) DataAwsccImagebuilderImageRecipe {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccImagebuilderImageRecipe(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_image_recipe awscc_imagebuilder_image_recipe} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_image_recipe awscc_imagebuilder_image_recipe} Data Source.
 func NewDataAwsccImagebuilderImageRecipe_Override(d DataAwsccImagebuilderImageRecipe, scope constructs.Construct, id *string, config *DataAwsccImagebuilderImageRecipeConfig) {
 	_init_.Initialize()
 

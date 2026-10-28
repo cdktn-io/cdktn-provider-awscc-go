@@ -5,14 +5,14 @@ package dataawsccec2subnetcidrblocks
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccec2subnetcidrblocks/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccec2subnetcidrblocks/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_subnet_cidr_blocks awscc_ec2_subnet_cidr_blocks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_subnet_cidr_blocks awscc_ec2_subnet_cidr_blocks}.
 type DataAwsccEc2SubnetCidrBlocks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2SubnetCidrBlocks) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_subnet_cidr_blocks awscc_ec2_subnet_cidr_blocks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_subnet_cidr_blocks awscc_ec2_subnet_cidr_blocks} Data Source.
 func NewDataAwsccEc2SubnetCidrBlocks(scope constructs.Construct, id *string, config *DataAwsccEc2SubnetCidrBlocksConfig) DataAwsccEc2SubnetCidrBlocks {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2SubnetCidrBlocks(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ec2_subnet_cidr_blocks awscc_ec2_subnet_cidr_blocks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_subnet_cidr_blocks awscc_ec2_subnet_cidr_blocks} Data Source.
 func NewDataAwsccEc2SubnetCidrBlocks_Override(d DataAwsccEc2SubnetCidrBlocks, scope constructs.Construct, id *string, config *DataAwsccEc2SubnetCidrBlocksConfig) {
 	_init_.Initialize()
 

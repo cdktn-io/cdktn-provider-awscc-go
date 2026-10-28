@@ -5,14 +5,14 @@ package lexbotalias
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/lexbotalias/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/lexbotalias/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias awscc_lex_bot_alias}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias awscc_lex_bot_alias}.
 type LexBotAlias interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -578,7 +578,7 @@ func (j *jsiiProxy_LexBotAlias) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias awscc_lex_bot_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias awscc_lex_bot_alias} Resource.
 func NewLexBotAlias(scope constructs.Construct, id *string, config *LexBotAliasConfig) LexBotAlias {
 	_init_.Initialize()
 
@@ -596,7 +596,7 @@ func NewLexBotAlias(scope constructs.Construct, id *string, config *LexBotAliasC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lex_bot_alias awscc_lex_bot_alias} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/lex_bot_alias awscc_lex_bot_alias} Resource.
 func NewLexBotAlias_Override(l LexBotAlias, scope constructs.Construct, id *string, config *LexBotAliasConfig) {
 	_init_.Initialize()
 

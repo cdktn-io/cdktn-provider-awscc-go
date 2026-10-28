@@ -5,14 +5,17 @@ package connectinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/connectinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/connectinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ConnectInstanceAttributesOutputReference interface {
 	cdktn.ComplexObject
+	AutoMuteAgentOnHold() interface{}
+	SetAutoMuteAgentOnHold(val interface{})
+	AutoMuteAgentOnHoldInput() interface{}
 	AutoResolveBestVoices() interface{}
 	SetAutoResolveBestVoices(val interface{})
 	AutoResolveBestVoicesInput() interface{}
@@ -103,6 +106,7 @@ type ConnectInstanceAttributesOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetAutoMuteAgentOnHold()
 	ResetAutoResolveBestVoices()
 	ResetContactflowLogs()
 	ResetContactLens()
@@ -127,6 +131,26 @@ type ConnectInstanceAttributesOutputReference interface {
 // The jsii proxy struct for ConnectInstanceAttributesOutputReference
 type jsiiProxy_ConnectInstanceAttributesOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_ConnectInstanceAttributesOutputReference) AutoMuteAgentOnHold() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"autoMuteAgentOnHold",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ConnectInstanceAttributesOutputReference) AutoMuteAgentOnHoldInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"autoMuteAgentOnHoldInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_ConnectInstanceAttributesOutputReference) AutoResolveBestVoices() interface{} {
@@ -484,6 +508,17 @@ func NewConnectInstanceAttributesOutputReference_Override(c ConnectInstanceAttri
 		"@cdktn/provider-awscc.connectInstance.ConnectInstanceAttributesOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
+	)
+}
+
+func (j *jsiiProxy_ConnectInstanceAttributesOutputReference)SetAutoMuteAgentOnHold(val interface{}) {
+	if err := j.validateSetAutoMuteAgentOnHoldParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"autoMuteAgentOnHold",
+		val,
 	)
 }
 
@@ -869,6 +904,14 @@ func (c *jsiiProxy_ConnectInstanceAttributesOutputReference) InterpolationForAtt
 	)
 
 	return returns
+}
+
+func (c *jsiiProxy_ConnectInstanceAttributesOutputReference) ResetAutoMuteAgentOnHold() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetAutoMuteAgentOnHold",
+		nil, // no parameters
+	)
 }
 
 func (c *jsiiProxy_ConnectInstanceAttributesOutputReference) ResetAutoResolveBestVoices() {

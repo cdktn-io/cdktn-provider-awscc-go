@@ -5,14 +5,14 @@ package dataawsccquicksightvpcconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightvpcconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightvpcconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_vpc_connection awscc_quicksight_vpc_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_vpc_connection awscc_quicksight_vpc_connection}.
 type DataAwsccQuicksightVpcConnection interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccQuicksightVpcConnection) VpcId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_vpc_connection awscc_quicksight_vpc_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_vpc_connection awscc_quicksight_vpc_connection} Data Source.
 func NewDataAwsccQuicksightVpcConnection(scope constructs.Construct, id *string, config *DataAwsccQuicksightVpcConnectionConfig) DataAwsccQuicksightVpcConnection {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccQuicksightVpcConnection(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_vpc_connection awscc_quicksight_vpc_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_vpc_connection awscc_quicksight_vpc_connection} Data Source.
 func NewDataAwsccQuicksightVpcConnection_Override(d DataAwsccQuicksightVpcConnection, scope constructs.Construct, id *string, config *DataAwsccQuicksightVpcConnectionConfig) {
 	_init_.Initialize()
 

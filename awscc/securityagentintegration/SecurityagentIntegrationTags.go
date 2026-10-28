@@ -7,11 +7,11 @@ package securityagentintegration
 type SecurityagentIntegrationTags struct {
 	// The key name of the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#key SecurityagentIntegration#key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#key SecurityagentIntegration#key}
 	Key *string `field:"optional" json:"key" yaml:"key"`
 	// The value for the tag.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/securityagent_integration#value SecurityagentIntegration#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/securityagent_integration#value SecurityagentIntegration#value}
 	Value *string `field:"optional" json:"value" yaml:"value"`
 }
 

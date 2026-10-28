@@ -5,14 +5,14 @@ package mediaconnectrouterinput
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectrouterinput/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/mediaconnectrouterinput/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_router_input awscc_mediaconnect_router_input}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_router_input awscc_mediaconnect_router_input}.
 type MediaconnectRouterInput interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -724,7 +724,7 @@ func (j *jsiiProxy_MediaconnectRouterInput) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_router_input awscc_mediaconnect_router_input} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_router_input awscc_mediaconnect_router_input} Resource.
 func NewMediaconnectRouterInput(scope constructs.Construct, id *string, config *MediaconnectRouterInputConfig) MediaconnectRouterInput {
 	_init_.Initialize()
 
@@ -742,7 +742,7 @@ func NewMediaconnectRouterInput(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_router_input awscc_mediaconnect_router_input} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/mediaconnect_router_input awscc_mediaconnect_router_input} Resource.
 func NewMediaconnectRouterInput_Override(m MediaconnectRouterInput, scope constructs.Construct, id *string, config *MediaconnectRouterInputConfig) {
 	_init_.Initialize()
 

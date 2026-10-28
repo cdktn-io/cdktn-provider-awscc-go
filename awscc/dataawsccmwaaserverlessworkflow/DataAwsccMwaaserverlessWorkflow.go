@@ -5,14 +5,14 @@ package dataawsccmwaaserverlessworkflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmwaaserverlessworkflow/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmwaaserverlessworkflow/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mwaaserverless_workflow awscc_mwaaserverless_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mwaaserverless_workflow awscc_mwaaserverless_workflow}.
 type DataAwsccMwaaserverlessWorkflow interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataAwsccMwaaserverlessWorkflow) WorkflowVersion() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mwaaserverless_workflow awscc_mwaaserverless_workflow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mwaaserverless_workflow awscc_mwaaserverless_workflow} Data Source.
 func NewDataAwsccMwaaserverlessWorkflow(scope constructs.Construct, id *string, config *DataAwsccMwaaserverlessWorkflowConfig) DataAwsccMwaaserverlessWorkflow {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataAwsccMwaaserverlessWorkflow(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mwaaserverless_workflow awscc_mwaaserverless_workflow} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mwaaserverless_workflow awscc_mwaaserverless_workflow} Data Source.
 func NewDataAwsccMwaaserverlessWorkflow_Override(d DataAwsccMwaaserverlessWorkflow, scope constructs.Construct, id *string, config *DataAwsccMwaaserverlessWorkflowConfig) {
 	_init_.Initialize()
 

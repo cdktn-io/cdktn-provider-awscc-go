@@ -5,14 +5,14 @@ package dataawsccmedialivecloudwatchalarmtemplates
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccmedialivecloudwatchalarmtemplates/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccmedialivecloudwatchalarmtemplates/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_cloudwatch_alarm_templates awscc_medialive_cloudwatch_alarm_templates}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_cloudwatch_alarm_templates awscc_medialive_cloudwatch_alarm_templates}.
 type DataAwsccMedialiveCloudwatchAlarmTemplates interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMedialiveCloudwatchAlarmTemplates) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_cloudwatch_alarm_templates awscc_medialive_cloudwatch_alarm_templates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_cloudwatch_alarm_templates awscc_medialive_cloudwatch_alarm_templates} Data Source.
 func NewDataAwsccMedialiveCloudwatchAlarmTemplates(scope constructs.Construct, id *string, config *DataAwsccMedialiveCloudwatchAlarmTemplatesConfig) DataAwsccMedialiveCloudwatchAlarmTemplates {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMedialiveCloudwatchAlarmTemplates(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/medialive_cloudwatch_alarm_templates awscc_medialive_cloudwatch_alarm_templates} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_cloudwatch_alarm_templates awscc_medialive_cloudwatch_alarm_templates} Data Source.
 func NewDataAwsccMedialiveCloudwatchAlarmTemplates_Override(d DataAwsccMedialiveCloudwatchAlarmTemplates, scope constructs.Construct, id *string, config *DataAwsccMedialiveCloudwatchAlarmTemplatesConfig) {
 	_init_.Initialize()
 

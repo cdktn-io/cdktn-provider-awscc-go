@@ -722,6 +722,65 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCount",
+		reflect.TypeOf((*DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCount)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList",
+		reflect.TypeOf((*DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference",
+		reflect.TypeOf((*DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lowerInclusive", GoGetter: "LowerInclusive"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "upperInclusive", GoGetter: "UpperInclusive"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataAwsccInspectorv2FilterFilterCriteriaEcrImageInUseCountOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-awscc.dataAwsccInspectorv2Filter.DataAwsccInspectorv2FilterFilterCriteriaEcrImagePushedAt",
 		reflect.TypeOf((*DataAwsccInspectorv2FilterFilterCriteriaEcrImagePushedAt)(nil)).Elem(),
 	)
@@ -1861,6 +1920,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ec2InstanceVpcId", GoGetter: "Ec2InstanceVpcId"},
 			_jsii_.MemberProperty{JsiiProperty: "ecrImageArchitecture", GoGetter: "EcrImageArchitecture"},
 			_jsii_.MemberProperty{JsiiProperty: "ecrImageHash", GoGetter: "EcrImageHash"},
+			_jsii_.MemberProperty{JsiiProperty: "ecrImageInUseCount", GoGetter: "EcrImageInUseCount"},
 			_jsii_.MemberProperty{JsiiProperty: "ecrImagePushedAt", GoGetter: "EcrImagePushedAt"},
 			_jsii_.MemberProperty{JsiiProperty: "ecrImageRegistry", GoGetter: "EcrImageRegistry"},
 			_jsii_.MemberProperty{JsiiProperty: "ecrImageRepositoryName", GoGetter: "EcrImageRepositoryName"},

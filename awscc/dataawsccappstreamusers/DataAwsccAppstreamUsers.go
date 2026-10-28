@@ -5,14 +5,14 @@ package dataawsccappstreamusers
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappstreamusers/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappstreamusers/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_users awscc_appstream_users}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_users awscc_appstream_users}.
 type DataAwsccAppstreamUsers interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccAppstreamUsers) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_users awscc_appstream_users} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_users awscc_appstream_users} Data Source.
 func NewDataAwsccAppstreamUsers(scope constructs.Construct, id *string, config *DataAwsccAppstreamUsersConfig) DataAwsccAppstreamUsers {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccAppstreamUsers(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appstream_users awscc_appstream_users} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_users awscc_appstream_users} Data Source.
 func NewDataAwsccAppstreamUsers_Override(d DataAwsccAppstreamUsers, scope constructs.Construct, id *string, config *DataAwsccAppstreamUsersConfig) {
 	_init_.Initialize()
 

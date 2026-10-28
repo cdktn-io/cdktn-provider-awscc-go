@@ -5,14 +5,14 @@ package dataawsccappsyncdomainnameapiassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappsyncdomainnameapiassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappsyncdomainnameapiassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_domain_name_api_association awscc_appsync_domain_name_api_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_domain_name_api_association awscc_appsync_domain_name_api_association}.
 type DataAwsccAppsyncDomainNameApiAssociation interface {
 	cdktn.TerraformDataSource
 	ApiAssociationIdentifier() *string
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccAppsyncDomainNameApiAssociation) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_domain_name_api_association awscc_appsync_domain_name_api_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_domain_name_api_association awscc_appsync_domain_name_api_association} Data Source.
 func NewDataAwsccAppsyncDomainNameApiAssociation(scope constructs.Construct, id *string, config *DataAwsccAppsyncDomainNameApiAssociationConfig) DataAwsccAppsyncDomainNameApiAssociation {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccAppsyncDomainNameApiAssociation(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appsync_domain_name_api_association awscc_appsync_domain_name_api_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appsync_domain_name_api_association awscc_appsync_domain_name_api_association} Data Source.
 func NewDataAwsccAppsyncDomainNameApiAssociation_Override(d DataAwsccAppsyncDomainNameApiAssociation, scope constructs.Construct, id *string, config *DataAwsccAppsyncDomainNameApiAssociationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccvoiceiddomains
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccvoiceiddomains/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccvoiceiddomains/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/voiceid_domains awscc_voiceid_domains}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/voiceid_domains awscc_voiceid_domains}.
 type DataAwsccVoiceidDomains interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccVoiceidDomains) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/voiceid_domains awscc_voiceid_domains} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/voiceid_domains awscc_voiceid_domains} Data Source.
 func NewDataAwsccVoiceidDomains(scope constructs.Construct, id *string, config *DataAwsccVoiceidDomainsConfig) DataAwsccVoiceidDomains {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccVoiceidDomains(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/voiceid_domains awscc_voiceid_domains} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/voiceid_domains awscc_voiceid_domains} Data Source.
 func NewDataAwsccVoiceidDomains_Override(d DataAwsccVoiceidDomains, scope constructs.Construct, id *string, config *DataAwsccVoiceidDomainsConfig) {
 	_init_.Initialize()
 

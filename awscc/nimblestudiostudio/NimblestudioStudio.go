@@ -5,14 +5,14 @@ package nimblestudiostudio
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/nimblestudiostudio/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/nimblestudiostudio/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/nimblestudio_studio awscc_nimblestudio_studio}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/nimblestudio_studio awscc_nimblestudio_studio}.
 type NimblestudioStudio interface {
 	cdktn.TerraformResource
 	AdminRoleArn() *string
@@ -539,7 +539,7 @@ func (j *jsiiProxy_NimblestudioStudio) UserRoleArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/nimblestudio_studio awscc_nimblestudio_studio} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/nimblestudio_studio awscc_nimblestudio_studio} Resource.
 func NewNimblestudioStudio(scope constructs.Construct, id *string, config *NimblestudioStudioConfig) NimblestudioStudio {
 	_init_.Initialize()
 
@@ -557,7 +557,7 @@ func NewNimblestudioStudio(scope constructs.Construct, id *string, config *Nimbl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/nimblestudio_studio awscc_nimblestudio_studio} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/nimblestudio_studio awscc_nimblestudio_studio} Resource.
 func NewNimblestudioStudio_Override(n NimblestudioStudio, scope constructs.Construct, id *string, config *NimblestudioStudioConfig) {
 	_init_.Initialize()
 

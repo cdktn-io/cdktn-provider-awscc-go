@@ -5,14 +5,14 @@ package ec2verifiedaccessgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2verifiedaccessgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2verifiedaccessgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_group awscc_ec2_verified_access_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_group awscc_ec2_verified_access_group}.
 type Ec2VerifiedAccessGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -553,7 +553,7 @@ func (j *jsiiProxy_Ec2VerifiedAccessGroup) VerifiedAccessInstanceIdInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_group awscc_ec2_verified_access_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_group awscc_ec2_verified_access_group} Resource.
 func NewEc2VerifiedAccessGroup(scope constructs.Construct, id *string, config *Ec2VerifiedAccessGroupConfig) Ec2VerifiedAccessGroup {
 	_init_.Initialize()
 
@@ -571,7 +571,7 @@ func NewEc2VerifiedAccessGroup(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_verified_access_group awscc_ec2_verified_access_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_verified_access_group awscc_ec2_verified_access_group} Resource.
 func NewEc2VerifiedAccessGroup_Override(e Ec2VerifiedAccessGroup, scope constructs.Construct, id *string, config *Ec2VerifiedAccessGroupConfig) {
 	_init_.Initialize()
 

@@ -7,11 +7,11 @@ package quicksightbrand
 type QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyle struct {
 	// The palette colors.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#contextual_navbar QuicksightBrand#contextual_navbar}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#contextual_navbar QuicksightBrand#contextual_navbar}
 	ContextualNavbar *QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleContextualNavbar `field:"optional" json:"contextualNavbar" yaml:"contextualNavbar"`
 	// The palette colors.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/quicksight_brand#global_navbar QuicksightBrand#global_navbar}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand#global_navbar QuicksightBrand#global_navbar}
 	GlobalNavbar *QuicksightBrandBrandDefinitionApplicationThemeBrandElementStyleNavbarStyleGlobalNavbar `field:"optional" json:"globalNavbar" yaml:"globalNavbar"`
 }
 

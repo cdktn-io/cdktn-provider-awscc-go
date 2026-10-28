@@ -5,14 +5,14 @@ package dataawsccquicksighttopicv2
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksighttopicv2/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksighttopicv2/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_topic_v2 awscc_quicksight_topic_v2}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_topic_v2 awscc_quicksight_topic_v2}.
 type DataAwsccQuicksightTopicV2 interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccQuicksightTopicV2) TopicId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_topic_v2 awscc_quicksight_topic_v2} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_topic_v2 awscc_quicksight_topic_v2} Data Source.
 func NewDataAwsccQuicksightTopicV2(scope constructs.Construct, id *string, config *DataAwsccQuicksightTopicV2Config) DataAwsccQuicksightTopicV2 {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccQuicksightTopicV2(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_topic_v2 awscc_quicksight_topic_v2} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_topic_v2 awscc_quicksight_topic_v2} Data Source.
 func NewDataAwsccQuicksightTopicV2_Override(d DataAwsccQuicksightTopicV2, scope constructs.Construct, id *string, config *DataAwsccQuicksightTopicV2Config) {
 	_init_.Initialize()
 

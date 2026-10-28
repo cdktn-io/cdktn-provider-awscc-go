@@ -5,14 +5,14 @@ package personalizecampaign
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizecampaign/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizecampaign/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign awscc_personalize_campaign}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_campaign awscc_personalize_campaign}.
 type PersonalizeCampaign interface {
 	cdktn.TerraformResource
 	CampaignArn() *string
@@ -517,7 +517,7 @@ func (j *jsiiProxy_PersonalizeCampaign) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign awscc_personalize_campaign} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_campaign awscc_personalize_campaign} Resource.
 func NewPersonalizeCampaign(scope constructs.Construct, id *string, config *PersonalizeCampaignConfig) PersonalizeCampaign {
 	_init_.Initialize()
 
@@ -535,7 +535,7 @@ func NewPersonalizeCampaign(scope constructs.Construct, id *string, config *Pers
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign awscc_personalize_campaign} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_campaign awscc_personalize_campaign} Resource.
 func NewPersonalizeCampaign_Override(p PersonalizeCampaign, scope constructs.Construct, id *string, config *PersonalizeCampaignConfig) {
 	_init_.Initialize()
 

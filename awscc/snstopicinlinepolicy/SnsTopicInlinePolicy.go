@@ -5,14 +5,14 @@ package snstopicinlinepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/snstopicinlinepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/snstopicinlinepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sns_topic_inline_policy awscc_sns_topic_inline_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sns_topic_inline_policy awscc_sns_topic_inline_policy}.
 type SnsTopicInlinePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_SnsTopicInlinePolicy) TopicArnInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sns_topic_inline_policy awscc_sns_topic_inline_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sns_topic_inline_policy awscc_sns_topic_inline_policy} Resource.
 func NewSnsTopicInlinePolicy(scope constructs.Construct, id *string, config *SnsTopicInlinePolicyConfig) SnsTopicInlinePolicy {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewSnsTopicInlinePolicy(scope constructs.Construct, id *string, config *Sns
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/sns_topic_inline_policy awscc_sns_topic_inline_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/sns_topic_inline_policy awscc_sns_topic_inline_policy} Resource.
 func NewSnsTopicInlinePolicy_Override(s SnsTopicInlinePolicy, scope constructs.Construct, id *string, config *SnsTopicInlinePolicyConfig) {
 	_init_.Initialize()
 

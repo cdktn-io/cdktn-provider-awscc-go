@@ -5,14 +5,14 @@ package dataawsccappconfigdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccappconfigdeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccappconfigdeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appconfig_deployment awscc_appconfig_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appconfig_deployment awscc_appconfig_deployment}.
 type DataAwsccAppconfigDeployment interface {
 	cdktn.TerraformDataSource
 	ApplicationId() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccAppconfigDeployment) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appconfig_deployment awscc_appconfig_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appconfig_deployment awscc_appconfig_deployment} Data Source.
 func NewDataAwsccAppconfigDeployment(scope constructs.Construct, id *string, config *DataAwsccAppconfigDeploymentConfig) DataAwsccAppconfigDeployment {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccAppconfigDeployment(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/appconfig_deployment awscc_appconfig_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appconfig_deployment awscc_appconfig_deployment} Data Source.
 func NewDataAwsccAppconfigDeployment_Override(d DataAwsccAppconfigDeployment, scope constructs.Construct, id *string, config *DataAwsccAppconfigDeploymentConfig) {
 	_init_.Initialize()
 

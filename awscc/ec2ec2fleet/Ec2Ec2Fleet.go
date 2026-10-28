@@ -5,14 +5,14 @@ package ec2ec2fleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ec2fleet/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ec2fleet/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ec2_fleet awscc_ec2_ec2_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ec2_fleet awscc_ec2_ec2_fleet}.
 type Ec2Ec2Fleet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -676,7 +676,7 @@ func (j *jsiiProxy_Ec2Ec2Fleet) ValidUntilInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ec2_fleet awscc_ec2_ec2_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ec2_fleet awscc_ec2_ec2_fleet} Resource.
 func NewEc2Ec2Fleet(scope constructs.Construct, id *string, config *Ec2Ec2FleetConfig) Ec2Ec2Fleet {
 	_init_.Initialize()
 
@@ -694,7 +694,7 @@ func NewEc2Ec2Fleet(scope constructs.Construct, id *string, config *Ec2Ec2FleetC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_ec2_fleet awscc_ec2_ec2_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ec2_fleet awscc_ec2_ec2_fleet} Resource.
 func NewEc2Ec2Fleet_Override(e Ec2Ec2Fleet, scope constructs.Construct, id *string, config *Ec2Ec2FleetConfig) {
 	_init_.Initialize()
 

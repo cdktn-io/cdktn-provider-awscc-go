@@ -5,14 +5,14 @@ package personalizefilter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/personalizefilter/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/personalizefilter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_filter awscc_personalize_filter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_filter awscc_personalize_filter}.
 type PersonalizeFilter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -492,7 +492,7 @@ func (j *jsiiProxy_PersonalizeFilter) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_filter awscc_personalize_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_filter awscc_personalize_filter} Resource.
 func NewPersonalizeFilter(scope constructs.Construct, id *string, config *PersonalizeFilterConfig) PersonalizeFilter {
 	_init_.Initialize()
 
@@ -510,7 +510,7 @@ func NewPersonalizeFilter(scope constructs.Construct, id *string, config *Person
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_filter awscc_personalize_filter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/personalize_filter awscc_personalize_filter} Resource.
 func NewPersonalizeFilter_Override(p PersonalizeFilter, scope constructs.Construct, id *string, config *PersonalizeFilterConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccssmcontactsrotation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccssmcontactsrotation/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccssmcontactsrotation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssmcontacts_rotation awscc_ssmcontacts_rotation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssmcontacts_rotation awscc_ssmcontacts_rotation}.
 type DataAwsccSsmcontactsRotation interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccSsmcontactsRotation) TimeZoneId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssmcontacts_rotation awscc_ssmcontacts_rotation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssmcontacts_rotation awscc_ssmcontacts_rotation} Data Source.
 func NewDataAwsccSsmcontactsRotation(scope constructs.Construct, id *string, config *DataAwsccSsmcontactsRotationConfig) DataAwsccSsmcontactsRotation {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccSsmcontactsRotation(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ssmcontacts_rotation awscc_ssmcontacts_rotation} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ssmcontacts_rotation awscc_ssmcontacts_rotation} Data Source.
 func NewDataAwsccSsmcontactsRotation_Override(d DataAwsccSsmcontactsRotation, scope constructs.Construct, id *string, config *DataAwsccSsmcontactsRotationConfig) {
 	_init_.Initialize()
 

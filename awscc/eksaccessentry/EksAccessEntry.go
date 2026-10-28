@@ -5,14 +5,14 @@ package eksaccessentry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/eksaccessentry/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/eksaccessentry/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_access_entry awscc_eks_access_entry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_access_entry awscc_eks_access_entry}.
 type EksAccessEntry interface {
 	cdktn.TerraformResource
 	AccessEntryArn() *string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_EksAccessEntry) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_access_entry awscc_eks_access_entry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_access_entry awscc_eks_access_entry} Resource.
 func NewEksAccessEntry(scope constructs.Construct, id *string, config *EksAccessEntryConfig) EksAccessEntry {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewEksAccessEntry(scope constructs.Construct, id *string, config *EksAccess
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/eks_access_entry awscc_eks_access_entry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/eks_access_entry awscc_eks_access_entry} Resource.
 func NewEksAccessEntry_Override(e EksAccessEntry, scope constructs.Construct, id *string, config *EksAccessEntryConfig) {
 	_init_.Initialize()
 

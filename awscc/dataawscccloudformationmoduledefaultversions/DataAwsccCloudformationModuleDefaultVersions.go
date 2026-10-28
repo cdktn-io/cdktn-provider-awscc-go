@@ -5,14 +5,14 @@ package dataawscccloudformationmoduledefaultversions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccloudformationmoduledefaultversions/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccloudformationmoduledefaultversions/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudformation_module_default_versions awscc_cloudformation_module_default_versions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudformation_module_default_versions awscc_cloudformation_module_default_versions}.
 type DataAwsccCloudformationModuleDefaultVersions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccCloudformationModuleDefaultVersions) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudformation_module_default_versions awscc_cloudformation_module_default_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudformation_module_default_versions awscc_cloudformation_module_default_versions} Data Source.
 func NewDataAwsccCloudformationModuleDefaultVersions(scope constructs.Construct, id *string, config *DataAwsccCloudformationModuleDefaultVersionsConfig) DataAwsccCloudformationModuleDefaultVersions {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccCloudformationModuleDefaultVersions(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudformation_module_default_versions awscc_cloudformation_module_default_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudformation_module_default_versions awscc_cloudformation_module_default_versions} Data Source.
 func NewDataAwsccCloudformationModuleDefaultVersions_Override(d DataAwsccCloudformationModuleDefaultVersions, scope constructs.Construct, id *string, config *DataAwsccCloudformationModuleDefaultVersionsConfig) {
 	_init_.Initialize()
 

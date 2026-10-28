@@ -5,14 +5,14 @@ package dataawsccapigatewaymethod
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccapigatewaymethod/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccapigatewaymethod/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_method awscc_apigateway_method}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_method awscc_apigateway_method}.
 type DataAwsccApigatewayMethod interface {
 	cdktn.TerraformDataSource
 	ApiKeyRequired() cdktn.IResolvable
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccApigatewayMethod) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_method awscc_apigateway_method} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_method awscc_apigateway_method} Data Source.
 func NewDataAwsccApigatewayMethod(scope constructs.Construct, id *string, config *DataAwsccApigatewayMethodConfig) DataAwsccApigatewayMethod {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccApigatewayMethod(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/apigateway_method awscc_apigateway_method} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/apigateway_method awscc_apigateway_method} Data Source.
 func NewDataAwsccApigatewayMethod_Override(d DataAwsccApigatewayMethod, scope constructs.Construct, id *string, config *DataAwsccApigatewayMethodConfig) {
 	_init_.Initialize()
 

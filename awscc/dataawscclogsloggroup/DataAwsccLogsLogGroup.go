@@ -5,14 +5,14 @@ package dataawscclogsloggroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclogsloggroup/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclogsloggroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_log_group awscc_logs_log_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_log_group awscc_logs_log_group}.
 type DataAwsccLogsLogGroup interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccLogsLogGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_log_group awscc_logs_log_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_log_group awscc_logs_log_group} Data Source.
 func NewDataAwsccLogsLogGroup(scope constructs.Construct, id *string, config *DataAwsccLogsLogGroupConfig) DataAwsccLogsLogGroup {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccLogsLogGroup(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/logs_log_group awscc_logs_log_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/logs_log_group awscc_logs_log_group} Data Source.
 func NewDataAwsccLogsLogGroup_Override(d DataAwsccLogsLogGroup, scope constructs.Construct, id *string, config *DataAwsccLogsLogGroupConfig) {
 	_init_.Initialize()
 

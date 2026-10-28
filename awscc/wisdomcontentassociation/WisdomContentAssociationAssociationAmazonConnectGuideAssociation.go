@@ -5,7 +5,7 @@ package wisdomcontentassociation
 
 
 type WisdomContentAssociationAssociationAmazonConnectGuideAssociation struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wisdom_content_association#flow_id WisdomContentAssociation#flow_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wisdom_content_association#flow_id WisdomContentAssociation#flow_id}.
 	FlowId *string `field:"optional" json:"flowId" yaml:"flowId"`
 }
 

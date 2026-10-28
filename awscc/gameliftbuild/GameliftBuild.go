@@ -5,14 +5,14 @@ package gameliftbuild
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/gameliftbuild/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/gameliftbuild/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_build awscc_gamelift_build}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_build awscc_gamelift_build}.
 type GameliftBuild interface {
 	cdktn.TerraformResource
 	BuildArn() *string
@@ -521,7 +521,7 @@ func (j *jsiiProxy_GameliftBuild) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_build awscc_gamelift_build} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_build awscc_gamelift_build} Resource.
 func NewGameliftBuild(scope constructs.Construct, id *string, config *GameliftBuildConfig) GameliftBuild {
 	_init_.Initialize()
 
@@ -539,7 +539,7 @@ func NewGameliftBuild(scope constructs.Construct, id *string, config *GameliftBu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/gamelift_build awscc_gamelift_build} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/gamelift_build awscc_gamelift_build} Resource.
 func NewGameliftBuild_Override(g GameliftBuild, scope constructs.Construct, id *string, config *GameliftBuildConfig) {
 	_init_.Initialize()
 

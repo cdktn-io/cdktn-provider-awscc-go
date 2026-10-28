@@ -215,6 +215,17 @@ func (c *jsiiProxy_CloudwatchLogAlarm) validateOverrideLogicalIdParameters(newLo
 	return nil
 }
 
+func (c *jsiiProxy_CloudwatchLogAlarm) validatePutActionConfigurationParameters(value *CloudwatchLogAlarmActionConfiguration) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_CloudwatchLogAlarm) validatePutScheduledQueryConfigurationParameters(value *CloudwatchLogAlarmScheduledQueryConfiguration) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

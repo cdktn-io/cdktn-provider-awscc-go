@@ -5,14 +5,14 @@ package batchquotashare
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/batchquotashare/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/batchquotashare/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_quota_share awscc_batch_quota_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_quota_share awscc_batch_quota_share}.
 type BatchQuotaShare interface {
 	cdktn.TerraformResource
 	CapacityLimits() BatchQuotaShareCapacityLimitsList
@@ -529,7 +529,7 @@ func (j *jsiiProxy_BatchQuotaShare) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_quota_share awscc_batch_quota_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_quota_share awscc_batch_quota_share} Resource.
 func NewBatchQuotaShare(scope constructs.Construct, id *string, config *BatchQuotaShareConfig) BatchQuotaShare {
 	_init_.Initialize()
 
@@ -547,7 +547,7 @@ func NewBatchQuotaShare(scope constructs.Construct, id *string, config *BatchQuo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/batch_quota_share awscc_batch_quota_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/batch_quota_share awscc_batch_quota_share} Resource.
 func NewBatchQuotaShare_Override(b BatchQuotaShare, scope constructs.Construct, id *string, config *BatchQuotaShareConfig) {
 	_init_.Initialize()
 

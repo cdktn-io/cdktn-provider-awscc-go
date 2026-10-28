@@ -5,14 +5,14 @@ package emrstep
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrstep/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrstep/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_step awscc_emr_step}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_step awscc_emr_step}.
 type EmrStep interface {
 	cdktn.TerraformResource
 	ActionOnFailure() *string
@@ -506,7 +506,7 @@ func (j *jsiiProxy_EmrStep) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_step awscc_emr_step} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_step awscc_emr_step} Resource.
 func NewEmrStep(scope constructs.Construct, id *string, config *EmrStepConfig) EmrStep {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewEmrStep(scope constructs.Construct, id *string, config *EmrStepConfig) E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_step awscc_emr_step} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_step awscc_emr_step} Resource.
 func NewEmrStep_Override(e EmrStep, scope constructs.Construct, id *string, config *EmrStepConfig) {
 	_init_.Initialize()
 

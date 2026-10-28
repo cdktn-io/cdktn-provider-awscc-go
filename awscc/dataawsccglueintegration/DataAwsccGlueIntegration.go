@@ -5,14 +5,14 @@ package dataawsccglueintegration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccglueintegration/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccglueintegration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_integration awscc_glue_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_integration awscc_glue_integration}.
 type DataAwsccGlueIntegration interface {
 	cdktn.TerraformDataSource
 	AdditionalEncryptionContext() cdktn.StringMap
@@ -418,7 +418,7 @@ func (j *jsiiProxy_DataAwsccGlueIntegration) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_integration awscc_glue_integration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_integration awscc_glue_integration} Data Source.
 func NewDataAwsccGlueIntegration(scope constructs.Construct, id *string, config *DataAwsccGlueIntegrationConfig) DataAwsccGlueIntegration {
 	_init_.Initialize()
 
@@ -436,7 +436,7 @@ func NewDataAwsccGlueIntegration(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/glue_integration awscc_glue_integration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/glue_integration awscc_glue_integration} Data Source.
 func NewDataAwsccGlueIntegration_Override(d DataAwsccGlueIntegration, scope constructs.Construct, id *string, config *DataAwsccGlueIntegrationConfig) {
 	_init_.Initialize()
 

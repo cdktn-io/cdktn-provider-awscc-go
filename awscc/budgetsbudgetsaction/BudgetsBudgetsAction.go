@@ -5,14 +5,14 @@ package budgetsbudgetsaction
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/budgetsbudgetsaction/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/budgetsbudgetsaction/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/budgets_budgets_action awscc_budgets_budgets_action}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/budgets_budgets_action awscc_budgets_budgets_action}.
 type BudgetsBudgetsAction interface {
 	cdktn.TerraformResource
 	ActionId() *string
@@ -575,7 +575,7 @@ func (j *jsiiProxy_BudgetsBudgetsAction) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/budgets_budgets_action awscc_budgets_budgets_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/budgets_budgets_action awscc_budgets_budgets_action} Resource.
 func NewBudgetsBudgetsAction(scope constructs.Construct, id *string, config *BudgetsBudgetsActionConfig) BudgetsBudgetsAction {
 	_init_.Initialize()
 
@@ -593,7 +593,7 @@ func NewBudgetsBudgetsAction(scope constructs.Construct, id *string, config *Bud
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/budgets_budgets_action awscc_budgets_budgets_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/budgets_budgets_action awscc_budgets_budgets_action} Resource.
 func NewBudgetsBudgetsAction_Override(b BudgetsBudgetsAction, scope constructs.Construct, id *string, config *BudgetsBudgetsActionConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawsccsmsvoiceresourcepolicies
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsmsvoiceresourcepolicies/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccsmsvoiceresourcepolicies/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_resource_policies awscc_smsvoice_resource_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_resource_policies awscc_smsvoice_resource_policies}.
 type DataAwsccSmsvoiceResourcePolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSmsvoiceResourcePolicies) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_resource_policies awscc_smsvoice_resource_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_resource_policies awscc_smsvoice_resource_policies} Data Source.
 func NewDataAwsccSmsvoiceResourcePolicies(scope constructs.Construct, id *string, config *DataAwsccSmsvoiceResourcePoliciesConfig) DataAwsccSmsvoiceResourcePolicies {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSmsvoiceResourcePolicies(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_resource_policies awscc_smsvoice_resource_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/smsvoice_resource_policies awscc_smsvoice_resource_policies} Data Source.
 func NewDataAwsccSmsvoiceResourcePolicies_Override(d DataAwsccSmsvoiceResourcePolicies, scope constructs.Construct, id *string, config *DataAwsccSmsvoiceResourcePoliciesConfig) {
 	_init_.Initialize()
 

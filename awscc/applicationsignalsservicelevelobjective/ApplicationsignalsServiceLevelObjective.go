@@ -5,14 +5,14 @@ package applicationsignalsservicelevelobjective
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/applicationsignalsservicelevelobjective/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/applicationsignalsservicelevelobjective/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective awscc_applicationsignals_service_level_objective}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective awscc_applicationsignals_service_level_objective}.
 type ApplicationsignalsServiceLevelObjective interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -590,7 +590,7 @@ func (j *jsiiProxy_ApplicationsignalsServiceLevelObjective) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective awscc_applicationsignals_service_level_objective} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective awscc_applicationsignals_service_level_objective} Resource.
 func NewApplicationsignalsServiceLevelObjective(scope constructs.Construct, id *string, config *ApplicationsignalsServiceLevelObjectiveConfig) ApplicationsignalsServiceLevelObjective {
 	_init_.Initialize()
 
@@ -608,7 +608,7 @@ func NewApplicationsignalsServiceLevelObjective(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/applicationsignals_service_level_objective awscc_applicationsignals_service_level_objective} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/applicationsignals_service_level_objective awscc_applicationsignals_service_level_objective} Resource.
 func NewApplicationsignalsServiceLevelObjective_Override(a ApplicationsignalsServiceLevelObjective, scope constructs.Construct, id *string, config *ApplicationsignalsServiceLevelObjectiveConfig) {
 	_init_.Initialize()
 

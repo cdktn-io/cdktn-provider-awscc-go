@@ -5,14 +5,14 @@ package ec2ipv4pool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/ec2ipv4pool/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/ec2ipv4pool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_i_pv_4_pool awscc_ec2_i_pv_4_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_i_pv_4_pool awscc_ec2_i_pv_4_pool}.
 type Ec2IPv4Pool interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -445,7 +445,7 @@ func (j *jsiiProxy_Ec2IPv4Pool) TotalAvailableAddressCount() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_i_pv_4_pool awscc_ec2_i_pv_4_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_i_pv_4_pool awscc_ec2_i_pv_4_pool} Resource.
 func NewEc2IPv4Pool(scope constructs.Construct, id *string, config *Ec2IPv4PoolConfig) Ec2IPv4Pool {
 	_init_.Initialize()
 
@@ -463,7 +463,7 @@ func NewEc2IPv4Pool(scope constructs.Construct, id *string, config *Ec2IPv4PoolC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_i_pv_4_pool awscc_ec2_i_pv_4_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_i_pv_4_pool awscc_ec2_i_pv_4_pool} Resource.
 func NewEc2IPv4Pool_Override(e Ec2IPv4Pool, scope constructs.Construct, id *string, config *Ec2IPv4PoolConfig) {
 	_init_.Initialize()
 

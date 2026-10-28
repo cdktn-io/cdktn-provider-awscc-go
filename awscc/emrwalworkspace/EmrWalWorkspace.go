@@ -5,14 +5,14 @@ package emrwalworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/emrwalworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/emrwalworkspace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_wal_workspace awscc_emr_wal_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_wal_workspace awscc_emr_wal_workspace}.
 type EmrWalWorkspace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_EmrWalWorkspace) WalWorkspaceNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_wal_workspace awscc_emr_wal_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_wal_workspace awscc_emr_wal_workspace} Resource.
 func NewEmrWalWorkspace(scope constructs.Construct, id *string, config *EmrWalWorkspaceConfig) EmrWalWorkspace {
 	_init_.Initialize()
 
@@ -421,7 +421,7 @@ func NewEmrWalWorkspace(scope constructs.Construct, id *string, config *EmrWalWo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/emr_wal_workspace awscc_emr_wal_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/emr_wal_workspace awscc_emr_wal_workspace} Resource.
 func NewEmrWalWorkspace_Override(e EmrWalWorkspace, scope constructs.Construct, id *string, config *EmrWalWorkspaceConfig) {
 	_init_.Initialize()
 

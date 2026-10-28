@@ -1,3 +1,3 @@
 # `awscc_deadline_metered_product`
 
-Refer to the Terraform Registry for docs: [`awscc_deadline_metered_product`](https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_metered_product).
+Refer to the Terraform Registry for docs: [`awscc_deadline_metered_product`](https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_metered_product).

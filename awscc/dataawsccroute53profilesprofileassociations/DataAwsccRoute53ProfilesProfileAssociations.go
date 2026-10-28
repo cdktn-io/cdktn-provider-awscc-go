@@ -5,14 +5,14 @@ package dataawsccroute53profilesprofileassociations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53profilesprofileassociations/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53profilesprofileassociations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53profiles_profile_associations awscc_route53profiles_profile_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53profiles_profile_associations awscc_route53profiles_profile_associations}.
 type DataAwsccRoute53ProfilesProfileAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccRoute53ProfilesProfileAssociations) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53profiles_profile_associations awscc_route53profiles_profile_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53profiles_profile_associations awscc_route53profiles_profile_associations} Data Source.
 func NewDataAwsccRoute53ProfilesProfileAssociations(scope constructs.Construct, id *string, config *DataAwsccRoute53ProfilesProfileAssociationsConfig) DataAwsccRoute53ProfilesProfileAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccRoute53ProfilesProfileAssociations(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53profiles_profile_associations awscc_route53profiles_profile_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53profiles_profile_associations awscc_route53profiles_profile_associations} Data Source.
 func NewDataAwsccRoute53ProfilesProfileAssociations_Override(d DataAwsccRoute53ProfilesProfileAssociations, scope constructs.Construct, id *string, config *DataAwsccRoute53ProfilesProfileAssociationsConfig) {
 	_init_.Initialize()
 

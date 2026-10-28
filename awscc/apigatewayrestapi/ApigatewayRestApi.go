@@ -5,14 +5,14 @@ package apigatewayrestapi
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/apigatewayrestapi/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/apigatewayrestapi/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_rest_api awscc_apigateway_rest_api}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_rest_api awscc_apigateway_rest_api}.
 type ApigatewayRestApi interface {
 	cdktn.TerraformResource
 	ApiKeySourceType() *string
@@ -809,7 +809,7 @@ func (j *jsiiProxy_ApigatewayRestApi) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_rest_api awscc_apigateway_rest_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_rest_api awscc_apigateway_rest_api} Resource.
 func NewApigatewayRestApi(scope constructs.Construct, id *string, config *ApigatewayRestApiConfig) ApigatewayRestApi {
 	_init_.Initialize()
 
@@ -827,7 +827,7 @@ func NewApigatewayRestApi(scope constructs.Construct, id *string, config *Apigat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/apigateway_rest_api awscc_apigateway_rest_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/apigateway_rest_api awscc_apigateway_rest_api} Resource.
 func NewApigatewayRestApi_Override(a ApigatewayRestApi, scope constructs.Construct, id *string, config *ApigatewayRestApiConfig) {
 	_init_.Initialize()
 

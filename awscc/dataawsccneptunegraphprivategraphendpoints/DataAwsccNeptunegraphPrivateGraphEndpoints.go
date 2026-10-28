@@ -5,14 +5,14 @@ package dataawsccneptunegraphprivategraphendpoints
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccneptunegraphprivategraphendpoints/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccneptunegraphprivategraphendpoints/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/neptunegraph_private_graph_endpoints awscc_neptunegraph_private_graph_endpoints}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/neptunegraph_private_graph_endpoints awscc_neptunegraph_private_graph_endpoints}.
 type DataAwsccNeptunegraphPrivateGraphEndpoints interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccNeptunegraphPrivateGraphEndpoints) TerraformResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/neptunegraph_private_graph_endpoints awscc_neptunegraph_private_graph_endpoints} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/neptunegraph_private_graph_endpoints awscc_neptunegraph_private_graph_endpoints} Data Source.
 func NewDataAwsccNeptunegraphPrivateGraphEndpoints(scope constructs.Construct, id *string, config *DataAwsccNeptunegraphPrivateGraphEndpointsConfig) DataAwsccNeptunegraphPrivateGraphEndpoints {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccNeptunegraphPrivateGraphEndpoints(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/neptunegraph_private_graph_endpoints awscc_neptunegraph_private_graph_endpoints} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/neptunegraph_private_graph_endpoints awscc_neptunegraph_private_graph_endpoints} Data Source.
 func NewDataAwsccNeptunegraphPrivateGraphEndpoints_Override(d DataAwsccNeptunegraphPrivateGraphEndpoints, scope constructs.Construct, id *string, config *DataAwsccNeptunegraphPrivateGraphEndpointsConfig) {
 	_init_.Initialize()
 

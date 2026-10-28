@@ -191,6 +191,10 @@ func (j *jsiiProxy_DynamodbGlobalTable) validateSetTableNameParameters(val *stri
 	return nil
 }
 
+func (j *jsiiProxy_DynamodbGlobalTable) validateSetTableTypeParameters(val *string) error {
+	return nil
+}
+
 func validateNewDynamodbGlobalTableParameters(scope constructs.Construct, id *string, config *DynamodbGlobalTableConfig) error {
 	return nil
 }

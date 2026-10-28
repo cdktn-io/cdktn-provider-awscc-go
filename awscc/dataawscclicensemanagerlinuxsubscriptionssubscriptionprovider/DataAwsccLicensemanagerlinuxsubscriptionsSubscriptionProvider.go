@@ -5,14 +5,14 @@ package dataawscclicensemanagerlinuxsubscriptionssubscriptionprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclicensemanagerlinuxsubscriptionssubscriptionprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclicensemanagerlinuxsubscriptionssubscriptionprovider/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/licensemanagerlinuxsubscriptions_subscription_provider awscc_licensemanagerlinuxsubscriptions_subscription_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanagerlinuxsubscriptions_subscription_provider awscc_licensemanagerlinuxsubscriptions_subscription_provider}.
 type DataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProvider interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProvider
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/licensemanagerlinuxsubscriptions_subscription_provider awscc_licensemanagerlinuxsubscriptions_subscription_provider} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanagerlinuxsubscriptions_subscription_provider awscc_licensemanagerlinuxsubscriptions_subscription_provider} Data Source.
 func NewDataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProvider(scope constructs.Construct, id *string, config *DataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviderConfig) DataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProvider {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProvider(scope cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/licensemanagerlinuxsubscriptions_subscription_provider awscc_licensemanagerlinuxsubscriptions_subscription_provider} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanagerlinuxsubscriptions_subscription_provider awscc_licensemanagerlinuxsubscriptions_subscription_provider} Data Source.
 func NewDataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProvider_Override(d DataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProvider, scope constructs.Construct, id *string, config *DataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviderConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataawscceventsendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscceventsendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscceventsendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_endpoint awscc_events_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_endpoint awscc_events_endpoint}.
 type DataAwsccEventsEndpoint interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccEventsEndpoint) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_endpoint awscc_events_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_endpoint awscc_events_endpoint} Data Source.
 func NewDataAwsccEventsEndpoint(scope constructs.Construct, id *string, config *DataAwsccEventsEndpointConfig) DataAwsccEventsEndpoint {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccEventsEndpoint(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/events_endpoint awscc_events_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/events_endpoint awscc_events_endpoint} Data Source.
 func NewDataAwsccEventsEndpoint_Override(d DataAwsccEventsEndpoint, scope constructs.Construct, id *string, config *DataAwsccEventsEndpointConfig) {
 	_init_.Initialize()
 

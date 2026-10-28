@@ -5,14 +5,14 @@ package s3filesaccesspoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/s3filesaccesspoint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/s3filesaccesspoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3files_access_point awscc_s3files_access_point}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3files_access_point awscc_s3files_access_point}.
 type S3FilesAccessPoint interface {
 	cdktn.TerraformResource
 	AccessPointArn() *string
@@ -518,7 +518,7 @@ func (j *jsiiProxy_S3FilesAccessPoint) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3files_access_point awscc_s3files_access_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3files_access_point awscc_s3files_access_point} Resource.
 func NewS3FilesAccessPoint(scope constructs.Construct, id *string, config *S3FilesAccessPointConfig) S3FilesAccessPoint {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewS3FilesAccessPoint(scope constructs.Construct, id *string, config *S3Fil
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3files_access_point awscc_s3files_access_point} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/s3files_access_point awscc_s3files_access_point} Resource.
 func NewS3FilesAccessPoint_Override(s S3FilesAccessPoint, scope constructs.Construct, id *string, config *S3FilesAccessPointConfig) {
 	_init_.Initialize()
 

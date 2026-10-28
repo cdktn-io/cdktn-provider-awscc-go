@@ -5,14 +5,14 @@ package bedrockknowledgebasepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/bedrockknowledgebasepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/bedrockknowledgebasepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base_policy awscc_bedrock_knowledge_base_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base_policy awscc_bedrock_knowledge_base_policy}.
 type BedrockKnowledgeBasePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -412,7 +412,7 @@ func (j *jsiiProxy_BedrockKnowledgeBasePolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base_policy awscc_bedrock_knowledge_base_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base_policy awscc_bedrock_knowledge_base_policy} Resource.
 func NewBedrockKnowledgeBasePolicy(scope constructs.Construct, id *string, config *BedrockKnowledgeBasePolicyConfig) BedrockKnowledgeBasePolicy {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewBedrockKnowledgeBasePolicy(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/bedrock_knowledge_base_policy awscc_bedrock_knowledge_base_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_knowledge_base_policy awscc_bedrock_knowledge_base_policy} Resource.
 func NewBedrockKnowledgeBasePolicy_Override(b BedrockKnowledgeBasePolicy, scope constructs.Construct, id *string, config *BedrockKnowledgeBasePolicyConfig) {
 	_init_.Initialize()
 

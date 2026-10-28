@@ -5,14 +5,14 @@ package datazoneenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datazoneenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/datazoneenvironment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_environment awscc_datazone_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_environment awscc_datazone_environment}.
 type DatazoneEnvironment interface {
 	cdktn.TerraformResource
 	AwsAccountId() *string
@@ -796,7 +796,7 @@ func (j *jsiiProxy_DatazoneEnvironment) UserParametersInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_environment awscc_datazone_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_environment awscc_datazone_environment} Resource.
 func NewDatazoneEnvironment(scope constructs.Construct, id *string, config *DatazoneEnvironmentConfig) DatazoneEnvironment {
 	_init_.Initialize()
 
@@ -814,7 +814,7 @@ func NewDatazoneEnvironment(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/datazone_environment awscc_datazone_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/datazone_environment awscc_datazone_environment} Resource.
 func NewDatazoneEnvironment_Override(d DatazoneEnvironment, scope constructs.Construct, id *string, config *DatazoneEnvironmentConfig) {
 	_init_.Initialize()
 

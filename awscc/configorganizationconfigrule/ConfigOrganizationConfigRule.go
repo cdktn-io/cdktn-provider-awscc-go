@@ -5,14 +5,14 @@ package configorganizationconfigrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/configorganizationconfigrule/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/configorganizationconfigrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_organization_config_rule awscc_config_organization_config_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_organization_config_rule awscc_config_organization_config_rule}.
 type ConfigOrganizationConfigRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -485,7 +485,7 @@ func (j *jsiiProxy_ConfigOrganizationConfigRule) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_organization_config_rule awscc_config_organization_config_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_organization_config_rule awscc_config_organization_config_rule} Resource.
 func NewConfigOrganizationConfigRule(scope constructs.Construct, id *string, config *ConfigOrganizationConfigRuleConfig) ConfigOrganizationConfigRule {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewConfigOrganizationConfigRule(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/config_organization_config_rule awscc_config_organization_config_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/config_organization_config_rule awscc_config_organization_config_rule} Resource.
 func NewConfigOrganizationConfigRule_Override(c ConfigOrganizationConfigRule, scope constructs.Construct, id *string, config *ConfigOrganizationConfigRuleConfig) {
 	_init_.Initialize()
 

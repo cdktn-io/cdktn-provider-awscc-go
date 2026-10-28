@@ -5,7 +5,7 @@ package deadlinefleet
 
 
 type DeadlineFleetConfigurationServiceManagedEc2InstanceCapabilitiesSoftwareAddOns struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/deadline_fleet#name DeadlineFleet#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/deadline_fleet#name DeadlineFleet#name}.
 	Name *string `field:"optional" json:"name" yaml:"name"`
 }
 

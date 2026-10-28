@@ -5,14 +5,14 @@ package dataawscccognitoidentitypool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscccognitoidentitypool/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscccognitoidentitypool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_identity_pool awscc_cognito_identity_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_identity_pool awscc_cognito_identity_pool}.
 type DataAwsccCognitoIdentityPool interface {
 	cdktn.TerraformDataSource
 	AllowClassicFlow() cdktn.IResolvable
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccCognitoIdentityPool) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_identity_pool awscc_cognito_identity_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_identity_pool awscc_cognito_identity_pool} Data Source.
 func NewDataAwsccCognitoIdentityPool(scope constructs.Construct, id *string, config *DataAwsccCognitoIdentityPoolConfig) DataAwsccCognitoIdentityPool {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccCognitoIdentityPool(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cognito_identity_pool awscc_cognito_identity_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cognito_identity_pool awscc_cognito_identity_pool} Data Source.
 func NewDataAwsccCognitoIdentityPool_Override(d DataAwsccCognitoIdentityPool, scope constructs.Construct, id *string, config *DataAwsccCognitoIdentityPoolConfig) {
 	_init_.Initialize()
 

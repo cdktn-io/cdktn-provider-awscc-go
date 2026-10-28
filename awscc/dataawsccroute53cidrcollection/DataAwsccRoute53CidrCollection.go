@@ -5,14 +5,14 @@ package dataawsccroute53cidrcollection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccroute53cidrcollection/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccroute53cidrcollection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_cidr_collection awscc_route53_cidr_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_cidr_collection awscc_route53_cidr_collection}.
 type DataAwsccRoute53CidrCollection interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -330,7 +330,7 @@ func (j *jsiiProxy_DataAwsccRoute53CidrCollection) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_cidr_collection awscc_route53_cidr_collection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_cidr_collection awscc_route53_cidr_collection} Data Source.
 func NewDataAwsccRoute53CidrCollection(scope constructs.Construct, id *string, config *DataAwsccRoute53CidrCollectionConfig) DataAwsccRoute53CidrCollection {
 	_init_.Initialize()
 
@@ -348,7 +348,7 @@ func NewDataAwsccRoute53CidrCollection(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/route53_cidr_collection awscc_route53_cidr_collection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/route53_cidr_collection awscc_route53_cidr_collection} Data Source.
 func NewDataAwsccRoute53CidrCollection_Override(d DataAwsccRoute53CidrCollection, scope constructs.Construct, id *string, config *DataAwsccRoute53CidrCollectionConfig) {
 	_init_.Initialize()
 

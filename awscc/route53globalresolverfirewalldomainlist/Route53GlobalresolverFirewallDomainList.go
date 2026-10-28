@@ -5,14 +5,14 @@ package route53globalresolverfirewalldomainlist
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/route53globalresolverfirewalldomainlist/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/route53globalresolverfirewalldomainlist/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53globalresolver_firewall_domain_list awscc_route53globalresolver_firewall_domain_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53globalresolver_firewall_domain_list awscc_route53globalresolver_firewall_domain_list}.
 type Route53GlobalresolverFirewallDomainList interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -598,7 +598,7 @@ func (j *jsiiProxy_Route53GlobalresolverFirewallDomainList) UpdatedAt() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53globalresolver_firewall_domain_list awscc_route53globalresolver_firewall_domain_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53globalresolver_firewall_domain_list awscc_route53globalresolver_firewall_domain_list} Resource.
 func NewRoute53GlobalresolverFirewallDomainList(scope constructs.Construct, id *string, config *Route53GlobalresolverFirewallDomainListConfig) Route53GlobalresolverFirewallDomainList {
 	_init_.Initialize()
 
@@ -616,7 +616,7 @@ func NewRoute53GlobalresolverFirewallDomainList(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/route53globalresolver_firewall_domain_list awscc_route53globalresolver_firewall_domain_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53globalresolver_firewall_domain_list awscc_route53globalresolver_firewall_domain_list} Resource.
 func NewRoute53GlobalresolverFirewallDomainList_Override(r Route53GlobalresolverFirewallDomainList, scope constructs.Construct, id *string, config *Route53GlobalresolverFirewallDomainListConfig) {
 	_init_.Initialize()
 

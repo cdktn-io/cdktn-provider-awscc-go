@@ -5,14 +5,14 @@ package backupbackupplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/backupbackupplan/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/backupbackupplan/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_plan awscc_backup_backup_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_plan awscc_backup_backup_plan}.
 type BackupBackupPlan interface {
 	cdktn.TerraformResource
 	BackupPlan() BackupBackupPlanBackupPlanOutputReference
@@ -435,7 +435,7 @@ func (j *jsiiProxy_BackupBackupPlan) VersionId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_plan awscc_backup_backup_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_plan awscc_backup_backup_plan} Resource.
 func NewBackupBackupPlan(scope constructs.Construct, id *string, config *BackupBackupPlanConfig) BackupBackupPlan {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewBackupBackupPlan(scope constructs.Construct, id *string, config *BackupB
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/backup_backup_plan awscc_backup_backup_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/backup_backup_plan awscc_backup_backup_plan} Resource.
 func NewBackupBackupPlan_Override(b BackupBackupPlan, scope constructs.Construct, id *string, config *BackupBackupPlanConfig) {
 	_init_.Initialize()
 

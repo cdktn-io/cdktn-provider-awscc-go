@@ -5,14 +5,14 @@ package codepipelinewebhook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/codepipelinewebhook/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/codepipelinewebhook/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_webhook awscc_codepipeline_webhook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_webhook awscc_codepipeline_webhook}.
 type CodepipelineWebhook interface {
 	cdktn.TerraformResource
 	Authentication() *string
@@ -588,7 +588,7 @@ func (j *jsiiProxy_CodepipelineWebhook) WebhookId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_webhook awscc_codepipeline_webhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_webhook awscc_codepipeline_webhook} Resource.
 func NewCodepipelineWebhook(scope constructs.Construct, id *string, config *CodepipelineWebhookConfig) CodepipelineWebhook {
 	_init_.Initialize()
 
@@ -606,7 +606,7 @@ func NewCodepipelineWebhook(scope constructs.Construct, id *string, config *Code
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/codepipeline_webhook awscc_codepipeline_webhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codepipeline_webhook awscc_codepipeline_webhook} Resource.
 func NewCodepipelineWebhook_Override(c CodepipelineWebhook, scope constructs.Construct, id *string, config *CodepipelineWebhookConfig) {
 	_init_.Initialize()
 

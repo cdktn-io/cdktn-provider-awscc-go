@@ -5,14 +5,14 @@ package servicecataloglaunchroleconstraint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicecataloglaunchroleconstraint/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicecataloglaunchroleconstraint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_role_constraint awscc_servicecatalog_launch_role_constraint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_role_constraint awscc_servicecatalog_launch_role_constraint}.
 type ServicecatalogLaunchRoleConstraint interface {
 	cdktn.TerraformResource
 	AcceptLanguage() *string
@@ -508,7 +508,7 @@ func (j *jsiiProxy_ServicecatalogLaunchRoleConstraint) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_role_constraint awscc_servicecatalog_launch_role_constraint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_role_constraint awscc_servicecatalog_launch_role_constraint} Resource.
 func NewServicecatalogLaunchRoleConstraint(scope constructs.Construct, id *string, config *ServicecatalogLaunchRoleConstraintConfig) ServicecatalogLaunchRoleConstraint {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewServicecatalogLaunchRoleConstraint(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicecatalog_launch_role_constraint awscc_servicecatalog_launch_role_constraint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicecatalog_launch_role_constraint awscc_servicecatalog_launch_role_constraint} Resource.
 func NewServicecatalogLaunchRoleConstraint_Override(s ServicecatalogLaunchRoleConstraint, scope constructs.Construct, id *string, config *ServicecatalogLaunchRoleConstraintConfig) {
 	_init_.Initialize()
 

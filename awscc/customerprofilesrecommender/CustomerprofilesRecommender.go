@@ -5,14 +5,14 @@ package customerprofilesrecommender
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/customerprofilesrecommender/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/customerprofilesrecommender/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_recommender awscc_customerprofiles_recommender}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_recommender awscc_customerprofiles_recommender}.
 type CustomerprofilesRecommender interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -573,7 +573,7 @@ func (j *jsiiProxy_CustomerprofilesRecommender) TrainingMetrics() Customerprofil
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_recommender awscc_customerprofiles_recommender} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_recommender awscc_customerprofiles_recommender} Resource.
 func NewCustomerprofilesRecommender(scope constructs.Construct, id *string, config *CustomerprofilesRecommenderConfig) CustomerprofilesRecommender {
 	_init_.Initialize()
 
@@ -591,7 +591,7 @@ func NewCustomerprofilesRecommender(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/customerprofiles_recommender awscc_customerprofiles_recommender} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/customerprofiles_recommender awscc_customerprofiles_recommender} Resource.
 func NewCustomerprofilesRecommender_Override(c CustomerprofilesRecommender, scope constructs.Construct, id *string, config *CustomerprofilesRecommenderConfig) {
 	_init_.Initialize()
 

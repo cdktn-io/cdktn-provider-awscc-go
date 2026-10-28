@@ -5,14 +5,14 @@ package locationplaceindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/locationplaceindex/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/locationplaceindex/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_place_index awscc_location_place_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_place_index awscc_location_place_index}.
 type LocationPlaceIndex interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -541,7 +541,7 @@ func (j *jsiiProxy_LocationPlaceIndex) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_place_index awscc_location_place_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_place_index awscc_location_place_index} Resource.
 func NewLocationPlaceIndex(scope constructs.Construct, id *string, config *LocationPlaceIndexConfig) LocationPlaceIndex {
 	_init_.Initialize()
 
@@ -559,7 +559,7 @@ func NewLocationPlaceIndex(scope constructs.Construct, id *string, config *Locat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/location_place_index awscc_location_place_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/location_place_index awscc_location_place_index} Resource.
 func NewLocationPlaceIndex_Override(l LocationPlaceIndex, scope constructs.Construct, id *string, config *LocationPlaceIndexConfig) {
 	_init_.Initialize()
 

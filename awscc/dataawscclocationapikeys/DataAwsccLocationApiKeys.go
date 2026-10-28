@@ -5,14 +5,14 @@ package dataawscclocationapikeys
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawscclocationapikeys/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawscclocationapikeys/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_api_keys awscc_location_api_keys}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_api_keys awscc_location_api_keys}.
 type DataAwsccLocationApiKeys interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccLocationApiKeys) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_api_keys awscc_location_api_keys} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_api_keys awscc_location_api_keys} Data Source.
 func NewDataAwsccLocationApiKeys(scope constructs.Construct, id *string, config *DataAwsccLocationApiKeysConfig) DataAwsccLocationApiKeys {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccLocationApiKeys(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/location_api_keys awscc_location_api_keys} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/location_api_keys awscc_location_api_keys} Data Source.
 func NewDataAwsccLocationApiKeys_Override(d DataAwsccLocationApiKeys, scope constructs.Construct, id *string, config *DataAwsccLocationApiKeysConfig) {
 	_init_.Initialize()
 

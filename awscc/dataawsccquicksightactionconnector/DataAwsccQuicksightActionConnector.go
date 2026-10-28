@@ -5,14 +5,14 @@ package dataawsccquicksightactionconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccquicksightactionconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccquicksightactionconnector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_action_connector awscc_quicksight_action_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_action_connector awscc_quicksight_action_connector}.
 type DataAwsccQuicksightActionConnector interface {
 	cdktn.TerraformDataSource
 	ActionConnectorId() *string
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccQuicksightActionConnector) VpcConnectionArn() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_action_connector awscc_quicksight_action_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_action_connector awscc_quicksight_action_connector} Data Source.
 func NewDataAwsccQuicksightActionConnector(scope constructs.Construct, id *string, config *DataAwsccQuicksightActionConnectorConfig) DataAwsccQuicksightActionConnector {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccQuicksightActionConnector(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_action_connector awscc_quicksight_action_connector} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_action_connector awscc_quicksight_action_connector} Data Source.
 func NewDataAwsccQuicksightActionConnector_Override(d DataAwsccQuicksightActionConnector, scope constructs.Construct, id *string, config *DataAwsccQuicksightActionConnectorConfig) {
 	_init_.Initialize()
 

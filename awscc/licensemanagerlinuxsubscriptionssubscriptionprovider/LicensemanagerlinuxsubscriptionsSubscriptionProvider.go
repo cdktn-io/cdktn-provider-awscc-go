@@ -5,14 +5,14 @@ package licensemanagerlinuxsubscriptionssubscriptionprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/licensemanagerlinuxsubscriptionssubscriptionprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/licensemanagerlinuxsubscriptionssubscriptionprovider/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider awscc_licensemanagerlinuxsubscriptions_subscription_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider awscc_licensemanagerlinuxsubscriptions_subscription_provider}.
 type LicensemanagerlinuxsubscriptionsSubscriptionProvider interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -469,7 +469,7 @@ func (j *jsiiProxy_LicensemanagerlinuxsubscriptionsSubscriptionProvider) Terrafo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider awscc_licensemanagerlinuxsubscriptions_subscription_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider awscc_licensemanagerlinuxsubscriptions_subscription_provider} Resource.
 func NewLicensemanagerlinuxsubscriptionsSubscriptionProvider(scope constructs.Construct, id *string, config *LicensemanagerlinuxsubscriptionsSubscriptionProviderConfig) LicensemanagerlinuxsubscriptionsSubscriptionProvider {
 	_init_.Initialize()
 
@@ -487,7 +487,7 @@ func NewLicensemanagerlinuxsubscriptionsSubscriptionProvider(scope constructs.Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider awscc_licensemanagerlinuxsubscriptions_subscription_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerlinuxsubscriptions_subscription_provider awscc_licensemanagerlinuxsubscriptions_subscription_provider} Resource.
 func NewLicensemanagerlinuxsubscriptionsSubscriptionProvider_Override(l LicensemanagerlinuxsubscriptionsSubscriptionProvider, scope constructs.Construct, id *string, config *LicensemanagerlinuxsubscriptionsSubscriptionProviderConfig) {
 	_init_.Initialize()
 

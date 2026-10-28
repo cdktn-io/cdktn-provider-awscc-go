@@ -5,14 +5,14 @@ package wellarchitectedworkload
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/wellarchitectedworkload/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/wellarchitectedworkload/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_workload awscc_wellarchitected_workload}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_workload awscc_wellarchitected_workload}.
 type WellarchitectedWorkload interface {
 	cdktn.TerraformResource
 	AccountIds() *[]*string
@@ -720,7 +720,7 @@ func (j *jsiiProxy_WellarchitectedWorkload) WorkloadNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_workload awscc_wellarchitected_workload} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_workload awscc_wellarchitected_workload} Resource.
 func NewWellarchitectedWorkload(scope constructs.Construct, id *string, config *WellarchitectedWorkloadConfig) WellarchitectedWorkload {
 	_init_.Initialize()
 
@@ -738,7 +738,7 @@ func NewWellarchitectedWorkload(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/wellarchitected_workload awscc_wellarchitected_workload} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/wellarchitected_workload awscc_wellarchitected_workload} Resource.
 func NewWellarchitectedWorkload_Override(w WellarchitectedWorkload, scope constructs.Construct, id *string, config *WellarchitectedWorkloadConfig) {
 	_init_.Initialize()
 

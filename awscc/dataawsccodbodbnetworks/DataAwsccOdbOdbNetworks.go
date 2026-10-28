@@ -5,14 +5,14 @@ package dataawsccodbodbnetworks
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccodbodbnetworks/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccodbodbnetworks/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/odb_odb_networks awscc_odb_odb_networks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/odb_odb_networks awscc_odb_odb_networks}.
 type DataAwsccOdbOdbNetworks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccOdbOdbNetworks) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/odb_odb_networks awscc_odb_odb_networks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/odb_odb_networks awscc_odb_odb_networks} Data Source.
 func NewDataAwsccOdbOdbNetworks(scope constructs.Construct, id *string, config *DataAwsccOdbOdbNetworksConfig) DataAwsccOdbOdbNetworks {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccOdbOdbNetworks(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/odb_odb_networks awscc_odb_odb_networks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/odb_odb_networks awscc_odb_odb_networks} Data Source.
 func NewDataAwsccOdbOdbNetworks_Override(d DataAwsccOdbOdbNetworks, scope constructs.Construct, id *string, config *DataAwsccOdbOdbNetworksConfig) {
 	_init_.Initialize()
 

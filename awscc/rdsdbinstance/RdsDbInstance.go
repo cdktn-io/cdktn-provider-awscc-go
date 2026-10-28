@@ -5,14 +5,14 @@ package rdsdbinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/rdsdbinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/rdsdbinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_instance awscc_rds_db_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_instance awscc_rds_db_instance}.
 type RdsDbInstance interface {
 	cdktn.TerraformResource
 	AdditionalStorageVolumes() RdsDbInstanceAdditionalStorageVolumesList
@@ -2545,7 +2545,7 @@ func (j *jsiiProxy_RdsDbInstance) VpcSecurityGroupsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_instance awscc_rds_db_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_instance awscc_rds_db_instance} Resource.
 func NewRdsDbInstance(scope constructs.Construct, id *string, config *RdsDbInstanceConfig) RdsDbInstance {
 	_init_.Initialize()
 
@@ -2563,7 +2563,7 @@ func NewRdsDbInstance(scope constructs.Construct, id *string, config *RdsDbInsta
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/rds_db_instance awscc_rds_db_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/rds_db_instance awscc_rds_db_instance} Resource.
 func NewRdsDbInstance_Override(r RdsDbInstance, scope constructs.Construct, id *string, config *RdsDbInstanceConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package servicediscoveryhttpnamespace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/servicediscoveryhttpnamespace/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/servicediscoveryhttpnamespace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicediscovery_http_namespace awscc_servicediscovery_http_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicediscovery_http_namespace awscc_servicediscovery_http_namespace}.
 type ServicediscoveryHttpNamespace interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -448,7 +448,7 @@ func (j *jsiiProxy_ServicediscoveryHttpNamespace) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicediscovery_http_namespace awscc_servicediscovery_http_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicediscovery_http_namespace awscc_servicediscovery_http_namespace} Resource.
 func NewServicediscoveryHttpNamespace(scope constructs.Construct, id *string, config *ServicediscoveryHttpNamespaceConfig) ServicediscoveryHttpNamespace {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewServicediscoveryHttpNamespace(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/servicediscovery_http_namespace awscc_servicediscovery_http_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/servicediscovery_http_namespace awscc_servicediscovery_http_namespace} Resource.
 func NewServicediscoveryHttpNamespace_Override(s ServicediscoveryHttpNamespace, scope constructs.Construct, id *string, config *ServicediscoveryHttpNamespaceConfig) {
 	_init_.Initialize()
 

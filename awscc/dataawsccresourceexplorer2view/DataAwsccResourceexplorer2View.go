@@ -5,14 +5,14 @@ package dataawsccresourceexplorer2view
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccresourceexplorer2view/internal"
+	"github.com/cdktn-io/cdktn-provider-awscc-go/awscc/v2/dataawsccresourceexplorer2view/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resourceexplorer2_view awscc_resourceexplorer2_view}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resourceexplorer2_view awscc_resourceexplorer2_view}.
 type DataAwsccResourceexplorer2View interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -352,7 +352,7 @@ func (j *jsiiProxy_DataAwsccResourceexplorer2View) ViewName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resourceexplorer2_view awscc_resourceexplorer2_view} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resourceexplorer2_view awscc_resourceexplorer2_view} Data Source.
 func NewDataAwsccResourceexplorer2View(scope constructs.Construct, id *string, config *DataAwsccResourceexplorer2ViewConfig) DataAwsccResourceexplorer2View {
 	_init_.Initialize()
 
@@ -370,7 +370,7 @@ func NewDataAwsccResourceexplorer2View(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/resourceexplorer2_view awscc_resourceexplorer2_view} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/resourceexplorer2_view awscc_resourceexplorer2_view} Data Source.
 func NewDataAwsccResourceexplorer2View_Override(d DataAwsccResourceexplorer2View, scope constructs.Construct, id *string, config *DataAwsccResourceexplorer2ViewConfig) {
 	_init_.Initialize()
 
