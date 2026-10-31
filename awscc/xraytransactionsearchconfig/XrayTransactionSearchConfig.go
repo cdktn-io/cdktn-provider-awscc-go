@@ -12,12 +12,14 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_transaction_search_config awscc_xray_transaction_search_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/xray_transaction_search_config awscc_xray_transaction_search_config}.
 type XrayTransactionSearchConfig interface {
 	cdktn.TerraformResource
 	AccountId() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
+	CloudwatchLogsConfiguration() XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference
+	CloudwatchLogsConfigurationInput() interface{}
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -145,6 +147,7 @@ type XrayTransactionSearchConfig interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutCloudwatchLogsConfiguration(value *XrayTransactionSearchConfigCloudwatchLogsConfiguration)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -158,6 +161,7 @@ type XrayTransactionSearchConfig interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetCloudwatchLogsConfiguration()
 	ResetIndexingPercentage()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -204,6 +208,26 @@ func (j *jsiiProxy_XrayTransactionSearchConfig) CdktfStack() cdktn.TerraformStac
 	_jsii_.Get(
 		j,
 		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_XrayTransactionSearchConfig) CloudwatchLogsConfiguration() XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference {
+	var returns XrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"cloudwatchLogsConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_XrayTransactionSearchConfig) CloudwatchLogsConfigurationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"cloudwatchLogsConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -390,7 +414,7 @@ func (j *jsiiProxy_XrayTransactionSearchConfig) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_transaction_search_config awscc_xray_transaction_search_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/xray_transaction_search_config awscc_xray_transaction_search_config} Resource.
 func NewXrayTransactionSearchConfig(scope constructs.Construct, id *string, config *XrayTransactionSearchConfigConfig) XrayTransactionSearchConfig {
 	_init_.Initialize()
 
@@ -408,7 +432,7 @@ func NewXrayTransactionSearchConfig(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/xray_transaction_search_config awscc_xray_transaction_search_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/xray_transaction_search_config awscc_xray_transaction_search_config} Resource.
 func NewXrayTransactionSearchConfig_Override(x XrayTransactionSearchConfig, scope constructs.Construct, id *string, config *XrayTransactionSearchConfigConfig) {
 	_init_.Initialize()
 
@@ -867,6 +891,17 @@ func (x *jsiiProxy_XrayTransactionSearchConfig) OverrideLogicalId(newLogicalId *
 	)
 }
 
+func (x *jsiiProxy_XrayTransactionSearchConfig) PutCloudwatchLogsConfiguration(value *XrayTransactionSearchConfigCloudwatchLogsConfiguration) {
+	if err := x.validatePutCloudwatchLogsConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		x,
+		"putCloudwatchLogsConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (x *jsiiProxy_XrayTransactionSearchConfig) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := x.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -875,6 +910,14 @@ func (x *jsiiProxy_XrayTransactionSearchConfig) RegisterProviderFeatureUsage(fea
 		x,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (x *jsiiProxy_XrayTransactionSearchConfig) ResetCloudwatchLogsConfiguration() {
+	_jsii_.InvokeVoid(
+		x,
+		"resetCloudwatchLogsConfiguration",
+		nil, // no parameters
 	)
 }
 

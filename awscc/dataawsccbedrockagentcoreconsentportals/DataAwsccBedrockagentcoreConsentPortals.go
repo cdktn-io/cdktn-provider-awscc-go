@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_consent_portals awscc_bedrockagentcore_consent_portals}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/bedrockagentcore_consent_portals awscc_bedrockagentcore_consent_portals}.
 type DataAwsccBedrockagentcoreConsentPortals interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccBedrockagentcoreConsentPortals) TerraformResourceTyp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_consent_portals awscc_bedrockagentcore_consent_portals} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/bedrockagentcore_consent_portals awscc_bedrockagentcore_consent_portals} Data Source.
 func NewDataAwsccBedrockagentcoreConsentPortals(scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreConsentPortalsConfig) DataAwsccBedrockagentcoreConsentPortals {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccBedrockagentcoreConsentPortals(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/bedrockagentcore_consent_portals awscc_bedrockagentcore_consent_portals} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/bedrockagentcore_consent_portals awscc_bedrockagentcore_consent_portals} Data Source.
 func NewDataAwsccBedrockagentcoreConsentPortals_Override(d DataAwsccBedrockagentcoreConsentPortals, scope constructs.Construct, id *string, config *DataAwsccBedrockagentcoreConsentPortalsConfig) {
 	_init_.Initialize()
 

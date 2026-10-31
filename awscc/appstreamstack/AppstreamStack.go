@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_stack awscc_appstream_stack}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/appstream_stack awscc_appstream_stack}.
 type AppstreamStack interface {
 	cdktn.TerraformResource
 	AccessEndpoints() AppstreamStackAccessEndpointsList
@@ -88,6 +88,9 @@ type AppstreamStack interface {
 	RedirectUrl() *string
 	SetRedirectUrl(val *string)
 	RedirectUrlInput() *string
+	StorageConnectorAuthentication() *string
+	SetStorageConnectorAuthentication(val *string)
+	StorageConnectorAuthenticationInput() *string
 	StorageConnectors() AppstreamStackStorageConnectorsList
 	StorageConnectorsInput() interface{}
 	StreamingExperienceSettings() AppstreamStackStreamingExperienceSettingsOutputReference
@@ -217,6 +220,7 @@ type AppstreamStack interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetRedirectUrl()
+	ResetStorageConnectorAuthentication()
 	ResetStorageConnectors()
 	ResetStreamingExperienceSettings()
 	ResetTags()
@@ -628,6 +632,26 @@ func (j *jsiiProxy_AppstreamStack) RedirectUrlInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_AppstreamStack) StorageConnectorAuthentication() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageConnectorAuthentication",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AppstreamStack) StorageConnectorAuthenticationInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageConnectorAuthenticationInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_AppstreamStack) StorageConnectors() AppstreamStackStorageConnectorsList {
 	var returns AppstreamStackStorageConnectorsList
 	_jsii_.Get(
@@ -739,7 +763,7 @@ func (j *jsiiProxy_AppstreamStack) UserSettingsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_stack awscc_appstream_stack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/appstream_stack awscc_appstream_stack} Resource.
 func NewAppstreamStack(scope constructs.Construct, id *string, config *AppstreamStackConfig) AppstreamStack {
 	_init_.Initialize()
 
@@ -757,7 +781,7 @@ func NewAppstreamStack(scope constructs.Construct, id *string, config *Appstream
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/appstream_stack awscc_appstream_stack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/appstream_stack awscc_appstream_stack} Resource.
 func NewAppstreamStack_Override(a AppstreamStack, scope constructs.Construct, id *string, config *AppstreamStackConfig) {
 	_init_.Initialize()
 
@@ -920,6 +944,17 @@ func (j *jsiiProxy_AppstreamStack)SetRedirectUrl(val *string) {
 	_jsii_.Set(
 		j,
 		"redirectUrl",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AppstreamStack)SetStorageConnectorAuthentication(val *string) {
+	if err := j.validateSetStorageConnectorAuthenticationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"storageConnectorAuthentication",
 		val,
 	)
 }
@@ -1492,6 +1527,14 @@ func (a *jsiiProxy_AppstreamStack) ResetRedirectUrl() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetRedirectUrl",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AppstreamStack) ResetStorageConnectorAuthentication() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetStorageConnectorAuthentication",
 		nil, // no parameters
 	)
 }

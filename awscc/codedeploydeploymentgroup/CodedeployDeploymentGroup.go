@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group awscc_codedeploy_deployment_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group awscc_codedeploy_deployment_group}.
 type CodedeployDeploymentGroup interface {
 	cdktn.TerraformResource
 	AlarmConfiguration() CodedeployDeploymentGroupAlarmConfigurationOutputReference
@@ -53,6 +53,8 @@ type CodedeployDeploymentGroup interface {
 	DeploymentInput() interface{}
 	DeploymentStyle() CodedeployDeploymentGroupDeploymentStyleOutputReference
 	DeploymentStyleInput() interface{}
+	Ec2DeploymentOptions() CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference
+	Ec2DeploymentOptionsInput() interface{}
 	Ec2TagFilters() CodedeployDeploymentGroupEc2TagFiltersList
 	Ec2TagFiltersInput() interface{}
 	Ec2TagSet() CodedeployDeploymentGroupEc2TagSetOutputReference
@@ -193,6 +195,7 @@ type CodedeployDeploymentGroup interface {
 	PutBlueGreenDeploymentConfiguration(value *CodedeployDeploymentGroupBlueGreenDeploymentConfiguration)
 	PutDeployment(value *CodedeployDeploymentGroupDeployment)
 	PutDeploymentStyle(value *CodedeployDeploymentGroupDeploymentStyle)
+	PutEc2DeploymentOptions(value *CodedeployDeploymentGroupEc2DeploymentOptions)
 	PutEc2TagFilters(value interface{})
 	PutEc2TagSet(value *CodedeployDeploymentGroupEc2TagSet)
 	PutEcsServices(value interface{})
@@ -222,6 +225,7 @@ type CodedeployDeploymentGroup interface {
 	ResetDeploymentConfigName()
 	ResetDeploymentGroupName()
 	ResetDeploymentStyle()
+	ResetEc2DeploymentOptions()
 	ResetEc2TagFilters()
 	ResetEc2TagSet()
 	ResetEcsServices()
@@ -487,6 +491,26 @@ func (j *jsiiProxy_CodedeployDeploymentGroup) DeploymentStyleInput() interface{}
 	_jsii_.Get(
 		j,
 		"deploymentStyleInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CodedeployDeploymentGroup) Ec2DeploymentOptions() CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference {
+	var returns CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference
+	_jsii_.Get(
+		j,
+		"ec2DeploymentOptions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CodedeployDeploymentGroup) Ec2DeploymentOptionsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ec2DeploymentOptionsInput",
 		&returns,
 	)
 	return returns
@@ -833,7 +857,7 @@ func (j *jsiiProxy_CodedeployDeploymentGroup) TriggerConfigurationsInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group awscc_codedeploy_deployment_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group awscc_codedeploy_deployment_group} Resource.
 func NewCodedeployDeploymentGroup(scope constructs.Construct, id *string, config *CodedeployDeploymentGroupConfig) CodedeployDeploymentGroup {
 	_init_.Initialize()
 
@@ -851,7 +875,7 @@ func NewCodedeployDeploymentGroup(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/codedeploy_deployment_group awscc_codedeploy_deployment_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/codedeploy_deployment_group awscc_codedeploy_deployment_group} Resource.
 func NewCodedeployDeploymentGroup_Override(c CodedeployDeploymentGroup, scope constructs.Construct, id *string, config *CodedeployDeploymentGroupConfig) {
 	_init_.Initialize()
 
@@ -1431,6 +1455,17 @@ func (c *jsiiProxy_CodedeployDeploymentGroup) PutDeploymentStyle(value *Codedepl
 	)
 }
 
+func (c *jsiiProxy_CodedeployDeploymentGroup) PutEc2DeploymentOptions(value *CodedeployDeploymentGroupEc2DeploymentOptions) {
+	if err := c.validatePutEc2DeploymentOptionsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putEc2DeploymentOptions",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CodedeployDeploymentGroup) PutEc2TagFilters(value interface{}) {
 	if err := c.validatePutEc2TagFiltersParameters(value); err != nil {
 		panic(err)
@@ -1590,6 +1625,14 @@ func (c *jsiiProxy_CodedeployDeploymentGroup) ResetDeploymentStyle() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetDeploymentStyle",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CodedeployDeploymentGroup) ResetEc2DeploymentOptions() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetEc2DeploymentOptions",
 		nil, // no parameters
 	)
 }

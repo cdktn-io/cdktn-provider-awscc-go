@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_daemon awscc_ecs_daemon}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ecs_daemon awscc_ecs_daemon}.
 type DataAwsccEcsDaemon interface {
 	cdktn.TerraformDataSource
 	CapacityProviderArns() *[]*string
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DataAwsccEcsDaemon) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_daemon awscc_ecs_daemon} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ecs_daemon awscc_ecs_daemon} Data Source.
 func NewDataAwsccEcsDaemon(scope constructs.Construct, id *string, config *DataAwsccEcsDaemonConfig) DataAwsccEcsDaemon {
 	_init_.Initialize()
 
@@ -469,7 +469,7 @@ func NewDataAwsccEcsDaemon(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_daemon awscc_ecs_daemon} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ecs_daemon awscc_ecs_daemon} Data Source.
 func NewDataAwsccEcsDaemon_Override(d DataAwsccEcsDaemon, scope constructs.Construct, id *string, config *DataAwsccEcsDaemonConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_compute_quota awscc_sagemaker_compute_quota}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/sagemaker_compute_quota awscc_sagemaker_compute_quota}.
 type DataAwsccSagemakerComputeQuota interface {
 	cdktn.TerraformDataSource
 	ActivationState() *string
@@ -429,7 +429,7 @@ func (j *jsiiProxy_DataAwsccSagemakerComputeQuota) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_compute_quota awscc_sagemaker_compute_quota} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/sagemaker_compute_quota awscc_sagemaker_compute_quota} Data Source.
 func NewDataAwsccSagemakerComputeQuota(scope constructs.Construct, id *string, config *DataAwsccSagemakerComputeQuotaConfig) DataAwsccSagemakerComputeQuota {
 	_init_.Initialize()
 
@@ -447,7 +447,7 @@ func NewDataAwsccSagemakerComputeQuota(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_compute_quota awscc_sagemaker_compute_quota} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/sagemaker_compute_quota awscc_sagemaker_compute_quota} Data Source.
 func NewDataAwsccSagemakerComputeQuota_Override(d DataAwsccSagemakerComputeQuota, scope constructs.Construct, id *string, config *DataAwsccSagemakerComputeQuotaConfig) {
 	_init_.Initialize()
 

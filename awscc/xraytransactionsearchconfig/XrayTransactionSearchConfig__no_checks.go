@@ -79,6 +79,10 @@ func (x *jsiiProxy_XrayTransactionSearchConfig) validateOverrideLogicalIdParamet
 	return nil
 }
 
+func (x *jsiiProxy_XrayTransactionSearchConfig) validatePutCloudwatchLogsConfigurationParameters(value *XrayTransactionSearchConfigCloudwatchLogsConfiguration) error {
+	return nil
+}
+
 func (x *jsiiProxy_XrayTransactionSearchConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }

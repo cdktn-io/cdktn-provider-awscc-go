@@ -1,0 +1,3 @@
+# `awscc_personalize_recommender`
+
+Refer to the Terraform Registry for docs: [`awscc_personalize_recommender`](https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/personalize_recommender).

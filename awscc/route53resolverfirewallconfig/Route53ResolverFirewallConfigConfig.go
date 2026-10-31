@@ -26,11 +26,11 @@ type Route53ResolverFirewallConfigConfig struct {
 	//
 	// By default, fail open is disabled, which means the failure mode is closed. If you enable this option, the failure mode is open. This behavior is only enforced for VPCs that have at least one DNS Firewall rule group association.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_firewall_config#firewall_fail_open Route53ResolverFirewallConfig#firewall_fail_open}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53resolver_firewall_config#firewall_fail_open Route53ResolverFirewallConfig#firewall_fail_open}
 	FirewallFailOpen *string `field:"required" json:"firewallFailOpen" yaml:"firewallFailOpen"`
 	// The ID of the VPC that this firewall configuration applies to.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53resolver_firewall_config#resource_id Route53ResolverFirewallConfig#resource_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53resolver_firewall_config#resource_id Route53ResolverFirewallConfig#resource_id}
 	ResourceId *string `field:"required" json:"resourceId" yaml:"resourceId"`
 }
 

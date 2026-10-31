@@ -29,6 +29,7 @@ type DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputRef
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	ElasticIpConfiguration() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfiguration
@@ -118,6 +119,16 @@ func (j *jsiiProxy_DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigur
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccLambdaNetworkConnectorConfigurationVpcEgressConfigurationOutputReference) ElasticIpConfiguration() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"elasticIpConfiguration",
 		&returns,
 	)
 	return returns

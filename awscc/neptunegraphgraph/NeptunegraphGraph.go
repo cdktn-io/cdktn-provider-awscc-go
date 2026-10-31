@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptunegraph_graph awscc_neptunegraph_graph}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/neptunegraph_graph awscc_neptunegraph_graph}.
 type NeptunegraphGraph interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -27,6 +27,7 @@ type NeptunegraphGraph interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	CreateTime() *string
 	DeletionProtection() interface{}
 	SetDeletionProtection(val interface{})
 	DeletionProtectionInput() interface{}
@@ -79,6 +80,7 @@ type NeptunegraphGraph interface {
 	ReplicaCount() *float64
 	SetReplicaCount(val *float64)
 	ReplicaCountInput() *float64
+	Status() *string
 	Tags() NeptunegraphGraphTagsList
 	TagsInput() interface{}
 	// Experimental.
@@ -257,6 +259,16 @@ func (j *jsiiProxy_NeptunegraphGraph) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NeptunegraphGraph) CreateTime() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createTime",
 		&returns,
 	)
 	return returns
@@ -532,6 +544,16 @@ func (j *jsiiProxy_NeptunegraphGraph) ReplicaCountInput() *float64 {
 	return returns
 }
 
+func (j *jsiiProxy_NeptunegraphGraph) Status() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"status",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NeptunegraphGraph) Tags() NeptunegraphGraphTagsList {
 	var returns NeptunegraphGraphTagsList
 	_jsii_.Get(
@@ -603,7 +625,7 @@ func (j *jsiiProxy_NeptunegraphGraph) VectorSearchConfigurationInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptunegraph_graph awscc_neptunegraph_graph} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/neptunegraph_graph awscc_neptunegraph_graph} Resource.
 func NewNeptunegraphGraph(scope constructs.Construct, id *string, config *NeptunegraphGraphConfig) NeptunegraphGraph {
 	_init_.Initialize()
 
@@ -621,7 +643,7 @@ func NewNeptunegraphGraph(scope constructs.Construct, id *string, config *Neptun
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/neptunegraph_graph awscc_neptunegraph_graph} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/neptunegraph_graph awscc_neptunegraph_graph} Resource.
 func NewNeptunegraphGraph_Override(n NeptunegraphGraph, scope constructs.Construct, id *string, config *NeptunegraphGraphConfig) {
 	_init_.Initialize()
 

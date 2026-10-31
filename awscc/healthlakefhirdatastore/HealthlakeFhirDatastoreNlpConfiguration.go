@@ -7,7 +7,7 @@ package healthlakefhirdatastore
 type HealthlakeFhirDatastoreNlpConfiguration struct {
 	// The NLP status for the Data Store.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/healthlake_fhir_datastore#status HealthlakeFhirDatastore#status}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/healthlake_fhir_datastore#status HealthlakeFhirDatastore#status}
 	Status *string `field:"optional" json:"status" yaml:"status"`
 }
 

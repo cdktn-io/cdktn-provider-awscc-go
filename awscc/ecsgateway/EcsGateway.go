@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway awscc_ecs_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway awscc_ecs_gateway}.
 type EcsGateway interface {
 	cdktn.TerraformResource
 	AccessType() *string
@@ -551,7 +551,7 @@ func (j *jsiiProxy_EcsGateway) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway awscc_ecs_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway awscc_ecs_gateway} Resource.
 func NewEcsGateway(scope constructs.Construct, id *string, config *EcsGatewayConfig) EcsGateway {
 	_init_.Initialize()
 
@@ -569,7 +569,7 @@ func NewEcsGateway(scope constructs.Construct, id *string, config *EcsGatewayCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway awscc_ecs_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway awscc_ecs_gateway} Resource.
 func NewEcsGateway_Override(e EcsGateway, scope constructs.Construct, id *string, config *EcsGatewayConfig) {
 	_init_.Initialize()
 

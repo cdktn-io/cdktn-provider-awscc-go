@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dax_subnet_group awscc_dax_subnet_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/dax_subnet_group awscc_dax_subnet_group}.
 type DataAwsccDaxSubnetGroup interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -319,7 +319,7 @@ func (j *jsiiProxy_DataAwsccDaxSubnetGroup) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dax_subnet_group awscc_dax_subnet_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/dax_subnet_group awscc_dax_subnet_group} Data Source.
 func NewDataAwsccDaxSubnetGroup(scope constructs.Construct, id *string, config *DataAwsccDaxSubnetGroupConfig) DataAwsccDaxSubnetGroup {
 	_init_.Initialize()
 
@@ -337,7 +337,7 @@ func NewDataAwsccDaxSubnetGroup(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/dax_subnet_group awscc_dax_subnet_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/dax_subnet_group awscc_dax_subnet_group} Data Source.
 func NewDataAwsccDaxSubnetGroup_Override(d DataAwsccDaxSubnetGroup, scope constructs.Construct, id *string, config *DataAwsccDaxSubnetGroupConfig) {
 	_init_.Initialize()
 

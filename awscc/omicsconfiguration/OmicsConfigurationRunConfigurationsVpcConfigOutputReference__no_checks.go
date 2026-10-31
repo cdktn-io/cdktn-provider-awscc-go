@@ -79,6 +79,10 @@ func (j *jsiiProxy_OmicsConfigurationRunConfigurationsVpcConfigOutputReference) 
 	return nil
 }
 
+func (j *jsiiProxy_OmicsConfigurationRunConfigurationsVpcConfigOutputReference) validateSetVpcOwnerAccountIdParameters(val *string) error {
+	return nil
+}
+
 func validateNewOmicsConfigurationRunConfigurationsVpcConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

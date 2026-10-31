@@ -1,0 +1,77 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package dataawscccloudwatchdomainfororganization
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsccCloudwatchDomainForOrganizationIdentityProviderConfigurationIdentityCenterConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccCloudwatchDomainForOrganizationIdentityProviderConfigurationIdentityCenterConfigurationOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccCloudwatchDomainForOrganizationIdentityProviderConfigurationIdentityCenterConfigurationOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccCloudwatchDomainForOrganizationIdentityProviderConfigurationIdentityCenterConfigurationOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccCloudwatchDomainForOrganizationIdentityProviderConfigurationIdentityCenterConfigurationOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccCloudwatchDomainForOrganizationIdentityProviderConfigurationIdentityCenterConfigurationOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccCloudwatchDomainForOrganizationIdentityProviderConfigurationIdentityCenterConfigurationOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccCloudwatchDomainForOrganizationIdentityProviderConfigurationIdentityCenterConfigurationOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccCloudwatchDomainForOrganizationIdentityProviderConfigurationIdentityCenterConfigurationOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccCloudwatchDomainForOrganizationIdentityProviderConfigurationIdentityCenterConfigurationOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsccCloudwatchDomainForOrganizationIdentityProviderConfigurationIdentityCenterConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccCloudwatchDomainForOrganizationIdentityProviderConfigurationIdentityCenterConfigurationOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccCloudwatchDomainForOrganizationIdentityProviderConfigurationIdentityCenterConfigurationOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccCloudwatchDomainForOrganizationIdentityProviderConfigurationIdentityCenterConfigurationOutputReference) validateSetInternalValueParameters(val *DataAwsccCloudwatchDomainForOrganizationIdentityProviderConfigurationIdentityCenterConfiguration) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccCloudwatchDomainForOrganizationIdentityProviderConfigurationIdentityCenterConfigurationOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsccCloudwatchDomainForOrganizationIdentityProviderConfigurationIdentityCenterConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsccCloudwatchDomainForOrganizationIdentityProviderConfigurationIdentityCenterConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

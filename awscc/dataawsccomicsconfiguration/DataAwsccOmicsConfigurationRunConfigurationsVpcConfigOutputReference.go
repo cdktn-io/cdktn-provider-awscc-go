@@ -42,6 +42,7 @@ type DataAwsccOmicsConfigurationRunConfigurationsVpcConfigOutputReference interf
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	VpcOwnerAccountId() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -166,6 +167,16 @@ func (j *jsiiProxy_DataAwsccOmicsConfigurationRunConfigurationsVpcConfigOutputRe
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccOmicsConfigurationRunConfigurationsVpcConfigOutputReference) VpcOwnerAccountId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"vpcOwnerAccountId",
 		&returns,
 	)
 	return returns

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand awscc_quicksight_brand}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand awscc_quicksight_brand}.
 type QuicksightBrand interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -503,7 +503,7 @@ func (j *jsiiProxy_QuicksightBrand) VersionStatus() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand awscc_quicksight_brand} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand awscc_quicksight_brand} Resource.
 func NewQuicksightBrand(scope constructs.Construct, id *string, config *QuicksightBrandConfig) QuicksightBrand {
 	_init_.Initialize()
 
@@ -521,7 +521,7 @@ func NewQuicksightBrand(scope constructs.Construct, id *string, config *Quicksig
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/quicksight_brand awscc_quicksight_brand} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/quicksight_brand awscc_quicksight_brand} Resource.
 func NewQuicksightBrand_Override(q QuicksightBrand, scope constructs.Construct, id *string, config *QuicksightBrandConfig) {
 	_init_.Initialize()
 

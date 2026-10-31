@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction awscc_bedrock_retrieval_instruction}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction awscc_bedrock_retrieval_instruction}.
 type BedrockRetrievalInstruction interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -539,7 +539,7 @@ func (j *jsiiProxy_BedrockRetrievalInstruction) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction awscc_bedrock_retrieval_instruction} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction awscc_bedrock_retrieval_instruction} Resource.
 func NewBedrockRetrievalInstruction(scope constructs.Construct, id *string, config *BedrockRetrievalInstructionConfig) BedrockRetrievalInstruction {
 	_init_.Initialize()
 
@@ -557,7 +557,7 @@ func NewBedrockRetrievalInstruction(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction awscc_bedrock_retrieval_instruction} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction awscc_bedrock_retrieval_instruction} Resource.
 func NewBedrockRetrievalInstruction_Override(b BedrockRetrievalInstruction, scope constructs.Construct, id *string, config *BedrockRetrievalInstructionConfig) {
 	_init_.Initialize()
 

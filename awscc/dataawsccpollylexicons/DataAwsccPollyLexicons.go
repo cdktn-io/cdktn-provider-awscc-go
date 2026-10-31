@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/polly_lexicons awscc_polly_lexicons}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/polly_lexicons awscc_polly_lexicons}.
 type DataAwsccPollyLexicons interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccPollyLexicons) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/polly_lexicons awscc_polly_lexicons} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/polly_lexicons awscc_polly_lexicons} Data Source.
 func NewDataAwsccPollyLexicons(scope constructs.Construct, id *string, config *DataAwsccPollyLexiconsConfig) DataAwsccPollyLexicons {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccPollyLexicons(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/polly_lexicons awscc_polly_lexicons} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/polly_lexicons awscc_polly_lexicons} Data Source.
 func NewDataAwsccPollyLexicons_Override(d DataAwsccPollyLexicons, scope constructs.Construct, id *string, config *DataAwsccPollyLexiconsConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_compute_quota_plural awscc_sagemaker_compute_quota_plural}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/sagemaker_compute_quota_plural awscc_sagemaker_compute_quota_plural}.
 type DataAwsccSagemakerComputeQuotaPlural interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccSagemakerComputeQuotaPlural) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_compute_quota_plural awscc_sagemaker_compute_quota_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/sagemaker_compute_quota_plural awscc_sagemaker_compute_quota_plural} Data Source.
 func NewDataAwsccSagemakerComputeQuotaPlural(scope constructs.Construct, id *string, config *DataAwsccSagemakerComputeQuotaPluralConfig) DataAwsccSagemakerComputeQuotaPlural {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccSagemakerComputeQuotaPlural(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/sagemaker_compute_quota_plural awscc_sagemaker_compute_quota_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/sagemaker_compute_quota_plural awscc_sagemaker_compute_quota_plural} Data Source.
 func NewDataAwsccSagemakerComputeQuotaPlural_Override(d DataAwsccSagemakerComputeQuotaPlural, scope constructs.Construct, id *string, config *DataAwsccSagemakerComputeQuotaPluralConfig) {
 	_init_.Initialize()
 

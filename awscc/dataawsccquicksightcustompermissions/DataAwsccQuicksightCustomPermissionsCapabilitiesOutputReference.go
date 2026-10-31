@@ -16,6 +16,7 @@ type DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference interface {
 	AccessAppsNativeDataStore() *string
 	Action() *string
 	AddOrRunAnomalyDetectionForAnalyses() *string
+	AdobeAnalyticsDataSource() *string
 	AmazonBedrockArsAction() *string
 	AmazonBedrockFsAction() *string
 	AmazonBedrockKrsAction() *string
@@ -24,9 +25,13 @@ type DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference interface {
 	ApproveFlowShareRequests() *string
 	Apps() *string
 	AsanaAction() *string
+	AthenaDataSource() *string
+	AuroraDataSource() *string
 	Automate() *string
 	BambooHrAction() *string
+	BedrockManagedKnowledgeBase() *string
 	BoxAgentAction() *string
+	BoxKnowledgeBase() *string
 	BuildCalculatedFieldWithQ() *string
 	CanvaAgentAction() *string
 	ChatAgent() *string
@@ -43,6 +48,8 @@ type DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference interface {
 	ComprehendAction() *string
 	ComprehendMedicalAction() *string
 	ConfluenceAction() *string
+	ConfluenceKnowledgeBase() *string
+	CreateAdobeAnalyticsDataSource() *string
 	CreateAndUpdateAmazonBedrockArsAction() *string
 	CreateAndUpdateAmazonBedrockFsAction() *string
 	CreateAndUpdateAmazonBedrockKrsAction() *string
@@ -50,11 +57,14 @@ type DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference interface {
 	CreateAndUpdateApps() *string
 	CreateAndUpdateAsanaAction() *string
 	CreateAndUpdateBambooHrAction() *string
+	CreateAndUpdateBedrockManagedKnowledgeBase() *string
 	CreateAndUpdateBoxAgentAction() *string
+	CreateAndUpdateBoxKnowledgeBase() *string
 	CreateAndUpdateCanvaAgentAction() *string
 	CreateAndUpdateComprehendAction() *string
 	CreateAndUpdateComprehendMedicalAction() *string
 	CreateAndUpdateConfluenceAction() *string
+	CreateAndUpdateConfluenceKnowledgeBase() *string
 	CreateAndUpdateDashboardEmailReports() *string
 	CreateAndUpdateDatasets() *string
 	CreateAndUpdateDataSources() *string
@@ -62,8 +72,10 @@ type DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference interface {
 	CreateAndUpdateGenericHttpAction() *string
 	CreateAndUpdateGithubAction() *string
 	CreateAndUpdateGoogleCalendarAction() *string
+	CreateAndUpdateGoogleDriveKnowledgeBase() *string
 	CreateAndUpdateHubspotAction() *string
 	CreateAndUpdateHuggingFaceAction() *string
+	CreateAndUpdateIdcKnowledgeBase() *string
 	CreateAndUpdateIntercomAction() *string
 	CreateAndUpdateJiraAction() *string
 	CreateAndUpdateKnowledgeBases() *string
@@ -75,8 +87,11 @@ type DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference interface {
 	CreateAndUpdateNewRelicAction() *string
 	CreateAndUpdateNotionAction() *string
 	CreateAndUpdateOneDriveAction() *string
+	CreateAndUpdateOneDriveKnowledgeBase() *string
 	CreateAndUpdateOpenApiAction() *string
 	CreateAndUpdatePagerDutyAction() *string
+	CreateAndUpdateQBusinessKnowledgeBase() *string
+	CreateAndUpdateS3KnowledgeBase() *string
 	CreateAndUpdateSalesforceAction() *string
 	CreateAndUpdateSandPGlobalEnergyAction() *string
 	CreateAndUpdateSandPgmiAction() *string
@@ -87,24 +102,77 @@ type DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference interface {
 	CreateAndUpdateSapProductMasterDataAction() *string
 	CreateAndUpdateServiceNowAction() *string
 	CreateAndUpdateSharePointAction() *string
+	CreateAndUpdateSharePointKnowledgeBase() *string
 	CreateAndUpdateSlackAction() *string
 	CreateAndUpdateSmartsheetAction() *string
 	CreateAndUpdateTextractAction() *string
 	CreateAndUpdateThemes() *string
 	CreateAndUpdateThresholdAlerts() *string
+	CreateAndUpdateWebCrawlerKnowledgeBase() *string
 	CreateAndUpdateZendeskAction() *string
+	CreateAthenaDataSource() *string
+	CreateAuroraDataSource() *string
 	CreateChatAgents() *string
 	CreateDashboardExecutiveSummaryWithQ() *string
+	CreateDatabricksDataSource() *string
+	CreateDb2DataSource() *string
+	CreateDenodoDataSource() *string
+	CreateDocumentDbDataSource() *string
+	CreateDremioDataSource() *string
+	CreateDynamoDbDataSource() *string
+	CreateExasolDataSource() *string
+	CreateFileDataSource() *string
+	CreateGitHubDataSource() *string
+	CreateGoogleAnalyticsDataSource() *string
+	CreateGoogleBigQueryDataSource() *string
+	CreateGoogleSheetsDataSource() *string
+	CreateImpalaDataSource() *string
+	CreateJiraDataSource() *string
+	CreateMariaDbDataSource() *string
+	CreateMongoAtlasDataSource() *string
+	CreateMongoDbDataSource() *string
+	CreateMySqlDataSource() *string
+	CreateOpenSearchDataSource() *string
+	CreateOracleDataSource() *string
+	CreatePayPalDataSource() *string
+	CreatePostgreSqlDataSource() *string
+	CreatePrestoDataSource() *string
+	CreateRadiantDataSource() *string
+	CreateRdsDataSource() *string
+	CreateRedshiftAutoDiscoveredDataSource() *string
+	CreateRedshiftManualDataSource() *string
+	CreateS3AnalyticsDataSource() *string
+	CreateS3DataSource() *string
+	CreateS3TablesDataSource() *string
+	CreateSalesforceDataSource() *string
+	CreateSapHanaDataSource() *string
+	CreateServiceNowDataSource() *string
 	CreateSharedFolders() *string
+	CreateSnowflakeDataSource() *string
 	CreateSpaces() *string
+	CreateSparkDataSource() *string
 	CreateSpiceDataset() *string
+	CreateSqlServerDataSource() *string
+	CreateSquareDataSource() *string
+	CreateStarburstDataSource() *string
+	CreateTeradataDataSource() *string
+	CreateTimestreamDataSource() *string
+	CreateTrinoDataSource() *string
+	CreateTwitterDataSource() *string
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
 	Dashboard() *string
+	DatabricksDataSource() *string
+	Db2DataSource() *string
+	DenodoDataSource() *string
+	DocumentDbDataSource() *string
+	DremioDataSource() *string
+	DynamoDbDataSource() *string
 	EditVisualWithQ() *string
+	ExasolDataSource() *string
 	ExportToCsv() *string
 	ExportToCsvInScheduledReports() *string
 	ExportToExcel() *string
@@ -113,46 +181,81 @@ type DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference interface {
 	ExportToPdfInScheduledReports() *string
 	Extension() *string
 	FactSetAction() *string
+	FileDataSource() *string
 	Flow() *string
 	// Experimental.
 	Fqn() *string
 	GenericHttpAction() *string
 	GithubAction() *string
+	GitHubDataSource() *string
+	GoogleAnalyticsDataSource() *string
+	GoogleBigQueryDataSource() *string
 	GoogleCalendarAction() *string
+	GoogleDriveKnowledgeBase() *string
+	GoogleSheetsDataSource() *string
 	HubspotAction() *string
 	HuggingFaceAction() *string
+	IdcKnowledgeBase() *string
+	ImpalaDataSource() *string
+	InboundEmailTrigger() *string
 	IncludeContentInScheduledReportsEmail() *string
 	IntercomAction() *string
 	InternalValue() *DataAwsccQuicksightCustomPermissionsCapabilities
 	SetInternalValue(val *DataAwsccQuicksightCustomPermissionsCapabilities)
 	InvokeAppsAiInference() *string
 	JiraAction() *string
+	JiraDataSource() *string
 	KnowledgeBase() *string
 	LinearAction() *string
 	ManageSharedFolders() *string
+	MariaDbDataSource() *string
 	McpAction() *string
 	MondayAction() *string
+	MongoAtlasDataSource() *string
+	MongoDbDataSource() *string
 	MsExchangeAction() *string
 	MsTeamsAction() *string
+	MySqlDataSource() *string
 	NewRelicAction() *string
 	NotionAction() *string
 	OneDriveAction() *string
+	OneDriveKnowledgeBase() *string
 	OpenApiAction() *string
+	OpenSearchDataSource() *string
+	OracleDataSource() *string
 	PagerDutyAction() *string
+	PayPalDataSource() *string
 	PerformFlowUiTask() *string
+	PostgreSqlDataSource() *string
+	PrestoDataSource() *string
 	PrintReports() *string
 	PublishWithoutApproval() *string
+	QBusinessKnowledgeBase() *string
+	QuickEventTrigger() *string
+	RadiantDataSource() *string
+	RdsDataSource() *string
+	RedshiftAutoDiscoveredDataSource() *string
+	RedshiftManualDataSource() *string
 	RenameSharedFolders() *string
 	Research() *string
+	S3AnalyticsDataSource() *string
+	S3DataSource() *string
+	S3KnowledgeBase() *string
+	S3TablesDataSource() *string
 	SalesforceAction() *string
+	SalesforceDataSource() *string
 	SandPGlobalEnergyAction() *string
 	SandPgmiAction() *string
 	SapBillOfMaterialAction() *string
 	SapBusinessPartnerAction() *string
+	SapHanaDataSource() *string
 	SapMaterialStockAction() *string
 	SapPhysicalInventoryAction() *string
 	SapProductMasterDataAction() *string
+	ScheduleTrigger() *string
 	ServiceNowAction() *string
+	ServiceNowDataSource() *string
+	ShareAdobeAnalyticsDataSource() *string
 	ShareAmazonBedrockArsAction() *string
 	ShareAmazonBedrockFsAction() *string
 	ShareAmazonBedrockKrsAction() *string
@@ -160,55 +263,116 @@ type DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference interface {
 	ShareAnalyses() *string
 	ShareApps() *string
 	ShareAsanaAction() *string
+	ShareAthenaDataSource() *string
+	ShareAuroraDataSource() *string
 	ShareBambooHrAction() *string
+	ShareBedrockManagedKnowledgeBase() *string
 	ShareBoxAgentAction() *string
+	ShareBoxKnowledgeBase() *string
 	ShareCanvaAgentAction() *string
 	ShareChatAgents() *string
 	ShareComprehendAction() *string
 	ShareComprehendMedicalAction() *string
 	ShareConfluenceAction() *string
+	ShareConfluenceKnowledgeBase() *string
 	ShareDashboards() *string
+	ShareDatabricksDataSource() *string
 	ShareDatasets() *string
 	ShareDataSources() *string
+	ShareDb2DataSource() *string
+	ShareDenodoDataSource() *string
+	ShareDocumentDbDataSource() *string
+	ShareDremioDataSource() *string
+	ShareDynamoDbDataSource() *string
+	ShareExasolDataSource() *string
 	ShareFactSetAction() *string
+	ShareFileDataSource() *string
 	ShareGenericHttpAction() *string
 	ShareGithubAction() *string
+	ShareGitHubDataSource() *string
+	ShareGoogleAnalyticsDataSource() *string
+	ShareGoogleBigQueryDataSource() *string
 	ShareGoogleCalendarAction() *string
+	ShareGoogleDriveKnowledgeBase() *string
+	ShareGoogleSheetsDataSource() *string
 	ShareHubspotAction() *string
 	ShareHuggingFaceAction() *string
+	ShareIdcKnowledgeBase() *string
+	ShareImpalaDataSource() *string
 	ShareIntercomAction() *string
 	ShareJiraAction() *string
+	ShareJiraDataSource() *string
 	ShareKnowledgeBases() *string
 	ShareLinearAction() *string
+	ShareMariaDbDataSource() *string
 	ShareMcpAction() *string
 	ShareMondayAction() *string
+	ShareMongoAtlasDataSource() *string
+	ShareMongoDbDataSource() *string
 	ShareMsExchangeAction() *string
 	ShareMsTeamsAction() *string
+	ShareMySqlDataSource() *string
 	ShareNewRelicAction() *string
 	ShareNotionAction() *string
 	ShareOneDriveAction() *string
+	ShareOneDriveKnowledgeBase() *string
 	ShareOpenApiAction() *string
+	ShareOpenSearchDataSource() *string
+	ShareOracleDataSource() *string
 	SharePagerDutyAction() *string
+	SharePayPalDataSource() *string
 	SharePointAction() *string
+	SharePointKnowledgeBase() *string
+	SharePostgreSqlDataSource() *string
+	SharePrestoDataSource() *string
+	ShareQBusinessKnowledgeBase() *string
+	ShareRadiantDataSource() *string
+	ShareRdsDataSource() *string
+	ShareRedshiftAutoDiscoveredDataSource() *string
+	ShareRedshiftManualDataSource() *string
+	ShareS3AnalyticsDataSource() *string
+	ShareS3DataSource() *string
+	ShareS3KnowledgeBase() *string
+	ShareS3TablesDataSource() *string
 	ShareSalesforceAction() *string
+	ShareSalesforceDataSource() *string
 	ShareSandPGlobalEnergyAction() *string
 	ShareSandPgmiAction() *string
 	ShareSapBillOfMaterialAction() *string
 	ShareSapBusinessPartnerAction() *string
+	ShareSapHanaDataSource() *string
 	ShareSapMaterialStockAction() *string
 	ShareSapPhysicalInventoryAction() *string
 	ShareSapProductMasterDataAction() *string
 	ShareServiceNowAction() *string
+	ShareServiceNowDataSource() *string
 	ShareSharePointAction() *string
+	ShareSharePointKnowledgeBase() *string
 	ShareSlackAction() *string
 	ShareSmartsheetAction() *string
+	ShareSnowflakeDataSource() *string
 	ShareSpaces() *string
+	ShareSparkDataSource() *string
+	ShareSqlServerDataSource() *string
+	ShareSquareDataSource() *string
+	ShareStarburstDataSource() *string
+	ShareTeradataDataSource() *string
 	ShareTextractAction() *string
+	ShareTimestreamDataSource() *string
+	ShareTrinoDataSource() *string
+	ShareTwitterDataSource() *string
+	ShareWebCrawlerKnowledgeBase() *string
 	ShareZendeskAction() *string
 	SlackAction() *string
 	SmartsheetAction() *string
+	SnowflakeDataSource() *string
 	Space() *string
+	SparkDataSource() *string
+	SqlServerDataSource() *string
+	SquareDataSource() *string
+	StarburstDataSource() *string
 	SubscribeDashboardEmailReports() *string
+	TeradataDataSource() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -218,7 +382,56 @@ type DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference interface {
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TextractAction() *string
+	TimestreamDataSource() *string
 	Topic() *string
+	Trigger() *string
+	TrinoDataSource() *string
+	TwitterDataSource() *string
+	UpdateAdobeAnalyticsDataSource() *string
+	UpdateAthenaDataSource() *string
+	UpdateAuroraDataSource() *string
+	UpdateDatabricksDataSource() *string
+	UpdateDb2DataSource() *string
+	UpdateDenodoDataSource() *string
+	UpdateDocumentDbDataSource() *string
+	UpdateDremioDataSource() *string
+	UpdateDynamoDbDataSource() *string
+	UpdateExasolDataSource() *string
+	UpdateFileDataSource() *string
+	UpdateGitHubDataSource() *string
+	UpdateGoogleAnalyticsDataSource() *string
+	UpdateGoogleBigQueryDataSource() *string
+	UpdateGoogleSheetsDataSource() *string
+	UpdateImpalaDataSource() *string
+	UpdateJiraDataSource() *string
+	UpdateMariaDbDataSource() *string
+	UpdateMongoAtlasDataSource() *string
+	UpdateMongoDbDataSource() *string
+	UpdateMySqlDataSource() *string
+	UpdateOpenSearchDataSource() *string
+	UpdateOracleDataSource() *string
+	UpdatePayPalDataSource() *string
+	UpdatePostgreSqlDataSource() *string
+	UpdatePrestoDataSource() *string
+	UpdateRadiantDataSource() *string
+	UpdateRdsDataSource() *string
+	UpdateRedshiftAutoDiscoveredDataSource() *string
+	UpdateRedshiftManualDataSource() *string
+	UpdateS3AnalyticsDataSource() *string
+	UpdateS3DataSource() *string
+	UpdateS3TablesDataSource() *string
+	UpdateSalesforceDataSource() *string
+	UpdateSapHanaDataSource() *string
+	UpdateServiceNowDataSource() *string
+	UpdateSnowflakeDataSource() *string
+	UpdateSparkDataSource() *string
+	UpdateSqlServerDataSource() *string
+	UpdateSquareDataSource() *string
+	UpdateStarburstDataSource() *string
+	UpdateTeradataDataSource() *string
+	UpdateTimestreamDataSource() *string
+	UpdateTrinoDataSource() *string
+	UpdateTwitterDataSource() *string
 	UseAgentWebSearch() *string
 	UseAmazonBedrockArsAction() *string
 	UseAmazonBedrockFsAction() *string
@@ -226,18 +439,25 @@ type DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference interface {
 	UseAmazonSThreeAction() *string
 	UseAsanaAction() *string
 	UseBambooHrAction() *string
+	UseBedrockManagedKnowledgeBase() *string
 	UseBedrockModels() *string
 	UseBoxAgentAction() *string
+	UseBoxKnowledgeBase() *string
+	UseBrowserExtension() *string
 	UseCanvaAgentAction() *string
 	UseComprehendAction() *string
 	UseComprehendMedicalAction() *string
 	UseConfluenceAction() *string
+	UseConfluenceKnowledgeBase() *string
+	UseExcelAddInExtension() *string
 	UseFactSetAction() *string
 	UseGenericHttpAction() *string
 	UseGithubAction() *string
 	UseGoogleCalendarAction() *string
+	UseGoogleDriveKnowledgeBase() *string
 	UseHubspotAction() *string
 	UseHuggingFaceAction() *string
+	UseIdcKnowledgeBase() *string
 	UseIntercomAction() *string
 	UseJiraAction() *string
 	UseLinearAction() *string
@@ -248,8 +468,13 @@ type DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference interface {
 	UseNewRelicAction() *string
 	UseNotionAction() *string
 	UseOneDriveAction() *string
+	UseOneDriveKnowledgeBase() *string
 	UseOpenApiAction() *string
+	UseOutlookAddInExtension() *string
 	UsePagerDutyAction() *string
+	UsePowerpointAddInExtension() *string
+	UseQBusinessKnowledgeBase() *string
+	UseS3KnowledgeBase() *string
 	UseSalesforceAction() *string
 	UseSandPGlobalEnergyAction() *string
 	UseSandPgmiAction() *string
@@ -260,11 +485,15 @@ type DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference interface {
 	UseSapProductMasterDataAction() *string
 	UseServiceNowAction() *string
 	UseSharePointAction() *string
+	UseSharePointKnowledgeBase() *string
 	UseSlackAction() *string
 	UseSmartsheetAction() *string
 	UseTextractAction() *string
+	UseWebCrawlerKnowledgeBase() *string
+	UseWordAddInExtension() *string
 	UseZendeskAction() *string
 	ViewAccountSpiceCapacity() *string
+	WebCrawlerKnowledgeBase() *string
 	ZendeskAction() *string
 	// Experimental.
 	ComputeFqn() *string
@@ -330,6 +559,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	_jsii_.Get(
 		j,
 		"addOrRunAnomalyDetectionForAnalyses",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) AdobeAnalyticsDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"adobeAnalyticsDataSource",
 		&returns,
 	)
 	return returns
@@ -415,6 +654,26 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) AthenaDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"athenaDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) AuroraDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"auroraDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) Automate() *string {
 	var returns *string
 	_jsii_.Get(
@@ -435,11 +694,31 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) BedrockManagedKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bedrockManagedKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) BoxAgentAction() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"boxAgentAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) BoxKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"boxKnowledgeBase",
 		&returns,
 	)
 	return returns
@@ -525,6 +804,26 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ConfluenceKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"confluenceKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateAdobeAnalyticsDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createAdobeAnalyticsDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateAndUpdateAmazonBedrockArsAction() *string {
 	var returns *string
 	_jsii_.Get(
@@ -595,11 +894,31 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateAndUpdateBedrockManagedKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createAndUpdateBedrockManagedKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateAndUpdateBoxAgentAction() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"createAndUpdateBoxAgentAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateAndUpdateBoxKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createAndUpdateBoxKnowledgeBase",
 		&returns,
 	)
 	return returns
@@ -640,6 +959,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	_jsii_.Get(
 		j,
 		"createAndUpdateConfluenceAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateAndUpdateConfluenceKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createAndUpdateConfluenceKnowledgeBase",
 		&returns,
 	)
 	return returns
@@ -715,6 +1044,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateAndUpdateGoogleDriveKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createAndUpdateGoogleDriveKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateAndUpdateHubspotAction() *string {
 	var returns *string
 	_jsii_.Get(
@@ -730,6 +1069,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	_jsii_.Get(
 		j,
 		"createAndUpdateHuggingFaceAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateAndUpdateIdcKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createAndUpdateIdcKnowledgeBase",
 		&returns,
 	)
 	return returns
@@ -845,6 +1194,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateAndUpdateOneDriveKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createAndUpdateOneDriveKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateAndUpdateOpenApiAction() *string {
 	var returns *string
 	_jsii_.Get(
@@ -860,6 +1219,26 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	_jsii_.Get(
 		j,
 		"createAndUpdatePagerDutyAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateAndUpdateQBusinessKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createAndUpdateQBusinessKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateAndUpdateS3KnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createAndUpdateS3KnowledgeBase",
 		&returns,
 	)
 	return returns
@@ -965,6 +1344,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateAndUpdateSharePointKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createAndUpdateSharePointKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateAndUpdateSlackAction() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1015,11 +1404,41 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateAndUpdateWebCrawlerKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createAndUpdateWebCrawlerKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateAndUpdateZendeskAction() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"createAndUpdateZendeskAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateAthenaDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createAthenaDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateAuroraDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createAuroraDataSource",
 		&returns,
 	)
 	return returns
@@ -1045,11 +1464,351 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateDatabricksDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createDatabricksDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateDb2DataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createDb2DataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateDenodoDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createDenodoDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateDocumentDbDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createDocumentDbDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateDremioDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createDremioDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateDynamoDbDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createDynamoDbDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateExasolDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createExasolDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateFileDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createFileDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateGitHubDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createGitHubDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateGoogleAnalyticsDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createGoogleAnalyticsDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateGoogleBigQueryDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createGoogleBigQueryDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateGoogleSheetsDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createGoogleSheetsDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateImpalaDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createImpalaDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateJiraDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createJiraDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateMariaDbDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createMariaDbDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateMongoAtlasDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createMongoAtlasDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateMongoDbDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createMongoDbDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateMySqlDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createMySqlDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateOpenSearchDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createOpenSearchDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateOracleDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createOracleDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreatePayPalDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createPayPalDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreatePostgreSqlDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createPostgreSqlDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreatePrestoDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createPrestoDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateRadiantDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createRadiantDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateRdsDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createRdsDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateRedshiftAutoDiscoveredDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createRedshiftAutoDiscoveredDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateRedshiftManualDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createRedshiftManualDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateS3AnalyticsDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createS3AnalyticsDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateS3DataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createS3DataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateS3TablesDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createS3TablesDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateSalesforceDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createSalesforceDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateSapHanaDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createSapHanaDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateServiceNowDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createServiceNowDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateSharedFolders() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"createSharedFolders",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateSnowflakeDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createSnowflakeDataSource",
 		&returns,
 	)
 	return returns
@@ -1065,11 +1824,91 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateSparkDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createSparkDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateSpiceDataset() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"createSpiceDataset",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateSqlServerDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createSqlServerDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateSquareDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createSquareDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateStarburstDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createStarburstDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateTeradataDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createTeradataDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateTimestreamDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createTimestreamDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateTrinoDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createTrinoDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) CreateTwitterDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"createTwitterDataSource",
 		&returns,
 	)
 	return returns
@@ -1095,11 +1934,81 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) DatabricksDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"databricksDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) Db2DataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"db2DataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) DenodoDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"denodoDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) DocumentDbDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"documentDbDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) DremioDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dremioDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) DynamoDbDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dynamoDbDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) EditVisualWithQ() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"editVisualWithQ",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ExasolDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"exasolDataSource",
 		&returns,
 	)
 	return returns
@@ -1185,6 +2094,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) FileDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"fileDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) Flow() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1225,11 +2144,61 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) GitHubDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"gitHubDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) GoogleAnalyticsDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"googleAnalyticsDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) GoogleBigQueryDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"googleBigQueryDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) GoogleCalendarAction() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"googleCalendarAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) GoogleDriveKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"googleDriveKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) GoogleSheetsDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"googleSheetsDataSource",
 		&returns,
 	)
 	return returns
@@ -1250,6 +2219,36 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	_jsii_.Get(
 		j,
 		"huggingFaceAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) IdcKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"idcKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ImpalaDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"impalaDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) InboundEmailTrigger() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"inboundEmailTrigger",
 		&returns,
 	)
 	return returns
@@ -1305,6 +2304,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) JiraDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"jiraDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) KnowledgeBase() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1335,6 +2344,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) MariaDbDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"mariaDbDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) McpAction() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1355,6 +2374,26 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) MongoAtlasDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"mongoAtlasDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) MongoDbDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"mongoDbDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) MsExchangeAction() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1370,6 +2409,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	_jsii_.Get(
 		j,
 		"msTeamsAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) MySqlDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"mySqlDataSource",
 		&returns,
 	)
 	return returns
@@ -1405,11 +2454,41 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) OneDriveKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oneDriveKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) OpenApiAction() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"openApiAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) OpenSearchDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"openSearchDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) OracleDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oracleDataSource",
 		&returns,
 	)
 	return returns
@@ -1425,11 +2504,41 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) PayPalDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"payPalDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) PerformFlowUiTask() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"performFlowUiTask",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) PostgreSqlDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"postgreSqlDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) PrestoDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"prestoDataSource",
 		&returns,
 	)
 	return returns
@@ -1455,6 +2564,66 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) QBusinessKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"qBusinessKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) QuickEventTrigger() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"quickEventTrigger",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) RadiantDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"radiantDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) RdsDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rdsDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) RedshiftAutoDiscoveredDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"redshiftAutoDiscoveredDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) RedshiftManualDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"redshiftManualDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) RenameSharedFolders() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1475,11 +2644,61 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) S3AnalyticsDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"s3AnalyticsDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) S3DataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"s3DataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) S3KnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"s3KnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) S3TablesDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"s3TablesDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) SalesforceAction() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"salesforceAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) SalesforceDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"salesforceDataSource",
 		&returns,
 	)
 	return returns
@@ -1525,6 +2744,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) SapHanaDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sapHanaDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) SapMaterialStockAction() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1555,11 +2784,41 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ScheduleTrigger() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"scheduleTrigger",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ServiceNowAction() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"serviceNowAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ServiceNowDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceNowDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareAdobeAnalyticsDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareAdobeAnalyticsDataSource",
 		&returns,
 	)
 	return returns
@@ -1635,6 +2894,26 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareAthenaDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareAthenaDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareAuroraDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareAuroraDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareBambooHrAction() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1645,11 +2924,31 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareBedrockManagedKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareBedrockManagedKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareBoxAgentAction() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"shareBoxAgentAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareBoxKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareBoxKnowledgeBase",
 		&returns,
 	)
 	return returns
@@ -1705,11 +3004,31 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareConfluenceKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareConfluenceKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareDashboards() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"shareDashboards",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareDatabricksDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareDatabricksDataSource",
 		&returns,
 	)
 	return returns
@@ -1735,11 +3054,81 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareDb2DataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareDb2DataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareDenodoDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareDenodoDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareDocumentDbDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareDocumentDbDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareDremioDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareDremioDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareDynamoDbDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareDynamoDbDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareExasolDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareExasolDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareFactSetAction() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"shareFactSetAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareFileDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareFileDataSource",
 		&returns,
 	)
 	return returns
@@ -1765,11 +3154,61 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareGitHubDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareGitHubDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareGoogleAnalyticsDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareGoogleAnalyticsDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareGoogleBigQueryDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareGoogleBigQueryDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareGoogleCalendarAction() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"shareGoogleCalendarAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareGoogleDriveKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareGoogleDriveKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareGoogleSheetsDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareGoogleSheetsDataSource",
 		&returns,
 	)
 	return returns
@@ -1795,6 +3234,26 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareIdcKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareIdcKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareImpalaDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareImpalaDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareIntercomAction() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1810,6 +3269,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	_jsii_.Get(
 		j,
 		"shareJiraAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareJiraDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareJiraDataSource",
 		&returns,
 	)
 	return returns
@@ -1835,6 +3304,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareMariaDbDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareMariaDbDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareMcpAction() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1855,6 +3334,26 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareMongoAtlasDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareMongoAtlasDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareMongoDbDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareMongoDbDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareMsExchangeAction() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1870,6 +3369,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	_jsii_.Get(
 		j,
 		"shareMsTeamsAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareMySqlDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareMySqlDataSource",
 		&returns,
 	)
 	return returns
@@ -1905,11 +3414,41 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareOneDriveKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareOneDriveKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareOpenApiAction() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"shareOpenApiAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareOpenSearchDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareOpenSearchDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareOracleDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareOracleDataSource",
 		&returns,
 	)
 	return returns
@@ -1925,6 +3464,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) SharePayPalDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sharePayPalDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) SharePointAction() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1935,11 +3484,141 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) SharePointKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sharePointKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) SharePostgreSqlDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sharePostgreSqlDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) SharePrestoDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sharePrestoDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareQBusinessKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareQBusinessKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareRadiantDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareRadiantDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareRdsDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareRdsDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareRedshiftAutoDiscoveredDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareRedshiftAutoDiscoveredDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareRedshiftManualDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareRedshiftManualDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareS3AnalyticsDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareS3AnalyticsDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareS3DataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareS3DataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareS3KnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareS3KnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareS3TablesDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareS3TablesDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareSalesforceAction() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"shareSalesforceAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareSalesforceDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareSalesforceDataSource",
 		&returns,
 	)
 	return returns
@@ -1985,6 +3664,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareSapHanaDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareSapHanaDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareSapMaterialStockAction() *string {
 	var returns *string
 	_jsii_.Get(
@@ -2025,11 +3714,31 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareServiceNowDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareServiceNowDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareSharePointAction() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"shareSharePointAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareSharePointKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareSharePointKnowledgeBase",
 		&returns,
 	)
 	return returns
@@ -2055,6 +3764,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareSnowflakeDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareSnowflakeDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareSpaces() *string {
 	var returns *string
 	_jsii_.Get(
@@ -2065,11 +3784,101 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareSparkDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareSparkDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareSqlServerDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareSqlServerDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareSquareDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareSquareDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareStarburstDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareStarburstDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareTeradataDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareTeradataDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareTextractAction() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"shareTextractAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareTimestreamDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareTimestreamDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareTrinoDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareTrinoDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareTwitterDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareTwitterDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) ShareWebCrawlerKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"shareWebCrawlerKnowledgeBase",
 		&returns,
 	)
 	return returns
@@ -2105,6 +3914,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) SnowflakeDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"snowflakeDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) Space() *string {
 	var returns *string
 	_jsii_.Get(
@@ -2115,11 +3934,61 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) SparkDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sparkDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) SqlServerDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sqlServerDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) SquareDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"squareDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) StarburstDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"starburstDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) SubscribeDashboardEmailReports() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"subscribeDashboardEmailReports",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) TeradataDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"teradataDataSource",
 		&returns,
 	)
 	return returns
@@ -2155,11 +4024,501 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) TimestreamDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"timestreamDataSource",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) Topic() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"topic",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) Trigger() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"trigger",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) TrinoDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"trinoDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) TwitterDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"twitterDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateAdobeAnalyticsDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateAdobeAnalyticsDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateAthenaDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateAthenaDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateAuroraDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateAuroraDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateDatabricksDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateDatabricksDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateDb2DataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateDb2DataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateDenodoDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateDenodoDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateDocumentDbDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateDocumentDbDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateDremioDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateDremioDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateDynamoDbDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateDynamoDbDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateExasolDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateExasolDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateFileDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateFileDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateGitHubDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateGitHubDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateGoogleAnalyticsDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateGoogleAnalyticsDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateGoogleBigQueryDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateGoogleBigQueryDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateGoogleSheetsDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateGoogleSheetsDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateImpalaDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateImpalaDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateJiraDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateJiraDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateMariaDbDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateMariaDbDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateMongoAtlasDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateMongoAtlasDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateMongoDbDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateMongoDbDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateMySqlDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateMySqlDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateOpenSearchDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateOpenSearchDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateOracleDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateOracleDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdatePayPalDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updatePayPalDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdatePostgreSqlDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updatePostgreSqlDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdatePrestoDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updatePrestoDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateRadiantDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateRadiantDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateRdsDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateRdsDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateRedshiftAutoDiscoveredDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateRedshiftAutoDiscoveredDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateRedshiftManualDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateRedshiftManualDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateS3AnalyticsDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateS3AnalyticsDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateS3DataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateS3DataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateS3TablesDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateS3TablesDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateSalesforceDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateSalesforceDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateSapHanaDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateSapHanaDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateServiceNowDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateServiceNowDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateSnowflakeDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateSnowflakeDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateSparkDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateSparkDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateSqlServerDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateSqlServerDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateSquareDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateSquareDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateStarburstDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateStarburstDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateTeradataDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateTeradataDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateTimestreamDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateTimestreamDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateTrinoDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateTrinoDataSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UpdateTwitterDataSource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"updateTwitterDataSource",
 		&returns,
 	)
 	return returns
@@ -2235,6 +4594,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UseBedrockManagedKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"useBedrockManagedKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UseBedrockModels() *string {
 	var returns *string
 	_jsii_.Get(
@@ -2250,6 +4619,26 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	_jsii_.Get(
 		j,
 		"useBoxAgentAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UseBoxKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"useBoxKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UseBrowserExtension() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"useBrowserExtension",
 		&returns,
 	)
 	return returns
@@ -2295,6 +4684,26 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UseConfluenceKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"useConfluenceKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UseExcelAddInExtension() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"useExcelAddInExtension",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UseFactSetAction() *string {
 	var returns *string
 	_jsii_.Get(
@@ -2335,6 +4744,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UseGoogleDriveKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"useGoogleDriveKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UseHubspotAction() *string {
 	var returns *string
 	_jsii_.Get(
@@ -2350,6 +4769,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	_jsii_.Get(
 		j,
 		"useHuggingFaceAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UseIdcKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"useIdcKnowledgeBase",
 		&returns,
 	)
 	return returns
@@ -2455,6 +4884,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UseOneDriveKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"useOneDriveKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UseOpenApiAction() *string {
 	var returns *string
 	_jsii_.Get(
@@ -2465,11 +4904,51 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UseOutlookAddInExtension() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"useOutlookAddInExtension",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UsePagerDutyAction() *string {
 	var returns *string
 	_jsii_.Get(
 		j,
 		"usePagerDutyAction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UsePowerpointAddInExtension() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"usePowerpointAddInExtension",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UseQBusinessKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"useQBusinessKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UseS3KnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"useS3KnowledgeBase",
 		&returns,
 	)
 	return returns
@@ -2575,6 +5054,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UseSharePointKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"useSharePointKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UseSlackAction() *string {
 	var returns *string
 	_jsii_.Get(
@@ -2605,6 +5094,26 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UseWebCrawlerKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"useWebCrawlerKnowledgeBase",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UseWordAddInExtension() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"useWordAddInExtension",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) UseZendeskAction() *string {
 	var returns *string
 	_jsii_.Get(
@@ -2620,6 +5129,16 @@ func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReferen
 	_jsii_.Get(
 		j,
 		"viewAccountSpiceCapacity",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccQuicksightCustomPermissionsCapabilitiesOutputReference) WebCrawlerKnowledgeBase() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"webCrawlerKnowledgeBase",
 		&returns,
 	)
 	return returns

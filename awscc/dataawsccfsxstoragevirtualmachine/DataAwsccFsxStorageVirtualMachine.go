@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_storage_virtual_machine awscc_fsx_storage_virtual_machine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/fsx_storage_virtual_machine awscc_fsx_storage_virtual_machine}.
 type DataAwsccFsxStorageVirtualMachine interface {
 	cdktn.TerraformDataSource
 	ActiveDirectoryConfiguration() DataAwsccFsxStorageVirtualMachineActiveDirectoryConfigurationOutputReference
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataAwsccFsxStorageVirtualMachine) Uuid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_storage_virtual_machine awscc_fsx_storage_virtual_machine} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/fsx_storage_virtual_machine awscc_fsx_storage_virtual_machine} Data Source.
 func NewDataAwsccFsxStorageVirtualMachine(scope constructs.Construct, id *string, config *DataAwsccFsxStorageVirtualMachineConfig) DataAwsccFsxStorageVirtualMachine {
 	_init_.Initialize()
 
@@ -403,7 +403,7 @@ func NewDataAwsccFsxStorageVirtualMachine(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_storage_virtual_machine awscc_fsx_storage_virtual_machine} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/fsx_storage_virtual_machine awscc_fsx_storage_virtual_machine} Data Source.
 func NewDataAwsccFsxStorageVirtualMachine_Override(d DataAwsccFsxStorageVirtualMachine, scope constructs.Construct, id *string, config *DataAwsccFsxStorageVirtualMachineConfig) {
 	_init_.Initialize()
 

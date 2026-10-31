@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/polly_lexicon awscc_polly_lexicon}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/polly_lexicon awscc_polly_lexicon}.
 type PollyLexicon interface {
 	cdktn.TerraformResource
 	Alphabet() *string
@@ -467,7 +467,7 @@ func (j *jsiiProxy_PollyLexicon) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/polly_lexicon awscc_polly_lexicon} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/polly_lexicon awscc_polly_lexicon} Resource.
 func NewPollyLexicon(scope constructs.Construct, id *string, config *PollyLexiconConfig) PollyLexicon {
 	_init_.Initialize()
 
@@ -485,7 +485,7 @@ func NewPollyLexicon(scope constructs.Construct, id *string, config *PollyLexico
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/polly_lexicon awscc_polly_lexicon} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/polly_lexicon awscc_polly_lexicon} Resource.
 func NewPollyLexicon_Override(p PollyLexicon, scope constructs.Construct, id *string, config *PollyLexiconConfig) {
 	_init_.Initialize()
 

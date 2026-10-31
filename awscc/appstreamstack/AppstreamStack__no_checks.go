@@ -179,6 +179,10 @@ func (j *jsiiProxy_AppstreamStack) validateSetRedirectUrlParameters(val *string)
 	return nil
 }
 
+func (j *jsiiProxy_AppstreamStack) validateSetStorageConnectorAuthenticationParameters(val *string) error {
+	return nil
+}
+
 func validateNewAppstreamStackParameters(scope constructs.Construct, id *string, config *AppstreamStackConfig) error {
 	return nil
 }

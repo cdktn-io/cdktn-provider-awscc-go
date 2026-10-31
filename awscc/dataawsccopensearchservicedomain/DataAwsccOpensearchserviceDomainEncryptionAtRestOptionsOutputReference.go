@@ -29,6 +29,7 @@ type DataAwsccOpensearchserviceDomainEncryptionAtRestOptionsOutputReference inte
 	// Experimental.
 	CreationStack() *[]*string
 	Enabled() cdktn.IResolvable
+	EncryptionMode() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAwsccOpensearchserviceDomainEncryptionAtRestOptions
@@ -116,6 +117,16 @@ func (j *jsiiProxy_DataAwsccOpensearchserviceDomainEncryptionAtRestOptionsOutput
 	_jsii_.Get(
 		j,
 		"enabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccOpensearchserviceDomainEncryptionAtRestOptionsOutputReference) EncryptionMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"encryptionMode",
 		&returns,
 	)
 	return returns

@@ -53,6 +53,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "redirectUrl", GoGetter: "RedirectUrl"},
 			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "storageConnectorAuthentication", GoGetter: "StorageConnectorAuthentication"},
 			_jsii_.MemberProperty{JsiiProperty: "storageConnectors", GoGetter: "StorageConnectors"},
 			_jsii_.MemberProperty{JsiiProperty: "streamingExperienceSettings", GoGetter: "StreamingExperienceSettings"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},

@@ -39,6 +39,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "deploymentInput", GoGetter: "DeploymentInput"},
 			_jsii_.MemberProperty{JsiiProperty: "deploymentStyle", GoGetter: "DeploymentStyle"},
 			_jsii_.MemberProperty{JsiiProperty: "deploymentStyleInput", GoGetter: "DeploymentStyleInput"},
+			_jsii_.MemberProperty{JsiiProperty: "ec2DeploymentOptions", GoGetter: "Ec2DeploymentOptions"},
+			_jsii_.MemberProperty{JsiiProperty: "ec2DeploymentOptionsInput", GoGetter: "Ec2DeploymentOptionsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "ec2TagFilters", GoGetter: "Ec2TagFilters"},
 			_jsii_.MemberProperty{JsiiProperty: "ec2TagFiltersInput", GoGetter: "Ec2TagFiltersInput"},
 			_jsii_.MemberProperty{JsiiProperty: "ec2TagSet", GoGetter: "Ec2TagSet"},
@@ -83,6 +85,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putBlueGreenDeploymentConfiguration", GoMethod: "PutBlueGreenDeploymentConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putDeployment", GoMethod: "PutDeployment"},
 			_jsii_.MemberMethod{JsiiMethod: "putDeploymentStyle", GoMethod: "PutDeploymentStyle"},
+			_jsii_.MemberMethod{JsiiMethod: "putEc2DeploymentOptions", GoMethod: "PutEc2DeploymentOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "putEc2TagFilters", GoMethod: "PutEc2TagFilters"},
 			_jsii_.MemberMethod{JsiiMethod: "putEc2TagSet", GoMethod: "PutEc2TagSet"},
 			_jsii_.MemberMethod{JsiiMethod: "putEcsServices", GoMethod: "PutEcsServices"},
@@ -101,6 +104,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetDeploymentConfigName", GoMethod: "ResetDeploymentConfigName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDeploymentGroupName", GoMethod: "ResetDeploymentGroupName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDeploymentStyle", GoMethod: "ResetDeploymentStyle"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEc2DeploymentOptions", GoMethod: "ResetEc2DeploymentOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEc2TagFilters", GoMethod: "ResetEc2TagFilters"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEc2TagSet", GoMethod: "ResetEc2TagSet"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEcsServices", GoMethod: "ResetEcsServices"},
@@ -685,6 +689,45 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_CodedeployDeploymentGroupDeploymentStyleOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptions",
+		reflect.TypeOf((*CodedeployDeploymentGroupEc2DeploymentOptions)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-awscc.codedeployDeploymentGroup.CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference",
+		reflect.TypeOf((*CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "autoScalingGroupProcessesToSuspend", GoGetter: "AutoScalingGroupProcessesToSuspend"},
+			_jsii_.MemberProperty{JsiiProperty: "autoScalingGroupProcessesToSuspendInput", GoGetter: "AutoScalingGroupProcessesToSuspendInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAutoScalingGroupProcessesToSuspend", GoMethod: "ResetAutoScalingGroupProcessesToSuspend"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_CodedeployDeploymentGroupEc2DeploymentOptionsOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

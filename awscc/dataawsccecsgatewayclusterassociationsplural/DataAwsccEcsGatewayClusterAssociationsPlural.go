@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_gateway_cluster_associations_plural awscc_ecs_gateway_cluster_associations_plural}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ecs_gateway_cluster_associations_plural awscc_ecs_gateway_cluster_associations_plural}.
 type DataAwsccEcsGatewayClusterAssociationsPlural interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEcsGatewayClusterAssociationsPlural) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_gateway_cluster_associations_plural awscc_ecs_gateway_cluster_associations_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ecs_gateway_cluster_associations_plural awscc_ecs_gateway_cluster_associations_plural} Data Source.
 func NewDataAwsccEcsGatewayClusterAssociationsPlural(scope constructs.Construct, id *string, config *DataAwsccEcsGatewayClusterAssociationsPluralConfig) DataAwsccEcsGatewayClusterAssociationsPlural {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEcsGatewayClusterAssociationsPlural(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ecs_gateway_cluster_associations_plural awscc_ecs_gateway_cluster_associations_plural} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ecs_gateway_cluster_associations_plural awscc_ecs_gateway_cluster_associations_plural} Data Source.
 func NewDataAwsccEcsGatewayClusterAssociationsPlural_Override(d DataAwsccEcsGatewayClusterAssociationsPlural, scope constructs.Construct, id *string, config *DataAwsccEcsGatewayClusterAssociationsPluralConfig) {
 	_init_.Initialize()
 

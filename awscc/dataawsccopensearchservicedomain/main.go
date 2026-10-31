@@ -14,6 +14,7 @@ func init() {
 		"@cdktn/provider-awscc.dataAwsccOpensearchserviceDomain.DataAwsccOpensearchserviceDomain",
 		reflect.TypeOf((*DataAwsccOpensearchserviceDomain)(nil)).Elem(),
 		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "acceptedWarnings", GoGetter: "AcceptedWarnings"},
 			_jsii_.MemberProperty{JsiiProperty: "accessPolicies", GoGetter: "AccessPolicies"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "advancedOptions", GoGetter: "AdvancedOptions"},
@@ -881,6 +882,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
 			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
 			_jsii_.MemberProperty{JsiiProperty: "enabled", GoGetter: "Enabled"},
+			_jsii_.MemberProperty{JsiiProperty: "encryptionMode", GoGetter: "EncryptionMode"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
 			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},

@@ -24,25 +24,25 @@ type Ec2IpamInternetRegistryAssociationConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The ID of the IPAM to associate with the internet registry.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_internet_registry_association#ipam_id Ec2IpamInternetRegistryAssociation#ipam_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association#ipam_id Ec2IpamInternetRegistryAssociation#ipam_id}
 	IpamId *string `field:"required" json:"ipamId" yaml:"ipamId"`
 	// The organization handle at the internet registry (for example, a RIPE NCC organization ID or ARIN Org ID).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_internet_registry_association#organization_handle Ec2IpamInternetRegistryAssociation#organization_handle}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association#organization_handle Ec2IpamInternetRegistryAssociation#organization_handle}
 	OrganizationHandle *string `field:"required" json:"organizationHandle" yaml:"organizationHandle"`
 	// The Regional Internet Registry to associate with.
 	//
 	// The service returns these values in upper case, so the enum uses the round-tripping form.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_internet_registry_association#rir Ec2IpamInternetRegistryAssociation#rir}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association#rir Ec2IpamInternetRegistryAssociation#rir}
 	Rir *string `field:"required" json:"rir" yaml:"rir"`
 	// A description for the internet registry association.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_internet_registry_association#description Ec2IpamInternetRegistryAssociation#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association#description Ec2IpamInternetRegistryAssociation#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The tags assigned to the internet registry association.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_internet_registry_association#tags Ec2IpamInternetRegistryAssociation#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association#tags Ec2IpamInternetRegistryAssociation#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

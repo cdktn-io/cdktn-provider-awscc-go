@@ -7,7 +7,7 @@ package ecsgateway
 type EcsGatewayConfigurationHostSharedAlbAccessLogs struct {
 	// The destination for gateway ALB access logs. Exactly one destination type must be specified.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_gateway#destination EcsGateway#destination}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_gateway#destination EcsGateway#destination}
 	Destination *EcsGatewayConfigurationHostSharedAlbAccessLogsDestination `field:"optional" json:"destination" yaml:"destination"`
 }
 

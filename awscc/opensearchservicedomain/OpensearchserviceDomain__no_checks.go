@@ -167,6 +167,10 @@ func validateOpensearchserviceDomain_IsTerraformResourceParameters(x interface{}
 	return nil
 }
 
+func (j *jsiiProxy_OpensearchserviceDomain) validateSetAcceptedWarningsParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_OpensearchserviceDomain) validateSetAccessPoliciesParameters(val *string) error {
 	return nil
 }

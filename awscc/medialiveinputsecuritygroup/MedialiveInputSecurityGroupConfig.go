@@ -24,11 +24,11 @@ type MedialiveInputSecurityGroupConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A collection of key-value pairs.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_input_security_group#tags MedialiveInputSecurityGroup#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/medialive_input_security_group#tags MedialiveInputSecurityGroup#tags}
 	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
 	// Whitelist rules and their sync status.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_input_security_group#whitelist_rules MedialiveInputSecurityGroup#whitelist_rules}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/medialive_input_security_group#whitelist_rules MedialiveInputSecurityGroup#whitelist_rules}
 	WhitelistRules interface{} `field:"optional" json:"whitelistRules" yaml:"whitelistRules"`
 }
 

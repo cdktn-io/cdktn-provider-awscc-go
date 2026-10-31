@@ -26,23 +26,23 @@ type BedrockRetrievalInstructionConfig struct {
 	//
 	// what AgenticRetrieveStream resolves while status is ACTIVE. Absent until the first create review passes. Always present on a numbered version.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#instruction BedrockRetrievalInstruction#instruction}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#instruction BedrockRetrievalInstruction#instruction}
 	Instruction *BedrockRetrievalInstructionInstruction `field:"required" json:"instruction" yaml:"instruction"`
 	// The name of the retrieval instruction.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#name BedrockRetrievalInstruction#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#name BedrockRetrievalInstruction#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The ARN of the customer managed KMS key protecting this content, when one was supplied at create.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#customer_encryption_key_arn BedrockRetrievalInstruction#customer_encryption_key_arn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#customer_encryption_key_arn BedrockRetrievalInstruction#customer_encryption_key_arn}
 	CustomerEncryptionKeyArn *string `field:"optional" json:"customerEncryptionKeyArn" yaml:"customerEncryptionKeyArn"`
 	// A description of the retrieval instruction. On a numbered version, the description of that version.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#description BedrockRetrievalInstruction#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#description BedrockRetrievalInstruction#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// An array of key-value pairs to apply to this resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/bedrock_retrieval_instruction#tags BedrockRetrievalInstruction#tags}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/bedrock_retrieval_instruction#tags BedrockRetrievalInstruction#tags}
 	Tags interface{} `field:"optional" json:"tags" yaml:"tags"`
 }
 

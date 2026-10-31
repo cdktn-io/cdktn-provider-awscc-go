@@ -12,9 +12,10 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opensearchservice_domain awscc_opensearchservice_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/opensearchservice_domain awscc_opensearchservice_domain}.
 type DataAwsccOpensearchserviceDomain interface {
 	cdktn.TerraformDataSource
+	AcceptedWarnings() *[]*string
 	AccessPolicies() *string
 	AdvancedOptions() cdktn.StringMap
 	AdvancedSecurityOptions() DataAwsccOpensearchserviceDomainAdvancedSecurityOptionsOutputReference
@@ -155,6 +156,16 @@ type DataAwsccOpensearchserviceDomain interface {
 // The jsii proxy struct for DataAwsccOpensearchserviceDomain
 type jsiiProxy_DataAwsccOpensearchserviceDomain struct {
 	internal.Type__cdktnTerraformDataSource
+}
+
+func (j *jsiiProxy_DataAwsccOpensearchserviceDomain) AcceptedWarnings() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"acceptedWarnings",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataAwsccOpensearchserviceDomain) AccessPolicies() *string {
@@ -638,7 +649,7 @@ func (j *jsiiProxy_DataAwsccOpensearchserviceDomain) VpcOptions() DataAwsccOpens
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opensearchservice_domain awscc_opensearchservice_domain} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/opensearchservice_domain awscc_opensearchservice_domain} Data Source.
 func NewDataAwsccOpensearchserviceDomain(scope constructs.Construct, id *string, config *DataAwsccOpensearchserviceDomainConfig) DataAwsccOpensearchserviceDomain {
 	_init_.Initialize()
 
@@ -656,7 +667,7 @@ func NewDataAwsccOpensearchserviceDomain(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/opensearchservice_domain awscc_opensearchservice_domain} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/opensearchservice_domain awscc_opensearchservice_domain} Data Source.
 func NewDataAwsccOpensearchserviceDomain_Override(d DataAwsccOpensearchserviceDomain, scope constructs.Construct, id *string, config *DataAwsccOpensearchserviceDomainConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codedeploy_deployment_group awscc_codedeploy_deployment_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/codedeploy_deployment_group awscc_codedeploy_deployment_group}.
 type DataAwsccCodedeployDeploymentGroup interface {
 	cdktn.TerraformDataSource
 	AlarmConfiguration() DataAwsccCodedeployDeploymentGroupAlarmConfigurationOutputReference
@@ -36,6 +36,7 @@ type DataAwsccCodedeployDeploymentGroup interface {
 	DeploymentConfigName() *string
 	DeploymentGroupName() *string
 	DeploymentStyle() DataAwsccCodedeployDeploymentGroupDeploymentStyleOutputReference
+	Ec2DeploymentOptions() DataAwsccCodedeployDeploymentGroupEc2DeploymentOptionsOutputReference
 	Ec2TagFilters() DataAwsccCodedeployDeploymentGroupEc2TagFiltersList
 	Ec2TagSet() DataAwsccCodedeployDeploymentGroupEc2TagSetOutputReference
 	EcsServices() DataAwsccCodedeployDeploymentGroupEcsServicesList
@@ -275,6 +276,16 @@ func (j *jsiiProxy_DataAwsccCodedeployDeploymentGroup) DeploymentStyle() DataAws
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccCodedeployDeploymentGroup) Ec2DeploymentOptions() DataAwsccCodedeployDeploymentGroupEc2DeploymentOptionsOutputReference {
+	var returns DataAwsccCodedeployDeploymentGroupEc2DeploymentOptionsOutputReference
+	_jsii_.Get(
+		j,
+		"ec2DeploymentOptions",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccCodedeployDeploymentGroup) Ec2TagFilters() DataAwsccCodedeployDeploymentGroupEc2TagFiltersList {
 	var returns DataAwsccCodedeployDeploymentGroupEc2TagFiltersList
 	_jsii_.Get(
@@ -506,7 +517,7 @@ func (j *jsiiProxy_DataAwsccCodedeployDeploymentGroup) TriggerConfigurations() D
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codedeploy_deployment_group awscc_codedeploy_deployment_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/codedeploy_deployment_group awscc_codedeploy_deployment_group} Data Source.
 func NewDataAwsccCodedeployDeploymentGroup(scope constructs.Construct, id *string, config *DataAwsccCodedeployDeploymentGroupConfig) DataAwsccCodedeployDeploymentGroup {
 	_init_.Initialize()
 
@@ -524,7 +535,7 @@ func NewDataAwsccCodedeployDeploymentGroup(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/codedeploy_deployment_group awscc_codedeploy_deployment_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/codedeploy_deployment_group awscc_codedeploy_deployment_group} Data Source.
 func NewDataAwsccCodedeployDeploymentGroup_Override(d DataAwsccCodedeployDeploymentGroup, scope constructs.Construct, id *string, config *DataAwsccCodedeployDeploymentGroupConfig) {
 	_init_.Initialize()
 

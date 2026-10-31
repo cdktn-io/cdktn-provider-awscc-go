@@ -12,9 +12,12 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchservice_domain awscc_opensearchservice_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/opensearchservice_domain awscc_opensearchservice_domain}.
 type OpensearchserviceDomain interface {
 	cdktn.TerraformResource
+	AcceptedWarnings() *[]*string
+	SetAcceptedWarnings(val *[]*string)
+	AcceptedWarningsInput() *[]*string
 	AccessPolicies() *string
 	SetAccessPolicies(val *string)
 	AccessPoliciesInput() *string
@@ -236,6 +239,7 @@ type OpensearchserviceDomain interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetAcceptedWarnings()
 	ResetAccessPolicies()
 	ResetAdvancedOptions()
 	ResetAdvancedSecurityOptions()
@@ -289,6 +293,26 @@ type OpensearchserviceDomain interface {
 // The jsii proxy struct for OpensearchserviceDomain
 type jsiiProxy_OpensearchserviceDomain struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_OpensearchserviceDomain) AcceptedWarnings() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"acceptedWarnings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OpensearchserviceDomain) AcceptedWarningsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"acceptedWarningsInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_OpensearchserviceDomain) AccessPolicies() *string {
@@ -1032,7 +1056,7 @@ func (j *jsiiProxy_OpensearchserviceDomain) VpcOptionsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchservice_domain awscc_opensearchservice_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/opensearchservice_domain awscc_opensearchservice_domain} Resource.
 func NewOpensearchserviceDomain(scope constructs.Construct, id *string, config *OpensearchserviceDomainConfig) OpensearchserviceDomain {
 	_init_.Initialize()
 
@@ -1050,7 +1074,7 @@ func NewOpensearchserviceDomain(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/opensearchservice_domain awscc_opensearchservice_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/opensearchservice_domain awscc_opensearchservice_domain} Resource.
 func NewOpensearchserviceDomain_Override(o OpensearchserviceDomain, scope constructs.Construct, id *string, config *OpensearchserviceDomainConfig) {
 	_init_.Initialize()
 
@@ -1058,6 +1082,17 @@ func NewOpensearchserviceDomain_Override(o OpensearchserviceDomain, scope constr
 		"@cdktn/provider-awscc.opensearchserviceDomain.OpensearchserviceDomain",
 		[]interface{}{scope, id, config},
 		o,
+	)
+}
+
+func (j *jsiiProxy_OpensearchserviceDomain)SetAcceptedWarnings(val *[]*string) {
+	if err := j.validateSetAcceptedWarningsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"acceptedWarnings",
+		val,
 	)
 }
 
@@ -1781,6 +1816,14 @@ func (o *jsiiProxy_OpensearchserviceDomain) RegisterProviderFeatureUsage(feature
 		o,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (o *jsiiProxy_OpensearchserviceDomain) ResetAcceptedWarnings() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetAcceptedWarnings",
+		nil, // no parameters
 	)
 }
 

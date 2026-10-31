@@ -63,6 +63,10 @@ func (j *jsiiProxy_OpensearchserviceDomainEncryptionAtRestOptionsOutputReference
 	return nil
 }
 
+func (j *jsiiProxy_OpensearchserviceDomainEncryptionAtRestOptionsOutputReference) validateSetEncryptionModeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_OpensearchserviceDomainEncryptionAtRestOptionsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	return nil
 }

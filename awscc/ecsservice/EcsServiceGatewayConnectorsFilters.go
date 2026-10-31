@@ -5,7 +5,7 @@ package ecsservice
 
 
 type EcsServiceGatewayConnectorsFilters struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service#access_types EcsService#access_types}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_service#access_types EcsService#access_types}.
 	AccessTypes *[]*string `field:"optional" json:"accessTypes" yaml:"accessTypes"`
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_snapshot awscc_fsx_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/fsx_snapshot awscc_fsx_snapshot}.
 type DataAwsccFsxSnapshot interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -341,7 +341,7 @@ func (j *jsiiProxy_DataAwsccFsxSnapshot) VolumeId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_snapshot awscc_fsx_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/fsx_snapshot awscc_fsx_snapshot} Data Source.
 func NewDataAwsccFsxSnapshot(scope constructs.Construct, id *string, config *DataAwsccFsxSnapshotConfig) DataAwsccFsxSnapshot {
 	_init_.Initialize()
 
@@ -359,7 +359,7 @@ func NewDataAwsccFsxSnapshot(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/fsx_snapshot awscc_fsx_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/fsx_snapshot awscc_fsx_snapshot} Data Source.
 func NewDataAwsccFsxSnapshot_Override(d DataAwsccFsxSnapshot, scope constructs.Construct, id *string, config *DataAwsccFsxSnapshotConfig) {
 	_init_.Initialize()
 

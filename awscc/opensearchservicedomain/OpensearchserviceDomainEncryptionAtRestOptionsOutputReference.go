@@ -31,6 +31,9 @@ type OpensearchserviceDomainEncryptionAtRestOptionsOutputReference interface {
 	Enabled() interface{}
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
+	EncryptionMode() *string
+	SetEncryptionMode(val *string)
+	EncryptionModeInput() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -71,6 +74,7 @@ type OpensearchserviceDomainEncryptionAtRestOptionsOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetEnabled()
+	ResetEncryptionMode()
 	ResetKmsKeyId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -132,6 +136,26 @@ func (j *jsiiProxy_OpensearchserviceDomainEncryptionAtRestOptionsOutputReference
 	_jsii_.Get(
 		j,
 		"enabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OpensearchserviceDomainEncryptionAtRestOptionsOutputReference) EncryptionMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"encryptionMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OpensearchserviceDomainEncryptionAtRestOptionsOutputReference) EncryptionModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"encryptionModeInput",
 		&returns,
 	)
 	return returns
@@ -254,6 +278,17 @@ func (j *jsiiProxy_OpensearchserviceDomainEncryptionAtRestOptionsOutputReference
 	_jsii_.Set(
 		j,
 		"enabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OpensearchserviceDomainEncryptionAtRestOptionsOutputReference)SetEncryptionMode(val *string) {
+	if err := j.validateSetEncryptionModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"encryptionMode",
 		val,
 	)
 }
@@ -492,6 +527,14 @@ func (o *jsiiProxy_OpensearchserviceDomainEncryptionAtRestOptionsOutputReference
 	_jsii_.InvokeVoid(
 		o,
 		"resetEnabled",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OpensearchserviceDomainEncryptionAtRestOptionsOutputReference) ResetEncryptionMode() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetEncryptionMode",
 		nil, // no parameters
 	)
 }

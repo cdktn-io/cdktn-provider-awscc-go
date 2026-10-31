@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_composite_alarm awscc_cloudwatch_composite_alarm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_composite_alarm awscc_cloudwatch_composite_alarm}.
 type CloudwatchCompositeAlarm interface {
 	cdktn.TerraformResource
 	ActionConfiguration() CloudwatchCompositeAlarmActionConfigurationOutputReference
@@ -653,7 +653,7 @@ func (j *jsiiProxy_CloudwatchCompositeAlarm) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_composite_alarm awscc_cloudwatch_composite_alarm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_composite_alarm awscc_cloudwatch_composite_alarm} Resource.
 func NewCloudwatchCompositeAlarm(scope constructs.Construct, id *string, config *CloudwatchCompositeAlarmConfig) CloudwatchCompositeAlarm {
 	_init_.Initialize()
 
@@ -671,7 +671,7 @@ func NewCloudwatchCompositeAlarm(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudwatch_composite_alarm awscc_cloudwatch_composite_alarm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudwatch_composite_alarm awscc_cloudwatch_composite_alarm} Resource.
 func NewCloudwatchCompositeAlarm_Override(c CloudwatchCompositeAlarm, scope constructs.Construct, id *string, config *CloudwatchCompositeAlarmConfig) {
 	_init_.Initialize()
 

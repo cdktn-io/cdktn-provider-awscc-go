@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service awscc_ecs_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_service awscc_ecs_service}.
 type EcsService interface {
 	cdktn.TerraformResource
 	AvailabilityZoneRebalancing() *string
@@ -1049,7 +1049,7 @@ func (j *jsiiProxy_EcsService) VpcLatticeConfigurationsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service awscc_ecs_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_service awscc_ecs_service} Resource.
 func NewEcsService(scope constructs.Construct, id *string, config *EcsServiceConfig) EcsService {
 	_init_.Initialize()
 
@@ -1067,7 +1067,7 @@ func NewEcsService(scope constructs.Construct, id *string, config *EcsServiceCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ecs_service awscc_ecs_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ecs_service awscc_ecs_service} Resource.
 func NewEcsService_Override(e EcsService, scope constructs.Construct, id *string, config *EcsServiceConfig) {
 	_init_.Initialize()
 

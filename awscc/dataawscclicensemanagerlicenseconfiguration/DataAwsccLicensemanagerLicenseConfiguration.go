@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanager_license_configuration awscc_licensemanager_license_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/licensemanager_license_configuration awscc_licensemanager_license_configuration}.
 type DataAwsccLicensemanagerLicenseConfiguration interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -440,7 +440,7 @@ func (j *jsiiProxy_DataAwsccLicensemanagerLicenseConfiguration) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanager_license_configuration awscc_licensemanager_license_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/licensemanager_license_configuration awscc_licensemanager_license_configuration} Data Source.
 func NewDataAwsccLicensemanagerLicenseConfiguration(scope constructs.Construct, id *string, config *DataAwsccLicensemanagerLicenseConfigurationConfig) DataAwsccLicensemanagerLicenseConfiguration {
 	_init_.Initialize()
 
@@ -458,7 +458,7 @@ func NewDataAwsccLicensemanagerLicenseConfiguration(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/licensemanager_license_configuration awscc_licensemanager_license_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/licensemanager_license_configuration awscc_licensemanager_license_configuration} Data Source.
 func NewDataAwsccLicensemanagerLicenseConfiguration_Override(d DataAwsccLicensemanagerLicenseConfiguration, scope constructs.Construct, id *string, config *DataAwsccLicensemanagerLicenseConfigurationConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_input_security_group awscc_medialive_input_security_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/medialive_input_security_group awscc_medialive_input_security_group}.
 type MedialiveInputSecurityGroup interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_MedialiveInputSecurityGroup) WhitelistRulesInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_input_security_group awscc_medialive_input_security_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/medialive_input_security_group awscc_medialive_input_security_group} Resource.
 func NewMedialiveInputSecurityGroup(scope constructs.Construct, id *string, config *MedialiveInputSecurityGroupConfig) MedialiveInputSecurityGroup {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewMedialiveInputSecurityGroup(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_input_security_group awscc_medialive_input_security_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/medialive_input_security_group awscc_medialive_input_security_group} Resource.
 func NewMedialiveInputSecurityGroup_Override(m MedialiveInputSecurityGroup, scope constructs.Construct, id *string, config *MedialiveInputSecurityGroupConfig) {
 	_init_.Initialize()
 

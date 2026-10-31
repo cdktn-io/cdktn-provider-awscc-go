@@ -12,12 +12,13 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/xray_transaction_search_config awscc_xray_transaction_search_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/xray_transaction_search_config awscc_xray_transaction_search_config}.
 type DataAwsccXrayTransactionSearchConfig interface {
 	cdktn.TerraformDataSource
 	AccountId() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
+	CloudwatchLogsConfiguration() DataAwsccXrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -142,6 +143,16 @@ func (j *jsiiProxy_DataAwsccXrayTransactionSearchConfig) CdktfStack() cdktn.Terr
 	_jsii_.Get(
 		j,
 		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsccXrayTransactionSearchConfig) CloudwatchLogsConfiguration() DataAwsccXrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference {
+	var returns DataAwsccXrayTransactionSearchConfigCloudwatchLogsConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"cloudwatchLogsConfiguration",
 		&returns,
 	)
 	return returns
@@ -308,7 +319,7 @@ func (j *jsiiProxy_DataAwsccXrayTransactionSearchConfig) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/xray_transaction_search_config awscc_xray_transaction_search_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/xray_transaction_search_config awscc_xray_transaction_search_config} Data Source.
 func NewDataAwsccXrayTransactionSearchConfig(scope constructs.Construct, id *string, config *DataAwsccXrayTransactionSearchConfigConfig) DataAwsccXrayTransactionSearchConfig {
 	_init_.Initialize()
 
@@ -326,7 +337,7 @@ func NewDataAwsccXrayTransactionSearchConfig(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/xray_transaction_search_config awscc_xray_transaction_search_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/xray_transaction_search_config awscc_xray_transaction_search_config} Data Source.
 func NewDataAwsccXrayTransactionSearchConfig_Override(d DataAwsccXrayTransactionSearchConfig, scope constructs.Construct, id *string, config *DataAwsccXrayTransactionSearchConfigConfig) {
 	_init_.Initialize()
 

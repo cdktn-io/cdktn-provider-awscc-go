@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_field_level_encryption_config awscc_cloudfront_field_level_encryption_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudfront_field_level_encryption_config awscc_cloudfront_field_level_encryption_config}.
 type CloudfrontFieldLevelEncryptionConfig interface {
 	cdktn.TerraformResource
 	Arn() *string
@@ -481,7 +481,7 @@ func (j *jsiiProxy_CloudfrontFieldLevelEncryptionConfig) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_field_level_encryption_config awscc_cloudfront_field_level_encryption_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudfront_field_level_encryption_config awscc_cloudfront_field_level_encryption_config} Resource.
 func NewCloudfrontFieldLevelEncryptionConfig(scope constructs.Construct, id *string, config *CloudfrontFieldLevelEncryptionConfigConfig) CloudfrontFieldLevelEncryptionConfig {
 	_init_.Initialize()
 
@@ -499,7 +499,7 @@ func NewCloudfrontFieldLevelEncryptionConfig(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/cloudfront_field_level_encryption_config awscc_cloudfront_field_level_encryption_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/cloudfront_field_level_encryption_config awscc_cloudfront_field_level_encryption_config} Resource.
 func NewCloudfrontFieldLevelEncryptionConfig_Override(c CloudfrontFieldLevelEncryptionConfig, scope constructs.Construct, id *string, config *CloudfrontFieldLevelEncryptionConfigConfig) {
 	_init_.Initialize()
 

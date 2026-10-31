@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_internet_registry_association awscc_ec2_ipam_internet_registry_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ec2_ipam_internet_registry_association awscc_ec2_ipam_internet_registry_association}.
 type DataAwsccEc2IpamInternetRegistryAssociation interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccEc2IpamInternetRegistryAssociation) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_internet_registry_association awscc_ec2_ipam_internet_registry_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ec2_ipam_internet_registry_association awscc_ec2_ipam_internet_registry_association} Data Source.
 func NewDataAwsccEc2IpamInternetRegistryAssociation(scope constructs.Construct, id *string, config *DataAwsccEc2IpamInternetRegistryAssociationConfig) DataAwsccEc2IpamInternetRegistryAssociation {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccEc2IpamInternetRegistryAssociation(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_internet_registry_association awscc_ec2_ipam_internet_registry_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ec2_ipam_internet_registry_association awscc_ec2_ipam_internet_registry_association} Data Source.
 func NewDataAwsccEc2IpamInternetRegistryAssociation_Override(d DataAwsccEc2IpamInternetRegistryAssociation, scope constructs.Construct, id *string, config *DataAwsccEc2IpamInternetRegistryAssociationConfig) {
 	_init_.Initialize()
 

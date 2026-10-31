@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint awscc_licensemanagerusersubscriptions_license_server_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint awscc_licensemanagerusersubscriptions_license_server_endpoint}.
 type LicensemanagerusersubscriptionsLicenseServerEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -503,7 +503,7 @@ func (j *jsiiProxy_LicensemanagerusersubscriptionsLicenseServerEndpoint) Terrafo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint awscc_licensemanagerusersubscriptions_license_server_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint awscc_licensemanagerusersubscriptions_license_server_endpoint} Resource.
 func NewLicensemanagerusersubscriptionsLicenseServerEndpoint(scope constructs.Construct, id *string, config *LicensemanagerusersubscriptionsLicenseServerEndpointConfig) LicensemanagerusersubscriptionsLicenseServerEndpoint {
 	_init_.Initialize()
 
@@ -521,7 +521,7 @@ func NewLicensemanagerusersubscriptionsLicenseServerEndpoint(scope constructs.Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint awscc_licensemanagerusersubscriptions_license_server_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/licensemanagerusersubscriptions_license_server_endpoint awscc_licensemanagerusersubscriptions_license_server_endpoint} Resource.
 func NewLicensemanagerusersubscriptionsLicenseServerEndpoint_Override(l LicensemanagerusersubscriptionsLicenseServerEndpoint, scope constructs.Construct, id *string, config *LicensemanagerusersubscriptionsLicenseServerEndpointConfig) {
 	_init_.Initialize()
 

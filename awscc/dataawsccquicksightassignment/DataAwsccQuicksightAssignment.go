@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_assignment awscc_quicksight_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/quicksight_assignment awscc_quicksight_assignment}.
 type DataAwsccQuicksightAssignment interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DataAwsccQuicksightAssignment) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_assignment awscc_quicksight_assignment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/quicksight_assignment awscc_quicksight_assignment} Data Source.
 func NewDataAwsccQuicksightAssignment(scope constructs.Construct, id *string, config *DataAwsccQuicksightAssignmentConfig) DataAwsccQuicksightAssignment {
 	_init_.Initialize()
 
@@ -381,7 +381,7 @@ func NewDataAwsccQuicksightAssignment(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/quicksight_assignment awscc_quicksight_assignment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/quicksight_assignment awscc_quicksight_assignment} Data Source.
 func NewDataAwsccQuicksightAssignment_Override(d DataAwsccQuicksightAssignment, scope constructs.Construct, id *string, config *DataAwsccQuicksightAssignmentConfig) {
 	_init_.Initialize()
 

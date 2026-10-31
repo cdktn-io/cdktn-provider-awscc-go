@@ -152,6 +152,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSecurityGroupIds", GoMethod: "ResetSecurityGroupIds"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSubnetIds", GoMethod: "ResetSubnetIds"},
+			_jsii_.MemberMethod{JsiiMethod: "resetVpcOwnerAccountId", GoMethod: "ResetVpcOwnerAccountId"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "securityGroupIds", GoGetter: "SecurityGroupIds"},
 			_jsii_.MemberProperty{JsiiProperty: "securityGroupIdsInput", GoGetter: "SecurityGroupIdsInput"},
@@ -160,6 +161,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "vpcOwnerAccountId", GoGetter: "VpcOwnerAccountId"},
+			_jsii_.MemberProperty{JsiiProperty: "vpcOwnerAccountIdInput", GoGetter: "VpcOwnerAccountIdInput"},
 		},
 		func() interface{} {
 			j := jsiiProxy_OmicsConfigurationRunConfigurationsVpcConfigOutputReference{}

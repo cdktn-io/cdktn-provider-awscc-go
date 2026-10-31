@@ -7,7 +7,7 @@ package medialiveinputsecuritygroup
 type MedialiveInputSecurityGroupWhitelistRules struct {
 	// The IPv4 CIDR that's whitelisted.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/medialive_input_security_group#cidr MedialiveInputSecurityGroup#cidr}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/medialive_input_security_group#cidr MedialiveInputSecurityGroup#cidr}
 	Cidr *string `field:"optional" json:"cidr" yaml:"cidr"`
 }
 

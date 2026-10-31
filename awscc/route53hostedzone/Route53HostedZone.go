@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_hosted_zone awscc_route53_hosted_zone}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53_hosted_zone awscc_route53_hosted_zone}.
 type Route53HostedZone interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -545,7 +545,7 @@ func (j *jsiiProxy_Route53HostedZone) VpCsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_hosted_zone awscc_route53_hosted_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53_hosted_zone awscc_route53_hosted_zone} Resource.
 func NewRoute53HostedZone(scope constructs.Construct, id *string, config *Route53HostedZoneConfig) Route53HostedZone {
 	_init_.Initialize()
 
@@ -563,7 +563,7 @@ func NewRoute53HostedZone(scope constructs.Construct, id *string, config *Route5
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/route53_hosted_zone awscc_route53_hosted_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/route53_hosted_zone awscc_route53_hosted_zone} Resource.
 func NewRoute53HostedZone_Override(r Route53HostedZone, scope constructs.Construct, id *string, config *Route53HostedZoneConfig) {
 	_init_.Initialize()
 

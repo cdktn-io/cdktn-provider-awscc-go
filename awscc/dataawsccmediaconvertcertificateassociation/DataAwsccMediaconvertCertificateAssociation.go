@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconvert_certificate_association awscc_mediaconvert_certificate_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/mediaconvert_certificate_association awscc_mediaconvert_certificate_association}.
 type DataAwsccMediaconvertCertificateAssociation interface {
 	cdktn.TerraformDataSource
 	Arn() *string
@@ -297,7 +297,7 @@ func (j *jsiiProxy_DataAwsccMediaconvertCertificateAssociation) TerraformResourc
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconvert_certificate_association awscc_mediaconvert_certificate_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/mediaconvert_certificate_association awscc_mediaconvert_certificate_association} Data Source.
 func NewDataAwsccMediaconvertCertificateAssociation(scope constructs.Construct, id *string, config *DataAwsccMediaconvertCertificateAssociationConfig) DataAwsccMediaconvertCertificateAssociation {
 	_init_.Initialize()
 
@@ -315,7 +315,7 @@ func NewDataAwsccMediaconvertCertificateAssociation(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/mediaconvert_certificate_association awscc_mediaconvert_certificate_association} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/mediaconvert_certificate_association awscc_mediaconvert_certificate_association} Data Source.
 func NewDataAwsccMediaconvertCertificateAssociation_Override(d DataAwsccMediaconvertCertificateAssociation, scope constructs.Construct, id *string, config *DataAwsccMediaconvertCertificateAssociationConfig) {
 	_init_.Initialize()
 

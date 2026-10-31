@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_internet_registry_association awscc_ec2_ipam_internet_registry_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association awscc_ec2_ipam_internet_registry_association}.
 type Ec2IpamInternetRegistryAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -538,7 +538,7 @@ func (j *jsiiProxy_Ec2IpamInternetRegistryAssociation) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_internet_registry_association awscc_ec2_ipam_internet_registry_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association awscc_ec2_ipam_internet_registry_association} Resource.
 func NewEc2IpamInternetRegistryAssociation(scope constructs.Construct, id *string, config *Ec2IpamInternetRegistryAssociationConfig) Ec2IpamInternetRegistryAssociation {
 	_init_.Initialize()
 
@@ -556,7 +556,7 @@ func NewEc2IpamInternetRegistryAssociation(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/ec2_ipam_internet_registry_association awscc_ec2_ipam_internet_registry_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/resources/ec2_ipam_internet_registry_association awscc_ec2_ipam_internet_registry_association} Resource.
 func NewEc2IpamInternetRegistryAssociation_Override(e Ec2IpamInternetRegistryAssociation, scope constructs.Construct, id *string, config *Ec2IpamInternetRegistryAssociationConfig) {
 	_init_.Initialize()
 

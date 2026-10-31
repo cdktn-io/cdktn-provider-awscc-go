@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_input_security_groups awscc_medialive_input_security_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/medialive_input_security_groups awscc_medialive_input_security_groups}.
 type DataAwsccMedialiveInputSecurityGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccMedialiveInputSecurityGroups) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_input_security_groups awscc_medialive_input_security_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/medialive_input_security_groups awscc_medialive_input_security_groups} Data Source.
 func NewDataAwsccMedialiveInputSecurityGroups(scope constructs.Construct, id *string, config *DataAwsccMedialiveInputSecurityGroupsConfig) DataAwsccMedialiveInputSecurityGroups {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccMedialiveInputSecurityGroups(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/medialive_input_security_groups awscc_medialive_input_security_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/medialive_input_security_groups awscc_medialive_input_security_groups} Data Source.
 func NewDataAwsccMedialiveInputSecurityGroups_Override(d DataAwsccMedialiveInputSecurityGroups, scope constructs.Construct, id *string, config *DataAwsccMedialiveInputSecurityGroupsConfig) {
 	_init_.Initialize()
 

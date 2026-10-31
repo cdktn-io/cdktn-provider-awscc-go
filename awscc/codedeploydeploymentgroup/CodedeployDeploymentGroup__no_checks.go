@@ -99,6 +99,10 @@ func (c *jsiiProxy_CodedeployDeploymentGroup) validatePutDeploymentStyleParamete
 	return nil
 }
 
+func (c *jsiiProxy_CodedeployDeploymentGroup) validatePutEc2DeploymentOptionsParameters(value *CodedeployDeploymentGroupEc2DeploymentOptions) error {
+	return nil
+}
+
 func (c *jsiiProxy_CodedeployDeploymentGroup) validatePutEc2TagFiltersParameters(value interface{}) error {
 	return nil
 }

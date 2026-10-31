@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_integration awscc_cloudwatch_integration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cloudwatch_integration awscc_cloudwatch_integration}.
 type DataAwsccCloudwatchIntegration interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -407,7 +407,7 @@ func (j *jsiiProxy_DataAwsccCloudwatchIntegration) UpdatedAt() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_integration awscc_cloudwatch_integration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cloudwatch_integration awscc_cloudwatch_integration} Data Source.
 func NewDataAwsccCloudwatchIntegration(scope constructs.Construct, id *string, config *DataAwsccCloudwatchIntegrationConfig) DataAwsccCloudwatchIntegration {
 	_init_.Initialize()
 
@@ -425,7 +425,7 @@ func NewDataAwsccCloudwatchIntegration(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/cloudwatch_integration awscc_cloudwatch_integration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/cloudwatch_integration awscc_cloudwatch_integration} Data Source.
 func NewDataAwsccCloudwatchIntegration_Override(d DataAwsccCloudwatchIntegration, scope constructs.Construct, id *string, config *DataAwsccCloudwatchIntegrationConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_stack awscc_appstream_stack}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/appstream_stack awscc_appstream_stack}.
 type DataAwsccAppstreamStack interface {
 	cdktn.TerraformDataSource
 	AccessEndpoints() DataAwsccAppstreamStackAccessEndpointsList
@@ -62,6 +62,7 @@ type DataAwsccAppstreamStack interface {
 	// Experimental.
 	RawOverrides() interface{}
 	RedirectUrl() *string
+	StorageConnectorAuthentication() *string
 	StorageConnectors() DataAwsccAppstreamStackStorageConnectorsList
 	StreamingExperienceSettings() DataAwsccAppstreamStackStreamingExperienceSettingsOutputReference
 	Tags() DataAwsccAppstreamStackTagsList
@@ -391,6 +392,16 @@ func (j *jsiiProxy_DataAwsccAppstreamStack) RedirectUrl() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataAwsccAppstreamStack) StorageConnectorAuthentication() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageConnectorAuthentication",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAwsccAppstreamStack) StorageConnectors() DataAwsccAppstreamStackStorageConnectorsList {
 	var returns DataAwsccAppstreamStackStorageConnectorsList
 	_jsii_.Get(
@@ -462,7 +473,7 @@ func (j *jsiiProxy_DataAwsccAppstreamStack) UserSettings() DataAwsccAppstreamSta
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_stack awscc_appstream_stack} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/appstream_stack awscc_appstream_stack} Data Source.
 func NewDataAwsccAppstreamStack(scope constructs.Construct, id *string, config *DataAwsccAppstreamStackConfig) DataAwsccAppstreamStack {
 	_init_.Initialize()
 
@@ -480,7 +491,7 @@ func NewDataAwsccAppstreamStack(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/appstream_stack awscc_appstream_stack} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/appstream_stack awscc_appstream_stack} Data Source.
 func NewDataAwsccAppstreamStack_Override(d DataAwsccAppstreamStack, scope constructs.Construct, id *string, config *DataAwsccAppstreamStackConfig) {
 	_init_.Initialize()
 

@@ -46,6 +46,9 @@ type OmicsConfigurationRunConfigurationsVpcConfigOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	VpcOwnerAccountId() *string
+	SetVpcOwnerAccountId(val *string)
+	VpcOwnerAccountIdInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -72,6 +75,7 @@ type OmicsConfigurationRunConfigurationsVpcConfigOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetSecurityGroupIds()
 	ResetSubnetIds()
+	ResetVpcOwnerAccountId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -197,6 +201,26 @@ func (j *jsiiProxy_OmicsConfigurationRunConfigurationsVpcConfigOutputReference) 
 	return returns
 }
 
+func (j *jsiiProxy_OmicsConfigurationRunConfigurationsVpcConfigOutputReference) VpcOwnerAccountId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"vpcOwnerAccountId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OmicsConfigurationRunConfigurationsVpcConfigOutputReference) VpcOwnerAccountIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"vpcOwnerAccountIdInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewOmicsConfigurationRunConfigurationsVpcConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) OmicsConfigurationRunConfigurationsVpcConfigOutputReference {
 	_init_.Initialize()
@@ -298,6 +322,17 @@ func (j *jsiiProxy_OmicsConfigurationRunConfigurationsVpcConfigOutputReference)S
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OmicsConfigurationRunConfigurationsVpcConfigOutputReference)SetVpcOwnerAccountId(val *string) {
+	if err := j.validateSetVpcOwnerAccountIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"vpcOwnerAccountId",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (o *jsiiProxy_OmicsConfigurationRunConfigurationsVpcConfigOutputReference) 
 	_jsii_.InvokeVoid(
 		o,
 		"resetSubnetIds",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OmicsConfigurationRunConfigurationsVpcConfigOutputReference) ResetVpcOwnerAccountId() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetVpcOwnerAccountId",
 		nil, // no parameters
 	)
 }

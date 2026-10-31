@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_internet_registry_associations awscc_ec2_ipam_internet_registry_associations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ec2_ipam_internet_registry_associations awscc_ec2_ipam_internet_registry_associations}.
 type DataAwsccEc2IpamInternetRegistryAssociations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -285,7 +285,7 @@ func (j *jsiiProxy_DataAwsccEc2IpamInternetRegistryAssociations) TerraformResour
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_internet_registry_associations awscc_ec2_ipam_internet_registry_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ec2_ipam_internet_registry_associations awscc_ec2_ipam_internet_registry_associations} Data Source.
 func NewDataAwsccEc2IpamInternetRegistryAssociations(scope constructs.Construct, id *string, config *DataAwsccEc2IpamInternetRegistryAssociationsConfig) DataAwsccEc2IpamInternetRegistryAssociations {
 	_init_.Initialize()
 
@@ -303,7 +303,7 @@ func NewDataAwsccEc2IpamInternetRegistryAssociations(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/ec2_ipam_internet_registry_associations awscc_ec2_ipam_internet_registry_associations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.108.0/docs/data-sources/ec2_ipam_internet_registry_associations awscc_ec2_ipam_internet_registry_associations} Data Source.
 func NewDataAwsccEc2IpamInternetRegistryAssociations_Override(d DataAwsccEc2IpamInternetRegistryAssociations, scope constructs.Construct, id *string, config *DataAwsccEc2IpamInternetRegistryAssociationsConfig) {
 	_init_.Initialize()
 
